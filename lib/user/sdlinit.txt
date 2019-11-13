@@ -1,0 +1,78 @@
+Resolution = 1920x1009
+Fullscreen = 1
+NiceGraphics = 0
+Graphics = 1
+TileWidth = 3
+TileHeight = 2
+
+Window = 0
+Visible = 1
+Left = 0
+Top = 172
+Width = 1492
+Height = 903
+Keys = 1024
+Font = 16x24tx.fon
+
+Window = 1
+Visible = 1
+Left = 0
+Top = 13
+Width = 1268
+Height = 159
+Keys = 32
+Font = 16x24tx.fon
+
+Window = 2
+Visible = 1
+Left = 1490
+Top = 172
+Width = 430
+Height = 225
+Keys = 32
+Font = 6x10x.fon
+
+Window = 3
+Visible = 1
+Left = 1492
+Top = 397
+Width = 424
+Height = 215
+Keys = 32
+Font = 6x10x.fon
+
+Window = 4
+Visible = 1
+Left = 1600
+Top = 13
+Width = 316
+Height = 159
+Keys = 32
+Font = 8x12x.fon
+
+Window = 5
+Visible = 1
+Left = 1268
+Top = 13
+Width = 332
+Height = 159
+Keys = 32
+Font = 8x12x.fon
+
+Window = 6
+Visible = 1
+Left = 1492
+Top = 612
+Width = 424
+Height = 255
+Keys = 32
+Font = 6x10x.fon
+
+Window = 7
+Visible = 1
+Left = 1492
+Top = 867
+Width = 404
+Height = 207
+Keys = 32
+Font = 5x8x.fon
