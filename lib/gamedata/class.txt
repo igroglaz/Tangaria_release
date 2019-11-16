@@ -10,7 +10,6 @@
 
 # name:class name
 # color:color
-# stats:str:int:wis:dex:con
 # skill-disarm-phys:base:increment
 # skill-disarm-magic:base:increment
 # skill-device:base:increment
@@ -51,9 +50,6 @@
 
 # 'color' is for color. MAngband-specific. See 'terrain.txt' for colors.
 
-# 'stats' is for the stat modifiers - strength, intelligence, wisdom,
-# dexterity, constitution.
-
 # 'skill-<skill name>' is for skills - physical and magical disarming,
 # magic devices, saving throws, stealth, to hit (normal), to hit (bows),
 # digging bonus. The base entry is what gets added to the character's skills
@@ -71,7 +67,7 @@
 # 'equip' is for starting equipment - tval of the item, sval of the item,
 # minimum amount, maximum amount, flag for no_recall characters.
 
-# 'obj-flag' is for object flags (as in src/list-obj-flags.h) that
+# 'obj-flag' is for object flags (as in list-object-flags.h) that
 # classes possess innately at a certain level.
 
 # 'value' is for object modifiers which take a value that classes possess
@@ -129,7 +125,7 @@
 # reference to the previous 'spell:' line.
 # PWMAngband: the sproj tells if the spell is projectable on others
 
-# 'effect' defines the spell effect (as listed in src/list-effects.h), along
+# 'effect' defines the spell effect (as listed in list-effects.h), along
 # with up to three effect parameters if needed
 
 # 'effect-yx' is y and x values for an effect if necessary
@@ -158,8 +154,6 @@
 ############### WARRIOR ###############
 name:Warrior
 color:u
-stats:3:-2:-2:2:2
-#skill-disarm:25:10
 skill-disarm-phys:42:10
 skill-disarm-magic:28:8
 skill-device:18:7
@@ -184,6 +178,11 @@ equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 obj-flag:30:PROT_FEAR
+value:1:STR[3]
+value:1:INT[-2]
+value:1:WIS[-2]
+value:1:DEX[2]
+value:1:CON[2]
 player-flags:NO_MANA | SHIELD_BASH
 title:Rookie
 title:Soldier
@@ -200,8 +199,6 @@ title:Lord
 ############### MAGE ###############
 name:Mage
 color:r
-stats:-3:3:0:0:-2
-#skill-disarm:30:7
 skill-disarm-phys:35:9
 skill-disarm-magic:43:11
 skill-device:36:13
@@ -223,6 +220,9 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-3]
+value:1:INT[3]
+value:1:CON[-2]
 player-flags:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
@@ -496,7 +496,6 @@ desc: damage to each monster in its area of effect.
 ############### DRUID ###############
 name:Druid
 color:o
-stats:-2:0:3:-2:0
 skill-disarm-phys:30:10
 skill-disarm-magic:30:10
 skill-device:24:10
@@ -514,6 +513,9 @@ equip:food:Ration of Food:1:3:1
 equip:light:Wooden Torch:1:3:1
 equip:hafted:Whip:1:1:1
 equip:scroll:Word of Recall:1:1:0
+value:1:STR[-2]
+value:1:WIS[3]
+value:1:DEX[-2]
 player-flags:ZERO_FAIL | CHOOSE_SPELLS | CHARM | SHAPECHANGE
 title:Wanderer
 title:Tamer
@@ -763,8 +765,6 @@ desc:Spews plasma in a long narrow cone from the player.
 ############### PRIEST ###############
 name:Priest
 color:g
-stats:-1:-3:3:-1:1
-#skill-disarm:25:7
 skill-disarm-phys:34:8
 skill-disarm-magic:27:7
 skill-device:30:10
@@ -787,6 +787,11 @@ equip:potion:Cure Serious Wounds:2:3:1
 equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
+value:1:STR[-1]
+value:1:INT[-3]
+value:1:WIS[3]
+value:1:DEX[-1]
+value:1:CON[1]
 player-flags:BLESS_WEAPON | ZERO_FAIL
 title:Believer
 title:Acolyte
@@ -1071,8 +1076,6 @@ desc: Can be used every 200 turns.
 ############### NECROMANCER ###############
 name:Necromancer
 color:D
-stats:-3:3:0:0:-2
-#skill-disarm:30:7
 skill-disarm-phys:30:10
 skill-disarm-magic:35:12
 skill-device:36:13
@@ -1090,6 +1093,9 @@ equip:food:Ration of Food:1:3:1
 equip:light:Wooden Torch:1:3:1
 equip:sword:Main Gauche:1:1:1
 equip:scroll:Word of Recall:1:1:0
+value:1:STR[-3]
+value:1:INT[3]
+value:1:CON[-2]
 value:1:RES_DARK[1]
 player-flags:ZERO_FAIL | CHOOSE_SPELLS | UNLIGHT | SHAPECHANGE | UNDEAD_POWERS
 title:Acolyte
@@ -1383,8 +1389,6 @@ desc: within its duration.
 ############### PALADIN ###############
 name:Paladin
 color:G
-stats:1:-3:1:-1:2
-#skill-disarm:20:7
 skill-disarm-phys:34:8
 skill-disarm-magic:27:7
 skill-device:24:10
@@ -1408,6 +1412,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[1]
+value:1:INT[-3]
+value:1:WIS[1]
+value:1:DEX[-1]
+value:1:CON[2]
 player-flags:BLESS_WEAPON | SHIELD_BASH
 title:Gallant
 title:Keeper
@@ -1605,8 +1614,6 @@ desc:Teleports away each evil monster within line of sight.
 ############### ROGUE ###############
 name:Rogue
 color:z
-stats:0:1:-3:3:-1
-#skill-disarm:45:15
 skill-disarm-phys:43:11
 skill-disarm-magic:36:10
 skill-device:32:10
@@ -1630,6 +1637,10 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:INT[1]
+value:1:WIS[-3]
+value:1:DEX[3]
+value:1:CON[-1]
 player-flags:CHOOSE_SPELLS | STEAL
 player-flags:BACK_STAB | STEALING_IMPROV | SPEED_BONUS | STEALTH_MODE
 title:Vagabond
@@ -1818,8 +1829,6 @@ desc: This spell has no effect when used in the town.
 ############### RANGER ###############
 name:Ranger
 color:y
-stats:0:0:2:1:-1
-#skill-disarm:30:8
 skill-disarm-phys:36:10
 skill-disarm-magic:42:10
 skill-device:32:10
@@ -1844,6 +1853,9 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:WIS[2]
+value:1:DEX[1]
+value:1:CON[-1]
 player-flags:FAST_SHOT | CHOOSE_SPELLS
 title:Runner
 title:Strider
@@ -1997,7 +2009,6 @@ desc: the next 5+1d3 turns.
 ############### BLACKGUARD ###############
 name:Blackguard
 color:s
-stats:2:0:-3:0:2
 skill-disarm-phys:20:15
 skill-disarm-magic:20:10
 skill-device:24:10
@@ -2021,6 +2032,9 @@ equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 obj-flag:1:IMPAIR_HP
+value:1:STR[2]
+value:1:WIS[-3]
+value:1:CON[2]
 player-flags:CHOOSE_SPELLS | SHIELD_BASH
 title:Rat
 title:Bully
@@ -2200,8 +2214,6 @@ desc: for 10+1d10 turns, but also teleports you around.
 ############### SORCEROR ###############
 name:Sorceror
 color:R
-stats:-5:5:0:0:-3
-#skill-disarm:35:8
 skill-disarm-phys:35:9
 skill-disarm-magic:50:12
 skill-device:40:15
@@ -2224,7 +2236,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
-player-flags:ZERO_FAIL | BEAM | CHOOSE_SPELLS | EXTRA_MANA
+value:1:STR[-5]
+value:1:INT[5]
+value:1:CON[-3]
+value:1:MANA[5]
+player-flags:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
 title:Trickster
@@ -2551,8 +2567,6 @@ desc:Shoots a radius-3 chaos ball in all eight cardinal directions.
 ############### UNBELIEVER ###############
 name:Unbeliever
 color:m
-stats:3:-4:-3:2:2
-#skill-disarm:25:10
 skill-disarm-phys:42:10
 skill-disarm-magic:21:7
 skill-device:0:0
@@ -2576,6 +2590,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:potion:Cure Light Wounds:2:3:0
 equip:scroll:Phase Door:3:4:0
+value:1:STR[3]
+value:1:INT[-4]
+value:1:WIS[-3]
+value:1:DEX[2]
+value:1:CON[2]
 player-flags:NO_MANA | ANTIMAGIC
 title:Asker
 title:Thinker
@@ -2592,8 +2611,6 @@ title:Magicbane
 ############### HUNTER ###############
 name:Hunter
 color:Y
-stats:-2:-2:2:2:0
-#skill-disarm:30:8
 skill-disarm-phys:42:10
 skill-disarm-magic:28:8
 skill-device:32:10
@@ -2618,6 +2635,10 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-2]
+value:1:INT[-2]
+value:1:WIS[2]
+value:1:DEX[2]
 player-flags:CHOOSE_SPELLS | FAST_SHOTS
 title:Rock Thrower
 title:Slinger
@@ -2748,8 +2769,6 @@ desc:Turns your missiles into explosive sonic shots.
 ############### MONK ###############
 name:Monk
 color:U
-stats:1:-2:0:2:1
-#skill-disarm:45:15
 skill-disarm-phys:42:10
 skill-disarm-magic:28:8
 skill-device:32:11
@@ -2769,6 +2788,10 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[1]
+value:1:INT[-2]
+value:1:DEX[2]
+value:1:CON[1]
 player-flags:NO_MANA | MARTIAL_ARTS
 title:Initiate
 title:Brother
@@ -2785,8 +2808,6 @@ title:Grand Master
 ############### TELEPATH ###############
 name:Telepath
 color:b
-stats:-1:-2:3:-1:0
-#skill-disarm:30:7
 skill-disarm-phys:34:8
 skill-disarm-magic:28:8
 skill-device:30:13
@@ -2809,6 +2830,10 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-1]
+value:1:INT[-2]
+value:1:WIS[3]
+value:1:DEX[-1]
 player-flags:BEAM | CHOOSE_SPELLS
 title:Novice
 title:Talent
@@ -3134,8 +3159,6 @@ desc: activated.
 ############### ELEMENTALIST ###############
 name:Elementalist
 color:x
-stats:-4:4:0:0:-2
-#skill-disarm:30:7
 skill-disarm-phys:35:9
 skill-disarm-magic:49:11
 skill-device:36:13
@@ -3158,11 +3181,15 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-4]
+value:1:INT[4]
+value:1:CON[-2]
+value:1:MANA[3]
 value:10:RES_FIRE[1]
 value:15:RES_COLD[1]
 value:20:RES_ACID[1]
 value:25:RES_ELEC[1]
-player-flags:ZERO_FAIL | BEAM | CHOOSE_SPELLS | ELEMENTAL_SPELLS | EXTRA_MANA
+player-flags:ZERO_FAIL | BEAM | CHOOSE_SPELLS | ELEMENTAL_SPELLS
 title:Novice
 title:Apprentice
 title:Trickster
@@ -3619,8 +3646,6 @@ desc: the eight directions starting from your character.
 ############### SUMMONER ###############
 name:Summoner
 color:t
-stats:-5:-5:5:-5:-5
-#skill-disarm:30:7
 skill-disarm-phys:20:6
 skill-disarm-magic:20:6
 skill-device:36:13
@@ -3644,6 +3669,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-5]
+value:1:INT[-5]
+value:1:WIS[5]
+value:1:DEX[-5]
+value:1:CON[-5]
 player-flags:BLESS_WEAPON | ZERO_FAIL | CHOOSE_SPELLS | SUMMON_SPELLS
 title:Novice
 title:Apprentice
@@ -3852,8 +3882,6 @@ desc:Prevents summoning around you for a level-dependent duration.
 ############### SHAPECHANGER ###############
 name:Shapechanger
 color:M
-stats:1:-1:-1:1:1
-#skill-disarm:25:9
 skill-disarm-phys:36:10
 skill-disarm-magic:34:8
 skill-device:35:10
@@ -3877,6 +3905,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:potion:Cure Light Wounds:2:3:0
 equip:scroll:Phase Door:3:4:0
+value:1:STR[1]
+value:1:INT[-1]
+value:1:WIS[-1]
+value:1:DEX[1]
+value:1:CON[1]
 player-flags:MONSTER_SPELLS | SHAPECHANGE
 title:Pretender
 title:Modifier
@@ -4420,7 +4453,6 @@ desc: This spell has no effect when used in the town (#%d).
 ############### Archer ###############
 name:Archer
 color:Z
-stats:-1:-2:-1:3:1
 skill-disarm-phys:42:10
 skill-disarm-magic:28:8
 skill-device:32:9
@@ -4444,6 +4476,11 @@ equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Satisfy Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
+value:1:STR[-1]
+value:1:INT[-2]
+value:1:WIS[-1]
+value:1:DEX[3]
+value:1:CON[1]
 player-flags:FAST_SHOTS
 title:Copper Arrow
 title:Tin Arrow

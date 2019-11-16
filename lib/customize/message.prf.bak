@@ -5,6 +5,8 @@
 #
 # This file includes, if appropriate, various "sub-files".
 #
+# See "lib/help/command.txt" for more information.
+#
 # Format:
 # message:<message-type>:<color>
 

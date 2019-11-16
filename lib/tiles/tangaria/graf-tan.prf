@@ -6,8 +6,6 @@
 #
 # Info and licence of tileset: http://tangaria.com/gamedev/tileset/
 #
-# See "lib/help/command.txt" and "src/files.c" for more information.
-#
 #torch = when you walk with your light
 #los = when in los
 #lit = when permalit
