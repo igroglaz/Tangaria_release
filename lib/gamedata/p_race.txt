@@ -248,12 +248,12 @@ info:10:180
 history:1:50:20
 height:82:5:78:6
 weight:190:20:180:15
-obj-flag:1:SUST_CON
 value:1:STR[1]
 value:1:INT[2]
 value:1:WIS[2]
 value:1:DEX[2]
 value:1:CON[3]
+obj-flag:1:SUST_CON
 
 name:High-Elf
 skill-disarm-phys:4
@@ -406,45 +406,49 @@ player-flags:DRAGON
 name:Dark Renegade
 skill-disarm-phys:2
 skill-disarm-magic:3
-skill-device:4
-skill-save:5
+skill-device:7
+skill-save:7
 skill-stealth:0
-skill-search:2
+skill-search:1
 skill-melee:5
-skill-shoot:10
+skill-shoot:7
 skill-dig:0
-info:10:140
+info:10:150
 history:100:60:25
 height:83:4:77:4
 weight:195:15:185:10
-value:1:STR[2]
-value:1:INT[2]
+value:30:STR[1]
+value:35:INT[2]
 value:1:WIS[0]
 value:1:DEX[1]
-value:1:CON[2]
+value:10:CON[2]
 value:1:INFRA[1]
-obj-flag:1:HOLD_LIFE
-value:1:RES_DARK[1]
+obj-flag:30:HOLD_LIFE
+value:45:RES_DARK[1]
 
-#immortal men , ancient men
+# immortal men , ancient men
+# no state, very rare
+# ayaks (MIF), koen (pratchet)
+# dunkan
+# maya <- but human
 name:Highlander
-skill-disarm-phys:4
-skill-disarm-magic:4
-skill-device:3
-skill-save:3
-skill-stealth:1
-skill-search:3
-skill-melee:10
-skill-shoot:7
+skill-disarm-phys:2
+skill-disarm-magic:0
+skill-device:1
+skill-save:7
+skill-stealth:0
+skill-search:5
+skill-melee:2
+skill-shoot:0
 skill-dig:0
-info:10:190
+info:11:220
 history:100:11:4
 height:66:1:62:1
 weight:150:5:120:5
 value:1:STR[1]
-value:1:INT[2]
-value:1:WIS[2]
-value:1:DEX[2]
+value:1:INT[0]
+value:1:WIS[1]
+value:1:DEX[1]
 value:1:CON[3]
 obj-flag:1:HOLD_LIFE
 obj-flag:1:REGEN
@@ -464,11 +468,12 @@ info:10:135
 history:100:14:6
 height:72:6:66:4
 weight:180:25:150:20
+value:1:STR[-1]
 value:1:WIS[2]
+value:1:DEX[1]
 value:1:CON[-1]
 #maybe more infra?
-value:1:INFRA[5]
-obj-flag:1:REGEN
+value:1:INFRA[7]
 value:1:RES_WATER[1]
 
 name:Barbarian
