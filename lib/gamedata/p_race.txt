@@ -403,7 +403,7 @@ value:1:RES_NEXUS[1]
 player-flags:DRAGON
 
 #Black Numenorean
-name:Dark Renegade
+name:Darklander
 skill-disarm-phys:2
 skill-disarm-magic:3
 skill-device:7
@@ -413,45 +413,41 @@ skill-search:1
 skill-melee:5
 skill-shoot:7
 skill-dig:0
-info:10:150
+info:10:135
 history:100:60:25
 height:83:4:77:4
 weight:195:15:185:10
-value:30:STR[1]
-value:35:INT[2]
+value:1:STR[1]
+value:1:INT[2]
 value:1:WIS[0]
 value:1:DEX[1]
-value:10:CON[2]
+value:1:CON[2]
 value:1:INFRA[1]
 obj-flag:30:HOLD_LIFE
 value:45:RES_DARK[1]
 
-# immortal men , ancient men
-# no state, very rare
-# ayaks (MIF), koen (pratchet)
-# dunkan
-# maya <- but human
-name:Highlander
-skill-disarm-phys:2
-skill-disarm-magic:0
-skill-device:1
-skill-save:7
-skill-stealth:0
-skill-search:5
-skill-melee:2
-skill-shoot:0
+#immortal human
+name:Damned
+skill-disarm-phys:-5
+skill-disarm-magic:-5
+skill-device:-5
+skill-save:-5
+skill-stealth:-1
+skill-search:-5
+skill-melee:-5
+skill-shoot:-5
 skill-dig:0
-info:11:220
+info:9:140
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
-value:1:STR[1]
-value:1:INT[0]
-value:1:WIS[1]
-value:1:DEX[1]
-value:1:CON[3]
-obj-flag:1:HOLD_LIFE
-obj-flag:1:REGEN
+height:72:6:66:4
+weight:180:25:150:20
+value:1:STR[-1]
+value:1:INT[-1]
+value:1:WIS[-1]
+value:1:DEX[-1]
+value:1:CON[-1]
+obj-flag:25:HOLD_LIFE
+obj-flag:15:REGEN
 value:1:RES_TIME[1]
 
 name:Merfolk
@@ -464,16 +460,15 @@ skill-search:2
 skill-melee:2
 skill-shoot:4
 skill-dig:0
-info:10:135
+info:10:170
 history:100:14:6
-height:72:6:66:4
-weight:180:25:150:20
+height:70:6:64:4
+weight:175:25:145:20
 value:1:STR[-1]
 value:1:WIS[2]
 value:1:DEX[1]
 value:1:CON[-1]
-#maybe more infra?
-value:1:INFRA[7]
+value:1:INFRA[1+1d7]
 value:1:RES_WATER[1]
 
 name:Barbarian
@@ -486,18 +481,18 @@ skill-search:1
 skill-melee:12
 skill-shoot:6
 skill-dig:0
-info:11:135
+info:11:145
 history:100:14:6
-height:72:6:66:4
-weight:180:25:150:20
+height:78:8:74:6
+weight:185:25:160:20
 value:1:STR[3]
 value:1:INT[-3]
-value:1:WIS[-1]
+value:1:WIS[-2]
 value:1:DEX[1]
 value:1:CON[2]
 value:1:INFRA[1]
 obj-flag:1:PROT_FEAR
-value:1:RES_POIS[1]
+value:25:RES_POIS[1]
 
 name:Black Dwarf
 skill-disarm-phys:3
@@ -511,15 +506,15 @@ skill-shoot:10
 skill-dig:20
 info:10:150
 history:100:35:15
-height:48:3:46:3
-weight:150:10:120:10
+height:45:3:44:3
+weight:145:10:115:10
 value:1:STR[0]
 value:1:INT[1]
 value:1:WIS[0]
 value:1:DEX[1]
 value:1:CON[1]
 value:1:INFRA[1]
-value:1:RES_DISEN[1]
+value:25:RES_DISEN[1]
 player-flags:SEE_ORE
 
 name:Goblin
@@ -534,15 +529,15 @@ skill-shoot:-5
 skill-dig:5
 info:10:120
 history:100:15:10
-height:38:4:36:3
-weight:70:5:60:4
+height:42:4:38:3
+weight:74:5:62:4
 value:1:STR[0]
 value:1:INT[-1]
 value:1:WIS[-4]
 value:1:DEX[4]
 value:1:CON[2]
 value:1:INFRA[2]
-value:1:RES_DARK[1]
+value:10:RES_DARK[1]
 
 name:Half-Giant
 skill-disarm-phys:-6
@@ -551,7 +546,7 @@ skill-device:-5
 skill-save:-3
 skill-stealth:-2
 skill-search:-1
-skill-melee:25
+skill-melee:15
 skill-shoot:0
 skill-dig:0
 info:12:150
@@ -564,7 +559,10 @@ value:1:WIS[-2]
 value:1:DEX[-2]
 value:1:CON[3]
 obj-flag:1:SUST_STR
-value:1:RES_SHARD[1]
+value:15:RES_SHARD[1]
+value:1:SPEED[-1-1d35]
+brand:1:STUN_1
+brand:35:STUN_2
 
 #Swamp troll
 name:Ogre
@@ -579,14 +577,14 @@ skill-shoot:-5
 skill-dig:0
 info:11:140
 history:100:20:10
-height:96:10:84:8
-weight:250:50:225:40
+height:90:10:80:8
+weight:240:50:215:40
 value:1:STR[3]
 value:1:INT[0]
 value:1:WIS[-4]
 value:1:DEX[-1]
 value:1:CON[3]
-value:1:INFRA[5]
+value:1:INFRA[1+1d7]
 obj-flag:1:SUST_INT
 
 name:Troll
@@ -599,20 +597,21 @@ skill-search:-10
 skill-melee:25
 skill-shoot:-15
 skill-dig:1
-info:13:160
+info:13:150
 history:21:20:10
-height:96:10:84:8
-weight:250:50:225:40
+height:170:6:140:4
+weight:255:25:230:20
 value:1:STR[7]
 value:1:INT[-8]
 value:1:WIS[-4]
 value:1:DEX[-5]
 value:1:CON[4]
-value:1:INFRA[5]
+value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
+value:1:SPEED[-1-1d35]
 value:1:RES_POIS[1]
-value:1:RES_SHARD[1]
+value:35:RES_SHARD[1]
 player-flags:TROLL
 
 name:Orc
@@ -627,8 +626,8 @@ skill-shoot:5
 skill-dig:1
 info:10:125
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:65:5:61:3
+weight:145:5:115:5
 value:1:STR[2]
 value:1:INT[-1]
 value:1:WIS[-2]
@@ -636,7 +635,7 @@ value:1:DEX[1]
 value:1:CON[1]
 value:1:INFRA[5]
 value:1:RES_DARK[1]
-value:1:RES_POIS[1]
+value:35:RES_POIS[1]
 player-flags:ORC
 
 name:Forest Goblin
@@ -651,8 +650,8 @@ skill-shoot:5
 skill-dig:0
 info:9:150
 history:100:15:10
-height:38:4:36:3
-weight:70:5:60:4
+height:40:4:36:3
+weight:72:5:60:4
 value:1:STR[-4]
 value:1:INT[2]
 value:1:WIS[2]
@@ -673,8 +672,8 @@ skill-shoot:15
 skill-dig:0
 info:10:150
 history:100:75:75
-height:60:4:54:4
-weight:100:6:80:6
+height:60:6:57:6
+weight:127:10:95:7
 value:1:STR[0]
 value:1:INT[2]
 value:1:WIS[-2]
@@ -684,6 +683,9 @@ value:1:INFRA[8]
 obj-flag:1:SEE_INVIS
 value:1:RES_DARK[1]
 value:1:RES_LIGHT[-1]
+
+# value:5:SPEED[1+1d15]
+# speed bonus of 1 at levels 5, 20, 35 and 50.
 
 name:Werewolf
 skill-disarm-phys:0
@@ -723,8 +725,8 @@ skill-shoot:-5
 skill-dig:0
 info:11:180
 history:19:11:4
-height:100:1:62:1
-weight:150:5:120:5
+height:71:6:65:4
+weight:150:15:130:10
 value:1:STR[2]
 value:1:INT[-6]
 value:1:WIS[-6]
@@ -749,8 +751,8 @@ skill-shoot:-10
 skill-dig:0
 info:11:270
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:72:6:66:4
+weight:160:10:140:10
 value:1:STR[2]
 value:1:INT[2]
 value:1:WIS[-1]
@@ -767,7 +769,8 @@ value:35:RES_NETHER[1]
 value:45:RES_TIME[1]
 brand:1:VAMPIRIC
 
-name:Maya
+#Maya
+name:Enlightened
 skill-disarm-phys:2
 skill-disarm-magic:4
 skill-device:20
@@ -779,8 +782,8 @@ skill-shoot:5
 skill-dig:0
 info:11:370
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:72:6:68:4
+weight:175:25:140:20
 value:1:STR[2]
 value:1:INT[3]
 value:1:WIS[3]
@@ -812,8 +815,8 @@ skill-shoot:5
 skill-dig:0
 info:11:400
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:74:6:70:4
+weight:175:25:140:20
 value:1:STR[2]
 value:1:INT[3]
 value:1:WIS[3]
@@ -843,8 +846,8 @@ skill-shoot:7
 skill-dig:0
 info:11:350
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:85:6:78:4
+weight:170:15:140:10
 value:1:STR[2]
 value:1:INT[0]
 value:1:WIS[4]
@@ -870,8 +873,8 @@ skill-shoot:0
 skill-dig:0
 info:11:400
 history:100:11:4
-height:66:1:62:1
-weight:150:5:120:5
+height:150:10:140:7
+weight:220:15:200:10
 value:1:STR[4]
 value:1:INT[2]
 value:1:WIS[-10]
