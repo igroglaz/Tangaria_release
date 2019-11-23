@@ -560,7 +560,7 @@ value:1:DEX[-2]
 value:1:CON[3]
 obj-flag:1:SUST_STR
 value:15:RES_SHARD[1]
-value:1:SPEED[-1-1d35]
+value:1:SPEED[-1]
 brand:1:STUN_1
 brand:35:STUN_2
 
@@ -609,7 +609,7 @@ value:1:CON[4]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:SPEED[-1-1d35]
+value:1:SPEED[-1]
 value:1:RES_POIS[1]
 value:35:RES_SHARD[1]
 player-flags:TROLL
