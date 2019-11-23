@@ -154,3 +154,63 @@ help: special melee attacks instead (biting and clawing) that increase in power 
 help: they gain levels. Starting at level 5, Dragons are able to breathe their
 help: corresponding element, but using this ability costs them hit points. At that
 help: level, they also gain the innate resistances and abilities of their type.
+
+race:Darklander
+help:Darklander
+
+race:Damned
+help:Damned
+
+race:Merfolk
+help:Merfolk
+
+race:Barbarian
+help:Barbarian
+
+race:Black Dwarf
+help:Black Dwarf
+
+race:Goblin
+help:Goblin
+
+race:Half-Giant
+help:Half-Giant
+
+race:Ogre
+help:Ogre
+
+race:Troll
+help:Troll
+
+race:Orc
+help:Orc
+
+race:Forest Goblin
+help:Forest Goblin
+
+race:Dark Elf
+help:Dark Elf
+
+race:Werewolf
+help:Werewolf
+
+race:Undead
+help:Undead
+
+race:Vampire
+help:Vampire
+
+race:Enlightened
+help:Enlightened
+
+race:Cambion
+help:Cambion
+
+race:Celestial
+help:Celestial
+
+race:Balrog
+help:Balrog
+
+race:Nephalem
+help:Nephalem

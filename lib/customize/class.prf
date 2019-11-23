@@ -122,11 +122,11 @@ help: Because they are so unattuned to magic, Unbelievers can prevent magical ga
 help: from opening around them, eventually extending to a complete suppression of
 help: teleportation abilities and all magic in the area around them.
 
-class:Archer
-help:Archers aren't good at fighting, but can deliever extremely high damage with
-help: their ranged weapons. They can die quickly too, however. Archers are to bows
+class:Hunter
+help:Hunters aren't good at fighting, but can deliever extremely high damage with
+help: their ranged weapons. They can die quickly too, however. Hunters are to bows
 help: what warriors are to melee. They are the best class around with any
-help: bow/xbow/sling. An Archer is very bad at melee, being only better than the
+help: bow/xbow/sling. Hunter is very bad at melee, being only better than the
 help: Sorceror. Wisdom and Dexterity are the archer's primary stats.
 
 class:Monk
@@ -171,3 +171,6 @@ help: Some of those forms will provide innate spells and even breath attacks.
 help: Shapechangers get basic mana points to cast those spells (note that breath
 help: attacks, like for the Dragon race, don't cost mana, but hit points
 help: instead...).
+
+class:Archer
+help:Archer could shoot squirell to the eye so fur will not be spoiled.
