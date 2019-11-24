@@ -2609,7 +2609,7 @@ title:Knower
 title:Magicbane
 
 
-############### HUNTER ###############
+############### ARCHER in PWMA ###############
 name:Hunter
 color:Y
 skill-disarm-phys:42:10

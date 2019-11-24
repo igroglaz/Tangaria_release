@@ -495,39 +495,40 @@ obj-flag:1:PROT_FEAR
 value:25:RES_POIS[1]
 
 name:Black Dwarf
-skill-disarm-phys:3
+skill-disarm-phys:1
 skill-disarm-magic:3
-skill-device:3
-skill-save:6
+skill-device:11
+skill-save:2
 skill-stealth:0
-skill-search:5
-skill-melee:10
-skill-shoot:10
+skill-search:3
+skill-melee:0
+skill-shoot:0
 skill-dig:20
-info:10:150
+info:10:170
 history:100:35:15
 height:45:3:44:3
 weight:145:10:115:10
 value:1:STR[0]
-value:1:INT[1]
-value:1:WIS[0]
-value:1:DEX[1]
+value:1:INT[0]
+value:1:WIS[-1]
+value:1:DEX[0]
 value:1:CON[1]
-value:1:INFRA[1]
+value:1:INFRA[3]
 value:25:RES_DISEN[1]
 player-flags:SEE_ORE
 
+#tiny orcs.. meluzga
 name:Goblin
-skill-disarm-phys:2
-skill-disarm-magic:2
+skill-disarm-phys:-2
+skill-disarm-magic:-2
 skill-device:-3
 skill-save:-3
-skill-stealth:0
+skill-stealth:1
 skill-search:2
-skill-melee:15
-skill-shoot:-5
-skill-dig:5
-info:10:120
+skill-melee:0
+skill-shoot:5
+skill-dig:2
+info:9:120
 history:100:15:10
 height:42:4:38:3
 weight:74:5:62:4
@@ -536,18 +537,20 @@ value:1:INT[-1]
 value:1:WIS[-4]
 value:1:DEX[4]
 value:1:CON[2]
-value:1:INFRA[2]
+value:1:INFRA[4]
 value:10:RES_DARK[1]
+player-flags:ORC
 
+#half-giant.. giant blood, heritage
 name:Half-Giant
 skill-disarm-phys:-6
 skill-disarm-magic:-6
-skill-device:-5
+skill-device:-10
 skill-save:-3
 skill-stealth:-2
 skill-search:-1
-skill-melee:15
-skill-shoot:0
+skill-melee:20
+skill-shoot:-5
 skill-dig:0
 info:12:150
 history:100:20:10
@@ -559,20 +562,20 @@ value:1:WIS[-2]
 value:1:DEX[-2]
 value:1:CON[3]
 obj-flag:1:SUST_STR
-value:15:RES_SHARD[1]
-value:1:SPEED[-1]
+value:25:RES_GRAVITY[1]
+value:1:SPEED[-2]
 brand:1:STUN_1
 brand:35:STUN_2
 
 #Swamp troll
 name:Ogre
-skill-disarm-phys:-3
+skill-disarm-phys:-4
 skill-disarm-magic:-3
 skill-device:-3
 skill-save:-3
-skill-stealth:-2
+skill-stealth:-1
 skill-search:-5
-skill-melee:20
+skill-melee:15
 skill-shoot:-5
 skill-dig:0
 info:11:140
@@ -581,7 +584,7 @@ height:90:10:80:8
 weight:240:50:215:40
 value:1:STR[3]
 value:1:INT[0]
-value:1:WIS[-4]
+value:1:WIS[-1]
 value:1:DEX[-1]
 value:1:CON[3]
 value:1:INFRA[1+1d7]
@@ -609,7 +612,7 @@ value:1:CON[4]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:SPEED[-1]
+value:1:SPEED[-2]
 value:1:RES_POIS[1]
 value:35:RES_SHARD[1]
 player-flags:TROLL
@@ -619,18 +622,18 @@ skill-disarm-phys:-4
 skill-disarm-magic:-4
 skill-device:-5
 skill-save:-5
-skill-stealth:1
+skill-stealth:-1
 skill-search:-1
 skill-melee:10
-skill-shoot:5
-skill-dig:1
-info:10:125
+skill-shoot:2
+skill-dig:0
+info:10:160
 history:100:11:4
 height:65:5:61:3
 weight:145:5:115:5
-value:1:STR[2]
+value:1:STR[1]
 value:1:INT[-1]
-value:1:WIS[-2]
+value:1:WIS[-1]
 value:1:DEX[1]
 value:1:CON[1]
 value:1:INFRA[5]
@@ -638,17 +641,18 @@ value:1:RES_DARK[1]
 value:35:RES_POIS[1]
 player-flags:ORC
 
+# in between of tiny orcs and forest 'kobolds'.. 
 name:Forest Goblin
-skill-disarm-phys:5
-skill-disarm-magic:10
-skill-device:15
+skill-disarm-phys:0
+skill-disarm-magic:1
+skill-device:3
 skill-save:0
 skill-stealth:3
-skill-search:10
+skill-search:5
 skill-melee:-10
-skill-shoot:5
+skill-shoot:15
 skill-dig:0
-info:9:150
+info:9:140
 history:100:15:10
 height:40:4:36:3
 weight:72:5:60:4
@@ -658,11 +662,12 @@ value:1:WIS[2]
 value:1:DEX[3]
 value:1:CON[-3]
 value:1:INFRA[4]
+value:1:SPEED[1]
 obj-flag:1:SUST_DEX
 
 name:Dark Elf
-skill-disarm-phys:7
-skill-disarm-magic:7
+skill-disarm-phys:5
+skill-disarm-magic:3
 skill-device:2
 skill-save:6
 skill-stealth:4
@@ -686,24 +691,25 @@ value:1:RES_LIGHT[-1]
 
 # value:5:SPEED[1+1d15]
 # speed bonus of 1 at levels 5, 20, 35 and 50.
+# value:0:CON[1+1d5M10]
 
 name:Werewolf
-skill-disarm-phys:0
-skill-disarm-magic:0
+skill-disarm-phys:-5
+skill-disarm-magic:-5
 skill-device:-8
 skill-save:2
-skill-stealth:1
+skill-stealth:-2
 skill-search:5
-skill-melee:2
-skill-shoot:-5
+skill-melee:7
+skill-shoot:-10
 skill-dig:1
-info:11:140
+info:11:175
 history:100:14:6
 height:72:6:66:4
 weight:180:25:150:20
 value:1:STR[1]
 value:1:INT[0]
-value:1:WIS[-1]
+value:1:WIS[-2]
 value:1:DEX[0]
 value:1:CON[1]
 value:1:INFRA[5]
@@ -711,6 +717,8 @@ obj-flag:1:REGEN
 obj-flag:1:ESP_ANIMAL
 value:1:RES_DARK[1]
 value:1:RES_LIGHT[-1]
+brand:25:CUT_1
+brand:45:CUT_2
 player-flags:ANIMAL
 
 name:Undead
@@ -719,9 +727,9 @@ skill-disarm-magic:-5
 skill-device:-5
 skill-save:5
 skill-stealth:-3
-skill-search:-1
-skill-melee:10
-skill-shoot:-5
+skill-search:-10
+skill-melee:0
+skill-shoot:-15
 skill-dig:0
 info:11:180
 history:19:11:4
@@ -733,11 +741,12 @@ value:1:WIS[-6]
 value:1:DEX[1]
 value:1:CON[4]
 value:1:INFRA[10]
+value:1:SPEED[-1]
 obj-flag:1:HOLD_LIFE
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
 value:1:RES_NETHER[1]
-value:25:RES_NETHER[3]
+#value:50:RES_NETHER[3]
 
 name:Vampire
 skill-disarm-phys:-2
@@ -780,7 +789,7 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-info:11:370
+info:11:390
 history:100:11:4
 height:72:6:68:4
 weight:175:25:140:20
@@ -796,13 +805,14 @@ obj-flag:1:PROT_FEAR
 obj-flag:1:FEATHER
 obj-flag:1:LIGHT_1
 obj-flag:1:SEE_INVIS
+value:1:RES_COLD[1]
+value:1:RES_ELEC[1]
 value:1:RES_LIGHT[1]
 value:1:RES_DARK[-1]
 value:1:RES_TIME[1]
 value:1:RES_POIS[1]
-value:1:RES_COLD[1]
-value:1:RES_ELEC[1]
 
+# ? spirits.. of fire, elec, cold, 
 name:Cambion
 skill-disarm-phys:2
 skill-disarm-magic:4
