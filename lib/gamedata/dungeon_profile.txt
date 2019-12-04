@@ -70,7 +70,7 @@ cutoff:-1
 name:labyrinth
 params:1:0:200:0
 up:1
-down:1
+down:2
 cutoff:-1
 
 
@@ -78,7 +78,7 @@ cutoff:-1
 name:cavern
 params:1:0:200:0
 up:1d2
-down:1d3
+down:1+1d2
 cutoff:10
 
 

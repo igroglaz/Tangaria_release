@@ -422,8 +422,9 @@ value:1:INT[2]
 value:1:WIS[0]
 value:1:DEX[1]
 value:1:CON[2]
-value:1:INFRA[1]
-obj-flag:30:HOLD_LIFE
+value:25:INFRA[1]
+obj-flag:35:HOLD_LIFE
+value:40:STEALTH[1]
 value:45:RES_DARK[1]
 
 #immortal human
@@ -436,16 +437,16 @@ skill-stealth:-1
 skill-search:-5
 skill-melee:-5
 skill-shoot:-5
-skill-dig:0
-info:9:140
+skill-dig:-1
+info:9:100
 history:100:11:4
 height:72:6:66:4
 weight:180:25:150:20
-value:1:STR[-1+-1d25M27]
-value:1:INT[-1+-1d25M27]
-value:1:WIS[-1+-1d25M27]
-value:1:DEX[-1+-1d25M27]
-value:1:CON[-1+-1d25M27]
+value:1:STR[-1+-1d27]
+value:1:INT[-1+-1d27]
+value:1:WIS[-1+-1d27]
+value:1:DEX[-1+-1d27]
+value:1:CON[-1+-1d27]
 obj-flag:25:HOLD_LIFE
 obj-flag:15:REGEN
 value:1:RES_TIME[1]
@@ -470,6 +471,7 @@ value:1:DEX[1]
 value:1:CON[-1]
 value:1:INFRA[1+1d7]
 value:1:RES_WATER[1]
+value:1:TUNNEL[-1]
 
 name:Barbarian
 skill-disarm-phys:-2
@@ -486,8 +488,8 @@ history:100:14:6
 height:78:8:74:6
 weight:185:25:160:20
 value:1:STR[3]
-value:1:INT[-3]
-value:1:WIS[-2]
+value:1:INT[-4+-1d20]
+value:1:WIS[-3+1d20]
 value:1:DEX[1]
 value:1:CON[2]
 value:1:INFRA[1]
@@ -516,6 +518,8 @@ value:1:CON[1]
 value:1:INFRA[3]
 value:25:RES_DISEN[1]
 player-flags:SEE_ORE
+value:5:TUNNEL[1+1d15]
+value:25:STEALTH[-1]
 
 #tiny orcs.. meluzga
 name:Goblin
@@ -535,8 +539,8 @@ weight:74:5:62:4
 value:1:STR[0]
 value:1:INT[-1]
 value:1:WIS[-4]
-value:1:DEX[4]
-value:1:CON[2]
+value:1:DEX[2+1d20]
+value:1:CON[1+1d30]
 value:1:INFRA[4]
 value:10:RES_DARK[1]
 player-flags:ORC
@@ -552,7 +556,7 @@ skill-search:-1
 skill-melee:20
 skill-shoot:-5
 skill-dig:0
-info:12:150
+info:14:150
 history:100:20:10
 height:96:10:84:8
 weight:250:50:225:40
@@ -564,8 +568,10 @@ value:1:CON[3]
 obj-flag:1:SUST_STR
 value:25:RES_GRAVITY[1]
 value:1:SPEED[-1+-1d30]
+value:1:BLOWS[1]
 brand:1:STUN_1
 brand:30:STUN_2
+obj-flag:1:NO_TELEPORT
 
 #Swamp troll
 name:Ogre
@@ -744,6 +750,7 @@ value:1:CON[4]
 value:1:INFRA[10]
 value:1:SPEED[-1+-1d26]
 obj-flag:1:HOLD_LIFE
+obj-flag:1:IMPAIR_HP
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
 value:1:RES_NETHER[1]
@@ -794,7 +801,7 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-info:11:390
+info:11:400
 history:100:11:4
 height:72:6:68:4
 weight:175:25:140:20
@@ -851,7 +858,7 @@ value:1:RES_TIME[1]
 value:1:RES_DARK[1]
 value:1:RES_CHAOS[1]
 value:1:RES_NEXUS[1]
-obj-flag:1:DRAIN_EXP
+obj-flag:10:DRAIN_EXP
 
 #Some people call them ‘angels’, but they are not kind and helpful (and they doesn’t have wings!), but very cruel race which got their own goals which they would achieve no matter what. The only thing which save the world from their roth is that there are not too many of them. In eternal war with titans;
 name:Celestial
@@ -893,7 +900,7 @@ skill-search:1
 skill-melee:20
 skill-shoot:0
 skill-dig:0
-info:11:400
+info:12:400
 history:100:11:4
 height:150:10:140:7
 weight:220:15:200:10
