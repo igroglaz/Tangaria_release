@@ -441,11 +441,11 @@ info:9:140
 history:100:11:4
 height:72:6:66:4
 weight:180:25:150:20
-value:1:STR[-1]
-value:1:INT[-1]
-value:1:WIS[-1]
-value:1:DEX[-1]
-value:1:CON[-1]
+value:1:STR[-1+-1d25M27]
+value:1:INT[-1+-1d25M27]
+value:1:WIS[-1+-1d25M27]
+value:1:DEX[-1+-1d25M27]
+value:1:CON[-1+-1d25M27]
 obj-flag:25:HOLD_LIFE
 obj-flag:15:REGEN
 value:1:RES_TIME[1]
@@ -563,9 +563,9 @@ value:1:DEX[-2]
 value:1:CON[3]
 obj-flag:1:SUST_STR
 value:25:RES_GRAVITY[1]
-value:1:SPEED[-2]
+value:1:SPEED[-1+-1d30]
 brand:1:STUN_1
-brand:35:STUN_2
+brand:30:STUN_2
 
 #Swamp troll
 name:Ogre
@@ -612,7 +612,7 @@ value:1:CON[4]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:SPEED[-2]
+value:1:SPEED[-1+-1d35]
 value:1:RES_POIS[1]
 value:35:RES_SHARD[1]
 player-flags:TROLL
@@ -692,6 +692,7 @@ value:1:RES_LIGHT[-1]
 # value:5:SPEED[1+1d15]
 # speed bonus of 1 at levels 5, 20, 35 and 50.
 # value:0:CON[1+1d5M10]
+# value:0:CON[1+-1d5M10]
 
 name:Werewolf
 skill-disarm-phys:-5
@@ -708,8 +709,8 @@ history:100:14:6
 height:72:6:66:4
 weight:180:25:150:20
 value:1:STR[1]
-value:1:INT[0]
-value:1:WIS[-2]
+value:1:INT[0+-1d20]]
+value:1:WIS[-2+-1d20]
 value:1:DEX[0]
 value:1:CON[1]
 value:1:INFRA[5]
@@ -741,7 +742,7 @@ value:1:WIS[-6]
 value:1:DEX[1]
 value:1:CON[4]
 value:1:INFRA[10]
-value:1:SPEED[-1]
+value:1:SPEED[-1+-1d26]
 obj-flag:1:HOLD_LIFE
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
@@ -778,7 +779,11 @@ value:35:RES_NETHER[1]
 value:45:RES_TIME[1]
 brand:1:VAMPIRIC
 
+############################## GODLIKE
+# ? spirits.. of fire, elec, cold, 
+
 #Maya
+# descendants of ancient powers;
 name:Enlightened
 skill-disarm-phys:2
 skill-disarm-magic:4
@@ -799,20 +804,21 @@ value:1:WIS[3]
 value:1:DEX[1]
 value:1:CON[1]
 value:1:INFRA[10]
-obj-flag:1:HOLD_LIFE
-obj-flag:1:SLOW_DIGEST
-obj-flag:1:PROT_FEAR
-obj-flag:1:FEATHER
 obj-flag:1:LIGHT_1
-obj-flag:1:SEE_INVIS
-value:1:RES_COLD[1]
-value:1:RES_ELEC[1]
+obj-flag:5:SLOW_DIGEST
+obj-flag:10:PROT_FEAR
+obj-flag:15:FEATHER
+obj-flag:20:HOLD_LIFE
+obj-flag:25:SEE_INVIS
+value:30:RES_COLD[1]
+value:35:RES_ELEC[1]
+value:40:RES_POIS[1]
 value:1:RES_LIGHT[1]
 value:1:RES_DARK[-1]
-value:1:RES_TIME[1]
-value:1:RES_POIS[1]
+value:45:RES_TIME[1]
+brand:25:COLD_2
 
-# ? spirits.. of fire, elec, cold, 
+# 'corrupted' descendants of ancient powers;
 name:Cambion
 skill-disarm-phys:2
 skill-disarm-magic:4
@@ -823,7 +829,7 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-info:11:400
+info:11:300
 history:100:11:4
 height:74:6:70:4
 weight:175:25:140:20
@@ -838,12 +844,16 @@ obj-flag:1:SLOW_DIGEST
 obj-flag:1:PROT_FEAR
 obj-flag:1:FEATHER
 obj-flag:1:SEE_INVIS
-value:1:RES_LIGHT[-1]
-value:1:RES_DARK[1]
-value:1:RES_TIME[1]
-value:1:RES_POIS[1]
 value:1:RES_FIRE[1]
+value:1:RES_POIS[1]
+value:1:RES_LIGHT[-1]
+value:1:RES_TIME[1]
+value:1:RES_DARK[1]
+value:1:RES_CHAOS[1]
+value:1:RES_NEXUS[1]
+obj-flag:1:DRAIN_EXP
 
+#Some people call them ‘angels’, but they are not kind and helpful (and they doesn’t have wings!), but very cruel race which got their own goals which they would achieve no matter what. The only thing which save the world from their roth is that there are not too many of them. In eternal war with titans;
 name:Celestial
 skill-disarm-phys:0
 skill-disarm-magic:0
@@ -854,7 +864,7 @@ skill-search:2
 skill-melee:10
 skill-shoot:7
 skill-dig:0
-info:11:350
+info:11:370
 history:100:11:4
 height:85:6:78:4
 weight:170:15:140:10
@@ -870,7 +880,9 @@ obj-flag:1:LIGHT_1
 obj-flag:1:SEE_INVIS
 obj-flag:1:SUST_WIS
 value:1:RES_GRAVITY[1]
+brand:25:ELEC_2
 
+#Balrog – undeground ancient ‘race’ or some would call them as a ‘force’; in eternal war with dragons;
 name:Balrog
 skill-disarm-phys:-3
 skill-disarm-magic:-3
@@ -896,11 +908,17 @@ obj-flag:1:SLOW_DIGEST
 obj-flag:1:PROT_FEAR
 obj-flag:1:FEATHER
 obj-flag:1:SEE_INVIS
+value:1:RES_FIRE[1]
+value:1:RES_COLD[-1]
 value:1:RES_LIGHT[-1]
 value:1:RES_DARK[1]
 value:1:RES_TIME[1]
 value:1:RES_FIRE[3]
+brand:1:FIRE_2
+brand:25:FIRE_3
+obj-flag:1:AGGRAVATE
 
+#Nephalem – example what could appear if celestial would make love to balrog. Amazingly it happens sometimes, so such creatures could be met.. very-very rare, but there they are.
 name:Nephalem
 skill-disarm-phys:0
 skill-disarm-magic:0

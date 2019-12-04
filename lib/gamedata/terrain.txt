@@ -204,7 +204,7 @@ name:Brodyajnik the Ranger
 graphics:@:u
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-short-desc:Not too old men with weathered face. He looks at you mindfully
+short-desc:not too old men with weathered face. He looks at you mindfully
 info:8:0
 desc:Old ranger. He isn't glad to see you, but look at you with pity.
 
@@ -212,12 +212,14 @@ name:Sonya the cat
 graphics:@:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+short-desc:Siamese cat with yellowish brown-green eyes
 info:9:0
 desc:Cat looks at you with interest.
 
 name:Rinswind the Wizard
 graphics:@:s
 priority:18
+short-desc:old men with bright blue eyes.. He is a wizard it seems.
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:10:0
 desc:.
@@ -926,6 +928,7 @@ name:tree 0 stump
 graphics:*:D
 priority:9
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH
+short-desc:old withered tree stump with anthill on one side.
 info:0:1
 desc:A withered tree stump.
 

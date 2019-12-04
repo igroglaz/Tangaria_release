@@ -57,7 +57,9 @@ welcome:4:"Welcome back, %s."
 welcome:5:"A pleasure to see you again, %s."
 welcome:6:"How may I be of assistance, %s?"
 welcome:7:"You do honour to my humble store, %s."
-welcome:8:"I and my family are entirely at your service, %s."
+welcome:8:"I am entirely at your service, %s."
+
+#welcome:8:"I and my family are entirely at your service, %s."
 
 # General store
 store:General Store
@@ -286,6 +288,15 @@ owner:5000:Brodyajnik the Ranger (Human)
 owner:5000:Brodyajnik the Ranger (Human)
 slots:0:5
 turnover:1
+welcome:0:looks at you with interest.
+welcome:1:curses.
+welcome:2:grunts.
+welcome:3:eyes you suspiciously.
+#welcome:4:"There is an old mage living to the south east.."
+#welcome:5:"Don't make me waste my time!"
+#welcome:6:"Please hurry up, I need to chop wood for the fire."
+#welcome:7:"Welcome, %s."
+#welcome:8:"A pleasure to do business with you, %s."
 #######################################################################
 always:fortune cookie:Hello, stranger. What are you doing there, in
 always:fortune cookie:this wild lands? You are not the first who came
