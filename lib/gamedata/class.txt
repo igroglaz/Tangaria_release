@@ -4462,16 +4462,16 @@ desc: This spell has no effect when used in the town (#%d).
 ############### Archer ###############
 name:Archer
 color:Z
-skill-disarm-phys:42:10
-skill-disarm-magic:28:8
-skill-device:32:9
-skill-save:28:10
-skill-stealth:2:0
-skill-search:15:15
-skill-melee:56:30
+skill-disarm-phys:28:8
+skill-disarm-magic:21:7
+skill-device:18:7
+skill-save:18:10
+skill-stealth:1:0
+skill-search:10:12
+skill-melee:35:15
 skill-shoot:82:55
 skill-dig:0:0
-hitdie:5
+hitdie:3
 max-attacks:2
 min-weight:35
 strength-multiplier:3
@@ -4491,7 +4491,7 @@ value:1:WIS[-1]
 value:1:DEX[3]
 value:1:CON[1]
 value:0:SHOTS[1d3]
-player-flags:FAST_THROW
+player-flags:FAST_SHOT
 title:Copper Arrow
 title:Tin Arrow
 title:Iron Arrow

@@ -471,7 +471,7 @@ value:1:DEX[1]
 value:1:CON[-1]
 value:1:INFRA[1+1d7]
 value:1:RES_WATER[1]
-value:1:TUNNEL[-1]
+value:1:TUNNEL[-1+-1d15]
 
 name:Barbarian
 skill-disarm-phys:-2
@@ -539,7 +539,7 @@ weight:74:5:62:4
 value:1:STR[0]
 value:1:INT[-1]
 value:1:WIS[-4]
-value:1:DEX[2+1d20]
+value:1:DEX[2+1d10]
 value:1:CON[1+1d30]
 value:1:INFRA[4]
 value:10:RES_DARK[1]
@@ -556,7 +556,7 @@ skill-search:-1
 skill-melee:20
 skill-shoot:-5
 skill-dig:0
-info:14:150
+info:13:150
 history:100:20:10
 height:96:10:84:8
 weight:250:50:225:40
@@ -662,11 +662,11 @@ info:9:140
 history:100:15:10
 height:40:4:36:3
 weight:72:5:60:4
-value:1:STR[-4]
+value:1:STR[-5]
 value:1:INT[2]
 value:1:WIS[2]
 value:1:DEX[3]
-value:1:CON[-3]
+value:1:CON[-4]
 value:1:INFRA[4]
 value:1:SPEED[1]
 obj-flag:1:SUST_DEX
@@ -748,7 +748,7 @@ value:1:WIS[-6]
 value:1:DEX[1]
 value:1:CON[4]
 value:1:INFRA[10]
-value:1:SPEED[-1+-1d26]
+value:1:SPEED[-1+1d28]
 obj-flag:1:HOLD_LIFE
 obj-flag:1:IMPAIR_HP
 value:1:RES_POIS[1]
@@ -779,6 +779,7 @@ value:1:INFRA[15]
 obj-flag:1:PROT_FEAR
 obj-flag:5:FEATHER
 obj-flag:10:HOLD_LIFE
+obj-flag:1:IMPAIR_HP
 value:1:RES_LIGHT[-1]
 value:15:RES_DARK[1]
 value:25:RES_POIS[1]
@@ -836,7 +837,7 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-info:11:300
+info:11:250
 history:100:11:4
 height:74:6:70:4
 weight:175:25:140:20
