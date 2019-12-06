@@ -2644,14 +2644,14 @@ value:0:SHOTS[1d3]
 player-flags:CHOOSE_SPELLS | FAST_THROW
 title:Rock Thrower
 title:Slinger
-title:Great Slinger
-title:Bowsen
-title:Bowman
-title:Great Bowman
-title:High Archer
-title:Grand Archer
-title:Master Archer
-title:Elite Archer
+title:Fowler
+title:Huntsman
+title:Tracker
+title:Montero
+title:Shikari
+title:Hunter
+title:Master Hunter
+title:Night Hunter
 
 magic:5:400:5
 
@@ -4490,18 +4490,18 @@ value:1:INT[-2]
 value:1:WIS[-1]
 value:1:DEX[3]
 value:1:CON[1]
-value:0:SHOTS[1d3]
+value:0:SHOTS[1d6]
 player-flags:FAST_SHOT
-title:Copper Arrow
-title:Tin Arrow
-title:Iron Arrow
-title:Bronze Arrow
-title:Steel Arrow
-title:Silver Arrow
-title:Golden Arrow
-title:Platinum Arrow
-title:Mithril Arrow
-title:Adamantium Arrow
+title:Fletcher
+title:Shooter
+title:Dead Shot
+title:Bowsen
+title:Bowman
+title:Great Bowman
+title:High Archer
+title:Grand Archer
+title:Master Archer
+title:Elite Archer
 
 
 ############### GHOST ###############
