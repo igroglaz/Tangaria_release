@@ -954,28 +954,6 @@ value:1:CON[1]
 value:1:RES_LIGHT[1]
 value:1:RES_DARK[1]
 
-name:Nephalem
-skill-disarm-phys:0
-skill-disarm-magic:0
-skill-device:0
-skill-save:10
-skill-stealth:0
-skill-search:0
-skill-melee:0
-skill-shoot:0
-skill-dig:0
-info:10:150
-history:100:14:6
-height:72:6:66:4
-weight:180:25:150:20
-value:1:STR[1]
-value:1:INT[1]
-value:1:WIS[0]
-value:1:DEX[1]
-value:1:CON[1]
-value:1:RES_LIGHT[1]
-value:1:RES_DARK[1]
-
 name:Gargoyle
 skill-disarm-phys:-4
 skill-disarm-magic:-4
@@ -1011,7 +989,6 @@ obj-flag:1:FEATHER
 obj-flag:1:IMPAIR_HP
 obj-flag:1:IMPAIR_MANA
 
-
 name:Golem
 skill-disarm-phys:-6
 skill-disarm-magic:-6
@@ -1021,7 +998,7 @@ skill-stealth:-3
 skill-search:-10
 skill-melee:15
 skill-shoot:0
-skill-dig:20
+skill-dig:10
 info:11:200
 history:100:11:4
 height:82:4:82:2
@@ -1031,14 +1008,14 @@ value:1:INT[-5]
 value:1:WIS[-5]
 value:1:DEX[-2]
 value:1:CON[3]
-#value:1:SPEED[-1+-1d15]
+value:1:SPEED[-1]
 value:1:RES_POIS[1]
 obj-flag:1:SEE_INVIS
 obj-flag:1:FREE_ACT
 #value:1:RES_MANA
 
 
-#golem
+
 # troglodite
 # Mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
 # Dis,Dev,Sav,Stl,Srh,Fos,Thn,Thb,Stats,Exp

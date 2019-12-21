@@ -160,8 +160,9 @@ help:Darklanders.. A High Men from ancient times, a renegades and.. ally of The
 help: Dark Lord.. Not all of them was 'corrupted by many gifts and promises of 
 help: great power'. Some just wanted to have a free will and refused to accepted
 help: handouts of the west.. But nonetheless they had to choose a side, just to
-help: survive under the sky.. They are good in stealth and could somewhat resist 
-help: dark magic and life drain when become mature.
+help: survive under the sky.. |
+help: Darklanders could sense 'evil' creatures with extrasensory powers at certain
+help: stage of their developent.
 ####################################################################################
 race:Damned
 help:Some call them Highlanders and there are a rumours of their great power.
@@ -320,3 +321,39 @@ help: rare, but there they are. They live among us and we won't know about it.
 help: Hey, maybe you are the one, with this twisted blood? They only way to test it 
 help: is to become exposed to light and dark magic at once. 
 help: Nephalem doesn't fear both.
+####################################################################################
+race:Gargoyle
+help:Gargoyles are stone creatures which sometimes appear after magic storms, when 
+help: arcane nexus vibrations animates rock. It’s very rare occasion, but for 
+help: centures it happened a from time to time, so you could meet gargoyles in
+help: Tangaria more often, than, for example, balrogs. |
+help: As gargoyles made from stone, they are resistant to fire, acid and 
+help: electricity. It’s hard to harm then with shards magic. They do not fear
+help: poison and could levitate with a help of their inner magic. |
+help: Their weaknesses is certain slowness and also they can’t restore hitpoints 
+help: and mana easely. They are good in infravision though and their stats can’t
+help: be reduced. Another problem is that it’s very hard for them to learn 
+help: something new. But they are very powerful phisically and it’s not easy to
+help: destroy them. They are wise, but not too really smart.. and in most cases
+help: quite ugly. |
+help: Some powerful wizards tried to make gargoyles with their magic, but they
+help: managed to create only ‘golems’ – by powering clay with their spellcasting,
+help: as it appeared that much easier to magically operate with clay, than
+help: with stone or rock. But I’ll tell you about golems another time..
+####################################################################################
+race:Golem
+help:Golems - artificial magical creatures, made by powerful wizards to serve their
+help: will. When golems just created they do not understand their purpose and they
+help: just do what they told to do. But in time some golems could start asking 
+help: themself a question - why do they exist? Why they have to do the job which 
+help: humans obliged them to do? There was a golem rebellion in the past and it
+help: brought a lot of destruction. The result was a permission for golems to 
+help: buyout their freedom by working on their master for several decades. Every
+help: golem dream to get it's freedom. But not all mages are honest with them and
+help: not all people respect their 'feelings'. If you are 'born' as a golem, who 
+help: knows, would you ever get a liberty? 
+help: Should you deserve it or take it by force? |
+help: Golems are extreamely strong, but a bit slow. They can not be paralized, 
+help: or poisoned. They could see invisible and good in digging. They are miserable
+help: in stealth, good at fighting and somehow resistant to malicious spell effects.
+####################################################################################

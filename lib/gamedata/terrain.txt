@@ -203,80 +203,99 @@ desc:A shop that sells and buys magical and mystical books.
 name:Brodyajnik the Ranger
 graphics:@:u
 priority:24
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-short-desc:not too old men with weathered face. He looks at you mindfully
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+################################################################################
+short-desc:not too old man with weathered face. He looks at you mindfully.
 info:8:0
 desc:Old ranger. He isn't glad to see you, but look at you with pity.
 
 name:Sonya the cat
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-short-desc:Siamese cat with yellowish brown-green eyes
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+################################################################################
+short-desc:tiny cream colored siamese cat with yellowish brown-green eyes.
 info:9:0
 desc:Cat looks at you with interest.
 
 name:Rinswind the Wizard
 graphics:@:s
 priority:18
-short-desc:old men with bright blue eyes.. He is a wizard it seems.
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:old man with bright blue eyes. He's a wizard it seems. No hat though
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:10:0
 desc:.
 
 name:Old guard Barry
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:red eyed battle-scared face. It smells heavy alchohol and garlic odor
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:11:0
 desc:.
 
 name:Bob the villager
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:middle-aged man with bright ginger hair 'n beard. He looks frightened
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:12:0
 desc:.
 
 name:Marta the villager
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:fancy looking green-eyed woman. She is not too young, but pretty.
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:13:0
 desc:.
 
 name:Shtukensia the tavernkeeper
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:beautiful young woman with big brown eyes and long eyelashes. *winks*
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:14:0
 desc:.
 
 name:Danny the dog
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:old dog who growl sometimes, but looks harmless..
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:15:0
 desc:.
 
 name:Arthur the Archer
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:young man with grey eyes and tiny beard-goatee. He grins.
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:16:0
 desc:.
 
 name:Old man
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:very old bended man. He looks ancient, but you see sparks in his eyes
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:17:0
 desc:.
 
 name:Boris the Guard
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
+################################################################################
+short-desc:grim faced warrior with long stubble. His armour got some blood on it
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:18:0
 desc:.
 
