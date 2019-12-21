@@ -4207,6 +4207,7 @@ effect:HEAL_HP
 dice:1d30
 effect:NOURISH
 dice:500
+effect:RESTORE_EXP
 
 name:House Creation
 graphics:?:w
