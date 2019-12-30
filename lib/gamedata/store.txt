@@ -440,7 +440,7 @@ buy:flask
 store:Shtukensia the tavernkeeper
 owner:5000:Shtukensia the tavernkeeper (Human)
 owner:5000:Shtukensia the tavernkeeper (Human)
-slots:0:11
+slots:0:12
 turnover:2
 #######################################################################
 always:fortune cookie:Hi.. Don't look at me with such hungry eyes..
@@ -469,6 +469,7 @@ normal:food:Flask of Whisky:10:300
 normal:food:Pint of Fine Wine:10:300
 normal:food:Pint of Fine Ale:10:300
 normal:mushroom:Stoneskin:10:300
+normal:potion:Healing:1:500
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
 buy:light
