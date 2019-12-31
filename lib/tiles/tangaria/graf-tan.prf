@@ -1623,6 +1623,8 @@ monster:Black dragon worm:0x91:0x9D
 monster:Red dragon worm:0x91:0x9C
 monster:Unbeliever:0x84:0xA4
 monster:Old Forest unbeliever:0x84:0xA4
+monster:Komurik the Terrific:0x91:0x9C
+# komurik is like red dragon worm atm
 monster:Lugdush, the Uruk:0x95:0x8F
 monster:Blue dragon bat:0x90:0x83
 monster:Scroll mimic:0x85:0xE5
@@ -1771,6 +1773,7 @@ monster:Barrow wight:0x94:0x91
 monster:Skeleton ettin:0x94:0xB7
 monster:Shade:0x94:0xC3
 monster:Fire elemental:0x8F:0x9B
+monster:Water elemental:0x8F:0x9A
 monster:Sea of Bermados water elemental:0x8F:0x9A
 monster:Fasolt the Giant:0x8D:0xCA
 monster:Young power dragon:0xA0:0xAA
@@ -1794,6 +1797,7 @@ monster:Mature green dragon:0x8C:0x93
 monster:Gas spore:0xA0:0x99
 monster:Gargoyle:0x8E:0xA0
 monster:Fire Phantom:0x94:0xC6
+monster:Water troll:0x92:0xB5
 monster:Sea of Bermados water troll:0x92:0xB5
 monster:Invisible stalker:0x8F:0xA8
 monster:Dagashi:0x84:0x9A
@@ -2122,7 +2126,8 @@ monster:Ancient Wyrm of Many Colours:0xA0:0xB9
 monster:Ancient Wyrm of Power:0x8C:0xB8
 monster:The Balrog of the Sammath Naur:0xA0:0xBE
 monster:Sauron, the Sorcerer:0x8F:0xC7
-monster:Morgoth, Lord of Darkness:0x95:0xDB
+monster:Morgoth, Lord of Darkness:0xA0:0xDA
+#^^^morgoth new
 monster:Death guard:0x94:0xCE
 monster:Death ooze:0x8E:0xCD
 monster:Death vortex:0x92:0xAA

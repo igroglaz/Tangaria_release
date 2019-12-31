@@ -181,6 +181,9 @@
 
 # TODO: Explain the other monster and spell flags. But maybe in another file.
 
+#
+# === ! DUNGON BOSS HAS TO HAVE PWMANG_FIXED flag to appear in the dungeon
+
 
 ##### Non-race (contains the "player" picture) #####
 
@@ -2088,8 +2091,9 @@ weight:0
 experience:90
 blow:HIT:HURT:1d8
 blow:HIT:HURT:1d8
-flags:UNIQUE | FEMALE
-flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:UNIQUE | FEMALE | PWMANG_FIXED
+flags:DROP_3 | DROP_GOOD | ONLY_ITEM
+flags:FORCE_DEPTH
 friends:80:1d3:rattlesnake
 desc:She lost her beloved.. Where is him?
 desc: She likes her ssssnakes.
@@ -3712,7 +3716,7 @@ blow:HIT:HURT:1d12
 blow:HIT:HURT:1d12
 blow:HIT:HURT:1d10
 blow:HIT:HURT:1d10
-flags:UNIQUE
+flags:UNIQUE | PWMANG_FIXED | FORCE_DEPTH
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
 friends:50:4d4:snaga
@@ -5168,7 +5172,7 @@ name:Shtukensia the Rogue
 base:person
 color:b
 speed:110
-hit-points:340
+hit-points:440
 hearing:20
 armor-class:48
 sleepiness:40
@@ -5181,10 +5185,11 @@ blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 blow:TOUCH:EAT_GOLD
 flags:UNIQUE | FEMALE | HAS_LIGHT
-flags:DROP_60 | DROP_GOOD | ONLY_ITEM
+flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
+flags:FORCE_DEPTH | PWMANG_FIXED
 friends:60:1d3:bandit
-desc:Beautiful tiny girls with huge green eyes.
+desc:Beautiful tiny girls with huge... eyes.
 desc:She winks at you.
 force-location:The Severs
 
@@ -7224,6 +7229,36 @@ desc:A scarred warrior who moves with strange confidence.
 
 ### Dungeon level 21 ###
 
+name:Komurik the Terrific
+base:dragon worm
+color:s
+speed:120
+hit-points:600
+hearing:20
+armor-class:60
+sleepiness:10
+depth:20
+rarity:5
+weight:0
+experience:400
+blow:CRAWL:POISON:3d4
+blow:CRAWL:EAT_FOOD:3d4
+blow:TOUCH:ACID:3d5
+blow:HIT:HURT:3d5
+flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
+flags:ONLY_ITEM | DROP_3 | DROP_GOOD | PWMANG_FIXED
+flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+spell-freq:5
+spell-power:20
+spells:BLIND | CONF | DRAIN_MANA | SCARE
+spells:S_KIN
+friends-base:100:1d5:dragon worm
+friends-base:75:1d5:dragon worm
+friends-base:50:1d5:dragon worm
+desc:Floating like a butterfly, stinging like a bee!
+force-location:Fetid Swamps
+
 name:Lugdush, the Uruk
 base:orc
 color:b
@@ -7682,7 +7717,7 @@ friends:50:1d3:orc captain
 friends:100:1d1:Bolg, Son of Azog
 desc:He is also known as the King of Khazad-dûm. His ego is renowned to be
 desc: bigger than his head.
-force-location:The Orc Cave
+force-location:The Orc Mountains
 
 name:master rogue
 base:person
@@ -8671,7 +8706,9 @@ blow:HIT:HURT:1d6
 blow:HIT:HURT:1d6
 blow:HIT:HURT:1d6
 blow:BITE:EXP_20:2d6
-flags:DROP_40 | DROP_1
+flags:UNIQUE
+flags:DROP_GOOD | DROP_3 | ONLY_ITEM
+flags:FORCE_DEPTH | PWMANG_FIXED
 spell-freq:9
 spell-power:27
 spells:CAUSE_2 | DARKNESS | MIND_BLAST | TELE_TO
