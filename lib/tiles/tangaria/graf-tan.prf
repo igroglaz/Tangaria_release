@@ -1913,6 +1913,7 @@ monster:8-headed hydra:0x90:0xA7
 monster:green Thunderlord:0x8E:0xA1
 monster:Ancient black dragon:0x8C:0x9C
 monster:Lakelands ancient black dragon:0x8C:0x9C
+monster:Red dragon:0x8C:0x9D
 monster:Lakelands ancient red dragon:0x8C:0x9D
 monster:Ancient gold dragon:0x8C:0x99
 monster:Dragon Mountain ancient gold dragon:0x8C:0x99
@@ -1941,6 +1942,7 @@ monster:Glabrezu:0x8D:0xA1
 monster:Quaker, Master of Earth:0x95:0xAE
 monster:Ariel, Queen of Air:0x95:0xAF
 monster:Multi-hued hound:0x90:0xCD
+monster:Water hound:0xA0:0x9A
 monster:Sea of Bermados water hound:0xA0:0x9A
 monster:Great chaos drake:0x8C:0xD2
 monster:Great law drake:0x8C:0xC6

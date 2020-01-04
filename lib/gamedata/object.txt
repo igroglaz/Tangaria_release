@@ -4582,756 +4582,756 @@ desc:This parchment is oily and ragged, but looks readable.
 name:Hello, stranger. What are you doing there, in
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:this wild lands? You are not the first who came
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:though.. Strange folk appeared recently.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:And all of them are interested in Old Ruins to 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:the west from my tavern. But I don't complain..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Finally I could get a few coins by selling some
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:of this goods.. Take a look at them...
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Beware of danger in Mountain Passage to the west
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I didn't visit town for some time already..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Maybe its time for me to go on adventure with you
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(you take cat on your hands..)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:meow
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*purrr*
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Who are ya? What do ya need? Whaat? I can't hear 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:you.. *grumbles* They come.. and go.. come.. and
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:sometimes not come back..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*whipped up* So.. Can ya read? If you can't,
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I can't help ya.. But if you do - take a look at
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:this finest books about miracles. With them you 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:would be able to conquer world!.. What?? 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I can't hear ya!! Speak louder, yongster! Whaat?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*sings* Once I came to the land of dreams...
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*sings* Three trolls.. In the forest of mourn..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*sings* Don ya tell me wat todo, little fairy..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Did ya know there is a secret passage nearby? shh
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(You hear shuffling) *growl* Arr.. Who is there?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(small narrow window on the door opened)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(you see bright blue eyes through it)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(it appeared to be a mirror to hide from arrows)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Oh! A human-beign! Are you in union with this
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:cave orcs?! Darn orcish beasts! Filthy maggots!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:...Erm.. Anyway. Got any tabacco, mate?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I got plety of food there, but no darn weed to
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:fill my pipe.. I'm alone there you see..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:All horizon run away months ago.. Filthy cowards!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:But I won't run from this stupid orcish beasts!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:They would know how to come to The Guards Tower!!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Darn.. Are you pretty sure ya don have any weed?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Long time ago this was a heart of trade ways..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:It was well guarded dwarven trade route.. 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:A lot of caravans traveled over this lands.. 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:And now everything gone.. Only orcs left. And me.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Hello, stranger. Don'y you mind to put your
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:weapons away, to sheath them.. I don't like
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:people going around with all this fighting stuff.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Erhh. Even villagers like me nowadays took
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:weapons in their hands. I heard old Mag run away
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:to the forest.. Old mad dog.. Everything went to
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:dogs nowadays.. No food to grow, only mushrooms..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:And I hate mushrooms.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Marta could cook mushrooms in 57 different ways..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:It doesn't help though. Nothing help..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I can't sell you food, adventurer.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I don't need you gold. There is no food. NO FOOD.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:My pumpkin's were famous all over Middle-lands!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:And now I'm broken. People kill for food.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Oh, dear.. It's a pity I can't feed you.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:We barely survive from hunger by our-self..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:But you could look for smthing in tavern in town
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Nowadays there are so much adventurers around..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I hope you won't make trouble to us.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Be safe..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Hi.. Don't look at me with such hungry eyes..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Didn't you know about catastrophe?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Oh.. You are outlander.. Well.. I wonder why you
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:came there.. At your place I wouldn't come to
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:this lands even for all gold of the world.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Anyway.. In short words - gods cursed us.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*whispers* (they say). No one knows really.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Fields doesn't provide yeild anymore..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:All cattle died by unknown diseases.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:So bag of wheat cost more then two bags of gold.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Eeh.. But we still got some booze left.. *hic*
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:We got troubles with burglars from town severs..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Someone should give a lesson to this thiefs...
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(you are trying to pat the dog)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(the dog carefully sniff your arm)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(the dog give you to pat it on the head)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(the dog wing it's tail)
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Gaf-gaf!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Bow-vo!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Arf-arf!
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*rrrr*
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I'd shoot rat in the eye, so I wont spoil its fur
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Hm. Hello. I'm Archy - and who are you?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Oh.. A hero. Alrihgt. Can you shoot with a bow?
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Nevermind. I don't need to hear your answer.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:If ya can't shoot - then try to throw rocks.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Still effective way to survive. Just dont forget
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Dont become a dead hero. Run. Use plan B. Escape.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Good hero - is alive hero. You won't help the
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:world if you would die. Many tried...
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:*Grins* dont run from archer. You would die tired
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Your strength is in your guts, not muscles..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:An dont forget to bring me some ale from sewers..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Stay awhile.. Er.. Wait.. Come closer, young men
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:or woman? I can not see well..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:(Old man hears your voice) Oh. Hello, friend.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I am headman of this village. Groger is my name.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:And we are not doing well, you know. All this
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:food problem and everything.. But we get used to
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:it. I love mushrooms, you know.. But there is
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:another problem. Scoundrels, rogues and bandits.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Someone say they got a headquaters in severs.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Could you help us with it? I heard they got
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:plenty of gold..and what is more important - food
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:down there.. You will find severs to the east of
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:our village. 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Take care, friend.. And good luck..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:There always were a lot of criminal.. But not so.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:We thought the worse was lack of food...
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Outlaws, robbers..and even monsters. Gods save us
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Stranger, don't make trouble in our town..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Or I'll take care of you.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:... 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:You look tought.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Mind to help us in this dire days? 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:I wanna point out immideatelly - we don't recruit
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:to the guard. Magirstare has to cut our funds
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:recently.. I got jnly a few mushrooms per week..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Aa-ah. Anyway. We need a hand with all this 
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:madness happening around.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name: I hope you won't make trouble.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Years ago I was an adventurer myself.. But..
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:Life is tought. I had enought scars on my face.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 
 name:You would understand me one day.
 graphics:?:y
 type:fortune cookie
-properties:0:5:9000
+properties:0:5:99999999
 desc:.
 

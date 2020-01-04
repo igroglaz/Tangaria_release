@@ -23398,9 +23398,9 @@ depth:0
 rarity:1
 weight:850
 experience:50
-blow:BITE:FIRE:3d12
-blow:BITE:FIRE:3d12
-blow:BITE:FIRE:3d12
+blow:BITE:HURT:3d12
+blow:BITE:HURT:3d12
+blow:BITE:HURT:3d12
 blow:BITE:HURT:3d12
 flags:HAS_LIGHT
 flags:OPEN_DOOR | MOVE_BODY
@@ -23410,10 +23410,13 @@ spell-freq:4
 spell-power:44
 spells:SCARE
 spells:BA_FIRE
-spells:BO_FIRE | BO_PLAS
-spells:BR_FIRE
+spells:BO_FIRE
+spells:BR_FIRE | BR_SOUN
 desc:A strange reptilian hybrid with eleven smouldering heads.
 force-location:Iron Mountains
+#breath sound instead of bo_plasma
+#bity not with fire, but normal
+
 
 ###########################################################################
 ################### Old Mines
