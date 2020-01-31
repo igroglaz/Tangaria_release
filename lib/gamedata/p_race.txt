@@ -926,9 +926,9 @@ value:1:RES_COLD[-1]
 value:1:RES_LIGHT[-1]
 value:1:RES_DARK[1]
 value:1:RES_TIME[1]
-value:1:RES_FIRE[3]
+value:25:RES_FIRE[3]
 brand:1:FIRE_2
-brand:25:FIRE_3
+brand:50:FIRE_3
 obj-flag:1:AGGRAVATE
 
 #Nephalem – example what could appear if celestial would make love to balrog. Amazingly it happens sometimes, so such creatures could be met.. very-very rare, but there they are.
