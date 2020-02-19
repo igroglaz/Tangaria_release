@@ -58,6 +58,23 @@
 
 # 'player-flags' is for player flags (as in list-player-flags.h) that
 # races possess innately.
+#
+#
+# value:5:SPEED[1+1d15]
+# speed bonus of 1 at levels 5, 20, 35 and 50.
+#
+# upper limit to the modifiers:
+# random value has parameter (M) that can be used,
+# so for example 
+# value:0:CON[1+1d5M10]
+# +1 CON at levels 1, 5 and 10
+# (+1 per 5 levels and we stop at 10)
+#
+# also negative values are possible:
+# value:0:CON[1+-1d5M10]
+
+
+
 
 
 name:Human
@@ -693,10 +710,7 @@ obj-flag:1:SEE_INVIS
 value:1:RES_DARK[1]
 value:1:RES_LIGHT[-1]
 
-# value:5:SPEED[1+1d15]
-# speed bonus of 1 at levels 5, 20, 35 and 50.
-# value:0:CON[1+1d5M10]
-# value:0:CON[1+-1d5M10]
+
 
 name:Werewolf
 skill-disarm-phys:-5
