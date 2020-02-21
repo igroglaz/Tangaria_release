@@ -1,13 +1,17 @@
 # File: store.txt
-
-
-# === Understanding store.txt ===
-
+#
 # store: store name
 # type: store type
 # owner: max purse : name (as many or few as you like >1)
 # turnover: turnover (how many items the store turns over)
-# slots: min : max (number of 'normal' slots to keep stocked) MAX SHOULD BE EQUAL TO NUMBER OF 'NORMAL' ITEMS in shop
+# slots: min : max (number of 'normal' slots to keep stocked) 
+#
+#
+#
+#MAX SHOULD BE EQUAL TO NUMBER OF 'NORMAL' ITEMS in shop (exception - if there is no 'always' items, lie in 'weapons' shop).
+#
+#
+#
 # normal: type name : item name (for the normal stocking list) : rarity : price
 #         factor
 # always: type name : ?item name (for things to always stock)
@@ -64,11 +68,11 @@ welcome:8:"I am entirely at your service, %s."
 # General store
 store:General Store
 type:1
-owner:5000:Bilbo the Friendly (Hobbit)
-owner:10000:Rincewind the Chicken (Human)
+owner:5000:Pilbo the Friendly (Halfling)
+owner:10000:Rinsewint the Chicken (Human)
 owner:20000:Snafu the Midget (Gnome)
 owner:30000:Lyar-el the Comely (Elf)
-slots:0:3
+slots:2:6
 turnover:2
 always:cloak:Cloak
 always:light:Wooden Torch
@@ -81,7 +85,9 @@ always:scroll:House Creation
 normal:light:Lantern
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
-normal:fortune cookie:Fortune Cookie:1:300
+normal:food:Hard Biscuit:10:500
+normal:food:Ration of Food:10:500
+normal:food:Slime Mold:10:500
 buy:light
 buy:digger
 buy:horn
@@ -126,7 +132,7 @@ buy:dragon armour
 store:Weapon Smiths
 owner:5000:Ithyl-Mak the Beastly (Half-Troll)
 owner:10000:Arndal Beast-Slayer (Half-Elf)
-owner:25000:Tarl Beast-Master (Hobbit)
+owner:25000:Tarl Beast-Master (Halfling)
 owner:30000:Oglign Dragon-Slayer (Dwarf)
 slots:3:14
 turnover:9
@@ -160,14 +166,10 @@ normal:bow:Sling
 normal:bow:Short Bow
 normal:bow:Long Bow
 normal:bow:Light Crossbow
-buy:shot
-buy:bolt
-buy:arrow
 buy:bow
 buy:sword
 buy:polearm
 buy:hafted
-buy:rock
 buy:mage staff
 
 # Temple
@@ -177,7 +179,7 @@ owner:15000:Ludwig the Humble (Human)
 owner:20000:Gunnar the Paladin (Human)
 owner:25000:Delilah the Pure (Elf)
 owner:30000:Keldon the Wise (Dwarf)
-slots:6:14
+slots:6:16
 turnover:9
 always:prayer book
 always:potion:Cure Serious Wounds
@@ -209,7 +211,7 @@ buy-flag:BLESSED:polearm
 # Alchemist
 store:Alchemy Shop
 owner:10000:Mauser the Chemist (Half-Elf)
-owner:10000:Wizzle the Chaotic (Hobbit)
+owner:10000:Wizzle the Chaotic (Halfling)
 owner:15000:Ga-nat the Greedy (Gnome)
 owner:15000:Vella the Slender (Human)
 slots:6:9
@@ -235,7 +237,7 @@ owner:15000:Ariel the Sorceress (Half-Elf)
 owner:20000:Buggerby the Great (Gnome)
 owner:25000:Inglorian the Mage (Human)
 owner:30000:Luthien Starshine (High-Elf)
-slots:4:14
+slots:4:15
 turnover:9
 always:magic book
 normal:ring:Searching
@@ -317,6 +319,7 @@ always:rock:Rock
 always:shot:Iron Shot
 always:arrow:Arrow
 always:bolt:Bolt
+always:shot:Rounded Pebble
 #######################################################################
 normal:potion:Cure Light Wounds
 normal:potion:Restore Life Levels
@@ -339,8 +342,8 @@ buy:flask
 
 # Starter town wizard hut
 store:Rinswind the Wizard
-owner:5000:Rinswind the Wizard (Human)
-owner:5000:Rinswind the Wizard (Human)
+owner:5000:Rinswint the Wizard (Human)
+owner:5000:Rinswint the Wizard (Human)
 slots:0:4
 turnover:1
 #######################################################################
@@ -440,7 +443,7 @@ buy:flask
 store:Shtukensia the tavernkeeper
 owner:5000:Shtukensia the tavernkeeper (Human)
 owner:5000:Shtukensia the tavernkeeper (Human)
-slots:0:16
+slots:0:14
 turnover:2
 #######################################################################
 always:fortune cookie:Hi.. Don't look at me with such hungry eyes..
@@ -462,13 +465,11 @@ normal:fortune cookie:Someone should give a lesson to this thiefs...
 ### INSECTS? bleach,, Rotten food!!!!
 ###
 always:potion:Cure Light Wounds
-normal:food:Ration of Food:10:300
-normal:food:Hard Biscuit:10:300
-normal:food:Slime Mold:10:300
+normal:fortune cookie:Fortune Cookie:1:300
 normal:food:Flask of Whisky:10:300
 normal:food:Pint of Fine Wine:10:300
 normal:food:Pint of Fine Ale:10:300
-normal:mushroom:Stoneskin:10:300
+normal:mushroom:Stoneskin:10:500
 normal:potion:Healing:1:500
 normal:potion:Speed:1:500
 normal:potion:Resist Poison:1:500
@@ -503,7 +504,7 @@ buy:flask
 store:Arthur the Archer
 owner:5000:Arthur the Archer (Human)
 owner:5000:Arthur the Archer (Human)
-slots:0:6
+slots:0:10
 turnover:1
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
@@ -521,6 +522,7 @@ normal:fortune cookie:Your strength is in your guts, not muscles..
 normal:fortune cookie:An dont forget to bring me some ale from sewers..
 #######################################################################
 always:rock:Rock
+always:shot:Rounded Pebble
 always:shot:Iron Shot
 always:arrow:Arrow
 always:bolt:Bolt
@@ -528,7 +530,14 @@ always:bolt:Bolt
 normal:shot:Iron Shot
 normal:arrow:Arrow
 normal:bolt:Bolt
-buy:flask
+normal:shot:Rounded Pebble
+normal:arrow:Magic Arrow:1:900
+normal:arrow:Magic Bolt:1:900
+normal:arrow:Magic Shot:1:900
+buy:shot
+buy:bolt
+buy:rock
+buy:arrow
 
 #town
 store:Old man
@@ -592,11 +601,7 @@ owner:25000:Durwin the Shifty (Half-Orc)
 owner:30000:Drago the Fair (Elf)
 slots:6:18
 turnover:9
-#always:potion:Healing
-#always:potion:Speed
-#always:potion:Resist Poison
-#always:potion:Restore Mana
-#always:scroll:Teleportation
+
 
 # Expensive Black Market - no stock given but we still need slot/turnover info
 store:Expensive Black Market

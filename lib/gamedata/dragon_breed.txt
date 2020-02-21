@@ -36,43 +36,45 @@ info:13:100:0
 
 dragon:red:0
 wyrm:hell:0
-info:12:120:1
+info:12:100:1
 
 dragon:black:0
 wyrm:bile:0
-info:11:120:1
+info:3:100:1
 
 dragon:silver:0
 wyrm:Radiance:1
-info:10:120:0
+info:2:100:0
 
 dragon:gold:0
 wyrm:Thunder:1
-info:9:120:0
+info:1:100:0
 
-dragon:shadow:1
-wyrm:shadow:0
-info:8:140:0
+#4 previous D (red-gold) had 120 exp penalty
 
-dragon:water:0
-wyrm:the Deep:1
-info:7:140:0
+#dragon:shadow:1
+#wyrm:shadow:0
+#info:8:140:0
 
-dragon:crystal:1
-wyrm:crystal:0
-info:6:140:0
+#dragon:water:0
+#wyrm:the Deep:1
+#info:7:140:0
 
-dragon:ethereal:1
-wyrm:ethereal:0
-info:1:140:0
+#dragon:crystal:1
+#wyrm:crystal:0
+#info:6:140:0
 
-dragon:chaos:1
-wyrm:Chaos:1
-info:5:160:0
+#dragon:ethereal:1
+#wyrm:ethereal:0
+#info:1:140:0
 
-dragon:law:1
-wyrm:Law:1
-info:4:160:0
+#dragon:chaos:1
+#wyrm:Chaos:1
+#info:5:160:0
+
+#dragon:law:1
+#wyrm:Law:1
+#info:4:160:0
 
 dragon:balance:1
 wyrm:Balance:1
