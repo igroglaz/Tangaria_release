@@ -29,7 +29,7 @@ map:#....,...T..T....,jk...T..,.......T.T......,dbdbd..Texxxxwe...ew.3e..aw..a..
 map:#T.T..T.T....T.T.k.j,.k.j.....T.T.....T.T...ddddd.^.eXceeXeT..ex.xeT.aaaaaaa0ataaaaa.............,........,......,:::::::::.T,hi..TT.TTTT.T,T..,,TTT..TT.TT`::,,TTTT,.T..T.T.TT^^********************#
 map:#.........jT.....j...ataataT............,..TdbbbdT..,...T.....ewxxe.......``.:.,T.,..T.........,...........T.A...T.T.......TkkiT.,TTTTTT,T.T,,.TT.TT.TTTTTT::,,,TTT,TT.T.T.TT.^^*********************#
 map:#.....,.,....,.......aoyqpa.T.T.fffffffff...d.6wW.T...........eXece..T..TT....,:..T.T...T.:.A...............k....,...T.T....k...,TT.T..TT.T...TTTT.TTTT.T.TT.,,,T.T.T..TT....T^**********************#
-map:#,.T.T..........TT...aq..rt.....fffffffff...dddddT...T....TT..,.,.:....T...,..........hh.`....,...........,.T...A.........A.A,,TTT.T,.T......,,.TTTTTT.TTTTT,T:T....TT....^^^^^**********************#
+map:#,.T.T..........TT...aq..rt.....fffffffff...dddddT...T....TT..,.,.:....T...,..........hh.`....,...........,.T...A.........A..,,TTT.T,.T......,,.TTTTTT.TTTTT,T:T....TT....^^^^^**********************#
 map:#...T.,.....T..T...T.ax1pwaT..T.ataataata.........T.......,.........T..T..,...TT...A..hh...,T..............T.,..............TTTTTTTTTT,TT,TTTT,TTTTTTT.TTTT,,...TTTT..T.^^^**************************#
 map:#.T...T...T.TT.....T.aw.nxt.T...ataata0aa....TT..T..bbubb.....TT.,...T..,T......T...........................T.TTT...T.A...TTTTTTTTTT.T,..,,T.TTTTTTTTTTT.T.T.TT....T.T.^^****************************#
 map:#..TTT....T......T...aataaa.T..........T.,.....T....bx4xb.,i.....TT..........TT.T..,....,.TT..............T..T..TT,.TTT,TTT__TTTTTT,,.,T.T`TTTTTTTTTTT...T..T..T..T.T.^^*****************************#
@@ -95,8 +95,8 @@ mask:#01dwqqZ011t01D001F00Bqqqqq4z311110117qqqq31010100110P2222hqq10syP01104fA0f
 mask:#10002qq01001011150BqqQdq1f111111011i111qqqk020201110exxJE01qqdC23001t0335222Axfwyf011ddddddddd6qqG0dddddqqqq1011XmmmmmmmmY1160xz11UNh1086016iFF197860100t99hui0a554Z5qaaa0040Q0000000000000000000000#
 mask:#10110Cqi0110F0i12qx6SDqx11111d1p01011C1rqq10f0f00G00g400c0f1q0j2xi1000t000000300t0010ddddddd1qqq2dddddddd3qqqT006STUSSUSSY1y2xz11NN0gggt0ti8FFid77701f80fh8ii5554cFa0F00J0&0330000000000000000000000#
 mask:#000110qqq3yqqqqq41100A5WY0111101101001121qi0uvc011171qEu000qq0tEx0010010001qJ1611e1111dddddqqq1ddddddddddd`qVqR1r1600011116ijze15hfggz81gFAi1F6707o0fg8f`7ih5555559550Q0J03Q000000000000000000000000#
-mask:#01001E07qqqqd01111100hwo501d1t0ttttttttt1qq526B00e010qq1101qq0504000f11v1FEqq0311p0e111ddEqUq1dddddddddddd0wqqqTE111e161RQ0O011dgf080~77F7FF0ub88088gg0f07g05aa4050&01441101c00000000000000000000000#
-mask:#81o0h0110100110Er101t222D811011ttttttttt1qq0000011101qqq0110q71xqy011011111qqqqqqqq11kl1aqq11adddddddddddB1i1qqZqqqqRqqqq`qV35NNN0oi`0FFF01Fdd0r7687g0fhggg50840000r41100000000000000000000000000000#
+mask:#01001E07qqqqd01111100hwo501d1t0ttttttttt1qq526B00e010qq1101qq0504000f11v1FEqq0311p0e111ddEqUq1dddddddddddd0wqqqTE111e161RE0O011dgf080~77F7FF0ub88088gg0f07g05aa4050&01441101c00000000000000000000000#
+mask:#81o0h0110100110Er101t222D811011ttttttttt1qq0000011101qqq0110q71xqy011011111qqqqqqqq11kl1aqq11adddddddddddB1i1qqZqqqqRqqqq`qQ35NNN0oi`0FFF01Fdd0r7687g0fhggg50840000r41100000000000000000000000000000#
 mask:#010107010011018111F1061370110d10700700701qq110010Cqqqq0qq1qqqqqqqq0101e01sqq01rqqqVqqQRqqqdd1dddddddddddd16121qqqSqqqq1qSTTRNNhh6Nztpt7qihh78phh8Rh8g1gW8haa100Q44Q00Q000000000000000000000000000000#
 mask:#03000e000101t1111161tC2zA81d1100600601001qqq1e101qq03y30qqq10e113qq0101g1qq1101110qqqqqqq1111ddddddddddd111n1U7N1QRNQUQRQNNefN86R7g~uiF1ddhFuhz6V68cPgg06040hh1010&0Q0000000000000000000000000000000#
 mask:#101sf01101001111G111008000110101010010C100qqqq1qqq108490qDm110101Cqqqqqqqq101e011171qqq201d1ddddddddddd11C11111UN51NUN58O8016677q715077Fyb87gggqhghhg001800&00410Q0Q00000000000000000000000000000000#

@@ -1,17 +1,17 @@
 feat:grass:tree:0
 
 map:######################################################################################################################################################################################################
-map:#******T,,TT,TT.TTT.TT...TTTTTT.TTT..TTTTTTT.TTTT.TTTTT.TT.jjjTTTTT..TT.TTT...TTTTTT.TTT..TTTTTT.TTTTTT.TTTTT..,.,.,TTTT..TT.TTTTjjT.TT.TTT.T..TTTTTT.TTTTTT.TTTT************************************#
-map:#*******,TjjTTTTT..TT.TT.TTT.TT.TT.TTTTTTTTTTTTTT,TTjTT,TT.jjTT.TT..TT..TTTTT.TTT.TT..TTT.TTT.TT..TTTTTT.TTT..T.,T,.TT..TTTT.TTTTTTTTTTTT..TTT.TTT.TT..TTTTTT.TT*************************************#
-map:#*******.,jTTTTT.TTTT.TTTT..TT.TTTTTTTT....TTT.j.TTTTjjTTT,jjTT.TTT.TT.,TTTTTTT..TT.TTT.TT...TT.TTT.T.TTT.....TT,T..TT.TTTTT,TTTTTTTTTTT.TTTTTTT..T..TTTTTT.TTTT.************************************#
-map:#*********TTTTTTTTTTT,TTT.TTTT.T.TTTTjjTTTTT.j.TT..TTTT.jjTTTTT.,TT.Tj..TjjT...TTTT..TT.TT.TTTT.TTT.TTT.T,.TTT..T,,....TTTj.TTjTTTTT.TTTTT.TTTT..TTT.TTT.TT...TT.T***********************************#
-map:#*********TTTT.TTTTjjTTTTTTTTT,TTT.Tjj,.TTTT.j,TT,,T.T..,TT.TT...T..jj...TTT.T.T.TT..TT,TT..TTT.TT.TTTTTT..TTTT..,.......TT.TTTTTTTT..TTTT.T.TT......TT...T....TT.TT.T**TT***************************#
-map:#**********,,TTT.TjjTTT.TTTTjj.TTT.jj..,.TT.,.TT...T....,..,.T.,,T..jT.,..T......jjT.jjT.TT.TT.....TT.TTT.TTTTTT..TT....,.,..TTT..j.T.TTj....TTT..T...T..TTT...TT.TT.TT****.TT***********************#
-map:#**********,T.TT.jjTTTTTT..jjT..TT,.,.T,,j,,.TT.,.T.,,.T,,.TT.T.,,,....,,....,..j.T..T...TTT.....T.TTT.T...TTT.TT..T.....,T,....T.T.T........TTT...T..TT..TTT.....TTT.T.T.TTTT***********************#
-map:#*********^T.TTT,jjTTT.TT.T..TT....,....,..,.,T......,T....T..,..............,.j......T..T...T..TTTT..T..TTTTT..TT.T...TT..T...T.........T....TT.......TT.j..T.....T..T....TTTT**********************#
-map:#*********^^^,jj,..TT..TT..,.T.T....,.,,T.TT.,.,,TTT,.TT.T.T,.,T....T.,..........T....T.TTTT..,,TTT......T....T..T.............T...TT.........T............T.....T..T...T..T.TT**********************#
-map:#***********^TT...............T.,.T.,..,,.,j..T...TT..T......T...,,.y.......,.....T......j......jTT....TTT.,...TTT.....T.T.....TT.T...T..TT...........yy...............TT....T.T*********************#
-map:#************...,.T....TTT...T........T....,.,.T.T.,.......,.,........................T...TT......TT..jTT........T.........TTT....T.......T....T......T,.,...T...,...T...T...TT.*********************#
+map:#******T,,TT,TT.TTT.TT...TTTTTT.TTT..TTTTTTT.TTTT.TTTTT.TT.___TTTTT..TT.TTT...TTTTTT.TTT..TTTTTT.TTTTTT.TTTTT..,.,.,TTTT..TT.TTTT__T.TT.TTT.T..TTTTTT.TTTTTT.TTTT************************************#
+map:#*******,T__TTTTT..TT.TT.TTT.TT.TT.TTTTTTTTTTTTTT,TT_TT,TT.__TT.TT..TT..TTTTT.TTT.TT..TTT.TTT.TT..TTTTTT.TTT..T.,T,.TT..TTTT.TTTTTTTTTTTT..TTT.TTT.TT..TTTTTT.TT*************************************#
+map:#*******.,_TTTTT.TTTT.TTTT..TT.TTTTTTTT....TTT._.TTTT__TTT,__TT.TTT.TT.,TTTTTTT..TT.TTT.TT...TT.TTT.T.TTT.....TT,T..TT.TTTTT,TTTTTTTTTTT.TTTTTTT..T..TTTTTT.TTTT.************************************#
+map:#*********TTTTTTTTTTT,TTT.TTTT.T.TTTT__TTTTT._.TT..TTTT.__TTTTT.,TT.T_..T__T...TTTT..TT.TT.TTTT.TTT.TTT.T,.TTT..T,,....TTT_.TT_TTTTT.TTTTT.TTTT..TTT.TTT.TT...TT.T***********************************#
+map:#*********TTTT.TTTT__TTTTTTTTT,TTT.T__,.TTTT._,TT,,T.T..,TT.TT...T..__...TTT.T.T.TT..TT,TT..TTT.TT.TTTTTT..TTTT..,.......TT.TTTTTTTT..TTTT.T.TT......TT...T....TT.TT.T**TT***************************#
+map:#**********,,TTT.T__TTT.TTTT__.TTT.__..,.TT.,.TT...T....,..,.T.,,T.._T.,..T......__T.__T.TT.TT.....TT.TTT.TTTTTT..TT....,.,..TTT.._.T.TT_....TTT..T...T..TTT...TT.TT.TT****.TT***********************#
+map:#**********,T.TT.__TTTTTT..__T..TT,.,.T,,_,,.TT.,.T.,,.T,,.TT.T.,,,....,,....,.._.T..T...TTT.....T.TTT.T...TTT.TT..T.....,T,....T.T.T........TTT...T..TT..TTT.....TTT.T.T.TTTT***********************#
+map:#*********^T.TTT,__TTT.TT.T..TT....,....,..,.,T......,T....T..,..............,._......T..T...T..TTTT..T..TTTTT..TT.T...TT..T...T.........T....TT.......TT._..T.....T..T....TTTT**********************#
+map:#*********^^^,__,..TT..TT..,.T.T....,.,,T.TT.,.,,TTT,.TT.T.T,.,T....T.,..........T....T.TTTT..,,TTT......T....T..T.............T...TT.........T............T.....T..T...T..T.TT**********************#
+map:#***********^TT...............T.,.T.,..,,.,_..T...TT..T......T...,,.y.......,.....T......_......_TT....TTT.,...TTT.....T.T.....TT.T...T..TT...........yy...............TT....T.T*********************#
+map:#************...,.T....TTT...T........T....,.,.T.T.,.......,.,........................T...TT......TT.._TT........T.........TTT....T.......T....T......T,.,...T...,...T...T...TT.*********************#
 map:#***********...................,..,.^..,...,,.......T...^.......,..........................................................................................,...............T.....*****************...#
 map:#***********...y,..y..........,.....,..,...^,...,,.T..^,.,..,,T.......y......y..T....,.....,.....,,..........,.y,.T....,.....,.............,.y,.T....,..,..,......,...T..TTT.....****************....#
 map:#**********........,..,.,..,,..,.^.....,..y......,,.......^,,,.,.....^....,.y.y,.......y........,,.....,....,yyy,,...,...T..........,.....,yyy,,...,...Ty......y,.........TT.T.TT.*************......#
@@ -24,9 +24,9 @@ map:#........,,.........,....y.yy.....,T..,,.,,y.y.y,......,.,...........yy....y
 map:#...,...,............,....yyy....T...,....,..,.,,,,.Ty,...y...........yy...y,y.y..y.y,y,y,....,.....,...yy....,y......y,.yy,...y,......y...yyyyy..y.y,yyy,.......,.......y...,....,...T.......T......#
 map:#.......,.......,..,......,,..........yyT,....,,.y,,.......y..y.....,...,..y.yy..,.yyy..y,...,,...........,..,y..^.,y....yy,...,,,...,..,..yyyy^.,.yyy.yy,.,..y..........,...,..........T..TT....T.T.#
 map:#.........,..........,,.......T.TT,....yyyyy..y.y,yyy,...,,.......,....y.....y..y....y.,y...y.........y..y..,y.y..,....y..y....,.......y..,..y.......y.yy....,.................................T.....#
-map:#........,........T..,....y.y.,T..T.,,.yyyy^.,.yyyyyy,...,,,........,....y.,.....,....,yyy.......,,.....y..yy.,....,....y,,...,.......,..y,,.......y..yyyy...y...,,,......y.....,..T..T.T.jj.....T..T#
-map:#..,..,,..,.^....................jj..T,..y..,....yyyy....,........y.,..,T......,.......,.,.......,...............,......,..........y,....,,.y.......y....,..............y..,.T....,....jj......T...T.#
-map:#.y,,........,..,,............T........,,....,.T>.yyyy.......jj..........,y...,............................y.............,.y...........................,....,.....,........T......,...T...T......TT..#
+map:#........,........T..,....y.y.,T..T.,,.yyyy^.,.yyyyyy,...,,,........,....y.,.....,....,yyy.......,,.....y..yy.,....,....y,,...,.......,..y,,.......y..yyyy...y...,,,......y.....,..T..T.T.__.....T..T#
+map:#..,..,,..,.^....................__..T,..y..,....yyyy....,........y.,..,T......,.......,.,.......,...............,......,..........y,....,,.y.......y....,..............y..,.T....,....__......T...T.#
+map:#.y,,........,..,,............T........,,....,.T>.yyyy.......__..........,y...,............................y.............,.y...........................,....,.....,........T......,...T...T......TT..#
 map:#.,,,,.yyy...yy.y................T......y..,......,,..,.............,,......y.T...,,..y.y.................,...y.T..,....y.............,.....y.T......,..yy........,...................T...T.y........#
 map:#...yyy,,..,.y.........,............T...,........y...y........,.,............y........................yy.,.......,.,,.,..y......,........................^.................T,,...T......,......T.T.T.#
 map:#...yyy.,....,..,.,...............,..T....T.......y.y...........,............,......,.y...,..y.....y..y...........,..................,...,..........,.y.......,......y.,,..,.,.T......T...,.T.,......#
@@ -48,9 +48,9 @@ map:#T.....,...,..y,.,..,.........,.......^.....................Ty....y,.T..,Tyy
 map:#.,..T..T...T.,y..,........y.,.,,..T..y....y,^..............,..^....y............,..,.,......TT..T......,...y,.,...,.T..T.T..y.....^..........y.........,T..,............,....,...,........T....T....#
 map:#..,...TT.y.........T..T..T....TT.,.,..,.,.y....T.....TTT,...,.......T.y...T....,.,.y...TT..TT........y...,.........TT.T...................T.........T..TT....T.T.....T..T..T...T..TTT..T....T.......#
 map:#.T.........y........T...T...........T.T........y..y.,T.Ty................,......,...T.T.....T...T..T...,...y............,....,....,.,T.yy.,....TT......TTT,...y...T.T....T...T.........T.........TT.#
-map:#T..........T....T.T..........T...T........TT.T.....TT.T.T....T...jj....^........T....T..........T....T.T..........T...T......,.TT.T.........T.....T.T.j,.,...T..T....T...........TT.T.....T...T.....#
-map:#.....T..,...TT...T..............,............TT..T..T.T,T.,..,.j......T...T...............T..,...TT...T..............,............TT..T.T......,...jj..,.T.T...TT...................TT..T........,..#
-map:#.TT......T.....T.......jj.T...T.T..,.TT.T....T.....TTTTT.T..yT,..T......TT..T.....TT..TT......T.....T.......Tj.T...T.T..,T,T.T....T.....T.........T...TT..T..TT.TT..,..T....TT.T....T...............#
+map:#T..........T....T.T..........T...T........TT.T.....TT.T.T....T...__....^........T....T..........T....T.T..........T...T......,.TT.T.........T.....T.T._,.,...T..T....T...........TT.T.....T...T.....#
+map:#.....T..,...TT...T..............,............TT..T..T.T,T.,..,._......T...T...............T..,...TT...T..............,............TT..T.T......,...__..,.T.T...TT...................TT..T........,..#
+map:#.TT......T.....T.......__.T...T.T..,.TT.T....T.....TTTTT.T..yT,..T......TT..T.....TT..TT......T.....T.......T_.T...T.T..,T,T.T....T.....T.........T...TT..T..TT.TT..,..T....TT.T....T...............#
 map:#.T.T..T.,..T........T.,....T...................T..TT,T,,.y..,TT..T..TT.....T..T..Ty,..T.T..T.,..T...,....T.,TT..T........T,T........T..TTT..T.T...T...TT.,TT....T..T..T...,...........T..T.,..T.T...#
 map:#......T..T..T.T..T.T..T.T.T.TT..TT.T...T,T,T..T..TT,,T.T.T..T.,T....,TT.T.,T.T...TTy....T,TT..T..T.T.TT.T..TTT.T.TT..TT.TT.TT.T.T..T..TTTT..T..,....T..T...T.T.TT.T.T.T.T.....T.T.T..T..TT....T.....#
 map:#.T..,..T...,T......T.T...,.,...,...T.T.T..TTT.....T,TTTT.T..TT.T.T.TTT....,,,TT....T.,T.T,T,T...,T.y.T..T.T.T.T.....,...TTTT.....T......TT.T...TT.T.T.TTT.,TT...,,TT.T......T......T..TT..,..T......#
@@ -63,7 +63,7 @@ map:#,,.TTTTT..T.,...,........T..T,yTTyT,..T.,TTyTTTTTTTTTTyTTTTT.,,T.TTTTTT,...
 map:#TTTTT,,TTT,TTTTTTT......,TTTTTT,TTT,yTTTT.T,TTy,TTTT...T,,T,TTTy,TTTTTTTTTT,TTTTTTTTTTT..T.TTTT.TT,TT..T,TTTyTTT,Ty,,T.T,,T,T,T,,T.TTTTTTTTy.,T.TTTTTTTTTTTTy,TT,TTTTTTTTTTTTT..TTTyTTTTT.T,T..T...T#
 map:#,.TTyTTT,T,TTTTyTT.TTTTTTTTTTTT.TT.,TTTTTTT.TTT.TT,.TTTTTTTyTTTT..TTTTTTTT,TT,,.T.TTyTTTTTTyT.TTTTTTTTTTTT,,yT,TTT.TTTT,TTTTTTTTTTTTTyTT.T.TTTT,TTTTTTTTyTyTT.TT,TTTT..,,TT,..TTTT,,TTTT.T,yT..TTT.y#
 map:#TTTTTTyTTTTTT,T,T.TTyTTy.T.T.TTTTT,TT.TTT..T,.TTTTTTTT..TT,T....TT,,TT,TTTTTTT.TTT..TTT.Ty...TTTTyTT,TTyTTTTTTTTT.TTTTT,.TT,TTTTT.T.TTTT..TTTT,TTT,....,TTTTTTTTTTTT,TyTT,...TT.,TTTTT.TTT...TTTy.,.#
-map:#TTTTT.,TTyTT,,T,TTTTTTTTTTTTTTTTTTyTTy,T,T,,TT.y,.TTTTTTT...TTT.yTT.,TTTTTTT.TyTT.T,,T.TT.TyTT.,T,,T,TTTT,TTTTT,TTTT,.y,TTT.TT.yT,TTT,TyTT,TTT....T.TTTj.TTTTTTTTTTTTTT....TT.TT,TTTTTTT..T..,TTTT..#
+map:#TTTTT.,TTyTT,,T,TTTTTTTTTTTTTTTTTTyTTy,T,T,,TT.y,.TTTTTTT...TTT.yTT.,TTTTTTT.TyTT.T,,T.TT.TyTT.,T,,T,TTTT,TTTTT,TTTT,.y,TTT.TT.yT,TTT,TyTT,TTT....T.TTT_.TTTTTTTTTTTTTT....TT.TT,TTTTTTT..T..,TTTT..#
 map:#TTTTT,,TTTTT.T.....T..,.TTTTT,T..,.T.,.T.,yTTTT.TTTT,...T,T,....TT,T,TTT...TTT,.TTT...T,TTTT,T.,TTT.....T..,..TT.TT.,TTTT.TT,Ty....TTTT..,T,........TT,TTT.........,.......TTTT.,..TTT.....,.TyTTT..#
 map:######################################################################################################################################################################################################
 
@@ -93,7 +93,7 @@ mask:#Bw0ADAw1y00BBwB1ww6Nw0000010EB0wwFBMw44i5CCCC11x447SSZywwF4Bw4D000w500y0wx
 mask:#00000wD000D0BBB000ww110y00wywi0ii7DDDC44444Aw4C44444ayD016wDwMDww10w0w4y00004wy4wxC04D14wwy40wBwzz00D20y4yw1404Ay6w01w4Aw4ww1000zw0Bwy4yw10w4D0wwx004C44ww100wyBzz000D0wCD0www0111001111111011111111#
 mask:#0wxBxDx00w00wBB00twB1B0Ew4B4w7i00iz66w4444Gy6C4444446yww617DDwwwwy01yDyD4y6Dy00w6w0C01444zy0w00w110BwzB4yD44H6yw006C000461w0y1MBzwDDB1yD416Bww00Ew4A044440y04wzw1110wDwwF4w0Bw0100111x1Z1wx11111C11e#
 mask:#0w1xx000000GB0y00wDBBBwB0BB00w0023zzi60w4Ay6wxCS4444ww1000zBzz0004w1D01tw0ywy06Nw00000105w00B00D100ww0D00BDwwwyw6Nw0w000w0y000BD0w40D00B10w2ywEEw0040wA010w0B0yDw00ww0D4ww30t00A01000123000000u000C1#
-mask:#0411CCCw0BBw10C65xxDBBBBBBw00iwDwwzBww66yw006wp>S44440y0MBzw2300N0ww00w014w0w6ww000yw0wy000DwD00w0B0ww00Bw4Dw0A0ww00w0w01y4yDwD0wy0w00BwAw0DA0wwE0Ew0000DwD600y0w10Aw0wAAw10Dwww01D01c000100w0101100#
+mask:#0411CCCw0BBw10C65xxDBBBBBBw00iwDwwzBww66yw006wp6S44440y0MBzw2300N0ww00w014w0w6ww000yw0wy000DwD00w0B0ww00Bw4Dw0A0ww00w0w01y4yDwD0wy0w00BwAw0DA0wwE0Ew0000DwD600y0w10Aw0wAAw10Dwww01D01c000100w0101100#
 mask:#01011w441w0w44C4wxxx0DBBB00Bwwwwiw0zDDw4yw6NwSSSS010y0y0BD0Dw00wB0D11w0wz1D20tw1H11BD4M4yDCwwDD00wz0DDDw01wwB20tw11M0Ew4D0yDCw0w0ADDD6010ww20tw1EE0D1wE44xCwwD0001DFwDw00wDwC00000011t010114y0001001#
 mask:#00044461x0101xBwwxBxAA1xBDBDw0wwwwwiDBw0A0wwS00y4Swy4y0DD000w1D100w0ww0BDDwz4wDB0Hww0w0B0B00yDAwww0ww42w7zwwwzBw1w11w10w4C0DwC0100w0www10wyzBwDB0EAwwE00GBwwww0wwwFF000000t11000t0A0000011w1001060y1#
 mask:#0004440100008wy0w1xxDwDx0ABADwD0w7wwizDw0tw1HM0Ew4M4yDCw0DD00wD6w0wwwww0wCwH6BzDBDD1w400B1A02wwDDw4z04z000ww00DBz1wH0ADD000wA01AD01w1Dw00w0wDBzDB0D1H4w0BwAxA1wDFFCD4011w0106w10ww11010006wh0E011101#

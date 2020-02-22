@@ -45,7 +45,10 @@
 # 'rule-flags' are monster flags checked by the rule
 # 'rule-spells' are monster spell flags checked by the rule
 # 'rule-symbols' are monster symbols checked by the rule
-
+#
+# number before dungeon name - max player lvl to enter
+# the dungeon... and at endgame 50+: lvl of monsters (1-127) who lives there
+#
 
 #80 Main Angband dungeon
 name:Angband
@@ -55,6 +58,7 @@ max-depth:100
 rule:100:1
 
 # 1
+################################################################################
 name:The Old Ruins
 wpos:0:0
 min-depth:1
@@ -68,7 +72,7 @@ name:The Mountain Gorge
 wpos:1:0
 min-depth:2
 max-depth:5
-max-level:6
+max-level:5
 flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:8
 floor:water:2
@@ -85,7 +89,7 @@ name:The Orc Cave
 wpos:1:1
 min-depth:4
 max-depth:12
-max-level:13
+max-level:10
 flags:CAVERN
 floor:packed dirt:10
 wall:mountain:10
@@ -101,7 +105,7 @@ name:The Severs
 wpos:0:1
 min-depth:8
 max-depth:15
-max-level:16
+max-level:15
 flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:8
 floor:water:2
@@ -110,12 +114,12 @@ rule:20:0
 rule-symbols:p
 rule:80:1
 
-# 15 (boss: Komurik the Terrific)
+# 20 (boss: Komurik the Terrific)
 name:Fetid Swamps
 wpos:-1:0
 min-depth:12
 max-depth:20
-max-level:21
+max-level:20
 flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:8
 floor:water:2
@@ -132,7 +136,7 @@ name:The Orc Mountains
 wpos:1:2
 min-depth:15
 max-depth:23
-max-level:24
+max-level:20
 flags:CAVERN
 floor:packed dirt:10
 wall:mountain:10
@@ -143,12 +147,12 @@ rule:30:0
 rule-flags:TROLL
 rule:20:1
 
-# 20 (boss: Old Man Willow)
+# 25 (boss: Old Man Willow)
 name:The Old Forest
 wpos:0:-1
 min-depth:18
 max-depth:25
-max-level:26
+max-level:25
 flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:8
 floor:water:2
@@ -165,7 +169,7 @@ name:Abandoned Manor
 wpos:-1:2
 min-depth:21
 max-depth:27
-max-level:30
+max-level:25
 floor:packed dirt:10
 wall:water:3
 rule:30:0
@@ -174,7 +178,7 @@ rule:30:0
 rule-flags:UNDEAD
 rule:75:1
 
-# 25 (boss: The Sandworm Queen)
+# 30 (boss: The Sandworm Queen)
 name:The Sandworm Lair
 wpos:-2:2
 min-depth:23
@@ -188,12 +192,12 @@ rule-symbols:w
 rule:10:0
 rule-flags:MULTIPLY
 
-# 30 (boss: Ulfang the Black)
+# 35 (boss: Ulfang the Black)
 name:The Land Of Rhun
 wpos:0:-2
 min-depth:27
 max-depth:34
-max-level:40
+max-level:35
 floor:grass:10
 wall:tree:3
 wall:water:3
@@ -203,12 +207,12 @@ rule:30:0
 rule-flags:ANIMAL
 rule:40:1
 
-# 30 (boss: The Wight-King of the Barrow-downs)
+# 35 (boss: The Wight-King of the Barrow-downs)
 name:The Barrow-downs
 wpos:0:2
 min-depth:28
 max-depth:35
-max-level:40
+max-level:35
 floor:packed dirt:8
 floor:grass:2
 wall:tree:3
@@ -222,7 +226,7 @@ name:The Maze
 wpos:-1:-1
 min-depth:33
 max-depth:40
-max-level:40
+max-level:35
 flags:MAZE
 rule:20:0
 rule-symbols:p
@@ -233,7 +237,7 @@ name:The Small Water Cave
 wpos:-1:3
 min-depth:35
 max-depth:45
-max-level:45
+max-level:35
 floor:water:10
 wall:mountain:10
 rule:40:0
@@ -249,31 +253,31 @@ name:The Heart of the Earth
 wpos:-1:-2
 min-depth:38
 max-depth:45
-max-level:45
+max-level:40
 rule:40:0
 rule-symbols:#XgE
 rule:30:0
 rule-flags:PASS_WALL | KILL_WALL | HURT_ROCK
 rule:30:1
 
-#45 (boss: The White Balrog)
+#40 (boss: The White Balrog)
 name:The Helcaraxe
 wpos:0:4
 min-depth:42
 max-depth:50
-max-level:45
+max-level:40
 flags:CAVERN | WATER_RIVER
 floor:ice:10
 wall:ice wall:10
 rule:100:0
 rule-flags:IM_COLD
 
-#45 (boss: The Balrog of Moria)
+#40 (boss: The Balrog of Moria)
 name:The Mines of Moria
 wpos:1:3
 min-depth:43
 max-depth:50
-max-level:45
+max-level:40
 flags:WATER_RIVER
 floor:packed dirt:10
 wall:mountain:10
@@ -299,7 +303,7 @@ rule-flags:RAND_50 | EMPTY_MIND | INVISIBLE | PASS_WALL | KILL_WALL | MULTIPLY
 rule-spells:BR_CHAO | CONF | FORGET | TRAPS
 rule:30:1
 
-#50 (boss: Shelob, Spider of Darkness)
+#45 (boss: Shelob, Spider of Darkness)
 name:Cirith Ungol
 wpos:-2:-1
 min-depth:47
@@ -317,7 +321,7 @@ rule-flags:ORC
 rule-symbols:wmj
 rule:2:1
 
-#50 (boss: Ar-Pharazon the Golden)
+#45 (boss: Ar-Pharazon the Golden)
 name:Numenor
 wpos:-2:3
 min-depth:47
@@ -329,7 +333,7 @@ rule:80:0
 rule-flags:IM_WATER
 rule:20:1
 
-#60 (boss: Radagast the Brown)
+#49 (boss: Radagast the Brown)
 name:Mirkwood
 wpos:0:-3
 min-depth:55
@@ -342,7 +346,7 @@ rule:25:0
 rule-symbols:S
 rule:75:1
 
-#60 (boss: The Mouth of Sauron)
+#49 (boss: The Mouth of Sauron)
 name:Mordor
 wpos:1:-1
 min-depth:56
@@ -355,7 +359,7 @@ wall:mountain:5
 rule:100:1
 
 #lonely mountain
-#60 (boss: Glaurung, Father of the Dragons)
+#49 (boss: Glaurung, Father of the Dragons)
 name:Erebor
 wpos:-1:-3
 min-depth:60
@@ -371,7 +375,7 @@ rule:30:0
 rule-symbols:d
 rule:10:1
 
-#60 (boss: Trone, the Rebel Thunderlord)
+#49 (boss: Trone, the Rebel Thunderlord)
 name:The Sacred Land Of Mountains
 wpos:2:2
 min-depth:62
@@ -381,7 +385,7 @@ floor:grass:10
 wall:mountain:10
 rule:100:1
 
-#70 (boss: The Necromancer of Dol Guldur)
+#49 (boss: The Necromancer of Dol Guldur)
 name:Dol Guldur
 wpos:-2:0
 min-depth:63
@@ -398,7 +402,7 @@ rule:10:0
 rule-flags:ORC | TROLL
 rule:10:1
 
-#70 (boss: Feagwath, the Undead Sorcerer)
+#49 (boss: Feagwath, the Undead Sorcerer)
 name:The Paths of the Dead
 wpos:-1:-4
 min-depth:66
@@ -415,7 +419,7 @@ rule:5:1
 
 #### ANGBAND for 50 lvl (at beginning)
 
-#90 (boss: The Balrog of the Sammath Naur)
+#50 (boss: The Balrog of the Sammath Naur)
 name:Mount Doom
 wpos:1:-2
 min-depth:84

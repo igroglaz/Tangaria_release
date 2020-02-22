@@ -532,8 +532,8 @@ normal:arrow:Arrow
 normal:bolt:Bolt
 normal:shot:Rounded Pebble
 normal:arrow:Magic Arrow:1:900
-normal:arrow:Magic Bolt:1:900
-normal:arrow:Magic Shot:1:900
+normal:bolt:Magic Bolt:1:900
+normal:shot:Magic Shot:1:900
 buy:shot
 buy:bolt
 buy:rock

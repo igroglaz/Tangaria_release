@@ -16611,195 +16611,269 @@ desc:.
 # F8 stair down
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+#5
 name:stair down 0
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Entrance to The Mountain Gorge. Next (<10 lvl): The Orc Cave [1,1]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#10
 name:stair down 1
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Entrance to The Orc Cave. Next dungeon (<15 lvl): The Severs [0,1]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#15
 name:stair down 2
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Entrance to The Severs. Next dungeon (<20 lvl): Fetid Swamps [-1,0]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#20
 name:stair down 3
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (<25 lvl): The Orc Mountains [1,2]; The Old Forest [0,-1]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#25
 name:stair down 4
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (<30 lvl): Abandoned Manor [-1,2]; The Sandworm Lair [-2, 2]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#30
 name:stair down 5
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (<35 lvl): The Land Of Rhun [0,-2]; The Barrow-downs [0,2]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#35
 name:stair down 6
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (<40 lvl): Maze [-1,-1], Small Water Cave [-1,3], HotE [-1,-2]..
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#40
 name:stair down 7
 graphics:>:s
 priority:18
+################################################################################
+short-desc:<45: HCA [0,4], Moria [1,3], IC [-2,1], CU [-2, -1], Numenor [-2,3]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#45
 name:stair down 8
 graphics:>:s
 priority:18
+################################################################################
+short-desc:<50lvl: Mirkwood [0,-3], Mordor [1,-1], Erebor [-1,-3], SLoM [2,2]...
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#50
 name:stair down 9
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down a
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down b
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down c
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down d
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down e
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down f
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down g
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down h
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down i
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down j
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down k
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down l
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down m
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down n
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down o
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down p
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down q
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down r
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down s
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down t
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down u
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down v
 graphics:>:s
 priority:18
+################################################################################
+short-desc:Next (< lvl):  [,]
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
