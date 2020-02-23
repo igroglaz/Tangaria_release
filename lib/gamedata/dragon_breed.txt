@@ -24,33 +24,34 @@
 
 dragon:white:0
 wyrm:ice:0
-info:15:100:1
+info:1:100:1
 
 dragon:blue:0
 wyrm:storm:0
-info:14:100:1
-
-dragon:green:0
-wyrm:swamp:0
-info:13:100:0
+info:1:100:1
 
 dragon:red:0
 wyrm:hell:0
-info:12:100:1
+info:1:100:1
 
 dragon:black:0
 wyrm:bile:0
-info:3:100:1
-
-dragon:silver:0
-wyrm:Radiance:1
-info:2:100:0
-
-dragon:gold:0
-wyrm:Thunder:1
-info:1:100:0
+info:1:100:1
 
 #4 previous D (red-gold) had 120 exp penalty
+
+#WASN'T IMMUNE!
+#dragon:green:0
+#wyrm:swamp:0
+#info:1:100:0
+
+#dragon:silver:0
+#wyrm:Radiance:1
+#info:2:100:0
+
+#dragon:gold:0
+#wyrm:Thunder:1
+#info:1:100:0
 
 #dragon:shadow:1
 #wyrm:shadow:0
@@ -76,14 +77,14 @@ info:1:100:0
 #wyrm:Law:1
 #info:4:160:0
 
-dragon:balance:1
-wyrm:Balance:1
-info:3:180:0
+#dragon:balance:1
+#wyrm:Balance:1
+#info:3:180:0
 
-dragon:multi-hued:0
-wyrm:Many Colours:1
-info:2:180:0
+#dragon:multi-hued:0
+#wyrm:Many Colours:1
+#info:2:180:0
 
-dragon:power:0
-wyrm:Power:1
-info:1:200:0
+#dragon:power:0
+#wyrm:Power:1
+#info:1:200:0

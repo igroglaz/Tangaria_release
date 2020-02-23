@@ -253,7 +253,7 @@ name:High Men
 skill-disarm-phys:4
 skill-disarm-magic:4
 skill-device:5
-skill-save:5
+skill-save:-5
 skill-stealth:0
 skill-search:3
 skill-melee:15
@@ -275,7 +275,7 @@ name:High-Elf
 skill-disarm-phys:4
 skill-disarm-magic:4
 skill-device:20
-skill-save:20
+skill-save:-20
 skill-stealth:0
 skill-search:10
 skill-melee:10
@@ -287,11 +287,11 @@ history:7:100:30
 height:90:10:82:10
 weight:190:20:180:15
 obj-flag:25:SEE_INVIS
-value:1:STR[0+1d49]
-value:1:INT[0+1d16]
-value:1:WIS[-1]
-value:1:DEX[0+1d16]
-value:50:CON[1]
+value:0:STR[0+1d49]
+value:0:INT[0+1d16]
+value:0:WIS[-1]
+value:0:DEX[0+1d16]
+value:0:CON[1]
 value:1:INFRA[1+1d16]
 value:50:RES_LIGHT[1]
 value:50:STEALTH[2]
@@ -342,15 +342,15 @@ player-flags:ANIMAL
 name:Ent
 skill-disarm-phys:5
 skill-disarm-magic:5
-skill-device:0
+skill-device:-16
 skill-save:20
 skill-stealth:-6
 skill-search:2
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-#add one more HP (V is 14)
-info:13:125
+#hp was 13
+info:11:125
 history:94:255:70
 height:180:6:150:4
 weight:255:25:230:20
@@ -378,17 +378,17 @@ player-flags:GIANT
 
 #got hardcoded full ESP with expanding radius
 name:Thunderlord
-skill-disarm-phys:6
-skill-disarm-magic:6
+skill-disarm-phys:-6
+skill-disarm-magic:-6
 skill-device:0
 skill-save:10
 skill-stealth:-16
-skill-search:10
+skill-search:-10
 skill-melee:15
 skill-shoot:5
 skill-dig:0
 #add one more HP (V is 12)
-info:11:125
+info:10:125
 history:89:14:6
 height:180:6:150:4
 weight:255:25:230:20
@@ -407,9 +407,9 @@ value:50:RES_ELEC[1]
 player-flags:THUNDERLORD
 
 name:Dragon
-skill-disarm-phys:6
-skill-disarm-magic:6
-skill-device:0
+skill-disarm-phys:-16
+skill-disarm-magic:-16
+skill-device:-16
 skill-save:10
 skill-stealth:-16
 skill-search:10
@@ -417,13 +417,14 @@ skill-melee:15
 skill-shoot:5
 skill-dig:0
 #add one more HP (V is 13)
-info:12:125
+info:10:125
 history:98:255:70
 height:180:6:150:4
 weight:255:25:230:20
 obj-flag:1:FEATHER
 value:1:INFRA[1]
 value:50:RES_NEXUS[1]
+#stat increase doesn't work for dragons (hardcoded)
 value:1:STR[-10+1d5]
 value:1:INT[-10+1d5]
 value:1:WIS[-10+1d5]
@@ -486,8 +487,8 @@ skill-device:3
 skill-save:1
 skill-stealth:0
 skill-search:2
-skill-melee:2
-skill-shoot:4
+skill-melee:-2
+skill-shoot:-4
 skill-dig:0
 info:10:125
 history:100:14:6
@@ -506,7 +507,7 @@ value:1:TUNNEL[-1+-1d15]
 name:Barbarian
 skill-disarm-phys:-2
 skill-disarm-magic:-2
-skill-device:-7
+skill-device:-14
 skill-save:2
 skill-stealth:0
 skill-search:1
@@ -536,8 +537,8 @@ skill-device:11
 skill-save:2
 skill-stealth:0
 skill-search:3
-skill-melee:0
-skill-shoot:0
+skill-melee:-5
+skill-shoot:-5
 skill-dig:20
 info:10:125
 history:100:35:15
@@ -582,8 +583,8 @@ player-flags:ORC
 
 #half-giant.. giant blood, heritage
 name:Half-Giant
-skill-disarm-phys:-6
-skill-disarm-magic:-6
+skill-disarm-phys:-16
+skill-disarm-magic:-16
 skill-device:-10
 skill-save:-3
 skill-stealth:-2
@@ -612,8 +613,8 @@ obj-flag:1:NO_TELEPORT
 
 #Swamp troll
 name:Ogre
-skill-disarm-phys:-4
-skill-disarm-magic:-3
+skill-disarm-phys:-8
+skill-disarm-magic:-6
 skill-device:-3
 skill-save:-3
 skill-stealth:-1
@@ -635,9 +636,9 @@ value:1:INFRA[1+1d7]
 obj-flag:1:SUST_INT
 
 name:Troll
-skill-disarm-phys:-8
-skill-disarm-magic:-8
-skill-device:-10
+skill-disarm-phys:-18
+skill-disarm-magic:-18
+skill-device:-16
 skill-save:-10
 skill-stealth:-4
 skill-search:-10
@@ -663,9 +664,9 @@ value:35:RES_SHARD[1]
 player-flags:TROLL
 
 name:Orc
-skill-disarm-phys:-4
-skill-disarm-magic:-4
-skill-device:-5
+skill-disarm-phys:-8
+skill-disarm-magic:-8
+skill-device:-10
 skill-save:-5
 skill-stealth:-1
 skill-search:-1
@@ -693,10 +694,10 @@ skill-disarm-phys:0
 skill-disarm-magic:1
 skill-device:3
 skill-save:0
-skill-stealth:3
+skill-stealth:2
 skill-search:5
 skill-melee:-10
-skill-shoot:10
+skill-shoot:5
 skill-dig:0
 info:9:125
 history:100:15:10
@@ -716,7 +717,7 @@ name:Dark Elf
 skill-disarm-phys:5
 skill-disarm-magic:3
 skill-device:2
-skill-save:6
+skill-save:-16
 skill-stealth:0
 skill-search:7
 skill-melee:15
@@ -739,8 +740,8 @@ value:1:RES_LIGHT[-1]
 value:1:STEALTH[1+1d15]
 
 name:Werewolf
-skill-disarm-phys:-5
-skill-disarm-magic:-5
+skill-disarm-phys:-15
+skill-disarm-magic:-15
 skill-device:-8
 skill-save:2
 skill-stealth:-2
@@ -768,13 +769,13 @@ brand:50:CUT_2
 player-flags:ANIMAL
 
 name:Undead
-skill-disarm-phys:-5
-skill-disarm-magic:-5
+skill-disarm-phys:-15
+skill-disarm-magic:-15
 skill-device:-5
 skill-save:5
 skill-stealth:-3
 skill-search:-10
-skill-melee:0
+skill-melee:-5
 skill-shoot:-15
 skill-dig:0
 info:11:125
@@ -812,7 +813,7 @@ skill-melee:10
 skill-shoot:-10
 skill-dig:0
 #add one more HP (V is 11)
-info:10:125
+info:9:125
 history:100:11:4
 height:72:6:66:4
 weight:160:10:140:10
@@ -842,7 +843,7 @@ brand:1:VAMPIRIC
 name:Enlightened
 skill-disarm-phys:2
 skill-disarm-magic:4
-skill-device:20
+skill-device:-20
 skill-save:3
 skill-stealth:0
 skill-search:1
@@ -850,7 +851,7 @@ skill-melee:15
 skill-shoot:5
 skill-dig:0
 #add one more HP (V is 11)
-info:10:125
+info:9:125
 history:100:11:4
 height:72:6:68:4
 weight:175:25:140:20
@@ -879,7 +880,7 @@ brand:50:COLD_2
 name:Cambion
 skill-disarm-phys:2
 skill-disarm-magic:4
-skill-device:20
+skill-device:-20
 skill-save:3
 skill-stealth:0
 skill-search:1
@@ -887,7 +888,7 @@ skill-melee:15
 skill-shoot:5
 skill-dig:0
 #add one more HP (V is 11)
-info:10:125
+info:9:125
 history:100:11:4
 height:74:6:70:4
 weight:175:25:140:20
@@ -918,7 +919,7 @@ obj-flag:10:DRAIN_EXP
 name:Celestial
 skill-disarm-phys:0
 skill-disarm-magic:0
-skill-device:8
+skill-device:-20
 skill-save:8
 skill-stealth:2
 skill-search:2
@@ -926,7 +927,7 @@ skill-melee:10
 skill-shoot:7
 skill-dig:0
 #add one more HP (V is 11)
-info:10:125
+info:9:125
 history:100:11:4
 height:85:6:78:4
 weight:170:15:140:10
@@ -950,7 +951,7 @@ brand:50:ELEC_2
 name:Balrog
 skill-disarm-phys:-3
 skill-disarm-magic:-3
-skill-device:8
+skill-device:-20
 skill-save:15
 skill-stealth:-2
 skill-search:1
@@ -958,7 +959,7 @@ skill-melee:20
 skill-shoot:0
 skill-dig:0
 #add one more HP (V is 13)
-info:12:125
+info:11:125
 history:100:11:4
 height:150:10:140:7
 weight:220:15:200:10
@@ -989,7 +990,7 @@ name:Nephalem
 skill-disarm-phys:0
 skill-disarm-magic:0
 skill-device:0
-skill-save:10
+skill-save:-10
 skill-stealth:0
 skill-search:0
 skill-melee:0
@@ -1011,9 +1012,9 @@ value:50:RES_LIGHT[1]
 value:50:RES_DARK[1]
 
 name:Gargoyle
-skill-disarm-phys:-4
-skill-disarm-magic:-4
-skill-device:0
+skill-disarm-phys:-14
+skill-disarm-magic:-14
+skill-device:-5
 skill-save:9
 skill-stealth:-2
 skill-search:-3
@@ -1048,9 +1049,9 @@ obj-flag:1:IMPAIR_HP
 obj-flag:1:IMPAIR_MANA
 
 name:Golem
-skill-disarm-phys:-6
-skill-disarm-magic:-6
-skill-device:-5
+skill-disarm-phys:-16
+skill-disarm-magic:-16
+skill-device:-15
 skill-save:7
 skill-stealth:-3
 skill-search:-10
