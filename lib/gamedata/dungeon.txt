@@ -64,6 +64,9 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:2
+#floor:B3 floors n:1
+wall:big dark wall 0:11
+wall:big dark wall b window:1
 flags:EMPTY
 rule:100:1
 

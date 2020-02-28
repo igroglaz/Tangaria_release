@@ -46,7 +46,7 @@ mon-gen:ood-amount:10
 mon-play:break-glyph:550
 
 # High value slows multiplication
-mon-play:mult-rate:8
+mon-play:mult-rate:9
 
 # Percent of player exp drained per hit
 mon-play:life-drain:2
@@ -157,7 +157,7 @@ carry-cap:floor-size:23
 store:inven-max:24
 
 # Number of turns between turnovers
-store:turns:75
+store:turns:100
 
 # 1/Chance (per day) of an owner changing
 store:shuffle:25
