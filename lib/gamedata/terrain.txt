@@ -5006,57 +5006,57 @@ resist-flag:IM_WATER
 name:wooden walls 0 solid
 graphics:#:u
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls 1 solid corner
 graphics:#:u
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls 2 empty window
 graphics:#:u
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls 3 window
 graphics:#:u
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls 4 barred window
 graphics:#:u
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls 5 door
 graphics:+:U
 priority:24
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:wooden walls 6 door
 graphics:+:U
 priority:24
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 #statue
 name:wooden walls 7
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #fountain
 name:wooden walls 8
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 ### WINDOWS FURTHER ON
@@ -5064,139 +5064,139 @@ desc:.
 name:wooden walls 9
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls a
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls b
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls c
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls d
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls e
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls f
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls g
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls h
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls i
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls j
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls k
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls l
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls m
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls n
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls o
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls p
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls q
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls r
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls s
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls t
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls u
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:wooden walls v
 graphics:#:u
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -5207,195 +5207,195 @@ desc:.
 name:wooden walls w
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls x
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #fireplace
 name:wooden walls y
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:wooden walls z
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls A
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls B
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls C
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls D
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls E
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls F
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls G
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls H
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls I
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls J
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls K
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls L
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls M
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls N
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls O
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls P
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls Q
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls R
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls S
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls T
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls U
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls V
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #pitcher on the wall
 name:wooden walls W
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls X
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls Y
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:wooden walls Z
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:wooden walls ~
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:wooden walls `
 graphics:#:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 
@@ -5403,197 +5403,196 @@ desc:.
 # B9 - dark wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:dark wall 0
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:MAGMA| WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:dark wall 1 narrow window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall 2 window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall 3 candelabra
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall 4 torch
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall 5 lamp
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall 6 niche
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall 7 swords
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall 8 shield
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall 9 statue
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall a fountain
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall b portrait
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall c portrait
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall d portrait
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall e portrait
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall f banner
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall g banner
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall h banner
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall i banner
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall j banner
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall k empty window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall l window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall m barred window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall n glass window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall o up staircase
 graphics:<:w
 priority:26
-flags:LOS | PROJECT | PASSABLE | PERMANENT | STAIR | UPSTAIR | EASY | TORCH
+flags:QUARTZ | LOS | PROJECT | PASSABLE | STAIR | UPSTAIR | EASY | TORCH
 desc:A staircase up to a shallower part of the dungeon.
 
 name:dark wall p down staircase
 graphics:>:w
 priority:26
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:QUARTZ | LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:dark wall q door
 graphics:+:U
 priority:24
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:dark wall r doorway
 graphics:+:'
 priority:24
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall s door
 graphics:+:U
 priority:24
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:dark wall t doorway
 graphics:+:'
 priority:24
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:dark wall u
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall v
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -5603,194 +5602,194 @@ desc:.
 name:dark wall w
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall x
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #fireplace
 name:dark wall y
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall z
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall A
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall B
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall C
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall D
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall E
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall F
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall G
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall H
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall I
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall J
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall K
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall L
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall M
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall N
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall O
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall P
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall Q
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall R
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall S
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall T
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall U
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall V
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall W
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall X
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall Y
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:dark wall Z
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall ~
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:dark wall `
 graphics:#:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 
@@ -5801,49 +5800,49 @@ desc:.
 name:big white wall 0
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall 1 emtpy window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall 2 barred window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall 3 window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall 4 door
 graphics:+:U
 priority:25
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:big white wall 5
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall 6
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall 7
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 # windows further on
@@ -5851,145 +5850,145 @@ desc:.
 name:big white wall 8
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall 9
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall a
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall b
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall c
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall d
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall e
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall f
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall g
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall h
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall i
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall j
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall k
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall l
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall m
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall n
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall o
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall p
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall q
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall r
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall s
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall t
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall u
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big white wall v
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -6001,194 +6000,194 @@ desc:.
 name:big white wall w
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall x
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #fireplace
 name:big white wall y
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big white wall z
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall A
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall B
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall C
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall D
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall E
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall F
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall G
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall H
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall I
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall J
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall K
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall L
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall M
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall N
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall O
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall P
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall Q
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall R
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall S
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall T
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall U
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall V
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall W
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall X
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall Y
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big white wall Z
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big white wall ~
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big white wall `
 graphics:#:w
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -6198,193 +6197,193 @@ desc:.
 name:big dark wall 0
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall 1
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall 2 window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall 3 empty window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall 4 barred window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall 5 door
 graphics:+:U
 priority:25
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:big dark wall 6 doorway
 graphics:+:'
 priority:25
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall 7 door
 graphics:+:U
 priority:25
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:big dark wall 8 doorway
 graphics:+:'
 priority:25
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall 9 entrance
 graphics:+:'
 priority:25
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall a low entrance
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | PROJECT | TORCH
 desc:.
 
 name:big dark wall b window
 graphics:#:D
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:big dark wall v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -6394,194 +6393,194 @@ desc:.
 name:big dark wall w
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall x
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #fireplace
 name:big dark wall y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big dark wall z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall A
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall B
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall C
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall D
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall E
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall F
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall G
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall H
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall I
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall J
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall K
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall L
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall M
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall N
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall O
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall P
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall Q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall R
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall S
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall T
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall U
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall V
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall W
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall X
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall Y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:big dark wall Z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big dark wall ~
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 name:big dark wall `
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 desc:.
 
 
@@ -6592,49 +6591,49 @@ desc:.
 name:brick wall 0
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:brick wall 1 window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall 2 empty window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall 3 barred window
 graphics:#:s
 priority:25
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall 4 door
 graphics:+:U
 priority:25
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:brick wall 5
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:brick wall 6
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:brick wall 7
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 #door
@@ -6642,145 +6641,145 @@ desc:.
 name:brick wall 8
 graphics:+:U
 priority:18
-flags:PASSABLE | PERMANENT | EASY | TORCH | FLOOR_SAFE
+flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
 desc:.
 
 name:brick wall 9
 graphics:+:'
 priority:18
-flags:PASSABLE | PERMANENT | EASY | LOS | PROJECT | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall a
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall b
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall c
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall d
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall e
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall f
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall g
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall h
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall i
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall j
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall k
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall l
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall m
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall n
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall o
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall p
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall q
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall r
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall s
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall t
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall u
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:brick wall v
 graphics:#:W
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -7133,21 +7132,21 @@ desc:.
 name:coast o
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast p
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast q
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast r
@@ -7160,21 +7159,21 @@ desc:.
 name:coast s
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast t
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast u
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast v
@@ -7335,21 +7334,21 @@ desc:.
 name:coast U
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast V
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast W
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast X
@@ -7362,21 +7361,21 @@ desc:.
 name:coast Y
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 # roof
 name:coast Z
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 # roof
 name:coast ~
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast `
@@ -7537,21 +7536,21 @@ desc:.
 name:coast_ o
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast_ p
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #roof
 name:coast_ q
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast_ r
@@ -7564,19 +7563,19 @@ desc:.
 name:coast_ s
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast_ t
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast_ u
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:coast_ v
@@ -7909,44 +7908,44 @@ desc:.
 name:road k
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road l
 graphics:#:r
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road m
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road n
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 #wall 3x
 name:road o
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road p
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road q
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road r
@@ -7959,19 +7958,19 @@ desc:.
 name:road s
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road t
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road u
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road v
@@ -8108,43 +8107,43 @@ desc:.
 name:road Q
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road R
 graphics:#:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road S
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 
 name:road T
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW
 desc:.
 #walls 3x
 name:road U
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road V
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road W
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road X
@@ -8157,19 +8156,19 @@ desc:.
 name:road Y
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road Z
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road ~
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road `
@@ -8334,19 +8333,19 @@ desc:.
 name:road_ o
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ p
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ q
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ r
@@ -8359,19 +8358,19 @@ desc:.
 name:road_ s
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ t
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ u
 graphics:.:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:road_ v
@@ -12465,193 +12464,193 @@ desc:.
 name:DD wood wall 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DD wood wall v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -12859,193 +12858,193 @@ desc:.
 name:DF dark stone 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:DF dark stone v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -13253,193 +13252,193 @@ desc:.
 name:E1 big white 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E1 big white v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -13647,193 +13646,193 @@ desc:.
 name:E3 big dark 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E3 big dark v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -14041,193 +14040,193 @@ desc:.
 name:E5 white stone 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 name:E5 white stone v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
 
@@ -14734,7 +14733,7 @@ desc:.
 name:E8 desert N
 graphics:+:w
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:Strange entrance.
 
 name:E8 desert O
@@ -15328,7 +15327,7 @@ desc:Broken chest.
 name:EC dirt N
 graphics:#:D
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:Strange entrance.
 
 name:EC dirt O
@@ -15922,7 +15921,7 @@ desc:.
 name:F0 snow N
 graphics:#:s
 priority:18
-flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 desc:.
 
 name:F0 snow O
@@ -16617,7 +16616,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Entrance to The Mountain Gorge. Next (<10 lvl): The Orc Cave [1,1]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #10
@@ -16626,7 +16625,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Entrance to The Orc Cave. Next dungeon (<15 lvl): The Severs [0,1]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #15
@@ -16635,7 +16634,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Entrance to The Severs. Next dungeon (<20 lvl): Fetid Swamps [-1,0]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #20
@@ -16644,7 +16643,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (<25 lvl): The Orc Mountains [1,2]; The Old Forest [0,-1]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #25
@@ -16653,7 +16652,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (<30 lvl): Abandoned Manor [-1,2]; The Sandworm Lair [-2, 2]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #30
@@ -16662,7 +16661,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (<35 lvl): The Land Of Rhun [0,-2]; The Barrow-downs [0,2]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #35
@@ -16671,7 +16670,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (<40 lvl): Maze [-1,-1], Small Water Cave [-1,3], HotE [-1,-2]..
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #40
@@ -16680,7 +16679,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:<45: HCA [0,4], Moria [1,3], IC [-2,1], CU [-2, -1], Numenor [-2,3]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #45
@@ -16689,7 +16688,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:<50lvl: Mirkwood [0,-3], Mordor [1,-1], Erebor [-1,-3], SLoM [2,2]...
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 #50
@@ -16698,7 +16697,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down a
@@ -16706,7 +16705,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down b
@@ -16714,7 +16713,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down c
@@ -16722,7 +16721,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down d
@@ -16730,7 +16729,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down e
@@ -16738,7 +16737,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down f
@@ -16746,7 +16745,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down g
@@ -16754,7 +16753,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down h
@@ -16762,7 +16761,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down i
@@ -16770,7 +16769,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down j
@@ -16778,7 +16777,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down k
@@ -16786,7 +16785,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down l
@@ -16794,7 +16793,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down m
@@ -16802,7 +16801,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down n
@@ -16810,7 +16809,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down o
@@ -16818,7 +16817,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down p
@@ -16826,7 +16825,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down q
@@ -16834,7 +16833,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down r
@@ -16842,7 +16841,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down s
@@ -16850,7 +16849,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down t
@@ -16858,7 +16857,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down u
@@ -16866,7 +16865,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down v
@@ -16874,7 +16873,7 @@ graphics:>:s
 priority:18
 ################################################################################
 short-desc:Next (< lvl):  [,]
-flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 

@@ -5176,7 +5176,7 @@ hit-points:440
 hearing:20
 armor-class:48
 sleepiness:40
-depth:16
+depth:15
 rarity:3
 weight:0
 experience:200
@@ -8715,6 +8715,7 @@ spells:CAUSE_2 | DARKNESS | MIND_BLAST | TELE_TO
 spells:HOLD | SCARE
 desc:It is a humanoid with an aura of power. You notice a sharp set of front
 desc: teeth.
+force-location:Abandoned Manor
 
 name:Mîm, Betrayer of Turin
 base:humanoid

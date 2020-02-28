@@ -465,11 +465,11 @@ normal:fortune cookie:Someone should give a lesson to this thiefs...
 ### INSECTS? bleach,, Rotten food!!!!
 ###
 always:potion:Cure Light Wounds
-normal:fortune cookie:Fortune Cookie:1:300
-normal:food:Flask of Whisky:10:300
-normal:food:Pint of Fine Wine:10:300
-normal:food:Pint of Fine Ale:10:300
-normal:mushroom:Stoneskin:10:500
+normal:fortune cookie:Fortune Cookie:10:300
+normal:food:Flask of Whisky:2:150
+normal:food:Pint of Fine Wine:5:150
+normal:food:Pint of Fine Ale:3:150
+normal:mushroom:Stoneskin:9:500
 normal:potion:Healing:1:500
 normal:potion:Speed:1:500
 normal:potion:Resist Poison:1:500

@@ -38,8 +38,6 @@ dragon:black:0
 wyrm:bile:0
 info:1:100:1
 
-#4 previous D (red-gold) had 120 exp penalty
-
 #WASN'T IMMUNE!
 #dragon:green:0
 #wyrm:swamp:0

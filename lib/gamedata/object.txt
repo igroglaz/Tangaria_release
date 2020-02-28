@@ -249,14 +249,14 @@ desc:A filling if tooth-breaking biscuit made mostly of rye.
 name:& Flask~ of Whisky
 graphics:,:y
 type:food
-properties:0:5:100
+properties:0:5:75
 alloc:40:0 to 50
 effect:NOURISH
-dice:500
+dice:50
 effect:TIMED_INC:CONFUSED
 dice:8+1d8
 effect:TIMED_INC:BOLD
-dice:30+1d20
+dice:50+1d20
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
 effect:DRAIN_STAT:INT
@@ -270,7 +270,7 @@ dice:11+1d8
 effect:TIMED_INC:BLIND
 dice:11+1d8
 effect:TIMED_INC:IMAGE
-dice:11+1d8
+dice:11+1d5
 effect:TIMED_INC:AMNESIA
 dice:11+1d8
 effect:TIMED_INC:POISONED
@@ -285,12 +285,12 @@ desc:It pretty strong and could raise your spirits.
 name:& Pint~ of Fine Wine
 graphics:,:r
 type:food
-properties:0:10:200
+properties:0:10:100
 alloc:40:0 to 50
 effect:NOURISH
-dice:500
+dice:150
 effect:TIMED_INC:CONFUSED
-dice:8+1d8
+dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
 effect:RESTORE_STAT:CON
@@ -302,17 +302,17 @@ dice:1
 effect:RANDOM
 dice:2
 effect:TIMED_INC_NO_RES:PARALYZED
-dice:11+1d8
+dice:1+1d8
 effect:TIMED_INC:BLIND
-dice:11+1d8
+dice:1+1d4
 effect:TIMED_INC:IMAGE
-dice:11+1d8
+dice:1+1d2
 effect:TIMED_INC:AMNESIA
-dice:11+1d8
+dice:1+1d8
 effect:TIMED_INC:POISONED
-dice:8+1d8
+dice:1+1d12
 effect:TIMED_INC:SLOW
-dice:11+1d11
+dice:1+1d8
 effect:RANDOM
 dice:6
 msg_self:That tastes great! A fine vintage.
@@ -1731,7 +1731,7 @@ values:STEALTH[-2]
 name:Slow Digestion
 graphics:=:d
 type:ring
-properties:10:2:23250
+properties:10:2:9999
 alloc:1:10 to 50
 flags:SLOW_DIGEST | EASY_KNOW
 desc:This magical bauble grants you some sustenance, allowing you to subsist on
@@ -4040,12 +4040,12 @@ desc:A rectangular stone. It can be used to build houses.
 name:& Pint~ of Fine Ale
 graphics:,:y
 type:food
-properties:0:5:1000
+properties:0:5:50
 alloc:40:0 to 50
 effect:NOURISH
-dice:500
+dice:100
 effect:TIMED_INC:CONFUSED
-dice:8+1d8
+dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
 effect:RESTORE_STAT:CON
@@ -4057,17 +4057,17 @@ dice:1
 effect:RANDOM
 dice:2
 effect:TIMED_INC_NO_RES:PARALYZED
-dice:11+1d8
+dice:1+1d4
 effect:TIMED_INC:BLIND
-dice:11+1d8
+dice:1+1d8
 effect:TIMED_INC:IMAGE
-dice:11+1d8
+dice:1+1d4
 effect:TIMED_INC:AMNESIA
-dice:11+1d8
+dice:1+1d8
 effect:TIMED_INC:POISONED
 dice:8+1d8
 effect:TIMED_INC:SLOW
-dice:11+1d11
+dice:1+1d11
 effect:RANDOM
 dice:6
 msg_self:That tastes good.
@@ -4512,7 +4512,7 @@ effect-yx:11:20
 name:& Fortune Cookie~
 graphics:,:y
 type:fortune cookie
-properties:0:2:1
+properties:0:2:33
 effect:COOKIE
 effect:NOURISH
 dice:500

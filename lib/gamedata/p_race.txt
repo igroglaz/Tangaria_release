@@ -89,6 +89,7 @@ info:10:150
 history:1:14:6
 height:72:6:66:4
 weight:180:25:150:20
+value:0:CON[0+1d12]
 
 name:Half-Elf
 skill-disarm-phys:2
@@ -253,7 +254,7 @@ name:High Men
 skill-disarm-phys:4
 skill-disarm-magic:4
 skill-device:5
-skill-save:-5
+skill-save:-10
 skill-stealth:0
 skill-search:3
 skill-melee:15
@@ -321,7 +322,8 @@ name:Yeek
 skill-disarm-phys:0
 skill-disarm-magic:0
 skill-device:0
-skill-save:0
+#!
+skill-save:20
 skill-stealth:0
 skill-search:0
 skill-melee:0
@@ -340,12 +342,12 @@ value:1:CON[-1+-1d12]
 player-flags:ANIMAL
 
 name:Ent
-skill-disarm-phys:5
-skill-disarm-magic:5
+skill-disarm-phys:-5
+skill-disarm-magic:-5
 skill-device:-16
 skill-save:20
 skill-stealth:-6
-skill-search:2
+skill-search:-2
 skill-melee:15
 skill-shoot:5
 skill-dig:0
@@ -414,7 +416,7 @@ skill-save:10
 skill-stealth:-16
 skill-search:10
 skill-melee:15
-skill-shoot:5
+skill-shoot:-15
 skill-dig:0
 #add one more HP (V is 13)
 info:10:125
@@ -424,12 +426,12 @@ weight:255:25:230:20
 obj-flag:1:FEATHER
 value:1:INFRA[1]
 value:50:RES_NEXUS[1]
-#stat increase doesn't work for dragons (hardcoded)
-value:1:STR[-10+1d5]
-value:1:INT[-10+1d5]
-value:1:WIS[-10+1d5]
-value:1:DEX[-10+1d5]
-value:1:CON[-10+1d5]
+#stat increase doesn't work for dragons (hardcoded) 1d5
+value:1:STR[-20]
+value:1:INT[-20]
+value:1:WIS[-20]
+value:1:DEX[-20]
+value:1:CON[-20]
 player-flags:DRAGON
 
 #Black Numenorean
@@ -454,7 +456,7 @@ value:1:WIS[-1]
 value:10:DEX[1]
 value:1:CON[-2+1d12]
 value:15:INFRA[1]
-obj-flag:25:ESP_EVIL
+obj-flag:35:ESP_EVIL
 
 #immortal human
 name:Damned
@@ -617,7 +619,7 @@ skill-disarm-phys:-8
 skill-disarm-magic:-6
 skill-device:-3
 skill-save:-3
-skill-stealth:-1
+skill-stealth:-2
 skill-search:-5
 skill-melee:15
 skill-shoot:-5
@@ -640,7 +642,7 @@ skill-disarm-phys:-18
 skill-disarm-magic:-18
 skill-device:-16
 skill-save:-10
-skill-stealth:-4
+skill-stealth:-5
 skill-search:-10
 skill-melee:25
 skill-shoot:-15
@@ -666,7 +668,7 @@ player-flags:TROLL
 name:Orc
 skill-disarm-phys:-8
 skill-disarm-magic:-8
-skill-device:-10
+skill-device:-15
 skill-save:-5
 skill-stealth:-1
 skill-search:-1
@@ -692,7 +694,7 @@ player-flags:ORC
 name:Forest Goblin
 skill-disarm-phys:0
 skill-disarm-magic:1
-skill-device:3
+skill-device:-3
 skill-save:0
 skill-stealth:2
 skill-search:5
@@ -805,7 +807,7 @@ value:30:RES_NETHER[1]
 name:Vampire
 skill-disarm-phys:-2
 skill-disarm-magic:-2
-skill-device:3
+skill-device:-3
 skill-save:20
 skill-stealth:2
 skill-search:-10
@@ -813,7 +815,7 @@ skill-melee:10
 skill-shoot:-10
 skill-dig:0
 #add one more HP (V is 11)
-info:9:125
+info:8:125
 history:100:11:4
 height:72:6:66:4
 weight:160:10:140:10
@@ -851,7 +853,7 @@ skill-melee:15
 skill-shoot:5
 skill-dig:0
 #add one more HP (V is 11)
-info:9:125
+info:8:125
 history:100:11:4
 height:72:6:68:4
 weight:175:25:140:20
@@ -927,7 +929,7 @@ skill-melee:10
 skill-shoot:7
 skill-dig:0
 #add one more HP (V is 11)
-info:9:125
+info:8:125
 history:100:11:4
 height:85:6:78:4
 weight:170:15:140:10
@@ -1005,7 +1007,7 @@ value:1:STR[-1+1d24]
 value:1:INT[-1+1d24]
 value:1:WIS[0]
 value:1:DEX[-1+1d24]
-value:1:CON[-1+1d24]
+value:50:CON[-3]
 value:1:RES_LIGHT[-1]
 value:1:RES_DARK[-1]
 value:50:RES_LIGHT[1]
@@ -1022,7 +1024,7 @@ skill-melee:10
 skill-shoot:-10
 skill-dig:0
 #add one more HP (V is 12)
-info:11:125
+info:10:125
 history:100:11:4
 height:90:6:80:4
 weight:255:25:230:20
@@ -1058,7 +1060,7 @@ skill-search:-10
 skill-melee:15
 skill-shoot:0
 skill-dig:10
-info:11:125
+info:10:125
 history:100:11:4
 height:82:4:82:2
 weight:255:25:230:20
