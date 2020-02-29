@@ -65,8 +65,14 @@ min-depth:1
 max-depth:1
 max-level:2
 #floor:B3 floors n:1
-wall:big dark wall 0:11
-wall:big dark wall b window:1
+floor:floor 0 grass:33
+floor:floor 1 grass:34
+floor:floor w grass:33
+wall:obj_grass L ruins:11
+wall:obj_grass O ruins:11
+wall:obj_grass Q ruins:11
+#wall:big dark wall 0:11
+#wall:big dark wall b window:1
 flags:EMPTY
 rule:100:1
 
@@ -77,9 +83,12 @@ min-depth:2
 max-depth:5
 max-level:5
 flags:NO_DOORS | WATER_RIVER
-floor:packed dirt:8
-floor:water:2
-wall:mountain:40
+floor:packed dirt:70
+floor:EB dirt 0:29
+floor:EB dirt v:1
+wall:ED dirt 0:50
+wall:ED dirt 1:10
+wall:ED dirt 2:40
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0
@@ -94,8 +103,12 @@ min-depth:4
 max-depth:12
 max-level:10
 flags:CAVERN
-floor:packed dirt:10
-wall:mountain:10
+floor:packed dirt:29
+floor:EB dirt 0:70
+floor:EC dirt V:1
+wall:ED dirt 0:40
+wall:ED dirt 2:50
+wall:ED dirt 3:10
 rule:50:0
 rule-flags:ORC
 rule-symbols:koO
@@ -110,9 +123,17 @@ min-depth:8
 max-depth:15
 max-level:15
 flags:NO_DOORS | WATER_RIVER
-floor:packed dirt:8
-floor:water:2
-wall:tree:10
+floor:B3 floors c:98
+floor:B6 floors luquid T:1
+floor:B6 floors luquid S:1
+#floor:B3 floors 9:97
+wall:big dark wall 0:20
+wall:E3 big dark 0:1
+wall:E3 big dark 1:1
+#if green walls:
+#wall:big dark wall 9 entrance:1
+#wall:big dark wall a low entrance:1
+#wall:big dark wall b window:1
 rule:20:0
 rule-symbols:p
 rule:80:1

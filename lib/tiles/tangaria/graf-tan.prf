@@ -5358,13 +5358,13 @@ feat:B3 floors 9:los:0xB3:0xA5
 feat:B3 floors 9:lit:0xB3:0xA6
 feat:B3 floors 9:dark:0xB3:0xA7
 
-# B3 floors a 
+# B3 floors a / brown round
 feat:B3 floors a:torch:0xB3:0xA8
 feat:B3 floors a:los:0xB3:0xA9
 feat:B3 floors a:lit:0xB3:0xAA
 feat:B3 floors a:dark:0xB3:0xAB
 
-# B3 floors b 
+# B3 floors b / brown round ligthish
 feat:B3 floors b:torch:0xB3:0xAC
 feat:B3 floors b:los:0xB3:0xAD
 feat:B3 floors b:lit:0xB3:0xAE
