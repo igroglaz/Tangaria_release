@@ -437,17 +437,18 @@ feat:log:los:0xB7:0x81
 feat:log:lit:0xB7:0x82
 feat:log:dark:0xB7:0x83
 
-# sand
-feat:sand:torch:0xB3:0xFC
-feat:sand:los:0xB3:0xFD
-feat:sand:lit:0xB3:0xFE
-feat:sand:dark:0xB3:0xFF
+# sand yet another sandwall... look like a wall
+feat:sand:torch:0x96:0xA8
+feat:sand:los:0x96:0xA9
+feat:sand:lit:0x96:0xAA
+feat:sand:dark:0x96:0xAB
 
-# sandwall
-feat:sandwall:torch:0x96:0xA8
-feat:sandwall:los:0x96:0xA9
-feat:sandwall:lit:0x96:0xAA
-feat:sandwall:dark:0x96:0xAB
+# sandwall WRONG PLACE IN TILESET.... anyway, it works.
+#look like a sand wall (sand; without bricks)
+feat:sandwall:torch:0xB3:0xFC
+feat:sandwall:los:0xB3:0xFD
+feat:sandwall:lit:0xB3:0xFE
+feat:sandwall:dark:0xB3:0xFF
 
 # ice
 feat:ice:torch:0xB1:0xBC
@@ -5891,6 +5892,7 @@ feat:B5 floors v:dark:0xB5:0xFF
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 # B6 floors luquid w 
+# SHALLOW WATER
 feat:B6 floors luquid w:torch:0xB6:0x80
 feat:B6 floors luquid w:los:0xB6:0x81
 feat:B6 floors luquid w:lit:0xB6:0x82
@@ -6028,24 +6030,28 @@ feat:B6 floors luquid S:los:0xB6:0xD9
 feat:B6 floors luquid S:lit:0xB6:0xDA
 feat:B6 floors luquid S:dark:0xB6:0xDB
 
+#murky water
 # B6 floors luquid T 
 feat:B6 floors luquid T:torch:0xB6:0xDC
 feat:B6 floors luquid T:los:0xB6:0xDD
 feat:B6 floors luquid T:lit:0xB6:0xDE
 feat:B6 floors luquid T:dark:0xB6:0xDF
 
+#waterral 1
 # B6 floors luquid U 
 feat:B6 floors luquid U:torch:0xB6:0xE0
 feat:B6 floors luquid U:los:0xB6:0xE1
 feat:B6 floors luquid U:lit:0xB6:0xE2
 feat:B6 floors luquid U:dark:0xB6:0xE3
 
+#waterral 2
 # B6 floors luquid V 
 feat:B6 floors luquid V:torch:0xB6:0xE4
 feat:B6 floors luquid V:los:0xB6:0xE5
 feat:B6 floors luquid V:lit:0xB6:0xE6
 feat:B6 floors luquid V:dark:0xB6:0xE7
 
+#waterral 3
 # B6 floors luquid W 
 feat:B6 floors luquid W:torch:0xB6:0xE8
 feat:B6 floors luquid W:los:0xB6:0xE9
@@ -17251,6 +17257,7 @@ feat:F3 shallow water l:los:0xF3:0xD5
 feat:F3 shallow water l:lit:0xF3:0xD6
 feat:F3 shallow water l:dark:0xF3:0xD7
 
+# plants on small rocks
 # F3 shallow water m 
 feat:F3 shallow water m:torch:0xF3:0xD8
 feat:F3 shallow water m:los:0xF3:0xD9
@@ -18298,6 +18305,28 @@ monster:Lora the Red:0x8B:0xBD
 monster:Shtukensia the Rogue:0x8B:0xBD
 monster:Yargash, youngest of chieftain:0x95:0x86
 monster:Ragnat the Dreadful:0x94:0xB4
+
+###########LIGHTENED TILES (dungeons at open air)
+
+# light grass
+feat:light grass:torch:0xB1:0x80
+feat:light grass:los:0xB1:0x81
+feat:light grass:lit:0xB1:0x82
+feat:light grass:dark:0xB1:0x83
+
+# light grass plants
+feat:light grass plants:torch:0xB1:0x84
+feat:light grass plants:los:0xB1:0x85
+feat:light grass plants:lit:0xB1:0x86
+feat:light grass plants:dark:0xB1:0x87
+
+# light grass flowers
+feat:light grass flowers:torch:0xB2:0x80
+feat:light grass flowers:los:0xB2:0x81
+feat:light grass flowers:lit:0xB2:0x82
+feat:light grass flowers:dark:0xB2:0x83
+
+###########LIGHTENED TILES (dungeons at open air)
 
 
 

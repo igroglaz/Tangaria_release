@@ -20,7 +20,7 @@
 #
 # Store types must match the following values:
 #  1 = STORE_GENERAL
-#  2 = STORE_TEMPLE
+#  2 = STORE_fLE
 #  3 = STORE_B_MARKET
 #  4 = STORE_XBM
 #  5 = STORE_TAVERN
@@ -85,9 +85,9 @@ always:scroll:House Creation
 normal:light:Lantern
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
-normal:food:Hard Biscuit:10:500
+normal:food:Hard Biscuit:8:500
+normal:food:Slime Mold:9:500
 normal:food:Ration of Food:10:500
-normal:food:Slime Mold:10:500
 buy:light
 buy:digger
 buy:horn
@@ -179,9 +179,10 @@ owner:15000:Ludwig the Humble (Human)
 owner:20000:Gunnar the Paladin (Human)
 owner:25000:Delilah the Pure (Elf)
 owner:30000:Keldon the Wise (Dwarf)
-slots:6:16
+slots:6:18
 turnover:9
 always:prayer book
+always:potion:Cure Light Wounds
 always:potion:Cure Serious Wounds
 always:scroll:Remove Curse
 normal:hafted:Whip
@@ -191,7 +192,7 @@ normal:hafted:Ball-and-Chain
 normal:hafted:War Hammer
 normal:hafted:Morning Star
 normal:hafted:Flail
-# normal:hafted:Lead-Filled Mace
+normal:hafted:Lead-Filled Mace
 normal:scroll:Blessing
 normal:scroll:Holy Chant
 normal:scroll:Light
@@ -201,6 +202,7 @@ normal:potion:Neutralize Poison
 normal:potion:Restore Life Levels
 normal:potion:Cure Critical Wounds
 normal:potion:Healing:10:300
+normal:potion:Resist Poison:1:400
 buy:prayer book
 buy:scroll
 buy:potion
@@ -214,7 +216,7 @@ owner:10000:Mauser the Chemist (Half-Elf)
 owner:10000:Wizzle the Chaotic (Halfling)
 owner:15000:Ga-nat the Greedy (Gnome)
 owner:15000:Vella the Slender (Human)
-slots:6:9
+slots:6:12
 turnover:9
 always:scroll:Word of Recall
 always:scroll:Phase Door
@@ -228,6 +230,9 @@ normal:potion:Resist Heat
 normal:potion:Resist Cold
 normal:potion:Restore Life Levels
 normal:potion:Infravision
+normal:potion:Speed:10:400
+normal:potion:Resist Poison:10:400
+normal:potion:Restore Mana:10:400
 buy:scroll
 buy:potion
 
@@ -374,7 +379,7 @@ buy:elemental book
 store:Old guard Barry
 owner:5000:Barry the guard (Human)
 owner:5000:Barry the guard (Human)
-slots:0:4
+slots:0:5
 turnover:1
 #######################################################################
 always:fortune cookie:(You hear shuffling) *growl* Arr.. Who is there?
@@ -396,6 +401,7 @@ normal:fortune cookie:It was well guarded dwarven trade route..
 normal:fortune cookie:A lot of caravans traveled over this lands.. 
 normal:fortune cookie:And now everything gone.. Only orcs left. And me.
 #######################################################################
+normal:mushroom:Stoneskin:9:500
 buy:light
 buy:flask
 
@@ -443,8 +449,8 @@ buy:flask
 store:Shtukensia the tavernkeeper
 owner:5000:Shtukensia the tavernkeeper (Human)
 owner:5000:Shtukensia the tavernkeeper (Human)
-slots:0:14
-turnover:2
+slots:9:10
+turnover:1
 #######################################################################
 always:fortune cookie:Hi.. Don't look at me with such hungry eyes..
 always:fortune cookie:Didn't you know about catastrophe?
@@ -464,19 +470,14 @@ normal:fortune cookie:Someone should give a lesson to this thiefs...
 ###
 ### INSECTS? bleach,, Rotten food!!!!
 ###
-always:potion:Cure Light Wounds
 normal:fortune cookie:Fortune Cookie:10:300
 normal:food:Flask of Whisky:2:150
 normal:food:Pint of Fine Wine:5:150
 normal:food:Pint of Fine Ale:3:150
-normal:mushroom:Stoneskin:9:500
 normal:potion:Healing:1:500
 normal:potion:Speed:1:500
-normal:potion:Resist Poison:1:500
 normal:potion:Restore Mana:1:500
 normal:scroll:Teleportation:1:500
-normal:potion:Cure Critical Wounds
-normal:potion:Restore Life Levels
 buy:light
 buy:flask
 buy:digger
@@ -543,7 +544,7 @@ buy:arrow
 store:Old man
 owner:5000:Old man (Human)
 owner:5000:Old man (Human)
-slots:0:4
+slots:0:7
 turnover:1
 #######################################################################
 always:fortune cookie:Stay awhile.. Er.. Wait.. Come closer, young men
@@ -564,7 +565,10 @@ always:fortune cookie:Take care, friend.. And good luck..
 normal:fortune cookie:There always were a lot of criminal.. But not so.
 normal:fortune cookie:We thought the worse was lack of food...
 normal:fortune cookie:Outlaws, robbers..and even monsters. Gods save us
-normal:scroll:Identify Rune:10:700
+normal:scroll:Identify Rune:10:400
+normal:scroll:*Remove Curse*:10:400
+normal:scroll:Teleport Level:10:400
+normal:scroll:Deep Descent:10:400
 buy:flask
 
 #town
@@ -592,7 +596,7 @@ normal:fortune cookie:You would understand me one day.
 buy:flask
 
 
-# Black Market - no stock given but we still need slot/turnover info
+# Black Market - x3 price no stock given but we still need slot/turnover info
 store:Black Market
 type:3
 owner:15000:Lo-Hak the Awful (Half-Troll)
@@ -603,7 +607,7 @@ slots:6:18
 turnover:9
 
 
-# Expensive Black Market - no stock given but we still need slot/turnover info
+# Expensive Black Market x8 price - no stock given but we still need slot/turnover info
 store:Expensive Black Market
 type:4
 owner:15000:Eek the Yeek (Yeek)

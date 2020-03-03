@@ -2151,7 +2151,7 @@ name:Identify Rune
 graphics:?:w
 type:scroll
 properties:1:5:200
-alloc:50:5 to 100
+alloc:40:5 to 100
 pile:70:1d4
 effect:IDENTIFY
 
@@ -2564,7 +2564,7 @@ properties:25:4:800
 alloc:40:25 to 100
 pile:25:2
 effect:MAP_AREA
-dice:17d27
+effect-yx:17:27
 
 name:*Enlightenment*
 graphics:!:d
@@ -4189,7 +4189,7 @@ values:SEARCH[d5M5]
 name:Speed
 graphics:":d
 type:amulet
-properties:35:3:10000
+properties:35:3:40000
 alloc:10:35 to 100
 values:SPEED[d5]
 

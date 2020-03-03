@@ -4668,16 +4668,12 @@ desc:.
 # B6 - floors luquid
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# water
+# SHALLOW WATER
 name:B6 floors luquid w
 graphics:~:b
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
-desc:A pool of water.
-hurt-msg:You are drowning!
-died-flavor:drowned
-die-msg:drowning
-resist-flag:IM_WATER
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
+desc:A pool of shallow water.
 
 # deep water
 name:B6 floors luquid x
@@ -17573,5 +17569,25 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:.
 ###########DARK TILE NO PASS
+
+###########LIGHTENED TILES (dungeons at open air)
+name:light grass
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | EASY | TORCH | BRIGHT
+desc:.
+
+name:light grass plants
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | EASY | TORCH | BRIGHT
+desc:.
+
+name:light grass flowers
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | EASY | TORCH | BRIGHT
+desc:.
+###########LIGHTENED TILES (dungeons at open air)
 
 

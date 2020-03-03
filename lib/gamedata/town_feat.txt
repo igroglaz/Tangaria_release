@@ -3194,3 +3194,10 @@ feat:_:`:FD double `
 feat:*:,:end , dark
 feat:*:.:end . white
 ###########DARK TILE NO PASS
+
+###########LIGHTENED TILES (dungeons at open air)
+feat:.:!:light grass
+feat:.:@:light grass plants
+feat:.:#:light grass flowers
+###########LIGHTENED TILES (dungeons at open air)
+

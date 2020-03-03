@@ -136,10 +136,12 @@ min-depth:12
 max-depth:20
 max-level:20
 flags:NO_DOORS | WATER_RIVER
-floor:floor 0 grass:33
-floor:floor 1 grass:34
-floor:floor w grass:33
-wall:tree:10
+floor:floor E grass:64
+floor:floor 1 grass:24
+floor:floor w grass:12
+wall:tree 9 willow:60
+wall:tree n dead tree:30
+wall:tree Y:10
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0
@@ -154,8 +156,12 @@ min-depth:15
 max-depth:23
 max-level:20
 flags:CAVERN
-floor:packed dirt:10
-wall:mountain:10
+floor:packed dirt:70
+floor:EB dirt 0:29
+floor:EC dirt V:1
+wall:ED dirt 0:30
+wall:ED dirt 2:10
+wall:ED dirt 3:60
 rule:50:0
 rule-flags:ORC
 rule-symbols:koO
@@ -170,12 +176,12 @@ min-depth:18
 max-depth:25
 max-level:25
 flags:NO_DOORS | WATER_RIVER
-floor:packed dirt:25
-floor:water:2
-wall:tree:10
-wall:tree 9 willow:10
-wall:dark tree:1
-wall:mountain:10
+floor:floor 0 grass:33
+floor:floor 1 grass:34
+floor:floor w grass:33
+wall:tree 6 coniferous:23
+wall:tree 8 coniferous:66
+wall:tree W:11
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0
@@ -266,8 +272,13 @@ min-depth:23
 max-depth:30
 max-level:30
 flags:NO_DOORS | SAND_VEIN
-floor:sand:10
-wall:sandwall:10
+floor:E7 desert 0:98
+floor:E8 desert T:1
+#floor:E7 desert d:1
+floor:E8 desert V:1
+wall:sandwall:96
+wall:E9 desert 0:2
+wall:E9 desert 1:2
 rule:90:0
 rule-symbols:w
 rule:10:0
@@ -279,9 +290,13 @@ wpos:0:-2
 min-depth:27
 max-depth:34
 max-level:35
-floor:grass:10
-wall:tree:3
-wall:water:3
+flags:NO_DOORS
+floor:light grass:33
+floor:light grass plants:34
+floor:light grass flowers:33
+wall:tree 1:33
+wall:tree d birch:33
+wall:tree e linden:34
 rule:30:0
 rule-symbols:ph
 rule:30:0
@@ -294,10 +309,12 @@ wpos:0:2
 min-depth:28
 max-depth:35
 max-level:35
-floor:packed dirt:8
-floor:grass:2
-wall:tree:3
-wall:mountain:7
+floor:floor 0 grass:33
+floor:floor 1 grass:34
+floor:floor w grass:33
+wall:obj_grass L ruins:14
+wall:obj_grass O ruins:14
+wall:obj_grass Q ruins:14
 rule:25:0
 rule-flags:UNDEAD
 rule:75:1
@@ -309,6 +326,9 @@ min-depth:33
 max-depth:40
 max-level:35
 flags:MAZE
+floor:web:1
+wall:big dark wall 0:33
+wall:dark wall:33
 rule:20:0
 rule-symbols:p
 rule:80:1
@@ -319,8 +339,12 @@ wpos:-1:3
 min-depth:35
 max-depth:45
 max-level:35
-floor:water:10
-wall:mountain:10
+floor:B6 floors luquid w:94
+floor:B6 floors luquid x:5
+floor:F3 shallow water m:1
+wall:F3 shallow water 0:50
+wall:F3 shallow water 1:10
+wall:F3 shallow water 2:40
 rule:40:0
 rule-flags:IM_COLD
 rule:40:0
@@ -335,6 +359,10 @@ wpos:-1:-2
 min-depth:38
 max-depth:45
 max-level:40
+floor:B3 floors l:100
+wall:big white wall 0:1
+wall:big dark wall 0:1
+wall:dark wall:1
 rule:40:0
 rule-symbols:#XgE
 rule:30:0
@@ -348,8 +376,12 @@ min-depth:42
 max-depth:50
 max-level:40
 flags:CAVERN | WATER_RIVER
+floor:EF snow 0:89
 floor:ice:10
-wall:ice wall:10
+floor:F0 snow U:1
+wall:ice wall:80
+wall:big white wall 0:10
+wall:big dark wall 0:10
 rule:100:0
 rule-flags:IM_COLD
 
