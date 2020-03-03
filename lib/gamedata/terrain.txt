@@ -1,14 +1,3 @@
-# File: terrain.txt
-
-
-# This file is used to initialize the "terrain feature" information for 
-# PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# Note that terrain feature zero contains the "darkness" picture.
-
 # === Understanding terrain.txt ===
 
 # name : terrain name
@@ -85,6 +74,8 @@
 
 # short-desc: short description -- overrides "name" when describing a feature
 # desc: long description
+
+# Note that terrain feature zero contains the "darkness" picture.
 
 
 name:unknown grid
@@ -1948,41 +1939,44 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | BORING
 desc:.
 
+#####removed PASSABLE.. return back when RUN flag will appear
 name:obj_grass L ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
 
 name:obj_grass M ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
 
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
 
 name:obj_grass O ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
 
 name:obj_grass P ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
 
 name:obj_grass Q ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | BORING
+flags:LOS | PROJECT | TORCH | BORING
 desc:.
+
+######
 
 name:obj_grass R sign
 graphics:::s

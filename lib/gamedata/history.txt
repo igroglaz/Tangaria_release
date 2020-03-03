@@ -1,13 +1,4 @@
-# File: history.txt
-
-
-# This file is used to initialize the "player history" information for 
-# PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding history.txt ===
+# === Understanding history.txt ("player history") ===
 
 # Background information:
 # Pieces of player backstory are chosen from "charts", which are lists of

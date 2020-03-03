@@ -1,13 +1,4 @@
-# File: wild_feat.txt
-
-
-# This file is used to initialize the "wilderness feats" information for 
-# PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding wild_feat.txt ===
+# === Understanding wild_feat.txt ("wilderness feats") ===
 
 # name : terrain name
 # feat : level : terrain type : symbol

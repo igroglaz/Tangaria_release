@@ -1,10 +1,5 @@
-# File: dungeon_profile.txt
-
-
-# Contains information about how each type of dungeon level (and the town)
-# are generated.
-
 # === Understanding dungeon_profile.txt ===
+# // how each type of dungeon level (and the town) are generated.
 
 # name: The profile name.  This needs to match the corresponding entry in 
 # list-dun-profiles.h so the correct level-building function can be called

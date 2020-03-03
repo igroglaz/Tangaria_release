@@ -1,8 +1,4 @@
-# File: constants.txt
-
-
-# This file is used to initialize game constants for PWMAngband.
-
+# === constants.txt initialize game constants ===
 
 #---------------------------------------------------------------------
 # Level Maxima

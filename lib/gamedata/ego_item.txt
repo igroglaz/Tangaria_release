@@ -1,11 +1,3 @@
-# File: ego_item.txt
-
-
-# This file is used to initialize the "ego-item" information for PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
 # Note that several "ego-item" types may share the same "textual name",
 # such as with "Armour of Resistance" and "Shield of Resistance".
 

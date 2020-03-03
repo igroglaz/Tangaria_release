@@ -1,9 +1,4 @@
-# File: monster_base.txt
-
-
-# This file provides information for monster "templates".
-
-# === Understanding monster_base.txt ===
+# === Understanding monster_base.txt (monster "templates") ===
  
 # name : template name
 # glyph : default display character

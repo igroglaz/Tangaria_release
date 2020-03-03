@@ -1913,7 +1913,7 @@ monster:8-headed hydra:0x90:0xA7
 monster:green Thunderlord:0x8E:0xA1
 monster:Ancient black dragon:0x8C:0x9C
 monster:Lakelands ancient black dragon:0x8C:0x9C
-monster:Red dragon:0x8C:0x9D
+monster:Ancient red dragon:0x8C:0x9D
 monster:Lakelands ancient red dragon:0x8C:0x9D
 monster:Ancient gold dragon:0x8C:0x99
 monster:Dragon Mountain ancient gold dragon:0x8C:0x99
@@ -2177,7 +2177,9 @@ monster:spirit of power:0x81:0xE4
 monster:Melkor, Lord of Darkness:0xA0:0xC2
 
 #monster:Arch-vile:0x8D:0xAD
-#monster:greater hellhound:0x8F:0xD9
+
+#its still there:
+monster:greater hellhound:0x8F:0xD9
 
 ##### Tangaria objects #####
 

@@ -1,13 +1,4 @@
-# File: wild_info.txt
-
-
-# This file is used to initialize the "wilderness" information for 
-# PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding wild_info.txt ===
+# === Understanding wild_info.txt ("wilderness") ===
 
 # radius:radius of wilderness
 # D:lines giving full layout of wilderness using symbols below

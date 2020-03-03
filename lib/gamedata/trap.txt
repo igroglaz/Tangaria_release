@@ -1,13 +1,4 @@
-# File: trap.txt
-
-
-# This file is used to initialize the rune and trap definitions for 
-# PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding trap.txt ===
+# === Understanding trap.txt (the rune and trap definitions) ===
 
 # name : trap name : short description
 # graphics : ASCII char used to represent the feature : color symbol

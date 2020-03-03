@@ -1,12 +1,4 @@
-# File: class.txt
-
-
-# This file is used to initialize the "player class" information for PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding class.txt ===
+# === Understanding class.txt ("player class") ===
 
 # name:class name
 # color:color

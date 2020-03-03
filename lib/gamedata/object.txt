@@ -1,12 +1,4 @@
-# File: object.txt
-
-
-# This file is used to initialize the "object kind" information for PWMAngband.
-
-# Do not modify this file unless you know exactly what you are doing,
-# unless you wish to risk possible system crashes and broken savefiles.
-
-# === Understanding object.txt ===
+# === Understanding object.txt ("object kind") ===
 
 # name: & object name~
 # graphics: symbol : color
@@ -2007,7 +1999,7 @@ properties:0:5:70
 alloc:50:0 to 70
 pile:40:1d5
 effect:DETECT_TREASURES
-dice:22d40
+effect-yx:22:40
 
 name:Detect Invisible
 graphics:?:w
@@ -2586,7 +2578,6 @@ effect:RESTORE_STAT:WIS
 effect:GAIN_STAT:INT
 effect:RESTORE_STAT:INT
 effect:MAP_AREA
-dice:22d40
 
 ### Buffs ###
 

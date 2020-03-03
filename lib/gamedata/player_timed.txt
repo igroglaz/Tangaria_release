@@ -1,6 +1,4 @@
 # File: player_timed.txt
-
-
 # Used in conjunction with list-player-timed.h
 # Timed player properties
 #
