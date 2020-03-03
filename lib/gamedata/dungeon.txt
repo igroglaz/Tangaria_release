@@ -325,10 +325,8 @@ wpos:-1:-1
 min-depth:33
 max-depth:40
 max-level:35
+#floor:web:1
 flags:MAZE
-floor:web:1
-wall:big dark wall 0:33
-wall:dark wall:33
 rule:20:0
 rule-symbols:p
 rule:80:1
@@ -359,10 +357,9 @@ wpos:-1:-2
 min-depth:38
 max-depth:45
 max-level:40
-floor:B3 floors l:100
-wall:big white wall 0:1
-wall:big dark wall 0:1
-wall:dark wall:1
+floor:B3 floors q:100
+wall:big dark wall 0:33
+wall:dark wall:33
 rule:40:0
 rule-symbols:#XgE
 rule:30:0
@@ -392,8 +389,10 @@ min-depth:43
 max-depth:50
 max-level:40
 flags:WATER_RIVER
-floor:packed dirt:10
+floor:B3 floors 9:100
 wall:mountain:10
+wall:big dark wall 0:13
+wall:dark wall:13
 rule:40:0
 rule-flags:ORC
 rule:30:0

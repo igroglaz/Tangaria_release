@@ -2763,6 +2763,7 @@ dice:4
 effect:CURE:POISONED
 effect:SET_NOURISH
 dice:$B
+#space needed!
 expr:B:FOOD_STARVE:- 1
 msg_self:The potion makes you vomit!
 msg_other: vomits!

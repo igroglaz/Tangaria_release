@@ -5355,6 +5355,7 @@ feat:B3 floors 8:los:0xB3:0xA1
 feat:B3 floors 8:lit:0xB3:0xA2
 feat:B3 floors 8:dark:0xB3:0xA3
 
+#UO dirt
 # B3 floors 9 
 feat:B3 floors 9:torch:0xB3:0xA4
 feat:B3 floors 9:los:0xB3:0xA5
@@ -5457,6 +5458,7 @@ feat:B3 floors p:los:0xB3:0xE5
 feat:B3 floors p:lit:0xB3:0xE6
 feat:B3 floors p:dark:0xB3:0xE7
 
+# grey round stones
 # B3 floors q 
 feat:B3 floors q:torch:0xB3:0xE8
 feat:B3 floors q:los:0xB3:0xE9
