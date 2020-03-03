@@ -191,7 +191,7 @@ name:& Ration~ of Food
 graphics:,:U
 type:food
 properties:1:8:1000
-alloc:40:1 to 50
+alloc:20:1 to 50
 pile:100:1d2
 effect:NOURISH
 dice:6000
@@ -203,10 +203,10 @@ name:& Slime Mold~
 graphics:,:g
 type:food
 properties:5:2:400
-alloc:40:5 to 60
+alloc:20:5 to 60
 pile:100:1d3
 effect:NOURISH
-dice:2500
+dice:1500
 msg_self:That tastes good.
 desc:A strange fungal growth, prone to moving if not observed. Not very tasty
 desc: but quite filling.
@@ -215,7 +215,7 @@ name:& Piece~ of Elvish Waybread
 graphics:,:B
 type:food
 properties:30:3:1000
-alloc:40:30 to 100
+alloc:20:30 to 100
 pile:10:1d2
 effect:CURE:POISONED
 effect:HEAL_HP
@@ -230,7 +230,7 @@ name:& Hard Biscuit~
 graphics:,:U
 type:food
 properties:0:2:300
-alloc:40:1 to 50
+alloc:20:1 to 50
 pile:100:2d3
 effect:NOURISH
 dice:500
@@ -242,7 +242,7 @@ name:& Flask~ of Whisky
 graphics:,:y
 type:food
 properties:0:5:75
-alloc:40:0 to 50
+alloc:20:0 to 50
 effect:NOURISH
 dice:50
 effect:TIMED_INC:CONFUSED
@@ -278,7 +278,7 @@ name:& Pint~ of Fine Wine
 graphics:,:r
 type:food
 properties:0:10:100
-alloc:40:0 to 50
+alloc:20:0 to 50
 effect:NOURISH
 dice:150
 effect:TIMED_INC:CONFUSED
@@ -2142,7 +2142,7 @@ name:Satisfy Hunger
 graphics:?:w
 type:scroll
 properties:5:5:2000
-alloc:60:5 to 100
+alloc:30:5 to 100
 pile:100:1d1
 effect:SET_NOURISH
 dice:7000
@@ -4032,7 +4032,7 @@ name:& Pint~ of Fine Ale
 graphics:,:y
 type:food
 properties:0:5:50
-alloc:40:0 to 50
+alloc:20:0 to 50
 effect:NOURISH
 dice:100
 effect:TIMED_INC:CONFUSED
@@ -4068,60 +4068,66 @@ name:& Potato~
 graphics:,:u
 type:crop
 properties:0:2:1
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:50
+dice:500
 msg_self:That tastes especially good.
 
 name:& Head~ of Cabbage
 graphics:,:G
 type:crop
 properties:0:3:1
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:50
+dice:1000
 msg_self:That tastes especially good.
 
 name:& Carrot~
 graphics:,:o
 type:crop
 properties:0:1:2
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:50
+dice:750
 msg_self:That tastes especially good.
 
 name:& Beet~
 graphics:,:r
 type:crop
 properties:0:1:2
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:25
+dice:500
 msg_self:That tastes especially good.
 
 name:& Squash~
 graphics:,:y
 type:crop
 properties:0:3:1
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:50
+dice:1000
 msg_self:That tastes especially good.
 
 name:& Ear~ of Corn
 graphics:`:y
 type:crop
 properties:0:2:2
+alloc:20:1 to 50
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH
-dice:50
+dice:750
 msg_self:That tastes especially good.
 
 name:& Pair~ of Witan Boots
