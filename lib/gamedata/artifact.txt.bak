@@ -2044,7 +2044,7 @@ time:55+d55
 desc:A famous forged iron helm granting extraordinary powers of mind and
 desc: awareness.
 
-#BUFF?
+#BUFFED
 name:of Gorlim
 base-object:helm:Iron Helm
 level:20

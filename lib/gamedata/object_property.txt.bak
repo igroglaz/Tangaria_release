@@ -98,12 +98,6 @@ code:SPEED
 power:20
 mult:6
 
-name:damage reduction
-type:mod
-code:DAM_RED
-power:5
-mult:6
-
 name:attack speed
 type:mod
 code:BLOWS
@@ -154,30 +148,6 @@ type:mod
 code:MIGHT
 power:0
 mult:30
-type-mult:horn:0
-type-mult:digger:0
-type-mult:hafted:0
-type-mult:polearm:0
-type-mult:sword:0
-type-mult:mage staff:0
-type-mult:boots:0
-type-mult:gloves:0
-type-mult:helm:0
-type-mult:crown:0
-type-mult:shield:0
-type-mult:cloak:0
-type-mult:soft armour:0
-type-mult:hard armour:0
-type-mult:dragon armour:0
-type-mult:light:0
-type-mult:amulet:0
-type-mult:ring:0
-
-name:movement speed
-type:mod
-code:MOVES
-power:0
-mult:50
 type-mult:horn:0
 type-mult:digger:0
 type-mult:hafted:0
@@ -640,11 +610,11 @@ code:FRAGILE
 power:0
 desc:Can be destroyed if you attempt to remove its curses
 
-name:intensity 2 light
+name:radius 1 light
 type:flag
 subtype:light
 id-type:on wield
-code:LIGHT_2
+code:LIGHT_1
 power:9
 type-mult:horn:0
 type-mult:bow:0
@@ -665,11 +635,11 @@ type-mult:dragon armour:0
 type-mult:amulet:0
 type-mult:ring:0
 
-name:intensity 3 light
+name:radius 2 light
 type:flag
 subtype:light
 id-type:on wield
-code:LIGHT_3
+code:LIGHT_2
 power:18
 type-mult:horn:0
 type-mult:bow:0
@@ -690,11 +660,11 @@ type-mult:dragon armour:0
 type-mult:amulet:0
 type-mult:ring:0
 
-name:intensity 4 light
+name:radius 3 light
 type:flag
 subtype:light
 id-type:on wield
-code:LIGHT_4
+code:LIGHT_3
 power:27
 type-mult:horn:0
 type-mult:bow:0
@@ -760,18 +730,6 @@ type-mult:hard armour:0
 type-mult:dragon armour:0
 type-mult:amulet:0
 type-mult:ring:0
-
-name:trap immunity
-type:flag
-code:TRAP_IMMUNE
-power:5
-
-name:throwing
-type:flag
-subtype:throw
-id-type:on wield
-code:THROWING
-power:4
 
 name:auto-id
 type:flag

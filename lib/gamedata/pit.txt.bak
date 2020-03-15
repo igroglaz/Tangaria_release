@@ -200,16 +200,26 @@ name:Spellcasters
 room:1
 alloc:1:20
 obj-rarity:0
+mon-base:kobold
+mon-base:humanoid
+mon-base:orc
+mon-base:person
 spell-req:MISSILE
-mon-ban:spirit of missile
+spell-ban:ARROW_1
+spell-ban:ARROW_2
 
 name:Archers
 room:1
-alloc:1:50
+alloc:1:25
 obj-rarity:0
-spell-freq:4
-spell-req:ARROW
-mon-ban:spirit of missile
+mon-base:kobold
+mon-base:orc
+mon-base:person
+color:W
+color:D
+spell-ban:BO_NETH
+spell-ban:HASTE
+spell-ban:BA_NETH
 
 name:Nagas
 room:1
@@ -230,17 +240,16 @@ alloc:1:25
 obj-rarity:0
 mon-base:person
 color:u
-color:s
-color:M
-spell-ban:DARKNESS | ARROW
+color:y
+spell-ban:HEAL_KIN
 
 name:Dark elves
 room:1
-alloc:1:40
+alloc:1:30
 obj-rarity:0
 mon-base:humanoid
 flags-req:HURT_LIGHT
-spell-ban:TPORT
+spell-ban:CAUSE_1
 
 name:Eyes
 room:1
@@ -273,7 +282,7 @@ mon-base:snake
 mon-base:naga
 mon-base:hydra
 spell-ban:BA_POIS
-spell-ban:BR_FIRE | BR_NETH | BR_CHAO | S_HYDRA
+spell-ban:BR_FIRE
 
 name:Lesser undead
 room:2
@@ -310,7 +319,7 @@ mon-base:hydra
 name:Golems
 room:1
 alloc:1:65
-obj-rarity:10
+obj-rarity:0
 mon-base:golem
 flags-ban:DRAGON
 flags-ban:UNDEAD

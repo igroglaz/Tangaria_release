@@ -445,6 +445,8 @@ skill-melee:15
 skill-shoot:-15
 skill-dig:0
 #add one more HP (V is 13)
+info:10:125
+history:98:255:70
 hitdie:10
 exp:210:125
 history:98

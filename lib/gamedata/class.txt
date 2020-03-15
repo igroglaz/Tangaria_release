@@ -21,6 +21,7 @@
 # brand:level of application:brand code
 # slay:level of application:slay code
 # player-flags:class flags
+# shape:level of application:monster race
 # title:title
 # magic:spell_first:spell_weight:num_books
 # book:tval:quality:name:spells:realm
@@ -67,9 +68,11 @@
 
 # 'brand' is for brands that classes possess innately at a certain level.
 
-# 'slay' is for slays that races possess innately at a certain level.
+# 'slay' is for slays that classes possess innately at a certain level.
 
 # 'player-flags' is for class flags.
+
+# 'shape' is for shapes that classes can polymorph into at a certain level.
 
 # Note: MAngband supports several additional flags.
 #  ANTIMAGIC - antimagic field
@@ -335,7 +338,7 @@ effect:DETECT_TREASURES
 effect-yx:22:40
 desc:Detects all treasure in the immediate area.
 
-spell:Identify Rune:11:7:25:6:0
+spell:Identify Rune:11:7:25:8:0
 effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
@@ -350,12 +353,12 @@ book-properties:25:30:1600
 book-alloc:20:25 to 100
 book-desc:A standard arcane book with a few spells.
 
-spell:Reveal Monsters:15:6:40:6:0
+spell:Reveal Monsters:15:6:40:8:0
 effect:DETECT_MONSTERS
 effect-yx:11:11
 desc:Detects all monsters in the immediate area, for one turn only.
 
-spell:Shock Wave:16:5:40:6:0
+spell:Shock Wave:16:5:40:10:0
 effect:BALL:SOUND:2
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
@@ -364,7 +367,7 @@ desc:Shoots a radius-2 sound ball.
 desc: Apart from doing sound damage, this also has a chance to stun
 desc: each monster in the area of effect.
 
-spell:Explosion:20:10:50:10:0
+spell:Explosion:20:10:50:12:0
 effect:BALL:SHARD:2
 dice:$B
 expr:B:PLAYER_LEVEL:* 2 + 20
@@ -382,7 +385,7 @@ spell:Mana Drain:22:2:30:12:0
 effect:TAP_DEVICE
 desc:Turns wand or staff energy into mana.
 
-spell:Teleport Other:23:12:60:8:0
+spell:Teleport Other:23:12:60:12:0
 effect:BOLT_STATUS:AWAY_ALL:1
 dice:$B
 expr:B:MAX_SIGHT:* 5
@@ -411,7 +414,7 @@ desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
-spell:Resistance:28:20:65:30:0
+spell:Resistance:28:20:65:20:0
 effect:TIMED_INC:OPP_POIS
 dice:20+1d20
 effect:TIMED_INC:OPP_COLD
@@ -517,14 +520,14 @@ shape:15:griffon
 shape:15:sasquatch
 shape:20:werebear
 shape:20:great eagle
-shape:20:aranea
+shape:20:abyss spider
 shape:25:wyvern
 shape:25:multi-hued hound
 shape:30:5-headed hydra
 shape:30:minotaur
 shape:35:7-headed hydra
 shape:35:plasma hound
-shape:35:elder aranea
+shape:35:ancient spider
 shape:40:11-headed hydra
 shape:40:giant roc
 shape:45:maulotaur
@@ -558,9 +561,10 @@ desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
 spell:Satisfy Hunger:2:2:25:2:0
-effect:NOURISH
-dice:500
-desc:Magically renders you fed.
+effect:NOURISH:SET_TO
+dice:15
+desc:Magically renders you well-fed (but not satiated).
+desc: This will also cure a bloated stomach.
 
 spell:Stinking Cloud:3:2:27:4:0
 effect:BALL:POIS:2
@@ -608,7 +612,7 @@ desc: is susceptible to rock remover takes 20+1d30 points of damage.
 
 spell:Sense Surroundings:9:4:35:6:0
 effect:MAP_AREA
-effect-yx:22:40
+effect-yx:13:13
 desc:Maps out a portion of the level around you.
 
 spell:Lightning Strike:12:6:35:8:0
@@ -674,7 +678,7 @@ spell:Mass Sleep:25:15:50:15:0
 effect:PROJECT_LOS_AWARE:SLEEP_ALL
 desc:Attempts to put to sleep each monster within line of sight.
 
-book:nature book:dungeon:[Nature Craft]:5:nature
+book:nature book:dungeon:[Nature Craft]:6:nature
 book-graphics:?:o
 book-properties:40:30:20000
 book-alloc:15:40 to 100
@@ -731,12 +735,6 @@ msg_other: fires a gravity beam.
 desc:Fires a gravity beam that hurts each monster in its path
 desc: and has a chance of teleporting it away.
 
-book:nature book:dungeon:[Wild Forces]:5:nature
-book-graphics:?:o
-book-properties:60:30:50000
-book-alloc:10:60 to 100
-book-desc:An advanced nature book with a few verses.
-
 spell:Ice Storm:37:25:75:24:0
 effect:PROJECT_LOS:ICE
 dice:3d$S
@@ -744,14 +742,24 @@ expr:S:PLAYER_LEVEL:* 3
 msg_other: invokes an ice storm.
 desc:Strikes every monster in line of sight with sheets of ice from above.
 
-spell:Herbal Healing:40:30:90:100:0
+book:nature book:dungeon:[Wild Forces]:5:nature
+book-graphics:?:o
+book-properties:60:30:50000
+book-alloc:10:60 to 100
+book-desc:An advanced nature book with a few verses.
+
+spell:Rapid Regeneration:37:20:90:100:0
 effect:TIMED_INC:HEAL
 dice:5+1d3
+desc:Speed up digestion to increase regeneration of hitpoints for
+desc: the next 5+1d3 turns (or until hungry).
+
+spell:Herbal Curing:40:20:90:100:0
+effect:CURE:BLACKBREATH
 effect:CURE:STUN
 effect:CURE:POISONED
 effect:CURE:CUT
-desc:Cures all cuts, poison and stunning and heals 30 hit points on each of
-desc: the next 5+1d3 turns.
+desc:Cures all cuts, poison, stunning and black breath.
 
 spell:Volcanic Eruption:40:30:75:50:0
 effect:EARTHQUAKE:NONE:5
@@ -1046,15 +1054,10 @@ desc: You will also be blinded for 10+1d10 turns, unless you
 desc: have resistance to blindness or light.
 desc: This prayer has no effect when used in the town.
 
-spell:Light Room:1:2:26:4:0
-effect:BLAST:LIGHT_WEAK:2
-dice:2d$S
-expr:S:PLAYER_LEVEL:/ 2
-effect:LIGHT_AREA
-msg_other: calls light.
-desc:Lights up all squares within 2 grids of the player and hurts
-desc: all light-sensitive monsters in the area of effect.
-desc: If you are in a room, the entire room will be lit up as well.
+spell:Clairvoyance:37:50:80:150:0
+effect:LIGHT_LEVEL
+desc:Lights up, maps out and senses all objects on the complete current
+desc: dungeon level.
 
 spell:Holy Word:39:32:95:20:0
 effect:CURE:AFRAID
@@ -1230,7 +1233,7 @@ msg_other: shifts away.
 desc:Displaces your spirit a short distance, hurting your body as it is
 desc: dragged along.
 
-spell:Command:15:14:53:4:0
+spell:Command:15:14:53:12:0
 effect:BOLT_AWARE:COMMAND
 dice:$B
 expr:B:PLAYER_LEVEL:* 2
@@ -1547,7 +1550,7 @@ desc: to-dam bonus of the same weapon.
 desc: The prayer has no effect if the weapon is an artifact, an ego item
 desc: or a worthless item.
 
-spell:Protection from Evil:22:15:50:4:0
+spell:Protection from Evil:22:15:50:5:0
 effect:TIMED_INC:PROTEVIL
 dice:$B+1d25
 expr:B:PLAYER_LEVEL:* 3
@@ -1611,9 +1614,9 @@ desc:Cures 2000 points of damage, cures all stunning, heals all
 desc: cut damage, neutralizes poison, and cures amnesia.
 
 spell:Clairvoyance:37:50:80:150:0
-effect:LIGHT_LEVEL
-desc:Lights up, maps out and senses all objects on the complete current
-desc: dungeon level.
+effect:MAP_AREA
+effect-yx:17:27
+desc:Maps out a portion of the level around you.
 
 spell:Restoration:40:80:90:250:1
 effect:RESTORE_STAT:CON
@@ -1866,7 +1869,7 @@ strength-multiplier:4
 equip:food:Ration of Food:2:4:1
 equip:light:Wooden Torch:1:3:1
 ##########equip:magic book:[Magic for Beginners]:1:1:1
-equip:sword:Dagger:1:1:1
+equip:sword:Main Gauche:1:1:1
 equip:bow:Short Bow:1:1:0
 equip:arrow:Arrow:15:20:0
 equip:digger:Spade:1:1:1
@@ -1901,9 +1904,10 @@ desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
 spell:Satisfy Hunger:5:2:23:2:0
-effect:NOURISH
-dice:500
-desc:Magically renders you fed.
+effect:NOURISH:SET_TO
+dice:15
+desc:Magically renders you well-fed (but not satiated).
+desc: This will also cure a bloated stomach.
 
 spell:Detect Stairs:7:3:50:5:0
 effect:DETECT_STAIRS
@@ -2017,14 +2021,12 @@ effect:BOW_BRAND_SHOT:POIS
 dice:5
 desc:Covers your missiles with venom.
 
-spell:Herbal Healing:40:30:90:100:0
-effect:TIMED_INC:HEAL
-dice:5+1d3
+spell:Herbal Curing:40:20:90:100:0
+effect:CURE:BLACKBREATH
 effect:CURE:STUN
 effect:CURE:POISONED
 effect:CURE:CUT
-desc:Cures all cuts, poison and stunning and heals 30 hit points on each of
-desc: the next 5+1d3 turns.
+desc:Cures all cuts, poison, stunning and black breath.
 
 
 ############### BLACKGUARD ###############
@@ -2552,15 +2554,10 @@ msg_other: fires an annihilation bolt.
 desc:Fires a powerful magic missile that always hits its target
 desc: and does unresistable damage.
 
-spell:Light Room:2:2:16:4:0
-effect:LIGHT_AREA
-effect:BLAST:LIGHT_WEAK:2
-dice:2d$S
-expr:S:PLAYER_LEVEL:/ 2
-msg_other: calls light.
-desc:Lights up all squares within 2 grids of the player and hurts
-desc: all light-sensitive monsters in the area of effect.
-desc: If you are in a room, the entire room will be lit up as well.
+spell:Clairvoyance:40:50:95:200:0
+effect:LIGHT_LEVEL
+desc:Lights up, maps out and senses all objects on the complete current
+desc: dungeon level.
 
 spell:Mana Storm:42:16:50:200:0
 effect:BALL:MANA:3
@@ -2696,9 +2693,10 @@ dice:5
 desc:Covers your missiles with frost.
 
 spell:Satisfy Hunger:12:6:24:12:0
-effect:NOURISH
-dice:500
-desc:Magically renders you fed.
+effect:NOURISH:SET_TO
+dice:15
+desc:Magically renders you well-fed (but not satiated).
+desc: This will also cure a bloated stomach.
 
 book:nature book:town:[Gifts of Nature]:4:nature
 
@@ -2749,11 +2747,11 @@ book:nature book:dungeon:[Nature Craft]:4:nature
 
 spell:Sense Surroundings:28:14:56:28:0
 effect:MAP_AREA
-effect-yx:22:40
+effect-yx:13:13
 desc:Maps out a portion of the level around you.
 
 spell:Piercing Shots:30:11:50:50:0
-effect:BOW_BRAND:ARROW_X
+effect:BOW_BRAND:ARROW
 desc:Turns your missiles into deadly piercing shots.
 
 spell:Explosive Shots:32:12:54:55:0
@@ -2981,10 +2979,10 @@ effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
 spell:Satisfy Hunger:16:14:40:16:0
-effect:SET_NOURISH
-dice:3000
+effect:NOURISH:SET_TO
+dice:15
 msg_self:You focus your mind to convert energy into food.
-desc:Magically renders you well-fed.
+desc:Magically renders you well-fed (but not satiated).
 desc: This will also cure a bloated stomach.
 
 spell:Mass Stun:18:15:43:18:0
@@ -3139,7 +3137,7 @@ desc: The chance to get a beam goes up with your character level.
 
 spell:Clairvoyance:40:34:76:55:0
 effect:MAP_AREA
-dice:11d17
+effect-yx:17:27
 desc:Maps out a portion of the level around you.
 
 spell:Kinetic Wave:42:23:79:59:0
@@ -3480,8 +3478,8 @@ expr:S:PLAYER_SPELL_POWER:* 10
 desc:Grants you temporary resistance to cold.
 
 spell:Potion of Vitality:20:9:49:16:0
-effect:SET_NOURISH
-dice:3000
+effect:NOURISH:SET_TO
+dice:15
 effect:TIMED_INC:BOLD
 dice:$B+1d$S
 expr:B:PLAYER_SPELL_POWER:* 10
@@ -3956,7 +3954,7 @@ magic:0:400:1
 
 # Hack -- mimic realm spells
 # Spells are all put in one book, and they use RSF_XXX flags as effect flag
-book:mimic realm:xxx:xxx:65:mimic
+book:mimic realm:xxx:xxx:73:mimic
 
 spell:Shriek:0:1:1:0:0
 effect:PROJECT_LOS:MON_SPEED
@@ -3968,40 +3966,41 @@ msg_other: makes a high-pitched shriek.
 desc:Awakens all nearby sleeping monsters and hastens all monsters within line
 desc: of sight (#%d).
 
-spell:Seeker Arrow:0:0:8:0:0
-effect:BOLT:ARROW_X
-flag:ARROW_X
-dice:9d6
-msg_other: fires a seeker arrow.
-desc:Fires a seeker arrow that always hits its target (#%d).
+spell:Whip:0:2:2:0:0
+effect:LASH:MISSILE:2
+flag:WHIP
+msg_other: lashes with a whip.
+desc:Fires a beam, dealing damage determined by blows (#%d).
 
-spell:Shot:0:0:1:0:0
-effect:BOLT:ARROW_1
-flag:ARROW_1
-dice:1d6
+spell:Spit:0:3:3:0:0
+effect:LASH:MISSILE:3
+flag:SPIT
+msg_other: spits.
+desc:Fires a beam, dealing damage determined by blows (#%d).
+
+spell:Shot:0:0:6:0:0
+effect:BOLT:SHOT
+flag:SHOT
+dice:$Dd5
+expr:D:PLAYER_LEVEL:/ 8 + 1
 msg_other: fires a shot.
 desc:Fires a shot that always hits its target (#%d).
 
-spell:Arrow:0:0:3:0:0
-effect:BOLT:ARROW_2
-flag:ARROW_2
-dice:3d6
+spell:Arrow:0:0:8:0:0
+effect:BOLT:ARROW
+flag:ARROW
+dice:$Dd6
+expr:D:PLAYER_LEVEL:/ 8 + 1
 msg_other: fires an arrow.
 desc:Fires an arrow that always hits its target (#%d).
 
-spell:Bolt:0:0:5:0:0
-effect:BOLT:ARROW_3
-flag:ARROW_3
-dice:5d6
+spell:Bolt:0:0:10:0:0
+effect:BOLT:BOLT
+flag:BOLT
+dice:$Dd7
+expr:D:PLAYER_LEVEL:/ 8 + 1
 msg_other: fires a bolt.
 desc:Fires a bolt that always hits its target (#%d).
-
-spell:Missile:0:0:6:0:0
-effect:BOLT:ARROW_4
-flag:ARROW_4
-dice:7d6
-msg_other: fires a missile.
-desc:Fires a missile that always hits its target (#%d).
 
 spell:Boulder:0:0:14:0:0
 effect:BOLT:BOULDER
@@ -4010,6 +4009,12 @@ dice:$Dd12
 expr:D:PLAYER_LEVEL:/ 7 + 1
 msg_other: hurls a boulder.
 desc:Fires a boulder that always hits its target (#%d).
+
+spell:Create Webs:0:4:8:0:0
+effect:WEB
+flag:WEAVE
+msg_other: creates a web.
+desc:Creates a web (#%d).
 
 spell:Acid Ball:0:17:24:0:0
 effect:BALL:ACID:2
@@ -4043,18 +4048,27 @@ expr:S:PLAYER_LEVEL:* 3 / 2
 msg_other: fires a frost ball.
 desc:Shoots a radius-2 or radius-3 frost ball (#%d).
 
-spell:Stinking Cloud:0:3:4:0:0
+spell:Venomous Cloud:0:5:7:0:0
 effect:BALL:POIS:2
 flag:BA_POIS
-dice:12d2
-msg_other: fires a stinking cloud.
+dice:$Dd4
+expr:D:PLAYER_LEVEL:/ 2 + 3
+msg_other: fires a venomous cloud.
 desc:Shoots a radius-2 or radius-3 poison ball (#%d).
+
+spell:Shard Ball:0:9:13:0:0
+effect:BALL:SHARD:2
+flag:BA_SHAR
+dice:10+1d$S
+expr:S:PLAYER_LEVEL:* 3 / 2
+msg_other: fires a shard ball.
+desc:Shoots a radius-2 or radius-3 shard ball (#%d).
 
 spell:Nether Ball:0:20:29:0:0
 effect:BALL:NETHER:2
 flag:BA_NETH
 dice:$B+10d10
-expr:B:PLAYER_LEVEL:+ 50
+expr:B:PLAYER_LEVEL:* 4
 msg_other: fires a nether ball.
 desc:Shoots a radius-2 or radius-3 nether ball (#%d).
 
@@ -4074,13 +4088,35 @@ expr:B:PLAYER_LEVEL:* 5
 msg_other: invokes a mana storm.
 desc:Shoots a radius-2 or radius-3 mana ball (#%d).
 
-spell:Darkness Storm:0:35:50:0:0
+spell:Darkness Storm:0:30:40:0:0
 effect:BALL:DARK:2
 flag:BA_DARK
 dice:$B+10d10
-expr:B:PLAYER_LEVEL:* 5
+expr:B:PLAYER_LEVEL:* 4
 msg_other: invokes a darkness storm.
 desc:Shoots a radius-2 or radius-3 darkness ball (#%d).
+
+spell:Starburst:0:9:13:0:0
+effect:BALL:LIGHT:2
+flag:BA_LIGHT
+dice:10+1d$S
+expr:S:PLAYER_LEVEL:* 3 / 2
+msg_other: invokes a starburst.
+desc:Shoots a radius-2 or radius-3 light ball (#%d).
+
+spell:Storm:0:30:40:0:0
+effect:BALL:WATER:3
+dice:30+$Dd5
+expr:D:PLAYER_LEVEL:/ 3
+effect:BALL:ELEC:3
+dice:20+$Dd5
+expr:D:PLAYER_LEVEL:/ 3
+effect:BALL:ICE:3
+flag:STORM
+dice:20+$Dd5
+expr:D:PLAYER_LEVEL:/ 3
+msg_other: creates a tempest of wind and water.
+desc:Shoots a radius-3 water/lightning/ice ball (#%d).
 
 spell:Drain Mana:0:3:6:0:0
 effect:BOLT_AWARE:DRAIN_MANA
@@ -4107,34 +4143,14 @@ msg_other: hurls a powerful mind blast.
 desc:Fires a powerful mental blast that will damage minded creatures. This also
 desc: has a chance to blind, confuse, put to sleep or slow the target (#%d).
 
-spell:Cause Light Wounds:0:3:4:0:0
+spell:Cause Wounds:0:15:22:0:0
 effect:BOLT:CURSE
-flag:CAUSE_1
-dice:3d8
-msg_other: curses.
-desc:Cause 3d8 points of damage to its target (#%d).
-
-spell:Cause Serious Wounds:0:7:10:0:0
-effect:BOLT:CURSE
-flag:CAUSE_2
-dice:8d8
-msg_other: curses horribly.
-desc:Cause 8d8 points of damage to its target (#%d).
-
-spell:Cause Critical Wounds:0:15:22:0:0
-effect:BOLT:CURSE
-flag:CAUSE_3
-dice:10d15
+flag:WOUND
+dice:$Dd5
+expr:D:PLAYER_LEVEL:/ 3 * 2
 msg_other: incants terribly.
-desc:Cause 10d15 points of damage to its target (#%d).
-
-spell:Cause Mortal Wounds:0:23:33:0:0
-effect:BOLT:CURSE2
-flag:CAUSE_4
-dice:15d15
-msg_other: screams the word 'DIE!'
-desc:Cause 15d15 points of damage to its target. This also has a chance
-desc: to cause open wounds (#%d).
+desc:Cause damage to its target. This also has a chance to cause open wounds
+desc: (#%d).
 
 spell:Acid Bolt:0:8:11:0:0
 effect:BOLT:ACID
@@ -4168,6 +4184,14 @@ expr:B:PLAYER_LEVEL:/ 3
 msg_other: fires a frost bolt.
 desc:Fires a frost bolt that always hits its target (#%d).
 
+spell:Poison Bolt:0:9:13:0:0
+effect:BOLT:POIS
+flag:BO_POIS
+dice:$B+9d8
+expr:B:PLAYER_LEVEL:/ 3
+msg_other: spews a stream of poison.
+desc:Fires a poison bolt that always hits its target (#%d).
+
 spell:Nether Bolt:0:13:19:0:0
 effect:BOLT:NETHER
 flag:BO_NETH
@@ -4188,7 +4212,7 @@ spell:Mana Bolt:0:23:33:0:0
 effect:BOLT:MANA
 flag:BO_MANA
 dice:50+1d$S
-expr:S:PLAYER_LEVEL:* 7 / 2
+expr:S:PLAYER_LEVEL:* 5 / 2
 msg_other: fires a mana bolt.
 desc:Fires a mana bolt that always hits its target (#%d).
 
@@ -4202,7 +4226,7 @@ desc:Fires a plasma bolt that always hits its target (#%d).
 
 spell:Ice Bolt:0:9:13:0:0
 effect:BOLT:ICE
-flag:BO_ICEE
+flag:BO_ICE
 dice:$B+6d6
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: fires an ice bolt.
@@ -4215,6 +4239,22 @@ dice:$B+2d6
 expr:B:PLAYER_LEVEL:/ 3
 msg_other: fires a magic missile.
 desc:Fires a magic missile that always hits its target (#%d).
+
+spell:Lightning Beam:0:8:12:0:0
+effect:BEAM:ELEC
+flag:BE_ELEC
+dice:$B+5d5
+expr:B:PLAYER_LEVEL:* 2 + 30
+msg_other: shoots a spark of lightning.
+desc:Fires a lightning beam that always hits its target (#%d).
+
+spell:Nether Beam:0:16:24:0:0
+effect:BEAM:NETHER
+flag:BE_NETH
+dice:$B+5d5
+expr:B:PLAYER_LEVEL:* 2 + 30
+msg_other: hurls a lance of nether.
+desc:Fires a nether beam that always hits its target (#%d).
 
 spell:Scare:0:5:10:0:0
 effect:BOLT_AWARE:TURN_ALL
@@ -4272,6 +4312,15 @@ msg_other: concentrates on %s wounds.
 desc:Cures a level-dependent amount of damage points, removes fear,
 desc: neutralizes poison and heals all cut damage (#%d).
 
+spell:Heal Other:0:16:32:0:0
+effect:BOLT_STATUS:MON_HEAL
+flag:HEAL_KIN
+dice:$B
+expr:B:PLAYER_LEVEL:* 6
+msg_other: tries to heal %s comrades.
+desc:Cures a level-dependent amount of damage points, and heals all cut and stun
+desc: damage (#%d).
+
 spell:Blink:0:2:4:0:0
 effect:TELEPORT
 flag:BLINK
@@ -4293,6 +4342,14 @@ flag:TELE_TO
 msg_other: commands %s target to come hither.
 desc:Teleports its target next to you (#%d).
 
+spell:Teleport Self To:0:12:24:0:0
+effect:TELEPORT_TO
+flag:TELE_SELF_TO
+dice:$B
+expr:B:PLAYER_LEVEL:/ 5 + 10
+msg_other: blinks toward %s target.
+desc:Teleports you next to its target (#%d).
+
 spell:Teleport Away:0:12:24:0:0
 effect:BOLT_STATUS:AWAY_ALL:1
 flag:TELE_AWAY
@@ -4310,8 +4367,8 @@ desc:Teleports its target 1 level up or 1 level down (chosen at random) (#%d).
 
 spell:Darkness:0:3:6:0:0
 effect:DARKEN_AREA
-flag:DARKNESS
 effect:BLAST:DARK_WEAK:3
+flag:DARKNESS
 dice:10
 msg_other: gestures in shadow.
 desc:Darkens a radius-{3} area (plus the entire room if you are currently in
@@ -4479,6 +4536,23 @@ desc:Attempts to summon up to eight unique monsters generated at the current
 desc: dungeon level.
 desc: This spell has no effect when used in the town (#%d).
 
+spell:Summon Abominations:0:40:50:0:0
+effect:SUMMON:ABOMINATION
+flag:S_ABOMINATION
+dice:8
+msg_other: magically summons abominations!
+desc:Attempts to summon up to eight abominations generated at the current
+desc: dungeon level.
+desc: This spell has no effect when used in the town (#%d).
+
+spell:Summon Spirits:0:40:50:0:0
+effect:SUMMON:SPIRIT
+flag:S_SPIRIT
+dice:8
+msg_other: magically summons spirits!
+desc:Attempts to summon up to eight spirits generated at the current
+desc: dungeon level.
+desc: This spell has no effect when used in the town (#%d).
 
 ############### Archer ###############
 name:Archer

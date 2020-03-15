@@ -170,14 +170,10 @@ normal:bow:Sling
 normal:bow:Short Bow
 normal:bow:Long Bow
 normal:bow:Light Crossbow
-buy:shot
-buy:bolt
-buy:arrow
 buy:bow
 buy:sword
 buy:polearm
 buy:hafted
-buy:rock
 buy:mage staff
 
 # Temple
