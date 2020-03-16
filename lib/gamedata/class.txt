@@ -169,7 +169,7 @@ equip:sword:Dagger:1:1:1
 equip:soft armour:Soft Leather Armour:1:1:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 obj-flag:30:PROT_FEAR
@@ -212,7 +212,7 @@ equip:light:Wooden Torch:1:3:1
 equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-3]
@@ -560,7 +560,7 @@ effect-yx:22:40
 desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
-spell:Satisfy Hunger:2:2:25:2:0
+spell:Remove Hunger:2:2:25:2:0
 effect:NOURISH:SET_TO
 dice:15
 desc:Magically renders you well-fed (but not satiated).
@@ -807,7 +807,7 @@ equip:hafted:Mace:1:1:1
 equip:digger:Spade:1:1:1
 equip:potion:Cure Serious Wounds:2:3:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 value:1:STR[-1]
 value:1:INT[-3]
@@ -1432,7 +1432,7 @@ equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Protection from Evil:1:1:0
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[1]
@@ -1657,7 +1657,7 @@ equip:sword:Dagger:1:1:1
 equip:soft armour:Soft Leather Armour:1:1:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:INT[1]
@@ -1874,7 +1874,7 @@ equip:bow:Short Bow:1:1:0
 equip:arrow:Arrow:15:20:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:WIS[2]
@@ -1903,7 +1903,7 @@ effect-yx:13:13
 desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
-spell:Satisfy Hunger:5:2:23:2:0
+spell:Remove Hunger:5:2:23:2:0
 effect:NOURISH:SET_TO
 dice:15
 desc:Magically renders you well-fed (but not satiated).
@@ -2051,7 +2051,7 @@ equip:light:Wooden Torch:1:3:1
 equip:sword:Cutlass:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 obj-flag:1:IMPAIR_HP
@@ -2256,7 +2256,7 @@ equip:light:Wooden Torch:1:3:1
 equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-5]
@@ -2605,7 +2605,7 @@ equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:soft armour:Soft Leather Armour:1:1:0
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:potion:Cure Light Wounds:2:3:0
 equip:scroll:Phase Door:3:4:0
 value:1:STR[3]
@@ -2651,7 +2651,7 @@ equip:bow:Short Bow:1:1:0
 equip:arrow:Arrow:30:40:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-2]
@@ -2692,7 +2692,7 @@ effect:BOW_BRAND_SHOT:COLD
 dice:5
 desc:Covers your missiles with frost.
 
-spell:Satisfy Hunger:12:6:24:12:0
+spell:Remove Hunger:12:6:24:12:0
 effect:NOURISH:SET_TO
 dice:15
 desc:Magically renders you well-fed (but not satiated).
@@ -2806,7 +2806,7 @@ equip:potion:Berserk Strength:1:1:0
 equip:soft armour:Soft Leather Armour:1:1:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 obj-flag:10:FEATHER
@@ -2854,7 +2854,7 @@ equip:light:Wooden Torch:1:3:1
 equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-1]
@@ -2978,7 +2978,7 @@ spell:Psychometry:14:12:37:14:0
 effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
-spell:Satisfy Hunger:16:14:40:16:0
+spell:Remove Hunger:16:14:40:16:0
 effect:NOURISH:SET_TO
 dice:15
 msg_self:You focus your mind to convert energy into food.
@@ -3205,7 +3205,7 @@ equip:light:Wooden Torch:1:3:1
 equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-4]
@@ -3694,7 +3694,7 @@ equip:hafted:Quarterstaff:1:1:1
 equip:digger:Spade:1:1:1
 equip:scroll:Summon Monster:10:10:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-5]
@@ -3930,7 +3930,7 @@ equip:sword:Dagger:1:1:1
 equip:digger:Spade:1:1:1
 equip:soft armour:Soft Leather Armour:1:1:0
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:potion:Cure Light Wounds:2:3:0
 equip:scroll:Phase Door:3:4:0
 value:1:STR[1]
@@ -4577,7 +4577,7 @@ equip:bow:Short Bow:1:1:0
 equip:arrow:Arrow:30:40:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
-equip:scroll:Satisfy Hunger (tattered):1:1:0
+equip:scroll:Remove Hunger (tattered):1:1:0
 equip:scroll:Phase Door:3:4:0
 equip:potion:Cure Light Wounds:2:3:0
 value:1:STR[-1]

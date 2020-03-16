@@ -267,13 +267,6 @@ flags:IM_COLD | IM_POIS | NO_CONF | NO_SLEEP | NO_STUN | NO_HOLD
 flags:FORCE_SLEEP
 desc:Lich
 
-name:louse
-glyph:l
-pain:7
-flags:ANIMAL | WEIRD_MIND | MULTIPLY | LEVITATE
-flags:RAND_50
-desc:Louse
-
 # Weird monsters that look like floor.
 name:lurker
 glyph:.
@@ -561,7 +554,7 @@ name:aquatic
 glyph:~
 pain:1
 desc:Aquatic
-flags:ANIMAL | CLEAR_WEB
+flags:ANIMAL | AQUATIC | CLEAR_WEB
 flags:IM_WATER
 
 name:ball

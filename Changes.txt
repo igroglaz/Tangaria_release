@@ -40,6 +40,8 @@ Game Mechanics
 
 Code Improvements
 - Some font improvements
+- An option to start a new game after dying instead of closing the game and
+  re-opening
 - Many fixes to bugs and memory leaks
 
 For a full list of changes made in older versions, check the Official
@@ -62,10 +64,15 @@ Angband 4.2.0:
 - Treasure in quartz as yellow
 - Add some missing object descriptions
 - Change stealing command to 's'
+- Add option to play again on death
+- Enlarge character resist display
+- Add light level meter
+- Adjust some player race heights
 
 PWMAngband:
 
 - Remove Shockbolt tileset
+- Pressing another macro clears choice menu when a first macro lacks item
 
 Gameplay changes
 ----------------
@@ -110,6 +117,13 @@ Angband 4.2.0:
 - Make stores always accept items with unknown runes in no-selling
 - Make stealing a bit easier
 - Add Mushrooms of Shadows
+- Track number of thefts, reduce drops of uniques accordingly
+- Replace Satisfy Hunger with Remove Hunger
+- Add new foods
+- Nerf rings of Escaping
+- Make being teleported wake monsters
+- Add trap immunity, move speed and damage reduction as possible randart
+  properties
 
 PWMAngband:
 
@@ -117,6 +131,7 @@ PWMAngband:
 - Make Fortune Cookies single items in stores
 - New Hydra race
 - Change vegetal monster base symbol to 'l', add 'l' monsters to the Old Forest
+- Add aquatic monsters
 
 Bugs fixed
 ----------
