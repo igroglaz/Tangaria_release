@@ -1076,6 +1076,16 @@ lore-color-base:Orange
 message-vis:{name} summons an ainu.
 message-invis:You hear something appear nearby!
 
+name:S_ANGEL
+msgt:SUM_ANGEL
+hit:100
+effect:SUMMON:ANGEL
+dice:1
+lore:summon an angel
+lore-color-base:Orange
+message-vis:{name} summons an angel.
+message-invis:You feel something holy appear nearby!
+
 name:S_DEMON
 msgt:SUM_DEMON
 hit:100
@@ -1084,7 +1094,7 @@ dice:1
 lore:summon a demon
 lore-color-base:Orange
 message-vis:{name} summons a demon.
-message-invis:You hear something evil appear nearby!
+message-invis:You feel something evil appear nearby!
 
 name:S_UNDEAD
 msgt:SUM_UNDEAD
@@ -1094,7 +1104,7 @@ dice:1
 lore:summon an undead
 lore-color-base:Orange
 message-vis:{name} summons the undead.
-message-invis:You hear something creepy appear nearby!
+message-invis:You feel something creepy appear nearby!
 
 name:S_DRAGON
 msgt:SUM_DRAGON
@@ -1114,7 +1124,7 @@ dice:8
 lore:summon greater demons
 lore-color-base:Light Red
 message-vis:{name} summons major demons.
-message-invis:You hear evil things appear nearby!
+message-invis:You feel evil things appear nearby!
 
 name:S_HI_UNDEAD
 msgt:SUM_HI_UNDEAD
@@ -1124,7 +1134,7 @@ dice:8
 lore:summon greater undead
 lore-color-base:Light Red
 message-vis:{name} summons fiends of darkness.
-message-invis:You hear creepy things appear nearby!
+message-invis:You feel creepy things appear nearby!
 
 name:S_HI_DRAGON
 msgt:SUM_HI_DRAGON
@@ -1144,7 +1154,7 @@ dice:8
 lore:summon ringwraiths
 lore-color-base:Light Red
 message-vis:{name} summons ringwraiths.
-message-invis:You hear powerful things appear nearby!
+message-invis:You feel powerful things appear nearby!
 
 name:S_UNIQUE
 msgt:SUM_UNIQUE
@@ -1174,4 +1184,4 @@ dice:8
 lore:summon spirits
 lore-color-base:Light Red
 message-vis:{name} summons some spirits.
-message-invis:You hear hollow things appear nearby!
+message-invis:You feel hollow things appear nearby!
