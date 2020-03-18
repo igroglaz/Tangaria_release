@@ -5573,7 +5573,7 @@ weight:100
 cost:0
 desc:The sorry, bony remains of some hapless troll.
 
-name:& Two-headed troll Skeleton~
+name:& Ettin Skeleton~
 graphics:~:w
 type:skeleton
 level:33

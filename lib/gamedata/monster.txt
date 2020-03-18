@@ -8071,6 +8071,7 @@ base:vortex
 color:b
 speed:110
 hit-points:45
+light:2
 hearing:100
 armor-class:36
 sleepiness:0
@@ -8080,7 +8081,7 @@ rarity:2
 weight:0
 experience:100
 blow:ENGULF:ELEC:3d3
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:IM_ELEC
 flags:NO_STUN
 spell-freq:6
@@ -8843,6 +8844,7 @@ base:insect
 color:r
 speed:120
 hit-points:5
+light:2
 hearing:8
 armor-class:21
 sleepiness:10
@@ -8852,7 +8854,6 @@ rarity:7
 weight:0
 experience:4
 blow:BITE:BLIND:1d2
-flags:HAS_LIGHT
 desc:Clouds of these monsters light up the dungeon - so brightly that you can
 desc: barely see through them.
 
@@ -9482,7 +9483,7 @@ blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
 flags:DROP_2
-flags:IM_ACID | HAS_LIGHT
+flags:IM_ACID
 flags:NO_STUN | NO_CONF | LEVITATE
 flags:IM_ACID | IM_POIS
 flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
@@ -9882,7 +9883,7 @@ experience:1100
 blow:HIT:HURT:3d8
 blow:HIT:HURT:3d8
 blow:HIT:HURT:3d8
-flags:COLD_BLOOD | HAS_LIGHT
+flags:COLD_BLOOD
 flags:BASH_DOOR
 flags:IM_POIS | IM_ACID
 flags:FORCE_SLEEP
@@ -12217,7 +12218,7 @@ blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 flags:DROP_2
-flags:IM_ACID | HAS_LIGHT
+flags:IM_ACID
 flags:NO_STUN | NO_CONF | LEVITATE
 flags:IM_POIS | IM_FIRE | IM_COLD
 flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
@@ -12783,6 +12784,7 @@ base:person
 color:y
 speed:120
 hit-points:169
+light:2
 hearing:20
 armor-class:84
 sleepiness:10
@@ -12795,7 +12797,7 @@ blow:HIT:POISON:3d4
 blow:HIT:LOSE_STR:3d4
 blow:HIT:LOSE_STR:3d4
 blow:HIT:POISON:3d4
-flags:MALE | EVIL | HAS_LIGHT | LEVITATE
+flags:MALE | EVIL | LEVITATE
 flags:DROP_1
 flags:OPEN_DOOR
 flags:NO_CONF | NO_SLEEP
@@ -13228,6 +13230,7 @@ base:dragon
 color:r
 speed:110
 hit-points:485
+light:2
 hearing:20
 armor-class:84
 sleepiness:70
@@ -13238,7 +13241,6 @@ experience:1300
 blow:CLAW:HURT:2d8
 blow:CLAW:HURT:2d8
 blow:BITE:HURT:4d9
-flags:HAS_LIGHT
 flags:DROP_4
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE | NO_CONF | NO_SLEEP
@@ -13695,6 +13697,7 @@ color:R
 speed:120
 #246
 hit-points:546
+light:2
 hearing:20
 armor-class:75
 sleepiness:20
@@ -13705,7 +13708,7 @@ weight:160
 experience:1130
 blow:HIT:HURT:2d6
 blow:HIT:HURT:2d6
-flags:MALE | EVIL | SMART | HAS_LIGHT
+flags:MALE | EVIL | SMART
 flags:DROP_1 | ONLY_ITEM
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
@@ -13934,6 +13937,7 @@ base:dragon
 color:u
 speed:110
 hit-points:528
+light:2
 hearing:20
 armor-class:84
 sleepiness:70
@@ -13944,7 +13948,6 @@ experience:1400
 blow:CLAW:HURT:2d9
 blow:CLAW:HURT:2d9
 blow:BITE:HURT:4d9
-flags:HAS_LIGHT
 flags:DROP_4 | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR
 flags:NO_CONF | NO_SLEEP | NO_CUT
@@ -14771,7 +14774,8 @@ blow:HIT:HURT:3d6
 blow:HIT:HURT:3d6
 flags:DROP_1 | ONLY_ITEM
 flags:NO_CONF | NO_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
+#flags:DROP_CORPSE | DROP_SKELETON !!!!!!! HARDCODED
+flags:WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
 desc:A massive two-headed troll of huge strength, ettins are stupid but violent.
 desc: They are also living proof that two heads are not more intelligent than
 desc: one...
@@ -14947,6 +14951,7 @@ base:dragon
 color:I
 speed:110
 hit-points:660
+light:2
 hearing:20
 armor-class:84
 sleepiness:70
@@ -14957,7 +14962,6 @@ experience:1700
 blow:CLAW:HURT:2d10
 blow:CLAW:HURT:2d10
 blow:BITE:HURT:4d11
-flags:HAS_LIGHT
 flags:DROP_4 | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR | NO_CUT
 flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
@@ -15010,6 +15014,7 @@ base:giant
 color:B
 speed:120
 hit-points:700
+light:2
 hearing:20
 armor-class:90
 sleepiness:30
@@ -15019,7 +15024,6 @@ weight:1300
 experience:1000
 blow:HIT:ELEC:10d8
 blow:HIT:ELEC:10d8
-flags:HAS_LIGHT
 flags:DROP_1
 flags:OPEN_DOOR | TAKE_ITEM
 flags:IM_COLD | IM_ELEC
@@ -15898,6 +15902,7 @@ base:ancient dragon
 color:r
 speed:120
 hit-points:1164
+light:2
 hearing:20
 armor-class:120
 sleepiness:80
@@ -15908,7 +15913,6 @@ experience:6000
 blow:CLAW:HURT:4d8
 blow:CLAW:HURT:4d8
 blow:BITE:HURT:7d9
-flags:HAS_LIGHT
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE
 flags:DROP_CORPSE
@@ -16307,6 +16311,7 @@ base:ancient dragon
 color:u
 speed:120
 hit-points:1266
+light:2
 hearing:20
 armor-class:120
 sleepiness:80
@@ -16317,7 +16322,6 @@ experience:7000
 blow:CLAW:HURT:4d9
 blow:CLAW:HURT:4d9
 blow:BITE:HURT:7d9
-flags:HAS_LIGHT
 flags:DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR | NO_CUT
 spell-freq:6
@@ -16983,6 +16987,7 @@ base:angel
 color:b
 speed:120
 hit-points:1800
+light:2
 hearing:30
 armor-class:68
 sleepiness:255
@@ -16997,7 +17002,7 @@ blow:HIT:HURT:4d6
 flags:SMART
 flags:DROP_2
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART | HAS_LIGHT
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
 flags:NO_STUN | NO_CONF | LEVITATE
 spell-freq:9
 spell-power:45
@@ -17013,6 +17018,7 @@ base:ainu
 color:b
 speed:120
 hit-points:1320
+light:2
 hearing:30
 armor-class:68
 sleepiness:255
@@ -17027,7 +17033,7 @@ blow:HIT:HURT:4d6
 flags:SMART
 flags:DROP_2
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART | HAS_LIGHT
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
 flags:NO_STUN
 spell-freq:6
 spell-power:45
@@ -17410,6 +17416,7 @@ base:ancient dragon
 color:I
 speed:120
 hit-points:1584
+light:2
 hearing:20
 armor-class:120
 sleepiness:80
@@ -17420,7 +17427,6 @@ experience:10000
 blow:CLAW:HURT:4d10
 blow:CLAW:HURT:4d10
 blow:BITE:HURT:7d11
-flags:HAS_LIGHT
 flags:DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR | NO_CUT
 flags:NO_STUN | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
@@ -17934,6 +17940,7 @@ base:ainu
 color:m
 speed:120
 hit-points:1300
+light:2
 hearing:30
 armor-class:90
 sleepiness:255
@@ -17945,7 +17952,7 @@ blow:GAZE:EXP_40:4d4
 blow:GAZE:EXP_40:4d4
 blow:HIT:HURT:6d6
 blow:HIT:HURT:6d6
-flags:SMART | EVIL | HAS_LIGHT
+flags:SMART | EVIL
 flags:DROP_3
 flags:MOVE_BODY
 flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_NETHER | NO_FEAR
@@ -20031,6 +20038,7 @@ base:ancient dragon
 color:b
 speed:120
 hit-points:3168
+light:2
 hearing:30
 armor-class:180
 sleepiness:30
@@ -20042,7 +20050,7 @@ blow:CLAW:HURT:4d12
 blow:CLAW:HURT:4d12
 blow:BITE:HURT:6d14
 blow:BITE:HURT:6d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_ELEC
@@ -20514,6 +20522,7 @@ base:ancient dragon
 color:r
 speed:120
 hit-points:3492
+light:2
 hearing:30
 armor-class:180
 sleepiness:30
@@ -20525,7 +20534,7 @@ blow:CLAW:HURT:4d12
 blow:CLAW:HURT:5d12
 blow:BITE:HURT:6d14
 blow:BITE:HURT:6d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE
@@ -20916,6 +20925,7 @@ base:ancient dragon
 color:v
 speed:130
 hit-points:7500
+light:2
 hearing:30
 armor-class:210
 sleepiness:20
@@ -20927,7 +20937,7 @@ blow:CLAW:HURT:5d12
 blow:CLAW:HURT:5d12
 blow:BITE:POISON:8d14
 blow:BITE:FIRE:8d14
-flags:UNIQUE | MALE | HAS_LIGHT | PWMANG_FIXED
+flags:UNIQUE | MALE | PWMANG_FIXED
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
 flags:IM_FIRE | IM_POIS
@@ -21100,6 +21110,7 @@ base:ancient dragon
 color:u
 speed:120
 hit-points:3798
+light:2
 hearing:30
 armor-class:180
 sleepiness:30
@@ -21111,7 +21122,7 @@ blow:CLAW:HURT:5d12
 blow:CLAW:HURT:5d12
 blow:BITE:HURT:6d14
 blow:BITE:HURT:6d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR | NO_CUT
 spell-freq:4
@@ -22506,6 +22517,7 @@ base:ancient dragon
 color:b
 speed:130
 hit-points:5280
+light:2
 hearing:30
 armor-class:225
 sleepiness:20
@@ -22517,7 +22529,7 @@ blow:CLAW:HURT:7d12
 blow:CRUSH:HURT:7d12
 blow:BITE:HURT:9d14
 blow:CRUSH:HURT:9d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_ELEC
@@ -22627,6 +22639,7 @@ base:ancient dragon
 color:Y
 speed:140
 hit-points:5280
+light:2
 hearing:40
 armor-class:240
 sleepiness:20
@@ -22638,7 +22651,7 @@ blow:CLAW:HURT:6d12
 blow:CLAW:HURT:6d12
 blow:BITE:ELEC:8d14
 blow:BITE:ELEC:8d14
-flags:PWMANG_BASE | HAS_LIGHT
+flags:PWMANG_BASE
 flags:ONLY_ITEM | DROP_CORPSE
 flags:BASH_DOOR
 flags:IM_COLD | IM_ELEC | NO_STUN
@@ -22656,6 +22669,7 @@ base:ancient dragon
 color:r
 speed:130
 hit-points:5820
+light:2
 hearing:30
 armor-class:225
 sleepiness:20
@@ -22667,7 +22681,7 @@ blow:CLAW:HURT:7d12
 blow:CRUSH:HURT:8d12
 blow:BITE:HURT:9d14
 blow:CRUSH:HURT:9d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE
@@ -22869,6 +22883,7 @@ base:ancient dragon
 color:u
 speed:130
 hit-points:6330
+light:2
 hearing:30
 armor-class:225
 sleepiness:20
@@ -22880,7 +22895,7 @@ blow:CLAW:HURT:8d12
 blow:CRUSH:HURT:8d12
 blow:BITE:HURT:9d14
 blow:CRUSH:HURT:9d14
-flags:HAS_LIGHT | ATTR_FLICKER
+flags:ATTR_FLICKER
 flags:ONLY_ITEM | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR | NO_CUT
 spell-freq:3
@@ -25399,6 +25414,7 @@ base:townsfolk
 color:I
 speed:100
 hit-points:20
+light:2
 hearing:40
 armor-class:4
 sleepiness:80
@@ -25409,7 +25425,7 @@ experience:0
 blow:TOUCH:SEDUCE
 blow:BEG
 blow:TOUCH:DISEASE
-flags:FEMALE | HAS_LIGHT
+flags:FEMALE
 flags:DROP_60 | ONLY_GOLD
 flags:TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
@@ -25503,6 +25519,7 @@ base:person
 color:W
 speed:110
 hit-points:90
+light:2
 hearing:20
 armor-class:60
 sleepiness:80
@@ -25512,7 +25529,7 @@ weight:170
 experience:5
 blow:HIT:HURT:5d4
 blow:HIT:HURT:5d4
-flags:MALE | HAS_LIGHT
+flags:MALE
 flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
@@ -25534,6 +25551,7 @@ base:person
 color:m
 speed:110
 hit-points:83
+light:2
 hearing:20
 armor-class:48
 sleepiness:80
@@ -25543,7 +25561,7 @@ weight:190
 experience:9
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
-flags:MALE | ANTI_MAGIC | PWMANG_BASE | HAS_LIGHT
+flags:MALE | ANTI_MAGIC | PWMANG_BASE
 flags:OPEN_DOOR
 friends:50:1d1:Easterling champion
 friends:50:1d1:master rogue
@@ -25561,6 +25579,7 @@ base:person
 color:u
 speed:110
 hit-points:90
+light:2
 hearing:20
 armor-class:60
 sleepiness:160
@@ -25570,7 +25589,7 @@ weight:190
 experience:6
 blow:HIT:HURT:6d5
 blow:HIT:HURT:6d5
-flags:MALE | EVIL | HAS_LIGHT
+flags:MALE | EVIL
 flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 friends:50:1d2:Same
@@ -25582,6 +25601,7 @@ base:person
 color:W
 speed:110
 hit-points:90
+light:2
 hearing:20
 armor-class:60
 sleepiness:120
@@ -25591,7 +25611,7 @@ weight:170
 experience:5
 blow:HIT:HURT:5d4
 blow:HIT:HURT:5d4
-flags:MALE | HAS_LIGHT
+flags:MALE
 flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
@@ -25922,6 +25942,7 @@ base:jelly
 color:P
 speed:110
 hit-points:234
+light:2
 hearing:2
 armor-class:1
 sleepiness:99
@@ -25930,7 +25951,6 @@ rarity:3
 weight:0
 experience:6
 blow:TOUCH:EXP_10
-flags:HAS_LIGHT
 flags:NEVER_MOVE
 flags:HURT_LIGHT | HURT_COLD | IM_POIS | NO_CONF | NO_SLEEP
 spell-freq:11
@@ -26066,6 +26086,7 @@ base:person
 color:G
 speed:110
 hit-points:78
+light:2
 hearing:20
 armor-class:15
 sleepiness:80
@@ -26075,7 +26096,7 @@ weight:140
 experience:5
 blow:HIT:HURT:2d4
 blow:HIT:HURT:2d4
-flags:MALE | EVIL | SMART | HAS_LIGHT
+flags:MALE | EVIL | SMART
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD
@@ -26364,6 +26385,7 @@ base:ancient dragon
 color:r
 speed:120
 hit-points:1164
+light:2
 hearing:20
 armor-class:120
 sleepiness:180
@@ -26374,7 +26396,6 @@ experience:60
 blow:CLAW:HURT:4d8
 blow:CLAW:HURT:4d8
 blow:BITE:HURT:7d9
-flags:HAS_LIGHT
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE
 flags:DROP_CORPSE
@@ -26513,6 +26534,7 @@ base:person
 color:D
 speed:120
 hit-points:1320
+light:2
 hearing:20
 armor-class:120
 sleepiness:180
@@ -26524,7 +26546,7 @@ blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:EXP_80:10d5
-flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART | HAS_LIGHT
+flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART
 flags:OPEN_DOOR
 flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
 flags:FORCE_SLEEP
@@ -26586,6 +26608,7 @@ base:hydra
 color:R
 speed:120
 hit-points:950
+light:2
 hearing:20
 armor-class:120
 sleepiness:180
@@ -26597,7 +26620,6 @@ blow:BITE:HURT:3d12
 blow:BITE:HURT:3d12
 blow:BITE:HURT:3d12
 blow:BITE:HURT:3d12
-flags:HAS_LIGHT
 flags:OPEN_DOOR | MOVE_BODY
 flags:IM_FIRE
 flags:DROP_CORPSE | DROP_SKELETON | WILD_SHORE | WILD_SWAMP
@@ -27203,6 +27225,7 @@ base:person
 color:D
 speed:120
 hit-points:1320
+light:2
 hearing:20
 armor-class:120
 sleepiness:180
@@ -27214,7 +27237,7 @@ blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:EXP_80:10d5
-flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART | HAS_LIGHT
+flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART
 flags:OPEN_DOOR
 flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
 flags:FORCE_SLEEP
@@ -27238,6 +27261,7 @@ base:major demon
 color:P
 speed:130
 hit-points:2400
+light:2
 hearing:40
 armor-class:210
 sleepiness:230
@@ -27249,7 +27273,7 @@ blow:HIT:FIRE:8d12
 blow:HIT:FIRE:8d12
 blow:CRUSH:HURT:7d12
 blow:TOUCH:DRAIN_CHARGES
-flags:POWERFUL | HAS_LIGHT | ATTR_FLICKER | LEVITATE
+flags:POWERFUL | ATTR_FLICKER | LEVITATE
 flags:MOVE_BODY
 flags:IM_ELEC | IM_FIRE | IM_POIS | IM_PLASMA
 flags:IM_NETHER
@@ -27273,6 +27297,7 @@ base:major demon
 color:p
 speed:120
 hit-points:1760
+light:2
 hearing:20
 armor-class:75
 sleepiness:180
@@ -27284,7 +27309,7 @@ blow:HIT:FIRE:4d12
 blow:HIT:FIRE:4d12
 blow:CRUSH:HURT:3d12
 blow:TOUCH:DRAIN_CHARGES
-flags:POWERFUL | HAS_LIGHT
+flags:POWERFUL
 flags:MOVE_BODY
 flags:IM_FIRE
 spell-freq:4
@@ -27304,6 +27329,7 @@ base:major demon
 color:p
 speed:120
 hit-points:1760
+light:2
 hearing:20
 armor-class:75
 sleepiness:180
@@ -27315,7 +27341,7 @@ blow:HIT:FIRE:4d12
 blow:HIT:FIRE:4d12
 blow:CRUSH:HURT:3d12
 blow:TOUCH:DRAIN_CHARGES
-flags:POWERFUL | HAS_LIGHT
+flags:POWERFUL
 flags:MOVE_BODY
 flags:IM_FIRE
 spell-freq:4
