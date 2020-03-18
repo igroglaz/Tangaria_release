@@ -787,19 +787,19 @@ object:none:<unknown treasure>:0x9C:0x81
 ### Normal Food ###
 
 object:food:Hard Biscuit:0x82:0x82
-object:food:Apple:0x82:0x85
-object:food:Handful of Dried Fruits:0x82:0x85
+object:food:Apple:0x82:0xA1
+object:food:Handful of Dried Fruits:0x82:0xA2
 object:food:Slime Mold:0x82:0x85
 object:food:Ration of Food:0x82:0x84
-object:food:Scrap of Flesh:0x82:0x85
-object:food:Slice of Meat:0x82:0x85
-object:food:Honey-cake:0x82:0x85
-object:food:Piece of Elvish Waybread:0x82:0x86
-object:food:Flask of Whisky:0x82:0x80
-object:food:Pint of Fine Wine:0x82:0x81
-object:food:Sip of Miruvor:0x82:0x85
-object:food:Swig of Orcish Liquor:0x82:0x85
-object:food:Draught of the Ents:0x82:0x85
+object:food:Scrap of Flesh:0x82:0xA3
+object:food:Slice of Meat:0x82:0xA4
+object:food:Honey-cake:0x82:0xA5
+object:food:Piece of Elvish Waybread:0x82:0xA6
+object:food:Flask of Whisky:0x82:0xA7
+object:food:Pint of Fine Wine:0x82:0xA8
+object:food:Sip of Miruvor:0x82:0xA9
+object:food:Swig of Orcish Liquor:0x82:0xAA
+object:food:Draught of the Ents:0x82:0xAB
 
 ### The shrooms, an interesting collection ###
 
@@ -1184,12 +1184,12 @@ object:light:Arkenstone:0x87:0xB6
 
 object:stone:House Foundation Stone:0x97:0x97
 object:food:Pint of Fine Ale:0x82:0x80
-object:crop:Potato:0x82:0x97
-object:crop:Head of Cabbage:0x82:0x98
-object:crop:Carrot:0x82:0x8A
-object:crop:Beet:0x82:0x8B
-object:crop:Squash:0x82:0x9A
-object:crop:Ear of Corn:0x82:0x9A
+object:crop:Potato:0x82:0xAC
+object:crop:Head of Cabbage:0x82:0xAD
+object:crop:Carrot:0x82:0xAE
+object:crop:Beet:0x82:0xAF
+object:crop:Squash:0x82:0xB0
+object:crop:Ear of Corn:0x82:0xB1
 object:boots:Pair of Witan Boots:0x80:0x95
 object:cloak:Kolla:0x80:0x87
 object:gloves:Set of Elven Gloves:0x80:0x9B
@@ -1201,7 +1201,7 @@ object:scroll:House Creation:0x87:0xCD
 ##### PWMAngband objects #####
 
 object:light:Lamp:0x87:0xC9
-object:food:Large Trout:0x82:0x83
+object:food:Large Trout:0x82:0xB2
 object:sword:Dark Sword:0x8A:0xC6
 object:arrow:Magic Arrow:0x8A:0xD8
 object:bolt:Magic Bolt:0x8A:0xE2
