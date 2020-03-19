@@ -739,28 +739,6 @@ flags:RAND_50
 flags:DROP_SKELETON | WILD_GRASS
 desc:It is about three feet long with large teeth.
 
-name:large brown snake
-base:snake
-color:u
-#100
-speed:110
-#14
-hit-points:7
-hearing:4
-armor-class:42
-sleepiness:99
-depth:1
-#1
-rarity:5
-weight:80
-#3
-experience:5
-blow:BITE:HURT:1d3
-blow:CRUSH:HURT:1d4
-flags:RAND_25
-flags:DROP_CORPSE | DROP_SKELETON
-desc:It is about eight feet long.
-
 name:large white snake
 base:snake
 color:w
@@ -869,23 +847,6 @@ flags:GROUP_AI
 flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD
 friends:100:2d7:Same
 desc:It is a yapping snarling dog, dangerous when in a pack.
-
-name:jackal
-base:canine
-color:U
-speed:110
-hit-points:12
-hearing:10
-smell:50
-armor-class:3
-sleepiness:10
-depth:1
-rarity:1
-weight:40
-experience:3
-blow:BITE:HURT:1d1
-flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD
-desc:It's grows at you.
 
 name:soldier ant
 base:ant
@@ -1148,7 +1109,6 @@ friends-base:80:1d3:person
 friends:50:1d2:Same
 desc:A rather shifty individual.
 
-#V
 name:acolyte
 base:person
 color:g
@@ -1177,7 +1137,6 @@ friends-base:80:1d3:person
 friends:50:1d2:Same
 desc:He is tripping over his priestly robes.
 
-#V
 name:apprentice
 base:person
 color:r
@@ -1396,27 +1355,25 @@ flags:RAND_25 | RAND_50
 flags:HURT_LIGHT | IM_ACID | NO_FEAR
 desc:It is a large slimy mass of worms.
 
-name:large yellow snake
+#was name:large yellow snake / removed in V
+name:sleeping snake
 base:snake
 color:y
-#100
-speed:110
-#18
-hit-points:9
+speed:120
+hit-points:11
 hearing:5
-armor-class:45
-sleepiness:75
+armor-class:15
+sleepiness:255
 depth:2
-#1
-rarity:5
+rarity:2
 weight:100
 #9
 experience:13
 blow:BITE:HURT:1d4
-blow:CRUSH:HURT:1d6
+blow:CRUSH:HURT:1d4
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
-desc:It is about ten feet long.
+desc:It sleeps well... And it is about ten feet long.
 
 name:cave spider
 base:spider
@@ -1513,6 +1470,25 @@ desc:It's a common fresh-water predatory fish.
 
 ### Dungeon level 3 ###
 
+# was name:large brown snake / removed in V
+name:viper
+base:snake
+color:u
+speed:115
+hit-points:14
+hearing:4
+armor-class:19
+sleepiness:120
+depth:3
+rarity:3
+weight:80
+experience:5
+blow:BITE:POISON:1d3
+blow:BITE:POISON:1d3
+flags:RAND_25
+flags:DROP_CORPSE | DROP_SKELETON
+desc:It is known as poisonous snake...
+
 name:Smeagol
 base:humanoid
 color:B
@@ -1589,11 +1565,13 @@ flags:RAND_50 | BASH_DOOR
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
 
-name:giant white louse
-plural:giant white lice
+#was name:giant white louse
+name:giant head louse
+plural:giant head lice
 base:insect
 color:w
-speed:120
+#120
+speed:100
 hit-points:1
 hearing:6
 armor-class:6
@@ -1841,6 +1819,26 @@ desc:It is a kobold dressed in skins and gesturing wildly.
 
 ### Dungeon level 4 ###
 
+name:jackal
+base:canine
+color:U
+speed:110
+hit-points:12
+hearing:10
+smell:50
+armor-class:3
+sleepiness:10
+#1
+depth:4
+rarity:2
+weight:40
+experience:12
+blow:BITE:HURT:1d5
+flags:DROP_CORPSE | WILD_GRASS | WILD_WOOD
+spell-freq:10
+spells:SHRIEK
+desc:It's growls at you.
+
 name:cave lizard
 base:reptile
 color:u
@@ -1956,7 +1954,7 @@ hearing:20
 armor-class:20
 sleepiness:100
 depth:4
-rarity:1
+rarity:2
 weight:150
 experience:13
 blow:HIT:HURT:1d2
@@ -2047,7 +2045,8 @@ flags:RAND_25 | RAND_50
 flags:HURT_LIGHT | IM_COLD | NO_FEAR
 desc:It is a large slimy mass of worms.
 
-name:large grey snake
+#was name:large grey snake
+name:anaconda
 base:snake
 color:s
 speed:100
@@ -2059,11 +2058,11 @@ depth:4
 rarity:1
 weight:130
 experience:14
-blow:BITE:HURT:1d5
+blow:CRUSH:HURT:1d5
 blow:CRUSH:HURT:1d8
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
-desc:It is about ten feet long.
+desc:It is about seventeen feet long...
 
 name:kobold archer
 base:kobold
@@ -2110,7 +2109,8 @@ flags:DROP_SKELETON
 desc:It is about three feet long with large teeth. As the light of your lamp
 desc: falls on it, it seems to grow stronger.
 
-name:raven
+#was name:raven / removed in v
+name:magpie
 base:bird
 color:D
 speed:120
@@ -2119,14 +2119,16 @@ hearing:40
 armor-class:14
 sleepiness:0
 depth:4
-#2
-rarity:5
+rarity:2
 weight:50
 experience:10
 blow:BITE:HURT:1d4
-blow:BITE:HURT:1d4
+blow:BITE:HURT:1d3
+blow:TOUCH:EAT_GOLD
 flags:DROP_CORPSE | WILD_WOOD
-desc:Larger than a crow, and pitch black.
+# | LEVITATE
+desc:It is gray except for the black wings and head.
+desc:It likes shiny items.
 
 name:yellow light
 base:ball
@@ -2236,7 +2238,6 @@ friends:80:1d3:rattlesnake:servant
 desc:She lost her beloved.. Where is him?
 desc: She likes her ssssnakes.
 force-location:The Mountain Gorge
-
 
 name:Bullroarer the Hobbit
 base:humanoid
@@ -2803,6 +2804,7 @@ flags:DROP_SKELETON | WILD_WOOD
 friends:100:2d7:Same
 desc:It scuttles towards you.
 
+#removed in V
 name:manes
 plural:manes
 base:minor demon
@@ -2814,7 +2816,7 @@ armor-class:48
 sleepiness:80
 depth:7
 #2
-rarity:4
+rarity:3
 weight:0
 experience:16
 blow:HIT:HURT:1d8
@@ -3167,27 +3169,28 @@ innate-freq:100
 spells:SHRIEK
 desc:It is a strange small humanoid in a constant state of extreme terror.
 
-name:brown yeek
+#was name:brown yeek / removed in V
+name:brave yeek
 base:yeek
 color:u
-#110
-speed:120
-#18
-hit-points:10
+speed:110
+hit-points:20
 hearing:18
 smell:20
-armor-class:21
+armor-class:10
 sleepiness:10
 depth:8
-#1
-rarity:5
+rarity:4
 weight:80
-#11
-experience:14
+experience:15
 blow:HIT:HURT:1d6
 flags:DROP_40
 flags:DROP_CORPSE
-desc:It is a strange small humanoid.
+flags:NO_FEAR
+spell-freq:5
+spells:SCARE
+desc:It is a strange small humanoid. He looks hectic.
+desc:He scares you with his recklessness.
 
 name:giant salamander
 base:reptile
@@ -3288,6 +3291,7 @@ innate-freq:100
 spells:ARROW
 desc:A small orc with wide and snuffling nostrils.
 
+#removed in V
 name:hill orc
 base:orc
 color:u
@@ -3299,7 +3303,7 @@ armor-class:48
 sleepiness:70
 depth:8
 #1
-rarity:4
+rarity:2
 weight:200
 experience:25
 blow:HIT:HURT:1d10
@@ -3345,7 +3349,7 @@ armor-class:28
 sleepiness:10
 depth:8
 #2
-rarity:4
+rarity:3
 weight:150
 experience:26
 blow:HIT:HURT:2d4
@@ -3377,6 +3381,7 @@ flags:NO_FEAR
 friends:100:4d4:Same
 desc:Corpses awakened from their sleep by dark sorcery.
 
+#removed in V
 name:nighthawk
 base:bird
 color:u
@@ -3387,7 +3392,7 @@ armor-class:30
 sleepiness:10
 depth:8
 #2
-rarity:4
+rarity:3
 weight:80
 experience:22
 blow:CLAW:HURT:1d3
@@ -3418,11 +3423,13 @@ desc:Spectral creatures that are half-real, half illusion.
 
 ### Dungeon level 9 ###
 
-name:giant black louse
-plural:giant black lice
+#was name:giant black louse
+name:giant head louse
+plural:giant head lice
 base:insect
 color:D
-speed:120
+#120
+speed:110
 hit-points:2
 hearing:6
 armor-class:8
@@ -4475,6 +4482,7 @@ drop-base:magic book:5:1:1
 friends:100:4d4:Same
 desc:A mage of short stature.
 
+#v
 name:old forest tree
 base:tree
 color:g
@@ -5427,6 +5435,22 @@ flags:RAND_25 | INVISIBLE | ATTR_CLEAR
 desc:A flattened fish which is able to change body coloring for camouflage.
 
 ### Dungeon level 14 ###
+
+name:giant pubic louse
+plural:giant pubic lice
+base:louse
+color:D
+speed:120
+hit-points:2
+hearing:6
+armor-class:8
+sleepiness:10
+depth:14
+rarity:1
+weight:0
+experience:3
+blow:BITE:HURT:1d2
+desc:It makes you itch just to look at it.
 
 name:giant flea
 base:insect
@@ -27090,7 +27114,7 @@ hearing:2
 armor-class:1
 sleepiness:99
 depth:0
-rarity:1
+rarity:2
 weight:0
 experience:0
 blow:TOUCH:POISON:1d2
@@ -27163,7 +27187,7 @@ hearing:8
 armor-class:19
 sleepiness:80
 depth:0
-rarity:1
+rarity:2
 weight:0
 experience:0
 blow:BITE:HURT:1d4
@@ -27184,7 +27208,7 @@ smell:30
 armor-class:14
 sleepiness:0
 depth:0
-rarity:2
+rarity:3
 weight:20
 experience:0
 blow:CLAW:HURT:1d3
@@ -27204,7 +27228,7 @@ hearing:40
 armor-class:14
 sleepiness:0
 depth:0
-rarity:1
+rarity:5
 weight:30
 experience:0
 blow:BITE:HURT:1d3
