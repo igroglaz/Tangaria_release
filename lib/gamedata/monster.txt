@@ -611,6 +611,54 @@ force-location:Hunter's Valley
 
 ### Dungeon level 1 ###
 
+#was huorn
+name:elki-palki
+base:tree
+color:G
+speed:100
+hit-points:50
+light:-2
+hearing:40
+armor-class:30
+sleepiness:20
+depth:1
+rarity:5
+weight:0
+experience:4
+blow:CRUSH:HURT:1d3
+blow:CRUSH:HURT:1d3
+blow:CRUSH:HURT:1d3
+flags:DROP_40 | NO_SLEEP | WEIRD_MIND
+flags:IM_COLD | NEVER_MOVE
+spell-freq:13
+spells:BLINK
+desc:A very strange near-sentient tree, which has become hostile 
+desc: to other living things.
+
+#was Mirkwood spider
+name:Weaver spider
+base:spider
+color:g
+speed:100
+hit-points:9
+hearing:15
+armor-class:10
+sleepiness:10
+depth:1
+rarity:3
+weight:0
+experience:3
+blow:BITE:POISON:1d6
+flags:EVIL | ANIMAL | WEIRD_MIND
+flags:IM_POIS
+flags:WILD_WOOD
+spell-freq:3
+innate-freq:100
+spells:WEAVE
+desc:Weaving it's web everywhere.. It don't need to run
+desc:for it's prey. Just sit quetly and wait till it get
+desc: there.. Then some venom - and dinner is ready...
+
 #was name:giant white louse
 name:giant cockroach
 base:ant
@@ -909,11 +957,11 @@ hearing:30
 armor-class:1
 sleepiness:10
 depth:1
-rarity:3
+rarity:6
 weight:0
 experience:0
 blow:BITE:HURT:1d1
-flags:RAND_25 | WILD_ONLY | WILD_WOOD | WILD_GRASS | PWMANG_BASE
+flags:RAND_25 | WILD_WOOD | WILD_GRASS | PWMANG_BASE
 flags:DROP_SKELETON
 desc:Utterly harmless, except when angry.
 
@@ -932,7 +980,7 @@ rarity:3
 weight:10
 experience:0
 blow:BITE:HURT:1d1
-flags:RAND_50 | WILD_ONLY | WILD_GRASS | WILD_WOOD | PWMANG_BASE
+flags:RAND_50 | WILD_GRASS | WILD_WOOD | PWMANG_BASE
 flags:DROP_SKELETON | DROP_CORPSE
 desc:It is not a carnivore, but will defend itself if you stray too close.
 
@@ -3816,12 +3864,12 @@ smell:50
 armor-class:30
 sleepiness:20
 depth:9
-rarity:1
+rarity:4
 weight:0
 experience:30
 blow:BITE:HURT:1d12
 blow:BITE:HURT:1d12
-flags:BASH_DOOR | WILD_ONLY | WILD_GRASS | WILD_WOOD | PWMANG_BASE
+flags:BASH_DOOR | WILD_GRASS | WILD_WOOD | PWMANG_BASE
 flags:UNIQUE
 desc:It has been terrorizing the nearby villages.
 
@@ -3886,6 +3934,30 @@ desc:A strange reptilian hybrid.
 ########## DUNGEON LEVELS 10-19 ##########
 
 ### Dungeon level 10 ###
+
+name:strange dry tree
+base:tree
+color:g
+speed:110
+hit-points:500
+light:-2
+hearing:40
+armor-class:45
+sleepiness:20
+depth:10
+#1
+rarity:3
+weight:400
+experience:45
+blow:CRUSH:HURT:1d6
+blow:CRUSH:HURT:1d6
+blow:CRUSH:HURT:1d6
+flags:DROP_40 | NO_SLEEP | NO_CONF | WEIRD_MIND | HURT_FIRE | PWMANG_BASE
+flags:IM_WATER | IM_COLD | NEVER_MOVE
+spell-freq:8
+innate-freq:100
+spells:WHIP
+desc:Just an ancient dry tree.. WAIT! Its just moved!
 
 name:baby black dragon
 base:dragon
@@ -4395,7 +4467,7 @@ blow:HIT:PARALYZE
 blow:HIT:PARALYZE
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:HURT_FIRE
-flags:WILD_ONLY | COLD_BLOOD | WILD_WOOD | WILD_GRASS
+flags:COLD_BLOOD | WILD_WOOD | WILD_GRASS
 flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
 friends:100:2d7:Same
 desc:A mass of vegetation. As you pass near it, it reaches out tendrils to
@@ -4419,7 +4491,7 @@ blow:HIT:POISON:2d2
 blow:HIT:POISON:2d2
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:HURT_FIRE
-flags:WILD_ONLY | COLD_BLOOD | WILD_WOOD | WILD_GRASS
+flags:COLD_BLOOD | WILD_WOOD | WILD_GRASS
 flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
 friends:100:2d7:Same
 desc:A mass of vegetation. It seems to be growing...
@@ -5087,7 +5159,7 @@ blow:CLAW:HURT:1d10
 blow:CLAW:HURT:1d10
 blow:BITE:HURT:1d11
 flags:FORCE_SLEEP | UNIQUE | PWMANG_BASE
-flags:ANIMAL | WILD_ONLY | WILD_WOOD | WILD_GRASS | WILD_MOUNTAIN
+flags:ANIMAL | WILD_WOOD | WILD_GRASS | WILD_MOUNTAIN
 desc:A wounded bear, who has occasionally attacked humans.
 
 name:eagle
@@ -5099,13 +5171,13 @@ hearing:30
 armor-class:25
 sleepiness:10
 depth:12
-rarity:2
+rarity:4
 weight:60
 experience:22
 blow:CLAW:HURT:1d3
 blow:CLAW:HURT:1d3
 blow:BITE:HURT:1d6
-flags:WILD_ONLY | WILD_WASTE | WILD_MOUNTAIN | WILD_WOOD | PWMANG_BASE
+flags:WILD_WASTE | WILD_MOUNTAIN | WILD_WOOD | PWMANG_BASE
 flags:DROP_CORPSE
 desc:A magnificent huge predatory bird.
 
@@ -5946,28 +6018,29 @@ flags:ATTR_CLEAR
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
 
-name:Mirkwood spider
+name:Womb spider
 base:spider
 color:g
-speed:120
-hit-points:41
+speed:110
+hit-points:11
 hearing:15
 armor-class:30
-sleepiness:80
+sleepiness:10
 depth:15
 #2
-rarity:4
+rarity:10
 weight:0
-experience:25
+experience:5
 blow:BITE:HURT:1d8
-blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 flags:EVIL | ANIMAL | WEIRD_MIND
 flags:IM_POIS | GROUP_AI
-flags:DROP_SKELETON | WILD_WOOD
-friends:100:2d7:Same
-desc:A strong and powerful spider from Mirkwood forest. Cunning and evil, it
-desc: seeks to taste your juicy insides.
+flags:DROP_SKELETON | WILD_WOOD | MULTIPLY
+spell-freq:7
+innate-freq:100
+spells:SPIT
+desc:Eight-legged-eyed creatures which multiply in eight times
+desc: faster then others..
 
 name:griffon
 base:hybrid
@@ -6133,7 +6206,7 @@ blow:HIT:PARALYZE:3d3
 blow:HIT:PARALYZE:3d3
 blow:HIT:PARALYZE:3d3
 flags:NEVER_MOVE | EMPTY_MIND | STUPID | PWMANG_BASE
-flags:WILD_ONLY | WILD_WOOD | WILD_SWAMP | HURT_FIRE
+flags:WILD_WOOD | WILD_SWAMP | HURT_FIRE
 desc:A carnivorous plant that is difficult to detect, until it suddenly snaps
 desc: shut around its prey and releases paralyzing enzymes to stop its
 desc: struggles.
@@ -7235,7 +7308,8 @@ desc: from its incessant squeaking, which can best be described as "neek-breek,
 desc: neek-breek". The noise can drive people frantic, and worse still, can be
 desc: heard for quite some distance, alerting other monsters to your presence.
 
-name:treant
+#v was huorn
+name:young huorn
 base:tree
 color:G
 speed:110
@@ -7253,35 +7327,9 @@ blow:CRUSH:HURT:3d6
 blow:CRUSH:HURT:3d6
 blow:CRUSH:HURT:3d6
 flags:DROP_40 | NO_SLEEP | WEIRD_MIND
-flags:IM_COLD | NEVER_MOVE | WILD_ONLY | WILD_WOOD
+flags:IM_COLD | NEVER_MOVE
 spell-freq:9
-spells:BLINK
-desc:A very strong near-sentient tree, which has become hostile to other living
-desc: things.
-
-name:huorn
-base:vegetal
-color:g
-speed:110
-hit-points:275
-light:-2
-hearing:40
-armor-class:45
-sleepiness:20
-depth:19
-#1
-rarity:3
-weight:0
-experience:75
-blow:CRUSH:HURT:3d6
-blow:CRUSH:HURT:3d6
-blow:CRUSH:HURT:3d6
-blow:GAZE:PARALYZE:3d6
-flags:DROP_40 | NO_SLEEP | NO_CONF | WEIRD_MIND | HURT_FIRE | PWMANG_BASE
-flags:IM_WATER | IM_COLD | NEVER_MOVE | WILD_ONLY | WILD_WOOD
-spell-freq:9
-spell-power:19
-spells:TELE_TO
+spells:BLINK | TELE_TO
 desc:A very strong near-sentient tree, which has become hostile to other living
 desc: things.
 
@@ -7313,8 +7361,8 @@ desc:A blinding whirlwind of fear and feathers. Its razor sharp beak and talons
 desc: fill its foes with terror as it seeks to rend flesh from bone with
 desc: unbridled ferocity.
 
-#Mirkwood spider
-name:Weaver spider
+#v moved
+name:Mirkwood spider
 base:spider
 color:g
 speed:120
@@ -7377,7 +7425,7 @@ armor-class:30
 sleepiness:80
 depth:20
 #2
-rarity:4
+rarity:3
 weight:0
 experience:60
 blow:BITE:HURT:1d8
@@ -7731,14 +7779,14 @@ hearing:20
 armor-class:65
 sleepiness:20
 depth:20
-rarity:2
+rarity:7
 weight:100
 experience:150
 blow:CLAW:HURT:6d3
 blow:CLAW:HURT:6d3
 blow:BITE:HURT:3d6
 flags:PWMANG_BASE
-flags:WILD_ONLY | WILD_MOUNTAIN | WILD_VOLCANO | WILD_WASTE | WILD_WOOD
+flags:WILD_MOUNTAIN | WILD_VOLCANO | WILD_WASTE | WILD_WOOD
 flags:WILD_DESERT | DROP_CORPSE
 desc:Greater and more intelligent than most of its kind, this great eagle is
 desc: a messenger between the forces of good.
@@ -8291,7 +8339,7 @@ blow:CLAW:HURT:1d4
 flags:WILD_SWAMP
 desc:Nasty tiny crab who lurks around extreamely fast.
 
-name:Uglúk, the Uruk
+name:Ugluk, the Uruk
 base:orc
 color:b
 speed:110
@@ -11012,7 +11060,7 @@ hearing:100
 armor-class:36
 sleepiness:0
 depth:29
-rarity:1
+rarity:5
 weight:0
 experience:140
 blow:ENGULF:ELEC:3d4
@@ -11567,7 +11615,7 @@ blow:WAIL:TERRIFY:5d6
 flags:DROP_CORPSE | WILD_ALL
 desc:It is a giant beetle that produces a chilling sound.
 
-name:ent
+name:young ent
 base:tree
 color:U
 speed:110
@@ -11584,7 +11632,7 @@ blow:CRUSH:HURT:3d6
 blow:CRUSH:HURT:3d6
 blow:CRUSH:HURT:3d6
 flags:DROP_40 | NO_SLEEP | WEIRD_MIND
-flags:IM_COLD | NEVER_MOVE | WILD_ONLY | WILD_WOOD
+flags:IM_COLD
 spell-freq:9
 spells:BLINK | TELE_TO
 desc:Ents are not altogether on anybody's side, because nobody is altogether on
@@ -11673,6 +11721,7 @@ desc: shimmering blue.
 
 ### Dungeon level 32 ###
 
+#V
 name:serpent of the brownlands
 plural:serpents of the brownlands
 base:snake
@@ -15121,6 +15170,30 @@ desc: monk in an evil order.
 ########## DUNGEON LEVELS 40-49 ##########
 
 ### Dungeon level 40 ###
+
+name:huorn
+base:tree
+color:G
+speed:120
+hit-points:1500
+light:-2
+hearing:40
+armor-class:150
+sleepiness:20
+depth:19
+rarity:5
+weight:0
+experience:800
+blow:CRUSH:HURT:5d8
+blow:CRUSH:HURT:5d8
+blow:CRUSH:HURT:5d8
+blow:CRUSH:HURT:5d8
+flags:DROP_40 | NO_SLEEP | WEIRD_MIND
+flags:IM_COLD | NEVER_MOVE
+spell-freq:9
+spells:BLINK | TELE_TO | SLOW
+desc:A very strong near-sentient tree, which has become hostile to other living
+desc: things.
 
 #old storm giant
 name:sand giant
@@ -18808,6 +18881,30 @@ spells:BR_POIS | BR_FIRE | BR_ACID
 desc:A 13-headed hydra with one extra head which reeks of death.
 
 ### Dungeon level 54 ###
+
+name:ent
+base:tree
+color:U
+speed:120
+hit-points:5000
+hearing:40
+armor-class:180
+sleepiness:20
+depth:54
+rarity:4
+weight:5000
+experience:5000
+blow:CRUSH:HURT:8d8
+blow:CRUSH:HURT:8d8
+blow:HIT:SHATTER:4d8
+blow:HIT:SHATTER:4d8
+flags:DROP_40 | NO_SLEEP | WEIRD_MIND
+flags:IM_COLD
+spell-freq:9
+spells:DRAIN_MANA | FORGET | HEAL | HOLD
+spells:TPORT | SLOW | TELE_TO | BOULDER
+desc:Ents are not altogether on anybody's side, because nobody is altogether on
+desc: their side. This one does not seem to be on your side.
 
 name:The Phoenix
 base:bird
