@@ -3767,6 +3767,26 @@ blow:STING:LOSE_STR:1d4
 flags:DROP_SKELETON | WILD_ALL
 desc:It is large and has venomous mandibles.
 
+name:Mutant squire
+base:person
+color:U
+speed:110
+hit-points:110
+light:2
+hearing:20
+armor-class:37
+sleepiness:40
+depth:9
+rarity:7
+weight:0
+experience:100
+blow:HIT:HURT:1d12
+blow:HIT:HURT:1d12
+blow:HIT:HURT:1d12
+flags:MALE
+flags:OPEN_DOOR
+desc:A nasty piece of work of unknown mage.
+
 name:Brodda, the Easterling
 base:person
 color:U
@@ -6373,6 +6393,30 @@ flags:OPEN_DOOR | TAKE_ITEM
 friends:50:1d3:warrior:servant
 friends:10:1d2:Easterling warrior:servant
 desc:A short and swarthy Easterling.
+
+#tile from name:Ulfast, Son of Ulfang
+name:mutant paladin
+base:person
+color:U
+speed:110
+hit-points:80
+light:2
+hearing:20
+armor-class:48
+sleepiness:40
+depth:16
+rarity:7
+weight:0
+experience:50
+blow:HIT:HURT:3d5
+blow:HIT:HURT:3d5
+blow:HIT:HURT:3d5
+flags:MALE | EVIL
+flags:OPEN_DOOR | TAKE_ITEM
+spell-freq:7
+spells:HEAL
+desc:A short and swarthy mutant. He was paladin.
+desc:But was cursed... Still could do some holy magic.
 
 name:quasit
 base:minor demon
@@ -9485,6 +9529,26 @@ drop-base:prayer book:5:1:1
 desc:He is a clever ogre. He found path to power.
 desc:Other ogres bring him food.
 
+name:Mutant fighter
+base:person
+color:U
+speed:110
+hit-points:450
+light:2
+hearing:20
+armor-class:48
+sleepiness:40
+depth:26
+rarity:7
+weight:0
+experience:500
+blow:HIT:HURT:4d6
+blow:HIT:HURT:4d6
+blow:HIT:HURT:4d6
+flags:MALE | EVIL
+flags:OPEN_DOOR | TAKE_ITEM
+desc:A short and swarthy mutant.
+
 name:Ulwarth, Son of Ulfang
 base:person
 color:U
@@ -10300,6 +10364,32 @@ friends:50:1d1:mage
 friends:50:1d1:southron assassin
 desc:A hulking figure encased in deep black plate armour; he looks at you
 desc: menacingly.
+
+#reworked tile name:Uldor the Accursed.. other mutants
+name:Mad King
+base:person
+color:U
+speed:110
+hit-points:500
+light:2
+hearing:20
+armor-class:84
+sleepiness:40
+depth:28
+rarity:9
+weight:0
+experience:600
+blow:HIT:HURT:4d6
+blow:HIT:HURT:4d6
+blow:HIT:HURT:4d6
+flags:UNIQUE | MALE | EVIL
+flags:DROP_1 | DROP_GOOD | ONLY_ITEM
+flags:OPEN_DOOR | TAKE_ITEM
+spell-freq:7
+spells:BLIND | HOLD | SCARE
+spells:S_KIN
+desc:His daughter is missing. He believe she is killed.
+desc:He become mad because of grief.
 
 name:Uldor the Accursed
 base:person
@@ -12341,7 +12431,7 @@ hearing:30
 armor-class:81
 sleepiness:255
 depth:34
-rarity:4
+rarity:10
 weight:0
 experience:1000
 blow:HIT:HURT:3d5
@@ -12367,8 +12457,7 @@ hearing:30
 armor-class:81
 sleepiness:255
 depth:34
-#4
-rarity:6
+rarity:4
 weight:0
 experience:1000
 blow:HIT:HURT:3d5
@@ -12518,6 +12607,29 @@ friends:10:1d1:ninja
 friends:40:1d1:southron assassin
 desc:Cool and confident, fast and lithe; protect your possessions quickly!
 
+name:Mutant warrior
+base:person
+color:U
+speed:120
+hit-points:500
+light:2
+hearing:20
+armor-class:108
+sleepiness:40
+depth:34
+rarity:7
+weight:0
+experience:1200
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+flags:MALE | EVIL | PWMANG_FIXED
+flags:OPEN_DOOR | TAKE_ITEM
+spell-freq:10
+spells:S_KIN
+desc:A short and swarthy Easterling dressed in 
+
 name:Ulfang the Black
 base:person
 color:U
@@ -12541,7 +12653,7 @@ flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_DEPTH
 spell-freq:10
 spells:S_KIN
-friends:60:1d3:mûmak
+friends:60:1d3:mumak
 friends:100:3d3:Easterling champion:bodyguard
 friends:100:1d1:Ulfast, Son of Ulfang
 friends:100:1d1:Ulwarth, Son of Ulfang
@@ -12878,7 +12990,7 @@ smell:20
 armor-class:60
 sleepiness:50
 depth:35
-rarity:1
+rarity:2
 weight:400
 experience:420
 blow:HIT:HURT:2d9
@@ -12903,7 +13015,7 @@ smell:20
 armor-class:60
 sleepiness:50
 depth:35
-rarity:1
+rarity:2
 weight:400
 experience:420
 blow:HIT:HURT:1d9
@@ -12949,7 +13061,7 @@ armor-class:84
 sleepiness:10
 depth:35
 #4
-rarity:10
+rarity:6
 weight:160
 experience:800
 blow:HIT:POISON:3d4
@@ -13104,8 +13216,8 @@ spells:CONF | HOLD
 spells:BO_NETH
 desc: Tormented by bloody chains, it's doomed to wander the earth forever.
 
-name:mûmak
-plural:mûmakil
+name:mumak
+plural:mumakil
 base:quadruped
 color:s
 speed:110
@@ -13886,6 +13998,32 @@ drop-base:shadow book:8:1:1
 friends-base:80:1d3:skeleton
 desc:A gaunt figure, clothed in black robes.
 
+name:Mutant mage
+base:person
+color:P
+speed:120
+hit-points:900
+light:2
+hearing:25
+armor-class:120
+sleepiness:10
+depth:36
+rarity:7
+weight:0
+experience:900
+blow:HIT:HURT:6d6
+blow:HIT:HURT:6d6
+blow:HIT:HURT:3d8
+flags:MALE | EVIL | ATTR_FLICKER
+flags:OPEN_DOOR | MOVE_BODY
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_CONF
+flags:NO_SLEEP | NO_HOLD
+flags:FORCE_SLEEP
+spell-freq:4
+spells:BO_FIRE | BO_COLD | HEAL
+spells:S_MONSTERS
+desc:Magic came out control. He is a mutant now.
+
 name:Lorgan, Chief of the Easterlings
 base:person
 color:P
@@ -13912,7 +14050,7 @@ flags:FORCE_SLEEP
 spell-freq:4
 spells:TELE_TO
 spells:S_MONSTERS
-friends:50:1d3:mûmak
+friends:50:1d3:mumak
 friends:100:2d5:Easterling champion:bodyguard
 desc:A mighty warrior from the east, Lorgan hates everything that he cannot
 desc: control.
@@ -13954,13 +14092,13 @@ base:zombie
 color:y
 speed:110
 #299
-hit-points:888
+hit-points:444
 hearing:30
 armor-class:102
 sleepiness:90
 depth:36
 #5
-rarity:10
+rarity:6
 weight:0
 experience:1600
 blow:CLAW:DISEASE:3d6
@@ -14421,7 +14559,7 @@ smell:20
 armor-class:170
 sleepiness:40
 depth:37
-rarity:10
+rarity:4
 weight:700
 experience:1400
 blow:HIT:HURT:3d4
@@ -14891,8 +15029,8 @@ spells:BO_FIRE
 desc:It is a lesser demon of female form; however, she takes little time to show
 desc: her true colours.
 
-#v
-name:two-headed troll
+#v two-headed troll
+name:ettin
 base:troll
 color:b
 speed:110
@@ -14911,37 +15049,35 @@ blow:HIT:HURT:4d6
 blow:HIT:HURT:4d6
 flags:DROP_1 | ONLY_ITEM
 flags:NO_CONF | NO_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
+flags:DROP_CORPSE | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
 desc:A massive troll of huge strength, stupid but violent.
 desc: They are also living proof that two heads are not more intelligent than
 desc: one...
 
-name:ettin
-base:troll
+name:ettin zombie
+base:zombie
 color:b
-#110
-speed:120
-hit-points:1320
+speed:115
+hit-points:1666
 hearing:20
-smell:20
-armor-class:120
-sleepiness:30
+smell:15
+armor-class:140
+sleepiness:60
 depth:38
 #3
-rarity:10
+rarity:5
 weight:800
-#1000
-experience:1600
-blow:HIT:HURT:3d6
-blow:HIT:HURT:3d6
-blow:HIT:HURT:3d6
-flags:DROP_1 | ONLY_ITEM
-flags:NO_CONF | NO_SLEEP
-#flags:DROP_CORPSE | DROP_SKELETON !!!!!!! HARDCODED
+experience:1500
+blow:HIT:HURT:5d6
+blow:HIT:HURT:5d6
+blow:HIT:HURT:5d6
+blow:HIT:HURT:5d6
+flags:DROP_1 | ONLY_ITEM | NO_FEAR
+flags:NO_CONF | NO_SLEEP | EMPTY_MIND
 flags:WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
 desc:A massive two-headed troll of huge strength, ettins are stupid but violent.
 desc: They are also living proof that two heads are not more intelligent than
-desc: one...
+desc: one... Especially when they are dead.
 
 #v
 name:abyss spider
@@ -15206,7 +15342,7 @@ hearing:20
 armor-class:90
 sleepiness:30
 depth:40
-rarity:1
+rarity:4
 weight:1300
 experience:1000
 blow:HIT:ELEC:10d8
@@ -15222,7 +15358,7 @@ spells:BLINK | CONF | SCARE | TELE_TO
 spells:BOULDER | BR_SHAR
 friends:60:1d7:earth hound
 friends:80:1d3:Same
-desc:It is a twenty-five foot tall giant wreathed in lightning.
+desc:It is a twenty-five foot tall sand giant.
 
 name:ancient blue dragon
 base:ancient dragon
@@ -16198,7 +16334,7 @@ name:chert
 base:major demon
 color:g
 #110
-speed:120
+speed:115
 #457
 hit-points:777
 hearing:20
@@ -16207,10 +16343,10 @@ armor-class:77
 sleepiness:70
 depth:41
 #3
-rarity:10
+rarity:5
 weight:0
 #2.5
-experience:3500
+experience:3000
 blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
 flags:DROP_1
@@ -16599,6 +16735,7 @@ desc: it properly.
 
 ### Dungeon level 43 ###
 
+#change!
 name:Maia of Nienna
 plural:Maiar of Nienna
 base:ainu
@@ -16628,6 +16765,7 @@ shape:nexus vortex
 desc:A servant of Nienna, who grieves for the hurts to the world caused by
 desc: Morgoth.
 
+#change!
 name:Maia of Mandos
 plural:Maiar of Mandos
 base:ainu
@@ -17037,8 +17175,6 @@ desc:Golem consisted entirely from living flame... summoned by
 desc:accelerating particles of the air at an ever increasing pace
 desc: till the will ignite and the Golem crackles to the world of living to BURN..
 
-
-
 #v
 name:dread
 base:ghost
@@ -17211,7 +17347,7 @@ hearing:30
 armor-class:68
 sleepiness:255
 depth:45
-rarity:6
+rarity:10
 weight:0
 experience:5000
 blow:HIT:HURT:4d6
@@ -17653,9 +17789,8 @@ desc:A Thunderlord. Among the weaker breeds, but still dangerous.
 
 ### Dungeon level 46 ###
 
-#v
-name:lord of Carn Dum
-plural:lords of Carn Dum
+#v was name:lord of Carn Dum
+name:Shadow priest
 base:person
 color:i
 speed:120
@@ -17675,7 +17810,7 @@ flags:DROP_2 | ONLY_ITEM
 flags:OPEN_DOOR
 flags:NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE
 spell-freq:2
 spells:BLIND | WOUND | HEAL | HOLD
 spells:S_MONSTER | S_UNDEAD
@@ -17853,8 +17988,8 @@ desc:Ren was an insane eastern king who believed himself to be the son of a
 desc: volcano god. At an early age his sanity was destroyed by a plague that
 desc: wiped out his family, and he never recovered.
 
-#v spider
-base:pauk
+#v
+base:Ancient spider
 color:r
 speed:120
 hit-points:1050
@@ -17885,18 +18020,17 @@ desc:A foul creature of spider form, older even than the pits of Angband.
 name:elder aranea
 base:spider
 color:r
-#120
-speed:130
+speed:125
 hit-points:1050
 hearing:20
 armor-class:78
 sleepiness:50
 depth:48
 #5
-rarity:10
+rarity:8
 weight:0
 #2.5
-experience:3500
+experience:3000
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
@@ -18062,7 +18196,7 @@ spells:BO_NETH
 desc:A figure that seems made of void, its strangely human shape is cloaked in
 desc: shadow. It reaches out at you.
 
-name:Eöl, the Dark Elf
+name:Eol, the Dark Elf
 base:humanoid
 color:v
 speed:130
@@ -18087,7 +18221,7 @@ spells:TELE_TO
 spells:BA_ACID | BA_COLD | BA_ELEC | BA_FIRE | BA_NETH
 spells:BO_MANA
 spells:S_DEMON | S_DRAGON | S_MONSTERS | S_UNDEAD
-desc:A lord of the Teleri, Eöl is a mighty metalsmith, the only one to ever
+desc:A lord of the Teleri, Eol is a mighty metalsmith, the only one to ever
 desc: forge weapons of meteorite iron. The mortal enemy of the Eldar, he is
 desc: currently fleeing their wrath, following the murder of Princess Aredhel of
 desc: Gondolin.
@@ -18104,7 +18238,7 @@ hearing:30
 armor-class:108
 sleepiness:255
 depth:49
-rarity:6
+rarity:10
 weight:0
 experience:4000
 blow:GAZE:EXP_40:4d4
@@ -19141,6 +19275,30 @@ desc: spells as they echo hollowly through the dungeon.
 
 ### Dungeon level 55 ###
 
+name:quivering blob
+base:jelly
+color:s
+speed:90
+hit-points:10000
+hearing:12
+armor-class:200
+sleepiness:1
+depth:35
+#5
+rarity:10
+weight:0
+experience:1
+blow:TOUCH:ACID:5d10
+blow:TOUCH:ACID:5d10
+blow:TOUCH:ACID:5d10
+blow:TOUCH:ACID:5d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP | MULTIPLY | BLINK
+desc:A huge amoeboid substance which is grow,
+desc:terrible and unstoppable.
+
 name:Shelob, Spider of Darkness
 base:spider
 color:D
@@ -19682,7 +19840,7 @@ desc: strength and priestly wisdom are a true match for any adventurer.
 ### Dungeon level 60 ###
 
 #was name:Gilim, the Giant of Eruman
-name:Moroz-Voevoda
+name:Moroz
 base:ainu
 color:s
 speed:120
@@ -19711,7 +19869,7 @@ desc:Known as the giant of winter and the northern reaches,
 desc: he is tall even among giants, and his name is cursed in many lands.
 
 #was name:Maia of Yavanna
-name:Old witch
+name:Ancient witch
 base:ainu
 color:g
 speed:120
@@ -20396,10 +20554,8 @@ spell-freq:2
 spells:BLIND | TELE_TO
 spells:BO_MANA | BO_WATE | BO_FIRE | BO_ICE
 spells:S_AINU | S_ANIMAL | S_SPIDER | S_HOUND
-friends:60:1d3:Maia
-friends:60:1d3:greater Maia
-friends:60:1d3:Blue Wizard
-friends:60:1d3:Istar
+friends:60:2d3:Maia
+friends:60:2d3:Blue Wizard
 desc:A stocky, smiling man in brown robes, holding in his right hand a
 desc: gnarled walking stick. Sent to Middle-Earth by Yavanna, Radagast
 desc: has studied the plants and animals of Middle-Earth for many years
@@ -21421,7 +21577,35 @@ desc: throbs and writhes.
 
 ### Dungeon level 72 ###
 
-name:Khamûl, the Black Easterling
+name:Mutant Leader
+base:person
+color:p
+speed:120
+hit-points:4500
+hearing:90
+smell:50
+armor-class:120
+sleepiness:10
+depth:72
+rarity:9
+weight:0
+experience:20000
+blow:HIT:HURT:9d10
+blow:HIT:HURT:9d10
+blow:HIT:HURT:9d10
+blow:HIT:HURT:9d10
+flags:UNIQUE | MALE | SMART | LEVITATE
+flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:IM_ACID | IM_FIRE
+flags:FORCE_SLEEP
+spell-freq:5
+spells:BLIND | CAUSE_3 | CAUSE_4 | HOLD | SCARE | TELE_LEVEL
+spells:BO_CHAOS
+spells:S_MONSTER
+desc:Leader of the mutants.
+
+name:Khamul, the Black Easterling
 base:wraith
 color:p
 speed:120
@@ -21451,7 +21635,7 @@ spells:BO_MANA
 spells:S_HI_UNDEAD
 spells:ANIM_DEAD
 drop:ring:Black Ring of Power:100:1:1
-desc:A warrior-king of the East. Khamûl is a powerful opponent, his skill in
+desc:A warrior-king of the East. Khamul is a powerful opponent, his skill in
 desc: combat awesome and his form twisted by evil cunning.
 
 name:horned reaper
@@ -22357,7 +22541,7 @@ flags:IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 spell-freq:6
 spells:S_ANIMAL | S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS | S_UNIQUE
-desc:The son of Eöl the Dark Elf, Maeglin is every bit as evil as his father and
+desc:The son of Eol the Dark Elf, Maeglin is every bit as evil as his father and
 desc: more. His greed for gold led him to betray the Hidden Kingdom of Gondolin
 desc: to Morgoth's forces. He is a mighty warrior himself, and some of Morgoth's
 desc: greatest servants answer to his call.
@@ -23476,7 +23660,7 @@ spells:BO_ICE | BO_MANA | BO_PLAS
 spells:SHAPECHANGE
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_UNIQUE | S_WRAITH
 spells:ANIM_DEAD
-friends:100:1d1:Khamûl, the Black Easterling:servant
+friends:100:1d1:Khamul, the Black Easterling:servant
 friends:100:1d1:The Witch-King of Angmar:servant
 shape:Wolf-Sauron
 shape:Serpent-Sauron
