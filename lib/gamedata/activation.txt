@@ -864,7 +864,9 @@ name:MAPPING
 aim:0
 power:10
 effect:MAP_AREA
-effect-yx:7:12
+effect-yx:9:14
+effect:TIMED_INC:IMAGE
+dice:5+5d5
 msg:The {kind} shine{s} brightly...
 
 name:MISSILE

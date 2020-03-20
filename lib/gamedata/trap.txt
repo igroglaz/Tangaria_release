@@ -601,8 +601,8 @@ graphics:^:light yellow
 appear:1:1:0
 visibility:10d50
 flags:TRAP | FLOOR | MAGICAL | ONETIME
-effect:SET_NOURISH
-dice:1000
+effect:NOURISH:SET_TO
+dice:5
 desc:A trap that makes you very hungry.
 msg:You feel yourself very hungry!
 

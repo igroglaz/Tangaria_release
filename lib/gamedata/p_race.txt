@@ -946,7 +946,7 @@ value:0:WIS[-5+1d6]
 value:0:DEX[-5+1d8]
 value:0:CON[-5+1d8]
 value:0:INFRA[0+1d5]
-obj-flag:5:LIGHT_1
+obj-flag:5:LIGHT_2
 obj-flag:10:SLOW_DIGEST
 obj-flag:15:PROT_FEAR
 obj-flag:20:FEATHER
@@ -1028,7 +1028,7 @@ value:0:CON[-8+1d5]
 value:1:INFRA[2+1d30]
 obj-flag:1:FEATHER
 obj-flag:10:SUST_WIS
-obj-flag:20:LIGHT_1
+obj-flag:20:LIGHT_2
 obj-flag:30:SLOW_DIGEST
 obj-flag:40:SEE_INVIS
 obj-flag:50:PROT_BLIND

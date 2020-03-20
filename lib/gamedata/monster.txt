@@ -1001,7 +1001,7 @@ experience:0
 blow:HIT:HURT:1d6
 flags:MALE | WILD_ONLY | WILD_WOOD | PWMANG_BASE
 flags:RAND_25 | DROP_SKELETON | DROP_CORPSE
-flags:ONLY_GOLD | DROP_40 | HAS_LIGHT
+flags:ONLY_GOLD | DROP_40
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
 
@@ -3551,8 +3551,8 @@ desc:Spectral creatures that are half-real, half illusion.
 ### Dungeon level 9 ###
 
 #was name:giant black louse
-name:giant head louse
-plural:giant head lice
+name:giant body louse
+plural:giant body lice
 base:insect
 color:D
 #120
@@ -4125,8 +4125,8 @@ flags:FORCE_SLEEP
 spell-freq:4
 spells:BLINK | CONF | HEAL | SLOW | TELE_TO
 spells:S_MONSTER
-friends:40:2d5:terrified yeek:servant
-friends:10:2d5:brown yeek:servant
+friends:50:2d5:terrified yeek:servant
+friends:50:1d3:brave yeek:servant
 friends:100:2d5:blue yeek:servant
 friends:50:1d3:master yeek:servant
 desc:He's just like his daddy! He knows mighty spells, but fortunately he is a
@@ -5301,7 +5301,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:8
 spell-power:13
-spells:CAUSE_1 | CONF | DARKNESS
+spells:WOUND | CONF | DARKNESS
 desc:A dark elven torso merged with the bloated form of a giant spider.
 
 name:killer brown beetle
@@ -5342,8 +5342,8 @@ flags:FORCE_SLEEP
 spell-freq:3
 spells:BLIND | BLINK | HEAL | SLOW | TPORT
 spells:S_KIN | S_MONSTER
-friends:40:2d6:terrified yeek:servant
-friends:10:2d6:brown yeek:servant
+friends:50:1d6:terrified yeek:servant
+friends:50:1d6:brave yeek:servant
 friends:100:2d6:blue yeek:servant
 friends:100:2d4:master yeek:servant
 friends:100:1d1:Orfax, Son of Boldor
@@ -5611,7 +5611,7 @@ desc:A flattened fish which is able to change body coloring for camouflage.
 #based at name:giant black louse
 name:giant pubic louse
 plural:giant pubic lice
-base:louse
+base:insect
 color:D
 speed:120
 hit-points:2
@@ -9524,7 +9524,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:5
 spell-power:26
-spells:BLINK | CAUSE_1 | DARKNESS | HEAL | SCARE
+spells:BLINK | WOUND | DARKNESS | HEAL | SCARE
 drop-base:prayer book:5:1:1
 desc:He is a clever ogre. He found path to power.
 desc:Other ogres bring him food.
@@ -9664,7 +9664,7 @@ flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP | LEVITATE
 spell-freq:8
 spell-power:26
-spells:CAUSE_2 | DARKNESS | SCARE
+spells:WOUND | DARKNESS | SCARE
 desc:Strange ghostly form made of white hissing fog.
 
 name:disenchanter bat
@@ -9687,7 +9687,8 @@ flags:DROP_CORPSE
 desc:A giant bat which feeds on raw magical energy.
 
 name:Angel
-base:angel
+#base:angel
+base:ainu
 color:o
 speed:110
 hit-points:450
@@ -9711,11 +9712,11 @@ flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
 spell-freq:3
 spell-power:26
 spells:BLIND | CONF | SCARE | FORGET
-D:Who knows why you are now facing an angel as an enemy? Is it a punishment
-D:from your own god for your sins, or a test of your mettle, or has this angel
-D:been sent by another god on behalf of someone who wishes to claim the glory
-D:for his own god? Perhaps you will never know: but it is here, and you must
-D:fight it.
+desc:Who knows why you are now facing an angel as an enemy? Is it a punishment
+desc:from your own god for your sins, or a test of your mettle, or has this angel
+desc:been sent by another god on behalf of someone who wishes to claim the glory
+desc:for his own god? Perhaps you will never know: but it is here, and you must
+desc:fight it.
 
 name:wolf chieftain
 base:canine
@@ -9821,7 +9822,7 @@ flags:DROP_GOOD | DROP_3 | ONLY_ITEM
 flags:FORCE_DEPTH | PWMANG_FIXED
 spell-freq:9
 spell-power:27
-spells:CAUSE_2 | DARKNESS | MIND_BLAST | TELE_TO
+spells:WOUND | DARKNESS | MIND_BLAST | TELE_TO
 spells:HOLD | SCARE
 desc:It is a humanoid with an aura of power. You notice a sharp set of front
 desc: teeth.
@@ -11140,7 +11141,7 @@ desc:It has a form that legends are made of. Its still-tender scales are a
 desc: shining silvery gleam, and its shape masks its true form.
 
 name:rainbow vortex
-plural:energy vortices
+plural:rainbow vortices
 base:vortex
 color:b
 speed:110
@@ -11159,7 +11160,7 @@ flags:IM_ELEC
 flags:NO_STUN
 spell-freq:4
 innate-freq:50
-spells:BR_ELEC | BE_ELEC | BR_WATER
+spells:BR_ELEC | BE_ELEC | BR_WATE
 desc:A shimmering tornado of air and water, sparks crackle along its length.
 
 
@@ -12448,7 +12449,8 @@ desc: you know is that it stands before you, its eyes ablaze as it prepares its
 desc: next volley of spells.
 
 name:Archangel
-base:angel
+#base:angel
+base:ainu
 color:o
 speed:110
 hit-points:850
@@ -13858,7 +13860,7 @@ flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP
 spell-freq:7
 spell-power:36
-spells:CAUSE_3 | DARKNESS | HOLD | SCARE
+spells:WOUND | DARKNESS | HOLD | SCARE
 desc:A tangible but ghostly form, made of grey fog. The air around it feels
 desc: deathly cold.
 
@@ -13989,7 +13991,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:3
 spell-power:36
-spells:BLIND | CAUSE_3 | HASTE | HOLD | SCARE | TELE_TO
+spells:BLIND | WOUND | HASTE | HOLD | SCARE | TELE_TO
 spells:TPORT
 spells:BO_NETH
 spells:S_UNDEAD
@@ -14112,7 +14114,7 @@ flags:IM_ACID | IM_ELEC | NO_FEAR
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:36
-spells:BLIND | CAUSE_3 | DARKNESS | DRAIN_MANA | FORGET | HASTE
+spells:BLIND | WOUND | DARKNESS | DRAIN_MANA | FORGET | HASTE
 spells:HEAL | MIND_BLAST | SCARE
 spells:BA_COLD | BA_POIS
 spells:BO_NETH
@@ -14920,7 +14922,7 @@ flags:FORCE_SLEEP
 flags:DROP_SKELETON
 spell-freq:6
 spell-power:38
-spells:CAUSE_3 | HOLD | MISSILE | SLOW
+spells:WOUND | HOLD | MISSILE | SLOW
 spells:BO_FIRE
 friends:50:2d3:Mirkwood spider
 friends:100:3d3:Same
@@ -14976,7 +14978,7 @@ flags:FORCE_SLEEP | LEVITATE | SMART
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 spell-freq:7
 spell-power:38
-spells:BLINK | CAUSE_3 | HOLD | TELE_AWAY | TELE_LEVEL | TELE_TO
+spells:BLINK | WOUND | HOLD | TELE_AWAY | TELE_LEVEL | TELE_TO
 desc:It's a strange bright glowing sphere formed of living light.
 desc:There are rumours that following a wisp will lead you to a treasure.
 
@@ -15110,7 +15112,8 @@ desc: spined legs.
 ### Dungeon level 39 ###
 
 name:Cherub
-base:angel
+#base:angel
+base:ainu
 color:G
 speed:120
 hit-points:1300
@@ -15735,7 +15738,7 @@ flags:FORCE_SLEEP
 flags-off:HURT_COLD
 spell-freq:2
 spell-power:40
-spells:CAUSE_3 | HOLD | SCARE
+spells:WOUND | HOLD | SCARE
 spells:BA_ACID
 spells:BO_FIRE | BO_PLAS
 spells:S_HYDRA | S_KIN
@@ -15854,7 +15857,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:2
 spell-power:40
-spells:BLIND | CAUSE_3 | CAUSE_4 | HEAL | HOLD
+spells:BLIND | WOUND | WOUND | HEAL | HOLD
 spells:S_MONSTER | S_UNDEAD
 spells:ANIM_DEAD
 drop-base:prayer book:10:1:1
@@ -16867,7 +16870,7 @@ flags:PASS_WALL | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:43
-spells:BLIND | CAUSE_3 | FORGET | HOLD | SCARE
+spells:BLIND | WOUND | FORGET | HOLD | SCARE
 spells:BO_ACID | BO_COLD | BO_FIRE | BO_NETH
 spells:S_MONSTER
 drop:ring:Black Ring of Power:100:1:1
@@ -17105,7 +17108,7 @@ flags:NO_FEAR | NO_CONF | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | IM_NEXUS | IM_DISEN | IM_NETHER | NO_STUN
 spell-freq:4
 spell-power:44
-spells:BLIND | CAUSE_3 | CAUSE_4 | HASTE | HEAL | SCARE
+spells:BLIND | WOUND | WOUND | HASTE | HEAL | SCARE
 drop-base:prayer book:10:1:1
 friends:30:1d1:master thief
 friends:30:1d1:ranger chieftain
@@ -17228,7 +17231,7 @@ flags:RAND_25 | TAKE_ITEM
 flags:FORCE_SLEEP
 spell-freq:9
 spell-power:44
-spells:BLIND | CAUSE_4 | CONF | DRAIN_MANA | HOLD | TELE_LEVEL
+spells:BLIND | WOUND | CONF | DRAIN_MANA | HOLD | TELE_LEVEL
 spells:BO_NETH
 spells:S_UNDEAD
 desc:It is an unlife of power almost unequaled. An affront to existence, its
@@ -17332,7 +17335,8 @@ desc:A giant beetle with a gleaming white carapace. The air condenses around
 desc: its mandibles as it scuttles toward you.
 
 name:Seraph
-base:angel
+#base:angel
+base:ainu
 color:b
 speed:120
 hit-points:1800
@@ -17357,7 +17361,9 @@ spell-freq:9
 spell-power:45
 spells:CONF | HASTE | HEAL | TELE_AWAY
 spells:BO_MANA | BO_PLAS
-spells:S_ANGEL | S_MONSTERS
+#spells:S_ANGEL
+spells:S_AINU
+spells:S_MONSTERS
 desc:It is an angel, fast and strong. You are stunned by its extreme holiness
 desc:and try to resist all desires to obey it.
 
@@ -17432,7 +17438,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:45
-spells:BLIND | CAUSE_3 | DARKNESS | HOLD | SCARE
+spells:BLIND | WOUND | DARKNESS | HOLD | SCARE
 spells:BO_COLD | BO_FIRE | BO_NETH
 spells:S_MONSTERS
 drop:ring:Black Ring of Power:100:1:1
@@ -18004,7 +18010,7 @@ flags:IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:48
-spells:BLIND | CAUSE_3 | HOLD | SCARE
+spells:BLIND | WOUND | HOLD | SCARE
 spells:BA_FIRE
 spells:BO_FIRE | BO_NETH
 spells:S_MONSTER
@@ -18014,7 +18020,8 @@ desc: volcano god. At an early age his sanity was destroyed by a plague that
 desc: wiped out his family, and he never recovered.
 
 #v
-base:Ancient spider
+name:Ancient spider
+base:spider
 color:r
 speed:120
 hit-points:1050
@@ -18067,7 +18074,7 @@ flags:FORCE_SLEEP
 flags:DROP_SKELETON
 spell-freq:6
 spell-power:48
-spells:CAUSE_3 | DRAIN_MANA | HEAL | HOLD | MIND_BLAST | SLOW
+spells:WOUND | DRAIN_MANA | HEAL | HOLD | MIND_BLAST | SLOW
 spells:BA_FIRE
 spells:BO_FIRE
 spells:S_KIN | S_SPIDER
@@ -18307,7 +18314,7 @@ flags:NO_STUN | NO_CONF | LEVITATE
 flags-off:TAKE_ITEM
 spell-freq:3
 spell-power:49
-spells:BLIND | CAUSE_3 | CAUSE_4 | SCARE | TELE_TO
+spells:BLIND | WOUND | WOUND | SCARE | TELE_TO
 spells:BO_NETH
 spells:S_DEMON
 desc:An angelic being, who was mighty once, but dared defy its Creator.
@@ -18779,7 +18786,7 @@ flags:IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:52
-spells:BLIND | CAUSE_3 | HOLD | SCARE
+spells:BLIND | WOUND | HOLD | SCARE
 spells:BA_ACID | BA_COLD | BA_ELEC | BA_FIRE | BA_NETH
 spells:S_UNDEAD
 drop:ring:Black Ring of Power:100:1:1
@@ -19205,7 +19212,7 @@ flags:DROP_4
 flags:IM_COLD | IM_ELEC | IM_POIS
 spell-freq:5
 spell-power:54
-spells:BRAIN_SMASH | CAUSE_3 | CAUSE_4 | DARKNESS | DRAIN_MANA
+spells:BRAIN_SMASH | WOUND | WOUND | DARKNESS | DRAIN_MANA
 spells:BO_NETH | TELE_TO | TPORT | HEAL
 spells:S_UNDEAD
 spells:HOLD | SCARE
@@ -19320,7 +19327,9 @@ blow:TOUCH:ACID:5d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
-flags:NO_CONF | NO_SLEEP | MULTIPLY | BLINK
+flags:NO_CONF | NO_SLEEP | MULTIPLY
+spell-freq:2
+spells:BLINK
 desc:A huge amoeboid substance which is grow,
 desc:terrible and unstoppable.
 
@@ -19361,7 +19370,8 @@ force-location:Cirith Ungol
 
 #was name:Istar , removed in V
 name:Archon
-base:angel
+#base:angel
+base:ainu
 color:y
 speed:130
 hit-points:1800
@@ -19384,9 +19394,10 @@ flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
 flags:NO_STUN | NO_CONF | LEVITATE
 spell-freq:3
 spell-power:55
-spells:BLIND | CAUSE_2 | CAUSE_4 | SCARE | TELE_TO | HEAL | MISSILE
+spells:BLIND | WOUND | WOUND | SCARE | TELE_TO | HEAL | MISSILE
 spells:BO_MANA
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 desc:Never a more heavenly being have you seen. The very holiness of its
 desc:presence makes you deeply respect it. Few creatures can match the powers
 desc:of an Archon; fewer still live to tell the tale after attacking one.
@@ -19557,7 +19568,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:56
-spells:BLIND | CAUSE_3 | HOLD | SCARE
+spells:BLIND | WOUND | HOLD | SCARE
 spells:BA_FIRE | BA_NETH
 spells:S_HOUND | S_MONSTERS | S_UNDEAD
 drop:ring:Black Ring of Power:100:1:1
@@ -19820,7 +19831,7 @@ flags:IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:1
 spell-power:59
-spells:BRAIN_SMASH | CAUSE_4 | MIND_BLAST | SLOW | TRAPS
+spells:BRAIN_SMASH | WOUND | MIND_BLAST | SLOW | TRAPS
 spells:BA_WATE
 spells:BO_NETH | BO_PLAS
 spells:S_UNDEAD
@@ -19948,10 +19959,10 @@ spell-freq:3
 spells:BO_MANA | BO_WATE
 spells:S_AINU | S_ANIMAL
 spells:SHAPECHANGE
-shape:Old witch
+shape:Ancient witch
 desc:Beautiful girl with blonde hair. She give you a wink..
 
-#was name:Maia of Aulë
+#was name:Maia of Aule
 name:Djinn
 base:ainu
 color:U
@@ -20175,7 +20186,8 @@ desc: and your mind loses all will to fight as you stand in awe of this mighty
 desc: being.
 
 name:Uriel, Angel of Fire
-base:angel
+#base:angel
+base:ainu
 color:R
 speed:130
 hit-points:5500
@@ -20201,7 +20213,8 @@ spells:BLIND | TELE_TO
 spells:BA_FIRE
 spells:BO_FIRE | BO_MANA | BO_PLAS
 spells:BR_FIRE | BR_PLAS
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 desc:A creature of godly appearance, you dare not challenge Uriel's supremacy.
 desc:Those who stood against him before are but a memory, cremated by his
 desc:mastery of elemental fire.
@@ -20324,7 +20337,8 @@ desc: immortals and pound them to dust with his great strength.
 ### Dungeon level 62 ###
 
 name:Azriel, Angel of Death
-base:angel
+#base:angel
+base:ainu
 color:w
 speed:130
 hit-points:6000
@@ -20350,7 +20364,8 @@ spells:BLIND | TELE_TO
 spells:BA_WATE
 spells:BO_MANA | BO_WATE
 spells:BR_WATE
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 desc:Encrusted with barnacles, slimy and dripping, the Giant of the untamed
 desc: waters has dragged himself down into the dungeon to send you
 desc: to a watery grave.
@@ -20641,7 +20656,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:64
-spells:BLIND | CAUSE_3 | CAUSE_4 | HOLD | MIND_BLAST | SCARE
+spells:BLIND | WOUND | WOUND | HOLD | MIND_BLAST | SCARE
 spells:BA_COLD | BA_NETH
 spells:BO_COLD
 spells:S_UNDEAD
@@ -20650,7 +20665,8 @@ desc:A Ringwraith powerful in fell sorcery, he yearns for the life he has lost
 desc: for an unlife of everlasting torment.
 
 name:Gabriel, the Messenger
-base:angel
+#base:angel
+base:ainu
 color:u
 speed:130
 hit-points:7500
@@ -20674,7 +20690,8 @@ flags:NO_STUN
 spell-freq:2
 spells:BLIND | TELE_TO
 spells:BO_MANA | BO_WATE | BO_FIRE | BO_ICE
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 friends:50:1d3:Angel
 friends:50:1d3:Archangel
 friends:50:1d3:Cherub
@@ -21404,7 +21421,7 @@ flags:IM_ACID | IM_COLD | IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:5
 spells:BA_ACID | BA_WATE
-spells:BO_ICEE | BO_WATE
+spells:BO_ICE | BO_WATE
 spells:BOULDER
 desc:No ordinary cyclops, but the son of a sea-god: he wields the powers of
 desc: elemental water as well as the considerable strength of a cyclops. His one
@@ -21761,8 +21778,8 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:IM_ACID | IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:5
-spells:BLIND | CAUSE_3 | CAUSE_4 | HOLD | SCARE | TELE_LEVEL
-spells:BO_CHAOS
+spells:BLIND | WOUND | WOUND | HOLD | SCARE | TELE_LEVEL
+spells:BR_CHAO
 spells:S_MONSTER
 desc:He was powerful sorceror, master of body manipulations.
 desc: Once human, he is now more like a tangle of human (and
@@ -21794,7 +21811,7 @@ flags:IM_ACID | IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:2
 spell-power:72
-spells:BLIND | CAUSE_3 | CAUSE_4 | HOLD | SCARE | TELE_LEVEL
+spells:BLIND | WOUND | WOUND | HOLD | SCARE | TELE_LEVEL
 spells:BA_COLD | BA_FIRE | BA_NETH
 spells:BO_MANA
 spells:S_HI_UNDEAD
@@ -22670,7 +22687,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:2
 spell-power:80
-spells:BLIND | BRAIN_SMASH | CAUSE_3 | HOLD | SCARE | TELE_AWAY
+spells:BLIND | BRAIN_SMASH | WOUND | HOLD | SCARE | TELE_AWAY
 spells:BA_NETH
 spells:BO_MANA
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_KIN | S_MONSTERS | S_WRAITH
@@ -23090,8 +23107,8 @@ spells:HEAL | HEAL_KIN
 spells:BOULDER
 spells:BA_SHAR | BR_SOUN
 spells:S_KIN | S_MONSTERS
-friends:50:1d4:Maia of Oromë:servant
-friends:50:1d4:Maia of Aulë:servant
+friends:50:1d4:Doppleganger:servant
+friends:50:1d4:Djinn:servant
 friends:50:1d3:lesser titan:servant
 friends:50:1d2:greater titan:servant
 friends:100:1d1:Makar, the Warrior
@@ -23655,7 +23672,8 @@ desc: insects to be crushed underfoot.
 
 
 name:Michael, the Guardian
-base:angel
+#base:angel
+base:ainu
 color:u
 speed:130
 hit-points:8500
@@ -23679,12 +23697,40 @@ flags:NO_STUN
 spell-freq:2
 spells:BLIND | TELE_TO
 spells:BO_MANA | BO_WATE | BO_FIRE | BO_ICE | BR_LIGHT
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 friends:100:1d3:Seraph
 friends:100:1d5:Archon
 desc:Michael leads angel's armies against evil forces.
 
 ### Dungeon level 95 ###
+
+name:storm of Unmagic
+plural:storms of Unmagic
+base:vortex
+color:v
+speed:140
+hit-points:600
+hearing:50
+armor-class:48
+sleepiness:0
+depth:95
+rarity:3
+weight:0
+experience:17000
+blow:ENGULF:EXP_80:5d7
+blow:ENGULF:DRAIN_CHARGES:5d7
+blow:ENGULF:DISENCHANT:5d7
+blow:ENGULF:LOSE_ALL:5d7
+flags:KILL_WALL
+flags:IM_DISEN
+flags:ATTR_MULTI
+flags:ANTI_MAGIC | NO_STUN
+spell-freq:3
+innate-freq:100
+spells:BR_CHAO | BR_DISE | BR_TIME
+desc:Howling through the disintegrating dungeon, this whirlpool of Unmagic rips
+desc: the enchantments from everything it touches.
 
 name:Gothmog, the High Captain of Balrogs
 base:major demon
@@ -23785,7 +23831,8 @@ desc:A gigantic ancient dragon whose scales shimmer in myriad hues.
 ### Dungeon level 96 ###
 
 name:Raphael, the Healer
-base:angel
+#base:angel
+base:ainu
 color:u
 speed:130
 hit-points:9000
@@ -23807,9 +23854,10 @@ flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 flags:NO_STUN
 spell-freq:2
-spells:HEAL | TELE_TO | BLINK | TELE
+spells:HEAL | TELE_TO | BLINK | TPORT
 spells:BO_MANA | BR_LIGHT
-spells:S_ANGEL
+#spells:S_ANGEL
+spells:S_AINU
 friends:100:1d7:Fallen angel
 desc:"Stop fighting! It's time to unity our strength, to overcome our
 desc: differences and to give a new breath to the world
@@ -23851,37 +23899,6 @@ desc:The mightiest of all dragon kind, an Ancient Wyrm of Power is seldom
 desc: encountered in our world. It can crush stars with its might.
 
 ### Dungeon level 98 ###
-
-name:Raphael, the Healer
-base:angel
-color:u
-speed:130
-hit-points:9000
-light:2
-hearing:50
-armor-class:222
-sleepiness:50
-depth:96
-rarity:3
-weight:0
-experience:50000
-blow:BEG:HURT:9d13
-blow:BEG:HURT:9d13
-blow:BEG:HURT:9d13
-blow:BEG:HURT:9d13
-flags:UNIQUE | MALE | SMART
-flags:DROP_1 | DROP_GOOD | ONLY_ITEM | LEVITATE
-flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
-flags:NO_STUN
-spell-freq:2
-spells:HEAL | TELE_TO | BLINK | TELE
-spells:BO_MANA | BR_LIGHT
-spells:S_ANGEL
-friends:100:1d7:Fallen angel
-desc:"Stop fighting! It's time to unity our strength, to overcome our
-desc: differences and to give a new breath to the world
-desc: we all love so much!"
 
 name:The Balrog of the Sammath Naur
 base:major demon
@@ -26043,7 +26060,7 @@ flags:WILD_GLACIER
 spell-freq:5
 spell-power:37
 spells:BA_COLD
-spells:BO_ICEE
+spells:BO_ICE
 desc:It is a towering glacier of ice.
 force-location:Ice Lands
 
@@ -26078,7 +26095,7 @@ flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP | LEVITATE
 spell-freq:8
 spell-power:26
-spells:CAUSE_2 | DARKNESS | SCARE
+spells:WOUND | DARKNESS | SCARE
 desc:It is a tangible but ghostly form made of white fog.
 force-location:Deadmen hills
 
@@ -26214,7 +26231,7 @@ flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
 spell-power:20
-spells:ARROW_2 | BLINK | MISSILE
+spells:ARROW | BLINK | MISSILE
 spells:BO_COLD | BO_ELEC
 spells:S_ANIMAL
 friends:50:1d1:Easterling champion
@@ -26296,7 +26313,7 @@ flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
 spell-power:20
-spells:ARROW_2 | BLINK | MISSILE
+spells:ARROW | BLINK | MISSILE
 spells:BO_COLD | BO_ELEC
 friends:100:1d3:Same
 desc:A warrior who is at one with nature. A master of both bow and sword, with
@@ -26329,7 +26346,7 @@ flags:IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
 spell-power:41
-spells:ARROW_2 | ARROW_3 | BLINK | HASTE | MISSILE
+spells:ARROW | BLINK | HASTE | MISSILE
 spells:BO_COLD
 spells:BO_ELEC | BO_FIRE
 desc:A chieftain among the Rangers. His understanding of nature gives him
@@ -26363,7 +26380,7 @@ flags:IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:4
 spell-power:41
-spells:ARROW_2 | ARROW_3 | BLINK | HASTE | MISSILE
+spells:ARROW | BLINK | HASTE | MISSILE
 spells:BO_COLD
 spells:BO_ELEC | BO_FIRE
 desc:A chieftain among the Rangers. His understanding of nature gives him
@@ -26740,7 +26757,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:8
 spell-power:13
-spells:CAUSE_1 | CONF | DARKNESS
+spells:WOUND | CONF | DARKNESS
 desc:A dark elven torso merged with the bloated form of a giant spider.
 force-location:Mosquito Marshes
 
@@ -26889,7 +26906,7 @@ force-location:Mosquito Marshes
 
 name:Mosquito Marshes giant black louse
 plural:giant black lice
-base:louse
+base:insect
 color:D
 speed:120
 hit-points:2
@@ -27141,7 +27158,7 @@ flags:PASS_WALL
 flags:FORCE_SLEEP
 spell-freq:6
 spell-power:39
-spells:BLIND | CAUSE_3 | DARKNESS | MIND_BLAST | SCARE
+spells:BLIND | WOUND | DARKNESS | MIND_BLAST | SCARE
 spells:BO_NETH
 desc:A form that hurts the eye, death permeates the air around it. As it nears
 desc: you, a coldness saps your soul.
@@ -27232,7 +27249,7 @@ flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
 flags:FORCE_SLEEP
 spell-freq:5
 spell-power:52
-spells:BLIND | CAUSE_3 | SCARE
+spells:BLIND | WOUND | SCARE
 spells:BA_FIRE | BA_NETH
 spells:BO_PLAS
 friends:100:1d3:Same
@@ -27268,7 +27285,7 @@ flags:FORCE_SLEEP
 flags:DROP_SKELETON
 spell-freq:6
 spell-power:48
-spells:CAUSE_3 | DRAIN_MANA | HEAL | HOLD | MIND_BLAST | SLOW
+spells:WOUND | DRAIN_MANA | HEAL | HOLD | MIND_BLAST | SLOW
 spells:BA_FIRE
 spells:BO_FIRE
 friends:30:1d2:Same
@@ -27401,7 +27418,7 @@ blow:HIT:HURT:1d8
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:5
 spell-power:3
-spells:CAUSE_1 | CONF | HEAL | MISSILE
+spells:WOUND | CONF | HEAL | MISSILE
 friends:100:1d3:Same
 desc:It is a kobold dressed in skins and gesturing wildly.
 force-location:Abandoned Outpost
@@ -27423,7 +27440,7 @@ blow:HIT:HURT:1d9
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:5
 spell-power:4
-spells:ARROW_2
+spells:ARROW
 friends:100:1d3:Same
 desc:It is an ugly dog-headed humanoid wielding a bow.
 force-location:Abandoned Outpost
@@ -27923,7 +27940,7 @@ flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
 flags:FORCE_SLEEP
 spell-freq:5
 spell-power:52
-spells:BLIND | CAUSE_3 | SCARE
+spells:BLIND | WOUND | SCARE
 spells:BA_FIRE | BA_NETH
 spells:BO_PLAS
 friends:100:1d3:Same
