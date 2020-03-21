@@ -5943,7 +5943,7 @@ spells:BR_LIGHT
 friends:100:2d7:Same
 desc:A brilliant canine form whose light hurts your eyes, even at this distance.
 
-name:dark hound
+name:shadow hound
 base:zephyr hound
 color:D
 speed:110
@@ -8408,7 +8408,31 @@ friends:80:2d5:warg
 friends:100:4d4:uruk:bodyguard
 friends:80:1d3:orc captain:servant
 friends:100:1d1:Lugdush, the Uruk:servant
+friends:100:1d1:Mauhur, the Orc Captain
 desc:A strong and cunning orc warrior, the commander of Saruman's orcish horde.
+
+name:Mauhur, the Orc Captain
+base:orc
+color:R
+speed:110
+hit-points:500
+hearing:20
+smell:20
+armor-class:96
+sleepiness:20
+depth:22
+rarity:5
+weight:0
+experience:500
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+flags:UNIQUE
+friends:100:2d4:half-orc
+friends:100:2d4:uruk:bodyguard
+desc:He will eat you alive...
+desc:"I'm starving. We ain't had 'nothing but maggoty bread
+desc: for three stinking days!"
 
 name:killer stag beetle
 base:killer beetle
@@ -8607,7 +8631,7 @@ friends:50:1d1:mage
 friends:50:1d1:paladin
 desc:A scarred warrior who wields an axe and moves with confidence.
 
-name:Azog, Enemy of the Dwarves
+name:Azog, the Great Orc
 base:orc
 color:R
 speed:120
@@ -8633,8 +8657,9 @@ friends:100:4d2:orc archer
 friends:100:4d4:uruk:bodyguard
 friends:50:1d3:orc captain:servant
 friends:100:1d1:Bolg, Son of Azog
-desc:He is also known as the King of Khazad-dûm. His ego is renowned to be
-desc: bigger than his head.
+desc:He is also known as the King of Khazad-dum, 
+desc:the King of the Uruk-Hai and the Enemy of the Dwarves.
+desc:His ego is renowned to be bigger than his head.
 force-location:The Orc Mountains
 
 name:brigand
@@ -17059,6 +17084,35 @@ desc:A huge draconic form. Its scales are shimmering blue.
 
 ### Dungeon level 44 ###
 
+name:unicorn
+base:quadruped
+color:v
+speed:125
+hit-points:1777
+hearing:20
+smell:20
+armor-class:120
+sleepiness:200
+depth:44
+rarity:9
+weight:0
+experience:666
+blow:KICK:HURT:4d4
+blow:BITE:HURT:4d4
+blow:TOUCH:LOSE_ALL:4d4
+blow:TOUCH:DRAIN_CHARGES
+flags:CAUTIOUS | SMART
+flags:REGENERATE | ANIMAL
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
+flags:IM_DISE | IM_ACID
+spell-freq:4
+spell-power:44
+spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY
+desc:Innocent holy beast in blinding white color with silky flowing manes,
+desc: sapphire blue eyes and horn which sparks with magic, walking with
+desc: dignified grace. Their neighing is like bells on the wind, sparkling like
+desc: a warm stream.
+
 name:ancient multi-hued dragon
 base:ancient dragon
 color:v
@@ -17542,6 +17596,7 @@ spells:S_DRAGON
 desc:It looks like it was once a dragon corpse, now deeply infected with magical
 desc: bacteria that make it pulse in a foul and degrading way.
 
+#BUFF
 name:greater basilisk
 base:reptile
 color:D
@@ -19875,6 +19930,35 @@ desc: strength and priestly wisdom are a true match for any adventurer.
 
 ### Dungeon level 60 ###
 
+name:black unicorn
+base:quadruped
+color:v
+speed:120
+hit-points:4000
+hearing:20
+smell:20
+armor-class:150
+sleepiness:100
+depth:60
+rarity:10
+weight:0
+experience:5000
+blow:KICK:HALLU:7d8
+blow:BITE:HURT:7d8
+blow:TOUCH:LOSE_ALL:7d8
+blow:TOUCH:DRAIN_CHARGES:7d8
+flags:CAUTIOUS | SMART
+flags:REGENERATE | ANIMAL
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
+flags:IM_DISE | IM_ACID
+spell-freq:3
+spell-power:44
+spells:TELE_TO | DRAIN_MANA
+spells:WOUND | DARKNESS| BO_MANA | BR_DARK
+desc:Thouse say that once per 100 years black unicorn appears..
+desc: They are aggressive and dwell to protect the Good creatures.
+desc: It seems it consider you as not good enough.
+
 #was name:Gilim, the Giant of Eruman
 name:Moroz
 base:ainu
@@ -20218,6 +20302,37 @@ spells:S_AINU
 desc:A creature of godly appearance, you dare not challenge Uriel's supremacy.
 desc:Those who stood against him before are but a memory, cremated by his
 desc:mastery of elemental fire.
+
+name:Baba Yaga
+base:ainu
+color:R
+speed:130
+hit-points:3500
+light:2
+hearing:40
+armor-class:192
+sleepiness:10
+depth:61
+rarity:10
+weight:0
+experience:25000
+blow:HIT:FIRE:4d12
+blow:HIT:FIRE:4d12
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+flags:UNIQUE | FEMALE | SMART
+flags:DROP_4 | DROP_GOOD
+flags:MOVE_BODY
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
+flags:NO_STUN
+spell-freq:3
+spell-power:61
+spells:HASTE | SCARE | SLOW | WOUND
+spells:S_DEMON
+desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
+desc:jutting jaw that shows off her iron teeth.
+desc:She is skinny, like a skeleton, with a bony leg.
+desc:She knows how to turn from old into young in a blink of an eye.
 
 name:Arien, Maia of the Sun
 base:ainu
@@ -22366,6 +22481,35 @@ desc: on his shoulders; and the mountain range that now does so is named after
 desc: him.
 
 ### Dungeon level 77 ###
+
+name:The Unicorn of Order
+base:quadruped
+color:v
+speed:130
+hit-points:7777
+hearing:20
+smell:20
+armor-class:120
+sleepiness:40
+depth:77
+rarity:9
+weight:0
+experience:7777
+blow:KICK:HURT:7d11
+blow:BITE:EXP_80:7d11
+blow:TOUCH:LOSE_ALL:7d11
+blow:TOUCH:DRAIN_CHARGES:7d11
+flags:UNIQUE | CAUTIOUS | SMART
+flags:REGENERATE | ANIMAL
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
+flags:IM_DISE | IM_ACID
+spell-freq:4
+spell-power:44
+spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY | BR_LIGHT | BR_MANA
+spells:S_AINU
+desc:There is always a certain disbalance in the world. When it come to the
+desc: crucial point - Universe give a birth to The Unicorn of Order, which goal
+desc: is to remove disbalancing factor... you.
 
 name:Feagwath, the Undead Sorcerer
 base:lich
@@ -27364,6 +27508,24 @@ force-location:Old Mines
 ################### Abandoned Outpost
 ###########################################################################
 # The Orc Cave
+
+name:Abandoned Outpost's brown yeek
+base:yeek
+color:u
+speed:110
+hit-points:18
+hearing:18
+smell:20
+armor-class:21
+sleepiness:10
+depth:8
+rarity:1
+weight:80
+experience:11
+blow:HIT:HURT:1d6
+flags:DROP_40
+flags:DROP_CORPSE
+desc:It is a strange small humanoid.
 
 name:Abandoned Outpost's small kobold
 base:kobold
