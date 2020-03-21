@@ -5115,10 +5115,8 @@ flags:MALE
 flags:DROP_1
 flags:OPEN_DOOR
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
-friends:50:1d2:brigand
 friends:50:1d2:priest
 friends:50:1d2:illusionist
-friends:25:1d1:Same
 desc:A warrior of considerable skill.
 
 name:stegocentipede
@@ -15335,6 +15333,28 @@ desc: monk in an evil order.
 
 ### Dungeon level 40 ###
 
+name:flaming skull 
+base:skeleton
+color:s
+speed:120
+hit-points:133
+light:2
+hearing:30
+armor-class:45
+sleepiness:70
+depth:40
+rarity:5
+weight:0
+experience:50
+blow:CRUSH:HURT:4d6
+blow:BITE:FIRE:6d6
+blow:BITE:LOSE_INT:4d6
+flags:WEIRD_MIND | LEVITATE
+flags:DROP_40
+flags:BASH_DOOR
+friends:100:3d5:Same
+desc:A pack of hellish skulls cursed with an insatiable hunger.
+
 name:huorn
 base:tree
 color:G
@@ -15344,7 +15364,7 @@ light:-2
 hearing:40
 armor-class:150
 sleepiness:20
-depth:19
+depth:40
 rarity:5
 weight:0
 experience:800
@@ -19370,7 +19390,7 @@ hit-points:10000
 hearing:12
 armor-class:200
 sleepiness:1
-depth:35
+depth:55
 #5
 rarity:10
 weight:0
@@ -19382,7 +19402,8 @@ blow:TOUCH:ACID:5d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
-flags:NO_CONF | NO_SLEEP | MULTIPLY
+flags:NO_CONF | NO_SLEEP | 
+flags:NEVER_MOVE | MULTIPLY
 spell-freq:2
 spells:BLINK
 desc:A huge amoeboid substance which is grow,
@@ -21478,6 +21499,7 @@ spells:S_MONSTERS
 desc:Known as the giant of summer and the south, he towers above you
 desc: like a great elm. In his right hand, he holds the longest
 desc: sword you have ever beheld.
+
 name:nightcrawler
 base:snake
 color:D
@@ -21579,6 +21601,111 @@ desc: spikes.
 ########## DUNGEON LEVELS 70-79 ##########
 
 ### Dungeon level 70 ###
+
+name:mutated slime mold
+base:jelly
+color:s
+speed:90
+hit-points:15000
+hearing:12
+armor-class:200
+sleepiness:150
+depth:70
+rarity:10
+weight:0
+experience:1
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP | NEVER_MOVE
+spell-freq:50
+spells:SHAPECHANGE
+shape:ectoplasma
+desc:An enormous amoeboid substance colony which slowly  quivering.
+desc: It's defencing mechanisms are quite amazing.
+
+name:ectoplasma
+base:jelly
+color:s
+speed:100
+hit-points:10000
+hearing:12
+armor-class:200
+sleepiness:1
+depth:70
+rarity:10
+weight:0
+experience:1
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP | RAND_50
+spell-freq:30
+spells:MIND_BLAST | BRAIN_SMASH | DRAIN_MANA | ANIM_DEAD | DARKNESS | HEAL
+desc:Strange greenish liquid which float in the air in one big blog, which
+desc: burl from inside. It's moving in chaotic manner and slowly drifting
+desc: somewhat randomly.. but eventualy crawling a bit closer to you.
+desc: You do not know what to expect from it, but it won't be anything good for sure.
+
+name:ectoplasm
+base:jelly
+color:s
+speed:100
+hit-points:10000
+hearing:12
+armor-class:200
+sleepiness:1
+depth:70
+rarity:10
+weight:0
+experience:1
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP | NEVER_MOVE
+spell-freq:25
+spells:SHAPECHANGE
+shape:ethereal mist
+desc:Strange greenish liquid which float in the air in one big blog, which
+desc: burl from inside. It's moving in chaotic manner and slowly drifting
+desc: somewhat randomly.. but eventualy crawling a bit closer to you.
+desc: You do not know what to expect from it, but it won't be anything good for sure.
+
+name:ethereal mist
+base:mist
+color:s
+speed:110
+hit-points:5000
+hearing:12
+armor-class:66
+sleepiness:30
+depth:70
+rarity:10
+weight:0
+experience:1
+blow:ENGULF:EAT_LIGHT:10d10
+blow:ENGULF:EAT_LIGHT:10d10
+blow:TOUCH:ACID:10d10
+blow:TOUCH:ACID:10d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_NETHER
+flags:NO_CONF | NO_SLEEP | NEVER_MOVE
+spell-freq:10
+spells:BR_TIME | SLOW | S_HI_UNDEAD
+desc:Slowly quivering at the one place, it makes you sleepy...
 
 #was old name:Glaurung, Father of the Dragons
 name:Zmei Gorynich
