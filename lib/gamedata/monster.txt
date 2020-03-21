@@ -21613,7 +21613,7 @@ sleepiness:150
 depth:70
 rarity:10
 weight:0
-experience:1
+experience:10000
 blow:TOUCH:ACID:10d10
 blow:TOUCH:ACID:10d10
 blow:TOUCH:ACID:10d10
@@ -21626,7 +21626,7 @@ spell-freq:50
 spells:SHAPECHANGE
 shape:ectoplasma
 desc:An enormous amoeboid substance colony which slowly  quivering.
-desc: It's defencing mechanisms are quite amazing.
+desc: It's defencing mechanisms are quite amazing...
 
 name:ectoplasma
 base:jelly
@@ -21639,10 +21639,10 @@ sleepiness:1
 depth:70
 rarity:10
 weight:0
-experience:1
-blow:TOUCH:ACID:10d10
-blow:TOUCH:ACID:10d10
-blow:TOUCH:ACID:10d10
+experience:10000
+blow:TOUCH:FIRE:10d10
+blow:TOUCH:COLD:10d10
+blow:TOUCH:ELEC:10d10
 blow:TOUCH:ACID:10d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
@@ -21666,10 +21666,10 @@ sleepiness:1
 depth:70
 rarity:10
 weight:0
-experience:1
-blow:TOUCH:ACID:10d10
-blow:TOUCH:ACID:10d10
-blow:TOUCH:ACID:10d10
+experience:10000
+blow:TOUCH:FIRE:10d10
+blow:TOUCH:COLD:10d10
+blow:TOUCH:ELEC:10d10
 blow:TOUCH:ACID:10d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
@@ -21694,11 +21694,11 @@ sleepiness:30
 depth:70
 rarity:10
 weight:0
-experience:1
-blow:ENGULF:EAT_LIGHT:10d10
-blow:ENGULF:EAT_LIGHT:10d10
-blow:TOUCH:ACID:10d10
-blow:TOUCH:ACID:10d10
+experience:10000
+blow:ENGULF:POISON:10d10
+blow:ENGULF:POISON:10d10
+blow:ENGULF:POISON:10d10
+blow:ENGULF:POISON:10d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_NETHER
