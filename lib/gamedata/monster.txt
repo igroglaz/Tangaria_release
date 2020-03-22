@@ -528,7 +528,8 @@ flags:ANIMAL | FRIENDLY | PWMANG_BASE
 desc:A common horse.
 force-location:Hunter's Valley
 
-name:Otho Sackville-Baggins
+#name:Otho Sackville-Baggins
+name:Ivan the Fool
 base:humanoid
 color:b
 speed:110
@@ -544,14 +545,15 @@ experience:0
 blow:BEG
 blow:TOUCH:EAT_GOLD
 flags:UNIQUE | MALE | ATTR_FLICKER
-flags:PWMANG_EXTRA | PWMANG_FIXED
+flags:PWMANG_EXTRA
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:TAKE_ITEM
 flags:NO_CONF | NO_SLEEP | IM_WATER
-desc:This greedy and ill-mannered hobbit thinks he has been spoiled from a good
+desc:This greedy and ill-mannered person thinks he has been spoiled from a good
 desc: heritage.
 
-name:Lobelia Sackville-Baggins
+#name:Lobelia Sackville-Baggins
+name:Emelya the Simpleton
 base:humanoid
 color:b
 speed:110
@@ -566,12 +568,12 @@ weight:0
 experience:0
 blow:BEG
 blow:TOUCH:EAT_GOLD
-flags:UNIQUE | FEMALE | ATTR_FLICKER
-flags:PWMANG_EXTRA | PWMANG_FIXED
+flags:UNIQUE | MALE | ATTR_FLICKER
+flags:PWMANG_EXTRA
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:TAKE_ITEM
 flags:NO_CONF | NO_SLEEP | IM_WATER
-desc:This greedy and ill-mannered hobbit thinks she has been spoiled from a good
+desc:This greedy and ill-mannered person thinks she has been spoiled from a good
 desc: heritage.
 
 name:Target Dummy
@@ -2343,7 +2345,7 @@ desc:A fish with a swordlike "beak".
 
 ### Dungeon level 5 ###
 
-name:Lora the Red
+name:Baba Yaga
 base:humanoid
 color:U
 speed:120
@@ -2360,8 +2362,11 @@ blow:HIT:HURT:1d8
 flags:UNIQUE | FEMALE | PWMANG_FIXED
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:FORCE_DEPTH
-friends:80:1d3:rattlesnake:servant
-desc:She lost her beloved.. Where is him?
+friends:100:1d3:rattlesnake:servant
+desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
+desc:jutting jaw that shows off her iron teeth.
+desc:She is skinny, like a skeleton, with a bony leg.
+desc:She knows how to turn from old into young in a blink of an eye.
 desc: She likes her ssssnakes.
 force-location:The Mountain Gorge
 
@@ -4171,7 +4176,8 @@ flags:NEVER_MOVE
 flags:ATTR_CLEAR
 desc:Yum! It looks quite tasty.
 
-name:Yargash, youngest of chieftain
+#name:Yargash, youngest of chieftain
+name:Solovei the Robber
 base:orc
 color:Y
 speed:110
@@ -8091,8 +8097,9 @@ desc: a mammal. And it is huge!
 
 ### Dungeon level 21 ###
 
-name:Komurik the Terrific
-base:dragon worm
+#name:Komurik the Terrific
+name:Kikimora
+base:person
 color:s
 speed:120
 hit-points:600
@@ -8113,12 +8120,11 @@ flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
 spell-freq:5
 spell-power:20
-spells:BLIND | CONF | DRAIN_MANA | SCARE
-spells:S_KIN
+spells:BLIND | CONF | DRAIN_MANA | SCARE | WOUND
 friends-base:100:1d5:dragon worm
 friends-base:75:1d5:dragon worm
 friends-base:50:1d5:dragon worm
-desc:Floating like a butterfly, stinging like a bee!
+desc: An old hag living in the swapms.. She like to eat humans...
 force-location:Fetid Swamps
 
 name:Lugdush, the Uruk
@@ -9011,10 +9017,10 @@ flags:IM_ELEC | IM_FIRE | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 spell-freq:4
 spells:CONF | SLOW
-friends:100:1d1:Angamaitë of Umbar
-desc:A Black Númenórean with a blacker heart.
+friends:100:1d1:Angamait of Umbar
+desc:A Black Numenórean with a blacker heart.
 
-name:Angamaitë of Umbar
+name:Angamait of Umbar
 base:person
 color:U
 speed:110
@@ -9039,7 +9045,7 @@ flags:FORCE_SLEEP
 spell-freq:4
 spells:CONF | SLOW
 friends:100:1d1:Sangahyando of Umbar
-desc:A Black Númenórean who hates the men of the west.
+desc:A Black Numenórean who hates the men of the west.
 
 name:banshee
 base:ghost
@@ -9823,7 +9829,8 @@ desc:He is out to have revenge on those who have desecrated his tomb.
 
 ### Dungeon level 27 ###
 
-name:Ragnat the Dreadful
+#name:Ragnat the Dreadful
+name:Koschei the Deathless
 base:vampire
 color:W
 speed:120
@@ -10438,7 +10445,7 @@ flags:OPEN_DOOR | TAKE_ITEM
 spell-freq:10
 spells:S_KIN
 desc:An evil and cunning man from the East. Having once sworn allegiance to the
-desc: sons of Fëanor, it was Uldor's treachery that turned the tide of the
+desc: sons of Feanor, it was Uldor's treachery that turned the tide of the
 desc: Battle of Unnumbered Tears in Morgoth's favour.
 
 name:mage
@@ -10494,6 +10501,7 @@ drop-base:psi book:5:1:1
 desc:A humanoid form with a gruesome head, tentacular mouth, and piercing eyes.
 desc: Claws reach out for you and you feel a presence invade your mind.
 
+#name:Draebor, the Imp
 name:Draebor, the Imp
 base:minor demon
 color:v
@@ -12649,11 +12657,11 @@ blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
-flags:MALE | EVIL | PWMANG_FIXED
+flags:MALE | EVIL
 flags:OPEN_DOOR | TAKE_ITEM
 spell-freq:10
 spells:S_KIN
-desc:A short and swarthy Easterling dressed in 
+desc:Arrgghh! Don't mess with mutants or you will die like a maggot!
 
 name:Ulfang the Black
 base:person
@@ -14871,7 +14879,7 @@ flags:FORCE_SLEEP
 spell-freq:2
 spells:HEAL | TRAPS
 spells:BO_COLD | BO_ELEC | BO_FIRE | BO_ICE
-desc:A Black Númenórean who usurped the throne of Gondor, he is treacherous and
+desc:A Black Numenórean who usurped the throne of Gondor, he is treacherous and
 desc: evil.
 
 name:mature balance drake
@@ -16783,9 +16791,8 @@ desc: it properly.
 
 ### Dungeon level 43 ###
 
-#change!
-name:Maia of Nienna
-plural:Maiar of Nienna
+#v was name:Maia of Nienna
+name:Fey
 base:ainu
 color:W
 speed:120
@@ -16810,12 +16817,10 @@ spells:BO_MANA
 spells:SHAPECHANGE
 shape:air elemental
 shape:nexus vortex
-desc:A servant of Nienna, who grieves for the hurts to the world caused by
-desc: Morgoth.
+desc:Tiny and beautiful fey with glowing wings.
 
-#change!
-name:Maia of Mandos
-plural:Maiar of Mandos
+#v was name:Maia of Mandos / jinn
+name:Boggart
 base:ainu
 color:s
 speed:120
@@ -16838,7 +16843,7 @@ spells:BLIND | HASTE | HOLD | CONF
 spells:SHAPECHANGE
 shape:will o' the wisp
 shape:time vortex
-desc:A servant of Mandos, the summoner of the spirits of the slain.
+desc:His appearence makes you jump!
 
 name:Vargo, Tyrant of Fire
 base:elemental
@@ -18748,7 +18753,8 @@ spells:S_DEMON
 desc:A loathsome, sturdy, winged, horned demon, with talons that could tear a
 desc: stonewall down.
 
-name:Moltor, the Dwarven Archer
+#name:Moltor, the Dwarven Archer
+name:Robin Hood, the Archer
 base:humanoid
 color:Y
 speed:120
@@ -19981,7 +19987,7 @@ desc: They are aggressive and dwell to protect the Good creatures.
 desc: It seems it consider you as not good enough.
 
 #was name:Gilim, the Giant of Eruman
-name:Moroz
+name:Morozko
 base:ainu
 color:s
 speed:120
@@ -20014,7 +20020,7 @@ name:Ancient witch
 base:ainu
 color:g
 speed:120
-hit-points:3500
+hit-points:2000
 light:2
 hearing:30
 armor-class:90
@@ -20030,7 +20036,7 @@ blow:HIT:HURT:6d5
 flags:FEMALE
 flags:DROP_3
 flags:IM_ACID
-spell-freq:3
+spell-freq:10
 spells:BO_MANA | BO_WATE
 spells:S_AINU | S_ANIMAL
 spells:SHAPECHANGE
@@ -20044,13 +20050,13 @@ name:Young witch
 base:ainu
 color:g
 speed:130
-hit-points:3500
+hit-points:1500
 light:2
 hearing:30
 armor-class:90
 sleepiness:255
 depth:60
-rarity:4
+rarity:9
 weight:0
 experience:3600
 blow:HIT:SEDUCE:4d5
@@ -20063,8 +20069,6 @@ flags:IM_ACID
 spell-freq:3
 spells:BO_MANA | BO_WATE
 spells:S_AINU | S_ANIMAL
-spells:SHAPECHANGE
-shape:Ancient witch
 desc:Beautiful girl with blonde hair. She give you a wink..
 
 #was name:Maia of Aule
@@ -20324,38 +20328,8 @@ desc:A creature of godly appearance, you dare not challenge Uriel's supremacy.
 desc:Those who stood against him before are but a memory, cremated by his
 desc:mastery of elemental fire.
 
-name:Baba Yaga
-base:ainu
-color:R
-speed:130
-hit-points:3500
-light:2
-hearing:40
-armor-class:192
-sleepiness:10
-depth:61
-rarity:10
-weight:0
-experience:25000
-blow:HIT:FIRE:4d12
-blow:HIT:FIRE:4d12
-blow:HIT:HURT:10d10
-blow:HIT:HURT:10d10
-flags:UNIQUE | FEMALE | SMART
-flags:DROP_4 | DROP_GOOD
-flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
-flags:NO_STUN
-spell-freq:3
-spell-power:61
-spells:HASTE | SCARE | SLOW | WOUND
-spells:S_DEMON
-desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
-desc:jutting jaw that shows off her iron teeth.
-desc:She is skinny, like a skeleton, with a bony leg.
-desc:She knows how to turn from old into young in a blink of an eye.
-
-name:Arien, Maia of the Sun
+#was v name:Arien, Maia of the Sun
+name:Iblis
 base:ainu
 color:R
 speed:130
@@ -20384,7 +20358,7 @@ spells:BA_FIRE
 spells:BO_FIRE | BO_MANA | BO_PLAS
 spells:BR_FIRE | BR_PLAS
 friends:100:2d1:great fire elemental:servant
-desc:The Maia who sails the Sun across the sky has descended into Angband to
+desc:The jiniri who sails the Sun across the sky has descended into Angband to
 desc: kill you. She wears no mortal shell; her body is made of fiery golden
 desc: light, painfully bright even when you close your eyes, and hot enough to
 desc: melt armor and flesh alike.
@@ -20509,7 +20483,7 @@ desc:He is the most powerful and heartless of servants of nature and embodies
 desc: the untamed power of the ocean. Terror grows in your heart with each
 desc: squelching step of his approach.
 
-#was name:Ossë, Herald of Ulmo
+#was name:Osse, Herald of Ulmo
 name:Triton
 base:ainu
 color:w
@@ -21055,7 +21029,7 @@ desc:It is a demon made almost entirely out of bones. It is humanoid, but with a
 desc: large tail similar to that of a giant scorpion, and emits a foul smell of
 desc: decay and rot. They are despised even in the hells.
 
-#v name:Fëanorian raider
+#v name:Feanorian raider
 name:One of Forty Thieves
 base:humanoid
 color:M
@@ -21725,12 +21699,11 @@ blow:CLAW:HURT:5d12
 blow:CLAW:HURT:5d12
 blow:BITE:POISON:8d14
 blow:BITE:FIRE:8d14
-flags:UNIQUE | MALE | PWMANG_FIXED
+flags:UNIQUE | MALE
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
 flags:IM_FIRE | IM_POIS
 flags:NO_STUN
-flags:FORCE_DEPTH
 spell-freq:3
 spell-power:70
 spells:HEAL
@@ -21768,7 +21741,7 @@ desc:A Thunderlord, among the queens of their kind.
 
 ### Dungeon level 71 ###
 
-#v name:Maia of Manwë
+#v name:Maia of Manwe
 name:Efreet
 base:ainu
 color:B
@@ -22091,7 +22064,7 @@ desc: Horned Reaper will cut down anything in its path between it and you - even
 desc: the minions it has just summoned.
 
 #V
-name:Ossë, Herald of Ulmo
+name:Osse, Herald of Ulmo
 base:ainu
 color:Z
 speed:130
@@ -22120,7 +22093,7 @@ spells:BR_WATE | BR_DISE
 spells:S_AINU
 desc:Encrusted with barnacles, slimy and dripping, the Maia of the untamed
 desc: sea has dragged himself down into Angband to send you to a watery grave.
-desc: Ossë is the most powerful and heartless of Ulmo's servants and embodies
+desc: Osse is the most powerful and heartless of Ulmo's servants and embodies
 desc: the untamed power of the ocean. Terror grows in your heart with each
 desc: squelching step of his approach.
 
@@ -22575,7 +22548,7 @@ spell-freq:4
 spells:BLINK | BOULDER | TELE_TO
 desc:A battle-hungry spirit from amongst the Ainur, who built a grim hall in
 desc: the early days of Arda to host endless battles. When not at home, he
-desc: and his sister Meássë hunt and seek out the turmoils caused by Morgoth.
+desc: and his sister Measse hunt and seek out the turmoils caused by Morgoth.
 
 #oldies, but goldies
 name:Atlas, the Titan
@@ -22931,7 +22904,7 @@ spell-freq:5
 innate-freq:67
 spells:BR_COLD | BR_SOUN
 spells:S_KIN
-desc:A violent icy whirlpool, brought from the frozen wastes of the Helcaraxë
+desc:A violent icy whirlpool, brought from the frozen wastes of the Helcaraxe
 desc: by Morgoth as guard and entertainment. Smaller vortices arise on its
 desc: edges, and you feel as if you will never be free of its deafening roar.
 
@@ -23163,7 +23136,7 @@ desc: underworld. Flee his wrath!
 
 ### Dungeon level 85 ###
 
-name:hell eye
+name:glaz
 base:eye
 color:o
 speed:130
@@ -23385,7 +23358,7 @@ friends:50:1d2:greater titan:servant
 friends:100:1d1:Makar, the Warrior
 desc:Sister of Makar the Warrior, she would shout encouragement to the
 desc: warriors of their hall and heal their wounds so they could battle on,
-desc: until her arms were reddened to the elbow. Meássë is delighted by
+desc: until her arms were reddened to the elbow. Measse is delighted by
 desc: all violence, and recruits any beings of like abilities to her service.
 
 name:ancient storm wyrm
@@ -23690,7 +23663,7 @@ spell-freq:5
 innate-freq:100
 spells:BR_COLD | BR_LIGHT | BR_SHAR | BR_SOUN
 desc:The wolfhound of the Valar, Huan has served many masters in his time, from
-desc: Celegorm son of Fëanor to Beren son of Barahir: but now he runs wild and
+desc: Celegorm son of Feanor to Beren son of Barahir: but now he runs wild and
 desc: acknowledges no master save himself, as he hunts alone for his nemesis -
 desc: Carcharoth, the terrible wolf of Angband.
 
@@ -24036,7 +24009,7 @@ friends:30:1d3:pit fiend:servant
 friends:100:1d2:greater Balrog:bodyguard
 friends:100:1d1:Lungorthin, the Balrog of White Fire:servant
 desc:Gothmog is the Chief Balrog in Morgoth's personal guard. He is renowned for
-desc: slaying Fëanor and Fingon, two of the High Kings of the Noldor, and
+desc: slaying Feanor and Fingon, two of the High Kings of the Noldor, and
 desc: has never been defeated in combat. With his whip of flame and awesome
 desc: fiery breath he saved his master from Ungoliant's rage.
 

@@ -67,7 +67,7 @@ wall:obj_grass Q ruins:11
 flags:EMPTY
 rule:100:1
 
-# 5 (boss: Lora the Red)
+# 5 (boss: Baba Yaga)
 name:The Mountain Gorge
 wpos:1:0
 min-depth:2
@@ -87,7 +87,7 @@ rule-flags:UNDEAD
 rule-symbols:h
 rule:30:1
 
-# 10 (boss: Yargash, youngest of chieftain)
+# 10 (boss: Solovei the Robber)
 name:The Orc Cave
 wpos:1:1
 min-depth:4
@@ -129,7 +129,7 @@ rule:20:0
 rule-symbols:p
 rule:80:1
 
-# 20 (boss: Komurik the Terrific)
+# 20 (boss: Kikimora)
 name:Fetid Swamps
 wpos:-1:0
 min-depth:12
@@ -189,7 +189,7 @@ rule-flags:UNDEAD
 rule-symbols:hl
 rule:30:1
 
-# 25 (boss: Ragnat the Dreadful)
+# 25 (boss: Koschei the Deathless)
 name:Abandoned Manor
 wpos:-1:2
 min-depth:21
@@ -470,12 +470,22 @@ floor:ash:3
 wall:mountain:5
 rule:100:1
 
+#49 (boss: Trone, the Rebel Thunderlord)
+name:The Sacred Land Of Mountains
+wpos:2:2
+min-depth:60
+max-depth:72
+max-level:49
+floor:grass:10
+wall:mountain:10
+rule:100:1
+
 #lonely mountain
 #49 (boss: Glaurung, Father of the Dragons)
 name:Erebor
 wpos:-1:-3
-min-depth:60
-max-depth:70
+min-depth:62
+max-depth:75
 max-level:49
 flags:CAVERN | LAVA_RIVER
 floor:packed dirt:10
@@ -486,16 +496,6 @@ rule-symbols:D
 rule:30:0
 rule-symbols:d
 rule:10:1
-
-#49 (boss: Trone, the Rebel Thunderlord)
-name:The Sacred Land Of Mountains
-wpos:2:2
-min-depth:62
-max-depth:72
-max-level:49
-floor:grass:10
-wall:mountain:10
-rule:100:1
 
 #49 (boss: The Necromancer of Dol Guldur)
 name:Dol Guldur
