@@ -8316,19 +8316,18 @@ desc:A strange creature that disguises itself as an object to lure unsuspecting
 desc: adventurers within reach of its venomous claws.
 
 #hill troll in pre-4.x
-name:rock troll
+name:troll bishop
 base:troll
 color:s
 speed:100
 hit-points:250
 hearing:20
 smell:20
-#65
-armor-class:125
+armor-class:40
 sleepiness:40
 depth:21
 #1
-rarity:5
+rarity:9
 weight:400
 experience:75
 blow:HIT:HURT:1d5
@@ -8339,15 +8338,17 @@ flags:DROP_20 | WILD_WASTE | WILD_MOUNTAIN
 flags:DROP_SKELETON | DROP_CORPSE
 flags:HURT_FIRE | REGENERATE
 flags:HURT_LIGHT
-friends:100:4d4:Same
+spell-freq:8
+spells:HEAL
+spells:WOUND
 desc:A large troll with an extremely tough and warty hide.
+desc: He is touched by divine talent which is quire rare among it's kind.
 
 ### Dungeon level 22 ###
 
 #neekerbreeker
-#CHANGE BASE
-name:swamp crab
-base:insect
+name:crab frog
+base:hybrid
 color:U
 speed:120
 hit-points:55
@@ -8362,7 +8363,7 @@ blow:BITE:POISON:2d2
 blow:CLAW:HURT:1d4
 blow:CLAW:HURT:1d4
 flags:WILD_SWAMP
-desc:Nasty tiny crab who lurks around extreamely fast.
+desc:Nasty tiny crab frog mutant which lurks around extreamely fast.
 
 name:Ugluk, the Uruk
 base:orc
@@ -9650,7 +9651,7 @@ name:hissing wraith
 base:wraith
 color:w
 #110
-speed:120
+speed:115
 #68
 hit-points:168
 hearing:20
@@ -9658,7 +9659,7 @@ armor-class:48
 sleepiness:10
 depth:26
 #1
-rarity:10
+rarity:9
 weight:0
 #175
 experience:333
@@ -10106,7 +10107,7 @@ armor-class:120
 sleepiness:20
 depth:27
 #2
-rarity:10
+rarity:9
 weight:0
 experience:1100
 blow:HIT:HURT:3d8
@@ -11762,7 +11763,6 @@ flags:IM_POIS | IM_ACID
 flags:FORCE_SLEEP
 flags:WILD_WOOD
 spell-freq:8
-spell-power:31
 spells:BR_POIS | SHRIEK
 desc:A huge creature made covered in dusky pig iron scales.
 desc:It squeals!
@@ -12570,7 +12570,7 @@ hearing:20
 armor-class:56
 sleepiness:15
 depth:34
-rarity:4
+rarity:6
 weight:0
 experience:350
 blow:WAIL:TERRIFY
@@ -12943,7 +12943,7 @@ desc: mercy for those in his way.
 name:acid worm
 base:worm
 color:p
-speed:100
+speed:105
 hit-points:200
 hearing:15
 armor-class:105
@@ -13210,8 +13210,7 @@ hearing:20
 armor-class:66
 sleepiness:10
 depth:35
-#2
-rarity:10
+rarity:9
 weight:0
 experience:1000
 blow:HIT:HURT:6d6
@@ -13219,11 +13218,12 @@ blow:HIT:HURT:6d6
 blow:HIT:LOSE_STR:3d4
 flags:DROP_2 | ONLY_ITEM
 flags:RAND_25 | TAKE_ITEM
-flags:FORCE_SLEEP
-spell-freq:15
-spell-power:35
+flags:FORCE_SLEEP | PASS_WALL
+spell-freq:9
+#low sp
+spell-power:20
 spells:CONF | HOLD
-spells:BO_NETH
+spells:S_UNDEAD
 desc: Tormented by bloody chains, it's doomed to wander the earth forever.
 
 name:mumak
@@ -13785,92 +13785,53 @@ flags:IM_COLD | IM_ELEC | IM_FIRE
 desc:A huge creature of the element Earth. Able to merge with its element, it
 desc: has four huge arms protruding from its enormous torso.
 
-#old name:shadow
-name:bogey
-base:ghost
-color:D
-speed:120
-#105
-hit-points:305
-light:-2
-hearing:30
-armor-class:36
-sleepiness:20
-depth:36
-#3
-rarity:10
-weight:0
-experience:700
-blow:TOUCH:EXP_80
-blow:TOUCH:EXP_40
-blow:CLAW:LOSE_INT:1d10
-blow:CLAW:LOSE_WIS:1d10
-flags:DROP_1 | ONLY_ITEM
-flags:FORCE_SLEEP
-spell-freq:8
-spell-power:36
-spells:SLOW | TELE_TO
-spells:BO_NETH
-desc:A mighty spirit of darkness of vaguely humanoid form. Razor-edged claws
-desc: reach out to end your life as it glides towards you, seeking to suck the
-desc: energy from your soul to feed its power.
-
-#old name:phantom
 name:babay
 base:ghost
 color:P
-#120
-speed:130
-hit-points:260
+speed:120
+hit-points:150
 light:-2
 hearing:30
 armor-class:36
 sleepiness:20
 depth:36
-#3
-rarity:10
+rarity:5
 weight:0
 experience:700
-blow:TOUCH:EXP_80
 blow:TOUCH:EXP_40
+blow:TOUCH:HURT:2d6
 blow:CLAW:LOSE_INT:1d10
-blow:CLAW:LOSE_WIS:1d10
+blow:CLAW:LOSE_INT:1d10
 flags:DROP_1 | ONLY_ITEM
 flags:FORCE_SLEEP
 spell-freq:5
-spell-power:36
-spells:FORGET
+spells:SCARE | FORGET | BO_NETH
 desc:An unholy creature of darkness, the aura emanating from this evil being
 desc: saps your very soul.
 
-#old name:grey wraith
-name:barabashka
+name:babayka
 base:wraith
 color:s
-#110
-speed:120
-#167
-hit-points:320
+speed:110
+hit-points:250
 light:-2
 hearing:20
 armor-class:60
 sleepiness:10
 depth:36
-#1
-rarity:10
+rarity:5
 weight:0
 experience:900
-blow:HIT:HURT:1d10
-blow:HIT:HURT:1d10
+blow:CLAW:LOSE_WIS:1d10
+blow:CLAW:LOSE_WIS:1d10
 blow:TOUCH:EXP_40
 flags:DROP_40 | DROP_60
 flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP
 spell-freq:7
-spell-power:36
-spells:WOUND | DARKNESS | HOLD | SCARE
-desc:A tangible but ghostly form, made of grey fog. The air around it feels
-desc: deathly cold.
+spells:WOUND | DARKNESS | HOLD | SLOW | TELE_TO
+desc:A spirit of darkness glides towards you, seeking to suck the energy
+desc: from your soul to feed its power.
 
 name:colossus
 plural:colossi
@@ -15188,7 +15149,7 @@ speed:120
 hit-points:420
 hearing:20
 armor-class:66
-sleepiness:10
+sleepiness:80
 depth:39
 rarity:2
 weight:0
@@ -15201,7 +15162,6 @@ flags:DROP_3 | ONLY_ITEM
 flags:PASS_WALL
 flags:FORCE_SLEEP
 spell-freq:6
-spell-power:39
 spells:SHRIEK | MIND_BLAST | SCARE
 desc:Do you fear me? I know, you are. I will come for you while you asleep.
 
@@ -15364,7 +15324,7 @@ spells:BLINK | TELE_TO | SLOW
 desc:A very strong near-sentient tree, which has become hostile to other living
 desc: things.
 
-#old storm giant
+#old storm giant / ADD NEW TILE !
 name:sand giant
 base:giant
 color:B
@@ -16368,14 +16328,14 @@ color:g
 #110
 speed:115
 #457
-hit-points:777
+hit-points:666
 hearing:20
 #60
-armor-class:77
+armor-class:44
 sleepiness:70
 depth:41
 #3
-rarity:5
+rarity:6
 weight:0
 #2.5
 experience:3000
@@ -18784,7 +18744,7 @@ name:Doppleganger
 base:person
 color:w
 speed:120
-hit-points:2000
+hit-points:1500
 light:2
 hearing:30
 armor-class:96
@@ -18799,7 +18759,7 @@ blow:HIT:HURT:4d6
 blow:HIT:HURT:6d5
 flags:MALE
 flags:DROP_2
-spell-freq:5
+spell-freq:9
 innate-freq:33
 spells:SHAPECHANGE
 shape:ranger chieftain
@@ -18970,55 +18930,6 @@ desc:A sluggish demon of lizard form, firing powerful missiles. From the
 desc: terribly oversized jaws to the stumpy lashing tail, pools of burning
 desc: acid froth and sizzle.
 
-name:great chaos drake
-base:ancient dragon
-color:v
-speed:120
-hit-points:1950
-hearing:20
-armor-class:120
-sleepiness:80
-depth:53
-rarity:2
-weight:17000
-experience:9000
-blow:CLAW:HURT:6d9
-blow:CLAW:HURT:6d9
-blow:BITE:HURT:7d10
-flags:DROP_CORPSE
-flags:OPEN_DOOR | BASH_DOOR
-flags:IM_FIRE | IM_DISEN
-flags:ATTR_MULTI
-spell-freq:6
-innate-freq:25
-spells:BLIND | CONF | SCARE
-spells:BR_CHAO | BR_DISE
-desc:A huge draconic form. Its scales are shimmering many colours.
-
-name:great law drake
-base:ancient dragon
-color:B
-speed:120
-hit-points:1950
-hearing:20
-armor-class:120
-sleepiness:80
-depth:53
-rarity:2
-weight:17000
-experience:9000
-blow:CLAW:HURT:6d9
-blow:CLAW:HURT:6d9
-blow:BITE:HURT:7d10
-flags:DROP_CORPSE
-flags:OPEN_DOOR | BASH_DOOR
-flags:IM_COLD | NO_STUN | NO_CUT
-spell-freq:6
-innate-freq:25
-spells:BLIND | CONF | SCARE
-spells:BR_SHAR | BR_SOUN
-desc:A huge draconic form. Its scales are shimmering blue.
-
 name:chaos vortex
 plural:chaos vortices
 base:vortex
@@ -19077,7 +18988,7 @@ name:inquisitor
 base:person
 color:v
 speed:120
-hit-points:1500
+hit-points:999
 hearing:50
 armor-class:100
 sleepiness:0
@@ -19806,14 +19717,14 @@ desc: all that defy him.
 name:black hand
 base:skeleton
 color:r
-speed:130
+speed:125
 hit-points:880
 hearing:20
 armor-class:108
 sleepiness:10
 depth:58
 #2
-rarity:6
+rarity:7
 weight:0
 experience:15000
 flags:SMART | ATTR_FLICKER | SPIRIT
@@ -19903,7 +19814,7 @@ hearing:20
 armor-class:144
 sleepiness:10
 depth:59
-rarity:2
+rarity:5
 weight:0
 experience:18000
 flags:SMART | ATTR_FLICKER | SPIRIT

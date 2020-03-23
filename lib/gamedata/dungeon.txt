@@ -542,6 +542,25 @@ wall:lava:10
 rule:100:0
 rule-flags:IM_FIRE
 
+# 35 (boss: Ulfang the Black)
+name:Valinor?
+wpos:0:-2
+min-depth:27
+max-depth:34
+max-level:35
+flags:NO_DOORS
+floor:light grass:33
+floor:light grass plants:34
+floor:light grass flowers:33
+wall:tree 1:33
+wall:tree d birch:33
+wall:tree e linden:34
+rule:30:0
+rule-symbols:ph
+rule:30:0
+rule-flags:ANIMAL
+rule:40:1
+
 #X (boss: Xakaze, Father of Abominations)
 name:The Nether Realm
 wpos:0:5
