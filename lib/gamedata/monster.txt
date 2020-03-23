@@ -6588,6 +6588,32 @@ desc: everybody in the water is in danger!
 
 ### Dungeon level 17 ###
 
+name:orc necromancer
+base:person
+color:R
+speed:110
+hit-points:146
+light:2
+hearing:20
+armor-class:40
+sleepiness:20
+depth:17
+rarity:3
+weight:90
+experience:70
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+flags:MALE | EVIL | SMART
+flags:DROP_1 | ONLY_ITEM
+flags:OPEN_DOOR
+flags:FORCE_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON
+spell-freq:3
+spells:WOUND | SCARE
+spells:ANIM_DEAD
+friends-base:80:1d3:skeleton
+desc:A cruel orc skilled in nether magic.
+
 name:imp
 base:minor demon
 color:g
@@ -10265,6 +10291,34 @@ desc:Off breed of the Sandworm Queen, they are harmless alone...
 
 ### Dungeon level 28 ###
 
+name:flying carpet
+base:hydrid
+color:r
+speed:120
+hit-points:250
+light:2
+hearing:20
+armor-class:48
+sleepiness:10
+depth:28
+rarity:9
+weight:150
+experience:150
+blow:ENGULF:HURT:1d10
+blow:ENGULF:HURT:1d10
+blow:ENGULF:HURT:1d10
+blow:ENGULF:HURT:1d10
+flags:SMART | LEVITATE | CAUTIOUS
+flags:FORCE_SLEEP
+spell-freq:3
+innate-freq:70
+spells:WHIP | BLINK | TELE_TO
+desc:Beautifully colored carpet soaring in the air. You don't see it's eyes,
+desc: but you are sure that it looks at you narrowly.
+desc: "Everything is calm in Baghdad.." - such words appeared in your head.
+desc: You do not anderstand from where - it seems this carpet posses
+desc: telepathic powers.
+
 name:frost giant
 base:giant
 color:w
@@ -13934,41 +13988,6 @@ friends-base:80:1d3:skeleton
 desc:A necromancer recruited to the evil realm of Angmar during the decline of
 desc: the North Kingdom.
 
-#old
-name:necromancer
-base:person
-color:R
-#110
-speed:120
-#246
-hit-points:546
-light:2
-hearing:20
-armor-class:75
-sleepiness:20
-depth:36
-#2
-rarity:10
-weight:160
-experience:1130
-blow:HIT:HURT:2d6
-blow:HIT:HURT:2d6
-flags:MALE | EVIL | SMART
-flags:DROP_1 | ONLY_ITEM
-flags:OPEN_DOOR
-flags:FORCE_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
-spell-freq:3
-spell-power:36
-spells:BLIND | WOUND | HASTE | HOLD | SCARE | TELE_TO
-spells:TPORT
-spells:BO_NETH
-spells:S_UNDEAD
-spells:ANIM_DEAD
-drop-base:shadow book:8:1:1
-friends-base:80:1d3:skeleton
-desc:A gaunt figure, clothed in black robes.
-
 name:Mutant mage
 base:person
 color:P
@@ -14305,6 +14324,34 @@ desc:Your mind is filled with admiration as you view this wondrous,
 desc: magical seahorse.
 
 ### Dungeon level 37 ###
+
+name:witcher
+base:person
+color:y
+speed:115
+hit-points:250
+light:2
+hearing:20
+armor-class:50
+sleepiness:10
+depth:37
+rarity:5
+weight:160
+experience:800
+blow:HIT:HURT:3d4
+blow:HIT:HURT:3d4
+blow:HIT:HURT:3d4
+blow:HIT:HURT:3d4
+flags:MALE | COLD_BLOOD | SMART
+flags:DROP_1
+flags:OPEN_DOOR
+flags:NO_CONF | NO_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON
+spell-power:10
+spell-freq:5
+spells:BR_GRAV | TELE_TO
+desc:Warrior who uses "signs" to kill weird monsters. 
+desc: Why is he consireding you as one of them?
 
 name:ice elemental
 base:elemental
@@ -19509,6 +19556,34 @@ desc: hells, capable of a terrifying berserk fury.
 
 ### Dungeon level 56 ###
 
+name:glaz
+base:eye
+color:r
+speed:130
+hit-points:2000
+hearing:30
+armor-class:96
+sleepiness:10
+depth:56
+rarity:4
+weight:0
+experience:10000
+blow:GAZE:EXP_20:6d6
+blow:GAZE:DRAIN_CHARGES:6d6
+blow:GAZE:FORGET:6d6
+blow:GAZE:PARALYZE:6d6
+flags:EVIL | SPIRIT
+flags:BASH_DOOR
+flags:NO_CONF | NO_SLEEP
+flags:FORCE_SLEEP
+flags:DROP_CORPSE
+spell-freq:3
+spells:SPIT
+spells:BLIND | DARKNESS | MIND_BLAST | SLOW
+spells:S_MONSTERS
+desc:A weird bloodshot disembodied eye, floating a few feet above the ground.
+desc:It blinks slowly and menacily.
+
 name:lesser titan
 base:giant
 color:y
@@ -19889,7 +19964,6 @@ flags:REGENERATE | ANIMAL
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
 flags:IM_DISE | IM_ACID
 spell-freq:3
-spell-power:44
 spells:TELE_TO | DRAIN_MANA
 spells:WOUND | DARKNESS| BO_MANA | BR_DARK
 desc:Thouse say that once per 100 years black unicorn appears..
@@ -22218,6 +22292,37 @@ desc: all of a sudden.
 
 ### Dungeon level 75 ###
 
+name:Likho
+base:hybrid
+color:P
+speed:120
+hit-points:4444
+light:2
+hearing:20
+armor-class:168
+sleepiness:100
+depth:75
+rarity:7
+weight:9000
+experience:20000
+blow:TOUCH:PARALYZE:10d5
+blow:TOUCH:BLIND:10d5
+blow:TOUCH:CONFUSE:10d5
+blow:TOUCH:EXP_10:10d5
+flags:SMART | REGENERATE
+flags:DROP_4
+flags:KILL_BODY
+flags:IM_FIRE | IM_POIS | IM_ACID | NO_CONF | NO_SLEEP | NO_HOLD
+flags-off:HURT_COLD
+spell-freq:3
+spells:TELE_TO
+spells:S_HI_DRAGON | S_HI_UNDEAD
+spells:S_HYDRA | S_MONSTERS
+desc:Strange black mass-like creature with turquoise bubble on it (is it eyes?).. 
+desc: It seems it's sleeping. At least this awful sound seems to be snoring
+desc: and walls tremble because of it.
+desc: Maybe it's good idea to do not wake trouble while it's still..
+
 name:Great Wyrm of Chaos
 plural:Great Wyrms of Chaos
 base:ancient dragon
@@ -22496,7 +22601,7 @@ name:The Unicorn of Order
 base:quadruped
 color:v
 speed:130
-hit-points:7777
+hit-points:5777
 hearing:20
 smell:20
 armor-class:120
@@ -22514,7 +22619,6 @@ flags:REGENERATE | ANIMAL
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
 flags:IM_DISE | IM_ACID
 spell-freq:4
-spell-power:44
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY | BR_LIGHT | BR_MANA
 spells:S_AINU
 desc:There is always a certain disbalance in the world. When it come to the
@@ -22855,7 +22959,7 @@ desc: never to die by the hand of mortal man.
 
 ### Dungeon level 81 ###
 
-name:oblivion knight
+name:oprichnik
 base:person
 color:D
 speed:130
@@ -23075,7 +23179,7 @@ desc: underworld. Flee his wrath!
 
 ### Dungeon level 85 ###
 
-name:glaz
+name:kolobok
 base:eye
 color:o
 speed:130
@@ -23084,21 +23188,21 @@ hearing:2
 armor-class:166
 sleepiness:10
 depth:85
-rarity:8
+rarity:6
 weight:0
-experience:15000
+experience:10000
 blow:GAZE:HURT:10d10
-blow:GAZE:HURT:10d10
-blow:GAZE:DRAIN_CHARGES
-blow:GAZE:DRAIN_CHARGES
+blow:TOUCH:EAT_FOOD:10d10
+blow:TOUCH:FAMINE:10d10
+blow:BITE:POISON:10d10
 flags:NEVER_MOVE
 flags:IM_ELEC | IM_FIRE | IM_POIS | IM_PLASMA
 flags:HURT_LIGHT | NO_FEAR
 flags:DROP_CORPSE
 spell-freq:3
-spells:HEAL | BLINK | S_HI_DEMON
-desc:A weird bloodshot disembodied eye, floating a few feet above the ground.
-desc:It blinks.
+spells:BLINK | TPORT | TELE_AWAY | TELE_TO
+spells:BRAIN_SMASH | MIND_BLAST | S_MONSTERS
+desc:Deliccciouusss...
 
 #v
 name:greater Balrog
@@ -24081,6 +24185,34 @@ desc:The mightiest of all dragon kind, an Ancient Wyrm of Power is seldom
 desc: encountered in our world. It can crush stars with its might.
 
 ### Dungeon level 98 ###
+
+#unicorn
+name:Konyok-Gorbunok
+base:quadruped
+color:w
+speed:130
+hit-points:7000
+hearing:20
+smell:20
+armor-class:100
+sleepiness:40
+depth:98
+rarity:4
+weight:0
+experience:50000
+blow:KICK:SHATTER:11d11
+blow:BITE:HURT:11d11
+blow:TOUCH:DISENCHANT:11d11
+flags:UNIQUE | SMART
+flags:REGENERATE | ANIMAL
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
+flags:IM_DISE | IM_ACID
+spell-freq:3
+innate-freq:50
+spells:BR_GRAV | BR_TIME
+spells:BLINK | HEAL | WOUND | BLIND | MISSILE
+spells:S_MONSTERS
+desc:Tiny humpbacked horse with enormous magic powers.
 
 name:The Balrog of the Sammath Naur
 base:major demon
