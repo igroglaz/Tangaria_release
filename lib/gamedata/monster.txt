@@ -12440,7 +12440,7 @@ hearing:30
 armor-class:81
 sleepiness:255
 depth:34
-rarity:10
+rarity:9
 weight:0
 experience:1000
 blow:HIT:HURT:3d5
@@ -15582,7 +15582,6 @@ flags:OPEN_DOOR | MOVE_BODY
 flags:IM_WATER
 flags:DROP_CORPSE | DROP_SKELETON | WILD_SHORE | WILD_SWAMP
 spell-freq:4
-spell-power:40
 spells:HEAL | BR_WATE
 desc:A strange reptilian creature with smouldering heads.
 desc:They say that it could heal it's heads...
@@ -17457,7 +17456,7 @@ hearing:30
 armor-class:68
 sleepiness:255
 depth:45
-rarity:10
+rarity:9
 weight:0
 experience:5000
 blow:HIT:HURT:4d6
@@ -20329,7 +20328,7 @@ desc:Those who stood against him before are but a memory, cremated by his
 desc:mastery of elemental fire.
 
 #was v name:Arien, Maia of the Sun
-name:Iblis
+name:Svarog, Spirit of the Sun
 base:ainu
 color:R
 speed:130
@@ -20346,7 +20345,7 @@ blow:HIT:FIRE:4d12
 blow:HIT:FIRE:4d12
 blow:HIT:HURT:10d10
 blow:HIT:HURT:10d10
-flags:UNIQUE | FEMALE | SMART
+flags:UNIQUE | MALE | SMART
 flags:DROP_4 | DROP_GOOD
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_PLASMA
@@ -20358,8 +20357,8 @@ spells:BA_FIRE
 spells:BO_FIRE | BO_MANA | BO_PLAS
 spells:BR_FIRE | BR_PLAS
 friends:100:2d1:great fire elemental:servant
-desc:The jiniri who sails the Sun across the sky has descended into Angband to
-desc: kill you. She wears no mortal shell; her body is made of fiery golden
+desc:The one who sails the Sun across the sky has descended into Angband to
+desc: kill you. He wears no mortal shell; his body is made of fiery golden
 desc: light, painfully bright even when you close your eyes, and hot enough to
 desc: melt armor and flesh alike.
 
@@ -21772,7 +21771,7 @@ desc:He was a servant of Gods util he breaks his freedom
 desc:to find his destiny in mortal world.
 
 #v name:Maia of Varda // female djinn
-name:Jiniri
+name:Jinni
 base:ainu
 color:y
 speed:130
@@ -22064,7 +22063,7 @@ desc: Horned Reaper will cut down anything in its path between it and you - even
 desc: the minions it has just summoned.
 
 #V name:Osse, Herald of Ulmo
-name:Neptune
+name:Poseidon
 base:ainu
 color:Z
 speed:130
@@ -22091,9 +22090,9 @@ spells:BA_WATE | STORM
 spells:BO_MANA | BO_WATE
 spells:BR_WATE | BR_DISE
 spells:S_AINU
-desc:Encrusted with barnacles, slimy and dripping, the Maia of the untamed
+desc:Encrusted with barnacles, slimy and dripping, the spirit of the untamed
 desc: sea has dragged himself down into Angband to send you to a watery grave.
-desc: Neptune is the most powerful and heartless of gods servants and embodies
+desc: Poseidon is the most powerful and heartless of gods servants and embodies
 desc: the untamed power of the ocean. Terror grows in your heart with each
 desc: squelching step of his approach.
 
@@ -22548,7 +22547,7 @@ spell-freq:4
 spells:BLINK | BOULDER | TELE_TO
 desc:A battle-hungry spirit from amongst the djins, who built a grim hall in
 desc: the early days of Arda to host endless battles. When not at home, he
-desc: and his sister Fatima hunt and seek out the turmoils caused by Enemy.
+desc: and his sister Gyulchatai hunt and seek out the turmoils caused by Enemy.
 
 #oldies, but goldies
 name:Atlas, the Titan
@@ -22945,6 +22944,35 @@ desc: never to die by the hand of mortal man.
 
 ### Dungeon level 81 ###
 
+name:oblivion knight
+base:person
+color:D
+speed:130
+hit-points:4500
+hearing:30
+armor-class:140
+sleepiness:10
+depth:81
+rarity:9
+weight:0
+experience:25000
+blow:HIT:HURT:13d5
+blow:HIT:HURT:13d5
+blow:HIT:EXP_80:13d5
+blow:HIT:EXP_80:13d5
+flags:COLD_BLOOD | EVIL | SMART
+flags:ONLY_ITEM | DROP_2
+flags:OPEN_DOOR
+flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
+flags:FORCE_SLEEP | IM_ACID
+spell-freq:5
+spells:BLIND | WOUND | SCARE | WHIP
+spells:BA_FIRE | BO_NETH
+spells:BO_PLAS
+spells:S_MONSTERS | S_DEMON
+desc:Silent warriors from the depths of hell.
+desc: They will curse your soul into oblivion.
+
 name:Maeglin, the Traitor of Gondolin
 base:humanoid
 color:p
@@ -23158,7 +23186,7 @@ flags:HURT_LIGHT | NO_FEAR
 flags:DROP_CORPSE
 spell-freq:3
 spells:HEAL | BLINK | S_HI_DEMON
-desc:A huge bloodshot disembodied eye, floating a few feet above the ground.
+desc:A weird bloodshot disembodied eye, floating a few feet above the ground.
 desc:It blinks.
 
 #v
@@ -23325,7 +23353,7 @@ desc:The lord of the Titans, he has broken loose from his confinement in the
 desc: nether hells to seek revenge on the world.
 
 #v name:Measse, the Bloody / djinn-like
-name:Fatima, the Valkyrie
+name:Gyulchatai, the Jinni
 base:ainu
 color:r
 speed:120
@@ -23358,7 +23386,7 @@ friends:50:1d2:greater titan:servant
 friends:100:1d1:Khattabych, the Djinn
 desc:Sister of Khattabych, the Djinn, she would shout encouragement to the
 desc: warriors of their hall and heal their wounds so they could battle on,
-desc: until her arms were reddened to the elbow. Fatima is delighted by
+desc: until her arms were reddened to the elbow. She is delighted by
 desc: all violence, and recruits any beings of like abilities to her service.
 
 name:ancient storm wyrm
