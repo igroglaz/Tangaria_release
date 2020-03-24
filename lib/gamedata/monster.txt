@@ -590,6 +590,27 @@ force-location:Hunter's Valley
 
 ### Dungeon level 1 ###
 
+name:barrel
+base:hybrid
+color:y
+speed:10
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:0
+depth:0
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spell-power:1
+spells:S_ANIMAL | S_SPIDER | S_MONSTER
+desc:An old barrel. When you hit it, you hear hollow sound. Is it empty?
+
 #was huorn
 name:elki-palki
 base:tree
@@ -3936,6 +3957,27 @@ desc:A strange reptilian hybrid.
 ########## DUNGEON LEVELS 10-19 ##########
 
 ### Dungeon level 10 ###
+
+name:wooden crate
+base:hybrid
+color:y
+speed:10
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:0
+depth:10
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spell-power:10
+spells:S_ANIMAL | S_SPIDER | S_MONSTER
+desc:Crude wooden crate. Small beetle sits on it's lid.
 
 name:strange dry tree
 base:tree
@@ -8365,7 +8407,7 @@ flags:DROP_SKELETON | DROP_CORPSE
 flags:HURT_FIRE | REGENERATE
 flags:HURT_LIGHT
 spell-freq:8
-spells:HEAL
+spells:HEAL | HEAL_KIN
 spells:WOUND
 desc:A large troll with an extremely tough and warty hide.
 desc: He is touched by divine talent which is quire rare among it's kind.
@@ -9320,7 +9362,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:6
 spell-power:25
-spells:CONF | DARKNESS | HEAL
+spells:CONF | DARKNESS | HEAL_KIN
 spells:S_ANIMAL | S_MONSTER | S_SPIDER
 drop-base:nature book:8:1:1
 ################################################################################
@@ -15893,7 +15935,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:2
 spell-power:40
-spells:BLIND | WOUND | WOUND | HEAL | HOLD
+spells:BLIND | WOUND | WOUND | HEAL | HOLD | HEAL_KIN
 spells:S_MONSTER | S_UNDEAD
 spells:ANIM_DEAD
 drop-base:prayer book:10:1:1
@@ -20567,9 +20609,8 @@ desc: be the greatest dragon still surviving into the Third Age.
 
 ### Dungeon level 63 ###
 
-#v
-name:werewolf of Sauron
-plural:werewolves of Sauron
+#v name:werewolf of Sauron
+name:volkodlak
 base:canine
 color:G
 speed:120
@@ -20598,11 +20639,10 @@ friends:50:2d4:warg:servant
 friends:50:2d3:hellhound:servant
 friends:100:2d3:werewolf:servant
 desc:A massive wolf, appearing like a mighty shadow. Its glowing red eyes
-desc: glare malevolently as it defends its evil master's fortress.
+desc: glare malevolently.
 
-#v
-name:spider of Gorgoroth
-plural:spiders of Gorgoroth
+#v name:spider of Gorgoroth
+name:frogger
 base:spider
 color:P
 speed:120
@@ -20626,13 +20666,13 @@ flags:FORCE_SLEEP
 flags:DROP_SKELETON
 spell-freq:5
 innate-freq:30
-spells:BLIND | WOUND | CONF | HEAL | SCARE
+spells:BLIND | WOUND | CONF | HEAL_KIN | SCARE
 spells:SLOW | WEAVE
 spells:BR_DARK | BR_POIS
 spells:S_KIN
 friends:100:2d4:spider
-desc:One of the hideous brood of Ungoliant, spawned in the endless shadow of
-desc: Nan Dungortheb beneath the mountains of Ered Gorgoroth.
+desc:One of the hideous brood of chaos, spawned in the endless shadow of
+desc: spider's caverns of the Damnstruck mountains.
 
 name:great storm wyrm
 base:ancient dragon
@@ -24140,7 +24180,7 @@ flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 flags:NO_STUN
 spell-freq:2
-spells:HEAL | TELE_TO | BLINK | TPORT
+spells:HEAL | HEAL_KIN | TELE_TO | BLINK | TPORT
 spells:BO_MANA | BR_LIGHT
 #spells:S_ANGEL
 spells:S_AINU
@@ -24414,7 +24454,7 @@ desc: pulp!
 
 ########## DUNGEON LEVELS 101-127 ##########
 
-### Angband ###
+### Lukomorye ###
 
 name:death guard
 base:person
@@ -24444,6 +24484,36 @@ spells:BRAIN_SMASH | MIND_BLAST
 spells:BR_FIRE | BR_NETH
 desc:A corrupted soul who raids the world to destroy all that is living.
 
+name:viy
+base:wraith
+color:T
+speed:125
+hit-points:5000
+light:-3
+hearing:10
+armor-class:200
+sleepiness:40
+depth:103
+rarity:2
+weight:0
+experience:12500
+blow:GAZE:TIME:20d5
+blow:GAZE:TERRIFY:20d5
+blow:ENGULF:HURT:10d5
+blow:ENGULF:HURT:10d5
+flags:EVIL | LEVITATE
+flags:MOVE_BODY | OPEN_DOOR
+flags:IM_FIRE | IM_PLASMA | IM_NETHER | NO_CONF | NO_SLEEP | NO_FEAR | IM_COLD
+flags:IM_POIS | NO_STUN | NO_HOLD
+flags:FORCE_DEPTH
+spell-freq:3
+innate-freq:50
+spells:BRAIN_SMASH | MIND_BLAST | BLINK
+spells:BR_GRAV | BR_DARK |  WEAVE | S_HI_UNDEAD
+spells:ANIM_DEAD
+desc:Weirdest ugly creature of all, it's eyes hidden by huge excrescence filthy
+desc: lids..there is a rumourds that behind them is death sight.
+
 name:death ooze
 base:jelly
 color:R
@@ -24467,6 +24537,33 @@ flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS | NO_CONF | NO_SLEEP
 flags:FORCE_SLEEP | FORCE_DEPTH | NO_HOLD
 desc:It looks like a death mold from afar... but since when do death molds move?
 
+name:Zhar-ptitsa
+base:bird
+color:w
+speed:130
+hit-points:11000
+light:3
+hearing:200
+armor-class:200
+sleepiness:10
+depth:107
+rarity:5
+weight:0
+experience:25000
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+flags:PWMANG_EXTRA | REGENERATE | LEVITATE
+flags:BASH_DOOR | NEVER_BLOW | KILL_WALL
+flags:IM_FIRE | IM_COLD | IM_POIS | IM_PLASMA | IM_NETHER | IM_ACID
+flags:NO_STUN | IM_ELEC
+flags:FORCE_DEPTH
+spell-freq:3
+spells:BR_FIRE | BA_FIRE | BO_PLAS | BR_PLAS | BR_GRAV | BA_LIGHT
+desc:Terrifying firebird, it's deadly beautiful wings sparks everything around
+desc: into plasma. Air around burning and glowing with blazing light.
+
 name:death vortex
 plural:death vortices
 base:vortex
@@ -24477,7 +24574,8 @@ hearing:100
 armor-class:96
 sleepiness:0
 depth:110
-rarity:4
+#4
+rarity:3
 weight:0
 experience:15000
 blow:ENGULF:HURT:100d1
@@ -24491,6 +24589,40 @@ innate-freq:100
 spells:BR_WALL
 desc:A whirling maelstrom of destruction.
 
+name:valkyrie
+base:ainu
+color:D
+speed:140
+hit-points:6000
+hearing:60
+armor-class:140
+sleepiness:10
+depth:112
+rarity:3
+weight:0
+experience:15000
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+blow:HIT:HURT:10d10
+flags:PWMANG_EXTRA | SMART | REGENERATE | POWERFUL | COLD_BLOOD | LEVITATE
+flags:ONLY_ITEM | DROP_2
+flags:MOVE_BODY | KILL_WALL | BASH_DOOR
+flags:IM_WATER | IM_PLASMA | IM_NEXUS | IM_FIRE | IM_POIS | IM_ACID
+flags:IM_NETHER | NO_STUN | IM_COLD
+flags:FORCE_DEPTH
+spell-freq:5
+spells:HEAL | TELE_TO
+spells:BA_NETH | BO_MANA
+desc:'Tis wet with blood;
+desc: Now fight foreboding,
+desc: 'Neath friends' swift fingers,
+desc: Our grey woof waxeth
+desc: With war's alarms,
+desc: Our warp bloodred,
+desc: Our weft corseblue.
+desc: Let us weave with our swords this web of victory!
+
 name:death wing
 base:golem
 color:w
@@ -24500,7 +24632,8 @@ hearing:200
 armor-class:450
 sleepiness:0
 depth:115
-rarity:6
+#6
+rarity:7
 weight:0
 experience:25000
 flags:PWMANG_EXTRA | REGENERATE | ANTI_MAGIC | LEVITATE
@@ -24517,12 +24650,13 @@ name:death golem
 base:golem
 color:v
 speed:140
-hit-points:13200
+#hit-points:13200
+hit-points:7000
 hearing:250
 armor-class:255
 sleepiness:0
 depth:120
-rarity:3
+rarity:9
 weight:0
 experience:50000
 blow:HIT:HURT:20d8
@@ -24541,7 +24675,36 @@ spells:BA_NETH
 desc:This berserk construct made of black ore has only one purpose: destroying
 desc: everything it sees.
 
-name:Tik'srvzllat
+name:tik'srvzllat
+base:ghost
+color:p
+speed:130
+hit-points:3000
+hearing:20
+armor-class:170
+sleepiness:10
+depth:122
+rarity:6
+weight:0
+experience:25000
+blow:GAZE:DISENCHANT:7d7
+blow:GAZE:TIME:7d7
+blow:GAZE:FORGET:7d7
+blow:GAZE:FORGET:7d7
+flags:PWMANG_EXTRA | WEIRD_MIND
+flags:IM_PLASMA | IM_NEXUS | NO_SLOW
+flags:FORCE_DEPTH
+spell-freq:3
+innate-freq:60
+spells:BR_NEXU | BR_GRAV | BR_PLAS | BR_WALL | BO_PLAS | BO_ICE | BO_MANA
+desc:A disembodied and barely sentient mind, tik'srvzllat floated through the
+desc: Void for eons before being awakened by sorcery and shaped into the being
+desc: you see before you. A flickering purple outline of a sphere, with eerie
+desc: yellow-purple mist circling rapidly around it, tik'srvzllat threatens
+desc: your sanity with its appearance alone.
+
+#name:Tik'srvzllat
+name:Merlin the Magician
 base:ghost
 color:v
 speed:142
@@ -24553,10 +24716,10 @@ depth:124
 rarity:1
 weight:0
 experience:70000
-blow:GAZE:DISENCHANT:10d10
-blow:GAZE:TIME:10d10
+blow:TOUCH:DISENCHANT:10d10
+blow:HIT:TIME:10d10
 blow:GAZE:FORGET:10d10
-blow:GAZE:FORGET:10d5
+blow:CRUSH:TERRIFY:10d5
 flags:POWERFUL | UNIQUE | WEIRD_MIND
 flags:PWMANG_BASE | PWMANG_FIXED
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
@@ -24568,12 +24731,8 @@ spells:BA_MANA | BA_NETH
 spells:BR_DISE
 spells:S_DEMON | S_DRAGON | S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_KIN
 spells:S_UNDEAD | S_UNIQUE
-desc:A disembodied and barely sentient mind, Tik'srvzllat floated through the
-desc: Void for eons before being awakened by sorcery and shaped into the being
-desc: you see before you. A flickering purple outline of a sphere, with eerie
-desc: yellow-purple mist circling rapidly around it, Tik'srvzllat threatens
-desc: your sanity with its appearance alone.
-force-location:Angband
+desc:Greatest mortal wizard of all times. He is looking for a meeting with you.
+force-location:Lukomorye
 
 ### The Nether Realm ###
 

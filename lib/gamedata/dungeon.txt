@@ -41,10 +41,10 @@
 # the dungeon... and at endgame 50+: lvl of monsters (1-127) who lives there
 #
 
-#80 Main Angband dungeon
+#75 Main Angband dungeon
 name:Angband
 wpos:1:-4
-min-depth:70
+min-depth:75
 max-depth:100
 rule:100:1
 
@@ -542,28 +542,23 @@ wall:lava:10
 rule:100:0
 rule-flags:IM_FIRE
 
-# 35 (boss: Ulfang the Black)
-name:Valinor?
-wpos:0:-2
-min-depth:27
-max-depth:34
-max-level:35
-flags:NO_DOORS
-floor:light grass:33
-floor:light grass plants:34
-floor:light grass flowers:33
-wall:tree 1:33
-wall:tree d birch:33
-wall:tree e linden:34
-rule:30:0
-rule-symbols:ph
-rule:30:0
-rule-flags:ANIMAL
-rule:40:1
+#X (boss: Merlin the Magician)
+name:Lukomorye
+wpos:0:2
+min-depth:101
+max-depth:124
+flags:WINNERS_ONLY
+floor:floor 0 grass:33
+floor:floor 1 grass:34
+floor:floor w grass:33
+wall:nether mist:1
+wall:dark wall:2
+wall:web:4
+rule:100:1
 
-#X (boss: Xakaze, Father of Abominations)
+#XX (boss: Xakaze, Father of Abominations)
 name:The Nether Realm
-wpos:0:5
+wpos:0:-5
 min-depth:101
 max-depth:126
 flags:EMPTY | LAVA_RIVER | WINNERS_ONLY
@@ -576,9 +571,9 @@ rule-flags:IM_NETHER
 rule-symbols:GWU
 rule:5:1
 
-# (boss: Melkor, Lord of Darkness)
+#XXX (boss: Melkor, Lord of Darkness)
 name:Utumno, Portal to the Void
-wpos:0:-5
+wpos:3:0
 min-depth:102
 max-depth:127
 flags:EMPTY | WINNERS_ONLY
