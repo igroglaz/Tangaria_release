@@ -556,9 +556,9 @@ wall:dark wall:2
 wall:web:4
 rule:100:1
 
-#XX (boss: Xakaze, Father of Abominations)
+#XX (boss: Lucifer)
 name:The Nether Realm
-wpos:0:-5
+wpos:0:5
 min-depth:101
 max-depth:126
 flags:EMPTY | LAVA_RIVER | WINNERS_ONLY
@@ -573,7 +573,7 @@ rule:5:1
 
 #XXX (boss: Melkor, Lord of Darkness)
 name:Utumno, Portal to the Void
-wpos:3:0
+wpos:0:-5
 min-depth:102
 max-depth:127
 flags:EMPTY | WINNERS_ONLY

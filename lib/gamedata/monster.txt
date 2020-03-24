@@ -590,25 +590,24 @@ force-location:Hunter's Valley
 
 ### Dungeon level 1 ###
 
-name:barrel
+name:wooden barrel
 base:hybrid
 color:y
 speed:10
 hit-points:1
 hearing:1
 armor-class:0
-sleepiness:0
-depth:0
+sleepiness:150
+depth:1
 rarity:1
 weight:0
 experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40 | ONLY_GOLD
 spell-freq:100
-spell-power:1
-spells:S_ANIMAL | S_SPIDER | S_MONSTER
+spells:S_ANIMAL | S_SPIDER | S_MONSTER | S_ANT
 desc:An old barrel. When you hit it, you hear hollow sound. Is it empty?
 
 #was huorn
@@ -2343,6 +2342,26 @@ desc:A fish with a swordlike "beak".
 
 ### Dungeon level 5 ###
 
+name:wooden crate
+base:hybrid
+color:y
+speed:10
+hit-points:5
+hearing:1
+armor-class:0
+sleepiness:100
+depth:5
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spells:S_ANIMAL | S_SPIDER | S_MONSTER | S_ANT
+desc:Crude wooden crate. Small beetle sits on it's lid.
+
 name:Baba Yaga
 base:humanoid
 color:U
@@ -3958,14 +3977,14 @@ desc:A strange reptilian hybrid.
 
 ### Dungeon level 10 ###
 
-name:wooden crate
+name:abandoned cook pot
 base:hybrid
 color:y
-speed:10
+speed:20
 hit-points:1
 hearing:1
 armor-class:0
-sleepiness:0
+sleepiness:90
 depth:10
 rarity:1
 weight:0
@@ -3973,11 +3992,11 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
-spell-freq:100
-spell-power:10
-spells:S_ANIMAL | S_SPIDER | S_MONSTER
-desc:Crude wooden crate. Small beetle sits on it's lid.
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_60
+spell-freq:80
+spells:S_MONSTER
+desc:Some one made a meal there.. It's sad but pot is empty.
+desc: But it seems that it's owners could be nearby...
 
 name:strange dry tree
 base:tree
@@ -5820,6 +5839,26 @@ desc: scales shimmering red.
 
 ### Dungeon level 15 ###
 
+name:dusty statue
+base:hybrid
+color:y
+speed:30
+hit-points:75
+hearing:1
+armor-class:0
+sleepiness:80
+depth:15
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spells:S_UNDEAD | SHRIEK | DARKNESS | SCARE
+desc:Just a regular old statue covered in dust. Oh! Wait! Did it just move?
+
 name:Shtukensia the Rogue
 base:person
 color:b
@@ -7431,6 +7470,31 @@ desc: things.
 ########## DUNGEON LEVELS 20-29 ##########
 
 ### Dungeon level 20 ###
+
+name:ancient obelisk
+base:hybrid
+color:y
+speed:40
+hit-points:150
+hearing:1
+armor-class:0
+sleepiness:100
+depth:20
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spells:S_ANIMAL | S_SPIDER
+spells:ANIM_DEAD | TRAPS | DARKNESS | HEAL_KIN | HEAL | SLOW
+spells:TELE_AWAY | TELE_LEVEL | SHRIEK
+spells:CONF | SLOW | BLIND | SCARE
+spells:BO_ELEC | BO_WATE | BR_ELEC | BR_GRAV | BR_DARK | BOULDER
+desc:It seems this obelisk stay still for centuries. 
+desc: But silence surrounding it presence makes you uneasy.
 
 name:blood falcon
 base:bird
@@ -9234,6 +9298,31 @@ spells:BR_POIS
 desc:This fish is among the most poisonous creatures there are.
 
 ### Dungeon level 25 ###
+
+name:statue of ancient god
+base:hybrid
+color:y
+speed:50
+hit-points:300
+hearing:1
+armor-class:0
+sleepiness:100
+depth:25
+rarity:1
+weight:0
+experience:0
+flags:NEVER_BLOW
+flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
+flags:COLD_BLOOD
+flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+spell-freq:100
+spells:S_MONSTER | ANIM_DEAD | TRAPS | DARKNESS | HEAL_KIN | HEAL | SLOW
+spells:TELE_AWAY | TELE_LEVEL | SHRIEK
+spells:CONF | SLOW | BLIND | SCARE
+spells:BO_ELEC | BO_WATE | BR_ELEC | BR_GRAV | BR_DARK | BOULDER
+desc:No one remember His name, but long time ago He had so much power
+desc: that entire nations worshipped Him and made this statues everywhere.
+desc: Now he is forgotten, but it doesn't mean that He is powerless. 
 
 name:flamme
 base:minor demon
@@ -25743,6 +25832,7 @@ desc: madness, which makes him even more dangerous. You are on the verge
 desc: of dying!
 force-location:Utumno, Portal to the Void
 
+### Valinor ###
 
 
 
