@@ -27,7 +27,7 @@ max-townies:100
 ############################### 0
 
 name:Endless Sea
-#The Nether Realm
+# Lukomorye
 short:0_5
 wpos:0:5
 max-townies:20
@@ -167,6 +167,13 @@ short:-2_-1
 wpos:-2:-1
 max-townies:3
 
+
+name:Valinor
+###########
+short:-5_0
+wpos:-5:0
+max-townies:5
+
 ############################### 1
 
 name:Iron Mountains
@@ -248,6 +255,9 @@ name:Low Mountans
 short:2_0
 wpos:2:0
 max-townies:20
+
+###
+
 
 # Bree
 #name:Bree

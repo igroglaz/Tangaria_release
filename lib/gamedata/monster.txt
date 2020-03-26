@@ -607,7 +607,7 @@ flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
 flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40 | ONLY_GOLD
 spell-freq:100
-spells:S_ANIMAL | S_SPIDER | S_MONSTER | S_ANT
+spells:S_ANIMAL | S_SPIDER | S_MONSTER
 desc:An old barrel. When you hit it, you hear hollow sound. Is it empty?
 
 #was huorn
@@ -2359,7 +2359,7 @@ flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
 flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
 spell-freq:100
-spells:S_ANIMAL | S_SPIDER | S_MONSTER | S_ANT
+spells:S_ANIMAL | S_SPIDER | S_MONSTER
 desc:Crude wooden crate. Small beetle sits on it's lid.
 
 name:Baba Yaga
@@ -10423,7 +10423,7 @@ desc:Off breed of the Sandworm Queen, they are harmless alone...
 ### Dungeon level 28 ###
 
 name:flying carpet
-base:hydrid
+base:hybrid
 color:r
 speed:120
 hit-points:250
@@ -10439,7 +10439,7 @@ blow:ENGULF:HURT:1d10
 blow:ENGULF:HURT:1d10
 blow:ENGULF:HURT:1d10
 blow:ENGULF:HURT:1d10
-flags:SMART | LEVITATE | CAUTIOUS
+flags:SMART | FRIGHTENED | LEVITATE
 flags:FORCE_SLEEP
 spell-freq:3
 innate-freq:70
@@ -17263,10 +17263,10 @@ blow:KICK:HURT:4d4
 blow:BITE:HURT:4d4
 blow:TOUCH:LOSE_ALL:4d4
 blow:TOUCH:DRAIN_CHARGES
-flags:CAUTIOUS | SMART
+flags:FRIGHTENED | SMART
 flags:REGENERATE | ANIMAL
-flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
-flags:IM_DISE | IM_ACID
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD
+flags:IM_ACID | IM_ELEC
 spell-freq:4
 spell-power:44
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY
@@ -20090,10 +20090,10 @@ blow:KICK:HALLU:7d8
 blow:BITE:HURT:7d8
 blow:TOUCH:LOSE_ALL:7d8
 blow:TOUCH:DRAIN_CHARGES:7d8
-flags:CAUTIOUS | SMART
+flags:SMART
 flags:REGENERATE | ANIMAL
-flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
-flags:IM_DISE | IM_ACID
+flags:NO_CONF | NO_SLEEP | NO_FEAR
+flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS
 spell-freq:3
 spells:TELE_TO | DRAIN_MANA
 spells:WOUND | DARKNESS| BO_MANA | BR_DARK
@@ -22743,10 +22743,10 @@ blow:KICK:HURT:7d11
 blow:BITE:EXP_80:7d11
 blow:TOUCH:LOSE_ALL:7d11
 blow:TOUCH:DRAIN_CHARGES:7d11
-flags:UNIQUE | CAUTIOUS | SMART
+flags:UNIQUE | FRIGHTENED | SMART
 flags:REGENERATE | ANIMAL
-flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
-flags:IM_DISE | IM_ACID
+flags:NO_CONF | NO_SLEEP | NO_FEAR
+flags:IM_FIRE | IM_COLD | IM_ELEC | IM_ACID | IM_POIS
 spell-freq:4
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY | BR_LIGHT | BR_MANA
 spells:S_AINU
@@ -24335,7 +24335,7 @@ blow:TOUCH:DISENCHANT:11d11
 flags:UNIQUE | SMART
 flags:REGENERATE | ANIMAL
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
-flags:IM_DISE | IM_ACID
+flags:IM_ACID
 spell-freq:3
 innate-freq:50
 spells:BR_GRAV | BR_TIME
@@ -24793,7 +24793,7 @@ desc: yellow-purple mist circling rapidly around it, tik'srvzllat threatens
 desc: your sanity with its appearance alone.
 
 #name:Tik'srvzllat
-name:Merlin the Magician
+name:Tulkas, Champion of the Valar
 base:ghost
 color:v
 speed:142
@@ -24820,10 +24820,14 @@ spells:BA_MANA | BA_NETH
 spells:BR_DISE
 spells:S_DEMON | S_DRAGON | S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_KIN
 spells:S_UNDEAD | S_UNIQUE
-desc:Greatest mortal wizard of all times. He is looking for a meeting with you.
+desc:Huge ruddy giant with golden hair and beard; master of wrestling and
+desc: contests of strength. He doesn't need a weapon, and could move so fast
+desc: that doesn't need steed either.
+desc: He is the strongest of all the Valar.
+desc: He is coming for you.
 force-location:Lukomorye
 
-### The Nether Realm ###
+### Valinor ###
 
 name:nether vortex
 plural:nether vortices
@@ -24848,7 +24852,7 @@ spell-freq:2
 innate-freq:100
 spells:BR_NETH
 desc:A whirling anomaly of nether mists that will drain your life force.
-force-location:The Nether Realm
+force-location:Valinor
 
 name:crawling mass of primal chaos
 plural:crawling masses of primal chaos
@@ -24874,7 +24878,7 @@ flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS | NO_CONF | NO_SLEEP
 flags:FORCE_SLEEP | FORCE_DEPTH | ATTR_MULTI | NO_HOLD | IM_NETHER
 desc:A mass of pure chaotic energy crawling towards you, eating everything on
 desc: its path.
-force-location:The Nether Realm
+force-location:Valinor
 
 name:chaos mutant
 base:person
@@ -24902,7 +24906,7 @@ desc:Despite their swollen faces, they manage to smile at you. You back away
 desc: nervously as their smile becomes a grin, and then a yawn, and then their
 desc: mouths open wider still... and not one but a hundred writhing tongues
 desc: spill from between their impossible wide jaws.
-force-location:The Nether Realm
+force-location:Valinor
 
 name:vlodblad
 base:jelly
@@ -24929,7 +24933,7 @@ desc:A hideous creation of evil sorcery. Dormant it lies as a mound of flabby
 desc: flesh, but when aroused into combat it will gradually sprout limbs,
 desc: growing ever more skilful and unless killed quickly will overcome any
 desc: opponent, devouring them and absorbing them into its fleshy body.
-force-location:The Nether Realm
+force-location:Valinor
 
 name:blood lurcher
 base:canine
@@ -24957,9 +24961,9 @@ desc:Hairless, eyeless chaotic monstrosities which devour their victims by
 desc: sucking their blood through the many writhing tentacles which protrude
 desc: from their mouths instead of teeth. They are bipedal, fast and strong,
 desc: with long and vicious claws on their front paws.
-force-location:The Nether Realm
+force-location:Valinor
 
-name:Lilith
+name:Varda, Queen of the Valar
 base:ainu
 color:G
 speed:140
@@ -24971,7 +24975,7 @@ sleepiness:0
 depth:124
 rarity:1
 weight:0
-experience:66666
+experience:70000
 blow:HIT:PARALYZE:20d10
 blow:HIT:EXP_80:20d10
 blow:HIT:LOSE_ALL:10d12
@@ -24990,12 +24994,11 @@ spells:TELE_TO | TPORT | TRAPS
 spells:BA_FIRE | BA_MANA | BA_NETH | BA_WATE
 spells:BO_ICE | BO_MANA | BO_PLAS
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS
-desc:She is Lucifer's most beautiful wife. A fallen Maia of mind-shattering
-desc: beauty, she is the princess of the Nether Realm. But beware, she knows
-desc: devastating spells, and she is as evil as she is beautiful.
-force-location:The Nether Realm
+desc:Wife of Manwe, Varda is the most beautiful of all the Valar... 
+desc: She is also known as Elbereth - "Queen of the Stars".
+force-location:Valinor
 
-name:Lucifer
+name:Manwe, King of the Valar
 base:nether
 color:G
 speed:140
@@ -25027,8 +25030,10 @@ spells:BA_DARK | BA_MANA | BA_NETH | BA_WATE
 spells:BO_ICE | BO_MANA | BO_PLAS
 spells:ANIM_DEAD
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_UNIQUE | S_ABOMINATION
-desc:He Is The Master Of DEATH.
-force-location:The Nether Realm
+desc:Husband of Varda, brother of Melkor and the leader of the Ainur.
+desc: He was also known as Sulimo, commander of winds and air.
+desc: He is the one who will crush you to The Void!
+force-location:Valinor
 
 ### Utumno, Portal to the Void ###
 
@@ -25584,7 +25589,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 innate-freq:33
 spells:BR_NETH | BA_NETH | BO_NETH
-desc:A ghostly apparition from the Nether Realm.
+desc:A ghostly apparition from the Nether Dimension.
 force-location:Utumno, Portal to the Void
 
 name:spirit of water
@@ -25797,20 +25802,19 @@ base:ainu
 color:D
 speed:150
 hit-points:40000
-#hit-points:90000 <-- ToME HPs (!)
 hearing:200
 armor-class:240
 sleepiness:0
-depth:127
+depth:126
 rarity:1
 weight:0
-experience:100000
+experience:90000
 blow:HIT:DISENCHANT:24d10
-blow:HIT:TIME:24d10
-blow:HIT:FORGET:24d10
-blow:HIT:LOSE_ALL:24d10
+blow:HIT:TIME:20d10
+blow:HIT:FORGET:20d10
+blow:HIT:LOSE_ALL:20d10
 flags:UNIQUE | MALE | EVIL | REGENERATE
-flags:PWMANG_BASE | PWMANG_FIXED | PWMANG_FINAL
+flags:PWMANG_BASE | PWMANG_FIXED
 flags:KILL_WALL | MOVE_BODY | ATTR_FLICKER
 flags:IM_ACID | IM_ELEC | NO_FEAR
 flags:IM_NETHER | IM_PLASMA | IM_DISEN
@@ -25832,7 +25836,41 @@ desc: madness, which makes him even more dangerous. You are on the verge
 desc: of dying!
 force-location:Utumno, Portal to the Void
 
-### Valinor ###
+name:Eru Iluvatar
+base:ainu
+color:D
+speed:155
+hit-points:50000
+hearing:200
+armor-class:250
+sleepiness:0
+depth:127
+rarity:1
+weight:0
+experience:99999
+blow:HIT:DISENCHANT:25d10
+blow:HIT:TIME:25d10
+blow:HIT:FORGET:25d10
+blow:HIT:LOSE_ALL:25d10
+flags:UNIQUE | MALE | REGENERATE
+flags:PWMANG_FIXED | PWMANG_FINAL
+flags:KILL_WALL | MOVE_BODY | ATTR_FLICKER
+flags:IM_ACID | IM_ELEC | NO_FEAR
+flags:IM_NETHER | IM_PLASMA | IM_DISEN
+flags:FORCE_DEPTH
+spell-freq:3
+innate-freq:13
+spells:BRAIN_SMASH | HEAL | TELE_SELF_TO
+spells:DRAIN_MANA | TELE_TO | SHRIEK
+spells:BA_MANA | BA_NETH | BA_DARK
+spells:BO_MANA
+spells:BR_NETH
+spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS | S_UNIQUE
+spells:ANIM_DEAD | S_SPIRIT
+desc:He is the master of this dimension. He is God. He control it entirely.
+desc: Will you dare to raise your head and to look directly into his eyes?
+desc: What will you see there?..
+force-location:Utumno, Portal to the Void
 
 
 
@@ -26591,7 +26629,6 @@ force-location:Hunter's Valley
 
 
 ################### Endless Sea
-#The Nether Realm
 
 
 
@@ -28762,3 +28799,12 @@ force-location:Dragon Mountain
 ###########################################################################
 ################### Low Mountans
 ###########################################################################
+
+#desc:She is Lucifer's most beautiful wife. A fallen Maia of mind-shattering
+#desc: beauty, she is the princess of the .... But beware, she knows
+#desc: devastating spells, and she is as evil as she is beautiful.
+
+#desc:He Is The Master Of DEATH.
+
+#....
+#Greatest mortal wizard of all times. He is looking for a meeting with you.

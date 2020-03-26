@@ -542,36 +542,37 @@ wall:lava:10
 rule:100:0
 rule-flags:IM_FIRE
 
-#X (boss: Merlin the Magician)
+#X (boss: Tulkas)
 name:Lukomorye
-wpos:0:2
+wpos:0:5
 min-depth:101
 max-depth:124
-flags:WINNERS_ONLY
+flags:LAVA_RIVER | WINNERS_ONLY
 floor:floor 0 grass:33
 floor:floor 1 grass:34
 floor:floor w grass:33
 wall:nether mist:1
 wall:dark wall:2
-wall:web:4
+wall:lava stream:4
 rule:100:1
 
-#XX (boss: Lucifer)
-name:The Nether Realm
-wpos:0:5
+#XX (boss: Manwe)
+name:Valinor
+wpos:-5:0
 min-depth:101
 max-depth:126
-flags:EMPTY | LAVA_RIVER | WINNERS_ONLY
+flags:WINNERS_ONLY
 floor:nether mist:8
-floor:lava stream:2
-wall:lava:8
+floor:floor 1 grass:34
+floor:floor w grass:33
+wall:lava:10
 wall:dark wall:2
 rule:95:0
 rule-flags:IM_NETHER
 rule-symbols:GWU
 rule:5:1
 
-#XXX (boss: Melkor, Lord of Darkness)
+#XXX (boss: Eru Iluvatar)
 name:Utumno, Portal to the Void
 wpos:0:-5
 min-depth:102

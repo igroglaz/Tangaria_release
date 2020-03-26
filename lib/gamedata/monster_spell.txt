@@ -1026,16 +1026,6 @@ lore-color-base:Orange
 message-vis:{name} summons some friends.
 message-invis:You hear some things appear nearby!
 
-name:S_ANT
-msgt:SUM_MONSTER
-hit:100
-effect:SUMMON:ANT
-dice:1
-lore:summon an ant
-lore-color-base:Orange
-message-vis:{name} summons an ant.
-message-invis:You hear something appear nearby!
-
 name:S_ANIMAL
 msgt:SUM_ANIMAL
 hit:100
