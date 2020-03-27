@@ -539,7 +539,7 @@ hearing:40
 armor-class:12
 sleepiness:3
 depth:1
-rarity:10
+rarity:9
 weight:0
 experience:0
 blow:BEG
@@ -6110,7 +6110,7 @@ armor-class:30
 sleepiness:10
 depth:15
 #2
-rarity:10
+rarity:9
 weight:0
 experience:5
 blow:BITE:HURT:1d8
@@ -8855,7 +8855,7 @@ innate-freq:100
 spells:BR_FIRE
 desc:It is a sharp-tailed bat, wreathed in fire.
 
-name:killer white beetle
+name:magic maggot
 base:killer beetle
 color:w
 speed:110
@@ -8871,7 +8871,9 @@ experience:85
 blow:BITE:HURT:4d5
 flags:RAND_25
 flags:DROP_CORPSE | WILD_ALL
-desc:It is looking for prey.
+spell-freq:5
+spells:TELE_SELF_TO
+desc:It trying to get on your skin to suck your blood.
 
 name:giant silver ant
 base:ant
@@ -12109,7 +12111,7 @@ armor-class:72
 sleepiness:10
 depth:32
 #2
-rarity:10
+rarity:9
 weight:160
 experience:300
 blow:HIT:POISON:3d4
@@ -12698,25 +12700,24 @@ desc: violence.
 name:half-troll
 base:troll
 color:U
-speed:110
-hit-points:188
+speed:115
+hit-points:150
 hearing:20
 smell:20
 armor-class:60
 sleepiness:50
 depth:34
-rarity:2
+rarity:3
 weight:300
 experience:400
-blow:CLAW:HURT:1d5
-blow:CLAW:HURT:1d5
-blow:BITE:HURT:2d6
-blow:BITE:HURT:2d6
+blow:HIT:HURT:1d7
+blow:HIT:HURT:1d7
+blow:HIT:HURT:2d7
+blow:HIT:HURT:2d7
 flags:MALE | REGENERATE
 flags:DROP_20 | ONLY_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
-friends:100:2d4:stone troll
-friends:100:4d4:Same
+friends:100:1d4:Same
 desc:A huge, ugly, half-human in search of plunder.
 
 #v
@@ -13314,7 +13315,7 @@ armor-class:21
 sleepiness:1
 depth:35
 #5
-rarity:10
+rarity:9
 weight:0
 experience:280
 blow:TOUCH:ACID:1d10
@@ -17425,18 +17426,15 @@ desc: itself struggles to banish it.
 name:prizrak
 base:ghost
 color:y
-#120
-speed:130
+speed:125
 hit-points:1056
 hearing:20
 armor-class:120
 sleepiness:10
 depth:44
-#2
-rarity:10
+rarity:9
 weight:0
-#8
-experience:14000
+experience:12000
 blow:HIT:HURT:6d6
 blow:HIT:HURT:6d6
 blow:HIT:LOSE_STR:3d4
@@ -17444,15 +17442,13 @@ blow:HIT:LOSE_STR:3d4
 flags:SMART
 flags:DROP_4 | ONLY_ITEM
 flags:RAND_25 | TAKE_ITEM
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | FRIGHTENED
 spell-freq:9
 spell-power:44
 spells:BLIND | WOUND | CONF | DRAIN_MANA | HOLD | TELE_LEVEL
 spells:BO_NETH
 spells:S_UNDEAD
-desc:It is an unlife of power almost unequaled. An affront to existence, its
-desc: very touch abuses and disrupts the flow of life, and its unearthly limbs,
-desc: of purest black, crush rock and flesh with ease.
+desc:Strange ghost which looms afar...
 
 name:greater wall monster
 base:mineral
@@ -18485,9 +18481,9 @@ hit-points:1300
 light:1
 hearing:30
 armor-class:108
-sleepiness:255
+sleepiness:50
 depth:49
-rarity:10
+rarity:9
 weight:0
 experience:4000
 blow:GAZE:EXP_40:4d4
@@ -18500,9 +18496,7 @@ flags:MOVE_BODY
 flags:IM_ACID | IM_ELEC | IM_NETHER | NO_FEAR
 flags-off:TAKE_ITEM
 spell-freq:3
-spells:BLIND | WOUND | SCARE | TELE_TO
-spells:BO_NETH
-spells:S_DEMON
+spells:WOUND | WHIP
 desc:A Maia spirit, which was mighty once, but dared defy its Creator.
 
 name:fallen angel
@@ -18746,6 +18740,29 @@ desc:An enormously fearsome and powerful inhabitant of the depths. It
 desc: resembles a gargantuan octopus and its evil is almost tangible.
 
 ### Dungeon level 51 ###
+
+name:troll cannibal
+base:troll
+color:D
+speed:120
+hit-points:2000
+hearing:20
+smell:50
+armor-class:50
+sleepiness:30
+depth:51
+rarity:8
+weight:0
+experience:5000
+blow:HIT:HURT:1d50
+blow:HIT:HURT:1d50
+blow:HIT:HURT:1d50
+blow:HIT:HURT:1d50
+flags:MALE | REGENERATE
+flags:DROP_3 | DROP_GOOD | ONLY_ITEM
+flags:MOVE_BODY | TAKE_ITEM
+flags:IM_COLD
+desc:Huge mad troll of enormous strenght, wiedling heavy crude club.
 
 name:nether hound
 base:zephyr hound
@@ -20428,7 +20445,7 @@ blow:HIT:FIRE:4d12
 blow:HIT:HURT:10d10
 blow:HIT:HURT:10d10
 flags:UNIQUE | MALE | SMART | ATTR_FLICKER
-flags:DROP_4 | DROP_GOOD
+flags:DROP_3 | DROP_GOOD
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_PLASMA
 flags:NO_STUN
@@ -20454,7 +20471,7 @@ hearing:40
 armor-class:192
 sleepiness:10
 depth:61
-rarity:10
+rarity:9
 weight:0
 experience:25000
 blow:HIT:FIRE:4d12
@@ -20462,13 +20479,13 @@ blow:HIT:FIRE:4d12
 blow:HIT:HURT:10d10
 blow:HIT:HURT:10d10
 flags:UNIQUE | MALE | SMART
-flags:DROP_4 | DROP_GOOD
+flags:DROP_3 | DROP_GOOD
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_PLASMA
 flags:NO_STUN
 spell-freq:2
 spell-power:61
-spells:BLIND | TELE_TO
+spells:BLIND | WHIP
 spells:BA_FIRE
 spells:BO_FIRE | BO_MANA | BO_PLAS
 spells:BR_FIRE | BR_PLAS
@@ -20586,10 +20603,9 @@ flags:NO_STUN | IM_NETHER
 spell-freq:2
 spell-power:62
 spells:BLIND | TELE_TO
-spells:BA_WATE
-spells:BO_MANA | BO_WATE
-spells:BR_WATE
-#spells:S_ANGEL
+spells:BLINK | BRAIN_SMASH | CONF | DRAIN_MANA
+spells:BA_NETH
+spells:ANIM_DEAD
 spells:S_AINU
 desc:Encrusted with barnacles, slimy and dripping, the Giant of the untamed
 desc: waters has dragged himself down into the dungeon to send you
@@ -20608,7 +20624,7 @@ hearing:40
 armor-class:204
 sleepiness:10
 depth:62
-rarity:10
+rarity:9
 weight:0
 experience:30000
 blow:HIT:EXP_80:10d5
@@ -21698,7 +21714,7 @@ hearing:12
 armor-class:200
 sleepiness:150
 depth:70
-rarity:10
+rarity:9
 weight:0
 experience:10000
 blow:TOUCH:ACID:10d10
@@ -21724,7 +21740,7 @@ hearing:12
 armor-class:200
 sleepiness:1
 depth:70
-rarity:10
+rarity:9
 weight:0
 experience:10000
 blow:TOUCH:FIRE:10d10
@@ -21751,24 +21767,49 @@ hearing:12
 armor-class:200
 sleepiness:1
 depth:70
-rarity:10
+rarity:9
 weight:0
 experience:10000
 blow:TOUCH:FIRE:10d10
 blow:TOUCH:COLD:10d10
 blow:TOUCH:ELEC:10d10
 blow:TOUCH:ACID:10d10
-flags:COLD_BLOOD
+flags:COLD_BLOOD | KILL_BODY | KILL_ITEM | 
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
 flags:NO_CONF | NO_SLEEP | NEVER_MOVE
 spell-freq:25
 spells:SHAPECHANGE
-shape:ethereal mist
+shape:slimer
 desc:Strange greenish liquid which float in the air in one big blog, which
 desc: burl from inside. It's moving in chaotic manner and slowly drifting
 desc: somewhat randomly.. but eventualy crawling a bit closer to you.
 desc: You do not know what to expect from it, but it won't be anything good for sure.
+
+name:slimer
+base:jelly
+color:s
+speed:125
+hit-points:1500
+hearing:12
+armor-class:100
+sleepiness:1
+depth:70
+rarity:8
+weight:0
+experience:10000
+blow:INSULT:HURT:1d20
+blow:TOUCH:EAT_GOLD:5d10
+blow:TOUCH:EAT_ITEM:5d10
+blow:TOUCH:EAT_FOOD:5d10
+flags:COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM | PASS_WALL
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP
+spell-freq:25
+desc:Incredibly foul-smelling potato-shape ghost with gigantic appetite,
+desc: he eat anything on it's way. When he passes through solid objects,
+desc: he leaves behind a nasty bright-green slime.
 
 name:ethereal mist
 base:mist
@@ -21779,7 +21820,7 @@ hearing:12
 armor-class:66
 sleepiness:30
 depth:70
-rarity:10
+rarity:9
 weight:0
 experience:10000
 blow:ENGULF:POISON:10d10
@@ -24825,7 +24866,7 @@ desc: contests of strength. He doesn't need a weapon, and could move so fast
 desc: that doesn't need steed either.
 desc: He is the strongest of all the Valar.
 desc: He is coming for you.
-force-location:Lukomorye
+force-location:The Straight Road
 
 ### Valinor ###
 

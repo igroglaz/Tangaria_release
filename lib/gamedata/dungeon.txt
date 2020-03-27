@@ -543,17 +543,17 @@ rule:100:0
 rule-flags:IM_FIRE
 
 #X (boss: Tulkas)
-name:Lukomorye
-wpos:0:5
+name:The Straight Road
+wpos:-3:0
 min-depth:101
 max-depth:124
-flags:LAVA_RIVER | WINNERS_ONLY
-floor:floor 0 grass:33
-floor:floor 1 grass:34
-floor:floor w grass:33
-wall:nether mist:1
-wall:dark wall:2
-wall:lava stream:4
+flags:LAVA_RIVER | WINNERS_ONLY |  WATER_RIVER | CAVERN
+floor:B6 floors luquid w:94
+floor:B6 floors luquid x:5
+floor:F3 shallow water m:1
+wall:F3 shallow water 0:3
+wall:F3 shallow water 1:3
+wall:F3 shallow water 2:3
 rule:100:1
 
 #XX (boss: Manwe)
@@ -561,16 +561,20 @@ name:Valinor
 wpos:-5:0
 min-depth:101
 max-depth:126
-flags:WINNERS_ONLY
-floor:nether mist:8
+flags:WINNERS_ONLY | WATER_RIVER
+floor:floor 0 grass:33
 floor:floor 1 grass:34
 floor:floor w grass:33
-wall:lava:10
-wall:dark wall:2
-rule:95:0
-rule-flags:IM_NETHER
-rule-symbols:GWU
-rule:5:1
+wall:tree:33
+wall:tree E tree:11
+wall:tree F tree:6
+rule:100:1
+
+#nether realm
+#rule:95:0
+#rule-flags:IM_NETHER
+#rule-symbols:GWU
+#rule:5:1
 
 #XXX (boss: Eru Iluvatar)
 name:Utumno, Portal to the Void
@@ -579,6 +583,9 @@ min-depth:102
 max-depth:127
 flags:EMPTY | WINNERS_ONLY
 floor:void:10
+wall:nether mist:1
+wall:lava:1
+wall:dark wall:1
 rule:99:0
 rule-flags:UNDEAD | DEMON | DRAGON | NONLIVING
 rule:1:1

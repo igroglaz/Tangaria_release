@@ -27,7 +27,7 @@ max-townies:100
 ############################### 0
 
 name:Endless Sea
-# Lukomorye
+# was Lukomorye.. now empty
 short:0_5
 wpos:0:5
 max-townies:20
@@ -167,12 +167,17 @@ short:-2_-1
 wpos:-2:-1
 max-townies:3
 
+name:The Straight Road
+###########
+short:-3_0
+wpos:-3:0
+max-townies:5
 
 name:Valinor
 ###########
 short:-5_0
 wpos:-5:0
-max-townies:5
+max-townies:11
 
 ############################### 1
 
