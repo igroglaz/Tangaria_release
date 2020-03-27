@@ -21714,7 +21714,7 @@ hearing:12
 armor-class:200
 sleepiness:150
 depth:70
-rarity:9
+rarity:8
 weight:0
 experience:10000
 blow:TOUCH:ACID:10d10
@@ -21728,8 +21728,8 @@ flags:NO_CONF | NO_SLEEP | NEVER_MOVE
 spell-freq:50
 spells:SHAPECHANGE
 shape:ectoplasma
-desc:An enormous amoeboid substance colony which slowly  quivering.
-desc: It's defencing mechanisms are quite amazing...
+desc:An enormous amoeboid substance colony which slowly quivering.
+desc: Its defencing mechanisms are quite amazing...
 
 name:ectoplasma
 base:jelly
@@ -21740,7 +21740,7 @@ hearing:12
 armor-class:200
 sleepiness:1
 depth:70
-rarity:9
+rarity:8
 weight:0
 experience:10000
 blow:TOUCH:FIRE:10d10
@@ -21753,9 +21753,9 @@ flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
 flags:NO_CONF | NO_SLEEP | RAND_50
 spell-freq:30
 spells:MIND_BLAST | BRAIN_SMASH | DRAIN_MANA | ANIM_DEAD | DARKNESS | HEAL
-desc:Strange greenish liquid which float in the air in one big blog, which
+desc:Strange greenish liquid which floats in the air in one big blog, that
 desc: burl from inside. It's moving in chaotic manner and slowly drifting
-desc: somewhat randomly.. but eventualy crawling a bit closer to you.
+desc: somewhat randomly.. but eventually crawling a bit closer to you.
 desc: You do not know what to expect from it, but it won't be anything good for sure.
 
 name:ectoplasm
@@ -21767,7 +21767,7 @@ hearing:12
 armor-class:200
 sleepiness:1
 depth:70
-rarity:9
+rarity:8
 weight:0
 experience:10000
 blow:TOUCH:FIRE:10d10
@@ -21781,9 +21781,9 @@ flags:NO_CONF | NO_SLEEP | NEVER_MOVE
 spell-freq:25
 spells:SHAPECHANGE
 shape:slimer
-desc:Strange greenish liquid which float in the air in one big blog, which
+desc:Strange greenish liquid which floats in the air in one big blog, that
 desc: burl from inside. It's moving in chaotic manner and slowly drifting
-desc: somewhat randomly.. but eventualy crawling a bit closer to you.
+desc: somewhat randomly.. but eventually crawling a bit closer to you.
 desc: You do not know what to expect from it, but it won't be anything good for sure.
 
 name:slimer
@@ -21808,7 +21808,7 @@ flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
 flags:NO_CONF | NO_SLEEP
 spell-freq:25
 desc:Incredibly foul-smelling potato-shape ghost with gigantic appetite,
-desc: he eat anything on it's way. When he passes through solid objects,
+desc: he eats anything on it's way. When he passes through solid objects,
 desc: he leaves behind a nasty bright-green slime.
 
 name:ethereal mist
