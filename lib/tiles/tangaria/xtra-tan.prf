@@ -41,9 +41,9 @@ RF:<player>:0x84:0xD1
 monster:<player>:0x83:0xBF
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD8
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA7
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDF
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCF
@@ -76,9 +76,9 @@ RF:<player>:0x86:0xEA
 #
 #
 #
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x87
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEA
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x87
@@ -191,9 +191,9 @@ RF:<player>:0x84:0xD2
 monster:<player>:0x83:0xB9
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD9
-?:[AND [EQU $CLASS Mage] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA1
-?:[AND [EQU $CLASS Mage] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE0
 ?:[AND [EQU $CLASS Mage] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xC9
@@ -226,9 +226,9 @@ RF:<player>:0x86:0xEB
 #
 #
 #
-?:[AND [EQU $CLASS Mage] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x81
-?:[AND [EQU $CLASS Mage] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEB
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x81
@@ -341,9 +341,9 @@ RF:<player>:0x84:0xD5
 monster:<player>:0x83:0xBD
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDC
-?:[AND [EQU $CLASS Druid] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA5
-?:[AND [EQU $CLASS Druid] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE3
 ?:[AND [EQU $CLASS Druid] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCD
@@ -376,9 +376,9 @@ RF:<player>:0x84:0xB2
 #
 #
 #
-?:[AND [EQU $CLASS Druid] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x85
-?:[AND [EQU $CLASS Druid] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xB2
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x85
@@ -491,9 +491,9 @@ RF:<player>:0x84:0xD3
 monster:<player>:0x83:0xBC
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDA
-?:[AND [EQU $CLASS Priest] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA4
-?:[AND [EQU $CLASS Priest] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE1
 ?:[AND [EQU $CLASS Priest] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCC
@@ -526,9 +526,9 @@ RF:<player>:0x86:0xEC
 #
 #
 #
-?:[AND [EQU $CLASS Priest] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x84
-?:[AND [EQU $CLASS Priest] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEC
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x84
@@ -641,9 +641,9 @@ RF:<player>:0x84:0xD2
 monster:<player>:0x83:0xB9
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD9
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA1
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE0
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xC9
@@ -676,9 +676,9 @@ RF:<player>:0x86:0xEB
 #
 #
 #
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x81
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEB
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x81
@@ -791,9 +791,9 @@ RF:<player>:0x84:0xD6
 monster:<player>:0x83:0xBB
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDD
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA3
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE4
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCB
@@ -826,9 +826,9 @@ RF:<player>:0x86:0xEF
 #
 #
 #
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x83
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEF
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x83
@@ -941,9 +941,9 @@ RF:<player>:0x84:0xD4
 monster:<player>:0x83:0xBE
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDB
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA6
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE2
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCE
@@ -976,9 +976,9 @@ RF:<player>:0x86:0xED
 #
 #
 #
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x86
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xED
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x86
@@ -1091,9 +1091,9 @@ RF:<player>:0x84:0xD5
 monster:<player>:0x83:0xBD
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDC
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA5
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE3
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCD
@@ -1126,9 +1126,9 @@ RF:<player>:0x86:0xEE
 #
 #
 #
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x85
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEE
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x85
@@ -1241,9 +1241,9 @@ RF:<player>:0x84:0xD6
 monster:<player>:0x83:0xBB
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDD
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA3
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE4
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCB
@@ -1276,9 +1276,9 @@ RF:<player>:0x84:0xB3
 #
 #
 #
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x83
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xB3
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x83
@@ -1391,9 +1391,9 @@ RF:<player>:0x84:0xD2
 monster:<player>:0x84:0xBB
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD9
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Dunedain] ]
 monster:<player>:0x84:0xBD
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE0
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE High-Elf] ]
 monster:<player>:0x84:0xBF
@@ -1426,9 +1426,9 @@ RF:<player>:0x86:0xEB
 #
 #
 #
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x84:0xAD
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEB
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Damned] ]
 monster:<player>:0x84:0xAD
@@ -1541,9 +1541,9 @@ RF:<player>:0x83:0xED
 monster:<player>:0x84:0xBC
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF1
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Dunedain] ]
 monster:<player>:0x84:0xBE
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF5
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE High-Elf] ]
 monster:<player>:0x84:0xC0
@@ -1576,9 +1576,9 @@ RF:<player>:0x83:0xFE
 #
 #
 #
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x84:0xAE
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xFE
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Damned] ]
 monster:<player>:0x84:0xAE
@@ -1691,9 +1691,9 @@ RF:<player>:0x84:0xD5
 monster:<player>:0x83:0xBD
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDC
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA5
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE3
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCD
@@ -1726,9 +1726,9 @@ RF:<player>:0x86:0xEE
 #
 #
 #
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x85
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEE
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x85
@@ -1841,9 +1841,9 @@ RF:<player>:0x84:0xD7
 monster:<player>:0x83:0xB8
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDE
-?:[AND [EQU $CLASS Monk] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA0
-?:[AND [EQU $CLASS Monk] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE5
 ?:[AND [EQU $CLASS Monk] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xC8
@@ -1876,9 +1876,9 @@ RF:<player>:0x86:0xF0
 #
 #
 #
-?:[AND [EQU $CLASS Monk] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x80
-?:[AND [EQU $CLASS Monk] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xF0
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x80
@@ -1991,9 +1991,9 @@ RF:<player>:0x83:0xEE
 monster:<player>:0x83:0xBA
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF2
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA2
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF6
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCA
@@ -2026,9 +2026,9 @@ RF:<player>:0x83:0xFF
 #
 #
 #
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x82
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xFF
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x82
@@ -2141,9 +2141,9 @@ RF:<player>:0x84:0xD2
 monster:<player>:0x83:0xB9
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD9
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA1
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE0
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xC9
@@ -2176,9 +2176,9 @@ RF:<player>:0x86:0xEB
 #
 #
 #
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x81
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEB
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x81
@@ -2291,9 +2291,9 @@ RF:<player>:0x83:0xEE
 monster:<player>:0x84:0xBB
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF2
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Dunedain] ]
 monster:<player>:0x84:0xBD
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF6
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE High-Elf] ]
 monster:<player>:0x84:0xBF
@@ -2326,9 +2326,9 @@ RF:<player>:0x83:0xFF
 #
 #
 #
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x84:0xAD
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xFF
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Damned] ]
 monster:<player>:0x84:0xAD
@@ -2441,9 +2441,9 @@ RF:<player>:0x84:0xD1
 monster:<player>:0x83:0xBF
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD8
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA7
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDF
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCF
@@ -2476,9 +2476,9 @@ RF:<player>:0x86:0xEA
 #
 #
 #
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x87
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEA
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x87
@@ -2591,9 +2591,9 @@ RF:<player>:0x84:0xD5
 monster:<player>:0x83:0xBD
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Half-Troll] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xDC
-?:[AND [EQU $CLASS Archer] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Dunedain] ]
 monster:<player>:0x83:0xA5
-?:[AND [EQU $CLASS Archer] [EQU $RACE Westmen] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Dunedain] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE3
 ?:[AND [EQU $CLASS Archer] [EQU $RACE High-Elf] ]
 monster:<player>:0x83:0xCD
@@ -2626,9 +2626,9 @@ RF:<player>:0x86:0xEE
 #
 #
 #
-?:[AND [EQU $CLASS Archer] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x83:0x85
-?:[AND [EQU $CLASS Archer] [EQU $RACE Darklander] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Black Numenorean] [EQU $GENDER Female] ]
 RF:<player>:0x86:0xEE
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Damned] ]
 monster:<player>:0x83:0x85
@@ -2726,7 +2726,7 @@ monster:<player>:0x94:0x96
 monster:<player>:0x94:0x96
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Half-Troll] ]
 monster:<player>:0x94:0x96
-?:[AND [EQU $CLASS Ghost] [EQU $RACE Westmen] ]
+?:[AND [EQU $CLASS Ghost] [EQU $RACE Dunedain] ]
 monster:<player>:0x94:0x96
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE High-Elf] ]
 monster:<player>:0x94:0x96
@@ -2745,7 +2745,7 @@ monster:<player>:0x94:0x96
 #
 #
 #
-?:[AND [EQU $CLASS Ghost] [EQU $RACE Darklander] ]
+?:[AND [EQU $CLASS Ghost] [EQU $RACE Black Numenorean] ]
 monster:<player>:0x94:0x96
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Damned] ]
 monster:<player>:0x94:0x96

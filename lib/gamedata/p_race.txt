@@ -261,8 +261,7 @@ value:1:CON[3]
 value:1:INFRA[3]
 player-flags:TROLL
 
-#Dunadan
-name:High Men
+name:Dunedain
 skill-disarm-phys:4
 skill-disarm-magic:4
 skill-device:5
@@ -485,7 +484,7 @@ obj-flag:1:AGGRAVATE
 player-flags:HYDRA
 
 #Black Numenorean
-name:Darklander
+name:Black Numenorean
 skill-disarm-phys:2
 skill-disarm-magic:3
 skill-device:7
