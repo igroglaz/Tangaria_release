@@ -68,11 +68,22 @@ Angband 4.2.0:
 - Enlarge character resist display
 - Add light level meter
 - Adjust some player race heights
+- Harmonise plurals of hydra
+- Change order of messages when taking items off
+- Add j/k keys for scrolling help text
+- Grammatical and spelling fixes
+- Arrange town shops along streets
+- Light hidden squares in town
+- Make sure every extra projection effect has a message
+- Show plater grid trap or terrain on status line
+- Add browsing of player abilities
+- Add movement speed to status line
 
 PWMAngband:
 
 - Remove Shockbolt tileset
 - Pressing another macro clears choice menu when a first macro lacks item
+- New option: Use white color for torch-lit grids in towns
 
 Gameplay changes
 ----------------
@@ -124,6 +135,22 @@ Angband 4.2.0:
 - Make being teleported wake monsters
 - Add trap immunity, move speed and damage reduction as possible randart
   properties
+- Increase bigger weapon dice chance
+- V-combat throwing
+- Modify some artifacts
+- Nerf Recharge effect
+- Make stunning kill fastcast, tap devices stun
+- Halve device damage boosts
+- Give some monsters orb of draining
+- Give Alchemist's gloves better armor
+- Make items with random resists also ignore that element
+- Allow player to be pushed into traps, webs or objects by earthquakes
+- Nerf to Mana Channel
+- Make Cover Tracks reduce monster hearing and sight as well as smell
+- Major changes to blackguards
+- Make birth_ai_learn learn from breath attacks
+- Make birth_ai_learn on by default
+- Make monsters at preferred range more likely to cast spells
 
 PWMAngband:
 
@@ -132,6 +159,9 @@ PWMAngband:
 - New Hydra race
 - Change vegetal monster base symbol to 'l', add 'l' monsters to the Old Forest
 - Add aquatic monsters
+- Nerf death wings/golems
+- Remove Unlife pits
+- Replace specific skeletons by general skeletons, rework Raise effect
 
 Bugs fixed
 ----------
@@ -144,6 +174,7 @@ PWMAngband:
 
 - Add missing Shapechanger spells
 - Make Dragons and Monks learn obvious object properties on carry
+- Fix incorrect number of bytes read from Packet_scanf() calls
 
 Coding changes
 --------------
@@ -157,12 +188,20 @@ Angband 4.2.0:
 - Simplify saved subwindow preferences
 - Expand properties line in artifact.txt to level, weight, cost
 - Expand combat line in artifact.txt to attack and armor
+- Reorganise player-attack
+- Simplify Term_fresh
+- Replace hardcoded flicker table with one from a config file
+- Implement color cycling
+- Add player_property.txt
+- Changed Term_resize() to handle all of the saved stack of terminals
 
 PWMAngband:
 
-- Implement temporary monster flags (CAMOUFLAGE, AWARE, HANDLED) 
+- Implement temporary monster flags (CAMOUFLAGE, AWARE, HANDLED)
+- Un-hardcode hybrid monsters by adding a HYBRID flag
 
 Compilation
 -----------
 
 - Restore UNIX support
+- Add README file

@@ -391,6 +391,7 @@ mon-base:feature mimic
 mon-base:object mimic
 mon-base:random mimic
 
+# death swords and base:mineral
 name:Unlife
 room:2
 alloc:1:110

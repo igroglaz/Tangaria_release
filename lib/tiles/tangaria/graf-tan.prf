@@ -1093,12 +1093,7 @@ object:chest:Large steel chest:0x87:0x85
 ##### Junk #####
 
 object:bottle:Empty Bottle:0x87:0x96
-object:skeleton:Broken Skull:0x87:0xAC
-object:skeleton:Broken Bone:0x87:0xAD
-object:skeleton:Canine Skeleton:0x87:0xB3
-object:skeleton:Rodent Skeleton:0x87:0xB3
-object:skeleton:Human Skeleton:0x87:0xB0
-object:skeleton:Elf Skeleton:0x87:0xAF
+object:skeleton:Skeleton:0x87:0xB0
 
 ##### Dragon Scale Mail #####
 
@@ -1217,11 +1212,6 @@ object:psi book:of Mind Support:0x86:0xAE
 object:psi book:of Mindcraft:0x86:0xAF
 object:psi book:of Telekinesis:0x86:0xB1
 object:psi book:of Empathy:0x86:0xB5
-object:skeleton:Kobold Skeleton:0x87:0xB3
-object:skeleton:Orc Skeleton:0x87:0xAF
-object:skeleton:Skull:0x87:0xAC
-object:skeleton:Troll Skeleton:0x87:0xAE
-object:skeleton:Ettin Skeleton:0x87:0xAE
 object:dragon armour:Crystal Dragon Scale Mail:0x80:0xC0
 object:dragon armour:Silver Dragon Scale Mail:0x80:0xBC
 object:dragon armour:Ethereal Dragon Scale Mail:0x80:0xBF

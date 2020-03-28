@@ -118,7 +118,7 @@
 
 # 'flags-off' is for flags to remove from the template. For example, in
 # monster_base.txt, molds are given HURT_FIRE. We don't want the red mold
-# to have that, so we add a 'flags-off:HURT_FIRE' line to substract that flag.
+# to have that, so we add a 'flags-off:HURT_FIRE' line to subtract that flag.
 
 # 'spell-freq' is for spell frequency - the number of monster turns, on 
 # average, before the monster will cast one of its spells. This must not be
@@ -1365,7 +1365,7 @@ blow:CLAW:HURT:1d1
 blow:BITE:HURT:1d2
 flags:FEMALE | EVIL | ANIMAL | LEVITATE
 flags:RAND_50
-flags:DROP_CORPSE | WILD_MOUNTAIN
+flags:DROP_CORPSE | WILD_MOUNTAIN | HYBRID
 desc:A flying, screeching bird with a woman's face.
 
 name:blue yeek
@@ -3668,7 +3668,7 @@ blow:CLAW:HURT:1d2
 blow:BITE:HURT:1d3
 flags:FEMALE | EVIL | ANIMAL | LEVITATE
 flags:RAND_25
-flags:DROP_CORPSE | WILD_MOUNTAIN
+flags:DROP_CORPSE | WILD_MOUNTAIN | HYBRID
 desc:A woman's face on the body of a vicious black bird.
 
 name:orc shaman
@@ -4895,8 +4895,7 @@ experience:6
 blow:TOUCH:EXP_10
 flags:WEIRD_MIND | MULTIPLY | STUPID
 flags:RAND_25 | RAND_50 | BASH_DOOR
-flags:HURT_LIGHT | NO_FEAR
-flags:IM_NETHER
+flags:HURT_LIGHT | NO_FEAR | IM_NETHER
 desc:It is a disgusting mass of dark worms, eating each other, the floor, the
 desc: air, you....
 
@@ -4976,7 +4975,7 @@ flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:3
 spell-power:6
 spells:HEAL | SCARE | HEAL_KIN
-spells:BA_LIGHT
+spells:BA_LIGHT | BA_HOLY
 spells:S_KIN
 drop-base:prayer book:8:1:1
 friends:50:1d2:brigand
@@ -5905,7 +5904,7 @@ flags:EVIL
 flags:DROP_40 | ONLY_GOLD
 flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
 spell-freq:9
 spells:BLINK | WOUND
 spells:BA_POIS
@@ -6865,7 +6864,7 @@ experience:80
 blow:CLAW:HURT:2d6
 blow:CLAW:HURT:2d6
 flags:ANIMAL | PWMANG_BASE | LEVITATE
-flags:ONLY_GOLD | DROP_1 | DROP_CORPSE
+flags:ONLY_GOLD | DROP_1 | DROP_CORPSE | HYBRID
 flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP
 flags:WILD_MOUNTAIN
@@ -7807,7 +7806,7 @@ blow:CLAW:HURT:2d6
 blow:BITE:HURT:2d10
 flags:EVIL
 flags:RAND_25 | OPEN_DOOR | BASH_DOOR | TAKE_ITEM
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
 desc:It is a huge wolf with eyes that glow with manly intelligence.
 
 name:dark elven lord
@@ -9219,7 +9218,7 @@ blow:CRUSH:HURT:2d6
 flags:EVIL | ANIMAL
 flags:DROP_1
 flags:OPEN_DOOR
-flags:DROP_CORPSE | WILD_WOOD | WILD_MOUNTAIN
+flags:DROP_CORPSE | WILD_WOOD | WILD_MOUNTAIN | HYBRID
 desc:In the eyes of this bear, there glimmers the faintest light of
 desc: intelligence. And then its form begins to change... The combination of
 desc: animal cunning, human intelligence and the great physical strength of the
@@ -9503,7 +9502,7 @@ blow:BITE:HURT:1d10
 blow:BITE:POISON:1d6
 flags:BASH_DOOR
 flags:IM_ACID
-flags:DROP_CORPSE | WILD_SWAMP
+flags:DROP_CORPSE | WILD_SWAMP | HYBRID
 desc:A huge wormlike shape dripping acid, twisted by evil sorcery into a foul
 desc: monster that breeds on death.
 
@@ -15879,7 +15878,7 @@ blow:BUTT:HURT:2d6
 blow:BUTT:HURT:2d6
 flags:EVIL
 flags:BASH_DOOR
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
 desc:It is a cross between a human and a bull.
 
 name:Medusa, the Gorgon
@@ -15987,7 +15986,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:2
 spells:BLIND | HEAL | HEAL_KIN | MIND_BLAST
-spells:BA_LIGHT | BA_ELEC
+spells:BA_LIGHT | BA_ELEC | BA_HOLY
 spells:S_KIN
 drop-base:prayer book:10:1:1
 friends:30:1d1:master thief
@@ -16201,7 +16200,7 @@ blow:BUTT:HURT:3d6
 blow:BUTT:HURT:3d6
 flags:EVIL | UNIQUE | PWMANG_BASE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
-flags:BASH_DOOR
+flags:BASH_DOOR | HYBRID
 flags:FORCE_DEPTH
 desc:It is a cross between a human and a bull.
 force-location:The Maze
@@ -19451,7 +19450,7 @@ blow:BUTT:HURT:4d6
 blow:BUTT:HURT:4d6
 flags:EVIL | PWMANG_BASE | STUPID
 flags:ONLY_ITEM | DROP_40 | DROP_CORPSE | DROP_SKELETON
-flags:BASH_DOOR
+flags:BASH_DOOR | HYBRID
 flags:IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:5
@@ -19924,7 +19923,7 @@ blow:HIT:HURT:10d10
 blow:HIT:HURT:10d10
 flags:UNIQUE | MALE | EVIL
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
-flags:BASH_DOOR
+flags:BASH_DOOR | HYBRID
 flags:IM_FIRE | NO_CONF | NO_SLEEP | NO_HOLD | NO_STUN
 flags:FORCE_SLEEP
 spell-freq:6
@@ -20135,7 +20134,7 @@ blow:HIT:COLD:9d10
 blow:HIT:COLD:9d10
 blow:HIT:HURT:10d9
 blow:HIT:CONFUSE:10d9
-flags:UNIQUE | MALE | SMART
+flags:UNIQUE | MALE | SMART | ATTR_FLICKER
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_SLEEP
@@ -20735,7 +20734,7 @@ flags:FORCE_SLEEP | SMART | EVIL
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:IM_POIS | IM_COLD | IM_FIRE | IM_NETHER
 flags:NO_FEAR | NO_CONF | NO_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
 spell-freq:7
 innate-freq:67
 spells:BR_NETH | BR_DARK
@@ -20806,6 +20805,7 @@ spell-power:63
 spells:BLIND | CONF | SCARE
 spells:BR_ELEC
 spells:S_DRAGON
+color-cycle:fancy:storm
 desc:A vast dragon of power. Storms and lightning crash around its titanic form.
 desc: Deep blue scales reflect the flashes and highlight the creature's great
 desc: muscles. It regards you with contempt.
@@ -20836,6 +20836,7 @@ spell-power:63
 spells:BLIND | CONF | SCARE
 spells:BR_COLD
 spells:S_DRAGON
+color-cycle:fancy:ice
 desc:An immense dragon capable of awesome destruction. You have never felt such
 desc: extreme cold, or witnessed such an icy stare. Begone quickly or feel its
 desc: wrath!
@@ -20866,6 +20867,7 @@ spell-power:63
 spells:BLIND | CONF | SCARE
 spells:BR_POIS
 spells:S_DRAGON
+color-cycle:fancy:swamp
 desc:A truly enormous dragon with great powers. The foul gases issuing from the
 desc: beast nearly make you vomit; and while you may try to hold your breath as
 desc: you fight it, it sees no reason to do likewise.
@@ -21329,6 +21331,7 @@ spell-power:67
 spells:BLIND | CONF | SCARE
 spells:BR_FIRE
 spells:S_DRAGON
+color-cycle:fancy:hell
 desc:A vast dragon of immense power. Fire leaps continuously from its huge form.
 desc: The air around it scalds you. Its slightest glance burns you, and you
 desc: truly realize how insignificant you are.
@@ -21388,6 +21391,7 @@ spell-power:67
 spells:BLIND | CONF | SCARE
 spells:BR_ACID
 spells:S_DRAGON
+color-cycle:fancy:bile
 desc:A huge and very powerful dragon. Great steaming pools of acid drip from its
 desc: form onto the ground. You shudder when you see the acid eating away the
 desc: very stones of the dungeon - what could it do to you?
@@ -21418,6 +21422,7 @@ spell-power:67
 spells:BLIND | CONF | SCARE
 spells:BR_SOUN
 spells:S_DRAGON
+color-cycle:fancy:thunder
 desc:A dragon of gigantic proportions, with destructive abilities to match. The
 desc: sheer loudness of its roar leaves you stunned and unable to think clearly
 desc: enough to defend yourself adequately.
@@ -22045,6 +22050,7 @@ spell-power:71
 spells:BLIND | CONF | SCARE
 spells:BR_SHAR
 spells:S_DRAGON
+color-cycle:fancy:crystal
 desc:A vast dragon of power with crystalline brown scales.
 
 name:great shadow wyrm
@@ -22551,6 +22557,7 @@ spell-power:75
 spells:BLIND | CONF | SCARE
 spells:BR_SHAR | BR_SOUN
 spells:S_DRAGON
+color-cycle:fancy:law
 desc:A massive dragon of powerful intellect. It seeks to dominate the universe
 desc: and despises all other life. It sees all who do not obey it as mere
 desc: insects to be crushed underfoot.
@@ -22968,6 +22975,7 @@ spell-freq:4
 spells:BLIND | CONF | SCARE
 spells:BR_CHAO | BR_DISE | BR_SHAR | BR_SOUN
 spells:S_DRAGON
+color-cycle:fancy:balance
 desc:A massive dragon, one of the mightiest of dragonkind. It is thousands of
 desc: years old and seeks to maintain the Cosmic Balance. It sees you as an
 desc: upstart troublemaker without the wisdom to control your actions. It will
@@ -23083,7 +23091,8 @@ blow:ENGULF:COLD:3d6
 blow:ENGULF:CONFUSE:3d6
 blow:ENGULF:HURT:3d6
 flags:UNIQUE | NEVER_MOVE
-flags:IM_COLD | IM_FIRE | IM_ACID | IM_POIS
+flags:IM_COLD | IM_FIRE | IM_ACID
+flags-off:RAND_50 | BASH_DOOR | CLEAR_WEB
 spell-freq:5
 innate-freq:67
 spells:BR_COLD | BR_SOUN
@@ -23332,7 +23341,7 @@ blow:GAZE:EXP_80:5d5
 blow:GAZE:EXP_80:5d5
 blow:TOUCH:POISON:5d5
 blow:TOUCH:POISON:5d5
-flags:UNIQUE | MALE | SMART | SPIRIT
+flags:UNIQUE | MALE | SMART | SPIRIT | ATTR_FLICKER
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE
@@ -23600,6 +23609,7 @@ spell-power:87
 spells:BLIND | CONF | SCARE
 spells:BR_ELEC
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:storm
 desc:An ancient dragon of power. Storms and lightning crash around its titanic
 desc: form. Deep blue scales reflect the flashes and highlight the creature's
 desc: great muscles. It regards you with contempt.
@@ -23629,6 +23639,7 @@ spell-power:87
 spells:BLIND | CONF | SCARE
 spells:BR_COLD
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:ice
 desc:An ancient dragon capable of awesome destruction. You have never felt such
 desc: extreme cold, or witnessed such an icy stare. Begone quickly or feel its
 desc: wrath!
@@ -23658,6 +23669,7 @@ spell-power:87
 spells:BLIND | CONF | SCARE
 spells:BR_POIS
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:swamp
 desc:A truly enormous ancient dragon with great powers. The foul gases issuing
 desc: from the beast nearly make you vomit; and while you may try to hold your
 desc: breath as you fight it, it sees no reason to do likewise.
@@ -23752,6 +23764,7 @@ spell-power:89
 spells:BLIND | CONF | SCARE
 spells:BR_FIRE
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:hell
 desc:An ancient dragon of immense power. Fire leaps continuously from its huge
 desc: form. The air around it scalds you. Its slightest glance burns you, and
 desc: you truly realize how insignificant you are.
@@ -23781,6 +23794,7 @@ spell-power:89
 spells:BLIND | CONF | SCARE
 spells:BR_ACID
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:bile
 desc:A huge and very powerful ancient dragon. Great steaming pools of acid drip
 desc: from its form onto the ground. You shudder when you see the acid eating
 desc: away the very stones of the dungeon - what could it do to you?
@@ -23811,6 +23825,7 @@ spell-power:89
 spells:BLIND | CONF | SCARE
 spells:BR_SOUN
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:thunder
 desc:An ancient dragon of gigantic proportions, with destructive abilities to
 desc: match. The sheer loudness of its roar leaves you stunned and unable to
 desc: think clearly enough to defend yourself adequately.
@@ -23965,6 +23980,7 @@ spell-power:91
 spells:BLIND | CONF | SCARE
 spells:BR_SHAR
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:crystal
 desc:An ancient dragon of power with crystalline brown scales.
 
 name:ancient shadow wyrm
@@ -24121,6 +24137,7 @@ spell-power:93
 spells:BLIND | CONF | SCARE
 spells:BR_SHAR | BR_SOUN
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:law
 desc:An ancient dragon of powerful intellect. It seeks to dominate the universe
 desc: and despises all other life. It sees all who do not obey it as mere
 desc: insects to be crushed underfoot.
@@ -24251,6 +24268,7 @@ spell-power:95
 spells:BLIND | CONF | SCARE
 spells:BR_SOUN | BR_CHAO | BR_SHAR | BR_DISE
 spells:S_DRAGON | S_HI_DRAGON
+color-cycle:fancy:balance
 desc:An ancient dragon, one of the mightiest of dragon kind. It is thousands of
 desc: years old and seeks to maintain the cosmic balance. It sees you as an
 desc: upstart troublemaker without the wisdom to control your actions. It will
@@ -24762,12 +24780,11 @@ hearing:200
 armor-class:450
 sleepiness:0
 depth:115
-#6
-rarity:7
+rarity:8
 weight:0
 experience:25000
 flags:PWMANG_EXTRA | REGENERATE | ANTI_MAGIC | LEVITATE
-flags:BASH_DOOR | NEVER_BLOW | KILL_WALL
+flags:BASH_DOOR | NEVER_BLOW
 flags:IM_FIRE | IM_COLD | IM_POIS | IM_PLASMA | IM_NETHER
 flags:NO_STUN
 flags:FORCE_DEPTH
@@ -24780,13 +24797,12 @@ name:death golem
 base:golem
 color:v
 speed:140
-#hit-points:13200
-hit-points:7000
+hit-points:13200
 hearing:250
 armor-class:255
 sleepiness:0
 depth:120
-rarity:9
+rarity:8
 weight:0
 experience:50000
 blow:HIT:HURT:20d8
@@ -24795,7 +24811,7 @@ blow:HIT:HURT:20d8
 blow:HIT:HURT:20d8
 flags:PWMANG_EXTRA | SMART | REGENERATE | POWERFUL | COLD_BLOOD | LEVITATE
 flags:ONLY_ITEM | DROP_3
-flags:MOVE_BODY | KILL_WALL | KILL_ITEM | BASH_DOOR
+flags:MOVE_BODY | KILL_ITEM | BASH_DOOR
 flags:IM_WATER | IM_PLASMA | IM_NEXUS | IM_FIRE | IM_POIS | IM_ACID
 flags:IM_NETHER | NO_STUN | IM_COLD
 flags:FORCE_DEPTH
