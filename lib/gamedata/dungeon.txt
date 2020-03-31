@@ -60,8 +60,11 @@ floor:floor 0 grass:33
 floor:floor 1 grass:34
 floor:floor w grass:33
 wall:obj_grass L ruins:11
+wall:obj_grass M ruins:3
+wall:obj_grass N ruins:11
 wall:obj_grass O ruins:11
-wall:obj_grass Q ruins:11
+wall:obj_grass P ruins:3
+wall:obj_grass Q ruins:6
 #wall:big dark wall 0:11
 #wall:big dark wall b window:1
 flags:EMPTY
@@ -77,9 +80,38 @@ flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:70
 floor:EB dirt 0:29
 floor:EB dirt v:1
-wall:ED dirt 0:50
+wall:ED dirt 0:34
 wall:ED dirt 1:10
-wall:ED dirt 2:40
+wall:ED dirt 2:24
+wall:ED dirt 3:5
+wall:ED dirt 4:1
+wall:ED dirt 5:1
+wall:ED dirt 6:1
+wall:ED dirt 7:1
+wall:ED dirt 8:1
+wall:ED dirt 9:1
+wall:ED dirt a:1
+wall:ED dirt b:1
+wall:ED dirt c:1
+wall:ED dirt d:1
+wall:ED dirt e:1
+wall:ED dirt f:1
+wall:ED dirt g:1
+wall:ED dirt h:1
+wall:ED dirt i:1
+wall:ED dirt j:1
+wall:ED dirt k:1
+wall:ED dirt l:1
+wall:ED dirt m:1
+wall:ED dirt n:1
+wall:ED dirt o:1
+wall:ED dirt p:1
+wall:ED dirt q:1
+wall:ED dirt r:1
+wall:ED dirt s:1
+wall:ED dirt t:1
+wall:ED dirt u:1
+wall:ED dirt v:1
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0

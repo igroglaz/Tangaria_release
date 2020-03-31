@@ -386,7 +386,10 @@ desc: sight. It contains visible treasure.
 name:granite wall
 graphics:#:W
 priority:11
+#ruins:
+#flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+# GRANITE used in dungeon building.
 info:0:5
 desc:A seam of hard rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
@@ -940,6 +943,7 @@ name:tree 0 stump
 graphics:*:D
 priority:9
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+################################################################################
 short-desc:old withered tree stump with anthill on one side.
 info:0:1
 desc:A withered tree stump.
@@ -948,6 +952,8 @@ name:tree 1
 graphics:*:g
 priority:4
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+################################################################################
+short-desc:A common tree. It's got thick leaves and strong roots.
 info:0:1
 desc:A tree.
 
@@ -955,6 +961,8 @@ name:tree 2 little
 graphics:*:u
 priority:4
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:Tiny tree. It's not a sprig already, it will grow big in time.
 info:0:1
 desc:A little tree.
 
@@ -962,6 +970,8 @@ name:tree 3
 graphics:*:g
 priority:4
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+################################################################################
+short-desc:A tree. Its stretch it's brances to the sun and whispers to a wind...
 info:0:1
 desc:A tree.
 
@@ -970,6 +980,8 @@ graphics:*:g
 priority:4
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
 info:0:1
+################################################################################
+short-desc:A maple tree. Its spiky leaves outlines reminds you about childhood.
 desc:A maple tree.
 
 name:tree 5 maple
@@ -977,6 +989,8 @@ graphics:*:g
 priority:4
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
 info:0:1
+################################################################################
+short-desc:A strong maple. It will hold a house on it's branches. Lets climb it?
 desc:A maple tree.
 
 name:tree 6 coniferous
@@ -984,6 +998,8 @@ graphics:*:g
 priority:4
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
 info:0:1
+################################################################################
+short-desc:A fir-tree. Sweetish smell of fresh resin and needles make you happy.
 desc:A coniferous tree.
 
 name:tree 7 coniferous small
@@ -1945,37 +1961,45 @@ desc:.
 name:obj_grass L ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+#granite:
+#flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 name:obj_grass M ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 name:obj_grass O ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 name:obj_grass P ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 name:obj_grass Q ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
+flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+info:0:2
 desc:.
 
 ######
@@ -1983,48 +2007,56 @@ desc:.
 name:obj_grass R sign
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass S fence
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass T fence
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass U fence
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass V fence
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass W fence
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass X fence left
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
 name:obj_grass Y fence right
 graphics:::s
 priority:18
+info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 desc:.
 
@@ -5016,6 +5048,8 @@ desc:.
 name:wooden walls 3 window
 graphics:#:u
 priority:25
+# vs wooden walls 0 solid
+#lags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 desc:.
 
@@ -15415,84 +15449,101 @@ name:ED dirt 0
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 1
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 2
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 3
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 4
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 5
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 6
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 7
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 8
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt 9
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt a
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt b
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:ED dirt c
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+short-desc:Big boulders which you can not pass simply
 desc:.
 
+#tiny stones
 name:ED dirt d
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:1
+short-desc:Stones fallen from mountain. You could pass them
 desc:.
 
 name:ED dirt e

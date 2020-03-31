@@ -50,7 +50,7 @@ PWMAngband Forum: http://www.mangband.org/forum/viewforum.php?f=9
 Features from Angband 4.x and MAngband 1.x are explicitely mentioned. Other
 changes and fixes are specific to PWMAngband.
 
-New features in PWMAngband 1.4.0 beta 0
+New features in PWMAngband 1.4.0 beta 1
 =======================================
 
 User interface
@@ -83,7 +83,10 @@ PWMAngband:
 
 - Remove Shockbolt tileset
 - Pressing another macro clears choice menu when a first macro lacks item
-- New option: Use white color for torch-lit grids in towns
+- Exclude cookies from ignoring setup
+- New option: Use single items from floor instantly
+- Remove prompt when taking single items from home
+- Drop all items in a stack by default
 
 Gameplay changes
 ----------------
@@ -162,6 +165,9 @@ PWMAngband:
 - Nerf death wings/golems
 - Remove Unlife pits
 - Replace specific skeletons by general skeletons, rework Raise effect
+- Allow more that 3 types of terrain for dungeons
+- Make breathing consume food
+- Wipe townies every dawn
 
 Bugs fixed
 ----------
@@ -199,6 +205,7 @@ PWMAngband:
 
 - Implement temporary monster flags (CAMOUFLAGE, AWARE, HANDLED)
 - Un-hardcode hybrid monsters by adding a HYBRID flag
+- Don't load features when getting a dump from server
 
 Compilation
 -----------
