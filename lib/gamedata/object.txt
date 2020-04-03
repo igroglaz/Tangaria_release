@@ -3027,6 +3027,7 @@ effect:DAMAGE
 dice:$B
 expr:B:WEAPON_DAMAGE:+ 0
 msg_self:Suddenly your weapon turns on you!
+msg_other: weapon turns on him!
 
 name:Curse Armour
 graphics:?:w
@@ -3046,6 +3047,7 @@ effect:SPOT:ACID:0
 dice:4d$S
 expr:S:DUNGEON_LEVEL:/ 2
 msg_self:Suddenly you armour become covered with acid! It burns!
+msg_other: armour became covered in acid!
 
 
 ##### Potions #####
@@ -3660,7 +3662,7 @@ effect:DRAIN_MANA
 dice:$Dd1
 expr:D:DUNGEON_LEVEL:* 4
 msg_self:It inflicts 5000.. Oops! Once again you've cheated death!
-msg-death:0:The last enemy that shall be destroyed is death...
+#msg-death:0:The last enemy that shall be destroyed is death...
 msg_other: beats in spasms!
 
 name:Ruination
@@ -3706,12 +3708,13 @@ expr:B:DUNGEON_LEVEL:+ 0
 effect:SPOT:FIRE:0
 dice:4d$S
 expr:S:DUNGEON_LEVEL:/ 2
-effect-xtra:TIMED_INC:CUT
-dice-xtra:4d6
+effect:TIMED_INC:CUT
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
 effect:TIMED_INC:IMAGE
 dice:5+2d10
-msg:It's blow up on the attempt to drink it! You are on fire!
-msg-death:0:was blown by a detonation potion.
+msg_self:It's blow up on the attempt to drink it! You are on fire!
+msg_other:was blown by a detonation potion.
 
 ### Weird one ###
 
