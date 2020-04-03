@@ -592,7 +592,7 @@ dice:20+1d20
 desc:A trap that stuns you and gives you stoneskin.
 msg:You feel yourself turning to stone!
 
-### AO
+### Tangaria
 
 # hunger
 

@@ -3009,6 +3009,44 @@ pile:70:1d3
 effect:TOUCH:MAKE_TRAP:3:1
 msg_self:You hear a low-pitched whistling sound.
 
+name:Curse Weapon
+graphics:?:w
+type:scroll
+level:2
+weight:5
+cost:0
+alloc:10:1 to 70
+pile:25:2
+effect:DAMAGE
+dice:$B
+expr:B:WEAPON_DAMAGE:+ 0
+effect:DAMAGE
+dice:$B
+expr:B:WEAPON_DAMAGE:+ 0
+effect:DAMAGE
+dice:$B
+expr:B:WEAPON_DAMAGE:+ 0
+msg_self:Suddenly your weapon turns on you!
+
+name:Curse Armour
+graphics:?:w
+type:scroll
+level:2
+weight:5
+cost:0
+alloc:10:1 to 70
+pile:25:2
+effect:SPOT:ACID:0
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
+effect:SPOT:ACID:0
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
+effect:SPOT:ACID:0
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
+msg_self:Suddenly you armour become covered with acid! It burns!
+
 
 ##### Potions #####
 
@@ -3562,8 +3600,10 @@ cost:0
 alloc:10:10 to 15
 pile:25:2
 #effect:LOSE_EXP
-effect:TIMED_INC:SCRAMBLE
-dice:20+1d20
+effect:DRAIN_STAT:INT
+dice:3
+effect:DRAIN_STAT:WIS
+dice:3
 
 name:Surprise
 graphics:!:d
@@ -3598,6 +3638,80 @@ effect:NOURISH:SET_TO
 dice:2
 msg_self:The potion makes you queasy.
 msg_other: vomits!
+
+name:Death
+graphics:!:d
+type:potion
+level:0
+weight:4
+cost:0
+alloc:1:2 to 40
+pile:70:1d3
+attack:3d6:0:0
+armor:0:0
+effect:TIMED_INC_NO_RES:STUN
+dice:2d5
+effect:DAMAGE
+dice:$Dd1
+#barrow downs 28-35
+#mage hobbit 30 lvl 150 hp.
+expr:D:DUNGEON_LEVEL:* 4
+effect:DRAIN_MANA
+dice:$Dd1
+expr:D:DUNGEON_LEVEL:* 4
+msg_self:It inflicts 5000.. Oops! Once again you've cheated death!
+msg-death:0:The last enemy that shall be destroyed is death...
+msg_other: beats in spasms!
+
+name:Ruination
+graphics:!:d
+type:potion
+level:0
+weight:4
+cost:0
+alloc:1:2 to 40
+pile:70:1d3
+attack:1d4:0:0
+armor:0:0
+effect:DRAIN_STAT:STR
+dice:1
+effect:DRAIN_STAT:DEX
+dice:1
+effect:DRAIN_STAT:CON
+dice:1
+effect:DRAIN_STAT:INT
+dice:1
+effect:DRAIN_STAT:WIS
+dice:1
+effect:TIMED_INC:SCRAMBLE
+dice:20+1d20
+effect:TIMED_INC_NO_RES:SLOW
+dice:5+1d20
+msg_self:Alas! There are some wounds that cannot be wholly cured..
+msg_other: was devastated by sorrow!
+
+name:Detonation
+graphics:!:d
+type:potion
+level:0
+weight:4
+cost:0
+alloc:1:2 to 40
+pile:70:1d3
+attack:1d4:0:0
+armor:0:0
+effect:SPOT:FORCE:2
+dice:$B
+expr:B:DUNGEON_LEVEL:+ 0
+effect:SPOT:FIRE:0
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
+effect-xtra:TIMED_INC:CUT
+dice-xtra:4d6
+effect:TIMED_INC:IMAGE
+dice:5+2d10
+msg:It's blow up on the attempt to drink it! You are on fire!
+msg-death:0:was blown by a detonation potion.
 
 ### Weird one ###
 
