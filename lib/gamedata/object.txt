@@ -2620,9 +2620,18 @@ type:scroll
 level:20
 weight:5
 cost:2800
-alloc:16:20 to 100
+alloc:15:20 to 100
 pile:10:2
 effect:TELEPORT_LEVEL:NONE:1
+
+name:Dimension Shake
+graphics:?:w
+type:scroll
+level:20
+weight:5
+cost:0
+alloc:1:20 to 100
+effect:ALTER_REALITY
 
 ### Detection ###
 
@@ -2769,8 +2778,9 @@ graphics:?:w
 type:scroll
 level:20
 weight:5
-cost:15000
-alloc:10:20 to 100
+cost:45000
+#cost:15000
+alloc:2:20 to 40
 effect:ACQUIRE
 dice:1
 
@@ -2779,8 +2789,9 @@ graphics:?:w
 type:scroll
 level:60
 weight:5
-cost:30000
-alloc:5:60 to 100
+cost:100000
+#cost:30000
+alloc:1:40 to 60
 effect:ACQUIRE
 dice:1+1d2
 
@@ -2893,6 +2904,21 @@ alloc:20:1 to 100
 pile:20:2
 effect:DEEP_DESCENT
 
+name:Forest Spirit
+graphics:?:w
+type:scroll
+level:1
+weight:5
+cost:0
+alloc:1:1 to 100
+effect:CREATE_TREES
+effect:SUMMON:ANIMAL:0:-1
+dice:1d3
+effect:SUMMON:SPIDER:0:-1
+dice:1d3
+effect:SUMMON:HOUND:0:-1
+dice:1d3
+
 ### "Holy" spells ###
 
 name:Blessing
@@ -2971,6 +2997,15 @@ cost:2000
 alloc:30:40 to 100
 effect:DESTRUCTION:LIGHT:15
 
+name:Rumours
+graphics:?:w
+type:scroll
+level:20
+weight:5
+cost:0
+alloc:1:1 to 100
+effect:COOKIE
+
 ### Bad scrolls ###
 
 name:Aggravate Monster
@@ -3037,18 +3072,28 @@ weight:5
 cost:0
 alloc:10:1 to 70
 pile:25:2
+effect:DISENCHANT
+#dice:4d$S
+#expr:S:DUNGEON_LEVEL:/ 2
 effect:SPOT:ACID:0
 dice:4d$S
 expr:S:DUNGEON_LEVEL:/ 2
-effect:SPOT:ACID:0
-dice:4d$S
-expr:S:DUNGEON_LEVEL:/ 2
-effect:SPOT:ACID:0
-dice:4d$S
-expr:S:DUNGEON_LEVEL:/ 2
-msg_self:Suddenly you armour become covered with acid! It burns!
-msg_other: armour became covered in acid!
+msg_self:Suddenly you armour burns!
+msg_other: armour became cursed!
 
+name:Damned Jail
+graphics:?:w
+type:scroll
+level:1
+weight:5
+cost:0
+alloc:1:20 to 100
+effect:CREATE_WALLS
+effect:SUMMON:SPIRIT:0:-1
+dice:8d1
+
+#name:The Void
+#effect:BIZARRE
 
 ##### Potions #####
 
@@ -3651,18 +3696,25 @@ alloc:1:2 to 40
 pile:70:1d3
 attack:3d6:0:0
 armor:0:0
+flags:EXPLODE
 effect:TIMED_INC_NO_RES:STUN
-dice:2d5
-effect:DAMAGE
-dice:$Dd1
+dice:5d3
+effect:TIMED_INC_NO_RES:STUN
+dice:5d3
+effect:TIMED_INC_NO_RES:STUN
+dice:5d3
 #barrow downs 28-35
 #mage hobbit 30 lvl 150 hp.
-expr:D:DUNGEON_LEVEL:* 4
+effect:DAMAGE
+dice:$B+1d5
+expr:B:PLAYER_LEVEL:* 4
 effect:DRAIN_MANA
 dice:$Dd1
 expr:D:DUNGEON_LEVEL:* 4
-msg_self:It inflicts 5000.. Oops! Once again you've cheated death!
-#msg-death:0:The last enemy that shall be destroyed is death...
+desc:The last enemy that shall be destroyed is death...
+desc: Long time ago this potion was one of the most deadlies of all.
+desc: But it seems time took most of it's harm, it's not so strong anymore...
+msg_self:Once again you've cheated death!
 msg_other: beats in spasms!
 
 name:Ruination
@@ -3685,12 +3737,13 @@ effect:DRAIN_STAT:INT
 dice:1
 effect:DRAIN_STAT:WIS
 dice:1
-effect:TIMED_INC:SCRAMBLE
+effect:TIMED_INC_NO_RES:SCRAMBLE
 dice:20+1d20
 effect:TIMED_INC_NO_RES:SLOW
 dice:5+1d20
-msg_self:Alas! There are some wounds that cannot be wholly cured..
-msg_other: was devastated by sorrow!
+desc:Alas! There are some wounds that cannot be wholly cured..
+msg_self:You are feeling devastated..
+msg_other: was devastated..
 
 name:Detonation
 graphics:!:d
@@ -3700,21 +3753,22 @@ weight:4
 cost:0
 alloc:1:2 to 40
 pile:70:1d3
-attack:1d4:0:0
+attack:1d10:0:0
 armor:0:0
-effect:SPOT:FORCE:2
-dice:$B
-expr:B:DUNGEON_LEVEL:+ 0
+flags:EXPLODE
+effect:TELEPORT
+dice:2
 effect:SPOT:FIRE:0
 dice:4d$S
 expr:S:DUNGEON_LEVEL:/ 2
-effect:TIMED_INC:CUT
-dice:4d$S
-expr:S:DUNGEON_LEVEL:/ 2
-effect:TIMED_INC:IMAGE
+effect:TIMED_INC_NO_RES:CUT
+dice:$B+5d3
+expr:B:PLAYER_LEVEL:* 2
+effect:TIMED_INC_NO_RES:IMAGE
 dice:5+2d10
-msg_self:It's blow up on the attempt to drink it! You are on fire!
-msg_other:was blown by a detonation potion.
+msg_self:You are on fire!
+#msg_self:It's blow up on the attempt to drink it!
+msg_other: was blown by a detonation potion.
 
 ### Weird one ###
 
@@ -5809,7 +5863,8 @@ graphics:,:U
 type:fortune cookie
 level:0
 weight:2
-cost:33
+cost:0
+alloc:1:1 to 100
 effect:COOKIE
 effect:NOURISH:INC_BY
 dice:5
@@ -5834,6 +5889,149 @@ desc:An old glass light source with a crackling emerging from it.
 desc:It can be carried by a handle. You don't think it can be refilled.
 desc:It looks like good idea to throw it and burn your enemies!
 
+name:Ancient Vessel
+graphics:,:U
+type:food
+level:30
+weight:5
+cost:15000
+alloc:10:20 to 100
+effect:ACQUIRE
+dice:1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:-1
+dice:1d3
+effect:SUMMON:AINU:0:-1
+dice:1d5
+effect:SUMMON:AINU:0:-1
+dice:1d10
+effect:RANDOM
+dice:25
+msg_self:You rubbed an ancient vessel...
+desc:Rumours say that such vessels could contain a djinn...
+
+name:Magic Lamp
+graphics:,:U
+type:food
+level:30
+weight:5
+cost:30000
+alloc:5:60 to 100
+#last number is a chance to summon friendly djinn
+effect:ACQUIRE
+dice:1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:50
+dice:1d1
+effect:SUMMON:AINU:0:-1
+dice:1d3
+effect:SUMMON:AINU:0:-1
+dice:1d5
+effect:SUMMON:AINU:0:-1
+dice:1d10
+effect:RANDOM
+dice:25
+msg_self:You rubbed an ancient vessel...
+desc:Rumours say that such lamps could contain a djinn...
+
+name:Cursed Vessel
+graphics:,:U
+type:food
+level:30
+weight:5
+cost:0
+alloc:1:1 to 30
+effect:BATTY
+effect:SUMMON:UNDEAD:0:-1
+dice:1d1
+effect:UNDEAD_FORM
+effect:DARKEN_LEVEL
+msg_self:Why did you touch it!.. It was CURSED!
+desc:It's better to do not touch it.
 
 ##############
 #newbie items#
@@ -5881,6 +6079,8 @@ cost:0
 effect:RECALL
 dice:14+1d20
 desc:This parchment is oily and ragged, but looks readable.
+
+
 
 ##############
 #  NPC chat  #
