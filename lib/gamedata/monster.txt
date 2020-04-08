@@ -593,7 +593,7 @@ force-location:Hunter's Valley
 name:wooden barrel
 base:hybrid
 color:y
-speed:10
+speed:90
 hit-points:1
 hearing:1
 armor-class:0
@@ -2345,7 +2345,7 @@ desc:A fish with a swordlike "beak".
 name:wooden crate
 base:hybrid
 color:y
-speed:10
+speed:90
 hit-points:5
 hearing:1
 armor-class:0
@@ -3980,7 +3980,7 @@ desc:A strange reptilian hybrid.
 name:abandoned cook pot
 base:hybrid
 color:y
-speed:20
+speed:90
 hit-points:1
 hearing:1
 armor-class:0
@@ -3993,7 +3993,7 @@ flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
 flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_60
-spell-freq:80
+spell-freq:100
 spells:S_MONSTER
 desc:Some one made a meal there.. It's sad but pot is empty.
 desc: But it seems that it's owners could be nearby...
@@ -5841,7 +5841,7 @@ desc: scales shimmering red.
 name:dusty statue
 base:hybrid
 color:y
-speed:30
+speed:90
 hit-points:75
 hearing:1
 armor-class:0
@@ -7473,7 +7473,7 @@ desc: things.
 name:ancient obelisk
 base:hybrid
 color:y
-speed:40
+speed:90
 hit-points:150
 hearing:1
 armor-class:0
@@ -9303,7 +9303,7 @@ desc:This fish is among the most poisonous creatures there are.
 name:statue of ancient god
 base:hybrid
 color:y
-speed:50
+speed:90
 hit-points:300
 hearing:1
 armor-class:0

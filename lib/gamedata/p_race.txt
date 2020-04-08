@@ -483,7 +483,6 @@ value:1:CON[-10]
 obj-flag:1:AGGRAVATE
 player-flags:HYDRA
 
-#Black Numenorean
 name:Black Numenorean
 skill-disarm-phys:2
 skill-disarm-magic:3

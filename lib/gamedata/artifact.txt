@@ -1,90 +1,3 @@
-# === Understanding artifact.txt ===
-
-# name: item name
-# base-object: tval : sval
-# graphics: symbol : color
-# level: level
-# weight: weight
-# alloc: allocation probability : min depth : max depth
-# attack: base damage : plus to-hit : plus to-dam
-# armor: base armor class : plus to-armor class
-# flags: flag | flag | etc
-# act: activation
-# time: recharge time
-# msg: alternate message when activated
-# values: label[value] | label[value] | etc.
-# brand: brand code
-# slay: slay code
-# curse: curse name : power
-# desc: description
-
-# 'name' indicates the beginning of an entry.
-
-# 'base-object' is for base object type. The tval is for the type of item, the
-# sval identifies the subtype. If the sval is not a standard object kind
-# as defined in object.txt, the game will generate a special object kind,
-# and these are known as 'special artifacts'.
-
-# 'graphics' is for symbol and color. It is needed for special artifacts.
-
-# 'level' indicates difficulty of any activation.
-
-# 'weight' is in tenth-pounds.
-
-# 'alloc' is for allocation details. alloc_prob is the % chance of the artifact
-# being generated, min depth is the earliest it is normally found, max
-# depth is the deepest it is ever found.
-
-# 'attack' is for combat attack information, the item's base damage and
-# pluses to-hit and to-dam.
-
-# 'armor' is for armor information, the item's base armor class and plus to-ac.
-
-# 'flags' is for object flags as listed in list-object-flags.h. These are
-# fairly self-explanatory. As many flags: lines may be used as are needed to
-# specify all the flags and flags are separated by the '|' symbol.
-
-# 'values' is for properties that take a value and a random expression for that
-# value. Valid properties are object modifiers (as found in list-stats.h and
-# list-object-modifiers.h) and resistances (based on list-elements.h).
-
-# 'brand' is for brands as listed in brand.txt (based on the first 5 entries
-# from list-elements.h).
-
-# 'slay' is for slays as listed in slay.txt (based on racial monster flags in
-# list-mon-race-flags.h or monster bases in monster_base.txt).
-
-# 'act' is for activation. The activation is the effect the artifact
-# activates for.
-
-# 'time' is for recharge time. The recharge time calculates from the recharge
-# time plus a random value between 1 and the recharge time dice (if not 0).
-
-# 'msg' is for activation message text, if different from the regular effect
-# message.
-
-# 'curse' is for curses
-
-# 'desc' is for the artifact description. These appear when the item is 
-# identified. Special thanks to J.R.R Tolkien, without whom the words would
-# be unwritten, the images unconceived, the deed undone.
-# Contributors: Jeff Butler, Neal Hackler, Ethan Sicotte, Pat Tracy,
-# Yuanli Zhou 
-
-### IMPORTANT NOTES ###
-# (1.) Any changes or additions to the file may have influence on randarts
-# and may break savefile compatibility for old savegames with randarts. If
-# using random artifacts, finish your existing game before making any
-# changes to the artifact.txt file at all.
-# (2.) Removing any artifact, or changing its "base" type (as defined by
-# the tval and sval entries in the "base-object:" line), will break savefile
-# compatibility for ALL savefiles.
-# (3.) Adding a new artifact, WILL now affect savefile compatibility for all
-# savefiles.
-
-
-### Light Sources ###
-
 name:of Galadriel
 base-object:light:Phial
 graphics:~:y
@@ -97,7 +10,7 @@ flags:NO_FUEL
 values:LIGHT[4]
 act:ILLUMINATION
 time:10+d10
-desc:A small crystal phial containing the light of Eärendil's Star.
+desc:A small crystal phial containing the light of Earendil's Star.
 desc: Its light is imperishable, and near it darkness cannot endure.
 
 name:of Undeath
@@ -130,7 +43,7 @@ act:MAPPING
 time:50+d50
 desc:The shining Star of the North, a treasured heirloom of Elendil's house.
 
-name:of Thráin
+name:of Thrain
 base-object:light:Arkenstone
 graphics:~:y
 level:50
@@ -253,7 +166,7 @@ time:5+d5
 msg:{name} is covered in acid...
 desc:Despite its name, this dagger will never rust.
 
-name:of Azaghâl
+name:of Azaghal
 base-object:sword:Main Gauche
 level:18
 weight:30
@@ -263,8 +176,8 @@ armor:0:0
 flags:PROT_FEAR | ESP_DRAGON
 values:RES_FIRE[3] | RES_ACID[1]
 slay:DRAGON_5
-desc:Azaghâl, Dwarf-king of Beregost, fell before Glaurung in the Battle
-desc: of Unnumbered Tears. With his final breath, Azaghâl plunged this
+desc:Azaghal, Dwarf-king of Beregost, fell before Glaurung in the Battle
+desc: of Unnumbered Tears. With his final breath, Azaghal plunged this
 desc: blade into Glaurung's belly with such a blow that the Father of Dragons
 desc: fled the field with all his kin, and was at first believed to be mortally
 desc: wounded.
@@ -281,7 +194,7 @@ values:INT[3] | DEX[3]
 slay:TROLL_3
 slay:GIANT_3
 desc:A short thrusting blade with a large guard worn by the eldest son of
-desc: Fëanor, Maedhros the Tall, who lost his right hand while escaping
+desc: Feanor, Maedhros the Tall, who lost his right hand while escaping
 desc: from Angband.
 
 name:'Forasgil'
@@ -412,7 +325,7 @@ desc: of ice lit by light unquenchable. Morgoth came but unwillingly to meet it
 desc: of old; his lame foot will remind him of its might should he face it
 desc: again.
 
-name:'Andúril'
+name:'Anduril'
 base-object:sword:Long Sword
 level:20
 weight:130
@@ -445,7 +358,7 @@ values:RES_ELEC[1] | RES_LIGHT[1] | RES_DARK[1]
 brand:POIS_3
 slay:EVIL_2
 slay:DEMON_3
-desc:Forged of meteoric iron by Eöl the Dark Elf, and as deadly as any
+desc:Forged of meteoric iron by Eol the Dark Elf, and as deadly as any
 desc: other blade he forged.
 
 name:'Elvagil'
@@ -477,7 +390,7 @@ desc:Dark flames wreath the naked steel of the Witch-King of Angmar.
 desc: A mighty curse to all those who wield it apart from its master,
 desc: the torture of the wraithworld awaits those who dare.
 
-name:'Aranrúth'
+name:'Aranruth'
 base-object:sword:Broad Sword
 level:20
 weight:150
@@ -544,7 +457,7 @@ desc:This sword has runes of power incused on its ornate hilt, and a single
 desc: blood channel that gleams coldly blue as you grasp this mighty weapon of
 desc: peril.
 
-name:of Éowyn
+name:of Eowyn
 base-object:sword:Bastard Sword
 level:30
 weight:140
@@ -586,7 +499,7 @@ values:STR[2] | RES_FIRE[1] | RES_POIS[1]
 brand:FIRE_3
 brand:POIS_3
 slay:DRAGON_5
-desc:A giant sword once wielded by mighty Túrin, and an even greater dragonbane;
+desc:A giant sword once wielded by mighty Turin, and an even greater dragonbane;
 desc: for what worm could stand against the blade that bathed in Glaurung's
 desc: blood?
 
@@ -936,7 +849,7 @@ slay:EVIL_2
 slay:UNDEAD_5
 desc:Calling lost souls to redemption, this maul drives out evil spirits.
 
-name:of Aulë
+name:of Aule
 base-object:hafted:Great Hammer
 level:40
 weight:180
@@ -951,7 +864,7 @@ slay:DRAGON_5
 slay:EVIL_2
 slay:UNDEAD_3
 slay:DEMON_3
-desc:The wondrous hammer of Aulë, creator of the wise Dwarven lords of old.
+desc:The wondrous hammer of Aule, creator of the wise Dwarven lords of old.
 desc: It bears demolishing magics that no serpent or demon can withstand, and
 desc: invokes the strength of mountains to ward off the tumult of the elements.
 
@@ -1030,7 +943,7 @@ time:35
 desc:The mighty spear of Gil-galad, famed as "Snow-point" in the songs of Elves.
 desc: Against it, all the foul corruptions of Sauron dashed in vain.
 
-name:of Oromë
+name:of Orome
 base-object:polearm:Spear
 level:15
 weight:50
@@ -1044,7 +957,7 @@ slay:GIANT_3
 slay:ANIMAL_2
 act:STONE_TO_MUD
 time:5
-desc:The thrusting spear of wise Oromë the Vala, strong against giants of frost,
+desc:The thrusting spear of wise Orome the Vala, strong against giants of frost,
 desc: and able to pierce rock or flesh with ease.
 
 name:'Nimloth'
@@ -1121,7 +1034,7 @@ slay:ANIMAL_2
 act:TELE_OTHER
 time:50
 desc:The awesome weapon of the Vala Ulmo, Lord of Waters. Mightiest of all the
-desc: powers of good save Manwë himself, Ulmo laughs to scorn the dread powers
+desc: powers of good save Manwe himself, Ulmo laughs to scorn the dread powers
 desc: of the undead, and is utterly in command of the Element of water.
 
 name:'Osondir'
@@ -1174,7 +1087,7 @@ slay:ANIMAL_2
 desc:An axe of amok, cracking skulls and splitting torsos, causing
 desc: mad terror and showing no mercy to anything in its way.
 
-name:of Théoden
+name:of Theoden
 base-object:polearm:Beaked Axe
 level:20
 weight:180
@@ -1189,7 +1102,7 @@ time:40
 desc:The narrow axe head of this weapon would pierce the armour of a very
 desc: Dragon, and the designs of your enemies stand naked and revealed.
 
-name:of Húrin
+name:of Hurin
 base-object:polearm:Beaked Axe
 level:20
 weight:180
@@ -1204,11 +1117,11 @@ slay:TROLL_3
 slay:DEMON_5
 act:BERSERKER
 time:80+d80
-desc:Wielded by Húrin Thalion, last lord of Dor-Lómin at the Battle
+desc:Wielded by Hurin Thalion, last lord of Dor-Lómin at the Battle
 desc: of Tears Unnumbered. He stood alone, his friends and kinsmen
 desc: dead about him, his axe smoking in the black blood of Gothmog's
 desc: troll-guard. No less than seventy times, as he slew his foes,
-desc: did he utter his mighty war-cry: "Aurë entuluva!" - "Day shall
+desc: did he utter his mighty war-cry: "Aure entuluva!" - "Day shall
 desc: come again!"
 
 name:'Barukkheled'
@@ -1325,7 +1238,7 @@ desc:The twin massive axe heads of this ancient demon's dread gleam with
 desc: mithril inlay telling sagas of endurance. The powers of
 desc: Khazad-dûm protect its wielder and slay all evils found underground.
 
-name:of Eönwë
+name:of Eonwe
 base-object:polearm:Great Axe
 level:40
 weight:230
@@ -1341,7 +1254,7 @@ slay:DEMON_5
 slay:ORC_3
 act:LOSKILL
 time:1000
-desc:The axe of Eönwë, leader of the Hosts of the West in the War of
+desc:The axe of Eonwe, leader of the Hosts of the West in the War of
 desc: Wrath, strikes with icy wrath at the undead, disperses hosts of
 desc: evil at a word, and grants Maia-like powers of body and mind.
 
@@ -1507,7 +1420,7 @@ attack:0d0:12:15
 armor:0:0
 flags:REGEN
 values:STR[2] | CON[2] | MIGHT[2] | RES_FIRE[1] | RES_ELEC[1] | RES_COLD[1]
-desc:One of a pair of hunting bows once belonging to Fëanor's two youngest
+desc:One of a pair of hunting bows once belonging to Feanor's two youngest
 desc: sons. The bows are like and yet unlike, much as the twin brothers were.
 
 name:of Amras
@@ -1520,7 +1433,7 @@ armor:0:0
 flags:SLOW_DIGEST
 values:INT[2] | WIS[2] | DEX[2] | SHOTS[5] | MIGHT[1] | SPEED[1] |
 values:RES_FIRE[1] | RES_ELEC[1] | RES_COLD[1]
-desc:One of a pair of hunting bows once belonging to Fëanor's two youngest
+desc:One of a pair of hunting bows once belonging to Feanor's two youngest
 desc: sons. The bows are like and yet unlike, much as the twin brothers were.
 
 name:'Belthronding'
@@ -1531,7 +1444,7 @@ alloc:5:40 to 127
 attack:0d0:20:22
 armor:0:0
 values:DEX[3] | SPEED[1] | STEALTH[1] | SHOTS[10] | RES_DISEN[1]
-desc:The great bow of Beleg Cúthalion, the most famous archer of the Elves.
+desc:The great bow of Beleg Cuthalion, the most famous archer of the Elves.
 desc: Its backbone of black yew holds strings of bear sinew, and of old, only
 desc: Beleg himself could draw them.
 
@@ -1676,7 +1589,7 @@ flags:AMMO_MAGIC
 slay:DRAGON_3
 slay:UNDEAD_3
 slay:DEMON_3
-desc:An unerring, ever-returning arrow that belonged to Beleg Cúthalion.
+desc:An unerring, ever-returning arrow that belonged to Beleg Cuthalion.
 
 name:'Travak'
 base-object:bolt:Bolt
@@ -1822,7 +1735,7 @@ flags:SUST_STR | SUST_CON
 values:TUNNEL[3] | STR[3] | CON[3]
 desc:The pick of Azog, which granted him strength and stamina.
 
-name:of Náin
+name:of Nain
 base-object:digger:Mattock
 level:60
 weight:250
@@ -1834,9 +1747,9 @@ values:TUNNEL[6] | INFRA[4] | SEARCH[4] | STR[4] | RES_DARK[1] | RES_DISEN[1]
 act:STONE_TO_MUD
 time:2
 desc:A mighty Dwarven mattock, as good for hewing orc-necks as for hewing
-desc: stone. Náin, King of the Iron Hills, brought his mattock-wielding
+desc: stone. Nain, King of the Iron Hills, brought his mattock-wielding
 desc: warriors to the Battle of Azanulbizar, and no Orc could withstand them,
-desc: although Náin himself fell before their lord Azog.
+desc: although Nain himself fell before their lord Azog.
 
 
 ### Boots ###
@@ -1852,7 +1765,7 @@ values:STEALTH[4] | SPEED[4]
 desc:Footgear made of bear leather and set with opals, which grant the wearer
 desc: silent, hasted movement.
 
-name:of Fëanor
+name:of Feanor
 base-object:boots:Pair of Leather Boots
 level:40
 weight:20
@@ -1862,7 +1775,7 @@ armor:2:20
 values:SPEED[15] | RES_NEXUS[1]
 act:HASTE
 time:200
-desc:This wondrous pair of leather boots once sped Fëanor, creator of the
+desc:This wondrous pair of leather boots once sped Feanor, creator of the
 desc: Silmarils and the mightiest of the Eldar, to fulfill his hero's challenge
 desc: and do battle for a Middle-Earth held in thrall. "Dear-bought those songs
 desc: shall be accounted, and yet shall be well-bought. For the price could be
@@ -1896,7 +1809,7 @@ act:TELE_PHASE
 time:20
 msg:Your {kind} twist{s} space around you.
 desc:A pair of running shoes once used by the treacherous Gríma son of
-desc: Gálmód, the Wormtongue of Edoras. They are aptly suited for a
+desc: Galmód, the Wormtongue of Edoras. They are aptly suited for a
 desc: messenger, a servant, a spy... or a coward.
 
 name:of Radagast
@@ -2027,7 +1940,7 @@ values:STR[4] | CON[4] | DEX[2] | STEALTH[-1] |
 values:RES_ACID[1] | RES_ELEC[1] | RES_FIRE[1] | RES_COLD[1]
 desc:The legendary Dragon-helm, forged by one of the legendary Dwarven smiths
 desc: of the First Age. The visage of mighty Glaurung forms its crest, and the
-desc: mere sight of the helm, borne by Túrin Turambar, struck dread into the
+desc: mere sight of the helm, borne by Turin Turambar, struck dread into the
 desc: hearts of the servants of Morgoth.
 
 name:'Holhenneth'
@@ -2112,7 +2025,7 @@ desc: into the Kheled-zaram. Passed down to each Lord of Khazad-dum,
 desc: till Durin III was slain. Found by Balin son of Fundin, 
 desc: Uzbadkhazaddumu, the last Lord of Moria.
 
-name:of Berúthiel
+name:of Beruthiel
 base-object:crown:Iron Crown
 level:45
 weight:20
@@ -2121,7 +2034,7 @@ attack:1d1:0:0
 armor:0:20
 flags:FREE_ACT | SEE_INVIS | ESP_ALL
 values:CON[-5] | STR[-3] | DEX[-3]
-desc:The midnight-hued steel circlet of the sorceress-queen Berúthiel. It
+desc:The midnight-hued steel circlet of the sorceress-queen Beruthiel. It
 desc: grants extraordinary powers of sight and awareness at a terrible physical
 desc: cost.
 
@@ -2150,10 +2063,10 @@ values:STR[3] | CON[3] | WIS[2] | LIGHT[1] | RES_COLD[1] | RES_FIRE[1] |
 values:RES_LIGHT[1]
 act:CURE_FULL500
 time:250
-desc:From dying Númenor, Elendil brought this shining winged circlet, emblem
+desc:From dying Numenor, Elendil brought this shining winged circlet, emblem
 desc: of Gondor through an age of the world.
 
-name:of Númenor
+name:of Numenor
 base-object:crown:Jewel Encrusted Crown
 level:60
 weight:40
@@ -2164,7 +2077,7 @@ flags:SEE_INVIS | FREE_ACT | PROT_STUN | PROT_BLIND
 values:INT[3] | SEARCH[3] | DEX[2] | LIGHT[1] |
 values:RES_SHARD[1] | RES_COLD[1] | RES_LIGHT[1] | RES_DARK[1]
 desc:A massive golden crown, set with wondrous jewels of thought and warding,
-desc: once worn by the kings of ancient Númenor.
+desc: once worn by the kings of ancient Numenor.
 
 
 ### Light Armour ###
@@ -2543,7 +2456,7 @@ desc:The fabled cloak of the Druedain that will protect those who wear it
 desc: from darkness and poison attacks. It also aids in the seeing of
 desc: warm blooded creatures.
 
-name:of Lúthien
+name:of Luthien
 base-object:cloak:Elven Cloak
 level:40
 weight:5
@@ -2556,7 +2469,7 @@ act:RESTORE_LIFE
 time:250
 desc:The opaque midnight folds of this cloak, inlaid with a multitude of tiny
 desc: diamonds, swirl around you, and you feel a hint, a fragment of the
-desc: restorative magics of Lúthien, the most beautiful being who ever knew
+desc: restorative magics of Luthien, the most beautiful being who ever knew
 desc: death.
 
 name:of Tuor
@@ -2679,7 +2592,7 @@ values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1]
 desc:A pair of weakening gauntlets, named after Beren, who returned to Thingol
 desc: having lost to Carcharoth the hand that clasped a Silmaril.
 
-name:of Eöl
+name:of Eol
 base-object:gloves:Set of Gauntlets
 level:55
 weight:25
@@ -2690,7 +2603,7 @@ flags:FREE_ACT | FEATHER | AGGRAVATE
 values:INT[3] | RES_ELEC[1] | RES_DARK[1] | RES_POIS[1] | RES_FIRE[3]
 act:MANA_BOLT
 time:30+d30
-desc:The iron-shod gauntlets of the Dark Elven smith Eöl, who imbued them with
+desc:The iron-shod gauntlets of the Dark Elven smith Eol, who imbued them with
 desc: magics he could channel in battle.
 
 name:'Wrath Verge'
@@ -2759,7 +2672,7 @@ attack:1d1:0:0
 armor:2:20
 flags:PROT_CONF | HOLD_LIFE
 values:CON[4] | WIS[1] | INT[1] | RES_ELEC[1] | RES_SHARD[1]
-desc:The shield of Elros Tar-Minyatur, founder of Númenor. Granted long
+desc:The shield of Elros Tar-Minyatur, founder of Numenor. Granted long
 desc: life by the Valar, even his shield became imbued with power.
 
 name:of Thorin
@@ -2803,7 +2716,7 @@ desc:The painted shield of a chieftain of Far Harad, gaudy and barbaric.
 desc: Its wielder will fear nothing and fight with unnatural strength, but
 desc: also draw attention to himself.
 
-name:of Anárion
+name:of Anarion
 base-object:shield:Large Metal Shield
 level:40
 weight:120
@@ -2812,10 +2725,10 @@ attack:1d5:0:0
 armor:12:20
 flags:SUST_STR | SUST_INT | SUST_WIS | SUST_DEX | SUST_CON
 values:RES_ACID[1] | RES_ELEC[1] | RES_FIRE[1] | RES_COLD[1]
-desc:The great metal-bound shield of Elendil's younger son Anárion, whom
+desc:The great metal-bound shield of Elendil's younger son Anarion, whom
 desc: even Sauron could not corrupt.
 
-name:of Eärendil
+name:of Earendil
 base-object:shield:Knight's Shield
 level:65
 weight:160
@@ -2827,7 +2740,7 @@ values:RES_DARK[1] | RES_NETHER[1] | RES_ELEC[1] | RES_FIRE[1] | LIGHT[1]
 act:CURE_TEMP
 time:100
 msg:Your {kind} throbs deep blue...
-desc:A shining shield wrought for Eärendil Half-Elven, son of Tuor and Idril,
+desc:A shining shield wrought for Earendil Half-Elven, son of Tuor and Idril,
 desc: "scored with runes to keep all wounds and harm from him".
 
 name:of Gil-galad
@@ -2978,7 +2891,7 @@ act:PROTEVIL
 time:225+d225
 desc:A fiery circle of bronze, with mighty spells to ward off and banish evil.
 
-name:of Ingwë
+name:of Ingwe
 base-object:amulet:Pendant
 graphics:":d
 level:65
@@ -2988,7 +2901,7 @@ flags:SEE_INVIS | FREE_ACT | PROT_CONF
 values:INT[3] | WIS[3] | INFRA[4] | RES_ACID[1] | RES_COLD[1] | RES_ELEC[1]
 act:DISPEL_EVIL
 time:50+d50
-desc:The ancient heirloom of Ingwë, high lord of the Vanyar, against whom
+desc:The ancient heirloom of Ingwe, high lord of the Vanyar, against whom
 desc: nothing of evil could stand.
 
 name:of the Dwarves
@@ -3000,7 +2913,7 @@ alloc:2:50 to 127
 flags:SEE_INVIS | FREE_ACT | REGEN | PROT_FEAR
 values:STR[3] | CON[3] | INFRA[5] | LIGHT[1]
 desc:The Nauglamír, a carcanet of gold set with a multitude of shining
-desc: gems of Valinor. The radiant Silmaril of Fëanor hangs in its midst
+desc: gems of Valinor. The radiant Silmaril of Feanor hangs in its midst
 desc: as its crowning glory. The sturdy spirits of Dwarvish craftsmen who
 desc: labored long in mountain smithies lie within it still, and as gossamer
 desc: it rests upon the bearer.
@@ -3060,11 +2973,11 @@ values:INT[2] | WIS[2] | SEARCH[3] | INFRA[3] | LIGHT[1] | RES_FIRE[3]
 act:CLAIRVOYANCE
 time:50+d50
 desc:A red jewel, one of the two Silmarils that were reclaimed by the last sons
-desc: of Fëanor after the War of Wrath. If the Silmaril taken by Maedhros was
+desc: of Feanor after the War of Wrath. If the Silmaril taken by Maedhros was
 desc: lost forever into a fiery pit, this Silmaril, once held by Maglor and
 desc: thrown away into a deep sea, was later found and mounted as a necklace.
 desc: But beware... Though this amulet will grant the wearer great powers, it
-desc: will still carry the original Fëanorian curse!
+desc: will still carry the original Feanorian curse!
 
 
 ### Dragon Scale Mails ###

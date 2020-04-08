@@ -482,6 +482,7 @@ normal:fortune cookie:Fortune Cookie:10:300
 normal:food:Flask of Whisky:2:150
 normal:food:Pint of Fine Wine:5:150
 normal:food:Pint of Fine Ale:3:150
+normal:potion:Resist Poison:1:500
 normal:potion:Healing:1:500
 normal:potion:Speed:1:500
 normal:potion:Restore Mana:1:500
