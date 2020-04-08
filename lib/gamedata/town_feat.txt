@@ -65,6 +65,7 @@ feat:@:7:Danny the dog
 feat:@:8:Arthur the Archer
 feat:@:9:Old man
 feat:@:a:Boris the Guard
+feat:@:b:Tom Bombadil
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

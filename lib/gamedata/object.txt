@@ -7102,3 +7102,419 @@ weight:5
 cost:99999999
 desc:.
 
+name:Hey dol! merry dol! ring a dong dillo!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Ring a dong! hop along! Fal lal the willow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom Bom, jolly Tom, Tom Bombadillo!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hey! Come merry dol! derry dol! My darling!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Light goes weather-wind n the feathered starling!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Down along under Hill, shining in the sunlight!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Waiting on the doorstep for the cold starlight!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:There my pretty lady is, River-woman's daughter!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Slender as willow-wand, clearer than the water!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Old Tom Bombadil water-lilies bringing!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Comes hopping home again. Can y hear him singing?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hey! Come merry dol! derry dol! and merry-o!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Goldberry, Goldberry, merry yellow berry-o!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Poor old Willow-man, you tuck your roots away!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom's in a hurry now. Evening will follow day.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom's going home again water-lilies bringing.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hey! Come derry dol! Can you hear me singing?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hop along, my little friends, up the Withywindle!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom's going on ahead candles for to kindle!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Down west sinks the Sun - soon you'll be groping!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:When night-shadows fall, then the door will open!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Out of window-panes light will twinkle yellow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Fear no alder black! Heed no hoary willow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Fear neighter root nor bough! 
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom goes on before you!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hey now! merry dol! We'll be waiting for you!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hey! Come derry dol! Hop along, my hearties!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Hobbits! Ponies all! We are fond of parties.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now let the fun begin! Let us sing together!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now let the song begin! Let us sing together!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Of sun, stars, moon and mist!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Rain and cloudy weather!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Light on the budding leaf, dew on the feather!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Wind on the open hill, bells on the heather!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Reeds by the shady pool, lilies on the water!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Old Tom Bombadil and the River-daughter!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I had an errand there - gathering water-lilies!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Green leaves and lilies white for my pretty lady!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Ho! Tom Bombadil, Tom Bombadillo!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:By water, wood and hill, by the reed and willow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:By fire, sun and moon, harken now and hear us!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Come, Tom Bombadil, for our need is near us!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Old Tom Bombadil is a merry fellow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Bright blue his jacket is, n his boots ar yellow!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Non hs evr caugt him et, for Tom, he's th master!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:His songs ar stronger songs, n his feet r faster!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Wake now my merry lads! Wake and hear me calling!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Warm now be heart and limb!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The cold stone is fallen!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Dark door is standing wide; dead hand is broken!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Night under Night is flown, and the Gate is open!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Tom has his house to mind, n Goldbery is waiting!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+

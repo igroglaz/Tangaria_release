@@ -1709,6 +1709,7 @@ monster:Carrion crawler:0x91:0xA7
 monster:Killer red beetle:0x93:0x94
 monster:Giant brown tick:0x8F:0xAB
 monster:Old Man Willow:0xA0:0x8B
+monster:Tom Bombadil:0x9C:0xCC
 monster:Giant firefly:0x8F:0xAE
 monster:Giant grey ant:0x91:0x84
 #Ogre priest like player
@@ -2408,6 +2409,18 @@ feat:Boris the Guard:torch:0x9E:0xA8
 feat:Boris the Guard:los:0x9E:0xA9
 feat:Boris the Guard:lit:0x9E:0xAA
 feat:Boris the Guard:dark:0x9E:0xAB
+
+# 9E NPC a 
+feat:Boris the Guard:torch:0x9E:0xA8
+feat:Boris the Guard:los:0x9E:0xA9
+feat:Boris the Guard:lit:0x9E:0xAA
+feat:Boris the Guard:dark:0x9E:0xAB
+
+# 9E NPC b
+feat:Tom Bombadil:torch:0x9E:0xAC
+feat:Tom Bombadil:los:0x9E:0xAD
+feat:Tom Bombadil:lit:0x9E:0xAE
+feat:Tom Bombadil:dark:0x9E:0xAF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

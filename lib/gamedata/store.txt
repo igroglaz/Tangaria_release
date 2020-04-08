@@ -605,6 +605,86 @@ normal:fortune cookie:Life is tought. I had enought scars on my face.
 normal:fortune cookie:You would understand me one day.
 buy:flask
 
+#town
+store:Tom Bombadil
+owner:5000:Tom Bombadil
+owner:5000:Tom Bombadil
+slots:8:52
+turnover:7
+welcome:0:blinks.
+welcome:1:smiles.
+welcome:2:grinds.
+welcome:3:giggles.
+welcome:4:chuckles.
+welcome:5:snickers.
+welcome:6:sniggers.
+welcome:7:chortles.
+welcome:8:laughs.
+#######################################################################
+normal:fortune cookie:Hey dol! merry dol! ring a dong dillo!
+normal:fortune cookie:Ring a dong! hop along! Fal lal the willow!
+normal:fortune cookie:Tom Bom, jolly Tom, Tom Bombadillo!
+#######################################################################
+normal:fortune cookie:Hey! Come merry dol! derry dol! My darling!
+normal:fortune cookie:Light goes weather-wind n the feathered starling!
+normal:fortune cookie:Down along under Hill, shining in the sunlight!
+normal:fortune cookie:Waiting on the doorstep for the cold starlight!
+normal:fortune cookie:There my pretty lady is, River-woman's daughter!
+normal:fortune cookie:Slender as willow-wand, clearer than the water!
+normal:fortune cookie:Old Tom Bombadil water-lilies bringing!
+normal:fortune cookie:Comes hopping home again. Can y hear him singing?
+normal:fortune cookie:Hey! Come merry dol! derry dol! and merry-o!
+normal:fortune cookie:Goldberry, Goldberry, merry yellow berry-o!
+normal:fortune cookie:Poor old Willow-man, you tuck your roots away!
+normal:fortune cookie:Tom's in a hurry now. Evening will follow day.
+normal:fortune cookie:Tom's going home again water-lilies bringing.
+normal:fortune cookie:Hey! Come derry dol! Can you hear me singing?
+#######################################################################
+normal:fortune cookie:Hop along, my little friends, up the Withywindle!
+normal:fortune cookie:Tom's going on ahead candles for to kindle!
+normal:fortune cookie:Down west sinks the Sun - soon you'll be groping!
+normal:fortune cookie:When night-shadows fall, then the door will open!
+normal:fortune cookie:Out of window-panes light will twinkle yellow!
+normal:fortune cookie:Fear no alder black! Heed no hoary willow!
+normal:fortune cookie:Fear neighter root nor bough! 
+normal:fortune cookie:Tom goes on before you!
+normal:fortune cookie:Hey now! merry dol! We'll be waiting for you!
+#######################################################################
+normal:fortune cookie:Hey! Come derry dol! Hop along, my hearties!
+normal:fortune cookie:Hobbits! Ponies all! We are fond of parties.
+normal:fortune cookie:Now let the fun begin! Let us sing together!
+#######################################################################
+normal:fortune cookie:Now let the song begin! Let us sing together!
+normal:fortune cookie:Of sun, stars, moon and mist!
+normal:fortune cookie:Rain and cloudy weather!
+normal:fortune cookie:Light on the budding leaf, dew on the feather!
+normal:fortune cookie:Wind on the open hill, bells on the heather!
+normal:fortune cookie:Reeds by the shady pool, lilies on the water!
+normal:fortune cookie:Old Tom Bombadil and the River-daughter!
+#######################################################################
+# this song wont fit entirely (why he was down at Old Man Willow):
+normal:fortune cookie:I had an errand there - gathering water-lilies!
+normal:fortune cookie:Green leaves and lilies white for my pretty lady!
+#######################################################################
+normal:fortune cookie:Ho! Tom Bombadil, Tom Bombadillo!
+normal:fortune cookie:By water, wood and hill, by the reed and willow!
+normal:fortune cookie:By fire, sun and moon, harken now and hear us!
+normal:fortune cookie:Come, Tom Bombadil, for our need is near us!
+#######################################################################
+normal:fortune cookie:Old Tom Bombadil is a merry fellow!
+normal:fortune cookie:Bright blue his jacket is, n his boots ar yellow!
+normal:fortune cookie:Non hs evr caugt him et, for Tom, he's th master!
+normal:fortune cookie:His songs ar stronger songs, n his feet r faster!
+#######################################################################
+## excluded exorcism song
+normal:fortune cookie:Wake now my merry lads! Wake and hear me calling!
+normal:fortune cookie:Warm now be heart and limb!
+normal:fortune cookie:The cold stone is fallen!
+normal:fortune cookie:Dark door is standing wide; dead hand is broken!
+normal:fortune cookie:Night under Night is flown, and the Gate is open!
+#######################################################################
+normal:fortune cookie:Tom has his house to mind, n Goldbery is waiting!
+buy:flask
 
 # Black Market - x3 price no stock given but we still need slot/turnover info
 store:Black Market

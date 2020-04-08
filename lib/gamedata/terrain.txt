@@ -291,6 +291,15 @@ flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:18:0
 desc:.
 
+name:Tom Bombadil
+graphics:@:s
+priority:18
+################################################################################
+short-desc:Wrinkled and ruddy face, bright blue eyes and a bristling brown beard
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:19:0
+desc:.
+
 
 ############################################################################
 ################# CUSTOM SHOPS END #########################################
