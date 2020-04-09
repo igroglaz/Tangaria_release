@@ -609,17 +609,17 @@ buy:flask
 store:Tom Bombadil
 owner:5000:Tom Bombadil
 owner:5000:Tom Bombadil
-slots:8:52
+slots:12:13
 turnover:7
-welcome:0:blinks.
-welcome:1:smiles.
-welcome:2:grinds.
-welcome:3:giggles.
-welcome:4:chuckles.
-welcome:5:snickers.
-welcome:6:sniggers.
-welcome:7:chortles.
-welcome:8:laughs.
+welcome:0:blinks!
+welcome:1:smiles!
+welcome:2:grinds!
+welcome:3:giggles!
+welcome:4:chuckles!
+welcome:5:snickers!
+welcome:6:sniggers!
+welcome:7:chortles!
+welcome:8:laughs!
 #######################################################################
 normal:fortune cookie:Hey dol! merry dol! ring a dong dillo!
 normal:fortune cookie:Ring a dong! hop along! Fal lal the willow!
