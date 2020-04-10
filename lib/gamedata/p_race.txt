@@ -432,8 +432,8 @@ value:50:RES_ELEC[1]
 player-flags:THUNDERLORD
 
 name:Dragon
-skill-disarm-phys:-16
-skill-disarm-magic:-16
+skill-disarm-phys:-33
+skill-disarm-magic:-33
 skill-device:-16
 skill-save:10
 skill-stealth:-16

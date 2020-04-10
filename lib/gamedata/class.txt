@@ -252,7 +252,7 @@ desc: The chance to get a beam goes up with your character level.
 
 spell:Detect Monsters:1:1:23:4:0
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:13:13
+effect-yx:14:14
 desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
@@ -4665,3 +4665,8 @@ dice:$B+10d10
 expr:B:PLAYER_LEVEL:* 5
 msg_other: invokes a darkness storm.
 desc:Shoots a radius-3 darkness ball.
+
+
+############### Cliric ###############
+############### Wizard ###############
+############### Fighter ###############

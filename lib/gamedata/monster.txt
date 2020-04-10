@@ -621,7 +621,7 @@ hearing:40
 armor-class:30
 sleepiness:20
 depth:1
-rarity:5
+rarity:7
 weight:0
 experience:4
 blow:CRUSH:HURT:1d3
@@ -633,6 +633,30 @@ spell-freq:13
 spells:BLINK
 desc:A very strange near-sentient tree, which has become hostile 
 desc: to other living things.
+
+#was huorn
+name:lonely tree
+base:tree
+color:G
+speed:100
+hit-points:50
+light:-2
+hearing:40
+armor-class:30
+sleepiness:20
+depth:1
+rarity:4
+weight:0
+experience:4
+blow:CRUSH:HURT:1d3
+blow:CRUSH:HURT:1d3
+blow:CRUSH:HURT:1d3
+flags:DROP_40 | NO_SLEEP | WEIRD_MIND
+flags:IM_COLD | NEVER_MOVE
+spell-freq:13
+spells:BLINK
+desc:They say that staying near lonely tree at thunderstorm could be dangerous
+desc: But actually staying nearby such tree could be deadly in any weather.
 
 #was Mirkwood spider
 name:Weaver spider
@@ -16050,7 +16074,7 @@ flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:2
 spell-power:40
-spells:BLIND | WOUND | WOUND | HEAL | HOLD | HEAL_KIN
+spells:BLIND | WOUND | MISSILE | HEAL | HOLD | HEAL_KIN
 spells:S_MONSTER | S_UNDEAD
 spells:ANIM_DEAD
 drop-base:prayer book:10:1:1
@@ -17291,8 +17315,8 @@ blow:TOUCH:LOSE_ALL:4d4
 blow:TOUCH:DRAIN_CHARGES
 flags:FRIGHTENED | SMART
 flags:REGENERATE | ANIMAL
-flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD
-flags:IM_ACID | IM_ELEC
+flags:NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD
+flags:IM_ACID | IM_ELEC | IM_POIS
 spell-freq:4
 spell-power:44
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY
@@ -17350,7 +17374,7 @@ flags:NO_FEAR | NO_CONF | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | IM_NEXUS | IM_DISEN | IM_NETHER | NO_STUN
 spell-freq:4
 spell-power:44
-spells:BLIND | WOUND | WOUND | HASTE | HEAL | SCARE
+spells:BLIND | WOUND | MISSILE | HASTE | HEAL | SCARE
 drop-base:prayer book:10:1:1
 friends:30:1d1:master thief
 friends:30:1d1:ranger chieftain
@@ -18550,7 +18574,7 @@ flags:NO_STUN | NO_CONF | LEVITATE
 flags-off:TAKE_ITEM
 spell-freq:3
 spell-power:49
-spells:BLIND | WOUND | WOUND | SCARE | TELE_TO
+spells:BLIND | WOUND | MISSILE | SCARE | TELE_TO
 spells:BO_NETH
 spells:S_DEMON
 desc:An angelic being, who was mighty once, but dared defy its Creator.
@@ -19259,6 +19283,40 @@ desc:A 13-headed hydra with one extra head which reeks of death.
 
 ### Dungeon level 54 ###
 
+name:mutant telepath
+base:person
+color:Y
+speed:125
+hit-points:1500
+light:2
+hearing:20
+armor-class:85
+sleepiness:10
+depth:54
+rarity:4
+weight:170
+experience:7000
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+blow:HIT:HURT:5d5
+flags:EVIL | SMART | MALE
+flags:DROP_CORPSE | DROP_SKELETON | ONLY_ITEM | DROP_3
+flags:TAKE_ITEM | MOVE_BODY
+flags:IM_FIRE | IM_ELEC | IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | NO_STUN
+flags:FORCE_SLEEP | NO_HOLD
+spell-freq:2
+spells:BLINK | BRAIN_SMASH | HEAL | MIND_BLAST | DRAIN_MANA | SCARE
+spells:TPORT
+spells:BA_COLD | BA_FIRE
+spells:BO_NETH
+spells:S_MONSTERS
+drop-base:psi book:7:1:1
+desc:A poor soul who get in a wrong place in a wrong time and partially
+desc: become an abomination. But maybe he deserved it as in 'previous' life
+desc: he was a mischievous evil man: a master of mind manipulation, he subdued
+desc: others, so they will follow him slavishly into the battle.
+
 name:ent
 base:tree
 color:U
@@ -19275,13 +19333,39 @@ blow:CRUSH:HURT:8d8
 blow:CRUSH:HURT:8d8
 blow:HIT:SHATTER:4d8
 blow:HIT:SHATTER:4d8
-flags:DROP_40 | NO_SLEEP | WEIRD_MIND
-flags:IM_COLD
+flags:DROP_40 | WEIRD_MIND
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS | IM_DISEN | IM_NETHER
+flags:IM_NEXUS | NO_CONF | NO_SLEEP | NO_HOLD | NO_SLOW | NO_STUN
 spell-freq:9
 spells:DRAIN_MANA | FORGET | HEAL | HOLD
 spells:TPORT | SLOW | TELE_TO | BOULDER
 desc:Ents are not altogether on anybody's side, because nobody is altogether on
 desc: their side. This one does not seem to be on your side.
+
+name:entwife
+base:tree
+color:U
+speed:125
+hit-points:3500
+hearing:40
+armor-class:160
+sleepiness:20
+depth:54
+rarity:9
+weight:3500
+experience:7500
+blow:CRUSH:HURT:8d8
+blow:CRUSH:HURT:8d8
+blow:HIT:SHATTER:4d8
+blow:HIT:SHATTER:4d8
+flags:DROP_40 | WEIRD_MIND | FRIGHTENED | SMART
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS | IM_DISEN | IM_NETHER
+flags:IM_NEXUS | NO_CONF | NO_SLEEP | NO_HOLD | NO_SLOW | NO_STUN
+spell-freq:9
+spells:DRAIN_MANA | FORGET | HEAL
+spells:TPORT | SLOW | WOUND | BA_LIGHT
+desc:Hair parched by the sun to the hue of ripe corn and their cheeks like
+desc: red apples. Yet their eyes were still the eyes of ents.
 
 name:The Phoenix
 base:bird
@@ -19423,7 +19507,7 @@ flags:DROP_4
 flags:IM_COLD | IM_ELEC | IM_POIS
 spell-freq:5
 spell-power:54
-spells:BRAIN_SMASH | WOUND | WOUND | DARKNESS | DRAIN_MANA
+spells:BRAIN_SMASH | WOUND | MISSILE | DARKNESS | DRAIN_MANA
 spells:BO_NETH | TELE_TO | TPORT | HEAL
 spells:S_UNDEAD
 spells:HOLD | SCARE
@@ -19606,7 +19690,7 @@ flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
 flags:NO_STUN | NO_CONF | LEVITATE
 spell-freq:3
 spell-power:55
-spells:BLIND | WOUND | WOUND | SCARE | TELE_TO | HEAL | MISSILE
+spells:BLIND | WOUND | BA_LIGHT | SCARE | TELE_TO | HEAL | MISSILE
 spells:BO_MANA
 #spells:S_ANGEL
 spells:S_AINU
@@ -20136,6 +20220,7 @@ flags:SMART
 flags:REGENERATE | ANIMAL
 flags:NO_CONF | NO_SLEEP | NO_FEAR
 flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS
+flags:IM_NETHER | NO_STUN
 spell-freq:3
 spells:TELE_TO | DRAIN_MANA
 spells:WOUND | DARKNESS| BO_MANA | BR_DARK
@@ -20603,6 +20688,36 @@ desc: immortals and pound them to dust with his great strength.
 
 ### Dungeon level 62 ###
 
+name:mutant unbeliever
+base:person
+color:m
+speed:130
+hit-points:3000
+light:2
+hearing:30
+armor-class:125
+sleepiness:5
+depth:62
+rarity:5
+weight:180
+experience:9000
+blow:HIT:DISENCHANT:10d5
+blow:KICK:HURT:20d2
+blow:HIT:CONFUSE:10d5
+blow:HIT:PARALYZE:10d5
+flags:MALE | REGENERATE | ANTI_MAGIC
+flags:ONLY_ITEM | DROP_3 | DROP_CORPSE | DROP_SKELETON
+flags:OPEN_DOOR
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:NO_CONF | NO_SLEEP
+flags:FORCE_SLEEP
+spell-freq:5
+spells:BR_CHAO
+desc:Cursed freak unbeliever who disbelieve in magic, but know that its exists,
+desc: as he is felt it's influence on his abominated body.
+desc: Unbelievable, but actually occasionally he creates magical chaos
+desc: disturbance himself, even disbelieving in it.
+
 name:Azriel, Angel of Death
 #base:angel
 base:ainu
@@ -20923,7 +21038,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:64
-spells:BLIND | WOUND | WOUND | HOLD | MIND_BLAST | SCARE
+spells:BLIND | WOUND | MISSILE | HOLD | MIND_BLAST | SCARE
 spells:BA_COLD | BA_NETH
 spells:BO_COLD
 spells:S_UNDEAD
@@ -22179,7 +22294,7 @@ flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:IM_ACID | IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:5
-spells:BLIND | WOUND | WOUND | HOLD | SCARE | TELE_LEVEL
+spells:BLIND | WOUND | MISSILE | HOLD | SCARE | TELE_LEVEL
 spells:BR_CHAO
 spells:S_MONSTER
 desc:He was powerful sorceror, master of body manipulations.
@@ -22212,7 +22327,7 @@ flags:IM_ACID | IM_FIRE
 flags:FORCE_SLEEP
 spell-freq:2
 spell-power:72
-spells:BLIND | WOUND | WOUND | HOLD | SCARE | TELE_LEVEL
+spells:BLIND | WOUND | MISSILE | HOLD | SCARE | TELE_LEVEL
 spells:BA_COLD | BA_FIRE | BA_NETH
 spells:BO_MANA
 spells:S_HI_UNDEAD
@@ -22406,6 +22521,38 @@ desc: shred your soul and his spells crush your will. He is ancient, his history
 desc: steeped in forgotten evils, his atrocities numerous and sickening.
 
 ### Dungeon level 74 ###
+
+name:Fangorn, Oldest of the Ents
+base:tree
+color:U
+speed:130
+hit-points:8000
+hearing:40
+armor-class:200
+sleepiness:20
+depth:74
+rarity:4
+weight:5000
+experience:30000
+blow:CRUSH:HURT:9d9
+blow:CRUSH:HURT:9d9
+blow:HIT:SHATTER:9d9
+blow:HIT:SHATTER:9d9
+flags:UNIQUE | MALE
+flags:DROP_GOOD | ONLY_ITEM
+flags:WEIRD_MIND
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS | IM_DISEN | IM_NETHER
+flags:IM_NEXUS | NO_CONF | NO_SLEEP | NO_HOLD | NO_SLOW | NO_STUN
+spell-freq:3
+spells:S_KIN
+spells:BOULDER
+desc:Fourteen foot high, very sturdy, with a tall head, and hardly any neck.
+desc: Clad in green and grey bark. The arms, at a short distance from the
+desc: trunk, were not wrinkled, but covered with a brown smooth skin.
+desc: The large feet had seven toes each. The lower part of the long face
+desc: covered with a sweeping grey beard, bushy, almost twiggy at the roots,
+desc: thin and mossy at the ends.
+desc: His deep eyes are brown, shot with a green light.
 
 #v
 name:skull druj
@@ -22821,6 +22968,7 @@ flags:UNIQUE | FRIGHTENED | SMART
 flags:REGENERATE | ANIMAL
 flags:NO_CONF | NO_SLEEP | NO_FEAR
 flags:IM_FIRE | IM_COLD | IM_ELEC | IM_ACID | IM_POIS
+flags:NO_STUN | IM_PLASMA | IM_DISEN
 spell-freq:4
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY | BR_LIGHT | BR_MANA
 spells:S_AINU
@@ -24420,6 +24568,7 @@ blow:TOUCH:DISENCHANT:11d11
 flags:UNIQUE | SMART
 flags:REGENERATE | ANIMAL
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
+flags:IM_NETHER | NO_STUN | IM_PLASMA | IM_DISEN
 flags:IM_ACID
 spell-freq:3
 innate-freq:50
@@ -26846,7 +26995,7 @@ desc: stench, waking all it nears.
 force-location:Old Forest
 
 name:Old Forest huorn
-base:vegetal
+base:tree
 color:g
 speed:110
 hit-points:275
@@ -28226,8 +28375,8 @@ depth:0
 rarity:1
 weight:0
 experience:0
-blow:SPORE:HURT:1d4
-blow:SPORE:HURT:1d4
+blow:SPORE:HURT:1d3
+blow:SPORE:HURT:1d3
 flags:EMPTY_MIND | STUPID
 desc:A small strange grey growth.
 force-location:Mountain Gorge
@@ -28245,7 +28394,7 @@ depth:0
 rarity:1
 weight:0
 experience:0
-blow:SPORE:CONFUSE:1d4
+blow:SPORE:CONFUSE:1d3
 flags:IM_POIS | NEVER_MOVE
 desc:Yum! It looks quite tasty.
 force-location:Mountain Gorge
@@ -28264,7 +28413,7 @@ rarity:1
 weight:0
 experience:0
 blow:BITE:HURT:1d3
-blow:STING:HURT:1d3
+blow:STING:HURT:1d2
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
 force-location:Mountain Gorge
@@ -28319,8 +28468,8 @@ depth:0
 rarity:1
 weight:80
 experience:0
-blow:BITE:HURT:1d3
-blow:CRUSH:HURT:1d4
+blow:BITE:HURT:1d2
+blow:CRUSH:HURT:1d3
 flags:DROP_CORPSE | DROP_SKELETON
 desc:It is about eight feet long.
 force-location:Mountain Gorge
@@ -28356,7 +28505,7 @@ depth:0
 rarity:1
 weight:80
 experience:0
-blow:HIT:HURT:1d5
+blow:HIT:HURT:1d4
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is a squat and ugly humanoid figure with a canine face.
 force-location:Mountain Gorge
@@ -28430,7 +28579,7 @@ depth:0
 rarity:1
 weight:1
 experience:0
-blow:BITE:HURT:1d3
+blow:BITE:HURT:1d2
 blow:BITE:HURT:1d3
 flags:WEIRD_MIND | PWMANG_BASE
 flags:DROP_CORPSE
@@ -28471,7 +28620,7 @@ depth:0
 rarity:1
 weight:0
 experience:0
-blow:SPORE:TERRIFY:1d6
+blow:SPORE:TERRIFY:1d5
 flags:NEVER_MOVE
 flags:IM_POIS
 flags:WILD_SWAMP
@@ -28482,7 +28631,7 @@ name:Mountain Gorge's white jelly
 plural:white jellies
 base:jelly
 color:w
-speed:120
+speed:115
 hit-points:36
 hearing:2
 armor-class:1
@@ -28510,7 +28659,7 @@ depth:0
 rarity:1
 weight:0
 experience:0
-blow:BITE:HURT:1d4
+blow:BITE:HURT:1d3
 flags:DROP_SKELETON | WILD_GRASS | WILD_WOOD
 desc:It is about three feet long.
 force-location:Mountain Gorge
@@ -28546,8 +28695,8 @@ depth:0
 rarity:1
 weight:100
 experience:0
-blow:BITE:HURT:1d4
-blow:CRUSH:HURT:1d6
+blow:BITE:HURT:1d3
+blow:CRUSH:HURT:1d5
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is about ten feet long.
 force-location:Mountain Gorge
@@ -28555,7 +28704,7 @@ force-location:Mountain Gorge
 name:Mountain Gorge's cave spider
 base:spider
 color:p
-speed:120
+speed:115
 hit-points:7
 hearing:8
 armor-class:19
@@ -28564,7 +28713,7 @@ depth:0
 rarity:2
 weight:0
 experience:0
-blow:BITE:HURT:1d4
+blow:BITE:HURT:1d3
 flags:ANIMAL | WEIRD_MIND
 flags:GROUP_AI
 flags:DROP_SKELETON
@@ -28575,7 +28724,7 @@ force-location:Mountain Gorge
 name:Mountain Gorge's wild cat
 base:feline
 color:U
-speed:120
+speed:115
 hit-points:9
 hearing:40
 smell:30
@@ -28585,7 +28734,7 @@ depth:0
 rarity:3
 weight:20
 experience:0
-blow:CLAW:HURT:1d3
+blow:CLAW:HURT:1d2
 blow:CLAW:HURT:1d3
 flags:BASH_DOOR
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
@@ -28596,7 +28745,7 @@ force-location:Mountain Gorge
 name:Mountain Gorge's crow
 base:townsfolk
 color:s
-speed:120
+speed:115
 hit-points:9
 hearing:40
 armor-class:14
@@ -28605,7 +28754,7 @@ depth:0
 rarity:5
 weight:30
 experience:0
-blow:BITE:HURT:1d3
+blow:BITE:HURT:1d2
 blow:BITE:HURT:1d3
 flags:DROP_CORPSE | WILD_WOOD
 desc:It is a hooded crow, gray except for the black wings and head.

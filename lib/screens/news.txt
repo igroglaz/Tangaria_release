@@ -1,8 +1,8 @@
-{Light Green}        ,-={/}{Light Red}.  {/}         {Light Slate} ~ ~~~   ~~~    ({/}
-{Light Green}  _/\__//__/\ {/}           {Light Slate}    ~~ ) ~~   ){/}
-{Light Green}  7~7~7|F~F~F {/}           {Light Slate}      )~ {/}{Light Red},.{/}{Light Slate}~ (   ({/}
-{Light Green} 7^7^7||F^F^F {/}           {Light Slate}     _{/}{Light Red},-"##`-^  {/}{Light Slate}  ){/}
-{Light Green}      |/      {/}           {Light Slate}   ,{/}{Light Dark}#####{/}{Light Red}`W='{/}{Light Dark}#{/}{Light Slate}`. (){/}
+{Light Green}        ,-={/}{Light Red}.  {/}         {Light Slate} ~ ~~~   ~~~    ({/}                   .
+{Light Green}  _/\__//__/\ {/}           {Light Slate}    ~~ ) ~~   ){/}              *          .
+{Light Green}  7~7~7|F~F~F {/}           {Light Slate}      )~ {/}{Light Red},.{/}{Light Slate}~ (   ({/}                  *        .
+{Light Green} 7^7^7||F^F^F {/}           {Light Slate}     _{/}{Light Red},-"##`-^  {/}{Light Slate}  ){/}            *                  *
+{Light Green}      |/      {/}{Light Slate}              ,{/}{Light Dark}#####{/}{Light Red}`W='{/}{Light Dark}#{/}{Light Slate}`. (){/}
 {Light Green}      /       {/}           {Light Slate}  ,{/}{Light Dark}##########{/}{Light Dark}##{/}{Light Slate}:{/}{Light Red},=.{/}
 {Light Green}   -'`        {/}           {Light Slate} /.{/}{Light Dark}##,".##,".#####{/}{Light Red}"{/}{Light Slate}#\{/}
 {Light Slate}  ,-.   _,-= /"._  ,-. {/}{White} ,"   {/}{Light Slate}   `:'   `:{/}{Light Dark}##{/}{Light Slate}[JW] ,.{/}

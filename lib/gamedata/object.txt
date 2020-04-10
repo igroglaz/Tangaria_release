@@ -2632,6 +2632,8 @@ weight:5
 cost:0
 alloc:1:20 to 100
 effect:ALTER_REALITY
+effect:TIMED_INC_NO_RES:IMAGE
+dice:10+1d15
 
 ### Detection ###
 
@@ -2645,7 +2647,7 @@ alloc:50:5 to 100
 pile:70:1d3
 effect:MAP_AREA
 effect-yx:14:22
-effect:TIMED_INC:IMAGE
+effect:TIMED_INC_NO_RES:IMAGE
 dice:5+5d10
 
 name:Treasure Detection
@@ -3090,7 +3092,7 @@ cost:0
 alloc:1:20 to 100
 effect:CREATE_WALLS
 effect:SUMMON:SPIRIT:0:-1
-dice:8d1
+dice:4d1
 
 #name:The Void
 #effect:BIZARRE
@@ -3402,13 +3404,13 @@ graphics:!:d
 type:potion
 level:25
 weight:4
-cost:800
+cost:0
 alloc:40:25 to 100
 pile:25:2
 effect:MAP_AREA
 effect-yx:22:40
 effect:TIMED_INC:IMAGE
-dice:5+5d5
+dice:1d5
 effect:RESTORE_EXP
 
 name:*Enlightenment*
@@ -3416,7 +3418,7 @@ graphics:!:d
 type:potion
 level:70
 weight:4
-cost:12000
+cost:0
 alloc:8:70 to 100
 effect:DETECT_ALL_MONSTERS
 effect:DETECT_TREASURES:NONE:1
@@ -3549,6 +3551,45 @@ effect:TIMED_INC:SINFRA
 dice:100+4d25
 effect:NOURISH:INC_BY
 dice:1
+
+name:Invisibility
+graphics:!:d
+type:potion
+level:70
+weight:4
+cost:0
+alloc:1:70 to 100
+effect:TIMED_INC:INVIS:0:5
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:/ 2
+effect:TIMED_INC_NO_RES:CONFUSED
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:/ 2
+
+name:Wraith
+graphics:!:d
+type:potion
+level:70
+weight:4
+cost:0
+alloc:1:70 to 100
+attack:3d4:0:0
+effect:TIMED_INC:WRAITHFORM
+dice:$B+1d10
+expr:B:PLAYER_LEVEL:/ 3
+effect:TIMED_INC_NO_RES:BLIND
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:+ 0
+effect:TIMED_INC_NO_RES:SLOW
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:+ 0
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:1
+effect:TIMED_INC_NO_RES:SCRAMBLE
+dice:75+1d50
+effect:DRAIN_MANA
+dice:$Dd1
+expr:D:DUNGEON_LEVEL:* 4
 
 ### Useless buggers ###
 
@@ -4388,7 +4429,7 @@ armor:0:0
 charges:5+d5
 effect:MAP_AREA
 effect-yx:14:22
-effect:TIMED_INC:IMAGE
+effect:TIMED_INC_NO_RES:IMAGE
 dice:5+5d10
 
 ### Healing ###
@@ -6358,7 +6399,15 @@ weight:5
 cost:99999999
 desc:.
 
-name:All horizon run away months ago.. Filthy cowards!
+name:All horizon run away back to town on the west 
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:months ago.. Filthy cowards! Went back to mommy!
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7517,4 +7566,3 @@ level:0
 weight:5
 cost:99999999
 desc:.
-

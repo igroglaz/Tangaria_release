@@ -1,3 +1,90 @@
+# === Understanding artifact.txt ===
+
+# name: item name
+# base-object: tval : sval
+# graphics: symbol : color
+# level: level
+# weight: weight
+# alloc: allocation probability : min depth : max depth
+# attack: base damage : plus to-hit : plus to-dam
+# armor: base armor class : plus to-armor class
+# flags: flag | flag | etc
+# act: activation
+# time: recharge time
+# msg: alternate message when activated
+# values: label[value] | label[value] | etc.
+# brand: brand code
+# slay: slay code
+# curse: curse name : power
+# desc: description
+
+# 'name' indicates the beginning of an entry.
+
+# 'base-object' is for base object type. The tval is for the type of item, the
+# sval identifies the subtype. If the sval is not a standard object kind
+# as defined in object.txt, the game will generate a special object kind,
+# and these are known as 'special artifacts'.
+
+# 'graphics' is for symbol and color. It is needed for special artifacts.
+
+# 'level' indicates difficulty of any activation.
+
+# 'weight' is in tenth-pounds.
+
+# 'alloc' is for allocation details. alloc_prob is the % chance of the artifact
+# being generated, min depth is the earliest it is normally found, max
+# depth is the deepest it is ever found.
+
+# 'attack' is for combat attack information, the item's base damage and
+# pluses to-hit and to-dam.
+
+# 'armor' is for armor information, the item's base armor class and plus to-ac.
+
+# 'flags' is for object flags as listed in list-object-flags.h. These are
+# fairly self-explanatory. As many flags: lines may be used as are needed to
+# specify all the flags and flags are separated by the '|' symbol.
+
+# 'values' is for properties that take a value and a random expression for that
+# value. Valid properties are object modifiers (as found in list-stats.h and
+# list-object-modifiers.h) and resistances (based on list-elements.h).
+
+# 'brand' is for brands as listed in brand.txt (based on the first 5 entries
+# from list-elements.h).
+
+# 'slay' is for slays as listed in slay.txt (based on racial monster flags in
+# list-mon-race-flags.h or monster bases in monster_base.txt).
+
+# 'act' is for activation. The activation is the effect the artifact
+# activates for.
+
+# 'time' is for recharge time. The recharge time calculates from the recharge
+# time plus a random value between 1 and the recharge time dice (if not 0).
+
+# 'msg' is for activation message text, if different from the regular effect
+# message.
+
+# 'curse' is for curses
+
+# 'desc' is for the artifact description. These appear when the item is 
+# identified. Special thanks to J.R.R Tolkien, without whom the words would
+# be unwritten, the images unconceived, the deed undone.
+# Contributors: Jeff Butler, Neal Hackler, Ethan Sicotte, Pat Tracy,
+# Yuanli Zhou 
+
+### IMPORTANT NOTES ###
+# (1.) Any changes or additions to the file may have influence on randarts
+# and may break savefile compatibility for old savegames with randarts. If
+# using random artifacts, finish your existing game before making any
+# changes to the artifact.txt file at all.
+# (2.) Removing any artifact, or changing its "base" type (as defined by
+# the tval and sval entries in the "base-object:" line), will break savefile
+# compatibility for ALL savefiles.
+# (3.) Adding a new artifact, WILL now affect savefile compatibility for all
+# savefiles.
+
+
+### Light Sources ###
+
 name:of Galadriel
 base-object:light:Phial
 graphics:~:y
@@ -61,6 +148,29 @@ desc: sparks of white radiance shot with glints of the rainbow.
 
 
 ### Swords and Daggers ###
+
+name:Athame 'Elbereth'
+base-object:sword:Dagger
+level:20
+weight:12
+alloc:2:20 to 100
+attack:1d7:17:17
+armor:0:7
+flags:BLESSED | FREE_ACT | REGEN | PROT_BLIND
+values:LIGHT[1] | SEARCH[3] | INFRA[3] | CON[2]
+brand:CUT_1
+slay:EVIL_2
+desc:A Elbereth Gilthoniel,
+desc:silivren penna miriel
+desc:o menel aglar elenath!
+desc:Na-chaered palan-diriel
+desc:o galadhremmin ennorath,
+desc:Fanuilos, le linnathon
+desc:nef aear, si nef aearon!
+desc:_.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._.~"~._
+desc:Double-edged black-handled cross-hilted dagger of eighteen inches length.
+desc: Blessed and highly enchanted, this almost inderstructable dagger filled
+desc: with the Blessed light.
 
 name:'Angrist'
 base-object:sword:Dagger

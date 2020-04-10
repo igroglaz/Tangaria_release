@@ -399,7 +399,8 @@ always:fortune cookie:cave orcs?! Darn orcish beasts! Filthy maggots!
 always:fortune cookie:...Erm.. Anyway. Got any tabacco, mate?
 always:fortune cookie:I got plety of food there, but no darn weed to
 always:fortune cookie:fill my pipe.. I'm alone there you see..
-always:fortune cookie:All horizon run away months ago.. Filthy cowards!
+always:fortune cookie:All horizon run away back to town on the west 
+always:fortune cookie:months ago.. Filthy cowards! Went back to mommy!
 always:fortune cookie:But I won't run from this stupid orcish beasts!
 always:fortune cookie:They would know how to come to The Guards Tower!!
 always:fortune cookie:Darn.. Are you pretty sure ya don have any weed?

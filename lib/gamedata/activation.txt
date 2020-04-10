@@ -169,6 +169,8 @@ aim:0
 power:22
 effect:MAP_AREA
 effect-yx:11:20
+effect:TIMED_INC_NO_RES:IMAGE
+dice:5+5d5
 msg:The {kind} form{s} an image in your mind...
 desc:completely lights up and magically maps the current level, sensing all
 desc: objects
@@ -414,9 +416,9 @@ name:DETECT_ALL
 aim:0
 power:10
 effect:MAP_AREA
-effect-yx:8:13
+effect-yx:9:14
 effect:DETECT_MONSTERS
-effect-yx:13:17
+effect-yx:14:18
 effect:DETECT_TREASURES
 effect-yx:22:40
 msg:{name} forms an image in your mind...
@@ -433,7 +435,7 @@ name:DETECT_INVIS
 aim:0
 power:6
 effect:DETECT_INVISIBLE_MONSTERS
-effect-yx:10:10
+effect-yx:14:14
 
 name:DETECT_TREASURE
 aim:0
@@ -865,7 +867,7 @@ aim:0
 power:10
 effect:MAP_AREA
 effect-yx:9:14
-effect:TIMED_INC:IMAGE
+effect:TIMED_INC_NO_RES:IMAGE
 dice:5+5d5
 msg:The {kind} shine{s} brightly...
 
