@@ -587,7 +587,6 @@ obj-flag:1:PROT_FEAR
 value:40:RES_POIS[1]
 value:1:STEALTH[-2+1d15M16]
 
-
 name:Black Dwarf
 skill-disarm-phys:1
 skill-disarm-magic:3
@@ -668,11 +667,13 @@ value:1:WIS[-2]
 value:1:DEX[-2]
 value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
+obj-flag:40:TRAP_IMMUNE
 value:1:SPEED[-1+-1d30]
-value:20:BLOWS[1]
+value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
 brand:50:STUN_2
+value:1:DAM_RED[5]
 obj-flag:1:NO_TELEPORT
 
 #Swamp troll
@@ -840,6 +841,7 @@ obj-flag:1:REGEN
 obj-flag:20:ESP_ANIMAL
 value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
+value:1:MOVES[1]
 brand:25:CUT_1
 brand:50:CUT_2
 player-flags:ANIMAL

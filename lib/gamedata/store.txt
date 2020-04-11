@@ -69,10 +69,10 @@ welcome:8:"I am entirely at your service, %s."
 store:General Store
 type:1
 owner:5000:Pilbo the Friendly (Halfling)
-owner:10000:Rinsewint the Chicken (Human)
+owner:10000:Garkin the Old (Human)
 owner:20000:Snafu the Midget (Gnome)
 owner:30000:Lyar-el the Comely (Elf)
-slots:2:6
+slots:2:4
 turnover:2
 always:cloak:Cloak
 always:light:Wooden Torch
@@ -80,14 +80,15 @@ always:flask:Flask of Oil
 always:rock:Rock
 always:stone:House Foundation Stone
 always:scroll:House Creation
+always:potion:Salt Water
 # always:digger:Shovel
 # always:digger:Pick
 normal:light:Lantern
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
-normal:food:Hard Biscuit:8:500
-normal:food:Slime Mold:9:500
-normal:food:Ration of Food:10:500
+normal:food:Hard Biscuit:1:500
+#normal:food:Handful of Dried Fruits:9:500
+#normal:food:Ration of Food:10:500
 buy:light
 buy:food
 buy:mushroom
@@ -325,6 +326,7 @@ normal:fortune cookie:Beware of danger in Mountain Passage to the west
 normal:fortune cookie:I didn't visit town for some time already..
 normal:fortune cookie:Maybe its time for me to go on adventure with you
 #######################################################################
+always:potion:Cure Light Wounds
 always:cloak:Cloak
 always:light:Wooden Torch
 always:flask:Flask of Oil
@@ -334,7 +336,7 @@ always:arrow:Arrow
 always:bolt:Bolt
 always:shot:Rounded Pebble
 #######################################################################
-normal:potion:Cure Light Wounds
+normal:potion:Salt Water
 normal:potion:Restore Life Levels
 buy:light
 buy:digger
@@ -355,8 +357,8 @@ buy:flask
 
 # Starter town wizard hut
 store:Rinswind the Wizard
-owner:5000:Rinswint the Wizard (Human)
-owner:5000:Rinswint the Wizard (Human)
+owner:5000:Rinswind the Wizard (Human)
+owner:5000:Rinswind the Wizard (Human)
 slots:0:4
 turnover:1
 #######################################################################
@@ -369,15 +371,15 @@ always:fortune cookie:this finest books about miracles. With them you
 always:fortune cookie:would be able to conquer world!.. What?? 
 always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
 #######################################################################
-normal:fortune cookie:*sings* Once I came to the land of dreams...
-normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
-normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
-normal:fortune cookie:Did ya know there is a secret passage nearby? shh
-#######################################################################
 always:nature book
 always:shadow book
 always:psi book
 always:elemental book
+#######################################################################
+normal:fortune cookie:*sings* Once I came to the land of dreams...
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
+normal:fortune cookie:Did ya know there is a secret passage nearby? shh
 buy:nature book
 buy:shadow book
 buy:psi book

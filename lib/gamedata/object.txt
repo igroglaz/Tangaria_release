@@ -209,8 +209,16 @@ type:food
 level:0
 weight:2
 cost:300
+alloc:40:0 to 20
+pile:10:1d2
 effect:NOURISH:INC_BY
-dice:10
+dice:4
+effect:NOURISH:INC_BY
+dice:5
+effect:NOURISH:INC_BY
+dice:6
+effect:RANDOM
+dice:3
 effect:CRUNCH
 msg_self:Crunch!..
 desc:A filling if tooth-breaking biscuit made mostly of rye.
@@ -220,7 +228,7 @@ graphics:,:I
 type:food
 level:0
 weight:4
-cost:3
+cost:0
 alloc:40:0 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
@@ -233,10 +241,10 @@ graphics:,:u
 type:food
 level:0
 weight:3
-cost:3
+cost:0
 alloc:40:0 to 50
 effect:NOURISH:INC_BY
-dice:15
+dice:10
 msg_self:That tastes good.
 desc:Fruit roughly chopped and sun-dried, prepared as marching rations for the
 desc: rangers of Ithilien.
@@ -246,7 +254,7 @@ graphics:,:t
 type:food
 level:5
 weight:2
-cost:400
+cost:0
 alloc:20:5 to 60
 pile:100:1d3
 effect:NOURISH:INC_BY
@@ -260,7 +268,7 @@ graphics:,:U
 type:food
 level:1
 weight:8
-cost:1000
+cost:0
 alloc:20:1 to 50
 pile:100:1d2
 effect:NOURISH:INC_BY
@@ -268,6 +276,7 @@ dice:40
 msg_self:That tastes good.
 desc:This nutritious but fairly bland food is familiar to anyone contemplating
 desc: long journeys.
+
 name:& Scrap~ of Flesh
 graphics:,:D
 type:food
@@ -297,7 +306,7 @@ graphics:,:W
 type:food
 level:10
 weight:10
-cost:3
+cost:0
 alloc:30:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
@@ -311,7 +320,7 @@ graphics:,:i
 type:food
 level:20
 weight:10
-cost:10
+cost:0
 alloc:30:20 to 70
 pile:40:1d3
 effect:NOURISH:INC_TO
@@ -326,7 +335,7 @@ graphics:,:T
 type:food
 level:30
 weight:3
-cost:1000
+cost:0
 alloc:20:30 to 100
 pile:10:1d2
 effect:CURE:POISONED
@@ -346,13 +355,13 @@ weight:5
 cost:75
 alloc:20:0 to 50
 effect:NOURISH:INC_BY
-dice:3
+dice:1
 effect:TIMED_INC:CONFUSED
 dice:8+1d8
 effect:TIMED_INC:BOLD
 dice:50+1d20
-effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
+######################
 effect:DRAIN_STAT:INT
 dice:1
 effect:DRAIN_STAT:WIS
@@ -390,13 +399,7 @@ dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
 effect:RESTORE_STAT:CON
-effect:RESTORE_STAT:STR
-effect:DRAIN_STAT:INT
-dice:1
-effect:DRAIN_STAT:WIS
-dice:1
-effect:RANDOM
-dice:2
+########################
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d8
 effect:TIMED_INC:BLIND
@@ -434,13 +437,13 @@ graphics:,:m
 type:food
 level:20
 weight:2
-cost:1
+cost:0
 alloc:20:20 to 100
 pile:10:1d3
-effect:TIMED_SET:SLOW
-dice:2+1d3
-effect:TIMED_SET:STUN
-dice:2+1d3
+effect:HEAL_HP
+dice:3
+effect:TIMED_INC:FAST:0:5
+dice:1d3
 effect:NOURISH:INC_BY
 dice:5
 msg_self:It burns your throat.
@@ -2623,6 +2626,8 @@ cost:2800
 alloc:15:20 to 100
 pile:10:2
 effect:TELEPORT_LEVEL:NONE:1
+effect:TIMED_INC_NO_RES:IMAGE
+dice:2+1d7
 
 name:Dimension Shake
 graphics:?:w
@@ -2646,9 +2651,13 @@ cost:500
 alloc:50:5 to 100
 pile:70:1d3
 effect:MAP_AREA
-effect-yx:14:22
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:5+5d10
+dice:11+1d24
 
 name:Treasure Detection
 graphics:?:w
@@ -2835,10 +2844,10 @@ graphics:?:w
 type:scroll
 level:5
 weight:5
-cost:2000
-alloc:60:5 to 100
+cost:0
+alloc:40:20 to 100
 pile:100:1d1
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:50
 
 name:Identify Rune
@@ -3052,7 +3061,7 @@ type:scroll
 level:2
 weight:5
 cost:0
-alloc:10:1 to 70
+alloc:10:2 to 70
 pile:25:2
 effect:DAMAGE
 dice:$B
@@ -3072,8 +3081,19 @@ type:scroll
 level:2
 weight:5
 cost:0
-alloc:10:1 to 70
+alloc:10:2 to 70
 pile:25:2
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
+effect:DISENCHANT
 effect:DISENCHANT
 #dice:4d$S
 #expr:S:DUNGEON_LEVEL:/ 2
@@ -3092,7 +3112,7 @@ cost:0
 alloc:1:20 to 100
 effect:CREATE_WALLS
 effect:SUMMON:SPIRIT:0:-1
-dice:4d1
+dice:1+1d4
 
 #name:The Void
 #effect:BIZARRE
@@ -3407,11 +3427,14 @@ weight:4
 cost:0
 alloc:40:25 to 100
 pile:25:2
-effect:MAP_AREA
-effect-yx:22:40
-effect:TIMED_INC:IMAGE
-dice:1d5
+effect:LIGHT_LEVEL:NONE:1
 effect:RESTORE_EXP
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:2d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:3+1d6
+effect:TIMED_INC_NO_RES:IMAGE
+dice:9+1d18
 
 name:*Enlightenment*
 graphics:!:d
@@ -3427,9 +3450,12 @@ effect:GAIN_STAT:WIS
 effect:RESTORE_STAT:WIS
 effect:GAIN_STAT:INT
 effect:RESTORE_STAT:INT
-effect:MAP_AREA
-effect-yx:44:80
+effect:LIGHT_LEVEL:NONE:1
 effect:RESTORE_EXP
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:1d1
+effect:TIMED_INC_NO_RES:IMAGE
+dice:6+1d12
 
 ### Buffs ###
 
@@ -3716,7 +3742,7 @@ graphics:!:d
 type:potion
 level:3
 weight:4
-cost:0
+cost:1
 alloc:10:3 to 15
 pile:100:1d2
 effect:TIMED_INC_NO_RES:PARALYZED
@@ -3738,17 +3764,9 @@ pile:70:1d3
 attack:3d6:0:0
 armor:0:0
 flags:EXPLODE
-effect:TIMED_INC_NO_RES:STUN
-dice:5d3
-effect:TIMED_INC_NO_RES:STUN
-dice:5d3
-effect:TIMED_INC_NO_RES:STUN
-dice:5d3
-#barrow downs 28-35
-#mage hobbit 30 lvl 150 hp.
 effect:DAMAGE
-dice:$B+1d5
-expr:B:PLAYER_LEVEL:* 4
+dice:$B
+expr:B:PLAYER_HP:- 7
 effect:DRAIN_MANA
 dice:$Dd1
 expr:D:DUNGEON_LEVEL:* 4
@@ -3768,6 +3786,8 @@ alloc:1:2 to 40
 pile:70:1d3
 attack:1d4:0:0
 armor:0:0
+effect:TIMED_INC_NO_RES:STUN
+dice:5d3
 effect:DRAIN_STAT:STR
 dice:1
 effect:DRAIN_STAT:DEX
@@ -4402,7 +4422,7 @@ attack:1d2:0:0
 armor:0:0
 charges:8+d15
 effect:DETECT_INVISIBLE_MONSTERS
-effect-yx:14:14
+effect-yx:22:40
 
 name:Detect Evil
 graphics:_:d
@@ -4415,7 +4435,7 @@ attack:1d2:0:0
 armor:0:0
 charges:8+d15
 effect:DETECT_EVIL
-effect-yx:14:14
+effect-yx:22:40
 
 name:Magic Mapping
 graphics:_:d
@@ -4428,9 +4448,13 @@ attack:1d2:0:0
 armor:0:0
 charges:5+d5
 effect:MAP_AREA
-effect-yx:14:22
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:5+5d10
+dice:11+1d24
 
 ### Healing ###
 
@@ -5356,19 +5380,13 @@ level:0
 weight:5
 cost:50
 effect:NOURISH:INC_BY
-dice:5
+dice:2
 effect:TIMED_INC:CONFUSED
 dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
-effect:RESTORE_STAT:CON
-effect:RESTORE_STAT:STR
-effect:DRAIN_STAT:INT
-dice:1
-effect:DRAIN_STAT:WIS
-dice:1
-effect:RANDOM
-dice:2
+effect:RESTORE_STAT:WIS
+#########################
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d4
 effect:TIMED_INC:BLIND
@@ -5391,7 +5409,7 @@ graphics:,:u
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 alloc:20:1 to 20
 effect:HEAL_HP
 dice:1d4
@@ -5404,7 +5422,7 @@ graphics:,:G
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5416,7 +5434,7 @@ graphics:,:o
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5428,7 +5446,7 @@ graphics:,:r
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5440,7 +5458,7 @@ graphics:,:y
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5452,7 +5470,7 @@ graphics:`:y
 type:crop
 level:0
 weight:2
-cost:50
+cost:0
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5570,7 +5588,7 @@ graphics:!:d
 type:potion
 level:0
 weight:4
-cost:1
+cost:0
 alloc:50:0 to 100
 pile:70:1d3
 effect:NOURISH:INC_BY
@@ -5599,7 +5617,7 @@ graphics:,:G
 type:food
 level:1
 weight:10
-cost:500
+cost:0
 alloc:20:1 to 100
 attack:2d3:0:0
 armor:0:0
@@ -5905,7 +5923,8 @@ type:fortune cookie
 level:0
 weight:2
 cost:0
-alloc:1:1 to 100
+#alloc:1:1 to 100
+# DO NOT ALLOCATE? or it will appear at BM?
 effect:COOKIE
 effect:NOURISH:INC_BY
 dice:5
@@ -6059,7 +6078,7 @@ dice:25
 msg_self:You rubbed an ancient vessel...
 desc:Rumours say that such lamps could contain a djinn...
 
-name:Cursed Vessel
+name:Cursed Jar
 graphics:,:U
 type:food
 level:30
@@ -6071,6 +6090,12 @@ effect:SUMMON:UNDEAD:0:-1
 dice:1d1
 effect:UNDEAD_FORM
 effect:DARKEN_LEVEL
+effect:READ_MINDS
+dice:$Dd$S
+expr:D:PLAYER_LEVEL:/ 10 + 1
+expr:S:PLAYER_LEVEL:/ 10 + 1
+effect:DETECT_SOUL
+effect-yx:22:40
 msg_self:Why did you touch it!.. It was CURSED!
 desc:It's better to do not touch it.
 
@@ -6096,7 +6121,7 @@ type:scroll
 level:0
 weight:5
 cost:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:50
 desc:Smelly... It looks like someone covered fish with this scroll.
 

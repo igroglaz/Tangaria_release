@@ -167,10 +167,13 @@ desc:raises your constitution at the expense of a random attribute
 name:CLAIRVOYANCE
 aim:0
 power:22
-effect:MAP_AREA
-effect-yx:11:20
+effect:LIGHT_LEVEL
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:5+5d5
+dice:11+1d24
 msg:The {kind} form{s} an image in your mind...
 desc:completely lights up and magically maps the current level, sensing all
 desc: objects
@@ -416,9 +419,15 @@ name:DETECT_ALL
 aim:0
 power:10
 effect:MAP_AREA
-effect-yx:9:14
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 effect:DETECT_MONSTERS
-effect-yx:14:18
+effect-yx:22:40
 effect:DETECT_TREASURES
 effect-yx:22:40
 msg:{name} forms an image in your mind...
@@ -429,13 +438,13 @@ name:DETECT_EVIL
 aim:0
 power:6
 effect:DETECT_EVIL
-effect-yx:17:21
+effect-yx:22:40
 
 name:DETECT_INVIS
 aim:0
 power:6
 effect:DETECT_INVISIBLE_MONSTERS
-effect-yx:14:14
+effect-yx:22:40
 
 name:DETECT_TREASURE
 aim:0
@@ -866,9 +875,13 @@ name:MAPPING
 aim:0
 power:10
 effect:MAP_AREA
-effect-yx:9:14
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:5+5d5
+dice:11+1d24
 msg:The {kind} shine{s} brightly...
 
 name:MISSILE
@@ -1145,8 +1158,8 @@ effect:GLYPH:WARDING
 name:SATISFY
 aim:0
 power:7
-effect:NOURISH:SET_TO
-dice:50
+effect:NOURISH:INC_TO
+dice:15
 desc:magically renders you well-fed (but not satiated)
 
 name:SHERO

@@ -1677,6 +1677,7 @@ monster:Black ooze:0x8F:0x82
 monster:Easterling champion:0x84:0x93
 monster:Widelands easterling champion:0x84:0x93
 monster:Azog, the Great Orc:0x95:0x91
+monster:outlaw:0x84:0x8E
 monster:Master rogue:0x84:0x94
 monster:Red dragon bat:0x90:0x84
 monster:Magic maggot:0x9D:0xCC
@@ -1711,6 +1712,7 @@ monster:Killer red beetle:0x93:0x94
 monster:Giant brown tick:0x8F:0xAB
 monster:Old Man Willow:0x95:0xE8
 monster:Tom Bombadil:0x9C:0xCC
+monster:abyss worm mass:0x9D:0xFC
 monster:Giant firefly:0x8F:0xAE
 monster:Giant grey ant:0x91:0x84
 #Ogre priest like player
@@ -18422,7 +18424,7 @@ object:digger:Spade:0x87:0x9F
 object:light:Old Lantern:0x87:0x99
 object:food:Ancient Vessel:0x8A:0xEE
 object:food:Magic Lamp:0xA0:0xF1
-object:food:Cursed Vessel:0x8A:0xED
+object:food:Cursed Jar:0x8A:0xED
 object:light:Rusty Lantern:0x87:0x99
 object:scroll:Remove Hunger (tattered):0x87:0xE7
 object:scroll:Word of Recall (rugged):0x87:0xE0

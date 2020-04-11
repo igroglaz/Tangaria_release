@@ -252,7 +252,7 @@ desc: The chance to get a beam goes up with your character level.
 
 spell:Detect Monsters:1:1:23:4:0
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:14:14
+effect-yx:22:40
 desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
@@ -274,11 +274,11 @@ desc: If you are in a room, the entire room will be lit up as well.
 
 spell:Find Traps, Doors & Stairs:3:3:25:2:0
 effect:DETECT_STAIRS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_DOORS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_TRAPS
-effect-yx:14:21
+effect-yx:22:40
 desc:Detects all traps, doors and stairs in the immediate area.
 
 spell:Fire Ball:3:2:27:3:0
@@ -355,7 +355,7 @@ book-desc:A standard arcane book with a few spells.
 
 spell:Reveal Monsters:15:6:40:8:0
 effect:DETECT_MONSTERS
-effect-yx:11:11
+effect-yx:22:40
 desc:Detects all monsters in the immediate area, for one turn only.
 
 spell:Shock Wave:16:5:40:10:0
@@ -563,10 +563,9 @@ desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
 spell:Remove Hunger:2:2:25:2:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:15
-desc:Magically renders you well-fed (but not satiated).
-desc: This will also cure a bloated stomach.
+desc:Magically renders you comfortably fed (but not satiated).
 
 spell:Stinking Cloud:3:2:27:4:0
 effect:BALL:POIS:2
@@ -614,7 +613,13 @@ desc: is susceptible to rock remover takes 20+1d30 points of damage.
 
 spell:Sense Surroundings:9:4:35:6:0
 effect:MAP_AREA
-effect-yx:13:13
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Lightning Strike:12:6:35:8:0
@@ -839,7 +844,7 @@ equip:prayer book:[Beginners Handbook]:1:1:1
 
 spell:Detect Evil:1:1:10:4:0
 effect:DETECT_EVIL
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all evil monsters in the immediate area,
 desc: for one turn only.
 
@@ -1058,6 +1063,12 @@ desc: This prayer has no effect when used in the town.
 
 spell:Clairvoyance:37:50:80:150:0
 effect:LIGHT_LEVEL
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -1172,6 +1183,12 @@ expr:D:PLAYER_LEVEL:/ 10 + 1
 expr:S:PLAYER_LEVEL:/ 10 + 1
 effect:DETECT_SOUL
 effect-yx:22:40
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Detects all monsters which have a spirit in the immediate area,
 desc: and then maps in a region around them, increasing in size with
 desc: character level.
@@ -1383,6 +1400,14 @@ desc: in the area, and attempts to frighten everything in line of sight.
 
 spell:Fume of Mordor:40:50:80:150:0
 effect:DARKEN_LEVEL:NONE:1
+effect:MAP_AREA
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
 
@@ -1461,7 +1486,7 @@ equip:prayer book:[Beginners Handbook]:1:1:1
 
 spell:Detect Evil:1:1:30:4:0
 effect:DETECT_EVIL
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all evil monsters in the immediate area,
 desc: for one turn only.
 
@@ -1616,9 +1641,15 @@ desc:Cures 2000 points of damage, cures all stunning, heals all
 desc: cut damage, neutralizes poison, and cures amnesia.
 
 spell:Clairvoyance:37:50:80:150:0
-effect:MAP_AREA
-effect-yx:17:27
-desc:Maps out a portion of the level around you.
+effect:LIGHT_LEVEL
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
+desc:Lights up, maps out and senses all objects on the complete current
+desc: dungeon level.
 
 spell:Restoration:40:80:90:250:1
 effect:RESTORE_STAT:CON
@@ -1687,7 +1718,7 @@ equip:shadow book:[Shadows for Beginners]:1:1:1
 
 spell:Detect Creatures:5:1:50:4:0
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
@@ -1708,7 +1739,7 @@ desc:Detects all objects in the immediate area.
 
 spell:Detect Stairs:12:3:50:5:0
 effect:DETECT_STAIRS
-effect-yx:14:21 
+effect-yx:22:40
 desc:Detects all stairs in the immediate area.
 
 book:shadow book:town:[Dark Conjurings]:5:shadow
@@ -1768,7 +1799,7 @@ desc: floor where the spell is cast.
 
 spell:Reveal Creatures:25:3:40:8:0
 effect:DETECT_MONSTERS
-effect-yx:11:11
+effect-yx:22:40
 desc:Detects all monsters in the immediate area, for one turn only.
 
 spell:Cloudkill:26:20:60:15:0
@@ -1782,6 +1813,12 @@ book:shadow book:dungeon:[Dark Evocations]:5:shadow
 
 spell:Deep Nights:27:12:80:10:0
 effect:DARKEN_LEVEL:NONE:1
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
 
@@ -1901,19 +1938,18 @@ equip:nature book:[Lesser Charms]:1:1:1
 
 spell:Detect Life:3:1:25:2:0
 effect:DETECT_LIVING_MONSTERS
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
 spell:Remove Hunger:5:2:23:2:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:15
-desc:Magically renders you well-fed (but not satiated).
-desc: This will also cure a bloated stomach.
+desc:Magically renders you comfortably fed (but not satiated).
 
 spell:Detect Stairs:7:3:50:5:0
 effect:DETECT_STAIRS
-effect-yx:14:21
+effect-yx:22:40
 desc:Detects all stairs in the immediate area.
 
 spell:Cure Poison:9:4:30:4:0
@@ -1952,7 +1988,13 @@ book:nature book:town:[Creature Dominion]:4:nature
 
 spell:Sense Surroundings:20:8:35:8:0
 effect:MAP_AREA
-effect-yx:13:13
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Cover Tracks:20:20:40:40:0
@@ -2087,7 +2129,7 @@ desc: level-dependent duration.
 
 spell:Dark Detection:10:5:20:10:0
 effect:DETECT_NONEVIL
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all non-evil monsters in the immediate area,
 desc: for one turn only.
 
@@ -2296,7 +2338,7 @@ desc: The chance to get a beam goes up with your character level.
 
 spell:Detect Monsters:1:1:13:4:0
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
@@ -2318,11 +2360,11 @@ desc: If you are in a room, the entire room will be lit up as well.
 
 spell:Find Traps, Doors & Stairs:3:3:15:3:0
 effect:DETECT_STAIRS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_DOORS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_TRAPS
-effect-yx:14:21
+effect-yx:22:40
 desc:Detects all traps, doors and stairs in the immediate area.
 
 spell:Fire Ball:3:2:17:3:0
@@ -2383,7 +2425,13 @@ desc:Reveals an unknown rune on an object.
 
 spell:Map Area:13:10:45:7:0
 effect:MAP_AREA
-effect-yx:13:13
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Radiate Fear:14:12:45:8:0
@@ -2395,7 +2443,7 @@ desc:Attempts to scare monsters around you for a level-dependent duration.
 
 spell:Reveal Monsters:15:6:40:10:0
 effect:DETECT_MONSTERS
-effect-yx:11:11
+effect-yx:22:40
 desc:Detects all monsters in the immediate area, for one turn only.
 
 book:magic book:town:[Incantations and Illusions]:8:arcane
@@ -2558,6 +2606,12 @@ desc: and does unresistable damage.
 
 spell:Clairvoyance:40:50:95:200:0
 effect:LIGHT_LEVEL
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -2685,7 +2739,7 @@ desc:Covers your missiles with lightning.
 
 spell:Detect Life:7:3:14:7:0
 effect:DETECT_LIVING_MONSTERS
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all living monsters in the immediate area,
 desc: for one turn only.
 
@@ -2695,10 +2749,9 @@ dice:5
 desc:Covers your missiles with frost.
 
 spell:Remove Hunger:12:6:24:12:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:15
-desc:Magically renders you well-fed (but not satiated).
-desc: This will also cure a bloated stomach.
+desc:Magically renders you comfortably fed (but not satiated).
 
 book:nature book:town:[Gifts of Nature]:4:nature
 
@@ -2749,7 +2802,13 @@ book:nature book:dungeon:[Nature Craft]:4:nature
 
 spell:Sense Surroundings:28:14:56:28:0
 effect:MAP_AREA
-effect-yx:13:13
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Piercing Shots:30:11:50:50:0
@@ -2896,7 +2955,7 @@ desc: affected monsters.
 
 spell:Sense Monsters:2:2:14:4:0
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
@@ -2973,7 +3032,13 @@ desc:Attempts to put to sleep each monster within line of sight.
 
 spell:Sense Surroundings:12:10:34:12:0
 effect:MAP_AREA
-effect-yx:13:13
+effect-yx:15:32
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Psychometry:14:12:37:14:0
@@ -2981,11 +3046,10 @@ effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
 spell:Remove Hunger:16:14:40:16:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:15
 msg_self:You focus your mind to convert energy into food.
-desc:Magically renders you well-fed (but not satiated).
-desc: This will also cure a bloated stomach.
+desc:Magically renders you comfortably fed (but not satiated).
 
 spell:Mass Stun:18:15:43:18:0
 effect:PROJECT_LOS_AWARE:MON_STUN
@@ -3008,15 +3072,15 @@ desc:Fires a beam of pure mental force that crushes each monster in its path.
 
 spell:Precognition:22:17:48:22:0
 effect:DETECT_MONSTERS
-effect-yx:11:11
+effect-yx:22:40
 effect:DETECT_TREASURES
 effect-yx:22:40
 effect:DETECT_STAIRS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_DOORS
-effect-yx:14:21
+effect-yx:22:40
 effect:DETECT_TRAPS
-effect-yx:14:21
+effect-yx:22:40
 desc:Detects all gold, objects, doors, stairs, traps and monsters
 desc: in the immediate area.
 
@@ -3138,9 +3202,15 @@ desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
 spell:Clairvoyance:40:34:76:55:0
-effect:MAP_AREA
-effect-yx:17:27
-desc:Maps out a portion of the level around you.
+effect:LIGHT_LEVEL
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC_NO_RES:BLIND
+dice:5+1d13
+effect:TIMED_INC_NO_RES:IMAGE
+dice:11+1d24
+desc:Lights up, maps out and senses all objects on the complete current
+desc: dungeon level.
 
 spell:Kinetic Wave:42:23:79:59:0
 effect:BLAST:FORCE:3:10
@@ -3480,7 +3550,7 @@ expr:S:PLAYER_SPELL_POWER:* 10
 desc:Grants you temporary resistance to cold.
 
 spell:Potion of Vitality:20:9:49:16:0
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:15
 effect:TIMED_INC:BOLD
 dice:$B+1d$S
@@ -3730,7 +3800,7 @@ desc: This spell has no effect when used in the town.
 
 spell:Detect Evil:2:1:23:4:0
 effect:DETECT_EVIL
-effect-yx:13:13
+effect-yx:22:40
 desc:Detects all evil monsters in the immediate area,
 desc: for one turn only.
 

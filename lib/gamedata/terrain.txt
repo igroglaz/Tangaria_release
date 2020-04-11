@@ -300,17 +300,29 @@ flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:19:0
 desc:.
 
+####  !  #### !  ###  !  ########
+#
+######    IMPORTANT 
+#
+# after adding NEW NPS, we SHOULD change info number for black market
+# and other 3 shops! make it 'in between'.
+#
+#          without it it will have ERROR!
+#
+####  !  #### !  ###  !  ########
 
-############################################################################
-################# CUSTOM SHOPS END #########################################
-############################################################################
+################################################################
+#################
+#                  CUSTOM SHOPS END
+#################
+################################################################
 
 
 name:Black Market
 graphics:7:D
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:19:0
+info:20:0
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains.
 
@@ -318,7 +330,7 @@ name:Expensive Black Market
 graphics:7:v
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:20:0
+info:21:0
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains. Although
 desc: you may find exceptional items, be ready to spend a lot of money for
@@ -329,7 +341,7 @@ name:Tavern
 graphics:8:y
 priority:24
 flags:PROJECT | PASSABLE |  PERMANENT | INTERESTING | EASY | BRIGHT | FLOOR_SAFE
-info:21:0
+info:22:0
 desc:A safe place, perfect for drinking a pint of ale or two.
 
 #Home NOT WORK
@@ -337,9 +349,15 @@ name:Home
 graphics:0:B
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:22:0
+info:23:0
 desc:Your safe piece of Middle Earth, and the only place you can store goods 
 desc:apart from on your person.
+
+################################################################
+#################
+#                  end of ___ALL___ STORES
+#################
+################################################################
 
 name:secret door
 graphics:#:w
@@ -395,10 +413,8 @@ desc: sight. It contains visible treasure.
 name:granite wall
 graphics:#:W
 priority:11
-#ruins:
-#flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
-# GRANITE used in dungeon building.
+# GRANITE flag is MUST have. used in dungeon building.
 info:0:5
 desc:A seam of hard rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
@@ -1966,48 +1982,49 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 desc:.
 
-#####removed PASSABLE.. return back when RUN flag will appear
+#####removed PASSABLE and PROJECT..
+# return back when RUN flag will appear
 name:obj_grass L ruins
 graphics:::s
 priority:18
-#granite:
+#comparison to granite:
 #flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 
 name:obj_grass M ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 
 name:obj_grass O ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 
 name:obj_grass P ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 
 name:obj_grass Q ruins
 graphics:::s
 priority:18
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 desc:.
 

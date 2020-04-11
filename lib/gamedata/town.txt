@@ -16,12 +16,12 @@ name:Hunter's Valley
 # Starting town
 short:0_0
 wpos:0:0
-max-townies:20
+max-townies:15
 
 name:Carn Dum
 # Base town containing the main Angband dungeon
 short:Carn
-wpos:-37:37
+wpos:-43:43
 max-townies:100
 
 ############################### 0
