@@ -654,7 +654,7 @@ skill-melee:20
 skill-shoot:-5
 skill-dig:0
 #add one more HP (V is 13)
-hitdie:12
+hitdie:13
 exp:100:125
 history:100
 age:20:10
@@ -668,7 +668,7 @@ value:1:DEX[-2]
 value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
 obj-flag:40:TRAP_IMMUNE
-value:1:SPEED[-1+-1d30]
+#value:1:SPEED[-1+-1d30]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
