@@ -1177,7 +1177,7 @@ object:light:Arkenstone:0x87:0xB6
 
 ##### MAngband objects #####
 
-object:stone:House Foundation Stone:0x97:0x97
+object:stone:House Foundation Stone:0x87:0xB8
 object:food:Pint of Fine Ale:0x82:0x80
 object:crop:Potato:0x82:0xAC
 object:crop:Head of Cabbage:0x82:0xAD
@@ -1608,7 +1608,7 @@ monster:Shambling mound:0x8E:0xDF
 monster:Old Forest shambling mound:0x8E:0xDF
 monster:Evil eye:0x90:0x88
 #monster:Lesser mimic:do not redefine
-monster:Door mimic:0x97:0x8C
+monster:Door mimic:0x96:0xC7
 monster:The Rat King:0x8E:0x9B
 monster:Shagrat, the Orc Captain:0x95:0x8C
 monster:Gorbag, the Orc Captain:0x95:0x8D
@@ -1639,7 +1639,7 @@ monster:Old Forest ranger:0x8B:0xF6
 monster:Paladin:0x8B:0xF7
 monster:Lizard king:0x8F:0xC1
 monster:great eagle:0x93:0xAB
-monster:Livingstone:0x97:0xA4
+monster:Livingstone:0xBB:0x81
 monster:Elite uruk:0x8D:0xDE
 monster:The Icky Queen:0x8E:0xE2
 monster:Gold dragon worm:0xA0:0x9B
@@ -1764,7 +1764,7 @@ monster:Spectator:0x90:0x89
 monster:Beorn, the Shape-Changer:0x8D:0xC9
 monster:Beorn, the Mountain Bear:0x99:0xFE
 monster:Clairvoyant:0x8E:0x8A
-monster:Lesser wall monster:0x97:0xA5
+monster:Lesser wall monster:0xBB:0x82
 monster:Young blue dragon:0x8C:0x88
 monster:Young white dragon:0x8C:0x8A
 monster:Young green dragon:0x8C:0x8B
@@ -2033,7 +2033,7 @@ monster:Iron Mountains 11-headed hydra:0x90:0xCE
 monster:fire golem:0xA0:0xE3
 monster:Dread:0x94:0x84
 monster:Prizrak:0x94:0x81
-monster:Greater wall monster:0x97:0xA6
+monster:Greater wall monster:0xBB:0x83
 monster:Great balance drake:0xA0:0xB4
 monster:Seraph:0x9A:0xDD
 monster:Wizard:0x99:0xC7
@@ -2050,7 +2050,7 @@ monster:Cyclops:0x99:0xD8
 monster:Grey wraith:0x94:0x8C
 monster:The Watcher in the Water:0xA0:0xBD
 monster:Lesser black reaver:0x94:0x92
-monster:Golgarach, the Living Rock:0x97:0xE9
+monster:Golgarach, the Living Rock:0x96:0xF1
 monster:Master unbeliever:0xA0:0x92
 monster:Ancient power dragon:0xA0:0xB5
 monster:blue Thunderlord:0x8E:0x9E
