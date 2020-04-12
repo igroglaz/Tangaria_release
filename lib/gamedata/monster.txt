@@ -26112,6 +26112,7 @@ force-location:Utumno, Portal to the Void
 # Starting town
 
 
+
 name:huge bee
 base:townsfolk
 color:B
@@ -26119,7 +26120,7 @@ speed:110
 hit-points:7
 hearing:10
 armor-class:10
-sleepiness:130
+sleepiness:70
 depth:0
 rarity:2
 weight:365
@@ -26127,7 +26128,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26138,13 +26139,13 @@ speed:110
 hit-points:1
 hearing:30
 armor-class:1
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:0
 experience:0
 blow:MOAN
-flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
 force-location:Hunter's Valley
 
@@ -26155,13 +26156,13 @@ speed:110
 hit-points:1
 hearing:30
 armor-class:1
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:0
 experience:0
 blow:MOAN
-flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
 force-location:Hunter's Valley
 
@@ -26172,13 +26173,13 @@ speed:110
 hit-points:1
 hearing:30
 armor-class:1
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:3
 weight:0
 experience:0
 blow:MOAN
-flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
 force-location:Hunter's Valley
 
@@ -26189,15 +26190,15 @@ speed:110
 hit-points:14
 hearing:10
 armor-class:10
-sleepiness:180
+sleepiness:45
 depth:0
 rarity:3
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26208,7 +26209,7 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:200
+sleepiness:77
 depth:0
 rarity:1
 weight:365
@@ -26216,7 +26217,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26227,15 +26228,15 @@ speed:110
 hit-points:15
 hearing:10
 armor-class:10
-sleepiness:250
+sleepiness:140
 depth:0
 rarity:1
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26254,7 +26255,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26265,15 +26266,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26284,15 +26285,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:3
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26311,7 +26312,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26322,15 +26323,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26341,7 +26342,7 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:250
+sleepiness:110
 depth:0
 rarity:4
 weight:365
@@ -26349,7 +26350,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26360,15 +26361,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:210
+sleepiness:95
 depth:0
 rarity:4
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26379,7 +26380,7 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:200
+sleepiness:70
 depth:0
 rarity:4
 weight:365
@@ -26387,7 +26388,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26398,15 +26399,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:50
 depth:0
 rarity:5
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26417,7 +26418,7 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:200
+sleepiness:100
 depth:0
 rarity:5
 weight:365
@@ -26425,7 +26426,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26436,7 +26437,7 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:1
 weight:365
@@ -26444,7 +26445,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26455,7 +26456,7 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:1
 weight:365
@@ -26463,7 +26464,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26474,15 +26475,15 @@ speed:110
 hit-points:11
 hearing:10
 armor-class:10
-sleepiness:250
+sleepiness:110
 depth:0
 rarity:1
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26493,15 +26494,15 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:4
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26512,7 +26513,7 @@ speed:110
 hit-points:22
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:6
 weight:365
@@ -26521,7 +26522,7 @@ blow:HIT:HURT:1d1
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26538,10 +26539,10 @@ rarity:6
 weight:365
 experience:0
 blow:HIT:HURT:1d1
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26552,15 +26553,15 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:3
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26571,15 +26572,15 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:4
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26590,7 +26591,7 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:365
@@ -26598,7 +26599,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26609,15 +26610,15 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:5
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26628,7 +26629,7 @@ speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:4
 weight:365
@@ -26636,7 +26637,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26652,10 +26653,10 @@ depth:0
 rarity:2
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26666,7 +26667,7 @@ speed:110
 hit-points:30
 hearing:10
 armor-class:10
-sleepiness:250
+sleepiness:110
 depth:0
 rarity:6
 weight:365
@@ -26674,7 +26675,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26685,7 +26686,7 @@ speed:110
 hit-points:15
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:4
 weight:365
@@ -26693,7 +26694,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26713,7 +26714,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26729,11 +26730,11 @@ depth:0
 rarity:2
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
-desc:It doesn't like strangers.
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+desc:Small ears, beady eyes, fleshy nose and wormy tail.
 force-location:Hunter's Valley
 
 name:frog
@@ -26743,15 +26744,15 @@ speed:110
 hit-points:3
 hearing:10
 armor-class:10
-sleepiness:200
+sleepiness:79
 depth:0
 rarity:3
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26770,7 +26771,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26781,15 +26782,15 @@ speed:110
 hit-points:10
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:2
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26800,7 +26801,7 @@ speed:110
 hit-points:10
 hearing:10
 armor-class:10
-sleepiness:150
+sleepiness:85
 depth:0
 rarity:3
 weight:365
@@ -26808,7 +26809,7 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26824,10 +26825,10 @@ depth:0
 rarity:3
 weight:365
 experience:0
-flags:MALE
+flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
 
@@ -26846,9 +26847,11 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
-flags:ANIMAL | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
 force-location:Hunter's Valley
+
+
 
 ###########################################################################
 ################### Carn Dum
