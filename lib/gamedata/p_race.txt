@@ -431,6 +431,7 @@ value:50:RES_ACID[1]
 value:50:RES_ELEC[1]
 player-flags:THUNDERLORD
 
+#dragon got 1/2 bonuses from dragons which form they take
 name:Dragon
 skill-disarm-phys:-33
 skill-disarm-magic:-33
@@ -441,7 +442,7 @@ skill-search:10
 skill-melee:15
 skill-shoot:-50
 skill-dig:0
-#add one more HP (V is 13)
+#13
 hitdie:10
 exp:210:125
 history:98
@@ -706,11 +707,11 @@ name:Troll
 skill-disarm-phys:-18
 skill-disarm-magic:-18
 skill-device:-16
-skill-save:-10
+skill-save:-16
 skill-stealth:-5
 skill-search:-10
 skill-melee:25
-skill-shoot:-15
+skill-shoot:-20
 skill-dig:1
 hitdie:13
 exp:100:125
@@ -730,6 +731,7 @@ obj-flag:1:REGEN
 value:1:SPEED[-1+-1d35]
 value:20:RES_POIS[1]
 value:35:RES_SHARD[1]
+value:1:RES_LIGHT[-1]
 player-flags:TROLL
 
 name:Orc
@@ -1168,15 +1170,54 @@ value:1:SPEED[-1]
 value:1:RES_POIS[1]
 obj-flag:1:FREE_ACT
 obj-flag:1:SEE_INVIS
-#value:1:RES_MANA
+
+#name:Pixie
+#skill-disarm-phys:10
+#skill-disarm-magic:20
+#skill-device:7
+#skill-save:15
+#skill-stealth:7
+#skill-search:8
+#skill-melee:-20
+#skill-shoot:10
+#skill-dig:-1
+#hitdie:4
+#exp:100:110
+#history:100
+#age:10:4
+#height:21:2
+#weight:12:1
+#value:1:STR[-6]
+#value:1:INT[4]
+#value:1:WIS[4]
+#value:1:DEX[9]
+#value:1:CON[-4]
+#######CHA:6
+#value:1:INFRA[1+1d15]
+#value:1:SPEED[1+1d12]
+####### bolt spells frequently turn into beams
+#player-flags:BEAM
+######perfect success rate with magic
+#player-flags:ZERO_FAIL 
+#obj-flag:1:FEATHER
+######giving them a chance to use less spell points when they cast a spell, probably based upon their primary spell stat, (i.e., int or wis)
+#######some type of innate survival spells that they can cast every so often (like a built-in rod), things like phase door, teleport, etc.
 
 
-
+# mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
 # troglodite
-# Mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
-# Dis,Dev,Sav,Stl,Srh,Fos,Thn,Thb,Stats,Exp
+# gnoll
+# centaur
+# draconian
+# spider
+# beholder
+# jelly
 
-#gnoll
+#STEALTH_MODE
+#CROWD_FIGHT
+#MARTIAL_ARTS
+
+#value:1:RES_MANA
 
 #IMPAIR_MANA
 #MANA

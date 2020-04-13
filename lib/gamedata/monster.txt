@@ -201,6 +201,44 @@ color:w
 
 ### Dungeon level 0 ###
 
+name:hobo
+base:townsfolk
+color:g
+speed:110
+hit-points:2
+hearing:60
+armor-class:1
+sleepiness:0
+depth:0
+rarity:3
+weight:135
+experience:0
+blow:DROOL
+flags:MALE
+flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
+flags:DROP_CORPSE | DROP_SKELETON
+desc:Ugly doesn't begin to describe him.
+force-location:Farfest
+
+name:raving lunatic
+base:townsfolk
+color:G
+speed:115
+hit-points:12
+hearing:60
+armor-class:1
+sleepiness:0
+depth:0
+rarity:3
+weight:150
+experience:0
+blow:DROOL
+flags:MALE
+flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
+flags:DROP_CORPSE | DROP_SKELETON
+desc:Drooling and comical, but then, what do you expect?
+force-location:Farfest
+
 name:filthy street urchin
 base:townsfolk
 color:D
@@ -590,6 +628,44 @@ force-location:Hunter's Valley
 
 ### Dungeon level 1 ###
 
+name:blinking dot
+base:hybrid
+color:s
+speed:110
+hit-points:2
+hearing:40
+armor-class:1
+sleepiness:0
+depth:1
+rarity:8
+weight:0
+experience:3
+blow:SPORE:CONFUSE:1d6
+flags:NEVER_MOVE | STUPID | EMPTY_MIND
+flags:NO_CONF | NO_SLEEP | NO_FEAR
+spell-freq:50
+spells:BLINK
+desc:Is it there or is it not?
+
+name:grid bug
+base:hybrid
+color:s
+speed:110
+hit-points:5
+hearing:10
+armor-class:2
+sleepiness:10
+depth:1
+rarity:4
+weight:10
+experience:2
+blow:BITE:ELEC:1d7
+flags:RAND_25
+flags:STUPID | WEIRD_MIND
+flags:ANIMAL | IM_ELEC
+friends:100:1d3:Same
+desc:A strange electric bug. He can not fly.
+
 name:wooden barrel
 base:hybrid
 color:y
@@ -614,7 +690,7 @@ desc:An old barrel. When you hit it, you hear hollow sound. Is it empty?
 name:elki-palki
 base:tree
 color:G
-speed:100
+speed:90
 hit-points:50
 light:-2
 hearing:40
@@ -638,7 +714,7 @@ desc: to other living things.
 name:lonely tree
 base:tree
 color:G
-speed:100
+speed:90
 hit-points:50
 light:-2
 hearing:40
@@ -1016,9 +1092,9 @@ speed:110
 hit-points:6
 hearing:10
 armor-class:1
-sleepiness:255
+sleepiness:150
 depth:1
-rarity:1
+rarity:2
 weight:150
 experience:0
 blow:HIT:HURT:1d6
@@ -1027,6 +1103,7 @@ flags:RAND_25 | DROP_SKELETON | DROP_CORPSE
 flags:ONLY_GOLD | DROP_40
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
+force-location:Farfest
 
 #was name:woodsman
 name:mad woodsman
@@ -1034,7 +1111,7 @@ plural:mad woodsmen
 base:person
 color:g
 speed:110
-hit-points:9
+hit-points:14
 light:2
 hearing:10
 armor-class:1
@@ -1044,7 +1121,7 @@ rarity:4
 weight:150
 experience:5
 blow:HIT:HURT:1d6
-flags:MALE
+flags:MALE | UNIQUE
 flags:RAND_25 | DROP_SKELETON | DROP_CORPSE
 flags:ONLY_GOLD | DROP_40
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
@@ -1091,6 +1168,26 @@ flags:WILD_GRASS | WILD_WOOD | WILD_SWAMP
 desc:A lone insect may be harmless, but there is a whole swarm of them here!
 
 ### Dungeon level 2 ###
+
+name:Freesia
+base:feline
+color:u
+speed:120
+hit-points:25
+hearing:40
+smell:40
+armor-class:30
+sleepiness:10
+depth:2
+rarity:2
+weight:25
+experience:30
+blow:CLAW:HURT:1d2
+blow:CLAW:HURT:1d2
+flags:UNIQUE | BASH_DOOR
+flags:ANIMAL | NO_CONF | NO_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON
+desc:A striped housecat who enjoys hunting.
 
 name:kobold
 base:kobold
@@ -1250,7 +1347,8 @@ friends-base:80:1d3:person
 friends:50:1d2:Same
 desc:He is tripping over his priestly robes.
 
-name:apprentice
+#apprentice
+name:novice mage
 base:person
 color:r
 speed:110
@@ -2599,6 +2697,23 @@ flags:WEIRD_MIND | MULTIPLY | STUPID
 flags:RAND_25 | RAND_50 | BASH_DOOR
 flags:HURT_LIGHT | IM_FIRE | NO_FEAR
 desc:It is a large slimy mass of worms.
+
+name:giant leech
+base:worm
+color:u
+speed:120
+hit-points:30
+hearing:10
+armor-class:20
+sleepiness:50
+depth:5
+rarity:2
+weight:30
+experience:20
+blow:BITE:HURT:4d1
+blow:BITE:HURT:3d3
+flags:ANIMAL | AQUATIC | WEIRD_MIND | RAND_25 | IM_WATER
+desc:Yech! The disgusting thing only wants your blood!
 
 name:copperhead snake
 base:snake

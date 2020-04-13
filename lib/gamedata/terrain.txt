@@ -967,7 +967,7 @@ desc:Looks like this wall is not so real.
 name:tree 0 stump
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:old withered tree stump with anthill on one side.
 info:0:1
@@ -985,7 +985,7 @@ desc:A tree.
 name:tree 2 little
 graphics:*:u
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:Tiny tree. It's not a sprig already, it will grow big in time.
 info:0:1
@@ -1030,7 +1030,7 @@ desc:A coniferous tree.
 name:tree 7 coniferous small
 graphics:*:u
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tiny coniferous tree.
 
@@ -1051,21 +1051,21 @@ desc:A willow tree.
 name:tree a small willow
 graphics:*:u
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A small willow tree.
 
 name:tree b broken log
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A broken log.
 
 name:tree c broken log
 graphics:*:D
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A broken log.
 
@@ -1121,7 +1121,7 @@ desc:A gervais tree.
 name:tree k gervais small
 graphics:*:u
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tiny gervais tree.
 
@@ -1135,7 +1135,7 @@ desc:A palm tree.
 name:tree m palm small
 graphics:*:u
 priority:4
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tiny palm tree.
 
@@ -1156,49 +1156,49 @@ desc:A broken log.
 name:tree p stump
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree q stump
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree r branch
 graphics:.:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree s branch
 graphics:.:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree t branch
 graphics:.:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree u branch
 graphics:.:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree v branch
 graphics:.:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
@@ -1209,49 +1209,49 @@ desc:A dead tree.
 name:tree w fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree x fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree y fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree z fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree A fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree B fallen
 graphics:*:D
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A dead tree.
 
 name:tree C small tree
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
@@ -1279,7 +1279,7 @@ desc:A tree.
 name:tree G small tree
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
@@ -1288,98 +1288,98 @@ desc:A tree.
 name:tree H
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree I
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree J
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree K
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree L
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree M
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree N
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree O
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree P
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree Q
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree R
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree S
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree T
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
 name:tree U
 graphics:*:u
 priority:9
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 info:0:1
 desc:A tree.
 
@@ -1387,42 +1387,46 @@ name:tree V
 graphics:*:W
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
 desc:.
 
 name:tree W
 graphics:*:W
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
 desc:.
 
 name:tree X
 graphics:*:W
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
 desc:.
 
 name:tree Y
 graphics:*:W
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
 desc:.
 
 name:tree Z
 graphics:.:D
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:tree ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:tree `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -1437,193 +1441,193 @@ desc:.
 name:flower 0 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 1 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 2 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 3 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 4 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 5 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 6 green
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 7 grass
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 8 grass
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower 9 grass yellow
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower a grass brown
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of grass.
 
 name:flower b orange
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower c white
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower d orange
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower e red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower f violet
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower g yellow
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower h red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower i white
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower j red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower k yellow
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower l rose
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower m purple
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower n orange
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower o rose
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower p blue
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower q rose
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower r red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower s rose
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower t white
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower u red white
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower v blue white
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -1633,61 +1637,61 @@ desc:A patch of flowers.
 name:flower w rose
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower x blue
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower y purple
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower z blue
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower A red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower B orange
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower C pink
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower D red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower E blue
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 name:flower F red
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:A patch of flowers.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -3752,7 +3756,7 @@ desc:.
 name:floor 1 grass
 graphics:.:g
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:floor 2 parquet
@@ -3776,7 +3780,7 @@ desc:.
 name:floor 5 marsh
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:floor 6 dry soil
@@ -3812,13 +3816,13 @@ desc:.
 name:floor b swamp
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:floor c bog
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:floor d hills
@@ -3842,7 +3846,7 @@ desc:.
 name:floor g ice
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:floor h ice grass
@@ -4146,187 +4150,187 @@ desc:.
 name:B3 floors 1
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 2
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 3
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 4
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 5
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 6
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 7
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 8
 graphics:.:D
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors 9
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors a
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors b
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors c
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors d
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors e
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors f
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors g
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors o
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors p
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors r
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors s
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors t
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:B3 floors v
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -5057,44 +5061,49 @@ name:wooden walls 0 solid
 graphics:#:u
 priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls 1 solid corner
 graphics:#:u
 priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls 2 empty window
 graphics:#:u
 priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls 3 window
 graphics:#:u
 priority:25
-# vs wooden walls 0 solid
-#lags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls 4 barred window
 graphics:#:u
 priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls 5 door
 graphics:+:U
 priority:24
 flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:2
 desc:.
 
 name:wooden walls 6 door
 graphics:+:U
 priority:24
 flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:2
 desc:.
 
 #statue
@@ -5102,6 +5111,7 @@ name:wooden walls 7
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 #fountain
@@ -5109,6 +5119,7 @@ name:wooden walls 8
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 ### WINDOWS FURTHER ON
@@ -5117,138 +5128,161 @@ name:wooden walls 9
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls a
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls b
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls c
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls d
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls e
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls f
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls g
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls h
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls i
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls j
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls k
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls l
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls m
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls n
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls o
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls p
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls q
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls r
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls s
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls t
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls u
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 name:wooden walls v
 graphics:#:u
 priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:2
 desc:.
 
 
@@ -5260,12 +5294,14 @@ name:wooden walls w
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls x
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 #fireplace
@@ -5273,144 +5309,168 @@ name:wooden walls y
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:2
 desc:.
 
 name:wooden walls z
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls A
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls B
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls C
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls D
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls E
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls F
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls G
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls H
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls I
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls J
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls K
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls L
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls M
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls N
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls O
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls P
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls Q
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls R
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls S
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls T
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls U
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls V
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 #pitcher on the wall
@@ -5418,37 +5478,45 @@ name:wooden walls W
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls X
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls Y
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
+info:0:2
 desc:.
 
 name:wooden walls Z
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:2
 desc:.
 
 name:wooden walls ~
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:2
 desc:.
 
 name:wooden walls `
 graphics:#:u
 priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:2
 desc:.
+
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -5459,144 +5527,168 @@ name:dark wall 0
 graphics:#:D
 priority:25
 flags:MAGMA| WALL | ROCK | NO_SCENT | NO_FLOW
+info:0:3
 desc:.
 
 name:dark wall 1 narrow window
 graphics:#:D
 priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall 2 window
 graphics:#:D
 priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall 3 candelabra
 graphics:#:D
 priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall 4 torch
 graphics:#:D
 priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall 5 lamp
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall 6 niche
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall 7 swords
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall 8 shield
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall 9 statue
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall a fountain
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall b portrait
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall c portrait
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall d portrait
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall e portrait
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall f banner
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall g banner
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall h banner
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall i banner
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall j banner
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall k empty window
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall l window
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall m barred window
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall n glass window
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:dark wall o up staircase
@@ -5615,6 +5707,7 @@ name:dark wall q door
 graphics:+:U
 priority:24
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:dark wall r doorway
@@ -5627,6 +5720,7 @@ name:dark wall s door
 graphics:+:U
 priority:24
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:dark wall t doorway
@@ -5639,12 +5733,14 @@ name:dark wall u
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall v
 graphics:#:D
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -5655,12 +5751,14 @@ name:dark wall w
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall x
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #fireplace
@@ -5668,180 +5766,210 @@ name:dark wall y
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall z
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall A
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall B
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall C
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall D
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall E
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall F
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall G
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall H
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall I
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall J
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall K
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall L
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall M
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall N
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall O
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall P
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall Q
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall R
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall S
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall T
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall U
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall V
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall W
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall X
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall Y
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:dark wall Z
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall ~
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:dark wall `
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 
@@ -5853,48 +5981,56 @@ name:big white wall 0
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall 1 emtpy window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall 2 barred window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall 3 window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall 4 door
 graphics:+:U
 priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:big white wall 5
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall 6
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall 7
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 # windows further on
@@ -5903,144 +6039,168 @@ name:big white wall 8
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall 9
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall a
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall b
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall c
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall d
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall e
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall f
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall g
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall h
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall i
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall j
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall k
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall l
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall m
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall n
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall o
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall p
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall q
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall r
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall s
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall t
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall u
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big white wall v
 graphics:#:w
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 
@@ -6053,12 +6213,14 @@ name:big white wall w
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall x
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #fireplace
@@ -6066,180 +6228,210 @@ name:big white wall y
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big white wall z
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall A
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall B
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall C
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall D
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall E
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall F
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall G
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall H
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall I
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall J
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall K
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall L
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall M
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall N
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall O
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall P
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall Q
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall R
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall S
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall T
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall U
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall V
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall W
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall X
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall Y
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big white wall Z
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big white wall ~
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big white wall `
 graphics:#:w
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -6250,36 +6442,42 @@ name:big dark wall 0
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall 1
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall 2 window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall 3 empty window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall 4 barred window
 graphics:#:s
 priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall 5 door
 graphics:+:U
 priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:big dark wall 6 doorway
@@ -6292,6 +6490,7 @@ name:big dark wall 7 door
 graphics:+:U
 priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:big dark wall 8 doorway
@@ -6300,142 +6499,167 @@ priority:25
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 desc:.
 
+# removing passable and project for ruins as player got inside of walls
+# after using stairs.. https://github.com/draconisPW/PWMAngband/issues/146
 name:big dark wall 9 entrance
 graphics:+:'
 priority:25
-flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | TORCH
+info:0:3
 desc:.
 
 name:big dark wall a low entrance
 graphics:#:D
 priority:25
-flags:QUARTZ | WALL | ROCK | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | TORCH
+info:0:3
 desc:.
 
 name:big dark wall b window
 graphics:#:D
 priority:25
-flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+flags:QUARTZ | WALL | ROCK | TORCH
+info:0:3
 desc:.
 
 name:big dark wall c
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall d
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall e
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall f
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall g
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall h
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall i
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall j
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall k
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall l
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall m
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall n
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall o
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall p
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall q
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall r
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall s
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall t
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall u
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:big dark wall v
 graphics:#:s
 priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -6446,12 +6670,14 @@ name:big dark wall w
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall x
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #fireplace
@@ -6459,180 +6685,210 @@ name:big dark wall y
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big dark wall z
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall A
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall B
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall C
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall D
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall E
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall F
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall G
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall H
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall I
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall J
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall K
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall L
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall M
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall N
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall O
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall P
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall Q
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall R
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall S
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall T
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall U
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall V
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall W
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall X
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall Y
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:big dark wall Z
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big dark wall ~
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:big dark wall `
 graphics:#:s
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 
@@ -6644,48 +6900,56 @@ name:brick wall 0
 graphics:#:s
 priority:25
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall 1 window
 graphics:#:s
 priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall 2 empty window
 graphics:#:s
 priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall 3 barred window
 graphics:#:s
 priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall 4 door
 graphics:+:U
 priority:25
 flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:brick wall 5
 graphics:#:W
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall 6
 graphics:#:W
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall 7
 graphics:#:W
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #door
@@ -6694,144 +6958,168 @@ name:brick wall 8
 graphics:+:U
 priority:18
 flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
+info:0:3
 desc:.
 
 name:brick wall 9
 graphics:+:'
 priority:18
 flags:PASSABLE | EASY | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall a
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall b
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall c
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall d
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall e
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall f
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall g
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall h
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall i
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall j
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall k
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall l
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall m
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall n
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall o
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall p
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall q
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall r
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall s
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall t
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall u
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 name:brick wall v
 graphics:#:W
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -6842,12 +7130,14 @@ name:brick wall w
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall x
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 #fireplace
@@ -6855,180 +7145,210 @@ name:brick wall y
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:brick wall z
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall A
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall B
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall C
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall D
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall E
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall F
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall G
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall H
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall I
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall J
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall K
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall L
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall M
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall N
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall O
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall P
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall Q
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall R
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall S
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall T
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall U
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall V
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall W
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall X
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall Y
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
 desc:.
 
 name:brick wall Z
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:brick wall ~
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 name:brick wall `
 graphics:#:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+info:0:3
 desc:.
 
 
@@ -14486,7 +14806,7 @@ desc:.
 name:E7 desert 0
 graphics:.:y
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 desc:.
 
 name:E7 desert 1
@@ -14498,7 +14818,7 @@ desc:.
 name:E7 desert 2
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert 3
@@ -14510,7 +14830,7 @@ desc:.
 name:E7 desert 4
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert 5
@@ -14522,7 +14842,7 @@ desc:.
 name:E7 desert 6
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert 7
@@ -14540,19 +14860,19 @@ desc:.
 name:E7 desert 9
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert a
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert b
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert c
@@ -14630,49 +14950,49 @@ desc:.
 name:E7 desert o
 graphics:^:y
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert p
 graphics:.:D
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert q
 graphics:.:B
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert r
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert s
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert t
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert u
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E7 desert v
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -14683,19 +15003,19 @@ desc:.
 name:E8 desert w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skull.
 
 name:E8 desert x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:A few bones.
 
 name:E8 desert y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Some bones.
 
 name:E8 desert z
@@ -14707,37 +15027,37 @@ desc:A pile of bones and skulls.
 name:E8 desert A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Skeleton.
 
 name:E8 desert G
@@ -14749,7 +15069,7 @@ desc:.
 name:E8 desert H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert I
@@ -14773,13 +15093,13 @@ desc:Ruins.
 name:E8 desert L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert N
@@ -14797,19 +15117,19 @@ desc:.
 name:E8 desert P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert S
@@ -14821,55 +15141,55 @@ desc:Old wagon.
 name:E8 desert T
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert U
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert V
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert W
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert X
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert Y
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert Z
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:E8 desert `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -15080,79 +15400,79 @@ desc:.
 name:EB dirt 0
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 desc:.
 
 name:EB dirt 1
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 2
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 3
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 4
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 5
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 6
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 7
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 8
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt 9
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt a
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt b
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt c
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt d
@@ -15170,31 +15490,31 @@ desc:Withered tree.
 name:EB dirt f
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt g
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EB dirt k
@@ -15277,19 +15597,19 @@ desc:.
 name:EC dirt w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt z
@@ -15301,37 +15621,37 @@ desc:.
 name:EC dirt A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt G
@@ -15343,7 +15663,7 @@ desc:.
 name:EC dirt H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt I
@@ -15367,13 +15687,13 @@ desc:Old ruins.
 name:EC dirt L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Turned down cauldron.
 
 name:EC dirt M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:Broken chest.
 
 name:EC dirt N
@@ -15391,19 +15711,19 @@ desc:.
 name:EC dirt P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt S
@@ -15415,55 +15735,55 @@ desc:.
 name:EC dirt T
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt U
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt V
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt W
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt X
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt Y
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt Z
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EC dirt `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -15691,7 +16011,7 @@ desc:.
 name:EF snow 0
 graphics:.:w
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 desc:.
 
 name:EF snow 1
@@ -15709,73 +16029,73 @@ desc:.
 name:EF snow 3
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 4
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 5
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 6
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 7
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 8
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow 9
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow a
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow b
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow c
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow d
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow e
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow f
@@ -15793,91 +16113,91 @@ desc:.
 name:EF snow h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow o
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow p
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow r
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow s
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow t
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:EF snow v
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -15888,19 +16208,19 @@ desc:.
 name:F0 snow w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow z
@@ -15912,37 +16232,37 @@ desc:.
 name:F0 snow A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow G
@@ -15954,7 +16274,7 @@ desc:.
 name:F0 snow H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow I
@@ -15978,13 +16298,13 @@ desc:.
 name:F0 snow L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow N
@@ -16002,19 +16322,19 @@ desc:.
 name:F0 snow P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow S
@@ -16026,55 +16346,55 @@ desc:.
 name:F0 snow T
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow U
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow V
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow W
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow X
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow Y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow Z
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow ~
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:F0 snow `
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -17247,193 +17567,193 @@ desc:.
 name:FC double 0
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 1
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 2
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 3
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 4
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 5
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 6
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 7
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 8
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double 9
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double a
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double b
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double c
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double d
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double e
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double f
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double g
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double h
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double i
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double j
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double k
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double l
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double m
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double n
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double o
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double p
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double q
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double r
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double s
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double t
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double u
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FC double v
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -17444,193 +17764,193 @@ desc:.
 name:FD double w
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double x
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double y
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double z
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double A
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double B
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double C
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double D
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double E
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double F
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double G
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double H
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double I
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double J
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double K
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double L
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double M
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double N
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double O
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double P
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double Q
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double R
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double S
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double T
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double U
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double V
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double W
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double X
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double Y
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double Z
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double ~
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 name:FD double `
 graphics:*:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 desc:.
 
 
@@ -17653,19 +17973,19 @@ desc:.
 name:light grass
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | BRIGHT
 desc:.
 
 name:light grass plants
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | BRIGHT
 desc:.
 
 name:light grass flowers
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | OBJECT | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP | BRIGHT
 desc:.
 ###########LIGHTENED TILES (dungeons at open air)
 

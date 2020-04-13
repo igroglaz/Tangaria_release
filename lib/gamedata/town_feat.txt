@@ -133,14 +133,9 @@ feat:T:P:tree P
 feat:T:Q:tree Q
 feat:T:R:tree R
 feat:T:S:tree S
-
-#!!!!!!!!!!!!!!!!!!!!!!!! basic symbol
-
+#!!!!!!!!!!!!!!!!!!!!!!! basic symbol
 feat:T:&:tree T
-
 #!!!!!!!!!!!!!!!!!!!!!!!
-
-
 feat:T:U:tree U
 feat:T:V:tree V
 feat:T:W:tree W

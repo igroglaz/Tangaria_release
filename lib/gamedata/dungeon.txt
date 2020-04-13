@@ -55,18 +55,72 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:2
+#a4
+floor:flower 0 green:1
+floor:flower 1 green:1
+floor:flower 2 green:1
+floor:flower 3 green:1
+floor:flower 4 green:1
+floor:flower 5 green:1
+floor:flower 6 green:1
 #floor:B3 floors n:1
-floor:floor 0 grass:33
-floor:floor 1 grass:34
-floor:floor w grass:33
-wall:obj_grass L ruins:11
-wall:obj_grass M ruins:3
+floor:floor 0 grass:25
+floor:floor 1 grass:28
+#b2
+floor:floor w grass:25
+floor:floor x grass:1
+floor:floor y grass:1
+floor:floor z grass:1
+floor:floor A grass:1
+floor:floor B grass:1
+floor:floor C grass:1
+floor:floor D grass:1
+floor:floor G rocks:1
+floor:floor I rocks:1
+floor:floor J rocks:1
+floor:floor N rock:1
+floor:floor O rock:1
+floor:floor W hills:1
+#b3
+floor:B3 floors 2:1
+floor:B3 floors 3:1
+#25 total; 
+#A1
+###################################################
+#a1
+wall:tree 1:1
+wall:tree 3:1
+wall:tree 4 maple:1
+wall:tree 5 maple:1
+wall:tree 6 coniferous:1
+wall:tree 8 coniferous:1
+wall:tree 9 willow:1
+wall:tree d birch:1
+wall:tree e linden:1
+wall:tree g larch:1
+wall:tree n dead tree:1
+wall:tree o dead tree:1
+#a2
+wall:tree D tree:1
+wall:tree E tree:1
+wall:tree F tree:1
+wall:tree V:1
+wall:tree W:1
+wall:tree X:1
+wall:tree Y:1
+#a7
+wall:obj_grass L ruins:10
+wall:obj_grass M ruins:1
 wall:obj_grass N ruins:11
 wall:obj_grass O ruins:11
 wall:obj_grass P ruins:3
-wall:obj_grass Q ruins:6
-#wall:big dark wall 0:11
-#wall:big dark wall b window:1
+wall:obj_grass Q ruins:9
+wall:big dark wall 0:1
+wall:big dark wall 1:1
+wall:big dark wall 9 entrance:1
+wall:big dark wall a low entrance:1
+wall:big dark wall b window:1
+#64 total
 flags:EMPTY
 rule:100:1
 
