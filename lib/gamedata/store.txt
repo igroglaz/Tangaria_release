@@ -360,7 +360,7 @@ buy:flask
 store:Rinswind the Wizard
 owner:5000:Rinswind the Wizard (Human)
 owner:5000:Rinswind the Wizard (Human)
-slots:0:4
+slots:0:2
 turnover:1
 #######################################################################
 #always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
@@ -372,23 +372,18 @@ turnover:1
 #always:fortune cookie:would be able to conquer world!.. What?? 
 #always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
 #######################################################################
-always:nature book
-always:shadow book
-always:psi book
-always:elemental book
-always:prayer book
+#always:nature book
+#always:shadow book
+#always:psi book
+#always:elemental book
+#always:prayer book
 always:magic book
 #######################################################################
 #normal:fortune cookie:*sings* Once I came to the land of dreams...
 #normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
 #normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
 #normal:fortune cookie:Did ya know there is a secret passage nearby? shh
-buy:nature book
-buy:shadow book
-buy:psi book
-buy:elemental book
-buy:prayer book
-buy:magic book
+buy:flask
 
 # Guard tower orcs
 store:Old guard Barry
