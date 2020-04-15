@@ -50,7 +50,7 @@ PWMAngband Forum: http://www.mangband.org/forum/viewforum.php?f=9
 Features from Angband 4.x and MAngband 1.x are explicitely mentioned. Other
 changes and fixes are specific to PWMAngband.
 
-New features in PWMAngband 1.4.0 beta 1
+New features in PWMAngband 1.4.0 beta 2
 =======================================
 
 User interface
@@ -87,6 +87,8 @@ PWMAngband:
 - New option: Use single items from floor instantly
 - Remove prompt when taking single items from home
 - Drop all items in a stack by default
+- Add missing tiles, remap tileset
+- Implement custom symbols for displaying towns on the world minimap
 
 Gameplay changes
 ----------------
@@ -154,6 +156,8 @@ Angband 4.2.0:
 - Make birth_ai_learn learn from breath attacks
 - Make birth_ai_learn on by default
 - Make monsters at preferred range more likely to cast spells
+- Changed to allow sense/detect objects to remove marks on the map for
+  locations detected as empty
 
 PWMAngband:
 
@@ -168,6 +172,8 @@ PWMAngband:
 - Allow more that 3 types of terrain for dungeons
 - Make breathing consume food
 - Wipe townies every dawn
+- Decrease satiation in town areas if full
+- Add NO_STAIRS flag on terrain to prevent generating stairs
 
 Bugs fixed
 ----------
@@ -200,6 +206,8 @@ Angband 4.2.0:
 - Implement color cycling
 - Add player_property.txt
 - Changed Term_resize() to handle all of the saved stack of terminals
+- Redo chest traps, make chest_trap.txt
+- Un-hardcode admin equipment
 
 PWMAngband:
 
@@ -212,3 +220,5 @@ Compilation
 
 - Restore UNIX support
 - Add README file
+- Update help
+- Improve datafile documentation
