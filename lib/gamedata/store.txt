@@ -302,17 +302,17 @@ buy:elemental book
 store:Brodyajnik the Ranger
 owner:5000:Brodyajnik the Ranger (Human)
 owner:5000:Brodyajnik the Ranger (Human)
-slots:0:5
+slots:0:3
 turnover:1
 welcome:0:looks at you with interest.
 welcome:1:curses.
 welcome:2:grunts.
 welcome:3:eyes you suspiciously.
-#welcome:4:"There is an old mage living to the south east.."
-#welcome:5:"Don't make me waste my time!"
-#welcome:6:"Please hurry up, I need to chop wood for the fire."
-#welcome:7:"Welcome, %s."
-#welcome:8:"A pleasure to do business with you, %s."
+welcome:4:"There is an old mage living to the south east.."
+welcome:5:"Don't make me waste my time!"
+welcome:6:"Please hurry up, I need to chop wood for the fire."
+welcome:7:"Welcome, %s."
+welcome:8:"A pleasure to do business with you, %s."
 #######################################################################
 always:fortune cookie:Hello, stranger. What are you doing there, in
 always:fortune cookie:this wild lands? You are not the first who came
@@ -326,7 +326,6 @@ normal:fortune cookie:Beware of danger in Mountain Passage to the west
 normal:fortune cookie:I didn't visit town for some time already..
 normal:fortune cookie:Maybe its time for me to go on adventure with you
 #######################################################################
-always:potion:Cure Light Wounds
 always:cloak:Cloak
 always:light:Wooden Torch
 always:flask:Flask of Oil
@@ -336,8 +335,6 @@ always:arrow:Arrow
 always:bolt:Bolt
 always:shot:Rounded Pebble
 #######################################################################
-normal:potion:Salt Water
-normal:potion:Restore Life Levels
 buy:light
 buy:digger
 buy:horn
@@ -360,29 +357,35 @@ buy:flask
 store:Rinswind the Wizard
 owner:5000:Rinswind the Wizard (Human)
 owner:5000:Rinswind the Wizard (Human)
-slots:0:2
+slots:0:4
 turnover:1
 #######################################################################
-#always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
-#always:fortune cookie:you.. *grumbles* They come.. and go.. come.. and
-#always:fortune cookie:sometimes not come back..
-#always:fortune cookie:*whipped up* So.. Can ya read? If you can't,
-#always:fortune cookie:I can't help ya.. But if you do - take a look at
-#always:fortune cookie:this finest books about miracles. With them you 
-#always:fortune cookie:would be able to conquer world!.. What?? 
-#always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
+always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
+always:fortune cookie:you.. *grumbles* They come.. and go.. come.. and
+always:fortune cookie:sometimes not come back..
+always:fortune cookie:*whipped up* So.. Can ya read? If you can't,
+always:fortune cookie:I can't help ya.. But if you do - take a look at
+always:fortune cookie:this finest books about miracles. With them you 
+always:fortune cookie:would be able to conquer world!.. What?? 
+always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
 #######################################################################
-#always:nature book
-#always:shadow book
-#always:psi book
-#always:elemental book
-#always:prayer book
-always:magic book
+always:nature book:[Lesser Charms]
+always:shadow book:[Shadows for Beginners]
+always:psi book:of Telepathy
+always:elemental book:[Air]
+always:elemental book:[Fire]
+always:elemental book:[Earth]
+always:elemental book:[Water]
+always:prayer book:[Beginners Handbook]
+always:magic book:[Magic for Beginners]
+always:potion:Cure Light Wounds
+always:potion:Salt Water
+always:potion:Restore Life Levels
 #######################################################################
-#normal:fortune cookie:*sings* Once I came to the land of dreams...
-#normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
-#normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
-#normal:fortune cookie:Did ya know there is a secret passage nearby? shh
+normal:fortune cookie:*sings* Once I came to the land of dreams...
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
+normal:fortune cookie:Did ya know there is a secret passage nearby? shh
 buy:flask
 
 # Guard tower orcs
