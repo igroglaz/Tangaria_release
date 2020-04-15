@@ -32,6 +32,7 @@ name:Endless Sea
 short:0_5
 wpos:0:5
 max-townies:20
+symbol:tree w fallen
 
 name:Ice Lands
 # Helcaraxe

@@ -363,14 +363,14 @@ owner:5000:Rinswind the Wizard (Human)
 slots:0:4
 turnover:1
 #######################################################################
-always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
-always:fortune cookie:you.. *grumbles* They come.. and go.. come.. and
-always:fortune cookie:sometimes not come back..
-always:fortune cookie:*whipped up* So.. Can ya read? If you can't,
-always:fortune cookie:I can't help ya.. But if you do - take a look at
-always:fortune cookie:this finest books about miracles. With them you 
-always:fortune cookie:would be able to conquer world!.. What?? 
-always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
+#always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
+#always:fortune cookie:you.. *grumbles* They come.. and go.. come.. and
+#always:fortune cookie:sometimes not come back..
+#always:fortune cookie:*whipped up* So.. Can ya read? If you can't,
+#always:fortune cookie:I can't help ya.. But if you do - take a look at
+#always:fortune cookie:this finest books about miracles. With them you 
+#always:fortune cookie:would be able to conquer world!.. What?? 
+#always:fortune cookie:I can't hear ya!! Speak louder, yongster! Whaat?
 #######################################################################
 always:nature book
 always:shadow book
@@ -379,10 +379,10 @@ always:elemental book
 always:prayer book
 always:magic book
 #######################################################################
-normal:fortune cookie:*sings* Once I came to the land of dreams...
-normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
-normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
-normal:fortune cookie:Did ya know there is a secret passage nearby? shh
+#normal:fortune cookie:*sings* Once I came to the land of dreams...
+#normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+#normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
+#normal:fortune cookie:Did ya know there is a secret passage nearby? shh
 buy:nature book
 buy:shadow book
 buy:psi book
