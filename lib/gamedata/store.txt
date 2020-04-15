@@ -356,7 +356,6 @@ normal:fortune cookie:*purrr*
 buy:flask
 
 # Starter town wizard hut
-#10
 store:Rinswind the Wizard
 owner:5000:Rinswind the Wizard (Human)
 owner:5000:Rinswind the Wizard (Human)
@@ -376,8 +375,6 @@ always:nature book
 always:shadow book
 always:psi book
 always:elemental book
-always:prayer book
-always:magic book
 #######################################################################
 normal:fortune cookie:*sings* Once I came to the land of dreams...
 normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
@@ -387,8 +384,6 @@ buy:nature book
 buy:shadow book
 buy:psi book
 buy:elemental book
-buy:prayer book
-buy:magic book
 
 # Guard tower orcs
 store:Old guard Barry
