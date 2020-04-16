@@ -196,6 +196,7 @@ feat:,:C:flower C pink
 feat:,:D:flower D red
 feat:,:E:flower E blue
 feat:,:F:flower F red
+feat:,:G:flower G small tree
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A6 - grass objects

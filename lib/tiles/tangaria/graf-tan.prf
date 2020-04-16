@@ -3094,6 +3094,12 @@ feat:flower F red:los:0xA5:0xA5
 feat:flower F red:lit:0xA5:0xA6
 feat:flower F red:dark:0xA5:0xA7
 
+# flower G small tree
+feat:flower G small tree:torch:0xA5:0xA8
+feat:flower G small tree:los:0xA5:0xA9
+feat:flower G small tree:lit:0xA5:0xAA
+feat:flower G small tree:dark:0xA5:0xAB
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A6 - grass objects
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
