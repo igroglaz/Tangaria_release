@@ -482,18 +482,9 @@ feat:w:M:wood floor M
 feat:w:N:wood floor N
 feat:w:O:wood floor O
 feat:w:P:wood floor P
-feat:w:Q:wood floor Q
-feat:w:R:wood floor R
-feat:w:S:wood floor S
-feat:w:T:wood floor T
-feat:w:U:wood floor U
-feat:w:V:wood floor V
-feat:w:W:wood floor W
-feat:w:X:wood floor X
-feat:w:Y:wood floor Y
-feat:w:Z:wood floor Z
-feat:w:z:wood floor ~
-feat:w:`:wood floor `
+############################
+# END OF AE.... Q - ` is ampty
+############################
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AF wood floor
@@ -3198,3 +3189,5 @@ feat:.:@:light grass plants
 feat:.:#:light grass flowers
 ###########LIGHTENED TILES (dungeons at open air)
 
+##### world MAP  ####
+feat:*:*:newbie star

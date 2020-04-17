@@ -4618,80 +4618,9 @@ feat:wood floor P:los:0xAE:0xFD
 feat:wood floor P:lit:0xAE:0xFE
 feat:wood floor P:dark:0xAE:0xFF
 
-# wood floor Q 
-feat:wood floor Q:torch:0xAE:0xD0
-feat:wood floor Q:los:0xAE:0xD1
-feat:wood floor Q:lit:0xAE:0xD2
-feat:wood floor Q:dark:0xAE:0xD3
-
-#commode
-# wood floor R 
-feat:wood floor R:torch:0xAE:0xD4
-feat:wood floor R:los:0xAE:0xD5
-feat:wood floor R:lit:0xAE:0xD6
-feat:wood floor R:dark:0xAE:0xD7
-
-#commode
-# wood floor S 
-feat:wood floor S:torch:0xAE:0xD8
-feat:wood floor S:los:0xAE:0xD9
-feat:wood floor S:lit:0xAE:0xDA
-feat:wood floor S:dark:0xAE:0xDB
-
-# wood floor T 
-feat:wood floor T:torch:0xAE:0xDC
-feat:wood floor T:los:0xAE:0xDD
-feat:wood floor T:lit:0xAE:0xDE
-feat:wood floor T:dark:0xAE:0xDF
-
-# wood floor U 
-feat:wood floor U:torch:0xAE:0xE0
-feat:wood floor U:los:0xAE:0xE1
-feat:wood floor U:lit:0xAE:0xE2
-feat:wood floor U:dark:0xAE:0xE3
-
-# wood floor V 
-feat:wood floor V:torch:0xAE:0xE4
-feat:wood floor V:los:0xAE:0xE5
-feat:wood floor V:lit:0xAE:0xE6
-feat:wood floor V:dark:0xAE:0xE7
-
-# wood floor W 
-feat:wood floor W:torch:0xAE:0xE8
-feat:wood floor W:los:0xAE:0xE9
-feat:wood floor W:lit:0xAE:0xEA
-feat:wood floor W:dark:0xAE:0xEB
-
-# wood floor X 
-feat:wood floor X:torch:0xAE:0xEC
-feat:wood floor X:los:0xAE:0xED
-feat:wood floor X:lit:0xAE:0xEE
-feat:wood floor X:dark:0xAE:0xEF
-
-# wood floor Y 
-feat:wood floor Y:torch:0xAE:0xF0
-feat:wood floor Y:los:0xAE:0xF1
-feat:wood floor Y:lit:0xAE:0xF2
-feat:wood floor Y:dark:0xAE:0xF3
-
-# wood floor Z 
-feat:wood floor Z:torch:0xAE:0xF4
-feat:wood floor Z:los:0xAE:0xF5
-feat:wood floor Z:lit:0xAE:0xF6
-feat:wood floor Z:dark:0xAE:0xF7
-
-# wood floor ~ 
-feat:wood floor ~:torch:0xAE:0xF8
-feat:wood floor ~:los:0xAE:0xF9
-feat:wood floor ~:lit:0xAE:0xFA
-feat:wood floor ~:dark:0xAE:0xFB
-
-# wood floor ` 
-feat:wood floor `:torch:0xAE:0xFC
-feat:wood floor `:los:0xAE:0xFD
-feat:wood floor `:lit:0xAE:0xFE
-feat:wood floor `:dark:0xAE:0xFF
-
+############################
+# END OF AE.... Q - ` is ampty
+############################
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AF wood floor
@@ -5003,6 +4932,8 @@ feat:B0 wood floor N:torch:0xB0:0xC4
 feat:B0 wood floor N:los:0xB0:0xC5
 feat:B0 wood floor N:lit:0xB0:0xC6
 feat:B0 wood floor N:dark:0xB0:0xC7
+
+########## END FOR NOW
 
 # B0 wood floor O 
 feat:B0 wood floor O:torch:0xB0:0xC8
@@ -5772,6 +5703,8 @@ feat:B4 floors K:torch:0xB4:0xB8
 feat:B4 floors K:los:0xB4:0xB9
 feat:B4 floors K:lit:0xB4:0xBA
 feat:B4 floors K:dark:0xB4:0xBB
+
+# next are empty for now
 
 # B4 floors L 
 feat:B4 floors L:torch:0xB4:0xBC
@@ -18516,6 +18449,9 @@ feat:light grass flowers:lit:0xB2:0x82
 feat:light grass flowers:dark:0xB2:0x83
 
 ###########LIGHTENED TILES (dungeons at open air)
+
+##### world MAP  ####
+feat:newbie star:*:0x87:0xB5
 
 ######################
 #AQUATIC MOBS:

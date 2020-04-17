@@ -495,39 +495,42 @@ name:mud
 graphics:~:u
 priority:8
 flags:LOS | PROJECT | PASSABLE | BORING | EASY | NOTICEABLE
-short-desc:section of slippery mud
+short-desc:slippery mud
 desc:A section of slippery mud.
 
 name:drawbridge
 graphics:=:u
 priority:10
 flags:LOS | PROJECT | PASSABLE | BORING | EASY
+short-desc:drawbridge
 desc:This is a section of a bridge.
 
 name:fountain
 graphics:_:w
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
+short-desc:fountain filled with water
 desc:An ornate basin filled with water.
 
 name:fountain (dried out)
 graphics:_:s
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | DRIED | BORING | EASY | INTERESTING
+short-desc:empty ornate basin
 desc:An empty ornate basin.
 
 name:loose dirt
 graphics:%:u
 priority:10
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | PLOT | BORING | OBJECT | EASY | NOTICEABLE
-short-desc:section of loose dirt
+short-desc:loose dirt
 desc:A section of loose dirt.
 
 name:packed dirt
 graphics:.:u
 priority:3
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | DIRT | BORING | OBJECT | EASY
-short-desc:section of packed dirt
+short-desc:packed dirt
 desc:A section of packed dirt.
 
 name:lava stream
@@ -556,7 +559,7 @@ name:grass
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | EASY | TORCH
-short-desc:patch of grass
+short-desc:grass
 desc:A patch of grass.
 
 name:crops
@@ -611,7 +614,7 @@ name:ice
 graphics:.:W
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
-short-desc:section of ice
+short-desc:ice
 desc:A section of ice.
 
 name:ice wall
@@ -639,7 +642,7 @@ name:deep water
 graphics:~:b
 priority:10
 flags:METAMAP
-short-desc:section of deep water
+short-desc:deep water
 desc:A section of deep water.
 
 name:hill
@@ -898,7 +901,7 @@ name:ash
 graphics:.:s
 priority:3
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
-short-desc:section of ash
+short-desc:ash
 desc:A section of ash.
 
 name:nether mist
@@ -926,6 +929,7 @@ graphics:%:y
 priority:18
 flags:PASSABLE | INTERESTING | WEB
 info:0:2
+short-desc:spider web
 desc:A tangle of sticky spider webs. Ends LOS, stops missiles, bolts, and beams,
 desc: and reduces the radius of ball spells. May dissolve or be tunnelled
 desc: to normal floor, and can be walked through by the player and monsters.
@@ -934,7 +938,7 @@ name:void
 graphics:.:d
 priority:3
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
-short-desc:section of nothingness
+short-desc:nothingness
 desc:A section of nothingness.
 
 name:glass wall
@@ -2173,7 +2177,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:anvil
 desc:.
 
 name:obj_grass x crate
@@ -2181,7 +2185,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:crate
 desc:.
 
 name:obj_grass y crates
@@ -2189,7 +2193,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:crates
 desc:.
 
 name:obj_grass z barrel
@@ -2197,7 +2201,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:barrel
 desc:.
 
 name:obj_grass A puddle
@@ -2205,7 +2209,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:puddle
 desc:.
 
 name:obj_grass B weapon stand
@@ -2213,7 +2217,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:obj_grass C weapon stand
@@ -2221,7 +2225,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:obj_grass D weapon stand
@@ -2229,7 +2233,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:obj_grass E signpost
@@ -2237,7 +2241,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:signpost
 desc:.
 
 name:obj_grass F signpost
@@ -2245,7 +2249,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:signpost
 desc:.
 
 name:obj_grass G signpost
@@ -2253,7 +2257,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:signpost
 desc:.
 
 name:obj_grass H ladder down
@@ -2261,7 +2265,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:ladder down
 desc:.
 
 name:obj_grass I bench
@@ -2269,7 +2273,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bench
 desc:.
 
 name:obj_grass J bench
@@ -2277,7 +2281,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bench
 desc:.
 
 name:obj_grass K puddle
@@ -2285,7 +2289,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:puddle
 desc:.
 
 #####removed PASSABLE and PROJECT..
@@ -2298,7 +2302,7 @@ priority:18
 flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 name:obj_grass M ruins
@@ -2307,7 +2311,7 @@ priority:18
 flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 name:obj_grass N ruins
@@ -2316,7 +2320,7 @@ priority:18
 flags:LOS | | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 name:obj_grass O ruins
@@ -2325,7 +2329,7 @@ priority:18
 flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 name:obj_grass P ruins
@@ -2334,7 +2338,7 @@ priority:18
 flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 name:obj_grass Q ruins
@@ -2343,7 +2347,7 @@ priority:18
 flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:ruins
 desc:.
 
 ######
@@ -2354,7 +2358,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sign
 desc:.
 
 name:obj_grass S fence
@@ -2363,7 +2367,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass T fence
@@ -2372,7 +2376,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass U fence
@@ -2381,7 +2385,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass V fence
@@ -2390,7 +2394,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass W fence
@@ -2399,7 +2403,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass X fence left
@@ -2408,7 +2412,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 name:obj_grass Y fence right
@@ -2417,7 +2421,7 @@ priority:18
 info:0:1
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:fence
 desc:.
 
 
@@ -2430,7 +2434,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:trough with hay
 desc:.
 
 name:obj_grass2 1
@@ -2438,7 +2442,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:trough with water
 desc:.
 
 #archery target dummy
@@ -2447,7 +2451,7 @@ graphics:O:u
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:archery target stand
 desc:.
 
 name:obj_grass2 3
@@ -2455,7 +2459,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:thick spider web facing east
 desc:.
 
 name:obj_grass2 4
@@ -2463,7 +2467,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:thick spider web facing west
 desc:.
 
 name:obj_grass2 5
@@ -2471,7 +2475,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:spider web
 desc:.
 
 name:obj_grass2 6
@@ -2479,7 +2483,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:spider web
 desc:.
 
 # obelisk
@@ -2488,7 +2492,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:obelisk
 desc:.
 
 name:obj_grass2 8
@@ -2496,7 +2500,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grave with cross
 desc:.
 
 name:obj_grass2 9
@@ -2504,7 +2508,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:cross in earth
 desc:.
 
 name:obj_grass2 a
@@ -2512,7 +2516,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dark stones
 desc:.
 
 #big stone
@@ -2521,7 +2525,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:big stone like teeth
 desc:.
 
 #red tower
@@ -2530,7 +2534,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:short red tower
 desc:.
 
 #beacon
@@ -2539,7 +2543,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BRIGHT | BORING
 ################################################################################
-short-desc:.
+short-desc:short blue light-tower
 desc:.
 
 #red tower
@@ -2548,9 +2552,10 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:red tower with lobby
 desc:.
 
+###END FOR NOW....#############################
 name:obj_grass2 f
 graphics:.:s
 priority:18
@@ -2698,7 +2703,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
-short-desc:.
+short-desc:wooden fence
 desc:.
 
 #wooden fence 
@@ -2707,7 +2712,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
-short-desc:.
+short-desc:wooden fence
 desc:.
 
 #wooden fence left
@@ -2716,7 +2721,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
-short-desc:.
+short-desc:wooden fence
 desc:.
 
 #wooden fence right
@@ -2725,7 +2730,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
-short-desc:.
+short-desc:wooden fence
 desc:.
 
 #statue
@@ -2734,7 +2739,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:statue of ancient god
 desc:.
 
 #dummy
@@ -2743,7 +2748,7 @@ graphics:g:u
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:hay dummy
 desc:.
 
 #armoured dummy
@@ -2752,10 +2757,10 @@ graphics:g:W
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:dummy
 desc:.
 
-#ranger
+######### END FOR NOW... ####
 name:obj_grass2 D
 graphics:@:g
 priority:18
@@ -2764,7 +2769,6 @@ flags:PROJECT | TORCH | BORING
 short-desc:.
 desc:.
 
-#stay awhile and listen..
 name:obj_grass2 E
 graphics:@:u
 priority:18
@@ -2970,72 +2974,84 @@ name:grass mountain 0
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 1
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 2
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 3
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 4
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 5
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 6
 graphics:^:r
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 7
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 8
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 9
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain a
 graphics:^:y
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain b
 graphics:^:y
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain c rocks
@@ -3043,7 +3059,7 @@ graphics:::W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:rocks
 desc:.
 
 name:grass mountain d small rocks
@@ -3051,7 +3067,7 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:medium sized rocks
 desc:.
 
 name:grass mountain e rubble
@@ -3059,7 +3075,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:rubble
 desc:.
 
 name:grass mountain f passable rubble
@@ -3067,91 +3083,118 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:passable rubble
 desc:.
 
 name:grass mountain g big rocks
 graphics:::W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
-desc:A high mountain.
+short-desc:big rocks
+desc:An unpassable rocks.
 
 name:grass mountain h moss rubble
 graphics:::g
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+short-desc:rubble overgrown with moss
 desc:Old rubble.
+
 
 name:grass mountain i boulders
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:boulders
 desc:Rocks.
 
 name:grass mountain j boulders
 graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:boulders
 desc:Rocks.
 
 name:grass mountain k boulders
 graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:boulders
 desc:Rocks.
 
 name:grass mountain l big boulders
 graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:boulders
 desc:Big pile of rocks.
 
 name:grass mountain m rocks
 graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:rocks
 desc:Rocks.
 
 name:grass mountain n rocks
 graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:small pile of rocks
 desc:Rocks.
 
 name:grass mountain o rock
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:medium-sized rock
 desc:Rocks.
 
 name:grass mountain p rocks
 graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:medium-sized rock
 desc:Rocks.
 
 name:grass mountain q rock
 graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:medium-sized rock
 desc:Rocks.
 
 name:grass mountain r rocks
-graphics:::s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
-desc:Rocks.
-
-name:grass mountain s rocks
 graphics:::u
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:medium-sized rocks
+desc:Rocks.
+
+name:grass mountain s rocks
+graphics:::s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:medium-sized brown rocks
 desc:Rocks.
 
 name:grass mountain t rocks
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+################################################################################
+short-desc:some of rocks
 desc:Rocks.
 
 name:grass mountain u rocks
@@ -3159,7 +3202,7 @@ graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:pile of rocks
 desc:.
 
 name:grass mountain v rock
@@ -3167,7 +3210,7 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rock
 desc:.
 
 
@@ -3179,60 +3222,80 @@ name:grass mountain w
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain x
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain y
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain z
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain A
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain B
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain C
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain D
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain E
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain F
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+short-desc:high snowy mountain
 desc:A high mountain.
 
 #hills
@@ -3241,7 +3304,7 @@ graphics:::g
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING
 ################################################################################
-short-desc:.
+short-desc:hills
 desc:.
 
 name:grass mountain H
@@ -3249,7 +3312,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:high rocky peaks
 desc:.
 
 name:grass mountain I
@@ -3257,8 +3320,10 @@ graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-short-desc:.
+short-desc:high rocky peaks
 desc:.
+
+###### further is empty for now ####
 
 name:grass mountain J
 graphics:^:D
@@ -3422,7 +3487,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bed
 desc:.
 
 name:wood floor 1 bed
@@ -3430,7 +3495,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bed
 desc:.
 
 name:wood floor 2 cabinet
@@ -3438,7 +3503,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:cabinet
 desc:.
 
 name:wood floor 3 cabinet
@@ -3446,7 +3511,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:cabinet
 desc:.
 
 name:wood floor 4 locker
@@ -3454,7 +3519,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:locker
 desc:.
 
 name:wood floor 5 locker
@@ -3462,7 +3527,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:locker
 desc:.
 
 name:wood floor 6 provision
@@ -3470,7 +3535,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bags and barrel
 desc:.
 
 name:wood floor 7 provision
@@ -3478,7 +3543,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bags and barrel
 desc:.
 
 name:wood floor 8 provision
@@ -3486,7 +3551,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:numerous crates and bags
 desc:.
 
 name:wood floor 9 chairs
@@ -3494,7 +3559,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chairs
 desc:.
 
 name:wood floor a chairs
@@ -3502,7 +3567,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chairs
 desc:.
 
 name:wood floor b alchemy table
@@ -3510,7 +3575,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor c alchemy table
@@ -3518,7 +3583,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor d alchemy table
@@ -3526,7 +3591,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor e bookcase
@@ -3534,7 +3599,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:bookcase
 desc:.
 
 name:wood floor f table
@@ -3542,7 +3607,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:table
 desc:.
 
 name:wood floor g fireplace
@@ -3550,7 +3615,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
 
 name:wood floor h trapdoor
@@ -3558,7 +3623,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:trapdoor in floor
 desc:.
 
 name:wood floor i throne
@@ -3566,7 +3631,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden throne
 desc:.
 
 name:wood floor j bench
@@ -3574,7 +3639,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden bench
 desc:.
 
 name:wood floor k bench
@@ -3582,7 +3647,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden bench
 desc:.
 
 name:wood floor l provision
@@ -3590,7 +3655,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bags with goods
 desc:.
 
 name:wood floor m provision
@@ -3598,7 +3663,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bags with goods
 desc:.
 
 name:wood floor n bookcase
@@ -3606,7 +3671,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:bookcase
 desc:.
 
 name:wood floor o bookcase
@@ -3614,7 +3679,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:bookcase
 desc:.
 
 name:wood floor p statue
@@ -3622,7 +3687,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:knight's armoured statue
 desc:.
 
 name:wood floor q crate
@@ -3630,7 +3695,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:crate
 desc:.
 
 name:wood floor r crates
@@ -3638,7 +3703,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:crates
 desc:.
 
 name:wood floor s weapon stand
@@ -3646,7 +3711,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:wood floor t weapon stand
@@ -3654,7 +3719,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:wood floor u weapon stand
@@ -3662,7 +3727,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:weapon stand
 desc:.
 
 name:wood floor v chest
@@ -3670,7 +3735,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chest
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -3683,7 +3748,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candelabra
 desc:.
 
 name:wood floor x candelabra
@@ -3691,7 +3756,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candelabra
 desc:.
 
 #######################
@@ -3739,9 +3804,10 @@ desc:.
 
 
 name:safe floor
-graphics:.:w
+graphics:.:u
 priority:16
 flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
+short-desc:wooden floor
 desc:An open floor or bare ground that prevents any hostile action from
 desc: monsters or other players.
 
@@ -3749,6 +3815,7 @@ name:wood floor y grey cat
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:grey cat
 desc:Cat looks at you with interest.
 
 #NPC
@@ -3756,12 +3823,14 @@ name:wood floor z rat
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:rat
 desc:Rat looks at you with interest.
 
 name:wood floor A white cat
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:white cat
 desc:Cat looks at you with interest.
 
 #grandfather clock
@@ -3770,7 +3839,7 @@ graphics:.:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE
 ################################################################################
-short-desc:.
+short-desc:grandfather clock
 desc:.
 
 name:wood floor C
@@ -3778,7 +3847,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:small barrel
 desc:.
 
 name:wood floor D
@@ -3786,7 +3855,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bench made from oak
 desc:.
 
 name:wood floor E
@@ -3794,7 +3863,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bench made from oak
 desc:.
 
 name:wood floor F
@@ -3802,7 +3871,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:low wooden cabinet
 desc:.
 
 name:wood floor G
@@ -3810,7 +3879,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:low wooden cabinet
 desc:.
 
 name:wood floor H
@@ -3818,7 +3887,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor I
@@ -3826,7 +3895,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor J
@@ -3834,7 +3903,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor K
@@ -3842,7 +3911,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor L
@@ -3850,7 +3919,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:alchemy table
 desc:.
 
 name:wood floor M
@@ -3858,7 +3927,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bed with yellow blanket
 desc:.
 
 name:wood floor N
@@ -3866,7 +3935,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bed with blue blanket
 desc:.
 
 name:wood floor O
@@ -3874,7 +3943,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wast table
 desc:.
 
 name:wood floor P
@@ -3882,107 +3951,12 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:anvil
 desc:.
 
-name:wood floor Q
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-#commode
-name:wood floor R
-graphics:.:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE
-################################################################################
-short-desc:.
-desc:.
-
-#commode
-name:wood floor S
-graphics:.:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor T
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor U
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor V
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor W
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor X
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor Y
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor Z
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor ~
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
-name:wood floor `
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
-
+############################
+# END OF AE.... Q - ` is ampty
+############################
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AF wood floor
@@ -3993,7 +3967,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor 1
@@ -4001,7 +3975,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor 2
@@ -4009,7 +3983,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:oil lamp on the wall
 desc:.
 
 name:AF wood floor 3
@@ -4017,7 +3991,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:oil lamp on the wall
 desc:.
 
 name:AF wood floor 4
@@ -4025,7 +3999,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor 5
@@ -4033,7 +4007,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor 6
@@ -4041,7 +4015,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:AF wood floor 7
@@ -4049,7 +4023,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:AF wood floor 8
@@ -4057,7 +4031,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:AF wood floor 9
@@ -4065,7 +4039,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:AF wood floor a
@@ -4073,7 +4047,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor b
@@ -4081,7 +4055,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:AF wood floor c
@@ -4089,7 +4063,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:oil lamp on the wall
 desc:.
 
 name:AF wood floor d
@@ -4097,7 +4071,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:oil lamp on the wall
 desc:.
 
 name:AF wood floor e
@@ -4105,7 +4079,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone fire brazier on the wall
 desc:.
 
 name:AF wood floor f
@@ -4113,7 +4087,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone fire brazier on the wall
 desc:.
 
 name:AF wood floor g
@@ -4121,7 +4095,7 @@ graphics:.:s
 priority:18
 flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone brazier with fire
 desc:.
 
 ###################weapons from there
@@ -4131,7 +4105,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:spear on the wall
 desc:.
 
 name:AF wood floor i
@@ -4139,7 +4113,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:spear on the wall
 desc:.
 
 name:AF wood floor j
@@ -4147,7 +4121,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sword on the wall
 desc:.
 
 name:AF wood floor k
@@ -4155,7 +4129,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sword on the wall
 desc:.
 
 name:AF wood floor l
@@ -4163,7 +4137,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:axe on the wall
 desc:.
 
 name:AF wood floor m
@@ -4171,7 +4145,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:axe on the wall
 desc:.
 
 name:AF wood floor n
@@ -4179,7 +4153,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:polearm on the wall
 desc:.
 
 name:AF wood floor o
@@ -4187,7 +4161,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:polearm on the wall
 desc:.
 
 name:AF wood floor p
@@ -4195,7 +4169,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:trident on the wall
 desc:.
 
 name:AF wood floor q
@@ -4203,7 +4177,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:trident on the wall
 desc:.
 
 name:AF wood floor r
@@ -4211,7 +4185,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bow on the wall
 desc:.
 
 name:AF wood floor s
@@ -4219,7 +4193,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bow on the wall
 desc:.
 
 name:AF wood floor t
@@ -4227,7 +4201,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bow on the wall
 desc:.
 
 name:AF wood floor u
@@ -4235,7 +4209,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bow on the wall
 desc:.
 
 name:AF wood floor v
@@ -4243,7 +4217,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dagger on the wall
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -4255,7 +4229,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden bench
 desc:.
 
 name:B0 wood floor x
@@ -4263,7 +4237,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden bench
 desc:.
 
 name:B0 wood floor y
@@ -4271,7 +4245,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:barrel
 desc:.
 
 name:B0 wood floor z
@@ -4279,7 +4253,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bear rug
 desc:.
 
 name:B0 wood floor A
@@ -4287,7 +4261,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bulk bag
 desc:.
 
 name:B0 wood floor B
@@ -4295,7 +4269,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chair
 desc:.
 
 name:B0 wood floor C
@@ -4303,7 +4277,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chair
 desc:.
 
 name:B0 wood floor D
@@ -4311,7 +4285,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chair
 desc:.
 
 name:B0 wood floor E
@@ -4319,7 +4293,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:chair
 desc:.
 
 name:B0 wood floor F
@@ -4327,7 +4301,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:armchair
 desc:.
 
 name:B0 wood floor G
@@ -4335,7 +4309,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:armchair
 desc:.
 
 name:B0 wood floor H
@@ -4343,7 +4317,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:white chair
 desc:.
 
 name:B0 wood floor I
@@ -4351,7 +4325,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:white chair
 desc:.
 
 name:B0 wood floor J
@@ -4359,7 +4333,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone statue
 desc:.
 
 name:B0 wood floor K
@@ -4367,7 +4341,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:copper statue
 desc:.
 
 name:B0 wood floor L
@@ -4375,7 +4349,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone statue
 desc:.
 
 name:B0 wood floor M
@@ -4383,7 +4357,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bronze statue
 desc:.
 
 name:B0 wood floor N
@@ -4391,8 +4365,10 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone statue
 desc:.
+
+########## END FOR NOW
 
 name:B0 wood floor O
 graphics:.:s
@@ -4515,72 +4491,64 @@ name:floor 0 grass
 graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
-short-desc:grass
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor 1 grass
 graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
-short-desc:grass
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor 2 parquet
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT
-short-desc:floor
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:floor 3 parquet
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT
-short-desc:floor
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:floor 4 dungeon
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
-short-desc:open floor
 ################################################################################
-short-desc:.
+short-desc:open floor
 desc:.
 
 name:floor 5 marsh
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:marsh
 ################################################################################
-short-desc:.
+short-desc:marsh
 desc:.
 
 name:floor 6 dry soil
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
-short-desc:dry soil
 ################################################################################
-short-desc:.
+short-desc:dry soil
 desc:.
 
 name:floor 7 salty soil
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
-short-desc:salty soil
 ################################################################################
-short-desc:.
+short-desc:salty soil
 desc:.
 
 name:floor 8 desert grass
@@ -4588,7 +4556,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:desert grass
 desc:.
 
 name:floor 9 stony soil
@@ -4596,7 +4564,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stony soil
 desc:.
 
 name:floor a watery soil
@@ -4604,7 +4572,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:watery soil
 desc:.
 
 name:floor b swamp
@@ -4612,7 +4580,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:swamp
 desc:.
 
 name:floor c bog
@@ -4620,7 +4588,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:bog
 desc:.
 
 name:floor d hills
@@ -4628,7 +4596,7 @@ graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:hills
 desc:.
 
 name:floor e snow hills
@@ -4636,23 +4604,25 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:snow hills
 desc:.
 
+# ! ice
 name:floor f cracked ice
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:ice
 desc:.
 
+# ! cracked ice
 name:floor g ice
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:cracked ice
 desc:.
 
 name:floor h ice grass
@@ -4660,7 +4630,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:iced soil with loose grass
 desc:.
 
 name:floor i iced soil
@@ -4668,7 +4638,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:iced soil
 desc:.
 
 name:floor j farm field
@@ -4676,7 +4646,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:farm field
 desc:.
 
 name:floor k farm field
@@ -4684,7 +4654,7 @@ graphics:.:G
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:farm field
 desc:.
 
 name:floor l farm field
@@ -4692,7 +4662,7 @@ graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:farm field
 desc:.
 
 name:floor m farm field
@@ -4700,7 +4670,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:farm field
 desc:.
 
 name:floor n farm field
@@ -4708,7 +4678,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:farm field
 desc:.
 
 name:floor o bridge
@@ -4716,7 +4686,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bridge
 desc:.
 
 name:floor p bridge
@@ -4724,7 +4694,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:bridge
 desc:.
 
 name:floor q soil
@@ -4732,7 +4702,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:soil
 desc:.
 
 name:floor r fresh sprouts
@@ -4740,7 +4710,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:soils with young sprouts
 desc:.
 
 name:floor s puddle
@@ -4748,7 +4718,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:puddle
 desc:.
 
 name:floor t puddle
@@ -4756,7 +4726,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:watery earth
 desc:.
 
 name:floor u puddle
@@ -4764,7 +4734,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:puddle
 desc:.
 
 name:floor v puddle
@@ -4772,7 +4742,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:puddle
 desc:.
 
 
@@ -4785,7 +4755,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor x grass
@@ -4793,7 +4763,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor y grass
@@ -4801,7 +4771,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor z grass
@@ -4809,7 +4779,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor A grass
@@ -4817,7 +4787,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor B grass
@@ -4825,7 +4795,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor C grass
@@ -4833,7 +4803,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor D grass
@@ -4841,7 +4811,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor E grass
@@ -4849,7 +4819,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor F grass
@@ -4857,7 +4827,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:floor G rocks
@@ -4865,7 +4835,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor H rocks
@@ -4873,7 +4843,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor I rocks
@@ -4881,7 +4851,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor J rocks
@@ -4889,7 +4859,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor K rocks
@@ -4897,7 +4867,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor L rock
@@ -4905,7 +4875,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor M rock
@@ -4913,7 +4883,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor N rock
@@ -4921,7 +4891,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor O rock
@@ -4929,7 +4899,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor P rocks
@@ -4937,7 +4907,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:rocky grass
 desc:.
 
 name:floor Q dirt
@@ -4945,7 +4915,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor R dirt
@@ -4953,7 +4923,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor S dirt
@@ -4961,7 +4931,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor T dirt
@@ -4969,7 +4939,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor U dirt
@@ -4977,7 +4947,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor V dirt
@@ -4985,7 +4955,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:dirt with patches of grass
 desc:.
 
 name:floor W hills
@@ -4993,7 +4963,7 @@ graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:hill
 desc:.
 
 name:floor X hill
@@ -5001,7 +4971,7 @@ graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:hill
 desc:.
 
 name:floor Y hill
@@ -5009,7 +4979,7 @@ graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:hill
 desc:.
 
 name:floor Z lowland
@@ -5017,7 +4987,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:lowland
 desc:.
 
 name:floor ~ lowland
@@ -5025,7 +4995,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:lowland
 desc:.
 
 name:floor ` lowland
@@ -5033,7 +5003,7 @@ graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:lowland
 desc:.
 
 
@@ -5046,7 +5016,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B3 floors 1
@@ -5054,7 +5024,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:B3 floors 2
@@ -5062,7 +5032,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:B3 floors 3
@@ -5070,7 +5040,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:B3 floors 4
@@ -5078,7 +5048,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:grass
 desc:.
 
 name:B3 floors 5
@@ -5086,7 +5056,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt with some grass
 desc:.
 
 name:B3 floors 6
@@ -5094,7 +5064,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt with some plants
 desc:.
 
 name:B3 floors 7
@@ -5102,7 +5072,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:grassy plants
 desc:.
 
 name:B3 floors 8
@@ -5110,7 +5080,7 @@ graphics:.:D
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt
 desc:.
 
 name:B3 floors 9
@@ -5118,7 +5088,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:rocky dirt
 desc:.
 
 name:B3 floors a
@@ -5126,7 +5096,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt
 desc:.
 
 name:B3 floors b
@@ -5134,7 +5104,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt
 desc:.
 
 name:B3 floors c
@@ -5142,7 +5112,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt
 desc:.
 
 name:B3 floors d
@@ -5150,7 +5120,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:dirt
 desc:.
 
 name:B3 floors e
@@ -5158,7 +5128,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:reddish dirt
 desc:.
 
 name:B3 floors f
@@ -5166,7 +5136,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors g
@@ -5174,7 +5144,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors h
@@ -5182,7 +5152,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors i
@@ -5190,7 +5160,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors j
@@ -5198,7 +5168,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors k
@@ -5206,7 +5176,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors l
@@ -5214,7 +5184,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors m
@@ -5222,7 +5192,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone
 desc:.
 
 name:B3 floors n
@@ -5230,7 +5200,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B3 floors o
@@ -5238,7 +5208,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B3 floors p
@@ -5246,7 +5216,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B3 floors q
@@ -5254,7 +5224,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B3 floors r
@@ -5262,7 +5232,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:ash floor
 desc:.
 
 name:B3 floors s
@@ -5270,7 +5240,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:lava floor
 desc:.
 
 name:B3 floors t
@@ -5278,7 +5248,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:snow
 desc:.
 
 name:B3 floors u
@@ -5286,7 +5256,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:icy snow
 desc:.
 
 name:B3 floors v
@@ -5294,7 +5264,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.
+short-desc:sand
 desc:.
 
 
@@ -5307,7 +5277,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors x
@@ -5315,7 +5285,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors y
@@ -5323,7 +5293,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors z
@@ -5331,7 +5301,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors A
@@ -5339,7 +5309,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors B
@@ -5347,7 +5317,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors C
@@ -5355,7 +5325,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors D
@@ -5363,7 +5333,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors E
@@ -5371,7 +5341,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors F
@@ -5379,7 +5349,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:carpet
 desc:.
 
 name:B4 floors G
@@ -5387,7 +5357,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:hexagram
 desc:.
 
 name:B4 floors H
@@ -5395,7 +5365,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:pentagram
 desc:.
 
 name:B4 floors I
@@ -5403,7 +5373,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B4 floors J
@@ -5411,7 +5381,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
 
 name:B4 floors K
@@ -5419,8 +5389,10 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:stone floor
 desc:.
+
+# next are empty for now
 
 name:B4 floors L
 graphics:.:s
@@ -5568,7 +5540,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 1
@@ -5576,7 +5548,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 2
@@ -5584,7 +5556,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 3
@@ -5592,7 +5564,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 4
@@ -5600,7 +5572,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 5
@@ -5608,7 +5580,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 6
@@ -5616,7 +5588,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 7
@@ -5624,7 +5596,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 8
@@ -5632,7 +5604,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors 9
@@ -5640,7 +5612,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors a
@@ -5648,7 +5620,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors b
@@ -5656,7 +5628,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors c
@@ -5664,7 +5636,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors d
@@ -5672,7 +5644,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors e
@@ -5680,7 +5652,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors f
@@ -5688,7 +5660,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors g
@@ -5696,7 +5668,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors h
@@ -5704,7 +5676,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors i
@@ -5712,7 +5684,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors j
@@ -5720,7 +5692,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors k
@@ -5728,7 +5700,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors l
@@ -5736,7 +5708,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors m
@@ -5744,7 +5716,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors n
@@ -5752,7 +5724,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors o
@@ -5760,7 +5732,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors p
@@ -5768,7 +5740,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors q
@@ -5776,7 +5748,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors r
@@ -5784,7 +5756,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors s
@@ -5792,7 +5764,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors t
@@ -5800,7 +5772,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors u
@@ -5808,7 +5780,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 name:B5 floors v
@@ -5816,7 +5788,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:wooden floor
 desc:.
 
 
@@ -5829,6 +5801,7 @@ name:B6 floors luquid w
 graphics:~:b
 priority:5
 flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | OBJECT | TORCH
+short-desc:shallow water
 desc:A pool of shallow water.
 
 # deep water
@@ -5836,6 +5809,7 @@ name:B6 floors luquid x
 graphics:~:B
 priority:5
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+short-desc:deep water
 desc:A pool of water.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5847,6 +5821,7 @@ name:B6 floors luquid y
 graphics:~:r
 priority:7
 flags:LOS | PROJECT | PASSABLE | LAVA | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:lava
 desc:A stream of glowing lava.
 hurt-msg:You are hit by fire!
 died-flavor:took a bath in molten lava
@@ -5858,6 +5833,7 @@ name:B6 floors luquid z
 graphics:~:G
 priority:5
 flags:LOS | PROJECT | PASSABLE | BORING | EASY | NOTICEABLE | NETHER | NO_SCENT | TORCH
+short-desc:nether swamp
 desc:Cursed ground soaked with nether.
 hurt-msg:Nether saps your health!
 died-flavor:was sucked dry by nether swamp
@@ -5869,7 +5845,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5881,7 +5857,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5893,7 +5869,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5905,7 +5881,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5917,7 +5893,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5929,7 +5905,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5941,7 +5917,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5953,7 +5929,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5965,7 +5941,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5977,7 +5953,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -5989,7 +5965,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6001,7 +5977,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6013,7 +5989,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6025,7 +6001,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6037,7 +6013,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6049,7 +6025,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6061,7 +6037,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6073,7 +6049,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6085,7 +6061,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6097,7 +6073,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6109,7 +6085,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6121,7 +6097,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6133,7 +6109,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6145,7 +6121,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6157,7 +6133,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6169,7 +6145,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6181,7 +6157,7 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6193,13 +6169,12 @@ graphics:~:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B7 - wooden walls
@@ -22777,3 +22752,9 @@ short-desc:.
 desc:.
 ###########LIGHTENED TILES (dungeons at open air)
 
+##### world MAP  ####
+name:newbie star
+graphics:~:y
+priority:10
+flags:LOS | PROJECT | FLOOR_OTHER
+desc:Newbie location.

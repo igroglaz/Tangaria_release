@@ -18,6 +18,7 @@ name:Hunter's Valley
 short:0_0
 wpos:0:0
 max-townies:15
+symbol:newbie star
 
 name:Carn Dum
 # Base town containing the main Angband dungeon
@@ -32,7 +33,6 @@ name:Endless Sea
 short:0_5
 wpos:0:5
 max-townies:20
-symbol:tree w fallen
 
 name:Ice Lands
 # Helcaraxe
@@ -51,12 +51,16 @@ name:Deadmen hills
 short:0_2
 wpos:0:2
 max-townies:10
+#teeth stone
+symbol:obj_grass2 b
 
 name:Farfest
 # TOWN
 short:0_1
 wpos:0:1
 max-townies:90
+#red tower
+symbol:obj_grass2 e
 
 name:Old Forest
 # The Old forest
@@ -200,12 +204,16 @@ name:Abandoned Outpost
 short:1_1
 wpos:1:1
 max-townies:20
+# high snowy mountain #3
+symbol:grass mountain y
 
 name:Mountain Gorge
 # The Mountain Gorge
 short:1_0
 wpos:1:0
 max-townies:7
+#high rocky peaks (brown)
+symbol:grass mountain H
 
 name:Cursed Valley
 # Mordor
