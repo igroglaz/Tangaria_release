@@ -17,7 +17,7 @@ name:Hunter's Valley
 # Starting town
 short:0_0
 wpos:0:0
-max-townies:15
+max-townies:40
 symbol:newbie star
 
 name:Carn Dum
@@ -58,7 +58,7 @@ name:Farfest
 # TOWN
 short:0_1
 wpos:0:1
-max-townies:90
+max-townies:100
 #red tower
 symbol:obj_grass2 e
 
