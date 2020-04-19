@@ -203,13 +203,32 @@ desc: damage (which occurs even against creatures resistant to fire).
 
 ### Normal Food ###
 
+name:& Sprig~ of Athelas
+graphics:,:g
+type:food
+level:0
+weight:1
+cost:0
+alloc:1:1 to 127
+pile:10:1d2
+effect:CURE:BLACKBREATH
+effect:CURE:STUN
+effect:CURE:POISONED
+effect:CURE:CUT
+effect:HEAL_HP
+dice:5d2
+effect:NOURISH:INC_BY
+dice:5
+msg_self:Refreshing!..
+desc:Cures all cuts, poison, stunning and black breath.
+
 name:& Hard Biscuit~
 graphics:,:M
 type:food
 level:0
 weight:2
 cost:300
-alloc:40:0 to 20
+alloc:40:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:4
@@ -229,7 +248,7 @@ type:food
 level:0
 weight:4
 cost:0
-alloc:40:0 to 20
+alloc:40:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:10
@@ -242,7 +261,7 @@ type:food
 level:0
 weight:3
 cost:0
-alloc:40:0 to 50
+alloc:40:1 to 50
 effect:NOURISH:INC_BY
 dice:10
 msg_self:That tastes good.
@@ -307,7 +326,21 @@ type:food
 level:10
 weight:10
 cost:0
-alloc:30:10 to 50
+alloc:15:10 to 50
+pile:50:1d3
+effect:NOURISH:INC_BY
+dice:40
+msg_self:That tastes good.
+desc:A thick slice of pork, salted to keep it from spoiling. It is very
+desc: filling.
+
+name:& Strip~ of Beef Jerky
+graphics:,:W
+type:food
+level:10
+weight:10
+cost:0
+alloc:15:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
 dice:40
@@ -640,10 +673,87 @@ effect:NOURISH:INC_BY
 dice:5
 desc:It makes you very stealthy for a short while.
 
+name:Paranoia
+graphics:,:d
+type:mushroom
+level:5
+weight:1
+cost:0
+alloc:10:5 to 40
+pile:70:1d4
+effect:TIMED_SET:TERROR
+dice:25+5d5
+effect:TIMED_INC_NO_RES:IMAGE
+dice:25+5d5
+effect:TIMED_INC:SPRINT
+dice:50
+effect:TIMED_INC:STEALTH
+dice:5+1d5
+effect:NOURISH:INC_BY
+dice:3
+desc:It allows you to run for your life.
+
+name:Hallucination
+graphics:,:d
+type:mushroom
+level:5
+weight:1
+cost:0
+alloc:10:5 to 40
+pile:70:1d4
+effect:TIMED_INC_NO_RES:IMAGE
+dice:5+5d5
+effect:NOURISH:INC_BY
+dice:3
+desc:It allows you to run for your life.
+
+name:Toadstool
+graphics:,:d
+type:mushroom
+level:5
+weight:1
+cost:0
+alloc:10:5 to 40
+pile:70:1d4
+effect:TIMED_INC_NO_RES:IMAGE
+dice:5+5d5
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:2
+effect:NOURISH:SET_TO
+dice:5
+effect:TIMED_INC:POISONED
+dice:10+2d7
+desc:It allows you to run for your life.
+
 
 ##### Weapons #####
 
 ### Swords ###
+
+name:& Broken Dagger~
+graphics:|:W
+type:sword
+level:0
+weight:9
+cost:0
+alloc:3:1 to 100
+attack:1d1:-2:-4
+armor:0:0
+flags:THROWING
+desc:A short two-edged blade... It's broken.
+
+name:& Broken Sword~
+graphics:|:W
+type:sword
+level:10
+weight:65
+cost:0
+alloc:3:0 to 100
+attack:1d2:-2:-4
+armor:0:0
+desc:A broken sword which was long and straight in it's better days.
+desc: Now it's mainly good for break-opening chests or jamming doors.
+desc: Also it's rusty...
 
 name:& Dagger~
 graphics:|:W
@@ -1607,6 +1717,32 @@ desc: it on your head, if you really think you're worthy.
 
 ### Body armours ###
 
+name:& Filthy Rag~
+graphics:(:s
+type:soft armour
+level:1
+weight:10
+cost:0
+alloc:20:1 to 100
+attack:0d0:0:0
+armor:1:0
+desc:Stinky (and it's pointless to try to get rid of the smell as it magical)
+desc: and utterly filthy rags. You don't want to imagine who wore this rags
+desc: before you...
+
+name:Old Rusty Chain Mail~
+graphics:[:u
+type:hard armour
+level:10
+weight:225
+cost:550
+alloc:20:10 to 100
+attack:1d4:-5:0
+armor:27:0
+desc:An aaancient chain mail.. You grand grandfather is a little boy
+desc: compared to it. Nonetheless by the dens on it you could tell that it's
+desc: guarded its owners pretty well.
+
 name:& Robe~
 graphics:(:b
 type:soft armour
@@ -2314,6 +2450,21 @@ values:STEALTH[-2]
 
 ### Misc rings ###
 
+name:Woe
+graphics:=:d
+type:ring
+level:10
+weight:2
+cost:0
+alloc:1:10 to 50
+flags:SLOW_DIGEST | EASY_KNOW | FEATHER | SEE_INVIS
+curse:teleportation:100
+values:INT[-3]
+values:WIS[-3]
+#values:INT[-1+-M5]
+#values:WIS[-1+-M5]
+desc:This ring emanated with dark powers.
+
 name:Slow Digestion
 graphics:=:d
 type:ring
@@ -2574,6 +2725,20 @@ cost:0
 alloc:20:10 to 40
 flags:EASY_KNOW
 desc:This amulet is not magical. It just looks good.
+
+name:Doom
+graphics:":d
+type:amulet
+level:70
+weight:3
+cost:0
+alloc:1:70 to 100
+attack:0d0:0:0
+armor:0:d5M5
+flags:FREE_ACT | SEE_INVIS | PROT_BLIND
+flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+values:STR[-5] | DEX[-5] | INT[-5] | WIS[-5] | CON[-5] | SPEED[1+M2]
+desc:This amulet is full of dark magical power.
 
 ### Mixed ###
 
@@ -3061,7 +3226,19 @@ type:scroll
 level:2
 weight:5
 cost:0
-alloc:10:2 to 70
+alloc:10:2 to 30
+pile:25:2
+effect:CURSE_WEAPON
+msg_self:Suddenly your weapon turns on you!
+msg_other: weapon turns on him!
+
+name:Animate Weapon
+graphics:?:w
+type:scroll
+level:2
+weight:5
+cost:0
+alloc:10:15 to 70
 pile:25:2
 effect:DAMAGE
 dice:$B
@@ -3081,7 +3258,19 @@ type:scroll
 level:2
 weight:5
 cost:0
-alloc:10:2 to 70
+alloc:10:2 to 30
+pile:25:2
+effect:CURSE_ARMOR
+msg_self:Suddenly you armour burns!
+msg_other: armour became cursed!
+
+name:Evil Spirit
+graphics:?:w
+type:scroll
+level:2
+weight:5
+cost:0
+alloc:10:30 to 70
 pile:25:2
 effect:DISENCHANT
 effect:DISENCHANT
@@ -3175,6 +3364,23 @@ alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:CON
 effect:RESTORE_STAT:CON
+
+name:Ugliness
+graphics:!:d
+type:potion
+level:30
+weight:4
+cost:0
+alloc:1:30 to 100
+pile:10:2
+effect:LOSE_RANDOM_STAT:CON
+effect:GAIN_STAT:CON
+effect:RESTORE_STAT:CON
+effect:DRAIN_STAT:WIS
+dice:15
+effect:TIMED_INC_NO_RES:CONFUSED
+dice:1+2d2
+msg_self:You feel that something missing!
 
 name:Augmentation
 graphics:!:d
@@ -3711,9 +3917,18 @@ type:potion
 level:10
 weight:4
 cost:0
-alloc:10:10 to 15
+alloc:10:10 to 30
 pile:25:2
-#effect:LOSE_EXP
+effect:LOSE_EXP
+
+name:Novice Alchemist's Creation
+graphics:!:d
+type:potion
+level:10
+weight:4
+cost:0
+alloc:10:2 to 15
+pile:25:2
 effect:DRAIN_STAT:INT
 dice:3
 effect:DRAIN_STAT:WIS
@@ -3752,6 +3967,17 @@ effect:NOURISH:SET_TO
 dice:2
 msg_self:The potion makes you queasy.
 msg_other: vomits!
+
+name:Stomach Water
+graphics:!:d
+type:potion
+level:3
+weight:4
+cost:1
+effect:NOURISH:SET_TO
+dice:5
+msg_self:The potion calms your stomach.
+msg_other: hiccups.
 
 name:Death
 graphics:!:d
@@ -5064,8 +5290,18 @@ armor:0:0
 desc:A nearly indestructible chest of wood and steel. The lock doesn't look
 desc: impenetrable, but it might be trapped.
 
-
 ##### Junk #####
+
+name:& Ruined chest~
+graphics:~:s
+type:bottle
+level:5
+weight:220
+cost:0
+alloc:1:5 to 30
+attack:1d2:0:0
+armor:0:0
+desc:Ancient, partly rotten chest.
 
 name:& Empty Bottle~
 graphics:!:w

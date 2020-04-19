@@ -82,12 +82,13 @@ skill-melee:0
 skill-shoot:0
 skill-dig:0
 hitdie:10
-exp:100:150
+exp:100:125
 history:1
 age:14:6
 height:69:10
 weight:165:35
 value:0:CON[0+1d12]
+value:1:DAM_RED[1+1d24]
 
 name:Half-Elf
 skill-disarm-phys:2
@@ -358,6 +359,7 @@ value:1:INT[-1+-1d12]
 value:1:WIS[-1+-1d12]
 value:1:DEX[-1+-1d12]
 value:1:CON[-1+-1d12]
+value:1:MOVES[1+1d10]
 player-flags:ANIMAL
 
 name:Ent
@@ -483,13 +485,16 @@ value:1:INT[-20]
 value:1:WIS[-20]
 value:1:DEX[-20]
 value:1:CON[-20]
-value:1:DAM_RED[5]
+value:1:DAM_RED[-5]
 obj-flag:1:AGGRAVATE
-obj-flag:1:DRAIN_EXP
+#curse:siren:100
+obj-flag:10:DRAIN_EXP
+#obj-flag:10:DRAIN_EXP do not deplete less then achieved lvl ?
 value:1:MOVES[1+1d10]
 player-flags:CROWD_FIGHT
-obj-flag:15:REGEN
+obj-flag:1:REGEN
 value:1:MANA[4+-1d10M40]
+#obj-flag:1:FEATHER[-1]
 player-flags:HYDRA
 
 name:Black Numenorean

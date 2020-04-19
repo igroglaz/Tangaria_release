@@ -72,7 +72,7 @@ owner:5000:Pilbo the Friendly (Halfling)
 owner:10000:Garkin the Old (Human)
 owner:20000:Snafu the Midget (Gnome)
 owner:30000:Lyar-el the Comely (Elf)
-slots:2:4
+slots:2:5
 turnover:2
 always:cloak:Cloak
 always:light:Wooden Torch
@@ -80,12 +80,13 @@ always:flask:Flask of Oil
 always:rock:Rock
 always:stone:House Foundation Stone
 always:scroll:House Creation
-always:potion:Salt Water
+always:potion:Stomach Water
 # always:digger:Shovel
 # always:digger:Pick
 normal:light:Lantern
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
+normal:bottle:Empty Bottle
 normal:food:Hard Biscuit:1:500
 #normal:food:Handful of Dried Fruits:9:500
 #normal:food:Ration of Food:10:500
@@ -334,6 +335,7 @@ always:shot:Iron Shot
 always:arrow:Arrow
 always:bolt:Bolt
 always:shot:Rounded Pebble
+always:potion:Stomach Water
 #######################################################################
 buy:light
 buy:digger
@@ -379,8 +381,8 @@ always:elemental book:[Water]
 always:prayer book:[Beginners Handbook]
 always:magic book:[Magic for Beginners]
 always:potion:Cure Light Wounds
-always:potion:Salt Water
 always:potion:Restore Life Levels
+always:scroll:Phase Door
 #######################################################################
 normal:fortune cookie:*sings* Once I came to the land of dreams...
 normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..

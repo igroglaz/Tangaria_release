@@ -793,6 +793,7 @@ object:food:Slime Mold:0x82:0x85
 object:food:Ration of Food:0x82:0x84
 object:food:Scrap of Flesh:0x82:0xA3
 object:food:Slice of Meat:0x82:0xA4
+object:food:Strip of Beef Jerky:0x82:0xA4
 object:food:Honey-cake:0x82:0xA5
 object:food:Piece of Elvish Waybread:0x82:0xA6
 object:food:Flask of Whisky:0x82:0xA7
@@ -810,6 +811,8 @@ object:food:Draught of the Ents:0x82:0xAB
 ### Swords ###
 
 object:sword:Dagger:0x8A:0x83
+object:sword:Broken Dagger:0x8A:0x81
+object:sword:Broken Sword:0x8A:0x82
 object:sword:Main Gauche:0x8A:0x84
 object:sword:Rapier:0x8A:0x85
 object:sword:Short Sword:0x8A:0x88
@@ -917,6 +920,8 @@ object:crown:Jewel Encrusted Crown:0x80:0x93
 
 ### Body armours ###
 
+object:soft armour:Filthy Rag:0x80:0xA3
+object:hard armour:Old Rusty Chain Mail:0x80:0xAE
 object:soft armour:Robe:0x80:0xA4
 object:soft armour:Soft Leather Armour:0x80:0xA8
 object:soft armour:Studded Leather Armour:0x80:0xAB
@@ -1092,6 +1097,7 @@ object:chest:Large steel chest:0x87:0x85
 
 ##### Junk #####
 
+object:stone:Ruined chest:0x87:0x86
 object:bottle:Empty Bottle:0x87:0x96
 object:skeleton:Skeleton:0x87:0xB0
 
@@ -18368,9 +18374,12 @@ feat:FD double `:dark:0xFD:0xFF
 
 object:digger:Spade:0x87:0x9F
 object:light:Old Lantern:0x87:0x99
+
 object:food:Ancient Vessel:0x8A:0xEE
 object:food:Magic Lamp:0xA0:0xF1
 object:food:Cursed Jar:0x8A:0xED
+object:food:Sprig of Athelas:0x9A:0x83
+
 object:light:Rusty Lantern:0x87:0x99
 object:scroll:Remove Hunger (tattered):0x87:0xE7
 object:scroll:Word of Recall (rugged):0x87:0xE0

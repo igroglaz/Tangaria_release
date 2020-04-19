@@ -149,6 +149,43 @@ desc: sparks of white radiance shot with glints of the rainbow.
 
 ### Swords and Daggers ###
 
+name:'Shard'
+base-object:sword:Broken Dagger
+level:20
+weight:9
+alloc:0:20 to 100
+attack:1d2:14:19
+armor:0:7
+flags:FREE_ACT | REGEN | PROT_BLIND
+values:MANA[1] |
+values:BLOWS[2] | SPEED[3] | STEALTH[3] | RES_CHAOS[1] | LIGHT[-2]
+#was:
+#values:BLOWS[1] | SPEED[1] | STEALTH[1] | RES_CHAOS[1] | LIGHT[-2]
+#
+#act:INVIS
+#dice:$B+1d20
+#expr:B:PLAYER_LEVEL:/ 2
+#time:500+d500
+desc:Old dented and cracked dagger without a tip with runes
+desc: of unknown language...
+desc: It absorb light in its cracks with soft crackling sound.
+
+name:'Narsil'
+base-object:sword:Broken Sword
+level:20
+weight:90
+alloc:3:15 to 100
+attack:1d4:10:15
+armor:0:10
+flags:PROT_FEAR | FREE_ACT | SUST_STR | SUST_DEX | SEE_INVIS | ESP_EVIL
+values:STR[1] | DEX[1] | RES_FIRE[1] | RES_DISEN[1]
+brand:FIRE_2
+act:RESIST_ALL
+time:113+d50
+desc:"Red and white flame", the Sword that was Broken. 
+desc: It still holds part of the Power of the Ring which it cutted away...
+desc: This strange power will persist in the Sword till it will be reforged.
+
 name:Athame 'Elbereth'
 base-object:sword:Dagger
 level:20
@@ -2191,6 +2228,24 @@ desc: once worn by the kings of ancient Numenor.
 
 
 ### Light Armour ###
+
+name:of Righteousness
+base-object:soft armour:Filthy Rag
+level:1
+weight:10
+alloc:0:30 to 127
+attack:0d0:0:0
+armor:1:11
+flags:PROT_CONF
+flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+values:RES_ACID[1] | RES_FIRE[1] | RES_COLD[1] | RES_ELEC[1] | RES_POIS[1]
+values:RES_DISEN[1] | RES_LIGHT[1] | RES_DARK[1]
+values:MANA[1]
+desc:But we are all like an unclean thing,
+desc: And all our righteousnesses are like filthy rags;
+desc: We all fade as a leaf,
+desc: And our iniquities, like the wind,
+desc: Have taken us away.
 
 name:of Incanus
 base-object:soft armour:Robe
