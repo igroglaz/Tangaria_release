@@ -134,6 +134,9 @@ flags:NO_DOORS | WATER_RIVER
 floor:packed dirt:70
 floor:EB dirt 0:29
 floor:EB dirt v:1
+###
+floor:EB dirt 0:1
+###
 wall:ED dirt 0:34
 wall:ED dirt 1:10
 wall:ED dirt 2:24

@@ -458,11 +458,13 @@ value:1:INT[-20]
 value:1:WIS[-20]
 value:1:DEX[-20]
 value:1:CON[-20]
+value:1:MANA[4+-1d10M40]
+#player-flags:ZERO_FAIL (could have less then 5% fail)
 player-flags:DRAGON
 
 name:Hydra
-skill-disarm-phys:-16
-skill-disarm-magic:-16
+skill-disarm-phys:-50
+skill-disarm-magic:-50
 skill-device:-50
 skill-save:0
 skill-stealth:-16
@@ -470,18 +472,24 @@ skill-search:-10
 skill-melee:0
 skill-shoot:-50
 skill-dig:40
-hitdie:10
+hitdie:13
 exp:195:125
 history:97
 age:255:70
 height:170:20
 weight:240:60
-value:1:STR[-10]
+value:1:STR[-20]
 value:1:INT[-20]
 value:1:WIS[-20]
-value:1:DEX[-10]
-value:1:CON[-10]
+value:1:DEX[-20]
+value:1:CON[-20]
+value:1:DAM_RED[5]
 obj-flag:1:AGGRAVATE
+obj-flag:1:DRAIN_EXP
+value:1:MOVES[1+1d10]
+player-flags:CROWD_FIGHT
+obj-flag:15:REGEN
+value:1:MANA[4+-1d10M40]
 player-flags:HYDRA
 
 name:Black Numenorean
@@ -670,6 +678,7 @@ value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
 obj-flag:40:TRAP_IMMUNE
 #value:1:SPEED[-1+-1d30]
+value:1:MOVES[-1]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
@@ -701,6 +710,7 @@ value:1:WIS[-5+1d12]
 value:1:DEX[0+-1d30M32]
 value:1:CON[1+1d15M32]
 value:1:INFRA[1+1d7]
+value:1:MOVES[-1]
 obj-flag:1:SUST_INT
 
 name:Troll
@@ -728,7 +738,8 @@ value:1:CON[1+1d8M30]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:SPEED[-1+-1d35]
+value:1:MOVES[-2+-1d24]
+#value:1:SPEED[-1+-1d35]
 value:20:RES_POIS[1]
 value:35:RES_SHARD[1]
 value:1:RES_LIGHT[-1]
@@ -1224,3 +1235,8 @@ obj-flag:1:SEE_INVIS
 #value:1:AFRAID
 #value:1:ANTIMAGIC[1+1d30]
 #RES_MANA
+
+#new:
+#value:1:MOVES[1]
+#value:1:DAM_RED[5]
+#obj-flag:40:TRAP_IMMUNE
