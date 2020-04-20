@@ -28,7 +28,7 @@
 # friends-base: chance : number : name : ?role
 # desc: Description
 # mimic: tval : sval
-# force-location: location (name or coordinates)
+# locations: location (name or coordinates) | location | etc
 
 # 'name' indicates the beginning of an entry.
 
@@ -160,9 +160,9 @@
 # 'mimic' lines give item types that this monster may mimic. Each of the objects
 # has an equal chance of being mimicked.
 
-# 'force-location' restricts the creation of that monster race to a specific
-# location (town, dungeon or special coordinates). Mainly used for FORCE_DEPTH
-# uniques to tag them as "dungeon boss".
+# 'locations' restricts the creation of that monster race to specific locations
+# (town or dungeon). Mainly used for FORCE_DEPTH uniques to tag them as
+# "dungeon boss".
 
 # === Understanding monster.txt flags ===
 
@@ -218,7 +218,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:Ugly doesn't begin to describe him.
-force-location:Farfest
+locations:Farfest
 
 name:raving lunatic
 base:townsfolk
@@ -237,7 +237,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:Drooling and comical, but then, what do you expect?
-force-location:Farfest
+locations:Farfest
 
 name:filthy street urchin
 base:townsfolk
@@ -260,7 +260,7 @@ friends:50:2d1:scrawny cat
 friends:50:2d1:scruffy little dog
 friends:100:3d4:Same
 desc:He looks squalid and thoroughly revolting.
-force-location:Farfest
+locations:Farfest
 
 name:scrawny cat
 base:feline
@@ -279,7 +279,7 @@ blow:CLAW:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
 desc:A skinny little furball with sharp claws and a menacing look.
-force-location:Farfest
+locations:Farfest
 
 name:scruffy little dog
 base:canine
@@ -298,7 +298,7 @@ blow:BITE:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
 desc:A thin flea-ridden mutt, growling as you get close.
-force-location:Farfest
+locations:Farfest
 
 name:Farmer Maggot
 base:humanoid
@@ -340,7 +340,7 @@ flags:MALE
 flags:RAND_25 | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:He tends to blubber a lot.
-force-location:Farfest
+locations:Farfest
 
 name:boil-covered wretch
 plural:boil-covered wretches
@@ -360,7 +360,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:Ugly doesn't begin to describe him.
-force-location:Farfest
+locations:Farfest
 
 name:village idiot
 base:townsfolk
@@ -379,7 +379,7 @@ flags:MALE
 flags:RAND_25 | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:Drooling and comical, but then, what do you expect?
-force-location:Farfest
+locations:Farfest
 
 name:pitiful-looking beggar
 base:townsfolk
@@ -398,7 +398,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:You just can't help feeling sorry for him.
-force-location:Farfest
+locations:Farfest
 
 name:mangy-looking leper
 base:townsfolk
@@ -418,7 +418,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:You feel it isn't safe to touch him.
-force-location:Farfest
+locations:Farfest
 
 name:squint-eyed rogue
 base:townsfolk
@@ -439,7 +439,7 @@ flags:MALE | EVIL
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:A hardy, street-wise crook that knows an easy catch when it sees one.
-force-location:Farfest
+locations:Farfest
 
 name:singing, happy drunk
 base:townsfolk
@@ -460,7 +460,7 @@ flags:DROP_40 | ONLY_GOLD
 flags:RAND_50 | OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:He makes you glad to be sober.
-force-location:Farfest
+locations:Farfest
 
 name:aimless-looking merchant
 base:townsfolk
@@ -483,7 +483,7 @@ flags:DROP_CORPSE | DROP_SKELETON
 friends:30:2d2:filthy street urchin
 desc:The typical ponce around town, with purse jingling, and looking for more
 desc: amulets of adornment to buy.
-force-location:Farfest
+locations:Farfest
 
 name:mean-looking mercenary
 plural:mean-looking mercenaries
@@ -506,7 +506,7 @@ flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:NO_FEAR | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | WANDERER
 desc:No job is too low for him.
-force-location:Farfest
+locations:Farfest
 
 name:battle-scarred veteran
 base:townsfolk
@@ -528,7 +528,7 @@ flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:NO_FEAR | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | WANDERER
 desc:He doesn't take to strangers kindly.
-force-location:Farfest
+locations:Farfest
 
 name:sparrow
 base:bird
@@ -547,7 +547,7 @@ flags:FRIGHTENED | PWMANG_BASE
 flags:DROP_SKELETON
 flags:RAND_25
 desc:Utterly harmless, and really cautious.
-force-location:Farfest
+locations:Farfest
 
 #### NEW PWMA
 name:horse
@@ -565,7 +565,7 @@ experience:0
 blow:MOAN
 flags:ANIMAL | FRIENDLY | PWMANG_BASE
 desc:A common horse.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 #had clone: name:Otho Sackville-Baggins
 name:Lobelia Sackville-Baggins
@@ -607,7 +607,7 @@ experience:0
 flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH
 flags:PWMANG_EXTRA | PWMANG_FIXED
 desc:An indestructible golem used for target practice.
-force-location:Farfest
+locations:Farfest
 
 name:goldfish
 base:aquatic
@@ -625,7 +625,7 @@ blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
 flags:RAND_50 | COLD_BLOOD | NO_SLEEP
 desc:Beautiful red fish in ponds.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 #plotva
 name:roach fish
@@ -1194,7 +1194,7 @@ flags:RAND_25 | DROP_SKELETON | DROP_CORPSE
 flags:ONLY_GOLD | DROP_40
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
-force-location:Farfest
+locations:Farfest
 
 #was name:woodsman
 name:Mad woodsman
@@ -2591,7 +2591,7 @@ desc:jutting jaw that shows off her iron teeth.
 desc:She is skinny, like a skeleton, with a bony leg.
 desc:She knows how to turn from old into young in a blink of an eye.
 desc: She likes her ssssnakes.
-force-location:The Mountain Gorge
+locations:The Mountain Gorge
 
 name:Bullroarer the Hobbit
 base:humanoid
@@ -4462,7 +4462,7 @@ friends:50:4d4:snaga:servant
 friends:80:2d7:warg:servant
 friends:100:5d4:hill orc:servant
 desc:A new leader of a band of raiding orcs.
-force-location:The Orc Cave
+locations:The Orc Cave
 
 name:Grishnukh, the Hill Orc
 base:orc
@@ -6101,7 +6101,7 @@ flags:FORCE_DEPTH | PWMANG_FIXED
 friends:60:1d3:bandit
 desc:Beautiful tiny girls with huge... eyes.
 desc:She winks at you.
-force-location:The Severs
+locations:The Severs
 
 
 name:wererat
@@ -8453,7 +8453,7 @@ friends-base:100:1d5:dragon worm
 friends-base:75:1d5:dragon worm
 friends-base:50:1d5:dragon worm
 desc: An old hag living in the swapms.. She like to eat humans...
-force-location:Fetid Swamps
+locations:Fetid Swamps
 
 name:Lugdush, the Uruk
 base:orc
@@ -8993,7 +8993,7 @@ friends:100:1d1:Bolg, Son of Azog
 desc:He is also known as the King of Khazad-dum, 
 desc:the King of the Uruk-Hai and the Enemy of the Dwarves.
 desc:His ego is renowned to be bigger than his head.
-force-location:The Orc Mountains
+locations:The Orc Mountains
 
 name:outlaw
 base:person
@@ -9813,7 +9813,7 @@ desc: trespassers in his territory. "...a huge willow-tree, old and hoary.
 desc: Enormous it looked, its sprawling branches going up like racing arms with
 desc: many long-fingered hands, its knotted and twisted trunk gaping in wide
 desc: fissures that creaked faintly as the boughs moved."
-force-location:The Old Forest
+locations:The Old Forest
 
 name:Tom Bombadil
 base:person
@@ -9838,7 +9838,7 @@ spells:BLINK | TPORT | HEAL
 desc:Old Tom Bombadil is a merry fellow!
 desc: Bright Blue his jacket is,
 desc: and his boots are yellow!
-force-location:The Old Forest
+locations:The Old Forest
 
 ### Dungeon level 26 ###
 
@@ -10237,7 +10237,7 @@ spells:WOUND | DARKNESS | MIND_BLAST | TELE_TO
 spells:HOLD | SCARE
 desc:It is a humanoid with an aura of power. You notice a sharp set of front
 desc: teeth.
-force-location:Abandoned Manor
+locations:Abandoned Manor
 
 name:Mîm, Betrayer of Turin
 base:humanoid
@@ -11397,7 +11397,7 @@ desc:It is a massive worm form, many feet in length. Its vast maw drips acid and
 desc: poison.
 
 name:catoblepas
-plural:catoblepae
+plural:catoblepones
 base:quadruped
 color:g
 speed:110
@@ -11980,7 +11980,7 @@ friends-base:100:1d5:sandworm:servant
 friends-base:75:1d5:dragon worm:servant
 friends-base:50:1d5:dragon worm:servant
 desc:Queen and Mother of the sandworms, fear her and her prolific children.
-force-location:The Sandworm Lair
+locations:The Sandworm Lair
 
 name:psychedelic ball
 base:ball
@@ -13100,7 +13100,7 @@ friends:100:1d1:Ulwarth, Son of Ulfang
 desc:A short and swarthy Easterling dressed in black. He and his three sons once
 desc: openly swore allegiance to the High Elves, but were secretly in the pay of
 desc: Morgoth.
-force-location:The Land Of Rhun
+locations:The Land Of Rhun
 
 name:lich
 plural:liches
@@ -13888,7 +13888,7 @@ desc:He has lived in the Barrow-Downs for centuries after his first death at the
 desc: hands of the Witch-King of Angmar. A once loyal captain under the
 desc: Witch-King's command, he now awaits a time when his undead forces shall
 desc: rise again to avenge their deaths.
-force-location:The Barrow-downs
+locations:The Barrow-downs
 
 name:incubus
 plural:incubi
@@ -16448,7 +16448,7 @@ flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR | HYBRID
 flags:FORCE_DEPTH
 desc:It is a cross between a human and a bull.
-force-location:The Maze
+locations:The Maze
 
 name:Emperor Mimic
 base:random mimic
@@ -18138,7 +18138,7 @@ spells:BR_POIS | BR_WATE
 spells:HOLD | TELE_TO
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to 
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
-force-location:The Small Water Cave
+locations:The Small Water Cave
 
 name:lesser black reaver
 base:lich
@@ -18195,7 +18195,7 @@ friends-base:75:1d5:mineral
 friends-base:50:1d5:mineral
 desc:Deep in the heart of the earth, even the rock itself is sentient and has
 desc: learned to despise intruders.
-force-location:The Heart of the Earth
+locations:The Heart of the Earth
 
 name:master unbeliever
 base:person
@@ -18870,7 +18870,7 @@ friends:100:3d4:cave troll:servant
 desc:A huge Balrog surrounded by raging pillars of fire, this is indeed a
 desc: terrible opponent. Wielding a great whip of fire and a blazing sword, his
 desc: fury blisters your skin and melts your flesh!
-force-location:The Mines of Moria
+locations:The Mines of Moria
 
 name:The White Balrog
 base:major demon
@@ -18904,7 +18904,7 @@ spells:BR_COLD
 spells:S_UNDEAD | S_DEMON
 desc:It is a massive humanoid demon wreathed in frost, wielding a cruel looking
 desc: pike in its hands.
-force-location:The Helcaraxe
+locations:The Helcaraxe
 
 name:13-headed hydra
 base:hydra
@@ -19337,7 +19337,7 @@ desc: explains their destruction. A creation of finest glass, the body of this
 desc: creature bends and amplifies light in a way that makes you unsure of its
 desc: position. You feel somewhat dizzy as the radiant light reflects off the
 desc: walls, the ceiling and your gear.
-force-location:The Illusory Castle
+locations:The Illusory Castle
 
 ### Dungeon level 53 ###
 
@@ -19857,7 +19857,7 @@ desc:Shelob is an enormous bloated spider, the last daughter of Ungoliant the
 desc: Unlight. Her poison is legendary, as is her ego. She normally guards the
 desc: pass through Cirith Ungol, but occasionally goes out foraging for food to
 desc: feed her voracious appetite.
-force-location:Cirith Ungol
+locations:Cirith Ungol
 
 #was name:Istar , removed in V
 name:Archon
@@ -19977,7 +19977,7 @@ spells:S_KIN | S_MONSTERS
 desc:Last and proudest king of ancient Numenor. Corrupted by power and avarice,
 desc: he fell victim to Sauron's wiles, tried to fight the Valar themselves, and
 desc: condemned Numenor to oblivion.
-force-location:Numenor
+locations:Numenor
 
 name:barbazu
 plural:barbazu
@@ -21315,7 +21315,7 @@ desc: gnarled walking stick. Sent to Middle-Earth by Yavanna, Radagast
 desc: has studied the plants and animals of Middle-Earth for many years
 desc: and considers himself their defender. His humble robes and demeanor
 desc: belie his inner strength.
-force-location:Mirkwood
+locations:Mirkwood
 
 name:chaos hound
 base:zephyr hound
@@ -21465,7 +21465,7 @@ desc:The Mouth of Sauron is a mighty spell caster. So old that even he cannot
 desc: remember his own name, his power and evil are undeniable. He believes
 desc: unshakably that he is unbeatable and laughs as he weaves his awesome
 desc: spells.
-force-location:Mordor
+locations:Mordor
 
 name:osyluth
 base:major demon
@@ -22623,7 +22623,7 @@ spells:TELE_TO | SCARE | BR_TIME | BR_FIRE
 spells:BO_MANA | S_KIN
 desc:As the Thunderlords came from afar to help the elves, Trone and his rebel
 desc: wing came to defend Morgoth! He is an evil and powerful Thunderlord.
-force-location:The Sacred Land Of Mountains
+locations:The Sacred Land Of Mountains
 
 name:mandragora
 base:mushroom
@@ -23028,7 +23028,7 @@ desc:Glaurung is the father of all dragons, and was for a long time the most
 desc: powerful. Though this is no longer so, he still has full command over his
 desc: brood and can command them to appear whenever he so wishes. He is the
 desc: definition of dragonfire.
-force-location:Erebor
+locations:Erebor
 
 name:The Necromancer of Dol Guldur
 base:person
@@ -23061,7 +23061,7 @@ desc:The dark master of the terrible fortress of southern Mirkwood. It is
 desc: rumoured that this is in fact none other than Sauron in disguise: although
 desc: if this is so, he has yet to reveal his full power - and perhaps will not
 desc: do so while his deception lasts, in the hope of keeping it going.
-force-location:Dol Guldur
+locations:Dol Guldur
 
 ### Dungeon level 76 ###
 
@@ -23205,7 +23205,7 @@ friends:40:1d2:master lich:servant
 friends:10:1d2:archlich:servant
 desc:A stench of corruption and decay surrounds this sorcerer, who has clearly
 desc: risen from the dead to continue his foul plots and schemes.
-force-location:The Paths of the Dead
+locations:The Paths of the Dead
 
 name:pit fiend
 base:major demon
@@ -24800,7 +24800,7 @@ spells:BR_FIRE | BR_PLAS
 spells:S_HI_DEMON | S_HI_UNDEAD
 desc:A huge Balrog of devastating power, he guards the entrance to the Chambers
 desc: of Fire at the top of Mount Doom.
-force-location:Mount Doom
+locations:Mount Doom
 
 ### Dungeon level 99 ###
 
@@ -25252,7 +25252,7 @@ desc: contests of strength. He doesn't need a weapon, and could move so fast
 desc: that doesn't need steed either.
 desc: He is the strongest of all the Valar.
 desc: He is coming for you.
-force-location:The Straight Road
+locations:The Straight Road
 
 ### Valinor ###
 
@@ -25279,7 +25279,7 @@ spell-freq:2
 innate-freq:100
 spells:BR_NETH
 desc:A whirling anomaly of nether mists that will drain your life force.
-force-location:Valinor
+locations:Valinor
 
 name:crawling mass of primal chaos
 plural:crawling masses of primal chaos
@@ -25305,7 +25305,7 @@ flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS | NO_CONF | NO_SLEEP
 flags:FORCE_SLEEP | FORCE_DEPTH | ATTR_MULTI | NO_HOLD | IM_NETHER
 desc:A mass of pure chaotic energy crawling towards you, eating everything on
 desc: its path.
-force-location:Valinor
+locations:Valinor
 
 name:chaos mutant
 base:person
@@ -25333,7 +25333,7 @@ desc:Despite their swollen faces, they manage to smile at you. You back away
 desc: nervously as their smile becomes a grin, and then a yawn, and then their
 desc: mouths open wider still... and not one but a hundred writhing tongues
 desc: spill from between their impossible wide jaws.
-force-location:Valinor
+locations:Valinor
 
 name:vlodblad
 base:jelly
@@ -25360,7 +25360,7 @@ desc:A hideous creation of evil sorcery. Dormant it lies as a mound of flabby
 desc: flesh, but when aroused into combat it will gradually sprout limbs,
 desc: growing ever more skilful and unless killed quickly will overcome any
 desc: opponent, devouring them and absorbing them into its fleshy body.
-force-location:Valinor
+locations:Valinor
 
 name:blood lurcher
 base:canine
@@ -25388,7 +25388,7 @@ desc:Hairless, eyeless chaotic monstrosities which devour their victims by
 desc: sucking their blood through the many writhing tentacles which protrude
 desc: from their mouths instead of teeth. They are bipedal, fast and strong,
 desc: with long and vicious claws on their front paws.
-force-location:Valinor
+locations:Valinor
 
 name:Varda, Queen of the Valar
 base:ainu
@@ -25423,7 +25423,7 @@ spells:BO_ICE | BO_MANA | BO_PLAS
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS
 desc:Wife of Manwe, Varda is the most beautiful of all the Valar... 
 desc: She is also known as Elbereth - "Queen of the Stars".
-force-location:Valinor
+locations:Valinor
 
 name:Manwe, King of the Valar
 base:nether
@@ -25460,7 +25460,7 @@ spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_UNIQUE | S_ABOMINATION
 desc:Husband of Varda, brother of Melkor and the leader of the Ainur.
 desc: He was also known as Sulimo, commander of winds and air.
 desc: He is the one who will crush you to The Void!
-force-location:Valinor
+locations:Valinor
 
 ### Utumno, Portal to the Void ###
 
@@ -25484,7 +25484,7 @@ blow:CLAW:LOSE_ALL:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition ready for combat.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of body
 plural:spirits of body
@@ -25506,7 +25506,7 @@ blow:CLAW:HURT:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition ready to sap your body.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of mind
 plural:spirits of mind
@@ -25528,7 +25528,7 @@ blow:CLAW:LOSE_WIS:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition ready to sap your mind.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of greed
 plural:spirits of greed
@@ -25550,7 +25550,7 @@ blow:TOUCH:EAT_LIGHT:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition full of greed.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of filth
 plural:spirits of filth
@@ -25572,7 +25572,7 @@ blow:CLAW:FAMINE:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition full of filth.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of poison
 plural:spirits of poison
@@ -25597,7 +25597,7 @@ spell-freq:3
 innate-freq:50
 spells:BR_POIS | BA_POIS
 desc:A ghostly apparition with a toxic aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of acid
 plural:spirits of acid
@@ -25623,7 +25623,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_ACID | BA_ACID | BO_ACID
 desc:A ghostly apparition with an acidic aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of lightning
 plural:spirits of lightning
@@ -25649,7 +25649,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_ELEC | BA_ELEC | BO_ELEC
 desc:A ghostly apparition with an electric aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of fire
 plural:spirits of fire
@@ -25675,7 +25675,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_FIRE | BA_FIRE | BO_FIRE
 desc:A ghostly apparition with a fiery aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of cold
 plural:spirits of cold
@@ -25700,7 +25700,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_COLD | BA_COLD | BO_COLD
 desc:A ghostly apparition with a chilling aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of annoyance
 plural:spirits of annoyance
@@ -25726,7 +25726,7 @@ innate-freq:8
 spells:SHRIEK | DRAIN_MANA | MIND_BLAST | BRAIN_SMASH | SCARE | BLIND | CONF
 spells:TELE_TO | DARKNESS | TRAPS | FORGET | ANIM_DEAD
 desc:A ghostly apparition ready to annoy you.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of haste
 plural:spirits of haste
@@ -25750,7 +25750,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:SLOW | HOLD | HASTE
 desc:A ghostly apparition moving with haste.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of missile
 plural:spirits of missile
@@ -25775,7 +25775,7 @@ spell-freq:3
 innate-freq:80
 spells:ARROW | SHOT | BOLT | BOULDER | MISSILE
 desc:A ghostly apparition ready for ranged combat.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of curse
 plural:spirits of curse
@@ -25799,7 +25799,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:WOUND
 desc:A ghostly apparition that will drag you to your doom.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of healing
 plural:spirits of healing
@@ -25823,7 +25823,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:HEAL | HEAL_KIN
 desc:A ghostly apparition ready to help its kin against you.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of teleportation
 plural:spirits of teleportation
@@ -25847,7 +25847,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:BLINK | TPORT | TELE_AWAY | TELE_LEVEL
 desc:A ghostly apparition that never stays in place.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of friendship
 plural:spirits of friendship
@@ -25871,7 +25871,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_KIN | S_MONSTER | S_MONSTERS | S_UNIQUE
 desc:A ghostly apparition with many friends.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of nature
 plural:spirits of nature
@@ -25895,7 +25895,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_ANIMAL | S_SPIDER | S_HOUND | S_HYDRA
 desc:A ghostly apparition with many friends of nature.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of goodness
 plural:spirits of goodness
@@ -25919,7 +25919,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_AINU
 desc:A ghostly apparition with many friends from the heavens.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of hell
 plural:spirits of hell
@@ -25943,7 +25943,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_DEMON | S_HI_DEMON
 desc:A ghostly apparition with many demonic friends.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of undeath
 plural:spirits of undeath
@@ -25967,7 +25967,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_UNDEAD | S_HI_UNDEAD
 desc:A ghostly apparition with many undead friends.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of dragonkind
 plural:spirits of dragonkind
@@ -25991,7 +25991,7 @@ flags:FORCE_DEPTH
 spell-freq:3
 spells:S_DRAGON | S_HI_DRAGON
 desc:A ghostly apparition with many draconic friends.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of nether
 plural:spirits of nether
@@ -26017,7 +26017,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_NETH | BA_NETH | BO_NETH
 desc:A ghostly apparition from the Nether Dimension.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of water
 plural:spirits of water
@@ -26043,7 +26043,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_WATE | BA_WATE | BO_WATE
 desc:A ghostly apparition from the abyss world.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of mana
 plural:spirits of mana
@@ -26068,7 +26068,7 @@ spell-freq:3
 innate-freq:33
 spells:BR_MANA | BA_MANA | BO_MANA
 desc:A ghostly apparition with an intense magical aura.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of disenchantment
 plural:spirits of disenchantment
@@ -26094,7 +26094,7 @@ spell-freq:3
 innate-freq:100
 spells:BR_DISE
 desc:A ghostly apparition ready to ruin your belongings.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of chaos
 plural:spirits of chaos
@@ -26120,7 +26120,7 @@ spell-freq:3
 innate-freq:100
 spells:BR_CHAO
 desc:A ghostly apparition ready to wreck havoc.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of time
 plural:spirits of time
@@ -26145,7 +26145,7 @@ spell-freq:3
 innate-freq:100
 spells:BR_TIME
 desc:A ghostly apparition that seems out of time.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of shadows
 plural:spirits of shadows
@@ -26171,7 +26171,7 @@ spell-freq:3
 innate-freq:67
 spells:BR_LIGHT | BR_DARK | BA_DARK
 desc:A ghostly apparition that stands between light and darkness.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of law
 plural:spirits of law
@@ -26196,7 +26196,7 @@ spell-freq:3
 innate-freq:100
 spells:BR_SOUN | BR_SHAR
 desc:A ghostly apparition seeking obedience.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:spirit of power
 plural:spirits of power
@@ -26222,7 +26222,7 @@ spell-freq:3
 innate-freq:71
 spells:BR_NEXU | BR_INER | BR_GRAV | BR_PLAS | BR_WALL | BO_PLAS | BO_ICE
 desc:A ghostly apparition ready to demonstrate its power.
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:Melkor, Lord of Darkness
 base:ainu
@@ -26261,7 +26261,7 @@ desc: forever. However here in the Void, his spirit gained much power
 desc: for he is closer to the Flame Imperishable. He is coming to you in pure
 desc: madness, which makes him even more dangerous. You are on the verge
 desc: of dying!
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 name:Eru Iluvatar
 base:ainu
@@ -26297,7 +26297,7 @@ spells:ANIM_DEAD | S_SPIRIT
 desc:He is the master of this dimension. He is God. He control it entirely.
 desc: Will you dare to raise your head and to look directly into his eyes?
 desc: What will you see there?..
-force-location:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void
 
 
 
@@ -26329,7 +26329,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:brown horse
 base:quadruped
@@ -26346,7 +26346,7 @@ experience:0
 blow:MOAN
 flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:white horse
 base:quadruped
@@ -26363,7 +26363,7 @@ experience:0
 blow:MOAN
 flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:spotted horse
 base:quadruped
@@ -26380,7 +26380,7 @@ experience:0
 blow:MOAN
 flags:ANIMAL | RAND_50 | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:deer
 base:townsfolk
@@ -26399,7 +26399,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:chicken
 base:townsfolk
@@ -26418,7 +26418,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:cow
 base:townsfolk
@@ -26437,7 +26437,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:donkey
 base:townsfolk
@@ -26456,7 +26456,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:wagtail bird
 base:townsfolk
@@ -26475,7 +26475,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:thrush bird
 base:townsfolk
@@ -26494,7 +26494,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:sparrow bird
 base:townsfolk
@@ -26513,7 +26513,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:tit bird
 base:townsfolk
@@ -26532,7 +26532,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:woodpecker bird
 base:townsfolk
@@ -26551,7 +26551,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:waxwing bird
 base:townsfolk
@@ -26570,7 +26570,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:blue jay bird
 base:townsfolk
@@ -26589,7 +26589,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:red cardinal bird
 base:townsfolk
@@ -26608,7 +26608,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:blue big jay bird
 base:townsfolk
@@ -26627,7 +26627,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:black cat
 base:townsfolk
@@ -26646,7 +26646,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:spotted cat
 base:townsfolk
@@ -26665,7 +26665,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:yellow dog
 base:townsfolk
@@ -26684,7 +26684,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:ginger pussycat
 base:townsfolk
@@ -26703,7 +26703,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:green snake
 base:townsfolk
@@ -26723,7 +26723,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:yellow snake
 base:townsfolk
@@ -26743,7 +26743,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:black and white cat
 base:townsfolk
@@ -26762,7 +26762,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:grey kitten
 base:townsfolk
@@ -26781,7 +26781,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:ginger cat
 base:townsfolk
@@ -26800,7 +26800,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:white pussycat
 base:townsfolk
@@ -26819,7 +26819,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:cat bully
 base:townsfolk
@@ -26838,7 +26838,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:squirrel
 base:townsfolk
@@ -26857,7 +26857,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:turtle
 base:townsfolk
@@ -26876,7 +26876,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:moose
 base:townsfolk
@@ -26895,7 +26895,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 ### dog - in other place of tileset
 name:dog
@@ -26915,7 +26915,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:mouse
 base:townsfolk
@@ -26934,7 +26934,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:Small ears, beady eyes, fleshy nose and wormy tail.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:frog
 base:townsfolk
@@ -26953,7 +26953,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:cockroach
 base:townsfolk
@@ -26972,7 +26972,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:sheep
 base:townsfolk
@@ -26991,7 +26991,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:pig
 base:townsfolk
@@ -27010,7 +27010,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:fox
 base:townsfolk
@@ -27029,7 +27029,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 name:wasp
 base:townsfolk
@@ -27048,7 +27048,7 @@ flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-force-location:Hunter's Valley
+locations:Hunter's Valley
 
 
 
@@ -27092,7 +27092,7 @@ spell-power:37
 spells:BA_COLD
 spells:BO_ICE
 desc:It is a towering glacier of ice.
-force-location:Ice Lands
+locations:Ice Lands
 
 
 ###########################################################################
@@ -27127,7 +27127,7 @@ spell-freq:8
 spell-power:26
 spells:WOUND | DARKNESS | SCARE
 desc:It is a tangible but ghostly form made of white fog.
-force-location:Deadmen hills
+locations:Deadmen hills
 
 ###########################################################################
 ################### Farfest
@@ -27160,7 +27160,7 @@ spell-freq:15
 spell-power:3
 spells:BLINK
 desc:Very beautiful girl... She looks at you with interest.
-force-location:Farfest
+locations:Farfest
 
 
 ###########################################################################
@@ -27190,7 +27190,7 @@ spell-power:18
 friends:60:1d1:giant fruit fly
 desc:A pile of rotting vegetation that slides towards you with a disgusting
 desc: stench, waking all it nears.
-force-location:Old Forest
+locations:Old Forest
 
 name:Old Forest huorn
 base:tree
@@ -27216,7 +27216,7 @@ spell-power:19
 spells:BLINK | TELE_TO
 desc:A very strong near-sentient tree, which has become hostile to other living
 desc: things.
-force-location:Old Forest
+locations:Old Forest
 
 name:Old Forest werewolf
 plural:werewolves
@@ -27239,7 +27239,7 @@ flags:EVIL
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 desc:It is a huge wolf with eyes that glow with manly intelligence.
-force-location:Old Forest
+locations:Old Forest
 
 name:Old Forest ranger
 base:person
@@ -27271,7 +27271,7 @@ friends:50:1d2:priest
 friends:50:1d1:paladin
 desc:A warrior who is at one with nature. A master of both bow and sword, with
 desc: minor spellcasting skills, and animals come to do his bidding.
-force-location:Old Forest
+locations:Old Forest
 
 name:Old Forest unbeliever
 base:person
@@ -27293,7 +27293,7 @@ flags:OPEN_DOOR
 friends:50:1d1:Easterling champion
 friends:50:1d1:master rogue
 desc:A scarred warrior who moves with strange confidence.
-force-location:Old Forest
+locations:Old Forest
 
 
 ###########################################################################
@@ -27321,7 +27321,7 @@ flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 friends:50:1d2:Same
 desc:A scarred warrior who moves with confidence.
-force-location:Widelands
+locations:Widelands
 
 name:Widelands ranger
 base:person
@@ -27348,7 +27348,7 @@ spells:BO_COLD | BO_ELEC
 friends:100:1d3:Same
 desc:A warrior who is at one with nature. A master of both bow and sword, with
 desc: minor spellcasting skills, and animals come to do his bidding.
-force-location:Widelands
+locations:Widelands
 
 ###########################################################################
 ################### Mirkwood
@@ -27383,7 +27383,7 @@ desc:A chieftain among the Rangers. His understanding of nature gives him
 desc: powerful elemental spells to use against you, in addition to his skills as
 desc: an archer and a warrior. Furthermore, he is a master of camouflage, so you
 desc: will need magically enhanced seeing to spot him.
-force-location:Mirkwood
+locations:Mirkwood
 
 ###########################################################################
 ################### South Mirkwood
@@ -27417,7 +27417,7 @@ desc:A chieftain among the Rangers. His understanding of nature gives him
 desc: powerful elemental spells to use against you, in addition to his skills as
 desc: an archer and a warrior. Furthermore, he is a master of camouflage, so you
 desc: will need magically enhanced seeing to spot him.
-force-location:South Mirkwood
+locations:South Mirkwood
 
 ###########################################################################
 ################### Moarih
@@ -27452,7 +27452,7 @@ desc:This intensely evil creature bears the form of a gargantuan black worm. Its
 desc: gaping maw is a void of blackness, acid drips from its steely hide. It is
 desc: like nothing you have ever seen before, and a terrible chill runs down
 desc: your spine as you face it.
-force-location:Moarih
+locations:Moarih
 
 ###########################################################################
 ################### Sea of Bermados
@@ -27479,7 +27479,7 @@ blow:HIT:HURT:2d4
 flags:COLD_BLOOD | LEVITATE
 flags:IM_ACID | IM_WATER
 desc:A whirlpool of sentient liquid.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 name:Sea of Bermados water vortex
 plural:water vortices
@@ -27501,7 +27501,7 @@ spell-freq:6
 spell-power:21
 spells:BR_ACID
 desc:A caustic spinning whirlpool of water.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 name:Sea of Bermados water elemental
 base:elemental
@@ -27526,7 +27526,7 @@ spell-freq:6
 spell-power:33
 spells:BO_COLD
 desc:It is a towering tempest of water.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 name:Sea of Bermados water troll
 base:troll
@@ -27550,7 +27550,7 @@ flags:HURT_LIGHT | IM_COLD
 flags:DROP_CORPSE | DROP_SKELETON | WILD_SHORE | WILD_SWAMP
 friends:100:1d2:Same
 desc:He is a troll that reeks of brine.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 name:Sea of Bermados mature water dragon
 base:dragon
@@ -27575,7 +27575,7 @@ spell-power:36
 spells:CONF | SCARE
 spells:BR_WATE
 desc:A large dragon, scales tinted deep watery blue.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 name:Sea of Bermados water hound
 base:zephyr hound
@@ -27605,7 +27605,7 @@ spells:BR_WATE
 friends:100:1d4:Same
 desc:The sound of a hundred waterfalls rushes through your ears as a huge wave
 desc: of water, vaguely hound-shaped, rushes towards you.
-force-location:Sea of Bermados
+locations:Sea of Bermados
 
 
 ###########################################################################
@@ -27630,7 +27630,7 @@ blow:BITE:EXP_40:1d4
 flags:UNDEAD | EVIL | COLD_BLOOD | REGENERATE
 flags:IM_COLD | NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN
 desc:A blood-sucking bat that flies at your neck hungrily.
-force-location:Old manor
+locations:Old manor
 
 
 ###########################################################################
@@ -27661,7 +27661,7 @@ blow:BITE:POISON:4d4
 flags:IM_POIS
 flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD | WILD_SWAMP
 desc:It has glistening black skin, a sleek body and highly venomous fangs.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes grape jelly
 plural:grape jellies
@@ -27684,7 +27684,7 @@ spell-freq:11
 spell-power:12
 spells:DRAIN_MANA
 desc:Yum! It looks quite tasty. It is a pulsing mound of glowing flesh.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes skeleton human
 base:skeleton
@@ -27702,7 +27702,7 @@ blow:HIT:HURT:1d8
 flags:EMPTY_MIND
 flags:OPEN_DOOR | BASH_DOOR
 desc:It is an animated human skeleton.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes zombified human
 base:zombie
@@ -27721,7 +27721,7 @@ blow:HIT:HURT:1d4
 flags:EMPTY_MIND
 flags:NO_FEAR
 desc:It is a shambling human corpse dropping chunks of flesh behind it.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes stegocentipede
 base:centipede
@@ -27742,7 +27742,7 @@ blow:STING:HURT:2d4
 flags:BASH_DOOR
 flags:DROP_SKELETON
 desc:It is a vast armoured centipede with massive mandibles and a spiked tail.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes spotted jelly
 plural:spotted jellies
@@ -27764,7 +27764,7 @@ flags:COLD_BLOOD
 flags:NEVER_MOVE
 flags:HURT_LIGHT | IM_ACID | IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP
 desc:A strange jelly thing, covered in discoloured blotches.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes drider
 base:spider
@@ -27789,7 +27789,7 @@ spell-freq:8
 spell-power:13
 spells:WOUND | CONF | DARKNESS
 desc:A dark elven torso merged with the bloated form of a giant spider.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes killer brown beetle
 base:killer beetle
@@ -27806,7 +27806,7 @@ experience:5
 blow:BITE:HURT:4d4
 flags:DROP_CORPSE
 desc:It is a vicious insect with a tough carapace.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes druid
 base:person
@@ -27832,7 +27832,7 @@ spell-power:13
 spells:BLIND | BLINK | HASTE | HOLD | SLOW
 spells:BO_ELEC | BO_FIRE
 desc:A priest devoted to Nature.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes ochre jelly
 plural:ochre jellies
@@ -27855,7 +27855,7 @@ flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM
 flags:IM_ACID | IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP
 desc:A fast moving highly acidic jelly thing, that is eating away the floor it
 desc: rests on.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes mongbat
 base:bat
@@ -27877,7 +27877,7 @@ flags:DROP_CORPSE
 flags:IM_COLD | IM_ELEC | IM_POIS
 friends:100:1d3:Same
 desc:Devil-bats, notoriously difficult to kill.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes giant flea
 base:insect
@@ -27894,7 +27894,7 @@ experience:4
 blow:BITE:HURT:1d2
 flags:BASH_DOOR
 desc:It makes you itch just to look at it.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes flesh golem
 base:golem
@@ -27912,7 +27912,7 @@ blow:HIT:HURT:1d6
 blow:HIT:HURT:1d6
 flags:BASH_DOOR
 desc:A shambling humanoid monster with long scars.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes warg
 base:canine
@@ -27932,7 +27932,7 @@ flags:EVIL | GROUP_AI
 flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_MOUNTAIN
 friends:100:1d3:Same
 desc:It is a large wolf with eyes full of cunning.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes giant black louse
 plural:giant black lice
@@ -27949,7 +27949,7 @@ weight:0
 experience:3
 blow:BITE:HURT:1d2
 desc:It makes you itch just to look at it.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes lurker
 base:lurker
@@ -27967,7 +27967,7 @@ blow:HIT:HURT:1d8
 blow:HIT:HURT:1d8
 desc:A strange creature that merges with the dungeon floor, trapping its victims
 desc: by enveloping them within its perfectly disguised form.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 name:Mosquito Marshes gibbering mouther
 base:jelly
@@ -27990,7 +27990,7 @@ spell-power:14
 spells:CONF | SCARE
 spells:BR_LIGHT
 desc:A chaotic mass of pulsating flesh, mouths and eyes.
-force-location:Mosquito Marshes
+locations:Mosquito Marshes
 
 
 ###########################################################################
@@ -28020,7 +28020,7 @@ flags:HURT_LIGHT
 flags:DROP_CORPSE | DROP_SKELETON
 friends:100:1d8:Same
 desc:He is a vicious monster, feared for his ferocity.
-force-location:Minotaur Thorns
+locations:Minotaur Thorns
 
 
 ###########################################################################
@@ -28049,7 +28049,7 @@ flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
 desc:A massive two-headed troll of huge strength, ettins are stupid but violent.
 desc: They are also living proof that two heads are not more intelligent than
 desc: one...
-force-location:Ancient Mountains
+locations:Ancient Mountains
 
 
 ###########################################################################
@@ -28080,7 +28080,7 @@ spell-power:40
 spells:BLIND | CONF | SCARE
 spells:BR_POIS
 desc:A huge draconic form enveloped in clouds of poisonous vapour.
-force-location:Lakelands
+locations:Lakelands
 
 name:Lakelands ancient black dragon
 base:ancient dragon
@@ -28105,7 +28105,7 @@ spell-power:41
 spells:BLIND | CONF | SCARE
 spells:BR_ACID
 desc:A huge draconic form. Pools of acid melt the floor around it.
-force-location:Lakelands
+locations:Lakelands
 
 name:Lakelands ancient red dragon
 base:ancient dragon
@@ -28132,7 +28132,7 @@ spells:BLIND | CONF | SCARE
 spells:BR_FIRE
 desc:A huge draconic form. Wisps of smoke steam from its nostrils and the
 desc: extreme heat surrounding it makes you gasp for breath.
-force-location:Lakelands
+locations:Lakelands
 
 
 ###########################################################################
@@ -28160,7 +28160,7 @@ flags:EMPTY_MIND
 flags:OPEN_DOOR | BASH_DOOR
 friends:100:1d6:Same
 desc:It is an animated human skeleton.
-force-location:Unnamed Lands
+locations:Unnamed Lands
 
 ###########################################################################
 ################### Ancient City
@@ -28192,7 +28192,7 @@ spells:BLIND | WOUND | DARKNESS | MIND_BLAST | SCARE
 spells:BO_NETH
 desc:A form that hurts the eye, death permeates the air around it. As it nears
 desc: you, a coldness saps your soul.
-force-location:Ancient City
+locations:Ancient City
 
 ###########################################################################
 ################### Worm Beach
@@ -28218,7 +28218,7 @@ blow:BITE:HURT:5d5
 flags:PWMANG_BASE
 friends:100:1d4:Same
 desc:Off breed of the Sandworm Queen, they are harmless alone...
-force-location:Worm Beach
+locations:Worm Beach
 
 
 ###########################################################################
@@ -28248,7 +28248,7 @@ flags:WANDERER
 desc:A vast legendary bird, its iron talons rake the most impenetrable of
 desc: surfaces and its screech echoes through the many winding dungeon
 desc: corridors.
-force-location:Magery Peninsula
+locations:Magery Peninsula
 
 
 ###########################################################################
@@ -28285,7 +28285,7 @@ spells:BO_PLAS
 friends:100:1d3:Same
 desc:It is a humanoid form dressed in armour of ancient style. From beneath its
 desc: helmet, eyes glow with hellfire.
-force-location:Deadlands
+locations:Deadlands
 
 ###########################################################################
 ################### Websnout
@@ -28322,7 +28322,7 @@ friends:30:1d2:Same
 desc:A vast, bloated arachnid, master of its brood: among the more terrible of
 desc: Ungoliant's descendants, this is a monster such as those who haunted the
 desc: dread valley of Nan Dungortheb long ago.
-force-location:Websnout
+locations:Websnout
 
 
 ###########################################################################
@@ -28357,7 +28357,7 @@ spells:BA_FIRE
 spells:BO_FIRE
 spells:BR_FIRE | BR_SOUN
 desc:A strange reptilian hybrid with eleven smouldering heads.
-force-location:Iron Mountains
+locations:Iron Mountains
 #breath sound instead of bo_plasma
 #bity not with fire, but normal
 
@@ -28387,7 +28387,7 @@ friends:30:1d8:Same
 desc:He is a hideous deformed cross-breed with man and orc, combining man's
 desc: strength and cunning with orcish evil. The traitorous wizard Saruman is
 desc: generally believed to be responsible for this abomination.
-force-location:Old Mines
+locations:Old Mines
 
 
 ###########################################################################
@@ -28429,7 +28429,7 @@ experience:1
 blow:HIT:HURT:1d5
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is a squat and ugly humanoid figure with a canine face.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's kobold
 base:kobold
@@ -28447,7 +28447,7 @@ experience:1
 blow:HIT:HURT:1d8
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is a small, dog-headed humanoid.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's kobold shaman
 base:kobold
@@ -28469,7 +28469,7 @@ spell-power:3
 spells:WOUND | CONF | HEAL | MISSILE
 friends:100:1d3:Same
 desc:It is a kobold dressed in skins and gesturing wildly.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's kobold archer
 base:kobold
@@ -28491,7 +28491,7 @@ spell-power:4
 spells:ARROW
 friends:100:1d3:Same
 desc:It is an ugly dog-headed humanoid wielding a bow.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's snotling
 base:orc
@@ -28512,7 +28512,7 @@ flags:HURT_LIGHT
 flags:WILD_WOOD
 friends:100:1d3:Same
 desc:Immature orclings, running wild and screaming all the time.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's large kobold
 base:kobold
@@ -28531,7 +28531,7 @@ blow:HIT:HURT:1d10
 flags:DROP_CORPSE | DROP_SKELETON
 friends:100:1d3:Same
 desc:It is a man-sized figure with the all too recognizable face of a kobold.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's snaga
 base:orc
@@ -28552,7 +28552,7 @@ flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 friends:100:1d3:Same
 desc:He is one of the many weaker 'slave' orcs, often mistakenly known as a
 desc: goblin.
-force-location:Abandoned Outpost
+locations:Abandoned Outpost
 
 
 ###########################################################################
@@ -28577,7 +28577,7 @@ blow:SPORE:HURT:1d3
 blow:SPORE:HURT:1d3
 flags:EMPTY_MIND | STUPID
 desc:A small strange grey growth.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's grey mushroom patch
 plural:grey mushroom patches
@@ -28595,7 +28595,7 @@ experience:0
 blow:SPORE:CONFUSE:1d3
 flags:IM_POIS | NEVER_MOVE
 desc:Yum! It looks quite tasty.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's giant yellow centipede
 base:centipede
@@ -28614,7 +28614,7 @@ blow:BITE:HURT:1d3
 blow:STING:HURT:1d2
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's giant white centipede
 base:centipede
@@ -28633,7 +28633,7 @@ blow:BITE:HURT:1d2
 blow:STING:HURT:1d2
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's giant white mouse
 plural:giant white mice
@@ -28652,7 +28652,7 @@ experience:0
 blow:BITE:HURT:1d2
 flags:DROP_SKELETON | WILD_GRASS
 desc:It is about three feet long with large teeth.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's large brown snake
 base:snake
@@ -28670,7 +28670,7 @@ blow:BITE:HURT:1d2
 blow:CRUSH:HURT:1d3
 flags:DROP_CORPSE | DROP_SKELETON
 desc:It is about eight feet long.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's large white snake
 base:snake
@@ -28688,7 +28688,7 @@ blow:BITE:HURT:1d1
 blow:CRUSH:HURT:1d1
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is about eight feet long.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's small kobold
 base:kobold
@@ -28706,7 +28706,7 @@ experience:0
 blow:HIT:HURT:1d4
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is a squat and ugly humanoid figure with a canine face.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's rock lizard
 base:reptile
@@ -28724,7 +28724,7 @@ experience:0
 blow:BITE:HURT:1d1
 flags:DROP_CORPSE | WILD_MOUNTAIN
 desc:It is a small lizard with a hardened hide.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's jackal
 base:canine
@@ -28744,7 +28744,7 @@ flags:GROUP_AI
 flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD
 friends:100:1d3:Same
 desc:It is a yapping snarling dog, dangerous when in a pack.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's soldier ant
 base:ant
@@ -28762,7 +28762,7 @@ experience:0
 blow:BITE:HURT:1d2
 flags:DROP_SKELETON | WILD_GRASS
 desc:A large ant with powerful mandibles.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's newt
 base:reptile
@@ -28783,7 +28783,7 @@ flags:WEIRD_MIND | PWMANG_BASE
 flags:DROP_CORPSE
 flags:WILD_SHORE | WILD_GRASS | WILD_SWAMP | WILD_WASTE | WILD_MOUNTAIN
 desc:A small, harmless lizard.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 ### Gorge level 2 ###
 
@@ -28803,7 +28803,7 @@ experience:0
 blow:CRAWL:HURT:1d1
 flags:DROP_SKELETON | WILD_ALL
 desc:It is about four feet long and carnivorous.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's yellow mushroom patch
 plural:yellow mushroom patches
@@ -28823,7 +28823,7 @@ flags:NEVER_MOVE
 flags:IM_POIS
 flags:WILD_SWAMP
 desc:Yum! It looks quite tasty.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's white jelly
 plural:white jellies
@@ -28842,7 +28842,7 @@ blow:TOUCH:POISON:1d2
 flags:NEVER_MOVE
 flags:HURT_LIGHT | IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP
 desc:It's a large pile of white flesh.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's giant black ant
 base:ant
@@ -28860,7 +28860,7 @@ experience:0
 blow:BITE:HURT:1d3
 flags:DROP_SKELETON | WILD_GRASS | WILD_WOOD
 desc:It is about three feet long.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's salamander
 base:reptile
@@ -28879,7 +28879,7 @@ blow:BITE:FIRE:1d3
 flags:IM_FIRE
 flags:DROP_CORPSE | WILD_VOLCANO | WILD_DESERT
 desc:A small black and orange lizard.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's large yellow snake
 base:snake
@@ -28897,7 +28897,7 @@ blow:BITE:HURT:1d3
 blow:CRUSH:HURT:1d5
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:It is about ten feet long.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's cave spider
 base:spider
@@ -28917,7 +28917,7 @@ flags:GROUP_AI
 flags:DROP_SKELETON
 friends:100:1d2:Same
 desc:It is a black spider that moves in fits and starts.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's wild cat
 base:feline
@@ -28938,7 +28938,7 @@ flags:BASH_DOOR
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 desc:A larger than normal feline, hissing loudly. Its velvet paws conceal a
 desc: fistful of needles.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 name:Mountain Gorge's crow
 base:townsfolk
@@ -28956,7 +28956,7 @@ blow:BITE:HURT:1d2
 blow:BITE:HURT:1d3
 flags:DROP_CORPSE | WILD_WOOD
 desc:It is a hooded crow, gray except for the black wings and head.
-force-location:Mountain Gorge
+locations:Mountain Gorge
 
 
 
@@ -28994,7 +28994,7 @@ spells:BO_PLAS
 friends:100:1d3:Same
 desc:It is a humanoid form dressed in armour of ancient style. From beneath its
 desc: helmet, eyes glow with hellfire.
-force-location:Cursed Valley
+locations:Cursed Valley
 
 ###########################################################################
 ################### River of Fire
@@ -29031,7 +29031,7 @@ spells:BR_FIRE | BR_PLAS
 desc:Originally of the semi-divine Maiar, this evil spirit swore allegiance to
 desc: Morgoth at the beginning of time and is now one of his most terrible
 desc: demonic servants. With its flaming whip and sword it seeks to destroy you.
-force-location:River of Fire
+locations:River of Fire
 
 ###########################################################################
 ################### Upper Ashes
@@ -29062,7 +29062,7 @@ spell-power:49
 spells:BLIND | CONF
 spells:BR_FIRE
 desc:It is a massive humanoid demon wreathed in flames.
-force-location:Upper Ashes
+locations:Upper Ashes
 
 ###########################################################################
 ################### Damned Ashes
@@ -29094,7 +29094,7 @@ spell-power:49
 spells:BLIND | CONF
 spells:BR_FIRE
 desc:It is a massive humanoid demon wreathed in flames.
-force-location:Damned Ashes
+locations:Damned Ashes
 
 
 ###########################################################################
@@ -29129,7 +29129,7 @@ desc:This intensely evil creature bears the form of a gargantuan black worm. Its
 desc: gaping maw is a void of blackness, acid drips from its steely hide. It is
 desc: like nothing you have ever seen before, and a terrible chill runs down
 desc: your spine as you face it.
-force-location:Sandskull
+locations:Sandskull
 
 ###########################################################################
 ################### North Sea
@@ -29167,7 +29167,7 @@ spell-power:40
 spells:BLIND | CONF | SCARE
 spells:BR_ELEC
 desc:A huge draconic form. Lightning crackles along its length.
-force-location:Dragon Mountain
+locations:Dragon Mountain
 
 name:Dragon Mountain ancient gold dragon
 base:ancient dragon
@@ -29192,7 +29192,7 @@ spells:BLIND | CONF | SCARE
 spells:BR_SOUN
 desc:A huge draconic form wreathed in a nimbus of light. Its roar stuns and
 desc: deafens you.
-force-location:Dragon Mountain
+locations:Dragon Mountain
 
 name:Dragon Mountain ancient silver dragon
 base:ancient dragon
@@ -29218,7 +29218,7 @@ spells:BLIND | CONF | SCARE
 spells:BR_COLD | BR_INER
 desc:A huge draconic form wreathed in a radiance of silver. Its roar stuns and
 desc: deafens you.
-force-location:Dragon Mountain
+locations:Dragon Mountain
 
 
 ###########################################################################

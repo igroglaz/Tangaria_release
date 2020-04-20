@@ -3229,8 +3229,8 @@ cost:0
 alloc:10:2 to 30
 pile:25:2
 effect:CURSE_WEAPON
-msg_self:Suddenly your weapon turns on you!
-msg_other: weapon turns on him!
+msg_self:Suddenly your weapon inflamed in black fire!
+msg_other: weapon inflamed in black fire!
 
 name:Animate Weapon
 graphics:?:w
@@ -3238,7 +3238,7 @@ type:scroll
 level:2
 weight:5
 cost:0
-alloc:10:15 to 70
+alloc:10:30 to 70
 pile:25:2
 effect:DAMAGE
 dice:$B
@@ -3289,8 +3289,8 @@ effect:DISENCHANT
 effect:SPOT:ACID:0
 dice:4d$S
 expr:S:DUNGEON_LEVEL:/ 2
-msg_self:Suddenly you armour burns!
-msg_other: armour became cursed!
+msg_self:Suddenly your armour become animated!
+msg_other: armour became animated!
 
 name:Damned Jail
 graphics:?:w
@@ -5294,7 +5294,7 @@ desc: impenetrable, but it might be trapped.
 
 name:& Ruined chest~
 graphics:~:s
-type:bottle
+type:stone
 level:5
 weight:220
 cost:0

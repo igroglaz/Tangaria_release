@@ -158,14 +158,9 @@ attack:1d2:14:19
 armor:0:7
 flags:FREE_ACT | REGEN | PROT_BLIND
 values:MANA[1] |
-values:BLOWS[2] | SPEED[3] | STEALTH[3] | RES_CHAOS[1] | LIGHT[-2]
-#was:
-#values:BLOWS[1] | SPEED[1] | STEALTH[1] | RES_CHAOS[1] | LIGHT[-2]
-#
-#act:INVIS
-#dice:$B+1d20
-#expr:B:PLAYER_LEVEL:/ 2
-#time:500+d500
+values:BLOWS[1] | SPEED[1] | STEALTH[1] | RES_CHAOS[1] | LIGHT[-2]
+act:INVISIBILITY
+time:100+d800
 desc:Old dented and cracked dagger without a tip with runes
 desc: of unknown language...
 desc: It absorb light in its cracks with soft crackling sound.

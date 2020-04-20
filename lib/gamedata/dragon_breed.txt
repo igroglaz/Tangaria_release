@@ -30,14 +30,16 @@ dragon:black:0
 wyrm:bile:0
 info:1:100:1
 
-#WASN'T IMMUNE!
-#dragon:green:0
-#wyrm:swamp:0
-#info:1:100:0
+#NOT IMMUNE!
+dragon:green:0
+wyrm:swamp:0
+info:1:100:0
 
-#dragon:silver:0
-#wyrm:Radiance:1
-#info:2:100:0
+#br_iner: only br_iner mobs will resist
+#res_cold
+dragon:silver:0
+wyrm:Radiance:1
+info:1:100:0
 
 #dragon:gold:0
 #wyrm:Thunder:1
