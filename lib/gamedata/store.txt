@@ -343,10 +343,19 @@ buy:horn
 
 # Starter town cat
 store:Sonya the cat
-owner:5000:Sonya (Human)
-owner:5000:Sonya (Human)
+owner:5000:Sonya (Cat)
+owner:5000:Sonya (Cat)
 slots:0:2
 turnover:1
+welcome:0:looks at you with interest.
+welcome:1:looks at you with interest.
+welcome:2:looks at you with interest.
+welcome:3:looks at you with interest.
+welcome:4:looks at you with interest.
+welcome:5:looks at you with interest.
+welcome:6:looks at you with interest.
+welcome:7:looks at you with interest.
+welcome:8:looks at you with interest.
 #######################################################################
 always:fortune cookie:(you take cat on your hands..)
 normal:fortune cookie:meow
@@ -502,10 +511,19 @@ buy:horn
 
 # Town dog
 store:Danny the dog
-owner:5000:Danny (Human)
-owner:5000:Danny (Human)
+owner:5000:Danny (Dog)
+owner:5000:Danny (Dog)
 slots:0:8
 turnover:1
+welcome:0:looks at you with interest.
+welcome:1:looks at you with interest.
+welcome:2:looks at you with interest.
+welcome:3:looks at you with interest.
+welcome:4:looks at you with interest.
+welcome:5:looks at you with interest.
+welcome:6:looks at you with interest.
+welcome:7:looks at you with interest.
+welcome:8:looks at you with interest.
 #######################################################################
 normal:fortune cookie:(you are trying to pat the dog)
 normal:fortune cookie:(the dog carefully sniff your arm)

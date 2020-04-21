@@ -19,10 +19,11 @@ mon-gen:chance:500
 mon-gen:level-min:14
 
 # Number of townsfolk generated in the day */
-mon-gen:town-day:4
-
+#4
+mon-gen:town-day:32
+#8
 # Number of townsfolk generated in the night */
-mon-gen:town-night:8
+mon-gen:town-night:64
 
 # Maximum number of breeding monsters allowed on a level
 mon-gen:repro-max:100
