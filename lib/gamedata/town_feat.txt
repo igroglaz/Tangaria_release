@@ -2961,10 +2961,42 @@ feat:E:t:F3 shallow water t
 feat:E:u:F3 shallow water u
 feat:E:v:F3 shallow water v
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F4 E
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:E:w:F4 shallow water w
+feat:E:x:F4 shallow water x
+feat:E:y:F4 shallow water y
+feat:E:z:F4 shallow water z
+feat:E:A:F4 shallow water A
+feat:E:B:F4 shallow water B
+feat:E:C:F4 shallow water C
+feat:E:D:F4 shallow water D
+feat:E:E:F4 shallow water E
+feat:E:F:F4 shallow water F
+feat:E:G:F4 shallow water G
+feat:E:H:F4 shallow water H
+feat:E:I:F4 shallow water I
+feat:E:J:F4 shallow water J
+feat:E:K:F4 shallow water K
+feat:E:L:F4 shallow water L
+feat:E:M:F4 shallow water M
+feat:E:N:F4 shallow water N
+feat:E:O:F4 shallow water O
+feat:E:P:F4 shallow water P
+feat:E:Q:F4 shallow water Q
+feat:E:R:F4 shallow water R
+feat:E:S:F4 shallow water S
+feat:E:T:F4 shallow water T
+feat:E:U:F4 shallow water U
+feat:E:V:F4 shallow water V
+feat:E:W:F4 shallow water W
+feat:E:X:F4 shallow water X
+feat:E:Y:F4 shallow water Y
+feat:E:Z:F4 shallow water Z
+feat:E:~:F4 shallow water ~
+feat:E:`:F4 shallow water `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F5 deep water F

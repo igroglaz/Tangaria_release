@@ -21319,6 +21319,264 @@ desc:.
 # F4 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+name:F4 shallow water w
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water x
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water A
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water B
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water C
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water D
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water E
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water F
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water G
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water H
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water I
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water J
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water K
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water L
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water M
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water N
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water O
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water P
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water Q
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water R
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water S
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water T
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water U
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water V
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water W
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water X
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water Y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water Z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water ~
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+name:F4 shallow water `
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+################################################################################
+short-desc:.
+desc:.
+
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F5 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

@@ -1245,3 +1245,28 @@ obj-flag:1:SEE_INVIS
 #value:1:MOVES[1]
 #value:1:DAM_RED[5]
 #obj-flag:40:TRAP_IMMUNE
+
+#value:1:RES_ACID[-1]
+#value:1:RES_ELEC[-1]
+#value:1:RES_FIRE[-1]
+#value:1:RES_COLD[-1]
+
+#KNOWLEDGE // auto-id
+
+#STEALTH
+#SEARCH
+#INFRA
+#TUNNEL
+#BLOWS
+#SHOTS
+#MIGHT // shooting power
+
+#IMPACT // earthquake
+
+#BLESSED //blessed melee
+
+#IMPAIR_HP // slowed regen
+
+#IMPAIR_MANA // slowed mana regen
+
+#AFRAID // constant fear

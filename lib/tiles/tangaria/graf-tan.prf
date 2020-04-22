@@ -17451,6 +17451,198 @@ feat:F3 shallow water v:dark:0xF3:0xFF
 # F4 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+# F4 shallow water w 
+feat:F4 shallow water w:torch:0xF4:0x80
+feat:F4 shallow water w:los:0xF4:0x81
+feat:F4 shallow water w:lit:0xF4:0x82
+feat:F4 shallow water w:dark:0xF4:0x83
+
+# F4 shallow water x 
+feat:F4 shallow water x:torch:0xF4:0x84
+feat:F4 shallow water x:los:0xF4:0x85
+feat:F4 shallow water x:lit:0xF4:0x86
+feat:F4 shallow water x:dark:0xF4:0x87
+
+# F4 shallow water y 
+feat:F4 shallow water y:torch:0xF4:0x88
+feat:F4 shallow water y:los:0xF4:0x89
+feat:F4 shallow water y:lit:0xF4:0x8A
+feat:F4 shallow water y:dark:0xF4:0x8B
+
+# F4 shallow water z 
+feat:F4 shallow water z:torch:0xF4:0x8C
+feat:F4 shallow water z:los:0xF4:0x8D
+feat:F4 shallow water z:lit:0xF4:0x8E
+feat:F4 shallow water z:dark:0xF4:0x8F
+
+# F4 shallow water A 
+feat:F4 shallow water A:torch:0xF4:0x90
+feat:F4 shallow water A:los:0xF4:0x91
+feat:F4 shallow water A:lit:0xF4:0x92
+feat:F4 shallow water A:dark:0xF4:0x93
+
+# F4 shallow water B 
+feat:F4 shallow water B:torch:0xF4:0x94
+feat:F4 shallow water B:los:0xF4:0x95
+feat:F4 shallow water B:lit:0xF4:0x96
+feat:F4 shallow water B:dark:0xF4:0x97
+
+# F4 shallow water C 
+feat:F4 shallow water C:torch:0xF4:0x98
+feat:F4 shallow water C:los:0xF4:0x99
+feat:F4 shallow water C:lit:0xF4:0x9A
+feat:F4 shallow water C:dark:0xF4:0x9B
+
+# F4 shallow water D 
+feat:F4 shallow water D:torch:0xF4:0x9C
+feat:F4 shallow water D:los:0xF4:0x9D
+feat:F4 shallow water D:lit:0xF4:0x9E
+feat:F4 shallow water D:dark:0xF4:0x9F
+
+# F4 shallow water E 
+feat:F4 shallow water E:torch:0xF4:0xA0
+feat:F4 shallow water E:los:0xF4:0xA1
+feat:F4 shallow water E:lit:0xF4:0xA2
+feat:F4 shallow water E:dark:0xF4:0xA3
+
+# F4 shallow water F 
+feat:F4 shallow water F:torch:0xF4:0xA4
+feat:F4 shallow water F:los:0xF4:0xA5
+feat:F4 shallow water F:lit:0xF4:0xA6
+feat:F4 shallow water F:dark:0xF4:0xA7
+
+# F4 shallow water G 
+feat:F4 shallow water G:torch:0xF4:0xA8
+feat:F4 shallow water G:los:0xF4:0xA9
+feat:F4 shallow water G:lit:0xF4:0xAA
+feat:F4 shallow water G:dark:0xF4:0xAB
+
+# F4 shallow water H 
+feat:F4 shallow water H:torch:0xF4:0xAC
+feat:F4 shallow water H:los:0xF4:0xAD
+feat:F4 shallow water H:lit:0xF4:0xAE
+feat:F4 shallow water H:dark:0xF4:0xAF
+
+# F4 shallow water I 
+feat:F4 shallow water I:torch:0xF4:0xB0
+feat:F4 shallow water I:los:0xF4:0xB1
+feat:F4 shallow water I:lit:0xF4:0xB2
+feat:F4 shallow water I:dark:0xF4:0xB3
+
+# F4 shallow water J 
+feat:F4 shallow water J:torch:0xF4:0xB4
+feat:F4 shallow water J:los:0xF4:0xB5
+feat:F4 shallow water J:lit:0xF4:0xB6
+feat:F4 shallow water J:dark:0xF4:0xB7
+
+# F4 shallow water K 
+feat:F4 shallow water K:torch:0xF4:0xB8
+feat:F4 shallow water K:los:0xF4:0xB9
+feat:F4 shallow water K:lit:0xF4:0xBA
+feat:F4 shallow water K:dark:0xF4:0xBB
+
+# F4 shallow water L 
+feat:F4 shallow water L:torch:0xF4:0xBC
+feat:F4 shallow water L:los:0xF4:0xBD
+feat:F4 shallow water L:lit:0xF4:0xBE
+feat:F4 shallow water L:dark:0xF4:0xBF
+
+# F4 shallow water M 
+feat:F4 shallow water M:torch:0xF4:0xC0
+feat:F4 shallow water M:los:0xF4:0xC1
+feat:F4 shallow water M:lit:0xF4:0xC2
+feat:F4 shallow water M:dark:0xF4:0xC3
+
+# F4 shallow water N 
+feat:F4 shallow water N:torch:0xF4:0xC4
+feat:F4 shallow water N:los:0xF4:0xC5
+feat:F4 shallow water N:lit:0xF4:0xC6
+feat:F4 shallow water N:dark:0xF4:0xC7
+
+# F4 shallow water O 
+feat:F4 shallow water O:torch:0xF4:0xC8
+feat:F4 shallow water O:los:0xF4:0xC9
+feat:F4 shallow water O:lit:0xF4:0xCA
+feat:F4 shallow water O:dark:0xF4:0xCB
+
+# F4 shallow water P 
+feat:F4 shallow water P:torch:0xF4:0xCC
+feat:F4 shallow water P:los:0xF4:0xCD
+feat:F4 shallow water P:lit:0xF4:0xCE
+feat:F4 shallow water P:dark:0xF4:0xCF
+
+# F4 shallow water Q 
+feat:F4 shallow water Q:torch:0xF4:0xD0
+feat:F4 shallow water Q:los:0xF4:0xD1
+feat:F4 shallow water Q:lit:0xF4:0xD2
+feat:F4 shallow water Q:dark:0xF4:0xD3
+
+# F4 shallow water R 
+feat:F4 shallow water R:torch:0xF4:0xD4
+feat:F4 shallow water R:los:0xF4:0xD5
+feat:F4 shallow water R:lit:0xF4:0xD6
+feat:F4 shallow water R:dark:0xF4:0xD7
+
+# F4 shallow water S 
+feat:F4 shallow water S:torch:0xF4:0xD8
+feat:F4 shallow water S:los:0xF4:0xD9
+feat:F4 shallow water S:lit:0xF4:0xDA
+feat:F4 shallow water S:dark:0xF4:0xDB
+
+# F4 shallow water T 
+feat:F4 shallow water T:torch:0xF4:0xDC
+feat:F4 shallow water T:los:0xF4:0xDD
+feat:F4 shallow water T:lit:0xF4:0xDE
+feat:F4 shallow water T:dark:0xF4:0xDF
+
+# F4 shallow water U 
+feat:F4 shallow water U:torch:0xF4:0xE0
+feat:F4 shallow water U:los:0xF4:0xE1
+feat:F4 shallow water U:lit:0xF4:0xE2
+feat:F4 shallow water U:dark:0xF4:0xE3
+
+# F4 shallow water V 
+feat:F4 shallow water V:torch:0xF4:0xE4
+feat:F4 shallow water V:los:0xF4:0xE5
+feat:F4 shallow water V:lit:0xF4:0xE6
+feat:F4 shallow water V:dark:0xF4:0xE7
+
+# F4 shallow water W 
+feat:F4 shallow water W:torch:0xF4:0xE8
+feat:F4 shallow water W:los:0xF4:0xE9
+feat:F4 shallow water W:lit:0xF4:0xEA
+feat:F4 shallow water W:dark:0xF4:0xEB
+
+# F4 shallow water X 
+feat:F4 shallow water X:torch:0xF4:0xEC
+feat:F4 shallow water X:los:0xF4:0xED
+feat:F4 shallow water X:lit:0xF4:0xEE
+feat:F4 shallow water X:dark:0xF4:0xEF
+
+# F4 shallow water Y 
+feat:F4 shallow water Y:torch:0xF4:0xF0
+feat:F4 shallow water Y:los:0xF4:0xF1
+feat:F4 shallow water Y:lit:0xF4:0xF2
+feat:F4 shallow water Y:dark:0xF4:0xF3
+
+# F4 shallow water Z 
+feat:F4 shallow water Z:torch:0xF4:0xF4
+feat:F4 shallow water Z:los:0xF4:0xF5
+feat:F4 shallow water Z:lit:0xF4:0xF6
+feat:F4 shallow water Z:dark:0xF4:0xF7
+
+# F4 shallow water ~ 
+feat:F4 shallow water ~:torch:0xF4:0xF8
+feat:F4 shallow water ~:los:0xF4:0xF9
+feat:F4 shallow water ~:lit:0xF4:0xFA
+feat:F4 shallow water ~:dark:0xF4:0xFB
+
+# F4 shallow water ` 
+feat:F4 shallow water `:torch:0xF4:0xFC
+feat:F4 shallow water `:los:0xF4:0xFD
+feat:F4 shallow water `:lit:0xF4:0xFE
+feat:F4 shallow water `:dark:0xF4:0xFF
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F5 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -18419,7 +18611,7 @@ monster:ginger pussycat:0x9B:0x94
 monster:green snake:0x9B:0x95
 monster:yellow snake:0x9B:0x96
 monster:black and white cat:0x9B:0x97
-monster:grey kitten:0x9B:0x98
+monster:grey cat:0x9B:0x98
 monster:ginger cat:0x9B:0x99
 monster:white pussycat:0x9B:0x9A
 monster:cat bully:0x9B:0x9B
@@ -18433,6 +18625,9 @@ monster:sheep:0x9B:0xA2
 monster:pig:0x9B:0xA3
 monster:fox:0x9B:0xA4
 monster:wasp:0x9B:0xA5
+monster:hedgehog:0x9B:0xA6
+#monster:crocodile:0x9B:0xC0
+monster:skinny dog:0x9B:0xC1
 
 #boss
 monster:Baba Yaga:0x9D:0xCE
