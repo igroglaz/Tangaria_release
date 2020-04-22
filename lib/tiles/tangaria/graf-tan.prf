@@ -17840,6 +17840,207 @@ feat:F5 deep water v:lit:0xF5:0xFE
 feat:F5 deep water v:dark:0xF5:0xFF
 
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F6 deep water
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# F6 deep water w 
+feat:F6 deep water w:torch:0xF6:0x80
+feat:F6 deep water w:los:0xF6:0x81
+feat:F6 deep water w:lit:0xF6:0x82
+feat:F6 deep water w:dark:0xF6:0x83
+
+# F6 deep water x 
+feat:F6 deep water x:torch:0xF6:0x84
+feat:F6 deep water x:los:0xF6:0x85
+feat:F6 deep water x:lit:0xF6:0x86
+feat:F6 deep water x:dark:0xF6:0x87
+
+# F6 deep water y 
+feat:F6 deep water y:torch:0xF6:0x88
+feat:F6 deep water y:los:0xF6:0x89
+feat:F6 deep water y:lit:0xF6:0x8A
+feat:F6 deep water y:dark:0xF6:0x8B
+
+# F6 deep water z 
+feat:F6 deep water z:torch:0xF6:0x8C
+feat:F6 deep water z:los:0xF6:0x8D
+feat:F6 deep water z:lit:0xF6:0x8E
+feat:F6 deep water z:dark:0xF6:0x8F
+
+# F6 deep water A 
+feat:F6 deep water A:torch:0xF6:0x90
+feat:F6 deep water A:los:0xF6:0x91
+feat:F6 deep water A:lit:0xF6:0x92
+feat:F6 deep water A:dark:0xF6:0x93
+
+# F6 deep water B 
+feat:F6 deep water B:torch:0xF6:0x94
+feat:F6 deep water B:los:0xF6:0x95
+feat:F6 deep water B:lit:0xF6:0x96
+feat:F6 deep water B:dark:0xF6:0x97
+
+# F6 deep water C 
+feat:F6 deep water C:torch:0xF6:0x98
+feat:F6 deep water C:los:0xF6:0x99
+feat:F6 deep water C:lit:0xF6:0x9A
+feat:F6 deep water C:dark:0xF6:0x9B
+
+# F6 deep water D 
+feat:F6 deep water D:torch:0xF6:0x9C
+feat:F6 deep water D:los:0xF6:0x9D
+feat:F6 deep water D:lit:0xF6:0x9E
+feat:F6 deep water D:dark:0xF6:0x9F
+
+# F6 deep water E 
+feat:F6 deep water E:torch:0xF6:0xA0
+feat:F6 deep water E:los:0xF6:0xA1
+feat:F6 deep water E:lit:0xF6:0xA2
+feat:F6 deep water E:dark:0xF6:0xA3
+
+# F6 deep water F 
+feat:F6 deep water F:torch:0xF6:0xA4
+feat:F6 deep water F:los:0xF6:0xA5
+feat:F6 deep water F:lit:0xF6:0xA6
+feat:F6 deep water F:dark:0xF6:0xA7
+
+# F6 deep water G 
+feat:F6 deep water G:torch:0xF6:0xA8
+feat:F6 deep water G:los:0xF6:0xA9
+feat:F6 deep water G:lit:0xF6:0xAA
+feat:F6 deep water G:dark:0xF6:0xAB
+
+# F6 deep water H 
+feat:F6 deep water H:torch:0xF6:0xAC
+feat:F6 deep water H:los:0xF6:0xAD
+feat:F6 deep water H:lit:0xF6:0xAE
+feat:F6 deep water H:dark:0xF6:0xAF
+
+# F6 deep water I 
+feat:F6 deep water I:torch:0xF6:0xB0
+feat:F6 deep water I:los:0xF6:0xB1
+feat:F6 deep water I:lit:0xF6:0xB2
+feat:F6 deep water I:dark:0xF6:0xB3
+
+# F6 deep water J 
+feat:F6 deep water J:torch:0xF6:0xB4
+feat:F6 deep water J:los:0xF6:0xB5
+feat:F6 deep water J:lit:0xF6:0xB6
+feat:F6 deep water J:dark:0xF6:0xB7
+
+# F6 deep water K 
+feat:F6 deep water K:torch:0xF6:0xB8
+feat:F6 deep water K:los:0xF6:0xB9
+feat:F6 deep water K:lit:0xF6:0xBA
+feat:F6 deep water K:dark:0xF6:0xBB
+
+# F6 deep water L 
+feat:F6 deep water L:torch:0xF6:0xBC
+feat:F6 deep water L:los:0xF6:0xBD
+feat:F6 deep water L:lit:0xF6:0xBE
+feat:F6 deep water L:dark:0xF6:0xBF
+
+# F6 deep water M 
+feat:F6 deep water M:torch:0xF6:0xC0
+feat:F6 deep water M:los:0xF6:0xC1
+feat:F6 deep water M:lit:0xF6:0xC2
+feat:F6 deep water M:dark:0xF6:0xC3
+
+# F6 deep water N 
+feat:F6 deep water N:torch:0xF6:0xC4
+feat:F6 deep water N:los:0xF6:0xC5
+feat:F6 deep water N:lit:0xF6:0xC6
+feat:F6 deep water N:dark:0xF6:0xC7
+
+# F6 deep water O 
+feat:F6 deep water O:torch:0xF6:0xC8
+feat:F6 deep water O:los:0xF6:0xC9
+feat:F6 deep water O:lit:0xF6:0xCA
+feat:F6 deep water O:dark:0xF6:0xCB
+
+# F6 deep water P 
+feat:F6 deep water P:torch:0xF6:0xCC
+feat:F6 deep water P:los:0xF6:0xCD
+feat:F6 deep water P:lit:0xF6:0xCE
+feat:F6 deep water P:dark:0xF6:0xCF
+
+# F6 deep water Q 
+feat:F6 deep water Q:torch:0xF6:0xD0
+feat:F6 deep water Q:los:0xF6:0xD1
+feat:F6 deep water Q:lit:0xF6:0xD2
+feat:F6 deep water Q:dark:0xF6:0xD3
+
+# F6 deep water R 
+feat:F6 deep water R:torch:0xF6:0xD4
+feat:F6 deep water R:los:0xF6:0xD5
+feat:F6 deep water R:lit:0xF6:0xD6
+feat:F6 deep water R:dark:0xF6:0xD7
+
+# F6 deep water S 
+feat:F6 deep water S:torch:0xF6:0xD8
+feat:F6 deep water S:los:0xF6:0xD9
+feat:F6 deep water S:lit:0xF6:0xDA
+feat:F6 deep water S:dark:0xF6:0xDB
+
+# F6 deep water T 
+feat:F6 deep water T:torch:0xF6:0xDC
+feat:F6 deep water T:los:0xF6:0xDD
+feat:F6 deep water T:lit:0xF6:0xDE
+feat:F6 deep water T:dark:0xF6:0xDF
+
+# F6 deep water U 
+feat:F6 deep water U:torch:0xF6:0xE0
+feat:F6 deep water U:los:0xF6:0xE1
+feat:F6 deep water U:lit:0xF6:0xE2
+feat:F6 deep water U:dark:0xF6:0xE3
+
+# F6 deep water V 
+feat:F6 deep water V:torch:0xF6:0xE4
+feat:F6 deep water V:los:0xF6:0xE5
+feat:F6 deep water V:lit:0xF6:0xE6
+feat:F6 deep water V:dark:0xF6:0xE7
+
+# F6 deep water W 
+feat:F6 deep water W:torch:0xF6:0xE8
+feat:F6 deep water W:los:0xF6:0xE9
+feat:F6 deep water W:lit:0xF6:0xEA
+feat:F6 deep water W:dark:0xF6:0xEB
+
+# F6 deep water X 
+feat:F6 deep water X:torch:0xF6:0xEC
+feat:F6 deep water X:los:0xF6:0xED
+feat:F6 deep water X:lit:0xF6:0xEE
+feat:F6 deep water X:dark:0xF6:0xEF
+
+# F6 deep water Y 
+feat:F6 deep water Y:torch:0xF6:0xF0
+feat:F6 deep water Y:los:0xF6:0xF1
+feat:F6 deep water Y:lit:0xF6:0xF2
+feat:F6 deep water Y:dark:0xF6:0xF3
+
+# F6 deep water Z 
+feat:F6 deep water Z:torch:0xF6:0xF4
+feat:F6 deep water Z:los:0xF6:0xF5
+feat:F6 deep water Z:lit:0xF6:0xF6
+feat:F6 deep water Z:dark:0xF6:0xF7
+
+# F6 deep water ~ 
+feat:F6 deep water ~:torch:0xF6:0xF8
+feat:F6 deep water ~:los:0xF6:0xF9
+feat:F6 deep water ~:lit:0xF6:0xFA
+feat:F6 deep water ~:dark:0xF6:0xFB
+
+# F6 deep water ` 
+feat:F6 deep water `:torch:0xF6:0xFC
+feat:F6 deep water `:los:0xF6:0xFD
+feat:F6 deep water `:lit:0xF6:0xFE
+feat:F6 deep water `:dark:0xF6:0xFF
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F7 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
 
 ###########DARK TILE NO PASS
 

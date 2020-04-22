@@ -21319,141 +21319,140 @@ desc:.
 # F4 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:F4 shallow water w
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water x
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water y
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water z
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water A
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water B
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water C
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water D
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water E
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water F
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water G
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water H
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water I
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water J
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water K
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water L
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water M
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water N
@@ -21461,120 +21460,121 @@ graphics:#:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water O
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water P
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water Q
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water R
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water S
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water T
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water U
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water V
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water W
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water X
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water Y
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water Z
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water ~
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
 
 name:F4 shallow water `
-graphics:.:s
+graphics:~:b
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:shallow water
 desc:.
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -21784,6 +21784,399 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F6 deep water
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:F6 deep water w
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water x
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water y
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water z
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water A
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water B
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water C
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water D
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water E
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water F
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water G
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water H
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water I
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water J
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water K
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water L
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water M
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water N
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water O
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water P
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water Q
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water R
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water S
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water T
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water U
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water V
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water W
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water X
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water Y
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water Z
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water ~
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+name:F6 deep water `
+graphics:~:B
+priority:18
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+################################################################################
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F7 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

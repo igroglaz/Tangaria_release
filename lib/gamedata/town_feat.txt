@@ -3035,6 +3035,49 @@ feat:F:t:F5 deep water t
 feat:F:u:F5 deep water u
 feat:F:v:F5 deep water v
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F6 deep water
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:F:w:F6 deep water w
+feat:F:x:F6 deep water x
+feat:F:y:F6 deep water y
+feat:F:z:F6 deep water z
+feat:F:A:F6 deep water A
+feat:F:B:F6 deep water B
+feat:F:C:F6 deep water C
+feat:F:D:F6 deep water D
+feat:F:E:F6 deep water E
+feat:F:F:F6 deep water F
+feat:F:G:F6 deep water G
+feat:F:H:F6 deep water H
+feat:F:I:F6 deep water I
+feat:F:J:F6 deep water J
+feat:F:K:F6 deep water K
+feat:F:L:F6 deep water L
+feat:F:M:F6 deep water M
+feat:F:N:F6 deep water N
+feat:F:O:F6 deep water O
+feat:F:P:F6 deep water P
+feat:F:Q:F6 deep water Q
+feat:F:R:F6 deep water R
+feat:F:S:F6 deep water S
+feat:F:T:F6 deep water T
+feat:F:U:F6 deep water U
+feat:F:V:F6 deep water V
+feat:F:W:F6 deep water W
+feat:F:X:F6 deep water X
+feat:F:Y:F6 deep water Y
+feat:F:Z:F6 deep water Z
+feat:F:~:F6 deep water ~
+feat:F:`:F6 deep water `
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F7 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F8 stair down
