@@ -22,6 +22,7 @@
 # slay:level of application:slay code
 # player-flags:racial flags
 # shape:level of application:monster race
+# attack:verb:hit_extra:min_level:chance:effect
 
 # 'name' indicates the beginning of an entry.
 
@@ -56,6 +57,8 @@
 # races possess innately.
 
 # 'shape' is for shapes that races can polymorph into at a certain level.
+
+# 'attack' is for barehanded attacks.
 #
 # value:5:SPEED[1+1d15]
 # speed bonus of 1 at levels 5, 20, 35 and 50.
@@ -463,6 +466,9 @@ value:1:CON[-20]
 value:1:MANA[4+-1d10M40]
 #player-flags:ZERO_FAIL (could have less then 5% fail)
 player-flags:DRAGON
+attack:claw:none:1:0:NONE
+attack:bite:none:5:4:DAM
+attack:crush:none:45:40:CRUSH
 
 name:Hydra
 skill-disarm-phys:-50
@@ -488,14 +494,25 @@ value:1:CON[-20]
 value:1:DAM_RED[-5]
 obj-flag:1:AGGRAVATE
 #curse:siren:100
-obj-flag:10:DRAIN_EXP
+obj-flag:1:DRAIN_EXP
 #obj-flag:10:DRAIN_EXP do not deplete less then achieved lvl ?
 value:1:MOVES[1+1d10]
-player-flags:CROWD_FIGHT
 obj-flag:1:REGEN
 value:1:MANA[4+-1d10M40]
 #obj-flag:1:FEATHER[-1]
 player-flags:HYDRA
+attack:bite:none:1:0:NONE
+attack:hit: with a circular attack:1:20:CIRCLE
+attack:hit: with a circular attack:5:25:CIRCLE
+attack:hit: with a circular attack:10:30:CIRCLE
+attack:hit: with a circular attack:15:35:CIRCLE
+attack:hit: with a circular attack:20:40:CIRCLE
+attack:hit: with a circular attack:25:45:CIRCLE
+attack:hit: with a circular attack:30:50:CIRCLE
+attack:hit: with a circular attack:35:55:CIRCLE
+attack:hit: with a circular attack:40:60:CIRCLE
+attack:hit: with a circular attack:45:65:CIRCLE
+attack:hit: with a circular attack:50:70:CIRCLE
 
 name:Black Numenorean
 skill-disarm-phys:2
