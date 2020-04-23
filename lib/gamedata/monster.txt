@@ -618,7 +618,7 @@ hearing:30
 armor-class:4
 sleepiness:10
 depth:0
-rarity:1
+rarity:5
 weight:0
 experience:0
 blow:BITE:HURT:1d1

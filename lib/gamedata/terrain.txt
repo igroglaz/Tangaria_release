@@ -3485,7 +3485,7 @@ desc:.
 name:wood floor 0 bed
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bed
 desc:.
@@ -3493,7 +3493,7 @@ desc:.
 name:wood floor 1 bed
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bed
 desc:.
@@ -3501,7 +3501,7 @@ desc:.
 name:wood floor 2 cabinet
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:cabinet
 desc:.
@@ -3509,7 +3509,7 @@ desc:.
 name:wood floor 3 cabinet
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:cabinet
 desc:.
@@ -3517,7 +3517,7 @@ desc:.
 name:wood floor 4 locker
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:locker
 desc:.
@@ -3525,7 +3525,7 @@ desc:.
 name:wood floor 5 locker
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:locker
 desc:.
@@ -3533,7 +3533,7 @@ desc:.
 name:wood floor 6 provision
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bags and barrel
 desc:.
@@ -3541,7 +3541,7 @@ desc:.
 name:wood floor 7 provision
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bags and barrel
 desc:.
@@ -3549,7 +3549,7 @@ desc:.
 name:wood floor 8 provision
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:numerous crates and bags
 desc:.
@@ -3557,7 +3557,7 @@ desc:.
 name:wood floor 9 chairs
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chairs
 desc:.
@@ -3565,7 +3565,7 @@ desc:.
 name:wood floor a chairs
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chairs
 desc:.
@@ -3573,7 +3573,7 @@ desc:.
 name:wood floor b alchemy table
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3581,7 +3581,7 @@ desc:.
 name:wood floor c alchemy table
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3589,7 +3589,7 @@ desc:.
 name:wood floor d alchemy table
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3597,7 +3597,7 @@ desc:.
 name:wood floor e bookcase
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3605,7 +3605,7 @@ desc:.
 name:wood floor f table
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:table
 desc:.
@@ -3613,7 +3613,7 @@ desc:.
 name:wood floor g fireplace
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:fireplace
 desc:.
@@ -3621,7 +3621,7 @@ desc:.
 name:wood floor h trapdoor
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:trapdoor in floor
 desc:.
@@ -3629,7 +3629,7 @@ desc:.
 name:wood floor i throne
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wooden throne
 desc:.
@@ -3637,7 +3637,7 @@ desc:.
 name:wood floor j bench
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -3645,7 +3645,7 @@ desc:.
 name:wood floor k bench
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -3653,7 +3653,7 @@ desc:.
 name:wood floor l provision
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bags with goods
 desc:.
@@ -3661,7 +3661,7 @@ desc:.
 name:wood floor m provision
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bags with goods
 desc:.
@@ -3669,7 +3669,7 @@ desc:.
 name:wood floor n bookcase
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3677,7 +3677,7 @@ desc:.
 name:wood floor o bookcase
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3685,7 +3685,7 @@ desc:.
 name:wood floor p statue
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:knight's armoured statue
 desc:.
@@ -3693,7 +3693,7 @@ desc:.
 name:wood floor q crate
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:crate
 desc:.
@@ -3701,7 +3701,7 @@ desc:.
 name:wood floor r crates
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:crates
 desc:.
@@ -3709,7 +3709,7 @@ desc:.
 name:wood floor s weapon stand
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3717,7 +3717,7 @@ desc:.
 name:wood floor t weapon stand
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3725,7 +3725,7 @@ desc:.
 name:wood floor u weapon stand
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3733,7 +3733,7 @@ desc:.
 name:wood floor v chest
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chest
 desc:.
@@ -3746,7 +3746,7 @@ desc:.
 name:wood floor w candelabra
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candelabra
 desc:.
@@ -3754,7 +3754,7 @@ desc:.
 name:wood floor x candelabra
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candelabra
 desc:.
@@ -3806,7 +3806,7 @@ desc:.
 name:safe floor
 graphics:.:u
 priority:16
-flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 short-desc:wooden floor
 desc:An open floor or bare ground that prevents any hostile action from
 desc: monsters or other players.
@@ -3814,7 +3814,7 @@ desc: monsters or other players.
 name:wood floor y grey cat
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:grey cat
 desc:Cat looks at you with interest.
 
@@ -3822,14 +3822,14 @@ desc:Cat looks at you with interest.
 name:wood floor z rat
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rat
 desc:Rat looks at you with interest.
 
 name:wood floor A white cat
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:white cat
 desc:Cat looks at you with interest.
 
@@ -3837,7 +3837,7 @@ desc:Cat looks at you with interest.
 name:wood floor B
 graphics:.:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE
+flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH | PASSABLE
 ################################################################################
 short-desc:grandfather clock
 desc:.
@@ -3845,7 +3845,7 @@ desc:.
 name:wood floor C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:small barrel
 desc:.
@@ -3853,7 +3853,7 @@ desc:.
 name:wood floor D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bench made from oak
 desc:.
@@ -3861,7 +3861,7 @@ desc:.
 name:wood floor E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bench made from oak
 desc:.
@@ -3869,7 +3869,7 @@ desc:.
 name:wood floor F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:low wooden cabinet
 desc:.
@@ -3877,7 +3877,7 @@ desc:.
 name:wood floor G
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:low wooden cabinet
 desc:.
@@ -3885,7 +3885,7 @@ desc:.
 name:wood floor H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3893,7 +3893,7 @@ desc:.
 name:wood floor I
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3901,7 +3901,7 @@ desc:.
 name:wood floor J
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3909,7 +3909,7 @@ desc:.
 name:wood floor K
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3917,7 +3917,7 @@ desc:.
 name:wood floor L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3925,7 +3925,7 @@ desc:.
 name:wood floor M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bed with yellow blanket
 desc:.
@@ -3933,7 +3933,7 @@ desc:.
 name:wood floor N
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bed with blue blanket
 desc:.
@@ -3941,7 +3941,7 @@ desc:.
 name:wood floor O
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wast table
 desc:.
@@ -3949,7 +3949,7 @@ desc:.
 name:wood floor P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:anvil
 desc:.
@@ -3965,7 +3965,7 @@ desc:.
 name:AF wood floor 0
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -3973,7 +3973,7 @@ desc:.
 name:AF wood floor 1
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -3981,7 +3981,7 @@ desc:.
 name:AF wood floor 2
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -3989,7 +3989,7 @@ desc:.
 name:AF wood floor 3
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -3997,7 +3997,7 @@ desc:.
 name:AF wood floor 4
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4005,7 +4005,7 @@ desc:.
 name:AF wood floor 5
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4013,7 +4013,7 @@ desc:.
 name:AF wood floor 6
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4021,7 +4021,7 @@ desc:.
 name:AF wood floor 7
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4029,7 +4029,7 @@ desc:.
 name:AF wood floor 8
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4037,7 +4037,7 @@ desc:.
 name:AF wood floor 9
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4045,7 +4045,7 @@ desc:.
 name:AF wood floor a
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4053,7 +4053,7 @@ desc:.
 name:AF wood floor b
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4061,7 +4061,7 @@ desc:.
 name:AF wood floor c
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -4069,7 +4069,7 @@ desc:.
 name:AF wood floor d
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -4077,7 +4077,7 @@ desc:.
 name:AF wood floor e
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone fire brazier on the wall
 desc:.
@@ -4085,7 +4085,7 @@ desc:.
 name:AF wood floor f
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone fire brazier on the wall
 desc:.
@@ -4093,7 +4093,7 @@ desc:.
 name:AF wood floor g
 graphics:.:s
 priority:18
-flags:BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone brazier with fire
 desc:.
@@ -4103,7 +4103,7 @@ desc:.
 name:AF wood floor h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:spear on the wall
 desc:.
@@ -4111,7 +4111,7 @@ desc:.
 name:AF wood floor i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:spear on the wall
 desc:.
@@ -4119,7 +4119,7 @@ desc:.
 name:AF wood floor j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:sword on the wall
 desc:.
@@ -4127,7 +4127,7 @@ desc:.
 name:AF wood floor k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:sword on the wall
 desc:.
@@ -4135,7 +4135,7 @@ desc:.
 name:AF wood floor l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:axe on the wall
 desc:.
@@ -4143,7 +4143,7 @@ desc:.
 name:AF wood floor m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:axe on the wall
 desc:.
@@ -4151,7 +4151,7 @@ desc:.
 name:AF wood floor n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:polearm on the wall
 desc:.
@@ -4159,7 +4159,7 @@ desc:.
 name:AF wood floor o
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:polearm on the wall
 desc:.
@@ -4167,7 +4167,7 @@ desc:.
 name:AF wood floor p
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:trident on the wall
 desc:.
@@ -4175,7 +4175,7 @@ desc:.
 name:AF wood floor q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:trident on the wall
 desc:.
@@ -4183,7 +4183,7 @@ desc:.
 name:AF wood floor r
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4191,7 +4191,7 @@ desc:.
 name:AF wood floor s
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4199,7 +4199,7 @@ desc:.
 name:AF wood floor t
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4207,7 +4207,7 @@ desc:.
 name:AF wood floor u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4215,7 +4215,7 @@ desc:.
 name:AF wood floor v
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:dagger on the wall
 desc:.
@@ -4227,7 +4227,7 @@ desc:.
 name:B0 wood floor w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -4235,7 +4235,7 @@ desc:.
 name:B0 wood floor x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -4243,7 +4243,7 @@ desc:.
 name:B0 wood floor y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:barrel
 desc:.
@@ -4251,7 +4251,7 @@ desc:.
 name:B0 wood floor z
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bear rug
 desc:.
@@ -4259,7 +4259,7 @@ desc:.
 name:B0 wood floor A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bulk bag
 desc:.
@@ -4267,7 +4267,7 @@ desc:.
 name:B0 wood floor B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chair
 desc:.
@@ -4275,7 +4275,7 @@ desc:.
 name:B0 wood floor C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chair
 desc:.
@@ -4283,7 +4283,7 @@ desc:.
 name:B0 wood floor D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chair
 desc:.
@@ -4291,7 +4291,7 @@ desc:.
 name:B0 wood floor E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:chair
 desc:.
@@ -4299,7 +4299,7 @@ desc:.
 name:B0 wood floor F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:armchair
 desc:.
@@ -4307,7 +4307,7 @@ desc:.
 name:B0 wood floor G
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:armchair
 desc:.
@@ -4315,7 +4315,7 @@ desc:.
 name:B0 wood floor H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:white chair
 desc:.
@@ -4323,7 +4323,7 @@ desc:.
 name:B0 wood floor I
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:white chair
 desc:.
@@ -4331,7 +4331,7 @@ desc:.
 name:B0 wood floor J
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4339,7 +4339,7 @@ desc:.
 name:B0 wood floor K
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:copper statue
 desc:.
@@ -4347,7 +4347,7 @@ desc:.
 name:B0 wood floor L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4355,7 +4355,7 @@ desc:.
 name:B0 wood floor M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:bronze statue
 desc:.
@@ -4363,7 +4363,7 @@ desc:.
 name:B0 wood floor N
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4373,7 +4373,7 @@ desc:.
 name:B0 wood floor O
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4381,7 +4381,7 @@ desc:.
 name:B0 wood floor P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4389,7 +4389,7 @@ desc:.
 name:B0 wood floor Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4397,7 +4397,7 @@ desc:.
 name:B0 wood floor R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4405,7 +4405,7 @@ desc:.
 name:B0 wood floor S
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4413,7 +4413,7 @@ desc:.
 name:B0 wood floor T
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4421,7 +4421,7 @@ desc:.
 name:B0 wood floor U
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4429,7 +4429,7 @@ desc:.
 name:B0 wood floor V
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4437,7 +4437,7 @@ desc:.
 name:B0 wood floor W
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4445,7 +4445,7 @@ desc:.
 name:B0 wood floor X
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4453,7 +4453,7 @@ desc:.
 name:B0 wood floor Y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4461,7 +4461,7 @@ desc:.
 name:B0 wood floor Z
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4469,7 +4469,7 @@ desc:.
 name:B0 wood floor ~
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -4477,7 +4477,7 @@ desc:.
 name:B0 wood floor `
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
