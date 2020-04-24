@@ -83,6 +83,10 @@
 # savefiles.
 
 
+#The Black Spear
+#The Elf's Dagger
+#The Adamant of Henna
+
 ### Light Sources ###
 
 name:of Galadriel
@@ -2344,6 +2348,24 @@ desc: hardened leather. Those who wear it move with agility and assurance.
 
 
 ### Heavy Armour ###
+
+name:of Olmer, son of Boromir
+base-object:hard armour:Old Rusty Chain Mail
+level:20
+weight:230
+alloc:0:40 to 127
+attack:1d4:-3:0
+armor:33:17
+flags:SUST_STR | SUST_DEX | SUST_CON
+values:STR[3] | CON[2] | DEX[1] | SPEED[1]
+values:RES_DARK[1] | RES_NETHER[1] | RES_DISEN[1] | RES_POIS[1]
+act:BERSERKER
+time:100
+desc:Dwarven made chain mail which was enhanced by strange powers..
+desc: ..something dark. But it's not completely dark magic..
+desc:              It's something in between.
+desc: When you wear this armour, you feel as strong and powerful
+desc: as Olmer, son of Boromir.
 
 name:of Trone
 base-object:hard armour:Metal Scale Mail

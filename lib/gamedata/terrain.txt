@@ -1528,6 +1528,7 @@ name:tree Z
 graphics:.:D
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+info:0:1
 ################################################################################
 short-desc:stump
 desc:.
@@ -1536,6 +1537,7 @@ name:tree ~
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+info:0:1
 ################################################################################
 short-desc:small fruit tree
 desc:.
@@ -1544,6 +1546,7 @@ name:tree `
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+info:0:1
 ################################################################################
 short-desc:small tree
 desc:.
@@ -2011,6 +2014,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:sealed portal
 desc:A sealed portal. How to get inside?
 
@@ -2132,6 +2136,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:1
 short-desc:huge crate
 desc:A huge crate.
 
@@ -2451,6 +2456,7 @@ graphics:O:u
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:1
 short-desc:archery target stand
 desc:.
 
@@ -2492,6 +2498,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:obelisk
 desc:.
 
@@ -2525,6 +2532,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:3
 short-desc:big stone like teeth
 desc:.
 
@@ -2534,6 +2542,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:short red tower
 desc:.
 
@@ -2543,6 +2552,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BRIGHT | BORING
 ################################################################################
+info:0:6
 short-desc:short blue light-tower
 desc:.
 
@@ -2552,6 +2562,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:red tower with lobby
 desc:.
 
@@ -2561,6 +2572,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2569,6 +2581,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2577,6 +2590,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2585,6 +2599,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2593,6 +2608,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2601,6 +2617,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2609,6 +2626,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2617,6 +2635,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2625,6 +2644,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2633,6 +2653,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2641,6 +2662,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2649,6 +2671,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2657,6 +2680,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2665,6 +2689,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2673,6 +2698,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2681,6 +2707,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2689,6 +2716,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -2703,6 +2731,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
+info:0:1
 short-desc:wooden fence
 desc:.
 
@@ -2712,6 +2741,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
+info:0:1
 short-desc:wooden fence
 desc:.
 
@@ -2721,6 +2751,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
+info:0:1
 short-desc:wooden fence
 desc:.
 
@@ -2730,6 +2761,7 @@ graphics:|:u
 priority:18
 flags:FLOOR_SAFE | TORCH | PASSABLE | BORING
 ################################################################################
+info:0:1
 short-desc:wooden fence
 desc:.
 
@@ -2739,6 +2771,7 @@ graphics:.:s
 priority:18
 flags:TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:statue of ancient god
 desc:.
 
@@ -2748,6 +2781,7 @@ graphics:g:u
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
+info:0:1
 short-desc:hay dummy
 desc:.
 
@@ -2757,6 +2791,7 @@ graphics:g:W
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
+info:0:3
 short-desc:dummy
 desc:.
 
@@ -2764,6 +2799,7 @@ desc:.
 name:obj_grass2 D
 graphics:@:g
 priority:18
+info:0:3
 flags:PROJECT | TORCH | BORING
 ################################################################################
 short-desc:.
@@ -2772,6 +2808,7 @@ desc:.
 name:obj_grass2 E
 graphics:@:u
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2780,6 +2817,7 @@ desc:.
 name:obj_grass2 F
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2788,6 +2826,7 @@ desc:.
 name:obj_grass2 G
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2796,6 +2835,7 @@ desc:.
 name:obj_grass2 H
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2804,6 +2844,7 @@ desc:.
 name:obj_grass2 I
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2812,6 +2853,7 @@ desc:.
 name:obj_grass2 J
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2820,6 +2862,7 @@ desc:.
 name:obj_grass2 K
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2828,6 +2871,7 @@ desc:.
 name:obj_grass2 L
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2836,6 +2880,7 @@ desc:.
 name:obj_grass2 M
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2844,6 +2889,7 @@ desc:.
 name:obj_grass2 N
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2852,6 +2898,7 @@ desc:.
 name:obj_grass2 O
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2860,6 +2907,7 @@ desc:.
 name:obj_grass2 P
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2868,6 +2916,7 @@ desc:.
 name:obj_grass2 Q
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2876,6 +2925,7 @@ desc:.
 name:obj_grass2 R
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2884,6 +2934,7 @@ desc:.
 name:obj_grass2 S
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2892,6 +2943,7 @@ desc:.
 name:obj_grass2 T
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2900,6 +2952,7 @@ desc:.
 name:obj_grass2 U
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2908,6 +2961,7 @@ desc:.
 name:obj_grass2 V
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2916,6 +2970,7 @@ desc:.
 name:obj_grass2 W
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2924,6 +2979,7 @@ desc:.
 name:obj_grass2 X
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2932,6 +2988,7 @@ desc:.
 name:obj_grass2 Y
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2940,6 +2997,7 @@ desc:.
 name:obj_grass2 Z
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2948,6 +3006,7 @@ desc:.
 name:obj_grass2 ~
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2956,6 +3015,7 @@ desc:.
 name:obj_grass2 `
 graphics:.:s
 priority:18
+info:0:3
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -2974,6 +3034,7 @@ name:grass mountain 0
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -2981,6 +3042,7 @@ name:grass mountain 1
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -2988,6 +3050,7 @@ name:grass mountain 2
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -2995,6 +3058,7 @@ name:grass mountain 3
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3002,6 +3066,7 @@ name:grass mountain 4
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3009,6 +3074,7 @@ name:grass mountain 5
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3016,6 +3082,7 @@ name:grass mountain 6
 graphics:^:r
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3023,6 +3090,7 @@ name:grass mountain 7
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3030,6 +3098,7 @@ name:grass mountain 8
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3037,6 +3106,7 @@ name:grass mountain 9
 graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3044,6 +3114,7 @@ name:grass mountain a
 graphics:^:y
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3051,6 +3122,7 @@ name:grass mountain b
 graphics:^:y
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
@@ -3058,6 +3130,7 @@ name:grass mountain c rocks
 graphics:::W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:2
 ################################################################################
 short-desc:rocks
 desc:.
@@ -3066,6 +3139,7 @@ name:grass mountain d small rocks
 graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+info:0:2
 ################################################################################
 short-desc:medium sized rocks
 desc:.
@@ -3075,6 +3149,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:3
 short-desc:rubble
 desc:.
 
@@ -3083,6 +3158,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:passable rubble
 desc:.
 
@@ -3090,6 +3166,7 @@ name:grass mountain g big rocks
 graphics:::W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:3
 short-desc:big rocks
 desc:An unpassable rocks.
 
@@ -3097,15 +3174,16 @@ name:grass mountain h moss rubble
 graphics:::g
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:3
 short-desc:rubble overgrown with moss
 desc:Old rubble.
-
 
 name:grass mountain i boulders
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:boulders
 desc:Rocks.
 
@@ -3114,6 +3192,7 @@ graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:boulders
 desc:Rocks.
 
@@ -3122,6 +3201,7 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:boulders
 desc:Rocks.
 
@@ -3130,6 +3210,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:3
 short-desc:boulders
 desc:Big pile of rocks.
 
@@ -3138,6 +3219,7 @@ graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:rocks
 desc:Rocks.
 
@@ -3146,6 +3228,7 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:small pile of rocks
 desc:Rocks.
 
@@ -3154,6 +3237,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:medium-sized rock
 desc:Rocks.
 
@@ -3162,6 +3246,7 @@ graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:medium-sized rock
 desc:Rocks.
 
@@ -3170,6 +3255,7 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:medium-sized rock
 desc:Rocks.
 
@@ -3178,6 +3264,7 @@ graphics:::u
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:medium-sized rocks
 desc:Rocks.
 
@@ -3186,6 +3273,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:medium-sized brown rocks
 desc:Rocks.
 
@@ -3194,6 +3282,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:some of rocks
 desc:Rocks.
 
@@ -3202,6 +3291,7 @@ graphics:::D
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:pile of rocks
 desc:.
 
@@ -3210,19 +3300,21 @@ graphics:::W
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:2
 short-desc:rock
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AC - grass mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
 
 name:grass mountain w
 graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3231,6 +3323,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3239,6 +3332,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3247,6 +3341,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3255,6 +3350,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3263,6 +3359,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3271,6 +3368,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3279,6 +3377,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3287,6 +3386,7 @@ graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3295,6 +3395,7 @@ graphics:^:W
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -3304,6 +3405,7 @@ graphics:::g
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING
 ################################################################################
+info:0:3
 short-desc:hills
 desc:.
 
@@ -3312,6 +3414,7 @@ graphics:^:u
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:high rocky peaks
 desc:.
 
@@ -3320,6 +3423,7 @@ graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:6
 short-desc:high rocky peaks
 desc:.
 
@@ -3330,6 +3434,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3338,6 +3443,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3346,6 +3452,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3354,6 +3461,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3362,6 +3470,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3370,6 +3479,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3378,6 +3488,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3386,6 +3497,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3394,6 +3506,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3402,6 +3515,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3410,6 +3524,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3418,6 +3533,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3426,6 +3542,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3434,6 +3551,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3442,6 +3560,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3450,6 +3569,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3458,6 +3578,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3466,6 +3587,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -3474,6 +3596,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
+info:0:7
 short-desc:.
 desc:.
 
@@ -16326,6 +16449,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16334,6 +16458,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16342,6 +16467,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16350,6 +16476,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16358,6 +16485,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16366,6 +16494,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16374,6 +16503,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16382,6 +16512,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16390,6 +16521,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16398,6 +16530,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16406,6 +16539,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16414,6 +16548,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16422,6 +16557,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16430,6 +16566,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16438,6 +16575,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16446,6 +16584,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16454,6 +16593,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16462,6 +16602,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16470,6 +16611,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16478,6 +16620,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16486,6 +16629,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16494,6 +16638,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16502,6 +16647,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16510,6 +16656,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16518,6 +16665,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16526,6 +16674,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16534,6 +16683,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16542,6 +16692,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16550,6 +16701,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16558,6 +16710,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16566,6 +16719,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16574,6 +16728,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16587,6 +16742,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16595,6 +16751,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16603,6 +16760,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16611,6 +16769,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16619,6 +16778,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16627,6 +16787,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16635,6 +16796,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16643,6 +16805,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16651,6 +16814,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16659,6 +16823,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16667,6 +16832,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16675,6 +16841,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16683,6 +16850,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16691,6 +16859,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16699,6 +16868,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16707,6 +16877,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16715,6 +16886,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16723,6 +16895,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16731,6 +16904,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16739,6 +16913,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16747,6 +16922,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16755,6 +16931,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16763,6 +16940,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16771,6 +16949,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16779,6 +16958,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16787,6 +16967,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16795,6 +16976,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16803,6 +16985,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16811,6 +16994,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16819,6 +17003,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16827,6 +17012,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
 
@@ -16835,19 +17021,21 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:3
 short-desc:.
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DF dark stone
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
 
 name:DF dark stone 0
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16856,6 +17044,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16864,6 +17053,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16872,6 +17062,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16880,6 +17071,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16888,6 +17080,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16896,6 +17089,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16904,6 +17098,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16912,6 +17107,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16920,6 +17116,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16928,6 +17125,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16936,6 +17134,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16944,6 +17143,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16952,6 +17152,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16960,6 +17161,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16968,6 +17170,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16976,6 +17179,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16984,6 +17188,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -16992,6 +17197,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17000,6 +17206,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17008,6 +17215,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17016,6 +17224,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17024,6 +17233,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17032,6 +17242,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17040,6 +17251,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17048,6 +17260,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17056,6 +17269,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17064,6 +17278,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17072,6 +17287,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17080,6 +17296,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17088,6 +17305,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17096,6 +17314,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17109,6 +17328,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17117,6 +17337,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17125,6 +17346,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17133,6 +17355,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17141,6 +17364,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17149,6 +17373,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17157,6 +17382,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17165,6 +17391,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17173,6 +17400,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17181,6 +17409,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17189,6 +17418,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17197,6 +17427,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17205,6 +17436,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17213,6 +17445,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17221,6 +17454,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17229,6 +17463,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17237,6 +17472,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17245,6 +17481,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17253,6 +17490,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17261,6 +17499,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17269,6 +17508,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17277,6 +17517,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17285,6 +17526,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17293,6 +17535,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17301,6 +17544,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17309,6 +17553,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17317,6 +17562,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17325,6 +17571,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17333,6 +17580,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17341,6 +17589,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17349,6 +17598,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17357,6 +17607,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17370,6 +17621,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17378,6 +17630,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17386,6 +17639,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17394,6 +17648,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17402,6 +17657,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17410,6 +17666,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17418,6 +17675,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17426,6 +17684,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17434,6 +17693,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17442,6 +17702,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17450,6 +17711,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17458,6 +17720,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17466,6 +17729,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17474,6 +17738,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17482,6 +17747,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17490,6 +17756,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17498,6 +17765,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17506,6 +17774,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17514,6 +17783,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17522,6 +17792,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17530,6 +17801,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17538,6 +17810,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17546,6 +17819,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17554,6 +17828,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17562,6 +17837,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17570,6 +17846,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17578,6 +17855,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17586,6 +17864,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17594,6 +17873,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17602,6 +17882,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17610,6 +17891,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17618,6 +17900,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17631,6 +17914,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17639,6 +17923,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17647,6 +17932,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17655,6 +17941,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17663,6 +17950,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17671,6 +17959,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17679,6 +17968,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17687,6 +17977,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17695,6 +17986,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17703,6 +17995,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17711,6 +18004,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17719,6 +18013,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17727,6 +18022,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17735,6 +18031,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17743,6 +18040,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17751,6 +18049,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17759,6 +18058,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17767,6 +18067,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17775,6 +18076,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17783,6 +18085,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17791,6 +18094,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17799,6 +18103,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17807,6 +18112,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17815,6 +18121,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17823,6 +18130,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17831,6 +18139,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17839,6 +18148,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17847,6 +18157,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17855,6 +18166,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17863,6 +18175,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17871,6 +18184,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17879,6 +18193,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17892,6 +18207,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17900,6 +18216,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17908,6 +18225,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17916,6 +18234,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17924,6 +18243,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17932,6 +18252,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17940,6 +18261,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17948,6 +18270,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17956,6 +18279,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17964,6 +18288,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17972,6 +18297,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17980,6 +18306,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17988,6 +18315,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -17996,6 +18324,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18004,6 +18333,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18012,6 +18342,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18020,6 +18351,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18028,6 +18360,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18036,6 +18369,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18044,6 +18378,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18052,6 +18387,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18060,6 +18396,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18068,6 +18405,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18076,6 +18414,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18084,6 +18423,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18092,6 +18432,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18100,6 +18441,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18108,6 +18450,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18116,6 +18459,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18124,6 +18468,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18132,6 +18477,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18140,6 +18486,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18153,6 +18500,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18161,6 +18509,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18169,6 +18518,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18177,6 +18527,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18185,6 +18536,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18193,6 +18545,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18201,6 +18554,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18209,6 +18563,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18217,6 +18572,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18225,6 +18581,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18233,6 +18590,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18241,6 +18599,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18249,6 +18608,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18257,6 +18617,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18265,6 +18626,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18273,6 +18635,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18281,6 +18644,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18289,6 +18653,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18297,6 +18662,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18305,6 +18671,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18313,6 +18680,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18321,6 +18689,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18329,6 +18698,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18337,6 +18707,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18345,6 +18716,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18353,6 +18725,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18361,6 +18734,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18369,6 +18743,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18377,6 +18752,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18385,6 +18761,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18393,6 +18770,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18401,6 +18779,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18414,6 +18793,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18422,6 +18802,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18430,6 +18811,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18438,6 +18820,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18446,6 +18829,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18454,6 +18838,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18462,6 +18847,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18470,6 +18856,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18478,6 +18865,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18486,6 +18874,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18494,6 +18883,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18502,6 +18892,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18510,6 +18901,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18518,6 +18910,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18526,6 +18919,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18534,6 +18928,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18542,6 +18937,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18550,6 +18946,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18558,6 +18955,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18566,6 +18964,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18574,6 +18973,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18582,6 +18982,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18590,6 +18991,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18598,6 +19000,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18606,6 +19009,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18614,6 +19018,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18622,6 +19027,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18630,6 +19036,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18638,6 +19045,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18646,6 +19054,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18654,6 +19063,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18662,6 +19072,7 @@ graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18675,6 +19086,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18683,6 +19095,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18691,6 +19104,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18699,6 +19113,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18707,6 +19122,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18715,6 +19131,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18723,6 +19140,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18731,6 +19149,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18739,6 +19158,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18747,6 +19167,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18755,6 +19176,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18763,6 +19185,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18771,6 +19194,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18779,6 +19203,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18787,6 +19212,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18795,6 +19221,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18803,6 +19230,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18811,6 +19239,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18819,6 +19248,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18827,6 +19257,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18835,6 +19266,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18843,6 +19275,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18851,6 +19284,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18859,6 +19293,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18867,6 +19302,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18875,6 +19311,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18883,6 +19320,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18891,6 +19329,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18899,6 +19338,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18907,6 +19347,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18915,6 +19356,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -18923,6 +19365,7 @@ graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:.
 desc:.
 
@@ -19427,87 +19870,103 @@ desc:.
 # E9 desert
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:E9 desert 0
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 1
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 2
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 3
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 4
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 5
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 6
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 7
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 8
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert 9
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert a
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
 
 name:E9 desert b
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
 desc:A high mountain.
+
 
 name:E9 desert c
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Huge pile of rocks..
 
 name:E9 desert d
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -19516,102 +19975,119 @@ desc:.
 name:E9 desert e
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Rubble.
 
 name:E9 desert f
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Passable rubble.
 
 name:E9 desert g
 graphics:#:D
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Pile of rocks.
 
 name:E9 desert h
 graphics:#:D
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Old mossy rubble.
 
 name:E9 desert i
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert j
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert k
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert l
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:E9 desert m
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert n
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert o
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert p
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert q
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert r
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert s
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert t
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:E9 desert u
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -19620,6 +20096,7 @@ desc:.
 name:E9 desert v
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -20237,12 +20714,13 @@ short-desc:Big boulders which you can not pass simply
 short-desc:.
 desc:.
 
+
 #tiny stones
 name:ED dirt d
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-info:0:1
 short-desc:Stones fallen from mountain. You could pass them
 ################################################################################
 short-desc:.
@@ -20251,6 +20729,7 @@ desc:.
 name:ED dirt e
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -20259,6 +20738,7 @@ desc:.
 name:ED dirt f
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -20267,6 +20747,7 @@ desc:.
 name:ED dirt g
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -20275,84 +20756,98 @@ desc:.
 name:ED dirt h
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Old rubble.
 
 name:ED dirt i
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt j
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt k
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt l
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:ED dirt m
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt n
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt o
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt p
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt q
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt r
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt s
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt t
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:ED dirt u
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -20361,6 +20856,7 @@ desc:.
 name:ED dirt v
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -20896,82 +21392,97 @@ desc:.
 # F1 snow
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F1 snow 0
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 1
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 2
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 3
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 4
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 5
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 6
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 7
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 8
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 9
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow a
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow b
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:7
+NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
+
 
 name:F1 snow c
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -20979,7 +21490,8 @@ desc:.
 name:F1 snow d
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -20987,7 +21499,8 @@ desc:.
 name:F1 snow e
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -20995,7 +21508,8 @@ desc:.
 name:F1 snow f
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21003,7 +21517,8 @@ desc:.
 name:F1 snow g
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -21011,85 +21526,99 @@ desc:.
 name:F1 snow h
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+NO_SCENT | NO_FLOW | TORCH
 desc:Old rubble.
 
 name:F1 snow i
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow j
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow k
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow l
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:3
+NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:F1 snow m
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow n
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow o
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow p
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow q
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow r
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow s
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow t
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow u
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21097,7 +21626,8 @@ desc:.
 name:F1 snow v
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+info:0:3
+LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21113,78 +21643,92 @@ desc:.
 name:F3 shallow water 0
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 1
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 2
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 3
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 4
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 5
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 6
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 7
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 8
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water 9
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water a
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F3 shallow water b
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
+
 
 name:F3 shallow water c
 graphics:^:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -21193,6 +21737,7 @@ desc:.
 name:F3 shallow water d
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21201,6 +21746,7 @@ desc:.
 name:F3 shallow water e
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -21209,6 +21755,7 @@ desc:.
 name:F3 shallow water f
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21217,6 +21764,7 @@ desc:.
 name:F3 shallow water g
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -21225,84 +21773,98 @@ desc:.
 name:F3 shallow water h
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Old rubble.
 
 name:F3 shallow water i
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water j
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water k
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water l
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:F3 shallow water m
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water n
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water o
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water p
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water q
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water r
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water s
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water t
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F3 shallow water u
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21311,6 +21873,7 @@ desc:.
 name:F3 shallow water v
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21582,81 +22145,96 @@ desc:.
 # F5 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F5 deep water 0
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 1
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 2
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 3
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 4
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 5
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 6
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 7
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 8
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water 9
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water a
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water b
 graphics:^:s
 priority:18
+info:0:7
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
+
 
 name:F5 deep water c
 graphics:^:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -21665,6 +22243,7 @@ desc:.
 name:F5 deep water d
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21673,6 +22252,7 @@ desc:.
 name:F5 deep water e
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
@@ -21681,6 +22261,7 @@ desc:.
 name:F5 deep water f
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21689,90 +22270,105 @@ desc:.
 name:F5 deep water g
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F5 deep water h
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Old rubble.
 
 name:F5 deep water i
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water j
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water k
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water l
 graphics:#:s
 priority:18
+info:0:3
 flags:NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:F5 deep water m
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water n
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water o
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water p
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water q
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water r
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water s
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water t
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F5 deep water u
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
@@ -21781,6 +22377,7 @@ desc:.
 name:F5 deep water v
 graphics:::s
 priority:18
+info:0:3
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.

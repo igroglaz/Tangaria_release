@@ -501,18 +501,21 @@ obj-flag:1:REGEN
 value:1:MANA[4+-1d10M40]
 #obj-flag:1:FEATHER[-1]
 player-flags:HYDRA
-attack:bite:none:1:0:NONE
-attack:hit: with a circular attack:1:20:CIRCLE
-attack:hit: with a circular attack:5:5:CIRCLE
-attack:hit: with a circular attack:10:5:CIRCLE
-attack:hit: with a circular attack:15:5:CIRCLE
-attack:hit: with a circular attack:20:5:CIRCLE
-attack:hit: with a circular attack:25:5:CIRCLE
-attack:hit: with a circular attack:30:5:CIRCLE
-attack:hit: with a circular attack:35:5:CIRCLE
-attack:hit: with a circular attack:40:5:CIRCLE
-attack:hit: with a circular attack:45:5:CIRCLE
-attack:hit: with a circular attack:50:5:CIRCLE
+attack:hit:none:1:0:NONE
+attack:rend:none:1:0:NONE
+attack:butt:none:1:0:NONE
+attack:crush:none:1:0:NONE
+attack:claw: (circular):1:0:CIRCLE
+attack:snap: (circular):5:0:CIRCLE
+attack:bite: (circular):10:0:CIRCLE
+attack:nip: (circular):15:0:CIRCLE
+attack:nibble: (circular):20:0:CIRCLE
+attack:gnaw: (circular):25:0:CIRCLE
+attack:crunch: (circular):30:0:CIRCLE
+attack:chomp: (circular):35:0:CIRCLE
+attack:champ: (circular):40:0:CIRCLE
+attack:chump: (circular):45:0:CIRCLE
+attack:scrunch: (circular):50:0:CIRCLE
 
 name:Black Numenorean
 skill-disarm-phys:2
@@ -1238,6 +1241,7 @@ obj-flag:1:SEE_INVIS
 
 
 # mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
+#Permanently hallucinating (effect decreases with increased int,wis) Innate ESP
 # troglodite
 # gnoll
 # centaur
