@@ -21397,84 +21397,84 @@ name:F1 snow 0
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 1
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 2
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 3
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 4
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 5
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 6
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 7
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 8
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow 9
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow a
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 name:F1 snow b
 graphics:#:s
 priority:18
 info:0:7
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:A high mountain.
 
 
@@ -21482,7 +21482,7 @@ name:F1 snow c
 graphics:#:s
 priority:18
 info:0:3
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -21491,7 +21491,7 @@ name:F1 snow d
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21500,7 +21500,7 @@ name:F1 snow e
 graphics:#:s
 priority:18
 info:0:3
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -21509,7 +21509,7 @@ name:F1 snow f
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21518,7 +21518,7 @@ name:F1 snow g
 graphics:#:s
 priority:18
 info:0:3
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:.
 desc:.
@@ -21527,98 +21527,98 @@ name:F1 snow h
 graphics:#:s
 priority:18
 info:0:3
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:Old rubble.
 
 name:F1 snow i
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow j
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow k
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow l
 graphics:#:s
 priority:18
 info:0:3
-NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 desc:Big pile of rocks.
 
 name:F1 snow m
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow n
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow o
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow p
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow q
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow r
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow s
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow t
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 desc:Rocks.
 
 name:F1 snow u
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
@@ -21627,7 +21627,7 @@ name:F1 snow v
 graphics:::s
 priority:18
 info:0:3
-LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
 desc:.
