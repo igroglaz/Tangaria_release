@@ -340,7 +340,7 @@ desc: them!
 name:Tavern
 graphics:8:y
 priority:24
-flags:PROJECT | PASSABLE |  PERMANENT | INTERESTING | EASY | BRIGHT | FLOOR_SAFE
+flags:PROJECT | PASSABLE |  PERMANENT | INTERESTING | EASY | FLOOR_SAFE
 info:22:0
 desc:A safe place, perfect for drinking a pint of ale or two.
 
@@ -3485,7 +3485,7 @@ desc:.
 name:wood floor 0 bed
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bed
 desc:.
@@ -3493,7 +3493,7 @@ desc:.
 name:wood floor 1 bed
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bed
 desc:.
@@ -3501,7 +3501,7 @@ desc:.
 name:wood floor 2 cabinet
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:cabinet
 desc:.
@@ -3509,7 +3509,7 @@ desc:.
 name:wood floor 3 cabinet
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:cabinet
 desc:.
@@ -3517,7 +3517,7 @@ desc:.
 name:wood floor 4 locker
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:locker
 desc:.
@@ -3525,7 +3525,7 @@ desc:.
 name:wood floor 5 locker
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:locker
 desc:.
@@ -3533,7 +3533,7 @@ desc:.
 name:wood floor 6 provision
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bags and barrel
 desc:.
@@ -3541,7 +3541,7 @@ desc:.
 name:wood floor 7 provision
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bags and barrel
 desc:.
@@ -3549,7 +3549,7 @@ desc:.
 name:wood floor 8 provision
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:numerous crates and bags
 desc:.
@@ -3557,7 +3557,7 @@ desc:.
 name:wood floor 9 chairs
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chairs
 desc:.
@@ -3565,7 +3565,7 @@ desc:.
 name:wood floor a chairs
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chairs
 desc:.
@@ -3573,7 +3573,7 @@ desc:.
 name:wood floor b alchemy table
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3581,7 +3581,7 @@ desc:.
 name:wood floor c alchemy table
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3589,7 +3589,7 @@ desc:.
 name:wood floor d alchemy table
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3597,7 +3597,7 @@ desc:.
 name:wood floor e bookcase
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3605,7 +3605,7 @@ desc:.
 name:wood floor f table
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:table
 desc:.
@@ -3613,7 +3613,7 @@ desc:.
 name:wood floor g fireplace
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:fireplace
 desc:.
@@ -3621,7 +3621,7 @@ desc:.
 name:wood floor h trapdoor
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:trapdoor in floor
 desc:.
@@ -3629,7 +3629,7 @@ desc:.
 name:wood floor i throne
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden throne
 desc:.
@@ -3637,7 +3637,7 @@ desc:.
 name:wood floor j bench
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -3645,7 +3645,7 @@ desc:.
 name:wood floor k bench
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -3653,7 +3653,7 @@ desc:.
 name:wood floor l provision
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bags with goods
 desc:.
@@ -3661,7 +3661,7 @@ desc:.
 name:wood floor m provision
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bags with goods
 desc:.
@@ -3669,7 +3669,7 @@ desc:.
 name:wood floor n bookcase
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3677,7 +3677,7 @@ desc:.
 name:wood floor o bookcase
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:bookcase
 desc:.
@@ -3685,7 +3685,7 @@ desc:.
 name:wood floor p statue
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:knight's armoured statue
 desc:.
@@ -3693,7 +3693,7 @@ desc:.
 name:wood floor q crate
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:crate
 desc:.
@@ -3701,7 +3701,7 @@ desc:.
 name:wood floor r crates
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:crates
 desc:.
@@ -3709,7 +3709,7 @@ desc:.
 name:wood floor s weapon stand
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3717,7 +3717,7 @@ desc:.
 name:wood floor t weapon stand
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3725,7 +3725,7 @@ desc:.
 name:wood floor u weapon stand
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:weapon stand
 desc:.
@@ -3733,7 +3733,7 @@ desc:.
 name:wood floor v chest
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chest
 desc:.
@@ -3746,7 +3746,7 @@ desc:.
 name:wood floor w candelabra
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candelabra
 desc:.
@@ -3754,7 +3754,7 @@ desc:.
 name:wood floor x candelabra
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candelabra
 desc:.
@@ -3806,15 +3806,16 @@ desc:.
 name:safe floor
 graphics:.:u
 priority:16
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 short-desc:wooden floor
 desc:An open floor or bare ground that prevents any hostile action from
 desc: monsters or other players.
 
+
 name:wood floor y grey cat
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 short-desc:grey cat
 desc:Cat looks at you with interest.
 
@@ -3822,14 +3823,14 @@ desc:Cat looks at you with interest.
 name:wood floor z rat
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 short-desc:rat
 desc:Rat looks at you with interest.
 
 name:wood floor A white cat
 graphics:::s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 short-desc:white cat
 desc:Cat looks at you with interest.
 
@@ -3837,7 +3838,7 @@ desc:Cat looks at you with interest.
 name:wood floor B
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | NO_SCENT | NO_FLOW | TORCH | PASSABLE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:grandfather clock
 desc:.
@@ -3845,7 +3846,7 @@ desc:.
 name:wood floor C
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:small barrel
 desc:.
@@ -3853,7 +3854,7 @@ desc:.
 name:wood floor D
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bench made from oak
 desc:.
@@ -3861,7 +3862,7 @@ desc:.
 name:wood floor E
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bench made from oak
 desc:.
@@ -3869,7 +3870,7 @@ desc:.
 name:wood floor F
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:low wooden cabinet
 desc:.
@@ -3877,7 +3878,7 @@ desc:.
 name:wood floor G
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:low wooden cabinet
 desc:.
@@ -3885,7 +3886,7 @@ desc:.
 name:wood floor H
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3893,7 +3894,7 @@ desc:.
 name:wood floor I
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3901,7 +3902,7 @@ desc:.
 name:wood floor J
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3909,7 +3910,7 @@ desc:.
 name:wood floor K
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3917,7 +3918,7 @@ desc:.
 name:wood floor L
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:alchemy table
 desc:.
@@ -3925,7 +3926,7 @@ desc:.
 name:wood floor M
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bed with yellow blanket
 desc:.
@@ -3933,7 +3934,7 @@ desc:.
 name:wood floor N
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bed with blue blanket
 desc:.
@@ -3941,7 +3942,7 @@ desc:.
 name:wood floor O
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wast table
 desc:.
@@ -3949,7 +3950,7 @@ desc:.
 name:wood floor P
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:anvil
 desc:.
@@ -3965,7 +3966,7 @@ desc:.
 name:AF wood floor 0
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -3973,7 +3974,7 @@ desc:.
 name:AF wood floor 1
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -3981,7 +3982,7 @@ desc:.
 name:AF wood floor 2
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -3989,7 +3990,7 @@ desc:.
 name:AF wood floor 3
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -3997,7 +3998,7 @@ desc:.
 name:AF wood floor 4
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4005,7 +4006,7 @@ desc:.
 name:AF wood floor 5
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4013,7 +4014,7 @@ desc:.
 name:AF wood floor 6
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4021,7 +4022,7 @@ desc:.
 name:AF wood floor 7
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4029,7 +4030,7 @@ desc:.
 name:AF wood floor 8
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4037,7 +4038,7 @@ desc:.
 name:AF wood floor 9
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:candle on the wall
 desc:.
@@ -4045,7 +4046,7 @@ desc:.
 name:AF wood floor a
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4053,7 +4054,7 @@ desc:.
 name:AF wood floor b
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:torch on the wall
 desc:.
@@ -4061,7 +4062,7 @@ desc:.
 name:AF wood floor c
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -4069,7 +4070,7 @@ desc:.
 name:AF wood floor d
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:oil lamp on the wall
 desc:.
@@ -4077,7 +4078,7 @@ desc:.
 name:AF wood floor e
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:stone fire brazier on the wall
 desc:.
@@ -4085,7 +4086,7 @@ desc:.
 name:AF wood floor f
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:stone fire brazier on the wall
 desc:.
@@ -4093,7 +4094,7 @@ desc:.
 name:AF wood floor g
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | BRIGHT | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY | BRIGHT
 ################################################################################
 short-desc:stone brazier with fire
 desc:.
@@ -4103,7 +4104,7 @@ desc:.
 name:AF wood floor h
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:spear on the wall
 desc:.
@@ -4111,7 +4112,7 @@ desc:.
 name:AF wood floor i
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:spear on the wall
 desc:.
@@ -4119,7 +4120,7 @@ desc:.
 name:AF wood floor j
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:sword on the wall
 desc:.
@@ -4127,7 +4128,7 @@ desc:.
 name:AF wood floor k
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:sword on the wall
 desc:.
@@ -4135,7 +4136,7 @@ desc:.
 name:AF wood floor l
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:axe on the wall
 desc:.
@@ -4143,7 +4144,7 @@ desc:.
 name:AF wood floor m
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:axe on the wall
 desc:.
@@ -4151,7 +4152,7 @@ desc:.
 name:AF wood floor n
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:polearm on the wall
 desc:.
@@ -4159,7 +4160,7 @@ desc:.
 name:AF wood floor o
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:polearm on the wall
 desc:.
@@ -4167,7 +4168,7 @@ desc:.
 name:AF wood floor p
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:trident on the wall
 desc:.
@@ -4175,7 +4176,7 @@ desc:.
 name:AF wood floor q
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:trident on the wall
 desc:.
@@ -4183,7 +4184,7 @@ desc:.
 name:AF wood floor r
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4191,7 +4192,7 @@ desc:.
 name:AF wood floor s
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4199,7 +4200,7 @@ desc:.
 name:AF wood floor t
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4207,7 +4208,7 @@ desc:.
 name:AF wood floor u
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bow on the wall
 desc:.
@@ -4215,7 +4216,7 @@ desc:.
 name:AF wood floor v
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:dagger on the wall
 desc:.
@@ -4224,10 +4225,11 @@ desc:.
 # B0 wood floor
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:B0 wood floor w
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -4235,7 +4237,7 @@ desc:.
 name:B0 wood floor x
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden bench
 desc:.
@@ -4243,7 +4245,7 @@ desc:.
 name:B0 wood floor y
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:barrel
 desc:.
@@ -4251,7 +4253,7 @@ desc:.
 name:B0 wood floor z
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bear rug
 desc:.
@@ -4259,7 +4261,7 @@ desc:.
 name:B0 wood floor A
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bulk bag
 desc:.
@@ -4267,7 +4269,7 @@ desc:.
 name:B0 wood floor B
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chair
 desc:.
@@ -4275,7 +4277,7 @@ desc:.
 name:B0 wood floor C
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chair
 desc:.
@@ -4283,7 +4285,7 @@ desc:.
 name:B0 wood floor D
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chair
 desc:.
@@ -4291,7 +4293,7 @@ desc:.
 name:B0 wood floor E
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:chair
 desc:.
@@ -4299,7 +4301,7 @@ desc:.
 name:B0 wood floor F
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:armchair
 desc:.
@@ -4307,7 +4309,7 @@ desc:.
 name:B0 wood floor G
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:armchair
 desc:.
@@ -4315,7 +4317,7 @@ desc:.
 name:B0 wood floor H
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:white chair
 desc:.
@@ -4323,7 +4325,7 @@ desc:.
 name:B0 wood floor I
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:white chair
 desc:.
@@ -4331,7 +4333,7 @@ desc:.
 name:B0 wood floor J
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4339,7 +4341,7 @@ desc:.
 name:B0 wood floor K
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:copper statue
 desc:.
@@ -4347,7 +4349,7 @@ desc:.
 name:B0 wood floor L
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4355,7 +4357,7 @@ desc:.
 name:B0 wood floor M
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:bronze statue
 desc:.
@@ -4363,7 +4365,7 @@ desc:.
 name:B0 wood floor N
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:stone statue
 desc:.
@@ -4373,7 +4375,7 @@ desc:.
 name:B0 wood floor O
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4381,7 +4383,7 @@ desc:.
 name:B0 wood floor P
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4389,7 +4391,7 @@ desc:.
 name:B0 wood floor Q
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4397,7 +4399,7 @@ desc:.
 name:B0 wood floor R
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4405,7 +4407,7 @@ desc:.
 name:B0 wood floor S
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4413,7 +4415,7 @@ desc:.
 name:B0 wood floor T
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4421,7 +4423,7 @@ desc:.
 name:B0 wood floor U
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4429,7 +4431,7 @@ desc:.
 name:B0 wood floor V
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4437,7 +4439,7 @@ desc:.
 name:B0 wood floor W
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4445,7 +4447,7 @@ desc:.
 name:B0 wood floor X
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4453,7 +4455,7 @@ desc:.
 name:B0 wood floor Y
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4461,7 +4463,7 @@ desc:.
 name:B0 wood floor Z
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4469,7 +4471,7 @@ desc:.
 name:B0 wood floor ~
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -4477,11 +4479,10 @@ desc:.
 name:B0 wood floor `
 graphics:.:s
 priority:18
-flags:FLOOR_SAFE | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B1 - floors
@@ -4506,7 +4507,7 @@ desc:.
 name:floor 2 parquet
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -4514,7 +4515,7 @@ desc:.
 name:floor 3 parquet
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5535,10 +5536,11 @@ desc:.
 # B5 floors
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:B5 floors 0
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5546,7 +5548,7 @@ desc:.
 name:B5 floors 1
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5554,7 +5556,7 @@ desc:.
 name:B5 floors 2
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5562,7 +5564,7 @@ desc:.
 name:B5 floors 3
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5570,7 +5572,7 @@ desc:.
 name:B5 floors 4
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5578,7 +5580,7 @@ desc:.
 name:B5 floors 5
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5586,7 +5588,7 @@ desc:.
 name:B5 floors 6
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5594,7 +5596,7 @@ desc:.
 name:B5 floors 7
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5602,7 +5604,7 @@ desc:.
 name:B5 floors 8
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5610,7 +5612,7 @@ desc:.
 name:B5 floors 9
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5618,7 +5620,7 @@ desc:.
 name:B5 floors a
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5626,7 +5628,7 @@ desc:.
 name:B5 floors b
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5634,7 +5636,7 @@ desc:.
 name:B5 floors c
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5642,7 +5644,7 @@ desc:.
 name:B5 floors d
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5650,7 +5652,7 @@ desc:.
 name:B5 floors e
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5658,7 +5660,7 @@ desc:.
 name:B5 floors f
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5666,7 +5668,7 @@ desc:.
 name:B5 floors g
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5674,7 +5676,7 @@ desc:.
 name:B5 floors h
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5682,7 +5684,7 @@ desc:.
 name:B5 floors i
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5690,7 +5692,7 @@ desc:.
 name:B5 floors j
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5698,7 +5700,7 @@ desc:.
 name:B5 floors k
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5706,7 +5708,7 @@ desc:.
 name:B5 floors l
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5714,7 +5716,7 @@ desc:.
 name:B5 floors m
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5722,7 +5724,7 @@ desc:.
 name:B5 floors n
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5730,7 +5732,7 @@ desc:.
 name:B5 floors o
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5738,7 +5740,7 @@ desc:.
 name:B5 floors p
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5746,7 +5748,7 @@ desc:.
 name:B5 floors q
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5754,7 +5756,7 @@ desc:.
 name:B5 floors r
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5762,7 +5764,7 @@ desc:.
 name:B5 floors s
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5770,7 +5772,7 @@ desc:.
 name:B5 floors t
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5778,7 +5780,7 @@ desc:.
 name:B5 floors u
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -5786,11 +5788,10 @@ desc:.
 name:B5 floors v
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:wooden floor
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B6 - floors luquid
@@ -15538,7 +15539,7 @@ desc:.
 name:D9 side 0
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15546,7 +15547,7 @@ desc:.
 name:D9 side 1
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15554,7 +15555,7 @@ desc:.
 name:D9 side 2
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15562,7 +15563,7 @@ desc:.
 name:D9 side 3
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15570,7 +15571,7 @@ desc:.
 name:D9 side 4
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15578,7 +15579,7 @@ desc:.
 name:D9 side 5
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15586,7 +15587,7 @@ desc:.
 name:D9 side 6
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15594,7 +15595,7 @@ desc:.
 name:D9 side 7
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15602,7 +15603,7 @@ desc:.
 name:D9 side 8
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15610,7 +15611,7 @@ desc:.
 name:D9 side 9
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15618,7 +15619,7 @@ desc:.
 name:D9 side a
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15626,7 +15627,7 @@ desc:.
 name:D9 side b
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15634,7 +15635,7 @@ desc:.
 name:D9 side c
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15642,7 +15643,7 @@ desc:.
 name:D9 side d
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15650,7 +15651,7 @@ desc:.
 name:D9 side e
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15658,7 +15659,7 @@ desc:.
 name:D9 side f
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15666,7 +15667,7 @@ desc:.
 name:D9 side g
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15674,7 +15675,7 @@ desc:.
 name:D9 side h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15682,7 +15683,7 @@ desc:.
 name:D9 side i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15690,7 +15691,7 @@ desc:.
 name:D9 side j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15698,7 +15699,7 @@ desc:.
 name:D9 side k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15706,7 +15707,7 @@ desc:.
 name:D9 side l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15714,7 +15715,7 @@ desc:.
 name:D9 side m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15722,7 +15723,7 @@ desc:.
 name:D9 side n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15730,7 +15731,7 @@ desc:.
 name:D9 side o
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15738,7 +15739,7 @@ desc:.
 name:D9 side p
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15746,7 +15747,7 @@ desc:.
 name:D9 side q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15754,7 +15755,7 @@ desc:.
 name:D9 side r
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15762,7 +15763,7 @@ desc:.
 name:D9 side s
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15770,7 +15771,7 @@ desc:.
 name:D9 side t
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15778,7 +15779,7 @@ desc:.
 name:D9 side u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15786,7 +15787,7 @@ desc:.
 name:D9 side v
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15798,7 +15799,7 @@ desc:.
 name:DA side w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15806,7 +15807,7 @@ desc:.
 name:DA side x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15814,7 +15815,7 @@ desc:.
 name:DA side y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15822,7 +15823,7 @@ desc:.
 name:DA side z
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15830,7 +15831,7 @@ desc:.
 name:DA side A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15838,7 +15839,7 @@ desc:.
 name:DA side B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15846,7 +15847,7 @@ desc:.
 name:DA side C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15854,7 +15855,7 @@ desc:.
 name:DA side D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15862,7 +15863,7 @@ desc:.
 name:DA side E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15870,7 +15871,7 @@ desc:.
 name:DA side F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15878,7 +15879,7 @@ desc:.
 name:DA side G
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15886,7 +15887,7 @@ desc:.
 name:DA side H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15894,7 +15895,7 @@ desc:.
 name:DA side I
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15902,7 +15903,7 @@ desc:.
 name:DA side J
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15910,7 +15911,7 @@ desc:.
 name:DA side K
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15918,7 +15919,7 @@ desc:.
 name:DA side L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15926,7 +15927,7 @@ desc:.
 name:DA side M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15934,7 +15935,7 @@ desc:.
 name:DA side N
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15942,7 +15943,7 @@ desc:.
 name:DA side O
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15950,7 +15951,7 @@ desc:.
 name:DA side P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15958,7 +15959,7 @@ desc:.
 name:DA side Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15966,7 +15967,7 @@ desc:.
 name:DA side R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15974,7 +15975,7 @@ desc:.
 name:DA side S
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15982,7 +15983,7 @@ desc:.
 name:DA side T
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15990,7 +15991,7 @@ desc:.
 name:DA side U
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -15998,7 +15999,7 @@ desc:.
 name:DA side V
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16006,7 +16007,7 @@ desc:.
 name:DA side W
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16014,7 +16015,7 @@ desc:.
 name:DA side X
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16022,7 +16023,7 @@ desc:.
 name:DA side Y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16030,7 +16031,7 @@ desc:.
 name:DA side Z
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16038,7 +16039,7 @@ desc:.
 name:DA side ~
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16046,7 +16047,7 @@ desc:.
 name:DA side `
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16059,7 +16060,7 @@ desc:.
 name:DB side 0
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16067,7 +16068,7 @@ desc:.
 name:DB side 1
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16075,7 +16076,7 @@ desc:.
 name:DB side 2
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16083,7 +16084,7 @@ desc:.
 name:DB side 3
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16091,7 +16092,7 @@ desc:.
 name:DB side 4
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16099,7 +16100,7 @@ desc:.
 name:DB side 5
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16107,7 +16108,7 @@ desc:.
 name:DB side 6
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16115,7 +16116,7 @@ desc:.
 name:DB side 7
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16123,7 +16124,7 @@ desc:.
 name:DB side 8
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16131,7 +16132,7 @@ desc:.
 name:DB side 9
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16139,7 +16140,7 @@ desc:.
 name:DB side a
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16147,7 +16148,7 @@ desc:.
 name:DB side b
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16155,7 +16156,7 @@ desc:.
 name:DB side c
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16163,7 +16164,7 @@ desc:.
 name:DB side d
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16171,7 +16172,7 @@ desc:.
 name:DB side e
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16179,7 +16180,7 @@ desc:.
 name:DB side f
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16187,7 +16188,7 @@ desc:.
 name:DB side g
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16195,7 +16196,7 @@ desc:.
 name:DB side h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16203,7 +16204,7 @@ desc:.
 name:DB side i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16211,7 +16212,7 @@ desc:.
 name:DB side j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16219,7 +16220,7 @@ desc:.
 name:DB side k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16227,7 +16228,7 @@ desc:.
 name:DB side l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16235,7 +16236,7 @@ desc:.
 name:DB side m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16243,7 +16244,7 @@ desc:.
 name:DB side n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16251,7 +16252,7 @@ desc:.
 name:DB side o
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16259,7 +16260,7 @@ desc:.
 name:DB side p
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16267,7 +16268,7 @@ desc:.
 name:DB side q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16275,7 +16276,7 @@ desc:.
 name:DB side r
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16283,7 +16284,7 @@ desc:.
 name:DB side s
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16291,7 +16292,7 @@ desc:.
 name:DB side t
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16299,7 +16300,7 @@ desc:.
 name:DB side u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.
@@ -16307,7 +16308,7 @@ desc:.
 name:DB side v
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | BRIGHT | FLOOR_SAFE
+flags:LOS | PROJECT | PASSABLE | FLOOR_SAFE | BORING | OBJECT | EASY
 ################################################################################
 short-desc:.
 desc:.

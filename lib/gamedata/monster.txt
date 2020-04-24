@@ -26934,7 +26934,7 @@ hearing:10
 armor-class:10
 sleepiness:50
 depth:0
-rarity:1
+rarity:2
 weight:0
 experience:0
 blow:HIT:HURT:1d2
@@ -26943,7 +26943,7 @@ flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
 desc:It doesn't like strangers.
-locations:Hunter's Valley|Farfest
+locations:Farfest
 
 name:mouse
 base:townsfolk

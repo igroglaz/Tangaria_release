@@ -22,7 +22,7 @@
 # slay:level of application:slay code
 # player-flags:racial flags
 # shape:level of application:monster race
-# attack:verb:hit_extra:min_level:chance:effect
+# attack:verb:hit_extra:min_level:chance_of_fail:effect
 
 # 'name' indicates the beginning of an entry.
 
@@ -503,16 +503,16 @@ value:1:MANA[4+-1d10M40]
 player-flags:HYDRA
 attack:bite:none:1:0:NONE
 attack:hit: with a circular attack:1:20:CIRCLE
-attack:hit: with a circular attack:5:25:CIRCLE
-attack:hit: with a circular attack:10:30:CIRCLE
-attack:hit: with a circular attack:15:35:CIRCLE
-attack:hit: with a circular attack:20:40:CIRCLE
-attack:hit: with a circular attack:25:45:CIRCLE
-attack:hit: with a circular attack:30:50:CIRCLE
-attack:hit: with a circular attack:35:55:CIRCLE
-attack:hit: with a circular attack:40:60:CIRCLE
-attack:hit: with a circular attack:45:65:CIRCLE
-attack:hit: with a circular attack:50:70:CIRCLE
+attack:hit: with a circular attack:5:5:CIRCLE
+attack:hit: with a circular attack:10:5:CIRCLE
+attack:hit: with a circular attack:15:5:CIRCLE
+attack:hit: with a circular attack:20:5:CIRCLE
+attack:hit: with a circular attack:25:5:CIRCLE
+attack:hit: with a circular attack:30:5:CIRCLE
+attack:hit: with a circular attack:35:5:CIRCLE
+attack:hit: with a circular attack:40:5:CIRCLE
+attack:hit: with a circular attack:45:5:CIRCLE
+attack:hit: with a circular attack:50:5:CIRCLE
 
 name:Black Numenorean
 skill-disarm-phys:2

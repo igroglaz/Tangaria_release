@@ -15,6 +15,9 @@
 #=#=#=#=#=#=#=#=#=#=# OPTIONS #=#=#=#=#=#=#=#=#=#=#
 #=#=#=#=#=#=#=#=#=#=##=#=#=#=#=#=#=#=#=#=##=#=#=#=#
 
+# Option ''
+X:none
+
 # Option 'Use the roguelike command keyset'
 X:rogue_like_commands
 
@@ -67,7 +70,7 @@ Y:use_sound
 X:effective_speed
 
 # Option 'Color: Illuminate torchlight in orange'
-X:view_orange_light
+Y:view_orange_light
 
 # Option 'Use special color for party leader'
 X:highlight_leader
@@ -98,6 +101,15 @@ X:disturb_faint
 
 # Option 'Risky casting'
 X:risky_casting
+
+# Option 'Use single items from floor instantly'
+Y:quick_floor
+
+# Option 'Hide terrain description on status line'
+Y:hide_terrain
+
+# Option 'Disable Enter menu'
+Y:disable_enter
 
 # Option 'Force player descent'
 X:birth_force_descend
