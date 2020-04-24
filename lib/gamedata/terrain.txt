@@ -6310,7 +6310,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls 1 solid corner
@@ -6319,7 +6319,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall corner
 desc:.
 
 name:wooden walls 2 empty window
@@ -6328,7 +6328,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:empty window
 desc:.
 
 name:wooden walls 3 window
@@ -6337,7 +6337,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls 4 barred window
@@ -6346,7 +6346,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:barred window
 desc:.
 
 name:wooden walls 5 door
@@ -6355,7 +6355,7 @@ priority:24
 flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:wooden walls 6 door
@@ -6364,7 +6364,7 @@ priority:24
 flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 #statue
@@ -6374,7 +6374,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:statue
 desc:.
 
 #fountain
@@ -6384,10 +6384,11 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:fountain
 desc:.
 
 ### WINDOWS FURTHER ON
+
 
 name:wooden walls 9
 graphics:#:u
@@ -6395,7 +6396,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls a
@@ -6404,7 +6405,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls b
@@ -6413,7 +6414,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls c
@@ -6422,7 +6423,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls d
@@ -6431,7 +6432,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls e
@@ -6440,7 +6441,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls f
@@ -6449,7 +6450,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls g
@@ -6458,7 +6459,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls h
@@ -6467,7 +6468,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls i
@@ -6476,7 +6477,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls j
@@ -6485,7 +6486,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls k
@@ -6494,7 +6495,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls l
@@ -6503,7 +6504,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls m
@@ -6512,7 +6513,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls n
@@ -6521,7 +6522,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls o
@@ -6530,7 +6531,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls p
@@ -6539,7 +6540,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls q
@@ -6548,7 +6549,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls r
@@ -6557,7 +6558,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls s
@@ -6566,7 +6567,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls t
@@ -6575,7 +6576,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls u
@@ -6584,7 +6585,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:wooden walls v
@@ -6593,7 +6594,7 @@ priority:18
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 
@@ -6607,7 +6608,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 name:wooden walls x
@@ -6616,7 +6617,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 #fireplace
@@ -6626,8 +6627,9 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
+
 
 name:wooden walls z
 graphics:#:u
@@ -6635,7 +6637,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls A
@@ -6644,7 +6646,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls B
@@ -6653,7 +6655,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls C
@@ -6662,7 +6664,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls D
@@ -6671,7 +6673,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls E
@@ -6680,7 +6682,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls F
@@ -6689,7 +6691,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls G
@@ -6698,7 +6700,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls H
@@ -6707,7 +6709,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls I
@@ -6716,7 +6718,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls J
@@ -6725,7 +6727,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls K
@@ -6734,7 +6736,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls L
@@ -6743,7 +6745,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls M
@@ -6752,7 +6754,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls N
@@ -6761,7 +6763,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls O
@@ -6770,7 +6772,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls P
@@ -6779,7 +6781,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls Q
@@ -6788,7 +6790,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls R
@@ -6797,7 +6799,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls S
@@ -6806,7 +6808,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls T
@@ -6815,7 +6817,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls U
@@ -6824,7 +6826,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls V
@@ -6833,7 +6835,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 #pitcher on the wall
@@ -6843,7 +6845,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls X
@@ -6852,7 +6854,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls Y
@@ -6861,7 +6863,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls Z
@@ -6870,7 +6872,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls ~
@@ -6879,7 +6881,7 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:wooden walls `
@@ -6888,11 +6890,8 @@ priority:18
 flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
-
-
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B9 - dark wall
@@ -6904,7 +6903,7 @@ priority:25
 flags:MAGMA| WALL | ROCK | NO_SCENT | NO_FLOW
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall 1 narrow window
@@ -6913,7 +6912,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:narrow window
 desc:.
 
 name:dark wall 2 window
@@ -6922,7 +6921,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:dark wall 3 candelabra
@@ -6931,7 +6930,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:candelabra on the wall
 desc:.
 
 name:dark wall 4 torch
@@ -6940,7 +6939,7 @@ priority:25
 flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:torch on the wall
 desc:.
 
 name:dark wall 5 lamp
@@ -6949,7 +6948,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:lamp on the wall
 desc:.
 
 name:dark wall 6 niche
@@ -6958,7 +6957,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall niche
 desc:.
 
 name:dark wall 7 swords
@@ -6967,7 +6966,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:swords on the wall
 desc:.
 
 name:dark wall 8 shield
@@ -6976,7 +6975,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:shield on the wall
 desc:.
 
 name:dark wall 9 statue
@@ -6985,7 +6984,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:statue in the wall
 desc:.
 
 name:dark wall a fountain
@@ -6994,7 +6993,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fountain in the wall
 desc:.
 
 name:dark wall b portrait
@@ -7003,7 +7002,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:portrait on the wall
 desc:.
 
 name:dark wall c portrait
@@ -7012,7 +7011,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:portrait on the wall
 desc:.
 
 name:dark wall d portrait
@@ -7021,7 +7020,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:portrait on the wall
 desc:.
 
 name:dark wall e portrait
@@ -7030,7 +7029,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:portrait on the wall
 desc:.
 
 name:dark wall f banner
@@ -7039,7 +7038,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:banner on the wall
 desc:.
 
 name:dark wall g banner
@@ -7048,7 +7047,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:banner on the wall
 desc:.
 
 name:dark wall h banner
@@ -7057,7 +7056,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:banner on the wall
 desc:.
 
 name:dark wall i banner
@@ -7066,7 +7065,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:banner on the wall
 desc:.
 
 name:dark wall j banner
@@ -7075,7 +7074,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:banner on the wall
 desc:.
 
 name:dark wall k empty window
@@ -7084,7 +7083,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:empty window
 desc:.
 
 name:dark wall l window
@@ -7093,7 +7092,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:dark wall m barred window
@@ -7102,7 +7101,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:barred window
 desc:.
 
 name:dark wall n glass window
@@ -7111,19 +7110,21 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:glass window
 desc:.
 
 name:dark wall o up staircase
 graphics:<:w
 priority:26
 flags:QUARTZ | LOS | PROJECT | PASSABLE | STAIR | UPSTAIR | EASY | TORCH
+short-desc:up staircase
 desc:A staircase up to a shallower part of the dungeon.
 
 name:dark wall p down staircase
 graphics:>:w
 priority:26
 flags:QUARTZ | LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+short-desc:down staircase
 desc:A staircase down to a deeper part of the dungeon.
 
 name:dark wall q door
@@ -7132,7 +7133,7 @@ priority:24
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:dark wall r doorway
@@ -7140,7 +7141,7 @@ graphics:+:'
 priority:24
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:.
+short-desc:doorway
 desc:.
 
 name:dark wall s door
@@ -7149,7 +7150,7 @@ priority:24
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:dark wall t doorway
@@ -7157,7 +7158,7 @@ graphics:+:'
 priority:24
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:.
+short-desc:doorway
 desc:.
 
 name:dark wall u
@@ -7166,7 +7167,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:books on the wall shelf
 desc:.
 
 name:dark wall v
@@ -7175,7 +7176,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:books on the wall shelf
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -7188,7 +7189,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 name:dark wall x
@@ -7197,7 +7198,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 #fireplace
@@ -7207,7 +7208,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
 
 name:dark wall z
@@ -7219,13 +7220,14 @@ info:0:3
 short-desc:.
 desc:.
 
+
 name:dark wall A
 graphics:#:D
 priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall B
@@ -7234,7 +7236,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall C
@@ -7243,7 +7245,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall D
@@ -7252,7 +7254,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall E
@@ -7261,7 +7263,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall F
@@ -7270,7 +7272,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall G
@@ -7279,7 +7281,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall H
@@ -7288,7 +7290,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall I
@@ -7297,7 +7299,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall J
@@ -7306,7 +7308,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall K
@@ -7315,7 +7317,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall L
@@ -7324,7 +7326,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall M
@@ -7333,7 +7335,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall N
@@ -7342,7 +7344,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall O
@@ -7351,7 +7353,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall P
@@ -7360,7 +7362,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall Q
@@ -7369,7 +7371,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall R
@@ -7378,7 +7380,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall S
@@ -7387,7 +7389,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall T
@@ -7396,7 +7398,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall U
@@ -7405,7 +7407,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall V
@@ -7414,7 +7416,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall W
@@ -7423,7 +7425,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall X
@@ -7432,7 +7434,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall Y
@@ -7441,7 +7443,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:dark wall Z
@@ -7450,7 +7452,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:brazier on the wall
 desc:.
 
 name:dark wall ~
@@ -7459,7 +7461,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:dark wall `
@@ -7468,7 +7470,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:lamp on the wall
 desc:.
 
 
@@ -7482,7 +7484,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall 1 emtpy window
@@ -7491,7 +7493,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:emtpy window
 desc:.
 
 name:big white wall 2 barred window
@@ -7500,7 +7502,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:barred window
 desc:.
 
 name:big white wall 3 window
@@ -7509,7 +7511,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall 4 door
@@ -7518,7 +7520,7 @@ priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:big white wall 5
@@ -7527,7 +7529,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:column walls
 desc:.
 
 name:big white wall 6
@@ -7536,7 +7538,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:statue in the wall
 desc:.
 
 name:big white wall 7
@@ -7545,10 +7547,11 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fountain in the wall
 desc:.
 
 # windows further on
+
 
 name:big white wall 8
 graphics:#:w
@@ -7556,7 +7559,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall 9
@@ -7565,7 +7568,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall a
@@ -7574,7 +7577,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall b
@@ -7583,7 +7586,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall c
@@ -7592,7 +7595,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall d
@@ -7601,7 +7604,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall e
@@ -7610,7 +7613,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall f
@@ -7619,7 +7622,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall g
@@ -7628,7 +7631,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall h
@@ -7637,7 +7640,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall i
@@ -7646,7 +7649,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall j
@@ -7655,7 +7658,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall k
@@ -7664,7 +7667,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall l
@@ -7673,7 +7676,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall m
@@ -7682,7 +7685,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall n
@@ -7691,7 +7694,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall o
@@ -7700,7 +7703,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall p
@@ -7709,7 +7712,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall q
@@ -7718,7 +7721,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall r
@@ -7727,7 +7730,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall s
@@ -7736,7 +7739,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall t
@@ -7745,7 +7748,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall u
@@ -7754,7 +7757,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big white wall v
@@ -7763,7 +7766,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 
@@ -7778,7 +7781,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 name:big white wall x
@@ -7787,7 +7790,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 #fireplace
@@ -7797,8 +7800,9 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
+
 
 name:big white wall z
 graphics:#:w
@@ -7806,7 +7810,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall A
@@ -7815,7 +7819,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall B
@@ -7824,7 +7828,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall C
@@ -7833,7 +7837,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall D
@@ -7842,7 +7846,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall E
@@ -7851,7 +7855,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall F
@@ -7860,7 +7864,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall G
@@ -7869,7 +7873,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall H
@@ -7878,7 +7882,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall I
@@ -7887,7 +7891,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall J
@@ -7896,7 +7900,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall K
@@ -7905,7 +7909,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall L
@@ -7914,7 +7918,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall M
@@ -7923,7 +7927,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall N
@@ -7932,7 +7936,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall O
@@ -7941,7 +7945,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall P
@@ -7950,7 +7954,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall Q
@@ -7959,7 +7963,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall R
@@ -7968,7 +7972,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall S
@@ -7977,7 +7981,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall T
@@ -7986,7 +7990,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall U
@@ -7995,7 +7999,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall V
@@ -8004,7 +8008,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall W
@@ -8013,7 +8017,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall X
@@ -8022,7 +8026,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall Y
@@ -8031,7 +8035,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big white wall Z
@@ -8040,7 +8044,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:brazier on the wall
 desc:.
 
 name:big white wall ~
@@ -8049,7 +8053,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:big white wall `
@@ -8058,7 +8062,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:lamp on the wall
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -8071,7 +8075,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall 1
@@ -8080,7 +8084,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:old wall
 desc:.
 
 name:big dark wall 2 window
@@ -8089,7 +8093,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall 3 empty window
@@ -8098,7 +8102,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:empty window
 desc:.
 
 name:big dark wall 4 barred window
@@ -8107,7 +8111,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:barred window
 desc:.
 
 name:big dark wall 5 door
@@ -8116,7 +8120,7 @@ priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:big dark wall 6 doorway
@@ -8124,7 +8128,7 @@ graphics:+:'
 priority:25
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:.
+short-desc:doorway
 desc:.
 
 name:big dark wall 7 door
@@ -8133,7 +8137,7 @@ priority:25
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:big dark wall 8 doorway
@@ -8141,7 +8145,7 @@ graphics:+:'
 priority:25
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:.
+short-desc:doorway
 desc:.
 
 # removing passable and project for ruins as player got inside of walls
@@ -8152,7 +8156,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:old entrance
 desc:.
 
 name:big dark wall a low entrance
@@ -8161,7 +8165,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:old low entrance
 desc:.
 
 name:big dark wall b window
@@ -8170,7 +8174,7 @@ priority:25
 flags:QUARTZ | WALL | ROCK | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:old window
 desc:.
 
 name:big dark wall c
@@ -8179,7 +8183,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:statue in the wall
 desc:.
 
 name:big dark wall d
@@ -8188,7 +8192,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fontain in the wall
 desc:.
 
 name:big dark wall e
@@ -8197,8 +8201,11 @@ priority:18
 flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall columns
 desc:.
+
+### WINDOWS further:
+
 
 name:big dark wall f
 graphics:#:s
@@ -8206,7 +8213,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall g
@@ -8215,7 +8222,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall h
@@ -8224,7 +8231,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall i
@@ -8233,7 +8240,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall j
@@ -8242,7 +8249,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall k
@@ -8251,7 +8258,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall l
@@ -8260,7 +8267,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall m
@@ -8269,7 +8276,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall n
@@ -8278,7 +8285,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall o
@@ -8287,7 +8294,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall p
@@ -8296,7 +8303,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall q
@@ -8305,7 +8312,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall r
@@ -8314,7 +8321,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall s
@@ -8323,7 +8330,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall t
@@ -8332,7 +8339,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall u
@@ -8341,7 +8348,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:big dark wall v
@@ -8350,7 +8357,7 @@ priority:18
 flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -8363,7 +8370,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 name:big dark wall x
@@ -8372,7 +8379,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 #fireplace
@@ -8382,8 +8389,9 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
+
 
 name:big dark wall z
 graphics:#:s
@@ -8391,7 +8399,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall A
@@ -8400,7 +8408,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall B
@@ -8409,7 +8417,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall C
@@ -8418,7 +8426,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall D
@@ -8427,7 +8435,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall E
@@ -8436,7 +8444,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall F
@@ -8445,7 +8453,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall G
@@ -8454,7 +8462,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall H
@@ -8463,7 +8471,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall I
@@ -8472,7 +8480,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall J
@@ -8481,7 +8489,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall K
@@ -8490,7 +8498,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall L
@@ -8499,7 +8507,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall M
@@ -8508,7 +8516,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall N
@@ -8517,7 +8525,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall O
@@ -8526,7 +8534,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall P
@@ -8535,7 +8543,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall Q
@@ -8544,7 +8552,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall R
@@ -8553,7 +8561,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall S
@@ -8562,7 +8570,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall T
@@ -8571,7 +8579,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall U
@@ -8580,7 +8588,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall V
@@ -8589,7 +8597,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall W
@@ -8598,7 +8606,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall X
@@ -8607,7 +8615,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall Y
@@ -8616,7 +8624,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:big dark wall Z
@@ -8625,7 +8633,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:brazier on the wall
 desc:.
 
 name:big dark wall ~
@@ -8634,7 +8642,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:big dark wall `
@@ -8643,7 +8651,7 @@ priority:18
 flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:lamp on the wall
 desc:.
 
 
@@ -8657,7 +8665,7 @@ priority:25
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall 1 window
@@ -8666,7 +8674,7 @@ priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall 2 empty window
@@ -8675,7 +8683,7 @@ priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:empty window
 desc:.
 
 name:brick wall 3 barred window
@@ -8684,7 +8692,7 @@ priority:25
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:barred window
 desc:.
 
 name:brick wall 4 door
@@ -8693,7 +8701,7 @@ priority:25
 flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:door
 desc:.
 
 name:brick wall 5
@@ -8702,7 +8710,7 @@ priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:statue in the wall
 desc:.
 
 name:brick wall 6
@@ -8711,7 +8719,7 @@ priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fountain in the wall
 desc:.
 
 name:brick wall 7
@@ -8720,7 +8728,7 @@ priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:column walls
 desc:.
 
 #door
@@ -8731,7 +8739,7 @@ priority:18
 flags:PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:closed door
 desc:.
 
 name:brick wall 9
@@ -8740,8 +8748,12 @@ priority:18
 flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:entrance
 desc:.
+
+## windows further
+
+
 
 name:brick wall a
 graphics:#:W
@@ -8749,7 +8761,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:narrow window
 desc:.
 
 name:brick wall b
@@ -8758,7 +8770,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall c
@@ -8767,7 +8779,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall d
@@ -8776,7 +8788,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall e
@@ -8785,7 +8797,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall f
@@ -8794,7 +8806,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall g
@@ -8803,7 +8815,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall h
@@ -8812,7 +8824,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall i
@@ -8821,7 +8833,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall j
@@ -8830,7 +8842,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall k
@@ -8839,7 +8851,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall l
@@ -8848,7 +8860,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall m
@@ -8857,7 +8869,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall n
@@ -8866,7 +8878,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall o
@@ -8875,7 +8887,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall p
@@ -8884,7 +8896,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall q
@@ -8893,7 +8905,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall r
@@ -8902,7 +8914,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall s
@@ -8911,7 +8923,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall t
@@ -8920,7 +8932,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall u
@@ -8929,7 +8941,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 name:brick wall v
@@ -8938,7 +8950,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:window
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -8951,7 +8963,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 name:brick wall x
@@ -8960,7 +8972,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:bulletin board
 desc:.
 
 #fireplace
@@ -8970,8 +8982,9 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:fireplace
 desc:.
+
 
 name:brick wall z
 graphics:#:W
@@ -8979,7 +8992,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall A
@@ -8988,7 +9001,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall B
@@ -8997,7 +9010,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall C
@@ -9006,7 +9019,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall D
@@ -9015,7 +9028,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall E
@@ -9024,7 +9037,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall F
@@ -9033,7 +9046,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall G
@@ -9042,7 +9055,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall H
@@ -9051,7 +9064,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall I
@@ -9060,7 +9073,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall J
@@ -9069,7 +9082,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall K
@@ -9078,7 +9091,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall L
@@ -9087,7 +9100,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall M
@@ -9096,7 +9109,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall N
@@ -9105,7 +9118,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall O
@@ -9114,7 +9127,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall P
@@ -9123,7 +9136,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall Q
@@ -9132,7 +9145,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall R
@@ -9141,7 +9154,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall S
@@ -9150,7 +9163,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall T
@@ -9159,7 +9172,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall U
@@ -9168,7 +9181,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall V
@@ -9177,7 +9190,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall W
@@ -9186,7 +9199,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall X
@@ -9195,7 +9208,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall Y
@@ -9204,7 +9217,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
 name:brick wall Z
@@ -9213,7 +9226,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:brazier on the wall
 desc:.
 
 name:brick wall ~
@@ -9222,7 +9235,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:candle on the wall
 desc:.
 
 name:brick wall `
@@ -9231,7 +9244,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
-short-desc:.
+short-desc:lamp on the wall
 desc:.
 
 
@@ -9463,7 +9476,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 #roof
@@ -9729,7 +9742,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 # roof
@@ -9995,7 +10008,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 #roof 3x
@@ -10232,7 +10245,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 name:coast_ V
@@ -10240,7 +10253,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 name:coast_ W
@@ -10248,7 +10261,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:bridge
 desc:.
 
 name:coast_ X
@@ -10256,7 +10269,7 @@ graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:waterside
+short-desc:.
 desc:.
 
 name:coast_ Y
@@ -10456,13 +10469,13 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 short-desc:road
 desc:.
 
-# tower 4x
+# tower 3x
 name:road k
 graphics:#:r
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road l
@@ -10470,7 +10483,7 @@ graphics:#:r
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road m
@@ -10478,7 +10491,7 @@ graphics:.:s
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road n
@@ -10486,7 +10499,7 @@ graphics:.:s
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:.
 desc:.
 
 #wall 3x
@@ -10719,13 +10732,13 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 short-desc:road
 desc:.
 
-# towers 4x
+# towers 3x
 name:road Q
 graphics:#:w
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road R
@@ -10733,7 +10746,7 @@ graphics:#:w
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road S
@@ -10741,7 +10754,7 @@ graphics:.:s
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:tower
 desc:.
 
 name:road T
@@ -10749,7 +10762,7 @@ graphics:.:s
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW
 ################################################################################
-short-desc:road
+short-desc:.
 desc:.
 #walls 3x
 name:road U
@@ -10956,7 +10969,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ h
@@ -10964,7 +10977,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ i
@@ -10972,7 +10985,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ j
@@ -10980,7 +10993,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 #mount end
 
@@ -10990,7 +11003,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ l
@@ -10998,7 +11011,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ m
@@ -11006,7 +11019,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ n
@@ -11014,7 +11027,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 #walls 3x
@@ -11222,7 +11235,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ N
@@ -11230,7 +11243,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ O
@@ -11238,7 +11251,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 
 name:road_ P
@@ -11246,7 +11259,7 @@ graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:road
+short-desc:very high mountain
 desc:.
 #mount end
 
@@ -11256,7 +11269,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ R
@@ -11264,7 +11277,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ S
@@ -11272,7 +11285,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ T
@@ -11280,7 +11293,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:road
+short-desc:statue
 desc:.
 
 name:road_ U
@@ -11356,7 +11369,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 1
@@ -11364,7 +11377,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 2
@@ -11372,7 +11385,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 3
@@ -11380,7 +11393,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 4
@@ -11388,7 +11401,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 5
@@ -11396,7 +11409,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 6
@@ -11404,7 +11417,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 7
@@ -11412,7 +11425,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:C9 earth 8
@@ -11420,7 +11433,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth 9
@@ -11428,7 +11441,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth a
@@ -11436,7 +11449,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth b
@@ -11444,7 +11457,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth c
@@ -11452,7 +11465,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth d
@@ -11460,7 +11473,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth e
@@ -11468,7 +11481,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth f
@@ -11476,7 +11489,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:C9 earth g
@@ -11484,7 +11497,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:C9 earth h
@@ -11492,7 +11505,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:C9 earth i
@@ -11500,7 +11513,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:C9 earth j
@@ -11508,7 +11521,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:C9 earth k
@@ -11617,7 +11630,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth x
@@ -11625,7 +11638,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth y
@@ -11633,7 +11646,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth z
@@ -11641,7 +11654,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth A
@@ -11649,7 +11662,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth B
@@ -11657,7 +11670,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth C
@@ -11665,7 +11678,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth D
@@ -11673,7 +11686,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CA earth E
@@ -11681,7 +11694,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth F
@@ -11689,7 +11702,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth G
@@ -11697,7 +11710,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth H
@@ -11705,7 +11718,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth I
@@ -11713,7 +11726,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth J
@@ -11721,7 +11734,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth K
@@ -11729,7 +11742,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CA earth L
@@ -11737,8 +11750,8 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
-desc:.
+short-desc:sandy dirt
+desc:road
 
 name:CA earth M
 graphics:.:s
@@ -11746,7 +11759,7 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
-desc:.
+desc:road
 
 name:CA earth N
 graphics:.:s
@@ -11754,7 +11767,7 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
-desc:.
+desc:road
 
 name:CA earth O
 graphics:.:s
@@ -11762,7 +11775,7 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
-desc:.
+desc:road
 
 name:CA earth P
 graphics:.:s
@@ -11878,7 +11891,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 1
@@ -11886,7 +11899,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 2
@@ -11894,7 +11907,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 3
@@ -11902,7 +11915,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 4
@@ -11910,7 +11923,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 5
@@ -11918,7 +11931,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 6
@@ -11926,7 +11939,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 7
@@ -11934,7 +11947,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CB earth_ 8
@@ -11942,7 +11955,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ 9
@@ -11950,7 +11963,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ a
@@ -11958,7 +11971,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ b
@@ -11966,7 +11979,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ c
@@ -11974,7 +11987,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ d
@@ -11982,7 +11995,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ e
@@ -11990,7 +12003,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ f
@@ -11998,7 +12011,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CB earth_ g
@@ -12006,7 +12019,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CB earth_ h
@@ -12014,7 +12027,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CB earth_ i
@@ -12022,7 +12035,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CB earth_ j
@@ -12030,7 +12043,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CB earth_ k
@@ -12139,7 +12152,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ x
@@ -12147,7 +12160,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ y
@@ -12155,7 +12168,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ z
@@ -12163,7 +12176,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ A
@@ -12171,7 +12184,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ B
@@ -12179,7 +12192,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ C
@@ -12187,7 +12200,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ D
@@ -12195,7 +12208,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:grassy dirt
 desc:.
 
 name:CC earth_ E
@@ -12203,7 +12216,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ F
@@ -12211,7 +12224,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ G
@@ -12219,7 +12232,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ H
@@ -12227,7 +12240,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ I
@@ -12235,7 +12248,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ J
@@ -12243,7 +12256,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ K
@@ -12251,7 +12264,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ L
@@ -12259,7 +12272,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:sandy dirt
 desc:.
 
 name:CC earth_ M
@@ -12267,7 +12280,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CC earth_ N
@@ -12275,7 +12288,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CC earth_ O
@@ -12283,7 +12296,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CC earth_ P
@@ -12291,7 +12304,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:road
 desc:.
 
 name:CC earth_ Q
@@ -12400,7 +12413,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 1
@@ -12408,7 +12421,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 2
@@ -12416,7 +12429,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 3
@@ -12424,7 +12437,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 4
@@ -12432,7 +12445,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 5
@@ -12440,7 +12453,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 6
@@ -12448,7 +12461,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CD water 7
@@ -12464,7 +12477,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12476,7 +12489,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12488,7 +12501,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12500,7 +12513,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12512,7 +12525,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12524,7 +12537,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12536,7 +12549,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12548,7 +12561,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12693,7 +12706,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water x
@@ -12701,7 +12714,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water y
@@ -12709,7 +12722,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water z
@@ -12717,7 +12730,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water A
@@ -12725,7 +12738,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water B
@@ -12733,7 +12746,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water C
@@ -12741,7 +12754,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CE water D
@@ -12757,7 +12770,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12769,7 +12782,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12781,7 +12794,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12793,7 +12806,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12805,7 +12818,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12817,7 +12830,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12829,7 +12842,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12841,7 +12854,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -12987,7 +13000,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 1
@@ -12995,7 +13008,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 2
@@ -13003,7 +13016,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 3
@@ -13011,7 +13024,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 4
@@ -13019,7 +13032,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 5
@@ -13027,7 +13040,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 6
@@ -13035,7 +13048,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:CF water_ 7
@@ -13051,7 +13064,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13064,7 +13077,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13077,7 +13090,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13089,7 +13102,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13101,7 +13114,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13113,7 +13126,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13125,7 +13138,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13137,7 +13150,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13283,7 +13296,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ x
@@ -13291,7 +13304,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ y
@@ -13299,7 +13312,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ z
@@ -13307,7 +13320,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ A
@@ -13315,7 +13328,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ B
@@ -13323,7 +13336,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ C
@@ -13331,7 +13344,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:.
+short-desc:waterside
 desc:.
 
 name:D0 water_ D
@@ -13347,7 +13360,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13359,7 +13372,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13371,7 +13384,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13383,7 +13396,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13395,7 +13408,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13407,7 +13420,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13419,7 +13432,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -13431,7 +13444,7 @@ graphics:.:B
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:.
+short-desc:water
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -16423,13 +16436,14 @@ desc:.
 # DD wood wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:DD wood wall 0
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 1
@@ -16438,7 +16452,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 2
@@ -16447,7 +16461,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 3
@@ -16456,7 +16470,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 4
@@ -16465,7 +16479,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 5
@@ -16474,7 +16488,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 6
@@ -16483,7 +16497,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 7
@@ -16492,7 +16506,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 8
@@ -16501,7 +16515,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall 9
@@ -16510,7 +16524,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall a
@@ -16519,7 +16533,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall b
@@ -16528,7 +16542,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall c
@@ -16537,7 +16551,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall d
@@ -16546,7 +16560,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall e
@@ -16555,7 +16569,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall f
@@ -16564,7 +16578,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall g
@@ -16573,7 +16587,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall h
@@ -16582,7 +16596,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall i
@@ -16591,7 +16605,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall j
@@ -16600,7 +16614,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall k
@@ -16609,7 +16623,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall l
@@ -16618,7 +16632,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall m
@@ -16627,7 +16641,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall n
@@ -16636,7 +16650,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall o
@@ -16645,7 +16659,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall p
@@ -16654,7 +16668,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall q
@@ -16663,7 +16677,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall r
@@ -16672,7 +16686,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall s
@@ -16681,7 +16695,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall t
@@ -16690,7 +16704,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall u
@@ -16699,7 +16713,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DD wood wall v
@@ -16708,7 +16722,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -16722,7 +16736,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall x
@@ -16731,7 +16745,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall y
@@ -16740,7 +16754,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall z
@@ -16749,7 +16763,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall A
@@ -16758,7 +16772,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall B
@@ -16767,7 +16781,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall C
@@ -16776,7 +16790,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall D
@@ -16785,7 +16799,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall E
@@ -16794,7 +16808,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall F
@@ -16803,7 +16817,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall G
@@ -16812,7 +16826,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall H
@@ -16821,7 +16835,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall I
@@ -16830,7 +16844,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall J
@@ -16839,7 +16853,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall K
@@ -16848,7 +16862,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall L
@@ -16857,7 +16871,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall M
@@ -16866,7 +16880,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall N
@@ -16875,7 +16889,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall O
@@ -16884,7 +16898,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall P
@@ -16893,7 +16907,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall Q
@@ -16902,7 +16916,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall R
@@ -16911,7 +16925,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall S
@@ -16920,7 +16934,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall T
@@ -16929,7 +16943,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall U
@@ -16938,7 +16952,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall V
@@ -16947,7 +16961,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall W
@@ -16956,7 +16970,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall X
@@ -16965,7 +16979,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall Y
@@ -16974,7 +16988,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall Z
@@ -16983,7 +16997,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall ~
@@ -16992,7 +17006,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DE wood wall `
@@ -17001,7 +17015,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:wall
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -17015,7 +17029,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 1
@@ -17024,7 +17038,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 2
@@ -17033,7 +17047,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 3
@@ -17042,7 +17056,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 4
@@ -17051,7 +17065,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 5
@@ -17060,7 +17074,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 6
@@ -17069,7 +17083,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 7
@@ -17078,7 +17092,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 8
@@ -17087,7 +17101,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone 9
@@ -17096,7 +17110,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone a
@@ -17105,7 +17119,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone b
@@ -17114,7 +17128,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone c
@@ -17123,7 +17137,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone d
@@ -17132,7 +17146,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone e
@@ -17141,7 +17155,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone f
@@ -17150,7 +17164,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone g
@@ -17159,7 +17173,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone h
@@ -17168,7 +17182,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone i
@@ -17177,7 +17191,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone j
@@ -17186,7 +17200,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone k
@@ -17195,7 +17209,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone l
@@ -17204,7 +17218,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone m
@@ -17213,7 +17227,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone n
@@ -17222,7 +17236,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone o
@@ -17231,7 +17245,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone p
@@ -17240,7 +17254,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone q
@@ -17249,7 +17263,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone r
@@ -17258,7 +17272,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone s
@@ -17267,7 +17281,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone t
@@ -17276,7 +17290,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone u
@@ -17285,7 +17299,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:DF dark stone v
@@ -17294,7 +17308,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -17308,7 +17322,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone x
@@ -17317,7 +17331,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone y
@@ -17326,7 +17340,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone z
@@ -17335,7 +17349,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone A
@@ -17344,7 +17358,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone B
@@ -17353,7 +17367,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone C
@@ -17362,7 +17376,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone D
@@ -17371,7 +17385,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone E
@@ -17380,7 +17394,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone F
@@ -17389,7 +17403,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone G
@@ -17398,7 +17412,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone H
@@ -17407,7 +17421,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone I
@@ -17416,7 +17430,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone J
@@ -17425,7 +17439,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone K
@@ -17434,7 +17448,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone L
@@ -17443,7 +17457,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone M
@@ -17452,7 +17466,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone N
@@ -17461,7 +17475,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone O
@@ -17470,7 +17484,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone P
@@ -17479,7 +17493,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone Q
@@ -17488,7 +17502,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone R
@@ -17497,7 +17511,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone S
@@ -17506,7 +17520,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone T
@@ -17515,7 +17529,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone U
@@ -17524,7 +17538,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone V
@@ -17533,7 +17547,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone W
@@ -17542,7 +17556,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone X
@@ -17551,7 +17565,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone Y
@@ -17560,7 +17574,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone Z
@@ -17569,7 +17583,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone ~
@@ -17578,7 +17592,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E0 dark stone `
@@ -17587,7 +17601,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -17601,7 +17615,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 1
@@ -17610,7 +17624,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 2
@@ -17619,7 +17633,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 3
@@ -17628,7 +17642,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 4
@@ -17637,7 +17651,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 5
@@ -17646,7 +17660,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 6
@@ -17655,7 +17669,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 7
@@ -17664,7 +17678,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 8
@@ -17673,7 +17687,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white 9
@@ -17682,7 +17696,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white a
@@ -17691,7 +17705,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white b
@@ -17700,7 +17714,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white c
@@ -17709,7 +17723,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white d
@@ -17718,7 +17732,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white e
@@ -17727,7 +17741,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white f
@@ -17736,7 +17750,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white g
@@ -17745,7 +17759,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white h
@@ -17754,7 +17768,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white i
@@ -17763,7 +17777,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white j
@@ -17772,7 +17786,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white k
@@ -17781,7 +17795,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white l
@@ -17790,7 +17804,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white m
@@ -17799,7 +17813,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white n
@@ -17808,7 +17822,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white o
@@ -17817,7 +17831,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white p
@@ -17826,7 +17840,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white q
@@ -17835,7 +17849,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white r
@@ -17844,7 +17858,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white s
@@ -17853,7 +17867,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white t
@@ -17862,7 +17876,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white u
@@ -17871,7 +17885,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E1 big white v
@@ -17880,7 +17894,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -17894,7 +17908,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white x
@@ -17903,7 +17917,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white y
@@ -17912,7 +17926,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white z
@@ -17921,7 +17935,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white A
@@ -17930,7 +17944,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white B
@@ -17939,7 +17953,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white C
@@ -17948,7 +17962,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white D
@@ -17957,7 +17971,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white E
@@ -17966,7 +17980,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white F
@@ -17975,7 +17989,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white G
@@ -17984,7 +17998,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white H
@@ -17993,7 +18007,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white I
@@ -18002,7 +18016,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white J
@@ -18011,7 +18025,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white K
@@ -18020,7 +18034,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white L
@@ -18029,7 +18043,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white M
@@ -18038,7 +18052,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white N
@@ -18047,7 +18061,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white O
@@ -18056,7 +18070,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white P
@@ -18065,7 +18079,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white Q
@@ -18074,7 +18088,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white R
@@ -18083,7 +18097,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white S
@@ -18092,7 +18106,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white T
@@ -18101,7 +18115,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white U
@@ -18110,7 +18124,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white V
@@ -18119,7 +18133,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white W
@@ -18128,7 +18142,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white X
@@ -18137,7 +18151,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white Y
@@ -18146,7 +18160,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white Z
@@ -18155,7 +18169,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white ~
@@ -18164,7 +18178,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E2 big white `
@@ -18173,7 +18187,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -18187,7 +18201,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 1
@@ -18196,7 +18210,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 2
@@ -18205,7 +18219,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 3
@@ -18214,7 +18228,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 4
@@ -18223,7 +18237,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 5
@@ -18232,7 +18246,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 6
@@ -18241,7 +18255,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 7
@@ -18250,7 +18264,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 8
@@ -18259,7 +18273,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark 9
@@ -18268,7 +18282,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark a
@@ -18277,7 +18291,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark b
@@ -18286,7 +18300,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark c
@@ -18295,7 +18309,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark d
@@ -18304,7 +18318,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark e
@@ -18313,7 +18327,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark f
@@ -18322,7 +18336,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark g
@@ -18331,7 +18345,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark h
@@ -18340,7 +18354,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark i
@@ -18349,7 +18363,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark j
@@ -18358,7 +18372,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark k
@@ -18367,7 +18381,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark l
@@ -18376,7 +18390,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark m
@@ -18385,7 +18399,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark n
@@ -18394,7 +18408,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark o
@@ -18403,7 +18417,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark p
@@ -18412,7 +18426,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark q
@@ -18421,7 +18435,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark r
@@ -18430,7 +18444,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark s
@@ -18439,7 +18453,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark t
@@ -18448,7 +18462,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark u
@@ -18457,7 +18471,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E3 big dark v
@@ -18466,7 +18480,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -18480,7 +18494,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark x
@@ -18489,7 +18503,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark y
@@ -18498,7 +18512,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark z
@@ -18507,7 +18521,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark A
@@ -18516,7 +18530,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark B
@@ -18525,7 +18539,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark C
@@ -18534,7 +18548,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark D
@@ -18543,7 +18557,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark E
@@ -18552,7 +18566,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark F
@@ -18561,7 +18575,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark G
@@ -18570,7 +18584,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark H
@@ -18579,7 +18593,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark I
@@ -18588,7 +18602,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark J
@@ -18597,7 +18611,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark K
@@ -18606,7 +18620,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark L
@@ -18615,7 +18629,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark M
@@ -18624,7 +18638,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark N
@@ -18633,7 +18647,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark O
@@ -18642,7 +18656,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark P
@@ -18651,7 +18665,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark Q
@@ -18660,7 +18674,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark R
@@ -18669,7 +18683,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark S
@@ -18678,7 +18692,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark T
@@ -18687,7 +18701,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark U
@@ -18696,7 +18710,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark V
@@ -18705,7 +18719,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark W
@@ -18714,7 +18728,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark X
@@ -18723,7 +18737,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark Y
@@ -18732,7 +18746,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark Z
@@ -18741,7 +18755,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark ~
@@ -18750,7 +18764,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E4 big dark `
@@ -18759,7 +18773,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -18773,7 +18787,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 1
@@ -18782,7 +18796,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 2
@@ -18791,7 +18805,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 3
@@ -18800,7 +18814,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 4
@@ -18809,7 +18823,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 5
@@ -18818,7 +18832,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 6
@@ -18827,7 +18841,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 7
@@ -18836,7 +18850,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 8
@@ -18845,7 +18859,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone 9
@@ -18854,7 +18868,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone a
@@ -18863,7 +18877,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone b
@@ -18872,7 +18886,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone c
@@ -18881,7 +18895,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone d
@@ -18890,7 +18904,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone e
@@ -18899,7 +18913,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone f
@@ -18908,7 +18922,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone g
@@ -18917,7 +18931,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone h
@@ -18926,7 +18940,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone i
@@ -18935,7 +18949,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone j
@@ -18944,7 +18958,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone k
@@ -18953,7 +18967,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone l
@@ -18962,7 +18976,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone m
@@ -18971,7 +18985,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone n
@@ -18980,7 +18994,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone o
@@ -18989,7 +19003,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone p
@@ -18998,7 +19012,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone q
@@ -19007,7 +19021,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone r
@@ -19016,7 +19030,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone s
@@ -19025,7 +19039,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone t
@@ -19034,7 +19048,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone u
@@ -19043,7 +19057,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E5 white stone v
@@ -19052,7 +19066,7 @@ priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 
@@ -19066,7 +19080,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone x
@@ -19075,7 +19089,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone y
@@ -19084,7 +19098,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone z
@@ -19093,7 +19107,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone A
@@ -19102,7 +19116,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone B
@@ -19111,7 +19125,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone C
@@ -19120,7 +19134,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone D
@@ -19129,7 +19143,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone E
@@ -19138,7 +19152,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone F
@@ -19147,7 +19161,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone G
@@ -19156,7 +19170,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone H
@@ -19165,7 +19179,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone I
@@ -19174,7 +19188,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone J
@@ -19183,7 +19197,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone K
@@ -19192,7 +19206,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone L
@@ -19201,7 +19215,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone M
@@ -19210,7 +19224,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone N
@@ -19219,7 +19233,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone O
@@ -19228,7 +19242,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone P
@@ -19237,7 +19251,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone Q
@@ -19246,7 +19260,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone R
@@ -19255,7 +19269,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone S
@@ -19264,7 +19278,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone T
@@ -19273,7 +19287,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone U
@@ -19282,7 +19296,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone V
@@ -19291,7 +19305,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone W
@@ -19300,7 +19314,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone X
@@ -19309,7 +19323,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone Y
@@ -19318,7 +19332,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone Z
@@ -19327,7 +19341,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone ~
@@ -19336,7 +19350,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 name:E6 white stone `
@@ -19345,7 +19359,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
-short-desc:.
+short-desc:wall
 desc:.
 
 

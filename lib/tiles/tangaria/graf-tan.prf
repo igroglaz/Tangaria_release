@@ -8349,6 +8349,7 @@ feat:coast o:torch:0xC1:0xE0
 feat:coast p:torch:0xC1:0xE1
 feat:coast q:torch:0xC1:0xE2
 feat:coast r:torch:0xC1:0xE3
+########### last is bridge
 
 # coast
 feat:coast o:los:0xC1:0xE4
@@ -8554,6 +8555,7 @@ feat:coast U:torch:0xC2:0xE0
 feat:coast V:torch:0xC2:0xE1
 feat:coast W:torch:0xC2:0xE2
 feat:coast X:torch:0xC2:0xE3
+########### last is bridge
 
 # coast
 feat:coast U:los:0xC2:0xE4
@@ -8758,6 +8760,7 @@ feat:coast_ o:torch:0xC3:0xE0
 feat:coast_ p:torch:0xC3:0xE1
 feat:coast_ q:torch:0xC3:0xE2
 feat:coast_ r:torch:0xC3:0xE3
+########### last is bridge
 
 # coast_
 feat:coast_ o:los:0xC3:0xE4
@@ -8956,7 +8959,9 @@ feat:coast_ R:dark:0xC4:0xDD
 feat:coast_ S:dark:0xC4:0xDE
 feat:coast_ T:dark:0xC4:0xDF
 
-########################## desert
+########################## desert !!
+
+########################## bridge (except X)
 
 # coast_
 feat:coast_ U:torch:0xC4:0xE0
@@ -8981,6 +8986,8 @@ feat:coast_ U:dark:0xC4:0xEC
 feat:coast_ V:dark:0xC4:0xED
 feat:coast_ W:dark:0xC4:0xEE
 feat:coast_ X:dark:0xC4:0xEF
+
+########################## bridge !!!
 
 # coast_
 feat:coast_ Y:torch:0xC4:0xF0
@@ -9130,7 +9137,7 @@ feat:road h:dark:0xC5:0xCD
 feat:road i:dark:0xC5:0xCE
 feat:road j:dark:0xC5:0xCF
 
-# towers 4x
+# towers 3x
 feat:road k:torch:0xC5:0xD0
 feat:road l:torch:0xC5:0xD1
 feat:road m:torch:0xC5:0xD2
@@ -9326,7 +9333,7 @@ feat:road N:dark:0xC6:0xCD
 feat:road O:dark:0xC6:0xCE
 feat:road P:dark:0xC6:0xCF
 
-# tower 4x
+# tower 3x
 feat:road Q:torch:0xC6:0xD0
 feat:road R:torch:0xC6:0xD1
 feat:road S:torch:0xC6:0xD2
@@ -9522,6 +9529,7 @@ feat:road_ h:dark:0xC7:0xCD
 feat:road_ i:dark:0xC7:0xCE
 feat:road_ j:dark:0xC7:0xCF
 
+#statues 4x
 # road_
 feat:road_ k:torch:0xC7:0xD0
 feat:road_ l:torch:0xC7:0xD1
@@ -9694,6 +9702,8 @@ feat:road_ J:dark:0xC8:0xBD
 feat:road_ K:dark:0xC8:0xBE
 feat:road_ L:dark:0xC8:0xBF
 
+#very high mountain
+
 # road_
 feat:road_ M:torch:0xC8:0xC0
 feat:road_ N:torch:0xC8:0xC1
@@ -9717,6 +9727,8 @@ feat:road_ M:dark:0xC8:0xCC
 feat:road_ N:dark:0xC8:0xCD
 feat:road_ O:dark:0xC8:0xCE
 feat:road_ P:dark:0xC8:0xCF
+
+# very high mountain !!!
 
 # road_
 feat:road_ Q:torch:0xC8:0xD0
@@ -9794,6 +9806,8 @@ feat:road_ `:dark:0xC8:0xFF
 # C9 earth
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+### dirt n sand
+
 # C9 earth
 feat:C9 earth 0:torch:0xC9:0x80
 feat:C9 earth 1:torch:0xC9:0x81
@@ -9841,6 +9855,10 @@ feat:C9 earth 4:dark:0xC9:0x9C
 feat:C9 earth 5:dark:0xC9:0x9D
 feat:C9 earth 6:dark:0xC9:0x9E
 feat:C9 earth 7:dark:0xC9:0x9F
+
+### ! grass n dirt
+
+### dirt n sand
 
 # C9 earth
 feat:C9 earth 8:torch:0xC9:0xA0
@@ -9890,6 +9908,10 @@ feat:C9 earth d:dark:0xC9:0xBD
 feat:C9 earth e:dark:0xC9:0xBE
 feat:C9 earth f:dark:0xC9:0xBF
 
+### ! dirt n sand
+
+### roads
+
 # C9 earth
 feat:C9 earth g:torch:0xC9:0xC0
 feat:C9 earth h:torch:0xC9:0xC1
@@ -9913,6 +9935,8 @@ feat:C9 earth g:dark:0xC9:0xCC
 feat:C9 earth h:dark:0xC9:0xCD
 feat:C9 earth i:dark:0xC9:0xCE
 feat:C9 earth j:dark:0xC9:0xCF
+
+### roads !!!
 
 # C9 earth
 feat:C9 earth k:torch:0xC9:0xD0
