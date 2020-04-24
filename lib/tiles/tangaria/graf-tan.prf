@@ -8264,6 +8264,8 @@ feat:coast 9:dark:0xC1:0xAD
 feat:coast a:dark:0xC1:0xAE
 feat:coast b:dark:0xC1:0xAF
 
+########################## desert to grass with river
+
 # coast
 feat:coast c:torch:0xC1:0xB0
 feat:coast d:torch:0xC1:0xB1
@@ -8287,6 +8289,8 @@ feat:coast c:dark:0xC1:0xBC
 feat:coast d:dark:0xC1:0xBD
 feat:coast e:dark:0xC1:0xBE
 feat:coast f:dark:0xC1:0xBF
+
+########################## !END! desert to grass with river
 
 # coast
 feat:coast g:torch:0xC1:0xC0
@@ -8312,6 +8316,8 @@ feat:coast h:dark:0xC1:0xCD
 feat:coast i:dark:0xC1:0xCE
 feat:coast j:dark:0xC1:0xCF
 
+########################## desert
+
 # coast
 feat:coast k:torch:0xC1:0xD0
 feat:coast l:torch:0xC1:0xD1
@@ -8335,6 +8341,8 @@ feat:coast k:dark:0xC1:0xDC
 feat:coast l:dark:0xC1:0xDD
 feat:coast m:dark:0xC1:0xDE
 feat:coast n:dark:0xC1:0xDF
+
+########################## desert !!!
 
 ########### roof
 feat:coast o:torch:0xC1:0xE0
@@ -8461,6 +8469,8 @@ feat:coast F:dark:0xC2:0xAD
 feat:coast G:dark:0xC2:0xAE
 feat:coast H:dark:0xC2:0xAF
 
+########################## desert to grass with river
+
 # coast
 feat:coast I:torch:0xC2:0xB0
 feat:coast J:torch:0xC2:0xB1
@@ -8484,6 +8494,8 @@ feat:coast I:dark:0xC2:0xBC
 feat:coast J:dark:0xC2:0xBD
 feat:coast K:dark:0xC2:0xBE
 feat:coast L:dark:0xC2:0xBF
+
+########################## !END desert to grass with river
 
 # coast
 feat:coast M:torch:0xC2:0xC0
@@ -8509,6 +8521,8 @@ feat:coast N:dark:0xC2:0xCD
 feat:coast O:dark:0xC2:0xCE
 feat:coast P:dark:0xC2:0xCF
 
+########################## desert
+
 # coast
 feat:coast Q:torch:0xC2:0xD0
 feat:coast R:torch:0xC2:0xD1
@@ -8532,6 +8546,8 @@ feat:coast Q:dark:0xC2:0xDC
 feat:coast R:dark:0xC2:0xDD
 feat:coast S:dark:0xC2:0xDE
 feat:coast T:dark:0xC2:0xDF
+
+########################## desert !!!
 
 # coast
 feat:coast U:torch:0xC2:0xE0
@@ -8657,6 +8673,8 @@ feat:coast_ 9:dark:0xC3:0xAD
 feat:coast_ a:dark:0xC3:0xAE
 feat:coast_ b:dark:0xC3:0xAF
 
+########################## desert to grass with river
+
 # coast_
 feat:coast_ c:torch:0xC3:0xB0
 feat:coast_ d:torch:0xC3:0xB1
@@ -8680,6 +8698,8 @@ feat:coast_ c:dark:0xC3:0xBC
 feat:coast_ d:dark:0xC3:0xBD
 feat:coast_ e:dark:0xC3:0xBE
 feat:coast_ f:dark:0xC3:0xBF
+
+########################## !END desert to grass with river
 
 # coast_
 feat:coast_ g:torch:0xC3:0xC0
@@ -8705,6 +8725,8 @@ feat:coast_ h:dark:0xC3:0xCD
 feat:coast_ i:dark:0xC3:0xCE
 feat:coast_ j:dark:0xC3:0xCF
 
+########################## desert
+
 # coast_
 feat:coast_ k:torch:0xC3:0xD0
 feat:coast_ l:torch:0xC3:0xD1
@@ -8728,6 +8750,8 @@ feat:coast_ k:dark:0xC3:0xDC
 feat:coast_ l:dark:0xC3:0xDD
 feat:coast_ m:dark:0xC3:0xDE
 feat:coast_ n:dark:0xC3:0xDF
+
+########################## desert
 
 # coast_
 feat:coast_ o:torch:0xC3:0xE0
@@ -8854,6 +8878,8 @@ feat:coast_ F:dark:0xC4:0xAD
 feat:coast_ G:dark:0xC4:0xAE
 feat:coast_ H:dark:0xC4:0xAF
 
+########################## desert to grass with river
+
 # coast_
 feat:coast_ I:torch:0xC4:0xB0
 feat:coast_ J:torch:0xC4:0xB1
@@ -8877,6 +8903,8 @@ feat:coast_ I:dark:0xC4:0xBC
 feat:coast_ J:dark:0xC4:0xBD
 feat:coast_ K:dark:0xC4:0xBE
 feat:coast_ L:dark:0xC4:0xBF
+
+########################## !END desert to grass with river
 
 # coast_
 feat:coast_ M:torch:0xC4:0xC0
@@ -8902,6 +8930,8 @@ feat:coast_ N:dark:0xC4:0xCD
 feat:coast_ O:dark:0xC4:0xCE
 feat:coast_ P:dark:0xC4:0xCF
 
+########################## desert
+
 # coast_
 feat:coast_ Q:torch:0xC4:0xD0
 feat:coast_ R:torch:0xC4:0xD1
@@ -8925,6 +8955,8 @@ feat:coast_ Q:dark:0xC4:0xDC
 feat:coast_ R:dark:0xC4:0xDD
 feat:coast_ S:dark:0xC4:0xDE
 feat:coast_ T:dark:0xC4:0xDF
+
+########################## desert
 
 # coast_
 feat:coast_ U:torch:0xC4:0xE0
@@ -11569,6 +11601,7 @@ feat:D2 chair C:lit:0xD2:0x9A
 feat:D2 chair C:dark:0xD2:0x9B
 
 # D2 chair D 
+#bench
 feat:D2 chair D:torch:0xD2:0x9C
 feat:D2 chair D:los:0xD2:0x9D
 feat:D2 chair D:lit:0xD2:0x9E
@@ -11844,6 +11877,7 @@ feat:D3 cabinet j:lit:0xD3:0xCE
 feat:D3 cabinet j:dark:0xD3:0xCF
 
 # D3 cabinet k 
+#temple stand
 feat:D3 cabinet k:torch:0xD3:0xD0
 feat:D3 cabinet k:los:0xD3:0xD1
 feat:D3 cabinet k:lit:0xD3:0xD2
