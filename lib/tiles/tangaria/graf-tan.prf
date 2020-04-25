@@ -5189,6 +5189,7 @@ feat:floor p bridge:lit:0xB1:0xE6
 feat:floor p bridge:dark:0xB1:0xE7
 
 # floor q soil
+# coarse dirt
 feat:floor q soil:torch:0xB1:0xE8
 feat:floor q soil:los:0xB1:0xE9
 feat:floor q soil:lit:0xB1:0xEA
