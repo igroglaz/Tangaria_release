@@ -3750,8 +3750,298 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# AA - grass objects
+# AA wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
+name:AA wall w
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall x
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall y
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall z
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall A
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall B
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall C
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall D
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall E
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall F
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall G
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall H
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall I
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall J
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall K
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall L
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall M
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall N
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall O
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall P
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall Q
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall R
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall S
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall T
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall U
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall V
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall W
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall X
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall Y
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall Z
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall ~
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
+name:AA wall `
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:wall
+desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AB - grass mountains

@@ -449,6 +449,43 @@ feat:`:z:obj_grass2 ~
 feat:`:`:obj_grass2 `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AA wall
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:&:w:AA wall w
+feat:&:x:AA wall x
+feat:&:y:AA wall y
+feat:&:z:AA wall z
+feat:&:A:AA wall A
+feat:&:B:AA wall B
+feat:&:C:AA wall C
+feat:&:D:AA wall D
+feat:&:E:AA wall E
+feat:&:F:AA wall F
+feat:&:G:AA wall G
+feat:&:H:AA wall H
+feat:&:I:AA wall I
+feat:&:J:AA wall J
+feat:&:K:AA wall K
+feat:&:L:AA wall L
+feat:&:M:AA wall M
+feat:&:N:AA wall N
+feat:&:O:AA wall O
+feat:&:P:AA wall P
+feat:&:Q:AA wall Q
+feat:&:R:AA wall R
+feat:&:S:AA wall S
+feat:&:T:AA wall T
+feat:&:U:AA wall U
+feat:&:V:AA wall V
+feat:&:W:AA wall W
+feat:&:X:AA wall X
+feat:&:Y:AA wall Y
+feat:&:Z:AA wall Z
+feat:&:~:AA wall ~
+feat:&:`:AA wall `
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AB - grass mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
