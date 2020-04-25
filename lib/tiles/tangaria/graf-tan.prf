@@ -8989,6 +8989,8 @@ feat:coast_ X:dark:0xC4:0xEF
 
 ########################## bridge !!!
 
+# stone fence
+
 # coast_
 feat:coast_ Y:torch:0xC4:0xF0
 feat:coast_ Z:torch:0xC4:0xF1
@@ -9012,6 +9014,8 @@ feat:coast_ Y:dark:0xC4:0xFC
 feat:coast_ Z:dark:0xC4:0xFD
 feat:coast_ ~:dark:0xC4:0xFE
 feat:coast_ `:dark:0xC4:0xFF
+
+# stone fence !!!
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # C5 - road
@@ -17401,6 +17405,7 @@ feat:F3 shallow water e:los:0xF3:0xB9
 feat:F3 shallow water e:lit:0xF3:0xBA
 feat:F3 shallow water e:dark:0xF3:0xBB
 
+#passable rubble
 # F3 shallow water f 
 feat:F3 shallow water f:torch:0xF3:0xBC
 feat:F3 shallow water f:los:0xF3:0xBD
