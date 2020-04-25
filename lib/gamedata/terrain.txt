@@ -8938,19 +8938,19 @@ desc:.
 name:brick wall u
 graphics:#:W
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:window
+short-desc:picture of favorite horse
 desc:.
 
 name:brick wall v
 graphics:#:W
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:window
+short-desc:picture of red flowers
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
