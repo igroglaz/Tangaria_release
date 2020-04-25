@@ -962,6 +962,154 @@ desc:Looks like this wall is not so real.
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! in the middle of other shops
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 96 - walls                            0x96:0xBC - web ... next:
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
+name:96 wall M
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall N
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall O
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall P
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall Q
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall R
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall S
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall T
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall U
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall V
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall W
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall X
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall Y
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall Z
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall ~
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:96 wall `
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

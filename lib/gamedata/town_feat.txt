@@ -10,7 +10,7 @@
 
 ###############
 
-#     % - left 'v - `'
+#     % w -> L (empty)
 
 ###############
 
@@ -56,6 +56,26 @@ feat:^:^:mountain
 feat:x:x:safe floor
 feat:~:~:safe floor
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 96 - walls                            0x96:0xBC - web ... next:
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:%:M:96 wall M
+feat:%:N:96 wall N
+feat:%:O:96 wall O
+feat:%:P:96 wall P
+feat:%:Q:96 wall Q
+feat:%:R:96 wall R
+feat:%:S:96 wall S
+feat:%:T:96 wall T
+feat:%:U:96 wall U
+feat:%:V:96 wall V
+feat:%:W:96 wall W
+feat:%:X:96 wall X
+feat:%:Y:96 wall Y
+feat:%:Z:96 wall Z
+feat:%:~:96 wall ~
+feat:%:`:96 wall `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 9E NPC
