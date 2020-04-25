@@ -6529,11 +6529,11 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid X
-graphics:~:B
+graphics:~:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6541,11 +6541,11 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid Y
-graphics:~:B
+graphics:~:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6553,11 +6553,11 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid Z
-graphics:~:B
+graphics:~:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6565,11 +6565,11 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid ~
-graphics:~:B
+graphics:~:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -6577,11 +6577,11 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid `
-graphics:~:B
+graphics:~:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
