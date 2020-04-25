@@ -4889,6 +4889,19 @@ charges:2+d2
 effect:RESTORE_MANA
 effect:RESTORE_STAT:INT
 
+name:Door Creation
+graphics:_:d
+type:staff
+level:70
+weight:50
+cost:0
+alloc:1:70 to 100
+attack:1d2:0:0
+armor:0:0
+charges:2+d2
+effect:TIMED_INC_NO_RES:IMAGE
+dice:5+5d5
+effect:TOUCH:MAKE_DOOR:1
 
 ##### Rods #####
 

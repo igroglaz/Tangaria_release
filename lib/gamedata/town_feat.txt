@@ -146,6 +146,43 @@ feat:T:z:tree ~
 feat:T:`:tree `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A3 - severs
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+feat:%:0:A3 severs 0
+feat:%:1:A3 severs 1
+feat:%:2:A3 severs 2
+feat:%:3:A3 severs 3
+feat:%:4:A3 severs 4
+feat:%:5:A3 severs 5
+feat:%:6:A3 severs 6
+feat:%:7:A3 severs 7
+feat:%:8:A3 severs 8
+feat:%:9:A3 severs 9
+feat:%:a:A3 severs a
+feat:%:b:A3 severs b
+feat:%:c:A3 severs c
+feat:%:d:A3 severs d
+feat:%:e:A3 severs e
+feat:%:f:A3 severs f
+feat:%:g:A3 severs g
+feat:%:h:A3 severs h
+feat:%:i:A3 severs i
+feat:%:j:A3 severs j
+feat:%:k:A3 severs k
+feat:%:l:A3 severs l
+feat:%:m:A3 severs m
+feat:%:n:A3 severs n
+feat:%:o:A3 severs o
+feat:%:p:A3 severs p
+feat:%:q:A3 severs q
+feat:%:r:A3 severs r
+feat:%:s:A3 severs s
+feat:%:t:A3 severs t
+feat:%:u:A3 severs u
+feat:%:v:A3 severs v
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A4 - flowers
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 

@@ -1553,8 +1553,296 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# A3 - tree
+# A3 - severs
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:A3 severs 0
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 1
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 2
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 3
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 4
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 5
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 6
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 7
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 8
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs 9
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs a
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs b
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs c
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs d
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs e
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs f
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs g
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs h
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs i
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs j
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs k
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs l
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs m
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs n
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs o
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs p
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs q
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs r
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs s
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs t
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs u
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:A3 severs v
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A4 - flowers
