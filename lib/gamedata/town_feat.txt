@@ -78,6 +78,44 @@ feat:%:~:96 wall ~
 feat:%:`:96 wall `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 98 wall
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:&:0:98 wall 0
+feat:&:1:98 wall 1
+feat:&:2:98 wall 2
+feat:&:3:98 wall 3
+feat:&:4:98 wall 4
+feat:&:5:98 wall 5
+feat:&:6:98 wall 6
+feat:&:7:98 wall 7
+feat:&:8:98 wall 8
+feat:&:9:98 wall 9
+feat:&:a:98 wall a
+feat:&:b:98 wall b
+feat:&:c:98 wall c
+feat:&:d:98 wall d
+feat:&:e:98 wall e
+feat:&:f:98 wall f
+feat:&:g:98 wall g
+feat:&:h:98 wall h
+feat:&:i:98 wall i
+feat:&:j:98 wall j
+feat:&:k:98 wall k
+feat:&:l:98 wall l
+feat:&:m:98 wall m
+feat:&:n:98 wall n
+feat:&:o:98 wall o
+feat:&:p:98 wall p
+feat:&:q:98 wall q
+feat:&:r:98 wall r
+feat:&:s:98 wall s
+feat:&:t:98 wall t
+feat:&:u:98 wall u
+feat:&:v:98 wall v
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 9E NPC
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
