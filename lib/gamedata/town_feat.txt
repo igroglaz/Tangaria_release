@@ -2877,8 +2877,41 @@ feat:B:v:ED dirt v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EE B
+# EE dirt
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:B:w:EE dirt w
+feat:B:x:EE dirt x
+feat:B:y:EE dirt y
+feat:B:z:EE dirt z
+feat:B:A:EE dirt A
+feat:B:B:EE dirt B
+feat:B:C:EE dirt C
+feat:B:D:EE dirt D
+feat:B:E:EE dirt E
+feat:B:F:EE dirt F
+feat:B:G:EE dirt G
+feat:B:H:EE dirt H
+feat:B:I:EE dirt I
+feat:B:J:EE dirt J
+feat:B:K:EE dirt K
+feat:B:L:EE dirt L
+feat:B:M:EE dirt M
+feat:B:N:EE dirt N
+feat:B:O:EE dirt O
+feat:B:P:EE dirt P
+feat:B:Q:EE dirt Q
+feat:B:R:EE dirt R
+feat:B:S:EE dirt S
+feat:B:T:EE dirt T
+feat:B:U:EE dirt U
+feat:B:V:EE dirt V
+feat:B:W:EE dirt W
+feat:B:X:EE dirt X
+feat:B:Y:EE dirt Y
+feat:B:Z:EE dirt Z
+feat:B:~:EE dirt ~
+feat:B:`:EE dirt `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # EF snow C

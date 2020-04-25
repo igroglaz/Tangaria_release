@@ -21373,6 +21373,231 @@ desc:.
 # EE dirt
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+name:EE dirt w
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt x
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt A
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt B
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt C
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt D
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt E
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt F
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt G
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt H
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt I
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt J
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt K
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt L
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt M
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt N
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt O
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt P
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt Q
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt R
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt S
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt T
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt U
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt V
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt W
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt X
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt Y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt Z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt ~
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+name:EE dirt `
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:dirt
+desc:.
+
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # EF snow
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
