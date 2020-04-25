@@ -8,6 +8,13 @@
 # to distinguish different terrain types that are using the same symbol.
 
 
+###############
+
+#     % - left 'v - `'
+
+###############
+
+
 # fake blank feature
 
 feat: : :unknown grid
@@ -2719,8 +2726,41 @@ feat:Z:v:E9 desert v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EA Z CAPITAL
+# EA sand
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:Z:w:EA sand w
+feat:Z:x:EA sand x
+feat:Z:y:EA sand y
+feat:Z:z:EA sand z
+feat:Z:A:EA sand A
+feat:Z:B:EA sand B
+feat:Z:C:EA sand C
+feat:Z:D:EA sand D
+feat:Z:E:EA sand E
+feat:Z:F:EA sand F
+feat:Z:G:EA sand G
+feat:Z:H:EA sand H
+feat:Z:I:EA sand I
+feat:Z:J:EA sand J
+feat:Z:K:EA sand K
+feat:Z:L:EA sand L
+feat:Z:M:EA sand M
+feat:Z:N:EA sand N
+feat:Z:O:EA sand O
+feat:Z:P:EA sand P
+feat:Z:Q:EA sand Q
+feat:Z:R:EA sand R
+feat:Z:S:EA sand S
+feat:Z:T:EA sand T
+feat:Z:U:EA sand U
+feat:Z:V:EA sand V
+feat:Z:W:EA sand W
+feat:Z:X:EA sand X
+feat:Z:Y:EA sand Y
+feat:Z:Z:EA sand Z
+feat:Z:~:EA sand ~
+feat:Z:`:EA sand `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # EB dirt A

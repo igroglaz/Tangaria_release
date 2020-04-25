@@ -20372,6 +20372,230 @@ desc:.
 # EA 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+name:EA sand w
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand x
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand A
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand B
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand C
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand D
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand E
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand F
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand G
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand H
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand I
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand J
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand K
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand L
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand M
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand N
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand O
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand P
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand Q
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand R
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand S
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand T
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand U
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand V
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand W
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand X
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand Y
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand Z
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand ~
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
+name:EA sand `
+graphics:.:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+short-desc:sand
+desc:.
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # EB dirt
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
