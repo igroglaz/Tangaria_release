@@ -554,8 +554,70 @@ min-depth:56
 max-depth:65
 max-level:49
 flags:CAVERN | LAVA_RIVER
-floor:packed dirt:7
-floor:ash:3
+#floor:packed dirt:7
+#floor:ash:3
+floor:E5 blood 0:1
+floor:E5 blood 1:1
+floor:E5 blood 2:1
+floor:E5 blood 3:1
+floor:E5 blood 4:1
+floor:E5 blood 5:1
+floor:E5 blood 6:1
+floor:E5 blood 7:1
+floor:E5 blood 8:1
+floor:E5 blood 9:1
+floor:E5 blood a:1
+floor:E5 blood b:1
+floor:E5 blood c:1
+floor:E5 blood d:1
+floor:E5 blood e:1
+floor:E5 blood f:1
+floor:E5 blood g:1
+floor:E5 blood h:1
+floor:E5 blood i:1
+floor:E5 blood j:1
+floor:E5 blood k:1
+floor:E5 blood l:1
+floor:E5 blood m:1
+floor:E5 blood n:1
+floor:E5 blood o:1
+floor:E5 blood p:1
+floor:E5 blood q:1
+floor:E5 blood r:1
+floor:E5 blood s:1
+floor:E5 blood t:1
+floor:E5 blood u:1
+floor:E5 blood v:1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E6 blood X CAPITAL
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+floor:E6 blood w:1
+floor:E6 blood x:1
+floor:E6 blood y:1
+floor:E6 blood z:1
+floor:E6 blood A:1
+floor:E6 blood B:1
+floor:E6 blood C:1
+floor:E6 blood D:1
+floor:E6 blood E:1
+floor:E6 blood F:1
+floor:E6 blood G:1
+floor:E6 blood H:1
+floor:E6 blood I:1
+floor:E6 blood J:1
+floor:E6 blood K:1
+floor:E6 blood L:1
+floor:E6 blood M:1
+floor:E6 blood N:1
+floor:E6 blood O:1
+floor:E6 blood P:1
+floor:E6 blood Q:1
+floor:E6 blood R:1
+floor:E6 blood S:1
+floor:E6 blood T:1
+floor:E6 blood U:1
+floor:E6 blood V:1
+floor:E6 blood W:1
 wall:mountain:5
 rule:100:1
 

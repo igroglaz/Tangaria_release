@@ -15134,397 +15134,397 @@ feat:E4 big dark `:dark:0xE4:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E5 white stone
+# E5 blood
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# E5 white stone 0 
-feat:E5 white stone 0:torch:0xE5:0x80
-feat:E5 white stone 0:los:0xE5:0x81
-feat:E5 white stone 0:lit:0xE5:0x82
-feat:E5 white stone 0:dark:0xE5:0x83
+# E5 blood 0 
+feat:E5 blood 0:torch:0xE5:0x80
+feat:E5 blood 0:los:0xE5:0x81
+feat:E5 blood 0:lit:0xE5:0x82
+feat:E5 blood 0:dark:0xE5:0x83
 
-# E5 white stone 1 
-feat:E5 white stone 1:torch:0xE5:0x84
-feat:E5 white stone 1:los:0xE5:0x85
-feat:E5 white stone 1:lit:0xE5:0x86
-feat:E5 white stone 1:dark:0xE5:0x87
+# E5 blood 1 
+feat:E5 blood 1:torch:0xE5:0x84
+feat:E5 blood 1:los:0xE5:0x85
+feat:E5 blood 1:lit:0xE5:0x86
+feat:E5 blood 1:dark:0xE5:0x87
 
-# E5 white stone 2 
-feat:E5 white stone 2:torch:0xE5:0x88
-feat:E5 white stone 2:los:0xE5:0x89
-feat:E5 white stone 2:lit:0xE5:0x8A
-feat:E5 white stone 2:dark:0xE5:0x8B
+# E5 blood 2 
+feat:E5 blood 2:torch:0xE5:0x88
+feat:E5 blood 2:los:0xE5:0x89
+feat:E5 blood 2:lit:0xE5:0x8A
+feat:E5 blood 2:dark:0xE5:0x8B
 
-# E5 white stone 3 
-feat:E5 white stone 3:torch:0xE5:0x8C
-feat:E5 white stone 3:los:0xE5:0x8D
-feat:E5 white stone 3:lit:0xE5:0x8E
-feat:E5 white stone 3:dark:0xE5:0x8F
+# E5 blood 3 
+feat:E5 blood 3:torch:0xE5:0x8C
+feat:E5 blood 3:los:0xE5:0x8D
+feat:E5 blood 3:lit:0xE5:0x8E
+feat:E5 blood 3:dark:0xE5:0x8F
 
-# E5 white stone 4 
-feat:E5 white stone 4:torch:0xE5:0x90
-feat:E5 white stone 4:los:0xE5:0x91
-feat:E5 white stone 4:lit:0xE5:0x92
-feat:E5 white stone 4:dark:0xE5:0x93
+# E5 blood 4 
+feat:E5 blood 4:torch:0xE5:0x90
+feat:E5 blood 4:los:0xE5:0x91
+feat:E5 blood 4:lit:0xE5:0x92
+feat:E5 blood 4:dark:0xE5:0x93
 
-# E5 white stone 5 
-feat:E5 white stone 5:torch:0xE5:0x94
-feat:E5 white stone 5:los:0xE5:0x95
-feat:E5 white stone 5:lit:0xE5:0x96
-feat:E5 white stone 5:dark:0xE5:0x97
+# E5 blood 5 
+feat:E5 blood 5:torch:0xE5:0x94
+feat:E5 blood 5:los:0xE5:0x95
+feat:E5 blood 5:lit:0xE5:0x96
+feat:E5 blood 5:dark:0xE5:0x97
 
-# E5 white stone 6 
-feat:E5 white stone 6:torch:0xE5:0x98
-feat:E5 white stone 6:los:0xE5:0x99
-feat:E5 white stone 6:lit:0xE5:0x9A
-feat:E5 white stone 6:dark:0xE5:0x9B
+# E5 blood 6 
+feat:E5 blood 6:torch:0xE5:0x98
+feat:E5 blood 6:los:0xE5:0x99
+feat:E5 blood 6:lit:0xE5:0x9A
+feat:E5 blood 6:dark:0xE5:0x9B
 
-# E5 white stone 7 
-feat:E5 white stone 7:torch:0xE5:0x9C
-feat:E5 white stone 7:los:0xE5:0x9D
-feat:E5 white stone 7:lit:0xE5:0x9E
-feat:E5 white stone 7:dark:0xE5:0x9F
+# E5 blood 7 
+feat:E5 blood 7:torch:0xE5:0x9C
+feat:E5 blood 7:los:0xE5:0x9D
+feat:E5 blood 7:lit:0xE5:0x9E
+feat:E5 blood 7:dark:0xE5:0x9F
 
-# E5 white stone 8 
-feat:E5 white stone 8:torch:0xE5:0xA0
-feat:E5 white stone 8:los:0xE5:0xA1
-feat:E5 white stone 8:lit:0xE5:0xA2
-feat:E5 white stone 8:dark:0xE5:0xA3
+# E5 blood 8 
+feat:E5 blood 8:torch:0xE5:0xA0
+feat:E5 blood 8:los:0xE5:0xA1
+feat:E5 blood 8:lit:0xE5:0xA2
+feat:E5 blood 8:dark:0xE5:0xA3
 
-# E5 white stone 9 
-feat:E5 white stone 9:torch:0xE5:0xA4
-feat:E5 white stone 9:los:0xE5:0xA5
-feat:E5 white stone 9:lit:0xE5:0xA6
-feat:E5 white stone 9:dark:0xE5:0xA7
+# E5 blood 9 
+feat:E5 blood 9:torch:0xE5:0xA4
+feat:E5 blood 9:los:0xE5:0xA5
+feat:E5 blood 9:lit:0xE5:0xA6
+feat:E5 blood 9:dark:0xE5:0xA7
 
-# E5 white stone a 
-feat:E5 white stone a:torch:0xE5:0xA8
-feat:E5 white stone a:los:0xE5:0xA9
-feat:E5 white stone a:lit:0xE5:0xAA
-feat:E5 white stone a:dark:0xE5:0xAB
+# E5 blood a 
+feat:E5 blood a:torch:0xE5:0xA8
+feat:E5 blood a:los:0xE5:0xA9
+feat:E5 blood a:lit:0xE5:0xAA
+feat:E5 blood a:dark:0xE5:0xAB
 
-# E5 white stone b 
-feat:E5 white stone b:torch:0xE5:0xAC
-feat:E5 white stone b:los:0xE5:0xAD
-feat:E5 white stone b:lit:0xE5:0xAE
-feat:E5 white stone b:dark:0xE5:0xAF
+# E5 blood b 
+feat:E5 blood b:torch:0xE5:0xAC
+feat:E5 blood b:los:0xE5:0xAD
+feat:E5 blood b:lit:0xE5:0xAE
+feat:E5 blood b:dark:0xE5:0xAF
 
-# E5 white stone c 
-feat:E5 white stone c:torch:0xE5:0xB0
-feat:E5 white stone c:los:0xE5:0xB1
-feat:E5 white stone c:lit:0xE5:0xB2
-feat:E5 white stone c:dark:0xE5:0xB3
+# E5 blood c 
+feat:E5 blood c:torch:0xE5:0xB0
+feat:E5 blood c:los:0xE5:0xB1
+feat:E5 blood c:lit:0xE5:0xB2
+feat:E5 blood c:dark:0xE5:0xB3
 
-# E5 white stone d 
-feat:E5 white stone d:torch:0xE5:0xB4
-feat:E5 white stone d:los:0xE5:0xB5
-feat:E5 white stone d:lit:0xE5:0xB6
-feat:E5 white stone d:dark:0xE5:0xB7
+# E5 blood d 
+feat:E5 blood d:torch:0xE5:0xB4
+feat:E5 blood d:los:0xE5:0xB5
+feat:E5 blood d:lit:0xE5:0xB6
+feat:E5 blood d:dark:0xE5:0xB7
 
-# E5 white stone e 
-feat:E5 white stone e:torch:0xE5:0xB8
-feat:E5 white stone e:los:0xE5:0xB9
-feat:E5 white stone e:lit:0xE5:0xBA
-feat:E5 white stone e:dark:0xE5:0xBB
+# E5 blood e 
+feat:E5 blood e:torch:0xE5:0xB8
+feat:E5 blood e:los:0xE5:0xB9
+feat:E5 blood e:lit:0xE5:0xBA
+feat:E5 blood e:dark:0xE5:0xBB
 
-# E5 white stone f 
-feat:E5 white stone f:torch:0xE5:0xBC
-feat:E5 white stone f:los:0xE5:0xBD
-feat:E5 white stone f:lit:0xE5:0xBE
-feat:E5 white stone f:dark:0xE5:0xBF
+# E5 blood f 
+feat:E5 blood f:torch:0xE5:0xBC
+feat:E5 blood f:los:0xE5:0xBD
+feat:E5 blood f:lit:0xE5:0xBE
+feat:E5 blood f:dark:0xE5:0xBF
 
-# E5 white stone g 
-feat:E5 white stone g:torch:0xE5:0xC0
-feat:E5 white stone g:los:0xE5:0xC1
-feat:E5 white stone g:lit:0xE5:0xC2
-feat:E5 white stone g:dark:0xE5:0xC3
+# E5 blood g 
+feat:E5 blood g:torch:0xE5:0xC0
+feat:E5 blood g:los:0xE5:0xC1
+feat:E5 blood g:lit:0xE5:0xC2
+feat:E5 blood g:dark:0xE5:0xC3
 
-# E5 white stone h 
-feat:E5 white stone h:torch:0xE5:0xC4
-feat:E5 white stone h:los:0xE5:0xC5
-feat:E5 white stone h:lit:0xE5:0xC6
-feat:E5 white stone h:dark:0xE5:0xC7
+# E5 blood h 
+feat:E5 blood h:torch:0xE5:0xC4
+feat:E5 blood h:los:0xE5:0xC5
+feat:E5 blood h:lit:0xE5:0xC6
+feat:E5 blood h:dark:0xE5:0xC7
 
-# E5 white stone i 
-feat:E5 white stone i:torch:0xE5:0xC8
-feat:E5 white stone i:los:0xE5:0xC9
-feat:E5 white stone i:lit:0xE5:0xCA
-feat:E5 white stone i:dark:0xE5:0xCB
+# E5 blood i 
+feat:E5 blood i:torch:0xE5:0xC8
+feat:E5 blood i:los:0xE5:0xC9
+feat:E5 blood i:lit:0xE5:0xCA
+feat:E5 blood i:dark:0xE5:0xCB
 
-# E5 white stone j 
-feat:E5 white stone j:torch:0xE5:0xCC
-feat:E5 white stone j:los:0xE5:0xCD
-feat:E5 white stone j:lit:0xE5:0xCE
-feat:E5 white stone j:dark:0xE5:0xCF
+# E5 blood j 
+feat:E5 blood j:torch:0xE5:0xCC
+feat:E5 blood j:los:0xE5:0xCD
+feat:E5 blood j:lit:0xE5:0xCE
+feat:E5 blood j:dark:0xE5:0xCF
 
-# E5 white stone k 
-feat:E5 white stone k:torch:0xE5:0xD0
-feat:E5 white stone k:los:0xE5:0xD1
-feat:E5 white stone k:lit:0xE5:0xD2
-feat:E5 white stone k:dark:0xE5:0xD3
+# E5 blood k 
+feat:E5 blood k:torch:0xE5:0xD0
+feat:E5 blood k:los:0xE5:0xD1
+feat:E5 blood k:lit:0xE5:0xD2
+feat:E5 blood k:dark:0xE5:0xD3
 
-# E5 white stone l 
-feat:E5 white stone l:torch:0xE5:0xD4
-feat:E5 white stone l:los:0xE5:0xD5
-feat:E5 white stone l:lit:0xE5:0xD6
-feat:E5 white stone l:dark:0xE5:0xD7
+# E5 blood l 
+feat:E5 blood l:torch:0xE5:0xD4
+feat:E5 blood l:los:0xE5:0xD5
+feat:E5 blood l:lit:0xE5:0xD6
+feat:E5 blood l:dark:0xE5:0xD7
 
-# E5 white stone m 
-feat:E5 white stone m:torch:0xE5:0xD8
-feat:E5 white stone m:los:0xE5:0xD9
-feat:E5 white stone m:lit:0xE5:0xDA
-feat:E5 white stone m:dark:0xE5:0xDB
+# E5 blood m 
+feat:E5 blood m:torch:0xE5:0xD8
+feat:E5 blood m:los:0xE5:0xD9
+feat:E5 blood m:lit:0xE5:0xDA
+feat:E5 blood m:dark:0xE5:0xDB
 
-# E5 white stone n 
-feat:E5 white stone n:torch:0xE5:0xDC
-feat:E5 white stone n:los:0xE5:0xDD
-feat:E5 white stone n:lit:0xE5:0xDE
-feat:E5 white stone n:dark:0xE5:0xDF
+# E5 blood n 
+feat:E5 blood n:torch:0xE5:0xDC
+feat:E5 blood n:los:0xE5:0xDD
+feat:E5 blood n:lit:0xE5:0xDE
+feat:E5 blood n:dark:0xE5:0xDF
 
-# E5 white stone o 
-feat:E5 white stone o:torch:0xE5:0xE0
-feat:E5 white stone o:los:0xE5:0xE1
-feat:E5 white stone o:lit:0xE5:0xE2
-feat:E5 white stone o:dark:0xE5:0xE3
+# E5 blood o 
+feat:E5 blood o:torch:0xE5:0xE0
+feat:E5 blood o:los:0xE5:0xE1
+feat:E5 blood o:lit:0xE5:0xE2
+feat:E5 blood o:dark:0xE5:0xE3
 
-# E5 white stone p 
-feat:E5 white stone p:torch:0xE5:0xE4
-feat:E5 white stone p:los:0xE5:0xE5
-feat:E5 white stone p:lit:0xE5:0xE6
-feat:E5 white stone p:dark:0xE5:0xE7
+# E5 blood p 
+feat:E5 blood p:torch:0xE5:0xE4
+feat:E5 blood p:los:0xE5:0xE5
+feat:E5 blood p:lit:0xE5:0xE6
+feat:E5 blood p:dark:0xE5:0xE7
 
-# E5 white stone q 
-feat:E5 white stone q:torch:0xE5:0xE8
-feat:E5 white stone q:los:0xE5:0xE9
-feat:E5 white stone q:lit:0xE5:0xEA
-feat:E5 white stone q:dark:0xE5:0xEB
+# E5 blood q 
+feat:E5 blood q:torch:0xE5:0xE8
+feat:E5 blood q:los:0xE5:0xE9
+feat:E5 blood q:lit:0xE5:0xEA
+feat:E5 blood q:dark:0xE5:0xEB
 
-# E5 white stone r 
-feat:E5 white stone r:torch:0xE5:0xEC
-feat:E5 white stone r:los:0xE5:0xED
-feat:E5 white stone r:lit:0xE5:0xEE
-feat:E5 white stone r:dark:0xE5:0xEF
+# E5 blood r 
+feat:E5 blood r:torch:0xE5:0xEC
+feat:E5 blood r:los:0xE5:0xED
+feat:E5 blood r:lit:0xE5:0xEE
+feat:E5 blood r:dark:0xE5:0xEF
 
-# E5 white stone s 
-feat:E5 white stone s:torch:0xE5:0xF0
-feat:E5 white stone s:los:0xE5:0xF1
-feat:E5 white stone s:lit:0xE5:0xF2
-feat:E5 white stone s:dark:0xE5:0xF3
+# E5 blood s 
+feat:E5 blood s:torch:0xE5:0xF0
+feat:E5 blood s:los:0xE5:0xF1
+feat:E5 blood s:lit:0xE5:0xF2
+feat:E5 blood s:dark:0xE5:0xF3
 
-# E5 white stone t 
-feat:E5 white stone t:torch:0xE5:0xF4
-feat:E5 white stone t:los:0xE5:0xF5
-feat:E5 white stone t:lit:0xE5:0xF6
-feat:E5 white stone t:dark:0xE5:0xF7
+# E5 blood t 
+feat:E5 blood t:torch:0xE5:0xF4
+feat:E5 blood t:los:0xE5:0xF5
+feat:E5 blood t:lit:0xE5:0xF6
+feat:E5 blood t:dark:0xE5:0xF7
 
-# E5 white stone u 
-feat:E5 white stone u:torch:0xE5:0xF8
-feat:E5 white stone u:los:0xE5:0xF9
-feat:E5 white stone u:lit:0xE5:0xFA
-feat:E5 white stone u:dark:0xE5:0xFB
+# E5 blood u 
+feat:E5 blood u:torch:0xE5:0xF8
+feat:E5 blood u:los:0xE5:0xF9
+feat:E5 blood u:lit:0xE5:0xFA
+feat:E5 blood u:dark:0xE5:0xFB
 
-# E5 white stone v 
-feat:E5 white stone v:torch:0xE5:0xFC
-feat:E5 white stone v:los:0xE5:0xFD
-feat:E5 white stone v:lit:0xE5:0xFE
-feat:E5 white stone v:dark:0xE5:0xFF
+# E5 blood v 
+feat:E5 blood v:torch:0xE5:0xFC
+feat:E5 blood v:los:0xE5:0xFD
+feat:E5 blood v:lit:0xE5:0xFE
+feat:E5 blood v:dark:0xE5:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E6 white stone
+# E6 blood
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# E6 white stone w 
-feat:E6 white stone w:torch:0xE6:0x80
-feat:E6 white stone w:los:0xE6:0x81
-feat:E6 white stone w:lit:0xE6:0x82
-feat:E6 white stone w:dark:0xE6:0x83
+# E6 blood w 
+feat:E6 blood w:torch:0xE6:0x80
+feat:E6 blood w:los:0xE6:0x81
+feat:E6 blood w:lit:0xE6:0x82
+feat:E6 blood w:dark:0xE6:0x83
 
-# E6 white stone x 
-feat:E6 white stone x:torch:0xE6:0x84
-feat:E6 white stone x:los:0xE6:0x85
-feat:E6 white stone x:lit:0xE6:0x86
-feat:E6 white stone x:dark:0xE6:0x87
+# E6 blood x 
+feat:E6 blood x:torch:0xE6:0x84
+feat:E6 blood x:los:0xE6:0x85
+feat:E6 blood x:lit:0xE6:0x86
+feat:E6 blood x:dark:0xE6:0x87
 
-# E6 white stone y 
-feat:E6 white stone y:torch:0xE6:0x88
-feat:E6 white stone y:los:0xE6:0x89
-feat:E6 white stone y:lit:0xE6:0x8A
-feat:E6 white stone y:dark:0xE6:0x8B
+# E6 blood y 
+feat:E6 blood y:torch:0xE6:0x88
+feat:E6 blood y:los:0xE6:0x89
+feat:E6 blood y:lit:0xE6:0x8A
+feat:E6 blood y:dark:0xE6:0x8B
 
-# E6 white stone z 
-feat:E6 white stone z:torch:0xE6:0x8C
-feat:E6 white stone z:los:0xE6:0x8D
-feat:E6 white stone z:lit:0xE6:0x8E
-feat:E6 white stone z:dark:0xE6:0x8F
+# E6 blood z 
+feat:E6 blood z:torch:0xE6:0x8C
+feat:E6 blood z:los:0xE6:0x8D
+feat:E6 blood z:lit:0xE6:0x8E
+feat:E6 blood z:dark:0xE6:0x8F
 
-# E6 white stone A 
-feat:E6 white stone A:torch:0xE6:0x90
-feat:E6 white stone A:los:0xE6:0x91
-feat:E6 white stone A:lit:0xE6:0x92
-feat:E6 white stone A:dark:0xE6:0x93
+# E6 blood A 
+feat:E6 blood A:torch:0xE6:0x90
+feat:E6 blood A:los:0xE6:0x91
+feat:E6 blood A:lit:0xE6:0x92
+feat:E6 blood A:dark:0xE6:0x93
 
-# E6 white stone B 
-feat:E6 white stone B:torch:0xE6:0x94
-feat:E6 white stone B:los:0xE6:0x95
-feat:E6 white stone B:lit:0xE6:0x96
-feat:E6 white stone B:dark:0xE6:0x97
+# E6 blood B 
+feat:E6 blood B:torch:0xE6:0x94
+feat:E6 blood B:los:0xE6:0x95
+feat:E6 blood B:lit:0xE6:0x96
+feat:E6 blood B:dark:0xE6:0x97
 
-# E6 white stone C 
-feat:E6 white stone C:torch:0xE6:0x98
-feat:E6 white stone C:los:0xE6:0x99
-feat:E6 white stone C:lit:0xE6:0x9A
-feat:E6 white stone C:dark:0xE6:0x9B
+# E6 blood C 
+feat:E6 blood C:torch:0xE6:0x98
+feat:E6 blood C:los:0xE6:0x99
+feat:E6 blood C:lit:0xE6:0x9A
+feat:E6 blood C:dark:0xE6:0x9B
 
-# E6 white stone D 
-feat:E6 white stone D:torch:0xE6:0x9C
-feat:E6 white stone D:los:0xE6:0x9D
-feat:E6 white stone D:lit:0xE6:0x9E
-feat:E6 white stone D:dark:0xE6:0x9F
+# E6 blood D 
+feat:E6 blood D:torch:0xE6:0x9C
+feat:E6 blood D:los:0xE6:0x9D
+feat:E6 blood D:lit:0xE6:0x9E
+feat:E6 blood D:dark:0xE6:0x9F
 
-# E6 white stone E 
-feat:E6 white stone E:torch:0xE6:0xA0
-feat:E6 white stone E:los:0xE6:0xA1
-feat:E6 white stone E:lit:0xE6:0xA2
-feat:E6 white stone E:dark:0xE6:0xA3
+# E6 blood E 
+feat:E6 blood E:torch:0xE6:0xA0
+feat:E6 blood E:los:0xE6:0xA1
+feat:E6 blood E:lit:0xE6:0xA2
+feat:E6 blood E:dark:0xE6:0xA3
 
-# E6 white stone F 
-feat:E6 white stone F:torch:0xE6:0xA4
-feat:E6 white stone F:los:0xE6:0xA5
-feat:E6 white stone F:lit:0xE6:0xA6
-feat:E6 white stone F:dark:0xE6:0xA7
+# E6 blood F 
+feat:E6 blood F:torch:0xE6:0xA4
+feat:E6 blood F:los:0xE6:0xA5
+feat:E6 blood F:lit:0xE6:0xA6
+feat:E6 blood F:dark:0xE6:0xA7
 
-# E6 white stone G 
-feat:E6 white stone G:torch:0xE6:0xA8
-feat:E6 white stone G:los:0xE6:0xA9
-feat:E6 white stone G:lit:0xE6:0xAA
-feat:E6 white stone G:dark:0xE6:0xAB
+# E6 blood G 
+feat:E6 blood G:torch:0xE6:0xA8
+feat:E6 blood G:los:0xE6:0xA9
+feat:E6 blood G:lit:0xE6:0xAA
+feat:E6 blood G:dark:0xE6:0xAB
 
-# E6 white stone H 
-feat:E6 white stone H:torch:0xE6:0xAC
-feat:E6 white stone H:los:0xE6:0xAD
-feat:E6 white stone H:lit:0xE6:0xAE
-feat:E6 white stone H:dark:0xE6:0xAF
+# E6 blood H 
+feat:E6 blood H:torch:0xE6:0xAC
+feat:E6 blood H:los:0xE6:0xAD
+feat:E6 blood H:lit:0xE6:0xAE
+feat:E6 blood H:dark:0xE6:0xAF
 
-# E6 white stone I 
-feat:E6 white stone I:torch:0xE6:0xB0
-feat:E6 white stone I:los:0xE6:0xB1
-feat:E6 white stone I:lit:0xE6:0xB2
-feat:E6 white stone I:dark:0xE6:0xB3
+# E6 blood I 
+feat:E6 blood I:torch:0xE6:0xB0
+feat:E6 blood I:los:0xE6:0xB1
+feat:E6 blood I:lit:0xE6:0xB2
+feat:E6 blood I:dark:0xE6:0xB3
 
-# E6 white stone J 
-feat:E6 white stone J:torch:0xE6:0xB4
-feat:E6 white stone J:los:0xE6:0xB5
-feat:E6 white stone J:lit:0xE6:0xB6
-feat:E6 white stone J:dark:0xE6:0xB7
+# E6 blood J 
+feat:E6 blood J:torch:0xE6:0xB4
+feat:E6 blood J:los:0xE6:0xB5
+feat:E6 blood J:lit:0xE6:0xB6
+feat:E6 blood J:dark:0xE6:0xB7
 
-# E6 white stone K 
-feat:E6 white stone K:torch:0xE6:0xB8
-feat:E6 white stone K:los:0xE6:0xB9
-feat:E6 white stone K:lit:0xE6:0xBA
-feat:E6 white stone K:dark:0xE6:0xBB
+# E6 blood K 
+feat:E6 blood K:torch:0xE6:0xB8
+feat:E6 blood K:los:0xE6:0xB9
+feat:E6 blood K:lit:0xE6:0xBA
+feat:E6 blood K:dark:0xE6:0xBB
 
-# E6 white stone L 
-feat:E6 white stone L:torch:0xE6:0xBC
-feat:E6 white stone L:los:0xE6:0xBD
-feat:E6 white stone L:lit:0xE6:0xBE
-feat:E6 white stone L:dark:0xE6:0xBF
+# E6 blood L 
+feat:E6 blood L:torch:0xE6:0xBC
+feat:E6 blood L:los:0xE6:0xBD
+feat:E6 blood L:lit:0xE6:0xBE
+feat:E6 blood L:dark:0xE6:0xBF
 
-# E6 white stone M 
-feat:E6 white stone M:torch:0xE6:0xC0
-feat:E6 white stone M:los:0xE6:0xC1
-feat:E6 white stone M:lit:0xE6:0xC2
-feat:E6 white stone M:dark:0xE6:0xC3
+# E6 blood M 
+feat:E6 blood M:torch:0xE6:0xC0
+feat:E6 blood M:los:0xE6:0xC1
+feat:E6 blood M:lit:0xE6:0xC2
+feat:E6 blood M:dark:0xE6:0xC3
 
-# E6 white stone N 
-feat:E6 white stone N:torch:0xE6:0xC4
-feat:E6 white stone N:los:0xE6:0xC5
-feat:E6 white stone N:lit:0xE6:0xC6
-feat:E6 white stone N:dark:0xE6:0xC7
+# E6 blood N 
+feat:E6 blood N:torch:0xE6:0xC4
+feat:E6 blood N:los:0xE6:0xC5
+feat:E6 blood N:lit:0xE6:0xC6
+feat:E6 blood N:dark:0xE6:0xC7
 
-# E6 white stone O 
-feat:E6 white stone O:torch:0xE6:0xC8
-feat:E6 white stone O:los:0xE6:0xC9
-feat:E6 white stone O:lit:0xE6:0xCA
-feat:E6 white stone O:dark:0xE6:0xCB
+# E6 blood O 
+feat:E6 blood O:torch:0xE6:0xC8
+feat:E6 blood O:los:0xE6:0xC9
+feat:E6 blood O:lit:0xE6:0xCA
+feat:E6 blood O:dark:0xE6:0xCB
 
-# E6 white stone P 
-feat:E6 white stone P:torch:0xE6:0xCC
-feat:E6 white stone P:los:0xE6:0xCD
-feat:E6 white stone P:lit:0xE6:0xCE
-feat:E6 white stone P:dark:0xE6:0xCF
+# E6 blood P 
+feat:E6 blood P:torch:0xE6:0xCC
+feat:E6 blood P:los:0xE6:0xCD
+feat:E6 blood P:lit:0xE6:0xCE
+feat:E6 blood P:dark:0xE6:0xCF
 
-# E6 white stone Q 
-feat:E6 white stone Q:torch:0xE6:0xD0
-feat:E6 white stone Q:los:0xE6:0xD1
-feat:E6 white stone Q:lit:0xE6:0xD2
-feat:E6 white stone Q:dark:0xE6:0xD3
+# E6 blood Q 
+feat:E6 blood Q:torch:0xE6:0xD0
+feat:E6 blood Q:los:0xE6:0xD1
+feat:E6 blood Q:lit:0xE6:0xD2
+feat:E6 blood Q:dark:0xE6:0xD3
 
-# E6 white stone R 
-feat:E6 white stone R:torch:0xE6:0xD4
-feat:E6 white stone R:los:0xE6:0xD5
-feat:E6 white stone R:lit:0xE6:0xD6
-feat:E6 white stone R:dark:0xE6:0xD7
+# E6 blood R 
+feat:E6 blood R:torch:0xE6:0xD4
+feat:E6 blood R:los:0xE6:0xD5
+feat:E6 blood R:lit:0xE6:0xD6
+feat:E6 blood R:dark:0xE6:0xD7
 
-# E6 white stone S 
-feat:E6 white stone S:torch:0xE6:0xD8
-feat:E6 white stone S:los:0xE6:0xD9
-feat:E6 white stone S:lit:0xE6:0xDA
-feat:E6 white stone S:dark:0xE6:0xDB
+# E6 blood S 
+feat:E6 blood S:torch:0xE6:0xD8
+feat:E6 blood S:los:0xE6:0xD9
+feat:E6 blood S:lit:0xE6:0xDA
+feat:E6 blood S:dark:0xE6:0xDB
 
-# E6 white stone T 
-feat:E6 white stone T:torch:0xE6:0xDC
-feat:E6 white stone T:los:0xE6:0xDD
-feat:E6 white stone T:lit:0xE6:0xDE
-feat:E6 white stone T:dark:0xE6:0xDF
+# E6 blood T 
+feat:E6 blood T:torch:0xE6:0xDC
+feat:E6 blood T:los:0xE6:0xDD
+feat:E6 blood T:lit:0xE6:0xDE
+feat:E6 blood T:dark:0xE6:0xDF
 
-# E6 white stone U 
-feat:E6 white stone U:torch:0xE6:0xE0
-feat:E6 white stone U:los:0xE6:0xE1
-feat:E6 white stone U:lit:0xE6:0xE2
-feat:E6 white stone U:dark:0xE6:0xE3
+# E6 blood U 
+feat:E6 blood U:torch:0xE6:0xE0
+feat:E6 blood U:los:0xE6:0xE1
+feat:E6 blood U:lit:0xE6:0xE2
+feat:E6 blood U:dark:0xE6:0xE3
 
-# E6 white stone V 
-feat:E6 white stone V:torch:0xE6:0xE4
-feat:E6 white stone V:los:0xE6:0xE5
-feat:E6 white stone V:lit:0xE6:0xE6
-feat:E6 white stone V:dark:0xE6:0xE7
+# E6 blood V 
+feat:E6 blood V:torch:0xE6:0xE4
+feat:E6 blood V:los:0xE6:0xE5
+feat:E6 blood V:lit:0xE6:0xE6
+feat:E6 blood V:dark:0xE6:0xE7
 
-# E6 white stone W 
-feat:E6 white stone W:torch:0xE6:0xE8
-feat:E6 white stone W:los:0xE6:0xE9
-feat:E6 white stone W:lit:0xE6:0xEA
-feat:E6 white stone W:dark:0xE6:0xEB
+# E6 blood W 
+feat:E6 blood W:torch:0xE6:0xE8
+feat:E6 blood W:los:0xE6:0xE9
+feat:E6 blood W:lit:0xE6:0xEA
+feat:E6 blood W:dark:0xE6:0xEB
 
-# E6 white stone X 
-feat:E6 white stone X:torch:0xE6:0xEC
-feat:E6 white stone X:los:0xE6:0xED
-feat:E6 white stone X:lit:0xE6:0xEE
-feat:E6 white stone X:dark:0xE6:0xEF
+# E6 blood X 
+feat:E6 blood X:torch:0xE6:0xEC
+feat:E6 blood X:los:0xE6:0xED
+feat:E6 blood X:lit:0xE6:0xEE
+feat:E6 blood X:dark:0xE6:0xEF
 
-# E6 white stone Y 
-feat:E6 white stone Y:torch:0xE6:0xF0
-feat:E6 white stone Y:los:0xE6:0xF1
-feat:E6 white stone Y:lit:0xE6:0xF2
-feat:E6 white stone Y:dark:0xE6:0xF3
+# E6 blood Y 
+feat:E6 blood Y:torch:0xE6:0xF0
+feat:E6 blood Y:los:0xE6:0xF1
+feat:E6 blood Y:lit:0xE6:0xF2
+feat:E6 blood Y:dark:0xE6:0xF3
 
-# E6 white stone Z 
-feat:E6 white stone Z:torch:0xE6:0xF4
-feat:E6 white stone Z:los:0xE6:0xF5
-feat:E6 white stone Z:lit:0xE6:0xF6
-feat:E6 white stone Z:dark:0xE6:0xF7
+# E6 blood Z 
+feat:E6 blood Z:torch:0xE6:0xF4
+feat:E6 blood Z:los:0xE6:0xF5
+feat:E6 blood Z:lit:0xE6:0xF6
+feat:E6 blood Z:dark:0xE6:0xF7
 
-# E6 white stone ~ 
-feat:E6 white stone ~:torch:0xE6:0xF8
-feat:E6 white stone ~:los:0xE6:0xF9
-feat:E6 white stone ~:lit:0xE6:0xFA
-feat:E6 white stone ~:dark:0xE6:0xFB
+# E6 blood ~ 
+feat:E6 blood ~:torch:0xE6:0xF8
+feat:E6 blood ~:los:0xE6:0xF9
+feat:E6 blood ~:lit:0xE6:0xFA
+feat:E6 blood ~:dark:0xE6:0xFB
 
-# E6 white stone ` 
-feat:E6 white stone `:torch:0xE6:0xFC
-feat:E6 white stone `:los:0xE6:0xFD
-feat:E6 white stone `:lit:0xE6:0xFE
-feat:E6 white stone `:dark:0xE6:0xFF
+# E6 blood ` 
+feat:E6 blood `:torch:0xE6:0xFC
+feat:E6 blood `:los:0xE6:0xFD
+feat:E6 blood `:lit:0xE6:0xFE
+feat:E6 blood `:dark:0xE6:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

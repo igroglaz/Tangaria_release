@@ -18783,592 +18783,528 @@ short-desc:wall
 desc:.
 
 
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E5 white stone
+# E5 blood
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:E5 white stone 0
+name:E5 blood 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 1
+name:E5 blood 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 2
+name:E5 blood 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 3
+name:E5 blood 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 4
+name:E5 blood 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 5
+name:E5 blood 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 6
+name:E5 blood 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 7
+name:E5 blood 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 8
+name:E5 blood 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone 9
+name:E5 blood 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone a
+name:E5 blood a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone b
+name:E5 blood b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone c
+name:E5 blood c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone d
+name:E5 blood d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone e
+name:E5 blood e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone f
+name:E5 blood f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone g
+name:E5 blood g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone h
+name:E5 blood h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone i
+name:E5 blood i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone j
+name:E5 blood j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone k
+name:E5 blood k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone l
+name:E5 blood l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone m
+name:E5 blood m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone n
+name:E5 blood n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone o
+name:E5 blood o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone p
+name:E5 blood p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone q
+name:E5 blood q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone r
+name:E5 blood r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone s
+name:E5 blood s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone t
+name:E5 blood t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone u
+name:E5 blood u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
-name:E5 white stone v
+name:E5 blood v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:window
+short-desc:bloody floor
 desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E6 white stone
+# E6 blood
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:E6 white stone w
+name:E6 blood w
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone x
+name:E6 blood x
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone y
+name:E6 blood y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone z
+name:E6 blood z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone A
+name:E6 blood A
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone B
+name:E6 blood B
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:slimy floor
 desc:.
 
-name:E6 white stone C
+name:E6 blood C
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone D
+name:E6 blood D
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone E
+name:E6 blood E
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone F
+name:E6 blood F
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone G
+name:E6 blood G
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone H
+name:E6 blood H
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone I
+name:E6 blood I
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone J
+name:E6 blood J
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone K
+name:E6 blood K
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone L
+name:E6 blood L
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone M
+name:E6 blood M
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone N
+name:E6 blood N
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone O
+name:E6 blood O
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone P
+name:E6 blood P
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone Q
+name:E6 blood Q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone R
+name:E6 blood R
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone S
+name:E6 blood S
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone T
+name:E6 blood T
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone U
+name:E6 blood U
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone V
+name:E6 blood V
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone W
+name:E6 blood W
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone X
+name:E6 blood X
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone Y
+name:E6 blood Y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone Z
+name:E6 blood Z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone ~
+name:E6 blood ~
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
 
-name:E6 white stone `
+name:E6 blood `
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+short-desc:bloody floor
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E7 desert

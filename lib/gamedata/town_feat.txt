@@ -2491,79 +2491,80 @@ feat:W:`:E4 big dark `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E5 white stone X CAPITAL
+# E5 blood X CAPITAL
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:X:0:E5 white stone 0
-feat:X:1:E5 white stone 1
-feat:X:2:E5 white stone 2
-feat:X:3:E5 white stone 3
-feat:X:4:E5 white stone 4
-feat:X:5:E5 white stone 5
-feat:X:6:E5 white stone 6
-feat:X:7:E5 white stone 7
-feat:X:8:E5 white stone 8
-feat:X:9:E5 white stone 9
-feat:X:a:E5 white stone a
-feat:X:b:E5 white stone b
-feat:X:c:E5 white stone c
-feat:X:d:E5 white stone d
-feat:X:e:E5 white stone e
-feat:X:f:E5 white stone f
-feat:X:g:E5 white stone g
-feat:X:h:E5 white stone h
-feat:X:i:E5 white stone i
-feat:X:j:E5 white stone j
-feat:X:k:E5 white stone k
-feat:X:l:E5 white stone l
-feat:X:m:E5 white stone m
-feat:X:n:E5 white stone n
-feat:X:o:E5 white stone o
-feat:X:p:E5 white stone p
-feat:X:q:E5 white stone q
-feat:X:r:E5 white stone r
-feat:X:s:E5 white stone s
-feat:X:t:E5 white stone t
-feat:X:u:E5 white stone u
-feat:X:v:E5 white stone v
+feat:X:0:E5 blood 0
+feat:X:1:E5 blood 1
+feat:X:2:E5 blood 2
+feat:X:3:E5 blood 3
+feat:X:4:E5 blood 4
+feat:X:5:E5 blood 5
+feat:X:6:E5 blood 6
+feat:X:7:E5 blood 7
+feat:X:8:E5 blood 8
+feat:X:9:E5 blood 9
+feat:X:a:E5 blood a
+feat:X:b:E5 blood b
+feat:X:c:E5 blood c
+feat:X:d:E5 blood d
+feat:X:e:E5 blood e
+feat:X:f:E5 blood f
+feat:X:g:E5 blood g
+feat:X:h:E5 blood h
+feat:X:i:E5 blood i
+feat:X:j:E5 blood j
+feat:X:k:E5 blood k
+feat:X:l:E5 blood l
+feat:X:m:E5 blood m
+feat:X:n:E5 blood n
+feat:X:o:E5 blood o
+feat:X:p:E5 blood p
+feat:X:q:E5 blood q
+feat:X:r:E5 blood r
+feat:X:s:E5 blood s
+feat:X:t:E5 blood t
+feat:X:u:E5 blood u
+feat:X:v:E5 blood v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E6 white stone X CAPITAL
+# E6 blood X CAPITAL
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:X:w:E6 white stone w
-feat:X:x:E6 white stone x
-feat:X:y:E6 white stone y
-feat:X:z:E6 white stone z
-feat:X:A:E6 white stone A
-feat:X:B:E6 white stone B
-feat:X:C:E6 white stone C
-feat:X:D:E6 white stone D
-feat:X:E:E6 white stone E
-feat:X:F:E6 white stone F
-feat:X:G:E6 white stone G
-feat:X:H:E6 white stone H
-feat:X:I:E6 white stone I
-feat:X:J:E6 white stone J
-feat:X:K:E6 white stone K
-feat:X:L:E6 white stone L
-feat:X:M:E6 white stone M
-feat:X:N:E6 white stone N
-feat:X:O:E6 white stone O
-feat:X:P:E6 white stone P
-feat:X:Q:E6 white stone Q
-feat:X:R:E6 white stone R
-feat:X:S:E6 white stone S
-feat:X:T:E6 white stone T
-feat:X:U:E6 white stone U
-feat:X:V:E6 white stone V
-feat:X:W:E6 white stone W
-feat:X:X:E6 white stone X
-feat:X:Y:E6 white stone Y
-feat:X:Z:E6 white stone Z
-feat:X:~:E6 white stone ~
-feat:X:`:E6 white stone `
+feat:X:w:E6 blood w
+feat:X:x:E6 blood x
+feat:X:y:E6 blood y
+feat:X:z:E6 blood z
+feat:X:A:E6 blood A
+feat:X:B:E6 blood B
+feat:X:C:E6 blood C
+feat:X:D:E6 blood D
+feat:X:E:E6 blood E
+feat:X:F:E6 blood F
+feat:X:G:E6 blood G
+feat:X:H:E6 blood H
+feat:X:I:E6 blood I
+feat:X:J:E6 blood J
+feat:X:K:E6 blood K
+feat:X:L:E6 blood L
+feat:X:M:E6 blood M
+feat:X:N:E6 blood N
+feat:X:O:E6 blood O
+feat:X:P:E6 blood P
+feat:X:Q:E6 blood Q
+feat:X:R:E6 blood R
+feat:X:S:E6 blood S
+feat:X:T:E6 blood T
+feat:X:U:E6 blood U
+feat:X:V:E6 blood V
+feat:X:W:E6 blood W
+#end from there
+feat:X:X:E6 blood X
+feat:X:Y:E6 blood Y
+feat:X:Z:E6 blood Z
+feat:X:~:E6 blood ~
+feat:X:`:E6 blood `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
