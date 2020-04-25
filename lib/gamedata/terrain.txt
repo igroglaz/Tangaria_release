@@ -2636,6 +2636,179 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:small tree
 desc:A small tree.
 
+######### continue..
+
+
+name:A5 plants H
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:grass
+desc:.
+
+name:A5 plants I
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:grass
+desc:.
+
+name:A5 plants J
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:grass
+desc:.
+
+name:A5 plants K
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:grass
+desc:.
+
+name:A5 plants L
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:grass
+desc:.
+
+name:A5 plants M
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:small tree
+desc:.
+
+name:A5 plants N
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:fir-tree
+desc:.
+
+name:A5 plants O
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:bush
+desc:.
+
+### empty further
+
+name:A5 plants P
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants Q
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants R
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants S
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants T
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants U
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants V
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants W
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants X
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants Y
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants Z
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants ~
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
+name:A5 plants `
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+################################################################################
+short-desc:.
+desc:.
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A6 - grass objects
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

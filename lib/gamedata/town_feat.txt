@@ -299,6 +299,28 @@ feat:,:D:flower D red
 feat:,:E:flower E blue
 feat:,:F:flower F red
 feat:,:G:flower G small tree
+#continue
+feat:,:H:A5 plants H
+feat:,:I:A5 plants I
+feat:,:J:A5 plants J
+feat:,:K:A5 plants K
+feat:,:L:A5 plants L
+feat:,:M:A5 plants M
+feat:,:N:A5 plants N
+feat:,:O:A5 plants O
+feat:,:P:A5 plants P
+feat:,:Q:A5 plants Q
+feat:,:R:A5 plants R
+feat:,:S:A5 plants S
+feat:,:T:A5 plants T
+feat:,:U:A5 plants U
+feat:,:V:A5 plants V
+feat:,:W:A5 plants W
+feat:,:X:A5 plants X
+feat:,:Y:A5 plants Y
+feat:,:Z:A5 plants Z
+feat:,:~:A5 plants ~
+feat:,:`:A5 plants `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A6 - grass objects
