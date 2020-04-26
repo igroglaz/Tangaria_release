@@ -7840,3 +7840,620 @@ level:0
 weight:5
 cost:99999999
 desc:.
+
+name:When evening in the Shire was grey
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:his footsteps on the Hill were heard
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:before the dawn he went away
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:on journey long without a word
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Advice is a dangerous gift,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:even from the wise to the wise,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and all courses may run ill.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Courage is found in unlikely places.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Do not meddle in the affairs of Wizards...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The choice is yours - to go or wait.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Errr...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Who are you?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Anyway..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*spits*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Need a pony? Twelve silver pennies and its yours!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Off early?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Found some friends at last?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I suppose you know who you've taken up with?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Watch out tonight!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*spits*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I'm training there.. Don't mess around.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:If ever such a tale was told in the South...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Believe not that the blood of Numenor is spent.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:By our valour the East are still restrained..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Barliman is my name.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Barliman Butterbur at your service!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:My granddaughter is in charge right now...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now what does that remind me of?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:There now!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:It's gone again!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:But it'll come back, when I have time to think.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I'm run off my feet..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I'll see what I can do for you..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Here is a nice little parlour!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I hope it will suit.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Excuse me now. I'm that busy.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:No time for talking.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I must be trotting.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:It's hard work for two legs..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:If you want anything, ring the hand bell.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Eat. Me. Hungry.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*blowing his nose*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*burps*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*picking his nose*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Coming! Coming!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*grins*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*winks*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Ring the bell, if you lack anything!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Will you be wanting anything to drink, master?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Shall I show you the bedrooms?
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Supper is getting ready...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*smiles*
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:I saw Gandalf onces...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Gandalf makes so great fireworks!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:My grandfarther was a warrior too!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Once I came to the land of dreams...
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:*sings* Three trolls.. In the forest of mourn..
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+

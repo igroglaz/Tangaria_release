@@ -190,6 +190,29 @@ feat:@:8:Arthur the Archer
 feat:@:9:Old man
 feat:@:a:Boris the Guard
 feat:@:b:Tom Bombadil
+#####
+feat:@:c:Mr. Underhill
+feat:@:d:Gildor
+feat:@:e:Squint-eyed Southerner
+feat:@:f:Bill Ferny
+feat:@:g:Boromir
+feat:@:h:Barliman
+feat:@:i:Torog
+feat:@:j:Nob, a servant
+feat:@:k:Rose
+#
+feat:@:l:NPC l
+feat:@:m:NPC m
+feat:@:n:NPC n
+feat:@:o:NPC o
+feat:@:p:NPC p
+feat:@:q:NPC q
+feat:@:r:NPC r
+feat:@:s:NPC s
+feat:@:t:NPC t
+feat:@:u:NPC u
+feat:@:v:NPC v
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A1 - trees
@@ -3416,6 +3439,29 @@ feat:*:6:end 6 deep water
 feat:*:7:end 7 lava
 feat:*:8:end 8 water mountain
 feat:*:9:end 9 deep water mountain
+#
+feat:*:a:F9 end a
+feat:*:b:F9 end b
+feat:*:c:F9 end c
+feat:*:d:F9 end d
+feat:*:e:F9 end e
+feat:*:f:F9 end f
+feat:*:g:F9 end g
+feat:*:h:F9 end h
+feat:*:i:F9 end i
+feat:*:j:F9 end j
+feat:*:k:F9 end k
+feat:*:l:F9 end l
+feat:*:m:F9 end m
+feat:*:n:F9 end n
+feat:*:o:F9 end o
+feat:*:p:F9 end p
+feat:*:q:F9 end q
+feat:*:r:F9 end r
+feat:*:s:F9 end s
+feat:*:t:F9 end t
+feat:*:u:F9 end u
+feat:*:v:F9 end v
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FA - mountains end top

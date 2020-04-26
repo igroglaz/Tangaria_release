@@ -631,7 +631,6 @@ normal:fortune cookie:Life is tought. I had enought scars on my face.
 normal:fortune cookie:You would understand me one day.
 buy:flask
 
-#town
 store:Tom Bombadil
 owner:5000:Tom Bombadil
 owner:5000:Tom Bombadil
@@ -710,6 +709,263 @@ normal:fortune cookie:Dark door is standing wide; dead hand is broken!
 normal:fortune cookie:Night under Night is flown, and the Gate is open!
 #######################################################################
 normal:fortune cookie:Tom has his house to mind, n Goldbery is waiting!
+buy:flask
+
+store:Mr. Underhill
+owner:5000:Mr. Underhill
+owner:5000:Mr. Underhill
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:When evening in the Shire was grey
+#######################################################################
+normal:fortune cookie:his footsteps on the Hill were heard
+normal:fortune cookie:before the dawn he went away
+normal:fortune cookie:on journey long without a word
+buy:flask
+
+store:Gildor
+owner:5000:Gildor
+owner:5000:Gildor
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:Advice is a dangerous gift,
+always:fortune cookie:even from the wise to the wise,
+always:fortune cookie:and all courses may run ill.
+#######################################################################
+normal:fortune cookie:Courage is found in unlikely places.
+normal:fortune cookie:Do not meddle in the affairs of Wizards...
+normal:fortune cookie:The choice is yours - to go or wait.
+buy:flask
+
+store:Squint-eyed Southerner
+owner:5000:Squint-eyed Southerner
+owner:5000:Squint-eyed Southerner
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:Errr...
+#######################################################################
+normal:fortune cookie:Who are you?
+normal:fortune cookie:Anyway..
+normal:fortune cookie:*spits*
+buy:flask
+
+store:Bill Ferny
+owner:5000:Bill Ferny
+owner:5000:Bill Ferny
+slots:0:5
+turnover:1
+#######################################################################
+always:fortune cookie:Need a pony? Twelve silver pennies and its yours!
+#######################################################################
+normal:fortune cookie:Off early?
+normal:fortune cookie:Found some friends at last?
+normal:fortune cookie:I suppose you know who you've taken up with?
+normal:fortune cookie:Watch out tonight!
+normal:fortune cookie:*spits*
+buy:flask
+
+store:Boromir
+owner:5000:Boromir
+owner:5000:Boromir
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:I'm training there.. Don't mess around.
+#######################################################################
+normal:fortune cookie:If ever such a tale was told in the South...
+normal:fortune cookie:Believe not that the blood of Numenor is spent.
+normal:fortune cookie:By our valour the East are still restrained..
+buy:flask
+
+store:Barliman
+owner:5000:Barliman
+owner:5000:Barliman
+slots:0:13
+turnover:1
+#######################################################################
+always:fortune cookie:Barliman is my name.
+always:fortune cookie:Barliman Butterbur at your service!
+always:fortune cookie:My granddaughter is in charge right now...
+#######################################################################
+normal:fortune cookie:Now what does that remind me of?
+normal:fortune cookie:There now!
+normal:fortune cookie:It's gone again!
+normal:fortune cookie:But it'll come back, when I have time to think.
+normal:fortune cookie:I'm run off my feet..
+normal:fortune cookie:I'll see what I can do for you..
+normal:fortune cookie:Here is a nice little parlour!
+normal:fortune cookie:I hope it will suit.
+normal:fortune cookie:Excuse me now. I'm that busy.
+normal:fortune cookie:No time for talking.
+normal:fortune cookie:I must be trotting.
+normal:fortune cookie:It's hard work for two legs..
+normal:fortune cookie:If you want anything, ring the hand bell.
+buy:flask
+
+store:Torog
+owner:5000:Torog
+owner:5000:Torog
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:Eat. Me. Hungry.
+#######################################################################
+normal:fortune cookie:*blowing his nose*
+normal:fortune cookie:*burps*
+normal:fortune cookie:*picking his nose*
+buy:flask
+
+store:Nob, a servant
+owner:5000:Nob, a servant
+owner:5000:Nob, a servant
+slots:0:6
+turnover:1
+#######################################################################
+always:fortune cookie:Coming! Coming!
+#######################################################################
+normal:fortune cookie:*grins*
+normal:fortune cookie:*winks*
+normal:fortune cookie:Ring the bell, if you lack anything!
+normal:fortune cookie:Will you be wanting anything to drink, master?
+normal:fortune cookie:Shall I show you the bedrooms?
+normal:fortune cookie:Supper is getting ready...
+buy:flask
+
+store:Rose
+owner:5000:Rose
+owner:5000:Rose
+slots:0:3
+turnover:1
+#######################################################################
+always:fortune cookie:*smiles*
+#######################################################################
+normal:fortune cookie:I saw Gandalf onces...
+normal:fortune cookie:Gandalf makes so great fireworks!
+normal:fortune cookie:My grandfarther was a warrior too!
+buy:flask
+
+store:NPC l
+owner:5000:NPC l
+owner:5000:NPC l
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC m
+owner:5000:NPC m
+owner:5000:NPC m
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC n
+owner:5000:NPC n
+owner:5000:NPC n
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC o
+owner:5000:NPC o
+owner:5000:NPC o
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC p
+owner:5000:NPC p
+owner:5000:NPC p
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC q
+owner:5000:NPC q
+owner:5000:NPC q
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC r
+owner:5000:NPC r
+owner:5000:NPC r
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC s
+owner:5000:NPC s
+owner:5000:NPC s
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC t
+owner:5000:NPC t
+owner:5000:NPC t
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC u
+owner:5000:NPC u
+owner:5000:NPC u
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
+buy:flask
+
+store:NPC v
+owner:5000:NPC v
+owner:5000:NPC v
+slots:0:1
+turnover:1
+#######################################################################
+always:fortune cookie:*sings* Once I came to the land of dreams...
+#######################################################################
+normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
 buy:flask
 
 # Black Market - x3 price no stock given but we still need slot/turnover info

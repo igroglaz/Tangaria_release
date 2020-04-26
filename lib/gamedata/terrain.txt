@@ -300,6 +300,191 @@ info:19:0
 short-desc:wrinkled and ruddy face, bright blue eyes and a bristling brown beard
 desc:.
 
+name:Mr. Underhill
+graphics:h:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:20:0
+################################################################################
+short-desc:taller than some and fairer than most, perky chap with a bright eye
+desc:.
+
+name:Gildor
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:21:0
+################################################################################
+short-desc:tall elf. You feel that he possess ethereal grace and various powers.
+desc:.
+
+name:Squint-eyed Southerner
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:22:0
+################################################################################
+short-desc:looks more than half like a goblin, full of mischief...
+desc:.
+
+name:Bill Ferny
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:23:0
+################################################################################
+short-desc:swarthy sneering fellow; he would sell anything to anybody
+desc:He has heavy black brows, and dark scornful eyes; his large mouth curled in
+desc: a sneer. He is smoking a short black pipe. As you approached 
+desc: he took it out of his mouth and spat.
+
+name:Boromir
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:24:0
+################################################################################
+short-desc:a tall man with a fair and noble face, dark-haired and grey-eyed
+desc:.
+
+name:Barliman
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:25:0
+################################################################################
+short-desc:good-hearted fat man but notorious for his very bad memory
+desc:.
+
+name:Torog
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:26:0
+################################################################################
+short-desc:looks like a troll, more then in a half.. strong and dim-witted
+desc:.
+
+name:Nob, a servant
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:27:0
+################################################################################
+short-desc:"Nob! ... Where are you, you wolly-footed slow-coach?"
+desc:.
+
+name:Rose
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:28:0
+################################################################################
+short-desc:bright and funny little girl
+desc:.
+
+### end.
+
+name:NPC l
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:29:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC m
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:30:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC n
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:31:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC o
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:32:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC p
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:33:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC q
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:34:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC r
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:35:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC s
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:36:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC t
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:37:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC u
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:38:0
+################################################################################
+short-desc:.
+desc:.
+
+name:NPC v
+graphics:@:s
+priority:18
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+info:39:0
+################################################################################
+short-desc:.
+desc:.
+
+
 ####  !  #### !  ###  !  ########
 #
 ######    IMPORTANT 
@@ -322,7 +507,7 @@ name:Black Market
 graphics:7:D
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:20:0
+info:40:0
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains.
 
@@ -330,7 +515,7 @@ name:Expensive Black Market
 graphics:7:v
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:21:0
+info:41:0
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains. Although
 desc: you may find exceptional items, be ready to spend a lot of money for
@@ -341,7 +526,7 @@ name:Tavern
 graphics:8:y
 priority:24
 flags:PROJECT | PASSABLE |  PERMANENT | INTERESTING | EASY | FLOOR_SAFE
-info:22:0
+info:42:0
 desc:A safe place, perfect for drinking a pint of ale or two.
 
 #Home NOT WORK
@@ -349,7 +534,7 @@ name:Home
 graphics:0:B
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
-info:23:0
+info:43:0
 desc:Your safe piece of Middle Earth, and the only place you can store goods 
 desc:apart from on your person.
 
@@ -1469,13 +1654,14 @@ info:0:3
 short-desc:wall
 desc:.
 
+#wall with notice message
 name:9D wall 7
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
-short-desc:wall
+short-desc:The townhall is temporary closed because of mayor was kidnaped.
 desc:.
 
 name:9D wall 8
@@ -2744,7 +2930,7 @@ graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:.yellow flowers
+short-desc:yellow flowers
 desc:A patch of flowers.
 
 name:flower l rose
@@ -25122,7 +25308,182 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:dark high mountain
 desc:.
 
+name:F9 end a
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
 
+name:F9 end b
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+
+name:F9 end c
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end d
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end e
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end f
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end g
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end h
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end i
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end j
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end k
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end l
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end m
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end n
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end o
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end p
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end q
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end r
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end s
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end t
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end u
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
+
+name:F9 end v
+graphics:^:u
+priority:18
+################################################################################
+short-desc:dark high mountain
+flags:NO_SCENT | NO_FLOW | TORCH
+desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FA - mountains end top
