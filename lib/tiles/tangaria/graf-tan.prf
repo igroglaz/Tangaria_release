@@ -360,6 +360,7 @@ feat:loose dirt:los:0xB3:0xA5
 feat:loose dirt:lit:0xB3:0xA6
 feat:loose dirt:dark:0xB3:0xA7
 
+# packed dirt
 feat:packed dirt:torch:0x96:0xA0
 feat:packed dirt:los:0x96:0xA1
 feat:packed dirt:lit:0x96:0xA2
@@ -4975,18 +4976,21 @@ feat:grass mountain I:los:0xAC:0xB1
 feat:grass mountain I:lit:0xAC:0xB2
 feat:grass mountain I:dark:0xAC:0xB3
 
+# boulder
 # grass mountain J 
 feat:grass mountain J:torch:0xAC:0xB4
 feat:grass mountain J:los:0xAC:0xB5
 feat:grass mountain J:lit:0xAC:0xB6
 feat:grass mountain J:dark:0xAC:0xB7
 
+# boulder and rocks
 # grass mountain K 
 feat:grass mountain K:torch:0xAC:0xB8
 feat:grass mountain K:los:0xAC:0xB9
 feat:grass mountain K:lit:0xAC:0xBA
 feat:grass mountain K:dark:0xAC:0xBB
 
+# medium rock
 # grass mountain L 
 feat:grass mountain L:torch:0xAC:0xBC
 feat:grass mountain L:los:0xAC:0xBD

@@ -60,6 +60,23 @@ feat:~:~:safe floor
 # 96 - walls                            0x96:0xBC - web ... next:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+feat:%:w:broken door
+feat:%:x:pile of rubble
+feat:%:y:pile of passable rubble
+feat:%:z:magma vein
+feat:%:A:quartz vein
+feat:%:B:magma vein with treasure
+feat:%:C:quartz vein with treasure
+feat:%:D:lava
+# feat:%:E:packed dirt <<< feat:,:,:packed dirt
+# feat:%:F:mud  <<<  feat:@:@:mud
+feat:%:G:sand
+feat:%:H:ice wall
+feat:%:I:ash
+feat:%:J:nether mist
+feat:%:K:dark wall
+feat:%:L:web
+#### new walls:
 feat:%:M:96 wall M
 feat:%:N:96 wall N
 feat:%:O:96 wall O

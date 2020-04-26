@@ -4617,15 +4617,13 @@ info:0:6
 short-desc:high rocky peaks
 desc:.
 
-###### further is empty for now ####
-
 name:grass mountain J
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:7
-short-desc:.
+short-desc:boulder
 desc:.
 
 name:grass mountain K
@@ -4634,7 +4632,7 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:7
-short-desc:.
+short-desc:boulder and rocks
 desc:.
 
 name:grass mountain L
@@ -4643,8 +4641,10 @@ priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:7
-short-desc:.
+short-desc:round rock
 desc:.
+
+###### further is empty for now ####
 
 name:grass mountain M
 graphics:^:D
