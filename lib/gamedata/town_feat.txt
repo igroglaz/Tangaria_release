@@ -48,7 +48,8 @@ feat:t:t:dark tree
 feat:.:.:open floor
 feat:#:#:permanent wall
 feat:V:V:water
-feat:@:@:mud
+#feat:@:@:mud
+feat:,:;:mud
 feat:O:O:street
 feat:-:-:grass
 feat:^:^:mountain
@@ -60,20 +61,24 @@ feat:~:~:safe floor
 # 96 - walls                            0x96:0xBC - web ... next:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:%:w:broken door
+# :
+feat:_:.:broken door
 feat:%:x:pile of rubble
 feat:%:y:pile of passable rubble
 feat:%:z:magma vein
 feat:%:A:quartz vein
 feat:%:B:magma vein with treasure
 feat:%:C:quartz vein with treasure
-feat:%:D:lava
+# :
+feat:;:*:lava
 # feat:%:E:packed dirt <<< feat:,:,:packed dirt
-# feat:%:F:mud  <<<  feat:@:@:mud
+# feat:%:F:mud         <<< feat:,:;:mud
 feat:%:G:sand
 feat:%:H:ice wall
-feat:%:I:ash
-feat:%:J:nether mist
+# :
+feat:.:;:ash
+# :
+feat:;:&:nether mist
 feat:%:K:dark wall
 feat:%:L:web
 #### new walls:
@@ -112,6 +117,7 @@ feat:&:a:98 wall a
 feat:&:b:98 wall b
 feat:&:c:98 wall c
 feat:&:d:98 wall d
+#empty:
 feat:&:e:98 wall e
 feat:&:f:98 wall f
 feat:&:g:98 wall g
@@ -131,6 +137,42 @@ feat:&:t:98 wall t
 feat:&:u:98 wall u
 feat:&:v:98 wall v
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 9D walls
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:=:0:9D wall 0
+feat:=:1:9D wall 1
+feat:=:2:9D wall 2
+feat:=:3:9D wall 3
+feat:=:4:9D wall 4
+feat:=:5:9D wall 5
+feat:=:6:9D wall 6
+feat:=:7:9D wall 7
+feat:=:8:9D wall 8
+feat:=:9:9D wall 9
+feat:=:a:9D wall a
+feat:=:b:9D wall b
+feat:=:c:9D wall c
+feat:=:d:9D wall d
+feat:=:e:9D wall e
+feat:=:f:9D wall f
+feat:=:g:9D wall g
+feat:=:h:9D wall h
+feat:=:i:9D wall i
+feat:=:j:9D wall j
+feat:=:k:9D wall k
+feat:=:l:9D wall l
+feat:=:m:9D wall m
+feat:=:n:9D wall n
+feat:=:o:9D wall o
+feat:=:p:9D wall p
+feat:=:q:9D wall q
+feat:=:r:9D wall r
+feat:=:s:9D wall s
+feat:=:t:9D wall t
+feat:=:u:9D wall u
+feat:=:v:9D wall v
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 9E NPC
@@ -148,7 +190,6 @@ feat:@:8:Arthur the Archer
 feat:@:9:Old man
 feat:@:a:Boris the Guard
 feat:@:b:Tom Bombadil
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A1 - trees
