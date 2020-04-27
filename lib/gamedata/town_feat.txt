@@ -379,8 +379,8 @@ feat:,:C:flower C pink
 feat:,:D:flower D red
 feat:,:E:flower E blue
 feat:,:F:flower F red
-feat:,:G:flower G small tree
 #continue
+feat:,:G:A5 plants G
 feat:,:H:A5 plants H
 feat:,:I:A5 plants I
 feat:,:J:A5 plants J

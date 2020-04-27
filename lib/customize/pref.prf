@@ -106,7 +106,7 @@ X:risky_casting
 Y:quick_floor
 
 # Option 'Hide terrain description on status line'
-Y:hide_terrain
+X:hide_terrain
 
 # Option 'Disable Enter menu'
 Y:disable_enter

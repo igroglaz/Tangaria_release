@@ -3105,19 +3105,18 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:flower G small tree
+######### continue..
+
+name:A5 plants G
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:small tree
-desc:A small tree.
-
-######### continue..
-
+short-desc:grass
+desc:.
 
 name:A5 plants H
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3125,7 +3124,7 @@ short-desc:grass
 desc:.
 
 name:A5 plants I
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3133,7 +3132,7 @@ short-desc:grass
 desc:.
 
 name:A5 plants J
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3141,23 +3140,23 @@ short-desc:grass
 desc:.
 
 name:A5 plants K
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:grass
+short-desc:amanita mushroom on grass
 desc:.
 
 name:A5 plants L
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:grass
+short-desc:amanita mushroom on grass
 desc:.
 
 name:A5 plants M
-graphics:#:s
+graphics:*:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3165,15 +3164,15 @@ short-desc:small tree
 desc:.
 
 name:A5 plants N
-graphics:#:s
+graphics:#:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:fir-tree
+short-desc:small fir-tree
 desc:.
 
 name:A5 plants O
-graphics:#:s
+graphics:*:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3183,7 +3182,7 @@ desc:.
 ### empty further
 
 name:A5 plants P
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3191,7 +3190,7 @@ short-desc:.
 desc:.
 
 name:A5 plants Q
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3199,7 +3198,7 @@ short-desc:.
 desc:.
 
 name:A5 plants R
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3207,7 +3206,7 @@ short-desc:.
 desc:.
 
 name:A5 plants S
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3215,7 +3214,7 @@ short-desc:.
 desc:.
 
 name:A5 plants T
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3223,7 +3222,7 @@ short-desc:.
 desc:.
 
 name:A5 plants U
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3231,7 +3230,7 @@ short-desc:.
 desc:.
 
 name:A5 plants V
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3239,7 +3238,7 @@ short-desc:.
 desc:.
 
 name:A5 plants W
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3247,7 +3246,7 @@ short-desc:.
 desc:.
 
 name:A5 plants X
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3255,7 +3254,7 @@ short-desc:.
 desc:.
 
 name:A5 plants Y
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3263,7 +3262,7 @@ short-desc:.
 desc:.
 
 name:A5 plants Z
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3271,7 +3270,7 @@ short-desc:.
 desc:.
 
 name:A5 plants ~
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
@@ -3279,12 +3278,13 @@ short-desc:.
 desc:.
 
 name:A5 plants `
-graphics:#:s
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:.
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A6 - grass objects
@@ -7589,9 +7589,9 @@ desc:.
 
 # SHALLOW WATER
 name:B6 floors luquid w
-graphics:~:b
+graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | OBJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 short-desc:shallow water
 desc:A pool of shallow water.
 
@@ -7599,7 +7599,7 @@ desc:A pool of shallow water.
 name:B6 floors luquid x
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 short-desc:deep water
 desc:A pool of water.
 hurt-msg:You are drowning!
@@ -21600,7 +21600,6 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:.
 
-
 name:E9 desert e
 graphics:#:s
 priority:18
@@ -21751,225 +21750,226 @@ desc:.
 # EA 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:EA sand w
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand x
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand y
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand z
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand A
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand B
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand C
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand D
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand E
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand F
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand G
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand H
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand I
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand J
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand K
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand L
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand M
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand N
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand O
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand P
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand Q
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand R
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand S
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand T
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand U
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand V
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand W
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand X
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand Y
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand Z
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand ~
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
 desc:.
 
 name:EA sand `
-graphics:.:s
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:sand
@@ -22753,229 +22753,228 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:EE dirt w
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt x
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt y
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt z
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt A
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt B
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt C
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt D
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt E
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt F
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt G
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt H
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt I
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt J
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt K
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt L
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt M
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt N
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt O
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt P
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt Q
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt R
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt S
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt T
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt U
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt V
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt W
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt X
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt Y
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt Z
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt ~
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
 
 name:EE dirt `
-graphics:.:s
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
 short-desc:dirt
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # EF snow
@@ -24028,266 +24027,266 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rock
 desc:.
 
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F4 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:F4 shallow water w
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water x
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water y
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water z
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water A
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water B
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water C
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water D
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water E
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water F
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water G
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water H
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water I
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water J
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water K
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water L
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water M
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water N
-graphics:#:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water O
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water P
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water Q
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water R
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water S
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water T
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water U
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water V
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water W
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water X
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water Y
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water Z
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water ~
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
 
 name:F4 shallow water `
-graphics:~:b
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+graphics:~:T
+priority:5
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
-
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -24557,15 +24556,15 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rock
 desc:.
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F6 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F6 deep water w
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24576,8 +24575,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water x
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24588,8 +24587,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water y
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24600,8 +24599,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water z
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24612,8 +24611,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water A
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24624,8 +24623,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water B
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24636,8 +24635,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water C
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24648,8 +24647,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water D
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24660,8 +24659,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water E
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24672,8 +24671,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water F
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24684,8 +24683,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water G
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24696,8 +24695,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water H
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24708,8 +24707,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water I
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24720,8 +24719,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water J
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24732,8 +24731,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water K
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24744,8 +24743,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water L
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24756,8 +24755,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water M
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24767,9 +24766,9 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:F6 deep water N
-graphics:#:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+graphics:~:B
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24780,8 +24779,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water O
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24792,8 +24791,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water P
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24804,8 +24803,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water Q
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24816,8 +24815,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water R
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24828,8 +24827,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water S
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24840,8 +24839,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water T
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24852,8 +24851,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water U
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24864,8 +24863,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water V
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24876,8 +24875,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water W
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24888,8 +24887,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water X
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24900,8 +24899,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water Y
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24912,8 +24911,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water Z
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24924,8 +24923,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water ~
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24936,8 +24935,8 @@ resist-flag:IM_WATER
 
 name:F6 deep water `
 graphics:~:B
-priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+priority:5
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -24945,6 +24944,7 @@ hurt-msg:You are drowning!
 died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F7 
