@@ -23876,7 +23876,7 @@ name:F3 shallow water d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -23894,7 +23894,7 @@ name:F3 shallow water f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:passable rubble
 desc:.
@@ -23916,11 +23916,12 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:old rubble
 desc:Old rubble.
 
+
 name:F3 shallow water i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23928,7 +23929,7 @@ name:F3 shallow water j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23936,7 +23937,7 @@ name:F3 shallow water k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23952,7 +23953,7 @@ name:F3 shallow water m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23960,7 +23961,7 @@ name:F3 shallow water n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23968,7 +23969,7 @@ name:F3 shallow water o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23976,7 +23977,7 @@ name:F3 shallow water p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23984,7 +23985,7 @@ name:F3 shallow water q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -23992,7 +23993,7 @@ name:F3 shallow water r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24000,7 +24001,7 @@ name:F3 shallow water s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24008,7 +24009,7 @@ name:F3 shallow water t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24016,7 +24017,7 @@ name:F3 shallow water u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24025,11 +24026,10 @@ name:F3 shallow water v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rock
 desc:.
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F4 
@@ -24392,6 +24392,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
+
 name:F5 deep water c
 graphics:^:s
 priority:18
@@ -24405,7 +24406,7 @@ name:F5 deep water d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24423,7 +24424,7 @@ name:F5 deep water f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:passable rubble
 desc:.
@@ -24449,7 +24450,7 @@ name:F5 deep water i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24457,7 +24458,7 @@ name:F5 deep water j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24465,7 +24466,7 @@ name:F5 deep water k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24477,11 +24478,12 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
+#low grassy sea stones:
 name:F5 deep water m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24489,7 +24491,7 @@ name:F5 deep water n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24497,7 +24499,7 @@ name:F5 deep water o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24505,7 +24507,7 @@ name:F5 deep water p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24513,7 +24515,7 @@ name:F5 deep water q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24521,7 +24523,7 @@ name:F5 deep water r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24529,7 +24531,7 @@ name:F5 deep water s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24537,7 +24539,7 @@ name:F5 deep water t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24545,7 +24547,7 @@ name:F5 deep water u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24554,7 +24556,7 @@ name:F5 deep water v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rock
 desc:.

@@ -19365,6 +19365,7 @@ feat:F5 deep water l:lit:0xF5:0xD6
 feat:F5 deep water l:dark:0xF5:0xD7
 
 # F5 deep water m 
+#low grassy sea stones
 feat:F5 deep water m:torch:0xF5:0xD8
 feat:F5 deep water m:los:0xF5:0xD9
 feat:F5 deep water m:lit:0xF5:0xDA
