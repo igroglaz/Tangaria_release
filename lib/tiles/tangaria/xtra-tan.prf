@@ -5,7 +5,11 @@
 #
 # Edited for use with David Gervais's 32x32 tiles by Mogami.
 #
+# Dragons and hydras use their own tile, mapping here is unused.
+# Ghost characters are mapped to the Ghost tile.
 #
+# Use an underscore instead of a space if race name is two words.
+# For example: Black_Numenorean.
 
 ##### Remap the player icon #####
 
