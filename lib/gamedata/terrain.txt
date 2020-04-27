@@ -22240,99 +22240,102 @@ desc:.
 # EC dirt bones
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:EC dirt w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:Skull
 desc:Skull.
 
 name:EC dirt x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:few bones
 desc:A few bones.
 
 name:EC dirt y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:some bones
 desc:Some bones.
 
 name:EC dirt z
 graphics:.:w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
 name:EC dirt A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt G
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:skeleton
+short-desc:old skeleton
 desc:.
 
 name:EC dirt H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
-short-desc:skeleton
+short-desc:old skeleton
 desc:.
 
 name:EC dirt I
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:pile of bones
 desc:.
+
+###
 
 name:EC dirt J
 graphics:.:s
@@ -22603,7 +22606,6 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:rocks
 desc:.
-
 
 name:ED dirt e
 graphics:#:s

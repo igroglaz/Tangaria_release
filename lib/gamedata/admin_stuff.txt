@@ -23,3 +23,4 @@ equip:potion:Experience:40
 equip:potion:Experience:40
 equip:ring:Speed:6
 equip:rod:Recall:1
+equip:light:Lantern:2
