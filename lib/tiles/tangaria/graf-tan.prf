@@ -7301,27 +7301,28 @@ feat:B6 floors luquid T:los:0xB6:0xDD
 feat:B6 floors luquid T:lit:0xB6:0xDE
 feat:B6 floors luquid T:dark:0xB6:0xDF
 
-#waterral 1
+#waterfall 1
 # B6 floors luquid U 
 feat:B6 floors luquid U:torch:0xB6:0xE0
 feat:B6 floors luquid U:los:0xB6:0xE1
 feat:B6 floors luquid U:lit:0xB6:0xE2
 feat:B6 floors luquid U:dark:0xB6:0xE3
 
-#waterral 2
+#waterfall 2
 # B6 floors luquid V 
 feat:B6 floors luquid V:torch:0xB6:0xE4
 feat:B6 floors luquid V:los:0xB6:0xE5
 feat:B6 floors luquid V:lit:0xB6:0xE6
 feat:B6 floors luquid V:dark:0xB6:0xE7
 
-#waterral 3
+#waterfall 3
 # B6 floors luquid W 
 feat:B6 floors luquid W:torch:0xB6:0xE8
 feat:B6 floors luquid W:los:0xB6:0xE9
 feat:B6 floors luquid W:lit:0xB6:0xEA
 feat:B6 floors luquid W:dark:0xB6:0xEB
 
+# severs:
 # B6 floors luquid X 
 feat:B6 floors luquid X:torch:0xB6:0xEC
 feat:B6 floors luquid X:los:0xB6:0xED

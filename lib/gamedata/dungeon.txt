@@ -397,13 +397,70 @@ min-depth:8
 max-depth:15
 max-level:15
 flags:NO_DOORS | WATER_RIVER
-floor:B3 floors c:98
-floor:B6 floors luquid T:1
-floor:B6 floors luquid S:1
+#floor:B3 floors c:98
+#slime-blood:
+floor:E6 blood w:1
+floor:E6 blood x:1
+floor:E6 blood y:1
+floor:E6 blood z:1
+floor:E6 blood A:1
+floor:E6 blood B:1
+# green water:
+floor:B6 floors luquid X:1
+floor:B6 floors luquid Y:1
+#floor:B6 floors luquid Z:1
+#floor:B6 floors luquid ~:1
+#floor:B6 floors luquid `:1
+#
+#floor:B6 floors luquid T:1
+#floor:B6 floors luquid S:1
 #floor:B3 floors 9:97
-wall:big dark wall 0:20
-wall:E3 big dark 0:1
-wall:E3 big dark 1:1
+########################################
+#wall:big dark wall 0:20
+#wall:E3 big dark 0:1
+#wall:E3 big dark 1:1
+#
+wall:A3 severs 0:21
+wall:A3 severs 1:10
+wall:A3 severs 2:1
+wall:A3 severs 3:1
+wall:A3 severs 4:1
+wall:A3 severs 5:1
+wall:A3 severs 6:1
+wall:A3 severs 7:1
+wall:A3 severs 8:1
+wall:A3 severs 9:1
+wall:A3 severs a:1
+wall:A3 severs b:1
+wall:A3 severs c:1
+wall:A3 severs d:1
+wall:A3 severs e:1
+wall:A3 severs f:1
+wall:A3 severs g:1
+wall:A3 severs h:1
+wall:A3 severs i:1
+wall:A3 severs j:1
+wall:A3 severs k:1
+wall:A3 severs l:1
+wall:A3 severs m:1
+wall:A3 severs n:1
+wall:A3 severs o:1
+wall:A3 severs p:1
+wall:A3 severs q:1
+wall:A3 severs r:1
+wall:A3 severs s:1
+wall:A3 severs t:1
+wall:A3 severs u:1
+wall:A3 severs v:1
+#
+wall:AA wall w:24
+wall:AA wall x:10
+wall:AA wall y:1
+wall:AA wall z:1
+wall:AA wall A:1
+wall:AA wall B:1
+#
+wall:B6 floors luquid `:1
 #if green walls:
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
