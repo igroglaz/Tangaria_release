@@ -21238,80 +21238,81 @@ desc:.
 # E8 desert
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:E8 desert w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:Skull
 desc:Skull.
 
 name:E8 desert x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:few bones
 desc:A few bones.
 
 name:E8 desert y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:some bones
 desc:Some bones.
 
 name:E8 desert z
 graphics:.:w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
 name:E8 desert A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:skeleton
 desc:Skeleton.
 
 name:E8 desert G
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:skeleton
 desc:.
@@ -21319,7 +21320,7 @@ desc:.
 name:E8 desert H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:skeleton
 desc:.
@@ -21327,7 +21328,7 @@ desc:.
 name:E8 desert I
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:pile of bones
 desc:.
@@ -21335,7 +21336,7 @@ desc:.
 name:E8 desert J
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:well
 desc:.
@@ -21343,14 +21344,14 @@ desc:.
 name:E8 desert K
 graphics:::w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:ruins
 desc:Ruins.
 
 name:E8 desert L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined cauldron
 desc:.
@@ -21358,7 +21359,7 @@ desc:.
 name:E8 desert M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined chest
 desc:.
@@ -21373,7 +21374,7 @@ desc:Strange entrance.
 name:E8 desert O
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:grave
 desc:.
@@ -21381,7 +21382,7 @@ desc:.
 name:E8 desert P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:barrel
 desc:.
@@ -21389,7 +21390,7 @@ desc:.
 name:E8 desert Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -21397,7 +21398,7 @@ desc:.
 name:E8 desert R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -21405,14 +21406,14 @@ desc:.
 name:E8 desert S
 graphics:%:u
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:old wagon
 desc:Old wagon.
 
 name:E8 desert T
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:hole in sand
 desc:.
@@ -21420,7 +21421,7 @@ desc:.
 name:E8 desert U
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21428,7 +21429,7 @@ desc:.
 name:E8 desert V
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21436,7 +21437,7 @@ desc:.
 name:E8 desert W
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21444,7 +21445,7 @@ desc:.
 name:E8 desert X
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21452,7 +21453,7 @@ desc:.
 name:E8 desert Y
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21460,7 +21461,7 @@ desc:.
 name:E8 desert Z
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21468,7 +21469,7 @@ desc:.
 name:E8 desert ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21476,7 +21477,7 @@ desc:.
 name:E8 desert `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -21595,7 +21596,7 @@ name:E9 desert d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -21612,7 +21613,7 @@ name:E9 desert f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -21636,7 +21637,7 @@ name:E9 desert i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21644,7 +21645,7 @@ name:E9 desert j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21652,7 +21653,7 @@ name:E9 desert k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21668,7 +21669,7 @@ name:E9 desert m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21676,7 +21677,7 @@ name:E9 desert n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21684,7 +21685,7 @@ name:E9 desert o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21692,7 +21693,7 @@ name:E9 desert p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21700,7 +21701,7 @@ name:E9 desert q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21708,7 +21709,7 @@ name:E9 desert r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21716,7 +21717,7 @@ name:E9 desert s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21724,7 +21725,7 @@ name:E9 desert t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -21732,7 +21733,7 @@ name:E9 desert u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -21741,7 +21742,7 @@ name:E9 desert v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rock
 desc:.
@@ -22244,77 +22245,77 @@ desc:.
 name:EC dirt w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
-short-desc:Skull
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skull
 desc:Skull.
 
 name:EC dirt x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:few bones
 desc:A few bones.
 
 name:EC dirt y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:some bones
 desc:Some bones.
 
 name:EC dirt z
 graphics:.:w
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
 name:EC dirt A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
 name:EC dirt G
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:old skeleton
 desc:.
@@ -22322,7 +22323,7 @@ desc:.
 name:EC dirt H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:old skeleton
 desc:.
@@ -22330,17 +22331,18 @@ desc:.
 name:EC dirt I
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:pile of bones
 desc:.
 
 ###
 
+
 name:EC dirt J
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:well
 desc:.
@@ -22348,14 +22350,14 @@ desc:.
 name:EC dirt K
 graphics:::w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:ruins
 desc:Ruins.
 
 name:EC dirt L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined cauldron
 desc:.
@@ -22363,7 +22365,7 @@ desc:.
 name:EC dirt M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined chest
 desc:.
@@ -22378,7 +22380,7 @@ desc:Strange entrance.
 name:EC dirt O
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:grave
 desc:.
@@ -22386,7 +22388,7 @@ desc:.
 name:EC dirt P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:barrel
 desc:.
@@ -22394,7 +22396,7 @@ desc:.
 name:EC dirt Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -22402,7 +22404,7 @@ desc:.
 name:EC dirt R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -22410,14 +22412,14 @@ desc:.
 name:EC dirt S
 graphics:%:u
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:old wagon
 desc:Old wagon.
 
 name:EC dirt T
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:hole in sand
 desc:.
@@ -22427,7 +22429,7 @@ desc:.
 name:EC dirt U
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22435,7 +22437,7 @@ desc:.
 name:EC dirt V
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22443,7 +22445,7 @@ desc:.
 name:EC dirt W
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22451,7 +22453,7 @@ desc:.
 name:EC dirt X
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22459,7 +22461,7 @@ desc:.
 name:EC dirt Y
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22467,7 +22469,7 @@ desc:.
 name:EC dirt Z
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22475,7 +22477,7 @@ desc:.
 name:EC dirt ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22483,7 +22485,7 @@ desc:.
 name:EC dirt `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -22598,11 +22600,12 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
+
 name:ED dirt d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -22619,7 +22622,7 @@ name:ED dirt f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -22643,7 +22646,7 @@ name:ED dirt i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22651,7 +22654,7 @@ name:ED dirt j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22659,7 +22662,7 @@ name:ED dirt k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22675,7 +22678,7 @@ name:ED dirt m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22683,7 +22686,7 @@ name:ED dirt n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22691,7 +22694,7 @@ name:ED dirt o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22699,7 +22702,7 @@ name:ED dirt p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22707,7 +22710,7 @@ name:ED dirt q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22715,7 +22718,7 @@ name:ED dirt r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22723,7 +22726,7 @@ name:ED dirt s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22731,7 +22734,7 @@ name:ED dirt t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -22739,7 +22742,7 @@ name:ED dirt u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -22748,7 +22751,7 @@ name:ED dirt v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rock
 desc:.
@@ -23254,93 +23257,93 @@ desc:.
 name:F0 snow w
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skull
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skull
 desc:Skull.
 
 name:F0 snow x
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:few bones
 desc:A few bones.
 
 name:F0 snow y
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 short-desc:some bones
 desc:Some bones.
 
 name:F0 snow z
 graphics:.:w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
 name:F0 snow A
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow B
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow C
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow D
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow E
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow F
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-short-desc:skeleton
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
+short-desc:old skeleton
 desc:Skeleton.
 
 name:F0 snow G
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
-short-desc:skeleton
+short-desc:old skeleton
 desc:.
 
 name:F0 snow H
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
-short-desc:skeleton
+short-desc:old skeleton
 desc:.
 
 name:F0 snow I
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:pile of bones
 desc:.
@@ -23348,7 +23351,7 @@ desc:.
 name:F0 snow J
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:well
 desc:.
@@ -23356,14 +23359,14 @@ desc:.
 name:F0 snow K
 graphics:::w
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:ruins
 desc:Ruins.
 
 name:F0 snow L
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined cauldron
 desc:.
@@ -23371,7 +23374,7 @@ desc:.
 name:F0 snow M
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:ruined chest
 desc:.
@@ -23386,7 +23389,7 @@ desc:Strange entrance.
 name:F0 snow O
 graphics:.:s
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
 short-desc:grave
 desc:.
@@ -23394,7 +23397,7 @@ desc:.
 name:F0 snow P
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:barrel
 desc:.
@@ -23402,7 +23405,7 @@ desc:.
 name:F0 snow Q
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -23410,7 +23413,7 @@ desc:.
 name:F0 snow R
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:graves
 desc:.
@@ -23418,14 +23421,14 @@ desc:.
 name:F0 snow S
 graphics:%:u
 priority:18
-flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH
+flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 short-desc:old wagon
 desc:Old wagon.
 
 name:F0 snow T
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:hole in sand
 desc:.
@@ -23433,7 +23436,7 @@ desc:.
 name:F0 snow U
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23441,7 +23444,7 @@ desc:.
 name:F0 snow V
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23449,7 +23452,7 @@ desc:.
 name:F0 snow W
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23457,7 +23460,7 @@ desc:.
 name:F0 snow X
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23465,7 +23468,7 @@ desc:.
 name:F0 snow Y
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23473,7 +23476,7 @@ desc:.
 name:F0 snow Z
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23481,7 +23484,7 @@ desc:.
 name:F0 snow ~
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23489,7 +23492,7 @@ desc:.
 name:F0 snow `
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | NO_STAIRS
 ################################################################################
 short-desc:stony sand
 desc:.
@@ -23607,11 +23610,10 @@ name:F1 snow d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
-
 
 name:F1 snow e
 graphics:#:s
@@ -23649,7 +23651,7 @@ name:F1 snow i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23657,7 +23659,7 @@ name:F1 snow j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23665,7 +23667,7 @@ name:F1 snow k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23681,7 +23683,7 @@ name:F1 snow m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23689,7 +23691,7 @@ name:F1 snow n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23697,7 +23699,7 @@ name:F1 snow o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23705,7 +23707,7 @@ name:F1 snow p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23713,7 +23715,7 @@ name:F1 snow q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23721,7 +23723,7 @@ name:F1 snow r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23729,7 +23731,7 @@ name:F1 snow s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23737,7 +23739,7 @@ name:F1 snow t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -23745,7 +23747,7 @@ name:F1 snow u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -23754,7 +23756,7 @@ name:F1 snow v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | NO_STAIRS
 ################################################################################
 short-desc:rock
 desc:.
