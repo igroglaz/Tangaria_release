@@ -7910,7 +7910,7 @@ resist-flag:IM_WATER
 name:B6 floors luquid X
 graphics:~:g
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS
 ################################################################################
 short-desc:stinky sludge
 desc:.
@@ -7922,7 +7922,7 @@ resist-flag:IM_WATER
 name:B6 floors luquid Y
 graphics:~:g
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS
 ################################################################################
 short-desc:stinky sludge
 desc:.
@@ -7934,7 +7934,7 @@ resist-flag:IM_WATER
 name:B6 floors luquid Z
 graphics:~:g
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS
 ################################################################################
 short-desc:stinky sludge
 desc:.
@@ -7946,7 +7946,7 @@ resist-flag:IM_WATER
 name:B6 floors luquid ~
 graphics:~:g
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS
 ################################################################################
 short-desc:stinky sludge
 desc:.
