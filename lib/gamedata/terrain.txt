@@ -21870,6 +21870,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | 
 short-desc:sand
 desc:.
 
+# lots of stones
 name:EA sand N
 graphics:.:y
 priority:18
@@ -22417,6 +22418,8 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:hole in sand
 desc:.
+
+#rocks:
 
 name:EC dirt U
 graphics:.:u

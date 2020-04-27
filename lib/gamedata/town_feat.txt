@@ -2944,7 +2944,9 @@ feat:Z:J:EA sand J
 feat:Z:K:EA sand K
 feat:Z:L:EA sand L
 feat:Z:M:EA sand M
+# lots of stones
 feat:Z:N:EA sand N
+#
 feat:Z:O:EA sand O
 feat:Z:P:EA sand P
 feat:Z:Q:EA sand Q
@@ -3026,6 +3028,7 @@ feat:A:Q:EC dirt Q
 feat:A:R:EC dirt R
 feat:A:S:EC dirt S
 feat:A:T:EC dirt T
+#rocks:
 feat:A:U:EC dirt U
 feat:A:V:EC dirt V
 feat:A:W:EC dirt W

@@ -17360,6 +17360,7 @@ feat:EA sand M:lit:0xEA:0xC2
 feat:EA sand M:dark:0xEA:0xC3
 
 # EA sand N 
+# lots of stones
 feat:EA sand N:torch:0xEA:0xC4
 feat:EA sand N:los:0xEA:0xC5
 feat:EA sand N:lit:0xEA:0xC6
@@ -17794,6 +17795,7 @@ feat:EC dirt T:los:0xEC:0xDD
 feat:EC dirt T:lit:0xEC:0xDE
 feat:EC dirt T:dark:0xEC:0xDF
 
+#rocks:
 # EC dirt U 
 feat:EC dirt U:torch:0xEC:0xE0
 feat:EC dirt U:los:0xEC:0xE1
