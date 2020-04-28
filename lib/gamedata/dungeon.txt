@@ -606,12 +606,133 @@ min-depth:15
 max-depth:23
 max-level:20
 flags:CAVERN
-floor:packed dirt:70
-floor:EB dirt 0:29
+floor:packed dirt:21
+floor:EB dirt 0:10
+#21 + (1+8) + 69
+floor:EB dirt 1:1
+# floor:EB dirt 2:1 birch
+# floor:EB dirt 3:1 birch
+floor:EB dirt 4:1
+floor:EB dirt 5:1
+floor:EB dirt 6:1
+floor:EB dirt 7:1
+floor:EB dirt 8:1
+floor:EB dirt 9:1
+floor:EB dirt a:1
+floor:EB dirt b:1
+floor:EB dirt c:1
+floor:EB dirt d:1
+floor:EB dirt e:1
+floor:EB dirt f:1
+floor:EB dirt g:1
+floor:EB dirt h:1
+floor:EB dirt i:1
+floor:EB dirt j:1
+floor:EB dirt k:1
+floor:EB dirt l:1
+floor:EB dirt m:1
+floor:EB dirt n:1
+floor:EB dirt o:1
+floor:EB dirt p:1
+floor:EB dirt q:1
+floor:EB dirt r:1
+floor:EB dirt s:1
+floor:EB dirt t:1
+floor:EB dirt u:1
+floor:EB dirt v:1
+###
+floor:EE dirt w:1
+floor:EE dirt x:1
+floor:EE dirt y:1
+floor:EE dirt z:1
+floor:EE dirt A:1
+floor:EE dirt B:1
+floor:EE dirt C:1
+floor:EE dirt D:1
+floor:EE dirt E:1
+floor:EE dirt F:1
+floor:EE dirt G:1
+floor:EE dirt H:1
+floor:EE dirt I:1
+floor:EE dirt J:1
+floor:EE dirt K:1
+floor:EE dirt L:1
+floor:EE dirt M:1
+#floor:EE dirt N:1 too much rocks
+floor:EE dirt O:1
+floor:EE dirt P:1
+floor:EE dirt Q:1
+floor:EE dirt R:1
+floor:EE dirt S:1
+floor:EE dirt T:1
+floor:EE dirt U:1
+floor:EE dirt V:1
+floor:EE dirt W:1
+floor:EE dirt X:1
+floor:EE dirt Y:1
+floor:EE dirt Z:1
+floor:EE dirt ~:1
+floor:EE dirt `:1
+###
+floor:EC dirt U:1
 floor:EC dirt V:1
-wall:ED dirt 0:30
-wall:ED dirt 2:10
-wall:ED dirt 3:60
+floor:EC dirt W:1
+floor:EC dirt X:1
+floor:EC dirt Y:1
+floor:EC dirt Z:1
+floor:EC dirt ~:1
+floor:EC dirt `:1
+# grass 2x:
+floor:floor Q dirt:1
+floor:floor R dirt:1
+#
+wall:ED dirt F2W-CLONE 0:27
+wall:ED dirt F2W-CLONE 1:8
+wall:ED dirt F2W-CLONE 2:20
+wall:ED dirt F2W-CLONE 3:5
+wall:ED dirt F2W-CLONE 4:1
+wall:ED dirt F2W-CLONE 5:1
+wall:ED dirt F2W-CLONE 6:1
+wall:ED dirt F2W-CLONE 7:1
+wall:ED dirt F2W-CLONE 8:1
+wall:ED dirt F2W-CLONE 9:1
+wall:ED dirt F2W-CLONE a:1
+wall:ED dirt F2W-CLONE b:1
+wall:ED dirt F2W-CLONE c:1
+wall:ED dirt F2W-CLONE d:1
+wall:ED dirt F2W-CLONE e:1
+wall:ED dirt F2W-CLONE f:1
+wall:ED dirt F2W-CLONE g:1
+wall:ED dirt F2W-CLONE h:1
+wall:ED dirt F2W-CLONE i:1
+wall:ED dirt F2W-CLONE j:1
+wall:ED dirt F2W-CLONE k:1
+wall:ED dirt F2W-CLONE l:1
+wall:ED dirt F2W-CLONE m:1
+wall:ED dirt F2W-CLONE n:1
+wall:ED dirt F2W-CLONE o:1
+wall:ED dirt F2W-CLONE p:1
+wall:ED dirt F2W-CLONE q:1
+wall:ED dirt F2W-CLONE r:1
+wall:ED dirt F2W-CLONE s:1
+wall:ED dirt F2W-CLONE t:1
+wall:ED dirt F2W-CLONE u:1
+wall:ED dirt F2W-CLONE v:1
+#skeletons minor:
+wall:EC dirt F2W-CLONE w:1
+wall:EC dirt F2W-CLONE x:1
+wall:EC dirt F2W-CLONE y:1
+wall:EC dirt F2W-CLONE z:1
+wall:EC dirt F2W-CLONE A:1
+wall:EC dirt F2W-CLONE B:1
+wall:EC dirt F2W-CLONE C:1
+wall:EC dirt F2W-CLONE D:1
+wall:EC dirt F2W-CLONE E:1
+wall:EC dirt F2W-CLONE F:1
+#
+wall:EC dirt F2W-CLONE G:1
+wall:EC dirt F2W-CLONE H:1
+wall:EC dirt F2W-CLONE I:1
 rule:50:0
 rule-flags:ORC
 rule-symbols:koO
