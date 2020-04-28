@@ -214,38 +214,38 @@ floor:EC dirt `:1
 floor:floor Q dirt:1
 floor:floor R dirt:1
 #
-wall:ED dirt 0:24
-wall:ED dirt 1:5
-wall:ED dirt 2:34
-wall:ED dirt 3:10
-wall:ED dirt 4:1
-wall:ED dirt 5:1
-wall:ED dirt 6:1
-wall:ED dirt 7:1
-wall:ED dirt 8:1
-wall:ED dirt 9:1
-wall:ED dirt a:1
-wall:ED dirt b:1
-wall:ED dirt c:1
-wall:ED dirt d:1
-wall:ED dirt e:1
-wall:ED dirt f:1
-wall:ED dirt g:1
-wall:ED dirt h:1
-wall:ED dirt i:1
-wall:ED dirt j:1
-wall:ED dirt k:1
-wall:ED dirt l:1
-wall:ED dirt m:1
-wall:ED dirt n:1
-wall:ED dirt o:1
-wall:ED dirt p:1
-wall:ED dirt q:1
-wall:ED dirt r:1
-wall:ED dirt s:1
-wall:ED dirt t:1
-wall:ED dirt u:1
-wall:ED dirt v:1
+wall:ED dirt F2W-CLONE 0:24
+wall:ED dirt F2W-CLONE 1:5
+wall:ED dirt F2W-CLONE 2:34
+wall:ED dirt F2W-CLONE 3:10
+wall:ED dirt F2W-CLONE 4:1
+wall:ED dirt F2W-CLONE 5:1
+wall:ED dirt F2W-CLONE 6:1
+wall:ED dirt F2W-CLONE 7:1
+wall:ED dirt F2W-CLONE 8:1
+wall:ED dirt F2W-CLONE 9:1
+wall:ED dirt F2W-CLONE a:1
+wall:ED dirt F2W-CLONE b:1
+wall:ED dirt F2W-CLONE c:1
+wall:ED dirt F2W-CLONE d:1
+wall:ED dirt F2W-CLONE e:1
+wall:ED dirt F2W-CLONE f:1
+wall:ED dirt F2W-CLONE g:1
+wall:ED dirt F2W-CLONE h:1
+wall:ED dirt F2W-CLONE i:1
+wall:ED dirt F2W-CLONE j:1
+wall:ED dirt F2W-CLONE k:1
+wall:ED dirt F2W-CLONE l:1
+wall:ED dirt F2W-CLONE m:1
+wall:ED dirt F2W-CLONE n:1
+wall:ED dirt F2W-CLONE o:1
+wall:ED dirt F2W-CLONE p:1
+wall:ED dirt F2W-CLONE q:1
+wall:ED dirt F2W-CLONE r:1
+wall:ED dirt F2W-CLONE s:1
+wall:ED dirt F2W-CLONE t:1
+wall:ED dirt F2W-CLONE u:1
+wall:ED dirt F2W-CLONE v:1
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0
@@ -340,49 +340,49 @@ floor:EC dirt `:1
 floor:floor Q dirt:1
 floor:floor R dirt:1
 #
-wall:ED dirt 0:30
-wall:ED dirt 1:8
-wall:ED dirt 2:20
-wall:ED dirt 3:5
-wall:ED dirt 4:1
-wall:ED dirt 5:1
-wall:ED dirt 6:1
-wall:ED dirt 7:1
-wall:ED dirt 8:1
-wall:ED dirt 9:1
-wall:ED dirt a:1
-wall:ED dirt b:1
-wall:ED dirt c:1
-wall:ED dirt d:1
-wall:ED dirt e:1
-wall:ED dirt f:1
-wall:ED dirt g:1
-wall:ED dirt h:1
-wall:ED dirt i:1
-wall:ED dirt j:1
-wall:ED dirt k:1
-wall:ED dirt l:1
-wall:ED dirt m:1
-wall:ED dirt n:1
-wall:ED dirt o:1
-wall:ED dirt p:1
-wall:ED dirt q:1
-wall:ED dirt r:1
-wall:ED dirt s:1
-wall:ED dirt t:1
-wall:ED dirt u:1
-wall:ED dirt v:1
+wall:ED dirt F2W-CLONE 0:30
+wall:ED dirt F2W-CLONE 1:8
+wall:ED dirt F2W-CLONE 2:20
+wall:ED dirt F2W-CLONE 3:5
+wall:ED dirt F2W-CLONE 4:1
+wall:ED dirt F2W-CLONE 5:1
+wall:ED dirt F2W-CLONE 6:1
+wall:ED dirt F2W-CLONE 7:1
+wall:ED dirt F2W-CLONE 8:1
+wall:ED dirt F2W-CLONE 9:1
+wall:ED dirt F2W-CLONE a:1
+wall:ED dirt F2W-CLONE b:1
+wall:ED dirt F2W-CLONE c:1
+wall:ED dirt F2W-CLONE d:1
+wall:ED dirt F2W-CLONE e:1
+wall:ED dirt F2W-CLONE f:1
+wall:ED dirt F2W-CLONE g:1
+wall:ED dirt F2W-CLONE h:1
+wall:ED dirt F2W-CLONE i:1
+wall:ED dirt F2W-CLONE j:1
+wall:ED dirt F2W-CLONE k:1
+wall:ED dirt F2W-CLONE l:1
+wall:ED dirt F2W-CLONE m:1
+wall:ED dirt F2W-CLONE n:1
+wall:ED dirt F2W-CLONE o:1
+wall:ED dirt F2W-CLONE p:1
+wall:ED dirt F2W-CLONE q:1
+wall:ED dirt F2W-CLONE r:1
+wall:ED dirt F2W-CLONE s:1
+wall:ED dirt F2W-CLONE t:1
+wall:ED dirt F2W-CLONE u:1
+wall:ED dirt F2W-CLONE v:1
 #skeletons minor:
-wall:EC dirt w:1
-wall:EC dirt x:1
-wall:EC dirt y:1
-wall:EC dirt z:1
-wall:EC dirt A:1
-wall:EC dirt B:1
-wall:EC dirt C:1
-wall:EC dirt D:1
-wall:EC dirt E:1
-wall:EC dirt F:1
+wall:EC dirt F2W-CLONE w:1
+wall:EC dirt F2W-CLONE x:1
+wall:EC dirt F2W-CLONE y:1
+wall:EC dirt F2W-CLONE z:1
+wall:EC dirt F2W-CLONE A:1
+wall:EC dirt F2W-CLONE B:1
+wall:EC dirt F2W-CLONE C:1
+wall:EC dirt F2W-CLONE D:1
+wall:EC dirt F2W-CLONE E:1
+wall:EC dirt F2W-CLONE F:1
 rule:50:0
 rule-flags:ORC
 rule-symbols:koO
