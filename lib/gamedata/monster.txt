@@ -257,7 +257,7 @@ flags:MALE
 flags:RAND_25 | OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
 friends:50:2d1:scrawny cat
-friends:50:2d1:scruffy little dog
+friends:50:2d1:stray dog
 friends:100:3d4:Same
 desc:He looks squalid and thoroughly revolting.
 locations:Farfest
@@ -281,7 +281,8 @@ flags:DROP_CORPSE | DROP_SKELETON
 desc:A skinny little furball with sharp claws and a menacing look.
 locations:Farfest
 
-name:scruffy little dog
+#name:scruffy little dog
+name:stray dog
 base:canine
 color:U
 speed:110
@@ -544,6 +545,7 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
+flags:PASS_WALL
 flags:DROP_SKELETON
 flags:RAND_25
 desc:Utterly harmless, and really cautious.
@@ -559,11 +561,11 @@ hearing:30
 armor-class:1
 sleepiness:150
 depth:0
-rarity:3
+rarity:5
 weight:0
 experience:0
 blow:MOAN
-flags:ANIMAL | FRIENDLY | PWMANG_BASE
+flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
@@ -622,7 +624,7 @@ rarity:5
 weight:0
 experience:0
 blow:BITE:HURT:1d1
-flags:FRIGHTENED | PWMANG_BASE
+flags:FRIGHTENED | PWMANG_BASE | FRIENDLY
 flags:RAND_50 | COLD_BLOOD | NO_SLEEP
 desc:Beautiful red fish in ponds.
 locations:Hunter's Valley|Farfest
@@ -26311,14 +26313,15 @@ locations:Utumno, Portal to the Void
 # Starting town
 
 
+
 name:huge bee
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:7
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26328,17 +26331,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:brown horse
 base:quadruped
 color:y
-speed:120
+speed:110
 hit-points:50
 hearing:30
 armor-class:1
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26346,17 +26350,18 @@ experience:0
 blow:HIT:HURT:1d5
 blow:MOAN
 flags:ANIMAL | RAND_50 | PWMANG_BASE | FRIGHTENED
+flags:FRIENDLY
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
 name:white horse
 base:quadruped
 color:y
-speed:120
+speed:110
 hit-points:50
 hearing:30
 armor-class:1
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26364,17 +26369,18 @@ experience:0
 blow:HIT:HURT:1d5
 blow:MOAN
 flags:ANIMAL | RAND_50 | PWMANG_BASE | FRIGHTENED
+flags:FRIENDLY
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
 name:spotted horse
 base:quadruped
 color:y
-speed:120
+speed:110
 hit-points:50
 hearing:30
 armor-class:1
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26382,17 +26388,18 @@ experience:0
 blow:HIT:HURT:1d5
 blow:MOAN
 flags:ANIMAL | RAND_50 | PWMANG_BASE | FRIGHTENED
+flags:FRIENDLY
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
 name:deer
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:35
 hearing:10
 armor-class:10
-sleepiness:20
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26408,11 +26415,11 @@ locations:Hunter's Valley|Farfest
 name:chicken
 base:townsfolk
 color:B
-speed:120
+speed:100
 hit-points:13
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:1
 weight:0
@@ -26422,17 +26429,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:cow
 base:townsfolk
 color:B
-speed:100
+speed:70
 hit-points:40
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26442,17 +26450,19 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:donkey
 base:townsfolk
 color:B
-speed:110
+speed:90
 hit-points:17
 hearing:10
 armor-class:10
-sleepiness:90
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26460,18 +26470,20 @@ experience:0
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:wagtail bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26481,17 +26493,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:thrush bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26501,17 +26514,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:sparrow bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:25
+sleepiness:10
 depth:0
 rarity:1
 weight:0
@@ -26521,17 +26535,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:tit bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26541,17 +26556,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:woodpecker bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:55
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26561,17 +26577,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:waxwing bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26581,17 +26598,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:blue jay bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:35
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26601,17 +26619,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:red cardinal bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:25
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26621,17 +26640,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:blue big jay bird
 base:townsfolk
 color:B
-speed:130
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26641,17 +26661,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:black cat
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:55
+sleepiness:10
 depth:0
 rarity:1
 weight:0
@@ -26660,18 +26681,20 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:spotted cat
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:55
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26680,18 +26703,20 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:yellow dog
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:11
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26700,18 +26725,20 @@ blow:HIT:HURT:1d3
 flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:ginger pussycat
 base:townsfolk
 color:B
-speed:110
+speed:105
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26720,7 +26747,9 @@ blow:HIT:HURT:1d2
 flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
@@ -26731,7 +26760,7 @@ speed:110
 hit-points:22
 hearing:10
 armor-class:10
-sleepiness:60
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26741,6 +26770,7 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
@@ -26751,7 +26781,7 @@ speed:110
 hit-points:22
 hearing:10
 armor-class:10
-sleepiness:60
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26761,17 +26791,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:black and white cat
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26780,18 +26811,20 @@ blow:HIT:HURT:1d2
 flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:grey cat
 base:townsfolk
 color:B
-speed:110
+speed:105
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26800,18 +26833,20 @@ blow:HIT:HURT:1d1
 flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:ginger cat
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26820,18 +26855,20 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:white pussycat
 base:townsfolk
 color:B
-speed:100
+speed:105
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:5
 weight:0
@@ -26840,18 +26877,20 @@ blow:HIT:HURT:1d2
 flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:cat bully
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -26860,18 +26899,20 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:squirrel
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:11
 hearing:10
 armor-class:10
-sleepiness:30
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26881,17 +26922,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:turtle
 base:townsfolk
 color:B
-speed:100
+speed:40
 hit-points:30
 hearing:10
 armor-class:100
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:6
 weight:0
@@ -26907,16 +26949,16 @@ locations:Hunter's Valley|Farfest
 name:moose
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:60
 hearing:10
 armor-class:10
-sleepiness:20
+sleepiness:10
 depth:0
 rarity:4
 weight:0
 experience:0
-blow:HIT:HURT:1d4
+blow:HIT:HURT:1d8
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
@@ -26928,11 +26970,11 @@ locations:Hunter's Valley|Farfest
 name:dog
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26941,18 +26983,19 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Farfest
 
 name:mouse
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:4
 hearing:10
 armor-class:10
-sleepiness:30
+sleepiness:10
 depth:0
 rarity:2
 weight:0
@@ -26962,17 +27005,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:Small ears, beady eyes, fleshy nose and wormy tail.
 locations:Hunter's Valley|Farfest
 
 name:frog
 base:townsfolk
 color:B
-speed:110
+speed:105
 hit-points:9
 hearing:10
 armor-class:10
-sleepiness:39
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -26982,17 +27026,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:cockroach
 base:townsfolk
 color:B
-speed:110
+speed:105
 hit-points:2
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -27002,17 +27047,18 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:sheep
 base:townsfolk
 color:B
-speed:110
+speed:90
 hit-points:15
 hearing:10
 armor-class:10
-sleepiness:40
+sleepiness:10
 depth:0
 rarity:5
 weight:0
@@ -27022,17 +27068,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:pig
 base:townsfolk
 color:B
-speed:110
+speed:100
 hit-points:15
 hearing:10
 armor-class:10
-sleepiness:45
+sleepiness:10
 depth:0
 rarity:5
 weight:0
@@ -27042,13 +27089,14 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:fox
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:20
 hearing:10
 armor-class:10
@@ -27062,17 +27110,18 @@ flags:FEMALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 name:wasp
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:10
 hearing:10
 armor-class:10
-sleepiness:30
+sleepiness:10
 depth:0
 rarity:3
 weight:0
@@ -27082,6 +27131,7 @@ flags:MALE
 flags:SMART | REGENERATE
 flags:NO_SLEEP
 flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
@@ -27092,7 +27142,7 @@ speed:100
 hit-points:11
 hearing:10
 armor-class:10
-sleepiness:30
+sleepiness:10
 depth:0
 rarity:4
 weight:0
@@ -27101,31 +27151,32 @@ blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY |  FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
+flags:PASS_WALL
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
-name:skinny dog
+name:scruffy little dog
 base:townsfolk
 color:B
-speed:120
+speed:110
 hit-points:17
 hearing:10
 armor-class:10
-sleepiness:50
+sleepiness:10
 depth:0
-rarity:2
+rarity:3
 weight:0
 experience:0
 blow:HIT:HURT:1d2
 flags:MALE
 flags:SMART | REGENERATE
 flags:NO_FEAR | NO_SLEEP
-flags:ANIMAL | RAND_50 | FRIENDLY | FRIGHTENED
+flags:ANIMAL | RAND_50 | FRIGHTENED
+flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
-
-
 
 
 ###########################################################################
