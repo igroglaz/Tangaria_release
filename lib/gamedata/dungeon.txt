@@ -59,13 +59,13 @@ min-depth:1
 max-depth:1
 max-level:2
 #a4
-floor:flower 0 green:1
-floor:flower 1 green:1
-floor:flower 2 green:1
-floor:flower 3 green:1
-floor:flower 4 green:1
-floor:flower 5 green:1
-floor:flower 6 green:1
+floor:A4 flower 0 green:1
+floor:A4 flower 1 green:1
+floor:A4 flower 2 green:1
+floor:A4 flower 3 green:1
+floor:A4 flower 4 green:1
+floor:A4 flower 5 green:1
+floor:A4 flower 6 green:1
 #floor:B3 floors n:1
 floor:floor 0 grass:25
 floor:floor 1 grass:28

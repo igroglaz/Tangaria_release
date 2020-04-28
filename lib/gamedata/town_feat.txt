@@ -332,38 +332,38 @@ feat:%:v:A3 severs v
 # A4 - flowers
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
-feat:,:0:flower 0 green
-feat:,:1:flower 1 green
-feat:,:2:flower 2 green
-feat:,:3:flower 3 green
-feat:,:4:flower 4 green
-feat:,:5:flower 5 green
-feat:,:6:flower 6 green
-feat:,:7:flower 7 grass
-feat:,:8:flower 8 grass
-feat:,:9:flower 9 grass yellow
-feat:,:a:flower a grass brown
-feat:,:b:flower b orange
-feat:,:c:flower c white
-feat:,:d:flower d orange
-feat:,:e:flower e red
-feat:,:f:flower f violet
-feat:,:g:flower g yellow
-feat:,:h:flower h red
-feat:,:i:flower i white
-feat:,:j:flower j red
-feat:,:k:flower k yellow
-feat:,:l:flower l rose
-feat:,:m:flower m purple
-feat:,:n:flower n orange
-feat:,:o:flower o rose
-feat:,:p:flower p blue
-feat:,:q:flower q rose
-feat:,:r:flower r red
-feat:,:s:flower s rose
-feat:,:t:flower t white
-feat:,:u:flower u red white
-feat:,:v:flower v blue white
+feat:,:0:A4 flower 0 green
+feat:,:1:A4 flower 1 green
+feat:,:2:A4 flower 2 green
+feat:,:3:A4 flower 3 green
+feat:,:4:A4 flower 4 green
+feat:,:5:A4 flower 5 green
+feat:,:6:A4 flower 6 green
+feat:,:7:A4 flower 7 grass
+feat:,:8:A4 flower 8 grass
+feat:,:9:A4 flower 9 grass yellow
+feat:,:a:A4 flower a grass brown
+feat:,:b:A4 flower b orange
+feat:,:c:A4 flower c white
+feat:,:d:A4 flower d orange
+feat:,:e:A4 flower e red
+feat:,:f:A4 flower f violet
+feat:,:g:A4 flower g yellow
+feat:,:h:A4 flower h red
+feat:,:i:A4 flower i white
+feat:,:j:A4 flower j red
+feat:,:k:A4 flower k yellow
+feat:,:l:A4 flower l rose
+feat:,:m:A4 flower m purple
+feat:,:n:A4 flower n orange
+feat:,:o:A4 flower o rose
+feat:,:p:A4 flower p blue
+feat:,:q:A4 flower q rose
+feat:,:r:A4 flower r red
+feat:,:s:A4 flower s rose
+feat:,:t:A4 flower t white
+feat:,:u:A4 flower u red white
+feat:,:v:A4 flower v blue white
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A5 - flowers
