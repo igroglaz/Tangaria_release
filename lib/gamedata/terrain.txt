@@ -2765,7 +2765,7 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:A4 flower 0 green
+name:flower 0 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2773,7 +2773,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 1 green
+name:flower 1 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2781,7 +2781,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 2 green
+name:flower 2 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2789,7 +2789,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 3 green
+name:flower 3 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2797,7 +2797,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 4 green
+name:flower 4 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2805,7 +2805,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 5 green
+name:flower 5 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2813,7 +2813,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 6 green
+name:flower 6 green
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2821,7 +2821,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:green plants
 desc:A patch of grass.
 
-name:A4 flower 7 grass
+name:flower 7 grass
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2829,7 +2829,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:bush
 desc:A patch of grass.
 
-name:A4 flower 8 grass
+name:flower 8 grass
 graphics:.:y
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2837,7 +2837,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:yellow bush
 desc:A patch of grass.
 
-name:A4 flower 9 grass yellow
+name:flower 9 grass yellow
 graphics:.:y
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2845,7 +2845,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:yellow plants
 desc:A patch of grass.
 
-name:A4 flower a grass brown
+name:flower a grass brown
 graphics:.:u
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2853,7 +2853,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:brown plants
 desc:A patch of grass.
 
-name:A4 flower b orange
+name:flower b orange
 graphics:.:y
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2861,7 +2861,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:orange flower
 desc:A patch of flowers.
 
-name:A4 flower c white
+name:flower c white
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2869,7 +2869,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:white flowers
 desc:A patch of flowers.
 
-name:A4 flower d orange
+name:flower d orange
 graphics:.:y
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2877,7 +2877,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:orange flowers
 desc:A patch of flowers.
 
-name:A4 flower e red
+name:flower e red
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2885,7 +2885,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:A4 flower f violet
+name:flower f violet
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2893,7 +2893,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:violet flowers
 desc:A patch of flowers.
 
-name:A4 flower g yellow
+name:flower g yellow
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2901,7 +2901,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:yellow flowers
 desc:A patch of flowers.
 
-name:A4 flower h red
+name:flower h red
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2909,7 +2909,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:A4 flower i white
+name:flower i white
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2917,7 +2917,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:white flowers
 desc:A patch of flowers.
 
-name:A4 flower j red
+name:flower j red
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2925,7 +2925,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:A4 flower k yellow
+name:flower k yellow
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2933,7 +2933,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:yellow flowers
 desc:A patch of flowers.
 
-name:A4 flower l rose
+name:flower l rose
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2941,7 +2941,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:rose
 desc:A patch of flowers.
 
-name:A4 flower m purple
+name:flower m purple
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2949,7 +2949,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:purple flowers
 desc:A patch of flowers.
 
-name:A4 flower n orange
+name:flower n orange
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2957,7 +2957,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:orange flowers
 desc:A patch of flowers.
 
-name:A4 flower o rose
+name:flower o rose
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2965,7 +2965,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:roses
 desc:A patch of flowers.
 
-name:A4 flower p blue
+name:flower p blue
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2973,7 +2973,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:blue flowers
 desc:A patch of flowers.
 
-name:A4 flower q rose
+name:flower q rose
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2981,7 +2981,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:roses
 desc:A patch of flowers.
 
-name:A4 flower r red
+name:flower r red
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2989,7 +2989,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:A4 flower s rose
+name:flower s rose
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -2997,7 +2997,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:pink flowers
 desc:A patch of flowers.
 
-name:A4 flower t white
+name:flower t white
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -3005,7 +3005,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:white flowers
 desc:A patch of flowers.
 
-name:A4 flower u red white
+name:flower u red white
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -3013,7 +3013,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:red flowers
 desc:A patch of flowers.
 
-name:A4 flower v blue white
+name:flower v blue white
 graphics:.:g
 priority:2
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
