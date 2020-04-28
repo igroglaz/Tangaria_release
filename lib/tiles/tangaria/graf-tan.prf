@@ -3656,197 +3656,199 @@ feat:A3 severs v:dark:0xA3:0xFF
 # A4 - flowers
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# flower 0 green
-feat:flower 0 green:torch:0xA4:0x80
-feat:flower 0 green:los:0xA4:0x81
-feat:flower 0 green:lit:0xA4:0x82
-feat:flower 0 green:dark:0xA4:0x83
 
-# flower 1 green
-feat:flower 1 green:torch:0xA4:0x84
-feat:flower 1 green:los:0xA4:0x85
-feat:flower 1 green:lit:0xA4:0x86
-feat:flower 1 green:dark:0xA4:0x87
+# A4 flower 0 green
+feat:A4 flower 0 green:torch:0xA4:0x80
+feat:A4 flower 0 green:los:0xA4:0x81
+feat:A4 flower 0 green:lit:0xA4:0x82
+feat:A4 flower 0 green:dark:0xA4:0x83
 
-# flower 2 green
-feat:flower 2 green:torch:0xA4:0x88
-feat:flower 2 green:los:0xA4:0x89
-feat:flower 2 green:lit:0xA4:0x8A
-feat:flower 2 green:dark:0xA4:0x8B
+# A4 flower 1 green
+feat:A4 flower 1 green:torch:0xA4:0x84
+feat:A4 flower 1 green:los:0xA4:0x85
+feat:A4 flower 1 green:lit:0xA4:0x86
+feat:A4 flower 1 green:dark:0xA4:0x87
 
-# flower 3 green
-feat:flower 3 green:torch:0xA4:0x8C
-feat:flower 3 green:los:0xA4:0x8D
-feat:flower 3 green:lit:0xA4:0x8E
-feat:flower 3 green:dark:0xA4:0x8F
+# A4 flower 2 green
+feat:A4 flower 2 green:torch:0xA4:0x88
+feat:A4 flower 2 green:los:0xA4:0x89
+feat:A4 flower 2 green:lit:0xA4:0x8A
+feat:A4 flower 2 green:dark:0xA4:0x8B
 
-# flower 4 green
-feat:flower 4 green:torch:0xA4:0x90
-feat:flower 4 green:los:0xA4:0x91
-feat:flower 4 green:lit:0xA4:0x92
-feat:flower 4 green:dark:0xA4:0x93
+# A4 flower 3 green
+feat:A4 flower 3 green:torch:0xA4:0x8C
+feat:A4 flower 3 green:los:0xA4:0x8D
+feat:A4 flower 3 green:lit:0xA4:0x8E
+feat:A4 flower 3 green:dark:0xA4:0x8F
 
-# flower 5 green
-feat:flower 5 green:torch:0xA4:0x94
-feat:flower 5 green:los:0xA4:0x95
-feat:flower 5 green:lit:0xA4:0x96
-feat:flower 5 green:dark:0xA4:0x97
+# A4 flower 4 green
+feat:A4 flower 4 green:torch:0xA4:0x90
+feat:A4 flower 4 green:los:0xA4:0x91
+feat:A4 flower 4 green:lit:0xA4:0x92
+feat:A4 flower 4 green:dark:0xA4:0x93
 
-# flower 6 green
-feat:flower 6 green:torch:0xA4:0x98
-feat:flower 6 green:los:0xA4:0x99
-feat:flower 6 green:lit:0xA4:0x9A
-feat:flower 6 green:dark:0xA4:0x9B
+# A4 flower 5 green
+feat:A4 flower 5 green:torch:0xA4:0x94
+feat:A4 flower 5 green:los:0xA4:0x95
+feat:A4 flower 5 green:lit:0xA4:0x96
+feat:A4 flower 5 green:dark:0xA4:0x97
 
-# flower 7 grass
-feat:flower 7 grass:torch:0xA4:0x9C
-feat:flower 7 grass:los:0xA4:0x9D
-feat:flower 7 grass:lit:0xA4:0x9E
-feat:flower 7 grass:dark:0xA4:0x9F
+# A4 flower 6 green
+feat:A4 flower 6 green:torch:0xA4:0x98
+feat:A4 flower 6 green:los:0xA4:0x99
+feat:A4 flower 6 green:lit:0xA4:0x9A
+feat:A4 flower 6 green:dark:0xA4:0x9B
 
-# flower 8 grass
-feat:flower 8 grass:torch:0xA4:0xA0
-feat:flower 8 grass:los:0xA4:0xA1
-feat:flower 8 grass:lit:0xA4:0xA2
-feat:flower 8 grass:dark:0xA4:0xA3
+# A4 flower 7 grass
+feat:A4 flower 7 grass:torch:0xA4:0x9C
+feat:A4 flower 7 grass:los:0xA4:0x9D
+feat:A4 flower 7 grass:lit:0xA4:0x9E
+feat:A4 flower 7 grass:dark:0xA4:0x9F
 
-# flower 9 grass yellow
-feat:flower 9 grass yellow:torch:0xA4:0xA4
-feat:flower 9 grass yellow:los:0xA4:0xA5
-feat:flower 9 grass yellow:lit:0xA4:0xA6
-feat:flower 9 grass yellow:dark:0xA4:0xA7
+# A4 flower 8 grass
+feat:A4 flower 8 grass:torch:0xA4:0xA0
+feat:A4 flower 8 grass:los:0xA4:0xA1
+feat:A4 flower 8 grass:lit:0xA4:0xA2
+feat:A4 flower 8 grass:dark:0xA4:0xA3
 
-# flower a grass brown
-feat:flower a grass brown:torch:0xA4:0xA8
-feat:flower a grass brown:los:0xA4:0xA9
-feat:flower a grass brown:lit:0xA4:0xAA
-feat:flower a grass brown:dark:0xA4:0xAB
+# A4 flower 9 grass yellow
+feat:A4 flower 9 grass yellow:torch:0xA4:0xA4
+feat:A4 flower 9 grass yellow:los:0xA4:0xA5
+feat:A4 flower 9 grass yellow:lit:0xA4:0xA6
+feat:A4 flower 9 grass yellow:dark:0xA4:0xA7
 
-# flower b orange
-feat:flower b orange:torch:0xA4:0xAC
-feat:flower b orange:los:0xA4:0xAD
-feat:flower b orange:lit:0xA4:0xAE
-feat:flower b orange:dark:0xA4:0xAF
+# A4 flower a grass brown
+feat:A4 flower a grass brown:torch:0xA4:0xA8
+feat:A4 flower a grass brown:los:0xA4:0xA9
+feat:A4 flower a grass brown:lit:0xA4:0xAA
+feat:A4 flower a grass brown:dark:0xA4:0xAB
 
-# flower c white
-feat:flower c white:torch:0xA4:0xB0
-feat:flower c white:los:0xA4:0xB1
-feat:flower c white:lit:0xA4:0xB2
-feat:flower c white:dark:0xA4:0xB3
+# A4 flower b orange
+feat:A4 flower b orange:torch:0xA4:0xAC
+feat:A4 flower b orange:los:0xA4:0xAD
+feat:A4 flower b orange:lit:0xA4:0xAE
+feat:A4 flower b orange:dark:0xA4:0xAF
 
-# flower d orange
-feat:flower d orange:torch:0xA4:0xB4
-feat:flower d orange:los:0xA4:0xB5
-feat:flower d orange:lit:0xA4:0xB6
-feat:flower d orange:dark:0xA4:0xB7
+# A4 flower c white
+feat:A4 flower c white:torch:0xA4:0xB0
+feat:A4 flower c white:los:0xA4:0xB1
+feat:A4 flower c white:lit:0xA4:0xB2
+feat:A4 flower c white:dark:0xA4:0xB3
 
-# flower e red
-feat:flower e red:torch:0xA4:0xB8
-feat:flower e red:los:0xA4:0xB9
-feat:flower e red:lit:0xA4:0xBA
-feat:flower e red:dark:0xA4:0xBB
+# A4 flower d orange
+feat:A4 flower d orange:torch:0xA4:0xB4
+feat:A4 flower d orange:los:0xA4:0xB5
+feat:A4 flower d orange:lit:0xA4:0xB6
+feat:A4 flower d orange:dark:0xA4:0xB7
 
-# flower f violet
-feat:flower f violet:torch:0xA4:0xBC
-feat:flower f violet:los:0xA4:0xBD
-feat:flower f violet:lit:0xA4:0xBE
-feat:flower f violet:dark:0xA4:0xBF
+# A4 flower e red
+feat:A4 flower e red:torch:0xA4:0xB8
+feat:A4 flower e red:los:0xA4:0xB9
+feat:A4 flower e red:lit:0xA4:0xBA
+feat:A4 flower e red:dark:0xA4:0xBB
 
-# flower g yellow
-feat:flower g yellow:torch:0xA4:0xC0
-feat:flower g yellow:los:0xA4:0xC1
-feat:flower g yellow:lit:0xA4:0xC2
-feat:flower g yellow:dark:0xA4:0xC3
+# A4 flower f violet
+feat:A4 flower f violet:torch:0xA4:0xBC
+feat:A4 flower f violet:los:0xA4:0xBD
+feat:A4 flower f violet:lit:0xA4:0xBE
+feat:A4 flower f violet:dark:0xA4:0xBF
 
-# flower h red
-feat:flower h red:torch:0xA4:0xC4
-feat:flower h red:los:0xA4:0xC5
-feat:flower h red:lit:0xA4:0xC6
-feat:flower h red:dark:0xA4:0xC7
+# A4 flower g yellow
+feat:A4 flower g yellow:torch:0xA4:0xC0
+feat:A4 flower g yellow:los:0xA4:0xC1
+feat:A4 flower g yellow:lit:0xA4:0xC2
+feat:A4 flower g yellow:dark:0xA4:0xC3
 
-# flower i white
-feat:flower i white:torch:0xA4:0xC8
-feat:flower i white:los:0xA4:0xC9
-feat:flower i white:lit:0xA4:0xCA
-feat:flower i white:dark:0xA4:0xCB
+# A4 flower h red
+feat:A4 flower h red:torch:0xA4:0xC4
+feat:A4 flower h red:los:0xA4:0xC5
+feat:A4 flower h red:lit:0xA4:0xC6
+feat:A4 flower h red:dark:0xA4:0xC7
 
-# flower j red
-feat:flower j red:torch:0xA4:0xCC
-feat:flower j red:los:0xA4:0xCD
-feat:flower j red:lit:0xA4:0xCE
-feat:flower j red:dark:0xA4:0xCF
+# A4 flower i white
+feat:A4 flower i white:torch:0xA4:0xC8
+feat:A4 flower i white:los:0xA4:0xC9
+feat:A4 flower i white:lit:0xA4:0xCA
+feat:A4 flower i white:dark:0xA4:0xCB
 
-# flower k yellow
-feat:flower k yellow:torch:0xA4:0xD0
-feat:flower k yellow:los:0xA4:0xD1
-feat:flower k yellow:lit:0xA4:0xD2
-feat:flower k yellow:dark:0xA4:0xD3
+# A4 flower j red
+feat:A4 flower j red:torch:0xA4:0xCC
+feat:A4 flower j red:los:0xA4:0xCD
+feat:A4 flower j red:lit:0xA4:0xCE
+feat:A4 flower j red:dark:0xA4:0xCF
 
-# flower l rose
-feat:flower l rose:torch:0xA4:0xD4
-feat:flower l rose:los:0xA4:0xD5
-feat:flower l rose:lit:0xA4:0xD6
-feat:flower l rose:dark:0xA4:0xD7
+# A4 flower k yellow
+feat:A4 flower k yellow:torch:0xA4:0xD0
+feat:A4 flower k yellow:los:0xA4:0xD1
+feat:A4 flower k yellow:lit:0xA4:0xD2
+feat:A4 flower k yellow:dark:0xA4:0xD3
 
-# flower m purple
-feat:flower m purple:torch:0xA4:0xD8
-feat:flower m purple:los:0xA4:0xD9
-feat:flower m purple:lit:0xA4:0xDA
-feat:flower m purple:dark:0xA4:0xDB
+# A4 flower l rose
+feat:A4 flower l rose:torch:0xA4:0xD4
+feat:A4 flower l rose:los:0xA4:0xD5
+feat:A4 flower l rose:lit:0xA4:0xD6
+feat:A4 flower l rose:dark:0xA4:0xD7
 
-# flower n orange
-feat:flower n orange:torch:0xA4:0xDC
-feat:flower n orange:los:0xA4:0xDD
-feat:flower n orange:lit:0xA4:0xDE
-feat:flower n orange:dark:0xA4:0xDF
+# A4 flower m purple
+feat:A4 flower m purple:torch:0xA4:0xD8
+feat:A4 flower m purple:los:0xA4:0xD9
+feat:A4 flower m purple:lit:0xA4:0xDA
+feat:A4 flower m purple:dark:0xA4:0xDB
 
-# flower o rose
-feat:flower o rose:torch:0xA4:0xE0
-feat:flower o rose:los:0xA4:0xE1
-feat:flower o rose:lit:0xA4:0xE2
-feat:flower o rose:dark:0xA4:0xE3
+# A4 flower n orange
+feat:A4 flower n orange:torch:0xA4:0xDC
+feat:A4 flower n orange:los:0xA4:0xDD
+feat:A4 flower n orange:lit:0xA4:0xDE
+feat:A4 flower n orange:dark:0xA4:0xDF
 
-# flower p blue
-feat:flower p blue:torch:0xA4:0xE4
-feat:flower p blue:los:0xA4:0xE5
-feat:flower p blue:lit:0xA4:0xE6
-feat:flower p blue:dark:0xA4:0xE7
+# A4 flower o rose
+feat:A4 flower o rose:torch:0xA4:0xE0
+feat:A4 flower o rose:los:0xA4:0xE1
+feat:A4 flower o rose:lit:0xA4:0xE2
+feat:A4 flower o rose:dark:0xA4:0xE3
 
-# flower q rose
-feat:flower q rose:torch:0xA4:0xE8
-feat:flower q rose:los:0xA4:0xE9
-feat:flower q rose:lit:0xA4:0xEA
-feat:flower q rose:dark:0xA4:0xEB
+# A4 flower p blue
+feat:A4 flower p blue:torch:0xA4:0xE4
+feat:A4 flower p blue:los:0xA4:0xE5
+feat:A4 flower p blue:lit:0xA4:0xE6
+feat:A4 flower p blue:dark:0xA4:0xE7
 
-# flower r red
-feat:flower r red:torch:0xA4:0xEC
-feat:flower r red:los:0xA4:0xED
-feat:flower r red:lit:0xA4:0xEE
-feat:flower r red:dark:0xA4:0xEF
+# A4 flower q rose
+feat:A4 flower q rose:torch:0xA4:0xE8
+feat:A4 flower q rose:los:0xA4:0xE9
+feat:A4 flower q rose:lit:0xA4:0xEA
+feat:A4 flower q rose:dark:0xA4:0xEB
 
-# flower s rose
-feat:flower s rose:torch:0xA4:0xF0
-feat:flower s rose:los:0xA4:0xF1
-feat:flower s rose:lit:0xA4:0xF2
-feat:flower s rose:dark:0xA4:0xF3
+# A4 flower r red
+feat:A4 flower r red:torch:0xA4:0xEC
+feat:A4 flower r red:los:0xA4:0xED
+feat:A4 flower r red:lit:0xA4:0xEE
+feat:A4 flower r red:dark:0xA4:0xEF
 
-# flower t white
-feat:flower t white:torch:0xA4:0xF4
-feat:flower t white:los:0xA4:0xF5
-feat:flower t white:lit:0xA4:0xF6
-feat:flower t white:dark:0xA4:0xF7
+# A4 flower s rose
+feat:A4 flower s rose:torch:0xA4:0xF0
+feat:A4 flower s rose:los:0xA4:0xF1
+feat:A4 flower s rose:lit:0xA4:0xF2
+feat:A4 flower s rose:dark:0xA4:0xF3
 
-# flower u red white
-feat:flower u red white:torch:0xA4:0xF8
-feat:flower u red white:los:0xA4:0xF9
-feat:flower u red white:lit:0xA4:0xFA
-feat:flower u red white:dark:0xA4:0xFB
+# A4 flower t white
+feat:A4 flower t white:torch:0xA4:0xF4
+feat:A4 flower t white:los:0xA4:0xF5
+feat:A4 flower t white:lit:0xA4:0xF6
+feat:A4 flower t white:dark:0xA4:0xF7
 
-# flower v blue white
-feat:flower v blue white:torch:0xA4:0xFC
-feat:flower v blue white:los:0xA4:0xFD
-feat:flower v blue white:lit:0xA4:0xFE
-feat:flower v blue white:dark:0xA4:0xFF
+# A4 flower u red white
+feat:A4 flower u red white:torch:0xA4:0xF8
+feat:A4 flower u red white:los:0xA4:0xF9
+feat:A4 flower u red white:lit:0xA4:0xFA
+feat:A4 flower u red white:dark:0xA4:0xFB
+
+# A4 flower v blue white
+feat:A4 flower v blue white:torch:0xA4:0xFC
+feat:A4 flower v blue white:los:0xA4:0xFD
+feat:A4 flower v blue white:lit:0xA4:0xFE
+feat:A4 flower v blue white:dark:0xA4:0xFF
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A5 - flowers
