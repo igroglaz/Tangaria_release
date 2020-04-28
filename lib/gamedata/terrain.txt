@@ -3166,9 +3166,9 @@ desc:.
 name:A5 plants N
 graphics:#:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
 ################################################################################
-short-desc:small fir-tree
+short-desc:fir-tree
 desc:.
 
 name:A5 plants O

@@ -474,12 +474,124 @@ min-depth:12
 max-depth:20
 max-level:20
 flags:NO_DOORS | WATER_RIVER
-floor:floor E grass:64
-floor:floor 1 grass:24
-floor:floor w grass:12
-wall:tree 9 willow:60
-wall:tree n dead tree:30
+#floor:floor 1 grass:24
+#floor:floor w grass:12
+#
+# 74
+#
+# A1
+floor:tree 0 stump:1
+floor:tree 2 little:1
+floor:tree 7 coniferous small:1
+floor:tree a small willow:1
+floor:tree b broken log:1
+floor:tree c broken log:1
+floor:tree f linden small:1
+floor:tree h larch small:1
+floor:tree i bush:1
+floor:tree k gervais small:1
+floor:tree m palm small:1
+floor:tree n dead tree:1
+floor:tree o dead tree:1
+floor:tree p stump:1
+floor:tree q stump:1
+floor:tree r branch:1
+floor:tree s branch:1
+floor:tree t branch:1
+floor:tree u branch:1
+floor:tree v branch:1
+# A2
+floor:tree w fallen:1
+floor:tree x fallen:1
+floor:tree y fallen:1
+floor:tree z fallen:1
+floor:tree A fallen:1
+floor:tree B fallen:1
+floor:tree C small tree:1
+floor:tree G small tree:1
+floor:tree H:1
+floor:tree I:1
+floor:tree J:1
+floor:tree K:1
+floor:tree L:1
+floor:tree M:1
+floor:tree N:1
+floor:tree O:1
+floor:tree P:1
+floor:tree Q:1
+floor:tree R:1
+floor:tree S:1
+floor:tree U:1
+floor:tree V:1
+floor:tree W:1
+floor:tree X:1
+floor:tree Y:1
+floor:tree Z:1
+#a4
+floor:flower 0 green:1
+floor:flower 1 green:1
+floor:flower 2 green:1
+floor:flower 3 green:1
+floor:flower 4 green:1
+floor:flower 5 green:1
+floor:flower 6 green:1
+# B1
+floor:floor 0 grass:6
+floor:floor 1 grass:13
+# B2
+floor:floor w grass:10
+floor:floor x grass:1
+floor:floor y grass:1
+floor:floor z grass:1
+floor:floor A grass:1
+floor:floor B grass:1
+floor:floor C grass:1
+floor:floor D grass:1
+# ! was 44 20
+floor:floor E grass:1
+floor:floor F grass:1
+#
+floor:floor G rocks:1
+floor:floor I rocks:1
+floor:floor J rocks:1
+floor:floor N rock:1
+floor:floor O rock:1
+floor:floor W hills:1
+#b3
+floor:B3 floors 1:1
+floor:B3 floors 2:1
+floor:B3 floors 3:1
+###################################################
+#
+# 20
+#
+#A1
+wall:tree 1:1
+wall:tree 3:1
+wall:tree 4 maple:1
+wall:tree 5 maple:1
+wall:tree 6 coniferous:1
+wall:tree 8 coniferous:1
+# !
+wall:tree 9 willow:20
+wall:tree d birch:1
+wall:tree e linden:1
+wall:tree g larch:1
+#!
+wall:tree n dead tree:15
+wall:tree o dead tree:15
+#a2
+wall:tree D tree:1
+wall:tree E tree:1
+wall:tree F tree:1
+wall:tree V:10
+wall:tree W:7
+wall:tree X:10
 wall:tree Y:10
+#
+wall:A5 plants N:1
+#
+#
 rule:40:0
 rule-flags:ANIMAL
 rule:30:0

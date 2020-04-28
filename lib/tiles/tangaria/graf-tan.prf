@@ -3956,6 +3956,7 @@ feat:A5 plants M:los:0xA5:0xC1
 feat:A5 plants M:lit:0xA5:0xC2
 feat:A5 plants M:dark:0xA5:0xC3
 
+# new fir-tree
 # A5 plants N 
 feat:A5 plants N:torch:0xA5:0xC4
 feat:A5 plants N:los:0xA5:0xC5
