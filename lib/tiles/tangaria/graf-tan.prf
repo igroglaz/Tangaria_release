@@ -7475,6 +7475,7 @@ feat:wooden walls i:los:0xB7:0xC9
 feat:wooden walls i:lit:0xB7:0xCA
 feat:wooden walls i:dark:0xB7:0xCB
 
+#pics x4
 # wooden walls j 
 feat:wooden walls j:torch:0xB7:0xCC
 feat:wooden walls j:los:0xB7:0xCD

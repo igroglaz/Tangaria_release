@@ -8147,10 +8147,11 @@ info:0:2
 short-desc:window
 desc:.
 
+#pics 4x:
 name:wooden walls j
 graphics:#:u
 priority:18
-flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
 short-desc:window
@@ -8159,7 +8160,7 @@ desc:.
 name:wooden walls k
 graphics:#:u
 priority:18
-flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
 short-desc:window
@@ -8168,7 +8169,7 @@ desc:.
 name:wooden walls l
 graphics:#:u
 priority:18
-flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
 short-desc:window
@@ -8177,7 +8178,7 @@ desc:.
 name:wooden walls m
 graphics:#:u
 priority:18
-flags:MAGMA | WALL | ROCK | LOS | PROJECT | TORCH
+flags:MAGMA | NO_SCENT | NO_FLOW | TORCH
 info:0:2
 ################################################################################
 short-desc:window
@@ -18105,35 +18106,35 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DD wood wall
+# DD wood wall -> DOORS!
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:DD wood wall 0
 graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+priority:21
+flags:DOOR_ANY | DOOR_CLOSED | INTERESTING
 ################################################################################
-info:0:3
-short-desc:window
+info:0:6
+short-desc:closed door
 desc:.
 
 name:DD wood wall 1
 graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | CLOSABLE | EASY
 ################################################################################
-info:0:3
-short-desc:window
+short-desc:open door
 desc:.
 
 name:DD wood wall 2
 graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | EASY
 ################################################################################
-info:0:3
-short-desc:window
+short-desc:broken door
 desc:.
+
+#### empty:
 
 name:DD wood wall 3
 graphics:#:s
@@ -18398,7 +18399,7 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DE wood wall
+# DE wood wall -> EMPTY:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:DE wood wall w

@@ -396,7 +396,8 @@ wpos:0:1
 min-depth:8
 max-depth:15
 max-level:15
-flags:NO_DOORS | WATER_RIVER
+flags:WATER_RIVER
+#flags:!NO_DOORS
 #floor:B3 floors c:98
 #slime-blood:
 floor:E6 blood w:1
@@ -463,6 +464,10 @@ wall:B6 floors luquid `:1
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
 #wall:big dark wall b window:1
+door:DD wood wall 0:60
+door:DD wood wall 1:30
+door:DD wood wall 2:10
+#
 rule:20:0
 rule-symbols:p
 rule:80:1
