@@ -6427,7 +6427,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:And all of them are interested in Old Ruins to 
+name:And all of them ar interested in Old Ruins to the
 graphics:?:y
 type:fortune cookie
 level:0
@@ -6435,7 +6435,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:the west from my tavern. But I don't complain..
+name:north-east from my tavern. But I don't complain..
 graphics:?:y
 type:fortune cookie
 level:0
@@ -8458,4 +8458,3 @@ level:0
 weight:5
 cost:99999999
 desc:.
-

@@ -318,8 +318,8 @@ welcome:8:"A pleasure to do business with you, %s."
 always:fortune cookie:Hello, stranger. What are you doing there, in
 always:fortune cookie:this wild lands? You are not the first who came
 always:fortune cookie:though.. Strange folk appeared recently.
-always:fortune cookie:And all of them are interested in Old Ruins to 
-always:fortune cookie:the west from my tavern. But I don't complain..
+always:fortune cookie:And all of them ar interested in Old Ruins to the
+always:fortune cookie:north-east from my tavern. But I don't complain..
 always:fortune cookie:Finally I could get a few coins by selling some
 always:fortune cookie:of this goods.. Take a look at them...
 #######################################################################
