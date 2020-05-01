@@ -21339,7 +21339,7 @@ graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
-short-desc:well
+short-desc:dry well
 desc:.
 
 name:E8 desert K
@@ -22345,7 +22345,7 @@ graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
-short-desc:well
+short-desc:dry well
 desc:.
 
 name:EC dirt K
@@ -23354,7 +23354,7 @@ graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH | NO_STAIRS
 ################################################################################
-short-desc:well
+short-desc:frozen well
 desc:.
 
 name:F0 snow K
@@ -26757,7 +26757,7 @@ graphics:.:s
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 ################################################################################
-short-desc:well
+short-desc:dry well
 desc:.
 
 name:EC dirt F2W-CLONE K
