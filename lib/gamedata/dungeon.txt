@@ -60,7 +60,7 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:2
-#a4
+# A4
 floor:flower 0 green:100
 floor:flower 1 green:100
 floor:flower 2 green:100
@@ -94,7 +94,7 @@ floor:flower s rose:1
 floor:flower t white:1
 floor:flower u red white:1
 floor:flower v blue white:1
-#A5
+# A5
 floor:flower w rose:1
 floor:flower x blue:1
 floor:flower y purple:1
@@ -853,6 +853,7 @@ floor:tree X:100
 floor:tree Y:100
 floor:tree Z:100
 #a4
+# A4
 floor:flower 0 green:100
 floor:flower 1 green:100
 floor:flower 2 green:100
@@ -860,9 +861,56 @@ floor:flower 3 green:100
 floor:flower 4 green:100
 floor:flower 5 green:100
 floor:flower 6 green:100
+#
+floor:flower 7 grass:1
+floor:flower 8 grass:1
+floor:flower 9 grass yellow:1
+floor:flower a grass brown:1
+floor:flower b orange:1
+floor:flower c white:1
+floor:flower d orange:1
+floor:flower e red:1
+floor:flower f violet:1
+floor:flower g yellow:1
+floor:flower h red:1
+floor:flower i white:1
+floor:flower j red:1
+floor:flower k yellow:1
+floor:flower l rose:1
+floor:flower m purple:1
+floor:flower n orange:1
+floor:flower o rose:1
+floor:flower p blue:1
+floor:flower q rose:1
+floor:flower r red:1
+floor:flower s rose:1
+floor:flower t white:1
+floor:flower u red white:1
+floor:flower v blue white:1
+# A5
+floor:flower w rose:1
+floor:flower x blue:1
+floor:flower y purple:1
+floor:flower z blue:1
+floor:flower A red:1
+floor:flower B orange:1
+floor:flower C pink:1
+floor:flower D red:1
+floor:flower E blue:1
+floor:flower F red:1
+# 4x grass:
+floor:A5 plants G:34
+floor:A5 plants H:33
+#common (floor 0 grass) altered:
+floor:A5 plants I:300
+floor:A5 plants J:33
+# 2x mushrooms:
+floor:A5 plants K:1
+floor:A5 plants L:1
+#######################################
 # B1
-floor:floor 0 grass:600
-floor:floor 1 grass:1300
+floor:floor 0 grass:300
+floor:floor 1 grass:2050
 # B2
 floor:floor w grass:100
 floor:floor x grass:100
@@ -882,10 +930,13 @@ floor:floor J rocks:100
 floor:floor N rock:100
 floor:floor O rock:100
 floor:floor W hills:100
-#b3
+# B3
 floor:B3 floors 1:100
 floor:B3 floors 2:100
 floor:B3 floors 3:100
+# A7
+floor:obj_grass A puddle:7
+floor:obj_grass K puddle:6
 ###################################################
 #
 # 20
