@@ -686,13 +686,45 @@ flags:WATER_RIVER
 #flags:!NO_DOORS
 #floor:B3 floors c:98
 #slime-blood:
-floor:E6 blood w:100
-floor:E6 blood x:100
-floor:E6 blood y:100
-floor:E6 blood z:100
-floor:E6 blood A:100
-floor:E6 blood B:100
+floor:E6 blood w:20
+floor:E6 blood x:20
+floor:E6 blood y:20
+floor:E6 blood z:20
+floor:E6 blood A:20
+floor:E6 blood B:3
 #
+floor:E5 blood 0:1
+floor:E5 blood 1:1
+floor:E5 blood 2:1
+floor:E5 blood 3:1
+floor:E5 blood 4:1
+floor:E5 blood 5:1
+floor:E5 blood 6:1
+floor:E5 blood 7:1
+floor:E5 blood 8:1
+floor:E5 blood 9:1
+floor:E5 blood a:1
+floor:E5 blood b:1
+floor:E5 blood c:1
+floor:E5 blood d:1
+floor:E5 blood e:1
+floor:E5 blood f:1
+floor:E5 blood g:1
+floor:E5 blood h:1
+floor:E5 blood i:1
+floor:E5 blood j:1
+floor:E5 blood k:1
+floor:E5 blood l:1
+floor:E5 blood m:1
+floor:E5 blood n:1
+floor:E5 blood o:1
+floor:E5 blood p:1
+floor:E5 blood q:1
+floor:E5 blood r:1
+floor:E5 blood s:1
+floor:E5 blood t:1
+floor:E5 blood u:1
+floor:E5 blood v:1
 #floor:B6 floors luquid T:1
 #floor:B6 floors luquid S:1
 #floor:B3 floors 9:97
@@ -734,8 +766,8 @@ wall:A3 severs t:100
 wall:A3 severs u:100
 wall:A3 severs v:100
 #
-wall:AA wall w:2000
-wall:AA wall x:1000
+wall:AA wall w:2100
+wall:AA wall x:1100
 wall:AA wall y:100
 wall:AA wall z:100
 wall:AA wall A:100
@@ -743,9 +775,9 @@ wall:AA wall B:100
 #
 wall:B6 floors luquid X:100
 wall:B6 floors luquid Y:100
-wall:B6 floors luquid Z:100
-wall:B6 floors luquid ~:100
-wall:B6 floors luquid `:100
+wall:B6 floors luquid Z:33
+wall:B6 floors luquid ~:33
+wall:B6 floors luquid `:34
 #if green walls:
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
