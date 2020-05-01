@@ -1311,7 +1311,7 @@ desc:.
 name:98 wall 1
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1338,7 +1338,7 @@ desc:.
 name:98 wall 4
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1374,7 +1374,7 @@ desc:.
 name:98 wall 8
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1383,7 +1383,7 @@ desc:.
 name:98 wall 9
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
 info:0:3
 short-desc:wall

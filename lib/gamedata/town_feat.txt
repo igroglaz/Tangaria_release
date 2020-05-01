@@ -384,10 +384,14 @@ feat:,:G:A5 plants G
 feat:,:H:A5 plants H
 feat:,:I:A5 plants I
 feat:,:J:A5 plants J
+#mushrooms:
 feat:,:K:A5 plants K
 feat:,:L:A5 plants L
+#small tree:
 feat:,:M:A5 plants M
+#fir-tree:
 feat:,:N:A5 plants N
+#bush:
 feat:,:O:A5 plants O
 feat:,:P:A5 plants P
 feat:,:Q:A5 plants Q

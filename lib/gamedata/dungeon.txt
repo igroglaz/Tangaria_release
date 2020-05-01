@@ -68,10 +68,60 @@ floor:flower 3 green:100
 floor:flower 4 green:100
 floor:flower 5 green:100
 floor:flower 6 green:100
-#floor:B3 floors n:1
-floor:floor 0 grass:2500
-floor:floor 1 grass:2800
-#b2
+#
+floor:flower 7 grass:1
+floor:flower 8 grass:1
+floor:flower 9 grass yellow:1
+floor:flower a grass brown:1
+floor:flower b orange:1
+floor:flower c white:1
+floor:flower d orange:1
+floor:flower e red:1
+floor:flower f violet:1
+floor:flower g yellow:1
+floor:flower h red:1
+floor:flower i white:1
+floor:flower j red:1
+floor:flower k yellow:1
+floor:flower l rose:1
+floor:flower m purple:1
+floor:flower n orange:1
+floor:flower o rose:1
+floor:flower p blue:1
+floor:flower q rose:1
+floor:flower r red:1
+floor:flower s rose:1
+floor:flower t white:1
+floor:flower u red white:1
+floor:flower v blue white:1
+#A5
+floor:flower w rose:1
+floor:flower x blue:1
+floor:flower y purple:1
+floor:flower z blue:1
+floor:flower A red:1
+floor:flower B orange:1
+floor:flower C pink:1
+floor:flower D red:1
+floor:flower E blue:1
+floor:flower F red:1
+# 4x grass:
+floor:A5 plants G:34
+floor:A5 plants H:33
+#common (floor 0 grass) altered:
+floor:A5 plants I:650
+floor:A5 plants J:33
+# 2x mushrooms:
+floor:A5 plants K:3
+floor:A5 plants L:2
+#1x40 ^
+#
+#
+#1x20 V
+# B1
+floor:floor 0 grass:2100
+floor:floor 1 grass:2700
+# B2
 floor:floor w grass:2500
 floor:floor x grass:100
 floor:floor y grass:100
@@ -80,16 +130,46 @@ floor:floor A grass:100
 floor:floor B grass:100
 floor:floor C grass:100
 floor:floor D grass:100
-floor:floor G rocks:100
-floor:floor I rocks:100
-floor:floor J rocks:100
-floor:floor N rock:100
-floor:floor O rock:100
-floor:floor W hills:100
+#
+floor:floor E grass:1
+floor:floor F grass:1
+#
+floor:floor G rocks:50
+#
+floor:floor H rocks:1
+#
+floor:floor I rocks:50
+floor:floor J rocks:50
+#
+floor:floor K rocks:1
+floor:floor L rock:1
+floor:floor M rock:1
+#
+floor:floor N rock:50
+floor:floor O rock:50
+#
+floor:floor P rocks:1
+floor:floor Q dirt:1
+floor:floor R dirt:1
+floor:floor S dirt:1
+floor:floor T dirt:1
+floor:floor U dirt:1
+floor:floor V dirt:1
+#
+floor:floor W hills:41
+#
+floor:floor X hill:1
+floor:floor Y hill:1
+floor:floor Z lowland:1
+floor:floor ~ lowland:1
+floor:floor ` lowland:1
+#
 #b3
 floor:B3 floors 2:100
 floor:B3 floors 3:100
-#25 total; 
+#
+floor:hill:1
+#24 total; 
 #A1
 ###################################################
 #a1
@@ -124,8 +204,43 @@ wall:big dark wall 0:100
 wall:big dark wall 1:100
 wall:big dark wall 9 entrance:100
 wall:big dark wall a low entrance:100
-wall:big dark wall b window:100
+wall:big dark wall b window:71
 #64 total
+#=========
+# 96-wall: ....... 29 total:
+wall:dark wall:1
+# 
+wall:96 wall M:1
+wall:96 wall N:1
+wall:96 wall O:1
+wall:96 wall P:1
+wall:96 wall Q:1
+wall:96 wall R:1
+wall:96 wall S:1
+wall:96 wall T:1
+wall:96 wall U:1
+wall:96 wall V:1
+wall:96 wall W:1
+wall:96 wall X:1
+# 98-wall:
+wall:98 wall 0:1
+wall:98 wall 1:1
+wall:98 wall 2:1
+wall:98 wall 3:1
+wall:98 wall 4:1
+wall:98 wall 5:1
+wall:98 wall 6:1
+wall:98 wall 7:1
+wall:98 wall 8:1
+wall:98 wall 9:1
+wall:98 wall a:1
+wall:98 wall b:1
+wall:98 wall c:1
+wall:98 wall d:1
+# 9D-wall:
+wall:9D wall 5:1
+wall:9D wall 6:1
+#
 flags:EMPTY
 rule:10000:1
 
