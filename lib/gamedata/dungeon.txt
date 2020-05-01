@@ -531,8 +531,8 @@ floor:EC dirt `:100
 floor:floor Q dirt:100
 floor:floor R dirt:100
 #
-wall:EB dirt F2W-CLONE 0:6
-wall:EB dirt F2W-CLONE 1:6
+wall:EB dirt F2W-CLONE 0:11
+wall:EB dirt F2W-CLONE 1:1
 wall:EB dirt F2W-CLONE 2:1
 wall:EB dirt F2W-CLONE 3:1
 wall:EB dirt F2W-CLONE 4:1
@@ -982,39 +982,45 @@ min-depth:15
 max-depth:23
 max-level:20
 flags:CAVERN
-floor:packed dirt:2100
-floor:EB dirt 0:1000
-#21 + (1+8) + 69
-floor:EB dirt 1:100
-# floor:EB dirt 2:1 birch
-# floor:EB dirt 3:1 birch
-floor:EB dirt 4:100
-floor:EB dirt 5:100
-floor:EB dirt 6:100
-floor:EB dirt 7:100
-floor:EB dirt 8:100
-floor:EB dirt 9:100
-floor:EB dirt a:100
-floor:EB dirt b:100
-floor:EB dirt c:100
+floor:packed dirt:3650
+#20 + (1+8) + 71
+#900+2k^
+floor:EB dirt 0:1400
+floor:EB dirt 1:5
+floor:EB dirt 2:5
+floor:EB dirt 3:50
+floor:EB dirt 4:50
+floor:EB dirt 5:5
+floor:EB dirt 6:5
+floor:EB dirt 7:5
+floor:EB dirt 8:5
+floor:EB dirt 9:5
+floor:EB dirt a:5
+floor:EB dirt b:5
+floor:EB dirt c:5
+# 1700 - 150 - 100 = 1450
+# 2x dry tree
 floor:EB dirt d:100
 floor:EB dirt e:100
-floor:EB dirt f:100
-floor:EB dirt g:100
-floor:EB dirt h:100
-floor:EB dirt i:100
-floor:EB dirt j:100
-floor:EB dirt k:100
-floor:EB dirt l:100
-floor:EB dirt m:100
-floor:EB dirt n:100
-floor:EB dirt o:100
-floor:EB dirt p:100
-floor:EB dirt q:100
-floor:EB dirt r:100
-floor:EB dirt s:100
-floor:EB dirt t:100
-floor:EB dirt u:100
+#
+floor:EB dirt f:15
+floor:EB dirt g:15
+floor:EB dirt h:50
+floor:EB dirt i:10
+floor:EB dirt j:10
+# plants: 1100-400 = -700
+floor:EB dirt k:50
+floor:EB dirt l:50
+floor:EB dirt m:50
+floor:EB dirt n:50
+floor:EB dirt o:35
+floor:EB dirt p:50
+floor:EB dirt q:50
+floor:EB dirt r:10
+floor:EB dirt s:25
+floor:EB dirt t:5
+floor:EB dirt u:25
+#
 floor:EB dirt v:100
 ###
 floor:EE dirt w:100
@@ -1034,7 +1040,8 @@ floor:EE dirt J:100
 floor:EE dirt K:100
 floor:EE dirt L:100
 floor:EE dirt M:100
-#floor:EE dirt N:1 too much rocks
+# lots of rocks:
+floor:EE dirt N:1
 floor:EE dirt O:100
 floor:EE dirt P:100
 floor:EE dirt Q:100
@@ -1049,31 +1056,95 @@ floor:EE dirt Y:100
 floor:EE dirt Z:100
 floor:EE dirt ~:100
 floor:EE dirt `:100
-###
+### EC
+floor:EC dirt w:1
+floor:EC dirt x:1
+floor:EC dirt y:1
+floor:EC dirt z:1
+floor:EC dirt A:1
+floor:EC dirt B:1
+floor:EC dirt C:1
+floor:EC dirt D:1
+floor:EC dirt E:1
+#3x major bones:
+#floor:EC dirt F
+#floor:EC dirt G
+#floor:EC dirt H
+floor:EC dirt I:1
+floor:EC dirt J:1
+floor:EC dirt K:1
+floor:EC dirt L:1
+#floor:EC dirt M
+floor:EC dirt N:1
+#floor:EC dirt O
+floor:EC dirt P:1
+floor:EC dirt Q:1
+floor:EC dirt R:1
+# wagon:
+floor:EC dirt S:1
+floor:EC dirt T:2
+# +1x20 ^
+# rocks:
 floor:EC dirt U:100
-floor:EC dirt V:100
+# -20:
+floor:EC dirt V:80
 floor:EC dirt W:100
 floor:EC dirt X:100
 floor:EC dirt Y:100
 floor:EC dirt Z:100
 floor:EC dirt ~:100
 floor:EC dirt `:100
-# grass 2x:
+# grass 4x:
 floor:floor Q dirt:100
 floor:floor R dirt:100
 #
-wall:ED dirt F2W-CLONE 0:2700
-wall:ED dirt F2W-CLONE 1:800
-wall:ED dirt F2W-CLONE 2:2000
-wall:ED dirt F2W-CLONE 3:500
-wall:ED dirt F2W-CLONE 4:100
-wall:ED dirt F2W-CLONE 5:100
-wall:ED dirt F2W-CLONE 6:100
-wall:ED dirt F2W-CLONE 7:100
-wall:ED dirt F2W-CLONE 8:100
-wall:ED dirt F2W-CLONE 9:100
-wall:ED dirt F2W-CLONE a:100
-wall:ED dirt F2W-CLONE b:100
+wall:EB dirt F2W-CLONE 0:541
+wall:EB dirt F2W-CLONE 1:1
+wall:EB dirt F2W-CLONE 2:1
+wall:EB dirt F2W-CLONE 3:1
+wall:EB dirt F2W-CLONE 4:1
+wall:EB dirt F2W-CLONE 5:1
+wall:EB dirt F2W-CLONE 6:1
+wall:EB dirt F2W-CLONE 7:1
+wall:EB dirt F2W-CLONE 8:1
+wall:EB dirt F2W-CLONE 9:1
+wall:EB dirt F2W-CLONE a:1
+wall:EB dirt F2W-CLONE b:1
+wall:EB dirt F2W-CLONE c:1
+wall:EB dirt F2W-CLONE d:11
+wall:EB dirt F2W-CLONE e:11
+wall:EB dirt F2W-CLONE f:11
+wall:EB dirt F2W-CLONE g:11
+wall:EB dirt F2W-CLONE h:11
+wall:EB dirt F2W-CLONE i:11
+wall:EB dirt F2W-CLONE j:11
+wall:EB dirt F2W-CLONE k:11
+wall:EB dirt F2W-CLONE l:11
+wall:EB dirt F2W-CLONE m:11
+wall:EB dirt F2W-CLONE n:11
+wall:EB dirt F2W-CLONE o:11
+wall:EB dirt F2W-CLONE p:11
+wall:EB dirt F2W-CLONE q:11
+wall:EB dirt F2W-CLONE r:11
+wall:EB dirt F2W-CLONE s:11
+wall:EB dirt F2W-CLONE t:11
+wall:EB dirt F2W-CLONE u:11
+wall:EB dirt F2W-CLONE v:11
+#
+wall:ED dirt F2W-CLONE 0:2600
+wall:ED dirt F2W-CLONE 1:1000
+wall:ED dirt F2W-CLONE 2:3150
+wall:ED dirt F2W-CLONE 3:900
+wall:ED dirt F2W-CLONE 4:30
+wall:ED dirt F2W-CLONE 5:15
+wall:ED dirt F2W-CLONE 6:5
+wall:ED dirt F2W-CLONE 7:15
+wall:ED dirt F2W-CLONE 8:10
+wall:ED dirt F2W-CLONE 9:10
+wall:ED dirt F2W-CLONE a:40
+wall:ED dirt F2W-CLONE b:25
+# 800-150 = -650
+#rocks:
 wall:ED dirt F2W-CLONE c:100
 wall:ED dirt F2W-CLONE d:100
 wall:ED dirt F2W-CLONE e:100
@@ -1084,31 +1155,87 @@ wall:ED dirt F2W-CLONE i:100
 wall:ED dirt F2W-CLONE j:100
 wall:ED dirt F2W-CLONE k:100
 wall:ED dirt F2W-CLONE l:100
-wall:ED dirt F2W-CLONE m:100
-wall:ED dirt F2W-CLONE n:100
-wall:ED dirt F2W-CLONE o:100
-wall:ED dirt F2W-CLONE p:100
-wall:ED dirt F2W-CLONE q:100
-wall:ED dirt F2W-CLONE r:100
-wall:ED dirt F2W-CLONE s:100
-wall:ED dirt F2W-CLONE t:100
-wall:ED dirt F2W-CLONE u:100
-wall:ED dirt F2W-CLONE v:100
-#skeletons minor:
-wall:EC dirt F2W-CLONE w:100
-wall:EC dirt F2W-CLONE x:100
-wall:EC dirt F2W-CLONE y:100
-wall:EC dirt F2W-CLONE z:100
-wall:EC dirt F2W-CLONE A:100
-wall:EC dirt F2W-CLONE B:100
-wall:EC dirt F2W-CLONE C:100
-wall:EC dirt F2W-CLONE D:100
-wall:EC dirt F2W-CLONE E:100
-wall:EC dirt F2W-CLONE F:100
+#lonely ugly rocks: 
+wall:ED dirt F2W-CLONE m:5
+wall:ED dirt F2W-CLONE n:5
+wall:ED dirt F2W-CLONE o:5
+wall:ED dirt F2W-CLONE p:5
+wall:ED dirt F2W-CLONE q:5
+wall:ED dirt F2W-CLONE r:5
+wall:ED dirt F2W-CLONE s:5
+wall:ED dirt F2W-CLONE t:5
+wall:ED dirt F2W-CLONE u:5
+wall:ED dirt F2W-CLONE v:5
 #
-wall:EC dirt F2W-CLONE G:100
-wall:EC dirt F2W-CLONE H:100
-wall:EC dirt F2W-CLONE I:100
+#skeletons minor:
+wall:EC dirt F2W-CLONE w:10
+wall:EC dirt F2W-CLONE x:10
+wall:EC dirt F2W-CLONE y:10
+wall:EC dirt F2W-CLONE z:10
+wall:EC dirt F2W-CLONE A:10
+wall:EC dirt F2W-CLONE B:10
+wall:EC dirt F2W-CLONE C:10
+wall:EC dirt F2W-CLONE D:10
+wall:EC dirt F2W-CLONE E:10
+wall:EC dirt F2W-CLONE F:10
+# big skel: 54 V +EB32 = 86 + 14 EE`
+wall:EC dirt F2W-CLONE G:10
+wall:EC dirt F2W-CLONE H:10
+wall:EC dirt F2W-CLONE I:10
+#
+wall:EC dirt F2W-CLONE J:10
+wall:EC dirt F2W-CLONE K:10
+wall:EC dirt F2W-CLONE L:10
+wall:EC dirt F2W-CLONE M:10
+wall:EC dirt F2W-CLONE N:10
+wall:EC dirt F2W-CLONE O:10
+wall:EC dirt F2W-CLONE P:10
+wall:EC dirt F2W-CLONE Q:10
+wall:EC dirt F2W-CLONE R:10
+wall:EC dirt F2W-CLONE S:10
+wall:EC dirt F2W-CLONE T:10
+#rocks:
+wall:EC dirt F2W-CLONE U:10
+wall:EC dirt F2W-CLONE V:10
+wall:EC dirt F2W-CLONE W:10
+wall:EC dirt F2W-CLONE X:10
+wall:EC dirt F2W-CLONE Y:10
+wall:EC dirt F2W-CLONE Z:10
+wall:EC dirt F2W-CLONE ~:10
+wall:EC dirt F2W-CLONE `:10
+#
+wall:EE dirt F2W-CLONE w:10
+wall:EE dirt F2W-CLONE x:10
+wall:EE dirt F2W-CLONE y:10
+wall:EE dirt F2W-CLONE z:10
+wall:EE dirt F2W-CLONE A:10
+wall:EE dirt F2W-CLONE B:10
+wall:EE dirt F2W-CLONE C:10
+wall:EE dirt F2W-CLONE D:10
+wall:EE dirt F2W-CLONE E:10
+wall:EE dirt F2W-CLONE F:10
+wall:EE dirt F2W-CLONE G:10
+wall:EE dirt F2W-CLONE H:10
+wall:EE dirt F2W-CLONE I:10
+wall:EE dirt F2W-CLONE J:10
+wall:EE dirt F2W-CLONE K:10
+wall:EE dirt F2W-CLONE L:10
+wall:EE dirt F2W-CLONE M:10
+wall:EE dirt F2W-CLONE N:10
+wall:EE dirt F2W-CLONE O:10
+wall:EE dirt F2W-CLONE P:10
+wall:EE dirt F2W-CLONE Q:10
+wall:EE dirt F2W-CLONE R:10
+wall:EE dirt F2W-CLONE S:10
+wall:EE dirt F2W-CLONE T:10
+wall:EE dirt F2W-CLONE U:10
+wall:EE dirt F2W-CLONE V:10
+wall:EE dirt F2W-CLONE W:10
+wall:EE dirt F2W-CLONE X:10
+wall:EE dirt F2W-CLONE Y:10
+wall:EE dirt F2W-CLONE Z:10
+wall:EE dirt F2W-CLONE ~:10
+wall:EE dirt F2W-CLONE `:24
 rule:5000:0
 rule-flags:ORC
 rule-symbols:koO
