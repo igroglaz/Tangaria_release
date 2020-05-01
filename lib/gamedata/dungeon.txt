@@ -251,39 +251,45 @@ min-depth:2
 max-depth:5
 max-level:5
 flags:NO_DOORS | WATER_RIVER
-floor:packed dirt:2000
-floor:EB dirt 0:900
+floor:packed dirt:3650
 #20 + (1+8) + 71
-floor:EB dirt 1:100
-floor:EB dirt 2:100
-floor:EB dirt 3:100
-floor:EB dirt 4:100
-floor:EB dirt 5:100
-floor:EB dirt 6:100
-floor:EB dirt 7:100
-floor:EB dirt 8:100
-floor:EB dirt 9:100
-floor:EB dirt a:100
-floor:EB dirt b:100
-floor:EB dirt c:100
+#900+2k^
+floor:EB dirt 0:1350
+floor:EB dirt 1:5
+floor:EB dirt 2:5
+floor:EB dirt 3:50
+floor:EB dirt 4:50
+floor:EB dirt 5:5
+floor:EB dirt 6:5
+floor:EB dirt 7:5
+floor:EB dirt 8:5
+floor:EB dirt 9:5
+floor:EB dirt a:5
+floor:EB dirt b:5
+floor:EB dirt c:5
+# 1700 - 150 - 100 = 1450
+# 2x dry tree
 floor:EB dirt d:100
 floor:EB dirt e:100
-floor:EB dirt f:100
-floor:EB dirt g:100
-floor:EB dirt h:100
-floor:EB dirt i:100
-floor:EB dirt j:100
-floor:EB dirt k:100
-floor:EB dirt l:100
-floor:EB dirt m:100
-floor:EB dirt n:100
-floor:EB dirt o:100
-floor:EB dirt p:100
-floor:EB dirt q:100
-floor:EB dirt r:100
-floor:EB dirt s:100
-floor:EB dirt t:100
-floor:EB dirt u:100
+#
+floor:EB dirt f:15
+floor:EB dirt g:15
+floor:EB dirt h:50
+floor:EB dirt i:10
+floor:EB dirt j:10
+# plants: 1100-450 = -650
+floor:EB dirt k:50
+floor:EB dirt l:50
+floor:EB dirt m:50
+floor:EB dirt n:50
+floor:EB dirt o:50
+floor:EB dirt p:50
+floor:EB dirt q:50
+floor:EB dirt r:25
+floor:EB dirt s:25
+floor:EB dirt t:25
+floor:EB dirt u:25
+#
 floor:EB dirt v:100
 ###
 floor:EE dirt w:100
@@ -303,7 +309,8 @@ floor:EE dirt J:100
 floor:EE dirt K:100
 floor:EE dirt L:100
 floor:EE dirt M:100
-#floor:EE dirt N:1 too much rocks
+# lots of rocks:
+floor:EE dirt N:1
 floor:EE dirt O:100
 floor:EE dirt P:100
 floor:EE dirt Q:100
@@ -318,9 +325,38 @@ floor:EE dirt Y:100
 floor:EE dirt Z:100
 floor:EE dirt ~:100
 floor:EE dirt `:100
-###
+### EC
+floor:EC dirt w:1
+floor:EC dirt x:1
+floor:EC dirt y:1
+floor:EC dirt z:1
+floor:EC dirt A:1
+floor:EC dirt B:1
+floor:EC dirt C:1
+floor:EC dirt D:1
+floor:EC dirt E:1
+#3x major bones:
+#floor:EC dirt F
+#floor:EC dirt G
+#floor:EC dirt H
+floor:EC dirt I:1
+floor:EC dirt J:1
+floor:EC dirt K:1
+floor:EC dirt L:1
+#floor:EC dirt M
+floor:EC dirt N:1
+#floor:EC dirt O
+floor:EC dirt P:1
+floor:EC dirt Q:1
+floor:EC dirt R:1
+# wagon:
+floor:EC dirt S:1
+floor:EC dirt T:2
+# +1x20 ^
+# rocks:
 floor:EC dirt U:100
-floor:EC dirt V:100
+# -20:
+floor:EC dirt V:80
 floor:EC dirt W:100
 floor:EC dirt X:100
 floor:EC dirt Y:100
@@ -330,19 +366,20 @@ floor:EC dirt `:100
 # grass 4x:
 floor:floor Q dirt:100
 floor:floor R dirt:100
-#
-wall:ED dirt F2W-CLONE 0:2400
-wall:ED dirt F2W-CLONE 1:500
+wall:ED dirt F2W-CLONE 0:3400
+wall:ED dirt F2W-CLONE 1:900
 wall:ED dirt F2W-CLONE 2:3400
 wall:ED dirt F2W-CLONE 3:1000
-wall:ED dirt F2W-CLONE 4:100
-wall:ED dirt F2W-CLONE 5:100
-wall:ED dirt F2W-CLONE 6:100
-wall:ED dirt F2W-CLONE 7:100
-wall:ED dirt F2W-CLONE 8:100
-wall:ED dirt F2W-CLONE 9:100
-wall:ED dirt F2W-CLONE a:100
-wall:ED dirt F2W-CLONE b:100
+wall:ED dirt F2W-CLONE 4:30
+wall:ED dirt F2W-CLONE 5:15
+wall:ED dirt F2W-CLONE 6:5
+wall:ED dirt F2W-CLONE 7:15
+wall:ED dirt F2W-CLONE 8:10
+wall:ED dirt F2W-CLONE 9:10
+wall:ED dirt F2W-CLONE a:40
+wall:ED dirt F2W-CLONE b:25
+# 800-150 = -650
+#rocks:
 wall:ED dirt F2W-CLONE c:100
 wall:ED dirt F2W-CLONE d:100
 wall:ED dirt F2W-CLONE e:100
@@ -353,16 +390,17 @@ wall:ED dirt F2W-CLONE i:100
 wall:ED dirt F2W-CLONE j:100
 wall:ED dirt F2W-CLONE k:100
 wall:ED dirt F2W-CLONE l:100
-wall:ED dirt F2W-CLONE m:100
-wall:ED dirt F2W-CLONE n:100
-wall:ED dirt F2W-CLONE o:100
-wall:ED dirt F2W-CLONE p:100
-wall:ED dirt F2W-CLONE q:100
-wall:ED dirt F2W-CLONE r:100
-wall:ED dirt F2W-CLONE s:100
-wall:ED dirt F2W-CLONE t:100
-wall:ED dirt F2W-CLONE u:100
-wall:ED dirt F2W-CLONE v:100
+#lonely ugly rocks: -750
+wall:ED dirt F2W-CLONE m:25
+wall:ED dirt F2W-CLONE n:25
+wall:ED dirt F2W-CLONE o:25
+wall:ED dirt F2W-CLONE p:25
+wall:ED dirt F2W-CLONE q:25
+wall:ED dirt F2W-CLONE r:25
+wall:ED dirt F2W-CLONE s:25
+wall:ED dirt F2W-CLONE t:25
+wall:ED dirt F2W-CLONE u:25
+wall:ED dirt F2W-CLONE v:25
 rule:4000:0
 rule-flags:ANIMAL
 rule:3000:0

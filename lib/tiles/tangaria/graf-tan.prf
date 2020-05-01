@@ -16998,7 +16998,7 @@ feat:E8 desert R:los:0xE8:0xD5
 feat:E8 desert R:lit:0xE8:0xD6
 feat:E8 desert R:dark:0xE8:0xD7
 
-# E8 desert S 
+# E8 desert S wagon
 feat:E8 desert S:torch:0xE8:0xD8
 feat:E8 desert S:los:0xE8:0xD9
 feat:E8 desert S:lit:0xE8:0xDA
