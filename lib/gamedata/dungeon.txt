@@ -1935,34 +1935,80 @@ wpos:0:-2
 min-depth:27
 max-depth:34
 max-level:35
-flags:NO_DOORS | EMPTY
+flags:NO_DOORS | EMPTY | CIRCULAR_ROOMS
 floor:light grass:3300
 floor:light grass plants:3400
 floor:light grass flowers:3300
-#A1
-###################################################
-wall:tree 1:2100
-wall:tree 3:1600
-wall:tree 4 maple:500
-wall:tree 5 maple:300
-wall:tree 6 coniferous:100
-wall:tree 8 coniferous:100
-wall:tree 9 willow:500
-wall:tree d birch:1000
-wall:tree e linden:1000
-wall:tree g larch:100
-wall:tree n dead tree:500
-wall:tree o dead tree:500
-#a2
-wall:tree D tree:300
-wall:tree E tree:300
-wall:tree F tree:100
-# withered trees:
-wall:tree V:300
-wall:tree W:300
-wall:tree X:90
-wall:tree Y:500
-#a7
+# A1
+###################################   1800
+wall:tree F2W 0 stump:10
+wall:tree F2W 1:90
+wall:tree F2W 2 little:100
+wall:tree F2W 3:100
+wall:tree F2W 4 maple:100
+wall:tree F2W 5 maple:100
+wall:tree F2W 6 coniferous:100
+wall:tree F2W 7 coniferous small:100
+wall:tree F2W 8 coniferous:100
+wall:tree F2W 9 willow:100
+wall:tree F2W a small willow:100
+wall:tree F2W b broken log:100
+wall:tree F2W c broken log:100
+wall:tree F2W d birch:100
+wall:tree F2W e linden:100
+wall:tree F2W f linden small:100
+wall:tree F2W g larch:100
+wall:tree F2W h larch small:100
+wall:tree F2W i bush:99
+#wall:tree F2W j gervais:1
+wall:tree F2W k gervais small:1
+#wall:tree F2W l palm:1############## 900
+wall:tree F2W m palm small:1
+wall:tree F2W n dead tree:99
+wall:tree F2W o dead tree:100
+wall:tree F2W p stump:100
+wall:tree F2W q stump:100
+wall:tree F2W r branch:100
+wall:tree F2W s branch:100
+wall:tree F2W t branch:100
+wall:tree F2W u branch:100
+wall:tree F2W v branch:100
+# A2 - trees######################### 600
+wall:tree F2W w fallen:10
+wall:tree F2W x fallen:10
+wall:tree F2W y fallen:10
+wall:tree F2W z fallen:10
+wall:tree F2W A fallen:10
+wall:tree F2W B fallen:10
+wall:tree F2W C small tree:120
+wall:tree F2W D tree:100
+wall:tree F2W E tree:100
+wall:tree F2W F tree:100
+wall:tree F2W G small tree:120
+#### FURTHER ON: SMALL TREES ######## 6000:
+wall:tree F2W H:500
+wall:tree F2W I:500
+wall:tree F2W J:500
+wall:tree F2W K:500
+wall:tree F2W L:500
+wall:tree F2W M:500
+wall:tree F2W N:500
+wall:tree F2W O:500
+wall:tree F2W P:500
+wall:tree F2W Q:500
+wall:tree F2W R:500
+wall:tree F2W S:700
+#wall:tree F2W T:1 ! basic symbol ##### 500:
+wall:tree F2W U:100
+#### 4x dry:
+wall:tree F2W V:100
+wall:tree F2W W:100
+wall:tree F2W X:90
+wall:tree F2W Y:97
+wall:tree F2W Z:1
+wall:tree F2W ~:1
+wall:tree F2W `:1
+# A7
 wall:obj_grass L ruins:1
 wall:obj_grass M ruins:1
 wall:obj_grass N ruins:1

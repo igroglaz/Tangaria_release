@@ -3636,4 +3636,4 @@ feat:*:*:newbie star
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 #H
 
-# the same No stairs / no monsters for sand.
+# the same No stairs / no monsters for sand, trees...

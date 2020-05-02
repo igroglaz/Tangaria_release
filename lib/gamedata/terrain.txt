@@ -2764,7 +2764,6 @@ desc:.
 # A4 - flowers
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:flower 0 green
 graphics:.:g
 priority:2
@@ -28404,4 +28403,976 @@ graphics:.:y
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY
 short-desc:sand
+desc:.
+
+
+################## F2W trees
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A1 F2W trees
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:tree F2W 0 stump
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:old withered tree stump with anthill on one side.
+info:0:1
+desc:A withered tree stump.
+
+name:tree F2W 1
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+################################################################################
+short-desc:common tree. It's got thick leaves and strong roots.
+info:0:1
+desc:A tree.
+
+name:tree F2W 2 little
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:tiny tree. It's not a sprig already, it will grow big in time.
+info:0:1
+desc:A little tree.
+
+name:tree F2W 3
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+################################################################################
+short-desc:tree. Its stretch it's brances to the sun and whispers to a wind...
+info:0:1
+desc:A tree.
+
+name:tree F2W 4 maple
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:maple tree. Its spiky leaves outlines reminds you about childhood.
+desc:A maple tree.
+
+name:tree F2W 5 maple
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:strong maple. It will hold a house on it's branches. Lets climb it?
+desc:A maple tree.
+
+name:tree F2W 6 coniferous
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:fir-tree. Sweetish smell of fresh resin and needles make you happy.
+desc:A coniferous tree.
+
+
+name:tree F2W 7 coniferous small
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tiny coniferous tree
+desc:.
+
+name:tree F2W 8 coniferous
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:coniferous tree
+desc:.
+
+name:tree F2W 9 willow
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:willow tree
+desc:.
+
+name:tree F2W a small willow
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small willow tree
+desc:.
+
+name:tree F2W b broken log
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:broken log
+desc:.
+
+name:tree F2W c broken log
+graphics:*:D
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:broken log
+desc:.
+
+name:tree F2W d birch
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:birch tree
+desc:.
+
+name:tree F2W e linden
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:linden tree
+desc:.
+
+name:tree F2W f linden small
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+info:0:1
+################################################################################
+short-desc:tiny linden tree
+desc:.
+
+name:tree F2W g larch
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:larch tree
+desc:.
+
+name:tree F2W h larch small
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+info:0:1
+################################################################################
+short-desc:tiny larch tree
+desc:.
+
+name:tree F2W i bush
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+info:0:1
+################################################################################
+short-desc:bush
+desc:.
+
+name:tree F2W j gervais
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:acacia tree
+desc:.
+
+name:tree F2W k gervais small
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tiny acacia tree
+desc:.
+
+name:tree F2W l palm
+graphics:*:g
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:palm tree
+desc:.
+
+name:tree F2W m palm small
+graphics:*:u
+priority:4
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tiny palm tree
+desc:.
+
+name:tree F2W n dead tree
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:dead tree
+desc:.
+
+name:tree F2W o dead tree
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:dead tree
+desc:.
+
+name:tree F2W p stump
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:stump
+desc:.
+
+name:tree F2W q stump
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:stump
+desc:.
+
+name:tree F2W r branch
+graphics:.:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree branch
+desc:.
+
+name:tree F2W s branch
+graphics:.:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree branch
+desc:.
+
+name:tree F2W t branch
+graphics:.:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree branch
+desc:.
+
+name:tree F2W u branch
+graphics:.:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree branch
+desc:.
+
+name:tree F2W v branch
+graphics:.:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree branch
+desc:.
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A2 - tree
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:tree F2W w fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:fallen birch
+desc:.
+
+name:tree F2W x fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:fallen tree
+desc:.
+
+name:tree F2W y fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree log
+desc:.
+
+name:tree F2W z fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree log
+desc:.
+
+name:tree F2W A fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree log
+desc:.
+
+name:tree F2W B fallen
+graphics:*:D
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:tree log
+desc:.
+
+name:tree F2W C small tree
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small tree
+desc:.
+
+name:tree F2W D tree
+graphics:*:g
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:tree
+desc:.
+
+name:tree F2W E tree
+graphics:*:g
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:tree
+desc:.
+
+name:tree F2W F tree
+graphics:*:g
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:tree
+desc:.
+
+name:tree F2W G small tree
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small tree
+desc:.
+
+#### FURTHER ON: SMALL TREES
+
+name:tree F2W H
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W I
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W J
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W K
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W L
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W M
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W N
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W O
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W P
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W Q
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W R
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W S
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W T
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W U
+graphics:*:u
+priority:9
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small trees
+desc:.
+
+name:tree F2W V
+graphics:*:W
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:tree F2W W
+graphics:*:W
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:tree F2W X
+graphics:*:W
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:tree F2W Y
+graphics:*:W
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:tree F2W Z
+graphics:.:D
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:stump
+desc:.
+
+name:tree F2W ~
+graphics:.:u
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small fruit tree
+desc:.
+
+name:tree F2W `
+graphics:.:u
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+info:0:1
+################################################################################
+short-desc:small tree
+desc:.
+
+########################## GRASS =-=-=-=-=-=-=-=-=
+
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A4 F2W flowers
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:flower F2W 0 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 1 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 2 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 3 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 4 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 5 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 6 green
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:green plants
+desc:A patch of grass.
+
+name:flower F2W 7 grass
+graphics:.:g
+priority:2
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:bush
+desc:A patch of grass.
+
+
+###############################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B1 F2W floors
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:floor F2W 0 grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W 1 grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+######################################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B2 F2W floors
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:floor F2W w grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W x grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W y grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W z grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W A grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W B grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W C grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W D grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W E grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W F grass
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:floor F2W G rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W H rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W I rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W J rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W K rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W L rock
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W M rock
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W N rock
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W O rock
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W P rocks
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:rocky grass
+desc:.
+
+name:floor F2W Q dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W R dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W S dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W T dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W U dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W V dirt
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:dirt with patches of grass
+desc:.
+
+name:floor F2W W hills
+graphics:^:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:hill
+desc:.
+
+name:floor F2W X hill
+graphics:^:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:hill
+desc:.
+
+name:floor F2W Y hill
+graphics:^:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:hill
+desc:.
+
+name:floor F2W Z lowland
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:lowland
+desc:.
+
+name:floor F2W ~ lowland
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:lowland
+desc:.
+
+name:floor F2W ` lowland
+graphics:.:g
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+################################################################################
+short-desc:lowland
+desc:.
+
+#########
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B3 F2W floors
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:B3 floors F2W 2
+graphics:.:s
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:grass
+desc:.
+
+name:B3 floors F2W 3
+graphics:.:s
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
+################################################################################
+short-desc:grass
 desc:.

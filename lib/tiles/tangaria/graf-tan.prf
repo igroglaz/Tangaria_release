@@ -22197,6 +22197,698 @@ feat:EA sand F2W `:los:0xEA:0xFD
 feat:EA sand F2W `:lit:0xEA:0xFE
 feat:EA sand F2W `:dark:0xEA:0xFF
 
+#########################################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A1 F2W trees
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# tree F2W 0 stump
+feat:tree F2W 0 stump:torch:0xA1:0x80
+feat:tree F2W 0 stump:los:0xA1:0x81
+feat:tree F2W 0 stump:lit:0xA1:0x82
+feat:tree F2W 0 stump:dark:0xA1:0x83
+
+# tree F2W 1
+feat:tree F2W 1:torch:0xA1:0x84
+feat:tree F2W 1:los:0xA1:0x85
+feat:tree F2W 1:lit:0xA1:0x86
+feat:tree F2W 1:dark:0xA1:0x87
+
+# tree F2W 2 little
+feat:tree F2W 2 little:torch:0xA1:0x88
+feat:tree F2W 2 little:los:0xA1:0x89
+feat:tree F2W 2 little:lit:0xA1:0x8A
+feat:tree F2W 2 little:dark:0xA1:0x8B
+
+# tree F2W 3
+feat:tree F2W 3:torch:0xA1:0x8C
+feat:tree F2W 3:los:0xA1:0x8D
+feat:tree F2W 3:lit:0xA1:0x8E
+feat:tree F2W 3:dark:0xA1:0x8F
+
+# tree F2W 4 maple
+feat:tree F2W 4 maple:torch:0xA1:0x90
+feat:tree F2W 4 maple:los:0xA1:0x91
+feat:tree F2W 4 maple:lit:0xA1:0x92
+feat:tree F2W 4 maple:dark:0xA1:0x93
+
+# tree F2W 5 maple
+feat:tree F2W 5 maple:torch:0xA1:0x94
+feat:tree F2W 5 maple:los:0xA1:0x95
+feat:tree F2W 5 maple:lit:0xA1:0x96
+feat:tree F2W 5 maple:dark:0xA1:0x97
+
+# tree F2W 6 coniferous
+feat:tree F2W 6 coniferous:torch:0xA1:0x98
+feat:tree F2W 6 coniferous:los:0xA1:0x99
+feat:tree F2W 6 coniferous:lit:0xA1:0x9A
+feat:tree F2W 6 coniferous:dark:0xA1:0x9B
+
+# tree F2W 7 coniferous small
+feat:tree F2W 7 coniferous small:torch:0xA1:0x9C
+feat:tree F2W 7 coniferous small:los:0xA1:0x9D
+feat:tree F2W 7 coniferous small:lit:0xA1:0x9E
+feat:tree F2W 7 coniferous small:dark:0xA1:0x9F
+
+# tree F2W 8 coniferous
+feat:tree F2W 8 coniferous:torch:0xA1:0xA0
+feat:tree F2W 8 coniferous:los:0xA1:0xA1
+feat:tree F2W 8 coniferous:lit:0xA1:0xA2
+feat:tree F2W 8 coniferous:dark:0xA1:0xA3
+
+# tree F2W 9 willow
+feat:tree F2W 9 willow:torch:0xA1:0xA4
+feat:tree F2W 9 willow:los:0xA1:0xA5
+feat:tree F2W 9 willow:lit:0xA1:0xA6
+feat:tree F2W 9 willow:dark:0xA1:0xA7
+
+# tree F2W a small willow
+feat:tree F2W a small willow:torch:0xA1:0xA8
+feat:tree F2W a small willow:los:0xA1:0xA9
+feat:tree F2W a small willow:lit:0xA1:0xAA
+feat:tree F2W a small willow:dark:0xA1:0xAB
+
+# tree F2W b broken log
+feat:tree F2W b broken log:torch:0xA1:0xAC
+feat:tree F2W b broken log:los:0xA1:0xAD
+feat:tree F2W b broken log:lit:0xA1:0xAE
+feat:tree F2W b broken log:dark:0xA1:0xAF
+
+# tree F2W c broken log
+feat:tree F2W c broken log:torch:0xA1:0xB0
+feat:tree F2W c broken log:los:0xA1:0xB1
+feat:tree F2W c broken log:lit:0xA1:0xB2
+feat:tree F2W c broken log:dark:0xA1:0xB3
+
+# tree F2W d birch
+feat:tree F2W d birch:torch:0xA1:0xB4
+feat:tree F2W d birch:los:0xA1:0xB5
+feat:tree F2W d birch:lit:0xA1:0xB6
+feat:tree F2W d birch:dark:0xA1:0xB7
+
+# tree F2W e linden (lipa)
+feat:tree F2W e linden:torch:0xA1:0xB8
+feat:tree F2W e linden:los:0xA1:0xB9
+feat:tree F2W e linden:lit:0xA1:0xBA
+feat:tree F2W e linden:dark:0xA1:0xBB
+
+# tree F2W f linden small
+feat:tree F2W f linden small:torch:0xA1:0xBC
+feat:tree F2W f linden small:los:0xA1:0xBD
+feat:tree F2W f linden small:lit:0xA1:0xBE
+feat:tree F2W f linden small:dark:0xA1:0xBF
+
+# tree F2W g larch
+feat:tree F2W g larch:torch:0xA1:0xC0
+feat:tree F2W g larch:los:0xA1:0xC1
+feat:tree F2W g larch:lit:0xA1:0xC2
+feat:tree F2W g larch:dark:0xA1:0xC3
+
+# tree F2W h larch small
+feat:tree F2W h larch small:torch:0xA1:0xC4
+feat:tree F2W h larch small:los:0xA1:0xC5
+feat:tree F2W h larch small:lit:0xA1:0xC6
+feat:tree F2W h larch small:dark:0xA1:0xC7
+
+# tree F2W i bush
+feat:tree F2W i bush:torch:0xA1:0xC8
+feat:tree F2W i bush:los:0xA1:0xC9
+feat:tree F2W i bush:lit:0xA1:0xCA
+feat:tree F2W i bush:dark:0xA1:0xCB
+
+# tree F2W j gervais
+feat:tree F2W j gervais:torch:0xA1:0xCC
+feat:tree F2W j gervais:los:0xA1:0xCD
+feat:tree F2W j gervais:lit:0xA1:0xCE
+feat:tree F2W j gervais:dark:0xA1:0xCF
+
+# tree F2W k gervais small
+feat:tree F2W k gervais small:torch:0xA1:0xD0
+feat:tree F2W k gervais small:los:0xA1:0xD1
+feat:tree F2W k gervais small:lit:0xA1:0xD2
+feat:tree F2W k gervais small:dark:0xA1:0xD3
+
+# tree F2W l palm
+feat:tree F2W l palm:torch:0xA1:0xD4
+feat:tree F2W l palm:los:0xA1:0xD5
+feat:tree F2W l palm:lit:0xA1:0xD6
+feat:tree F2W l palm:dark:0xA1:0xD7
+
+# tree F2W m palm small
+feat:tree F2W m palm small:torch:0xA1:0xD8
+feat:tree F2W m palm small:los:0xA1:0xD9
+feat:tree F2W m palm small:lit:0xA1:0xDA
+feat:tree F2W m palm small:dark:0xA1:0xDB
+
+# tree F2W n dead tree
+feat:tree F2W n dead tree:torch:0xA1:0xDC
+feat:tree F2W n dead tree:los:0xA1:0xDD
+feat:tree F2W n dead tree:lit:0xA1:0xDE
+feat:tree F2W n dead tree:dark:0xA1:0xDF
+
+# tree F2W o dead tree
+feat:tree F2W o dead tree:torch:0xA1:0xE0
+feat:tree F2W o dead tree:los:0xA1:0xE1
+feat:tree F2W o dead tree:lit:0xA1:0xE2
+feat:tree F2W o dead tree:dark:0xA1:0xE3
+
+# tree F2W p stump
+feat:tree F2W p stump:torch:0xA1:0xE4
+feat:tree F2W p stump:los:0xA1:0xE5
+feat:tree F2W p stump:lit:0xA1:0xE6
+feat:tree F2W p stump:dark:0xA1:0xE7
+
+# tree F2W q stump
+feat:tree F2W q stump:torch:0xA1:0xE8
+feat:tree F2W q stump:los:0xA1:0xE9
+feat:tree F2W q stump:lit:0xA1:0xEA
+feat:tree F2W q stump:dark:0xA1:0xEB
+
+# tree F2W r branch
+feat:tree F2W r branch:torch:0xA1:0xEC
+feat:tree F2W r branch:los:0xA1:0xED
+feat:tree F2W r branch:lit:0xA1:0xEE
+feat:tree F2W r branch:dark:0xA1:0xEF
+
+# tree F2W s branch
+feat:tree F2W s branch:torch:0xA1:0xF0
+feat:tree F2W s branch:los:0xA1:0xF1
+feat:tree F2W s branch:lit:0xA1:0xF2
+feat:tree F2W s branch:dark:0xA1:0xF3
+
+# tree F2W t branch
+feat:tree F2W t branch:torch:0xA1:0xF4
+feat:tree F2W t branch:los:0xA1:0xF5
+feat:tree F2W t branch:lit:0xA1:0xF6
+feat:tree F2W t branch:dark:0xA1:0xF7
+
+# tree F2W u branch
+feat:tree F2W u branch:torch:0xA1:0xF8
+feat:tree F2W u branch:los:0xA1:0xF9
+feat:tree F2W u branch:lit:0xA1:0xFA
+feat:tree F2W u branch:dark:0xA1:0xFB
+
+# tree F2W v branch
+feat:tree F2W v branch:torch:0xA1:0xFC
+feat:tree F2W v branch:los:0xA1:0xFD
+feat:tree F2W v branch:lit:0xA1:0xFE
+feat:tree F2W v branch:dark:0xA1:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A2 F2W tree
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# tree F2W w fallen
+feat:tree F2W w fallen:torch:0xA2:0x80
+feat:tree F2W w fallen:los:0xA2:0x81
+feat:tree F2W w fallen:lit:0xA2:0x82
+feat:tree F2W w fallen:dark:0xA2:0x83
+
+# tree F2W x fallen
+feat:tree F2W x fallen:torch:0xA2:0x84
+feat:tree F2W x fallen:los:0xA2:0x85
+feat:tree F2W x fallen:lit:0xA2:0x86
+feat:tree F2W x fallen:dark:0xA2:0x87
+
+# tree F2W y fallen
+feat:tree F2W y fallen:torch:0xA2:0x88
+feat:tree F2W y fallen:los:0xA2:0x89
+feat:tree F2W y fallen:lit:0xA2:0x8A
+feat:tree F2W y fallen:dark:0xA2:0x8B
+
+# tree F2W z fallen
+feat:tree F2W z fallen:torch:0xA2:0x8C
+feat:tree F2W z fallen:los:0xA2:0x8D
+feat:tree F2W z fallen:lit:0xA2:0x8E
+feat:tree F2W z fallen:dark:0xA2:0x8F
+
+# tree F2W A fallen
+feat:tree F2W A fallen:torch:0xA2:0x90
+feat:tree F2W A fallen:los:0xA2:0x91
+feat:tree F2W A fallen:lit:0xA2:0x92
+feat:tree F2W A fallen:dark:0xA2:0x93
+
+# tree F2W B fallen
+feat:tree F2W B fallen:torch:0xA2:0x94
+feat:tree F2W B fallen:los:0xA2:0x95
+feat:tree F2W B fallen:lit:0xA2:0x96
+feat:tree F2W B fallen:dark:0xA2:0x97
+
+# tree F2W C small tree
+feat:tree F2W C small tree:torch:0xA2:0x98
+feat:tree F2W C small tree:los:0xA2:0x99
+feat:tree F2W C small tree:lit:0xA2:0x9A
+feat:tree F2W C small tree:dark:0xA2:0x9B
+
+# tree F2W D tree
+feat:tree F2W D tree:torch:0xA2:0x9C
+feat:tree F2W D tree:los:0xA2:0x9D
+feat:tree F2W D tree:lit:0xA2:0x9E
+feat:tree F2W D tree:dark:0xA2:0x9F
+
+# tree F2W E tree
+feat:tree F2W E tree:torch:0xA2:0xA0
+feat:tree F2W E tree:los:0xA2:0xA1
+feat:tree F2W E tree:lit:0xA2:0xA2
+feat:tree F2W E tree:dark:0xA2:0xA3
+
+# tree F2W F tree
+feat:tree F2W F tree:torch:0xA2:0xA4
+feat:tree F2W F tree:los:0xA2:0xA5
+feat:tree F2W F tree:lit:0xA2:0xA6
+feat:tree F2W F tree:dark:0xA2:0xA7
+
+# tree F2W G small tree
+feat:tree F2W G small tree:torch:0xA2:0xA8
+feat:tree F2W G small tree:los:0xA2:0xA9
+feat:tree F2W G small tree:lit:0xA2:0xAA
+feat:tree F2W G small tree:dark:0xA2:0xAB
+
+#### FURTHER ON: SMALL TREES
+
+# tree F2W H 
+feat:tree F2W H:torch:0xA2:0xAC
+feat:tree F2W H:los:0xA2:0xAD
+feat:tree F2W H:lit:0xA2:0xAE
+feat:tree F2W H:dark:0xA2:0xAF
+
+# tree F2W I 
+feat:tree F2W I:torch:0xA2:0xB0
+feat:tree F2W I:los:0xA2:0xB1
+feat:tree F2W I:lit:0xA2:0xB2
+feat:tree F2W I:dark:0xA2:0xB3
+
+# tree F2W J 
+feat:tree F2W J:torch:0xA2:0xB4
+feat:tree F2W J:los:0xA2:0xB5
+feat:tree F2W J:lit:0xA2:0xB6
+feat:tree F2W J:dark:0xA2:0xB7
+
+# tree F2W K 
+feat:tree F2W K:torch:0xA2:0xB8
+feat:tree F2W K:los:0xA2:0xB9
+feat:tree F2W K:lit:0xA2:0xBA
+feat:tree F2W K:dark:0xA2:0xBB
+
+# tree F2W L 
+feat:tree F2W L:torch:0xA2:0xBC
+feat:tree F2W L:los:0xA2:0xBD
+feat:tree F2W L:lit:0xA2:0xBE
+feat:tree F2W L:dark:0xA2:0xBF
+
+# tree F2W M 
+feat:tree F2W M:torch:0xA2:0xC0
+feat:tree F2W M:los:0xA2:0xC1
+feat:tree F2W M:lit:0xA2:0xC2
+feat:tree F2W M:dark:0xA2:0xC3
+
+# tree F2W N 
+feat:tree F2W N:torch:0xA2:0xC4
+feat:tree F2W N:los:0xA2:0xC5
+feat:tree F2W N:lit:0xA2:0xC6
+feat:tree F2W N:dark:0xA2:0xC7
+
+# tree F2W O 
+feat:tree F2W O:torch:0xA2:0xC8
+feat:tree F2W O:los:0xA2:0xC9
+feat:tree F2W O:lit:0xA2:0xCA
+feat:tree F2W O:dark:0xA2:0xCB
+
+# tree F2W P 
+feat:tree F2W P:torch:0xA2:0xCC
+feat:tree F2W P:los:0xA2:0xCD
+feat:tree F2W P:lit:0xA2:0xCE
+feat:tree F2W P:dark:0xA2:0xCF
+
+# tree F2W Q 
+feat:tree F2W Q:torch:0xA2:0xD0
+feat:tree F2W Q:los:0xA2:0xD1
+feat:tree F2W Q:lit:0xA2:0xD2
+feat:tree F2W Q:dark:0xA2:0xD3
+
+# tree F2W R 
+feat:tree F2W R:torch:0xA2:0xD4
+feat:tree F2W R:los:0xA2:0xD5
+feat:tree F2W R:lit:0xA2:0xD6
+feat:tree F2W R:dark:0xA2:0xD7
+
+# tree F2W S 
+feat:tree F2W S:torch:0xA2:0xD8
+feat:tree F2W S:los:0xA2:0xD9
+feat:tree F2W S:lit:0xA2:0xDA
+feat:tree F2W S:dark:0xA2:0xDB
+
+# tree F2W T 
+feat:tree F2W T:torch:0xA2:0xDC
+feat:tree F2W T:los:0xA2:0xDD
+feat:tree F2W T:lit:0xA2:0xDE
+feat:tree F2W T:dark:0xA2:0xDF
+
+# tree F2W U 
+feat:tree F2W U:torch:0xA2:0xE0
+feat:tree F2W U:los:0xA2:0xE1
+feat:tree F2W U:lit:0xA2:0xE2
+feat:tree F2W U:dark:0xA2:0xE3
+
+# tree F2W V 
+feat:tree F2W V:torch:0xA2:0xE4
+feat:tree F2W V:los:0xA2:0xE5
+feat:tree F2W V:lit:0xA2:0xE6
+feat:tree F2W V:dark:0xA2:0xE7
+
+# tree F2W W 
+feat:tree F2W W:torch:0xA2:0xE8
+feat:tree F2W W:los:0xA2:0xE9
+feat:tree F2W W:lit:0xA2:0xEA
+feat:tree F2W W:dark:0xA2:0xEB
+
+# tree F2W X 
+feat:tree F2W X:torch:0xA2:0xEC
+feat:tree F2W X:los:0xA2:0xED
+feat:tree F2W X:lit:0xA2:0xEE
+feat:tree F2W X:dark:0xA2:0xEF
+
+# tree F2W Y 
+feat:tree F2W Y:torch:0xA2:0xF0
+feat:tree F2W Y:los:0xA2:0xF1
+feat:tree F2W Y:lit:0xA2:0xF2
+feat:tree F2W Y:dark:0xA2:0xF3
+
+# tree F2W Z 
+feat:tree F2W Z:torch:0xA2:0xF4
+feat:tree F2W Z:los:0xA2:0xF5
+feat:tree F2W Z:lit:0xA2:0xF6
+feat:tree F2W Z:dark:0xA2:0xF7
+
+# tree F2W ~ 
+feat:tree F2W ~:torch:0xA2:0xF8
+feat:tree F2W ~:los:0xA2:0xF9
+feat:tree F2W ~:lit:0xA2:0xFA
+feat:tree F2W ~:dark:0xA2:0xFB
+
+# tree F2W ` 
+feat:tree F2W `:torch:0xA2:0xFC
+feat:tree F2W `:los:0xA2:0xFD
+feat:tree F2W `:lit:0xA2:0xFE
+feat:tree F2W `:dark:0xA2:0xFF
+
+
+################################################ GRASS
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A4 - flower F2Ws
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# flower F2W 0 green
+feat:flower F2W 0 green:torch:0xA4:0x80
+feat:flower F2W 0 green:los:0xA4:0x81
+feat:flower F2W 0 green:lit:0xA4:0x82
+feat:flower F2W 0 green:dark:0xA4:0x83
+
+# flower F2W 1 green
+feat:flower F2W 1 green:torch:0xA4:0x84
+feat:flower F2W 1 green:los:0xA4:0x85
+feat:flower F2W 1 green:lit:0xA4:0x86
+feat:flower F2W 1 green:dark:0xA4:0x87
+
+# flower F2W 2 green
+feat:flower F2W 2 green:torch:0xA4:0x88
+feat:flower F2W 2 green:los:0xA4:0x89
+feat:flower F2W 2 green:lit:0xA4:0x8A
+feat:flower F2W 2 green:dark:0xA4:0x8B
+
+# flower F2W 3 green
+feat:flower F2W 3 green:torch:0xA4:0x8C
+feat:flower F2W 3 green:los:0xA4:0x8D
+feat:flower F2W 3 green:lit:0xA4:0x8E
+feat:flower F2W 3 green:dark:0xA4:0x8F
+
+# flower F2W 4 green
+feat:flower F2W 4 green:torch:0xA4:0x90
+feat:flower F2W 4 green:los:0xA4:0x91
+feat:flower F2W 4 green:lit:0xA4:0x92
+feat:flower F2W 4 green:dark:0xA4:0x93
+
+# flower F2W 5 green
+feat:flower F2W 5 green:torch:0xA4:0x94
+feat:flower F2W 5 green:los:0xA4:0x95
+feat:flower F2W 5 green:lit:0xA4:0x96
+feat:flower F2W 5 green:dark:0xA4:0x97
+
+# flower F2W 6 green
+feat:flower F2W 6 green:torch:0xA4:0x98
+feat:flower F2W 6 green:los:0xA4:0x99
+feat:flower F2W 6 green:lit:0xA4:0x9A
+feat:flower F2W 6 green:dark:0xA4:0x9B
+
+# flower F2W 7 grass
+feat:flower F2W 7 grass:torch:0xA4:0x9C
+feat:flower F2W 7 grass:los:0xA4:0x9D
+feat:flower F2W 7 grass:lit:0xA4:0x9E
+feat:flower F2W 7 grass:dark:0xA4:0x9F
+
+############################################
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B1 F2W floors
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# floor F2W 0 grass
+feat:floor F2W 0 grass:torch:0xB1:0x80
+feat:floor F2W 0 grass:los:0xB1:0x81
+feat:floor F2W 0 grass:lit:0xB1:0x82
+feat:floor F2W 0 grass:dark:0xB1:0x83
+
+# floor F2W 1 grass
+feat:floor F2W 1 grass:torch:0xB1:0x84
+feat:floor F2W 1 grass:los:0xB1:0x85
+feat:floor F2W 1 grass:lit:0xB1:0x86
+feat:floor F2W 1 grass:dark:0xB1:0x87
+
+##########################################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B2 F2W floor
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# floor F2W w grass
+feat:floor F2W w grass:torch:0xB2:0x80
+feat:floor F2W w grass:los:0xB2:0x81
+feat:floor F2W w grass:lit:0xB2:0x82
+feat:floor F2W w grass:dark:0xB2:0x83
+
+# floor F2W x grass
+feat:floor F2W x grass:torch:0xB2:0x84
+feat:floor F2W x grass:los:0xB2:0x85
+feat:floor F2W x grass:lit:0xB2:0x86
+feat:floor F2W x grass:dark:0xB2:0x87
+
+# floor F2W y grass
+feat:floor F2W y grass:torch:0xB2:0x88
+feat:floor F2W y grass:los:0xB2:0x89
+feat:floor F2W y grass:lit:0xB2:0x8A
+feat:floor F2W y grass:dark:0xB2:0x8B
+
+# floor F2W z grass
+feat:floor F2W z grass:torch:0xB2:0x8C
+feat:floor F2W z grass:los:0xB2:0x8D
+feat:floor F2W z grass:lit:0xB2:0x8E
+feat:floor F2W z grass:dark:0xB2:0x8F
+
+# floor F2W A grass
+feat:floor F2W A grass:torch:0xB2:0x90
+feat:floor F2W A grass:los:0xB2:0x91
+feat:floor F2W A grass:lit:0xB2:0x92
+feat:floor F2W A grass:dark:0xB2:0x93
+
+# floor F2W B grass
+feat:floor F2W B grass:torch:0xB2:0x94
+feat:floor F2W B grass:los:0xB2:0x95
+feat:floor F2W B grass:lit:0xB2:0x96
+feat:floor F2W B grass:dark:0xB2:0x97
+
+# floor F2W C grass
+feat:floor F2W C grass:torch:0xB2:0x98
+feat:floor F2W C grass:los:0xB2:0x99
+feat:floor F2W C grass:lit:0xB2:0x9A
+feat:floor F2W C grass:dark:0xB2:0x9B
+
+# floor F2W D grass
+feat:floor F2W D grass:torch:0xB2:0x9C
+feat:floor F2W D grass:los:0xB2:0x9D
+feat:floor F2W D grass:lit:0xB2:0x9E
+feat:floor F2W D grass:dark:0xB2:0x9F
+
+# floor F2W E grass
+feat:floor F2W E grass:torch:0xB2:0xA0
+feat:floor F2W E grass:los:0xB2:0xA1
+feat:floor F2W E grass:lit:0xB2:0xA2
+feat:floor F2W E grass:dark:0xB2:0xA3
+
+# floor F2W F grass
+feat:floor F2W F grass:torch:0xB2:0xA4
+feat:floor F2W F grass:los:0xB2:0xA5
+feat:floor F2W F grass:lit:0xB2:0xA6
+feat:floor F2W F grass:dark:0xB2:0xA7
+
+# floor F2W G rocks
+feat:floor F2W G rocks:torch:0xB2:0xA8
+feat:floor F2W G rocks:los:0xB2:0xA9
+feat:floor F2W G rocks:lit:0xB2:0xAA
+feat:floor F2W G rocks:dark:0xB2:0xAB
+
+# floor F2W H rocks
+feat:floor F2W H rocks:torch:0xB2:0xAC
+feat:floor F2W H rocks:los:0xB2:0xAD
+feat:floor F2W H rocks:lit:0xB2:0xAE
+feat:floor F2W H rocks:dark:0xB2:0xAF
+
+# floor F2W I rocks
+feat:floor F2W I rocks:torch:0xB2:0xB0
+feat:floor F2W I rocks:los:0xB2:0xB1
+feat:floor F2W I rocks:lit:0xB2:0xB2
+feat:floor F2W I rocks:dark:0xB2:0xB3
+
+# floor F2W J rocks
+feat:floor F2W J rocks:torch:0xB2:0xB4
+feat:floor F2W J rocks:los:0xB2:0xB5
+feat:floor F2W J rocks:lit:0xB2:0xB6
+feat:floor F2W J rocks:dark:0xB2:0xB7
+
+# floor F2W K rocks
+feat:floor F2W K rocks:torch:0xB2:0xB8
+feat:floor F2W K rocks:los:0xB2:0xB9
+feat:floor F2W K rocks:lit:0xB2:0xBA
+feat:floor F2W K rocks:dark:0xB2:0xBB
+
+# floor F2W L rock
+feat:floor F2W L rock:torch:0xB2:0xBC
+feat:floor F2W L rock:los:0xB2:0xBD
+feat:floor F2W L rock:lit:0xB2:0xBE
+feat:floor F2W L rock:dark:0xB2:0xBF
+
+# floor F2W M rock
+feat:floor F2W M rock:torch:0xB2:0xC0
+feat:floor F2W M rock:los:0xB2:0xC1
+feat:floor F2W M rock:lit:0xB2:0xC2
+feat:floor F2W M rock:dark:0xB2:0xC3
+
+# floor F2W N rock
+feat:floor F2W N rock:torch:0xB2:0xC4
+feat:floor F2W N rock:los:0xB2:0xC5
+feat:floor F2W N rock:lit:0xB2:0xC6
+feat:floor F2W N rock:dark:0xB2:0xC7
+
+# floor F2W O rock
+feat:floor F2W O rock:torch:0xB2:0xC8
+feat:floor F2W O rock:los:0xB2:0xC9
+feat:floor F2W O rock:lit:0xB2:0xCA
+feat:floor F2W O rock:dark:0xB2:0xCB
+
+# floor F2W P rocks
+feat:floor F2W P rocks:torch:0xB2:0xCC
+feat:floor F2W P rocks:los:0xB2:0xCD
+feat:floor F2W P rocks:lit:0xB2:0xCE
+feat:floor F2W P rocks:dark:0xB2:0xCF
+
+# floor F2W Q dirt
+feat:floor F2W Q dirt:torch:0xB2:0xD0
+feat:floor F2W Q dirt:los:0xB2:0xD1
+feat:floor F2W Q dirt:lit:0xB2:0xD2
+feat:floor F2W Q dirt:dark:0xB2:0xD3
+
+# floor F2W R dirt
+feat:floor F2W R dirt:torch:0xB2:0xD4
+feat:floor F2W R dirt:los:0xB2:0xD5
+feat:floor F2W R dirt:lit:0xB2:0xD6
+feat:floor F2W R dirt:dark:0xB2:0xD7
+
+# floor F2W S dirt
+feat:floor F2W S dirt:torch:0xB2:0xD8
+feat:floor F2W S dirt:los:0xB2:0xD9
+feat:floor F2W S dirt:lit:0xB2:0xDA
+feat:floor F2W S dirt:dark:0xB2:0xDB
+
+# floor F2W T dirt
+feat:floor F2W T dirt:torch:0xB2:0xDC
+feat:floor F2W T dirt:los:0xB2:0xDD
+feat:floor F2W T dirt:lit:0xB2:0xDE
+feat:floor F2W T dirt:dark:0xB2:0xDF
+
+# floor F2W U dirt
+feat:floor F2W U dirt:torch:0xB2:0xE0
+feat:floor F2W U dirt:los:0xB2:0xE1
+feat:floor F2W U dirt:lit:0xB2:0xE2
+feat:floor F2W U dirt:dark:0xB2:0xE3
+
+# floor F2W V dirt
+feat:floor F2W V dirt:torch:0xB2:0xE4
+feat:floor F2W V dirt:los:0xB2:0xE5
+feat:floor F2W V dirt:lit:0xB2:0xE6
+feat:floor F2W V dirt:dark:0xB2:0xE7
+
+# floor F2W W hills
+feat:floor F2W W hills:torch:0xB2:0xE8
+feat:floor F2W W hills:los:0xB2:0xE9
+feat:floor F2W W hills:lit:0xB2:0xEA
+feat:floor F2W W hills:dark:0xB2:0xEB
+
+# floor F2W X hill
+feat:floor F2W X hill:torch:0xB2:0xEC
+feat:floor F2W X hill:los:0xB2:0xED
+feat:floor F2W X hill:lit:0xB2:0xEE
+feat:floor F2W X hill:dark:0xB2:0xEF
+
+# floor F2W Y hill
+feat:floor F2W Y hill:torch:0xB2:0xF0
+feat:floor F2W Y hill:los:0xB2:0xF1
+feat:floor F2W Y hill:lit:0xB2:0xF2
+feat:floor F2W Y hill:dark:0xB2:0xF3
+
+# floor F2W Z lowland
+feat:floor F2W Z lowland:torch:0xB2:0xF4
+feat:floor F2W Z lowland:los:0xB2:0xF5
+feat:floor F2W Z lowland:lit:0xB2:0xF6
+feat:floor F2W Z lowland:dark:0xB2:0xF7
+
+# floor F2W ~ lowland
+feat:floor F2W ~ lowland:torch:0xB2:0xF8
+feat:floor F2W ~ lowland:los:0xB2:0xF9
+feat:floor F2W ~ lowland:lit:0xB2:0xFA
+feat:floor F2W ~ lowland:dark:0xB2:0xFB
+
+# floor F2W ` lowland
+feat:floor F2W ` lowland:torch:0xB2:0xFC
+feat:floor F2W ` lowland:los:0xB2:0xFD
+feat:floor F2W ` lowland:lit:0xB2:0xFE
+feat:floor F2W ` lowland:dark:0xB2:0xFF
+
+###########################################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B3 floors F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# B3 floors F2W 2 
+feat:B3 floors F2W 2:torch:0xB3:0x88
+feat:B3 floors F2W 2:los:0xB3:0x89
+feat:B3 floors F2W 2:lit:0xB3:0x8A
+feat:B3 floors F2W 2:dark:0xB3:0x8B
+
+# B3 floors F2W 3 
+feat:B3 floors F2W 3:torch:0xB3:0x8C
+feat:B3 floors F2W 3:los:0xB3:0x8D
+feat:B3 floors F2W 3:lit:0xB3:0x8E
+feat:B3 floors F2W 3:dark:0xB3:0x8F
+
+
+###########################################
 
 # Load the special player pictures
 %:xtra-tan.prf
