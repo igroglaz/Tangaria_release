@@ -1491,7 +1491,7 @@ max-level:25
 floor:B3 floors n:300
 floor:B3 floors o:9700
 # B9
-wall:dark wall 0:2000
+wall:dark wall 0:2650
 wall:dark wall 1 narrow window:100
 wall:dark wall 2 window:100
 wall:dark wall 3 candelabra:100
@@ -1519,7 +1519,7 @@ wall:dark wall s door:100
 wall:dark wall t doorway:100
 wall:dark wall u:100
 wall:dark wall v:100
-# BA ^4700 + 3200 + 2100
+# BA ^5350 + 3200 + 1450
 wall:dark wall w:50
 wall:dark wall x:50
 wall:dark wall y:50
@@ -1599,7 +1599,7 @@ wall:E0 dark stone Z:50
 wall:E0 dark stone ~:50
 wall:E0 dark stone `:50
 ##########
-# 96-wall: ....... all below: 2100 total
+# 96-wall: ....... all below: 1450 total
 wall:dark wall:1
 # 
 wall:96 wall M:1
@@ -1624,14 +1624,14 @@ wall:9D wall 5:1
 wall:9D wall 6:1
 #
 # AA
-wall:AA wall I:700
+wall:AA wall I:1
 wall:AA wall J:200
 wall:AA wall K:200
 wall:AA wall L:200
 wall:AA wall M:21
 wall:AA wall N:200
 wall:AA wall O:200
-wall:AA wall P:150
+wall:AA wall P:199
 #bloody:          
 wall:AA wall W:1
 wall:AA wall X:1
