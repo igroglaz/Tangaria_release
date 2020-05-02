@@ -46,6 +46,17 @@
 # NO_STAIRS
 #
 
+#DF(NONE, "")
+#DF(CAVERN, "Cavern levels are generated more often")
+#DF(CIRCULAR_ROOMS, "Circular and simple rooms are swapped")
+#DF(EMPTY, "May have arena levels")
+#DF(LAVA_RIVER, "May have lava streams")
+#DF(MAZE, "Has labyrinth levels")
+#DF(NO_DOORS, "Has no doors in corridors")
+#DF(SAND_VEIN, "May have sand streams")
+#DF(WATER_RIVER, "May have water streams")
+#DF(WINNERS_ONLY, "Winners only can enter")
+
 ########################## 75 Main Angband dungeon
 name:Angband
 wpos:1:-4
@@ -413,7 +424,7 @@ wpos:1:1
 min-depth:4
 max-depth:12
 max-level:10
-flags:CAVERN
+flags:SAND_VEIN | CIRCULAR_ROOMS | WATER_RIVER
 floor:packed dirt:1400
 #20 + (1+8) + 71
 #900+2k^
@@ -797,7 +808,7 @@ wpos:-1:0
 min-depth:12
 max-depth:20
 max-level:20
-flags:NO_DOORS | WATER_RIVER
+flags:NO_DOORS | WATER_RIVER | EMPTY
 #floor:floor 1 grass:24
 #floor:floor w grass:12
 #
@@ -980,7 +991,7 @@ wpos:1:2
 min-depth:15
 max-depth:23
 max-level:20
-flags:CAVERN
+flags:CAVERN | SAND_VEIN | WATER_RIVER
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -1248,7 +1259,7 @@ wpos:0:-1
 min-depth:18
 max-depth:25
 max-level:25
-flags:NO_DOORS | WATER_RIVER
+flags:NO_DOORS | WATER_RIVER | MAZE | CIRCULAR_ROOMS
 # A1
 floor:tree 0 stump:82
 floor:tree 1:1
@@ -1649,7 +1660,7 @@ wpos:-2:2
 min-depth:23
 max-depth:30
 max-level:30
-flags:NO_DOORS | SAND_VEIN
+flags:NO_DOORS | SAND_VEIN | CAVERN
 floor:E7 desert 0:6130
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E7 100 V
@@ -1924,7 +1935,7 @@ wpos:0:-2
 min-depth:27
 max-depth:34
 max-level:35
-flags:NO_DOORS
+flags:NO_DOORS | EMPTY
 floor:light grass:3300
 floor:light grass plants:3400
 floor:light grass flowers:3300
@@ -1943,6 +1954,7 @@ wpos:0:2
 min-depth:28
 max-depth:35
 max-level:35
+flags:EMPTY | CAVERN
 floor:tree 0 stump:1
 floor:tree 1:1
 floor:tree 2 little:1
@@ -2146,6 +2158,7 @@ wpos:-1:3
 min-depth:35
 max-depth:45
 max-level:35
+flags:WATER_RIVER
 floor:B6 floors luquid w:9400
 floor:B6 floors luquid x:500
 floor:F3 shallow water m:100
@@ -2166,6 +2179,7 @@ wpos:-1:-2
 min-depth:38
 max-depth:45
 max-level:40
+flags:SAND_VEIN
 floor:B3 floors q:10000
 wall:big dark wall 0:3300
 wall:dark wall:3300
@@ -2248,6 +2262,7 @@ wpos:-2:3
 min-depth:47
 max-depth:55
 max-level:45
+flags:WATER_RIVER | SAND_VEIN
 floor:water:1000
 wall:water:900
 rule:8000:0
@@ -2260,7 +2275,7 @@ wpos:0:-3
 min-depth:55
 max-depth:64
 max-level:49
-flags:NO_DOORS
+flags:NO_DOORS | CIRCULAR_ROOMS
 floor:grass:1000
 wall:tree:1000
 rule:2500:0
@@ -2347,6 +2362,7 @@ wpos:2:2
 min-depth:60
 max-depth:72
 max-level:49
+flags:SAND_VEIN
 floor:grass:1000
 wall:mountain:1000
 rule:10000:1
@@ -2358,7 +2374,7 @@ wpos:-1:-3
 min-depth:62
 max-depth:75
 max-level:49
-flags:CAVERN | LAVA_RIVER
+flags:CAVERN | LAVA_RIVER | SAND_VEIN | WATER_RIVER
 floor:packed dirt:1000
 wall:mountain:900
 wall:dark wall:100
