@@ -3617,155 +3617,155 @@ feat:*:*:newbie star
 # EB - EE dirt
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EB dirt F2W-CLONE A
+# EB dirt F2W A
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:G:0:EB dirt F2W-CLONE 0
-feat:G:1:EB dirt F2W-CLONE 1
-feat:G:2:EB dirt F2W-CLONE 2
-feat:G:3:EB dirt F2W-CLONE 3
-feat:G:4:EB dirt F2W-CLONE 4
-feat:G:5:EB dirt F2W-CLONE 5
-feat:G:6:EB dirt F2W-CLONE 6
-feat:G:7:EB dirt F2W-CLONE 7
-feat:G:8:EB dirt F2W-CLONE 8
-feat:G:9:EB dirt F2W-CLONE 9
-feat:G:a:EB dirt F2W-CLONE a
-feat:G:b:EB dirt F2W-CLONE b
-feat:G:c:EB dirt F2W-CLONE c
-feat:G:d:EB dirt F2W-CLONE d
-feat:G:e:EB dirt F2W-CLONE e
-feat:G:f:EB dirt F2W-CLONE f
-feat:G:g:EB dirt F2W-CLONE g
-feat:G:h:EB dirt F2W-CLONE h
-feat:G:i:EB dirt F2W-CLONE i
-feat:G:j:EB dirt F2W-CLONE j
-feat:G:k:EB dirt F2W-CLONE k
-feat:G:l:EB dirt F2W-CLONE l
-feat:G:m:EB dirt F2W-CLONE m
-feat:G:n:EB dirt F2W-CLONE n
-feat:G:o:EB dirt F2W-CLONE o
-feat:G:p:EB dirt F2W-CLONE p
-feat:G:q:EB dirt F2W-CLONE q
-feat:G:r:EB dirt F2W-CLONE r
-feat:G:s:EB dirt F2W-CLONE s
-feat:G:t:EB dirt F2W-CLONE t
-feat:G:u:EB dirt F2W-CLONE u
-feat:G:v:EB dirt F2W-CLONE v
+feat:G:0:EB dirt F2W 0
+feat:G:1:EB dirt F2W 1
+feat:G:2:EB dirt F2W 2
+feat:G:3:EB dirt F2W 3
+feat:G:4:EB dirt F2W 4
+feat:G:5:EB dirt F2W 5
+feat:G:6:EB dirt F2W 6
+feat:G:7:EB dirt F2W 7
+feat:G:8:EB dirt F2W 8
+feat:G:9:EB dirt F2W 9
+feat:G:a:EB dirt F2W a
+feat:G:b:EB dirt F2W b
+feat:G:c:EB dirt F2W c
+feat:G:d:EB dirt F2W d
+feat:G:e:EB dirt F2W e
+feat:G:f:EB dirt F2W f
+feat:G:g:EB dirt F2W g
+feat:G:h:EB dirt F2W h
+feat:G:i:EB dirt F2W i
+feat:G:j:EB dirt F2W j
+feat:G:k:EB dirt F2W k
+feat:G:l:EB dirt F2W l
+feat:G:m:EB dirt F2W m
+feat:G:n:EB dirt F2W n
+feat:G:o:EB dirt F2W o
+feat:G:p:EB dirt F2W p
+feat:G:q:EB dirt F2W q
+feat:G:r:EB dirt F2W r
+feat:G:s:EB dirt F2W s
+feat:G:t:EB dirt F2W t
+feat:G:u:EB dirt F2W u
+feat:G:v:EB dirt F2W v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EC dirt F2W-CLONE A
+# EC dirt F2W A
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:G:w:EC dirt F2W-CLONE w
-feat:G:x:EC dirt F2W-CLONE x
-feat:G:y:EC dirt F2W-CLONE y
-feat:G:z:EC dirt F2W-CLONE z
-feat:G:A:EC dirt F2W-CLONE A
-feat:G:B:EC dirt F2W-CLONE B
-feat:G:C:EC dirt F2W-CLONE C
-feat:G:D:EC dirt F2W-CLONE D
-feat:G:E:EC dirt F2W-CLONE E
-feat:G:F:EC dirt F2W-CLONE F
+feat:G:w:EC dirt F2W w
+feat:G:x:EC dirt F2W x
+feat:G:y:EC dirt F2W y
+feat:G:z:EC dirt F2W z
+feat:G:A:EC dirt F2W A
+feat:G:B:EC dirt F2W B
+feat:G:C:EC dirt F2W C
+feat:G:D:EC dirt F2W D
+feat:G:E:EC dirt F2W E
+feat:G:F:EC dirt F2W F
 # big skel
-feat:G:G:EC dirt F2W-CLONE G
-feat:G:H:EC dirt F2W-CLONE H
-feat:G:I:EC dirt F2W-CLONE I
+feat:G:G:EC dirt F2W G
+feat:G:H:EC dirt F2W H
+feat:G:I:EC dirt F2W I
 #
-feat:G:J:EC dirt F2W-CLONE J
-feat:G:K:EC dirt F2W-CLONE K
-feat:G:L:EC dirt F2W-CLONE L
-feat:G:M:EC dirt F2W-CLONE M
-feat:G:N:EC dirt F2W-CLONE N
-feat:G:O:EC dirt F2W-CLONE O
-feat:G:P:EC dirt F2W-CLONE P
-feat:G:Q:EC dirt F2W-CLONE Q
-feat:G:R:EC dirt F2W-CLONE R
-feat:G:S:EC dirt F2W-CLONE S
-feat:G:T:EC dirt F2W-CLONE T
+feat:G:J:EC dirt F2W J
+feat:G:K:EC dirt F2W K
+feat:G:L:EC dirt F2W L
+feat:G:M:EC dirt F2W M
+feat:G:N:EC dirt F2W N
+feat:G:O:EC dirt F2W O
+feat:G:P:EC dirt F2W P
+feat:G:Q:EC dirt F2W Q
+feat:G:R:EC dirt F2W R
+feat:G:S:EC dirt F2W S
+feat:G:T:EC dirt F2W T
 #rocks:
-feat:G:U:EC dirt F2W-CLONE U
-feat:G:V:EC dirt F2W-CLONE V
-feat:G:W:EC dirt F2W-CLONE W
-feat:G:X:EC dirt F2W-CLONE X
-feat:G:Y:EC dirt F2W-CLONE Y
-feat:G:Z:EC dirt F2W-CLONE Z
-feat:G:~:EC dirt F2W-CLONE ~
-feat:G:`:EC dirt F2W-CLONE `
+feat:G:U:EC dirt F2W U
+feat:G:V:EC dirt F2W V
+feat:G:W:EC dirt F2W W
+feat:G:X:EC dirt F2W X
+feat:G:Y:EC dirt F2W Y
+feat:G:Z:EC dirt F2W Z
+feat:G:~:EC dirt F2W ~
+feat:G:`:EC dirt F2W `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# ED dirt F2W-CLONE B
+# ED dirt F2W B
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:H:0:ED dirt F2W-CLONE 0
-feat:H:1:ED dirt F2W-CLONE 1
-feat:H:2:ED dirt F2W-CLONE 2
-feat:H:3:ED dirt F2W-CLONE 3
-feat:H:4:ED dirt F2W-CLONE 4
-feat:H:5:ED dirt F2W-CLONE 5
-feat:H:6:ED dirt F2W-CLONE 6
-feat:H:7:ED dirt F2W-CLONE 7
-feat:H:8:ED dirt F2W-CLONE 8
-feat:H:9:ED dirt F2W-CLONE 9
-feat:H:a:ED dirt F2W-CLONE a
-feat:H:b:ED dirt F2W-CLONE b
-feat:H:c:ED dirt F2W-CLONE c
-feat:H:d:ED dirt F2W-CLONE d
-feat:H:e:ED dirt F2W-CLONE e
-feat:H:f:ED dirt F2W-CLONE f
-feat:H:g:ED dirt F2W-CLONE g
-feat:H:h:ED dirt F2W-CLONE h
-feat:H:i:ED dirt F2W-CLONE i
-feat:H:j:ED dirt F2W-CLONE j
-feat:H:k:ED dirt F2W-CLONE k
-feat:H:l:ED dirt F2W-CLONE l
-feat:H:m:ED dirt F2W-CLONE m
-feat:H:n:ED dirt F2W-CLONE n
-feat:H:o:ED dirt F2W-CLONE o
-feat:H:p:ED dirt F2W-CLONE p
-feat:H:q:ED dirt F2W-CLONE q
-feat:H:r:ED dirt F2W-CLONE r
-feat:H:s:ED dirt F2W-CLONE s
-feat:H:t:ED dirt F2W-CLONE t
-feat:H:u:ED dirt F2W-CLONE u
-feat:H:v:ED dirt F2W-CLONE v
+feat:H:0:ED dirt F2W 0
+feat:H:1:ED dirt F2W 1
+feat:H:2:ED dirt F2W 2
+feat:H:3:ED dirt F2W 3
+feat:H:4:ED dirt F2W 4
+feat:H:5:ED dirt F2W 5
+feat:H:6:ED dirt F2W 6
+feat:H:7:ED dirt F2W 7
+feat:H:8:ED dirt F2W 8
+feat:H:9:ED dirt F2W 9
+feat:H:a:ED dirt F2W a
+feat:H:b:ED dirt F2W b
+feat:H:c:ED dirt F2W c
+feat:H:d:ED dirt F2W d
+feat:H:e:ED dirt F2W e
+feat:H:f:ED dirt F2W f
+feat:H:g:ED dirt F2W g
+feat:H:h:ED dirt F2W h
+feat:H:i:ED dirt F2W i
+feat:H:j:ED dirt F2W j
+feat:H:k:ED dirt F2W k
+feat:H:l:ED dirt F2W l
+feat:H:m:ED dirt F2W m
+feat:H:n:ED dirt F2W n
+feat:H:o:ED dirt F2W o
+feat:H:p:ED dirt F2W p
+feat:H:q:ED dirt F2W q
+feat:H:r:ED dirt F2W r
+feat:H:s:ED dirt F2W s
+feat:H:t:ED dirt F2W t
+feat:H:u:ED dirt F2W u
+feat:H:v:ED dirt F2W v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EE dirt F2W-CLONE
+# EE dirt F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:H:w:EE dirt F2W-CLONE w
-feat:H:x:EE dirt F2W-CLONE x
-feat:H:y:EE dirt F2W-CLONE y
-feat:H:z:EE dirt F2W-CLONE z
-feat:H:A:EE dirt F2W-CLONE A
-feat:H:B:EE dirt F2W-CLONE B
-feat:H:C:EE dirt F2W-CLONE C
-feat:H:D:EE dirt F2W-CLONE D
-feat:H:E:EE dirt F2W-CLONE E
-feat:H:F:EE dirt F2W-CLONE F
-feat:H:G:EE dirt F2W-CLONE G
-feat:H:H:EE dirt F2W-CLONE H
-feat:H:I:EE dirt F2W-CLONE I
-feat:H:J:EE dirt F2W-CLONE J
-feat:H:K:EE dirt F2W-CLONE K
-feat:H:L:EE dirt F2W-CLONE L
-feat:H:M:EE dirt F2W-CLONE M
-feat:H:N:EE dirt F2W-CLONE N
-feat:H:O:EE dirt F2W-CLONE O
-feat:H:P:EE dirt F2W-CLONE P
-feat:H:Q:EE dirt F2W-CLONE Q
-feat:H:R:EE dirt F2W-CLONE R
-feat:H:S:EE dirt F2W-CLONE S
-feat:H:T:EE dirt F2W-CLONE T
-feat:H:U:EE dirt F2W-CLONE U
-feat:H:V:EE dirt F2W-CLONE V
-feat:H:W:EE dirt F2W-CLONE W
-feat:H:X:EE dirt F2W-CLONE X
-feat:H:Y:EE dirt F2W-CLONE Y
-feat:H:Z:EE dirt F2W-CLONE Z
-feat:H:~:EE dirt F2W-CLONE ~
-feat:H:`:EE dirt F2W-CLONE `
+feat:H:w:EE dirt F2W w
+feat:H:x:EE dirt F2W x
+feat:H:y:EE dirt F2W y
+feat:H:z:EE dirt F2W z
+feat:H:A:EE dirt F2W A
+feat:H:B:EE dirt F2W B
+feat:H:C:EE dirt F2W C
+feat:H:D:EE dirt F2W D
+feat:H:E:EE dirt F2W E
+feat:H:F:EE dirt F2W F
+feat:H:G:EE dirt F2W G
+feat:H:H:EE dirt F2W H
+feat:H:I:EE dirt F2W I
+feat:H:J:EE dirt F2W J
+feat:H:K:EE dirt F2W K
+feat:H:L:EE dirt F2W L
+feat:H:M:EE dirt F2W M
+feat:H:N:EE dirt F2W N
+feat:H:O:EE dirt F2W O
+feat:H:P:EE dirt F2W P
+feat:H:Q:EE dirt F2W Q
+feat:H:R:EE dirt F2W R
+feat:H:S:EE dirt F2W S
+feat:H:T:EE dirt F2W T
+feat:H:U:EE dirt F2W U
+feat:H:V:EE dirt F2W V
+feat:H:W:EE dirt F2W W
+feat:H:X:EE dirt F2W X
+feat:H:Y:EE dirt F2W Y
+feat:H:Z:EE dirt F2W Z
+feat:H:~:EE dirt F2W ~
+feat:H:`:EE dirt F2W `

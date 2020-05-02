@@ -20619,792 +20619,792 @@ feat:newbie star:*:0x87:0xB5
 # EB - EE dirt
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EB dirt dirt F2W-CLONE
+# EB dirt dirt F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# EB dirt F2W-CLONE 0 
-feat:EB dirt F2W-CLONE 0:torch:0xEB:0x80
-feat:EB dirt F2W-CLONE 0:los:0xEB:0x81
-feat:EB dirt F2W-CLONE 0:lit:0xEB:0x82
-feat:EB dirt F2W-CLONE 0:dark:0xEB:0x83
+# EB dirt F2W 0 
+feat:EB dirt F2W 0:torch:0xEB:0x80
+feat:EB dirt F2W 0:los:0xEB:0x81
+feat:EB dirt F2W 0:lit:0xEB:0x82
+feat:EB dirt F2W 0:dark:0xEB:0x83
 
-# EB dirt F2W-CLONE 1 
-feat:EB dirt F2W-CLONE 1:torch:0xEB:0x84
-feat:EB dirt F2W-CLONE 1:los:0xEB:0x85
-feat:EB dirt F2W-CLONE 1:lit:0xEB:0x86
-feat:EB dirt F2W-CLONE 1:dark:0xEB:0x87
+# EB dirt F2W 1 
+feat:EB dirt F2W 1:torch:0xEB:0x84
+feat:EB dirt F2W 1:los:0xEB:0x85
+feat:EB dirt F2W 1:lit:0xEB:0x86
+feat:EB dirt F2W 1:dark:0xEB:0x87
 
-# EB dirt F2W-CLONE 2 
-feat:EB dirt F2W-CLONE 2:torch:0xEB:0x88
-feat:EB dirt F2W-CLONE 2:los:0xEB:0x89
-feat:EB dirt F2W-CLONE 2:lit:0xEB:0x8A
-feat:EB dirt F2W-CLONE 2:dark:0xEB:0x8B
+# EB dirt F2W 2 
+feat:EB dirt F2W 2:torch:0xEB:0x88
+feat:EB dirt F2W 2:los:0xEB:0x89
+feat:EB dirt F2W 2:lit:0xEB:0x8A
+feat:EB dirt F2W 2:dark:0xEB:0x8B
 
-# EB dirt F2W-CLONE 3 
-feat:EB dirt F2W-CLONE 3:torch:0xEB:0x8C
-feat:EB dirt F2W-CLONE 3:los:0xEB:0x8D
-feat:EB dirt F2W-CLONE 3:lit:0xEB:0x8E
-feat:EB dirt F2W-CLONE 3:dark:0xEB:0x8F
+# EB dirt F2W 3 
+feat:EB dirt F2W 3:torch:0xEB:0x8C
+feat:EB dirt F2W 3:los:0xEB:0x8D
+feat:EB dirt F2W 3:lit:0xEB:0x8E
+feat:EB dirt F2W 3:dark:0xEB:0x8F
 
-# EB dirt F2W-CLONE 4 
-feat:EB dirt F2W-CLONE 4:torch:0xEB:0x90
-feat:EB dirt F2W-CLONE 4:los:0xEB:0x91
-feat:EB dirt F2W-CLONE 4:lit:0xEB:0x92
-feat:EB dirt F2W-CLONE 4:dark:0xEB:0x93
+# EB dirt F2W 4 
+feat:EB dirt F2W 4:torch:0xEB:0x90
+feat:EB dirt F2W 4:los:0xEB:0x91
+feat:EB dirt F2W 4:lit:0xEB:0x92
+feat:EB dirt F2W 4:dark:0xEB:0x93
 
-# EB dirt F2W-CLONE 5 
-feat:EB dirt F2W-CLONE 5:torch:0xEB:0x94
-feat:EB dirt F2W-CLONE 5:los:0xEB:0x95
-feat:EB dirt F2W-CLONE 5:lit:0xEB:0x96
-feat:EB dirt F2W-CLONE 5:dark:0xEB:0x97
+# EB dirt F2W 5 
+feat:EB dirt F2W 5:torch:0xEB:0x94
+feat:EB dirt F2W 5:los:0xEB:0x95
+feat:EB dirt F2W 5:lit:0xEB:0x96
+feat:EB dirt F2W 5:dark:0xEB:0x97
 
-# EB dirt F2W-CLONE 6 
-feat:EB dirt F2W-CLONE 6:torch:0xEB:0x98
-feat:EB dirt F2W-CLONE 6:los:0xEB:0x99
-feat:EB dirt F2W-CLONE 6:lit:0xEB:0x9A
-feat:EB dirt F2W-CLONE 6:dark:0xEB:0x9B
+# EB dirt F2W 6 
+feat:EB dirt F2W 6:torch:0xEB:0x98
+feat:EB dirt F2W 6:los:0xEB:0x99
+feat:EB dirt F2W 6:lit:0xEB:0x9A
+feat:EB dirt F2W 6:dark:0xEB:0x9B
 
-# EB dirt F2W-CLONE 7 
-feat:EB dirt F2W-CLONE 7:torch:0xEB:0x9C
-feat:EB dirt F2W-CLONE 7:los:0xEB:0x9D
-feat:EB dirt F2W-CLONE 7:lit:0xEB:0x9E
-feat:EB dirt F2W-CLONE 7:dark:0xEB:0x9F
+# EB dirt F2W 7 
+feat:EB dirt F2W 7:torch:0xEB:0x9C
+feat:EB dirt F2W 7:los:0xEB:0x9D
+feat:EB dirt F2W 7:lit:0xEB:0x9E
+feat:EB dirt F2W 7:dark:0xEB:0x9F
 
-# EB dirt F2W-CLONE 8 
-feat:EB dirt F2W-CLONE 8:torch:0xEB:0xA0
-feat:EB dirt F2W-CLONE 8:los:0xEB:0xA1
-feat:EB dirt F2W-CLONE 8:lit:0xEB:0xA2
-feat:EB dirt F2W-CLONE 8:dark:0xEB:0xA3
+# EB dirt F2W 8 
+feat:EB dirt F2W 8:torch:0xEB:0xA0
+feat:EB dirt F2W 8:los:0xEB:0xA1
+feat:EB dirt F2W 8:lit:0xEB:0xA2
+feat:EB dirt F2W 8:dark:0xEB:0xA3
 
-# EB dirt F2W-CLONE 9 
-feat:EB dirt F2W-CLONE 9:torch:0xEB:0xA4
-feat:EB dirt F2W-CLONE 9:los:0xEB:0xA5
-feat:EB dirt F2W-CLONE 9:lit:0xEB:0xA6
-feat:EB dirt F2W-CLONE 9:dark:0xEB:0xA7
+# EB dirt F2W 9 
+feat:EB dirt F2W 9:torch:0xEB:0xA4
+feat:EB dirt F2W 9:los:0xEB:0xA5
+feat:EB dirt F2W 9:lit:0xEB:0xA6
+feat:EB dirt F2W 9:dark:0xEB:0xA7
 
-# EB dirt F2W-CLONE a 
-feat:EB dirt F2W-CLONE a:torch:0xEB:0xA8
-feat:EB dirt F2W-CLONE a:los:0xEB:0xA9
-feat:EB dirt F2W-CLONE a:lit:0xEB:0xAA
-feat:EB dirt F2W-CLONE a:dark:0xEB:0xAB
+# EB dirt F2W a 
+feat:EB dirt F2W a:torch:0xEB:0xA8
+feat:EB dirt F2W a:los:0xEB:0xA9
+feat:EB dirt F2W a:lit:0xEB:0xAA
+feat:EB dirt F2W a:dark:0xEB:0xAB
 
-# EB dirt F2W-CLONE b 
-feat:EB dirt F2W-CLONE b:torch:0xEB:0xAC
-feat:EB dirt F2W-CLONE b:los:0xEB:0xAD
-feat:EB dirt F2W-CLONE b:lit:0xEB:0xAE
-feat:EB dirt F2W-CLONE b:dark:0xEB:0xAF
+# EB dirt F2W b 
+feat:EB dirt F2W b:torch:0xEB:0xAC
+feat:EB dirt F2W b:los:0xEB:0xAD
+feat:EB dirt F2W b:lit:0xEB:0xAE
+feat:EB dirt F2W b:dark:0xEB:0xAF
 
-# EB dirt F2W-CLONE c 
-feat:EB dirt F2W-CLONE c:torch:0xEB:0xB0
-feat:EB dirt F2W-CLONE c:los:0xEB:0xB1
-feat:EB dirt F2W-CLONE c:lit:0xEB:0xB2
-feat:EB dirt F2W-CLONE c:dark:0xEB:0xB3
+# EB dirt F2W c 
+feat:EB dirt F2W c:torch:0xEB:0xB0
+feat:EB dirt F2W c:los:0xEB:0xB1
+feat:EB dirt F2W c:lit:0xEB:0xB2
+feat:EB dirt F2W c:dark:0xEB:0xB3
 
-# EB dirt F2W-CLONE d 
-feat:EB dirt F2W-CLONE d:torch:0xEB:0xB4
-feat:EB dirt F2W-CLONE d:los:0xEB:0xB5
-feat:EB dirt F2W-CLONE d:lit:0xEB:0xB6
-feat:EB dirt F2W-CLONE d:dark:0xEB:0xB7
+# EB dirt F2W d 
+feat:EB dirt F2W d:torch:0xEB:0xB4
+feat:EB dirt F2W d:los:0xEB:0xB5
+feat:EB dirt F2W d:lit:0xEB:0xB6
+feat:EB dirt F2W d:dark:0xEB:0xB7
 
-# EB dirt F2W-CLONE e 
-feat:EB dirt F2W-CLONE e:torch:0xEB:0xB8
-feat:EB dirt F2W-CLONE e:los:0xEB:0xB9
-feat:EB dirt F2W-CLONE e:lit:0xEB:0xBA
-feat:EB dirt F2W-CLONE e:dark:0xEB:0xBB
+# EB dirt F2W e 
+feat:EB dirt F2W e:torch:0xEB:0xB8
+feat:EB dirt F2W e:los:0xEB:0xB9
+feat:EB dirt F2W e:lit:0xEB:0xBA
+feat:EB dirt F2W e:dark:0xEB:0xBB
 
-# EB dirt F2W-CLONE f 
-feat:EB dirt F2W-CLONE f:torch:0xEB:0xBC
-feat:EB dirt F2W-CLONE f:los:0xEB:0xBD
-feat:EB dirt F2W-CLONE f:lit:0xEB:0xBE
-feat:EB dirt F2W-CLONE f:dark:0xEB:0xBF
+# EB dirt F2W f 
+feat:EB dirt F2W f:torch:0xEB:0xBC
+feat:EB dirt F2W f:los:0xEB:0xBD
+feat:EB dirt F2W f:lit:0xEB:0xBE
+feat:EB dirt F2W f:dark:0xEB:0xBF
 
-# EB dirt F2W-CLONE g 
-feat:EB dirt F2W-CLONE g:torch:0xEB:0xC0
-feat:EB dirt F2W-CLONE g:los:0xEB:0xC1
-feat:EB dirt F2W-CLONE g:lit:0xEB:0xC2
-feat:EB dirt F2W-CLONE g:dark:0xEB:0xC3
+# EB dirt F2W g 
+feat:EB dirt F2W g:torch:0xEB:0xC0
+feat:EB dirt F2W g:los:0xEB:0xC1
+feat:EB dirt F2W g:lit:0xEB:0xC2
+feat:EB dirt F2W g:dark:0xEB:0xC3
 
-# EB dirt F2W-CLONE h 
-feat:EB dirt F2W-CLONE h:torch:0xEB:0xC4
-feat:EB dirt F2W-CLONE h:los:0xEB:0xC5
-feat:EB dirt F2W-CLONE h:lit:0xEB:0xC6
-feat:EB dirt F2W-CLONE h:dark:0xEB:0xC7
+# EB dirt F2W h 
+feat:EB dirt F2W h:torch:0xEB:0xC4
+feat:EB dirt F2W h:los:0xEB:0xC5
+feat:EB dirt F2W h:lit:0xEB:0xC6
+feat:EB dirt F2W h:dark:0xEB:0xC7
 
-# EB dirt F2W-CLONE i 
-feat:EB dirt F2W-CLONE i:torch:0xEB:0xC8
-feat:EB dirt F2W-CLONE i:los:0xEB:0xC9
-feat:EB dirt F2W-CLONE i:lit:0xEB:0xCA
-feat:EB dirt F2W-CLONE i:dark:0xEB:0xCB
+# EB dirt F2W i 
+feat:EB dirt F2W i:torch:0xEB:0xC8
+feat:EB dirt F2W i:los:0xEB:0xC9
+feat:EB dirt F2W i:lit:0xEB:0xCA
+feat:EB dirt F2W i:dark:0xEB:0xCB
 
-# EB dirt F2W-CLONE j 
-feat:EB dirt F2W-CLONE j:torch:0xEB:0xCC
-feat:EB dirt F2W-CLONE j:los:0xEB:0xCD
-feat:EB dirt F2W-CLONE j:lit:0xEB:0xCE
-feat:EB dirt F2W-CLONE j:dark:0xEB:0xCF
+# EB dirt F2W j 
+feat:EB dirt F2W j:torch:0xEB:0xCC
+feat:EB dirt F2W j:los:0xEB:0xCD
+feat:EB dirt F2W j:lit:0xEB:0xCE
+feat:EB dirt F2W j:dark:0xEB:0xCF
 
-# EB dirt F2W-CLONE k 
-feat:EB dirt F2W-CLONE k:torch:0xEB:0xD0
-feat:EB dirt F2W-CLONE k:los:0xEB:0xD1
-feat:EB dirt F2W-CLONE k:lit:0xEB:0xD2
-feat:EB dirt F2W-CLONE k:dark:0xEB:0xD3
+# EB dirt F2W k 
+feat:EB dirt F2W k:torch:0xEB:0xD0
+feat:EB dirt F2W k:los:0xEB:0xD1
+feat:EB dirt F2W k:lit:0xEB:0xD2
+feat:EB dirt F2W k:dark:0xEB:0xD3
 
-# EB dirt F2W-CLONE l 
-feat:EB dirt F2W-CLONE l:torch:0xEB:0xD4
-feat:EB dirt F2W-CLONE l:los:0xEB:0xD5
-feat:EB dirt F2W-CLONE l:lit:0xEB:0xD6
-feat:EB dirt F2W-CLONE l:dark:0xEB:0xD7
+# EB dirt F2W l 
+feat:EB dirt F2W l:torch:0xEB:0xD4
+feat:EB dirt F2W l:los:0xEB:0xD5
+feat:EB dirt F2W l:lit:0xEB:0xD6
+feat:EB dirt F2W l:dark:0xEB:0xD7
 
-# EB dirt F2W-CLONE m 
-feat:EB dirt F2W-CLONE m:torch:0xEB:0xD8
-feat:EB dirt F2W-CLONE m:los:0xEB:0xD9
-feat:EB dirt F2W-CLONE m:lit:0xEB:0xDA
-feat:EB dirt F2W-CLONE m:dark:0xEB:0xDB
+# EB dirt F2W m 
+feat:EB dirt F2W m:torch:0xEB:0xD8
+feat:EB dirt F2W m:los:0xEB:0xD9
+feat:EB dirt F2W m:lit:0xEB:0xDA
+feat:EB dirt F2W m:dark:0xEB:0xDB
 
-# EB dirt F2W-CLONE n 
-feat:EB dirt F2W-CLONE n:torch:0xEB:0xDC
-feat:EB dirt F2W-CLONE n:los:0xEB:0xDD
-feat:EB dirt F2W-CLONE n:lit:0xEB:0xDE
-feat:EB dirt F2W-CLONE n:dark:0xEB:0xDF
+# EB dirt F2W n 
+feat:EB dirt F2W n:torch:0xEB:0xDC
+feat:EB dirt F2W n:los:0xEB:0xDD
+feat:EB dirt F2W n:lit:0xEB:0xDE
+feat:EB dirt F2W n:dark:0xEB:0xDF
 
-# EB dirt F2W-CLONE o 
-feat:EB dirt F2W-CLONE o:torch:0xEB:0xE0
-feat:EB dirt F2W-CLONE o:los:0xEB:0xE1
-feat:EB dirt F2W-CLONE o:lit:0xEB:0xE2
-feat:EB dirt F2W-CLONE o:dark:0xEB:0xE3
+# EB dirt F2W o 
+feat:EB dirt F2W o:torch:0xEB:0xE0
+feat:EB dirt F2W o:los:0xEB:0xE1
+feat:EB dirt F2W o:lit:0xEB:0xE2
+feat:EB dirt F2W o:dark:0xEB:0xE3
 
-# EB dirt F2W-CLONE p 
-feat:EB dirt F2W-CLONE p:torch:0xEB:0xE4
-feat:EB dirt F2W-CLONE p:los:0xEB:0xE5
-feat:EB dirt F2W-CLONE p:lit:0xEB:0xE6
-feat:EB dirt F2W-CLONE p:dark:0xEB:0xE7
+# EB dirt F2W p 
+feat:EB dirt F2W p:torch:0xEB:0xE4
+feat:EB dirt F2W p:los:0xEB:0xE5
+feat:EB dirt F2W p:lit:0xEB:0xE6
+feat:EB dirt F2W p:dark:0xEB:0xE7
 
-# EB dirt F2W-CLONE q 
-feat:EB dirt F2W-CLONE q:torch:0xEB:0xE8
-feat:EB dirt F2W-CLONE q:los:0xEB:0xE9
-feat:EB dirt F2W-CLONE q:lit:0xEB:0xEA
-feat:EB dirt F2W-CLONE q:dark:0xEB:0xEB
+# EB dirt F2W q 
+feat:EB dirt F2W q:torch:0xEB:0xE8
+feat:EB dirt F2W q:los:0xEB:0xE9
+feat:EB dirt F2W q:lit:0xEB:0xEA
+feat:EB dirt F2W q:dark:0xEB:0xEB
 
-# EB dirt F2W-CLONE r 
-feat:EB dirt F2W-CLONE r:torch:0xEB:0xEC
-feat:EB dirt F2W-CLONE r:los:0xEB:0xED
-feat:EB dirt F2W-CLONE r:lit:0xEB:0xEE
-feat:EB dirt F2W-CLONE r:dark:0xEB:0xEF
+# EB dirt F2W r 
+feat:EB dirt F2W r:torch:0xEB:0xEC
+feat:EB dirt F2W r:los:0xEB:0xED
+feat:EB dirt F2W r:lit:0xEB:0xEE
+feat:EB dirt F2W r:dark:0xEB:0xEF
 
-# EB dirt F2W-CLONE s 
-feat:EB dirt F2W-CLONE s:torch:0xEB:0xF0
-feat:EB dirt F2W-CLONE s:los:0xEB:0xF1
-feat:EB dirt F2W-CLONE s:lit:0xEB:0xF2
-feat:EB dirt F2W-CLONE s:dark:0xEB:0xF3
+# EB dirt F2W s 
+feat:EB dirt F2W s:torch:0xEB:0xF0
+feat:EB dirt F2W s:los:0xEB:0xF1
+feat:EB dirt F2W s:lit:0xEB:0xF2
+feat:EB dirt F2W s:dark:0xEB:0xF3
 
-# EB dirt F2W-CLONE t 
-feat:EB dirt F2W-CLONE t:torch:0xEB:0xF4
-feat:EB dirt F2W-CLONE t:los:0xEB:0xF5
-feat:EB dirt F2W-CLONE t:lit:0xEB:0xF6
-feat:EB dirt F2W-CLONE t:dark:0xEB:0xF7
+# EB dirt F2W t 
+feat:EB dirt F2W t:torch:0xEB:0xF4
+feat:EB dirt F2W t:los:0xEB:0xF5
+feat:EB dirt F2W t:lit:0xEB:0xF6
+feat:EB dirt F2W t:dark:0xEB:0xF7
 
-# EB dirt F2W-CLONE u 
-feat:EB dirt F2W-CLONE u:torch:0xEB:0xF8
-feat:EB dirt F2W-CLONE u:los:0xEB:0xF9
-feat:EB dirt F2W-CLONE u:lit:0xEB:0xFA
-feat:EB dirt F2W-CLONE u:dark:0xEB:0xFB
+# EB dirt F2W u 
+feat:EB dirt F2W u:torch:0xEB:0xF8
+feat:EB dirt F2W u:los:0xEB:0xF9
+feat:EB dirt F2W u:lit:0xEB:0xFA
+feat:EB dirt F2W u:dark:0xEB:0xFB
 
-# EB dirt F2W-CLONE v 
-feat:EB dirt F2W-CLONE v:torch:0xEB:0xFC
-feat:EB dirt F2W-CLONE v:los:0xEB:0xFD
-feat:EB dirt F2W-CLONE v:lit:0xEB:0xFE
-feat:EB dirt F2W-CLONE v:dark:0xEB:0xFF
+# EB dirt F2W v 
+feat:EB dirt F2W v:torch:0xEB:0xFC
+feat:EB dirt F2W v:los:0xEB:0xFD
+feat:EB dirt F2W v:lit:0xEB:0xFE
+feat:EB dirt F2W v:dark:0xEB:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EC dirt dirt F2W-CLONE 
+# EC dirt dirt F2W 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# EC dirt F2W-CLONE w 
-feat:EC dirt F2W-CLONE w:torch:0xEC:0x80
-feat:EC dirt F2W-CLONE w:los:0xEC:0x81
-feat:EC dirt F2W-CLONE w:lit:0xEC:0x82
-feat:EC dirt F2W-CLONE w:dark:0xEC:0x83
+# EC dirt F2W w 
+feat:EC dirt F2W w:torch:0xEC:0x80
+feat:EC dirt F2W w:los:0xEC:0x81
+feat:EC dirt F2W w:lit:0xEC:0x82
+feat:EC dirt F2W w:dark:0xEC:0x83
 
-# EC dirt F2W-CLONE x 
-feat:EC dirt F2W-CLONE x:torch:0xEC:0x84
-feat:EC dirt F2W-CLONE x:los:0xEC:0x85
-feat:EC dirt F2W-CLONE x:lit:0xEC:0x86
-feat:EC dirt F2W-CLONE x:dark:0xEC:0x87
+# EC dirt F2W x 
+feat:EC dirt F2W x:torch:0xEC:0x84
+feat:EC dirt F2W x:los:0xEC:0x85
+feat:EC dirt F2W x:lit:0xEC:0x86
+feat:EC dirt F2W x:dark:0xEC:0x87
 
-# EC dirt F2W-CLONE y 
-feat:EC dirt F2W-CLONE y:torch:0xEC:0x88
-feat:EC dirt F2W-CLONE y:los:0xEC:0x89
-feat:EC dirt F2W-CLONE y:lit:0xEC:0x8A
-feat:EC dirt F2W-CLONE y:dark:0xEC:0x8B
+# EC dirt F2W y 
+feat:EC dirt F2W y:torch:0xEC:0x88
+feat:EC dirt F2W y:los:0xEC:0x89
+feat:EC dirt F2W y:lit:0xEC:0x8A
+feat:EC dirt F2W y:dark:0xEC:0x8B
 
-# EC dirt F2W-CLONE z 
-feat:EC dirt F2W-CLONE z:torch:0xEC:0x8C
-feat:EC dirt F2W-CLONE z:los:0xEC:0x8D
-feat:EC dirt F2W-CLONE z:lit:0xEC:0x8E
-feat:EC dirt F2W-CLONE z:dark:0xEC:0x8F
+# EC dirt F2W z 
+feat:EC dirt F2W z:torch:0xEC:0x8C
+feat:EC dirt F2W z:los:0xEC:0x8D
+feat:EC dirt F2W z:lit:0xEC:0x8E
+feat:EC dirt F2W z:dark:0xEC:0x8F
 
-# EC dirt F2W-CLONE A 
-feat:EC dirt F2W-CLONE A:torch:0xEC:0x90
-feat:EC dirt F2W-CLONE A:los:0xEC:0x91
-feat:EC dirt F2W-CLONE A:lit:0xEC:0x92
-feat:EC dirt F2W-CLONE A:dark:0xEC:0x93
+# EC dirt F2W A 
+feat:EC dirt F2W A:torch:0xEC:0x90
+feat:EC dirt F2W A:los:0xEC:0x91
+feat:EC dirt F2W A:lit:0xEC:0x92
+feat:EC dirt F2W A:dark:0xEC:0x93
 
-# EC dirt F2W-CLONE B 
-feat:EC dirt F2W-CLONE B:torch:0xEC:0x94
-feat:EC dirt F2W-CLONE B:los:0xEC:0x95
-feat:EC dirt F2W-CLONE B:lit:0xEC:0x96
-feat:EC dirt F2W-CLONE B:dark:0xEC:0x97
+# EC dirt F2W B 
+feat:EC dirt F2W B:torch:0xEC:0x94
+feat:EC dirt F2W B:los:0xEC:0x95
+feat:EC dirt F2W B:lit:0xEC:0x96
+feat:EC dirt F2W B:dark:0xEC:0x97
 
-# EC dirt F2W-CLONE C 
-feat:EC dirt F2W-CLONE C:torch:0xEC:0x98
-feat:EC dirt F2W-CLONE C:los:0xEC:0x99
-feat:EC dirt F2W-CLONE C:lit:0xEC:0x9A
-feat:EC dirt F2W-CLONE C:dark:0xEC:0x9B
+# EC dirt F2W C 
+feat:EC dirt F2W C:torch:0xEC:0x98
+feat:EC dirt F2W C:los:0xEC:0x99
+feat:EC dirt F2W C:lit:0xEC:0x9A
+feat:EC dirt F2W C:dark:0xEC:0x9B
 
-# EC dirt F2W-CLONE D 
-feat:EC dirt F2W-CLONE D:torch:0xEC:0x9C
-feat:EC dirt F2W-CLONE D:los:0xEC:0x9D
-feat:EC dirt F2W-CLONE D:lit:0xEC:0x9E
-feat:EC dirt F2W-CLONE D:dark:0xEC:0x9F
+# EC dirt F2W D 
+feat:EC dirt F2W D:torch:0xEC:0x9C
+feat:EC dirt F2W D:los:0xEC:0x9D
+feat:EC dirt F2W D:lit:0xEC:0x9E
+feat:EC dirt F2W D:dark:0xEC:0x9F
 
-# EC dirt F2W-CLONE E 
-feat:EC dirt F2W-CLONE E:torch:0xEC:0xA0
-feat:EC dirt F2W-CLONE E:los:0xEC:0xA1
-feat:EC dirt F2W-CLONE E:lit:0xEC:0xA2
-feat:EC dirt F2W-CLONE E:dark:0xEC:0xA3
+# EC dirt F2W E 
+feat:EC dirt F2W E:torch:0xEC:0xA0
+feat:EC dirt F2W E:los:0xEC:0xA1
+feat:EC dirt F2W E:lit:0xEC:0xA2
+feat:EC dirt F2W E:dark:0xEC:0xA3
 
-# EC dirt F2W-CLONE F 
-feat:EC dirt F2W-CLONE F:torch:0xEC:0xA4
-feat:EC dirt F2W-CLONE F:los:0xEC:0xA5
-feat:EC dirt F2W-CLONE F:lit:0xEC:0xA6
-feat:EC dirt F2W-CLONE F:dark:0xEC:0xA7
+# EC dirt F2W F 
+feat:EC dirt F2W F:torch:0xEC:0xA4
+feat:EC dirt F2W F:los:0xEC:0xA5
+feat:EC dirt F2W F:lit:0xEC:0xA6
+feat:EC dirt F2W F:dark:0xEC:0xA7
 
-# EC dirt F2W-CLONE G 
-feat:EC dirt F2W-CLONE G:torch:0xEC:0xA8
-feat:EC dirt F2W-CLONE G:los:0xEC:0xA9
-feat:EC dirt F2W-CLONE G:lit:0xEC:0xAA
-feat:EC dirt F2W-CLONE G:dark:0xEC:0xAB
+# EC dirt F2W G 
+feat:EC dirt F2W G:torch:0xEC:0xA8
+feat:EC dirt F2W G:los:0xEC:0xA9
+feat:EC dirt F2W G:lit:0xEC:0xAA
+feat:EC dirt F2W G:dark:0xEC:0xAB
 
-# EC dirt F2W-CLONE H 
-feat:EC dirt F2W-CLONE H:torch:0xEC:0xAC
-feat:EC dirt F2W-CLONE H:los:0xEC:0xAD
-feat:EC dirt F2W-CLONE H:lit:0xEC:0xAE
-feat:EC dirt F2W-CLONE H:dark:0xEC:0xAF
+# EC dirt F2W H 
+feat:EC dirt F2W H:torch:0xEC:0xAC
+feat:EC dirt F2W H:los:0xEC:0xAD
+feat:EC dirt F2W H:lit:0xEC:0xAE
+feat:EC dirt F2W H:dark:0xEC:0xAF
 
-# EC dirt F2W-CLONE I 
-feat:EC dirt F2W-CLONE I:torch:0xEC:0xB0
-feat:EC dirt F2W-CLONE I:los:0xEC:0xB1
-feat:EC dirt F2W-CLONE I:lit:0xEC:0xB2
-feat:EC dirt F2W-CLONE I:dark:0xEC:0xB3
+# EC dirt F2W I 
+feat:EC dirt F2W I:torch:0xEC:0xB0
+feat:EC dirt F2W I:los:0xEC:0xB1
+feat:EC dirt F2W I:lit:0xEC:0xB2
+feat:EC dirt F2W I:dark:0xEC:0xB3
 
-# EC dirt F2W-CLONE J 
-feat:EC dirt F2W-CLONE J:torch:0xEC:0xB4
-feat:EC dirt F2W-CLONE J:los:0xEC:0xB5
-feat:EC dirt F2W-CLONE J:lit:0xEC:0xB6
-feat:EC dirt F2W-CLONE J:dark:0xEC:0xB7
+# EC dirt F2W J 
+feat:EC dirt F2W J:torch:0xEC:0xB4
+feat:EC dirt F2W J:los:0xEC:0xB5
+feat:EC dirt F2W J:lit:0xEC:0xB6
+feat:EC dirt F2W J:dark:0xEC:0xB7
 
-# EC dirt F2W-CLONE K 
-feat:EC dirt F2W-CLONE K:torch:0xEC:0xB8
-feat:EC dirt F2W-CLONE K:los:0xEC:0xB9
-feat:EC dirt F2W-CLONE K:lit:0xEC:0xBA
-feat:EC dirt F2W-CLONE K:dark:0xEC:0xBB
+# EC dirt F2W K 
+feat:EC dirt F2W K:torch:0xEC:0xB8
+feat:EC dirt F2W K:los:0xEC:0xB9
+feat:EC dirt F2W K:lit:0xEC:0xBA
+feat:EC dirt F2W K:dark:0xEC:0xBB
 
-# EC dirt F2W-CLONE L 
-feat:EC dirt F2W-CLONE L:torch:0xEC:0xBC
-feat:EC dirt F2W-CLONE L:los:0xEC:0xBD
-feat:EC dirt F2W-CLONE L:lit:0xEC:0xBE
-feat:EC dirt F2W-CLONE L:dark:0xEC:0xBF
+# EC dirt F2W L 
+feat:EC dirt F2W L:torch:0xEC:0xBC
+feat:EC dirt F2W L:los:0xEC:0xBD
+feat:EC dirt F2W L:lit:0xEC:0xBE
+feat:EC dirt F2W L:dark:0xEC:0xBF
 
-# EC dirt F2W-CLONE M 
-feat:EC dirt F2W-CLONE M:torch:0xEC:0xC0
-feat:EC dirt F2W-CLONE M:los:0xEC:0xC1
-feat:EC dirt F2W-CLONE M:lit:0xEC:0xC2
-feat:EC dirt F2W-CLONE M:dark:0xEC:0xC3
+# EC dirt F2W M 
+feat:EC dirt F2W M:torch:0xEC:0xC0
+feat:EC dirt F2W M:los:0xEC:0xC1
+feat:EC dirt F2W M:lit:0xEC:0xC2
+feat:EC dirt F2W M:dark:0xEC:0xC3
 
-# EC dirt F2W-CLONE N 
-feat:EC dirt F2W-CLONE N:torch:0xEC:0xC4
-feat:EC dirt F2W-CLONE N:los:0xEC:0xC5
-feat:EC dirt F2W-CLONE N:lit:0xEC:0xC6
-feat:EC dirt F2W-CLONE N:dark:0xEC:0xC7
+# EC dirt F2W N 
+feat:EC dirt F2W N:torch:0xEC:0xC4
+feat:EC dirt F2W N:los:0xEC:0xC5
+feat:EC dirt F2W N:lit:0xEC:0xC6
+feat:EC dirt F2W N:dark:0xEC:0xC7
 
-# EC dirt F2W-CLONE O 
-feat:EC dirt F2W-CLONE O:torch:0xEC:0xC8
-feat:EC dirt F2W-CLONE O:los:0xEC:0xC9
-feat:EC dirt F2W-CLONE O:lit:0xEC:0xCA
-feat:EC dirt F2W-CLONE O:dark:0xEC:0xCB
+# EC dirt F2W O 
+feat:EC dirt F2W O:torch:0xEC:0xC8
+feat:EC dirt F2W O:los:0xEC:0xC9
+feat:EC dirt F2W O:lit:0xEC:0xCA
+feat:EC dirt F2W O:dark:0xEC:0xCB
 
-# EC dirt F2W-CLONE P 
-feat:EC dirt F2W-CLONE P:torch:0xEC:0xCC
-feat:EC dirt F2W-CLONE P:los:0xEC:0xCD
-feat:EC dirt F2W-CLONE P:lit:0xEC:0xCE
-feat:EC dirt F2W-CLONE P:dark:0xEC:0xCF
+# EC dirt F2W P 
+feat:EC dirt F2W P:torch:0xEC:0xCC
+feat:EC dirt F2W P:los:0xEC:0xCD
+feat:EC dirt F2W P:lit:0xEC:0xCE
+feat:EC dirt F2W P:dark:0xEC:0xCF
 
-# EC dirt F2W-CLONE Q 
-feat:EC dirt F2W-CLONE Q:torch:0xEC:0xD0
-feat:EC dirt F2W-CLONE Q:los:0xEC:0xD1
-feat:EC dirt F2W-CLONE Q:lit:0xEC:0xD2
-feat:EC dirt F2W-CLONE Q:dark:0xEC:0xD3
+# EC dirt F2W Q 
+feat:EC dirt F2W Q:torch:0xEC:0xD0
+feat:EC dirt F2W Q:los:0xEC:0xD1
+feat:EC dirt F2W Q:lit:0xEC:0xD2
+feat:EC dirt F2W Q:dark:0xEC:0xD3
 
-# EC dirt F2W-CLONE R 
-feat:EC dirt F2W-CLONE R:torch:0xEC:0xD4
-feat:EC dirt F2W-CLONE R:los:0xEC:0xD5
-feat:EC dirt F2W-CLONE R:lit:0xEC:0xD6
-feat:EC dirt F2W-CLONE R:dark:0xEC:0xD7
+# EC dirt F2W R 
+feat:EC dirt F2W R:torch:0xEC:0xD4
+feat:EC dirt F2W R:los:0xEC:0xD5
+feat:EC dirt F2W R:lit:0xEC:0xD6
+feat:EC dirt F2W R:dark:0xEC:0xD7
 
-# EC dirt F2W-CLONE S 
-feat:EC dirt F2W-CLONE S:torch:0xEC:0xD8
-feat:EC dirt F2W-CLONE S:los:0xEC:0xD9
-feat:EC dirt F2W-CLONE S:lit:0xEC:0xDA
-feat:EC dirt F2W-CLONE S:dark:0xEC:0xDB
+# EC dirt F2W S 
+feat:EC dirt F2W S:torch:0xEC:0xD8
+feat:EC dirt F2W S:los:0xEC:0xD9
+feat:EC dirt F2W S:lit:0xEC:0xDA
+feat:EC dirt F2W S:dark:0xEC:0xDB
 
-# EC dirt F2W-CLONE T 
-feat:EC dirt F2W-CLONE T:torch:0xEC:0xDC
-feat:EC dirt F2W-CLONE T:los:0xEC:0xDD
-feat:EC dirt F2W-CLONE T:lit:0xEC:0xDE
-feat:EC dirt F2W-CLONE T:dark:0xEC:0xDF
+# EC dirt F2W T 
+feat:EC dirt F2W T:torch:0xEC:0xDC
+feat:EC dirt F2W T:los:0xEC:0xDD
+feat:EC dirt F2W T:lit:0xEC:0xDE
+feat:EC dirt F2W T:dark:0xEC:0xDF
 
 #rocks:
-# EC dirt F2W-CLONE U 
-feat:EC dirt F2W-CLONE U:torch:0xEC:0xE0
-feat:EC dirt F2W-CLONE U:los:0xEC:0xE1
-feat:EC dirt F2W-CLONE U:lit:0xEC:0xE2
-feat:EC dirt F2W-CLONE U:dark:0xEC:0xE3
+# EC dirt F2W U 
+feat:EC dirt F2W U:torch:0xEC:0xE0
+feat:EC dirt F2W U:los:0xEC:0xE1
+feat:EC dirt F2W U:lit:0xEC:0xE2
+feat:EC dirt F2W U:dark:0xEC:0xE3
 
-# EC dirt F2W-CLONE V 
-feat:EC dirt F2W-CLONE V:torch:0xEC:0xE4
-feat:EC dirt F2W-CLONE V:los:0xEC:0xE5
-feat:EC dirt F2W-CLONE V:lit:0xEC:0xE6
-feat:EC dirt F2W-CLONE V:dark:0xEC:0xE7
+# EC dirt F2W V 
+feat:EC dirt F2W V:torch:0xEC:0xE4
+feat:EC dirt F2W V:los:0xEC:0xE5
+feat:EC dirt F2W V:lit:0xEC:0xE6
+feat:EC dirt F2W V:dark:0xEC:0xE7
 
-# EC dirt F2W-CLONE W 
-feat:EC dirt F2W-CLONE W:torch:0xEC:0xE8
-feat:EC dirt F2W-CLONE W:los:0xEC:0xE9
-feat:EC dirt F2W-CLONE W:lit:0xEC:0xEA
-feat:EC dirt F2W-CLONE W:dark:0xEC:0xEB
+# EC dirt F2W W 
+feat:EC dirt F2W W:torch:0xEC:0xE8
+feat:EC dirt F2W W:los:0xEC:0xE9
+feat:EC dirt F2W W:lit:0xEC:0xEA
+feat:EC dirt F2W W:dark:0xEC:0xEB
 
-# EC dirt F2W-CLONE X 
-feat:EC dirt F2W-CLONE X:torch:0xEC:0xEC
-feat:EC dirt F2W-CLONE X:los:0xEC:0xED
-feat:EC dirt F2W-CLONE X:lit:0xEC:0xEE
-feat:EC dirt F2W-CLONE X:dark:0xEC:0xEF
+# EC dirt F2W X 
+feat:EC dirt F2W X:torch:0xEC:0xEC
+feat:EC dirt F2W X:los:0xEC:0xED
+feat:EC dirt F2W X:lit:0xEC:0xEE
+feat:EC dirt F2W X:dark:0xEC:0xEF
 
-# EC dirt F2W-CLONE Y 
-feat:EC dirt F2W-CLONE Y:torch:0xEC:0xF0
-feat:EC dirt F2W-CLONE Y:los:0xEC:0xF1
-feat:EC dirt F2W-CLONE Y:lit:0xEC:0xF2
-feat:EC dirt F2W-CLONE Y:dark:0xEC:0xF3
+# EC dirt F2W Y 
+feat:EC dirt F2W Y:torch:0xEC:0xF0
+feat:EC dirt F2W Y:los:0xEC:0xF1
+feat:EC dirt F2W Y:lit:0xEC:0xF2
+feat:EC dirt F2W Y:dark:0xEC:0xF3
 
-# EC dirt F2W-CLONE Z 
-feat:EC dirt F2W-CLONE Z:torch:0xEC:0xF4
-feat:EC dirt F2W-CLONE Z:los:0xEC:0xF5
-feat:EC dirt F2W-CLONE Z:lit:0xEC:0xF6
-feat:EC dirt F2W-CLONE Z:dark:0xEC:0xF7
+# EC dirt F2W Z 
+feat:EC dirt F2W Z:torch:0xEC:0xF4
+feat:EC dirt F2W Z:los:0xEC:0xF5
+feat:EC dirt F2W Z:lit:0xEC:0xF6
+feat:EC dirt F2W Z:dark:0xEC:0xF7
 
-# EC dirt F2W-CLONE ~ 
-feat:EC dirt F2W-CLONE ~:torch:0xEC:0xF8
-feat:EC dirt F2W-CLONE ~:los:0xEC:0xF9
-feat:EC dirt F2W-CLONE ~:lit:0xEC:0xFA
-feat:EC dirt F2W-CLONE ~:dark:0xEC:0xFB
+# EC dirt F2W ~ 
+feat:EC dirt F2W ~:torch:0xEC:0xF8
+feat:EC dirt F2W ~:los:0xEC:0xF9
+feat:EC dirt F2W ~:lit:0xEC:0xFA
+feat:EC dirt F2W ~:dark:0xEC:0xFB
 
-# EC dirt F2W-CLONE ` 
-feat:EC dirt F2W-CLONE `:torch:0xEC:0xFC
-feat:EC dirt F2W-CLONE `:los:0xEC:0xFD
-feat:EC dirt F2W-CLONE `:lit:0xEC:0xFE
-feat:EC dirt F2W-CLONE `:dark:0xEC:0xFF
-
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# ED dirt dirt F2W-CLONE 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-# ED dirt F2W-CLONE 0 
-feat:ED dirt F2W-CLONE 0:torch:0xED:0x80
-feat:ED dirt F2W-CLONE 0:los:0xED:0x81
-feat:ED dirt F2W-CLONE 0:lit:0xED:0x82
-feat:ED dirt F2W-CLONE 0:dark:0xED:0x83
-
-# ED dirt F2W-CLONE 1 
-feat:ED dirt F2W-CLONE 1:torch:0xED:0x84
-feat:ED dirt F2W-CLONE 1:los:0xED:0x85
-feat:ED dirt F2W-CLONE 1:lit:0xED:0x86
-feat:ED dirt F2W-CLONE 1:dark:0xED:0x87
-
-# ED dirt F2W-CLONE 2 
-feat:ED dirt F2W-CLONE 2:torch:0xED:0x88
-feat:ED dirt F2W-CLONE 2:los:0xED:0x89
-feat:ED dirt F2W-CLONE 2:lit:0xED:0x8A
-feat:ED dirt F2W-CLONE 2:dark:0xED:0x8B
-
-# ED dirt F2W-CLONE 3 
-feat:ED dirt F2W-CLONE 3:torch:0xED:0x8C
-feat:ED dirt F2W-CLONE 3:los:0xED:0x8D
-feat:ED dirt F2W-CLONE 3:lit:0xED:0x8E
-feat:ED dirt F2W-CLONE 3:dark:0xED:0x8F
-
-# ED dirt F2W-CLONE 4 
-feat:ED dirt F2W-CLONE 4:torch:0xED:0x90
-feat:ED dirt F2W-CLONE 4:los:0xED:0x91
-feat:ED dirt F2W-CLONE 4:lit:0xED:0x92
-feat:ED dirt F2W-CLONE 4:dark:0xED:0x93
-
-# ED dirt F2W-CLONE 5 
-feat:ED dirt F2W-CLONE 5:torch:0xED:0x94
-feat:ED dirt F2W-CLONE 5:los:0xED:0x95
-feat:ED dirt F2W-CLONE 5:lit:0xED:0x96
-feat:ED dirt F2W-CLONE 5:dark:0xED:0x97
-
-# ED dirt F2W-CLONE 6 
-feat:ED dirt F2W-CLONE 6:torch:0xED:0x98
-feat:ED dirt F2W-CLONE 6:los:0xED:0x99
-feat:ED dirt F2W-CLONE 6:lit:0xED:0x9A
-feat:ED dirt F2W-CLONE 6:dark:0xED:0x9B
-
-# ED dirt F2W-CLONE 7 
-feat:ED dirt F2W-CLONE 7:torch:0xED:0x9C
-feat:ED dirt F2W-CLONE 7:los:0xED:0x9D
-feat:ED dirt F2W-CLONE 7:lit:0xED:0x9E
-feat:ED dirt F2W-CLONE 7:dark:0xED:0x9F
-
-# ED dirt F2W-CLONE 8 
-feat:ED dirt F2W-CLONE 8:torch:0xED:0xA0
-feat:ED dirt F2W-CLONE 8:los:0xED:0xA1
-feat:ED dirt F2W-CLONE 8:lit:0xED:0xA2
-feat:ED dirt F2W-CLONE 8:dark:0xED:0xA3
-
-# ED dirt F2W-CLONE 9 
-feat:ED dirt F2W-CLONE 9:torch:0xED:0xA4
-feat:ED dirt F2W-CLONE 9:los:0xED:0xA5
-feat:ED dirt F2W-CLONE 9:lit:0xED:0xA6
-feat:ED dirt F2W-CLONE 9:dark:0xED:0xA7
-
-# ED dirt F2W-CLONE a 
-feat:ED dirt F2W-CLONE a:torch:0xED:0xA8
-feat:ED dirt F2W-CLONE a:los:0xED:0xA9
-feat:ED dirt F2W-CLONE a:lit:0xED:0xAA
-feat:ED dirt F2W-CLONE a:dark:0xED:0xAB
-
-# ED dirt F2W-CLONE b 
-feat:ED dirt F2W-CLONE b:torch:0xED:0xAC
-feat:ED dirt F2W-CLONE b:los:0xED:0xAD
-feat:ED dirt F2W-CLONE b:lit:0xED:0xAE
-feat:ED dirt F2W-CLONE b:dark:0xED:0xAF
-
-# ED dirt F2W-CLONE c 
-feat:ED dirt F2W-CLONE c:torch:0xED:0xB0
-feat:ED dirt F2W-CLONE c:los:0xED:0xB1
-feat:ED dirt F2W-CLONE c:lit:0xED:0xB2
-feat:ED dirt F2W-CLONE c:dark:0xED:0xB3
-
-# ED dirt F2W-CLONE d 
-feat:ED dirt F2W-CLONE d:torch:0xED:0xB4
-feat:ED dirt F2W-CLONE d:los:0xED:0xB5
-feat:ED dirt F2W-CLONE d:lit:0xED:0xB6
-feat:ED dirt F2W-CLONE d:dark:0xED:0xB7
-
-# ED dirt F2W-CLONE e 
-feat:ED dirt F2W-CLONE e:torch:0xED:0xB8
-feat:ED dirt F2W-CLONE e:los:0xED:0xB9
-feat:ED dirt F2W-CLONE e:lit:0xED:0xBA
-feat:ED dirt F2W-CLONE e:dark:0xED:0xBB
-
-# ED dirt F2W-CLONE f 
-feat:ED dirt F2W-CLONE f:torch:0xED:0xBC
-feat:ED dirt F2W-CLONE f:los:0xED:0xBD
-feat:ED dirt F2W-CLONE f:lit:0xED:0xBE
-feat:ED dirt F2W-CLONE f:dark:0xED:0xBF
-
-# ED dirt F2W-CLONE g 
-feat:ED dirt F2W-CLONE g:torch:0xED:0xC0
-feat:ED dirt F2W-CLONE g:los:0xED:0xC1
-feat:ED dirt F2W-CLONE g:lit:0xED:0xC2
-feat:ED dirt F2W-CLONE g:dark:0xED:0xC3
-
-# ED dirt F2W-CLONE h 
-feat:ED dirt F2W-CLONE h:torch:0xED:0xC4
-feat:ED dirt F2W-CLONE h:los:0xED:0xC5
-feat:ED dirt F2W-CLONE h:lit:0xED:0xC6
-feat:ED dirt F2W-CLONE h:dark:0xED:0xC7
-
-# ED dirt F2W-CLONE i 
-feat:ED dirt F2W-CLONE i:torch:0xED:0xC8
-feat:ED dirt F2W-CLONE i:los:0xED:0xC9
-feat:ED dirt F2W-CLONE i:lit:0xED:0xCA
-feat:ED dirt F2W-CLONE i:dark:0xED:0xCB
-
-# ED dirt F2W-CLONE j 
-feat:ED dirt F2W-CLONE j:torch:0xED:0xCC
-feat:ED dirt F2W-CLONE j:los:0xED:0xCD
-feat:ED dirt F2W-CLONE j:lit:0xED:0xCE
-feat:ED dirt F2W-CLONE j:dark:0xED:0xCF
-
-# ED dirt F2W-CLONE k 
-feat:ED dirt F2W-CLONE k:torch:0xED:0xD0
-feat:ED dirt F2W-CLONE k:los:0xED:0xD1
-feat:ED dirt F2W-CLONE k:lit:0xED:0xD2
-feat:ED dirt F2W-CLONE k:dark:0xED:0xD3
-
-# ED dirt F2W-CLONE l 
-feat:ED dirt F2W-CLONE l:torch:0xED:0xD4
-feat:ED dirt F2W-CLONE l:los:0xED:0xD5
-feat:ED dirt F2W-CLONE l:lit:0xED:0xD6
-feat:ED dirt F2W-CLONE l:dark:0xED:0xD7
-
-# ED dirt F2W-CLONE m 
-feat:ED dirt F2W-CLONE m:torch:0xED:0xD8
-feat:ED dirt F2W-CLONE m:los:0xED:0xD9
-feat:ED dirt F2W-CLONE m:lit:0xED:0xDA
-feat:ED dirt F2W-CLONE m:dark:0xED:0xDB
-
-# ED dirt F2W-CLONE n 
-feat:ED dirt F2W-CLONE n:torch:0xED:0xDC
-feat:ED dirt F2W-CLONE n:los:0xED:0xDD
-feat:ED dirt F2W-CLONE n:lit:0xED:0xDE
-feat:ED dirt F2W-CLONE n:dark:0xED:0xDF
-
-# ED dirt F2W-CLONE o 
-feat:ED dirt F2W-CLONE o:torch:0xED:0xE0
-feat:ED dirt F2W-CLONE o:los:0xED:0xE1
-feat:ED dirt F2W-CLONE o:lit:0xED:0xE2
-feat:ED dirt F2W-CLONE o:dark:0xED:0xE3
-
-# ED dirt F2W-CLONE p 
-feat:ED dirt F2W-CLONE p:torch:0xED:0xE4
-feat:ED dirt F2W-CLONE p:los:0xED:0xE5
-feat:ED dirt F2W-CLONE p:lit:0xED:0xE6
-feat:ED dirt F2W-CLONE p:dark:0xED:0xE7
-
-# ED dirt F2W-CLONE q 
-feat:ED dirt F2W-CLONE q:torch:0xED:0xE8
-feat:ED dirt F2W-CLONE q:los:0xED:0xE9
-feat:ED dirt F2W-CLONE q:lit:0xED:0xEA
-feat:ED dirt F2W-CLONE q:dark:0xED:0xEB
-
-# ED dirt F2W-CLONE r 
-feat:ED dirt F2W-CLONE r:torch:0xED:0xEC
-feat:ED dirt F2W-CLONE r:los:0xED:0xED
-feat:ED dirt F2W-CLONE r:lit:0xED:0xEE
-feat:ED dirt F2W-CLONE r:dark:0xED:0xEF
-
-# ED dirt F2W-CLONE s 
-feat:ED dirt F2W-CLONE s:torch:0xED:0xF0
-feat:ED dirt F2W-CLONE s:los:0xED:0xF1
-feat:ED dirt F2W-CLONE s:lit:0xED:0xF2
-feat:ED dirt F2W-CLONE s:dark:0xED:0xF3
-
-# ED dirt F2W-CLONE t 
-feat:ED dirt F2W-CLONE t:torch:0xED:0xF4
-feat:ED dirt F2W-CLONE t:los:0xED:0xF5
-feat:ED dirt F2W-CLONE t:lit:0xED:0xF6
-feat:ED dirt F2W-CLONE t:dark:0xED:0xF7
-
-# ED dirt F2W-CLONE u 
-feat:ED dirt F2W-CLONE u:torch:0xED:0xF8
-feat:ED dirt F2W-CLONE u:los:0xED:0xF9
-feat:ED dirt F2W-CLONE u:lit:0xED:0xFA
-feat:ED dirt F2W-CLONE u:dark:0xED:0xFB
-
-# ED dirt F2W-CLONE v 
-feat:ED dirt F2W-CLONE v:torch:0xED:0xFC
-feat:ED dirt F2W-CLONE v:los:0xED:0xFD
-feat:ED dirt F2W-CLONE v:lit:0xED:0xFE
-feat:ED dirt F2W-CLONE v:dark:0xED:0xFF
+# EC dirt F2W ` 
+feat:EC dirt F2W `:torch:0xEC:0xFC
+feat:EC dirt F2W `:los:0xEC:0xFD
+feat:EC dirt F2W `:lit:0xEC:0xFE
+feat:EC dirt F2W `:dark:0xEC:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EE dirt F2W-CLONE 
+# ED dirt dirt F2W 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# EE dirt F2W-CLONE w 
-feat:EE dirt F2W-CLONE w:torch:0xEE:0x80
-feat:EE dirt F2W-CLONE w:los:0xEE:0x81
-feat:EE dirt F2W-CLONE w:lit:0xEE:0x82
-feat:EE dirt F2W-CLONE w:dark:0xEE:0x83
+# ED dirt F2W 0 
+feat:ED dirt F2W 0:torch:0xED:0x80
+feat:ED dirt F2W 0:los:0xED:0x81
+feat:ED dirt F2W 0:lit:0xED:0x82
+feat:ED dirt F2W 0:dark:0xED:0x83
 
-# EE dirt F2W-CLONE x 
-feat:EE dirt F2W-CLONE x:torch:0xEE:0x84
-feat:EE dirt F2W-CLONE x:los:0xEE:0x85
-feat:EE dirt F2W-CLONE x:lit:0xEE:0x86
-feat:EE dirt F2W-CLONE x:dark:0xEE:0x87
+# ED dirt F2W 1 
+feat:ED dirt F2W 1:torch:0xED:0x84
+feat:ED dirt F2W 1:los:0xED:0x85
+feat:ED dirt F2W 1:lit:0xED:0x86
+feat:ED dirt F2W 1:dark:0xED:0x87
 
-# EE dirt F2W-CLONE y 
-feat:EE dirt F2W-CLONE y:torch:0xEE:0x88
-feat:EE dirt F2W-CLONE y:los:0xEE:0x89
-feat:EE dirt F2W-CLONE y:lit:0xEE:0x8A
-feat:EE dirt F2W-CLONE y:dark:0xEE:0x8B
+# ED dirt F2W 2 
+feat:ED dirt F2W 2:torch:0xED:0x88
+feat:ED dirt F2W 2:los:0xED:0x89
+feat:ED dirt F2W 2:lit:0xED:0x8A
+feat:ED dirt F2W 2:dark:0xED:0x8B
 
-# EE dirt F2W-CLONE z 
-feat:EE dirt F2W-CLONE z:torch:0xEE:0x8C
-feat:EE dirt F2W-CLONE z:los:0xEE:0x8D
-feat:EE dirt F2W-CLONE z:lit:0xEE:0x8E
-feat:EE dirt F2W-CLONE z:dark:0xEE:0x8F
+# ED dirt F2W 3 
+feat:ED dirt F2W 3:torch:0xED:0x8C
+feat:ED dirt F2W 3:los:0xED:0x8D
+feat:ED dirt F2W 3:lit:0xED:0x8E
+feat:ED dirt F2W 3:dark:0xED:0x8F
 
-# EE dirt F2W-CLONE A 
-feat:EE dirt F2W-CLONE A:torch:0xEE:0x90
-feat:EE dirt F2W-CLONE A:los:0xEE:0x91
-feat:EE dirt F2W-CLONE A:lit:0xEE:0x92
-feat:EE dirt F2W-CLONE A:dark:0xEE:0x93
+# ED dirt F2W 4 
+feat:ED dirt F2W 4:torch:0xED:0x90
+feat:ED dirt F2W 4:los:0xED:0x91
+feat:ED dirt F2W 4:lit:0xED:0x92
+feat:ED dirt F2W 4:dark:0xED:0x93
 
-# EE dirt F2W-CLONE B 
-feat:EE dirt F2W-CLONE B:torch:0xEE:0x94
-feat:EE dirt F2W-CLONE B:los:0xEE:0x95
-feat:EE dirt F2W-CLONE B:lit:0xEE:0x96
-feat:EE dirt F2W-CLONE B:dark:0xEE:0x97
+# ED dirt F2W 5 
+feat:ED dirt F2W 5:torch:0xED:0x94
+feat:ED dirt F2W 5:los:0xED:0x95
+feat:ED dirt F2W 5:lit:0xED:0x96
+feat:ED dirt F2W 5:dark:0xED:0x97
 
-# EE dirt F2W-CLONE C 
-feat:EE dirt F2W-CLONE C:torch:0xEE:0x98
-feat:EE dirt F2W-CLONE C:los:0xEE:0x99
-feat:EE dirt F2W-CLONE C:lit:0xEE:0x9A
-feat:EE dirt F2W-CLONE C:dark:0xEE:0x9B
+# ED dirt F2W 6 
+feat:ED dirt F2W 6:torch:0xED:0x98
+feat:ED dirt F2W 6:los:0xED:0x99
+feat:ED dirt F2W 6:lit:0xED:0x9A
+feat:ED dirt F2W 6:dark:0xED:0x9B
 
-# EE dirt F2W-CLONE D 
-feat:EE dirt F2W-CLONE D:torch:0xEE:0x9C
-feat:EE dirt F2W-CLONE D:los:0xEE:0x9D
-feat:EE dirt F2W-CLONE D:lit:0xEE:0x9E
-feat:EE dirt F2W-CLONE D:dark:0xEE:0x9F
+# ED dirt F2W 7 
+feat:ED dirt F2W 7:torch:0xED:0x9C
+feat:ED dirt F2W 7:los:0xED:0x9D
+feat:ED dirt F2W 7:lit:0xED:0x9E
+feat:ED dirt F2W 7:dark:0xED:0x9F
 
-# EE dirt F2W-CLONE E 
-feat:EE dirt F2W-CLONE E:torch:0xEE:0xA0
-feat:EE dirt F2W-CLONE E:los:0xEE:0xA1
-feat:EE dirt F2W-CLONE E:lit:0xEE:0xA2
-feat:EE dirt F2W-CLONE E:dark:0xEE:0xA3
+# ED dirt F2W 8 
+feat:ED dirt F2W 8:torch:0xED:0xA0
+feat:ED dirt F2W 8:los:0xED:0xA1
+feat:ED dirt F2W 8:lit:0xED:0xA2
+feat:ED dirt F2W 8:dark:0xED:0xA3
 
-# EE dirt F2W-CLONE F 
-feat:EE dirt F2W-CLONE F:torch:0xEE:0xA4
-feat:EE dirt F2W-CLONE F:los:0xEE:0xA5
-feat:EE dirt F2W-CLONE F:lit:0xEE:0xA6
-feat:EE dirt F2W-CLONE F:dark:0xEE:0xA7
+# ED dirt F2W 9 
+feat:ED dirt F2W 9:torch:0xED:0xA4
+feat:ED dirt F2W 9:los:0xED:0xA5
+feat:ED dirt F2W 9:lit:0xED:0xA6
+feat:ED dirt F2W 9:dark:0xED:0xA7
 
-# EE dirt F2W-CLONE G 
-feat:EE dirt F2W-CLONE G:torch:0xEE:0xA8
-feat:EE dirt F2W-CLONE G:los:0xEE:0xA9
-feat:EE dirt F2W-CLONE G:lit:0xEE:0xAA
-feat:EE dirt F2W-CLONE G:dark:0xEE:0xAB
+# ED dirt F2W a 
+feat:ED dirt F2W a:torch:0xED:0xA8
+feat:ED dirt F2W a:los:0xED:0xA9
+feat:ED dirt F2W a:lit:0xED:0xAA
+feat:ED dirt F2W a:dark:0xED:0xAB
 
-# EE dirt F2W-CLONE H 
-feat:EE dirt F2W-CLONE H:torch:0xEE:0xAC
-feat:EE dirt F2W-CLONE H:los:0xEE:0xAD
-feat:EE dirt F2W-CLONE H:lit:0xEE:0xAE
-feat:EE dirt F2W-CLONE H:dark:0xEE:0xAF
+# ED dirt F2W b 
+feat:ED dirt F2W b:torch:0xED:0xAC
+feat:ED dirt F2W b:los:0xED:0xAD
+feat:ED dirt F2W b:lit:0xED:0xAE
+feat:ED dirt F2W b:dark:0xED:0xAF
 
-# EE dirt F2W-CLONE I 
-feat:EE dirt F2W-CLONE I:torch:0xEE:0xB0
-feat:EE dirt F2W-CLONE I:los:0xEE:0xB1
-feat:EE dirt F2W-CLONE I:lit:0xEE:0xB2
-feat:EE dirt F2W-CLONE I:dark:0xEE:0xB3
+# ED dirt F2W c 
+feat:ED dirt F2W c:torch:0xED:0xB0
+feat:ED dirt F2W c:los:0xED:0xB1
+feat:ED dirt F2W c:lit:0xED:0xB2
+feat:ED dirt F2W c:dark:0xED:0xB3
 
-# EE dirt F2W-CLONE J 
-feat:EE dirt F2W-CLONE J:torch:0xEE:0xB4
-feat:EE dirt F2W-CLONE J:los:0xEE:0xB5
-feat:EE dirt F2W-CLONE J:lit:0xEE:0xB6
-feat:EE dirt F2W-CLONE J:dark:0xEE:0xB7
+# ED dirt F2W d 
+feat:ED dirt F2W d:torch:0xED:0xB4
+feat:ED dirt F2W d:los:0xED:0xB5
+feat:ED dirt F2W d:lit:0xED:0xB6
+feat:ED dirt F2W d:dark:0xED:0xB7
 
-# EE dirt F2W-CLONE K 
-feat:EE dirt F2W-CLONE K:torch:0xEE:0xB8
-feat:EE dirt F2W-CLONE K:los:0xEE:0xB9
-feat:EE dirt F2W-CLONE K:lit:0xEE:0xBA
-feat:EE dirt F2W-CLONE K:dark:0xEE:0xBB
+# ED dirt F2W e 
+feat:ED dirt F2W e:torch:0xED:0xB8
+feat:ED dirt F2W e:los:0xED:0xB9
+feat:ED dirt F2W e:lit:0xED:0xBA
+feat:ED dirt F2W e:dark:0xED:0xBB
 
-# EE dirt F2W-CLONE L 
-feat:EE dirt F2W-CLONE L:torch:0xEE:0xBC
-feat:EE dirt F2W-CLONE L:los:0xEE:0xBD
-feat:EE dirt F2W-CLONE L:lit:0xEE:0xBE
-feat:EE dirt F2W-CLONE L:dark:0xEE:0xBF
+# ED dirt F2W f 
+feat:ED dirt F2W f:torch:0xED:0xBC
+feat:ED dirt F2W f:los:0xED:0xBD
+feat:ED dirt F2W f:lit:0xED:0xBE
+feat:ED dirt F2W f:dark:0xED:0xBF
 
-# EE dirt F2W-CLONE M 
-feat:EE dirt F2W-CLONE M:torch:0xEE:0xC0
-feat:EE dirt F2W-CLONE M:los:0xEE:0xC1
-feat:EE dirt F2W-CLONE M:lit:0xEE:0xC2
-feat:EE dirt F2W-CLONE M:dark:0xEE:0xC3
+# ED dirt F2W g 
+feat:ED dirt F2W g:torch:0xED:0xC0
+feat:ED dirt F2W g:los:0xED:0xC1
+feat:ED dirt F2W g:lit:0xED:0xC2
+feat:ED dirt F2W g:dark:0xED:0xC3
 
-# EE dirt F2W-CLONE N 
-feat:EE dirt F2W-CLONE N:torch:0xEE:0xC4
-feat:EE dirt F2W-CLONE N:los:0xEE:0xC5
-feat:EE dirt F2W-CLONE N:lit:0xEE:0xC6
-feat:EE dirt F2W-CLONE N:dark:0xEE:0xC7
+# ED dirt F2W h 
+feat:ED dirt F2W h:torch:0xED:0xC4
+feat:ED dirt F2W h:los:0xED:0xC5
+feat:ED dirt F2W h:lit:0xED:0xC6
+feat:ED dirt F2W h:dark:0xED:0xC7
 
-# EE dirt F2W-CLONE O 
-feat:EE dirt F2W-CLONE O:torch:0xEE:0xC8
-feat:EE dirt F2W-CLONE O:los:0xEE:0xC9
-feat:EE dirt F2W-CLONE O:lit:0xEE:0xCA
-feat:EE dirt F2W-CLONE O:dark:0xEE:0xCB
+# ED dirt F2W i 
+feat:ED dirt F2W i:torch:0xED:0xC8
+feat:ED dirt F2W i:los:0xED:0xC9
+feat:ED dirt F2W i:lit:0xED:0xCA
+feat:ED dirt F2W i:dark:0xED:0xCB
 
-# EE dirt F2W-CLONE P 
-feat:EE dirt F2W-CLONE P:torch:0xEE:0xCC
-feat:EE dirt F2W-CLONE P:los:0xEE:0xCD
-feat:EE dirt F2W-CLONE P:lit:0xEE:0xCE
-feat:EE dirt F2W-CLONE P:dark:0xEE:0xCF
+# ED dirt F2W j 
+feat:ED dirt F2W j:torch:0xED:0xCC
+feat:ED dirt F2W j:los:0xED:0xCD
+feat:ED dirt F2W j:lit:0xED:0xCE
+feat:ED dirt F2W j:dark:0xED:0xCF
 
-# EE dirt F2W-CLONE Q 
-feat:EE dirt F2W-CLONE Q:torch:0xEE:0xD0
-feat:EE dirt F2W-CLONE Q:los:0xEE:0xD1
-feat:EE dirt F2W-CLONE Q:lit:0xEE:0xD2
-feat:EE dirt F2W-CLONE Q:dark:0xEE:0xD3
+# ED dirt F2W k 
+feat:ED dirt F2W k:torch:0xED:0xD0
+feat:ED dirt F2W k:los:0xED:0xD1
+feat:ED dirt F2W k:lit:0xED:0xD2
+feat:ED dirt F2W k:dark:0xED:0xD3
 
-# EE dirt F2W-CLONE R 
-feat:EE dirt F2W-CLONE R:torch:0xEE:0xD4
-feat:EE dirt F2W-CLONE R:los:0xEE:0xD5
-feat:EE dirt F2W-CLONE R:lit:0xEE:0xD6
-feat:EE dirt F2W-CLONE R:dark:0xEE:0xD7
+# ED dirt F2W l 
+feat:ED dirt F2W l:torch:0xED:0xD4
+feat:ED dirt F2W l:los:0xED:0xD5
+feat:ED dirt F2W l:lit:0xED:0xD6
+feat:ED dirt F2W l:dark:0xED:0xD7
 
-# EE dirt F2W-CLONE S 
-feat:EE dirt F2W-CLONE S:torch:0xEE:0xD8
-feat:EE dirt F2W-CLONE S:los:0xEE:0xD9
-feat:EE dirt F2W-CLONE S:lit:0xEE:0xDA
-feat:EE dirt F2W-CLONE S:dark:0xEE:0xDB
+# ED dirt F2W m 
+feat:ED dirt F2W m:torch:0xED:0xD8
+feat:ED dirt F2W m:los:0xED:0xD9
+feat:ED dirt F2W m:lit:0xED:0xDA
+feat:ED dirt F2W m:dark:0xED:0xDB
 
-# EE dirt F2W-CLONE T 
-feat:EE dirt F2W-CLONE T:torch:0xEE:0xDC
-feat:EE dirt F2W-CLONE T:los:0xEE:0xDD
-feat:EE dirt F2W-CLONE T:lit:0xEE:0xDE
-feat:EE dirt F2W-CLONE T:dark:0xEE:0xDF
+# ED dirt F2W n 
+feat:ED dirt F2W n:torch:0xED:0xDC
+feat:ED dirt F2W n:los:0xED:0xDD
+feat:ED dirt F2W n:lit:0xED:0xDE
+feat:ED dirt F2W n:dark:0xED:0xDF
 
-# EE dirt F2W-CLONE U 
-feat:EE dirt F2W-CLONE U:torch:0xEE:0xE0
-feat:EE dirt F2W-CLONE U:los:0xEE:0xE1
-feat:EE dirt F2W-CLONE U:lit:0xEE:0xE2
-feat:EE dirt F2W-CLONE U:dark:0xEE:0xE3
+# ED dirt F2W o 
+feat:ED dirt F2W o:torch:0xED:0xE0
+feat:ED dirt F2W o:los:0xED:0xE1
+feat:ED dirt F2W o:lit:0xED:0xE2
+feat:ED dirt F2W o:dark:0xED:0xE3
 
-# EE dirt F2W-CLONE V 
-feat:EE dirt F2W-CLONE V:torch:0xEE:0xE4
-feat:EE dirt F2W-CLONE V:los:0xEE:0xE5
-feat:EE dirt F2W-CLONE V:lit:0xEE:0xE6
-feat:EE dirt F2W-CLONE V:dark:0xEE:0xE7
+# ED dirt F2W p 
+feat:ED dirt F2W p:torch:0xED:0xE4
+feat:ED dirt F2W p:los:0xED:0xE5
+feat:ED dirt F2W p:lit:0xED:0xE6
+feat:ED dirt F2W p:dark:0xED:0xE7
 
-# EE dirt F2W-CLONE W 
-feat:EE dirt F2W-CLONE W:torch:0xEE:0xE8
-feat:EE dirt F2W-CLONE W:los:0xEE:0xE9
-feat:EE dirt F2W-CLONE W:lit:0xEE:0xEA
-feat:EE dirt F2W-CLONE W:dark:0xEE:0xEB
+# ED dirt F2W q 
+feat:ED dirt F2W q:torch:0xED:0xE8
+feat:ED dirt F2W q:los:0xED:0xE9
+feat:ED dirt F2W q:lit:0xED:0xEA
+feat:ED dirt F2W q:dark:0xED:0xEB
 
-# EE dirt F2W-CLONE X 
-feat:EE dirt F2W-CLONE X:torch:0xEE:0xEC
-feat:EE dirt F2W-CLONE X:los:0xEE:0xED
-feat:EE dirt F2W-CLONE X:lit:0xEE:0xEE
-feat:EE dirt F2W-CLONE X:dark:0xEE:0xEF
+# ED dirt F2W r 
+feat:ED dirt F2W r:torch:0xED:0xEC
+feat:ED dirt F2W r:los:0xED:0xED
+feat:ED dirt F2W r:lit:0xED:0xEE
+feat:ED dirt F2W r:dark:0xED:0xEF
 
-# EE dirt F2W-CLONE Y 
-feat:EE dirt F2W-CLONE Y:torch:0xEE:0xF0
-feat:EE dirt F2W-CLONE Y:los:0xEE:0xF1
-feat:EE dirt F2W-CLONE Y:lit:0xEE:0xF2
-feat:EE dirt F2W-CLONE Y:dark:0xEE:0xF3
+# ED dirt F2W s 
+feat:ED dirt F2W s:torch:0xED:0xF0
+feat:ED dirt F2W s:los:0xED:0xF1
+feat:ED dirt F2W s:lit:0xED:0xF2
+feat:ED dirt F2W s:dark:0xED:0xF3
 
-# EE dirt F2W-CLONE Z 
-feat:EE dirt F2W-CLONE Z:torch:0xEE:0xF4
-feat:EE dirt F2W-CLONE Z:los:0xEE:0xF5
-feat:EE dirt F2W-CLONE Z:lit:0xEE:0xF6
-feat:EE dirt F2W-CLONE Z:dark:0xEE:0xF7
+# ED dirt F2W t 
+feat:ED dirt F2W t:torch:0xED:0xF4
+feat:ED dirt F2W t:los:0xED:0xF5
+feat:ED dirt F2W t:lit:0xED:0xF6
+feat:ED dirt F2W t:dark:0xED:0xF7
 
-# EE dirt F2W-CLONE ~ 
-feat:EE dirt F2W-CLONE ~:torch:0xEE:0xF8
-feat:EE dirt F2W-CLONE ~:los:0xEE:0xF9
-feat:EE dirt F2W-CLONE ~:lit:0xEE:0xFA
-feat:EE dirt F2W-CLONE ~:dark:0xEE:0xFB
+# ED dirt F2W u 
+feat:ED dirt F2W u:torch:0xED:0xF8
+feat:ED dirt F2W u:los:0xED:0xF9
+feat:ED dirt F2W u:lit:0xED:0xFA
+feat:ED dirt F2W u:dark:0xED:0xFB
 
-# EE dirt F2W-CLONE ` 
-feat:EE dirt F2W-CLONE `:torch:0xEE:0xFC
-feat:EE dirt F2W-CLONE `:los:0xEE:0xFD
-feat:EE dirt F2W-CLONE `:lit:0xEE:0xFE
-feat:EE dirt F2W-CLONE `:dark:0xEE:0xFF
+# ED dirt F2W v 
+feat:ED dirt F2W v:torch:0xED:0xFC
+feat:ED dirt F2W v:los:0xED:0xFD
+feat:ED dirt F2W v:lit:0xED:0xFE
+feat:ED dirt F2W v:dark:0xED:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# EE dirt F2W 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# EE dirt F2W w 
+feat:EE dirt F2W w:torch:0xEE:0x80
+feat:EE dirt F2W w:los:0xEE:0x81
+feat:EE dirt F2W w:lit:0xEE:0x82
+feat:EE dirt F2W w:dark:0xEE:0x83
+
+# EE dirt F2W x 
+feat:EE dirt F2W x:torch:0xEE:0x84
+feat:EE dirt F2W x:los:0xEE:0x85
+feat:EE dirt F2W x:lit:0xEE:0x86
+feat:EE dirt F2W x:dark:0xEE:0x87
+
+# EE dirt F2W y 
+feat:EE dirt F2W y:torch:0xEE:0x88
+feat:EE dirt F2W y:los:0xEE:0x89
+feat:EE dirt F2W y:lit:0xEE:0x8A
+feat:EE dirt F2W y:dark:0xEE:0x8B
+
+# EE dirt F2W z 
+feat:EE dirt F2W z:torch:0xEE:0x8C
+feat:EE dirt F2W z:los:0xEE:0x8D
+feat:EE dirt F2W z:lit:0xEE:0x8E
+feat:EE dirt F2W z:dark:0xEE:0x8F
+
+# EE dirt F2W A 
+feat:EE dirt F2W A:torch:0xEE:0x90
+feat:EE dirt F2W A:los:0xEE:0x91
+feat:EE dirt F2W A:lit:0xEE:0x92
+feat:EE dirt F2W A:dark:0xEE:0x93
+
+# EE dirt F2W B 
+feat:EE dirt F2W B:torch:0xEE:0x94
+feat:EE dirt F2W B:los:0xEE:0x95
+feat:EE dirt F2W B:lit:0xEE:0x96
+feat:EE dirt F2W B:dark:0xEE:0x97
+
+# EE dirt F2W C 
+feat:EE dirt F2W C:torch:0xEE:0x98
+feat:EE dirt F2W C:los:0xEE:0x99
+feat:EE dirt F2W C:lit:0xEE:0x9A
+feat:EE dirt F2W C:dark:0xEE:0x9B
+
+# EE dirt F2W D 
+feat:EE dirt F2W D:torch:0xEE:0x9C
+feat:EE dirt F2W D:los:0xEE:0x9D
+feat:EE dirt F2W D:lit:0xEE:0x9E
+feat:EE dirt F2W D:dark:0xEE:0x9F
+
+# EE dirt F2W E 
+feat:EE dirt F2W E:torch:0xEE:0xA0
+feat:EE dirt F2W E:los:0xEE:0xA1
+feat:EE dirt F2W E:lit:0xEE:0xA2
+feat:EE dirt F2W E:dark:0xEE:0xA3
+
+# EE dirt F2W F 
+feat:EE dirt F2W F:torch:0xEE:0xA4
+feat:EE dirt F2W F:los:0xEE:0xA5
+feat:EE dirt F2W F:lit:0xEE:0xA6
+feat:EE dirt F2W F:dark:0xEE:0xA7
+
+# EE dirt F2W G 
+feat:EE dirt F2W G:torch:0xEE:0xA8
+feat:EE dirt F2W G:los:0xEE:0xA9
+feat:EE dirt F2W G:lit:0xEE:0xAA
+feat:EE dirt F2W G:dark:0xEE:0xAB
+
+# EE dirt F2W H 
+feat:EE dirt F2W H:torch:0xEE:0xAC
+feat:EE dirt F2W H:los:0xEE:0xAD
+feat:EE dirt F2W H:lit:0xEE:0xAE
+feat:EE dirt F2W H:dark:0xEE:0xAF
+
+# EE dirt F2W I 
+feat:EE dirt F2W I:torch:0xEE:0xB0
+feat:EE dirt F2W I:los:0xEE:0xB1
+feat:EE dirt F2W I:lit:0xEE:0xB2
+feat:EE dirt F2W I:dark:0xEE:0xB3
+
+# EE dirt F2W J 
+feat:EE dirt F2W J:torch:0xEE:0xB4
+feat:EE dirt F2W J:los:0xEE:0xB5
+feat:EE dirt F2W J:lit:0xEE:0xB6
+feat:EE dirt F2W J:dark:0xEE:0xB7
+
+# EE dirt F2W K 
+feat:EE dirt F2W K:torch:0xEE:0xB8
+feat:EE dirt F2W K:los:0xEE:0xB9
+feat:EE dirt F2W K:lit:0xEE:0xBA
+feat:EE dirt F2W K:dark:0xEE:0xBB
+
+# EE dirt F2W L 
+feat:EE dirt F2W L:torch:0xEE:0xBC
+feat:EE dirt F2W L:los:0xEE:0xBD
+feat:EE dirt F2W L:lit:0xEE:0xBE
+feat:EE dirt F2W L:dark:0xEE:0xBF
+
+# EE dirt F2W M 
+feat:EE dirt F2W M:torch:0xEE:0xC0
+feat:EE dirt F2W M:los:0xEE:0xC1
+feat:EE dirt F2W M:lit:0xEE:0xC2
+feat:EE dirt F2W M:dark:0xEE:0xC3
+
+# EE dirt F2W N 
+feat:EE dirt F2W N:torch:0xEE:0xC4
+feat:EE dirt F2W N:los:0xEE:0xC5
+feat:EE dirt F2W N:lit:0xEE:0xC6
+feat:EE dirt F2W N:dark:0xEE:0xC7
+
+# EE dirt F2W O 
+feat:EE dirt F2W O:torch:0xEE:0xC8
+feat:EE dirt F2W O:los:0xEE:0xC9
+feat:EE dirt F2W O:lit:0xEE:0xCA
+feat:EE dirt F2W O:dark:0xEE:0xCB
+
+# EE dirt F2W P 
+feat:EE dirt F2W P:torch:0xEE:0xCC
+feat:EE dirt F2W P:los:0xEE:0xCD
+feat:EE dirt F2W P:lit:0xEE:0xCE
+feat:EE dirt F2W P:dark:0xEE:0xCF
+
+# EE dirt F2W Q 
+feat:EE dirt F2W Q:torch:0xEE:0xD0
+feat:EE dirt F2W Q:los:0xEE:0xD1
+feat:EE dirt F2W Q:lit:0xEE:0xD2
+feat:EE dirt F2W Q:dark:0xEE:0xD3
+
+# EE dirt F2W R 
+feat:EE dirt F2W R:torch:0xEE:0xD4
+feat:EE dirt F2W R:los:0xEE:0xD5
+feat:EE dirt F2W R:lit:0xEE:0xD6
+feat:EE dirt F2W R:dark:0xEE:0xD7
+
+# EE dirt F2W S 
+feat:EE dirt F2W S:torch:0xEE:0xD8
+feat:EE dirt F2W S:los:0xEE:0xD9
+feat:EE dirt F2W S:lit:0xEE:0xDA
+feat:EE dirt F2W S:dark:0xEE:0xDB
+
+# EE dirt F2W T 
+feat:EE dirt F2W T:torch:0xEE:0xDC
+feat:EE dirt F2W T:los:0xEE:0xDD
+feat:EE dirt F2W T:lit:0xEE:0xDE
+feat:EE dirt F2W T:dark:0xEE:0xDF
+
+# EE dirt F2W U 
+feat:EE dirt F2W U:torch:0xEE:0xE0
+feat:EE dirt F2W U:los:0xEE:0xE1
+feat:EE dirt F2W U:lit:0xEE:0xE2
+feat:EE dirt F2W U:dark:0xEE:0xE3
+
+# EE dirt F2W V 
+feat:EE dirt F2W V:torch:0xEE:0xE4
+feat:EE dirt F2W V:los:0xEE:0xE5
+feat:EE dirt F2W V:lit:0xEE:0xE6
+feat:EE dirt F2W V:dark:0xEE:0xE7
+
+# EE dirt F2W W 
+feat:EE dirt F2W W:torch:0xEE:0xE8
+feat:EE dirt F2W W:los:0xEE:0xE9
+feat:EE dirt F2W W:lit:0xEE:0xEA
+feat:EE dirt F2W W:dark:0xEE:0xEB
+
+# EE dirt F2W X 
+feat:EE dirt F2W X:torch:0xEE:0xEC
+feat:EE dirt F2W X:los:0xEE:0xED
+feat:EE dirt F2W X:lit:0xEE:0xEE
+feat:EE dirt F2W X:dark:0xEE:0xEF
+
+# EE dirt F2W Y 
+feat:EE dirt F2W Y:torch:0xEE:0xF0
+feat:EE dirt F2W Y:los:0xEE:0xF1
+feat:EE dirt F2W Y:lit:0xEE:0xF2
+feat:EE dirt F2W Y:dark:0xEE:0xF3
+
+# EE dirt F2W Z 
+feat:EE dirt F2W Z:torch:0xEE:0xF4
+feat:EE dirt F2W Z:los:0xEE:0xF5
+feat:EE dirt F2W Z:lit:0xEE:0xF6
+feat:EE dirt F2W Z:dark:0xEE:0xF7
+
+# EE dirt F2W ~ 
+feat:EE dirt F2W ~:torch:0xEE:0xF8
+feat:EE dirt F2W ~:los:0xEE:0xF9
+feat:EE dirt F2W ~:lit:0xEE:0xFA
+feat:EE dirt F2W ~:dark:0xEE:0xFB
+
+# EE dirt F2W ` 
+feat:EE dirt F2W `:torch:0xEE:0xFC
+feat:EE dirt F2W `:los:0xEE:0xFD
+feat:EE dirt F2W `:lit:0xEE:0xFE
+feat:EE dirt F2W `:dark:0xEE:0xFF
 
 
 

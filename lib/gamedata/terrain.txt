@@ -26390,11 +26390,11 @@ desc:Newbie location.
 # EB - EE dirt
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EB dirt F2W-CLONE
+# EB dirt F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:EB dirt F2W-CLONE 0
+name:EB dirt F2W 0
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
@@ -26402,7 +26402,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EA
 short-desc:dirt
 desc:.
 
-name:EB dirt F2W-CLONE 1
+name:EB dirt F2W 1
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26410,7 +26410,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:fallen tree
 desc:.
 
-name:EB dirt F2W-CLONE 2
+name:EB dirt F2W 2
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26418,7 +26418,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:fallen tree
 desc:.
 
-name:EB dirt F2W-CLONE 3
+name:EB dirt F2W 3
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26426,7 +26426,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:fallen tree
 desc:.
 
-name:EB dirt F2W-CLONE 4
+name:EB dirt F2W 4
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26434,7 +26434,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:fallen tree
 desc:.
 
-name:EB dirt F2W-CLONE 5
+name:EB dirt F2W 5
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26442,7 +26442,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE 6
+name:EB dirt F2W 6
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26450,7 +26450,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE 7
+name:EB dirt F2W 7
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26458,7 +26458,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE 8
+name:EB dirt F2W 8
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26466,7 +26466,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE 9
+name:EB dirt F2W 9
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26474,7 +26474,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE a
+name:EB dirt F2W a
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26482,7 +26482,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE b
+name:EB dirt F2W b
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26490,7 +26490,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE c
+name:EB dirt F2W c
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26498,21 +26498,21 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE d
+name:EB dirt F2W d
 graphics:*:D
 priority:18
 flags:NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
-name:EB dirt F2W-CLONE e
+name:EB dirt F2W e
 graphics:*:D
 priority:18
 flags:NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
-name:EB dirt F2W-CLONE f
+name:EB dirt F2W f
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26520,7 +26520,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE g
+name:EB dirt F2W g
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26528,7 +26528,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:tree log
 desc:.
 
-name:EB dirt F2W-CLONE h
+name:EB dirt F2W h
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26536,7 +26536,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:stump
 desc:.
 
-name:EB dirt F2W-CLONE i
+name:EB dirt F2W i
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26544,7 +26544,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:stump
 desc:.
 
-name:EB dirt F2W-CLONE j
+name:EB dirt F2W j
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TRAP | NO_STAIRS
@@ -26552,7 +26552,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | TR
 short-desc:stump
 desc:.
 
-name:EB dirt F2W-CLONE k
+name:EB dirt F2W k
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26560,7 +26560,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE l
+name:EB dirt F2W l
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26568,7 +26568,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE m
+name:EB dirt F2W m
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26577,7 +26577,7 @@ short-desc:plant on dirt
 desc:.
 
 
-name:EB dirt F2W-CLONE n
+name:EB dirt F2W n
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26585,7 +26585,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE o
+name:EB dirt F2W o
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26593,7 +26593,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE p
+name:EB dirt F2W p
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26601,7 +26601,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE q
+name:EB dirt F2W q
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26609,7 +26609,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE r
+name:EB dirt F2W r
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26617,7 +26617,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE s
+name:EB dirt F2W s
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26625,7 +26625,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE t
+name:EB dirt F2W t
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26633,7 +26633,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE u
+name:EB dirt F2W u
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26641,7 +26641,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EA
 short-desc:plant on dirt
 desc:.
 
-name:EB dirt F2W-CLONE v
+name:EB dirt F2W v
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | EASY | TORCH | NO_STAIRS
@@ -26651,81 +26651,81 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EC dirt F2W-CLONE bones
+# EC dirt F2W bones
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:EC dirt F2W-CLONE w
+name:EC dirt F2W w
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skull
 desc:Skull.
 
-name:EC dirt F2W-CLONE x
+name:EC dirt F2W x
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:few bones
 desc:A few bones.
 
-name:EC dirt F2W-CLONE y
+name:EC dirt F2W y
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:some bones
 desc:Some bones.
 
-name:EC dirt F2W-CLONE z
+name:EC dirt F2W z
 graphics:.:w
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
-name:EC dirt F2W-CLONE A
+name:EC dirt F2W A
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE B
+name:EC dirt F2W B
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE C
+name:EC dirt F2W C
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE D
+name:EC dirt F2W D
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE E
+name:EC dirt F2W E
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE F
+name:EC dirt F2W F
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:Skeleton.
 
-name:EC dirt F2W-CLONE G
+name:EC dirt F2W G
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26733,7 +26733,7 @@ flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old skeleton
 desc:.
 
-name:EC dirt F2W-CLONE H
+name:EC dirt F2W H
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26741,7 +26741,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:old skeleton
 desc:.
 
-name:EC dirt F2W-CLONE I
+name:EC dirt F2W I
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26752,7 +26752,7 @@ desc:.
 ###
 
 
-name:EC dirt F2W-CLONE J
+name:EC dirt F2W J
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26760,14 +26760,14 @@ flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:dry well
 desc:.
 
-name:EC dirt F2W-CLONE K
+name:EC dirt F2W K
 graphics:::w
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:ruins
 desc:Ruins.
 
-name:EC dirt F2W-CLONE L
+name:EC dirt F2W L
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26775,7 +26775,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:ruined cauldron
 desc:.
 
-name:EC dirt F2W-CLONE M
+name:EC dirt F2W M
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26783,14 +26783,14 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:ruined chest
 desc:.
 
-name:EC dirt F2W-CLONE N
+name:EC dirt F2W N
 graphics:+:w
 priority:18
 flags:NO_MONSTERS | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:strange sealed entrance
 desc:Strange entrance.
 
-name:EC dirt F2W-CLONE O
+name:EC dirt F2W O
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26798,7 +26798,7 @@ flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:grave
 desc:.
 
-name:EC dirt F2W-CLONE P
+name:EC dirt F2W P
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26806,7 +26806,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:barrel
 desc:.
 
-name:EC dirt F2W-CLONE Q
+name:EC dirt F2W Q
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26814,7 +26814,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:graves
 desc:.
 
-name:EC dirt F2W-CLONE R
+name:EC dirt F2W R
 graphics:.:s
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26822,14 +26822,14 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:graves
 desc:.
 
-name:EC dirt F2W-CLONE S
+name:EC dirt F2W S
 graphics:%:u
 priority:18
 flags:NO_MONSTERS | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
 short-desc:old wagon
 desc:Old wagon.
 
-name:EC dirt F2W-CLONE T
+name:EC dirt F2W T
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26839,7 +26839,7 @@ desc:.
 
 #rocks:
 
-name:EC dirt F2W-CLONE U
+name:EC dirt F2W U
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26847,7 +26847,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE V
+name:EC dirt F2W V
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26855,7 +26855,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE W
+name:EC dirt F2W W
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26863,7 +26863,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE X
+name:EC dirt F2W X
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26871,7 +26871,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE Y
+name:EC dirt F2W Y
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26879,7 +26879,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE Z
+name:EC dirt F2W Z
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26887,7 +26887,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE ~
+name:EC dirt F2W ~
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26895,7 +26895,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO
 short-desc:stony sand
 desc:.
 
-name:EC dirt F2W-CLONE `
+name:EC dirt F2W `
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | NO_STAIRS
@@ -26905,11 +26905,11 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# ED dirt F2W-CLONE mountains
+# ED dirt F2W mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:ED dirt F2W-CLONE 0
+name:ED dirt F2W 0
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26917,7 +26917,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 1
+name:ED dirt F2W 1
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26925,7 +26925,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 2
+name:ED dirt F2W 2
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26933,7 +26933,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 3
+name:ED dirt F2W 3
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26941,7 +26941,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 4
+name:ED dirt F2W 4
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26949,7 +26949,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 5
+name:ED dirt F2W 5
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26957,7 +26957,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 6
+name:ED dirt F2W 6
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26965,7 +26965,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 7
+name:ED dirt F2W 7
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26973,7 +26973,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 8
+name:ED dirt F2W 8
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26981,7 +26981,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE 9
+name:ED dirt F2W 9
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26989,7 +26989,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE a
+name:ED dirt F2W a
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -26997,7 +26997,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE b
+name:ED dirt F2W b
 graphics:^:s
 priority:18
 flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
@@ -27005,7 +27005,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:ED dirt F2W-CLONE c
+name:ED dirt F2W c
 graphics:#:s
 priority:18
 info:0:3
@@ -27014,7 +27014,7 @@ short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
 
-name:ED dirt F2W-CLONE d
+name:ED dirt F2W d
 graphics:::s
 priority:18
 info:0:3
@@ -27023,7 +27023,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:.
 
-name:ED dirt F2W-CLONE e
+name:ED dirt F2W e
 graphics:#:s
 priority:18
 info:0:3
@@ -27031,7 +27031,7 @@ flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
-name:ED dirt F2W-CLONE f
+name:ED dirt F2W f
 graphics:::s
 priority:18
 info:0:3
@@ -27039,7 +27039,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | NO_STAIRS
 short-desc:passable rubble
 desc:Passable rubble.
 
-name:ED dirt F2W-CLONE g
+name:ED dirt F2W g
 graphics:#:D
 priority:18
 info:0:3
@@ -27047,7 +27047,7 @@ flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
-name:ED dirt F2W-CLONE h
+name:ED dirt F2W h
 graphics:#:D
 priority:18
 info:0:3
@@ -27055,7 +27055,7 @@ flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
-name:ED dirt F2W-CLONE i
+name:ED dirt F2W i
 graphics:::s
 priority:18
 info:0:3
@@ -27063,7 +27063,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE j
+name:ED dirt F2W j
 graphics:::s
 priority:18
 info:0:3
@@ -27071,7 +27071,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE k
+name:ED dirt F2W k
 graphics:::s
 priority:18
 info:0:3
@@ -27079,7 +27079,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE l
+name:ED dirt F2W l
 graphics:#:s
 priority:18
 info:0:3
@@ -27087,7 +27087,7 @@ flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
-name:ED dirt F2W-CLONE m
+name:ED dirt F2W m
 graphics:::s
 priority:18
 info:0:3
@@ -27095,7 +27095,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE n
+name:ED dirt F2W n
 graphics:::s
 priority:18
 info:0:3
@@ -27103,7 +27103,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE o
+name:ED dirt F2W o
 graphics:::s
 priority:18
 info:0:3
@@ -27111,7 +27111,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE p
+name:ED dirt F2W p
 graphics:::s
 priority:18
 info:0:3
@@ -27119,7 +27119,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE q
+name:ED dirt F2W q
 graphics:::s
 priority:18
 info:0:3
@@ -27127,7 +27127,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE r
+name:ED dirt F2W r
 graphics:::s
 priority:18
 info:0:3
@@ -27135,7 +27135,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE s
+name:ED dirt F2W s
 graphics:::s
 priority:18
 info:0:3
@@ -27143,7 +27143,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE t
+name:ED dirt F2W t
 graphics:::s
 priority:18
 info:0:3
@@ -27151,7 +27151,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
-name:ED dirt F2W-CLONE u
+name:ED dirt F2W u
 graphics:::s
 priority:18
 info:0:3
@@ -27160,7 +27160,7 @@ flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:.
 
-name:ED dirt F2W-CLONE v
+name:ED dirt F2W v
 graphics:::s
 priority:18
 info:0:3
@@ -27170,227 +27170,227 @@ short-desc:rock
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EE dirt F2W-CLONE
+# EE dirt F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:EE dirt F2W-CLONE w
+name:EE dirt F2W w
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE x
+name:EE dirt F2W x
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE y
+name:EE dirt F2W y
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE z
+name:EE dirt F2W z
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE A
+name:EE dirt F2W A
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE B
+name:EE dirt F2W B
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE C
+name:EE dirt F2W C
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE D
+name:EE dirt F2W D
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE E
+name:EE dirt F2W E
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE F
+name:EE dirt F2W F
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE G
+name:EE dirt F2W G
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE H
+name:EE dirt F2W H
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE I
+name:EE dirt F2W I
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE J
+name:EE dirt F2W J
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE K
+name:EE dirt F2W K
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE L
+name:EE dirt F2W L
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE M
+name:EE dirt F2W M
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE N
+name:EE dirt F2W N
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE O
+name:EE dirt F2W O
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE P
+name:EE dirt F2W P
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE Q
+name:EE dirt F2W Q
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE R
+name:EE dirt F2W R
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE S
+name:EE dirt F2W S
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE T
+name:EE dirt F2W T
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE U
+name:EE dirt F2W U
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE V
+name:EE dirt F2W V
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE W
+name:EE dirt F2W W
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE X
+name:EE dirt F2W X
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE Y
+name:EE dirt F2W Y
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE Z
+name:EE dirt F2W Z
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE ~
+name:EE dirt F2W ~
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
 short-desc:dirt
 desc:.
 
-name:EE dirt F2W-CLONE `
+name:EE dirt F2W `
 graphics:.:u
 priority:18
 flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH | EASY | NO_STAIRS
