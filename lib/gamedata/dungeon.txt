@@ -1939,9 +1939,40 @@ flags:NO_DOORS | EMPTY
 floor:light grass:3300
 floor:light grass plants:3400
 floor:light grass flowers:3300
-wall:tree 1:3300
-wall:tree d birch:3300
-wall:tree e linden:3400
+#A1
+###################################################
+wall:tree 1:2100
+wall:tree 3:1600
+wall:tree 4 maple:500
+wall:tree 5 maple:300
+wall:tree 6 coniferous:100
+wall:tree 8 coniferous:100
+wall:tree 9 willow:500
+wall:tree d birch:1000
+wall:tree e linden:1000
+wall:tree g larch:100
+wall:tree n dead tree:500
+wall:tree o dead tree:500
+#a2
+wall:tree D tree:300
+wall:tree E tree:300
+wall:tree F tree:100
+# withered trees:
+wall:tree V:300
+wall:tree W:300
+wall:tree X:90
+wall:tree Y:500
+#a7
+wall:obj_grass L ruins:1
+wall:obj_grass M ruins:1
+wall:obj_grass N ruins:1
+wall:obj_grass O ruins:1
+wall:obj_grass P ruins:1
+wall:obj_grass Q ruins:1
+wall:big dark wall 9 entrance:1
+wall:big dark wall a low entrance:1
+wall:big dark wall b window:1
+wall:big dark wall 0:1
 rule:3000:0
 rule-symbols:ph
 rule:3000:0
