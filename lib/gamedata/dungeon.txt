@@ -46,15 +46,14 @@
 # NO_STAIRS
 #
 
-#75 Main Angband dungeon
+########################## 75 Main Angband dungeon
 name:Angband
 wpos:1:-4
 min-depth:75
 max-depth:100
 rule:10000:1
 
-# 1
-################################################################################
+########################## 1
 name:The Old Ruins
 wpos:0:0
 min-depth:1
@@ -244,7 +243,7 @@ wall:9D wall 6:1
 flags:EMPTY
 rule:10000:1
 
-# 5 (boss: Baba Yaga)
+########################## 5 (boss: Baba Yaga)
 name:The Mountain Gorge
 wpos:1:0
 min-depth:2
@@ -408,7 +407,7 @@ rule-flags:UNDEAD
 rule-symbols:h
 rule:3000:1
 
-# 10 (boss: Solovei the Robber)
+########################## 10 (boss: Solovei the Robber)
 name:The Orc Cave
 wpos:1:1
 min-depth:4
@@ -676,7 +675,7 @@ rule:3000:0
 rule-flags:TROLL
 rule:2000:1
 
-# 15 (boss: Shtukensia the Rogue)
+########################## 15 (boss: Shtukensia the Rogue)
 name:The Severs
 wpos:0:1
 min-depth:8
@@ -792,7 +791,7 @@ rule:2000:0
 rule-symbols:p
 rule:8000:1
 
-# 20 (boss: Kikimora)
+########################## 20 (boss: Kikimora)
 name:Fetid Swamps
 wpos:-1:0
 min-depth:12
@@ -975,7 +974,7 @@ rule-flags:UNDEAD
 rule-symbols:h
 rule:3000:1
 
-# 20 (boss: Azog, King of the Uruk-Hai)
+########################## 20 (boss: Azog, King of the Uruk-Hai)
 name:The Orc Mountains
 wpos:1:2
 min-depth:15
@@ -1243,19 +1242,226 @@ rule:3000:0
 rule-flags:TROLL
 rule:2000:1
 
-# 25 (boss: Old Man Willow)
+########################## 25 (boss: Old Man Willow)
 name:The Old Forest
 wpos:0:-1
 min-depth:18
 max-depth:25
 max-level:25
 flags:NO_DOORS | WATER_RIVER
-floor:floor 0 grass:3300
-floor:floor 1 grass:3400
-floor:floor w grass:3300
-wall:tree 6 coniferous:2300
-wall:tree 8 coniferous:6600
-wall:tree W:1100
+# A1
+floor:tree 0 stump:1
+floor:tree 1:1
+floor:tree 2 little:1
+floor:tree 3:1
+floor:tree 4 maple:1
+floor:tree 5 maple:1
+floor:tree 6 coniferous:1
+floor:tree 7 coniferous small:1
+floor:tree 8 coniferous:1
+floor:tree 9 willow:1
+floor:tree a small willow:1
+floor:tree b broken log:1
+floor:tree c broken log:1
+floor:tree d birch:1
+floor:tree e linden:1
+floor:tree f linden small:1
+floor:tree g larch:1
+floor:tree h larch small:1
+floor:tree i bush:1
+floor:tree j gervais:1
+floor:tree k gervais small:1
+floor:tree l palm:1
+floor:tree m palm small:1
+floor:tree n dead tree:1
+floor:tree o dead tree:1
+floor:tree p stump:1
+floor:tree q stump:1
+floor:tree r branch:15
+floor:tree s branch:15
+floor:tree t branch:15
+floor:tree u branch:15
+floor:tree v branch:10
+# A2 - trees
+floor:tree w fallen:1
+floor:tree x fallen:1
+floor:tree y fallen:1
+floor:tree z fallen:1
+floor:tree A fallen:1
+floor:tree B fallen:1
+floor:tree C small tree:1
+floor:tree D tree:1
+floor:tree E tree:1
+floor:tree F tree:1
+floor:tree G small tree:1
+#### FURTHER ON: SMALL TREES
+floor:tree H:10
+floor:tree I:10
+floor:tree J:10
+floor:tree K:10
+floor:tree L:10
+floor:tree M:10
+floor:tree N:10
+floor:tree O:10
+floor:tree P:10
+floor:tree Q:10
+floor:tree R:10
+floor:tree S:10
+#floor:tree T:1 ! basic symbol
+floor:tree U:10
+#### 4x dry: #63^ + 37V
+floor:tree V:11
+floor:tree W:10
+floor:tree X:10
+floor:tree Y:10
+floor:tree Z:1
+floor:tree ~:1
+floor:tree `:1
+#
+# A4
+floor:flower 0 green:100
+floor:flower 1 green:100
+floor:flower 2 green:100
+floor:flower 3 green:100
+floor:flower 4 green:100
+floor:flower 5 green:100
+floor:flower 6 green:100
+#
+floor:flower 7 grass:1
+floor:flower 8 grass:1
+floor:flower 9 grass yellow:1
+floor:flower a grass brown:1
+floor:flower b orange:1
+floor:flower c white:1
+floor:flower d orange:1
+floor:flower e red:1
+floor:flower f violet:1
+floor:flower g yellow:1
+floor:flower h red:1
+floor:flower i white:1
+floor:flower j red:1
+floor:flower k yellow:1
+floor:flower l rose:1
+floor:flower m purple:1
+floor:flower n orange:1
+floor:flower o rose:1
+floor:flower p blue:1
+floor:flower q rose:1
+floor:flower r red:1
+floor:flower s rose:1
+floor:flower t white:1
+floor:flower u red white:1
+floor:flower v blue white:1
+# A5
+floor:flower w rose:1
+floor:flower x blue:1
+floor:flower y purple:1
+floor:flower z blue:1
+floor:flower A red:1
+floor:flower B orange:1
+floor:flower C pink:1
+floor:flower D red:1
+floor:flower E blue:1
+floor:flower F red:1
+# 4x grass:
+floor:A5 plants G:34
+floor:A5 plants H:33
+#common (floor 0 grass) altered:
+floor:A5 plants I:650
+floor:A5 plants J:33
+# 2x mushrooms:
+floor:A5 plants K:3
+floor:A5 plants L:2
+#1x40 ^
+#
+#
+#1x20 V
+# B1
+floor:floor 0 grass:1800
+floor:floor 1 grass:2600
+# B2
+floor:floor w grass:2600
+floor:floor x grass:100
+floor:floor y grass:100
+floor:floor z grass:100
+floor:floor A grass:100
+floor:floor B grass:100
+floor:floor C grass:100
+floor:floor D grass:100
+#
+floor:floor E grass:1
+floor:floor F grass:1
+#
+floor:floor G rocks:50
+#
+floor:floor H rocks:1
+#
+floor:floor I rocks:50
+floor:floor J rocks:50
+#
+floor:floor K rocks:1
+floor:floor L rock:1
+floor:floor M rock:1
+#
+floor:floor N rock:50
+floor:floor O rock:50
+#
+floor:floor P rocks:1
+floor:floor Q dirt:1
+floor:floor R dirt:1
+floor:floor S dirt:1
+floor:floor T dirt:1
+floor:floor U dirt:1
+floor:floor V dirt:1
+#
+floor:floor W hills:41
+#
+floor:floor X hill:1
+floor:floor Y hill:1
+floor:floor Z lowland:1
+floor:floor ~ lowland:1
+floor:floor ` lowland:1
+#
+#b3
+floor:B3 floors 2:100
+floor:B3 floors 3:100
+#
+floor:hill:1
+#24 total; 
+#A1
+###################################################
+wall:tree 1:1100
+wall:tree 3:1100
+wall:tree 4 maple:100
+wall:tree 5 maple:100
+wall:tree 6 coniferous:1000
+wall:tree 8 coniferous:800
+wall:tree 9 willow:2000
+wall:tree d birch:500
+wall:tree e linden:500
+wall:tree g larch:100
+wall:tree n dead tree:500
+wall:tree o dead tree:500
+#a2
+wall:tree D tree:300
+wall:tree E tree:300
+wall:tree F tree:100
+# withered trees:
+wall:tree V:300
+wall:tree W:300
+wall:tree X:90
+wall:tree Y:500
+#a7
+wall:obj_grass L ruins:1
+wall:obj_grass M ruins:1
+wall:obj_grass N ruins:1
+wall:obj_grass O ruins:1
+wall:obj_grass P ruins:1
+wall:obj_grass Q ruins:1
+wall:big dark wall 9 entrance:1
+wall:big dark wall a low entrance:1
+wall:big dark wall b window:1
+wall:big dark wall 0:1
 rule:4000:0
 rule-flags:ANIMAL
 rule:3000:0
@@ -1263,7 +1469,7 @@ rule-flags:UNDEAD
 rule-symbols:hl
 rule:3000:1
 
-# 25 (boss: Koschei the Deathless)
+########################## 25 (boss: Koschei the Deathless)
 name:Abandoned Manor
 wpos:-1:2
 min-depth:21
@@ -1339,7 +1545,7 @@ rule:3000:0
 rule-flags:UNDEAD
 rule:7500:1
 
-# 30 (boss: The Sandworm Queen)
+########################## 30 (boss: The Sandworm Queen)
 name:The Sandworm Lair
 wpos:-2:2
 min-depth:23
@@ -1358,7 +1564,7 @@ rule-symbols:w
 rule:1000:0
 rule-flags:MULTIPLY
 
-# 35 (boss: Ulfang the Black)
+########################## 35 (boss: Ulfang the Black)
 name:The Land Of Rhun
 wpos:0:-2
 min-depth:27
@@ -1377,7 +1583,7 @@ rule:3000:0
 rule-flags:ANIMAL
 rule:4000:1
 
-# 35 (boss: The Wight-King of the Barrow-downs)
+########################## 35 (boss: The Wight-King of the Barrow-downs)
 name:The Barrow-downs
 wpos:0:2
 min-depth:28
@@ -1393,7 +1599,7 @@ rule:2500:0
 rule-flags:UNDEAD
 rule:7500:1
 
-# 35 (boss: The Minotaur of the Labyrinth)
+########################## 35 (boss: The Minotaur of the Labyrinth)
 name:The Maze
 wpos:-1:-1
 min-depth:33
@@ -1405,7 +1611,7 @@ rule:2000:0
 rule-symbols:p
 rule:8000:1
 
-# 35 (boss: The Watcher in the Water)
+########################## 35 (boss: The Watcher in the Water)
 name:The Small Water Cave
 wpos:-1:3
 min-depth:35
@@ -1425,7 +1631,7 @@ rule:1000:0
 rule-flags:IM_WATER
 rule:1000:1
 
-#40 (boss: Golgarach, the Living Rock)
+########################## 40 (boss: Golgarach, the Living Rock)
 name:The Heart of the Earth
 wpos:-1:-2
 min-depth:38
@@ -1440,7 +1646,7 @@ rule:3000:0
 rule-flags:PASS_WALL | KILL_WALL | HURT_ROCK
 rule:3000:1
 
-#40 (boss: The White Balrog)
+########################## 40 (boss: The White Balrog)
 name:The Helcaraxe
 wpos:0:4
 min-depth:42
@@ -1456,7 +1662,7 @@ wall:big dark wall 0:1000
 rule:10000:0
 rule-flags:IM_COLD
 
-#40 (boss: The Balrog of Moria)
+########################## 40 (boss: The Balrog of Moria)
 name:The Mines of Moria
 wpos:1:3
 min-depth:43
@@ -1475,7 +1681,7 @@ rule:2000:0
 rule-flags:DEMON
 rule:1000:1
 
-#45 (boss: The Glass Golem)
+########################## 45 (boss: The Glass Golem)
 name:The Illusory Castle
 wpos:-2:1
 min-depth:44
@@ -1489,7 +1695,7 @@ rule-flags:RAND_50 | EMPTY_MIND | INVISIBLE | PASS_WALL | KILL_WALL | MULTIPLY
 rule-spells:BR_CHAO | CONF | FORGET | TRAPS
 rule:3000:1
 
-#45 (boss: Shelob, Spider of Darkness)
+########################## 45 (boss: Shelob, Spider of Darkness)
 name:Cirith Ungol
 wpos:-2:-1
 min-depth:47
@@ -1507,7 +1713,7 @@ rule-flags:ORC
 rule-symbols:wmj
 rule:200:1
 
-#45 (boss: Ar-Pharazon the Golden)
+########################## 45 (boss: Ar-Pharazon the Golden)
 name:Numenor
 wpos:-2:3
 min-depth:47
@@ -1519,7 +1725,7 @@ rule:8000:0
 rule-flags:IM_WATER
 rule:2000:1
 
-#49 (boss: Radagast the Brown)
+########################## 49 (boss: Radagast the Brown)
 name:Mirkwood
 wpos:0:-3
 min-depth:55
@@ -1532,7 +1738,7 @@ rule:2500:0
 rule-symbols:S
 rule:7500:1
 
-#49 (boss: The Mouth of Sauron)
+########################## 49 (boss: The Mouth of Sauron)
 name:Mordor
 wpos:1:-1
 min-depth:56
@@ -1606,7 +1812,7 @@ floor:E6 blood W:10
 wall:mountain:5
 rule:10000:1
 
-#49 (boss: Trone, the Rebel Thunderlord)
+########################## 49 (boss: Trone, the Rebel Thunderlord)
 name:The Sacred Land Of Mountains
 wpos:2:2
 min-depth:60
@@ -1617,7 +1823,7 @@ wall:mountain:1000
 rule:10000:1
 
 #lonely mountain
-#49 (boss: Glaurung, Father of the Dragons)
+########################## 49 (boss: Glaurung, Father of the Dragons)
 name:Erebor
 wpos:-1:-3
 min-depth:62
@@ -1633,7 +1839,7 @@ rule:3000:0
 rule-symbols:d
 rule:1000:1
 
-#49 (boss: The Necromancer of Dol Guldur)
+########################## 49 (boss: The Necromancer of Dol Guldur)
 name:Dol Guldur
 wpos:-2:0
 min-depth:63
@@ -1650,7 +1856,7 @@ rule:1000:0
 rule-flags:ORC | TROLL
 rule:1000:1
 
-#49 (boss: Feagwath, the Undead Sorcerer)
+########################## 49 (boss: Feagwath, the Undead Sorcerer)
 name:The Paths of the Dead
 wpos:-1:-4
 min-depth:66
@@ -1667,7 +1873,7 @@ rule:500:1
 
 #### ANGBAND for 50 lvl (at beginning)
 
-#50 (boss: The Balrog of the Sammath Naur)
+########################## 50 (boss: The Balrog of the Sammath Naur)
 name:Mount Doom
 wpos:1:-2
 min-depth:84
@@ -1678,7 +1884,7 @@ wall:lava:1000
 rule:10000:0
 rule-flags:IM_FIRE
 
-#X (boss: Tulkas)
+########################## X (boss: Tulkas)
 name:The Straight Road
 wpos:-3:0
 min-depth:101
@@ -1692,7 +1898,7 @@ wall:F3 shallow water 1:300
 wall:F3 shallow water 2:300
 rule:10000:1
 
-#XX (boss: Manwe)
+########################## XX (boss: Manwe)
 name:Valinor
 wpos:-5:0
 min-depth:101
@@ -1712,7 +1918,7 @@ rule:10000:1
 #rule-symbols:GWU
 #rule:5:1
 
-#XXX (boss: Eru Iluvatar)
+########################## XXX (boss: Eru Iluvatar)
 name:Utumno, Portal to the Void
 wpos:0:-5
 min-depth:102
