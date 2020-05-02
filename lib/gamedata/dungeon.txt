@@ -1795,135 +1795,135 @@ wall:sandwall:4950
 ################################ 5050 V
 #
 ####################### 800
-wall:E7 desert 0:570
-wall:E7 desert 7:34
-wall:E7 desert 8:34
-wall:E7 desert 9:16
-wall:E7 desert a:16
-wall:E7 desert b:10
-wall:E7 desert c:10
-wall:E7 desert d:10
-wall:E7 desert e:10
-wall:E7 desert f:10
-wall:E7 desert g:10
-wall:E7 desert h:10
-wall:E7 desert i:10
-wall:E7 desert j:10
-wall:E7 desert k:10
-wall:E7 desert l:10
-wall:E7 desert m:10
-wall:E7 desert n:10
+wall:E7 desert F2W 0:570
+wall:E7 desert F2W 7:34
+wall:E7 desert F2W 8:34
+wall:E7 desert F2W 9:16
+wall:E7 desert F2W a:16
+wall:E7 desert F2W b:10
+wall:E7 desert F2W c:10
+wall:E7 desert F2W d:10
+wall:E7 desert F2W e:10
+wall:E7 desert F2W f:10
+wall:E7 desert F2W g:10
+wall:E7 desert F2W h:10
+wall:E7 desert F2W i:10
+wall:E7 desert F2W j:10
+wall:E7 desert F2W k:10
+wall:E7 desert F2W l:10
+wall:E7 desert F2W m:10
+wall:E7 desert F2W n:10
 ####################### 700
-wall:E7 desert o:100
-wall:E7 desert p:140
-wall:E7 desert q:10
-wall:E7 desert r:100
-wall:E7 desert s:100
-wall:E7 desert t:100
-wall:E7 desert u:50
-wall:E7 desert v:100
+wall:E7 desert F2W o:100
+wall:E7 desert F2W p:140
+wall:E7 desert F2W q:10
+wall:E7 desert F2W r:100
+wall:E7 desert F2W s:100
+wall:E7 desert F2W t:100
+wall:E7 desert F2W u:50
+wall:E7 desert F2W v:100
 ###################### 200
-wall:E8 desert w:30
-wall:E8 desert x:20
-wall:E8 desert y:20
-wall:E8 desert z:10
-wall:E8 desert A:20
-wall:E8 desert B:20
-wall:E8 desert C:20
-wall:E8 desert D:20
-wall:E8 desert E:20
-wall:E8 desert F:20
+wall:E8 desert F2W w:30
+wall:E8 desert F2W x:20
+wall:E8 desert F2W y:20
+wall:E8 desert F2W z:10
+wall:E8 desert F2W A:20
+wall:E8 desert F2W B:20
+wall:E8 desert F2W C:20
+wall:E8 desert F2W D:20
+wall:E8 desert F2W E:20
+wall:E8 desert F2W F:20
 ########### big bones: 80
-wall:E8 desert G:10
-wall:E8 desert H:10
-wall:E8 desert I:10
+wall:E8 desert F2W G:10
+wall:E8 desert F2W H:10
+wall:E8 desert F2W I:10
 # well:
-wall:E8 desert J:1
-wall:E8 desert K:16
-wall:E8 desert L:1
-wall:E8 desert M:1
-#wall:E8 desert N
-wall:E8 desert O:10
-wall:E8 desert P:1
-wall:E8 desert Q:10
-wall:E8 desert R:10
+wall:E8 desert F2W J:1
+wall:E8 desert F2W K:16
+wall:E8 desert F2W L:1
+wall:E8 desert F2W M:1
+#wall:E8 desert F2W N
+wall:E8 desert F2W O:10
+wall:E8 desert F2W P:1
+wall:E8 desert F2W Q:10
+wall:E8 desert F2W R:10
 ############### wagon: 90
-wall:E8 desert S:1
-wall:E8 desert T:9
-wall:E8 desert U:10
-wall:E8 desert V:10
-wall:E8 desert W:10
-wall:E8 desert X:10
-wall:E8 desert Y:10
-wall:E8 desert Z:10
-wall:E8 desert ~:10
-wall:E8 desert `:10
+wall:E8 desert F2W S:1
+wall:E8 desert F2W T:9
+wall:E8 desert F2W U:10
+wall:E8 desert F2W V:10
+wall:E8 desert F2W W:10
+wall:E8 desert F2W X:10
+wall:E8 desert F2W Y:10
+wall:E8 desert F2W Z:10
+wall:E8 desert F2W ~:10
+wall:E8 desert F2W `:10
 ##################### 30
-wall:E9 desert 4:1
-wall:E9 desert 5:1
-wall:E9 desert 6:1
-wall:E9 desert 7:1
-wall:E9 desert 8:1
-wall:E9 desert 9:1
-wall:E9 desert a:12
-wall:E9 desert b:12
+wall:E9 desert F2W 4:1
+wall:E9 desert F2W 5:1
+wall:E9 desert F2W 6:1
+wall:E9 desert F2W 7:1
+wall:E9 desert F2W 8:1
+wall:E9 desert F2W 9:1
+wall:E9 desert F2W a:12
+wall:E9 desert F2W b:12
 ###############rocks: 130
-wall:E9 desert c:20
-wall:E9 desert d:20
-wall:E9 desert e:10
-wall:E9 desert f:10
-wall:E9 desert g:10
-wall:E9 desert h:10
-wall:E9 desert i:10
-wall:E9 desert j:10
-wall:E9 desert k:10
-wall:E9 desert l:10
-wall:E9 desert m:10
+wall:E9 desert F2W c:20
+wall:E9 desert F2W d:20
+wall:E9 desert F2W e:10
+wall:E9 desert F2W f:10
+wall:E9 desert F2W g:10
+wall:E9 desert F2W h:10
+wall:E9 desert F2W i:10
+wall:E9 desert F2W j:10
+wall:E9 desert F2W k:10
+wall:E9 desert F2W l:10
+wall:E9 desert F2W m:10
 ######## ugly stones: 20
-wall:E9 desert n:1
-wall:E9 desert o:1
-wall:E9 desert p:1
-wall:E9 desert q:1
-wall:E9 desert r:1
-wall:E9 desert s:1
-wall:E9 desert t:1
-wall:E9 desert u:12
-wall:E9 desert v:1
+wall:E9 desert F2W n:1
+wall:E9 desert F2W o:1
+wall:E9 desert F2W p:1
+wall:E9 desert F2W q:1
+wall:E9 desert F2W r:1
+wall:E9 desert F2W s:1
+wall:E9 desert F2W t:1
+wall:E9 desert F2W u:12
+wall:E9 desert F2W v:1
 ##################### 1600
-wall:EA sand w:100
-wall:EA sand x:100
-wall:EA sand y:100
-wall:EA sand z:100
-wall:EA sand A:100
-wall:EA sand B:100
-wall:EA sand C:100
-wall:EA sand D:100
-wall:EA sand E:90
-wall:EA sand F:20
-wall:EA sand G:90
-wall:EA sand H:100
-wall:EA sand I:100
-wall:EA sand J:100
-wall:EA sand K:100
-wall:EA sand L:100
-wall:EA sand M:100
+wall:EA sand F2W w:100
+wall:EA sand F2W x:100
+wall:EA sand F2W y:100
+wall:EA sand F2W z:100
+wall:EA sand F2W A:100
+wall:EA sand F2W B:100
+wall:EA sand F2W C:100
+wall:EA sand F2W D:100
+wall:EA sand F2W E:90
+wall:EA sand F2W F:20
+wall:EA sand F2W G:90
+wall:EA sand F2W H:100
+wall:EA sand F2W I:100
+wall:EA sand F2W J:100
+wall:EA sand F2W K:100
+wall:EA sand F2W L:100
+wall:EA sand F2W M:100
 # lots of stones ##### 1400
-wall:EA sand N:1
+wall:EA sand F2W N:1
 #
-wall:EA sand O:99
-wall:EA sand P:100
-wall:EA sand Q:100
-wall:EA sand R:100
-wall:EA sand S:100
-wall:EA sand T:100
-wall:EA sand U:100
-wall:EA sand V:100
-wall:EA sand W:100
-wall:EA sand X:100
-wall:EA sand Y:100
-wall:EA sand Z:100
-wall:EA sand ~:100
-wall:EA sand `:100
+wall:EA sand F2W O:99
+wall:EA sand F2W P:100
+wall:EA sand F2W Q:100
+wall:EA sand F2W R:100
+wall:EA sand F2W S:100
+wall:EA sand F2W T:100
+wall:EA sand F2W U:100
+wall:EA sand F2W V:100
+wall:EA sand F2W W:100
+wall:EA sand F2W X:100
+wall:EA sand F2W Y:100
+wall:EA sand F2W Z:100
+wall:EA sand F2W ~:100
+wall:EA sand F2W `:100
 rule:9000:0
 rule-symbols:w
 rule:1000:0

@@ -21406,6 +21406,796 @@ feat:EE dirt F2W `:los:0xEE:0xFD
 feat:EE dirt F2W `:lit:0xEE:0xFE
 feat:EE dirt F2W `:dark:0xEE:0xFF
 
+##############################################
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E7 desert F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# E7 desert F2W 0 
+feat:E7 desert F2W 0:torch:0xE7:0x80
+feat:E7 desert F2W 0:los:0xE7:0x81
+feat:E7 desert F2W 0:lit:0xE7:0x82
+feat:E7 desert F2W 0:dark:0xE7:0x83
+
+# E7 desert F2W 1 
+feat:E7 desert F2W 1:torch:0xE7:0x84
+feat:E7 desert F2W 1:los:0xE7:0x85
+feat:E7 desert F2W 1:lit:0xE7:0x86
+feat:E7 desert F2W 1:dark:0xE7:0x87
+
+# E7 desert F2W 2 
+feat:E7 desert F2W 2:torch:0xE7:0x88
+feat:E7 desert F2W 2:los:0xE7:0x89
+feat:E7 desert F2W 2:lit:0xE7:0x8A
+feat:E7 desert F2W 2:dark:0xE7:0x8B
+
+# E7 desert F2W 3 
+feat:E7 desert F2W 3:torch:0xE7:0x8C
+feat:E7 desert F2W 3:los:0xE7:0x8D
+feat:E7 desert F2W 3:lit:0xE7:0x8E
+feat:E7 desert F2W 3:dark:0xE7:0x8F
+
+# E7 desert F2W 4 
+feat:E7 desert F2W 4:torch:0xE7:0x90
+feat:E7 desert F2W 4:los:0xE7:0x91
+feat:E7 desert F2W 4:lit:0xE7:0x92
+feat:E7 desert F2W 4:dark:0xE7:0x93
+
+# E7 desert F2W 5 
+feat:E7 desert F2W 5:torch:0xE7:0x94
+feat:E7 desert F2W 5:los:0xE7:0x95
+feat:E7 desert F2W 5:lit:0xE7:0x96
+feat:E7 desert F2W 5:dark:0xE7:0x97
+
+# E7 desert F2W 6 
+feat:E7 desert F2W 6:torch:0xE7:0x98
+feat:E7 desert F2W 6:los:0xE7:0x99
+feat:E7 desert F2W 6:lit:0xE7:0x9A
+feat:E7 desert F2W 6:dark:0xE7:0x9B
+
+# E7 desert F2W 7 
+feat:E7 desert F2W 7:torch:0xE7:0x9C
+feat:E7 desert F2W 7:los:0xE7:0x9D
+feat:E7 desert F2W 7:lit:0xE7:0x9E
+feat:E7 desert F2W 7:dark:0xE7:0x9F
+
+# E7 desert F2W 8 
+feat:E7 desert F2W 8:torch:0xE7:0xA0
+feat:E7 desert F2W 8:los:0xE7:0xA1
+feat:E7 desert F2W 8:lit:0xE7:0xA2
+feat:E7 desert F2W 8:dark:0xE7:0xA3
+
+# E7 desert F2W 9 
+feat:E7 desert F2W 9:torch:0xE7:0xA4
+feat:E7 desert F2W 9:los:0xE7:0xA5
+feat:E7 desert F2W 9:lit:0xE7:0xA6
+feat:E7 desert F2W 9:dark:0xE7:0xA7
+
+# E7 desert F2W a 
+feat:E7 desert F2W a:torch:0xE7:0xA8
+feat:E7 desert F2W a:los:0xE7:0xA9
+feat:E7 desert F2W a:lit:0xE7:0xAA
+feat:E7 desert F2W a:dark:0xE7:0xAB
+
+# E7 desert F2W b 
+feat:E7 desert F2W b:torch:0xE7:0xAC
+feat:E7 desert F2W b:los:0xE7:0xAD
+feat:E7 desert F2W b:lit:0xE7:0xAE
+feat:E7 desert F2W b:dark:0xE7:0xAF
+
+# E7 desert F2W c 
+feat:E7 desert F2W c:torch:0xE7:0xB0
+feat:E7 desert F2W c:los:0xE7:0xB1
+feat:E7 desert F2W c:lit:0xE7:0xB2
+feat:E7 desert F2W c:dark:0xE7:0xB3
+
+# E7 desert F2W d 
+feat:E7 desert F2W d:torch:0xE7:0xB4
+feat:E7 desert F2W d:los:0xE7:0xB5
+feat:E7 desert F2W d:lit:0xE7:0xB6
+feat:E7 desert F2W d:dark:0xE7:0xB7
+
+# E7 desert F2W e 
+feat:E7 desert F2W e:torch:0xE7:0xB8
+feat:E7 desert F2W e:los:0xE7:0xB9
+feat:E7 desert F2W e:lit:0xE7:0xBA
+feat:E7 desert F2W e:dark:0xE7:0xBB
+
+# E7 desert F2W f 
+feat:E7 desert F2W f:torch:0xE7:0xBC
+feat:E7 desert F2W f:los:0xE7:0xBD
+feat:E7 desert F2W f:lit:0xE7:0xBE
+feat:E7 desert F2W f:dark:0xE7:0xBF
+
+# E7 desert F2W g 
+feat:E7 desert F2W g:torch:0xE7:0xC0
+feat:E7 desert F2W g:los:0xE7:0xC1
+feat:E7 desert F2W g:lit:0xE7:0xC2
+feat:E7 desert F2W g:dark:0xE7:0xC3
+
+# E7 desert F2W h 
+feat:E7 desert F2W h:torch:0xE7:0xC4
+feat:E7 desert F2W h:los:0xE7:0xC5
+feat:E7 desert F2W h:lit:0xE7:0xC6
+feat:E7 desert F2W h:dark:0xE7:0xC7
+
+# E7 desert F2W i 
+feat:E7 desert F2W i:torch:0xE7:0xC8
+feat:E7 desert F2W i:los:0xE7:0xC9
+feat:E7 desert F2W i:lit:0xE7:0xCA
+feat:E7 desert F2W i:dark:0xE7:0xCB
+
+# E7 desert F2W j 
+feat:E7 desert F2W j:torch:0xE7:0xCC
+feat:E7 desert F2W j:los:0xE7:0xCD
+feat:E7 desert F2W j:lit:0xE7:0xCE
+feat:E7 desert F2W j:dark:0xE7:0xCF
+
+# E7 desert F2W k 
+feat:E7 desert F2W k:torch:0xE7:0xD0
+feat:E7 desert F2W k:los:0xE7:0xD1
+feat:E7 desert F2W k:lit:0xE7:0xD2
+feat:E7 desert F2W k:dark:0xE7:0xD3
+
+# E7 desert F2W l 
+feat:E7 desert F2W l:torch:0xE7:0xD4
+feat:E7 desert F2W l:los:0xE7:0xD5
+feat:E7 desert F2W l:lit:0xE7:0xD6
+feat:E7 desert F2W l:dark:0xE7:0xD7
+
+# E7 desert F2W m 
+feat:E7 desert F2W m:torch:0xE7:0xD8
+feat:E7 desert F2W m:los:0xE7:0xD9
+feat:E7 desert F2W m:lit:0xE7:0xDA
+feat:E7 desert F2W m:dark:0xE7:0xDB
+
+# E7 desert F2W n 
+feat:E7 desert F2W n:torch:0xE7:0xDC
+feat:E7 desert F2W n:los:0xE7:0xDD
+feat:E7 desert F2W n:lit:0xE7:0xDE
+feat:E7 desert F2W n:dark:0xE7:0xDF
+
+# E7 desert F2W o 
+feat:E7 desert F2W o:torch:0xE7:0xE0
+feat:E7 desert F2W o:los:0xE7:0xE1
+feat:E7 desert F2W o:lit:0xE7:0xE2
+feat:E7 desert F2W o:dark:0xE7:0xE3
+
+# E7 desert F2W p 
+feat:E7 desert F2W p:torch:0xE7:0xE4
+feat:E7 desert F2W p:los:0xE7:0xE5
+feat:E7 desert F2W p:lit:0xE7:0xE6
+feat:E7 desert F2W p:dark:0xE7:0xE7
+
+# E7 desert F2W q 
+feat:E7 desert F2W q:torch:0xE7:0xE8
+feat:E7 desert F2W q:los:0xE7:0xE9
+feat:E7 desert F2W q:lit:0xE7:0xEA
+feat:E7 desert F2W q:dark:0xE7:0xEB
+
+# E7 desert F2W r 
+feat:E7 desert F2W r:torch:0xE7:0xEC
+feat:E7 desert F2W r:los:0xE7:0xED
+feat:E7 desert F2W r:lit:0xE7:0xEE
+feat:E7 desert F2W r:dark:0xE7:0xEF
+
+# E7 desert F2W s 
+feat:E7 desert F2W s:torch:0xE7:0xF0
+feat:E7 desert F2W s:los:0xE7:0xF1
+feat:E7 desert F2W s:lit:0xE7:0xF2
+feat:E7 desert F2W s:dark:0xE7:0xF3
+
+# E7 desert F2W t 
+feat:E7 desert F2W t:torch:0xE7:0xF4
+feat:E7 desert F2W t:los:0xE7:0xF5
+feat:E7 desert F2W t:lit:0xE7:0xF6
+feat:E7 desert F2W t:dark:0xE7:0xF7
+
+# E7 desert F2W u 
+feat:E7 desert F2W u:torch:0xE7:0xF8
+feat:E7 desert F2W u:los:0xE7:0xF9
+feat:E7 desert F2W u:lit:0xE7:0xFA
+feat:E7 desert F2W u:dark:0xE7:0xFB
+
+# E7 desert F2W v 
+feat:E7 desert F2W v:torch:0xE7:0xFC
+feat:E7 desert F2W v:los:0xE7:0xFD
+feat:E7 desert F2W v:lit:0xE7:0xFE
+feat:E7 desert F2W v:dark:0xE7:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E8 desert F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# E8 desert F2W w 
+feat:E8 desert F2W w:torch:0xE8:0x80
+feat:E8 desert F2W w:los:0xE8:0x81
+feat:E8 desert F2W w:lit:0xE8:0x82
+feat:E8 desert F2W w:dark:0xE8:0x83
+
+# E8 desert F2W x 
+feat:E8 desert F2W x:torch:0xE8:0x84
+feat:E8 desert F2W x:los:0xE8:0x85
+feat:E8 desert F2W x:lit:0xE8:0x86
+feat:E8 desert F2W x:dark:0xE8:0x87
+
+# E8 desert F2W y 
+feat:E8 desert F2W y:torch:0xE8:0x88
+feat:E8 desert F2W y:los:0xE8:0x89
+feat:E8 desert F2W y:lit:0xE8:0x8A
+feat:E8 desert F2W y:dark:0xE8:0x8B
+
+# E8 desert F2W z 
+feat:E8 desert F2W z:torch:0xE8:0x8C
+feat:E8 desert F2W z:los:0xE8:0x8D
+feat:E8 desert F2W z:lit:0xE8:0x8E
+feat:E8 desert F2W z:dark:0xE8:0x8F
+
+# E8 desert F2W A 
+feat:E8 desert F2W A:torch:0xE8:0x90
+feat:E8 desert F2W A:los:0xE8:0x91
+feat:E8 desert F2W A:lit:0xE8:0x92
+feat:E8 desert F2W A:dark:0xE8:0x93
+
+# E8 desert F2W B 
+feat:E8 desert F2W B:torch:0xE8:0x94
+feat:E8 desert F2W B:los:0xE8:0x95
+feat:E8 desert F2W B:lit:0xE8:0x96
+feat:E8 desert F2W B:dark:0xE8:0x97
+
+# E8 desert F2W C 
+feat:E8 desert F2W C:torch:0xE8:0x98
+feat:E8 desert F2W C:los:0xE8:0x99
+feat:E8 desert F2W C:lit:0xE8:0x9A
+feat:E8 desert F2W C:dark:0xE8:0x9B
+
+# E8 desert F2W D 
+feat:E8 desert F2W D:torch:0xE8:0x9C
+feat:E8 desert F2W D:los:0xE8:0x9D
+feat:E8 desert F2W D:lit:0xE8:0x9E
+feat:E8 desert F2W D:dark:0xE8:0x9F
+
+# E8 desert F2W E 
+feat:E8 desert F2W E:torch:0xE8:0xA0
+feat:E8 desert F2W E:los:0xE8:0xA1
+feat:E8 desert F2W E:lit:0xE8:0xA2
+feat:E8 desert F2W E:dark:0xE8:0xA3
+
+# E8 desert F2W F 
+feat:E8 desert F2W F:torch:0xE8:0xA4
+feat:E8 desert F2W F:los:0xE8:0xA5
+feat:E8 desert F2W F:lit:0xE8:0xA6
+feat:E8 desert F2W F:dark:0xE8:0xA7
+
+# E8 desert F2W G 
+feat:E8 desert F2W G:torch:0xE8:0xA8
+feat:E8 desert F2W G:los:0xE8:0xA9
+feat:E8 desert F2W G:lit:0xE8:0xAA
+feat:E8 desert F2W G:dark:0xE8:0xAB
+
+# E8 desert F2W H 
+feat:E8 desert F2W H:torch:0xE8:0xAC
+feat:E8 desert F2W H:los:0xE8:0xAD
+feat:E8 desert F2W H:lit:0xE8:0xAE
+feat:E8 desert F2W H:dark:0xE8:0xAF
+
+# E8 desert F2W I 
+feat:E8 desert F2W I:torch:0xE8:0xB0
+feat:E8 desert F2W I:los:0xE8:0xB1
+feat:E8 desert F2W I:lit:0xE8:0xB2
+feat:E8 desert F2W I:dark:0xE8:0xB3
+
+# E8 desert F2W J 
+feat:E8 desert F2W J:torch:0xE8:0xB4
+feat:E8 desert F2W J:los:0xE8:0xB5
+feat:E8 desert F2W J:lit:0xE8:0xB6
+feat:E8 desert F2W J:dark:0xE8:0xB7
+
+# E8 desert F2W K 
+feat:E8 desert F2W K:torch:0xE8:0xB8
+feat:E8 desert F2W K:los:0xE8:0xB9
+feat:E8 desert F2W K:lit:0xE8:0xBA
+feat:E8 desert F2W K:dark:0xE8:0xBB
+
+# E8 desert F2W L 
+feat:E8 desert F2W L:torch:0xE8:0xBC
+feat:E8 desert F2W L:los:0xE8:0xBD
+feat:E8 desert F2W L:lit:0xE8:0xBE
+feat:E8 desert F2W L:dark:0xE8:0xBF
+
+# E8 desert F2W M 
+feat:E8 desert F2W M:torch:0xE8:0xC0
+feat:E8 desert F2W M:los:0xE8:0xC1
+feat:E8 desert F2W M:lit:0xE8:0xC2
+feat:E8 desert F2W M:dark:0xE8:0xC3
+
+# E8 desert F2W N 
+feat:E8 desert F2W N:torch:0xE8:0xC4
+feat:E8 desert F2W N:los:0xE8:0xC5
+feat:E8 desert F2W N:lit:0xE8:0xC6
+feat:E8 desert F2W N:dark:0xE8:0xC7
+
+# E8 desert F2W O 
+feat:E8 desert F2W O:torch:0xE8:0xC8
+feat:E8 desert F2W O:los:0xE8:0xC9
+feat:E8 desert F2W O:lit:0xE8:0xCA
+feat:E8 desert F2W O:dark:0xE8:0xCB
+
+# E8 desert F2W P 
+feat:E8 desert F2W P:torch:0xE8:0xCC
+feat:E8 desert F2W P:los:0xE8:0xCD
+feat:E8 desert F2W P:lit:0xE8:0xCE
+feat:E8 desert F2W P:dark:0xE8:0xCF
+
+# E8 desert F2W Q 
+feat:E8 desert F2W Q:torch:0xE8:0xD0
+feat:E8 desert F2W Q:los:0xE8:0xD1
+feat:E8 desert F2W Q:lit:0xE8:0xD2
+feat:E8 desert F2W Q:dark:0xE8:0xD3
+
+# E8 desert F2W R 
+feat:E8 desert F2W R:torch:0xE8:0xD4
+feat:E8 desert F2W R:los:0xE8:0xD5
+feat:E8 desert F2W R:lit:0xE8:0xD6
+feat:E8 desert F2W R:dark:0xE8:0xD7
+
+# E8 desert F2W S wagon
+feat:E8 desert F2W S:torch:0xE8:0xD8
+feat:E8 desert F2W S:los:0xE8:0xD9
+feat:E8 desert F2W S:lit:0xE8:0xDA
+feat:E8 desert F2W S:dark:0xE8:0xDB
+
+# E8 desert F2W T 
+feat:E8 desert F2W T:torch:0xE8:0xDC
+feat:E8 desert F2W T:los:0xE8:0xDD
+feat:E8 desert F2W T:lit:0xE8:0xDE
+feat:E8 desert F2W T:dark:0xE8:0xDF
+
+# E8 desert F2W U 
+feat:E8 desert F2W U:torch:0xE8:0xE0
+feat:E8 desert F2W U:los:0xE8:0xE1
+feat:E8 desert F2W U:lit:0xE8:0xE2
+feat:E8 desert F2W U:dark:0xE8:0xE3
+
+# E8 desert F2W V 
+feat:E8 desert F2W V:torch:0xE8:0xE4
+feat:E8 desert F2W V:los:0xE8:0xE5
+feat:E8 desert F2W V:lit:0xE8:0xE6
+feat:E8 desert F2W V:dark:0xE8:0xE7
+
+# E8 desert F2W W 
+feat:E8 desert F2W W:torch:0xE8:0xE8
+feat:E8 desert F2W W:los:0xE8:0xE9
+feat:E8 desert F2W W:lit:0xE8:0xEA
+feat:E8 desert F2W W:dark:0xE8:0xEB
+
+# E8 desert F2W X 
+feat:E8 desert F2W X:torch:0xE8:0xEC
+feat:E8 desert F2W X:los:0xE8:0xED
+feat:E8 desert F2W X:lit:0xE8:0xEE
+feat:E8 desert F2W X:dark:0xE8:0xEF
+
+# E8 desert F2W Y 
+feat:E8 desert F2W Y:torch:0xE8:0xF0
+feat:E8 desert F2W Y:los:0xE8:0xF1
+feat:E8 desert F2W Y:lit:0xE8:0xF2
+feat:E8 desert F2W Y:dark:0xE8:0xF3
+
+# E8 desert F2W Z 
+feat:E8 desert F2W Z:torch:0xE8:0xF4
+feat:E8 desert F2W Z:los:0xE8:0xF5
+feat:E8 desert F2W Z:lit:0xE8:0xF6
+feat:E8 desert F2W Z:dark:0xE8:0xF7
+
+# E8 desert F2W ~ 
+feat:E8 desert F2W ~:torch:0xE8:0xF8
+feat:E8 desert F2W ~:los:0xE8:0xF9
+feat:E8 desert F2W ~:lit:0xE8:0xFA
+feat:E8 desert F2W ~:dark:0xE8:0xFB
+
+# E8 desert F2W ` 
+feat:E8 desert F2W `:torch:0xE8:0xFC
+feat:E8 desert F2W `:los:0xE8:0xFD
+feat:E8 desert F2W `:lit:0xE8:0xFE
+feat:E8 desert F2W `:dark:0xE8:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E9 desert F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# E9 desert F2W 0 
+feat:E9 desert F2W 0:torch:0xE9:0x80
+feat:E9 desert F2W 0:los:0xE9:0x81
+feat:E9 desert F2W 0:lit:0xE9:0x82
+feat:E9 desert F2W 0:dark:0xE9:0x83
+
+# E9 desert F2W 1 
+feat:E9 desert F2W 1:torch:0xE9:0x84
+feat:E9 desert F2W 1:los:0xE9:0x85
+feat:E9 desert F2W 1:lit:0xE9:0x86
+feat:E9 desert F2W 1:dark:0xE9:0x87
+
+# E9 desert F2W 2 
+feat:E9 desert F2W 2:torch:0xE9:0x88
+feat:E9 desert F2W 2:los:0xE9:0x89
+feat:E9 desert F2W 2:lit:0xE9:0x8A
+feat:E9 desert F2W 2:dark:0xE9:0x8B
+
+# E9 desert F2W 3 
+feat:E9 desert F2W 3:torch:0xE9:0x8C
+feat:E9 desert F2W 3:los:0xE9:0x8D
+feat:E9 desert F2W 3:lit:0xE9:0x8E
+feat:E9 desert F2W 3:dark:0xE9:0x8F
+
+# E9 desert F2W 4 
+feat:E9 desert F2W 4:torch:0xE9:0x90
+feat:E9 desert F2W 4:los:0xE9:0x91
+feat:E9 desert F2W 4:lit:0xE9:0x92
+feat:E9 desert F2W 4:dark:0xE9:0x93
+
+# E9 desert F2W 5 
+feat:E9 desert F2W 5:torch:0xE9:0x94
+feat:E9 desert F2W 5:los:0xE9:0x95
+feat:E9 desert F2W 5:lit:0xE9:0x96
+feat:E9 desert F2W 5:dark:0xE9:0x97
+
+# E9 desert F2W 6 
+feat:E9 desert F2W 6:torch:0xE9:0x98
+feat:E9 desert F2W 6:los:0xE9:0x99
+feat:E9 desert F2W 6:lit:0xE9:0x9A
+feat:E9 desert F2W 6:dark:0xE9:0x9B
+
+# E9 desert F2W 7 
+feat:E9 desert F2W 7:torch:0xE9:0x9C
+feat:E9 desert F2W 7:los:0xE9:0x9D
+feat:E9 desert F2W 7:lit:0xE9:0x9E
+feat:E9 desert F2W 7:dark:0xE9:0x9F
+
+# E9 desert F2W 8 
+feat:E9 desert F2W 8:torch:0xE9:0xA0
+feat:E9 desert F2W 8:los:0xE9:0xA1
+feat:E9 desert F2W 8:lit:0xE9:0xA2
+feat:E9 desert F2W 8:dark:0xE9:0xA3
+
+# E9 desert F2W 9 
+feat:E9 desert F2W 9:torch:0xE9:0xA4
+feat:E9 desert F2W 9:los:0xE9:0xA5
+feat:E9 desert F2W 9:lit:0xE9:0xA6
+feat:E9 desert F2W 9:dark:0xE9:0xA7
+
+# E9 desert F2W a 
+feat:E9 desert F2W a:torch:0xE9:0xA8
+feat:E9 desert F2W a:los:0xE9:0xA9
+feat:E9 desert F2W a:lit:0xE9:0xAA
+feat:E9 desert F2W a:dark:0xE9:0xAB
+
+# E9 desert F2W b 
+feat:E9 desert F2W b:torch:0xE9:0xAC
+feat:E9 desert F2W b:los:0xE9:0xAD
+feat:E9 desert F2W b:lit:0xE9:0xAE
+feat:E9 desert F2W b:dark:0xE9:0xAF
+
+# E9 desert F2W c 
+feat:E9 desert F2W c:torch:0xE9:0xB0
+feat:E9 desert F2W c:los:0xE9:0xB1
+feat:E9 desert F2W c:lit:0xE9:0xB2
+feat:E9 desert F2W c:dark:0xE9:0xB3
+
+# E9 desert F2W d 
+feat:E9 desert F2W d:torch:0xE9:0xB4
+feat:E9 desert F2W d:los:0xE9:0xB5
+feat:E9 desert F2W d:lit:0xE9:0xB6
+feat:E9 desert F2W d:dark:0xE9:0xB7
+
+# E9 desert F2W e 
+feat:E9 desert F2W e:torch:0xE9:0xB8
+feat:E9 desert F2W e:los:0xE9:0xB9
+feat:E9 desert F2W e:lit:0xE9:0xBA
+feat:E9 desert F2W e:dark:0xE9:0xBB
+
+# E9 desert F2W f 
+feat:E9 desert F2W f:torch:0xE9:0xBC
+feat:E9 desert F2W f:los:0xE9:0xBD
+feat:E9 desert F2W f:lit:0xE9:0xBE
+feat:E9 desert F2W f:dark:0xE9:0xBF
+
+# E9 desert F2W g 
+feat:E9 desert F2W g:torch:0xE9:0xC0
+feat:E9 desert F2W g:los:0xE9:0xC1
+feat:E9 desert F2W g:lit:0xE9:0xC2
+feat:E9 desert F2W g:dark:0xE9:0xC3
+
+# E9 desert F2W h 
+feat:E9 desert F2W h:torch:0xE9:0xC4
+feat:E9 desert F2W h:los:0xE9:0xC5
+feat:E9 desert F2W h:lit:0xE9:0xC6
+feat:E9 desert F2W h:dark:0xE9:0xC7
+
+# E9 desert F2W i 
+feat:E9 desert F2W i:torch:0xE9:0xC8
+feat:E9 desert F2W i:los:0xE9:0xC9
+feat:E9 desert F2W i:lit:0xE9:0xCA
+feat:E9 desert F2W i:dark:0xE9:0xCB
+
+# E9 desert F2W j 
+feat:E9 desert F2W j:torch:0xE9:0xCC
+feat:E9 desert F2W j:los:0xE9:0xCD
+feat:E9 desert F2W j:lit:0xE9:0xCE
+feat:E9 desert F2W j:dark:0xE9:0xCF
+
+# E9 desert F2W k 
+feat:E9 desert F2W k:torch:0xE9:0xD0
+feat:E9 desert F2W k:los:0xE9:0xD1
+feat:E9 desert F2W k:lit:0xE9:0xD2
+feat:E9 desert F2W k:dark:0xE9:0xD3
+
+# E9 desert F2W l 
+feat:E9 desert F2W l:torch:0xE9:0xD4
+feat:E9 desert F2W l:los:0xE9:0xD5
+feat:E9 desert F2W l:lit:0xE9:0xD6
+feat:E9 desert F2W l:dark:0xE9:0xD7
+
+# E9 desert F2W m 
+feat:E9 desert F2W m:torch:0xE9:0xD8
+feat:E9 desert F2W m:los:0xE9:0xD9
+feat:E9 desert F2W m:lit:0xE9:0xDA
+feat:E9 desert F2W m:dark:0xE9:0xDB
+
+# E9 desert F2W n 
+feat:E9 desert F2W n:torch:0xE9:0xDC
+feat:E9 desert F2W n:los:0xE9:0xDD
+feat:E9 desert F2W n:lit:0xE9:0xDE
+feat:E9 desert F2W n:dark:0xE9:0xDF
+
+# E9 desert F2W o 
+feat:E9 desert F2W o:torch:0xE9:0xE0
+feat:E9 desert F2W o:los:0xE9:0xE1
+feat:E9 desert F2W o:lit:0xE9:0xE2
+feat:E9 desert F2W o:dark:0xE9:0xE3
+
+# E9 desert F2W p 
+feat:E9 desert F2W p:torch:0xE9:0xE4
+feat:E9 desert F2W p:los:0xE9:0xE5
+feat:E9 desert F2W p:lit:0xE9:0xE6
+feat:E9 desert F2W p:dark:0xE9:0xE7
+
+# E9 desert F2W q 
+feat:E9 desert F2W q:torch:0xE9:0xE8
+feat:E9 desert F2W q:los:0xE9:0xE9
+feat:E9 desert F2W q:lit:0xE9:0xEA
+feat:E9 desert F2W q:dark:0xE9:0xEB
+
+# E9 desert F2W r 
+feat:E9 desert F2W r:torch:0xE9:0xEC
+feat:E9 desert F2W r:los:0xE9:0xED
+feat:E9 desert F2W r:lit:0xE9:0xEE
+feat:E9 desert F2W r:dark:0xE9:0xEF
+
+# E9 desert F2W s 
+feat:E9 desert F2W s:torch:0xE9:0xF0
+feat:E9 desert F2W s:los:0xE9:0xF1
+feat:E9 desert F2W s:lit:0xE9:0xF2
+feat:E9 desert F2W s:dark:0xE9:0xF3
+
+# E9 desert F2W t 
+feat:E9 desert F2W t:torch:0xE9:0xF4
+feat:E9 desert F2W t:los:0xE9:0xF5
+feat:E9 desert F2W t:lit:0xE9:0xF6
+feat:E9 desert F2W t:dark:0xE9:0xF7
+
+# E9 desert F2W u 
+feat:E9 desert F2W u:torch:0xE9:0xF8
+feat:E9 desert F2W u:los:0xE9:0xF9
+feat:E9 desert F2W u:lit:0xE9:0xFA
+feat:E9 desert F2W u:dark:0xE9:0xFB
+
+# E9 desert F2W v 
+feat:E9 desert F2W v:torch:0xE9:0xFC
+feat:E9 desert F2W v:los:0xE9:0xFD
+feat:E9 desert F2W v:lit:0xE9:0xFE
+feat:E9 desert F2W v:dark:0xE9:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# EA 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# EA sand F2W w 
+feat:EA sand F2W w:torch:0xEA:0x80
+feat:EA sand F2W w:los:0xEA:0x81
+feat:EA sand F2W w:lit:0xEA:0x82
+feat:EA sand F2W w:dark:0xEA:0x83
+
+# EA sand F2W x 
+feat:EA sand F2W x:torch:0xEA:0x84
+feat:EA sand F2W x:los:0xEA:0x85
+feat:EA sand F2W x:lit:0xEA:0x86
+feat:EA sand F2W x:dark:0xEA:0x87
+
+# EA sand F2W y 
+feat:EA sand F2W y:torch:0xEA:0x88
+feat:EA sand F2W y:los:0xEA:0x89
+feat:EA sand F2W y:lit:0xEA:0x8A
+feat:EA sand F2W y:dark:0xEA:0x8B
+
+# EA sand F2W z 
+feat:EA sand F2W z:torch:0xEA:0x8C
+feat:EA sand F2W z:los:0xEA:0x8D
+feat:EA sand F2W z:lit:0xEA:0x8E
+feat:EA sand F2W z:dark:0xEA:0x8F
+
+# EA sand F2W A 
+feat:EA sand F2W A:torch:0xEA:0x90
+feat:EA sand F2W A:los:0xEA:0x91
+feat:EA sand F2W A:lit:0xEA:0x92
+feat:EA sand F2W A:dark:0xEA:0x93
+
+# EA sand F2W B 
+feat:EA sand F2W B:torch:0xEA:0x94
+feat:EA sand F2W B:los:0xEA:0x95
+feat:EA sand F2W B:lit:0xEA:0x96
+feat:EA sand F2W B:dark:0xEA:0x97
+
+# EA sand F2W C 
+feat:EA sand F2W C:torch:0xEA:0x98
+feat:EA sand F2W C:los:0xEA:0x99
+feat:EA sand F2W C:lit:0xEA:0x9A
+feat:EA sand F2W C:dark:0xEA:0x9B
+
+# EA sand F2W D 
+feat:EA sand F2W D:torch:0xEA:0x9C
+feat:EA sand F2W D:los:0xEA:0x9D
+feat:EA sand F2W D:lit:0xEA:0x9E
+feat:EA sand F2W D:dark:0xEA:0x9F
+
+# EA sand F2W E 
+feat:EA sand F2W E:torch:0xEA:0xA0
+feat:EA sand F2W E:los:0xEA:0xA1
+feat:EA sand F2W E:lit:0xEA:0xA2
+feat:EA sand F2W E:dark:0xEA:0xA3
+
+# EA sand F2W F 
+feat:EA sand F2W F:torch:0xEA:0xA4
+feat:EA sand F2W F:los:0xEA:0xA5
+feat:EA sand F2W F:lit:0xEA:0xA6
+feat:EA sand F2W F:dark:0xEA:0xA7
+
+# EA sand F2W G 
+feat:EA sand F2W G:torch:0xEA:0xA8
+feat:EA sand F2W G:los:0xEA:0xA9
+feat:EA sand F2W G:lit:0xEA:0xAA
+feat:EA sand F2W G:dark:0xEA:0xAB
+
+# EA sand F2W H 
+feat:EA sand F2W H:torch:0xEA:0xAC
+feat:EA sand F2W H:los:0xEA:0xAD
+feat:EA sand F2W H:lit:0xEA:0xAE
+feat:EA sand F2W H:dark:0xEA:0xAF
+
+# EA sand F2W I 
+feat:EA sand F2W I:torch:0xEA:0xB0
+feat:EA sand F2W I:los:0xEA:0xB1
+feat:EA sand F2W I:lit:0xEA:0xB2
+feat:EA sand F2W I:dark:0xEA:0xB3
+
+# EA sand F2W J 
+feat:EA sand F2W J:torch:0xEA:0xB4
+feat:EA sand F2W J:los:0xEA:0xB5
+feat:EA sand F2W J:lit:0xEA:0xB6
+feat:EA sand F2W J:dark:0xEA:0xB7
+
+# EA sand F2W K 
+feat:EA sand F2W K:torch:0xEA:0xB8
+feat:EA sand F2W K:los:0xEA:0xB9
+feat:EA sand F2W K:lit:0xEA:0xBA
+feat:EA sand F2W K:dark:0xEA:0xBB
+
+# EA sand F2W L 
+feat:EA sand F2W L:torch:0xEA:0xBC
+feat:EA sand F2W L:los:0xEA:0xBD
+feat:EA sand F2W L:lit:0xEA:0xBE
+feat:EA sand F2W L:dark:0xEA:0xBF
+
+# EA sand F2W M 
+feat:EA sand F2W M:torch:0xEA:0xC0
+feat:EA sand F2W M:los:0xEA:0xC1
+feat:EA sand F2W M:lit:0xEA:0xC2
+feat:EA sand F2W M:dark:0xEA:0xC3
+
+# EA sand F2W N 
+# lots of stones
+feat:EA sand F2W N:torch:0xEA:0xC4
+feat:EA sand F2W N:los:0xEA:0xC5
+feat:EA sand F2W N:lit:0xEA:0xC6
+feat:EA sand F2W N:dark:0xEA:0xC7
+
+# EA sand F2W O 
+feat:EA sand F2W O:torch:0xEA:0xC8
+feat:EA sand F2W O:los:0xEA:0xC9
+feat:EA sand F2W O:lit:0xEA:0xCA
+feat:EA sand F2W O:dark:0xEA:0xCB
+
+# EA sand F2W P 
+feat:EA sand F2W P:torch:0xEA:0xCC
+feat:EA sand F2W P:los:0xEA:0xCD
+feat:EA sand F2W P:lit:0xEA:0xCE
+feat:EA sand F2W P:dark:0xEA:0xCF
+
+# EA sand F2W Q 
+feat:EA sand F2W Q:torch:0xEA:0xD0
+feat:EA sand F2W Q:los:0xEA:0xD1
+feat:EA sand F2W Q:lit:0xEA:0xD2
+feat:EA sand F2W Q:dark:0xEA:0xD3
+
+# EA sand F2W R 
+feat:EA sand F2W R:torch:0xEA:0xD4
+feat:EA sand F2W R:los:0xEA:0xD5
+feat:EA sand F2W R:lit:0xEA:0xD6
+feat:EA sand F2W R:dark:0xEA:0xD7
+
+# EA sand F2W S 
+feat:EA sand F2W S:torch:0xEA:0xD8
+feat:EA sand F2W S:los:0xEA:0xD9
+feat:EA sand F2W S:lit:0xEA:0xDA
+feat:EA sand F2W S:dark:0xEA:0xDB
+
+# EA sand F2W T 
+feat:EA sand F2W T:torch:0xEA:0xDC
+feat:EA sand F2W T:los:0xEA:0xDD
+feat:EA sand F2W T:lit:0xEA:0xDE
+feat:EA sand F2W T:dark:0xEA:0xDF
+
+# EA sand F2W U 
+feat:EA sand F2W U:torch:0xEA:0xE0
+feat:EA sand F2W U:los:0xEA:0xE1
+feat:EA sand F2W U:lit:0xEA:0xE2
+feat:EA sand F2W U:dark:0xEA:0xE3
+
+# EA sand F2W V 
+feat:EA sand F2W V:torch:0xEA:0xE4
+feat:EA sand F2W V:los:0xEA:0xE5
+feat:EA sand F2W V:lit:0xEA:0xE6
+feat:EA sand F2W V:dark:0xEA:0xE7
+
+# EA sand F2W W 
+feat:EA sand F2W W:torch:0xEA:0xE8
+feat:EA sand F2W W:los:0xEA:0xE9
+feat:EA sand F2W W:lit:0xEA:0xEA
+feat:EA sand F2W W:dark:0xEA:0xEB
+
+# EA sand F2W X 
+feat:EA sand F2W X:torch:0xEA:0xEC
+feat:EA sand F2W X:los:0xEA:0xED
+feat:EA sand F2W X:lit:0xEA:0xEE
+feat:EA sand F2W X:dark:0xEA:0xEF
+
+# EA sand F2W Y 
+feat:EA sand F2W Y:torch:0xEA:0xF0
+feat:EA sand F2W Y:los:0xEA:0xF1
+feat:EA sand F2W Y:lit:0xEA:0xF2
+feat:EA sand F2W Y:dark:0xEA:0xF3
+
+# EA sand F2W Z 
+feat:EA sand F2W Z:torch:0xEA:0xF4
+feat:EA sand F2W Z:los:0xEA:0xF5
+feat:EA sand F2W Z:lit:0xEA:0xF6
+feat:EA sand F2W Z:dark:0xEA:0xF7
+
+# EA sand F2W ~ 
+feat:EA sand F2W ~:torch:0xEA:0xF8
+feat:EA sand F2W ~:los:0xEA:0xF9
+feat:EA sand F2W ~:lit:0xEA:0xFA
+feat:EA sand F2W ~:dark:0xEA:0xFB
+
+# EA sand F2W ` 
+feat:EA sand F2W `:torch:0xEA:0xFC
+feat:EA sand F2W `:los:0xEA:0xFD
+feat:EA sand F2W `:lit:0xEA:0xFE
+feat:EA sand F2W `:dark:0xEA:0xFF
 
 
 # Load the special player pictures
