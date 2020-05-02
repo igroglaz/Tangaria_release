@@ -1650,13 +1650,269 @@ min-depth:23
 max-depth:30
 max-level:30
 flags:NO_DOORS | SAND_VEIN
-floor:E7 desert 0:9800
-floor:E8 desert T:100
-#floor:E7 desert d:1
-floor:E8 desert V:100
-wall:sandwall:9600
-wall:E9 desert 0:200
-wall:E9 desert 1:200
+floor:E7 desert 0:6130
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E7 100 V
+floor:E7 desert 7:5
+floor:E7 desert 8:5
+floor:E7 desert 9:5
+floor:E7 desert a:5
+floor:E7 desert b:5
+floor:E7 desert c:1
+floor:E7 desert d:1
+floor:E7 desert e:1
+floor:E7 desert f:1
+floor:E7 desert g:1
+floor:E7 desert h:1
+floor:E7 desert i:1
+floor:E7 desert j:1
+floor:E7 desert k:1
+floor:E7 desert l:1
+floor:E7 desert m:1
+floor:E7 desert n:41
+floor:E7 desert o:5
+floor:E7 desert p:5
+floor:E7 desert q:1
+floor:E7 desert r:4
+floor:E7 desert s:3
+floor:E7 desert t:3
+floor:E7 desert u:1
+floor:E7 desert v:1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E8 40 V
+floor:E8 desert w:3
+floor:E8 desert x:2
+floor:E8 desert y:2
+floor:E8 desert z:1
+floor:E8 desert A:2
+floor:E8 desert B:2
+floor:E8 desert C:2
+floor:E8 desert D:2
+floor:E8 desert E:2
+floor:E8 desert F:2
+floor:E8 desert G:1
+floor:E8 desert H:1
+floor:E8 desert I:1
+floor:E8 desert J:1
+floor:E8 desert K:1
+floor:E8 desert L:2
+floor:E8 desert M:2
+floor:E8 desert N:2
+#floor:E8 desert O:1
+#floor:E8 desert P:1
+#floor:E8 desert Q:1
+#floor:E8 desert R:1
+#floor:E8 desert S:1 wagon
+floor:E8 desert T:1
+floor:E8 desert U:1
+floor:E8 desert V:1
+floor:E8 desert W:1
+floor:E8 desert X:1
+floor:E8 desert Y:1
+floor:E8 desert Z:1
+floor:E8 desert ~:1
+floor:E8 desert `:1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E9 30 V
+floor:E9 desert 4:1
+floor:E9 desert 5:1
+floor:E9 desert 6:1
+floor:E9 desert 7:1
+floor:E9 desert 8:1
+floor:E9 desert 9:1
+floor:E9 desert a:1
+floor:E9 desert b:1
+#rocks:
+floor:E9 desert c:2
+floor:E9 desert d:2
+floor:E9 desert e:1
+floor:E9 desert f:1
+floor:E9 desert g:1
+floor:E9 desert h:1
+floor:E9 desert i:1
+floor:E9 desert j:1
+floor:E9 desert k:1
+floor:E9 desert l:1
+floor:E9 desert m:1
+floor:E9 desert n:1
+floor:E9 desert o:1
+floor:E9 desert p:1
+floor:E9 desert q:1
+floor:E9 desert r:1
+floor:E9 desert s:1
+floor:E9 desert t:1
+floor:E9 desert u:1
+floor:E9 desert v:1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# EA 1000
+floor:EA sand w:1
+floor:EA sand x:1
+floor:EA sand y:1
+floor:EA sand z:1
+floor:EA sand A:500
+floor:EA sand B:400
+floor:EA sand C:400
+floor:EA sand D:100
+floor:EA sand E:500
+floor:EA sand F:10
+floor:EA sand G:685
+floor:EA sand H:100
+floor:EA sand I:600
+floor:EA sand J:200
+floor:EA sand K:33
+floor:EA sand L:33
+floor:EA sand M:34
+# lots of stones 100V
+floor:EA sand N:1
+#
+floor:EA sand O:1
+floor:EA sand P:1
+floor:EA sand Q:1
+floor:EA sand R:1
+floor:EA sand S:1
+floor:EA sand T:10
+floor:EA sand U:10
+floor:EA sand V:10
+floor:EA sand W:10
+floor:EA sand X:10
+floor:EA sand Y:10
+floor:EA sand Z:10
+floor:EA sand ~:10
+floor:EA sand `:14
+####
+wall:sandwall:4950
+################################ 5050 V
+#
+####################### 800
+wall:E7 desert 0:570
+wall:E7 desert 7:34
+wall:E7 desert 8:34
+wall:E7 desert 9:16
+wall:E7 desert a:16
+wall:E7 desert b:10
+wall:E7 desert c:10
+wall:E7 desert d:10
+wall:E7 desert e:10
+wall:E7 desert f:10
+wall:E7 desert g:10
+wall:E7 desert h:10
+wall:E7 desert i:10
+wall:E7 desert j:10
+wall:E7 desert k:10
+wall:E7 desert l:10
+wall:E7 desert m:10
+wall:E7 desert n:10
+####################### 700
+wall:E7 desert o:100
+wall:E7 desert p:140
+wall:E7 desert q:10
+wall:E7 desert r:100
+wall:E7 desert s:100
+wall:E7 desert t:100
+wall:E7 desert u:50
+wall:E7 desert v:100
+###################### 200
+wall:E8 desert w:30
+wall:E8 desert x:20
+wall:E8 desert y:20
+wall:E8 desert z:10
+wall:E8 desert A:20
+wall:E8 desert B:20
+wall:E8 desert C:20
+wall:E8 desert D:20
+wall:E8 desert E:20
+wall:E8 desert F:20
+########### big bones: 80
+wall:E8 desert G:10
+wall:E8 desert H:10
+wall:E8 desert I:10
+# well:
+wall:E8 desert J:1
+wall:E8 desert K:16
+wall:E8 desert L:1
+wall:E8 desert M:1
+#wall:E8 desert N
+wall:E8 desert O:10
+wall:E8 desert P:1
+wall:E8 desert Q:10
+wall:E8 desert R:10
+############### wagon: 90
+wall:E8 desert S:1
+wall:E8 desert T:9
+wall:E8 desert U:10
+wall:E8 desert V:10
+wall:E8 desert W:10
+wall:E8 desert X:10
+wall:E8 desert Y:10
+wall:E8 desert Z:10
+wall:E8 desert ~:10
+wall:E8 desert `:10
+##################### 30
+wall:E9 desert 4:1
+wall:E9 desert 5:1
+wall:E9 desert 6:1
+wall:E9 desert 7:1
+wall:E9 desert 8:1
+wall:E9 desert 9:1
+wall:E9 desert a:12
+wall:E9 desert b:12
+###############rocks: 130
+wall:E9 desert c:20
+wall:E9 desert d:20
+wall:E9 desert e:10
+wall:E9 desert f:10
+wall:E9 desert g:10
+wall:E9 desert h:10
+wall:E9 desert i:10
+wall:E9 desert j:10
+wall:E9 desert k:10
+wall:E9 desert l:10
+wall:E9 desert m:10
+######## ugly stones: 20
+wall:E9 desert n:1
+wall:E9 desert o:1
+wall:E9 desert p:1
+wall:E9 desert q:1
+wall:E9 desert r:1
+wall:E9 desert s:1
+wall:E9 desert t:1
+wall:E9 desert u:12
+wall:E9 desert v:1
+##################### 1600
+wall:EA sand w:100
+wall:EA sand x:100
+wall:EA sand y:100
+wall:EA sand z:100
+wall:EA sand A:100
+wall:EA sand B:100
+wall:EA sand C:100
+wall:EA sand D:100
+wall:EA sand E:90
+wall:EA sand F:20
+wall:EA sand G:90
+wall:EA sand H:100
+wall:EA sand I:100
+wall:EA sand J:100
+wall:EA sand K:100
+wall:EA sand L:100
+wall:EA sand M:100
+# lots of stones ##### 1400
+wall:EA sand N:1
+#
+wall:EA sand O:99
+wall:EA sand P:100
+wall:EA sand Q:100
+wall:EA sand R:100
+wall:EA sand S:100
+wall:EA sand T:100
+wall:EA sand U:100
+wall:EA sand V:100
+wall:EA sand W:100
+wall:EA sand X:100
+wall:EA sand Y:100
+wall:EA sand Z:100
+wall:EA sand ~:100
+wall:EA sand `:100
 rule:9000:0
 rule-symbols:w
 rule:1000:0
