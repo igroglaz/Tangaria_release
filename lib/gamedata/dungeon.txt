@@ -1940,7 +1940,7 @@ floor:light grass:3300
 floor:light grass plants:3400
 floor:light grass flowers:3300
 # A1
-###################################   1800
+###################################   1700
 wall:tree F2W 0 stump:10
 wall:tree F2W 1:90
 wall:tree F2W 2 little:100
@@ -1952,8 +1952,8 @@ wall:tree F2W 7 coniferous small:100
 wall:tree F2W 8 coniferous:100
 wall:tree F2W 9 willow:100
 wall:tree F2W a small willow:100
-wall:tree F2W b broken log:100
-wall:tree F2W c broken log:100
+wall:tree F2W b broken log:50
+wall:tree F2W c broken log:50
 wall:tree F2W d birch:100
 wall:tree F2W e linden:100
 wall:tree F2W f linden small:100
@@ -1985,20 +1985,20 @@ wall:tree F2W D tree:100
 wall:tree F2W E tree:100
 wall:tree F2W F tree:100
 wall:tree F2W G small tree:120
-#### FURTHER ON: SMALL TREES ######## 6000:
-wall:tree F2W H:500
-wall:tree F2W I:500
-wall:tree F2W J:500
-wall:tree F2W K:500
-wall:tree F2W L:500
-wall:tree F2W M:500
-wall:tree F2W N:500
-wall:tree F2W O:500
-wall:tree F2W P:500
-wall:tree F2W Q:500
-wall:tree F2W R:500
-wall:tree F2W S:700
-#wall:tree F2W T:1 ! basic symbol ##### 500:
+#### FURTHER ON: SMALL TREES ######## 2500:
+wall:tree F2W H:200
+wall:tree F2W I:200
+wall:tree F2W J:200
+wall:tree F2W K:200
+wall:tree F2W L:200
+wall:tree F2W M:200
+wall:tree F2W N:200
+wall:tree F2W O:200
+wall:tree F2W P:200
+wall:tree F2W Q:200
+wall:tree F2W R:200
+wall:tree F2W S:300
+#wall:tree F2W T:1 ! basic symbol ##### 500
 wall:tree F2W U:100
 #### 4x dry:
 wall:tree F2W V:100
@@ -2014,11 +2014,60 @@ wall:obj_grass M ruins:1
 wall:obj_grass N ruins:1
 wall:obj_grass O ruins:1
 wall:obj_grass P ruins:1
-wall:obj_grass Q ruins:1
+wall:obj_grass Q ruins:2
 wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
-wall:big dark wall 0:1
+######################################## 3400
+# A4 F2W
+wall:flower 0 green:100
+wall:flower 1 green:100
+wall:flower 2 green:100
+wall:flower 3 green:100
+wall:flower 4 green:100
+wall:flower 5 green:100
+wall:flower 6 green:100
+wall:flower 7 grass:100
+# B1 F2W
+wall:floor 0 grass:100
+wall:floor 1 grass:1500
+# B2 F2W
+wall:floor w grass:100
+wall:floor x grass:100
+wall:floor y grass:100
+wall:floor z grass:100
+wall:floor A grass:100
+wall:floor B grass:100
+wall:floor C grass:100
+wall:floor D grass:100
+wall:floor E grass:100
+wall:floor F grass:100
+########################## 420
+wall:floor G rocks:10
+wall:floor H rocks:10
+wall:floor I rocks:10
+wall:floor J rocks:10
+wall:floor K rocks:10
+wall:floor L rock:10
+wall:floor M rock:10
+wall:floor N rock:10
+wall:floor O rock:10
+wall:floor P rocks:10
+wall:floor Q dirt:10
+wall:floor R dirt:10
+wall:floor S dirt:10
+wall:floor T dirt:10
+wall:floor U dirt:10
+wall:floor V dirt:10
+wall:floor W hills:10
+wall:floor X hill:10
+wall:floor Y hill:10
+wall:floor Z lowland:10
+wall:floor ~ lowland:10
+wall:floor ` lowland:10
+# B3 F2W
+wall:B3 floors 2:80
+wall:B3 floors 3:100
 rule:3000:0
 rule-symbols:ph
 rule:3000:0
