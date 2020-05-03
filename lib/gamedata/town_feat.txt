@@ -3610,9 +3610,52 @@ feat:.:#:light grass flowers
 
 feat:*:*:newbie star
 
+################################################ EXCLUSIVE F2W!!! F7 is NOT clone
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F7 deep water F2W F
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:G:0:F7 deep water F2W 0
+feat:G:1:F7 deep water F2W 1
+feat:G:2:F7 deep water F2W 2
+feat:G:3:F7 deep water F2W 3
+feat:G:4:F7 deep water F2W 4
+feat:G:5:F7 deep water F2W 5
+feat:G:6:F7 deep water F2W 6
+feat:G:7:F7 deep water F2W 7
+feat:G:8:F7 deep water F2W 8
+feat:G:9:F7 deep water F2W 9
+feat:G:a:F7 deep water F2W a
+feat:G:b:F7 deep water F2W b
+feat:G:c:F7 deep water F2W c
+feat:G:d:F7 deep water F2W d
+feat:G:e:F7 deep water F2W e
+feat:G:f:F7 deep water F2W f
+feat:G:g:F7 deep water F2W g
+feat:G:h:F7 deep water F2W h
+feat:G:i:F7 deep water F2W i
+feat:G:j:F7 deep water F2W j
+feat:G:k:F7 deep water F2W k
+feat:G:l:F7 deep water F2W l
+feat:G:m:F7 deep water F2W m
+feat:G:n:F7 deep water F2W n
+feat:G:o:F7 deep water F2W o
+feat:G:p:F7 deep water F2W p
+feat:G:q:F7 deep water F2W q
+feat:G:r:F7 deep water F2W r
+feat:G:s:F7 deep water F2W s
+feat:G:t:F7 deep water F2W t
+feat:G:u:F7 deep water F2W u
+feat:G:v:F7 deep water F2W v
+
+##################################################################
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # CLONE TERRAIN: FLOORS _AS_ WALLS DECORATIONS
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+
 
 # EB - EE dirt.. No stairs / no monsters... for dungeons
 

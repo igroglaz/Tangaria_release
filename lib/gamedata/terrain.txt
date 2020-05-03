@@ -525,7 +525,7 @@ desc: them!
 name:Tavern
 graphics:8:y
 priority:24
-flags:PROJECT | PASSABLE |  PERMANENT | INTERESTING | EASY | FLOOR_SAFE
+flags:PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | FLOOR_SAFE
 info:42:0
 desc:A safe place, perfect for drinking a pint of ale or two.
 
@@ -3698,7 +3698,7 @@ desc:.
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -24575,7 +24575,6 @@ desc:.
 # F6 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:F6 deep water w
 graphics:~:B
 priority:5
@@ -27509,7 +27508,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W d
@@ -27517,7 +27516,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W e
@@ -27525,7 +27524,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W f
@@ -27533,7 +27532,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W g
@@ -27541,7 +27540,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W h
@@ -27549,7 +27548,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W i
@@ -27557,7 +27556,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W j
@@ -27565,7 +27564,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W k
@@ -27573,7 +27572,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W l
@@ -27581,7 +27580,7 @@ graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W m
@@ -27589,7 +27588,7 @@ graphics:,:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W n
@@ -27597,7 +27596,7 @@ graphics:,:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |BORING | EASY | TORCH
 ################################################################################
-short-desc:plant on sand F2W
+short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W o
@@ -27846,7 +27845,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:hole in sand F2W
+short-desc:hole in sand
 desc:.
 
 name:E8 desert F2W U
@@ -27854,7 +27853,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W V
@@ -27862,7 +27861,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W W
@@ -27870,7 +27869,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W X
@@ -27878,7 +27877,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W Y
@@ -27886,7 +27885,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W Z
@@ -27894,7 +27893,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W ~
@@ -27902,7 +27901,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 name:E8 desert F2W `
@@ -27910,7 +27909,7 @@ graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | TORCH
 ################################################################################
-short-desc:stony sand F2W
+short-desc:stony sand
 desc:.
 
 
@@ -29935,3 +29934,265 @@ flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY
 short-desc:shallow water
 desc:.
 
+
+#########################################  EXCLUSIVE F2W!!! F7 is NOT clone
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F7 deep water F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:F7 deep water F2W 0
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 1
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 2
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 3
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 4
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 5
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 6
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 7
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 8
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W 9
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W a
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W b
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W c
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W d
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W e
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W f
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W g
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W h
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W i
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W j
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W k
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W l
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W m
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W n
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W o
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W p
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W q
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W r
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W s
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W t
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W u
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:old ruins in water
+desc:.
+
+name:F7 deep water F2W v
+graphics:#:T
+priority:18
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:old ruins in water
+desc:.
