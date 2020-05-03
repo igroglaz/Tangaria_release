@@ -22991,10 +22991,16 @@ short-desc:dirt
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# EF snow
+# EF dirt
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:EF snow 0
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F0 snow
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:F0 snow 0
 graphics:.:w
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
@@ -23002,7 +23008,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | 
 short-desc:snow
 desc:.
 
-name:EF snow 1
+name:F0 snow 1
 graphics:*:g
 priority:18
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
@@ -23010,7 +23016,7 @@ flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:fir-tree
 desc:.
 
-name:EF snow 2
+name:F0 snow 2
 graphics:*:g
 priority:18
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
@@ -23018,7 +23024,7 @@ flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:fir-tree
 desc:.
 
-name:EF snow 3
+name:F0 snow 3
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -23026,7 +23032,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:tiny fir-tree
 desc:.
 
-name:EF snow 4
+name:F0 snow 4
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
@@ -23034,7 +23040,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH |
 short-desc:tiny fir-tree
 desc:.
 
-name:EF snow 5
+name:F0 snow 5
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23042,7 +23048,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:fallen tree
 desc:.
 
-name:EF snow 6
+name:F0 snow 6
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23050,7 +23056,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:fallen tree
 desc:.
 
-name:EF snow 7
+name:F0 snow 7
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23058,7 +23064,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow 8
+name:F0 snow 8
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23066,7 +23072,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow 9
+name:F0 snow 9
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23074,7 +23080,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow a
+name:F0 snow a
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23082,7 +23088,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow b
+name:F0 snow b
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23090,7 +23096,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow c
+name:F0 snow c
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23098,7 +23104,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow d
+name:F0 snow d
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23106,7 +23112,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow e
+name:F0 snow e
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23114,7 +23120,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow f
+name:F0 snow f
 graphics:*:D
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
@@ -23122,7 +23128,7 @@ flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:.
 
-name:EF snow g
+name:F0 snow g
 graphics:*:D
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
@@ -23130,7 +23136,7 @@ flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:.
 
-name:EF snow h
+name:F0 snow h
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23138,7 +23144,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow i
+name:F0 snow i
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23146,7 +23152,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree log
 desc:.
 
-name:EF snow j
+name:F0 snow j
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23154,7 +23160,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree stump
 desc:.
 
-name:EF snow k
+name:F0 snow k
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23162,7 +23168,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree stump
 desc:.
 
-name:EF snow l
+name:F0 snow l
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23172,7 +23178,7 @@ desc:.
 
 ### empty further
 
-name:EF snow m
+name:F0 snow m
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23180,7 +23186,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow n
+name:F0 snow n
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23188,7 +23194,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow o
+name:F0 snow o
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23196,7 +23202,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow p
+name:F0 snow p
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23204,7 +23210,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow q
+name:F0 snow q
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23212,7 +23218,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow r
+name:F0 snow r
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23220,7 +23226,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow s
+name:F0 snow s
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23228,7 +23234,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow t
+name:F0 snow t
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23236,7 +23242,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow u
+name:F0 snow u
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23244,93 +23250,91 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:.
 desc:.
 
-name:EF snow v
+name:F0 snow v
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:.
 desc:.
-
-
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F0 snow bones
+# F1 snow bones
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:F0 snow w
+name:F1 snow w
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skull
 desc:Skull.
 
-name:F0 snow x
+name:F1 snow x
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:few bones
 desc:A few bones.
 
-name:F0 snow y
+name:F1 snow y
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:some bones
 desc:Some bones.
 
-name:F0 snow z
+name:F1 snow z
 graphics:.:w
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:pile of bones and skulls
 desc:A pile of bones and skulls.
 
-name:F0 snow A
+name:F1 snow A
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow B
+name:F1 snow B
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow C
+name:F1 snow C
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow D
+name:F1 snow D
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow E
+name:F1 snow E
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow F
+name:F1 snow F
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:Skeleton.
 
-name:F0 snow G
+name:F1 snow G
 graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
@@ -23338,7 +23342,7 @@ flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:old skeleton
 desc:.
 
-name:F0 snow H
+name:F1 snow H
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23346,7 +23350,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:old skeleton
 desc:.
 
-name:F0 snow I
+name:F1 snow I
 graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
@@ -23354,7 +23358,7 @@ flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:pile of bones
 desc:.
 
-name:F0 snow J
+name:F1 snow J
 graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
@@ -23362,14 +23366,14 @@ flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:frozen well
 desc:.
 
-name:F0 snow K
+name:F1 snow K
 graphics:::w
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:ruins
 desc:Ruins.
 
-name:F0 snow L
+name:F1 snow L
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23377,7 +23381,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:ruined cauldron
 desc:.
 
-name:F0 snow M
+name:F1 snow M
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23385,14 +23389,14 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:ruined chest
 desc:.
 
-name:F0 snow N
+name:F1 snow N
 graphics:+:w
 priority:18
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:strange sealed entrance
 desc:Strange entrance.
 
-name:F0 snow O
+name:F1 snow O
 graphics:.:s
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
@@ -23400,7 +23404,7 @@ flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:grave
 desc:.
 
-name:F0 snow P
+name:F1 snow P
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23408,7 +23412,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:barrel
 desc:.
 
-name:F0 snow Q
+name:F1 snow Q
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23416,7 +23420,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:graves
 desc:.
 
-name:F0 snow R
+name:F1 snow R
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23424,14 +23428,14 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:graves
 desc:.
 
-name:F0 snow S
+name:F1 snow S
 graphics:%:u
 priority:18
 flags:PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | TORCH
 short-desc:old wagon
 desc:Old wagon.
 
-name:F0 snow T
+name:F1 snow T
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23439,7 +23443,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:hole in sand
 desc:.
 
-name:F0 snow U
+name:F1 snow U
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23447,7 +23451,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow V
+name:F1 snow V
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23455,7 +23459,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow W
+name:F1 snow W
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23463,7 +23467,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow X
+name:F1 snow X
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23471,7 +23475,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow Y
+name:F1 snow Y
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23479,7 +23483,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow Z
+name:F1 snow Z
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23487,7 +23491,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow ~
+name:F1 snow ~
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
@@ -23495,20 +23499,21 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:stony sand
 desc:.
 
-name:F0 snow `
+name:F1 snow `
 graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:stony sand
 desc:.
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F1 snow mountains
+# F2 snow mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:F1 snow 0
+name:F2 snow 0
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23516,7 +23521,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 1
+name:F2 snow 1
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23524,7 +23529,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 2
+name:F2 snow 2
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23532,7 +23537,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 3
+name:F2 snow 3
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23540,7 +23545,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 4
+name:F2 snow 4
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23548,7 +23553,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 5
+name:F2 snow 5
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23556,7 +23561,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 6
+name:F2 snow 6
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23564,7 +23569,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 7
+name:F2 snow 7
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23572,7 +23577,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 8
+name:F2 snow 8
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23580,7 +23585,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow 9
+name:F2 snow 9
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23588,7 +23593,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow a
+name:F2 snow a
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23596,7 +23601,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow b
+name:F2 snow b
 graphics:^:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -23604,7 +23609,7 @@ info:0:7
 short-desc:high mountain
 desc:A high mountain.
 
-name:F1 snow c
+name:F2 snow c
 graphics:#:s
 priority:18
 info:0:3
@@ -23612,7 +23617,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
-name:F1 snow d
+name:F2 snow d
 graphics:::s
 priority:18
 info:0:3
@@ -23621,7 +23626,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:.
 
-name:F1 snow e
+name:F2 snow e
 graphics:#:s
 priority:18
 info:0:3
@@ -23629,7 +23634,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
-name:F1 snow f
+name:F2 snow f
 graphics:::s
 priority:18
 info:0:3
@@ -23637,7 +23642,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:passable rubble
 desc:Passable rubble.
 
-name:F1 snow g
+name:F2 snow g
 graphics:#:D
 priority:18
 info:0:3
@@ -23645,7 +23650,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
-name:F1 snow h
+name:F2 snow h
 graphics:#:D
 priority:18
 info:0:3
@@ -23653,7 +23658,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
-name:F1 snow i
+name:F2 snow i
 graphics:::s
 priority:18
 info:0:3
@@ -23661,7 +23666,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow j
+name:F2 snow j
 graphics:::s
 priority:18
 info:0:3
@@ -23669,7 +23674,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow k
+name:F2 snow k
 graphics:::s
 priority:18
 info:0:3
@@ -23677,7 +23682,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow l
+name:F2 snow l
 graphics:#:s
 priority:18
 info:0:3
@@ -23685,7 +23690,7 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
-name:F1 snow m
+name:F2 snow m
 graphics:::s
 priority:18
 info:0:3
@@ -23693,7 +23698,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow n
+name:F2 snow n
 graphics:::s
 priority:18
 info:0:3
@@ -23701,7 +23706,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow o
+name:F2 snow o
 graphics:::s
 priority:18
 info:0:3
@@ -23709,7 +23714,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow p
+name:F2 snow p
 graphics:::s
 priority:18
 info:0:3
@@ -23717,7 +23722,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow q
+name:F2 snow q
 graphics:::s
 priority:18
 info:0:3
@@ -23725,7 +23730,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow r
+name:F2 snow r
 graphics:::s
 priority:18
 info:0:3
@@ -23733,7 +23738,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow s
+name:F2 snow s
 graphics:::s
 priority:18
 info:0:3
@@ -23741,7 +23746,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow t
+name:F2 snow t
 graphics:::s
 priority:18
 info:0:3
@@ -23749,7 +23754,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:Rocks.
 
-name:F1 snow u
+name:F2 snow u
 graphics:::s
 priority:18
 info:0:3
@@ -23758,7 +23763,7 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:rocks
 desc:.
 
-name:F1 snow v
+name:F2 snow v
 graphics:::s
 priority:18
 info:0:3
@@ -23766,11 +23771,6 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:rock
 desc:.
-
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F2 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
