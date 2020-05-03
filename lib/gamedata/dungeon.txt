@@ -2081,6 +2081,7 @@ min-depth:28
 max-depth:35
 max-level:35
 flags:EMPTY | CAVERN
+#################################### 100
 floor:tree 0 stump:1
 floor:tree 1:1
 floor:tree 2 little:1
@@ -2112,8 +2113,8 @@ floor:tree r branch:15
 floor:tree s branch:15
 floor:tree t branch:15
 floor:tree u branch:15
-floor:tree v branch:10
-# A2 - trees
+floor:tree v branch:13
+# A2 - trees #################### 11
 floor:tree w fallen:1
 floor:tree x fallen:1
 floor:tree y fallen:1
@@ -2125,7 +2126,7 @@ floor:tree D tree:1
 floor:tree E tree:1
 floor:tree F tree:1
 floor:tree G small tree:1
-#### FURTHER ON: SMALL TREES
+#### FURTHER ON: SMALL TREES ###### 170
 floor:tree H:10
 floor:tree I:10
 floor:tree J:10
@@ -2140,16 +2141,16 @@ floor:tree R:10
 floor:tree S:10
 #floor:tree T:1 ! basic symbol
 floor:tree U:10
-#### 4x dry: #63^ + 37V
-floor:tree V:11
-floor:tree W:10
-floor:tree X:10
+#### 4x dry:
+floor:tree V:9
+floor:tree W:9
+floor:tree X:9
 floor:tree Y:10
 floor:tree Z:1
 floor:tree ~:1
 floor:tree `:1
 #
-# A4
+# A4 ########################### 700
 floor:flower 0 green:100
 floor:flower 1 green:100
 floor:flower 2 green:100
@@ -2157,7 +2158,7 @@ floor:flower 3 green:100
 floor:flower 4 green:100
 floor:flower 5 green:100
 floor:flower 6 green:100
-#
+##############################  25
 floor:flower 7 grass:1
 floor:flower 8 grass:1
 floor:flower 9 grass yellow:1
@@ -2183,7 +2184,7 @@ floor:flower s rose:1
 floor:flower t white:1
 floor:flower u red white:1
 floor:flower v blue white:1
-# A5
+# A5 ############################## 750
 floor:flower w rose:1
 floor:flower x blue:1
 floor:flower y purple:1
@@ -2198,20 +2199,17 @@ floor:flower F red:1
 floor:A5 plants G:34
 floor:A5 plants H:33
 #common (floor 0 grass) altered:
-floor:A5 plants I:650
+floor:A5 plants I:635
 floor:A5 plants J:33
 # 2x mushrooms:
 floor:A5 plants K:3
 floor:A5 plants L:2
-#1x40 ^
-#
-#
-#1x20 V
-# B1
-floor:floor 0 grass:1800
-floor:floor 1 grass:2600
+# B1 ########################### 3156... + :
+floor:floor 0 grass:1500
+floor:floor 1 grass:2744
 # B2
 floor:floor w grass:2600
+################################ 700
 floor:floor x grass:100
 floor:floor y grass:100
 floor:floor z grass:100
@@ -2219,7 +2217,7 @@ floor:floor A grass:100
 floor:floor B grass:100
 floor:floor C grass:100
 floor:floor D grass:100
-#
+############################### 19 + 31 + 450 = 500
 floor:floor E grass:1
 floor:floor F grass:1
 #
@@ -2245,7 +2243,7 @@ floor:floor T dirt:1
 floor:floor U dirt:1
 floor:floor V dirt:1
 #
-floor:floor W hills:41
+floor:floor W hills:31
 #
 floor:floor X hill:1
 floor:floor Y hill:1
@@ -2258,10 +2256,54 @@ floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
 floor:hill:1
-#24 total; 
-wall:obj_grass L ruins:1400
-wall:obj_grass O ruins:1400
-wall:obj_grass Q ruins:1400
+##################################### 25+75+50+50=200
+# A6
+floor:obj_grass 1 skull altar:1
+floor:obj_grass 5 skulls pile:1
+floor:obj_grass 6 grave:1
+floor:obj_grass 8 old ruins:1
+floor:obj_grass d gravestone:1
+floor:obj_grass e bone pile:1
+floor:obj_grass h graves:1
+floor:obj_grass i graves:1
+floor:obj_grass l altar:50
+# A8
+floor:obj_grass2 8:1
+floor:obj_grass2 9:1
+floor:obj_grass2 a:1
+floor:obj_grass2 b:75
+# AC
+floor:grass mountain I:50
+floor:grass mountain J:10
+floor:grass mountain K:3
+floor:grass mountain L:1
+##################################
+##################################
+wall:obj_grass L ruins:1000
+wall:obj_grass M ruins:100
+wall:obj_grass N ruins:1100
+wall:obj_grass O ruins:1100
+wall:obj_grass P ruins:300
+wall:obj_grass Q ruins:900
+wall:big dark wall 0:100
+wall:big dark wall 9 entrance:100
+wall:big dark wall a low entrance:100
+wall:big dark wall b window:71
+# 98 ##################################### 130
+wall:98 wall 0:10
+wall:98 wall 1:10
+wall:98 wall 2:10
+wall:98 wall 3:10
+wall:98 wall 4:10
+wall:98 wall 5:10
+wall:98 wall 6:10
+wall:98 wall 7:1
+wall:98 wall 8:1
+wall:98 wall 9:10
+wall:98 wall a:10
+wall:98 wall b:10
+wall:98 wall c:8
+wall:98 wall d:10
 rule:2500:0
 rule-flags:UNDEAD
 rule:7500:1

@@ -3909,8 +3909,10 @@ priority:18
 flags:TORCH | BORING
 ################################################################################
 info:0:3
-short-desc:big stone like teeth
-desc:.
+short-desc:standing stone; looks like a broken tooth towering alone in silence..
+desc:In the midst of it there stood a single stone, standing tall under the sun
+desc: above, and at this hour casting no shadow. It was shapeless and yet
+desc: significant: like a landmark or a guarding stone, or more like a warning.
 
 #red tower
 name:obj_grass2 c
