@@ -29378,3 +29378,560 @@ flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS |
 ################################################################################
 short-desc:grass
 desc:.
+
+##############################
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B6 - floors luquid F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# SHALLOW WATER
+name:B6 floors luquid F2W w
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:shallow water
+desc:A pool of shallow water.
+
+# deep water
+name:B6 floors luquid F2W x
+graphics:~:B
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:deep water
+desc:A pool of water.
+hurt-msg:You are drowning!
+died-flavor:drowned
+die-msg:drowning
+resist-flag:IM_WATER
+
+################################
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F3 shallow water F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:F3 shallow water F2W 0
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 1
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 2
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 3
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 4
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 5
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 6
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 7
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 8
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W 9
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W a
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W b
+graphics:^:s
+priority:18
+info:0:7
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:high mountain
+desc:A high mountain.
+
+name:F3 shallow water F2W c
+graphics:^:s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:rocks
+desc:.
+
+name:F3 shallow water F2W d
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:rocks
+desc:.
+
+name:F3 shallow water F2W e
+graphics:#:s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:rubble
+desc:.
+
+name:F3 shallow water F2W f
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:passable rubble
+desc:.
+
+name:F3 shallow water F2W g
+graphics:#:s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:rocks
+desc:.
+
+name:F3 shallow water F2W h
+graphics:#:s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:old rubble
+desc:Old rubble.
+
+
+name:F3 shallow water F2W i
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W j
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W k
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W l
+graphics:#:s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+short-desc:big pile of rocks
+desc:Big pile of rocks.
+
+name:F3 shallow water F2W m
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W n
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W o
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W p
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W q
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W r
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W s
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W t
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+short-desc:rocks
+desc:Rocks.
+
+name:F3 shallow water F2W u
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+################################################################################
+short-desc:rocks
+desc:.
+
+name:F3 shallow water F2W v
+graphics:::s
+priority:18
+info:0:3
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+################################################################################
+short-desc:rock
+desc:.
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F4 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:F4 shallow water F2W w
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W x
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W y
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W z
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W A
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W B
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W C
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W D
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W E
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W F
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W G
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W H
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W I
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W J
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W K
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W L
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W M
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W N
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W O
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W P
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W Q
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W R
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W S
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W T
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W U
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W V
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W W
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W X
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W Y
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W Z
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W ~
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+
+name:F4 shallow water F2W `
+graphics:~:T
+priority:5
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+################################################################################
+short-desc:shallow water
+desc:.
+

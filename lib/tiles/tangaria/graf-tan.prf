@@ -22887,6 +22887,421 @@ feat:B3 floors F2W 3:los:0xB3:0x8D
 feat:B3 floors F2W 3:lit:0xB3:0x8E
 feat:B3 floors F2W 3:dark:0xB3:0x8F
 
+##########################################
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B6 floors luquid F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# B6 floors luquid F2W w 
+# SHALLOW WATER
+feat:B6 floors luquid F2W w:torch:0xB6:0x80
+feat:B6 floors luquid F2W w:los:0xB6:0x81
+feat:B6 floors luquid F2W w:lit:0xB6:0x82
+feat:B6 floors luquid F2W w:dark:0xB6:0x83
+
+# B6 floors luquid F2W x 
+feat:B6 floors luquid F2W x:torch:0xB6:0x84
+feat:B6 floors luquid F2W x:los:0xB6:0x85
+feat:B6 floors luquid F2W x:lit:0xB6:0x86
+feat:B6 floors luquid F2W x:dark:0xB6:0x87
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F3 shallow water F2W
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# F3 shallow water F2W 0 
+feat:F3 shallow water F2W 0:torch:0xF3:0x80
+feat:F3 shallow water F2W 0:los:0xF3:0x81
+feat:F3 shallow water F2W 0:lit:0xF3:0x82
+feat:F3 shallow water F2W 0:dark:0xF3:0x83
+
+# F3 shallow water F2W 1 
+feat:F3 shallow water F2W 1:torch:0xF3:0x84
+feat:F3 shallow water F2W 1:los:0xF3:0x85
+feat:F3 shallow water F2W 1:lit:0xF3:0x86
+feat:F3 shallow water F2W 1:dark:0xF3:0x87
+
+# F3 shallow water F2W 2 
+feat:F3 shallow water F2W 2:torch:0xF3:0x88
+feat:F3 shallow water F2W 2:los:0xF3:0x89
+feat:F3 shallow water F2W 2:lit:0xF3:0x8A
+feat:F3 shallow water F2W 2:dark:0xF3:0x8B
+
+# F3 shallow water F2W 3 
+feat:F3 shallow water F2W 3:torch:0xF3:0x8C
+feat:F3 shallow water F2W 3:los:0xF3:0x8D
+feat:F3 shallow water F2W 3:lit:0xF3:0x8E
+feat:F3 shallow water F2W 3:dark:0xF3:0x8F
+
+# F3 shallow water F2W 4 
+feat:F3 shallow water F2W 4:torch:0xF3:0x90
+feat:F3 shallow water F2W 4:los:0xF3:0x91
+feat:F3 shallow water F2W 4:lit:0xF3:0x92
+feat:F3 shallow water F2W 4:dark:0xF3:0x93
+
+# F3 shallow water F2W 5 
+feat:F3 shallow water F2W 5:torch:0xF3:0x94
+feat:F3 shallow water F2W 5:los:0xF3:0x95
+feat:F3 shallow water F2W 5:lit:0xF3:0x96
+feat:F3 shallow water F2W 5:dark:0xF3:0x97
+
+# F3 shallow water F2W 6 
+feat:F3 shallow water F2W 6:torch:0xF3:0x98
+feat:F3 shallow water F2W 6:los:0xF3:0x99
+feat:F3 shallow water F2W 6:lit:0xF3:0x9A
+feat:F3 shallow water F2W 6:dark:0xF3:0x9B
+
+# F3 shallow water F2W 7 
+feat:F3 shallow water F2W 7:torch:0xF3:0x9C
+feat:F3 shallow water F2W 7:los:0xF3:0x9D
+feat:F3 shallow water F2W 7:lit:0xF3:0x9E
+feat:F3 shallow water F2W 7:dark:0xF3:0x9F
+
+# F3 shallow water F2W 8 
+feat:F3 shallow water F2W 8:torch:0xF3:0xA0
+feat:F3 shallow water F2W 8:los:0xF3:0xA1
+feat:F3 shallow water F2W 8:lit:0xF3:0xA2
+feat:F3 shallow water F2W 8:dark:0xF3:0xA3
+
+# F3 shallow water F2W 9 
+feat:F3 shallow water F2W 9:torch:0xF3:0xA4
+feat:F3 shallow water F2W 9:los:0xF3:0xA5
+feat:F3 shallow water F2W 9:lit:0xF3:0xA6
+feat:F3 shallow water F2W 9:dark:0xF3:0xA7
+
+# F3 shallow water F2W a 
+feat:F3 shallow water F2W a:torch:0xF3:0xA8
+feat:F3 shallow water F2W a:los:0xF3:0xA9
+feat:F3 shallow water F2W a:lit:0xF3:0xAA
+feat:F3 shallow water F2W a:dark:0xF3:0xAB
+
+# F3 shallow water F2W b 
+feat:F3 shallow water F2W b:torch:0xF3:0xAC
+feat:F3 shallow water F2W b:los:0xF3:0xAD
+feat:F3 shallow water F2W b:lit:0xF3:0xAE
+feat:F3 shallow water F2W b:dark:0xF3:0xAF
+
+# F3 shallow water F2W c 
+feat:F3 shallow water F2W c:torch:0xF3:0xB0
+feat:F3 shallow water F2W c:los:0xF3:0xB1
+feat:F3 shallow water F2W c:lit:0xF3:0xB2
+feat:F3 shallow water F2W c:dark:0xF3:0xB3
+
+# F3 shallow water F2W d 
+feat:F3 shallow water F2W d:torch:0xF3:0xB4
+feat:F3 shallow water F2W d:los:0xF3:0xB5
+feat:F3 shallow water F2W d:lit:0xF3:0xB6
+feat:F3 shallow water F2W d:dark:0xF3:0xB7
+
+# F3 shallow water F2W e 
+feat:F3 shallow water F2W e:torch:0xF3:0xB8
+feat:F3 shallow water F2W e:los:0xF3:0xB9
+feat:F3 shallow water F2W e:lit:0xF3:0xBA
+feat:F3 shallow water F2W e:dark:0xF3:0xBB
+
+#passable rubble
+# F3 shallow water F2W f 
+feat:F3 shallow water F2W f:torch:0xF3:0xBC
+feat:F3 shallow water F2W f:los:0xF3:0xBD
+feat:F3 shallow water F2W f:lit:0xF3:0xBE
+feat:F3 shallow water F2W f:dark:0xF3:0xBF
+
+# F3 shallow water F2W g 
+feat:F3 shallow water F2W g:torch:0xF3:0xC0
+feat:F3 shallow water F2W g:los:0xF3:0xC1
+feat:F3 shallow water F2W g:lit:0xF3:0xC2
+feat:F3 shallow water F2W g:dark:0xF3:0xC3
+
+# F3 shallow water F2W h 
+feat:F3 shallow water F2W h:torch:0xF3:0xC4
+feat:F3 shallow water F2W h:los:0xF3:0xC5
+feat:F3 shallow water F2W h:lit:0xF3:0xC6
+feat:F3 shallow water F2W h:dark:0xF3:0xC7
+
+# F3 shallow water F2W i 
+feat:F3 shallow water F2W i:torch:0xF3:0xC8
+feat:F3 shallow water F2W i:los:0xF3:0xC9
+feat:F3 shallow water F2W i:lit:0xF3:0xCA
+feat:F3 shallow water F2W i:dark:0xF3:0xCB
+
+# F3 shallow water F2W j 
+feat:F3 shallow water F2W j:torch:0xF3:0xCC
+feat:F3 shallow water F2W j:los:0xF3:0xCD
+feat:F3 shallow water F2W j:lit:0xF3:0xCE
+feat:F3 shallow water F2W j:dark:0xF3:0xCF
+
+# F3 shallow water F2W k 
+feat:F3 shallow water F2W k:torch:0xF3:0xD0
+feat:F3 shallow water F2W k:los:0xF3:0xD1
+feat:F3 shallow water F2W k:lit:0xF3:0xD2
+feat:F3 shallow water F2W k:dark:0xF3:0xD3
+
+# F3 shallow water F2W l 
+feat:F3 shallow water F2W l:torch:0xF3:0xD4
+feat:F3 shallow water F2W l:los:0xF3:0xD5
+feat:F3 shallow water F2W l:lit:0xF3:0xD6
+feat:F3 shallow water F2W l:dark:0xF3:0xD7
+
+# plants on small rocks
+# F3 shallow water F2W m 
+feat:F3 shallow water F2W m:torch:0xF3:0xD8
+feat:F3 shallow water F2W m:los:0xF3:0xD9
+feat:F3 shallow water F2W m:lit:0xF3:0xDA
+feat:F3 shallow water F2W m:dark:0xF3:0xDB
+
+# F3 shallow water F2W n 
+feat:F3 shallow water F2W n:torch:0xF3:0xDC
+feat:F3 shallow water F2W n:los:0xF3:0xDD
+feat:F3 shallow water F2W n:lit:0xF3:0xDE
+feat:F3 shallow water F2W n:dark:0xF3:0xDF
+
+# F3 shallow water F2W o 
+feat:F3 shallow water F2W o:torch:0xF3:0xE0
+feat:F3 shallow water F2W o:los:0xF3:0xE1
+feat:F3 shallow water F2W o:lit:0xF3:0xE2
+feat:F3 shallow water F2W o:dark:0xF3:0xE3
+
+# F3 shallow water F2W p 
+feat:F3 shallow water F2W p:torch:0xF3:0xE4
+feat:F3 shallow water F2W p:los:0xF3:0xE5
+feat:F3 shallow water F2W p:lit:0xF3:0xE6
+feat:F3 shallow water F2W p:dark:0xF3:0xE7
+
+# F3 shallow water F2W q 
+feat:F3 shallow water F2W q:torch:0xF3:0xE8
+feat:F3 shallow water F2W q:los:0xF3:0xE9
+feat:F3 shallow water F2W q:lit:0xF3:0xEA
+feat:F3 shallow water F2W q:dark:0xF3:0xEB
+
+# F3 shallow water F2W r 
+feat:F3 shallow water F2W r:torch:0xF3:0xEC
+feat:F3 shallow water F2W r:los:0xF3:0xED
+feat:F3 shallow water F2W r:lit:0xF3:0xEE
+feat:F3 shallow water F2W r:dark:0xF3:0xEF
+
+# F3 shallow water F2W s 
+feat:F3 shallow water F2W s:torch:0xF3:0xF0
+feat:F3 shallow water F2W s:los:0xF3:0xF1
+feat:F3 shallow water F2W s:lit:0xF3:0xF2
+feat:F3 shallow water F2W s:dark:0xF3:0xF3
+
+# F3 shallow water F2W t 
+feat:F3 shallow water F2W t:torch:0xF3:0xF4
+feat:F3 shallow water F2W t:los:0xF3:0xF5
+feat:F3 shallow water F2W t:lit:0xF3:0xF6
+feat:F3 shallow water F2W t:dark:0xF3:0xF7
+
+# F3 shallow water F2W u 
+feat:F3 shallow water F2W u:torch:0xF3:0xF8
+feat:F3 shallow water F2W u:los:0xF3:0xF9
+feat:F3 shallow water F2W u:lit:0xF3:0xFA
+feat:F3 shallow water F2W u:dark:0xF3:0xFB
+
+# F3 shallow water F2W v 
+feat:F3 shallow water F2W v:torch:0xF3:0xFC
+feat:F3 shallow water F2W v:los:0xF3:0xFD
+feat:F3 shallow water F2W v:lit:0xF3:0xFE
+feat:F3 shallow water F2W v:dark:0xF3:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F4 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# F4 shallow water F2W w 
+feat:F4 shallow water F2W w:torch:0xF4:0x80
+feat:F4 shallow water F2W w:los:0xF4:0x81
+feat:F4 shallow water F2W w:lit:0xF4:0x82
+feat:F4 shallow water F2W w:dark:0xF4:0x83
+
+# F4 shallow water F2W x 
+feat:F4 shallow water F2W x:torch:0xF4:0x84
+feat:F4 shallow water F2W x:los:0xF4:0x85
+feat:F4 shallow water F2W x:lit:0xF4:0x86
+feat:F4 shallow water F2W x:dark:0xF4:0x87
+
+# F4 shallow water F2W y 
+feat:F4 shallow water F2W y:torch:0xF4:0x88
+feat:F4 shallow water F2W y:los:0xF4:0x89
+feat:F4 shallow water F2W y:lit:0xF4:0x8A
+feat:F4 shallow water F2W y:dark:0xF4:0x8B
+
+# F4 shallow water F2W z 
+feat:F4 shallow water F2W z:torch:0xF4:0x8C
+feat:F4 shallow water F2W z:los:0xF4:0x8D
+feat:F4 shallow water F2W z:lit:0xF4:0x8E
+feat:F4 shallow water F2W z:dark:0xF4:0x8F
+
+# F4 shallow water F2W A 
+feat:F4 shallow water F2W A:torch:0xF4:0x90
+feat:F4 shallow water F2W A:los:0xF4:0x91
+feat:F4 shallow water F2W A:lit:0xF4:0x92
+feat:F4 shallow water F2W A:dark:0xF4:0x93
+
+# F4 shallow water F2W B 
+feat:F4 shallow water F2W B:torch:0xF4:0x94
+feat:F4 shallow water F2W B:los:0xF4:0x95
+feat:F4 shallow water F2W B:lit:0xF4:0x96
+feat:F4 shallow water F2W B:dark:0xF4:0x97
+
+# F4 shallow water F2W C 
+feat:F4 shallow water F2W C:torch:0xF4:0x98
+feat:F4 shallow water F2W C:los:0xF4:0x99
+feat:F4 shallow water F2W C:lit:0xF4:0x9A
+feat:F4 shallow water F2W C:dark:0xF4:0x9B
+
+# F4 shallow water F2W D 
+feat:F4 shallow water F2W D:torch:0xF4:0x9C
+feat:F4 shallow water F2W D:los:0xF4:0x9D
+feat:F4 shallow water F2W D:lit:0xF4:0x9E
+feat:F4 shallow water F2W D:dark:0xF4:0x9F
+
+# F4 shallow water F2W E 
+feat:F4 shallow water F2W E:torch:0xF4:0xA0
+feat:F4 shallow water F2W E:los:0xF4:0xA1
+feat:F4 shallow water F2W E:lit:0xF4:0xA2
+feat:F4 shallow water F2W E:dark:0xF4:0xA3
+
+# F4 shallow water F2W F 
+feat:F4 shallow water F2W F:torch:0xF4:0xA4
+feat:F4 shallow water F2W F:los:0xF4:0xA5
+feat:F4 shallow water F2W F:lit:0xF4:0xA6
+feat:F4 shallow water F2W F:dark:0xF4:0xA7
+
+# F4 shallow water F2W G 
+feat:F4 shallow water F2W G:torch:0xF4:0xA8
+feat:F4 shallow water F2W G:los:0xF4:0xA9
+feat:F4 shallow water F2W G:lit:0xF4:0xAA
+feat:F4 shallow water F2W G:dark:0xF4:0xAB
+
+# F4 shallow water F2W H 
+feat:F4 shallow water F2W H:torch:0xF4:0xAC
+feat:F4 shallow water F2W H:los:0xF4:0xAD
+feat:F4 shallow water F2W H:lit:0xF4:0xAE
+feat:F4 shallow water F2W H:dark:0xF4:0xAF
+
+# F4 shallow water F2W I 
+feat:F4 shallow water F2W I:torch:0xF4:0xB0
+feat:F4 shallow water F2W I:los:0xF4:0xB1
+feat:F4 shallow water F2W I:lit:0xF4:0xB2
+feat:F4 shallow water F2W I:dark:0xF4:0xB3
+
+# F4 shallow water F2W J 
+feat:F4 shallow water F2W J:torch:0xF4:0xB4
+feat:F4 shallow water F2W J:los:0xF4:0xB5
+feat:F4 shallow water F2W J:lit:0xF4:0xB6
+feat:F4 shallow water F2W J:dark:0xF4:0xB7
+
+# F4 shallow water F2W K 
+feat:F4 shallow water F2W K:torch:0xF4:0xB8
+feat:F4 shallow water F2W K:los:0xF4:0xB9
+feat:F4 shallow water F2W K:lit:0xF4:0xBA
+feat:F4 shallow water F2W K:dark:0xF4:0xBB
+
+# F4 shallow water F2W L 
+feat:F4 shallow water F2W L:torch:0xF4:0xBC
+feat:F4 shallow water F2W L:los:0xF4:0xBD
+feat:F4 shallow water F2W L:lit:0xF4:0xBE
+feat:F4 shallow water F2W L:dark:0xF4:0xBF
+
+# F4 shallow water F2W M 
+feat:F4 shallow water F2W M:torch:0xF4:0xC0
+feat:F4 shallow water F2W M:los:0xF4:0xC1
+feat:F4 shallow water F2W M:lit:0xF4:0xC2
+feat:F4 shallow water F2W M:dark:0xF4:0xC3
+
+# F4 shallow water F2W N 
+feat:F4 shallow water F2W N:torch:0xF4:0xC4
+feat:F4 shallow water F2W N:los:0xF4:0xC5
+feat:F4 shallow water F2W N:lit:0xF4:0xC6
+feat:F4 shallow water F2W N:dark:0xF4:0xC7
+
+# F4 shallow water F2W O 
+feat:F4 shallow water F2W O:torch:0xF4:0xC8
+feat:F4 shallow water F2W O:los:0xF4:0xC9
+feat:F4 shallow water F2W O:lit:0xF4:0xCA
+feat:F4 shallow water F2W O:dark:0xF4:0xCB
+
+# F4 shallow water F2W P 
+feat:F4 shallow water F2W P:torch:0xF4:0xCC
+feat:F4 shallow water F2W P:los:0xF4:0xCD
+feat:F4 shallow water F2W P:lit:0xF4:0xCE
+feat:F4 shallow water F2W P:dark:0xF4:0xCF
+
+# F4 shallow water F2W Q 
+feat:F4 shallow water F2W Q:torch:0xF4:0xD0
+feat:F4 shallow water F2W Q:los:0xF4:0xD1
+feat:F4 shallow water F2W Q:lit:0xF4:0xD2
+feat:F4 shallow water F2W Q:dark:0xF4:0xD3
+
+# F4 shallow water F2W R 
+feat:F4 shallow water F2W R:torch:0xF4:0xD4
+feat:F4 shallow water F2W R:los:0xF4:0xD5
+feat:F4 shallow water F2W R:lit:0xF4:0xD6
+feat:F4 shallow water F2W R:dark:0xF4:0xD7
+
+# F4 shallow water F2W S 
+feat:F4 shallow water F2W S:torch:0xF4:0xD8
+feat:F4 shallow water F2W S:los:0xF4:0xD9
+feat:F4 shallow water F2W S:lit:0xF4:0xDA
+feat:F4 shallow water F2W S:dark:0xF4:0xDB
+
+# F4 shallow water F2W T 
+feat:F4 shallow water F2W T:torch:0xF4:0xDC
+feat:F4 shallow water F2W T:los:0xF4:0xDD
+feat:F4 shallow water F2W T:lit:0xF4:0xDE
+feat:F4 shallow water F2W T:dark:0xF4:0xDF
+
+# F4 shallow water F2W U 
+feat:F4 shallow water F2W U:torch:0xF4:0xE0
+feat:F4 shallow water F2W U:los:0xF4:0xE1
+feat:F4 shallow water F2W U:lit:0xF4:0xE2
+feat:F4 shallow water F2W U:dark:0xF4:0xE3
+
+# F4 shallow water F2W V 
+feat:F4 shallow water F2W V:torch:0xF4:0xE4
+feat:F4 shallow water F2W V:los:0xF4:0xE5
+feat:F4 shallow water F2W V:lit:0xF4:0xE6
+feat:F4 shallow water F2W V:dark:0xF4:0xE7
+
+# F4 shallow water F2W W 
+feat:F4 shallow water F2W W:torch:0xF4:0xE8
+feat:F4 shallow water F2W W:los:0xF4:0xE9
+feat:F4 shallow water F2W W:lit:0xF4:0xEA
+feat:F4 shallow water F2W W:dark:0xF4:0xEB
+
+# F4 shallow water F2W X 
+feat:F4 shallow water F2W X:torch:0xF4:0xEC
+feat:F4 shallow water F2W X:los:0xF4:0xED
+feat:F4 shallow water F2W X:lit:0xF4:0xEE
+feat:F4 shallow water F2W X:dark:0xF4:0xEF
+
+# F4 shallow water F2W Y 
+feat:F4 shallow water F2W Y:torch:0xF4:0xF0
+feat:F4 shallow water F2W Y:los:0xF4:0xF1
+feat:F4 shallow water F2W Y:lit:0xF4:0xF2
+feat:F4 shallow water F2W Y:dark:0xF4:0xF3
+
+# F4 shallow water F2W Z 
+feat:F4 shallow water F2W Z:torch:0xF4:0xF4
+feat:F4 shallow water F2W Z:los:0xF4:0xF5
+feat:F4 shallow water F2W Z:lit:0xF4:0xF6
+feat:F4 shallow water F2W Z:dark:0xF4:0xF7
+
+# F4 shallow water F2W ~ 
+feat:F4 shallow water F2W ~:torch:0xF4:0xF8
+feat:F4 shallow water F2W ~:los:0xF4:0xF9
+feat:F4 shallow water F2W ~:lit:0xF4:0xFA
+feat:F4 shallow water F2W ~:dark:0xF4:0xFB
+
+# F4 shallow water F2W ` 
+feat:F4 shallow water F2W `:torch:0xF4:0xFC
+feat:F4 shallow water F2W `:los:0xF4:0xFD
+feat:F4 shallow water F2W `:lit:0xF4:0xFE
+feat:F4 shallow water F2W `:dark:0xF4:0xFF
+
+
 
 ###########################################
 
