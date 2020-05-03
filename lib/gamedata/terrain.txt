@@ -1262,7 +1262,7 @@ desc:.
 name:96 wall Y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2502,7 +2502,7 @@ desc:.
 name:A3 severs 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -8538,28 +8538,28 @@ desc:.
 name:wooden walls Z
 graphics:#:u
 priority:18
-flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:wall
+short-desc:brazier on the wall
 desc:.
 
 name:wooden walls ~
 graphics:#:u
 priority:18
-flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:wall
+short-desc:candle on the wall
 desc:.
 
 name:wooden walls `
 graphics:#:u
 priority:18
-flags:MAGMA | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:2
 ################################################################################
-short-desc:wall
+short-desc:lamp on the wall
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -9118,7 +9118,7 @@ desc:.
 name:dark wall Z
 graphics:#:D
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:brazier on the wall
@@ -9127,7 +9127,7 @@ desc:.
 name:dark wall ~
 graphics:#:D
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:candle on the wall
@@ -9136,7 +9136,7 @@ desc:.
 name:dark wall `
 graphics:#:D
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:MAGMA | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:lamp on the wall
@@ -9710,7 +9710,7 @@ desc:.
 name:big white wall Z
 graphics:#:w
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:brazier on the wall
@@ -9719,7 +9719,7 @@ desc:.
 name:big white wall ~
 graphics:#:w
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:candle on the wall
@@ -9728,7 +9728,7 @@ desc:.
 name:big white wall `
 graphics:#:w
 priority:18
-flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:QUARTZ | WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:lamp on the wall
@@ -10892,7 +10892,7 @@ desc:.
 name:brick wall Z
 graphics:#:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:NO_SCENT | WALL | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:brazier on the wall
@@ -10901,7 +10901,7 @@ desc:.
 name:brick wall ~
 graphics:#:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:NO_SCENT | WALL | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:candle on the wall
@@ -10910,7 +10910,7 @@ desc:.
 name:brick wall `
 graphics:#:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:NO_SCENT | WALL | NO_FLOW | TORCH | BRIGHT
 info:0:3
 ################################################################################
 short-desc:lamp on the wall
@@ -12162,9 +12162,9 @@ desc:.
 name:road m
 graphics:.:s
 priority:18
-flags:WALL | ROCK | NO_SCENT | NO_FLOW
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | BRIGHT
 ################################################################################
-short-desc:tower
+short-desc:light tower
 desc:.
 
 name:road n

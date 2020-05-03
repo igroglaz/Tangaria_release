@@ -694,7 +694,6 @@ max-depth:15
 max-level:15
 flags:WATER_RIVER
 #flags:!NO_DOORS
-#floor:B3 floors c:98
 #slime-blood:
 floor:E6 blood w:20
 floor:E6 blood x:20
@@ -2314,8 +2313,95 @@ wpos:-1:-1
 min-depth:33
 max-depth:40
 max-level:35
-#floor:web:1
 flags:MAZE
+#slime-blood: 
+floor:E6 blood w:1
+floor:E6 blood x:1
+floor:E6 blood y:1
+floor:E6 blood z:1
+floor:E6 blood A:1
+floor:E6 blood B:1
+#
+floor:E5 blood 0:1
+floor:E5 blood 1:1
+floor:E5 blood 2:1
+floor:E5 blood 3:1
+floor:E5 blood 4:1
+floor:E5 blood 5:1
+floor:E5 blood 6:1
+floor:E5 blood 7:1
+floor:E5 blood 8:1
+floor:E5 blood 9:1
+floor:E5 blood a:1
+floor:E5 blood b:1
+floor:E5 blood c:1
+floor:E5 blood d:1
+floor:E5 blood e:1
+floor:E5 blood f:1
+floor:E5 blood g:1
+floor:E5 blood h:1
+floor:E5 blood i:1
+floor:E5 blood j:1
+floor:E5 blood k:1
+floor:E5 blood l:1
+floor:E5 blood m:1
+floor:E5 blood n:1
+floor:E5 blood o:1
+floor:E5 blood p:1
+floor:E5 blood q:1
+floor:E5 blood r:1
+floor:E5 blood s:1
+floor:E5 blood t:1
+floor:E5 blood u:1
+floor:E5 blood v:1
+########################## 5600
+wall:A3 severs 0:900
+wall:A3 severs 1:800
+wall:A3 severs 3:100
+wall:A3 severs 6:100
+wall:A3 severs 7:100
+wall:A3 severs 8:100
+wall:A3 severs 9:100
+wall:A3 severs a:100
+wall:A3 severs b:100
+wall:A3 severs c:100
+wall:A3 severs d:100
+wall:A3 severs e:100
+wall:A3 severs g:100
+wall:A3 severs h:100
+wall:A3 severs i:100
+# lattice
+wall:A3 severs j:10
+wall:A3 severs k:90
+wall:A3 severs k:90
+wall:A3 severs l:100
+wall:A3 severs m:100
+wall:A3 severs n:100
+wall:A3 severs o:100
+wall:A3 severs p:100
+wall:A3 severs q:100
+wall:A3 severs r:100
+wall:A3 severs s:1300
+wall:A3 severs t:1000
+wall:A3 severs u:2000
+# AA #################### 3600
+wall:AA wall w:1000
+wall:AA wall x:500
+wall:AA wall y:100
+wall:AA wall z:100
+wall:AA wall A:100
+wall:AA wall B:100
+#
+#if green walls:
+#wall:big dark wall 9 entrance:1
+#wall:big dark wall a low entrance:1
+#wall:big dark wall b window:1
+# door : closed door feature : open door feature : 1/10000 chance of getting
+#        the feature
+door:DD wood wall 0:DD wood wall 1:8000
+#broken:
+#door:DD wood wall 2:1000
+#
 rule:2000:0
 rule-symbols:p
 rule:8000:1
