@@ -2483,7 +2483,7 @@ floor:F4 shallow water Z:50
 floor:F4 shallow water ~:50
 floor:F4 shallow water `:50
 ####################################
-wall:B6 floors luquid F2W w:1000
+wall:B6 floors luquid F2W w:1500
 wall:B6 floors luquid F2W x:1000
 # F3 shallow water F2W E ############### 4020
 wall:F3 shallow water F2W 0:120
@@ -2555,22 +2555,32 @@ wall:F4 shallow water F2W ~:10
 wall:F4 shallow water F2W `:10
 #######################################
 ##################################      ! 5000
-wall:obj_grass L ruins:1000
-wall:obj_grass M ruins:100
-wall:obj_grass N ruins:1100
-wall:obj_grass O ruins:1100
-wall:obj_grass P ruins:300
-wall:obj_grass Q ruins:900
-wall:big dark wall 0:100
-wall:big dark wall 9 entrance:100
-wall:big dark wall a low entrance:100
-wall:big dark wall b window:70
-# 98 ##################################### 130
-wall:98 wall 0:10
-wall:98 wall 1:10
+wall:F7 deep water F2W 0:200
+wall:F7 deep water F2W 1:50
+wall:F7 deep water F2W 2:200
+wall:F7 deep water F2W 3:200
+wall:F7 deep water F2W 4:200
+wall:F7 deep water F2W 5:200
+wall:F7 deep water F2W 6:700
+wall:F7 deep water F2W 7:200
+wall:F7 deep water F2W 8:200
+wall:F7 deep water F2W 9:200
+wall:F7 deep water F2W a:200
+wall:F7 deep water F2W b:200
+wall:F7 deep water F2W c:600
+wall:F7 deep water F2W d:600
+wall:F7 deep water F2W e:50
+################################ 5k
+wall:big dark wall 1:330
+wall:big dark wall 9 entrance:20
+wall:big dark wall a low entrance:10
+wall:big dark wall b window:30
+# 98 ############################ 110
+wall:98 wall 0:4
+wall:98 wall 1:3
 wall:98 wall 2:10
 wall:98 wall 3:10
-wall:98 wall 4:10
+wall:98 wall 4:3
 wall:98 wall 5:10
 wall:98 wall 6:10
 wall:98 wall 7:1
