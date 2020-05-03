@@ -2407,7 +2407,7 @@ rule-symbols:p
 rule:8000:1
 
 ########################## 35 (boss: The Watcher in the Water)
-name:The Small Water Cave
+name:The Small Watery Cave
 wpos:-1:3
 min-depth:35
 max-depth:45
@@ -2604,10 +2604,32 @@ wpos:-1:-2
 min-depth:38
 max-depth:45
 max-level:40
-flags:SAND_VEIN
+flags:SAND_VEIN | LAVA_RIVER
 floor:B3 floors q:10000
-wall:big dark wall 0:3300
-wall:dark wall:3300
+#
+# 96-wall: ############# 6000
+wall:96 wall M:900
+wall:96 wall N:1000
+wall:96 wall O:1080
+wall:96 wall P:20
+wall:96 wall Q:100
+wall:96 wall R:100
+wall:96 wall S:500
+wall:96 wall T:500
+wall:96 wall U:500
+wall:96 wall V:500
+wall:96 wall W:500
+wall:96 wall X:500
+###################### 4000
+wall:big dark wall 0:100
+wall:dark wall:100
+wall:AA wall C:900
+wall:AA wall D:90
+wall:AA wall E:10
+wall:AA wall F:900
+wall:AA wall G:900
+wall:AA wall H:1000
+#
 rule:4000:0
 rule-symbols:#XgE
 rule:3000:0

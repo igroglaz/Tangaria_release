@@ -565,12 +565,14 @@ feat:&:y:AA wall y
 feat:&:z:AA wall z
 feat:&:A:AA wall A
 feat:&:B:AA wall B
+# brown-green walls:
 feat:&:C:AA wall C
 feat:&:D:AA wall D
 feat:&:E:AA wall E
 feat:&:F:AA wall F
 feat:&:G:AA wall G
 feat:&:H:AA wall H
+#
 feat:&:I:AA wall I
 feat:&:J:AA wall J
 feat:&:K:AA wall K

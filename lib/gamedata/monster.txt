@@ -18140,7 +18140,7 @@ spells:BR_POIS | BR_WATE
 spells:HOLD | TELE_TO
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to 
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
-locations:The Small Water Cave
+locations:The Small Watery Cave
 
 name:lesser black reaver
 base:lich
@@ -27584,7 +27584,7 @@ locations:Moarih
 ###########################################################################
 ################### Sea of Bermados
 ###########################################################################
-# The Small Water Cave
+# The Small Watery Cave
 
 
 ################### DOESN'T WORK WITHOUT SPAWN ON WATER FLAG
