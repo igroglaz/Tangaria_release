@@ -2643,9 +2643,9 @@ min-depth:42
 max-depth:50
 max-level:40
 flags:CAVERN | WATER_RIVER
-floor:EF snow 0:8900
+floor:F0 snow 0:8900
 floor:ice:1000
-floor:F0 snow U:100
+floor:F1 snow U:100
 wall:ice wall:8000
 wall:big white wall 0:1000
 wall:big dark wall 0:1000
