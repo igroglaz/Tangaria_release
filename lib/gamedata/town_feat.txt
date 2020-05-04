@@ -3184,8 +3184,11 @@ feat:C:i:F0 snow i
 feat:C:j:F0 snow j
 feat:C:k:F0 snow k
 feat:C:l:F0 snow l
+# ice:
 feat:C:m:F0 snow m
+# wrong ice:
 feat:C:n:F0 snow n
+# empty:
 feat:C:o:F0 snow o
 feat:C:p:F0 snow p
 feat:C:q:F0 snow q

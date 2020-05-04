@@ -2656,10 +2656,283 @@ min-depth:43
 max-depth:50
 max-level:40
 flags:WATER_RIVER
-floor:B3 floors 9:10000
-wall:mountain:1000
-wall:big dark wall 0:1300
-wall:dark wall:1300
+floor:packed dirt:3650
+#20 + (1+8) + 71
+#900+2k^
+floor:EB dirt 0:1400
+floor:EB dirt 1:5
+floor:EB dirt 2:5
+floor:EB dirt 3:50
+floor:EB dirt 4:50
+floor:EB dirt 5:5
+floor:EB dirt 6:5
+floor:EB dirt 7:5
+floor:EB dirt 8:5
+floor:EB dirt 9:5
+floor:EB dirt a:5
+floor:EB dirt b:5
+floor:EB dirt c:5
+# 1700 - 150 - 100 = 1450
+# 2x dry tree
+floor:EB dirt d:100
+floor:EB dirt e:100
+#
+floor:EB dirt f:15
+floor:EB dirt g:15
+floor:EB dirt h:50
+floor:EB dirt i:10
+floor:EB dirt j:10
+# plants: 1100-400 = -700
+floor:EB dirt k:50
+floor:EB dirt l:50
+floor:EB dirt m:50
+floor:EB dirt n:50
+floor:EB dirt o:35
+floor:EB dirt p:50
+floor:EB dirt q:50
+floor:EB dirt r:10
+floor:EB dirt s:25
+floor:EB dirt t:5
+floor:EB dirt u:25
+#
+floor:EB dirt v:100
+###
+floor:EE dirt w:100
+floor:EE dirt x:100
+floor:EE dirt y:100
+floor:EE dirt z:100
+floor:EE dirt A:100
+floor:EE dirt B:100
+floor:EE dirt C:100
+floor:EE dirt D:100
+floor:EE dirt E:100
+floor:EE dirt F:100
+floor:EE dirt G:100
+floor:EE dirt H:100
+floor:EE dirt I:100
+floor:EE dirt J:100
+floor:EE dirt K:100
+floor:EE dirt L:100
+floor:EE dirt M:100
+# lots of rocks:
+floor:EE dirt N:1
+floor:EE dirt O:100
+floor:EE dirt P:100
+floor:EE dirt Q:100
+floor:EE dirt R:100
+floor:EE dirt S:100
+floor:EE dirt T:100
+floor:EE dirt U:100
+floor:EE dirt V:100
+floor:EE dirt W:100
+floor:EE dirt X:100
+floor:EE dirt Y:100
+floor:EE dirt Z:100
+floor:EE dirt ~:100
+floor:EE dirt `:100
+### EC
+floor:EC dirt w:1
+floor:EC dirt x:1
+floor:EC dirt y:1
+floor:EC dirt z:1
+floor:EC dirt A:1
+floor:EC dirt B:1
+floor:EC dirt C:1
+floor:EC dirt D:1
+floor:EC dirt E:1
+#3x major bones:
+#floor:EC dirt F
+#floor:EC dirt G
+#floor:EC dirt H
+floor:EC dirt I:1
+floor:EC dirt J:1
+floor:EC dirt K:1
+floor:EC dirt L:1
+#floor:EC dirt M
+floor:EC dirt N:1
+#floor:EC dirt O
+floor:EC dirt P:1
+floor:EC dirt Q:1
+floor:EC dirt R:1
+# wagon:
+floor:EC dirt S:1
+floor:EC dirt T:2
+# +1x20 ^
+# rocks:
+floor:EC dirt U:100
+# -20:
+floor:EC dirt V:80
+floor:EC dirt W:100
+floor:EC dirt X:100
+floor:EC dirt Y:100
+floor:EC dirt Z:100
+floor:EC dirt ~:100
+floor:EC dirt `:100
+# grass 4x:
+floor:floor Q dirt:100
+floor:floor R dirt:100
+#
+wall:EB dirt F2W 0:541
+wall:EB dirt F2W 1:1
+wall:EB dirt F2W 2:1
+wall:EB dirt F2W 3:1
+wall:EB dirt F2W 4:1
+wall:EB dirt F2W 5:1
+wall:EB dirt F2W 6:1
+wall:EB dirt F2W 7:1
+wall:EB dirt F2W 8:1
+wall:EB dirt F2W 9:1
+wall:EB dirt F2W a:1
+wall:EB dirt F2W b:1
+wall:EB dirt F2W c:1
+wall:EB dirt F2W d:11
+wall:EB dirt F2W e:11
+wall:EB dirt F2W f:11
+wall:EB dirt F2W g:11
+wall:EB dirt F2W h:11
+wall:EB dirt F2W i:11
+wall:EB dirt F2W j:11
+wall:EB dirt F2W k:11
+wall:EB dirt F2W l:11
+wall:EB dirt F2W m:11
+wall:EB dirt F2W n:11
+wall:EB dirt F2W o:11
+wall:EB dirt F2W p:11
+wall:EB dirt F2W q:11
+wall:EB dirt F2W r:11
+wall:EB dirt F2W s:11
+wall:EB dirt F2W t:11
+wall:EB dirt F2W u:11
+wall:EB dirt F2W v:11
+#######################################
+# 96-wall: ############# 
+wall:96 wall M:800
+wall:96 wall N:700
+wall:96 wall O:680
+wall:96 wall P:20
+wall:96 wall Q:100
+wall:96 wall R:100
+wall:96 wall S:700
+wall:96 wall T:200
+wall:96 wall U:200
+wall:96 wall V:200
+wall:96 wall W:200
+wall:96 wall X:200
+######################
+wall:big dark wall 0:100
+wall:dark wall:100
+wall:AA wall C:700
+wall:AA wall D:90
+wall:AA wall E:10
+wall:AA wall F:700
+wall:AA wall G:700
+wall:AA wall H:700
+#################################### 7200
+wall:ED dirt F2W 0:100
+wall:ED dirt F2W 1:100
+wall:ED dirt F2W 2:150
+wall:ED dirt F2W 3:100
+wall:ED dirt F2W 4:30
+wall:ED dirt F2W 5:15
+wall:ED dirt F2W 6:5
+wall:ED dirt F2W 7:15
+wall:ED dirt F2W 8:10
+wall:ED dirt F2W 9:10
+wall:ED dirt F2W a:40
+wall:ED dirt F2W b:25
+# 800-150 = -650
+#rocks:
+wall:ED dirt F2W c:100
+wall:ED dirt F2W d:100
+wall:ED dirt F2W e:100
+wall:ED dirt F2W f:100
+wall:ED dirt F2W g:100
+wall:ED dirt F2W h:100
+wall:ED dirt F2W i:100
+wall:ED dirt F2W j:100
+wall:ED dirt F2W k:100
+wall:ED dirt F2W l:100
+#lonely ugly rocks: 
+wall:ED dirt F2W m:5
+wall:ED dirt F2W n:5
+wall:ED dirt F2W o:5
+wall:ED dirt F2W p:5
+wall:ED dirt F2W q:5
+wall:ED dirt F2W r:5
+wall:ED dirt F2W s:5
+wall:ED dirt F2W t:5
+wall:ED dirt F2W u:5
+wall:ED dirt F2W v:5
+#
+#skeletons minor:
+wall:EC dirt F2W w:10
+wall:EC dirt F2W x:10
+wall:EC dirt F2W y:10
+wall:EC dirt F2W z:10
+wall:EC dirt F2W A:10
+wall:EC dirt F2W B:10
+wall:EC dirt F2W C:10
+wall:EC dirt F2W D:10
+wall:EC dirt F2W E:10
+wall:EC dirt F2W F:10
+# big skel: 54 V +EB32 = 86 + 14 EE`
+wall:EC dirt F2W G:10
+wall:EC dirt F2W H:10
+wall:EC dirt F2W I:10
+#
+wall:EC dirt F2W J:10
+wall:EC dirt F2W K:10
+wall:EC dirt F2W L:10
+wall:EC dirt F2W M:10
+wall:EC dirt F2W N:10
+wall:EC dirt F2W O:10
+wall:EC dirt F2W P:10
+wall:EC dirt F2W Q:10
+wall:EC dirt F2W R:10
+wall:EC dirt F2W S:10
+wall:EC dirt F2W T:10
+#rocks:
+wall:EC dirt F2W U:10
+wall:EC dirt F2W V:10
+wall:EC dirt F2W W:10
+wall:EC dirt F2W X:10
+wall:EC dirt F2W Y:10
+wall:EC dirt F2W Z:10
+wall:EC dirt F2W ~:10
+wall:EC dirt F2W `:10
+#
+wall:EE dirt F2W w:10
+wall:EE dirt F2W x:10
+wall:EE dirt F2W y:10
+wall:EE dirt F2W z:10
+wall:EE dirt F2W A:10
+wall:EE dirt F2W B:10
+wall:EE dirt F2W C:10
+wall:EE dirt F2W D:10
+wall:EE dirt F2W E:10
+wall:EE dirt F2W F:10
+wall:EE dirt F2W G:10
+wall:EE dirt F2W H:10
+wall:EE dirt F2W I:10
+wall:EE dirt F2W J:10
+wall:EE dirt F2W K:10
+wall:EE dirt F2W L:10
+wall:EE dirt F2W M:10
+wall:EE dirt F2W N:10
+wall:EE dirt F2W O:10
+wall:EE dirt F2W P:10
+wall:EE dirt F2W Q:10
+wall:EE dirt F2W R:10
+wall:EE dirt F2W S:10
+wall:EE dirt F2W T:10
+wall:EE dirt F2W U:10
+wall:EE dirt F2W V:10
+wall:EE dirt F2W W:10
+wall:EE dirt F2W X:10
+wall:EE dirt F2W Y:10
+wall:EE dirt F2W Z:10
+wall:EE dirt F2W ~:10
+wall:EE dirt F2W `:24
 rule:4000:0
 rule-flags:ORC
 rule:3000:0

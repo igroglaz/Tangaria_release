@@ -23442,23 +23442,25 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:tree stump
 desc:.
 
-### empty further
+#ice:
 
 name:F0 snow m
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-################################################################################
-short-desc:.
-desc:.
+graphics:.:W
+priority:2
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+short-desc:ice
+desc:A section of ice.
+
+# wrong ice:
 
 name:F0 snow n
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
-################################################################################
-short-desc:.
-desc:.
+graphics:.:W
+priority:2
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+short-desc:ice
+desc:A section of ice.
+
+### empty further
 
 name:F0 snow o
 graphics:.:s
