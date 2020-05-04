@@ -3680,7 +3680,7 @@ graphics:::s
 priority:18
 #comparison to granite:
 #flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3689,7 +3689,7 @@ desc:.
 name:obj_grass M ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3698,7 +3698,7 @@ desc:.
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3707,7 +3707,7 @@ desc:.
 name:obj_grass O ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3716,7 +3716,7 @@ desc:.
 name:obj_grass P ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3725,7 +3725,7 @@ desc:.
 name:obj_grass Q ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | TRAP | OBJECT | ROCK
+flags:LOS | TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3944,87 +3944,88 @@ info:0:6
 short-desc:red tower with lobby
 desc:.
 
-###END FOR NOW....#############################
 name:obj_grass2 f
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 g
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 h
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 i
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 j
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 k
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 l
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 m
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
 
 name:obj_grass2 n
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:.
+short-desc:old ruins
 desc:.
+
+#end a8:
 
 name:obj_grass2 o
 graphics:.:s
@@ -24961,7 +24962,7 @@ resist-flag:IM_WATER
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F7 
+# F7 ------> .... look next F7 F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
@@ -29942,257 +29943,290 @@ desc:.
 # F7 deep water F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F7 deep water F2W 0
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 1
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 2
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 3
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 4
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 5
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 6
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 7
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 8
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W 9
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W a
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W b
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W c
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W d
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W e
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W f
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W g
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W h
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W i
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W j
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W k
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W l
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W m
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W n
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W o
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W p
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W q
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W r
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W s
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W t
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W u
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
+info:0:3
 short-desc:old ruins in water
 desc:.
 
 name:F7 deep water F2W v
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+info:0:3
 short-desc:old ruins in water
 desc:.
