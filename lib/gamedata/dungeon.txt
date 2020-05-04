@@ -3142,10 +3142,65 @@ min-depth:47
 max-depth:55
 max-level:45
 flags:CIRCULAR_ROOMS
-floor:packed dirt:700
+#slime-blood:
+floor:E6 blood w:100
+floor:E6 blood x:100
+floor:E6 blood y:100
+floor:E6 blood z:100
+floor:E6 blood A:100
+floor:E6 blood B:20
+#
+floor:E5 blood 0:1
+floor:E5 blood 1:1
+floor:E5 blood 2:1
+floor:E5 blood 3:1
+floor:E5 blood 4:1
+floor:E5 blood 5:1
+floor:E5 blood 6:1
+floor:E5 blood 7:1
+floor:E5 blood 8:1
+floor:E5 blood 9:1
+floor:E5 blood a:1
+floor:E5 blood b:1
+floor:E5 blood c:1
+floor:E5 blood d:1
+floor:E5 blood e:1
+floor:E5 blood f:1
+floor:E5 blood g:1
+floor:E5 blood h:1
+floor:E5 blood i:1
+floor:E5 blood j:1
+floor:E5 blood k:1
+floor:E5 blood l:1
+floor:E5 blood m:1
+floor:E5 blood n:1
+floor:E5 blood o:1
+floor:E5 blood p:1
+floor:E5 blood q:1
+floor:E5 blood r:1
+floor:E5 blood s:1
+floor:E5 blood t:1
+floor:E5 blood u:1
+floor:E5 blood v:1
 floor:web:300
-wall:mountain:900
-wall:web:1
+#############################
+wall:mountains end bot 0:592
+wall:mountains end bot 1:588
+wall:mountains end bot 2:588
+wall:mountains end bot 3:588
+wall:mountains end bot 4:588
+wall:mountains end bot 5:588
+wall:mountains end bot 6:588
+wall:mountains end bot 7:588
+wall:mountains end bot 8:588
+wall:mountains end bot 9:588
+wall:mountains end bot a:588
+wall:mountains end bot b:588
+wall:mountains end bot c:588
+wall:mountains end bot d:588
+wall:mountains end bot e:588
+wall:mountains end bot f:588
+wall:mountains end bot g:588
 rule:4900:0
 rule-symbols:caIS
 rule:4900:0
