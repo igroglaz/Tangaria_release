@@ -18445,6 +18445,203 @@ feat:EF dirt `:dark:0xEF:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F0 dirt mountain w-`
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# F0 dirt mountain w 
+feat:F0 dirt mountain w:torch:0xF0:0x80
+feat:F0 dirt mountain w:los:0xF0:0x81
+feat:F0 dirt mountain w:lit:0xF0:0x82
+feat:F0 dirt mountain w:dark:0xF0:0x83
+
+# F0 dirt mountain x 
+feat:F0 dirt mountain x:torch:0xF0:0x84
+feat:F0 dirt mountain x:los:0xF0:0x85
+feat:F0 dirt mountain x:lit:0xF0:0x86
+feat:F0 dirt mountain x:dark:0xF0:0x87
+
+# F0 dirt mountain y 
+feat:F0 dirt mountain y:torch:0xF0:0x88
+feat:F0 dirt mountain y:los:0xF0:0x89
+feat:F0 dirt mountain y:lit:0xF0:0x8A
+feat:F0 dirt mountain y:dark:0xF0:0x8B
+
+# F0 dirt mountain z 
+feat:F0 dirt mountain z:torch:0xF0:0x8C
+feat:F0 dirt mountain z:los:0xF0:0x8D
+feat:F0 dirt mountain z:lit:0xF0:0x8E
+feat:F0 dirt mountain z:dark:0xF0:0x8F
+
+# F0 dirt mountain A 
+feat:F0 dirt mountain A:torch:0xF0:0x90
+feat:F0 dirt mountain A:los:0xF0:0x91
+feat:F0 dirt mountain A:lit:0xF0:0x92
+feat:F0 dirt mountain A:dark:0xF0:0x93
+
+# F0 dirt mountain B 
+feat:F0 dirt mountain B:torch:0xF0:0x94
+feat:F0 dirt mountain B:los:0xF0:0x95
+feat:F0 dirt mountain B:lit:0xF0:0x96
+feat:F0 dirt mountain B:dark:0xF0:0x97
+
+# F0 dirt mountain C 
+feat:F0 dirt mountain C:torch:0xF0:0x98
+feat:F0 dirt mountain C:los:0xF0:0x99
+feat:F0 dirt mountain C:lit:0xF0:0x9A
+feat:F0 dirt mountain C:dark:0xF0:0x9B
+
+# F0 dirt mountain D 
+feat:F0 dirt mountain D:torch:0xF0:0x9C
+feat:F0 dirt mountain D:los:0xF0:0x9D
+feat:F0 dirt mountain D:lit:0xF0:0x9E
+feat:F0 dirt mountain D:dark:0xF0:0x9F
+
+# F0 dirt mountain E 
+feat:F0 dirt mountain E:torch:0xF0:0xA0
+feat:F0 dirt mountain E:los:0xF0:0xA1
+feat:F0 dirt mountain E:lit:0xF0:0xA2
+feat:F0 dirt mountain E:dark:0xF0:0xA3
+
+# F0 dirt mountain F 
+feat:F0 dirt mountain F:torch:0xF0:0xA4
+feat:F0 dirt mountain F:los:0xF0:0xA5
+feat:F0 dirt mountain F:lit:0xF0:0xA6
+feat:F0 dirt mountain F:dark:0xF0:0xA7
+
+# F0 dirt mountain G 
+feat:F0 dirt mountain G:torch:0xF0:0xA8
+feat:F0 dirt mountain G:los:0xF0:0xA9
+feat:F0 dirt mountain G:lit:0xF0:0xAA
+feat:F0 dirt mountain G:dark:0xF0:0xAB
+
+# F0 dirt mountain H 
+feat:F0 dirt mountain H:torch:0xF0:0xAC
+feat:F0 dirt mountain H:los:0xF0:0xAD
+feat:F0 dirt mountain H:lit:0xF0:0xAE
+feat:F0 dirt mountain H:dark:0xF0:0xAF
+
+# F0 dirt mountain I 
+feat:F0 dirt mountain I:torch:0xF0:0xB0
+feat:F0 dirt mountain I:los:0xF0:0xB1
+feat:F0 dirt mountain I:lit:0xF0:0xB2
+feat:F0 dirt mountain I:dark:0xF0:0xB3
+
+# F0 dirt mountain J 
+feat:F0 dirt mountain J:torch:0xF0:0xB4
+feat:F0 dirt mountain J:los:0xF0:0xB5
+feat:F0 dirt mountain J:lit:0xF0:0xB6
+feat:F0 dirt mountain J:dark:0xF0:0xB7
+
+# F0 dirt mountain K 
+feat:F0 dirt mountain K:torch:0xF0:0xB8
+feat:F0 dirt mountain K:los:0xF0:0xB9
+feat:F0 dirt mountain K:lit:0xF0:0xBA
+feat:F0 dirt mountain K:dark:0xF0:0xBB
+
+# F0 dirt mountain L 
+feat:F0 dirt mountain L:torch:0xF0:0xBC
+feat:F0 dirt mountain L:los:0xF0:0xBD
+feat:F0 dirt mountain L:lit:0xF0:0xBE
+feat:F0 dirt mountain L:dark:0xF0:0xBF
+
+# F0 dirt mountain M TOOTH STONE
+feat:F0 dirt mountain M:torch:0xF0:0xC0
+feat:F0 dirt mountain M:los:0xF0:0xC1
+feat:F0 dirt mountain M:lit:0xF0:0xC2
+feat:F0 dirt mountain M:dark:0xF0:0xC3
+
+# F0 dirt mountain N 
+feat:F0 dirt mountain N:torch:0xF0:0xC4
+feat:F0 dirt mountain N:los:0xF0:0xC5
+feat:F0 dirt mountain N:lit:0xF0:0xC6
+feat:F0 dirt mountain N:dark:0xF0:0xC7
+
+# F0 dirt mountain O 
+feat:F0 dirt mountain O:torch:0xF0:0xC8
+feat:F0 dirt mountain O:los:0xF0:0xC9
+feat:F0 dirt mountain O:lit:0xF0:0xCA
+feat:F0 dirt mountain O:dark:0xF0:0xCB
+
+# F0 dirt mountain P 
+feat:F0 dirt mountain P:torch:0xF0:0xCC
+feat:F0 dirt mountain P:los:0xF0:0xCD
+feat:F0 dirt mountain P:lit:0xF0:0xCE
+feat:F0 dirt mountain P:dark:0xF0:0xCF
+
+# F0 dirt mountain Q 
+feat:F0 dirt mountain Q:torch:0xF0:0xD0
+feat:F0 dirt mountain Q:los:0xF0:0xD1
+feat:F0 dirt mountain Q:lit:0xF0:0xD2
+feat:F0 dirt mountain Q:dark:0xF0:0xD3
+
+# F0 dirt mountain R 
+feat:F0 dirt mountain R:torch:0xF0:0xD4
+feat:F0 dirt mountain R:los:0xF0:0xD5
+feat:F0 dirt mountain R:lit:0xF0:0xD6
+feat:F0 dirt mountain R:dark:0xF0:0xD7
+
+# F0 dirt mountain S 
+feat:F0 dirt mountain S:torch:0xF0:0xD8
+feat:F0 dirt mountain S:los:0xF0:0xD9
+feat:F0 dirt mountain S:lit:0xF0:0xDA
+feat:F0 dirt mountain S:dark:0xF0:0xDB
+
+# F0 dirt mountain T 
+feat:F0 dirt mountain T:torch:0xF0:0xDC
+feat:F0 dirt mountain T:los:0xF0:0xDD
+feat:F0 dirt mountain T:lit:0xF0:0xDE
+feat:F0 dirt mountain T:dark:0xF0:0xDF
+
+# F0 dirt mountain U 
+feat:F0 dirt mountain U:torch:0xF0:0xE0
+feat:F0 dirt mountain U:los:0xF0:0xE1
+feat:F0 dirt mountain U:lit:0xF0:0xE2
+feat:F0 dirt mountain U:dark:0xF0:0xE3
+
+# F0 dirt mountain V 
+feat:F0 dirt mountain V:torch:0xF0:0xE4
+feat:F0 dirt mountain V:los:0xF0:0xE5
+feat:F0 dirt mountain V:lit:0xF0:0xE6
+feat:F0 dirt mountain V:dark:0xF0:0xE7
+
+# F0 dirt mountain W 
+feat:F0 dirt mountain W:torch:0xF0:0xE8
+feat:F0 dirt mountain W:los:0xF0:0xE9
+feat:F0 dirt mountain W:lit:0xF0:0xEA
+feat:F0 dirt mountain W:dark:0xF0:0xEB
+
+# F0 dirt mountain X 
+feat:F0 dirt mountain X:torch:0xF0:0xEC
+feat:F0 dirt mountain X:los:0xF0:0xED
+feat:F0 dirt mountain X:lit:0xF0:0xEF
+feat:F0 dirt mountain X:dark:0xF0:0xEF
+
+# F0 dirt mountain Y 
+feat:F0 dirt mountain Y:torch:0xF0:0xF0
+feat:F0 dirt mountain Y:los:0xF0:0xF1
+feat:F0 dirt mountain Y:lit:0xF0:0xF2
+feat:F0 dirt mountain Y:dark:0xF0:0xF3
+
+# F0 dirt mountain Z 
+feat:F0 dirt mountain Z:torch:0xF0:0xF4
+feat:F0 dirt mountain Z:los:0xF0:0xF5
+feat:F0 dirt mountain Z:lit:0xF0:0xF6
+feat:F0 dirt mountain Z:dark:0xF0:0xF7
+
+# F0 dirt mountain ~ 
+feat:F0 dirt mountain ~:torch:0xF0:0xF8
+feat:F0 dirt mountain ~:los:0xF0:0xF9
+feat:F0 dirt mountain ~:lit:0xF0:0xFA
+feat:F0 dirt mountain ~:dark:0xF0:0xFB
+
+# F0 dirt mountain ` 
+feat:F0 dirt mountain `:torch:0xF0:0xFC
+feat:F0 dirt mountain `:los:0xF0:0xFD
+feat:F0 dirt mountain `:lit:0xF0:0xFE
+feat:F0 dirt mountain `:dark:0xF0:0xFF
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F1 snow
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 

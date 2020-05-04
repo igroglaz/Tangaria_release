@@ -3164,13 +3164,50 @@ feat:D:Z:EF dirt Z
 feat:D:~:EF dirt ~
 feat:D:`:EF dirt `
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F0 dirt mountain !!!!! C w-~
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:C:w:F0 dirt mountain w
+feat:C:x:F0 dirt mountain x
+feat:C:y:F0 dirt mountain y
+feat:C:z:F0 dirt mountain z
+feat:C:A:F0 dirt mountain A
+feat:C:B:F0 dirt mountain B
+feat:C:C:F0 dirt mountain C
+feat:C:D:F0 dirt mountain D
+feat:C:E:F0 dirt mountain E
+feat:C:F:F0 dirt mountain F
+feat:C:G:F0 dirt mountain G
+feat:C:H:F0 dirt mountain H
+feat:C:I:F0 dirt mountain I
+feat:C:J:F0 dirt mountain J
+feat:C:K:F0 dirt mountain K
+feat:C:L:F0 dirt mountain L
+feat:C:M:F0 dirt mountain M
+feat:C:N:F0 dirt mountain N
+feat:C:O:F0 dirt mountain O
+feat:C:P:F0 dirt mountain P
+feat:C:Q:F0 dirt mountain Q
+feat:C:R:F0 dirt mountain R
+feat:C:S:F0 dirt mountain S
+feat:C:T:F0 dirt mountain T
+feat:C:U:F0 dirt mountain U
+feat:C:V:F0 dirt mountain V
+feat:C:W:F0 dirt mountain W
+feat:C:X:F0 dirt mountain X
+feat:C:Y:F0 dirt mountain Y
+feat:C:Z:F0 dirt mountain Z
+feat:C:~:F0 dirt mountain ~
+feat:C:`:F0 dirt mountain `
+
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BASIC
 #feat:C:&:F1 snow C          OLD.... ?
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F1 snow C
+# F1 snow C     !!! 0 - v (vice versa above)
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 feat:C:0:F1 snow 0

@@ -23265,9 +23265,306 @@ short-desc:withered fir-tree
 desc:.
 
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# F0 dirt mountain
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
+name:F0 dirt mountain w
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain x
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain y
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain z
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain A
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain B
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain C
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain D
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain E
+graphics:^:W
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+name:F0 dirt mountain F
+graphics:^:W
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:high mountain
+desc:A high mountain.
+
+#hills
+name:F0 dirt mountain G
+graphics:::g
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING
+################################################################################
+info:0:3
+short-desc:hills
+desc:.
+
+name:F0 dirt mountain H
+graphics:^:u
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:6
+short-desc:high rocky peaks
+desc:.
+
+name:F0 dirt mountain I
+graphics:^:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:6
+short-desc:high rocky peaks
+desc:.
+
+#empty:
+
+name:F0 dirt mountain J
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain K
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain L
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain M
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain N
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain O
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain P
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain Q
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain R
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain S
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain T
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain U
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain V
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain W
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain X
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain Y
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain Z
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain ~
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+name:F0 dirt mountain `
+graphics:^:D
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH | BORING
+################################################################################
+info:0:7
+short-desc:.
+desc:.
+
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F0 snow
+# F1 snow
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:F1 snow 0
