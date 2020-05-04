@@ -57,6 +57,9 @@ feat:^:^:mountain
 feat:x:x:safe floor
 feat:~:~:safe floor
 
+feat:#:0:illusion wall
+feat:#:1:illusion brick wall
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 96 - walls                            0x96:0xBC - web ... next:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

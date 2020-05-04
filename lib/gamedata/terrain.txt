@@ -1138,6 +1138,12 @@ priority:10
 flags:LOS | PROJECT | PASSABLE | BORING | EASY
 desc:Looks like this wall is not so real.
 
+name:illusion brick wall
+graphics:#:w
+priority:10
+flags:LOS | PROJECT | PASSABLE | BORING | EASY
+desc:Looks like this wall is not so real.
+
 #################
 #### Tangaria
 #################
@@ -7050,9 +7056,9 @@ desc:.
 name:B3 floors u
 graphics:.:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+flags:LOS | BORING
 ################################################################################
-short-desc:ice
+short-desc:glass wall
 desc:.
 
 name:B3 floors v

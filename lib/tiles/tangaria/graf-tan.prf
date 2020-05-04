@@ -555,6 +555,12 @@ feat:illusion wall:los:0xBD:0x85
 feat:illusion wall:lit:0xBD:0x86
 feat:illusion wall:dark:0xBD:0x87
 
+# illusion brick wall
+feat:illusion brick wall:torch:0xB9:0x80
+feat:illusion brick wall:los:0xB9:0x81
+feat:illusion brick wall:lit:0xB9:0x82
+feat:illusion brick wall:dark:0xB9:0x83
+
 # glyph of warding
 trap:glyph of warding:torch:0x9F:0x80
 trap:glyph of warding:los:0x9F:0x80
