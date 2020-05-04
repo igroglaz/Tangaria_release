@@ -12,6 +12,9 @@
 
 #     % w -> L (empty)
 
+
+######################### C w-` empty
+
 ###############
 
 
@@ -3161,87 +3164,50 @@ feat:D:Z:EF dirt Z
 feat:D:~:EF dirt ~
 feat:D:`:EF dirt `
 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# F0 snow C
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:C:0:F0 snow 0
-feat:C:1:F0 snow 1
-feat:C:2:F0 snow 2
-feat:C:3:F0 snow 3
-feat:C:4:F0 snow 4
-feat:C:5:F0 snow 5
-feat:C:6:F0 snow 6
-feat:C:7:F0 snow 7
-feat:C:8:F0 snow 8
-feat:C:9:F0 snow 9
-feat:C:a:F0 snow a
-feat:C:b:F0 snow b
-feat:C:c:F0 snow c
-feat:C:d:F0 snow d
-feat:C:e:F0 snow e
-feat:C:f:F0 snow f
-feat:C:g:F0 snow g
-feat:C:h:F0 snow h
-feat:C:i:F0 snow i
-feat:C:j:F0 snow j
-feat:C:k:F0 snow k
-feat:C:l:F0 snow l
-# ice:
-feat:C:m:F0 snow m
-# wrong ice:
-feat:C:n:F0 snow n
-# empty:
-feat:C:o:F0 snow o
-feat:C:p:F0 snow p
-feat:C:q:F0 snow q
-feat:C:r:F0 snow r
-feat:C:s:F0 snow s
-feat:C:t:F0 snow t
-feat:C:u:F0 snow u
-feat:C:v:F0 snow v
-
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BASIC
+#feat:C:&:F1 snow C          OLD.... ?
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F1 snow C
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:C:w:F1 snow w
-feat:C:x:F1 snow x
-feat:C:y:F1 snow y
-feat:C:z:F1 snow z
-feat:C:A:F1 snow A
-feat:C:B:F1 snow B
-
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BASIC
-feat:C:&:F1 snow C
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-feat:C:D:F1 snow D
-feat:C:E:F1 snow E
-feat:C:F:F1 snow F
-feat:C:G:F1 snow G
-feat:C:H:F1 snow H
-feat:C:I:F1 snow I
-feat:C:J:F1 snow J
-feat:C:K:F1 snow K
-feat:C:L:F1 snow L
-feat:C:M:F1 snow M
-feat:C:N:F1 snow N
-feat:C:O:F1 snow O
-feat:C:P:F1 snow P
-feat:C:Q:F1 snow Q
-feat:C:R:F1 snow R
-feat:C:S:F1 snow S
-feat:C:T:F1 snow T
-feat:C:U:F1 snow U
-feat:C:V:F1 snow V
-feat:C:W:F1 snow W
-feat:C:X:F1 snow X
-feat:C:Y:F1 snow Y
-feat:C:Z:F1 snow Z
-feat:C:~:F1 snow ~
-feat:C:`:F1 snow `
+feat:C:0:F1 snow 0
+feat:C:1:F1 snow 1
+feat:C:2:F1 snow 2
+feat:C:3:F1 snow 3
+feat:C:4:F1 snow 4
+feat:C:5:F1 snow 5
+feat:C:6:F1 snow 6
+feat:C:7:F1 snow 7
+feat:C:8:F1 snow 8
+feat:C:9:F1 snow 9
+feat:C:a:F1 snow a
+feat:C:b:F1 snow b
+feat:C:c:F1 snow c
+feat:C:d:F1 snow d
+feat:C:e:F1 snow e
+feat:C:f:F1 snow f
+feat:C:g:F1 snow g
+feat:C:h:F1 snow h
+feat:C:i:F1 snow i
+feat:C:j:F1 snow j
+feat:C:k:F1 snow k
+feat:C:l:F1 snow l
+# ice:
+feat:C:m:F1 snow m
+# wrong ice:
+feat:C:n:F1 snow n
+# empty:
+feat:C:o:F1 snow o
+feat:C:p:F1 snow p
+feat:C:q:F1 snow q
+feat:C:r:F1 snow r
+feat:C:s:F1 snow s
+feat:C:t:F1 snow t
+feat:C:u:F1 snow u
+feat:C:v:F1 snow v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
