@@ -3811,7 +3811,7 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:obj_grass2 0
-graphics:.:s
+graphics:o:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3819,7 +3819,7 @@ short-desc:trough with hay
 desc:.
 
 name:obj_grass2 1
-graphics:.:s
+graphics:0:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3837,7 +3837,7 @@ short-desc:archery target stand
 desc:.
 
 name:obj_grass2 3
-graphics:.:s
+graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3845,7 +3845,7 @@ short-desc:thick spider web facing east
 desc:.
 
 name:obj_grass2 4
-graphics:.:s
+graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3853,7 +3853,7 @@ short-desc:thick spider web facing west
 desc:.
 
 name:obj_grass2 5
-graphics:.:s
+graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3861,7 +3861,7 @@ short-desc:spider web
 desc:.
 
 name:obj_grass2 6
-graphics:.:s
+graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
@@ -3870,7 +3870,7 @@ desc:.
 
 # obelisk
 name:obj_grass2 7
-graphics:.:s
+graphics:::s
 priority:18
 flags:TORCH | BORING
 ################################################################################
@@ -3904,7 +3904,7 @@ desc:.
 
 #big stone
 name:obj_grass2 b
-graphics:.:s
+graphics:::s
 priority:18
 flags:TORCH | BORING
 ################################################################################
@@ -3916,7 +3916,7 @@ desc: significant: like a landmark or a guarding stone, or more like a warning.
 
 #red tower
 name:obj_grass2 c
-graphics:.:s
+graphics:^:r
 priority:18
 flags:TORCH | BORING
 ################################################################################
@@ -3926,7 +3926,7 @@ desc:.
 
 #beacon
 name:obj_grass2 d
-graphics:.:s
+graphics:^:T
 priority:18
 flags:TORCH | BRIGHT | BORING
 ################################################################################
@@ -3936,7 +3936,7 @@ desc:.
 
 #red tower
 name:obj_grass2 e
-graphics:.:s
+graphics:^:r
 priority:18
 flags:TORCH | BORING
 ################################################################################
@@ -3945,7 +3945,7 @@ short-desc:red tower with lobby
 desc:.
 
 name:obj_grass2 f
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3954,7 +3954,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 g
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3963,7 +3963,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 h
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3972,7 +3972,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 i
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3981,7 +3981,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 j
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3990,7 +3990,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 k
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -3999,7 +3999,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 l
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -4008,7 +4008,7 @@ short-desc:old ruins
 desc:.
 
 name:obj_grass2 m
-graphics:.:s
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -4016,8 +4016,18 @@ info:0:3
 short-desc:old ruins
 desc:.
 
+#pass
 name:obj_grass2 n
-graphics:.:s
+graphics:#:s
+priority:18
+flags:LOS | PROJECT | TORCH | PASSABLE | BORING
+################################################################################
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:obj_grass2 o
+graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
@@ -4026,15 +4036,6 @@ short-desc:old ruins
 desc:.
 
 #end a8:
-
-name:obj_grass2 o
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
-################################################################################
-info:0:3
-short-desc:.
-desc:.
 
 name:obj_grass2 p
 graphics:.:s
@@ -22996,6 +22997,264 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+name:EF dirt w
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt x
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt y
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt z
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt A
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt B
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt C
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt D
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt E
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt F
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt G
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt H
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt I
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt J
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+#pass
+name:EF dirt K
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+name:EF dirt L
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+info:0:3
+short-desc:old ruins
+desc:.
+
+#TOOTH STONE:
+name:EF dirt M
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+################################################################################
+info:0:3
+short-desc:standing stone; looks like a broken tooth towering alone in silence..
+desc:In the midst of it there stood a single stone, standing tall under the sun
+desc: above, and at this hour casting no shadow. It was shapeless and yet
+desc: significant: like a landmark or a guarding stone, or more like a warning.
+
+name:EF dirt N
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:2
+short-desc:big rock
+desc:.
+
+name:EF dirt O
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:2
+short-desc:pile of rocks
+desc:.
+
+name:EF dirt P
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:1
+short-desc:round rock
+desc:.
+
+name:EF dirt Q
+graphics:.:u
+priority:18
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:fir-tree
+desc:.
+
+name:EF dirt R
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:1
+short-desc:small fir-tree
+desc:.
+
+name:EF dirt S
+graphics:.:u
+priority:18
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:fir-tree
+desc:.
+
+name:EF dirt T
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:1
+short-desc:several young fir-trees
+desc:.
+
+name:EF dirt U
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:1
+short-desc:several young fir-trees
+desc:.
+
+name:EF dirt V
+graphics:.:u
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP | EASY
+info:0:1
+short-desc:several young fir-trees
+desc:.
+
+name:EF dirt W
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+short-desc:amanita mushroom
+desc:.
+
+name:EF dirt X
+graphics:.:u
+priority:18
+flags:LOS | ROCK | BORING | TORCH | EASY
+short-desc:amanita mushroom
+desc:.
+
+name:EF dirt Y
+graphics:.:u
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:withered fir-tree
+desc:.
+
+name:EF dirt Z
+graphics:.:u
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:withered fir-tree
+desc:.
+
+name:EF dirt ~
+graphics:.:u
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:withered fir-tree
+desc:.
+
+name:EF dirt `
+graphics:.:u
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
+short-desc:withered fir-tree
+desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F0 snow
@@ -23013,6 +23272,7 @@ name:F0 snow 1
 graphics:*:g
 priority:18
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
 ################################################################################
 short-desc:fir-tree
 desc:.
@@ -23021,6 +23281,7 @@ name:F0 snow 2
 graphics:*:g
 priority:18
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
 ################################################################################
 short-desc:fir-tree
 desc:.
@@ -23125,6 +23386,7 @@ name:F0 snow f
 graphics:*:D
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
 ################################################################################
 short-desc:withered tree
 desc:.
@@ -23133,6 +23395,7 @@ name:F0 snow g
 graphics:*:D
 priority:18
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+info:0:1
 ################################################################################
 short-desc:withered tree
 desc:.
@@ -26912,7 +27175,6 @@ desc:.
 # ED dirt F2W mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:ED dirt F2W 0
 graphics:^:s
 priority:18
@@ -27402,7 +27664,6 @@ short-desc:dirt
 desc:.
 
 #######################
-
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E7 desert F2W

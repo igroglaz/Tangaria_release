@@ -3124,7 +3124,39 @@ feat:B:`:EE dirt `
 # EF dirt D w-`
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
+feat:D:w:EF dirt w
+feat:D:x:EF dirt x
+feat:D:y:EF dirt y
+feat:D:z:EF dirt z
+feat:D:A:EF dirt A
+feat:D:B:EF dirt B
+feat:D:C:EF dirt C
+feat:D:D:EF dirt D
+feat:D:E:EF dirt E
+feat:D:F:EF dirt F
+feat:D:G:EF dirt G
+feat:D:H:EF dirt H
+feat:D:I:EF dirt I
+feat:D:J:EF dirt J
+feat:D:K:EF dirt K
+feat:D:L:EF dirt L
+#TOOTH STONE:
+feat:D:M:EF dirt M
+feat:D:N:EF dirt N
+feat:D:O:EF dirt O
+feat:D:P:EF dirt P
+feat:D:Q:EF dirt Q
+feat:D:R:EF dirt R
+feat:D:S:EF dirt S
+feat:D:T:EF dirt T
+feat:D:U:EF dirt U
+feat:D:V:EF dirt V
+feat:D:W:EF dirt W
+feat:D:X:EF dirt X
+feat:D:Y:EF dirt Y
+feat:D:Z:EF dirt Z
+feat:D:~:EF dirt ~
+feat:D:`:EF dirt `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F0 snow C
