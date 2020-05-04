@@ -2642,13 +2642,10 @@ wpos:0:4
 min-depth:42
 max-depth:50
 max-level:40
-flags:CAVERN | WATER_RIVER
-floor:F0 snow 0:8900
+flags:CAVERN | WATER_RIVER | NO_DOORS
+floor:F0 snow 0:9000
 floor:ice:1000
-floor:F1 snow U:100
-wall:ice wall:8000
-wall:big white wall 0:1000
-wall:big dark wall 0:1000
+wall:floor f ice wall:10000
 rule:10000:0
 rule-flags:IM_COLD
 

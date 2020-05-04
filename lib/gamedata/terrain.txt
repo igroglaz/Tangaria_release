@@ -6402,13 +6402,15 @@ short-desc:snow hills
 desc:.
 
 # ! ice
-name:floor f cracked ice
-graphics:.:s
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
-################################################################################
-short-desc:ice
-desc:.
+name:floor f ice wall
+graphics:#:W
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | ICE
+info:0:3
+short-desc:ice wall
+desc:A seam of compact ice. It can be removed by digging or magic, and passed
+desc: through by immaterial monsters. It stops any spells, missiles or line of
+desc: sight.
 
 # ! cracked ice
 name:floor g ice
@@ -7050,7 +7052,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
-short-desc:icy snow
+short-desc:ice
 desc:.
 
 name:B3 floors v

@@ -833,7 +833,7 @@ feat:.:b:floor b swamp
 feat:.:c:floor c bog
 feat:.:d:floor d hills
 feat:.:e:floor e snow hills
-feat:.:f:floor f cracked ice
+feat:.:f:floor f ice wall
 feat:.:g:floor g ice
 feat:.:h:floor h ice grass
 feat:.:i:floor i iced soil
