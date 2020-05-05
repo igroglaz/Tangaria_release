@@ -20031,7 +20031,7 @@ desc:.
 name:E2 jail wall Q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20040,7 +20040,7 @@ desc:.
 name:E2 jail wall R
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20049,7 +20049,7 @@ desc:.
 name:E2 jail wall S
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20058,7 +20058,7 @@ desc:.
 name:E2 jail wall T
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20397,7 +20397,7 @@ desc:.
 name:E3 dungeon wall s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20406,7 +20406,7 @@ desc:.
 name:E3 dungeon wall t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20415,7 +20415,7 @@ desc:.
 name:E3 dungeon wall u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20424,7 +20424,7 @@ desc:.
 name:E3 dungeon wall v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
