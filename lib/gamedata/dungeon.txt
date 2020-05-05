@@ -4865,7 +4865,105 @@ wpos:-2:0
 min-depth:63
 max-depth:75
 max-level:49
-floor:water:200
+floor:E6 blood w:20
+floor:E6 blood x:20
+floor:E6 blood y:20
+floor:E6 blood z:20
+floor:E6 blood A:20
+floor:E6 blood B:3
+#
+floor:E5 blood 0:1
+floor:E5 blood 1:1
+floor:E5 blood 2:1
+floor:E5 blood 3:1
+floor:E5 blood 4:1
+floor:E5 blood 5:1
+floor:E5 blood 6:1
+floor:E5 blood 7:1
+floor:E5 blood 8:1
+floor:E5 blood 9:1
+floor:E5 blood a:1
+floor:E5 blood b:1
+floor:E5 blood c:1
+floor:E5 blood d:1
+floor:E5 blood e:1
+floor:E5 blood f:1
+floor:E5 blood g:1
+floor:E5 blood h:1
+floor:E5 blood i:1
+floor:E5 blood j:1
+floor:E5 blood k:1
+floor:E5 blood l:1
+floor:E5 blood m:1
+floor:E5 blood n:1
+floor:E5 blood o:1
+floor:E5 blood p:1
+floor:E5 blood q:1
+floor:E5 blood r:1
+floor:E5 blood s:1
+floor:E5 blood t:1
+floor:E5 blood u:1
+floor:E5 blood v:1
+#floor:B6 floors luquid T:1
+#floor:B6 floors luquid S:1
+#floor:B3 floors 9:97
+########################################
+#wall:big dark wall 0:20
+#wall:E3 big dark 0:1
+#wall:E3 big dark 1:1
+#
+#
+wall:B6 floors luquid X:100
+wall:B6 floors luquid Y:100
+wall:B6 floors luquid Z:10
+wall:B6 floors luquid ~:25
+wall:B6 floors luquid `:65
+########################################### 500
+wall:big dark wall 0:50
+wall:big dark wall 1:8000
+wall:big dark wall 9 entrance:50
+wall:big dark wall a low entrance:50
+wall:big dark wall b window:50
+#64 total
+#=========
+# 96-wall: .......#################   1500
+wall:dark wall:100
+#
+wall:96 wall M:140
+wall:96 wall N:100
+wall:96 wall O:100
+wall:96 wall P:100
+wall:96 wall Q:100
+wall:96 wall R:100
+wall:96 wall S:100
+wall:96 wall T:100
+wall:96 wall U:100
+wall:96 wall V:100
+wall:96 wall W:100
+wall:96 wall X:100
+# 98-wall:
+wall:98 wall 0:10
+wall:98 wall 1:10
+wall:98 wall 2:10
+wall:98 wall 3:10
+wall:98 wall 4:10
+wall:98 wall 5:10
+wall:98 wall 6:10
+wall:98 wall 7:10
+wall:98 wall 8:10
+wall:98 wall 9:10
+wall:98 wall a:10
+wall:98 wall b:10
+wall:98 wall c:10
+wall:98 wall d:10
+# 9D-wall:
+wall:9D wall 5:10
+wall:9D wall 6:10
+###########################################
+# door : closed door feature : open door feature : 1/10000 chance of getting
+#        the feature
+door:DD wood wall 0:DD wood wall 1:8000
+####################################
 rule:3000:0
 rule-symbols:pP
 rule:3000:0

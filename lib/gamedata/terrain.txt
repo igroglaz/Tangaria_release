@@ -9997,19 +9997,19 @@ desc:.
 name:big dark wall r
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:window
+short-desc:picture on the wall
 desc:.
 
 name:big dark wall s
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+flags:QUARTZ | NO_SCENT | NO_FLOW | TORCH
 info:0:3
 ################################################################################
-short-desc:window
+short-desc:picture on the wall
 desc:.
 
 name:big dark wall t
