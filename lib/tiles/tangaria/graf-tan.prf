@@ -15287,201 +15287,200 @@ feat:DE door `:dark:0xDE:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DF dark stone
+# DF dark floor
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# DF dark stone 0 
-feat:DF dark stone 0:torch:0xDF:0x80
-feat:DF dark stone 0:los:0xDF:0x81
-feat:DF dark stone 0:lit:0xDF:0x82
-feat:DF dark stone 0:dark:0xDF:0x83
+# DF dark floor 0 
+feat:DF dark floor 0:torch:0xDF:0x80
+feat:DF dark floor 0:los:0xDF:0x81
+feat:DF dark floor 0:lit:0xDF:0x82
+feat:DF dark floor 0:dark:0xDF:0x83
 
-# DF dark stone 1 
-feat:DF dark stone 1:torch:0xDF:0x84
-feat:DF dark stone 1:los:0xDF:0x85
-feat:DF dark stone 1:lit:0xDF:0x86
-feat:DF dark stone 1:dark:0xDF:0x87
+# DF dark floor 1 
+feat:DF dark floor 1:torch:0xDF:0x84
+feat:DF dark floor 1:los:0xDF:0x85
+feat:DF dark floor 1:lit:0xDF:0x86
+feat:DF dark floor 1:dark:0xDF:0x87
 
-# DF dark stone 2 
-feat:DF dark stone 2:torch:0xDF:0x88
-feat:DF dark stone 2:los:0xDF:0x89
-feat:DF dark stone 2:lit:0xDF:0x8A
-feat:DF dark stone 2:dark:0xDF:0x8B
+# DF dark floor 2 
+feat:DF dark floor 2:torch:0xDF:0x88
+feat:DF dark floor 2:los:0xDF:0x89
+feat:DF dark floor 2:lit:0xDF:0x8A
+feat:DF dark floor 2:dark:0xDF:0x8B
 
-# DF dark stone 3 
-feat:DF dark stone 3:torch:0xDF:0x8C
-feat:DF dark stone 3:los:0xDF:0x8D
-feat:DF dark stone 3:lit:0xDF:0x8E
-feat:DF dark stone 3:dark:0xDF:0x8F
+# DF dark floor 3 
+feat:DF dark floor 3:torch:0xDF:0x8C
+feat:DF dark floor 3:los:0xDF:0x8D
+feat:DF dark floor 3:lit:0xDF:0x8E
+feat:DF dark floor 3:dark:0xDF:0x8F
 
-# DF dark stone 4 
-feat:DF dark stone 4:torch:0xDF:0x90
-feat:DF dark stone 4:los:0xDF:0x91
-feat:DF dark stone 4:lit:0xDF:0x92
-feat:DF dark stone 4:dark:0xDF:0x93
+# DF dark floor 4 
+feat:DF dark floor 4:torch:0xDF:0x90
+feat:DF dark floor 4:los:0xDF:0x91
+feat:DF dark floor 4:lit:0xDF:0x92
+feat:DF dark floor 4:dark:0xDF:0x93
 
-# DF dark stone 5 
-feat:DF dark stone 5:torch:0xDF:0x94
-feat:DF dark stone 5:los:0xDF:0x95
-feat:DF dark stone 5:lit:0xDF:0x96
-feat:DF dark stone 5:dark:0xDF:0x97
+# DF dark floor 5 
+feat:DF dark floor 5:torch:0xDF:0x94
+feat:DF dark floor 5:los:0xDF:0x95
+feat:DF dark floor 5:lit:0xDF:0x96
+feat:DF dark floor 5:dark:0xDF:0x97
 
-# DF dark stone 6 
-feat:DF dark stone 6:torch:0xDF:0x98
-feat:DF dark stone 6:los:0xDF:0x99
-feat:DF dark stone 6:lit:0xDF:0x9A
-feat:DF dark stone 6:dark:0xDF:0x9B
+# DF dark floor 6 
+feat:DF dark floor 6:torch:0xDF:0x98
+feat:DF dark floor 6:los:0xDF:0x99
+feat:DF dark floor 6:lit:0xDF:0x9A
+feat:DF dark floor 6:dark:0xDF:0x9B
 
-# DF dark stone 7 
-feat:DF dark stone 7:torch:0xDF:0x9C
-feat:DF dark stone 7:los:0xDF:0x9D
-feat:DF dark stone 7:lit:0xDF:0x9E
-feat:DF dark stone 7:dark:0xDF:0x9F
+# DF dark floor 7 
+feat:DF dark floor 7:torch:0xDF:0x9C
+feat:DF dark floor 7:los:0xDF:0x9D
+feat:DF dark floor 7:lit:0xDF:0x9E
+feat:DF dark floor 7:dark:0xDF:0x9F
 
-# DF dark stone 8 
-feat:DF dark stone 8:torch:0xDF:0xA0
-feat:DF dark stone 8:los:0xDF:0xA1
-feat:DF dark stone 8:lit:0xDF:0xA2
-feat:DF dark stone 8:dark:0xDF:0xA3
+# DF dark floor 8 
+feat:DF dark floor 8:torch:0xDF:0xA0
+feat:DF dark floor 8:los:0xDF:0xA1
+feat:DF dark floor 8:lit:0xDF:0xA2
+feat:DF dark floor 8:dark:0xDF:0xA3
 
-# DF dark stone 9 
-feat:DF dark stone 9:torch:0xDF:0xA4
-feat:DF dark stone 9:los:0xDF:0xA5
-feat:DF dark stone 9:lit:0xDF:0xA6
-feat:DF dark stone 9:dark:0xDF:0xA7
+# DF dark floor 9 
+feat:DF dark floor 9:torch:0xDF:0xA4
+feat:DF dark floor 9:los:0xDF:0xA5
+feat:DF dark floor 9:lit:0xDF:0xA6
+feat:DF dark floor 9:dark:0xDF:0xA7
 
-# DF dark stone a 
-feat:DF dark stone a:torch:0xDF:0xA8
-feat:DF dark stone a:los:0xDF:0xA9
-feat:DF dark stone a:lit:0xDF:0xAA
-feat:DF dark stone a:dark:0xDF:0xAB
+# DF dark floor a 
+feat:DF dark floor a:torch:0xDF:0xA8
+feat:DF dark floor a:los:0xDF:0xA9
+feat:DF dark floor a:lit:0xDF:0xAA
+feat:DF dark floor a:dark:0xDF:0xAB
 
-# DF dark stone b 
-feat:DF dark stone b:torch:0xDF:0xAC
-feat:DF dark stone b:los:0xDF:0xAD
-feat:DF dark stone b:lit:0xDF:0xAE
-feat:DF dark stone b:dark:0xDF:0xAF
+# DF dark floor b 
+feat:DF dark floor b:torch:0xDF:0xAC
+feat:DF dark floor b:los:0xDF:0xAD
+feat:DF dark floor b:lit:0xDF:0xAE
+feat:DF dark floor b:dark:0xDF:0xAF
 
-# DF dark stone c 
-feat:DF dark stone c:torch:0xDF:0xB0
-feat:DF dark stone c:los:0xDF:0xB1
-feat:DF dark stone c:lit:0xDF:0xB2
-feat:DF dark stone c:dark:0xDF:0xB3
+# DF dark floor c 
+feat:DF dark floor c:torch:0xDF:0xB0
+feat:DF dark floor c:los:0xDF:0xB1
+feat:DF dark floor c:lit:0xDF:0xB2
+feat:DF dark floor c:dark:0xDF:0xB3
 
-# DF dark stone d 
-feat:DF dark stone d:torch:0xDF:0xB4
-feat:DF dark stone d:los:0xDF:0xB5
-feat:DF dark stone d:lit:0xDF:0xB6
-feat:DF dark stone d:dark:0xDF:0xB7
+# DF dark floor d 
+feat:DF dark floor d:torch:0xDF:0xB4
+feat:DF dark floor d:los:0xDF:0xB5
+feat:DF dark floor d:lit:0xDF:0xB6
+feat:DF dark floor d:dark:0xDF:0xB7
 
-# DF dark stone e 
-feat:DF dark stone e:torch:0xDF:0xB8
-feat:DF dark stone e:los:0xDF:0xB9
-feat:DF dark stone e:lit:0xDF:0xBA
-feat:DF dark stone e:dark:0xDF:0xBB
+# DF dark floor e 
+feat:DF dark floor e:torch:0xDF:0xB8
+feat:DF dark floor e:los:0xDF:0xB9
+feat:DF dark floor e:lit:0xDF:0xBA
+feat:DF dark floor e:dark:0xDF:0xBB
 
-# DF dark stone f 
-feat:DF dark stone f:torch:0xDF:0xBC
-feat:DF dark stone f:los:0xDF:0xBD
-feat:DF dark stone f:lit:0xDF:0xBE
-feat:DF dark stone f:dark:0xDF:0xBF
+# DF dark floor f 
+feat:DF dark floor f:torch:0xDF:0xBC
+feat:DF dark floor f:los:0xDF:0xBD
+feat:DF dark floor f:lit:0xDF:0xBE
+feat:DF dark floor f:dark:0xDF:0xBF
 
-# DF dark stone g 
-feat:DF dark stone g:torch:0xDF:0xC0
-feat:DF dark stone g:los:0xDF:0xC1
-feat:DF dark stone g:lit:0xDF:0xC2
-feat:DF dark stone g:dark:0xDF:0xC3
+# DF dark floor g 
+feat:DF dark floor g:torch:0xDF:0xC0
+feat:DF dark floor g:los:0xDF:0xC1
+feat:DF dark floor g:lit:0xDF:0xC2
+feat:DF dark floor g:dark:0xDF:0xC3
 
-# DF dark stone h 
-feat:DF dark stone h:torch:0xDF:0xC4
-feat:DF dark stone h:los:0xDF:0xC5
-feat:DF dark stone h:lit:0xDF:0xC6
-feat:DF dark stone h:dark:0xDF:0xC7
+# DF dark floor h 
+feat:DF dark floor h:torch:0xDF:0xC4
+feat:DF dark floor h:los:0xDF:0xC5
+feat:DF dark floor h:lit:0xDF:0xC6
+feat:DF dark floor h:dark:0xDF:0xC7
 
-# DF dark stone i 
-feat:DF dark stone i:torch:0xDF:0xC8
-feat:DF dark stone i:los:0xDF:0xC9
-feat:DF dark stone i:lit:0xDF:0xCA
-feat:DF dark stone i:dark:0xDF:0xCB
+# DF dark floor i 
+feat:DF dark floor i:torch:0xDF:0xC8
+feat:DF dark floor i:los:0xDF:0xC9
+feat:DF dark floor i:lit:0xDF:0xCA
+feat:DF dark floor i:dark:0xDF:0xCB
 
-# DF dark stone j 
-feat:DF dark stone j:torch:0xDF:0xCC
-feat:DF dark stone j:los:0xDF:0xCD
-feat:DF dark stone j:lit:0xDF:0xCE
-feat:DF dark stone j:dark:0xDF:0xCF
+# DF dark floor j 
+feat:DF dark floor j:torch:0xDF:0xCC
+feat:DF dark floor j:los:0xDF:0xCD
+feat:DF dark floor j:lit:0xDF:0xCE
+feat:DF dark floor j:dark:0xDF:0xCF
 
-# DF dark stone k 
-feat:DF dark stone k:torch:0xDF:0xD0
-feat:DF dark stone k:los:0xDF:0xD1
-feat:DF dark stone k:lit:0xDF:0xD2
-feat:DF dark stone k:dark:0xDF:0xD3
+# DF dark floor k 
+feat:DF dark floor k:torch:0xDF:0xD0
+feat:DF dark floor k:los:0xDF:0xD1
+feat:DF dark floor k:lit:0xDF:0xD2
+feat:DF dark floor k:dark:0xDF:0xD3
 
-# DF dark stone l 
-feat:DF dark stone l:torch:0xDF:0xD4
-feat:DF dark stone l:los:0xDF:0xD5
-feat:DF dark stone l:lit:0xDF:0xD6
-feat:DF dark stone l:dark:0xDF:0xD7
+# DF dark floor l 
+feat:DF dark floor l:torch:0xDF:0xD4
+feat:DF dark floor l:los:0xDF:0xD5
+feat:DF dark floor l:lit:0xDF:0xD6
+feat:DF dark floor l:dark:0xDF:0xD7
 
-# DF dark stone m 
-feat:DF dark stone m:torch:0xDF:0xD8
-feat:DF dark stone m:los:0xDF:0xD9
-feat:DF dark stone m:lit:0xDF:0xDA
-feat:DF dark stone m:dark:0xDF:0xDB
+# DF dark floor m 
+feat:DF dark floor m:torch:0xDF:0xD8
+feat:DF dark floor m:los:0xDF:0xD9
+feat:DF dark floor m:lit:0xDF:0xDA
+feat:DF dark floor m:dark:0xDF:0xDB
 
-# DF dark stone n 
-feat:DF dark stone n:torch:0xDF:0xDC
-feat:DF dark stone n:los:0xDF:0xDD
-feat:DF dark stone n:lit:0xDF:0xDE
-feat:DF dark stone n:dark:0xDF:0xDF
+# DF dark floor n 
+feat:DF dark floor n:torch:0xDF:0xDC
+feat:DF dark floor n:los:0xDF:0xDD
+feat:DF dark floor n:lit:0xDF:0xDE
+feat:DF dark floor n:dark:0xDF:0xDF
 
-# DF dark stone o 
-feat:DF dark stone o:torch:0xDF:0xE0
-feat:DF dark stone o:los:0xDF:0xE1
-feat:DF dark stone o:lit:0xDF:0xE2
-feat:DF dark stone o:dark:0xDF:0xE3
+# DF dark floor o 
+feat:DF dark floor o:torch:0xDF:0xE0
+feat:DF dark floor o:los:0xDF:0xE1
+feat:DF dark floor o:lit:0xDF:0xE2
+feat:DF dark floor o:dark:0xDF:0xE3
 
-# DF dark stone p 
-feat:DF dark stone p:torch:0xDF:0xE4
-feat:DF dark stone p:los:0xDF:0xE5
-feat:DF dark stone p:lit:0xDF:0xE6
-feat:DF dark stone p:dark:0xDF:0xE7
+# DF dark floor p 
+feat:DF dark floor p:torch:0xDF:0xE4
+feat:DF dark floor p:los:0xDF:0xE5
+feat:DF dark floor p:lit:0xDF:0xE6
+feat:DF dark floor p:dark:0xDF:0xE7
 
-# DF dark stone q 
-feat:DF dark stone q:torch:0xDF:0xE8
-feat:DF dark stone q:los:0xDF:0xE9
-feat:DF dark stone q:lit:0xDF:0xEA
-feat:DF dark stone q:dark:0xDF:0xEB
+# DF dark floor q 
+feat:DF dark floor q:torch:0xDF:0xE8
+feat:DF dark floor q:los:0xDF:0xE9
+feat:DF dark floor q:lit:0xDF:0xEA
+feat:DF dark floor q:dark:0xDF:0xEB
 
-# DF dark stone r 
-feat:DF dark stone r:torch:0xDF:0xEC
-feat:DF dark stone r:los:0xDF:0xED
-feat:DF dark stone r:lit:0xDF:0xEE
-feat:DF dark stone r:dark:0xDF:0xEF
+# DF dark floor r 
+feat:DF dark floor r:torch:0xDF:0xEC
+feat:DF dark floor r:los:0xDF:0xED
+feat:DF dark floor r:lit:0xDF:0xEE
+feat:DF dark floor r:dark:0xDF:0xEF
 
-# DF dark stone s 
-feat:DF dark stone s:torch:0xDF:0xF0
-feat:DF dark stone s:los:0xDF:0xF1
-feat:DF dark stone s:lit:0xDF:0xF2
-feat:DF dark stone s:dark:0xDF:0xF3
+# DF dark floor s 
+feat:DF dark floor s:torch:0xDF:0xF0
+feat:DF dark floor s:los:0xDF:0xF1
+feat:DF dark floor s:lit:0xDF:0xF2
+feat:DF dark floor s:dark:0xDF:0xF3
 
-# DF dark stone t 
-feat:DF dark stone t:torch:0xDF:0xF4
-feat:DF dark stone t:los:0xDF:0xF5
-feat:DF dark stone t:lit:0xDF:0xF6
-feat:DF dark stone t:dark:0xDF:0xF7
+# DF dark floor t 
+feat:DF dark floor t:torch:0xDF:0xF4
+feat:DF dark floor t:los:0xDF:0xF5
+feat:DF dark floor t:lit:0xDF:0xF6
+feat:DF dark floor t:dark:0xDF:0xF7
 
-# DF dark stone u 
-feat:DF dark stone u:torch:0xDF:0xF8
-feat:DF dark stone u:los:0xDF:0xF9
-feat:DF dark stone u:lit:0xDF:0xFA
-feat:DF dark stone u:dark:0xDF:0xFB
+# DF dark floor u 
+feat:DF dark floor u:torch:0xDF:0xF8
+feat:DF dark floor u:los:0xDF:0xF9
+feat:DF dark floor u:lit:0xDF:0xFA
+feat:DF dark floor u:dark:0xDF:0xFB
 
-# DF dark stone v 
-feat:DF dark stone v:torch:0xDF:0xFC
-feat:DF dark stone v:los:0xDF:0xFD
-feat:DF dark stone v:lit:0xDF:0xFE
-feat:DF dark stone v:dark:0xDF:0xFF
-
+# DF dark floor v 
+feat:DF dark floor v:torch:0xDF:0xFC
+feat:DF dark floor v:los:0xDF:0xFD
+feat:DF dark floor v:lit:0xDF:0xFE
+feat:DF dark floor v:dark:0xDF:0xFF
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E0 dark stone

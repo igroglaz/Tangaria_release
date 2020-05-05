@@ -18998,296 +18998,297 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DF dark stone
+# DF dark floor
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:DF dark stone 0
+name:DF dark floor 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 1
+name:DF dark floor 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 2
+name:DF dark floor 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 3
+name:DF dark floor 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 4
+name:DF dark floor 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 5
+name:DF dark floor 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 6
+name:DF dark floor 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 7
+name:DF dark floor 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 8
+name:DF dark floor 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone 9
+name:DF dark floor 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone a
+name:DF dark floor a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone b
+name:DF dark floor b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone c
+name:DF dark floor c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone d
+name:DF dark floor d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone e
+name:DF dark floor e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone f
+name:DF dark floor f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone g
+name:DF dark floor g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone h
+name:DF dark floor h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone i
+name:DF dark floor i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone j
+name:DF dark floor j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone k
+name:DF dark floor k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone l
+name:DF dark floor l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone m
+name:DF dark floor m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone n
+name:DF dark floor n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone o
+name:DF dark floor o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone p
+name:DF dark floor p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone q
+name:DF dark floor q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone r
+name:DF dark floor r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone s
+name:DF dark floor s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone t
+name:DF dark floor t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone u
+name:DF dark floor u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
 
-name:DF dark stone v
+name:DF dark floor v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | TORCH | BORING | ROCK
 ################################################################################
-info:0:4
-short-desc:window
+info:0:3
+short-desc:old ruins
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E0 dark stone
