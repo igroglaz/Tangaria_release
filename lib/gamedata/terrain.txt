@@ -18115,6 +18115,298 @@ desc:.
 # DC 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DC dark stone
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:DC dark stone w
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone x
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone y
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone z
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone A
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone B
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone C
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone D
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone E
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone F
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone G
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone H
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone I
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone J
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone K
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone L
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone M
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone N
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone O
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone P
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone Q
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone R
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone S
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone T
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone U
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone V
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone W
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone X
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone Y
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone Z
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone ~
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:DC dark stone `
+graphics:#:s
+priority:18
+flags:NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DD wood wall -> DOORS!

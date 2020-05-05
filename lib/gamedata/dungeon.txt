@@ -1623,49 +1623,49 @@ wall:dark wall Z:50
 wall:dark wall ~:50
 wall:dark wall `:50
 ######################### DF tiles will be moved..
-wall:E0 dark stone S:1
-wall:E0 dark stone T:1
-wall:E0 dark stone U:1
-wall:E0 dark stone V:1
-wall:E0 dark stone W:1
-wall:E0 dark stone X:1
-wall:E0 dark stone Y:1
-wall:E0 dark stone Z:1
-wall:E0 dark stone ~:1
+wall:DC dark stone S:1
+wall:DC dark stone T:1
+wall:DC dark stone U:1
+wall:DC dark stone V:1
+wall:DC dark stone W:1
+wall:DC dark stone X:1
+wall:DC dark stone Y:1
+wall:DC dark stone Z:1
+wall:DC dark stone ~:1
 # ^11
 ######################## E0 tiles will be moved..
-wall:E0 dark stone w:50
-wall:E0 dark stone x:50
-wall:E0 dark stone y:50
-wall:E0 dark stone z:50
-wall:E0 dark stone A:50
-wall:E0 dark stone B:50
-wall:E0 dark stone C:50
-wall:E0 dark stone D:50
-wall:E0 dark stone E:50
-wall:E0 dark stone F:50
-wall:E0 dark stone G:50
-wall:E0 dark stone H:50
-wall:E0 dark stone I:50
-wall:E0 dark stone J:50
-wall:E0 dark stone K:50
-wall:E0 dark stone L:50
-wall:E0 dark stone M:50
-wall:E0 dark stone N:50
-wall:E0 dark stone O:50
-wall:E0 dark stone P:50
-wall:E0 dark stone Q:50
-wall:E0 dark stone R:50
-wall:E0 dark stone S:50
-wall:E0 dark stone T:50
-wall:E0 dark stone U:50
-wall:E0 dark stone V:50
-wall:E0 dark stone W:50
-wall:E0 dark stone X:50
-wall:E0 dark stone Y:50
-wall:E0 dark stone Z:50
-wall:E0 dark stone ~:50
-wall:E0 dark stone `:50
+wall:DC dark stone w:50
+wall:DC dark stone x:50
+wall:DC dark stone y:50
+wall:DC dark stone z:50
+wall:DC dark stone A:50
+wall:DC dark stone B:50
+wall:DC dark stone C:50
+wall:DC dark stone D:50
+wall:DC dark stone E:50
+wall:DC dark stone F:50
+wall:DC dark stone G:50
+wall:DC dark stone H:50
+wall:DC dark stone I:50
+wall:DC dark stone J:50
+wall:DC dark stone K:50
+wall:DC dark stone L:50
+wall:DC dark stone M:50
+wall:DC dark stone N:50
+wall:DC dark stone O:50
+wall:DC dark stone P:50
+wall:DC dark stone Q:50
+wall:DC dark stone R:50
+wall:DC dark stone S:50
+wall:DC dark stone T:50
+wall:DC dark stone U:50
+wall:DC dark stone V:50
+wall:DC dark stone W:50
+wall:DC dark stone X:50
+wall:DC dark stone Y:50
+wall:DC dark stone Z:50
+wall:DC dark stone ~:50
+wall:DC dark stone `:50
 ##########
 # 96-wall: ....... all below: 1450 total
 wall:dark wall:1
@@ -3101,49 +3101,49 @@ wall:dark wall Z:50
 wall:dark wall ~:50
 wall:dark wall `:50
 ######################### DF tiles will be moved..
-wall:E0 dark stone S:1
-wall:E0 dark stone T:1
-wall:E0 dark stone U:1
-wall:E0 dark stone V:1
-wall:E0 dark stone W:1
-wall:E0 dark stone X:1
-wall:E0 dark stone Y:1
-wall:E0 dark stone Z:1
-wall:E0 dark stone ~:1
+wall:DC dark stone S:1
+wall:DC dark stone T:1
+wall:DC dark stone U:1
+wall:DC dark stone V:1
+wall:DC dark stone W:1
+wall:DC dark stone X:1
+wall:DC dark stone Y:1
+wall:DC dark stone Z:1
+wall:DC dark stone ~:1
 # ^11
 ######################## E0 tiles will be moved..
-wall:E0 dark stone w:50
-wall:E0 dark stone x:50
-wall:E0 dark stone y:50
-wall:E0 dark stone z:50
-wall:E0 dark stone A:50
-wall:E0 dark stone B:50
-wall:E0 dark stone C:50
-wall:E0 dark stone D:50
-wall:E0 dark stone E:50
-wall:E0 dark stone F:50
-wall:E0 dark stone G:50
-wall:E0 dark stone H:50
-wall:E0 dark stone I:50
-wall:E0 dark stone J:50
-wall:E0 dark stone K:50
-wall:E0 dark stone L:50
-wall:E0 dark stone M:50
-wall:E0 dark stone N:50
-wall:E0 dark stone O:50
-wall:E0 dark stone P:50
-wall:E0 dark stone Q:50
-wall:E0 dark stone R:50
-wall:E0 dark stone S:50
-wall:E0 dark stone T:50
-wall:E0 dark stone U:50
-wall:E0 dark stone V:50
-wall:E0 dark stone W:50
-wall:E0 dark stone X:50
-wall:E0 dark stone Y:50
-wall:E0 dark stone Z:50
-wall:E0 dark stone ~:50
-wall:E0 dark stone `:50
+wall:DC dark stone w:50
+wall:DC dark stone x:50
+wall:DC dark stone y:50
+wall:DC dark stone z:50
+wall:DC dark stone A:50
+wall:DC dark stone B:50
+wall:DC dark stone C:50
+wall:DC dark stone D:50
+wall:DC dark stone E:50
+wall:DC dark stone F:50
+wall:DC dark stone G:50
+wall:DC dark stone H:50
+wall:DC dark stone I:50
+wall:DC dark stone J:50
+wall:DC dark stone K:50
+wall:DC dark stone L:50
+wall:DC dark stone M:50
+wall:DC dark stone N:50
+wall:DC dark stone O:50
+wall:DC dark stone P:50
+wall:DC dark stone Q:50
+wall:DC dark stone R:50
+wall:DC dark stone S:50
+wall:DC dark stone T:50
+wall:DC dark stone U:50
+wall:DC dark stone V:50
+wall:DC dark stone W:50
+wall:DC dark stone X:50
+wall:DC dark stone Y:50
+wall:DC dark stone Z:50
+wall:DC dark stone ~:50
+wall:DC dark stone `:50
 ##########
 # 96-wall: ....... all below: 1450 total
 wall:dark wall:1

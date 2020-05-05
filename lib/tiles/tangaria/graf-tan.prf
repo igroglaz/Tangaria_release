@@ -14696,10 +14696,201 @@ feat:DB side v:los:0xDB:0xFD
 feat:DB side v:lit:0xDB:0xFE
 feat:DB side v:dark:0xDB:0xFF
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DC dark stone
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DC 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DC dark stone w 
+feat:DC dark stone w:torch:0xDC:0x80
+feat:DC dark stone w:los:0xDC:0x81
+feat:DC dark stone w:lit:0xDC:0x82
+feat:DC dark stone w:dark:0xDC:0x83
+
+# DC dark stone x 
+feat:DC dark stone x:torch:0xDC:0x84
+feat:DC dark stone x:los:0xDC:0x85
+feat:DC dark stone x:lit:0xDC:0x86
+feat:DC dark stone x:dark:0xDC:0x87
+
+# DC dark stone y 
+feat:DC dark stone y:torch:0xDC:0x88
+feat:DC dark stone y:los:0xDC:0x89
+feat:DC dark stone y:lit:0xDC:0x8A
+feat:DC dark stone y:dark:0xDC:0x8B
+
+# DC dark stone z 
+feat:DC dark stone z:torch:0xDC:0x8C
+feat:DC dark stone z:los:0xDC:0x8D
+feat:DC dark stone z:lit:0xDC:0x8E
+feat:DC dark stone z:dark:0xDC:0x8F
+
+# DC dark stone A 
+feat:DC dark stone A:torch:0xDC:0x90
+feat:DC dark stone A:los:0xDC:0x91
+feat:DC dark stone A:lit:0xDC:0x92
+feat:DC dark stone A:dark:0xDC:0x93
+
+# DC dark stone B 
+feat:DC dark stone B:torch:0xDC:0x94
+feat:DC dark stone B:los:0xDC:0x95
+feat:DC dark stone B:lit:0xDC:0x96
+feat:DC dark stone B:dark:0xDC:0x97
+
+# DC dark stone C 
+feat:DC dark stone C:torch:0xDC:0x98
+feat:DC dark stone C:los:0xDC:0x99
+feat:DC dark stone C:lit:0xDC:0x9A
+feat:DC dark stone C:dark:0xDC:0x9B
+
+# DC dark stone D 
+feat:DC dark stone D:torch:0xDC:0x9C
+feat:DC dark stone D:los:0xDC:0x9D
+feat:DC dark stone D:lit:0xDC:0x9E
+feat:DC dark stone D:dark:0xDC:0x9F
+
+# DC dark stone E 
+feat:DC dark stone E:torch:0xDC:0xA0
+feat:DC dark stone E:los:0xDC:0xA1
+feat:DC dark stone E:lit:0xDC:0xA2
+feat:DC dark stone E:dark:0xDC:0xA3
+
+# DC dark stone F 
+feat:DC dark stone F:torch:0xDC:0xA4
+feat:DC dark stone F:los:0xDC:0xA5
+feat:DC dark stone F:lit:0xDC:0xA6
+feat:DC dark stone F:dark:0xDC:0xA7
+
+# DC dark stone G 
+feat:DC dark stone G:torch:0xDC:0xA8
+feat:DC dark stone G:los:0xDC:0xA9
+feat:DC dark stone G:lit:0xDC:0xAA
+feat:DC dark stone G:dark:0xDC:0xAB
+
+# DC dark stone H 
+feat:DC dark stone H:torch:0xDC:0xAC
+feat:DC dark stone H:los:0xDC:0xAD
+feat:DC dark stone H:lit:0xDC:0xAE
+feat:DC dark stone H:dark:0xDC:0xAF
+
+# DC dark stone I 
+feat:DC dark stone I:torch:0xDC:0xB0
+feat:DC dark stone I:los:0xDC:0xB1
+feat:DC dark stone I:lit:0xDC:0xB2
+feat:DC dark stone I:dark:0xDC:0xB3
+
+# DC dark stone J 
+feat:DC dark stone J:torch:0xDC:0xB4
+feat:DC dark stone J:los:0xDC:0xB5
+feat:DC dark stone J:lit:0xDC:0xB6
+feat:DC dark stone J:dark:0xDC:0xB7
+
+# DC dark stone K 
+feat:DC dark stone K:torch:0xDC:0xB8
+feat:DC dark stone K:los:0xDC:0xB9
+feat:DC dark stone K:lit:0xDC:0xBA
+feat:DC dark stone K:dark:0xDC:0xBB
+
+# DC dark stone L 
+feat:DC dark stone L:torch:0xDC:0xBC
+feat:DC dark stone L:los:0xDC:0xBD
+feat:DC dark stone L:lit:0xDC:0xBE
+feat:DC dark stone L:dark:0xDC:0xBF
+
+# DC dark stone M 
+feat:DC dark stone M:torch:0xDC:0xC0
+feat:DC dark stone M:los:0xDC:0xC1
+feat:DC dark stone M:lit:0xDC:0xC2
+feat:DC dark stone M:dark:0xDC:0xC3
+
+# DC dark stone N 
+feat:DC dark stone N:torch:0xDC:0xC4
+feat:DC dark stone N:los:0xDC:0xC5
+feat:DC dark stone N:lit:0xDC:0xC6
+feat:DC dark stone N:dark:0xDC:0xC7
+
+# DC dark stone O 
+feat:DC dark stone O:torch:0xDC:0xC8
+feat:DC dark stone O:los:0xDC:0xC9
+feat:DC dark stone O:lit:0xDC:0xCA
+feat:DC dark stone O:dark:0xDC:0xCB
+
+# DC dark stone P 
+feat:DC dark stone P:torch:0xDC:0xCC
+feat:DC dark stone P:los:0xDC:0xCD
+feat:DC dark stone P:lit:0xDC:0xCE
+feat:DC dark stone P:dark:0xDC:0xCF
+
+# DC dark stone Q 
+feat:DC dark stone Q:torch:0xDC:0xD0
+feat:DC dark stone Q:los:0xDC:0xD1
+feat:DC dark stone Q:lit:0xDC:0xD2
+feat:DC dark stone Q:dark:0xDC:0xD3
+
+# DC dark stone R 
+feat:DC dark stone R:torch:0xDC:0xD4
+feat:DC dark stone R:los:0xDC:0xD5
+feat:DC dark stone R:lit:0xDC:0xD6
+feat:DC dark stone R:dark:0xDC:0xD7
+
+# DC dark stone S 
+feat:DC dark stone S:torch:0xDC:0xD8
+feat:DC dark stone S:los:0xDC:0xD9
+feat:DC dark stone S:lit:0xDC:0xDA
+feat:DC dark stone S:dark:0xDC:0xDB
+
+# DC dark stone T 
+feat:DC dark stone T:torch:0xDC:0xDC
+feat:DC dark stone T:los:0xDC:0xDD
+feat:DC dark stone T:lit:0xDC:0xDE
+feat:DC dark stone T:dark:0xDC:0xDF
+
+# DC dark stone U 
+feat:DC dark stone U:torch:0xDC:0xE0
+feat:DC dark stone U:los:0xDC:0xE1
+feat:DC dark stone U:lit:0xDC:0xE2
+feat:DC dark stone U:dark:0xDC:0xE3
+
+# DC dark stone V 
+feat:DC dark stone V:torch:0xDC:0xE4
+feat:DC dark stone V:los:0xDC:0xE5
+feat:DC dark stone V:lit:0xDC:0xE6
+feat:DC dark stone V:dark:0xDC:0xE7
+
+# DC dark stone W 
+feat:DC dark stone W:torch:0xDC:0xE8
+feat:DC dark stone W:los:0xDC:0xE9
+feat:DC dark stone W:lit:0xDC:0xEA
+feat:DC dark stone W:dark:0xDC:0xEB
+
+# DC dark stone X 
+feat:DC dark stone X:torch:0xDC:0xEC
+feat:DC dark stone X:los:0xDC:0xED
+feat:DC dark stone X:lit:0xDC:0xEE
+feat:DC dark stone X:dark:0xDC:0xEF
+
+# DC dark stone Y 
+feat:DC dark stone Y:torch:0xDC:0xF0
+feat:DC dark stone Y:los:0xDC:0xF1
+feat:DC dark stone Y:lit:0xDC:0xF2
+feat:DC dark stone Y:dark:0xDC:0xF3
+
+# DC dark stone Z 
+feat:DC dark stone Z:torch:0xDC:0xF4
+feat:DC dark stone Z:los:0xDC:0xF5
+feat:DC dark stone Z:lit:0xDC:0xF6
+feat:DC dark stone Z:dark:0xDC:0xF7
+
+# DC dark stone ~ 
+feat:DC dark stone ~:torch:0xDC:0xF8
+feat:DC dark stone ~:los:0xDC:0xF9
+feat:DC dark stone ~:lit:0xDC:0xFA
+feat:DC dark stone ~:dark:0xDC:0xFB
+
+# DC dark stone ` 
+feat:DC dark stone `:torch:0xDC:0xFC
+feat:DC dark stone `:los:0xDC:0xFD
+feat:DC dark stone `:lit:0xDC:0xFE
+feat:DC dark stone `:dark:0xDC:0xFF
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DD wood wall

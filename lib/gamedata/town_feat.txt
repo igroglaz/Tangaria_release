@@ -2431,8 +2431,41 @@ feat:s:u:DB side u
 feat:s:v:DB side v
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DC s
+# DC dark stone s
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:s:w:DC dark stone w
+feat:s:x:DC dark stone x
+feat:s:y:DC dark stone y
+feat:s:z:DC dark stone z
+feat:s:A:DC dark stone A
+feat:s:B:DC dark stone B
+feat:s:C:DC dark stone C
+feat:s:D:DC dark stone D
+feat:s:E:DC dark stone E
+feat:s:F:DC dark stone F
+feat:s:G:DC dark stone G
+feat:s:H:DC dark stone H
+feat:s:I:DC dark stone I
+feat:s:J:DC dark stone J
+feat:s:K:DC dark stone K
+feat:s:L:DC dark stone L
+feat:s:M:DC dark stone M
+feat:s:N:DC dark stone N
+feat:s:O:DC dark stone O
+feat:s:P:DC dark stone P
+feat:s:Q:DC dark stone Q
+feat:s:R:DC dark stone R
+feat:s:S:DC dark stone S
+feat:s:T:DC dark stone T
+feat:s:U:DC dark stone U
+feat:s:V:DC dark stone V
+feat:s:W:DC dark stone W
+feat:s:X:DC dark stone X
+feat:s:Y:DC dark stone Y
+feat:s:Z:DC dark stone Z
+feat:s:~:DC dark stone ~
+feat:s:`:DC dark stone `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DD wood wall t
