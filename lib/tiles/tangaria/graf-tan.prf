@@ -15482,201 +15482,203 @@ feat:DF dark floor v:los:0xDF:0xFD
 feat:DF dark floor v:lit:0xDF:0xFE
 feat:DF dark floor v:dark:0xDF:0xFF
 
+
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E0 dark stone
+# E0 dark floor
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# E0 dark stone w 
-feat:E0 dark stone w:torch:0xE0:0x80
-feat:E0 dark stone w:los:0xE0:0x81
-feat:E0 dark stone w:lit:0xE0:0x82
-feat:E0 dark stone w:dark:0xE0:0x83
+# E0 dark floor w 
+feat:E0 dark floor w:torch:0xE0:0x80
+feat:E0 dark floor w:los:0xE0:0x81
+feat:E0 dark floor w:lit:0xE0:0x82
+feat:E0 dark floor w:dark:0xE0:0x83
 
-# E0 dark stone x 
-feat:E0 dark stone x:torch:0xE0:0x84
-feat:E0 dark stone x:los:0xE0:0x85
-feat:E0 dark stone x:lit:0xE0:0x86
-feat:E0 dark stone x:dark:0xE0:0x87
+# E0 dark floor x 
+feat:E0 dark floor x:torch:0xE0:0x84
+feat:E0 dark floor x:los:0xE0:0x85
+feat:E0 dark floor x:lit:0xE0:0x86
+feat:E0 dark floor x:dark:0xE0:0x87
 
-# E0 dark stone y 
-feat:E0 dark stone y:torch:0xE0:0x88
-feat:E0 dark stone y:los:0xE0:0x89
-feat:E0 dark stone y:lit:0xE0:0x8A
-feat:E0 dark stone y:dark:0xE0:0x8B
+# E0 dark floor y 
+feat:E0 dark floor y:torch:0xE0:0x88
+feat:E0 dark floor y:los:0xE0:0x89
+feat:E0 dark floor y:lit:0xE0:0x8A
+feat:E0 dark floor y:dark:0xE0:0x8B
 
-# E0 dark stone z 
-feat:E0 dark stone z:torch:0xE0:0x8C
-feat:E0 dark stone z:los:0xE0:0x8D
-feat:E0 dark stone z:lit:0xE0:0x8E
-feat:E0 dark stone z:dark:0xE0:0x8F
+# E0 dark floor z 
+feat:E0 dark floor z:torch:0xE0:0x8C
+feat:E0 dark floor z:los:0xE0:0x8D
+feat:E0 dark floor z:lit:0xE0:0x8E
+feat:E0 dark floor z:dark:0xE0:0x8F
 
-# E0 dark stone A 
-feat:E0 dark stone A:torch:0xE0:0x90
-feat:E0 dark stone A:los:0xE0:0x91
-feat:E0 dark stone A:lit:0xE0:0x92
-feat:E0 dark stone A:dark:0xE0:0x93
+# E0 dark floor A 
+feat:E0 dark floor A:torch:0xE0:0x90
+feat:E0 dark floor A:los:0xE0:0x91
+feat:E0 dark floor A:lit:0xE0:0x92
+feat:E0 dark floor A:dark:0xE0:0x93
 
-# E0 dark stone B 
-feat:E0 dark stone B:torch:0xE0:0x94
-feat:E0 dark stone B:los:0xE0:0x95
-feat:E0 dark stone B:lit:0xE0:0x96
-feat:E0 dark stone B:dark:0xE0:0x97
+# E0 dark floor B 
+feat:E0 dark floor B:torch:0xE0:0x94
+feat:E0 dark floor B:los:0xE0:0x95
+feat:E0 dark floor B:lit:0xE0:0x96
+feat:E0 dark floor B:dark:0xE0:0x97
 
-# E0 dark stone C 
-feat:E0 dark stone C:torch:0xE0:0x98
-feat:E0 dark stone C:los:0xE0:0x99
-feat:E0 dark stone C:lit:0xE0:0x9A
-feat:E0 dark stone C:dark:0xE0:0x9B
+# E0 dark floor C 
+feat:E0 dark floor C:torch:0xE0:0x98
+feat:E0 dark floor C:los:0xE0:0x99
+feat:E0 dark floor C:lit:0xE0:0x9A
+feat:E0 dark floor C:dark:0xE0:0x9B
 
-# E0 dark stone D 
-feat:E0 dark stone D:torch:0xE0:0x9C
-feat:E0 dark stone D:los:0xE0:0x9D
-feat:E0 dark stone D:lit:0xE0:0x9E
-feat:E0 dark stone D:dark:0xE0:0x9F
+# E0 dark floor D 
+feat:E0 dark floor D:torch:0xE0:0x9C
+feat:E0 dark floor D:los:0xE0:0x9D
+feat:E0 dark floor D:lit:0xE0:0x9E
+feat:E0 dark floor D:dark:0xE0:0x9F
 
-# E0 dark stone E 
-feat:E0 dark stone E:torch:0xE0:0xA0
-feat:E0 dark stone E:los:0xE0:0xA1
-feat:E0 dark stone E:lit:0xE0:0xA2
-feat:E0 dark stone E:dark:0xE0:0xA3
+# E0 dark floor E 
+feat:E0 dark floor E:torch:0xE0:0xA0
+feat:E0 dark floor E:los:0xE0:0xA1
+feat:E0 dark floor E:lit:0xE0:0xA2
+feat:E0 dark floor E:dark:0xE0:0xA3
 
-# E0 dark stone F 
-feat:E0 dark stone F:torch:0xE0:0xA4
-feat:E0 dark stone F:los:0xE0:0xA5
-feat:E0 dark stone F:lit:0xE0:0xA6
-feat:E0 dark stone F:dark:0xE0:0xA7
+# E0 dark floor F 
+feat:E0 dark floor F:torch:0xE0:0xA4
+feat:E0 dark floor F:los:0xE0:0xA5
+feat:E0 dark floor F:lit:0xE0:0xA6
+feat:E0 dark floor F:dark:0xE0:0xA7
 
-# E0 dark stone G 
-feat:E0 dark stone G:torch:0xE0:0xA8
-feat:E0 dark stone G:los:0xE0:0xA9
-feat:E0 dark stone G:lit:0xE0:0xAA
-feat:E0 dark stone G:dark:0xE0:0xAB
+# E0 dark floor G 
+feat:E0 dark floor G:torch:0xE0:0xA8
+feat:E0 dark floor G:los:0xE0:0xA9
+feat:E0 dark floor G:lit:0xE0:0xAA
+feat:E0 dark floor G:dark:0xE0:0xAB
 
-# E0 dark stone H 
-feat:E0 dark stone H:torch:0xE0:0xAC
-feat:E0 dark stone H:los:0xE0:0xAD
-feat:E0 dark stone H:lit:0xE0:0xAE
-feat:E0 dark stone H:dark:0xE0:0xAF
+# E0 dark floor H 
+feat:E0 dark floor H:torch:0xE0:0xAC
+feat:E0 dark floor H:los:0xE0:0xAD
+feat:E0 dark floor H:lit:0xE0:0xAE
+feat:E0 dark floor H:dark:0xE0:0xAF
 
-# E0 dark stone I 
-feat:E0 dark stone I:torch:0xE0:0xB0
-feat:E0 dark stone I:los:0xE0:0xB1
-feat:E0 dark stone I:lit:0xE0:0xB2
-feat:E0 dark stone I:dark:0xE0:0xB3
+# E0 dark floor I 
+feat:E0 dark floor I:torch:0xE0:0xB0
+feat:E0 dark floor I:los:0xE0:0xB1
+feat:E0 dark floor I:lit:0xE0:0xB2
+feat:E0 dark floor I:dark:0xE0:0xB3
 
-# E0 dark stone J 
-feat:E0 dark stone J:torch:0xE0:0xB4
-feat:E0 dark stone J:los:0xE0:0xB5
-feat:E0 dark stone J:lit:0xE0:0xB6
-feat:E0 dark stone J:dark:0xE0:0xB7
+# E0 dark floor J 
+feat:E0 dark floor J:torch:0xE0:0xB4
+feat:E0 dark floor J:los:0xE0:0xB5
+feat:E0 dark floor J:lit:0xE0:0xB6
+feat:E0 dark floor J:dark:0xE0:0xB7
 
-# E0 dark stone K 
-feat:E0 dark stone K:torch:0xE0:0xB8
-feat:E0 dark stone K:los:0xE0:0xB9
-feat:E0 dark stone K:lit:0xE0:0xBA
-feat:E0 dark stone K:dark:0xE0:0xBB
+# E0 dark floor K 
+feat:E0 dark floor K:torch:0xE0:0xB8
+feat:E0 dark floor K:los:0xE0:0xB9
+feat:E0 dark floor K:lit:0xE0:0xBA
+feat:E0 dark floor K:dark:0xE0:0xBB
 
-# E0 dark stone L 
-feat:E0 dark stone L:torch:0xE0:0xBC
-feat:E0 dark stone L:los:0xE0:0xBD
-feat:E0 dark stone L:lit:0xE0:0xBE
-feat:E0 dark stone L:dark:0xE0:0xBF
+# E0 dark floor L 
+feat:E0 dark floor L:torch:0xE0:0xBC
+feat:E0 dark floor L:los:0xE0:0xBD
+feat:E0 dark floor L:lit:0xE0:0xBE
+feat:E0 dark floor L:dark:0xE0:0xBF
 
-# E0 dark stone M 
-feat:E0 dark stone M:torch:0xE0:0xC0
-feat:E0 dark stone M:los:0xE0:0xC1
-feat:E0 dark stone M:lit:0xE0:0xC2
-feat:E0 dark stone M:dark:0xE0:0xC3
+# E0 dark floor M 
+feat:E0 dark floor M:torch:0xE0:0xC0
+feat:E0 dark floor M:los:0xE0:0xC1
+feat:E0 dark floor M:lit:0xE0:0xC2
+feat:E0 dark floor M:dark:0xE0:0xC3
 
-# E0 dark stone N 
-feat:E0 dark stone N:torch:0xE0:0xC4
-feat:E0 dark stone N:los:0xE0:0xC5
-feat:E0 dark stone N:lit:0xE0:0xC6
-feat:E0 dark stone N:dark:0xE0:0xC7
+# E0 dark floor N 
+feat:E0 dark floor N:torch:0xE0:0xC4
+feat:E0 dark floor N:los:0xE0:0xC5
+feat:E0 dark floor N:lit:0xE0:0xC6
+feat:E0 dark floor N:dark:0xE0:0xC7
 
-# E0 dark stone O 
-feat:E0 dark stone O:torch:0xE0:0xC8
-feat:E0 dark stone O:los:0xE0:0xC9
-feat:E0 dark stone O:lit:0xE0:0xCA
-feat:E0 dark stone O:dark:0xE0:0xCB
+# E0 dark floor O 
+feat:E0 dark floor O:torch:0xE0:0xC8
+feat:E0 dark floor O:los:0xE0:0xC9
+feat:E0 dark floor O:lit:0xE0:0xCA
+feat:E0 dark floor O:dark:0xE0:0xCB
 
-# E0 dark stone P 
-feat:E0 dark stone P:torch:0xE0:0xCC
-feat:E0 dark stone P:los:0xE0:0xCD
-feat:E0 dark stone P:lit:0xE0:0xCE
-feat:E0 dark stone P:dark:0xE0:0xCF
+# E0 dark floor P 
+feat:E0 dark floor P:torch:0xE0:0xCC
+feat:E0 dark floor P:los:0xE0:0xCD
+feat:E0 dark floor P:lit:0xE0:0xCE
+feat:E0 dark floor P:dark:0xE0:0xCF
 
-# E0 dark stone Q 
-feat:E0 dark stone Q:torch:0xE0:0xD0
-feat:E0 dark stone Q:los:0xE0:0xD1
-feat:E0 dark stone Q:lit:0xE0:0xD2
-feat:E0 dark stone Q:dark:0xE0:0xD3
+# E0 dark floor Q 
+feat:E0 dark floor Q:torch:0xE0:0xD0
+feat:E0 dark floor Q:los:0xE0:0xD1
+feat:E0 dark floor Q:lit:0xE0:0xD2
+feat:E0 dark floor Q:dark:0xE0:0xD3
 
-# E0 dark stone R 
-feat:E0 dark stone R:torch:0xE0:0xD4
-feat:E0 dark stone R:los:0xE0:0xD5
-feat:E0 dark stone R:lit:0xE0:0xD6
-feat:E0 dark stone R:dark:0xE0:0xD7
+# E0 dark floor R 
+feat:E0 dark floor R:torch:0xE0:0xD4
+feat:E0 dark floor R:los:0xE0:0xD5
+feat:E0 dark floor R:lit:0xE0:0xD6
+feat:E0 dark floor R:dark:0xE0:0xD7
 
-# E0 dark stone S 
-feat:E0 dark stone S:torch:0xE0:0xD8
-feat:E0 dark stone S:los:0xE0:0xD9
-feat:E0 dark stone S:lit:0xE0:0xDA
-feat:E0 dark stone S:dark:0xE0:0xDB
+# E0 dark floor S 
+feat:E0 dark floor S:torch:0xE0:0xD8
+feat:E0 dark floor S:los:0xE0:0xD9
+feat:E0 dark floor S:lit:0xE0:0xDA
+feat:E0 dark floor S:dark:0xE0:0xDB
 
-# E0 dark stone T 
-feat:E0 dark stone T:torch:0xE0:0xDC
-feat:E0 dark stone T:los:0xE0:0xDD
-feat:E0 dark stone T:lit:0xE0:0xDE
-feat:E0 dark stone T:dark:0xE0:0xDF
+# E0 dark floor T 
+feat:E0 dark floor T:torch:0xE0:0xDC
+feat:E0 dark floor T:los:0xE0:0xDD
+feat:E0 dark floor T:lit:0xE0:0xDE
+feat:E0 dark floor T:dark:0xE0:0xDF
 
-# E0 dark stone U 
-feat:E0 dark stone U:torch:0xE0:0xE0
-feat:E0 dark stone U:los:0xE0:0xE1
-feat:E0 dark stone U:lit:0xE0:0xE2
-feat:E0 dark stone U:dark:0xE0:0xE3
+# E0 dark floor U 
+feat:E0 dark floor U:torch:0xE0:0xE0
+feat:E0 dark floor U:los:0xE0:0xE1
+feat:E0 dark floor U:lit:0xE0:0xE2
+feat:E0 dark floor U:dark:0xE0:0xE3
 
-# E0 dark stone V 
-feat:E0 dark stone V:torch:0xE0:0xE4
-feat:E0 dark stone V:los:0xE0:0xE5
-feat:E0 dark stone V:lit:0xE0:0xE6
-feat:E0 dark stone V:dark:0xE0:0xE7
+# E0 dark floor V 
+feat:E0 dark floor V:torch:0xE0:0xE4
+feat:E0 dark floor V:los:0xE0:0xE5
+feat:E0 dark floor V:lit:0xE0:0xE6
+feat:E0 dark floor V:dark:0xE0:0xE7
 
-# E0 dark stone W 
-feat:E0 dark stone W:torch:0xE0:0xE8
-feat:E0 dark stone W:los:0xE0:0xE9
-feat:E0 dark stone W:lit:0xE0:0xEA
-feat:E0 dark stone W:dark:0xE0:0xEB
+# E0 dark floor W 
+feat:E0 dark floor W:torch:0xE0:0xE8
+feat:E0 dark floor W:los:0xE0:0xE9
+feat:E0 dark floor W:lit:0xE0:0xEA
+feat:E0 dark floor W:dark:0xE0:0xEB
 
-# E0 dark stone X 
-feat:E0 dark stone X:torch:0xE0:0xEC
-feat:E0 dark stone X:los:0xE0:0xED
-feat:E0 dark stone X:lit:0xE0:0xEE
-feat:E0 dark stone X:dark:0xE0:0xEF
+# E0 dark floor X 
+feat:E0 dark floor X:torch:0xE0:0xEC
+feat:E0 dark floor X:los:0xE0:0xED
+feat:E0 dark floor X:lit:0xE0:0xEE
+feat:E0 dark floor X:dark:0xE0:0xEF
 
-# E0 dark stone Y 
-feat:E0 dark stone Y:torch:0xE0:0xF0
-feat:E0 dark stone Y:los:0xE0:0xF1
-feat:E0 dark stone Y:lit:0xE0:0xF2
-feat:E0 dark stone Y:dark:0xE0:0xF3
+# E0 dark floor Y 
+feat:E0 dark floor Y:torch:0xE0:0xF0
+feat:E0 dark floor Y:los:0xE0:0xF1
+feat:E0 dark floor Y:lit:0xE0:0xF2
+feat:E0 dark floor Y:dark:0xE0:0xF3
 
-# E0 dark stone Z 
-feat:E0 dark stone Z:torch:0xE0:0xF4
-feat:E0 dark stone Z:los:0xE0:0xF5
-feat:E0 dark stone Z:lit:0xE0:0xF6
-feat:E0 dark stone Z:dark:0xE0:0xF7
+# E0 dark floor Z 
+feat:E0 dark floor Z:torch:0xE0:0xF4
+feat:E0 dark floor Z:los:0xE0:0xF5
+feat:E0 dark floor Z:lit:0xE0:0xF6
+feat:E0 dark floor Z:dark:0xE0:0xF7
 
-# E0 dark stone ~ 
-feat:E0 dark stone ~:torch:0xE0:0xF8
-feat:E0 dark stone ~:los:0xE0:0xF9
-feat:E0 dark stone ~:lit:0xE0:0xFA
-feat:E0 dark stone ~:dark:0xE0:0xFB
+# E0 dark floor ~ 
+feat:E0 dark floor ~:torch:0xE0:0xF8
+feat:E0 dark floor ~:los:0xE0:0xF9
+feat:E0 dark floor ~:lit:0xE0:0xFA
+feat:E0 dark floor ~:dark:0xE0:0xFB
 
-# E0 dark stone ` 
-feat:E0 dark stone `:torch:0xE0:0xFC
-feat:E0 dark stone `:los:0xE0:0xFD
-feat:E0 dark stone `:lit:0xE0:0xFE
-feat:E0 dark stone `:dark:0xE0:0xFF
+# E0 dark floor ` 
+feat:E0 dark floor `:torch:0xE0:0xFC
+feat:E0 dark floor `:los:0xE0:0xFD
+feat:E0 dark floor `:lit:0xE0:0xFE
+feat:E0 dark floor `:dark:0xE0:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

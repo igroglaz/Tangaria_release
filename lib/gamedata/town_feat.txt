@@ -2582,43 +2582,42 @@ feat:u:t:DF dark floor t
 feat:u:u:DF dark floor u
 feat:u:v:DF dark floor v
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E0 dark stone u
+# E0 dark floor u
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:u:w:E0 dark stone w
-feat:u:x:E0 dark stone x
-feat:u:y:E0 dark stone y
-feat:u:z:E0 dark stone z
-feat:u:A:E0 dark stone A
-feat:u:B:E0 dark stone B
-feat:u:C:E0 dark stone C
-feat:u:D:E0 dark stone D
-feat:u:E:E0 dark stone E
-feat:u:F:E0 dark stone F
-feat:u:G:E0 dark stone G
-feat:u:H:E0 dark stone H
-feat:u:I:E0 dark stone I
-feat:u:J:E0 dark stone J
-feat:u:K:E0 dark stone K
-feat:u:L:E0 dark stone L
-feat:u:M:E0 dark stone M
-feat:u:N:E0 dark stone N
-feat:u:O:E0 dark stone O
-feat:u:P:E0 dark stone P
-feat:u:Q:E0 dark stone Q
-feat:u:R:E0 dark stone R
-feat:u:S:E0 dark stone S
-feat:u:T:E0 dark stone T
-feat:u:U:E0 dark stone U
-feat:u:V:E0 dark stone V
-feat:u:W:E0 dark stone W
-feat:u:X:E0 dark stone X
-feat:u:Y:E0 dark stone Y
-feat:u:Z:E0 dark stone Z
-feat:u:~:E0 dark stone ~
-feat:u:`:E0 dark stone `
+feat:u:w:E0 dark floor w
+feat:u:x:E0 dark floor x
+feat:u:y:E0 dark floor y
+feat:u:z:E0 dark floor z
+feat:u:A:E0 dark floor A
+feat:u:B:E0 dark floor B
+feat:u:C:E0 dark floor C
+feat:u:D:E0 dark floor D
+feat:u:E:E0 dark floor E
+feat:u:F:E0 dark floor F
+feat:u:G:E0 dark floor G
+feat:u:H:E0 dark floor H
+feat:u:I:E0 dark floor I
+feat:u:J:E0 dark floor J
+feat:u:K:E0 dark floor K
+feat:u:L:E0 dark floor L
+feat:u:M:E0 dark floor M
+feat:u:N:E0 dark floor N
+feat:u:O:E0 dark floor O
+feat:u:P:E0 dark floor P
+feat:u:Q:E0 dark floor Q
+feat:u:R:E0 dark floor R
+feat:u:S:E0 dark floor S
+feat:u:T:E0 dark floor T
+feat:u:U:E0 dark floor U
+feat:u:V:E0 dark floor V
+feat:u:W:E0 dark floor W
+feat:u:X:E0 dark floor X
+feat:u:Y:E0 dark floor Y
+feat:u:Z:E0 dark floor Z
+feat:u:~:E0 dark floor ~
+feat:u:`:E0 dark floor `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
