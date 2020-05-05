@@ -285,7 +285,7 @@ feat:T:P:tree P
 feat:T:Q:tree Q
 feat:T:R:tree R
 feat:T:S:tree S
-#!!!!!!!!!!!!!!!!!!!!!!! basic symbol
+#!!!!!!!!!!!!!!!!!!!!!!! t:& is a basic symbol
 feat:T:&:tree T
 #!!!!!!!!!!!!!!!!!!!!!!!
 feat:T:U:tree U
@@ -2467,54 +2467,48 @@ feat:t:p:DD wood wall p
 feat:t:q:DD wood wall q
 feat:t:r:DD wood wall r
 feat:t:s:DD wood wall s
-
-#!!!!!!!!!!!!!!!!!!!!!!!!!!! BASIC
-
+#!!!!!!!!!!!!!!!!!!!!!!!!!!! t:t is BASIC - occupied
 feat:t:&:DD wood wall t
-
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 feat:t:u:DD wood wall u
 feat:t:v:DD wood wall v
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DE wood wall t
+# DE door t
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:t:w:DE wood wall w
-feat:t:x:DE wood wall x
-feat:t:y:DE wood wall y
-feat:t:z:DE wood wall z
-feat:t:A:DE wood wall A
-feat:t:B:DE wood wall B
-feat:t:C:DE wood wall C
-feat:t:D:DE wood wall D
-feat:t:E:DE wood wall E
-feat:t:F:DE wood wall F
-feat:t:G:DE wood wall G
-feat:t:H:DE wood wall H
-feat:t:I:DE wood wall I
-feat:t:J:DE wood wall J
-feat:t:K:DE wood wall K
-feat:t:L:DE wood wall L
-feat:t:M:DE wood wall M
-feat:t:N:DE wood wall N
-feat:t:O:DE wood wall O
-feat:t:P:DE wood wall P
-feat:t:Q:DE wood wall Q
-feat:t:R:DE wood wall R
-feat:t:S:DE wood wall S
-feat:t:T:DE wood wall T
-feat:t:U:DE wood wall U
-feat:t:V:DE wood wall V
-feat:t:W:DE wood wall W
-feat:t:X:DE wood wall X
-feat:t:Y:DE wood wall Y
-feat:t:Z:DE wood wall Z
-feat:t:~:DE wood wall ~
-feat:t:`:DE wood wall `
-
+feat:t:w:DE door w
+feat:t:x:DE door x
+feat:t:y:DE door y
+feat:t:z:DE door z
+feat:t:A:DE door A
+feat:t:B:DE door B
+feat:t:C:DE door C
+feat:t:D:DE door D
+feat:t:E:DE door E
+feat:t:F:DE door F
+feat:t:G:DE door G
+feat:t:H:DE door H
+feat:t:I:DE door I
+feat:t:J:DE door J
+feat:t:K:DE door K
+feat:t:L:DE door L
+feat:t:M:DE door M
+feat:t:N:DE door N
+feat:t:O:DE door O
+feat:t:P:DE door P
+feat:t:Q:DE door Q
+feat:t:R:DE door R
+feat:t:S:DE door S
+feat:t:T:DE door T
+feat:t:U:DE door U
+feat:t:V:DE door V
+feat:t:W:DE door W
+feat:t:X:DE door X
+feat:t:Y:DE door Y
+feat:t:Z:DE door Z
+feat:t:~:DE door ~
+feat:t:`:DE door `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DF dark stone u
@@ -3174,7 +3168,9 @@ feat:C:y:F0 dirt mountain y
 feat:C:z:F0 dirt mountain z
 feat:C:A:F0 dirt mountain A
 feat:C:B:F0 dirt mountain B
-feat:C:C:F0 dirt mountain C
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!! C:C is BASIC !
+feat:C:&:F0 dirt mountain C
+#!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 feat:C:D:F0 dirt mountain D
 feat:C:E:F0 dirt mountain E
 feat:C:F:F0 dirt mountain F
@@ -3200,11 +3196,6 @@ feat:C:Y:F0 dirt mountain Y
 feat:C:Z:F0 dirt mountain Z
 feat:C:~:F0 dirt mountain ~
 feat:C:`:F0 dirt mountain `
-
-
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!! BASIC
-#feat:C:&:F1 snow C          OLD.... ?
-#!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # F1 snow C     !!! 0 - v (vice versa above)

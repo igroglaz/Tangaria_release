@@ -18121,29 +18121,31 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:DD wood wall 0
-graphics:#:s
+graphics:+:U
 priority:21
 flags:DOOR_ANY | DOOR_CLOSED | INTERESTING
-################################################################################
 info:0:6
 short-desc:closed door
-desc:.
+desc:Doors may be locked; getting through them may not be easy. Your
+desc: disarming skill makes all the difference to your ability to handle locks,
+desc: but you can also take a pickaxe to them, or blast them open
+desc: with magic. Monsters are also slowed down by doors; you can earn yourself
+desc: valuable time by locking them.
 
 name:DD wood wall 1
-graphics:#:s
+graphics:':U
 priority:20
 flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | CLOSABLE | EASY
-################################################################################
 short-desc:open door
-desc:.
+desc:A door that is already open. Player, monster, spell and missile can pass
+desc: through as long as it stays open.
 
 name:DD wood wall 2
-graphics:#:s
+graphics:':u
 priority:20
 flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | EASY
-################################################################################
 short-desc:broken door
-desc:.
+desc:A door so broken that it cannot be shut.
 
 #### empty:
 
@@ -18409,11 +18411,66 @@ short-desc:window
 desc:.
 
 
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DE wood wall -> EMPTY:
+# DE door
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:DE wood wall w
+name:DE door w
+graphics:+:U
+priority:21
+flags:DOOR_ANY | DOOR_CLOSED | INTERESTING
+info:0:6
+short-desc:closed door
+desc:Doors may be locked; getting through them may not be easy. Your
+desc: disarming skill makes all the difference to your ability to handle locks,
+desc: but you can also take a pickaxe to them, or blast them open
+desc: with magic. Monsters are also slowed down by doors; you can earn yourself
+desc: valuable time by locking them.
+
+name:DE door x
+graphics:':U
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | CLOSABLE | EASY
+short-desc:open door
+desc:A door that is already open. Player, monster, spell and missile can pass
+desc: through as long as it stays open.
+
+name:DE door y
+graphics:':u
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | EASY
+short-desc:broken door
+desc:A door so broken that it cannot be shut.
+
+name:DE door z
+graphics:+:U
+priority:21
+flags:DOOR_ANY | DOOR_CLOSED | INTERESTING
+info:0:6
+short-desc:closed door
+desc:Doors may be locked; getting through them may not be easy. Your
+desc: disarming skill makes all the difference to your ability to handle locks,
+desc: but you can also take a pickaxe to them, or blast them open
+desc: with magic. Monsters are also slowed down by doors; you can earn yourself
+desc: valuable time by locking them.
+
+name:DE door A
+graphics:':U
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | CLOSABLE | EASY
+short-desc:open door
+desc:A door that is already open. Player, monster, spell and missile can pass
+desc: through as long as it stays open.
+
+name:DE door B
+graphics:':u
+priority:20
+flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | EASY
+short-desc:broken door
+desc:A door so broken that it cannot be shut.
+
+name:DE door C
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18422,7 +18479,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall x
+name:DE door D
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18431,7 +18488,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall y
+name:DE door E
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18440,7 +18497,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall z
+name:DE door F
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18449,7 +18506,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall A
+name:DE door G
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18458,7 +18515,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall B
+name:DE door H
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18467,7 +18524,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall C
+name:DE door I
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18476,7 +18533,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall D
+name:DE door J
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18485,7 +18542,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall E
+name:DE door K
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18494,7 +18551,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall F
+name:DE door L
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18503,7 +18560,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall G
+name:DE door M
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18512,7 +18569,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall H
+name:DE door N
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18521,7 +18578,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall I
+name:DE door O
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18530,7 +18587,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall J
+name:DE door P
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18539,7 +18596,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall K
+name:DE door Q
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18548,7 +18605,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall L
+name:DE door R
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18557,7 +18614,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall M
+name:DE door S
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18566,7 +18623,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall N
+name:DE door T
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18575,7 +18632,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall O
+name:DE door U
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18584,7 +18641,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall P
+name:DE door V
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18593,7 +18650,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall Q
+name:DE door W
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18602,7 +18659,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall R
+name:DE door X
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18611,7 +18668,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall S
+name:DE door Y
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18620,7 +18677,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall T
+name:DE door Z
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18629,7 +18686,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall U
+name:DE door ~
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18638,7 +18695,7 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall V
+name:DE door `
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -18647,65 +18704,10 @@ info:0:3
 short-desc:wall
 desc:.
 
-name:DE wood wall W
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
-
-name:DE wood wall X
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
-
-name:DE wood wall Y
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
-
-name:DE wood wall Z
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
-
-name:DE wood wall ~
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
-
-name:DE wood wall `
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:3
-short-desc:wall
-desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DF dark stone
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-
 
 name:DF dark stone 0
 graphics:#:s
