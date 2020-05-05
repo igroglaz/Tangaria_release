@@ -1585,10 +1585,8 @@ wall:dark wall k empty window:100
 wall:dark wall l window:100
 wall:dark wall m barred window:100
 wall:dark wall n glass window:100
-#wall:dark wall q door:100
-#wall:dark wall r doorway:100
-#wall:dark wall s door:100
-#wall:dark wall t doorway:100
+wall:dark wall q jail window:1
+wall:dark wall r prison bars:1
 wall:dark wall u:100
 wall:dark wall v:100
 # BA ^5350 + 3200 + 1450
@@ -1625,8 +1623,6 @@ wall:dark wall Z:50
 wall:dark wall ~:50
 wall:dark wall `:50
 ######################### DF tiles will be moved..
-wall:DF dark stone 0:1
-wall:DF dark stone 1:1
 wall:E0 dark stone S:1
 wall:E0 dark stone T:1
 wall:E0 dark stone U:1
@@ -3067,10 +3063,8 @@ wall:dark wall k empty window:100
 wall:dark wall l window:100
 wall:dark wall m barred window:100
 wall:dark wall n glass window:100
-#wall:dark wall q door:100
-#wall:dark wall r doorway:100
-#wall:dark wall s door:100
-#wall:dark wall t doorway:100
+wall:dark wall q jail window:1
+wall:dark wall r prison bars:1
 wall:dark wall u:100
 wall:dark wall v:100
 # BA ^5350 + 3200 + 1450
@@ -3107,8 +3101,6 @@ wall:dark wall Z:50
 wall:dark wall ~:50
 wall:dark wall `:50
 ######################### DF tiles will be moved..
-wall:DF dark stone 0:1
-wall:DF dark stone 1:1
 wall:E0 dark stone S:1
 wall:E0 dark stone T:1
 wall:E0 dark stone U:1

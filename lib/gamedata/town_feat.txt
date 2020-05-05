@@ -1147,10 +1147,10 @@ feat:b:m:dark wall m barred window
 feat:b:n:dark wall n glass window
 feat:b:o:dark wall o up staircase
 feat:b:p:dark wall p down staircase
-feat:b:q:dark wall q door
-feat:b:r:dark wall r doorway
-feat:b:s:dark wall s door
-feat:b:t:dark wall t doorway
+feat:b:q:dark wall q jail window
+feat:b:r:dark wall r prison bars
+feat:b:s:dark wall s
+feat:b:t:dark wall t
 feat:b:u:dark wall u
 feat:b:v:dark wall v
 

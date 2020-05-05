@@ -7916,29 +7916,29 @@ feat:dark wall p down staircase:los:0xB9:0xE5
 feat:dark wall p down staircase:lit:0xB9:0xE6
 feat:dark wall p down staircase:dark:0xB9:0xE7
 
-# dark wall q door
-feat:dark wall q door:torch:0xB9:0xE8
-feat:dark wall q door:los:0xB9:0xE9
-feat:dark wall q door:lit:0xB9:0xEA
-feat:dark wall q door:dark:0xB9:0xEB
+# dark wall q jail window
+feat:dark wall q jail window:torch:0xB9:0xE8
+feat:dark wall q jail window:los:0xB9:0xE9
+feat:dark wall q jail window:lit:0xB9:0xEA
+feat:dark wall q jail window:dark:0xB9:0xEB
 
-# dark wall r doorway
-feat:dark wall r doorway:torch:0xB9:0xEC
-feat:dark wall r doorway:los:0xB9:0xED
-feat:dark wall r doorway:lit:0xB9:0xEE
-feat:dark wall r doorway:dark:0xB9:0xEF
+# dark wall r prison bars
+feat:dark wall r prison bars:torch:0xB9:0xEC
+feat:dark wall r prison bars:los:0xB9:0xED
+feat:dark wall r prison bars:lit:0xB9:0xEE
+feat:dark wall r prison bars:dark:0xB9:0xEF
 
-# dark wall s door
-feat:dark wall s door:torch:0xB9:0xF0
-feat:dark wall s door:los:0xB9:0xF1
-feat:dark wall s door:lit:0xB9:0xF2
-feat:dark wall s door:dark:0xB9:0xF3
+# dark wall s
+feat:dark wall s:torch:0xB9:0xF0
+feat:dark wall s:los:0xB9:0xF1
+feat:dark wall s:lit:0xB9:0xF2
+feat:dark wall s:dark:0xB9:0xF3
 
-# dark wall t doorway
-feat:dark wall t doorway:torch:0xB9:0xF4
-feat:dark wall t doorway:los:0xB9:0xF5
-feat:dark wall t doorway:lit:0xB9:0xF6
-feat:dark wall t doorway:dark:0xB9:0xF7
+# dark wall t
+feat:dark wall t:torch:0xB9:0xF4
+feat:dark wall t:los:0xB9:0xF5
+feat:dark wall t:lit:0xB9:0xF6
+feat:dark wall t:dark:0xB9:0xF7
 
 # dark wall u 
 feat:dark wall u:torch:0xB9:0xF8

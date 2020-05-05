@@ -8806,38 +8806,38 @@ flags:QUARTZ | LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY
 short-desc:down staircase
 desc:A staircase down to a deeper part of the dungeon.
 
-name:dark wall q door
+name:dark wall q jail window
+graphics:+:U
+priority:24
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+info:0:3
+################################################################################
+short-desc:jail window
+desc:.
+
+name:dark wall r prison bars
+graphics:+:'
+priority:24
+flags:QUARTZ | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:prison bars
+desc:.
+
+name:dark wall s
 graphics:+:U
 priority:24
 flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
 info:0:3
 ################################################################################
-short-desc:door
+short-desc:.
 desc:.
 
-name:dark wall r doorway
+name:dark wall t
 graphics:+:'
 priority:24
 flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:doorway
-desc:.
-
-name:dark wall s door
-graphics:+:U
-priority:24
-flags:QUARTZ | PASSABLE | EASY | TORCH | FLOOR_SAFE
-info:0:3
-################################################################################
-short-desc:door
-desc:.
-
-name:dark wall t doorway
-graphics:+:'
-priority:24
-flags:QUARTZ | PASSABLE | EASY | LOS | PROJECT | TORCH
-################################################################################
-short-desc:doorway
+short-desc:.
 desc:.
 
 name:dark wall u
