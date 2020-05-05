@@ -5030,9 +5030,48 @@ wpos:-1:-4
 min-depth:66
 max-depth:77
 max-level:49
-floor:packed dirt:900
-floor:water:100
-wall:dark wall:300
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E3 dungeon wall v
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+wall:E3 dungeon wall w:100
+wall:E3 dungeon wall x:100
+wall:E3 dungeon wall y:100
+wall:E3 dungeon wall z:100
+wall:E3 dungeon wall A:100
+wall:E3 dungeon wall B:100
+wall:E3 dungeon wall C:900
+# flag:
+wall:E3 dungeon wall D:100
+# 4x walls:
+wall:E3 dungeon wall E:900
+wall:E3 dungeon wall F:900
+wall:E3 dungeon wall G:900
+wall:E3 dungeon wall H:900
+# skels:
+wall:E3 dungeon wall I:100
+wall:E3 dungeon wall J:100
+# 
+wall:E3 dungeon wall K:100
+wall:E3 dungeon wall L:100
+wall:E3 dungeon wall M:100
+wall:E3 dungeon wall N:100
+wall:E3 dungeon wall O:100
+wall:E3 dungeon wall P:100
+# fire:
+wall:E3 dungeon wall Q:50
+wall:E3 dungeon wall R:50
+wall:E3 dungeon wall S:50
+wall:E3 dungeon wall T:50
+# walls
+wall:E3 dungeon wall U:900
+wall:E3 dungeon wall V:900
+wall:E3 dungeon wall W:800
+wall:E3 dungeon wall X:800
+# 
+wall:E3 dungeon wall Y:100
+wall:E3 dungeon wall Z:100
+wall:E3 dungeon wall ~:100
+wall:E3 dungeon wall `:100
 rule:8500:0
 rule-flags:UNDEAD | NONLIVING
 rule:1000:0
