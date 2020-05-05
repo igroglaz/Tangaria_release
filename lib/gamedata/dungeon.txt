@@ -4912,12 +4912,27 @@ wall:B6 floors luquid ~:25
 wall:B6 floors luquid `:65
 ########################################### 500
 wall:big dark wall 0:50
-wall:big dark wall 1:8000
+wall:big dark wall 1:3200
 wall:big dark wall 9 entrance:50
 wall:big dark wall a low entrance:50
 wall:big dark wall b window:50
-#64 total
-#=========
+###### ruins ###############################
+wall:DF dark floor 0:300
+wall:DF dark floor 1:300
+wall:DF dark floor 2:300
+wall:DF dark floor 3:300
+wall:DF dark floor 4:300
+wall:DF dark floor 5:300
+wall:DF dark floor 6:300
+wall:DF dark floor 7:300
+wall:DF dark floor 8:300
+wall:DF dark floor 9:300
+wall:DF dark floor a:300
+wall:DF dark floor b:300
+wall:DF dark floor c:300
+wall:DF dark floor d:300
+wall:DF dark floor e:300
+wall:DF dark floor f:300
 # 96-wall: .......#################   1500
 wall:dark wall:100
 #
