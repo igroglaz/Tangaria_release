@@ -15680,596 +15680,596 @@ feat:E0 dark floor `:los:0xE0:0xFD
 feat:E0 dark floor `:lit:0xE0:0xFE
 feat:E0 dark floor `:dark:0xE0:0xFF
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E1 big white
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-# E1 big white 0 
-feat:E1 big white 0:torch:0xE1:0x80
-feat:E1 big white 0:los:0xE1:0x81
-feat:E1 big white 0:lit:0xE1:0x82
-feat:E1 big white 0:dark:0xE1:0x83
-
-# E1 big white 1 
-feat:E1 big white 1:torch:0xE1:0x84
-feat:E1 big white 1:los:0xE1:0x85
-feat:E1 big white 1:lit:0xE1:0x86
-feat:E1 big white 1:dark:0xE1:0x87
-
-# E1 big white 2 
-feat:E1 big white 2:torch:0xE1:0x88
-feat:E1 big white 2:los:0xE1:0x89
-feat:E1 big white 2:lit:0xE1:0x8A
-feat:E1 big white 2:dark:0xE1:0x8B
-
-# E1 big white 3 
-feat:E1 big white 3:torch:0xE1:0x8C
-feat:E1 big white 3:los:0xE1:0x8D
-feat:E1 big white 3:lit:0xE1:0x8E
-feat:E1 big white 3:dark:0xE1:0x8F
-
-# E1 big white 4 
-feat:E1 big white 4:torch:0xE1:0x90
-feat:E1 big white 4:los:0xE1:0x91
-feat:E1 big white 4:lit:0xE1:0x92
-feat:E1 big white 4:dark:0xE1:0x93
-
-# E1 big white 5 
-feat:E1 big white 5:torch:0xE1:0x94
-feat:E1 big white 5:los:0xE1:0x95
-feat:E1 big white 5:lit:0xE1:0x96
-feat:E1 big white 5:dark:0xE1:0x97
-
-# E1 big white 6 
-feat:E1 big white 6:torch:0xE1:0x98
-feat:E1 big white 6:los:0xE1:0x99
-feat:E1 big white 6:lit:0xE1:0x9A
-feat:E1 big white 6:dark:0xE1:0x9B
-
-# E1 big white 7 
-feat:E1 big white 7:torch:0xE1:0x9C
-feat:E1 big white 7:los:0xE1:0x9D
-feat:E1 big white 7:lit:0xE1:0x9E
-feat:E1 big white 7:dark:0xE1:0x9F
-
-# E1 big white 8 
-feat:E1 big white 8:torch:0xE1:0xA0
-feat:E1 big white 8:los:0xE1:0xA1
-feat:E1 big white 8:lit:0xE1:0xA2
-feat:E1 big white 8:dark:0xE1:0xA3
-
-# E1 big white 9 
-feat:E1 big white 9:torch:0xE1:0xA4
-feat:E1 big white 9:los:0xE1:0xA5
-feat:E1 big white 9:lit:0xE1:0xA6
-feat:E1 big white 9:dark:0xE1:0xA7
-
-# E1 big white a 
-feat:E1 big white a:torch:0xE1:0xA8
-feat:E1 big white a:los:0xE1:0xA9
-feat:E1 big white a:lit:0xE1:0xAA
-feat:E1 big white a:dark:0xE1:0xAB
-
-# E1 big white b 
-feat:E1 big white b:torch:0xE1:0xAC
-feat:E1 big white b:los:0xE1:0xAD
-feat:E1 big white b:lit:0xE1:0xAE
-feat:E1 big white b:dark:0xE1:0xAF
-
-# E1 big white c 
-feat:E1 big white c:torch:0xE1:0xB0
-feat:E1 big white c:los:0xE1:0xB1
-feat:E1 big white c:lit:0xE1:0xB2
-feat:E1 big white c:dark:0xE1:0xB3
-
-# E1 big white d 
-feat:E1 big white d:torch:0xE1:0xB4
-feat:E1 big white d:los:0xE1:0xB5
-feat:E1 big white d:lit:0xE1:0xB6
-feat:E1 big white d:dark:0xE1:0xB7
-
-# E1 big white e 
-feat:E1 big white e:torch:0xE1:0xB8
-feat:E1 big white e:los:0xE1:0xB9
-feat:E1 big white e:lit:0xE1:0xBA
-feat:E1 big white e:dark:0xE1:0xBB
-
-# E1 big white f 
-feat:E1 big white f:torch:0xE1:0xBC
-feat:E1 big white f:los:0xE1:0xBD
-feat:E1 big white f:lit:0xE1:0xBE
-feat:E1 big white f:dark:0xE1:0xBF
-
-# E1 big white g 
-feat:E1 big white g:torch:0xE1:0xC0
-feat:E1 big white g:los:0xE1:0xC1
-feat:E1 big white g:lit:0xE1:0xC2
-feat:E1 big white g:dark:0xE1:0xC3
-
-# E1 big white h 
-feat:E1 big white h:torch:0xE1:0xC4
-feat:E1 big white h:los:0xE1:0xC5
-feat:E1 big white h:lit:0xE1:0xC6
-feat:E1 big white h:dark:0xE1:0xC7
-
-# E1 big white i 
-feat:E1 big white i:torch:0xE1:0xC8
-feat:E1 big white i:los:0xE1:0xC9
-feat:E1 big white i:lit:0xE1:0xCA
-feat:E1 big white i:dark:0xE1:0xCB
-
-# E1 big white j 
-feat:E1 big white j:torch:0xE1:0xCC
-feat:E1 big white j:los:0xE1:0xCD
-feat:E1 big white j:lit:0xE1:0xCE
-feat:E1 big white j:dark:0xE1:0xCF
-
-# E1 big white k 
-feat:E1 big white k:torch:0xE1:0xD0
-feat:E1 big white k:los:0xE1:0xD1
-feat:E1 big white k:lit:0xE1:0xD2
-feat:E1 big white k:dark:0xE1:0xD3
-
-# E1 big white l 
-feat:E1 big white l:torch:0xE1:0xD4
-feat:E1 big white l:los:0xE1:0xD5
-feat:E1 big white l:lit:0xE1:0xD6
-feat:E1 big white l:dark:0xE1:0xD7
-
-# E1 big white m 
-feat:E1 big white m:torch:0xE1:0xD8
-feat:E1 big white m:los:0xE1:0xD9
-feat:E1 big white m:lit:0xE1:0xDA
-feat:E1 big white m:dark:0xE1:0xDB
-
-# E1 big white n 
-feat:E1 big white n:torch:0xE1:0xDC
-feat:E1 big white n:los:0xE1:0xDD
-feat:E1 big white n:lit:0xE1:0xDE
-feat:E1 big white n:dark:0xE1:0xDF
-
-# E1 big white o 
-feat:E1 big white o:torch:0xE1:0xE0
-feat:E1 big white o:los:0xE1:0xE1
-feat:E1 big white o:lit:0xE1:0xE2
-feat:E1 big white o:dark:0xE1:0xE3
-
-# E1 big white p 
-feat:E1 big white p:torch:0xE1:0xE4
-feat:E1 big white p:los:0xE1:0xE5
-feat:E1 big white p:lit:0xE1:0xE6
-feat:E1 big white p:dark:0xE1:0xE7
-
-# E1 big white q 
-feat:E1 big white q:torch:0xE1:0xE8
-feat:E1 big white q:los:0xE1:0xE9
-feat:E1 big white q:lit:0xE1:0xEA
-feat:E1 big white q:dark:0xE1:0xEB
-
-# E1 big white r 
-feat:E1 big white r:torch:0xE1:0xEC
-feat:E1 big white r:los:0xE1:0xED
-feat:E1 big white r:lit:0xE1:0xEE
-feat:E1 big white r:dark:0xE1:0xEF
-
-# E1 big white s 
-feat:E1 big white s:torch:0xE1:0xF0
-feat:E1 big white s:los:0xE1:0xF1
-feat:E1 big white s:lit:0xE1:0xF2
-feat:E1 big white s:dark:0xE1:0xF3
-
-# E1 big white t 
-feat:E1 big white t:torch:0xE1:0xF4
-feat:E1 big white t:los:0xE1:0xF5
-feat:E1 big white t:lit:0xE1:0xF6
-feat:E1 big white t:dark:0xE1:0xF7
-
-# E1 big white u 
-feat:E1 big white u:torch:0xE1:0xF8
-feat:E1 big white u:los:0xE1:0xF9
-feat:E1 big white u:lit:0xE1:0xFA
-feat:E1 big white u:dark:0xE1:0xFB
-
-# E1 big white v 
-feat:E1 big white v:torch:0xE1:0xFC
-feat:E1 big white v:los:0xE1:0xFD
-feat:E1 big white v:lit:0xE1:0xFE
-feat:E1 big white v:dark:0xE1:0xFF
-
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E2 big white
+# E1 moss wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# E2 big white w 
-feat:E2 big white w:torch:0xE2:0x80
-feat:E2 big white w:los:0xE2:0x81
-feat:E2 big white w:lit:0xE2:0x82
-feat:E2 big white w:dark:0xE2:0x83
+# E1 moss wall 0 
+feat:E1 moss wall 0:torch:0xE1:0x80
+feat:E1 moss wall 0:los:0xE1:0x81
+feat:E1 moss wall 0:lit:0xE1:0x82
+feat:E1 moss wall 0:dark:0xE1:0x83
 
-# E2 big white x 
-feat:E2 big white x:torch:0xE2:0x84
-feat:E2 big white x:los:0xE2:0x85
-feat:E2 big white x:lit:0xE2:0x86
-feat:E2 big white x:dark:0xE2:0x87
+# E1 moss wall 1 
+feat:E1 moss wall 1:torch:0xE1:0x84
+feat:E1 moss wall 1:los:0xE1:0x85
+feat:E1 moss wall 1:lit:0xE1:0x86
+feat:E1 moss wall 1:dark:0xE1:0x87
 
-# E2 big white y 
-feat:E2 big white y:torch:0xE2:0x88
-feat:E2 big white y:los:0xE2:0x89
-feat:E2 big white y:lit:0xE2:0x8A
-feat:E2 big white y:dark:0xE2:0x8B
+# E1 moss wall 2 
+feat:E1 moss wall 2:torch:0xE1:0x88
+feat:E1 moss wall 2:los:0xE1:0x89
+feat:E1 moss wall 2:lit:0xE1:0x8A
+feat:E1 moss wall 2:dark:0xE1:0x8B
 
-# E2 big white z 
-feat:E2 big white z:torch:0xE2:0x8C
-feat:E2 big white z:los:0xE2:0x8D
-feat:E2 big white z:lit:0xE2:0x8E
-feat:E2 big white z:dark:0xE2:0x8F
+# E1 moss wall 3 
+feat:E1 moss wall 3:torch:0xE1:0x8C
+feat:E1 moss wall 3:los:0xE1:0x8D
+feat:E1 moss wall 3:lit:0xE1:0x8E
+feat:E1 moss wall 3:dark:0xE1:0x8F
 
-# E2 big white A 
-feat:E2 big white A:torch:0xE2:0x90
-feat:E2 big white A:los:0xE2:0x91
-feat:E2 big white A:lit:0xE2:0x92
-feat:E2 big white A:dark:0xE2:0x93
+# E1 moss wall 4 
+feat:E1 moss wall 4:torch:0xE1:0x90
+feat:E1 moss wall 4:los:0xE1:0x91
+feat:E1 moss wall 4:lit:0xE1:0x92
+feat:E1 moss wall 4:dark:0xE1:0x93
 
-# E2 big white B 
-feat:E2 big white B:torch:0xE2:0x94
-feat:E2 big white B:los:0xE2:0x95
-feat:E2 big white B:lit:0xE2:0x96
-feat:E2 big white B:dark:0xE2:0x97
+# E1 moss wall 5 
+feat:E1 moss wall 5:torch:0xE1:0x94
+feat:E1 moss wall 5:los:0xE1:0x95
+feat:E1 moss wall 5:lit:0xE1:0x96
+feat:E1 moss wall 5:dark:0xE1:0x97
 
-# E2 big white C 
-feat:E2 big white C:torch:0xE2:0x98
-feat:E2 big white C:los:0xE2:0x99
-feat:E2 big white C:lit:0xE2:0x9A
-feat:E2 big white C:dark:0xE2:0x9B
+# E1 moss wall 6 
+feat:E1 moss wall 6:torch:0xE1:0x98
+feat:E1 moss wall 6:los:0xE1:0x99
+feat:E1 moss wall 6:lit:0xE1:0x9A
+feat:E1 moss wall 6:dark:0xE1:0x9B
 
-# E2 big white D 
-feat:E2 big white D:torch:0xE2:0x9C
-feat:E2 big white D:los:0xE2:0x9D
-feat:E2 big white D:lit:0xE2:0x9E
-feat:E2 big white D:dark:0xE2:0x9F
+# E1 moss wall 7 
+feat:E1 moss wall 7:torch:0xE1:0x9C
+feat:E1 moss wall 7:los:0xE1:0x9D
+feat:E1 moss wall 7:lit:0xE1:0x9E
+feat:E1 moss wall 7:dark:0xE1:0x9F
 
-# E2 big white E 
-feat:E2 big white E:torch:0xE2:0xA0
-feat:E2 big white E:los:0xE2:0xA1
-feat:E2 big white E:lit:0xE2:0xA2
-feat:E2 big white E:dark:0xE2:0xA3
+# E1 moss wall 8 
+feat:E1 moss wall 8:torch:0xE1:0xA0
+feat:E1 moss wall 8:los:0xE1:0xA1
+feat:E1 moss wall 8:lit:0xE1:0xA2
+feat:E1 moss wall 8:dark:0xE1:0xA3
 
-# E2 big white F 
-feat:E2 big white F:torch:0xE2:0xA4
-feat:E2 big white F:los:0xE2:0xA5
-feat:E2 big white F:lit:0xE2:0xA6
-feat:E2 big white F:dark:0xE2:0xA7
+# E1 moss wall 9 
+feat:E1 moss wall 9:torch:0xE1:0xA4
+feat:E1 moss wall 9:los:0xE1:0xA5
+feat:E1 moss wall 9:lit:0xE1:0xA6
+feat:E1 moss wall 9:dark:0xE1:0xA7
 
-# E2 big white G 
-feat:E2 big white G:torch:0xE2:0xA8
-feat:E2 big white G:los:0xE2:0xA9
-feat:E2 big white G:lit:0xE2:0xAA
-feat:E2 big white G:dark:0xE2:0xAB
+# E1 moss wall a 
+feat:E1 moss wall a:torch:0xE1:0xA8
+feat:E1 moss wall a:los:0xE1:0xA9
+feat:E1 moss wall a:lit:0xE1:0xAA
+feat:E1 moss wall a:dark:0xE1:0xAB
 
-# E2 big white H 
-feat:E2 big white H:torch:0xE2:0xAC
-feat:E2 big white H:los:0xE2:0xAD
-feat:E2 big white H:lit:0xE2:0xAE
-feat:E2 big white H:dark:0xE2:0xAF
+# E1 moss wall b 
+feat:E1 moss wall b:torch:0xE1:0xAC
+feat:E1 moss wall b:los:0xE1:0xAD
+feat:E1 moss wall b:lit:0xE1:0xAE
+feat:E1 moss wall b:dark:0xE1:0xAF
 
-# E2 big white I 
-feat:E2 big white I:torch:0xE2:0xB0
-feat:E2 big white I:los:0xE2:0xB1
-feat:E2 big white I:lit:0xE2:0xB2
-feat:E2 big white I:dark:0xE2:0xB3
+# E1 moss wall c 
+feat:E1 moss wall c:torch:0xE1:0xB0
+feat:E1 moss wall c:los:0xE1:0xB1
+feat:E1 moss wall c:lit:0xE1:0xB2
+feat:E1 moss wall c:dark:0xE1:0xB3
 
-# E2 big white J 
-feat:E2 big white J:torch:0xE2:0xB4
-feat:E2 big white J:los:0xE2:0xB5
-feat:E2 big white J:lit:0xE2:0xB6
-feat:E2 big white J:dark:0xE2:0xB7
+# E1 moss wall d 
+feat:E1 moss wall d:torch:0xE1:0xB4
+feat:E1 moss wall d:los:0xE1:0xB5
+feat:E1 moss wall d:lit:0xE1:0xB6
+feat:E1 moss wall d:dark:0xE1:0xB7
 
-# E2 big white K 
-feat:E2 big white K:torch:0xE2:0xB8
-feat:E2 big white K:los:0xE2:0xB9
-feat:E2 big white K:lit:0xE2:0xBA
-feat:E2 big white K:dark:0xE2:0xBB
+# E1 moss wall e 
+feat:E1 moss wall e:torch:0xE1:0xB8
+feat:E1 moss wall e:los:0xE1:0xB9
+feat:E1 moss wall e:lit:0xE1:0xBA
+feat:E1 moss wall e:dark:0xE1:0xBB
 
-# E2 big white L 
-feat:E2 big white L:torch:0xE2:0xBC
-feat:E2 big white L:los:0xE2:0xBD
-feat:E2 big white L:lit:0xE2:0xBE
-feat:E2 big white L:dark:0xE2:0xBF
+# E1 moss wall f 
+feat:E1 moss wall f:torch:0xE1:0xBC
+feat:E1 moss wall f:los:0xE1:0xBD
+feat:E1 moss wall f:lit:0xE1:0xBE
+feat:E1 moss wall f:dark:0xE1:0xBF
 
-# E2 big white M 
-feat:E2 big white M:torch:0xE2:0xC0
-feat:E2 big white M:los:0xE2:0xC1
-feat:E2 big white M:lit:0xE2:0xC2
-feat:E2 big white M:dark:0xE2:0xC3
+# E1 moss wall g 
+feat:E1 moss wall g:torch:0xE1:0xC0
+feat:E1 moss wall g:los:0xE1:0xC1
+feat:E1 moss wall g:lit:0xE1:0xC2
+feat:E1 moss wall g:dark:0xE1:0xC3
 
-# E2 big white N 
-feat:E2 big white N:torch:0xE2:0xC4
-feat:E2 big white N:los:0xE2:0xC5
-feat:E2 big white N:lit:0xE2:0xC6
-feat:E2 big white N:dark:0xE2:0xC7
+# E1 moss wall h 
+feat:E1 moss wall h:torch:0xE1:0xC4
+feat:E1 moss wall h:los:0xE1:0xC5
+feat:E1 moss wall h:lit:0xE1:0xC6
+feat:E1 moss wall h:dark:0xE1:0xC7
 
-# E2 big white O 
-feat:E2 big white O:torch:0xE2:0xC8
-feat:E2 big white O:los:0xE2:0xC9
-feat:E2 big white O:lit:0xE2:0xCA
-feat:E2 big white O:dark:0xE2:0xCB
+# E1 moss wall i 
+feat:E1 moss wall i:torch:0xE1:0xC8
+feat:E1 moss wall i:los:0xE1:0xC9
+feat:E1 moss wall i:lit:0xE1:0xCA
+feat:E1 moss wall i:dark:0xE1:0xCB
 
-# E2 big white P 
-feat:E2 big white P:torch:0xE2:0xCC
-feat:E2 big white P:los:0xE2:0xCD
-feat:E2 big white P:lit:0xE2:0xCE
-feat:E2 big white P:dark:0xE2:0xCF
+# E1 moss wall j 
+feat:E1 moss wall j:torch:0xE1:0xCC
+feat:E1 moss wall j:los:0xE1:0xCD
+feat:E1 moss wall j:lit:0xE1:0xCE
+feat:E1 moss wall j:dark:0xE1:0xCF
 
-# E2 big white Q 
-feat:E2 big white Q:torch:0xE2:0xD0
-feat:E2 big white Q:los:0xE2:0xD1
-feat:E2 big white Q:lit:0xE2:0xD2
-feat:E2 big white Q:dark:0xE2:0xD3
+# E1 moss wall k 
+feat:E1 moss wall k:torch:0xE1:0xD0
+feat:E1 moss wall k:los:0xE1:0xD1
+feat:E1 moss wall k:lit:0xE1:0xD2
+feat:E1 moss wall k:dark:0xE1:0xD3
 
-# E2 big white R 
-feat:E2 big white R:torch:0xE2:0xD4
-feat:E2 big white R:los:0xE2:0xD5
-feat:E2 big white R:lit:0xE2:0xD6
-feat:E2 big white R:dark:0xE2:0xD7
+# E1 moss wall l 
+feat:E1 moss wall l:torch:0xE1:0xD4
+feat:E1 moss wall l:los:0xE1:0xD5
+feat:E1 moss wall l:lit:0xE1:0xD6
+feat:E1 moss wall l:dark:0xE1:0xD7
 
-# E2 big white S 
-feat:E2 big white S:torch:0xE2:0xD8
-feat:E2 big white S:los:0xE2:0xD9
-feat:E2 big white S:lit:0xE2:0xDA
-feat:E2 big white S:dark:0xE2:0xDB
+# E1 moss wall m 
+feat:E1 moss wall m:torch:0xE1:0xD8
+feat:E1 moss wall m:los:0xE1:0xD9
+feat:E1 moss wall m:lit:0xE1:0xDA
+feat:E1 moss wall m:dark:0xE1:0xDB
 
-# E2 big white T 
-feat:E2 big white T:torch:0xE2:0xDC
-feat:E2 big white T:los:0xE2:0xDD
-feat:E2 big white T:lit:0xE2:0xDE
-feat:E2 big white T:dark:0xE2:0xDF
+# E1 moss wall n 
+feat:E1 moss wall n:torch:0xE1:0xDC
+feat:E1 moss wall n:los:0xE1:0xDD
+feat:E1 moss wall n:lit:0xE1:0xDE
+feat:E1 moss wall n:dark:0xE1:0xDF
 
-# E2 big white U 
-feat:E2 big white U:torch:0xE2:0xE0
-feat:E2 big white U:los:0xE2:0xE1
-feat:E2 big white U:lit:0xE2:0xE2
-feat:E2 big white U:dark:0xE2:0xE3
+# E1 moss wall o 
+feat:E1 moss wall o:torch:0xE1:0xE0
+feat:E1 moss wall o:los:0xE1:0xE1
+feat:E1 moss wall o:lit:0xE1:0xE2
+feat:E1 moss wall o:dark:0xE1:0xE3
 
-# E2 big white V 
-feat:E2 big white V:torch:0xE2:0xE4
-feat:E2 big white V:los:0xE2:0xE5
-feat:E2 big white V:lit:0xE2:0xE6
-feat:E2 big white V:dark:0xE2:0xE7
+# E1 moss wall p 
+feat:E1 moss wall p:torch:0xE1:0xE4
+feat:E1 moss wall p:los:0xE1:0xE5
+feat:E1 moss wall p:lit:0xE1:0xE6
+feat:E1 moss wall p:dark:0xE1:0xE7
 
-# E2 big white W 
-feat:E2 big white W:torch:0xE2:0xE8
-feat:E2 big white W:los:0xE2:0xE9
-feat:E2 big white W:lit:0xE2:0xEA
-feat:E2 big white W:dark:0xE2:0xEB
+# E1 moss wall q 
+feat:E1 moss wall q:torch:0xE1:0xE8
+feat:E1 moss wall q:los:0xE1:0xE9
+feat:E1 moss wall q:lit:0xE1:0xEA
+feat:E1 moss wall q:dark:0xE1:0xEB
 
-# E2 big white X 
-feat:E2 big white X:torch:0xE2:0xEC
-feat:E2 big white X:los:0xE2:0xED
-feat:E2 big white X:lit:0xE2:0xEE
-feat:E2 big white X:dark:0xE2:0xEF
+# E1 moss wall r 
+feat:E1 moss wall r:torch:0xE1:0xEC
+feat:E1 moss wall r:los:0xE1:0xED
+feat:E1 moss wall r:lit:0xE1:0xEE
+feat:E1 moss wall r:dark:0xE1:0xEF
 
-# E2 big white Y 
-feat:E2 big white Y:torch:0xE2:0xF0
-feat:E2 big white Y:los:0xE2:0xF1
-feat:E2 big white Y:lit:0xE2:0xF2
-feat:E2 big white Y:dark:0xE2:0xF3
+# E1 moss wall s 
+feat:E1 moss wall s:torch:0xE1:0xF0
+feat:E1 moss wall s:los:0xE1:0xF1
+feat:E1 moss wall s:lit:0xE1:0xF2
+feat:E1 moss wall s:dark:0xE1:0xF3
 
-# E2 big white Z 
-feat:E2 big white Z:torch:0xE2:0xF4
-feat:E2 big white Z:los:0xE2:0xF5
-feat:E2 big white Z:lit:0xE2:0xF6
-feat:E2 big white Z:dark:0xE2:0xF7
+# E1 moss wall t 
+feat:E1 moss wall t:torch:0xE1:0xF4
+feat:E1 moss wall t:los:0xE1:0xF5
+feat:E1 moss wall t:lit:0xE1:0xF6
+feat:E1 moss wall t:dark:0xE1:0xF7
 
-# E2 big white ~ 
-feat:E2 big white ~:torch:0xE2:0xF8
-feat:E2 big white ~:los:0xE2:0xF9
-feat:E2 big white ~:lit:0xE2:0xFA
-feat:E2 big white ~:dark:0xE2:0xFB
+# E1 moss wall u 
+feat:E1 moss wall u:torch:0xE1:0xF8
+feat:E1 moss wall u:los:0xE1:0xF9
+feat:E1 moss wall u:lit:0xE1:0xFA
+feat:E1 moss wall u:dark:0xE1:0xFB
 
-# E2 big white ` 
-feat:E2 big white `:torch:0xE2:0xFC
-feat:E2 big white `:los:0xE2:0xFD
-feat:E2 big white `:lit:0xE2:0xFE
-feat:E2 big white `:dark:0xE2:0xFF
+# E1 moss wall v 
+feat:E1 moss wall v:torch:0xE1:0xFC
+feat:E1 moss wall v:los:0xE1:0xFD
+feat:E1 moss wall v:lit:0xE1:0xFE
+feat:E1 moss wall v:dark:0xE1:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E3 big dark
+# E2 jail wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# E3 big dark 0 
-feat:E3 big dark 0:torch:0xE3:0x80
-feat:E3 big dark 0:los:0xE3:0x81
-feat:E3 big dark 0:lit:0xE3:0x82
-feat:E3 big dark 0:dark:0xE3:0x83
+# E2 jail wall w 
+feat:E2 jail wall w:torch:0xE2:0x80
+feat:E2 jail wall w:los:0xE2:0x81
+feat:E2 jail wall w:lit:0xE2:0x82
+feat:E2 jail wall w:dark:0xE2:0x83
 
-# E3 big dark 1 
-feat:E3 big dark 1:torch:0xE3:0x84
-feat:E3 big dark 1:los:0xE3:0x85
-feat:E3 big dark 1:lit:0xE3:0x86
-feat:E3 big dark 1:dark:0xE3:0x87
+# E2 jail wall x 
+feat:E2 jail wall x:torch:0xE2:0x84
+feat:E2 jail wall x:los:0xE2:0x85
+feat:E2 jail wall x:lit:0xE2:0x86
+feat:E2 jail wall x:dark:0xE2:0x87
 
-# E3 big dark 2 
-feat:E3 big dark 2:torch:0xE3:0x88
-feat:E3 big dark 2:los:0xE3:0x89
-feat:E3 big dark 2:lit:0xE3:0x8A
-feat:E3 big dark 2:dark:0xE3:0x8B
+# E2 jail wall y 
+feat:E2 jail wall y:torch:0xE2:0x88
+feat:E2 jail wall y:los:0xE2:0x89
+feat:E2 jail wall y:lit:0xE2:0x8A
+feat:E2 jail wall y:dark:0xE2:0x8B
 
-# E3 big dark 3 
-feat:E3 big dark 3:torch:0xE3:0x8C
-feat:E3 big dark 3:los:0xE3:0x8D
-feat:E3 big dark 3:lit:0xE3:0x8E
-feat:E3 big dark 3:dark:0xE3:0x8F
+# E2 jail wall z 
+feat:E2 jail wall z:torch:0xE2:0x8C
+feat:E2 jail wall z:los:0xE2:0x8D
+feat:E2 jail wall z:lit:0xE2:0x8E
+feat:E2 jail wall z:dark:0xE2:0x8F
 
-# E3 big dark 4 
-feat:E3 big dark 4:torch:0xE3:0x90
-feat:E3 big dark 4:los:0xE3:0x91
-feat:E3 big dark 4:lit:0xE3:0x92
-feat:E3 big dark 4:dark:0xE3:0x93
+# E2 jail wall A 
+feat:E2 jail wall A:torch:0xE2:0x90
+feat:E2 jail wall A:los:0xE2:0x91
+feat:E2 jail wall A:lit:0xE2:0x92
+feat:E2 jail wall A:dark:0xE2:0x93
 
-# E3 big dark 5 
-feat:E3 big dark 5:torch:0xE3:0x94
-feat:E3 big dark 5:los:0xE3:0x95
-feat:E3 big dark 5:lit:0xE3:0x96
-feat:E3 big dark 5:dark:0xE3:0x97
+# E2 jail wall B 
+feat:E2 jail wall B:torch:0xE2:0x94
+feat:E2 jail wall B:los:0xE2:0x95
+feat:E2 jail wall B:lit:0xE2:0x96
+feat:E2 jail wall B:dark:0xE2:0x97
 
-# E3 big dark 6 
-feat:E3 big dark 6:torch:0xE3:0x98
-feat:E3 big dark 6:los:0xE3:0x99
-feat:E3 big dark 6:lit:0xE3:0x9A
-feat:E3 big dark 6:dark:0xE3:0x9B
+# E2 jail wall C 
+feat:E2 jail wall C:torch:0xE2:0x98
+feat:E2 jail wall C:los:0xE2:0x99
+feat:E2 jail wall C:lit:0xE2:0x9A
+feat:E2 jail wall C:dark:0xE2:0x9B
 
-# E3 big dark 7 
-feat:E3 big dark 7:torch:0xE3:0x9C
-feat:E3 big dark 7:los:0xE3:0x9D
-feat:E3 big dark 7:lit:0xE3:0x9E
-feat:E3 big dark 7:dark:0xE3:0x9F
+# E2 jail wall D 
+feat:E2 jail wall D:torch:0xE2:0x9C
+feat:E2 jail wall D:los:0xE2:0x9D
+feat:E2 jail wall D:lit:0xE2:0x9E
+feat:E2 jail wall D:dark:0xE2:0x9F
 
-# E3 big dark 8 
-feat:E3 big dark 8:torch:0xE3:0xA0
-feat:E3 big dark 8:los:0xE3:0xA1
-feat:E3 big dark 8:lit:0xE3:0xA2
-feat:E3 big dark 8:dark:0xE3:0xA3
+# E2 jail wall E 
+feat:E2 jail wall E:torch:0xE2:0xA0
+feat:E2 jail wall E:los:0xE2:0xA1
+feat:E2 jail wall E:lit:0xE2:0xA2
+feat:E2 jail wall E:dark:0xE2:0xA3
 
-# E3 big dark 9 
-feat:E3 big dark 9:torch:0xE3:0xA4
-feat:E3 big dark 9:los:0xE3:0xA5
-feat:E3 big dark 9:lit:0xE3:0xA6
-feat:E3 big dark 9:dark:0xE3:0xA7
+# E2 jail wall F 
+feat:E2 jail wall F:torch:0xE2:0xA4
+feat:E2 jail wall F:los:0xE2:0xA5
+feat:E2 jail wall F:lit:0xE2:0xA6
+feat:E2 jail wall F:dark:0xE2:0xA7
 
-# E3 big dark a 
-feat:E3 big dark a:torch:0xE3:0xA8
-feat:E3 big dark a:los:0xE3:0xA9
-feat:E3 big dark a:lit:0xE3:0xAA
-feat:E3 big dark a:dark:0xE3:0xAB
+# E2 jail wall G 
+feat:E2 jail wall G:torch:0xE2:0xA8
+feat:E2 jail wall G:los:0xE2:0xA9
+feat:E2 jail wall G:lit:0xE2:0xAA
+feat:E2 jail wall G:dark:0xE2:0xAB
 
-# E3 big dark b 
-feat:E3 big dark b:torch:0xE3:0xAC
-feat:E3 big dark b:los:0xE3:0xAD
-feat:E3 big dark b:lit:0xE3:0xAE
-feat:E3 big dark b:dark:0xE3:0xAF
+# E2 jail wall H 
+feat:E2 jail wall H:torch:0xE2:0xAC
+feat:E2 jail wall H:los:0xE2:0xAD
+feat:E2 jail wall H:lit:0xE2:0xAE
+feat:E2 jail wall H:dark:0xE2:0xAF
 
-# E3 big dark c 
-feat:E3 big dark c:torch:0xE3:0xB0
-feat:E3 big dark c:los:0xE3:0xB1
-feat:E3 big dark c:lit:0xE3:0xB2
-feat:E3 big dark c:dark:0xE3:0xB3
+# E2 jail wall I 
+feat:E2 jail wall I:torch:0xE2:0xB0
+feat:E2 jail wall I:los:0xE2:0xB1
+feat:E2 jail wall I:lit:0xE2:0xB2
+feat:E2 jail wall I:dark:0xE2:0xB3
 
-# E3 big dark d 
-feat:E3 big dark d:torch:0xE3:0xB4
-feat:E3 big dark d:los:0xE3:0xB5
-feat:E3 big dark d:lit:0xE3:0xB6
-feat:E3 big dark d:dark:0xE3:0xB7
+# E2 jail wall J 
+feat:E2 jail wall J:torch:0xE2:0xB4
+feat:E2 jail wall J:los:0xE2:0xB5
+feat:E2 jail wall J:lit:0xE2:0xB6
+feat:E2 jail wall J:dark:0xE2:0xB7
 
-# E3 big dark e 
-feat:E3 big dark e:torch:0xE3:0xB8
-feat:E3 big dark e:los:0xE3:0xB9
-feat:E3 big dark e:lit:0xE3:0xBA
-feat:E3 big dark e:dark:0xE3:0xBB
+# E2 jail wall K 
+feat:E2 jail wall K:torch:0xE2:0xB8
+feat:E2 jail wall K:los:0xE2:0xB9
+feat:E2 jail wall K:lit:0xE2:0xBA
+feat:E2 jail wall K:dark:0xE2:0xBB
 
-# E3 big dark f 
-feat:E3 big dark f:torch:0xE3:0xBC
-feat:E3 big dark f:los:0xE3:0xBD
-feat:E3 big dark f:lit:0xE3:0xBE
-feat:E3 big dark f:dark:0xE3:0xBF
+# E2 jail wall L 
+feat:E2 jail wall L:torch:0xE2:0xBC
+feat:E2 jail wall L:los:0xE2:0xBD
+feat:E2 jail wall L:lit:0xE2:0xBE
+feat:E2 jail wall L:dark:0xE2:0xBF
 
-# E3 big dark g 
-feat:E3 big dark g:torch:0xE3:0xC0
-feat:E3 big dark g:los:0xE3:0xC1
-feat:E3 big dark g:lit:0xE3:0xC2
-feat:E3 big dark g:dark:0xE3:0xC3
+# E2 jail wall M 
+feat:E2 jail wall M:torch:0xE2:0xC0
+feat:E2 jail wall M:los:0xE2:0xC1
+feat:E2 jail wall M:lit:0xE2:0xC2
+feat:E2 jail wall M:dark:0xE2:0xC3
 
-# E3 big dark h 
-feat:E3 big dark h:torch:0xE3:0xC4
-feat:E3 big dark h:los:0xE3:0xC5
-feat:E3 big dark h:lit:0xE3:0xC6
-feat:E3 big dark h:dark:0xE3:0xC7
+# E2 jail wall N 
+feat:E2 jail wall N:torch:0xE2:0xC4
+feat:E2 jail wall N:los:0xE2:0xC5
+feat:E2 jail wall N:lit:0xE2:0xC6
+feat:E2 jail wall N:dark:0xE2:0xC7
 
-# E3 big dark i 
-feat:E3 big dark i:torch:0xE3:0xC8
-feat:E3 big dark i:los:0xE3:0xC9
-feat:E3 big dark i:lit:0xE3:0xCA
-feat:E3 big dark i:dark:0xE3:0xCB
+# E2 jail wall O 
+feat:E2 jail wall O:torch:0xE2:0xC8
+feat:E2 jail wall O:los:0xE2:0xC9
+feat:E2 jail wall O:lit:0xE2:0xCA
+feat:E2 jail wall O:dark:0xE2:0xCB
 
-# E3 big dark j 
-feat:E3 big dark j:torch:0xE3:0xCC
-feat:E3 big dark j:los:0xE3:0xCD
-feat:E3 big dark j:lit:0xE3:0xCE
-feat:E3 big dark j:dark:0xE3:0xCF
+# E2 jail wall P 
+feat:E2 jail wall P:torch:0xE2:0xCC
+feat:E2 jail wall P:los:0xE2:0xCD
+feat:E2 jail wall P:lit:0xE2:0xCE
+feat:E2 jail wall P:dark:0xE2:0xCF
 
-# E3 big dark k 
-feat:E3 big dark k:torch:0xE3:0xD0
-feat:E3 big dark k:los:0xE3:0xD1
-feat:E3 big dark k:lit:0xE3:0xD2
-feat:E3 big dark k:dark:0xE3:0xD3
+# E2 jail wall Q 
+feat:E2 jail wall Q:torch:0xE2:0xD0
+feat:E2 jail wall Q:los:0xE2:0xD1
+feat:E2 jail wall Q:lit:0xE2:0xD2
+feat:E2 jail wall Q:dark:0xE2:0xD3
 
-# E3 big dark l 
-feat:E3 big dark l:torch:0xE3:0xD4
-feat:E3 big dark l:los:0xE3:0xD5
-feat:E3 big dark l:lit:0xE3:0xD6
-feat:E3 big dark l:dark:0xE3:0xD7
+# E2 jail wall R 
+feat:E2 jail wall R:torch:0xE2:0xD4
+feat:E2 jail wall R:los:0xE2:0xD5
+feat:E2 jail wall R:lit:0xE2:0xD6
+feat:E2 jail wall R:dark:0xE2:0xD7
 
-# E3 big dark m 
-feat:E3 big dark m:torch:0xE3:0xD8
-feat:E3 big dark m:los:0xE3:0xD9
-feat:E3 big dark m:lit:0xE3:0xDA
-feat:E3 big dark m:dark:0xE3:0xDB
+# E2 jail wall S 
+feat:E2 jail wall S:torch:0xE2:0xD8
+feat:E2 jail wall S:los:0xE2:0xD9
+feat:E2 jail wall S:lit:0xE2:0xDA
+feat:E2 jail wall S:dark:0xE2:0xDB
 
-# E3 big dark n 
-feat:E3 big dark n:torch:0xE3:0xDC
-feat:E3 big dark n:los:0xE3:0xDD
-feat:E3 big dark n:lit:0xE3:0xDE
-feat:E3 big dark n:dark:0xE3:0xDF
+# E2 jail wall T 
+feat:E2 jail wall T:torch:0xE2:0xDC
+feat:E2 jail wall T:los:0xE2:0xDD
+feat:E2 jail wall T:lit:0xE2:0xDE
+feat:E2 jail wall T:dark:0xE2:0xDF
 
-# E3 big dark o 
-feat:E3 big dark o:torch:0xE3:0xE0
-feat:E3 big dark o:los:0xE3:0xE1
-feat:E3 big dark o:lit:0xE3:0xE2
-feat:E3 big dark o:dark:0xE3:0xE3
+# E2 jail wall U 
+feat:E2 jail wall U:torch:0xE2:0xE0
+feat:E2 jail wall U:los:0xE2:0xE1
+feat:E2 jail wall U:lit:0xE2:0xE2
+feat:E2 jail wall U:dark:0xE2:0xE3
 
-# E3 big dark p 
-feat:E3 big dark p:torch:0xE3:0xE4
-feat:E3 big dark p:los:0xE3:0xE5
-feat:E3 big dark p:lit:0xE3:0xE6
-feat:E3 big dark p:dark:0xE3:0xE7
+# E2 jail wall V 
+feat:E2 jail wall V:torch:0xE2:0xE4
+feat:E2 jail wall V:los:0xE2:0xE5
+feat:E2 jail wall V:lit:0xE2:0xE6
+feat:E2 jail wall V:dark:0xE2:0xE7
 
-# E3 big dark q 
-feat:E3 big dark q:torch:0xE3:0xE8
-feat:E3 big dark q:los:0xE3:0xE9
-feat:E3 big dark q:lit:0xE3:0xEA
-feat:E3 big dark q:dark:0xE3:0xEB
+# E2 jail wall W 
+feat:E2 jail wall W:torch:0xE2:0xE8
+feat:E2 jail wall W:los:0xE2:0xE9
+feat:E2 jail wall W:lit:0xE2:0xEA
+feat:E2 jail wall W:dark:0xE2:0xEB
 
-# E3 big dark r 
-feat:E3 big dark r:torch:0xE3:0xEC
-feat:E3 big dark r:los:0xE3:0xED
-feat:E3 big dark r:lit:0xE3:0xEE
-feat:E3 big dark r:dark:0xE3:0xEF
+# E2 jail wall X 
+feat:E2 jail wall X:torch:0xE2:0xEC
+feat:E2 jail wall X:los:0xE2:0xED
+feat:E2 jail wall X:lit:0xE2:0xEE
+feat:E2 jail wall X:dark:0xE2:0xEF
 
-# E3 big dark s 
-feat:E3 big dark s:torch:0xE3:0xF0
-feat:E3 big dark s:los:0xE3:0xF1
-feat:E3 big dark s:lit:0xE3:0xF2
-feat:E3 big dark s:dark:0xE3:0xF3
+# E2 jail wall Y 
+feat:E2 jail wall Y:torch:0xE2:0xF0
+feat:E2 jail wall Y:los:0xE2:0xF1
+feat:E2 jail wall Y:lit:0xE2:0xF2
+feat:E2 jail wall Y:dark:0xE2:0xF3
 
-# E3 big dark t 
-feat:E3 big dark t:torch:0xE3:0xF4
-feat:E3 big dark t:los:0xE3:0xF5
-feat:E3 big dark t:lit:0xE3:0xF6
-feat:E3 big dark t:dark:0xE3:0xF7
+# E2 jail wall Z 
+feat:E2 jail wall Z:torch:0xE2:0xF4
+feat:E2 jail wall Z:los:0xE2:0xF5
+feat:E2 jail wall Z:lit:0xE2:0xF6
+feat:E2 jail wall Z:dark:0xE2:0xF7
 
-# E3 big dark u 
-feat:E3 big dark u:torch:0xE3:0xF8
-feat:E3 big dark u:los:0xE3:0xF9
-feat:E3 big dark u:lit:0xE3:0xFA
-feat:E3 big dark u:dark:0xE3:0xFB
+# E2 jail wall ~ 
+feat:E2 jail wall ~:torch:0xE2:0xF8
+feat:E2 jail wall ~:los:0xE2:0xF9
+feat:E2 jail wall ~:lit:0xE2:0xFA
+feat:E2 jail wall ~:dark:0xE2:0xFB
 
-# E3 big dark v 
-feat:E3 big dark v:torch:0xE3:0xFC
-feat:E3 big dark v:los:0xE3:0xFD
-feat:E3 big dark v:lit:0xE3:0xFE
-feat:E3 big dark v:dark:0xE3:0xFF
+# E2 jail wall ` 
+feat:E2 jail wall `:torch:0xE2:0xFC
+feat:E2 jail wall `:los:0xE2:0xFD
+feat:E2 jail wall `:lit:0xE2:0xFE
+feat:E2 jail wall `:dark:0xE2:0xFF
+
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E3 dungeon wall
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# E3 dungeon wall 0 
+feat:E3 dungeon wall 0:torch:0xE3:0x80
+feat:E3 dungeon wall 0:los:0xE3:0x81
+feat:E3 dungeon wall 0:lit:0xE3:0x82
+feat:E3 dungeon wall 0:dark:0xE3:0x83
+
+# E3 dungeon wall 1 
+feat:E3 dungeon wall 1:torch:0xE3:0x84
+feat:E3 dungeon wall 1:los:0xE3:0x85
+feat:E3 dungeon wall 1:lit:0xE3:0x86
+feat:E3 dungeon wall 1:dark:0xE3:0x87
+
+# E3 dungeon wall 2 
+feat:E3 dungeon wall 2:torch:0xE3:0x88
+feat:E3 dungeon wall 2:los:0xE3:0x89
+feat:E3 dungeon wall 2:lit:0xE3:0x8A
+feat:E3 dungeon wall 2:dark:0xE3:0x8B
+
+# E3 dungeon wall 3 
+feat:E3 dungeon wall 3:torch:0xE3:0x8C
+feat:E3 dungeon wall 3:los:0xE3:0x8D
+feat:E3 dungeon wall 3:lit:0xE3:0x8E
+feat:E3 dungeon wall 3:dark:0xE3:0x8F
+
+# E3 dungeon wall 4 
+feat:E3 dungeon wall 4:torch:0xE3:0x90
+feat:E3 dungeon wall 4:los:0xE3:0x91
+feat:E3 dungeon wall 4:lit:0xE3:0x92
+feat:E3 dungeon wall 4:dark:0xE3:0x93
+
+# E3 dungeon wall 5 
+feat:E3 dungeon wall 5:torch:0xE3:0x94
+feat:E3 dungeon wall 5:los:0xE3:0x95
+feat:E3 dungeon wall 5:lit:0xE3:0x96
+feat:E3 dungeon wall 5:dark:0xE3:0x97
+
+# E3 dungeon wall 6 
+feat:E3 dungeon wall 6:torch:0xE3:0x98
+feat:E3 dungeon wall 6:los:0xE3:0x99
+feat:E3 dungeon wall 6:lit:0xE3:0x9A
+feat:E3 dungeon wall 6:dark:0xE3:0x9B
+
+# E3 dungeon wall 7 
+feat:E3 dungeon wall 7:torch:0xE3:0x9C
+feat:E3 dungeon wall 7:los:0xE3:0x9D
+feat:E3 dungeon wall 7:lit:0xE3:0x9E
+feat:E3 dungeon wall 7:dark:0xE3:0x9F
+
+# E3 dungeon wall 8 
+feat:E3 dungeon wall 8:torch:0xE3:0xA0
+feat:E3 dungeon wall 8:los:0xE3:0xA1
+feat:E3 dungeon wall 8:lit:0xE3:0xA2
+feat:E3 dungeon wall 8:dark:0xE3:0xA3
+
+# E3 dungeon wall 9 
+feat:E3 dungeon wall 9:torch:0xE3:0xA4
+feat:E3 dungeon wall 9:los:0xE3:0xA5
+feat:E3 dungeon wall 9:lit:0xE3:0xA6
+feat:E3 dungeon wall 9:dark:0xE3:0xA7
+
+# E3 dungeon wall a 
+feat:E3 dungeon wall a:torch:0xE3:0xA8
+feat:E3 dungeon wall a:los:0xE3:0xA9
+feat:E3 dungeon wall a:lit:0xE3:0xAA
+feat:E3 dungeon wall a:dark:0xE3:0xAB
+
+# E3 dungeon wall b 
+feat:E3 dungeon wall b:torch:0xE3:0xAC
+feat:E3 dungeon wall b:los:0xE3:0xAD
+feat:E3 dungeon wall b:lit:0xE3:0xAE
+feat:E3 dungeon wall b:dark:0xE3:0xAF
+
+# E3 dungeon wall c 
+feat:E3 dungeon wall c:torch:0xE3:0xB0
+feat:E3 dungeon wall c:los:0xE3:0xB1
+feat:E3 dungeon wall c:lit:0xE3:0xB2
+feat:E3 dungeon wall c:dark:0xE3:0xB3
+
+# E3 dungeon wall d 
+feat:E3 dungeon wall d:torch:0xE3:0xB4
+feat:E3 dungeon wall d:los:0xE3:0xB5
+feat:E3 dungeon wall d:lit:0xE3:0xB6
+feat:E3 dungeon wall d:dark:0xE3:0xB7
+
+# E3 dungeon wall e 
+feat:E3 dungeon wall e:torch:0xE3:0xB8
+feat:E3 dungeon wall e:los:0xE3:0xB9
+feat:E3 dungeon wall e:lit:0xE3:0xBA
+feat:E3 dungeon wall e:dark:0xE3:0xBB
+
+# E3 dungeon wall f 
+feat:E3 dungeon wall f:torch:0xE3:0xBC
+feat:E3 dungeon wall f:los:0xE3:0xBD
+feat:E3 dungeon wall f:lit:0xE3:0xBE
+feat:E3 dungeon wall f:dark:0xE3:0xBF
+
+# E3 dungeon wall g 
+feat:E3 dungeon wall g:torch:0xE3:0xC0
+feat:E3 dungeon wall g:los:0xE3:0xC1
+feat:E3 dungeon wall g:lit:0xE3:0xC2
+feat:E3 dungeon wall g:dark:0xE3:0xC3
+
+# E3 dungeon wall h 
+feat:E3 dungeon wall h:torch:0xE3:0xC4
+feat:E3 dungeon wall h:los:0xE3:0xC5
+feat:E3 dungeon wall h:lit:0xE3:0xC6
+feat:E3 dungeon wall h:dark:0xE3:0xC7
+
+# E3 dungeon wall i 
+feat:E3 dungeon wall i:torch:0xE3:0xC8
+feat:E3 dungeon wall i:los:0xE3:0xC9
+feat:E3 dungeon wall i:lit:0xE3:0xCA
+feat:E3 dungeon wall i:dark:0xE3:0xCB
+
+# E3 dungeon wall j 
+feat:E3 dungeon wall j:torch:0xE3:0xCC
+feat:E3 dungeon wall j:los:0xE3:0xCD
+feat:E3 dungeon wall j:lit:0xE3:0xCE
+feat:E3 dungeon wall j:dark:0xE3:0xCF
+
+# E3 dungeon wall k 
+feat:E3 dungeon wall k:torch:0xE3:0xD0
+feat:E3 dungeon wall k:los:0xE3:0xD1
+feat:E3 dungeon wall k:lit:0xE3:0xD2
+feat:E3 dungeon wall k:dark:0xE3:0xD3
+
+# E3 dungeon wall l 
+feat:E3 dungeon wall l:torch:0xE3:0xD4
+feat:E3 dungeon wall l:los:0xE3:0xD5
+feat:E3 dungeon wall l:lit:0xE3:0xD6
+feat:E3 dungeon wall l:dark:0xE3:0xD7
+
+# E3 dungeon wall m 
+feat:E3 dungeon wall m:torch:0xE3:0xD8
+feat:E3 dungeon wall m:los:0xE3:0xD9
+feat:E3 dungeon wall m:lit:0xE3:0xDA
+feat:E3 dungeon wall m:dark:0xE3:0xDB
+
+# E3 dungeon wall n 
+feat:E3 dungeon wall n:torch:0xE3:0xDC
+feat:E3 dungeon wall n:los:0xE3:0xDD
+feat:E3 dungeon wall n:lit:0xE3:0xDE
+feat:E3 dungeon wall n:dark:0xE3:0xDF
+
+# E3 dungeon wall o 
+feat:E3 dungeon wall o:torch:0xE3:0xE0
+feat:E3 dungeon wall o:los:0xE3:0xE1
+feat:E3 dungeon wall o:lit:0xE3:0xE2
+feat:E3 dungeon wall o:dark:0xE3:0xE3
+
+# E3 dungeon wall p 
+feat:E3 dungeon wall p:torch:0xE3:0xE4
+feat:E3 dungeon wall p:los:0xE3:0xE5
+feat:E3 dungeon wall p:lit:0xE3:0xE6
+feat:E3 dungeon wall p:dark:0xE3:0xE7
+
+# E3 dungeon wall q 
+feat:E3 dungeon wall q:torch:0xE3:0xE8
+feat:E3 dungeon wall q:los:0xE3:0xE9
+feat:E3 dungeon wall q:lit:0xE3:0xEA
+feat:E3 dungeon wall q:dark:0xE3:0xEB
+
+# E3 dungeon wall r 
+feat:E3 dungeon wall r:torch:0xE3:0xEC
+feat:E3 dungeon wall r:los:0xE3:0xED
+feat:E3 dungeon wall r:lit:0xE3:0xEE
+feat:E3 dungeon wall r:dark:0xE3:0xEF
+
+# E3 dungeon wall s 
+feat:E3 dungeon wall s:torch:0xE3:0xF0
+feat:E3 dungeon wall s:los:0xE3:0xF1
+feat:E3 dungeon wall s:lit:0xE3:0xF2
+feat:E3 dungeon wall s:dark:0xE3:0xF3
+
+# E3 dungeon wall t 
+feat:E3 dungeon wall t:torch:0xE3:0xF4
+feat:E3 dungeon wall t:los:0xE3:0xF5
+feat:E3 dungeon wall t:lit:0xE3:0xF6
+feat:E3 dungeon wall t:dark:0xE3:0xF7
+
+# E3 dungeon wall u 
+feat:E3 dungeon wall u:torch:0xE3:0xF8
+feat:E3 dungeon wall u:los:0xE3:0xF9
+feat:E3 dungeon wall u:lit:0xE3:0xFA
+feat:E3 dungeon wall u:dark:0xE3:0xFB
+
+# E3 dungeon wall v 
+feat:E3 dungeon wall v:torch:0xE3:0xFC
+feat:E3 dungeon wall v:los:0xE3:0xFD
+feat:E3 dungeon wall v:lit:0xE3:0xFE
+feat:E3 dungeon wall v:dark:0xE3:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

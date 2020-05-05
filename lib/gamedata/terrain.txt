@@ -19552,585 +19552,292 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E1 big white
+# E1 moss wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-name:E1 big white 0
+name:E1 moss wall 0
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 1
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 2
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 3
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 4
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 5
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 6
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 7
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 8
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white 9
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white a
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white b
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white c
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white d
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white e
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white f
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white g
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white h
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white i
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white j
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white k
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white l
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white m
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white n
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white o
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white p
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white q
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white r
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white s
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white t
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white u
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-name:E1 big white v
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:4
-short-desc:window
-desc:.
-
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E2 big white
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-name:E2 big white w
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white x
+name:E1 moss wall 1
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white y
+name:E1 moss wall 2
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white z
+name:E1 moss wall 3
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white A
+name:E1 moss wall 4
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white B
+name:E1 moss wall 5
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white C
+name:E1 moss wall 6
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white D
+name:E1 moss wall 7
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white E
+name:E1 moss wall 8
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white F
+name:E1 moss wall 9
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white G
+name:E1 moss wall a
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white H
+name:E1 moss wall b
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white I
+name:E1 moss wall c
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white J
+name:E1 moss wall d
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white K
+name:E1 moss wall e
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white L
+name:E1 moss wall f
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white M
+name:E1 moss wall g
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white N
+name:E1 moss wall h
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white O
+name:E1 moss wall i
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white P
+name:E1 moss wall j
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white Q
+name:E1 moss wall k
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white R
+name:E1 moss wall l
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white S
+name:E1 moss wall m
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white T
+name:E1 moss wall n
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white U
+name:E1 moss wall o
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white V
+name:E1 moss wall p
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white W
+name:E1 moss wall q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white X
+name:E1 moss wall r
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white Y
+name:E1 moss wall s
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white Z
+name:E1 moss wall t
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white ~
+name:E1 moss wall u
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
-name:E2 big white `
+name:E1 moss wall v
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20138,296 +19845,589 @@ desc:.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E3 big dark
+# E2 jail wall
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:E2 jail wall w
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall x
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall y
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall z
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall A
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall B
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall C
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall D
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall E
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall F
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall G
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall H
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall I
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall J
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall K
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall L
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall M
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall N
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall O
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall P
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall Q
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall R
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall S
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall T
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall U
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall V
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall W
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall X
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall Y
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall Z
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall ~
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+name:E2 jail wall `
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:4
+short-desc:wall
+desc:.
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E3 dungeon wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:E3 big dark 0
+name:E3 dungeon wall 0
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 1
+name:E3 dungeon wall 1
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 2
+name:E3 dungeon wall 2
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 3
+name:E3 dungeon wall 3
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 4
+name:E3 dungeon wall 4
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 5
+name:E3 dungeon wall 5
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 6
+name:E3 dungeon wall 6
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 7
+name:E3 dungeon wall 7
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 8
+name:E3 dungeon wall 8
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark 9
+name:E3 dungeon wall 9
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark a
+name:E3 dungeon wall a
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark b
+name:E3 dungeon wall b
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark c
+name:E3 dungeon wall c
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark d
+name:E3 dungeon wall d
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark e
+name:E3 dungeon wall e
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark f
+name:E3 dungeon wall f
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark g
+name:E3 dungeon wall g
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark h
+name:E3 dungeon wall h
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark i
+name:E3 dungeon wall i
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark j
+name:E3 dungeon wall j
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark k
+name:E3 dungeon wall k
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark l
+name:E3 dungeon wall l
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark m
+name:E3 dungeon wall m
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark n
+name:E3 dungeon wall n
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark o
+name:E3 dungeon wall o
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark p
+name:E3 dungeon wall p
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark q
+name:E3 dungeon wall q
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark r
+name:E3 dungeon wall r
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark s
+name:E3 dungeon wall s
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark t
+name:E3 dungeon wall t
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark u
+name:E3 dungeon wall u
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
-name:E3 big dark v
+name:E3 dungeon wall v
 graphics:#:s
 priority:18
 flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
 info:0:4
-short-desc:window
+short-desc:wall
 desc:.
 
 

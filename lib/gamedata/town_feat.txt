@@ -2621,117 +2621,116 @@ feat:u:`:E0 dark floor `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E1 big white v
+# E1 moss wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:v:0:E1 big white 0
-feat:v:1:E1 big white 1
-feat:v:2:E1 big white 2
-feat:v:3:E1 big white 3
-feat:v:4:E1 big white 4
-feat:v:5:E1 big white 5
-feat:v:6:E1 big white 6
-feat:v:7:E1 big white 7
-feat:v:8:E1 big white 8
-feat:v:9:E1 big white 9
-feat:v:a:E1 big white a
-feat:v:b:E1 big white b
-feat:v:c:E1 big white c
-feat:v:d:E1 big white d
-feat:v:e:E1 big white e
-feat:v:f:E1 big white f
-feat:v:g:E1 big white g
-feat:v:h:E1 big white h
-feat:v:i:E1 big white i
-feat:v:j:E1 big white j
-feat:v:k:E1 big white k
-feat:v:l:E1 big white l
-feat:v:m:E1 big white m
-feat:v:n:E1 big white n
-feat:v:o:E1 big white o
-feat:v:p:E1 big white p
-feat:v:q:E1 big white q
-feat:v:r:E1 big white r
-feat:v:s:E1 big white s
-feat:v:t:E1 big white t
-feat:v:u:E1 big white u
-feat:v:v:E1 big white v
+feat:v:0:E1 moss wall 0
+feat:v:1:E1 moss wall 1
+feat:v:2:E1 moss wall 2
+feat:v:3:E1 moss wall 3
+feat:v:4:E1 moss wall 4
+feat:v:5:E1 moss wall 5
+feat:v:6:E1 moss wall 6
+feat:v:7:E1 moss wall 7
+feat:v:8:E1 moss wall 8
+feat:v:9:E1 moss wall 9
+feat:v:a:E1 moss wall a
+feat:v:b:E1 moss wall b
+feat:v:c:E1 moss wall c
+feat:v:d:E1 moss wall d
+feat:v:e:E1 moss wall e
+feat:v:f:E1 moss wall f
+feat:v:g:E1 moss wall g
+feat:v:h:E1 moss wall h
+feat:v:i:E1 moss wall i
+feat:v:j:E1 moss wall j
+feat:v:k:E1 moss wall k
+feat:v:l:E1 moss wall l
+feat:v:m:E1 moss wall m
+feat:v:n:E1 moss wall n
+feat:v:o:E1 moss wall o
+feat:v:p:E1 moss wall p
+feat:v:q:E1 moss wall q
+feat:v:r:E1 moss wall r
+feat:v:s:E1 moss wall s
+feat:v:t:E1 moss wall t
+feat:v:u:E1 moss wall u
+feat:v:v:E1 moss wall v
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E2 jail wall v
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:v:w:E2 jail wall w
+feat:v:x:E2 jail wall x
+feat:v:y:E2 jail wall y
+feat:v:z:E2 jail wall z
+feat:v:A:E2 jail wall A
+feat:v:B:E2 jail wall B
+feat:v:C:E2 jail wall C
+feat:v:D:E2 jail wall D
+feat:v:E:E2 jail wall E
+feat:v:F:E2 jail wall F
+feat:v:G:E2 jail wall G
+feat:v:H:E2 jail wall H
+feat:v:I:E2 jail wall I
+feat:v:J:E2 jail wall J
+feat:v:K:E2 jail wall K
+feat:v:L:E2 jail wall L
+feat:v:M:E2 jail wall M
+feat:v:N:E2 jail wall N
+feat:v:O:E2 jail wall O
+feat:v:P:E2 jail wall P
+feat:v:Q:E2 jail wall Q
+feat:v:R:E2 jail wall R
+feat:v:S:E2 jail wall S
+feat:v:T:E2 jail wall T
+feat:v:U:E2 jail wall U
+feat:v:V:E2 jail wall V
+feat:v:W:E2 jail wall W
+feat:v:X:E2 jail wall X
+feat:v:Y:E2 jail wall Y
+feat:v:Z:E2 jail wall Z
+feat:v:~:E2 jail wall ~
+feat:v:`:E2 jail wall `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E2 big white v
+# E3 dungeon wall W CAPITAL
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:v:w:E2 big white w
-feat:v:x:E2 big white x
-feat:v:y:E2 big white y
-feat:v:z:E2 big white z
-feat:v:A:E2 big white A
-feat:v:B:E2 big white B
-feat:v:C:E2 big white C
-feat:v:D:E2 big white D
-feat:v:E:E2 big white E
-feat:v:F:E2 big white F
-feat:v:G:E2 big white G
-feat:v:H:E2 big white H
-feat:v:I:E2 big white I
-feat:v:J:E2 big white J
-feat:v:K:E2 big white K
-feat:v:L:E2 big white L
-feat:v:M:E2 big white M
-feat:v:N:E2 big white N
-feat:v:O:E2 big white O
-feat:v:P:E2 big white P
-feat:v:Q:E2 big white Q
-feat:v:R:E2 big white R
-feat:v:S:E2 big white S
-feat:v:T:E2 big white T
-feat:v:U:E2 big white U
-feat:v:V:E2 big white V
-feat:v:W:E2 big white W
-feat:v:X:E2 big white X
-feat:v:Y:E2 big white Y
-feat:v:Z:E2 big white Z
-feat:v:~:E2 big white ~
-feat:v:`:E2 big white `
-
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E3 big dark W CAPITAL
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-feat:W:0:E3 big dark 0
-feat:W:1:E3 big dark 1
-feat:W:2:E3 big dark 2
-feat:W:3:E3 big dark 3
-feat:W:4:E3 big dark 4
-feat:W:5:E3 big dark 5
-feat:W:6:E3 big dark 6
-feat:W:7:E3 big dark 7
-feat:W:8:E3 big dark 8
-feat:W:9:E3 big dark 9
-feat:W:a:E3 big dark a
-feat:W:b:E3 big dark b
-feat:W:c:E3 big dark c
-feat:W:d:E3 big dark d
-feat:W:e:E3 big dark e
-feat:W:f:E3 big dark f
-feat:W:g:E3 big dark g
-feat:W:h:E3 big dark h
-feat:W:i:E3 big dark i
-feat:W:j:E3 big dark j
-feat:W:k:E3 big dark k
-feat:W:l:E3 big dark l
-feat:W:m:E3 big dark m
-feat:W:n:E3 big dark n
-feat:W:o:E3 big dark o
-feat:W:p:E3 big dark p
-feat:W:q:E3 big dark q
-feat:W:r:E3 big dark r
-feat:W:s:E3 big dark s
-feat:W:t:E3 big dark t
-feat:W:u:E3 big dark u
-feat:W:v:E3 big dark v
+feat:W:0:E3 dungeon wall 0
+feat:W:1:E3 dungeon wall 1
+feat:W:2:E3 dungeon wall 2
+feat:W:3:E3 dungeon wall 3
+feat:W:4:E3 dungeon wall 4
+feat:W:5:E3 dungeon wall 5
+feat:W:6:E3 dungeon wall 6
+feat:W:7:E3 dungeon wall 7
+feat:W:8:E3 dungeon wall 8
+feat:W:9:E3 dungeon wall 9
+feat:W:a:E3 dungeon wall a
+feat:W:b:E3 dungeon wall b
+feat:W:c:E3 dungeon wall c
+feat:W:d:E3 dungeon wall d
+feat:W:e:E3 dungeon wall e
+feat:W:f:E3 dungeon wall f
+feat:W:g:E3 dungeon wall g
+feat:W:h:E3 dungeon wall h
+feat:W:i:E3 dungeon wall i
+feat:W:j:E3 dungeon wall j
+feat:W:k:E3 dungeon wall k
+feat:W:l:E3 dungeon wall l
+feat:W:m:E3 dungeon wall m
+feat:W:n:E3 dungeon wall n
+feat:W:o:E3 dungeon wall o
+feat:W:p:E3 dungeon wall p
+feat:W:q:E3 dungeon wall q
+feat:W:r:E3 dungeon wall r
+feat:W:s:E3 dungeon wall s
+feat:W:t:E3 dungeon wall t
+feat:W:u:E3 dungeon wall u
+feat:W:v:E3 dungeon wall v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
