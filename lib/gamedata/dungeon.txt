@@ -5033,45 +5033,45 @@ max-level:49
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E3 dungeon wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
-wall:E3 dungeon wall w:100
-wall:E3 dungeon wall x:100
-wall:E3 dungeon wall y:100
-wall:E3 dungeon wall z:100
-wall:E3 dungeon wall A:100
-wall:E3 dungeon wall B:100
-wall:E3 dungeon wall C:900
+wall:E3 dungeon wall 0:100
+wall:E3 dungeon wall 1:100
+wall:E3 dungeon wall 2:100
+wall:E3 dungeon wall 3:100
+wall:E3 dungeon wall 4:100
+wall:E3 dungeon wall 5:100
+wall:E3 dungeon wall 6:900
 # flag:
-wall:E3 dungeon wall D:100
+wall:E3 dungeon wall 7:100
 # 4x walls:
-wall:E3 dungeon wall E:900
-wall:E3 dungeon wall F:900
-wall:E3 dungeon wall G:900
-wall:E3 dungeon wall H:900
+wall:E3 dungeon wall 8:900
+wall:E3 dungeon wall 9:900
+wall:E3 dungeon wall a:900
+wall:E3 dungeon wall b:900
 # skels:
-wall:E3 dungeon wall I:100
-wall:E3 dungeon wall J:100
+wall:E3 dungeon wall c:100
+wall:E3 dungeon wall d:100
 # 
-wall:E3 dungeon wall K:100
-wall:E3 dungeon wall L:100
-wall:E3 dungeon wall M:100
-wall:E3 dungeon wall N:100
-wall:E3 dungeon wall O:100
-wall:E3 dungeon wall P:100
+wall:E3 dungeon wall e:100
+wall:E3 dungeon wall f:100
+wall:E3 dungeon wall g:100
+wall:E3 dungeon wall h:100
+wall:E3 dungeon wall i:100
+wall:E3 dungeon wall j:100
 # fire:
-wall:E3 dungeon wall Q:50
-wall:E3 dungeon wall R:50
-wall:E3 dungeon wall S:50
-wall:E3 dungeon wall T:50
+wall:E3 dungeon wall k:100
+wall:E3 dungeon wall l:100
+wall:E3 dungeon wall m:100
+wall:E3 dungeon wall n:100
 # walls
-wall:E3 dungeon wall U:900
-wall:E3 dungeon wall V:900
-wall:E3 dungeon wall W:800
-wall:E3 dungeon wall X:800
+wall:E3 dungeon wall o:900
+wall:E3 dungeon wall p:900
+wall:E3 dungeon wall q:800
+wall:E3 dungeon wall r:800
 # 
-wall:E3 dungeon wall Y:100
-wall:E3 dungeon wall Z:100
-wall:E3 dungeon wall ~:100
-wall:E3 dungeon wall `:100
+wall:E3 dungeon wall s:50
+wall:E3 dungeon wall t:50
+wall:E3 dungeon wall u:50
+wall:E3 dungeon wall v:50
 rule:8500:0
 rule-flags:UNDEAD | NONLIVING
 rule:1000:0
