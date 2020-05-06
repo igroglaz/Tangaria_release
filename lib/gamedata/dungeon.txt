@@ -5030,14 +5030,10 @@ wpos:-1:-4
 min-depth:66
 max-depth:77
 max-level:49
-floor:B4 floors L:1250
-floor:B4 floors M:1250
-floor:B4 floors N:1250
-floor:B4 floors O:1250
-floor:B4 floors P:1250
-floor:B4 floors Q:1250
-floor:B4 floors R:1250
-floor:B4 floors S:1250
+floor:E6 blood X:2500
+floor:E6 blood Y:2500
+floor:E6 blood Z:2500
+floor:E6 blood ~:2500
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E3 dungeon wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
@@ -5567,72 +5563,20 @@ name:Utumno, Portal to the Void
 wpos:0:-5
 min-depth:102
 max-depth:127
+floor:B3 floors k:10000
+#floor:void:1000
+##########################
+wall:B4 walls L:1250
+wall:B4 walls M:1250
+wall:B4 walls N:1250
+wall:B4 walls O:1250
+wall:B4 walls P:1250
+wall:B4 walls Q:1250
+wall:B4 walls R:1250
+wall:B4 walls S:1250
+#########################
 flags:EMPTY | WINNERS_ONLY
-floor:void:10
-#wall:nether mist:100
-#wall:lava:100
-#################################
-wall:B6 floors luquid X:100
-wall:B6 floors luquid Y:100
-wall:B6 floors luquid Z:10
-wall:B6 floors luquid ~:25
-wall:B6 floors luquid `:65
-########################################### 500
-wall:big dark wall 0:50
-wall:big dark wall 1:3200
-wall:big dark wall 9 entrance:50
-wall:big dark wall a low entrance:50
-wall:big dark wall b window:50
-###### ruins ###############################
-wall:DF dark floor 0:300
-wall:DF dark floor 1:300
-wall:DF dark floor 2:300
-wall:DF dark floor 3:300
-wall:DF dark floor 4:300
-wall:DF dark floor 5:300
-wall:DF dark floor 6:300
-wall:DF dark floor 7:300
-wall:DF dark floor 8:300
-wall:DF dark floor 9:300
-wall:DF dark floor a:300
-wall:DF dark floor b:300
-wall:DF dark floor c:300
-wall:DF dark floor d:300
-wall:DF dark floor e:300
-wall:DF dark floor f:300
-# 96-wall: .......#################   1500
-wall:dark wall:100
-#
-wall:96 wall M:140
-wall:96 wall N:100
-wall:96 wall O:100
-wall:96 wall P:100
-wall:96 wall Q:100
-wall:96 wall R:100
-wall:96 wall S:100
-wall:96 wall T:100
-wall:96 wall U:100
-wall:96 wall V:100
-wall:96 wall W:100
-wall:96 wall X:100
-# 98-wall:
-wall:98 wall 0:10
-wall:98 wall 1:10
-wall:98 wall 2:10
-wall:98 wall 3:10
-wall:98 wall 4:10
-wall:98 wall 5:10
-wall:98 wall 6:10
-wall:98 wall 7:10
-wall:98 wall 8:10
-wall:98 wall 9:10
-wall:98 wall a:10
-wall:98 wall b:10
-wall:98 wall c:10
-wall:98 wall d:10
-# 9D-wall:
-wall:9D wall 5:10
-wall:9D wall 6:10
+
 ###########################################
 # door : closed door feature : open door feature : 1/10000 chance of getting
 #        the feature
