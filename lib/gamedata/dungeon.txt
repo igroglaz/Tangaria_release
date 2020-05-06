@@ -5144,48 +5144,118 @@ name:The Straight Road
 wpos:-3:0
 min-depth:101
 max-depth:124
-flags:LAVA_RIVER | WINNERS_ONLY |  WATER_RIVER | CAVERN
-#slime-blood:
-floor:E6 blood w:100
-floor:E6 blood x:100
-floor:E6 blood y:100
-floor:E6 blood z:100
-floor:E6 blood A:100
-floor:E6 blood B:20
-#
-floor:E5 blood 0:1
-floor:E5 blood 1:1
-floor:E5 blood 2:1
-floor:E5 blood 3:1
-floor:E5 blood 4:1
-floor:E5 blood 5:1
-floor:E5 blood 6:1
-floor:E5 blood 7:1
-floor:E5 blood 8:1
-floor:E5 blood 9:1
-floor:E5 blood a:1
-floor:E5 blood b:1
-floor:E5 blood c:1
-floor:E5 blood d:1
-floor:E5 blood e:1
-floor:E5 blood f:1
-floor:E5 blood g:1
-floor:E5 blood h:1
-floor:E5 blood i:1
-floor:E5 blood j:1
-floor:E5 blood k:1
-floor:E5 blood l:1
-floor:E5 blood m:1
-floor:E5 blood n:1
-floor:E5 blood o:1
-floor:E5 blood p:1
-floor:E5 blood q:1
-floor:E5 blood r:1
-floor:E5 blood s:1
-floor:E5 blood t:1
-floor:E5 blood u:1
-floor:E5 blood v:1
-floor:web:300
+flags:LAVA_RIVER | WINNERS_ONLY |  WATER_RIVER | CAVERN | NO_DOORS
+floor:B6 floors luquid w:7000
+floor:B6 floors luquid x:1500
+##############################
+# F3 shallow water E ############# 32
+floor:F3 shallow water 0:1
+floor:F3 shallow water 1:1
+floor:F3 shallow water 2:1
+floor:F3 shallow water 3:1
+floor:F3 shallow water 4:1
+floor:F3 shallow water 5:1
+floor:F3 shallow water 6:1
+floor:F3 shallow water 7:1
+floor:F3 shallow water 8:1
+floor:F3 shallow water 9:1
+floor:F3 shallow water a:1
+floor:F3 shallow water b:1
+floor:F3 shallow water c:1
+floor:F3 shallow water d:1
+floor:F3 shallow water e:1
+floor:F3 shallow water f:1
+floor:F3 shallow water g:1
+floor:F3 shallow water h:1
+floor:F3 shallow water i:1
+floor:F3 shallow water j:1
+floor:F3 shallow water k:1
+floor:F3 shallow water l:1
+floor:F3 shallow water m:1
+floor:F3 shallow water n:1
+floor:F3 shallow water o:1
+floor:F3 shallow water p:1
+floor:F3 shallow water q:1
+floor:F3 shallow water r:1
+floor:F3 shallow water s:1
+floor:F3 shallow water t:1
+floor:F3 shallow water u:1
+floor:F3 shallow water v:1
+# F4 E       #-#-#-#-#-#-#-#-# 1500
+floor:F4 shallow water w:9
+floor:F4 shallow water x:1
+floor:F4 shallow water y:40
+floor:F4 shallow water z:50
+floor:F4 shallow water A:50
+floor:F4 shallow water B:50
+floor:F4 shallow water C:50
+floor:F4 shallow water D:50
+floor:F4 shallow water E:50
+floor:F4 shallow water F:50
+floor:F4 shallow water G:50
+floor:F4 shallow water H:50
+floor:F4 shallow water I:50
+floor:F4 shallow water J:50
+floor:F4 shallow water K:50
+floor:F4 shallow water L:50
+floor:F4 shallow water M:50
+floor:F4 shallow water N:50
+floor:F4 shallow water O:50
+floor:F4 shallow water P:50
+floor:F4 shallow water Q:50
+floor:F4 shallow water R:50
+floor:F4 shallow water S:50
+floor:F4 shallow water T:50
+floor:F4 shallow water U:50
+floor:F4 shallow water V:50
+floor:F4 shallow water W:50
+floor:F4 shallow water X:50
+floor:F4 shallow water Y:50
+floor:F4 shallow water Z:50
+floor:F4 shallow water ~:50
+floor:F4 shallow water `:50
+####################################
+wall:E1 moss wall 0:1000
+wall:E1 moss wall 1:1000
+# vines
+wall:E1 moss wall 2:300
+wall:E1 moss wall 3:300
+# lattice
+wall:E1 moss wall 4:100
+# vines
+wall:E1 moss wall 5:300
+wall:E1 moss wall 6:300
+wall:E1 moss wall 7:300
+# etc
+wall:E1 moss wall 8:100
+wall:E1 moss wall 9:100
+wall:E1 moss wall a:100
+wall:E1 moss wall b:100
+# vines
+wall:E1 moss wall c:300
+wall:E1 moss wall d:200
+wall:E1 moss wall e:200
+wall:E1 moss wall f:200
+wall:E1 moss wall g:200
+wall:E1 moss wall h:200
+wall:E1 moss wall i:200
+# skel
+wall:E1 moss wall j:100
+# fire
+wall:E1 moss wall k:50
+wall:E1 moss wall l:50
+wall:E1 moss wall m:50
+wall:E1 moss wall n:50
+# wall
+wall:E1 moss wall o:1000
+wall:E1 moss wall p:1000
+wall:E1 moss wall q:1000
+wall:E1 moss wall r:1000
+# lattice
+wall:E1 moss wall s:50
+wall:E1 moss wall t:50
+wall:E1 moss wall u:50
+wall:E1 moss wall v:50
 #############################
 rule:10000:1
 
