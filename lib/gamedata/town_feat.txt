@@ -77,6 +77,10 @@ feat:%:B:magma vein with treasure
 feat:%:C:quartz vein with treasure
 # :
 feat:;:*:lava
+########################################################## new lava wall:
+feat:;:~:lava wall
+feat:;:`:lava rock
+##########################################################
 # feat:%:E:packed dirt <<< feat:,:,:packed dirt
 # feat:%:F:mud         <<< feat:,:;:mud
 feat:%:G:sand
@@ -970,6 +974,10 @@ feat:y:Z:B4 floors Z
 feat:y:z:B4 floors ~
 feat:y:`:B4 floors `
 
+##########################################
+### B4 WALLS (same pic as b4 black floors)
+### ------- NO TOWN FEAT ------ (no space)
+#.....####################################
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B5 floors

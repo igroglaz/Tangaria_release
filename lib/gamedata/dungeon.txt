@@ -5093,38 +5093,49 @@ name:Mount Doom
 wpos:1:-2
 min-depth:84
 max-depth:98
-wall:FA lava h:600
-wall:FA lava i:600
-wall:FA lava j:600
-wall:FA lava k:600
-wall:FA lava l:600
-wall:FA lava m:600
-wall:FA lava n:600
-wall:FA lava o:600
-wall:FA lava p:600
-wall:FA lava q:600
-wall:FA lava r:600
-wall:FA lava s:600
-wall:FA lava t:600
-wall:FA lava u:600
-wall:FA lava v:500
-wall:FA lava w:500
-# FB  #-#-#-#-#-#  liquid: 800
-wall:FB lava h:50
-wall:FB lava i:50
-wall:FB lava j:50
-wall:FB lava k:50
-wall:FB lava l:50
-wall:FB lava m:50
-wall:FB lava n:50
-wall:FB lava o:50
-wall:FB lava p:50
-wall:FB lava q:50
-wall:FB lava r:50
-wall:FB lava s:50
-flags:CAVERN | LAVA_RIVER
-floor:lava stream:1000
-wall:lava:1000
+flags:CIRCULAR_ROOMS
+#wall:lava wall:9000
+#wall:lava rock:1000
+wall:B4 walls L:1250
+wall:B4 walls M:1250
+wall:B4 walls N:1250
+wall:B4 walls O:1250
+wall:B4 walls P:1250
+wall:B4 walls Q:1250
+wall:B4 walls R:1250
+wall:B4 walls S:1250
+############################
+floor:lava:100
+#
+floor:FA lava h:600
+floor:FA lava i:600
+floor:FA lava j:600
+floor:FA lava k:600
+floor:FA lava l:600
+floor:FA lava m:600
+floor:FA lava n:600
+floor:FA lava o:600
+floor:FA lava p:600
+floor:FA lava q:600
+floor:FA lava r:600
+floor:FA lava s:600
+floor:FA lava t:600
+floor:FA lava u:500
+floor:FA lava v:500
+floor:FA lava w:500
+# FB  #-#-#-#-#-#  liquid: 600
+floor:FB lava h:50
+floor:FB lava i:50
+floor:FB lava j:50
+floor:FB lava k:50
+floor:FB lava l:50
+floor:FB lava m:50
+floor:FB lava n:50
+floor:FB lava o:50
+floor:FB lava p:50
+floor:FB lava q:50
+floor:FB lava r:50
+floor:FB lava s:50
 rule:10000:0
 rule-flags:IM_FIRE
 

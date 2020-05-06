@@ -616,7 +616,7 @@ desc: them.
 # New terrain
 
 name:lava
-graphics:#:r
+graphics:~:r
 priority:25
 flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
 short-desc:fiery pool of glowing lava
@@ -625,6 +625,24 @@ hurt-msg:The lava burns you!
 died-flavor:burned to a cinder in lava
 die-msg:burning to a cinder in lava
 resist-flag:IM_FIRE
+
+name:lava wall
+graphics:#:r
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+desc:A seam of glowing lava wall. It can be removed by digging or magic, and
+desc: passed through by immaterial monsters. It stops any spells, missiles or
+desc: line of sight.
+
+name:lava rock
+graphics:#:r
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+desc:A seam of glowing lava wall. It can be removed by digging or magic, and
+desc: passed through by immaterial monsters. It stops any spells, missiles or
+desc: line of sight.
 
 name:pile of passable rubble
 graphics:::u
@@ -7194,7 +7212,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 short-desc:stone floor
 desc:.
 
-# next are empty for now
+# new black:
 
 name:B4 floors L
 graphics:.:s
@@ -7331,6 +7349,146 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 ################################################################################
 short-desc:.
 desc:.
+
+##########################################
+### B4 WALLS (same pic as b4 black floors)
+
+name:B4 walls L
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls M
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls N
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls O
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls P
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls Q
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls R
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls S
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls T
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls U
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls V
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls W
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls X
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls Y
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls Z
+graphics:#:s
+priority:18
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls ~
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
+name:B4 walls `
+graphics:#:s
+priority:18
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+short-desc:wall
+desc:.
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -26087,7 +26245,6 @@ desc:.
 # FA - mountains end top
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:mountains end top 0
 graphics:^:D
 priority:18
@@ -26227,148 +26384,149 @@ desc:.
 # FA continue..........
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:FA lava h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 name:FA lava w
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:lava floor
 desc:.
 
 #########################
@@ -26634,221 +26792,303 @@ desc:.
 
 
 name:FB lava h
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava i
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava j
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava k
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava l
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava m
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava n
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava o
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava p
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava q
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava r
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava s
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava t
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava u
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava v
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava w
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 
 name:FB lava x
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava y
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava z
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava A
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava B
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava C
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava D
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava E
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava F
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava G
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
 
 name:FB lava H
-graphics:~:r
-priority:18
-flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-short-desc:lava
-desc:.
+graphics:#:r
+priority:25
+flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
+hurt-msg:The lava burns you!
+died-flavor:burned to a cinder in lava
+die-msg:burning to a cinder in lava
+resist-flag:IM_FIRE
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
