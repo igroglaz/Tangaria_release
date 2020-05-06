@@ -26532,103 +26532,99 @@ desc:.
 #########################
 
 name:FA lava x
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava y
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava z
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava A
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava B
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava C
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava D
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava E
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava F
-graphics:#:s
-priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+graphics:.:s
+priority:3
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
 ################################################################################
 info:0:3
-short-desc:lava wall
+short-desc:floor
 desc:.
 
 name:FA lava G
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:3
-short-desc:lava wall
-desc:.
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:shallow water
+desc:A pool of shallow water.
 
 name:FA lava H
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
-################################################################################
-info:0:3
-short-desc:lava wall
-desc:.
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+short-desc:shallow water
+desc:A pool of shallow water.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FB - mountains end bot

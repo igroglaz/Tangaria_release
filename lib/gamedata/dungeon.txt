@@ -5549,7 +5549,6 @@ wall:floor ` lowland:10
 # B3 F2W
 wall:B3 floors 2:80
 wall:B3 floors 3:100
-
 rule:10000:1
 
 #nether realm
@@ -5563,25 +5562,110 @@ name:Utumno, Portal to the Void
 wpos:0:-5
 min-depth:102
 max-depth:127
-floor:B3 floors k:10000
-#floor:void:1000
-##########################
-wall:B4 walls L:1250
-wall:B4 walls M:1250
-wall:B4 walls N:1250
-wall:B4 walls O:1250
-wall:B4 walls P:1250
-wall:B4 walls Q:1250
-wall:B4 walls R:1250
-wall:B4 walls S:1250
 #########################
 flags:EMPTY | WINNERS_ONLY
-
-###########################################
-# door : closed door feature : open door feature : 1/10000 chance of getting
-#        the feature
-door:DD wood wall 0:DD wood wall 1:8000
-####################################
-rule:99:0
+floor:FA lava x:1150
+floor:FA lava y:1150
+floor:FA lava z:1100
+floor:FA lava A:1100
+floor:FA lava B:1100
+floor:FA lava C:1100
+floor:FA lava D:1100
+floor:FA lava E:1100
+floor:FA lava F:1100
+#floor:void:1000
+#################################
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E2 jail wall v
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+wall:E2 jail wall w:50
+wall:E2 jail wall x:50
+wall:E2 jail wall y:50
+wall:E2 jail wall z:50
+wall:E2 jail wall A:50
+wall:E2 jail wall B:50
+wall:E2 jail wall C:450
+# flag:
+wall:E2 jail wall D:50
+# 4x walls:
+wall:E2 jail wall E:450
+wall:E2 jail wall F:450
+wall:E2 jail wall G:450
+wall:E2 jail wall H:450
+# skels:
+wall:E2 jail wall I:50
+wall:E2 jail wall J:50
+# 
+wall:E2 jail wall K:50
+wall:E2 jail wall L:50
+wall:E2 jail wall M:50
+wall:E2 jail wall N:50
+wall:E2 jail wall O:50
+wall:E2 jail wall P:50
+# fire:
+wall:E2 jail wall Q:25
+wall:E2 jail wall R:25
+wall:E2 jail wall S:25
+wall:E2 jail wall T:25
+# walls
+wall:E2 jail wall U:450
+wall:E2 jail wall V:450
+wall:E2 jail wall W:400
+wall:E2 jail wall X:400
+# 
+wall:E2 jail wall Y:50
+wall:E2 jail wall Z:50
+wall:E2 jail wall ~:50
+wall:E2 jail wall `:50
+################################
+wall:E3 dungeon wall 0:100
+wall:E3 dungeon wall 1:100
+wall:E3 dungeon wall 2:100
+wall:E3 dungeon wall 3:100
+wall:E3 dungeon wall 4:50
+wall:E3 dungeon wall 5:50
+wall:E3 dungeon wall 6:50
+wall:E3 dungeon wall 7:50
+wall:E3 dungeon wall 8:50
+wall:E3 dungeon wall 9:100
+wall:E3 dungeon wall a:50
+wall:E3 dungeon wall b:50
+# walls:
+wall:E3 dungeon wall c:800
+wall:E3 dungeon wall d:800
+wall:E3 dungeon wall e:800
+wall:E3 dungeon wall f:750
+#
+wall:E3 dungeon wall g:100
+wall:E3 dungeon wall h:100
+wall:E3 dungeon wall i:50
+wall:E3 dungeon wall j:50
+# cand skel
+wall:E3 dungeon wall k:100
+wall:E3 dungeon wall l:100
+wall:E3 dungeon wall m:100
+#
+wall:E3 dungeon wall n:50
+wall:E3 dungeon wall o:50
+# skel
+wall:E3 dungeon wall p:100
+# ornaments
+wall:E3 dungeon wall q:50
+wall:E3 dungeon wall r:50
+# fire
+wall:E3 dungeon wall s:25
+wall:E3 dungeon wall t:25
+wall:E3 dungeon wall u:25
+wall:E3 dungeon wall v:25
+#
+#wall:B4 walls L:1250
+#wall:B4 walls M:1250
+#wall:B4 walls N:1250
+#wall:B4 walls O:1250
+#wall:B4 walls P:1250
+#wall:B4 walls Q:1250
+#wall:B4 walls R:1250
+#wall:B4 walls S:1250
+rule:9900:0
 rule-flags:UNDEAD | DEMON | DRAGON | NONLIVING
 rule:100:1
