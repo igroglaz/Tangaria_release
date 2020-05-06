@@ -62,6 +62,88 @@ name:Angband
 wpos:1:-4
 min-depth:75
 max-depth:100
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E2 jail wall v
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+wall:E2 jail wall w:50
+wall:E2 jail wall x:50
+wall:E2 jail wall y:50
+wall:E2 jail wall z:50
+wall:E2 jail wall A:50
+wall:E2 jail wall B:50
+wall:E2 jail wall C:450
+# flag:
+wall:E2 jail wall D:50
+# 4x walls:
+wall:E2 jail wall E:450
+wall:E2 jail wall F:450
+wall:E2 jail wall G:450
+wall:E2 jail wall H:450
+# skels:
+wall:E2 jail wall I:50
+wall:E2 jail wall J:50
+# 
+wall:E2 jail wall K:50
+wall:E2 jail wall L:50
+wall:E2 jail wall M:50
+wall:E2 jail wall N:50
+wall:E2 jail wall O:50
+wall:E2 jail wall P:50
+# fire:
+wall:E2 jail wall Q:25
+wall:E2 jail wall R:25
+wall:E2 jail wall S:25
+wall:E2 jail wall T:25
+# walls
+wall:E2 jail wall U:450
+wall:E2 jail wall V:450
+wall:E2 jail wall W:400
+wall:E2 jail wall X:400
+# 
+wall:E2 jail wall Y:50
+wall:E2 jail wall Z:50
+wall:E2 jail wall ~:50
+wall:E2 jail wall `:50
+################################
+wall:E3 dungeon wall 0:100
+wall:E3 dungeon wall 1:100
+wall:E3 dungeon wall 2:100
+wall:E3 dungeon wall 3:100
+wall:E3 dungeon wall 4:50
+wall:E3 dungeon wall 5:50
+wall:E3 dungeon wall 6:50
+wall:E3 dungeon wall 7:50
+wall:E3 dungeon wall 8:50
+wall:E3 dungeon wall 9:100
+wall:E3 dungeon wall a:50
+wall:E3 dungeon wall b:50
+# walls:
+wall:E3 dungeon wall c:800
+wall:E3 dungeon wall d:800
+wall:E3 dungeon wall e:800
+wall:E3 dungeon wall f:750
+#
+wall:E3 dungeon wall g:100
+wall:E3 dungeon wall h:100
+wall:E3 dungeon wall i:50
+wall:E3 dungeon wall j:50
+# cand skel
+wall:E3 dungeon wall k:100
+wall:E3 dungeon wall l:100
+wall:E3 dungeon wall m:100
+#
+wall:E3 dungeon wall n:50
+wall:E3 dungeon wall o:50
+# skel
+wall:E3 dungeon wall p:100
+# ornaments
+wall:E3 dungeon wall q:50
+wall:E3 dungeon wall r:50
+# fire
+wall:E3 dungeon wall s:25
+wall:E3 dungeon wall t:25
+wall:E3 dungeon wall u:25
+wall:E3 dungeon wall v:25
 floor:E5 blood 0:10
 floor:E5 blood 1:10
 floor:E5 blood 2:10
@@ -266,16 +348,16 @@ wall:tree W:100
 wall:tree X:100
 wall:tree Y:100
 #a7
-wall:obj_grass L ruins:1000
+wall:obj_grass L ruins:300
 wall:obj_grass M ruins:100
-wall:obj_grass N ruins:1100
-wall:obj_grass O ruins:1100
+wall:obj_grass N ruins:300
+wall:obj_grass O ruins:300
 wall:obj_grass P ruins:300
-wall:obj_grass Q ruins:900
+wall:obj_grass Q ruins:300
 wall:big dark wall 0:100
 wall:big dark wall 1:100
-wall:big dark wall 9 entrance:100
-wall:big dark wall a low entrance:100
+wall:big dark wall 9 entrance:50
+wall:big dark wall a low entrance:50
 wall:big dark wall b window:71
 #64 total
 #=========
@@ -312,7 +394,17 @@ wall:98 wall d:1
 # 9D-wall:
 wall:9D wall 5:1
 wall:9D wall 6:1
-#
+############################# new addition:
+wall:obj_grass2 f:300
+wall:obj_grass2 g:300
+wall:obj_grass2 h:300
+wall:obj_grass2 i:300
+wall:obj_grass2 j:300
+wall:obj_grass2 k:300
+wall:obj_grass2 l:300
+wall:obj_grass2 m:300
+wall:obj_grass2 n:300
+wall:obj_grass2 o:300
 flags:EMPTY
 rule:10000:1
 
@@ -1532,7 +1624,7 @@ wall:tree F tree:100
 # withered trees:
 wall:tree V:300
 wall:tree W:300
-wall:tree X:90
+wall:tree X:80
 wall:tree Y:500
 #a7
 wall:obj_grass L ruins:1
@@ -1545,6 +1637,17 @@ wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
 wall:big dark wall 0:1
+#
+wall:obj_grass2 f:1
+wall:obj_grass2 g:1
+wall:obj_grass2 h:1
+wall:obj_grass2 i:1
+wall:obj_grass2 j:1
+wall:obj_grass2 k:1
+wall:obj_grass2 l:1
+wall:obj_grass2 m:1
+wall:obj_grass2 n:1
+wall:obj_grass2 o:1
 rule:4000:0
 rule-flags:ANIMAL
 rule:3000:0
@@ -2075,6 +2178,17 @@ wall:obj_grass Q ruins:2
 wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
+#
+wall:obj_grass2 f:1
+wall:obj_grass2 g:1
+wall:obj_grass2 h:1
+wall:obj_grass2 i:1
+wall:obj_grass2 j:1
+wall:obj_grass2 k:1
+wall:obj_grass2 l:1
+wall:obj_grass2 m:1
+wall:obj_grass2 n:1
+wall:obj_grass2 o:1
 ######################################## 3400
 # A4 F2W
 wall:flower 0 green:100
@@ -2087,7 +2201,7 @@ wall:flower 6 green:100
 wall:flower 7 grass:100
 # B1 F2W
 wall:floor 0 grass:100
-wall:floor 1 grass:1500
+wall:floor 1 grass:1490
 # B2 F2W
 wall:floor w grass:100
 wall:floor x grass:100
@@ -2336,15 +2450,15 @@ floor:grass mountain K:3
 floor:grass mountain L:1
 ##################################
 ##################################
-wall:obj_grass L ruins:1000
+wall:obj_grass L ruins:300
 wall:obj_grass M ruins:100
-wall:obj_grass N ruins:1100
-wall:obj_grass O ruins:1100
+wall:obj_grass N ruins:300
+wall:obj_grass O ruins:300
 wall:obj_grass P ruins:300
-wall:obj_grass Q ruins:900
+wall:obj_grass Q ruins:300
 wall:big dark wall 0:100
-wall:big dark wall 9 entrance:100
-wall:big dark wall a low entrance:100
+wall:big dark wall 9 entrance:50
+wall:big dark wall a low entrance:50
 wall:big dark wall b window:71
 # 98 ##################################### 130
 wall:98 wall 0:10
@@ -2361,6 +2475,18 @@ wall:98 wall a:10
 wall:98 wall b:10
 wall:98 wall c:8
 wall:98 wall d:10
+###################
+wall:obj_grass2 f:300
+wall:obj_grass2 g:300
+wall:obj_grass2 h:300
+wall:obj_grass2 i:300
+wall:obj_grass2 j:300
+wall:obj_grass2 k:300
+wall:obj_grass2 l:300
+wall:obj_grass2 m:300
+wall:obj_grass2 n:300
+wall:obj_grass2 o:300
+#
 rule:2500:0
 rule-flags:UNDEAD
 rule:7500:1
@@ -3866,7 +3992,7 @@ wall:tree F tree:100
 wall:tree V:300
 wall:tree W:300
 wall:tree X:90
-wall:tree Y:500
+wall:tree Y:490
 #a7
 wall:obj_grass L ruins:1
 wall:obj_grass M ruins:1
@@ -3878,6 +4004,18 @@ wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
 wall:big dark wall 0:1
+#
+wall:obj_grass2 f:1
+wall:obj_grass2 g:1
+wall:obj_grass2 h:1
+wall:obj_grass2 i:1
+wall:obj_grass2 j:1
+wall:obj_grass2 k:1
+wall:obj_grass2 l:1
+wall:obj_grass2 m:1
+wall:obj_grass2 n:1
+wall:obj_grass2 o:1
+#
 rule:2500:0
 rule-symbols:S
 rule:7500:1
@@ -4421,7 +4559,7 @@ wall:grass mountain t rocks:10
 wall:grass mountain u rocks:10
 wall:grass mountain v rock:10
 #-#-#-#-#-#-#-#-#-#- AC - grass mountains 2010
-wall:grass mountain w:600
+wall:grass mountain w:590
 wall:grass mountain x:400
 wall:grass mountain y:300
 wall:grass mountain z:300
@@ -4516,6 +4654,17 @@ wall:obj_grass Q ruins:1
 wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
+##################################
+wall:obj_grass2 f:1
+wall:obj_grass2 g:1
+wall:obj_grass2 h:1
+wall:obj_grass2 i:1
+wall:obj_grass2 j:1
+wall:obj_grass2 k:1
+wall:obj_grass2 l:1
+wall:obj_grass2 m:1
+wall:obj_grass2 n:1
+wall:obj_grass2 o:1
 ######################################## 2000
 # A4 F2W
 wall:flower 0 green:100
@@ -5427,7 +5576,7 @@ wall:tree F2W 0 stump:10
 wall:tree F2W 1:210
 wall:tree F2W 2 little:110
 wall:tree F2W 3:210
-wall:tree F2W 4 maple:210
+wall:tree F2W 4 maple:200
 wall:tree F2W 5 maple:210
 wall:tree F2W 6 coniferous:10
 wall:tree F2W 7 coniferous small:10
@@ -5499,6 +5648,17 @@ wall:obj_grass Q ruins:1
 wall:big dark wall 9 entrance:1
 wall:big dark wall a low entrance:1
 wall:big dark wall b window:1
+#############
+wall:obj_grass2 f:1
+wall:obj_grass2 g:1
+wall:obj_grass2 h:1
+wall:obj_grass2 i:1
+wall:obj_grass2 j:1
+wall:obj_grass2 k:1
+wall:obj_grass2 l:1
+wall:obj_grass2 m:1
+wall:obj_grass2 n:1
+wall:obj_grass2 o:1
 ######################################## 2000
 # A4 F2W
 wall:flower 0 green:100

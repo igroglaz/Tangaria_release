@@ -507,6 +507,7 @@ feat:`:b:obj_grass2 b
 feat:`:c:obj_grass2 c
 feat:`:d:obj_grass2 d
 feat:`:e:obj_grass2 e
+# old ruins:
 feat:`:f:obj_grass2 f
 feat:`:g:obj_grass2 g
 feat:`:h:obj_grass2 h
@@ -517,6 +518,7 @@ feat:`:l:obj_grass2 l
 feat:`:m:obj_grass2 m
 feat:`:n:obj_grass2 n
 feat:`:o:obj_grass2 o
+# end
 feat:`:p:obj_grass2 p
 feat:`:q:obj_grass2 q
 feat:`:r:obj_grass2 r
@@ -955,14 +957,14 @@ feat:y:I:B4 floors I
 feat:y:J:B4 floors J
 feat:y:K:B4 floors K
 #
-feat:y:L:B4 floors L
-feat:y:M:B4 floors M
-feat:y:N:B4 floors N
-feat:y:O:B4 floors O
-feat:y:P:B4 floors P
-feat:y:Q:B4 floors Q
-feat:y:R:B4 floors R
-feat:y:S:B4 floors S
+feat:y:L:B4 walls L
+feat:y:M:B4 walls M
+feat:y:N:B4 walls N
+feat:y:O:B4 walls O
+feat:y:P:B4 walls P
+feat:y:Q:B4 walls Q
+feat:y:R:B4 walls R
+feat:y:S:B4 walls S
 #
 feat:y:T:B4 floors T
 feat:y:U:B4 floors U

@@ -7212,71 +7212,73 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 short-desc:stone floor
 desc:.
 
-# new black:
+# SOME WALLS:
 
-name:B4 floors L
-graphics:.:s
+name:B4 walls L
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors M
-graphics:.:s
+name:B4 walls M
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors N
-graphics:.:s
+name:B4 walls N
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors O
-graphics:.:s
+name:B4 walls O
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors P
-graphics:.:s
+name:B4 walls P
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors Q
-graphics:.:s
+name:B4 walls Q
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors R
-graphics:.:s
+name:B4 walls R
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
 
-name:B4 floors S
-graphics:.:s
+name:B4 walls S
+graphics:#:s
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
+flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-short-desc:.
+short-desc:wall
 desc:.
+
+#### FLOORS AGAIN:
 
 name:B4 floors T
 graphics:.:s
@@ -7348,145 +7350,6 @@ priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | OBJECT
 ################################################################################
 short-desc:.
-desc:.
-
-##########################################
-### B4 WALLS (same pic as b4 black floors)
-
-name:B4 walls L
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls M
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls N
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls O
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls P
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls Q
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls R
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls S
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls T
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls U
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls V
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls W
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls X
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls Y
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls Z
-graphics:#:s
-priority:18
-flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls ~
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
-desc:.
-
-name:B4 walls `
-graphics:#:s
-priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-################################################################################
-short-desc:wall
 desc:.
 
 
