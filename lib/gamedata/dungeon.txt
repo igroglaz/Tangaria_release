@@ -5033,41 +5033,41 @@ max-level:49
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E3 dungeon wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
-wall:E3 dungeon wall 0:100
-wall:E3 dungeon wall 1:100
-wall:E3 dungeon wall 2:100
-wall:E3 dungeon wall 3:100
+wall:E3 dungeon wall 0:200
+wall:E3 dungeon wall 1:200
+wall:E3 dungeon wall 2:200
+wall:E3 dungeon wall 3:200
 wall:E3 dungeon wall 4:100
 wall:E3 dungeon wall 5:100
-wall:E3 dungeon wall 6:900
-# flag:
+wall:E3 dungeon wall 6:100
 wall:E3 dungeon wall 7:100
-# 4x walls:
-wall:E3 dungeon wall 8:900
-wall:E3 dungeon wall 9:900
-wall:E3 dungeon wall a:900
-wall:E3 dungeon wall b:900
-# skels:
-wall:E3 dungeon wall c:100
-wall:E3 dungeon wall d:100
-# 
-wall:E3 dungeon wall e:100
-wall:E3 dungeon wall f:100
-wall:E3 dungeon wall g:100
-wall:E3 dungeon wall h:100
+wall:E3 dungeon wall 8:100
+wall:E3 dungeon wall 9:200
+wall:E3 dungeon wall a:100
+wall:E3 dungeon wall b:100
+# walls:
+wall:E3 dungeon wall c:1600
+wall:E3 dungeon wall d:1600
+wall:E3 dungeon wall e:1600
+wall:E3 dungeon wall f:1500
+#
+wall:E3 dungeon wall g:200
+wall:E3 dungeon wall h:200
 wall:E3 dungeon wall i:100
 wall:E3 dungeon wall j:100
-# fire:
-wall:E3 dungeon wall k:100
-wall:E3 dungeon wall l:100
-wall:E3 dungeon wall m:100
+# cand skel
+wall:E3 dungeon wall k:200
+wall:E3 dungeon wall l:200
+wall:E3 dungeon wall m:200
+#
 wall:E3 dungeon wall n:100
-# walls
-wall:E3 dungeon wall o:900
-wall:E3 dungeon wall p:900
-wall:E3 dungeon wall q:800
-wall:E3 dungeon wall r:800
-# 
+wall:E3 dungeon wall o:100
+# skel
+wall:E3 dungeon wall p:200
+# ornaments
+wall:E3 dungeon wall q:100
+wall:E3 dungeon wall r:100
+# fire
 wall:E3 dungeon wall s:50
 wall:E3 dungeon wall t:50
 wall:E3 dungeon wall u:50
