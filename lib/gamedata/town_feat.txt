@@ -3562,31 +3562,58 @@ feat:(:d:mountains end top d
 feat:(:e:mountains end top e
 feat:(:f:mountains end top f
 feat:(:g:mountains end top g
-feat:(:h:mountains end top h
+feat:(:h:FA lava h
+feat:(:i:FA lava i
+feat:(:j:FA lava j
+feat:(:k:FA lava k
+feat:(:l:FA lava l
+feat:(:m:FA lava m
+feat:(:n:FA lava n
+feat:(:o:FA lava o
+feat:(:p:FA lava p
+feat:(:q:FA lava q
+feat:(:r:FA lava r
+feat:(:s:FA lava s
+feat:(:t:FA lava t
+feat:(:u:FA lava u
+feat:(:v:FA lava v
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FB - mountains end bot
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:):0:mountains end bot 0
-feat:):1:mountains end bot 1
-feat:):2:mountains end bot 2
-feat:):3:mountains end bot 3
-feat:):4:mountains end bot 4
-feat:):5:mountains end bot 5
-feat:):6:mountains end bot 6
-feat:):7:mountains end bot 7
-feat:):8:mountains end bot 8
-feat:):9:mountains end bot 9
-feat:):a:mountains end bot a
-feat:):b:mountains end bot b
-feat:):c:mountains end bot c
-feat:):d:mountains end bot d
-feat:):e:mountains end bot e
-feat:):f:mountains end bot f
-feat:):g:mountains end bot g
-feat:):h:mountains end bot h
-
+feat:(:w:mountains end bot w
+feat:(:x:mountains end bot x
+feat:(:y:mountains end bot y
+feat:(:z:mountains end bot z
+feat:(:A:mountains end bot A
+feat:(:B:mountains end bot B
+feat:(:C:mountains end bot C
+feat:(:D:mountains end bot D
+feat:(:E:mountains end bot E
+feat:(:F:mountains end bot F
+feat:(:G:mountains end bot G
+feat:(:H:mountains end bot H
+feat:(:I:mountains end bot I
+feat:(:J:mountains end bot J
+feat:(:K:mountains end bot K
+feat:(:L:mountains end bot L
+feat:(:M:mountains end bot M
+feat:(:N:FB lava N
+feat:(:O:FB lava O
+feat:(:P:FB lava P
+feat:(:Q:FB lava Q
+feat:(:R:FB lava R
+feat:(:S:FB lava S
+feat:(:T:FB lava T
+feat:(:U:FB lava U
+feat:(:V:FB lava V
+feat:(:W:FB lava W
+feat:(:X:FB lava X
+feat:(:Y:FB lava Y
+feat:(:Z:FB lava Z
+feat:(:~:FB lava ~
+feat:(:`:FB lava `
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FC double

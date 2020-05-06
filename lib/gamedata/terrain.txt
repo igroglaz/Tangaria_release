@@ -26224,12 +26224,142 @@ flags:NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountains peaks
 desc:.
 
-name:mountains end top h
-graphics:^:D
+# FA continue..........
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+name:FA lava h
+graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:high mountains peaks
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava i
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava j
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava k
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava l
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava m
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava n
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava o
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava p
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava q
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava r
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava s
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava t
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava u
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
+desc:.
+
+name:FA lava v
+graphics:#:s
+priority:18
+flags:WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+info:0:3
+short-desc:lava wall
 desc:.
 
 
@@ -26237,150 +26367,283 @@ desc:.
 # FB - mountains end bot
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
-name:mountains end bot 0
+name:mountains end bot w
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 1
+name:mountains end bot x
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 2
+name:mountains end bot y
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 3
+name:mountains end bot z
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 4
+name:mountains end bot A
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 5
+name:mountains end bot B
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 6
+name:mountains end bot C
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 7
+name:mountains end bot D
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 8
+name:mountains end bot E
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot 9
+name:mountains end bot F
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot a
+name:mountains end bot G
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot b
+name:mountains end bot H
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot c
+name:mountains end bot I
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot d
+name:mountains end bot J
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot e
+name:mountains end bot K
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot f
+name:mountains end bot L
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot g
+name:mountains end bot M
 graphics:^:D
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
 ################################################################################
+info:0:4
 short-desc:high mountains base
 desc:.
 
-name:mountains end bot h
-graphics:^:D
+# FB continue..........
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+
+name:FB lava N
+graphics:~:r
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
 ################################################################################
-short-desc:high mountains base
+short-desc:lava
 desc:.
+
+name:FB lava O
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava P
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava Q
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava R
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava S
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava T
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava U
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava V
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava W
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava X
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava Y
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava Z
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava ~
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
+name:FB lava `
+graphics:~:r
+priority:18
+flags:BRIGHT | WALL | ROCK | LOS | PROJECT | TORCH
+################################################################################
+short-desc:lava
+desc:.
+
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
