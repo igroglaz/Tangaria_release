@@ -3577,43 +3577,72 @@ feat:(:s:FA lava s
 feat:(:t:FA lava t
 feat:(:u:FA lava u
 feat:(:v:FA lava v
+feat:(:w:FA lava w
+####################
+feat:(:x:FA lava x
+feat:(:y:FA lava y
+feat:(:z:FA lava z
+feat:(:A:FA lava A
+feat:(:B:FA lava B
+feat:(:C:FA lava C
+feat:(:D:FA lava D
+feat:(:E:FA lava E
+feat:(:F:FA lava F
+feat:(:G:FA lava G
+feat:(:H:FA lava H
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FB - mountains end bot
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:(:w:mountains end bot w
-feat:(:x:mountains end bot x
-feat:(:y:mountains end bot y
-feat:(:z:mountains end bot z
-feat:(:A:mountains end bot A
-feat:(:B:mountains end bot B
-feat:(:C:mountains end bot C
-feat:(:D:mountains end bot D
-feat:(:E:mountains end bot E
-feat:(:F:mountains end bot F
-feat:(:G:mountains end bot G
-feat:(:H:mountains end bot H
-feat:(:I:mountains end bot I
-feat:(:J:mountains end bot J
-feat:(:K:mountains end bot K
-feat:(:L:mountains end bot L
-feat:(:M:mountains end bot M
-feat:(:N:FB lava N
-feat:(:O:FB lava O
-feat:(:P:FB lava P
-feat:(:Q:FB lava Q
-feat:(:R:FB lava R
-feat:(:S:FB lava S
-feat:(:T:FB lava T
-feat:(:U:FB lava U
-feat:(:V:FB lava V
-feat:(:W:FB lava W
-feat:(:X:FB lava X
-feat:(:Y:FB lava Y
-feat:(:Z:FB lava Z
-feat:(:~:FB lava ~
-feat:(:`:FB lava `
+#### ATTENTION! `)` should be only for one FB!
+# cause it has no lightning, so ( a-v w-` won't
+# fit there in one!
+
+feat:):0:mountains end bot 0
+feat:):1:mountains end bot 1
+feat:):2:mountains end bot 2
+feat:):3:mountains end bot 3
+feat:):4:mountains end bot 4
+feat:):5:mountains end bot 5
+feat:):6:mountains end bot 6
+feat:):7:mountains end bot 7
+feat:):8:mountains end bot 8
+feat:):9:mountains end bot 9
+feat:):a:mountains end bot a
+feat:):b:mountains end bot b
+feat:):c:mountains end bot c
+feat:):d:mountains end bot d
+feat:):e:mountains end bot e
+feat:):f:mountains end bot f
+feat:):g:mountains end bot g
+feat:):h:FB lava h
+feat:):i:FB lava i
+feat:):j:FB lava j
+feat:):k:FB lava k
+feat:):l:FB lava l
+feat:):m:FB lava m
+feat:):n:FB lava n
+feat:):o:FB lava o
+feat:):p:FB lava p
+feat:):q:FB lava q
+feat:):r:FB lava r
+feat:):s:FB lava s
+feat:):t:FB lava t
+feat:):u:FB lava u
+feat:):v:FB lava v
+feat:):w:FB lava w
+feat:):x:FB lava x
+feat:):y:FB lava y
+feat:):z:FB lava z
+feat:):A:FB lava A
+feat:):B:FB lava B
+feat:):C:FB lava C
+feat:):D:FB lava D
+feat:):E:FB lava E
+feat:):F:FB lava F
+feat:):G:FB lava G
+feat:):H:FB lava H
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FC double

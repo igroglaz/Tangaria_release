@@ -5093,45 +5093,35 @@ name:Mount Doom
 wpos:1:-2
 min-depth:84
 max-depth:98
-floor:E6 blood w:1
-floor:E6 blood x:1
-floor:E6 blood y:1
-floor:E6 blood z:1
-floor:E6 blood A:1
-floor:E6 blood B:1
-#
-floor:E5 blood 0:1
-floor:E5 blood 1:1
-floor:E5 blood 2:1
-floor:E5 blood 3:1
-floor:E5 blood 4:1
-floor:E5 blood 5:1
-floor:E5 blood 6:1
-floor:E5 blood 7:1
-floor:E5 blood 8:1
-floor:E5 blood 9:1
-floor:E5 blood a:1
-floor:E5 blood b:1
-floor:E5 blood c:1
-floor:E5 blood d:1
-floor:E5 blood e:1
-floor:E5 blood f:1
-floor:E5 blood g:1
-floor:E5 blood h:1
-floor:E5 blood i:1
-floor:E5 blood j:1
-floor:E5 blood k:1
-floor:E5 blood l:1
-floor:E5 blood m:1
-floor:E5 blood n:1
-floor:E5 blood o:1
-floor:E5 blood p:1
-floor:E5 blood q:1
-floor:E5 blood r:1
-floor:E5 blood s:1
-floor:E5 blood t:1
-floor:E5 blood u:1
-floor:E5 blood v:1
+wall:FA lava h:600
+wall:FA lava i:600
+wall:FA lava j:600
+wall:FA lava k:600
+wall:FA lava l:600
+wall:FA lava m:600
+wall:FA lava n:600
+wall:FA lava o:600
+wall:FA lava p:600
+wall:FA lava q:600
+wall:FA lava r:600
+wall:FA lava s:600
+wall:FA lava t:600
+wall:FA lava u:600
+wall:FA lava v:500
+wall:FA lava w:500
+# FB  #-#-#-#-#-#  liquid: 800
+wall:FB lava h:50
+wall:FB lava i:50
+wall:FB lava j:50
+wall:FB lava k:50
+wall:FB lava l:50
+wall:FB lava m:50
+wall:FB lava n:50
+wall:FB lava o:50
+wall:FB lava p:50
+wall:FB lava q:50
+wall:FB lava r:50
+wall:FB lava s:50
 flags:CAVERN | LAVA_RIVER
 floor:lava stream:1000
 wall:lava:1000
@@ -5186,23 +5176,6 @@ floor:E5 blood u:1
 floor:E5 blood v:1
 floor:web:300
 #############################
-wall:mountains end bot 0:592
-wall:mountains end bot 1:588
-wall:mountains end bot 2:588
-wall:mountains end bot 3:588
-wall:mountains end bot 4:588
-wall:mountains end bot 5:588
-wall:mountains end bot 6:588
-wall:mountains end bot 7:588
-wall:mountains end bot 8:588
-wall:mountains end bot 9:588
-wall:mountains end bot a:588
-wall:mountains end bot b:588
-wall:mountains end bot c:588
-wall:mountains end bot d:588
-wall:mountains end bot e:588
-wall:mountains end bot f:588
-wall:mountains end bot g:588
 rule:10000:1
 
 ########################## XX (boss: Manwe)
