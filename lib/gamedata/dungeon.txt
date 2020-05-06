@@ -5030,6 +5030,14 @@ wpos:-1:-4
 min-depth:66
 max-depth:77
 max-level:49
+floor:B4 floors L:1250
+floor:B4 floors M:1250
+floor:B4 floors N:1250
+floor:B4 floors O:1250
+floor:B4 floors P:1250
+floor:B4 floors Q:1250
+floor:B4 floors R:1250
+floor:B4 floors S:1250
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E3 dungeon wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
@@ -5085,7 +5093,6 @@ name:Mount Doom
 wpos:1:-2
 min-depth:84
 max-depth:98
-
 floor:E6 blood w:1
 floor:E6 blood x:1
 floor:E6 blood y:1
