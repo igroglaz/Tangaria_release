@@ -62,6 +62,96 @@ name:Angband
 wpos:1:-4
 min-depth:75
 max-depth:100
+floor:E0 dark floor w:1
+floor:E0 dark floor x:1
+floor:E0 dark floor y:1
+floor:E0 dark floor z:1
+floor:E0 dark floor A:5
+floor:E0 dark floor B:5
+floor:E0 dark floor C:1
+floor:E0 dark floor D:1
+floor:E0 dark floor E:1
+floor:E0 dark floor F:5
+floor:E0 dark floor G:1
+floor:E0 dark floor H:1
+floor:E0 dark floor I:1
+floor:E0 dark floor J:1
+floor:E0 dark floor K:1
+floor:E0 dark floor L:1
+# brown:
+floor:E0 dark floor M:1
+floor:E0 dark floor N:1
+floor:E0 dark floor O:2
+floor:E0 dark floor P:3
+floor:E0 dark floor Q:2
+floor:E0 dark floor R:3
+floor:E0 dark floor S:1
+floor:E0 dark floor T:3
+floor:E0 dark floor U:5
+###############################
+floor:E5 blood 0:10
+floor:E5 blood 1:10
+floor:E5 blood 2:10
+floor:E5 blood 3:10
+floor:E5 blood 4:10
+floor:E5 blood 5:10
+floor:E5 blood 6:10
+floor:E5 blood 7:10
+floor:E5 blood 8:10
+floor:E5 blood 9:10
+floor:E5 blood a:10
+floor:E5 blood b:10
+floor:E5 blood c:10
+floor:E5 blood d:10
+floor:E5 blood e:10
+floor:E5 blood f:10
+floor:E5 blood g:10
+floor:E5 blood h:10
+floor:E5 blood i:10
+floor:E5 blood j:10
+floor:E5 blood k:10
+floor:E5 blood l:10
+floor:E5 blood m:10
+floor:E5 blood n:10
+floor:E5 blood o:10
+floor:E5 blood p:10
+floor:E5 blood q:10
+floor:E5 blood r:10
+floor:E5 blood s:10
+floor:E5 blood t:10
+floor:E5 blood u:10
+floor:E5 blood v:10
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E6 blood X CAPITAL
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+floor:E6 blood w:10
+floor:E6 blood x:10
+floor:E6 blood y:10
+floor:E6 blood z:10
+floor:E6 blood A:10
+floor:E6 blood B:10
+floor:E6 blood C:10
+floor:E6 blood D:10
+floor:E6 blood E:10
+floor:E6 blood F:10
+floor:E6 blood G:10
+floor:E6 blood H:10
+floor:E6 blood I:10
+floor:E6 blood J:10
+floor:E6 blood K:10
+floor:E6 blood L:10
+floor:E6 blood M:10
+floor:E6 blood N:10
+floor:E6 blood O:10
+floor:E6 blood P:10
+floor:E6 blood Q:10
+floor:E6 blood R:10
+floor:E6 blood S:10
+floor:E6 blood T:10
+floor:E6 blood U:10
+floor:E6 blood V:10
+floor:E6 blood W:10
+########
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E2 jail wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
@@ -144,68 +234,6 @@ wall:E3 dungeon wall s:25
 wall:E3 dungeon wall t:25
 wall:E3 dungeon wall u:25
 wall:E3 dungeon wall v:25
-floor:E5 blood 0:10
-floor:E5 blood 1:10
-floor:E5 blood 2:10
-floor:E5 blood 3:10
-floor:E5 blood 4:10
-floor:E5 blood 5:10
-floor:E5 blood 6:10
-floor:E5 blood 7:10
-floor:E5 blood 8:10
-floor:E5 blood 9:10
-floor:E5 blood a:10
-floor:E5 blood b:10
-floor:E5 blood c:10
-floor:E5 blood d:10
-floor:E5 blood e:10
-floor:E5 blood f:10
-floor:E5 blood g:10
-floor:E5 blood h:10
-floor:E5 blood i:10
-floor:E5 blood j:10
-floor:E5 blood k:10
-floor:E5 blood l:10
-floor:E5 blood m:10
-floor:E5 blood n:10
-floor:E5 blood o:10
-floor:E5 blood p:10
-floor:E5 blood q:10
-floor:E5 blood r:10
-floor:E5 blood s:10
-floor:E5 blood t:10
-floor:E5 blood u:10
-floor:E5 blood v:10
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E6 blood X CAPITAL
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-floor:E6 blood w:10
-floor:E6 blood x:10
-floor:E6 blood y:10
-floor:E6 blood z:10
-floor:E6 blood A:10
-floor:E6 blood B:10
-floor:E6 blood C:10
-floor:E6 blood D:10
-floor:E6 blood E:10
-floor:E6 blood F:10
-floor:E6 blood G:10
-floor:E6 blood H:10
-floor:E6 blood I:10
-floor:E6 blood J:10
-floor:E6 blood K:10
-floor:E6 blood L:10
-floor:E6 blood M:10
-floor:E6 blood N:10
-floor:E6 blood O:10
-floor:E6 blood P:10
-floor:E6 blood Q:10
-floor:E6 blood R:10
-floor:E6 blood S:10
-floor:E6 blood T:10
-floor:E6 blood U:10
-floor:E6 blood V:10
-floor:E6 blood W:10
 rule:10000:1
 
 ########################## 1
