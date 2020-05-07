@@ -75,12 +75,10 @@ feat:%:z:magma vein
 feat:%:A:quartz vein
 feat:%:B:magma vein with treasure
 feat:%:C:quartz vein with treasure
-# :
+# base lava (red square):
 feat:;:*:lava
-########################################################## new lava wall:
-feat:;:~:lava wall
-feat:;:`:lava rock
-##########################################################
+# yellow lattice lave:
+feat:;:~:solid lava
 # feat:%:E:packed dirt <<< feat:,:,:packed dirt
 # feat:%:F:mud         <<< feat:,:;:mud
 feat:%:G:sand

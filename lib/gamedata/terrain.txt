@@ -613,8 +613,7 @@ desc:You can dig through most walls but these are impenetrable. The dungeon is
 desc: surrounded by these kinds of walls and some special rooms are made of
 desc: them.
 
-# New terrain
-
+# base lava (red square):
 name:lava
 graphics:~:r
 priority:25
@@ -626,23 +625,12 @@ died-flavor:burned to a cinder in lava
 die-msg:burning to a cinder in lava
 resist-flag:IM_FIRE
 
-name:lava wall
-graphics:#:r
+# yellow lattice lave:
+name:solid lava
+graphics:.:u
 priority:11
-flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-info:0:5
-desc:A seam of glowing lava wall. It can be removed by digging or magic, and
-desc: passed through by immaterial monsters. It stops any spells, missiles or
-desc: line of sight.
-
-name:lava rock
-graphics:#:r
-priority:11
-flags:WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
-info:0:5
-desc:A seam of glowing lava wall. It can be removed by digging or magic, and
-desc: passed through by immaterial monsters. It stops any spells, missiles or
-desc: line of sight.
+flags:PROJECT | PASSABLE | NO_SCENT | BRIGHT
+desc:A seam of glowing lava wall.
 
 name:pile of passable rubble
 graphics:::u
@@ -7055,12 +7043,10 @@ short-desc:ash floor
 desc:.
 
 name:B3 floors s
-graphics:.:s
-priority:18
+graphics:.:u
+priority:11
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
-################################################################################
-short-desc:lava floor
-desc:.
+desc:A seam of slightly glowing lava rock.
 
 name:B3 floors t
 graphics:.:s
