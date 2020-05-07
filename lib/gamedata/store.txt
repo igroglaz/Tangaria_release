@@ -47,31 +47,31 @@
 #Store must have more than one owner, otherwise the shuffle feature will loop 
 #endlessly (Angband stores all have 4). If you #want only one, just duplicate the entry.
 #
-#example of normal:fortune cookie:Fortune Cookie:10:300:
+#example of normal:food:Ration of Food:10:300:
 #'10' means it would be 10 times less often then for common (1) items
 #300 is 300% price increase from 'cost' from object.txt
 #
 
 # Default welcome messages
 welcome:0:nods to you.
-welcome:1:says hello.
-welcome:2:"See anything you like, adventurer?"
-welcome:3:"How may I help you, %s?"
-welcome:4:"Welcome back, %s."
-welcome:5:"A pleasure to see you again, %s."
-welcome:6:"How may I be of assistance, %s?"
-welcome:7:"You do honour to my humble store, %s."
-welcome:8:"I am entirely at your service, %s."
+welcome:1:nods to you.
+welcome:2:nods to you.
+welcome:3:nods to you.
+welcome:4:nods to you.
+welcome:5:nods to you.
+welcome:6:nods to you.
+welcome:7:nods to you.
+welcome:8:nods to you.
 
 #welcome:8:"I and my family are entirely at your service, %s."
 
 # General store
 store:General Store
 type:1
-owner:5000:Pilbo the Friendly (Halfling)
-owner:10000:Garkin the Old (Human)
-owner:20000:Snafu the Midget (Gnome)
-owner:30000:Lyar-el the Comely (Elf)
+owner:5000:Erkenbrand
+owner:10000:Erkenbrand
+owner:20000:Erkenbrand
+owner:30000:Erkenbrand
 slots:2:5
 turnover:2
 always:cloak:Cloak
@@ -248,10 +248,10 @@ buy:potion
 
 # Magic-user's
 store:Magic Shop
-owner:15000:Ariel the Sorceress (Half-Elf)
-owner:20000:Buggerby the Great (Gnome)
-owner:25000:Inglorian the Mage (Human)
-owner:30000:Luthien Starshine (High-Elf)
+owner:15000:Romestamo the Wizard
+owner:20000:Romestamo the Wizard
+owner:25000:Romestamo the Wizard
+owner:30000:Romestamo the Wizard
 slots:4:15
 turnover:9
 always:magic book
@@ -288,6 +288,15 @@ owner:25000:Lord-X the Black (Human)
 owner:30000:Senya the Beautiful (High-Elf)
 slots:0:2
 turnover:0
+welcome:0:nods to you.
+welcome:1:says hello.
+welcome:2:"See anything you like, adventurer?"
+welcome:3:"How may I help you, %s?"
+welcome:4:"Welcome back, %s."
+welcome:5:"A pleasure to see you again, %s."
+welcome:6:"How may I be of assistance, %s?"
+welcome:7:"You do honour to my humble store, %s."
+welcome:8:"I am entirely at your service, %s."
 always:nature book
 always:shadow book
 always:psi book
@@ -300,20 +309,20 @@ buy:elemental book
 # Place custom stores here
 
 # Starter town tavern
-store:Brodyajnik the Ranger
-owner:5000:Brodyajnik the Ranger (Human)
-owner:5000:Brodyajnik the Ranger (Human)
+store:Halbarad, the old ranger
+owner:5000:Halbarad, the old ranger
+owner:5000:Halbarad, the old ranger
 slots:0:3
 turnover:1
 welcome:0:looks at you with interest.
 welcome:1:curses.
 welcome:2:grunts.
 welcome:3:eyes you suspiciously.
-welcome:4:"There is an old mage living to the south east.."
+welcome:4:"There is an old mage living to the south west.."
 welcome:5:"Don't make me waste my time!"
 welcome:6:"Please hurry up, I need to chop wood for the fire."
-welcome:7:"Welcome, %s."
-welcome:8:"A pleasure to do business with you, %s."
+welcome:7:"Welcome..."
+welcome:8:"A pleasure to do business with you..."
 #######################################################################
 always:fortune cookie:Hello, stranger. What are you doing there, in
 always:fortune cookie:this wild lands? You are not the first who came
@@ -323,7 +332,7 @@ always:fortune cookie:north-east from my tavern. But I don't complain..
 always:fortune cookie:Finally I could get a few coins by selling some
 always:fortune cookie:of this goods.. Take a look at them...
 #######################################################################
-normal:fortune cookie:Beware of danger in Mountain Passage to the west
+normal:fortune cookie:Be careful in Mountain Passage to the east..
 normal:fortune cookie:I didn't visit town for some time already..
 normal:fortune cookie:Maybe its time for me to go on adventure with you
 #######################################################################
@@ -365,9 +374,9 @@ buy:flask
 
 # Starter town wizard hut
 #10
-store:Rinswind the Wizard
-owner:5000:Rinswind the Wizard (Human)
-owner:5000:Rinswind the Wizard (Human)
+store:Morinehtar the Wizard
+owner:5000:Morinehtar the Wizard
+owner:5000:Morinehtar the Wizard
 slots:0:4
 turnover:1
 #######################################################################
@@ -474,7 +483,7 @@ buy:flask
 store:Shtukensia the tavernkeeper
 owner:5000:Shtukensia the tavernkeeper (Human)
 owner:5000:Shtukensia the tavernkeeper (Human)
-slots:9:10
+slots:8:9
 turnover:1
 #######################################################################
 always:fortune cookie:Hi.. Don't look at me with such hungry eyes..
@@ -495,7 +504,6 @@ normal:fortune cookie:Someone should give a lesson to this thiefs...
 ###
 ### INSECTS? bleach,, Rotten food!!!!
 ###
-normal:fortune cookie:Fortune Cookie:10:300
 normal:food:Flask of Whisky:2:150
 normal:food:Pint of Fine Wine:5:150
 normal:food:Pint of Fine Ale:3:150
@@ -576,9 +584,9 @@ buy:rock
 buy:arrow
 
 #town
-store:Old man
-owner:5000:Old man (Human)
-owner:5000:Old man (Human)
+store:Deckard Coin
+owner:5000:Deckard Coin
+owner:5000:Deckard Coin
 slots:0:7
 turnover:1
 #######################################################################
@@ -714,20 +722,80 @@ buy:flask
 store:Mr. Underhill
 owner:5000:Mr. Underhill
 owner:5000:Mr. Underhill
-slots:0:3
-turnover:1
+slots:8:9
+turnover:5
 #######################################################################
-always:fortune cookie:When evening in the Shire was grey
-#######################################################################
-normal:fortune cookie:his footsteps on the Hill were heard
-normal:fortune cookie:before the dawn he went away
-normal:fortune cookie:on journey long without a word
+normal:fortune cookie:There is an inn, a merry old inn
+normal:fortune cookie:beneath an old grey hill,
+normal:fortune cookie:And there they brew a beer so brown
+normal:fortune cookie:That the Man in the Moon himself came down
+normal:fortune cookie:One night to drink his fill.
+normal:fortune cookie:The ostler has a tipsy cat
+normal:fortune cookie:that plays a five-stringed fiddle;
+normal:fortune cookie:And up and down he runs his bow,
+normal:fortune cookie:Now squeaking high, now purring low,
+normal:fortune cookie:Now sawing in the middle.
+normal:fortune cookie:The landlord keeps a little dog
+normal:fortune cookie:that is mighty fond of jokes;
+normal:fortune cookie:When there's good cheer among the guests,
+normal:fortune cookie:He cocks an ear at all the jests
+normal:fortune cookie:And laughs until he chokes.
+normal:fortune cookie:They also keep a horned cow
+normal:fortune cookie:as proud as any queen;
+normal:fortune cookie:But music turns her head like ale,
+normal:fortune cookie:And makes her wave her tufted tail
+normal:fortune cookie:and dance upon the green.
+normal:fortune cookie:And O! the rows of silver dishes
+normal:fortune cookie:and the store of silver spoons!
+normal:fortune cookie:For Sunday there's a special pair,
+normal:fortune cookie:And these they polish up with care
+normal:fortune cookie:on Saturday afternoons.
+normal:fortune cookie:The Man in the Moon was drinking deep,
+normal:fortune cookie:and the cat began to wail;
+normal:fortune cookie:A dish and a spoon on the table danced,
+normal:fortune cookie:The cow in the garden madly pranced,
+normal:fortune cookie:and the little dog chased his tail.
+normal:fortune cookie:The Man in the Moon took another mug,
+normal:fortune cookie:and then rolled beneath his chair;
+normal:fortune cookie:And there he dozed and dreamed of ale,
+normal:fortune cookie:Till in the sky the stars were pale,
+normal:fortune cookie:and dawn was in the air.
+normal:fortune cookie:Then the ostler said to his tipsy cat
+normal:fortune cookie:The white horses of the Moon,
+normal:fortune cookie:They neigh and champ their silver bits;
+normal:fortune cookie:But their master's been and drowned his wits,
+normal:fortune cookie:and the Sun'll be rising soon!'
+normal:fortune cookie:So the cat on his fiddle played hey-diddle-diddle
+normal:fortune cookie:a jig that would wake the dead
+normal:fortune cookie:He squeaked and sawed and quickened the tune,
+normal:fortune cookie:While the landlord shook the Man in the Moon
+normal:fortune cookie:'It's after three!' he said.
+normal:fortune cookie:They rolled the Man slowly up the hill
+normal:fortune cookie:and bundled him into the Moon,
+normal:fortune cookie:While his horses galloped up in rear,
+normal:fortune cookie:And the cow came capering like a deer,
+normal:fortune cookie:and a dish ran up with the spoon.
+normal:fortune cookie:Now quicker the fiddle went deedle-dum-diddle;
+normal:fortune cookie:the dog began to roar,
+normal:fortune cookie:The cow and the horses stood on their heads;
+normal:fortune cookie:The guests all bounded from their beds
+normal:fortune cookie:and danced upon the floor.
+normal:fortune cookie:With a ping and a pong the fiddle-strings broke!
+normal:fortune cookie:the cow jumped over the Moon,
+normal:fortune cookie:And the little dog laughed to see such fun,
+normal:fortune cookie:And the Saturday dish went off at a run
+normal:fortune cookie:with the silver Sunday spoon.
+normal:fortune cookie:The round Moon rolled behind the hill
+normal:fortune cookie:as the Sun raised up her head.
+normal:fortune cookie:She hardly believed her fiery eyes;
+normal:fortune cookie:For though it was day, to her surprise
+normal:fortune cookie:they all went back to bed!
 buy:flask
 
 store:Gildor
 owner:5000:Gildor
 owner:5000:Gildor
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Advice is a dangerous gift,
@@ -742,7 +810,7 @@ buy:flask
 store:Squint-eyed Southerner
 owner:5000:Squint-eyed Southerner
 owner:5000:Squint-eyed Southerner
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Errr...
@@ -755,7 +823,7 @@ buy:flask
 store:Bill Ferny
 owner:5000:Bill Ferny
 owner:5000:Bill Ferny
-slots:0:5
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Need a pony? Twelve silver pennies and its yours!
@@ -770,7 +838,7 @@ buy:flask
 store:Boromir
 owner:5000:Boromir
 owner:5000:Boromir
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:I'm training there.. Don't mess around.
@@ -783,7 +851,7 @@ buy:flask
 store:Barliman
 owner:5000:Barliman
 owner:5000:Barliman
-slots:0:13
+slots:0:2
 turnover:1
 #######################################################################
 always:fortune cookie:Barliman is my name.
@@ -808,7 +876,7 @@ buy:flask
 store:Torog
 owner:5000:Torog
 owner:5000:Torog
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Eat. Me. Hungry.
@@ -821,11 +889,10 @@ buy:flask
 store:Nob, a servant
 owner:5000:Nob, a servant
 owner:5000:Nob, a servant
-slots:0:6
+slots:0:1
 turnover:1
 #######################################################################
-always:fortune cookie:Coming! Coming!
-#######################################################################
+normal:fortune cookie:Coming! Coming!
 normal:fortune cookie:*grins*
 normal:fortune cookie:*winks*
 normal:fortune cookie:Ring the bell, if you lack anything!
@@ -837,7 +904,7 @@ buy:flask
 store:Rose
 owner:5000:Rose
 owner:5000:Rose
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:*smiles*

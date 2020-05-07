@@ -192,7 +192,7 @@ desc:A shop that sells and buys magical and mystical books.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-name:Brodyajnik the Ranger
+name:Halbarad, the old ranger
 graphics:@:u
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
@@ -210,13 +210,13 @@ info:9:0
 short-desc:tiny cream colored siamese cat with yellowish brown-green eyes.
 desc:Cat looks at you with interest.
 
-name:Rinswind the Wizard
+name:Morinehtar the Wizard
 graphics:@:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
 info:10:0
 ################################################################################
-short-desc:old man with bright blue eyes. He's a wizard it seems. No hat though
+short-desc:old man with bright hazel eyes. He's a wizard it seems. No hat though
 desc:.
 
 name:Old guard Barry
@@ -273,7 +273,7 @@ info:16:0
 short-desc:young man with grey eyes and tiny beard-goatee. He grins.
 desc:.
 
-name:Old man
+name:Deckard Coin
 graphics:@:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR

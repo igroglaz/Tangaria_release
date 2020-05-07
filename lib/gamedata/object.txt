@@ -6181,7 +6181,6 @@ effect:NOURISH:INC_BY
 dice:5
 desc:A biscuit containing a small piece of paper telling your fortune.
 
-
 ##############
 # new items  #
 ##############
@@ -6398,11 +6397,9 @@ dice:14+1d20
 desc:This parchment is oily and ragged, but looks readable.
 
 
-
 ##############
 #  NPC chat  #
 ##############
-
 name:Hello, stranger. What are you doing there, in
 graphics:?:y
 type:fortune cookie
@@ -6459,7 +6456,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:Beware of danger in Mountain Passage to the west
+name:Be careful in Mountain Passage to the east..
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7004,14 +7001,6 @@ cost:99999999
 desc:.
 
 name:Someone should give a lesson to this thiefs...
-graphics:?:y
-type:fortune cookie
-level:0
-weight:5
-cost:99999999
-desc:.
-
-name:Fortune Cookie:10:300
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7843,7 +7832,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:When evening in the Shire was grey
+name:There is an inn, a merry old inn
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7851,7 +7840,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:his footsteps on the Hill were heard
+name:beneath an old grey hill,
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7859,7 +7848,7 @@ weight:5
 cost:99999999
 desc:.
 
-name:before the dawn he went away
+name:And there they brew a beer so brown
 graphics:?:y
 type:fortune cookie
 level:0
@@ -7867,7 +7856,495 @@ weight:5
 cost:99999999
 desc:.
 
-name:on journey long without a word
+name:That the Man in the Moon himself came down
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:One night to drink his fill.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The ostler has a tipsy cat
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:that plays a five-stringed fiddle;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And up and down he runs his bow,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now squeaking high, now purring low,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now sawing in the middle.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The landlord keeps a little dog
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:that is mighty fond of jokes;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:When there's good cheer among the guests,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:He cocks an ear at all the jests
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And laughs until he chokes.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:They also keep a horned cow
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:as proud as any queen;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:But music turns her head like ale,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And makes her wave her tufted tail
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and dance upon the green.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And O! the rows of silver dishes
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and the store of silver spoons!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:For Sunday there's a special pair,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And these they polish up with care
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:on Saturday afternoons.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The Man in the Moon was drinking deep,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and the cat began to wail;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:A dish and a spoon on the table danced,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The cow in the garden madly pranced,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and the little dog chased his tail.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The Man in the Moon took another mug,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and then rolled beneath his chair;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And there he dozed and dreamed of ale,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Till in the sky the stars were pale,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and dawn was in the air.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Then the ostler said to his tipsy cat
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The white horses of the Moon,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:They neigh and champ their silver bits;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:But their master's been and drowned his wits,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and the Sun'll be rising soon!'
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:So the cat on his fiddle played hey-diddle-diddle
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:a jig that would wake the dead
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:He squeaked and sawed and quickened the tune,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:While the landlord shook the Man in the Moon
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:'It's after three!' he said.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:They rolled the Man slowly up the hill
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and bundled him into the Moon,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:While his horses galloped up in rear,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And the cow came capering like a deer,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and a dish ran up with the spoon.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:Now quicker the fiddle went deedle-dum-diddle;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:the dog began to roar,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The cow and the horses stood on their heads;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The guests all bounded from their beds
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:and danced upon the floor.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:With a ping and a pong the fiddle-strings broke!
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:the cow jumped over the Moon,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And the little dog laughed to see such fun,
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:And the Saturday dish went off at a run
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:with the silver Sunday spoon.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:The round Moon rolled behind the hill
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:as the Sun raised up her head.
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:She hardly believed her fiery eyes;
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:For though it was day, to her surprise
+graphics:?:y
+type:fortune cookie
+level:0
+weight:5
+cost:99999999
+desc:.
+
+name:they all went back to bed!
 graphics:?:y
 type:fortune cookie
 level:0
@@ -8458,3 +8935,4 @@ level:0
 weight:5
 cost:99999999
 desc:.
+
