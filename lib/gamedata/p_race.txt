@@ -496,26 +496,12 @@ obj-flag:1:AGGRAVATE
 #curse:siren:100
 #obj-flag:1:DRAIN_EXP
 #obj-flag:10:DRAIN_EXP do not deplete less then achieved lvl ?
-value:1:MOVES[1+1d10]
+value:1:MOVES[1]
 obj-flag:1:REGEN
 value:1:MANA[4+-1d10M40]
 #obj-flag:1:FEATHER[-1]
 player-flags:HYDRA
-attack:hit:none:1:0:NONE
-attack:rend:none:1:0:NONE
-attack:butt:none:1:0:NONE
-attack:crush:none:1:0:NONE
-attack:claw: (circular):1:0:CIRCLE
-attack:snap: (circular):5:0:CIRCLE
-attack:bite: (circular):10:0:CIRCLE
-attack:nip: (circular):15:0:CIRCLE
-attack:nibble: (circular):20:0:CIRCLE
-attack:gnaw: (circular):25:0:CIRCLE
-attack:crunch: (circular):30:0:CIRCLE
-attack:chomp: (circular):35:0:CIRCLE
-attack:champ: (circular):40:0:CIRCLE
-attack:chump: (circular):45:0:CIRCLE
-attack:scrunch: (circular):50:0:CIRCLE
+attack:bite: (circular):1:0:CIRCLE
 
 name:Black Numenorean
 skill-disarm-phys:2
