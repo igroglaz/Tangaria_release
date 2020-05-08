@@ -659,7 +659,7 @@ desc: safely apart from on your person. This is a section of wall from such
 desc: house.
 
 name:fake permanent wall
-graphics:#:W
+graphics:#:w
 mimic:granite wall
 priority:25
 flags:WALL | ROCK | PERMANENT | PIT | NO_SCENT | NO_FLOW | TORCH
