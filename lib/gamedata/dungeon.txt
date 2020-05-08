@@ -7,9 +7,12 @@
 # max-level : maximum character level allowed to enter
 # flags : dungeon flags
 # floor : floor feature : 1/10000 chance of getting the feature
-# wall : wall feature : 1/10000 chance of getting the feature
-# door : closed door feature : open door feature : 1/10000 chance of getting
-#        the feature
+# wall : wall feature : mimic feature : 1/10000 chance of getting the feature
+# perma : permawall feature : 1/10000 chance of getting the feature
+# door : closed door feature : open door feature : broken door feature : 1/10000
+#        chance of getting the feature
+# stair : stairs down : stairs up : 1/10000 chance of getting the feature
+# rubble : rubble : passable rubble : 1/10000 chance of getting the feature
 # rule : 1/10000 chance of using the rule : apply to all monsters
 # rule-flags : monster flags
 # rule-spells : monster spell flags
@@ -33,7 +36,10 @@
 
 # 'floor' are dungeon features that can replace basic floors
 # 'wall' are dungeon features that can replace basic walls
+# 'perma' are dungeon features that can replace basic permawalls
 # 'door' are dungeon features that can replace basic doors
+# 'stair' are dungeon features that can replace basic stairs
+# 'rubble' are dungeon features that can replace basic rubbles
 
 # 'rule' are dungeon rules to restrict the possible monsters
 # 'rule-flags' are monster flags checked by the rule
@@ -62,6 +68,7 @@ name:Angband
 wpos:1:-3
 min-depth:75
 max-depth:100
+flags:STREAMS
 floor:E0 dark floor w:1
 floor:E0 dark floor x:1
 floor:E0 dark floor y:1
@@ -155,6 +162,7 @@ floor:E6 blood W:10
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E2 jail wall v
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+wall:granite wall:fake permanent wall:10000
 wall:E2 jail wall w:50
 wall:E2 jail wall x:50
 wall:E2 jail wall y:50
@@ -354,6 +362,7 @@ floor:hill:1
 #24 total; 
 #A1
 ###################################################
+wall:granite wall:fake permanent wall:10000
 #a1
 wall:tree 1:100
 wall:tree 3:100
@@ -558,7 +567,7 @@ floor:EC dirt `:100
 # grass 4x:
 floor:floor Q dirt:100
 floor:floor R dirt:100
-wall:ED dirt F2W 0:3400
+wall:ED dirt F2W 0:fake permanent wall:3400
 wall:ED dirt F2W 1:900
 wall:ED dirt F2W 2:3400
 wall:ED dirt F2W 3:1000
@@ -756,7 +765,7 @@ wall:EB dirt F2W t:11
 wall:EB dirt F2W u:11
 wall:EB dirt F2W v:11
 #
-wall:ED dirt F2W 0:3100
+wall:ED dirt F2W 0:fake permanent wall:3100
 wall:ED dirt F2W 1:1000
 wall:ED dirt F2W 2:3400
 wall:ED dirt F2W 3:900
@@ -924,7 +933,7 @@ floor:E5 blood v:1
 #wall:E3 big dark 0:1
 #wall:E3 big dark 1:1
 #
-wall:A3 severs 0:2100
+wall:A3 severs 0:fake permanent wall:2100
 wall:A3 severs 1:1000
 wall:A3 severs 2:100
 wall:A3 severs 3:100
@@ -1140,7 +1149,7 @@ wall:tree 5 maple:100
 wall:tree 6 coniferous:100
 wall:tree 8 coniferous:100
 # !
-wall:tree 9 willow:2000
+wall:tree 9 willow:fake permanent wall:2000
 wall:tree d birch:100
 wall:tree e linden:100
 wall:tree g larch:100
@@ -1322,7 +1331,7 @@ wall:EB dirt F2W t:11
 wall:EB dirt F2W u:11
 wall:EB dirt F2W v:11
 #
-wall:ED dirt F2W 0:2600
+wall:ED dirt F2W 0:fake permanent wall:2600
 wall:ED dirt F2W 1:1000
 wall:ED dirt F2W 2:3150
 wall:ED dirt F2W 3:900
@@ -1633,7 +1642,7 @@ floor:obj_grass K puddle:6
 # 1x32^ + 468 = 500
 #A1
 ###################################################
-wall:tree 1:1100
+wall:tree 1:fake permanent wall:1100
 wall:tree 3:1100
 wall:tree 4 maple:100
 wall:tree 5 maple:100
@@ -1694,7 +1703,7 @@ max-level:25
 floor:B3 floors n:300
 floor:B3 floors o:9700
 # B9
-wall:dark wall 0:3050
+wall:dark wall 0:fake permanent wall:3050
 wall:dark wall 1 narrow window:100
 wall:dark wall 2 window:100
 wall:dark wall 3 candelabra:100
@@ -1983,7 +1992,7 @@ wall:sandwall:4950
 ################################ 5050 V
 #
 ####################### 800
-wall:E7 desert F2W 0:570
+wall:E7 desert F2W 0:fake permanent wall:570
 wall:E7 desert F2W 7:34
 wall:E7 desert F2W 8:34
 wall:E7 desert F2W 9:16
@@ -2138,7 +2147,7 @@ wall:tree F2W 5 maple:100
 wall:tree F2W 6 coniferous:100
 wall:tree F2W 7 coniferous small:100
 wall:tree F2W 8 coniferous:100
-wall:tree F2W 9 willow:100
+wall:tree F2W 9 willow:fake permanent wall:100
 wall:tree F2W a small willow:100
 wall:tree F2W b broken log:50
 wall:tree F2W c broken log:50
@@ -2484,7 +2493,7 @@ wall:obj_grass N ruins:300
 wall:obj_grass O ruins:300
 wall:obj_grass P ruins:300
 wall:obj_grass Q ruins:300
-wall:big dark wall 0:100
+wall:big dark wall 0:fake permanent wall:100
 wall:big dark wall 9 entrance:50
 wall:big dark wall a low entrance:50
 wall:big dark wall b window:71
@@ -2567,7 +2576,7 @@ floor:E5 blood t:1
 floor:E5 blood u:1
 floor:E5 blood v:1
 ########################## 5600
-wall:A3 severs 0:900
+wall:A3 severs 0:fake permanent wall:900
 wall:A3 severs 1:800
 wall:A3 severs 3:100
 wall:A3 severs 6:100
@@ -2698,7 +2707,7 @@ floor:F4 shallow water `:50
 wall:B6 floors luquid F2W w:1500
 wall:B6 floors luquid F2W x:1000
 # F3 shallow water F2W E ############### 4020
-wall:F3 shallow water F2W 0:120
+wall:F3 shallow water F2W 0:fake permanent wall:120
 wall:F3 shallow water F2W 1:100
 wall:F3 shallow water F2W 2:100
 wall:F3 shallow water F2W 3:100
@@ -2820,7 +2829,7 @@ flags:SAND_VEIN | LAVA_RIVER
 floor:B3 floors q:10000
 #
 # 96-wall: ############# 6000
-wall:96 wall M:900
+wall:96 wall M:fake permanent wall:900
 wall:96 wall N:1000
 wall:96 wall O:1080
 wall:96 wall P:20
@@ -2857,7 +2866,7 @@ max-level:40
 flags:CAVERN | WATER_RIVER | NO_DOORS
 floor:F1 snow 0:9000
 floor:ice:1000
-wall:floor f ice wall:10000
+wall:floor f ice wall:fake permanent wall:10000
 rule:10000:0
 rule-flags:IM_COLD
 
@@ -3018,7 +3027,7 @@ wall:EB dirt F2W u:11
 wall:EB dirt F2W v:11
 #######################################
 # 96-wall: ############# 
-wall:96 wall M:800
+wall:96 wall M:fake permanent wall:800
 wall:96 wall N:700
 wall:96 wall O:680
 wall:96 wall P:20
@@ -3195,7 +3204,7 @@ floor:B5 floors v:312
 wall:glass wall:1
 wall:illusion brick wall:550
 #
-wall:dark wall 0:2499
+wall:dark wall 0:fake permanent wall:2499
 wall:dark wall 1 narrow window:100
 wall:dark wall 2 window:100
 wall:dark wall 3 candelabra:100
@@ -3499,7 +3508,7 @@ wall:EB dirt F2W t:11
 wall:EB dirt F2W u:11
 wall:EB dirt F2W v:11
 #
-wall:ED dirt F2W 0:2600
+wall:ED dirt F2W 0:fake permanent wall:2600
 wall:ED dirt F2W 1:1000
 wall:ED dirt F2W 2:3150
 wall:ED dirt F2W 3:900
@@ -3692,7 +3701,7 @@ floor:F4 shallow water `:50
 wall:B6 floors luquid F2W w:700
 wall:B6 floors luquid F2W x:300
 # F3 shallow water F2W E ############### 4020
-wall:F3 shallow water F2W 0:120
+wall:F3 shallow water F2W 0:fake permanent wall:120
 wall:F3 shallow water F2W 1:100
 wall:F3 shallow water F2W 2:100
 wall:F3 shallow water F2W 3:100
@@ -4006,7 +4015,7 @@ wall:tree 4 maple:100
 wall:tree 5 maple:100
 wall:tree 6 coniferous:1000
 wall:tree 8 coniferous:800
-wall:tree 9 willow:2000
+wall:tree 9 willow:fake permanent wall:2000
 wall:tree d birch:500
 wall:tree e linden:500
 wall:tree g larch:100
@@ -4172,7 +4181,7 @@ floor:floor Q dirt:100
 floor:floor R dirt:100
 #
 ############################### 5100
-wall:A3 severs 0:399
+wall:A3 severs 0:fake permanent wall:399
 wall:A3 severs 1:200
 wall:A3 severs 2:100
 wall:A3 severs 3:100
@@ -4554,7 +4563,7 @@ floor:B3 floors 3:100
 floor:hill:1
 ######################################################
 #-#-#-#-#-#-#-#-#-#-# AB - grass mountains 2400
-wall:grass mountain 0:130
+wall:grass mountain 0:fake permanent wall:130
 wall:grass mountain 1:100
 wall:grass mountain 2:100
 wall:grass mountain 3:100
@@ -4870,7 +4879,7 @@ floor:floor Q dirt:100
 floor:floor R dirt:100
 #
 ############################### 5100
-wall:F0 dirt mountain w:400
+wall:F0 dirt mountain w:fake permanent wall:400
 wall:F0 dirt mountain x:400
 wall:F0 dirt mountain y:400
 wall:F0 dirt mountain z:400
@@ -5162,7 +5171,7 @@ wall:E2 jail wall C:900
 # flag:
 wall:E2 jail wall D:100
 # 4x walls:
-wall:E2 jail wall E:900
+wall:E2 jail wall E:fake permanent wall:900
 wall:E2 jail wall F:900
 wall:E2 jail wall G:900
 wall:E2 jail wall H:900
@@ -5227,7 +5236,7 @@ wall:E3 dungeon wall 9:200
 wall:E3 dungeon wall a:100
 wall:E3 dungeon wall b:100
 # walls:
-wall:E3 dungeon wall c:1600
+wall:E3 dungeon wall c:fake permanent wall:1600
 wall:E3 dungeon wall d:1600
 wall:E3 dungeon wall e:1600
 wall:E3 dungeon wall f:1500
@@ -5269,7 +5278,7 @@ max-depth:98
 flags:CIRCULAR_ROOMS
 #wall:lava wall:9000
 #wall:lava rock:1000
-wall:B4 walls L:1250
+wall:B4 walls L:fake permanent wall:1250
 wall:B4 walls M:1250
 wall:B4 walls N:1250
 wall:B4 walls O:1250
@@ -5388,7 +5397,7 @@ floor:F4 shallow water Z:50
 floor:F4 shallow water ~:50
 floor:F4 shallow water `:50
 ####################################
-wall:E1 moss wall 0:1000
+wall:E1 moss wall 0:fake permanent wall:1000
 wall:E1 moss wall 1:1000
 # vines
 wall:E1 moss wall 2:300
@@ -5548,7 +5557,7 @@ floor:B3 floors 3:100
 #
 floor:hill:1
 ########################################
-wall:grass mountain 0:130
+wall:grass mountain 0:fake permanent wall:130
 wall:grass mountain 1:100
 wall:grass mountain 2:100
 wall:grass mountain 3:100
@@ -5772,7 +5781,7 @@ wall:E2 jail wall y:50
 wall:E2 jail wall z:50
 wall:E2 jail wall A:50
 wall:E2 jail wall B:50
-wall:E2 jail wall C:450
+wall:E2 jail wall C:fake permanent wall:450
 # flag:
 wall:E2 jail wall D:50
 # 4x walls:
