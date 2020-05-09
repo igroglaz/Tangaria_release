@@ -69,6 +69,7 @@ wpos:1:-3
 flags:STREAMS
 min-depth:75
 max-depth:100
+stair:9F stair down 0:9F stair up 1:10000
 floor:E0 dark floor w:1
 floor:E0 dark floor x:1
 floor:E0 dark floor y:1
@@ -264,6 +265,7 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:2
+stair:9F stair down 0:9F stair up 1:10000
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100
@@ -467,6 +469,7 @@ min-depth:2
 max-depth:5
 max-level:5
 flags:NO_DOORS | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -636,6 +639,7 @@ min-depth:4
 max-depth:12
 max-level:10
 flags:SAND_VEIN | CIRCULAR_ROOMS | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:1400
 #20 + (1+8) + 71
 #900+2k^
@@ -910,6 +914,7 @@ max-depth:15
 max-level:15
 flags:WATER_RIVER
 #flags:!NO_DOORS
+stair:9F stair down 0:9F stair up 1:10000
 #slime-blood:
 floor:E6 blood w:20
 floor:E6 blood x:20
@@ -1024,6 +1029,7 @@ min-depth:12
 max-depth:20
 max-level:20
 flags:NO_DOORS | WATER_RIVER | EMPTY
+stair:9F stair down 0:9F stair up 1:10000
 #floor:floor 1 grass:24
 #floor:floor w grass:12
 #
@@ -1214,6 +1220,7 @@ min-depth:15
 max-depth:23
 max-level:20
 flags:CAVERN | SAND_VEIN | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -1488,6 +1495,7 @@ min-depth:18
 max-depth:25
 max-level:25
 flags:NO_DOORS | WATER_RIVER | CIRCULAR_ROOMS
+stair:9F stair down 0:9F stair up 1:10000
 # A1
 floor:tree 0 stump:82
 floor:tree 1:1
@@ -1747,6 +1755,7 @@ max-depth:27
 max-level:25
 #floor:packed dirt:10
 #B3 DC (yellow ornament square in cirle)
+stair:9F stair down 0:9F stair up 1:10000
 floor:B3 floors n:300
 floor:B3 floors o:9700
 # B9
@@ -1907,6 +1916,7 @@ min-depth:23
 max-depth:30
 max-level:30
 flags:NO_DOORS | SAND_VEIN | CAVERN
+stair:9F stair down 0:9F stair up 1:10000
 floor:E7 desert 0:6130
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E7 100 V
@@ -2185,6 +2195,7 @@ min-depth:27
 max-depth:34
 max-level:35
 flags:NO_DOORS | EMPTY | CIRCULAR_ROOMS
+stair:9F stair down 0:9F stair up 1:10000
 floor:light grass:3300
 floor:light grass plants:3400
 floor:light grass flowers:3300
@@ -2351,6 +2362,7 @@ min-depth:28
 max-depth:35
 max-level:35
 flags:EMPTY | CAVERN
+stair:9F stair down 0:9F stair up 1:10000
 #################################### 100
 floor:tree 0 stump:1
 floor:tree 1:1
@@ -2599,6 +2611,7 @@ min-depth:33
 max-depth:40
 max-level:35
 flags:MAZE
+stair:9F stair down 0:9F stair up 1:10000
 #slime-blood: 
 floor:E6 blood w:1
 floor:E6 blood x:1
@@ -2699,6 +2712,7 @@ min-depth:35
 max-depth:45
 max-level:35
 flags:NO_DOORS | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:B6 floors luquid w:7000
 floor:B6 floors luquid x:1500
 ##############################
@@ -2897,6 +2911,7 @@ min-depth:38
 max-depth:45
 max-level:40
 flags:SAND_VEIN | LAVA_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:B3 floors q:10000
 #
 # 96-wall: ############# 6000
@@ -2939,6 +2954,7 @@ min-depth:42
 max-depth:50
 max-level:40
 flags:CAVERN | WATER_RIVER | NO_DOORS
+stair:9F stair down 0:9F stair up 1:10000
 floor:F1 snow 0:9000
 floor:ice:1000
 wall:floor f ice wall:10000
@@ -2953,6 +2969,7 @@ min-depth:43
 max-depth:50
 max-level:40
 flags:WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -3249,6 +3266,7 @@ wpos:-2:1
 min-depth:44
 max-depth:52
 max-level:45
+stair:9F stair down 0:9F stair up 1:10000
 floor:B5 floors 0:640
 floor:B5 floors 1:312
 floor:B5 floors 2:312
@@ -3442,6 +3460,7 @@ min-depth:47
 max-depth:55
 max-level:45
 flags:CIRCULAR_ROOMS | MAZE
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -3716,6 +3735,7 @@ min-depth:47
 max-depth:55
 max-level:45
 flags:WATER_RIVER | SAND_VEIN
+stair:9F stair down 0:9F stair up 1:10000
 floor:B6 floors luquid w:7000
 floor:B6 floors luquid x:1500
 ##############################
@@ -3922,6 +3942,7 @@ min-depth:55
 max-depth:64
 max-level:49
 flags:NO_DOORS | CIRCULAR_ROOMS | MAZE
+stair:9F stair down 0:9F stair up 1:10000
 # A1
 floor:tree 0 stump:82
 floor:tree 1:1
@@ -4177,6 +4198,7 @@ min-depth:56
 max-depth:65
 max-level:49
 flags:CAVERN | LAVA_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -4496,6 +4518,7 @@ min-depth:60
 max-depth:72
 max-level:49
 flags:NO_DOORS
+stair:9F stair down 0:9F stair up 1:10000
 floor:tree 0 stump:82
 floor:tree 1:1
 floor:tree 2 little:100
@@ -4896,6 +4919,7 @@ min-depth:62
 max-depth:75
 max-level:49
 flags:CAVERN | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -5183,6 +5207,7 @@ wpos:-2:0
 min-depth:63
 max-depth:75
 max-level:49
+stair:9F stair down 0:9F stair up 1:10000
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -5367,6 +5392,7 @@ wpos:-1:-4
 min-depth:66
 max-depth:77
 max-level:49
+stair:9F stair down 0:9F stair up 1:10000
 floor:E6 blood X:2500
 floor:E6 blood Y:2500
 floor:E6 blood Z:2500
@@ -5433,6 +5459,7 @@ wpos:1:-2
 min-depth:84
 max-depth:98
 flags:CIRCULAR_ROOMS
+stair:9F stair down 0:9F stair up 1:10000
 #wall:lava wall:9000
 #wall:lava rock:1000
 wall:B4 walls L:1250
@@ -5490,6 +5517,7 @@ wpos:-3:0
 min-depth:101
 max-depth:124
 flags:LAVA_RIVER | WINNERS_ONLY |  WATER_RIVER | CAVERN | NO_DOORS
+stair:9F stair down 0:9F stair up 1:10000
 floor:B6 floors luquid w:7000
 floor:B6 floors luquid x:1500
 ##############################
@@ -5617,6 +5645,7 @@ wpos:-5:0
 min-depth:101
 max-depth:126
 flags:WINNERS_ONLY | WATER_RIVER
+stair:9F stair down 0:9F stair up 1:10000
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100
@@ -5937,6 +5966,7 @@ min-depth:102
 max-depth:127
 #########################
 flags:EMPTY | WINNERS_ONLY
+stair:9F stair down 0:9F stair up 1:10000
 floor:FA lava x:1150
 floor:FA lava y:1150
 floor:FA lava z:1100

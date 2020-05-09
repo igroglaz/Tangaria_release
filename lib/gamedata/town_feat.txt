@@ -221,6 +221,11 @@ feat:@:t:NPC t
 feat:@:u:NPC u
 feat:@:v:NPC v
 
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 9F - misc: stairs, traps..
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+#no need town feat for now
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A1 - trees

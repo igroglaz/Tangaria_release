@@ -1886,6 +1886,25 @@ short-desc:wall
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 9F - misc: stairs, traps..
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
+
+name:9F stair down 0
+graphics:>:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+short-desc:down staircase
+desc:A staircase down to a deeper part of the dungeon.
+
+name:9F stair up 1
+graphics:<:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | UPSTAIR | EASY | TORCH
+short-desc:up staircase
+desc:A staircase up to a shallower part of the dungeon.
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A1 - trees
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
