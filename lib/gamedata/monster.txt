@@ -27277,6 +27277,25 @@ flags:FRIENDLY
 desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
+name:bear
+base:townsfolk
+color:u
+speed:110
+hit-points:120
+hearing:10
+armor-class:10
+sleepiness:10
+depth:0
+rarity:4
+weight:0
+experience:0
+blow:HIT:HURT:1d10
+flags:MALE
+flags:SMART | REGENERATE
+flags:NO_FEAR | NO_SLEEP
+flags:ANIMAL | RAND_50 | FRIGHTENED
+desc:It doesn't like strangers.
+locations:Hunter's Valley|Farfest
 
 ###########################################################################
 ################### Carn Dum
