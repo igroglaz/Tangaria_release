@@ -479,8 +479,8 @@ skill-stealth:-16
 skill-search:-10
 skill-melee:0
 skill-shoot:-25
-skill-dig:40
-hitdie:13
+skill-dig:0
+hitdie:10
 exp:195:125
 history:97
 age:255:70
@@ -491,13 +491,13 @@ value:1:INT[-20]
 value:1:WIS[-20]
 value:1:DEX[-20]
 value:1:CON[-20]
-value:1:DAM_RED[-1+-1d2]
+#value:1:DAM_RED[-1+-1d2]
 obj-flag:1:AGGRAVATE
 #curse:siren:100
 #obj-flag:1:DRAIN_EXP
 #obj-flag:10:DRAIN_EXP do not deplete less then achieved lvl ?
-value:1:MOVES[1]
-obj-flag:1:REGEN
+#value:1:MOVES[1]
+#obj-flag:1:REGEN
 value:1:MANA[4+-1d10M40]
 #obj-flag:1:FEATHER[-1]
 player-flags:HYDRA
