@@ -1152,6 +1152,9 @@ desc:Looks like this wall is not so real.
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! in the middle of other shops
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
+
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 96 - walls                            0x96:0xBC - web ... next:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -1159,7 +1162,7 @@ desc:Looks like this wall is not so real.
 name:96 wall M
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1168,7 +1171,7 @@ desc:.
 name:96 wall N
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1177,7 +1180,7 @@ desc:.
 name:96 wall O
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1186,7 +1189,7 @@ desc:.
 name:96 wall P
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1195,7 +1198,7 @@ desc:.
 name:96 wall Q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1204,7 +1207,7 @@ desc:.
 name:96 wall R
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1213,7 +1216,7 @@ desc:.
 name:96 wall S
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1222,7 +1225,7 @@ desc:.
 name:96 wall T
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1231,7 +1234,7 @@ desc:.
 name:96 wall U
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1240,7 +1243,7 @@ desc:.
 name:96 wall V
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1249,7 +1252,7 @@ desc:.
 name:96 wall W
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1258,7 +1261,7 @@ desc:.
 name:96 wall X
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1267,7 +1270,7 @@ desc:.
 name:96 wall Y
 graphics:#:s
 priority:18
-flags:WALL | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1276,7 +1279,7 @@ desc:.
 name:96 wall Z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1285,7 +1288,7 @@ desc:.
 name:96 wall ~
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1294,7 +1297,7 @@ desc:.
 name:96 wall `
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -1304,10 +1307,12 @@ desc:.
 # 98 walls
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
 name:98 wall 0
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1316,7 +1321,7 @@ desc:.
 name:98 wall 1
 graphics:#:s
 priority:18
-flags:PASSABLE | EASY | LOS | PROJECT | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1325,7 +1330,7 @@ desc:.
 name:98 wall 2
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1334,7 +1339,7 @@ desc:.
 name:98 wall 3
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1343,7 +1348,7 @@ desc:.
 name:98 wall 4
 graphics:#:s
 priority:18
-flags:PASSABLE | EASY | LOS | PROJECT | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1352,7 +1357,7 @@ desc:.
 name:98 wall 5
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1361,7 +1366,7 @@ desc:.
 name:98 wall 6
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1370,7 +1375,7 @@ desc:.
 name:98 wall 7
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1379,7 +1384,7 @@ desc:.
 name:98 wall 8
 graphics:#:s
 priority:18
-flags:PASSABLE | EASY | LOS | PROJECT | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1388,7 +1393,7 @@ desc:.
 name:98 wall 9
 graphics:#:s
 priority:18
-flags:PASSABLE | EASY | LOS | PROJECT | TORCH
+flags:PASSABLE | EASY | LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1397,7 +1402,7 @@ desc:.
 name:98 wall a
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1406,7 +1411,7 @@ desc:.
 name:98 wall b
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1415,7 +1420,7 @@ desc:.
 name:98 wall c
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1424,7 +1429,7 @@ desc:.
 name:98 wall d
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1433,7 +1438,7 @@ desc:.
 name:98 wall e
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1442,7 +1447,7 @@ desc:.
 name:98 wall f
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1451,7 +1456,7 @@ desc:.
 name:98 wall g
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1460,7 +1465,7 @@ desc:.
 name:98 wall h
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1469,7 +1474,7 @@ desc:.
 name:98 wall i
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1478,7 +1483,7 @@ desc:.
 name:98 wall j
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1487,7 +1492,7 @@ desc:.
 name:98 wall k
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1496,7 +1501,7 @@ desc:.
 name:98 wall l
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1505,7 +1510,7 @@ desc:.
 name:98 wall m
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1514,7 +1519,7 @@ desc:.
 name:98 wall n
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1523,7 +1528,7 @@ desc:.
 name:98 wall o
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1532,7 +1537,7 @@ desc:.
 name:98 wall p
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1541,7 +1546,7 @@ desc:.
 name:98 wall q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1550,7 +1555,7 @@ desc:.
 name:98 wall r
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1559,7 +1564,7 @@ desc:.
 name:98 wall s
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1568,7 +1573,7 @@ desc:.
 name:98 wall t
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1577,7 +1582,7 @@ desc:.
 name:98 wall u
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1586,7 +1591,7 @@ desc:.
 name:98 wall v
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1596,10 +1601,12 @@ desc:.
 # 9D walls
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
 name:9D wall 0
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1608,7 +1615,7 @@ desc:.
 name:9D wall 1
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1617,7 +1624,7 @@ desc:.
 name:9D wall 2
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1626,7 +1633,7 @@ desc:.
 name:9D wall 3
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1635,7 +1642,7 @@ desc:.
 name:9D wall 4
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1644,7 +1651,7 @@ desc:.
 name:9D wall 5
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1653,7 +1660,7 @@ desc:.
 name:9D wall 6
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1663,7 +1670,7 @@ desc:.
 name:9D wall 7
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:The townhall is temporary closed because of mayor was kidnaped.
@@ -1672,7 +1679,7 @@ desc:.
 name:9D wall 8
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1681,7 +1688,7 @@ desc:.
 name:9D wall 9
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1690,7 +1697,7 @@ desc:.
 name:9D wall a
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1699,7 +1706,7 @@ desc:.
 name:9D wall b
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1708,7 +1715,7 @@ desc:.
 name:9D wall c
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1717,7 +1724,7 @@ desc:.
 name:9D wall d
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1726,7 +1733,7 @@ desc:.
 name:9D wall e
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1735,7 +1742,7 @@ desc:.
 name:9D wall f
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1744,7 +1751,7 @@ desc:.
 name:9D wall g
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1753,7 +1760,7 @@ desc:.
 name:9D wall h
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1762,7 +1769,7 @@ desc:.
 name:9D wall i
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1771,7 +1778,7 @@ desc:.
 name:9D wall j
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1780,7 +1787,7 @@ desc:.
 name:9D wall k
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1789,7 +1796,7 @@ desc:.
 name:9D wall l
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1798,7 +1805,7 @@ desc:.
 name:9D wall m
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1807,7 +1814,7 @@ desc:.
 name:9D wall n
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1816,7 +1823,7 @@ desc:.
 name:9D wall o
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1825,7 +1832,7 @@ desc:.
 name:9D wall p
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1834,7 +1841,7 @@ desc:.
 name:9D wall q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1843,7 +1850,7 @@ desc:.
 name:9D wall r
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1852,7 +1859,7 @@ desc:.
 name:9D wall s
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1861,7 +1868,7 @@ desc:.
 name:9D wall t
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1870,7 +1877,7 @@ desc:.
 name:9D wall u
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1879,7 +1886,7 @@ desc:.
 name:9D wall v
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -2499,7 +2506,7 @@ desc:.
 name:A3 severs 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2508,7 +2515,7 @@ desc:.
 name:A3 severs 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2517,7 +2524,7 @@ desc:.
 name:A3 severs 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2526,7 +2533,7 @@ desc:.
 name:A3 severs 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2535,7 +2542,7 @@ desc:.
 name:A3 severs 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2544,7 +2551,7 @@ desc:.
 name:A3 severs 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2553,7 +2560,7 @@ desc:.
 name:A3 severs 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2562,7 +2569,7 @@ desc:.
 name:A3 severs 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2571,7 +2578,7 @@ desc:.
 name:A3 severs 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2580,7 +2587,7 @@ desc:.
 name:A3 severs 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2589,7 +2596,7 @@ desc:.
 name:A3 severs a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2598,7 +2605,7 @@ desc:.
 name:A3 severs b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2607,7 +2614,7 @@ desc:.
 name:A3 severs c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2616,7 +2623,7 @@ desc:.
 name:A3 severs d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2625,7 +2632,7 @@ desc:.
 name:A3 severs e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2634,7 +2641,7 @@ desc:.
 name:A3 severs f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2643,7 +2650,7 @@ desc:.
 name:A3 severs g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2652,7 +2659,7 @@ desc:.
 name:A3 severs h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2661,7 +2668,7 @@ desc:.
 name:A3 severs i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2670,7 +2677,7 @@ desc:.
 name:A3 severs j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2679,7 +2686,7 @@ desc:.
 name:A3 severs k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2688,7 +2695,7 @@ desc:.
 name:A3 severs l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2697,7 +2704,7 @@ desc:.
 name:A3 severs m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2706,7 +2713,7 @@ desc:.
 name:A3 severs n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2715,7 +2722,7 @@ desc:.
 name:A3 severs o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2724,7 +2731,7 @@ desc:.
 name:A3 severs p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2733,7 +2740,7 @@ desc:.
 name:A3 severs q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2742,7 +2749,7 @@ desc:.
 name:A3 severs r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2751,7 +2758,7 @@ desc:.
 name:A3 severs s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2760,7 +2767,7 @@ desc:.
 name:A3 severs t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2769,7 +2776,7 @@ desc:.
 name:A3 severs u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2778,7 +2785,7 @@ desc:.
 name:A3 severs v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -4430,11 +4437,10 @@ desc:.
 # AA wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:AA wall w
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4443,7 +4449,7 @@ desc:.
 name:AA wall x
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4452,7 +4458,7 @@ desc:.
 name:AA wall y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4461,7 +4467,7 @@ desc:.
 name:AA wall z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4470,7 +4476,7 @@ desc:.
 name:AA wall A
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4479,7 +4485,7 @@ desc:.
 name:AA wall B
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4488,7 +4494,7 @@ desc:.
 name:AA wall C
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4497,7 +4503,7 @@ desc:.
 name:AA wall D
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4506,7 +4512,7 @@ desc:.
 name:AA wall E
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4515,7 +4521,7 @@ desc:.
 name:AA wall F
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4524,7 +4530,7 @@ desc:.
 name:AA wall G
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4533,7 +4539,7 @@ desc:.
 name:AA wall H
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4542,7 +4548,7 @@ desc:.
 name:AA wall I
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4551,7 +4557,7 @@ desc:.
 name:AA wall J
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4560,7 +4566,7 @@ desc:.
 name:AA wall K
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4569,7 +4575,7 @@ desc:.
 name:AA wall L
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4578,7 +4584,7 @@ desc:.
 name:AA wall M
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4587,7 +4593,7 @@ desc:.
 name:AA wall N
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4596,7 +4602,7 @@ desc:.
 name:AA wall O
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4605,7 +4611,7 @@ desc:.
 name:AA wall P
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4614,7 +4620,7 @@ desc:.
 name:AA wall Q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4623,7 +4629,7 @@ desc:.
 name:AA wall R
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4632,7 +4638,7 @@ desc:.
 name:AA wall S
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4641,7 +4647,7 @@ desc:.
 name:AA wall T
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4650,7 +4656,7 @@ desc:.
 name:AA wall U
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4659,7 +4665,7 @@ desc:.
 name:AA wall V
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4668,7 +4674,7 @@ desc:.
 name:AA wall W
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4677,7 +4683,7 @@ desc:.
 name:AA wall X
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4686,7 +4692,7 @@ desc:.
 name:AA wall Y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4695,7 +4701,7 @@ desc:.
 name:AA wall Z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4704,7 +4710,7 @@ desc:.
 name:AA wall ~
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4713,7 +4719,7 @@ desc:.
 name:AA wall `
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
