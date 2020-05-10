@@ -24035,13 +24035,13 @@ feat:F7 deep water F2W d:los:0xF7:0xB5
 feat:F7 deep water F2W d:lit:0xF7:0xB6
 feat:F7 deep water F2W d:dark:0xF7:0xB7
 
+#passable rubble
 # F7 deep water F2W e 
 feat:F7 deep water F2W e:torch:0xF7:0xB8
 feat:F7 deep water F2W e:los:0xF7:0xB9
 feat:F7 deep water F2W e:lit:0xF7:0xBA
 feat:F7 deep water F2W e:dark:0xF7:0xBB
 
-#passable rubble
 # F7 deep water F2W f 
 feat:F7 deep water F2W f:torch:0xF7:0xBC
 feat:F7 deep water F2W f:los:0xF7:0xBD

@@ -1153,8 +1153,6 @@ desc:Looks like this wall is not so real.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
-
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 96 - walls                            0x96:0xBC - web ... next:
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -1306,8 +1304,6 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 98 walls
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-
 
 name:98 wall 0
 graphics:#:s
@@ -2503,10 +2499,11 @@ desc:.
 # A3 - severs
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:A3 severs 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2515,7 +2512,7 @@ desc:.
 name:A3 severs 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2524,16 +2521,16 @@ desc:.
 name:A3 severs 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2542,25 +2539,25 @@ desc:.
 name:A3 severs 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2569,16 +2566,16 @@ desc:.
 name:A3 severs 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2587,7 +2584,7 @@ desc:.
 name:A3 severs 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2596,7 +2593,7 @@ desc:.
 name:A3 severs a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2605,16 +2602,16 @@ desc:.
 name:A3 severs b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2623,7 +2620,7 @@ desc:.
 name:A3 severs d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2632,7 +2629,7 @@ desc:.
 name:A3 severs e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2641,7 +2638,7 @@ desc:.
 name:A3 severs f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2650,7 +2647,7 @@ desc:.
 name:A3 severs g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2659,34 +2656,34 @@ desc:.
 name:A3 severs h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2695,7 +2692,7 @@ desc:.
 name:A3 severs l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2704,7 +2701,7 @@ desc:.
 name:A3 severs m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2713,7 +2710,7 @@ desc:.
 name:A3 severs n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2722,7 +2719,7 @@ desc:.
 name:A3 severs o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2731,16 +2728,16 @@ desc:.
 name:A3 severs p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2749,16 +2746,16 @@ desc:.
 name:A3 severs r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
 
 name:A3 severs s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2767,7 +2764,7 @@ desc:.
 name:A3 severs t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2776,7 +2773,7 @@ desc:.
 name:A3 severs u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -2785,11 +2782,12 @@ desc:.
 name:A3 severs v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
+info:0:3
 short-desc:wall
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # A4 - flowers
@@ -3198,6 +3196,7 @@ graphics:#:u
 priority:18
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
 ################################################################################
+info:0:1
 short-desc:fir-tree
 desc:.
 
@@ -3206,6 +3205,7 @@ graphics:*:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
+info:0:1
 short-desc:bush
 desc:.
 
@@ -3320,11 +3320,13 @@ desc:.
 # A6 - grass objects
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:obj_grass 0 coffin
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:coffin
 desc:A coffin.
 
@@ -3333,6 +3335,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:skull altar
 desc:A skull on altar.
 
@@ -3341,6 +3344,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:well
 desc:A well with clear water.
 
@@ -3349,6 +3353,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:cart
 desc:A cart with hay.
 
@@ -3357,6 +3362,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:bonfire
 desc:A bonfire.
 
@@ -3365,6 +3371,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:skulls pile
 desc:A pile of skulls. Creepy..
 
@@ -3373,6 +3380,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:grave of brave adventurer. You feel that you know who lay there...
 desc:A grave of brave adventurer. You feel that you know a person who lay
 
@@ -3381,6 +3389,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:A bowler on bonfire. It smells strange.
 desc:A bowler on bonfire. It smells strange.
 
@@ -3389,6 +3398,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:old ruins
 desc:An old ruins.
 
@@ -3397,6 +3407,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:fountain
 desc:A fountain.
 
@@ -3405,6 +3416,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:turned upside down cauldron
 desc:A turned upside down cauldron.
 
@@ -3413,6 +3425,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:broken chest
 desc:A broken chest.
 
@@ -3421,7 +3434,7 @@ graphics:::s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:6
+info:0:5
 short-desc:sealed portal
 desc:A sealed portal. How to get inside?
 
@@ -3430,6 +3443,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:gravestone
 desc:A huge gravestone. It looks like a giant buried there..
 
@@ -3438,6 +3452,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:high bone pile
 desc:A high bone pile..
 
@@ -3446,6 +3461,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:dog house
 desc:A dog house.
 
@@ -3454,6 +3470,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:barrel
 desc:A barrel.
 
@@ -3462,6 +3479,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:tiny graves.. Looks like halflings buried there.
 desc:A tiny graves.. Looks like halflings buried there.
 
@@ -3470,6 +3488,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:tiny graves.. Looks like halflings buried there.
 desc:A tiny graves.. Looks like halflings buried there.
 
@@ -3478,6 +3497,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:wagon
 desc:A wagon.
 
@@ -3486,6 +3506,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:street oil lamp
 desc:A street oil lamp
 
@@ -3494,6 +3515,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:3
 short-desc:altar
 desc:An altar..
 
@@ -3502,6 +3524,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:bowl with strange plants
 desc:A bowl with flowers.. Actual flowers are taken by someone.
 
@@ -3510,6 +3533,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:hole in earth
 desc:A hole. Who dig it?
 
@@ -3518,6 +3542,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:barrel and bag
 desc:A barrel and bag. It looks like there is a provision inside.
 
@@ -3526,6 +3551,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:barrel and bag
 desc:A barrel and bag. It looks like there is a provision inside.
 
@@ -3534,6 +3560,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:pile of goods
 desc:A pile of goods and provision.
 
@@ -3552,6 +3579,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:bench
 desc:A bench.
 
@@ -3560,6 +3588,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:pile of goods
 desc:A pile of goods and provision.
 
@@ -3568,6 +3597,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:pile of goods
 desc:A pile of goods and provision.
 
@@ -3576,6 +3606,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:knight's statue
 desc:A statue.
 
@@ -3589,6 +3620,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:anvil
 desc:.
 
@@ -3597,6 +3629,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:crate
 desc:.
 
@@ -3604,6 +3637,7 @@ name:obj_grass y crates
 graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+info:0:1
 ################################################################################
 short-desc:crates
 desc:.
@@ -3613,6 +3647,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:barrel
 desc:.
 
@@ -3629,6 +3664,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:weapon stand
 desc:.
 
@@ -3637,6 +3673,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:weapon stand
 desc:.
 
@@ -3645,6 +3682,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:weapon stand
 desc:.
 
@@ -3653,6 +3691,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:signpost
 desc:.
 
@@ -3661,6 +3700,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:signpost
 desc:.
 
@@ -3669,6 +3709,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:signpost
 desc:.
 
@@ -3677,6 +3718,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:ladder down
 desc:.
 
@@ -3685,6 +3727,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:bench
 desc:.
 
@@ -3693,6 +3736,7 @@ graphics:::s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:bench
 desc:.
 
@@ -3704,6 +3748,11 @@ flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 short-desc:puddle
 desc:.
 
+
+####################################
+# START RUINS:
+####################################
+
 #####removed PASSABLE and PROJECT..
 # return back when RUN flag will appear
 name:obj_grass L ruins
@@ -3711,7 +3760,7 @@ graphics:::s
 priority:18
 #comparison to granite:
 #flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3720,7 +3769,7 @@ desc:.
 name:obj_grass M ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3729,7 +3778,7 @@ desc:.
 name:obj_grass N ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3738,7 +3787,7 @@ desc:.
 name:obj_grass O ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3747,7 +3796,7 @@ desc:.
 name:obj_grass P ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
@@ -3756,13 +3805,15 @@ desc:.
 name:obj_grass Q ruins
 graphics:::s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 info:0:2
 ################################################################################
 short-desc:ruins
 desc:.
 
-######
+####################################
+# END RUINS.
+####################################
 
 name:obj_grass R sign
 graphics:::s
@@ -3846,6 +3897,7 @@ graphics:o:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:trough with hay
 desc:.
 
@@ -3854,6 +3906,7 @@ graphics:0:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:trough with water
 desc:.
 
@@ -3872,6 +3925,7 @@ graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:thick spider web facing east
 desc:.
 
@@ -3880,6 +3934,7 @@ graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:thick spider web facing west
 desc:.
 
@@ -3888,6 +3943,7 @@ graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:spider web
 desc:.
 
@@ -3896,6 +3952,7 @@ graphics:%:y
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:spider web
 desc:.
 
@@ -3914,6 +3971,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:grave with cross
 desc:.
 
@@ -3922,6 +3980,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:cross in earth
 desc:.
 
@@ -3930,6 +3989,7 @@ graphics:.:s
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
 ################################################################################
+info:0:1
 short-desc:dark stones
 desc:.
 
@@ -3975,10 +4035,15 @@ info:0:6
 short-desc:red tower with lobby
 desc:.
 
+# old ruins:
+
+
+
+
 name:obj_grass2 f
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -3987,7 +4052,7 @@ desc:.
 name:obj_grass2 g
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -3996,7 +4061,7 @@ desc:.
 name:obj_grass2 h
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4005,7 +4070,7 @@ desc:.
 name:obj_grass2 i
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4014,7 +4079,7 @@ desc:.
 name:obj_grass2 j
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4023,7 +4088,7 @@ desc:.
 name:obj_grass2 k
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4032,7 +4097,7 @@ desc:.
 name:obj_grass2 l
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4041,7 +4106,7 @@ desc:.
 name:obj_grass2 m
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4051,7 +4116,7 @@ desc:.
 name:obj_grass2 n
 graphics:#:s
 priority:18
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | NO_MONSTERS | NO_STAIRS
+flags:ROCK | LOS | PROJECT | TORCH | PASSABLE | BORING | NO_MONSTERS | NO_STAIRS
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4060,7 +4125,7 @@ desc:.
 name:obj_grass2 o
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4437,55 +4502,56 @@ desc:.
 # AA wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:AA wall w
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:3
+info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall x
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:3
+info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall y
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:3
+info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall z
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:3
+info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall A
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:3
+info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall B
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4494,7 +4560,7 @@ desc:.
 name:AA wall C
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4503,7 +4569,7 @@ desc:.
 name:AA wall D
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4512,7 +4578,7 @@ desc:.
 name:AA wall E
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4521,7 +4587,7 @@ desc:.
 name:AA wall F
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4530,7 +4596,7 @@ desc:.
 name:AA wall G
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4539,7 +4605,7 @@ desc:.
 name:AA wall H
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4548,7 +4614,7 @@ desc:.
 name:AA wall I
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4557,7 +4623,7 @@ desc:.
 name:AA wall J
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4566,7 +4632,7 @@ desc:.
 name:AA wall K
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4575,7 +4641,7 @@ desc:.
 name:AA wall L
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4584,7 +4650,7 @@ desc:.
 name:AA wall M
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4593,7 +4659,7 @@ desc:.
 name:AA wall N
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4602,7 +4668,7 @@ desc:.
 name:AA wall O
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4611,7 +4677,7 @@ desc:.
 name:AA wall P
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4620,7 +4686,7 @@ desc:.
 name:AA wall Q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4629,7 +4695,7 @@ desc:.
 name:AA wall R
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4638,7 +4704,7 @@ desc:.
 name:AA wall S
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4647,7 +4713,7 @@ desc:.
 name:AA wall T
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4656,7 +4722,7 @@ desc:.
 name:AA wall U
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4665,7 +4731,7 @@ desc:.
 name:AA wall V
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4674,7 +4740,7 @@ desc:.
 name:AA wall W
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4683,7 +4749,7 @@ desc:.
 name:AA wall X
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4692,7 +4758,7 @@ desc:.
 name:AA wall Y
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4701,7 +4767,7 @@ desc:.
 name:AA wall Z
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4710,7 +4776,7 @@ desc:.
 name:AA wall ~
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4719,7 +4785,7 @@ desc:.
 name:AA wall `
 graphics:#:s
 priority:18
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4730,106 +4796,107 @@ desc:.
 # AB - grass mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:grass mountain 0
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 1
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 2
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 3
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 4
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 5
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 6
 graphics:^:r
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 7
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 8
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 9
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain a
 graphics:^:y
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain b
 graphics:^:y
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain c rocks
 graphics:::W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 info:0:2
 ################################################################################
 short-desc:rocks
@@ -4838,7 +4905,7 @@ desc:.
 name:grass mountain d small rocks
 graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 info:0:2
 ################################################################################
 short-desc:medium sized rocks
@@ -4847,7 +4914,7 @@ desc:.
 name:grass mountain e rubble
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:3
 short-desc:rubble
@@ -4856,7 +4923,7 @@ desc:.
 name:grass mountain f passable rubble
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:3
 short-desc:passable rubble
@@ -4865,7 +4932,7 @@ desc:.
 name:grass mountain g big rocks
 graphics:::W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 info:0:3
 short-desc:big rocks
 desc:An unpassable rocks.
@@ -4873,7 +4940,7 @@ desc:An unpassable rocks.
 name:grass mountain h moss rubble
 graphics:::g
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 info:0:3
 short-desc:rubble overgrown with moss
 desc:Old rubble.
@@ -4881,7 +4948,7 @@ desc:Old rubble.
 name:grass mountain i boulders
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:3
 short-desc:boulders
@@ -4890,7 +4957,7 @@ desc:Rocks.
 name:grass mountain j boulders
 graphics:::D
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:3
 short-desc:boulders
@@ -4899,7 +4966,7 @@ desc:Rocks.
 name:grass mountain k boulders
 graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:3
 short-desc:boulders
@@ -4908,7 +4975,7 @@ desc:Rocks.
 name:grass mountain l big boulders
 graphics:::s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:3
 short-desc:boulders
@@ -4917,7 +4984,7 @@ desc:Big pile of rocks.
 name:grass mountain m rocks
 graphics:::D
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:rocks
@@ -4926,7 +4993,7 @@ desc:Rocks.
 name:grass mountain n rocks
 graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:small pile of rocks
@@ -4935,7 +5002,7 @@ desc:Rocks.
 name:grass mountain o rock
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:medium-sized rock
@@ -4944,7 +5011,7 @@ desc:Rocks.
 name:grass mountain p rocks
 graphics:::D
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:medium-sized rock
@@ -4953,7 +5020,7 @@ desc:Rocks.
 name:grass mountain q rock
 graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:medium-sized rock
@@ -4962,7 +5029,7 @@ desc:Rocks.
 name:grass mountain r rocks
 graphics:::u
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:medium-sized rocks
@@ -4971,7 +5038,7 @@ desc:Rocks.
 name:grass mountain s rocks
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:medium-sized brown rocks
@@ -4980,7 +5047,7 @@ desc:Rocks.
 name:grass mountain t rocks
 graphics:::s
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:some of rocks
@@ -4989,7 +5056,7 @@ desc:Rocks.
 name:grass mountain u rocks
 graphics:::D
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:pile of rocks
@@ -4998,104 +5065,106 @@ desc:.
 name:grass mountain v rock
 graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
 ################################################################################
 info:0:2
 short-desc:rock
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AC - grass mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
 name:grass mountain w
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain x
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain y
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain z
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain A
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain B
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain C
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain D
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain E
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
 name:grass mountain F
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high snowy mountain
 desc:A high mountain.
 
@@ -5103,7 +5172,7 @@ desc:A high mountain.
 name:grass mountain G
 graphics:::g
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING
 ################################################################################
 info:0:3
 short-desc:hills
@@ -5112,45 +5181,45 @@ desc:.
 name:grass mountain H
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:6
+info:0:4
 short-desc:high rocky peaks
 desc:.
 
 name:grass mountain I
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:6
+info:0:4
 short-desc:high rocky peaks
 desc:.
 
 name:grass mountain J
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:3
 short-desc:boulder
 desc:.
 
 name:grass mountain K
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:3
 short-desc:boulder and rocks
 desc:.
 
 name:grass mountain L
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:2
 short-desc:round rock
 desc:.
 
@@ -5159,146 +5228,147 @@ desc:.
 name:grass mountain M
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain N
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain O
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain P
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain Q
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain R
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain S
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain T
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain U
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain V
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain W
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain X
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain Y
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain Z
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain ~
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:grass mountain `
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # AD - wooden floor object
@@ -7217,10 +7287,12 @@ desc:.
 
 # SOME WALLS:
 
+
+
 name:B4 walls L
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7228,7 +7300,7 @@ desc:.
 name:B4 walls M
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7236,7 +7308,7 @@ desc:.
 name:B4 walls N
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7244,7 +7316,7 @@ desc:.
 name:B4 walls O
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7252,7 +7324,7 @@ desc:.
 name:B4 walls P
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7260,7 +7332,7 @@ desc:.
 name:B4 walls Q
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7268,7 +7340,7 @@ desc:.
 name:B4 walls R
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -7276,7 +7348,7 @@ desc:.
 name:B4 walls S
 graphics:#:s
 priority:18
-flags:QUARTZ | WALL | ROCK | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:wall
 desc:.
@@ -18135,17 +18207,14 @@ short-desc:ceramic vase on the wall shelf
 desc:.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# DC 
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # DC dark stone
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
 
 name:DC dark stone w
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18154,7 +18223,7 @@ desc:.
 name:DC dark stone x
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18163,7 +18232,7 @@ desc:.
 name:DC dark stone y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18172,7 +18241,7 @@ desc:.
 name:DC dark stone z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18181,7 +18250,7 @@ desc:.
 name:DC dark stone A
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18190,7 +18259,7 @@ desc:.
 name:DC dark stone B
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18199,7 +18268,7 @@ desc:.
 name:DC dark stone C
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18208,7 +18277,7 @@ desc:.
 name:DC dark stone D
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18217,7 +18286,7 @@ desc:.
 name:DC dark stone E
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18226,7 +18295,7 @@ desc:.
 name:DC dark stone F
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18235,7 +18304,7 @@ desc:.
 name:DC dark stone G
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18244,7 +18313,7 @@ desc:.
 name:DC dark stone H
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18253,7 +18322,7 @@ desc:.
 name:DC dark stone I
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18262,7 +18331,7 @@ desc:.
 name:DC dark stone J
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18271,7 +18340,7 @@ desc:.
 name:DC dark stone K
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18280,7 +18349,7 @@ desc:.
 name:DC dark stone L
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18289,7 +18358,7 @@ desc:.
 name:DC dark stone M
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18298,7 +18367,7 @@ desc:.
 name:DC dark stone N
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18307,7 +18376,7 @@ desc:.
 name:DC dark stone O
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18316,7 +18385,7 @@ desc:.
 name:DC dark stone P
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18325,7 +18394,7 @@ desc:.
 name:DC dark stone Q
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18334,7 +18403,7 @@ desc:.
 name:DC dark stone R
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18343,7 +18412,7 @@ desc:.
 name:DC dark stone S
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18352,7 +18421,7 @@ desc:.
 name:DC dark stone T
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18361,7 +18430,7 @@ desc:.
 name:DC dark stone U
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18370,7 +18439,7 @@ desc:.
 name:DC dark stone V
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18379,7 +18448,7 @@ desc:.
 name:DC dark stone W
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18388,7 +18457,7 @@ desc:.
 name:DC dark stone X
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18397,7 +18466,7 @@ desc:.
 name:DC dark stone Y
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18406,7 +18475,7 @@ desc:.
 name:DC dark stone Z
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18415,7 +18484,7 @@ desc:.
 name:DC dark stone ~
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -18424,7 +18493,7 @@ desc:.
 name:DC dark stone `
 graphics:#:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19168,13 +19237,16 @@ info:0:3
 short-desc:old ruins
 desc:.
 
+# rocks:
+
+
 name:DF dark floor g
 graphics:#:s
 priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor h
@@ -19183,43 +19255,43 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor i
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor j
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:LOS | PASSABLE | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor k
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor l
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor m
@@ -19228,7 +19300,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor n
@@ -19237,7 +19309,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor o
@@ -19246,16 +19318,16 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor p
 graphics:#:s
 priority:18
-flags:LOS | TORCH | BORING | ROCK
+flags:TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor q
@@ -19264,8 +19336,10 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
+
+# empty:
 
 name:DF dark floor r
 graphics:#:s
@@ -19273,7 +19347,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor s
@@ -19282,7 +19356,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor t
@@ -19291,7 +19365,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor u
@@ -19300,7 +19374,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 name:DF dark floor v
@@ -19309,7 +19383,7 @@ priority:18
 flags:LOS | TORCH | BORING | ROCK
 ################################################################################
 info:0:3
-short-desc:old ruins
+short-desc:rocks
 desc:.
 
 
@@ -19578,10 +19652,12 @@ desc:.
 # E1 moss wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
 name:E1 moss wall 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19590,7 +19666,7 @@ desc:.
 name:E1 moss wall 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19599,7 +19675,7 @@ desc:.
 name:E1 moss wall 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19608,7 +19684,7 @@ desc:.
 name:E1 moss wall 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19617,7 +19693,7 @@ desc:.
 name:E1 moss wall 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19626,7 +19702,7 @@ desc:.
 name:E1 moss wall 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19635,7 +19711,7 @@ desc:.
 name:E1 moss wall 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19644,7 +19720,7 @@ desc:.
 name:E1 moss wall 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19653,7 +19729,7 @@ desc:.
 name:E1 moss wall 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19662,7 +19738,7 @@ desc:.
 name:E1 moss wall 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19671,7 +19747,7 @@ desc:.
 name:E1 moss wall a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19680,7 +19756,7 @@ desc:.
 name:E1 moss wall b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19689,7 +19765,7 @@ desc:.
 name:E1 moss wall c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19698,7 +19774,7 @@ desc:.
 name:E1 moss wall d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19707,7 +19783,7 @@ desc:.
 name:E1 moss wall e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19716,7 +19792,7 @@ desc:.
 name:E1 moss wall f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19725,7 +19801,7 @@ desc:.
 name:E1 moss wall g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19734,7 +19810,7 @@ desc:.
 name:E1 moss wall h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19743,7 +19819,7 @@ desc:.
 name:E1 moss wall i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19752,7 +19828,7 @@ desc:.
 name:E1 moss wall j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19761,7 +19837,7 @@ desc:.
 name:E1 moss wall k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19770,7 +19846,7 @@ desc:.
 name:E1 moss wall l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19779,7 +19855,7 @@ desc:.
 name:E1 moss wall m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19788,7 +19864,7 @@ desc:.
 name:E1 moss wall n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19797,7 +19873,7 @@ desc:.
 name:E1 moss wall o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19806,7 +19882,7 @@ desc:.
 name:E1 moss wall p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19815,7 +19891,7 @@ desc:.
 name:E1 moss wall q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19824,7 +19900,7 @@ desc:.
 name:E1 moss wall r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19833,7 +19909,7 @@ desc:.
 name:E1 moss wall s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19842,7 +19918,7 @@ desc:.
 name:E1 moss wall t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19851,7 +19927,7 @@ desc:.
 name:E1 moss wall u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19860,7 +19936,7 @@ desc:.
 name:E1 moss wall v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19874,7 +19950,7 @@ desc:.
 name:E2 jail wall w
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19883,7 +19959,7 @@ desc:.
 name:E2 jail wall x
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19892,7 +19968,7 @@ desc:.
 name:E2 jail wall y
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19901,7 +19977,7 @@ desc:.
 name:E2 jail wall z
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19910,7 +19986,7 @@ desc:.
 name:E2 jail wall A
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19919,7 +19995,7 @@ desc:.
 name:E2 jail wall B
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19928,7 +20004,7 @@ desc:.
 name:E2 jail wall C
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19937,7 +20013,7 @@ desc:.
 name:E2 jail wall D
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19946,7 +20022,7 @@ desc:.
 name:E2 jail wall E
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19955,7 +20031,7 @@ desc:.
 name:E2 jail wall F
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19964,7 +20040,7 @@ desc:.
 name:E2 jail wall G
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19973,7 +20049,7 @@ desc:.
 name:E2 jail wall H
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19982,7 +20058,7 @@ desc:.
 name:E2 jail wall I
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19991,7 +20067,7 @@ desc:.
 name:E2 jail wall J
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20000,7 +20076,7 @@ desc:.
 name:E2 jail wall K
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20009,7 +20085,7 @@ desc:.
 name:E2 jail wall L
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20018,7 +20094,7 @@ desc:.
 name:E2 jail wall M
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20027,7 +20103,7 @@ desc:.
 name:E2 jail wall N
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20036,7 +20112,7 @@ desc:.
 name:E2 jail wall O
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20045,7 +20121,7 @@ desc:.
 name:E2 jail wall P
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20054,7 +20130,7 @@ desc:.
 name:E2 jail wall Q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20063,7 +20139,7 @@ desc:.
 name:E2 jail wall R
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20072,7 +20148,7 @@ desc:.
 name:E2 jail wall S
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20081,7 +20157,7 @@ desc:.
 name:E2 jail wall T
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20090,7 +20166,7 @@ desc:.
 name:E2 jail wall U
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20099,7 +20175,7 @@ desc:.
 name:E2 jail wall V
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20108,7 +20184,7 @@ desc:.
 name:E2 jail wall W
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20117,7 +20193,7 @@ desc:.
 name:E2 jail wall X
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20126,7 +20202,7 @@ desc:.
 name:E2 jail wall Y
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20135,7 +20211,7 @@ desc:.
 name:E2 jail wall Z
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20144,7 +20220,7 @@ desc:.
 name:E2 jail wall ~
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20153,7 +20229,7 @@ desc:.
 name:E2 jail wall `
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20168,7 +20244,7 @@ desc:.
 name:E3 dungeon wall 0
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20177,7 +20253,7 @@ desc:.
 name:E3 dungeon wall 1
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20186,7 +20262,7 @@ desc:.
 name:E3 dungeon wall 2
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20195,7 +20271,7 @@ desc:.
 name:E3 dungeon wall 3
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20204,7 +20280,7 @@ desc:.
 name:E3 dungeon wall 4
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20213,7 +20289,7 @@ desc:.
 name:E3 dungeon wall 5
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20222,7 +20298,7 @@ desc:.
 name:E3 dungeon wall 6
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20231,7 +20307,7 @@ desc:.
 name:E3 dungeon wall 7
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20240,7 +20316,7 @@ desc:.
 name:E3 dungeon wall 8
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20249,7 +20325,7 @@ desc:.
 name:E3 dungeon wall 9
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20258,7 +20334,7 @@ desc:.
 name:E3 dungeon wall a
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20267,7 +20343,7 @@ desc:.
 name:E3 dungeon wall b
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20276,7 +20352,7 @@ desc:.
 name:E3 dungeon wall c
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20285,7 +20361,7 @@ desc:.
 name:E3 dungeon wall d
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20294,7 +20370,7 @@ desc:.
 name:E3 dungeon wall e
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20303,7 +20379,7 @@ desc:.
 name:E3 dungeon wall f
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20312,7 +20388,7 @@ desc:.
 name:E3 dungeon wall g
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20321,7 +20397,7 @@ desc:.
 name:E3 dungeon wall h
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20330,7 +20406,7 @@ desc:.
 name:E3 dungeon wall i
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20339,7 +20415,7 @@ desc:.
 name:E3 dungeon wall j
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20348,7 +20424,7 @@ desc:.
 name:E3 dungeon wall k
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20357,7 +20433,7 @@ desc:.
 name:E3 dungeon wall l
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20366,7 +20442,7 @@ desc:.
 name:E3 dungeon wall m
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20375,7 +20451,7 @@ desc:.
 name:E3 dungeon wall n
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20384,7 +20460,7 @@ desc:.
 name:E3 dungeon wall o
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20393,7 +20469,7 @@ desc:.
 name:E3 dungeon wall p
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20402,7 +20478,7 @@ desc:.
 name:E3 dungeon wall q
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20411,7 +20487,7 @@ desc:.
 name:E3 dungeon wall r
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20420,7 +20496,7 @@ desc:.
 name:E3 dungeon wall s
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20429,7 +20505,7 @@ desc:.
 name:E3 dungeon wall t
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20438,7 +20514,7 @@ desc:.
 name:E3 dungeon wall u
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20447,7 +20523,7 @@ desc:.
 name:E3 dungeon wall v
 graphics:#:s
 priority:18
-flags:WALL | ROCK | LOS | PROJECT | TORCH | BRIGHT
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BRIGHT
 ################################################################################
 info:0:4
 short-desc:wall
@@ -20457,6 +20533,8 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E4 big dark
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# empty: 
 
 name:E4 big dark w
 graphics:#:s
@@ -21785,99 +21863,100 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
 name:E9 desert 0
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 1
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 2
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 3
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 4
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 5
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 6
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 7
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 8
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert 9
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert a
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert b
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -21885,7 +21964,7 @@ name:E9 desert c
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
@@ -21893,7 +21972,7 @@ name:E9 desert d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -21902,7 +21981,7 @@ name:E9 desert e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
@@ -21910,7 +21989,7 @@ name:E9 desert f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -21918,7 +21997,7 @@ name:E9 desert g
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
@@ -21926,7 +22005,7 @@ name:E9 desert h
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
@@ -21934,7 +22013,7 @@ name:E9 desert i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21942,7 +22021,7 @@ name:E9 desert j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21950,7 +22029,7 @@ name:E9 desert k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21958,7 +22037,7 @@ name:E9 desert l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -21966,7 +22045,7 @@ name:E9 desert m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21974,7 +22053,7 @@ name:E9 desert n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21982,7 +22061,7 @@ name:E9 desert o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21990,7 +22069,7 @@ name:E9 desert p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -21998,7 +22077,7 @@ name:E9 desert q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22006,7 +22085,7 @@ name:E9 desert r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22014,7 +22093,7 @@ name:E9 desert s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22022,7 +22101,7 @@ name:E9 desert t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22030,7 +22109,7 @@ name:E9 desert u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -22039,7 +22118,7 @@ name:E9 desert v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rock
 desc:.
@@ -22797,99 +22876,100 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
 name:ED dirt 0
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 1
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 2
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 3
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 4
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 5
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 6
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 7
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 8
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt 9
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt a
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt b
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -22897,7 +22977,7 @@ name:ED dirt c
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
@@ -22905,7 +22985,7 @@ name:ED dirt d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -22914,7 +22994,7 @@ name:ED dirt e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
@@ -22922,7 +23002,7 @@ name:ED dirt f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -22930,7 +23010,7 @@ name:ED dirt g
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
@@ -22938,7 +23018,7 @@ name:ED dirt h
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
@@ -22946,7 +23026,7 @@ name:ED dirt i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22954,7 +23034,7 @@ name:ED dirt j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22962,7 +23042,7 @@ name:ED dirt k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22970,7 +23050,7 @@ name:ED dirt l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -22978,7 +23058,7 @@ name:ED dirt m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22986,7 +23066,7 @@ name:ED dirt n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -22994,7 +23074,7 @@ name:ED dirt o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23002,7 +23082,7 @@ name:ED dirt p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23010,7 +23090,7 @@ name:ED dirt q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23018,7 +23098,7 @@ name:ED dirt r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23026,7 +23106,7 @@ name:ED dirt s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23034,7 +23114,7 @@ name:ED dirt t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -23042,7 +23122,7 @@ name:ED dirt u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -23051,7 +23131,7 @@ name:ED dirt v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | FLOOR_OTHER
 ################################################################################
 short-desc:rock
 desc:.
@@ -23290,10 +23370,11 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
 name:EF dirt w
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23301,7 +23382,7 @@ desc:.
 name:EF dirt x
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23309,7 +23390,7 @@ desc:.
 name:EF dirt y
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23317,7 +23398,7 @@ desc:.
 name:EF dirt z
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23325,7 +23406,7 @@ desc:.
 name:EF dirt A
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23333,7 +23414,7 @@ desc:.
 name:EF dirt B
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23341,7 +23422,7 @@ desc:.
 name:EF dirt C
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23349,7 +23430,7 @@ desc:.
 name:EF dirt D
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23357,7 +23438,7 @@ desc:.
 name:EF dirt E
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23365,7 +23446,7 @@ desc:.
 name:EF dirt F
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23373,7 +23454,7 @@ desc:.
 name:EF dirt G
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23381,7 +23462,7 @@ desc:.
 name:EF dirt H
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23389,7 +23470,7 @@ desc:.
 name:EF dirt I
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23397,7 +23478,7 @@ desc:.
 name:EF dirt J
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23406,7 +23487,7 @@ desc:.
 name:EF dirt K
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | ROCK | BORING | TORCH | EASY
+flags:PROJECT | PASSABLE | ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23414,7 +23495,7 @@ desc:.
 name:EF dirt L
 graphics:.:u
 priority:18
-flags:LOS | ROCK | BORING | TORCH | EASY
+flags:ROCK | BORING | TORCH | EASY
 info:0:3
 short-desc:old ruins
 desc:.
@@ -23555,93 +23636,95 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
+
 name:F0 dirt mountain w
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain x
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain y
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain z
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain A
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain B
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain C
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain D
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain E
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F0 dirt mountain F
 graphics:^:W
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -23649,7 +23732,7 @@ desc:A high mountain.
 name:F0 dirt mountain G
 graphics:::g
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING | NO_MONSTERS | NO_STAIRS
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | PASSABLE | BORING | NO_MONSTERS | NO_STAIRS
 ################################################################################
 info:0:3
 short-desc:hills
@@ -23658,7 +23741,7 @@ desc:.
 name:F0 dirt mountain H
 graphics:^:u
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:6
 short-desc:high rocky peaks
@@ -23667,7 +23750,7 @@ desc:.
 name:F0 dirt mountain I
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
 info:0:6
 short-desc:high rocky peaks
@@ -23678,171 +23761,171 @@ desc:.
 name:F0 dirt mountain J
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain K
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain L
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain M
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain N
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain O
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain P
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain Q
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain R
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain S
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain T
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain U
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain V
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain W
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain X
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain Y
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain Z
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain ~
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
 name:F0 dirt mountain `
 graphics:^:D
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
 ################################################################################
-info:0:7
+info:0:5
 short-desc:.
 desc:.
 
@@ -24120,99 +24203,100 @@ desc:.
 # F2 snow mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F2 snow 0
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 1
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 2
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 3
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 4
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 5
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 6
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 7
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 8
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow 9
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow a
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:F2 snow b
 graphics:^:s
 priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -24220,7 +24304,7 @@ name:F2 snow c
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
@@ -24228,7 +24312,7 @@ name:F2 snow d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24237,7 +24321,7 @@ name:F2 snow e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
@@ -24245,7 +24329,7 @@ name:F2 snow f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
+flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -24253,7 +24337,7 @@ name:F2 snow g
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
@@ -24261,7 +24345,7 @@ name:F2 snow h
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
@@ -24269,7 +24353,7 @@ name:F2 snow i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24277,7 +24361,7 @@ name:F2 snow j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24285,7 +24369,7 @@ name:F2 snow k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24293,7 +24377,7 @@ name:F2 snow l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -24301,7 +24385,7 @@ name:F2 snow m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24309,7 +24393,7 @@ name:F2 snow n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24317,7 +24401,7 @@ name:F2 snow o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24325,7 +24409,7 @@ name:F2 snow p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24333,7 +24417,7 @@ name:F2 snow q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24341,7 +24425,7 @@ name:F2 snow r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24349,7 +24433,7 @@ name:F2 snow s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24357,7 +24441,7 @@ name:F2 snow t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24365,7 +24449,7 @@ name:F2 snow u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24374,7 +24458,7 @@ name:F2 snow v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:rock
 desc:.
@@ -24384,99 +24468,101 @@ desc:.
 # F3 shallow water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
 name:F3 shallow water 0
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 1
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 2
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 3
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 4
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 5
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 6
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 7
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 8
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water 9
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water a
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water b
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
@@ -24484,7 +24570,7 @@ name:F3 shallow water c
 graphics:^:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24493,7 +24579,7 @@ name:F3 shallow water d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24502,7 +24588,7 @@ name:F3 shallow water e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rubble
 desc:.
@@ -24511,7 +24597,7 @@ name:F3 shallow water f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:passable rubble
 desc:.
@@ -24520,7 +24606,7 @@ name:F3 shallow water g
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24529,7 +24615,7 @@ name:F3 shallow water h
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:old rubble
 desc:Old rubble.
 
@@ -24538,7 +24624,7 @@ name:F3 shallow water i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24546,7 +24632,7 @@ name:F3 shallow water j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24554,7 +24640,7 @@ name:F3 shallow water k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24562,7 +24648,7 @@ name:F3 shallow water l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -24570,7 +24656,7 @@ name:F3 shallow water m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24578,7 +24664,7 @@ name:F3 shallow water n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24586,7 +24672,7 @@ name:F3 shallow water o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24594,7 +24680,7 @@ name:F3 shallow water p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24602,7 +24688,7 @@ name:F3 shallow water q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24610,7 +24696,7 @@ name:F3 shallow water r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24618,7 +24704,7 @@ name:F3 shallow water s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24626,7 +24712,7 @@ name:F3 shallow water t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -24634,7 +24720,7 @@ name:F3 shallow water u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -24643,7 +24729,7 @@ name:F3 shallow water v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rock
 desc:.
@@ -24913,99 +24999,100 @@ desc:.
 # F5 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:F5 deep water 0
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 1
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 2
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 3
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 4
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 5
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 6
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 7
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 8
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water 9
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water a
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F5 deep water b
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
@@ -25014,7 +25101,7 @@ name:F5 deep water c
 graphics:^:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -25023,7 +25110,7 @@ name:F5 deep water d
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -25032,7 +25119,7 @@ name:F5 deep water e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rubble
 desc:.
@@ -25041,7 +25128,7 @@ name:F5 deep water f
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:passable rubble
 desc:.
@@ -25050,7 +25137,7 @@ name:F5 deep water g
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -25059,7 +25146,7 @@ name:F5 deep water h
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:old rubble
 desc:Old rubble.
 
@@ -25067,7 +25154,7 @@ name:F5 deep water i
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25075,7 +25162,7 @@ name:F5 deep water j
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25083,7 +25170,7 @@ name:F5 deep water k
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25091,7 +25178,7 @@ name:F5 deep water l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -25100,7 +25187,7 @@ name:F5 deep water m
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25108,7 +25195,7 @@ name:F5 deep water n
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25116,7 +25203,7 @@ name:F5 deep water o
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25124,7 +25211,7 @@ name:F5 deep water p
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25132,7 +25219,7 @@ name:F5 deep water q
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25140,7 +25227,7 @@ name:F5 deep water r
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25148,7 +25235,7 @@ name:F5 deep water s
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25156,7 +25243,7 @@ name:F5 deep water t
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 short-desc:rocks
 desc:Rocks.
 
@@ -25164,7 +25251,7 @@ name:F5 deep water u
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rocks
 desc:.
@@ -25173,7 +25260,7 @@ name:F5 deep water v
 graphics:::s
 priority:18
 info:0:3
-flags:LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
+flags:ROCK | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT | OBJECT | TRAP
 ################################################################################
 short-desc:rock
 desc:.
@@ -28064,99 +28151,100 @@ desc:.
 # ED dirt F2W mountains
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
 name:ED dirt F2W 0
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 1
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 2
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 3
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 4
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 5
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 6
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 7
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 8
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W 9
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W a
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:ED dirt F2W b
 graphics:^:s
 priority:18
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -28164,7 +28252,7 @@ name:ED dirt F2W c
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
@@ -28173,7 +28261,7 @@ name:ED dirt F2W d
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -28182,7 +28270,7 @@ name:ED dirt F2W e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
@@ -28190,7 +28278,7 @@ name:ED dirt F2W f
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | NO_STAIRS
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -28198,7 +28286,7 @@ name:ED dirt F2W g
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
@@ -28206,7 +28294,7 @@ name:ED dirt F2W h
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
@@ -28214,7 +28302,7 @@ name:ED dirt F2W i
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28222,7 +28310,7 @@ name:ED dirt F2W j
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28230,7 +28318,7 @@ name:ED dirt F2W k
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28238,7 +28326,7 @@ name:ED dirt F2W l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -28246,7 +28334,7 @@ name:ED dirt F2W m
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28254,7 +28342,7 @@ name:ED dirt F2W n
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28262,7 +28350,7 @@ name:ED dirt F2W o
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28270,7 +28358,7 @@ name:ED dirt F2W p
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28278,7 +28366,7 @@ name:ED dirt F2W q
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28286,7 +28374,7 @@ name:ED dirt F2W r
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28294,7 +28382,7 @@ name:ED dirt F2W s
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28302,7 +28390,7 @@ name:ED dirt F2W t
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 short-desc:rocks
 desc:Rocks.
 
@@ -28310,7 +28398,7 @@ name:ED dirt F2W u
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rocks
 desc:.
@@ -28319,7 +28407,7 @@ name:ED dirt F2W v
 graphics:::s
 priority:18
 info:0:3
-flags:NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
+flags:ROCK | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER | NO_STAIRS
 ################################################################################
 short-desc:rock
 desc:.
@@ -29069,99 +29157,101 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
+
 name:E9 desert F2W 0
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 1
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 2
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 3
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 4
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 5
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 6
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 7
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 8
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W 9
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W a
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
 name:E9 desert F2W b
 graphics:^:s
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
-info:0:7
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
 short-desc:high mountain
 desc:A high mountain.
 
@@ -29169,7 +29259,7 @@ name:E9 desert F2W c
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:huge pile of rocks
 desc:Huge pile of rocks..
 
@@ -29177,7 +29267,7 @@ name:E9 desert F2W d
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -29186,7 +29276,7 @@ name:E9 desert F2W e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
@@ -29194,7 +29284,7 @@ name:E9 desert F2W f
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -29202,7 +29292,7 @@ name:E9 desert F2W g
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:pile of rocks
 desc:Pile of rocks.
 
@@ -29210,7 +29300,7 @@ name:E9 desert F2W h
 graphics:#:D
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:old mossy rubble
 desc:Old mossy rubble.
 
@@ -29218,7 +29308,7 @@ name:E9 desert F2W i
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29226,7 +29316,7 @@ name:E9 desert F2W j
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29234,7 +29324,7 @@ name:E9 desert F2W k
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29242,7 +29332,7 @@ name:E9 desert F2W l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -29250,7 +29340,7 @@ name:E9 desert F2W m
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29258,7 +29348,7 @@ name:E9 desert F2W n
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29266,7 +29356,7 @@ name:E9 desert F2W o
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29274,7 +29364,7 @@ name:E9 desert F2W p
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29282,7 +29372,7 @@ name:E9 desert F2W q
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29290,7 +29380,7 @@ name:E9 desert F2W r
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29298,7 +29388,7 @@ name:E9 desert F2W s
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29306,7 +29396,7 @@ name:E9 desert F2W t
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 short-desc:rocks
 desc:Rocks.
 
@@ -29314,7 +29404,7 @@ name:E9 desert F2W u
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 ################################################################################
 short-desc:rocks
 desc:.
@@ -29323,7 +29413,7 @@ name:E9 desert F2W v
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | TORCH | FLOOR_OTHER
 ################################################################################
 short-desc:rock
 desc:.
@@ -30561,99 +30651,101 @@ resist-flag:IM_WATER
 # F3 shallow water F2W
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
+
+
 name:F3 shallow water F2W 0
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 1
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 2
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 3
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 4
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 5
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 6
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 7
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 8
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W 9
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W a
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
 name:F3 shallow water F2W b
 graphics:^:s
 priority:18
-info:0:7
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:high mountain
 desc:A high mountain.
 
@@ -30661,7 +30753,7 @@ name:F3 shallow water F2W c
 graphics:^:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -30670,7 +30762,7 @@ name:F3 shallow water F2W d
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:rocks
 desc:.
@@ -30679,7 +30771,7 @@ name:F3 shallow water F2W e
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rubble
 desc:.
@@ -30688,7 +30780,7 @@ name:F3 shallow water F2W f
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:passable rubble
 desc:.
@@ -30697,7 +30789,7 @@ name:F3 shallow water F2W g
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 short-desc:rocks
 desc:.
@@ -30706,7 +30798,7 @@ name:F3 shallow water F2W h
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:old rubble
 desc:Old rubble.
 
@@ -30715,7 +30807,7 @@ name:F3 shallow water F2W i
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30723,7 +30815,7 @@ name:F3 shallow water F2W j
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30731,7 +30823,7 @@ name:F3 shallow water F2W k
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30739,7 +30831,7 @@ name:F3 shallow water F2W l
 graphics:#:s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
+flags:ROCK | NO_STAIRS | NO_MONSTERS | NO_SCENT | NO_FLOW | TORCH
 short-desc:big pile of rocks
 desc:Big pile of rocks.
 
@@ -30747,7 +30839,7 @@ name:F3 shallow water F2W m
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30755,7 +30847,7 @@ name:F3 shallow water F2W n
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30763,7 +30855,7 @@ name:F3 shallow water F2W o
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30771,7 +30863,7 @@ name:F3 shallow water F2W p
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30779,7 +30871,7 @@ name:F3 shallow water F2W q
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30787,7 +30879,7 @@ name:F3 shallow water F2W r
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30795,7 +30887,7 @@ name:F3 shallow water F2W s
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30803,7 +30895,7 @@ name:F3 shallow water F2W t
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 short-desc:rocks
 desc:Rocks.
 
@@ -30811,7 +30903,7 @@ name:F3 shallow water F2W u
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 ################################################################################
 short-desc:rocks
 desc:.
@@ -30820,7 +30912,7 @@ name:F3 shallow water F2W v
 graphics:::s
 priority:18
 info:0:3
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NO_SCENT
 ################################################################################
 short-desc:rock
 desc:.
@@ -31097,7 +31189,7 @@ desc:.
 name:F7 deep water F2W 0
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31106,7 +31198,7 @@ desc:.
 name:F7 deep water F2W 1
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31115,7 +31207,7 @@ desc:.
 name:F7 deep water F2W 2
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31124,7 +31216,7 @@ desc:.
 name:F7 deep water F2W 3
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31133,7 +31225,7 @@ desc:.
 name:F7 deep water F2W 4
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31142,7 +31234,7 @@ desc:.
 name:F7 deep water F2W 5
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31151,7 +31243,7 @@ desc:.
 name:F7 deep water F2W 6
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31160,7 +31252,7 @@ desc:.
 name:F7 deep water F2W 7
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31169,7 +31261,7 @@ desc:.
 name:F7 deep water F2W 8
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31178,7 +31270,7 @@ desc:.
 name:F7 deep water F2W 9
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31187,7 +31279,7 @@ desc:.
 name:F7 deep water F2W a
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31196,7 +31288,7 @@ desc:.
 name:F7 deep water F2W b
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31205,7 +31297,7 @@ desc:.
 name:F7 deep water F2W c
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31214,16 +31306,17 @@ desc:.
 name:F7 deep water F2W d
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
 desc:.
 
+#passable
 name:F7 deep water F2W e
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT | PASSABLE | LOS
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31232,7 +31325,7 @@ desc:.
 name:F7 deep water F2W f
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31241,7 +31334,7 @@ desc:.
 name:F7 deep water F2W g
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31250,7 +31343,7 @@ desc:.
 name:F7 deep water F2W h
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31259,7 +31352,7 @@ desc:.
 name:F7 deep water F2W i
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31268,7 +31361,7 @@ desc:.
 name:F7 deep water F2W j
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31277,7 +31370,7 @@ desc:.
 name:F7 deep water F2W k
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31286,7 +31379,7 @@ desc:.
 name:F7 deep water F2W l
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31295,7 +31388,7 @@ desc:.
 name:F7 deep water F2W m
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31304,7 +31397,7 @@ desc:.
 name:F7 deep water F2W n
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31313,7 +31406,7 @@ desc:.
 name:F7 deep water F2W o
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31322,7 +31415,7 @@ desc:.
 name:F7 deep water F2W p
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31331,7 +31424,7 @@ desc:.
 name:F7 deep water F2W q
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31340,7 +31433,7 @@ desc:.
 name:F7 deep water F2W r
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31349,7 +31442,7 @@ desc:.
 name:F7 deep water F2W s
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31358,7 +31451,7 @@ desc:.
 name:F7 deep water F2W t
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31367,7 +31460,7 @@ desc:.
 name:F7 deep water F2W u
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 info:0:3
 short-desc:old ruins in water
@@ -31376,7 +31469,10 @@ desc:.
 name:F7 deep water F2W v
 graphics:#:T
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:ROCK | NO_STAIRS | NO_MONSTERS | BORING | EASY | NOTICEABLE | NO_SCENT
 info:0:3
 short-desc:old ruins in water
 desc:.
+
+
+
