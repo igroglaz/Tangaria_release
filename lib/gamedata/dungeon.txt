@@ -1915,7 +1915,7 @@ wpos:-2:2
 min-depth:23
 max-depth:30
 max-level:30
-flags:NO_DOORS | SAND_VEIN | CAVERN
+flags:NO_DOORS | STREAMS | CAVERN
 stair:9F stair down 0:9F stair up 1:10000
 floor:E7 desert 0:6130
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -2047,7 +2047,10 @@ floor:EA sand Z:10
 floor:EA sand ~:10
 floor:EA sand `:14
 ####
-wall:sandwall:4950
+wall:E4 wall w:1250
+wall:E4 wall x:1250
+wall:E4 wall y:1250
+wall:E4 wall z:1200
 ################################ 5050 V
 #
 ####################### 800
@@ -2181,7 +2184,10 @@ wall:EA sand F2W Z:100
 wall:EA sand F2W ~:100
 wall:EA sand F2W `:100
 #
-perma:sandwall:10000
+perma:E4 wall w:2500
+perma:E4 wall x:2500
+perma:E4 wall y:2500
+perma:E4 wall z:2500
 #
 rule:9000:0
 rule-symbols:w

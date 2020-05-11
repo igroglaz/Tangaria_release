@@ -2750,41 +2750,42 @@ feat:W:v:E3 dungeon wall v
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E4 big dark W CAPITAL
+# E4 wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-feat:W:w:E4 big dark w
-feat:W:x:E4 big dark x
-feat:W:y:E4 big dark y
-feat:W:z:E4 big dark z
-feat:W:A:E4 big dark A
-feat:W:B:E4 big dark B
-feat:W:C:E4 big dark C
-feat:W:D:E4 big dark D
-feat:W:E:E4 big dark E
-feat:W:F:E4 big dark F
-feat:W:G:E4 big dark G
-feat:W:H:E4 big dark H
-feat:W:I:E4 big dark I
-feat:W:J:E4 big dark J
-feat:W:K:E4 big dark K
-feat:W:L:E4 big dark L
-feat:W:M:E4 big dark M
-feat:W:N:E4 big dark N
-feat:W:O:E4 big dark O
-feat:W:P:E4 big dark P
-feat:W:Q:E4 big dark Q
-feat:W:R:E4 big dark R
-feat:W:S:E4 big dark S
-feat:W:T:E4 big dark T
-feat:W:U:E4 big dark U
-feat:W:V:E4 big dark V
-feat:W:W:E4 big dark W
-feat:W:X:E4 big dark X
-feat:W:Y:E4 big dark Y
-feat:W:Z:E4 big dark Z
-feat:W:~:E4 big dark ~
-feat:W:`:E4 big dark `
+
+feat:W:w:E4 wall w
+feat:W:x:E4 wall x
+feat:W:y:E4 wall y
+feat:W:z:E4 wall z
+feat:W:A:E4 wall A
+feat:W:B:E4 wall B
+feat:W:C:E4 wall C
+feat:W:D:E4 wall D
+feat:W:E:E4 wall E
+feat:W:F:E4 wall F
+feat:W:G:E4 wall G
+feat:W:H:E4 wall H
+feat:W:I:E4 wall I
+feat:W:J:E4 wall J
+feat:W:K:E4 wall K
+feat:W:L:E4 wall L
+feat:W:M:E4 wall M
+feat:W:N:E4 wall N
+feat:W:O:E4 wall O
+feat:W:P:E4 wall P
+feat:W:Q:E4 wall Q
+feat:W:R:E4 wall R
+feat:W:S:E4 wall S
+feat:W:T:E4 wall T
+feat:W:U:E4 wall U
+feat:W:V:E4 wall V
+feat:W:W:E4 wall W
+feat:W:X:E4 wall X
+feat:W:Y:E4 wall Y
+feat:W:Z:E4 wall Z
+feat:W:~:E4 wall ~
+feat:W:`:E4 wall `
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

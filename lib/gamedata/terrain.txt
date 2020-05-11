@@ -20529,14 +20529,47 @@ info:0:4
 short-desc:wall
 desc:.
 
-
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-# E4 big dark
+# E4 wall
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-# empty: 
+name:E4 wall w
+graphics:#:y
+priority:18
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
 
-name:E4 big dark w
+name:E4 wall x
+graphics:#:y
+priority:18
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 wall y
+graphics:#:y
+priority:18
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 wall z
+graphics:#:y
+priority:18
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 wall A
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20545,7 +20578,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark x
+name:E4 wall B
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20554,7 +20587,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark y
+name:E4 wall C
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20563,7 +20596,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark z
+name:E4 wall D
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20572,7 +20605,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark A
+name:E4 wall E
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20581,7 +20614,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark B
+name:E4 wall F
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20590,7 +20623,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark C
+name:E4 wall G
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20599,7 +20632,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark D
+name:E4 wall H
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20608,7 +20641,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark E
+name:E4 wall I
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20617,7 +20650,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark F
+name:E4 wall J
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20626,7 +20659,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark G
+name:E4 wall K
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20635,7 +20668,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark H
+name:E4 wall L
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20644,7 +20677,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark I
+name:E4 wall M
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20653,7 +20686,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark J
+name:E4 wall N
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20662,7 +20695,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark K
+name:E4 wall O
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20671,7 +20704,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark L
+name:E4 wall P
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20680,7 +20713,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark M
+name:E4 wall Q
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20689,7 +20722,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark N
+name:E4 wall R
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20698,7 +20731,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark O
+name:E4 wall S
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20707,7 +20740,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark P
+name:E4 wall T
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20716,7 +20749,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark Q
+name:E4 wall U
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20725,7 +20758,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark R
+name:E4 wall V
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20734,7 +20767,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark S
+name:E4 wall W
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20743,7 +20776,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark T
+name:E4 wall X
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20752,7 +20785,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark U
+name:E4 wall Y
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20761,7 +20794,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark V
+name:E4 wall Z
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20770,7 +20803,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark W
+name:E4 wall ~
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
@@ -20779,43 +20812,7 @@ info:0:4
 short-desc:wall
 desc:.
 
-name:E4 big dark X
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:4
-short-desc:wall
-desc:.
-
-name:E4 big dark Y
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:4
-short-desc:wall
-desc:.
-
-name:E4 big dark Z
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:4
-short-desc:wall
-desc:.
-
-name:E4 big dark ~
-graphics:#:s
-priority:18
-flags:NO_SCENT | NO_FLOW | TORCH
-################################################################################
-info:0:4
-short-desc:wall
-desc:.
-
-name:E4 big dark `
+name:E4 wall `
 graphics:#:s
 priority:18
 flags:NO_SCENT | NO_FLOW | TORCH
