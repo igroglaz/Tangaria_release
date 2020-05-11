@@ -266,6 +266,7 @@ min-depth:1
 max-depth:1
 max-level:2
 stair:9F stair down 0:9F stair up 1:10000
+rubble:grass mountain e rubble:grass mountain f passable rubble:10000
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100

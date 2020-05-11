@@ -4912,20 +4912,20 @@ short-desc:medium sized rocks
 desc:.
 
 name:grass mountain e rubble
-graphics:::s
+graphics:::W
 priority:18
-flags:ROCK | NO_SCENT | NO_FLOW | TORCH | BORING
+flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
 ################################################################################
-info:0:3
+info:0:2
 short-desc:rubble
 desc:.
 
 name:grass mountain f passable rubble
-graphics:::s
+graphics:::u
 priority:18
-flags:ROCK | LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
+flags:ROCK | PASSABLE | INTERESTING | TORCH
 ################################################################################
-info:0:3
+info:0:2
 short-desc:passable rubble
 desc:.
 
