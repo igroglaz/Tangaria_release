@@ -312,7 +312,7 @@ buy:elemental book
 store:Halbarad, the old ranger
 owner:5000:Halbarad, the old ranger
 owner:5000:Halbarad, the old ranger
-slots:0:3
+slots:0:1
 turnover:1
 welcome:0:looks at you with interest.
 welcome:1:curses.
@@ -354,7 +354,7 @@ buy:horn
 store:Sonya the cat
 owner:5000:Sonya (Cat)
 owner:5000:Sonya (Cat)
-slots:0:2
+slots:0:1
 turnover:1
 welcome:0:looks at you with interest.
 welcome:1:looks at you with interest.
@@ -377,7 +377,7 @@ buy:flask
 store:Morinehtar the Wizard
 owner:5000:Morinehtar the Wizard
 owner:5000:Morinehtar the Wizard
-slots:0:4
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Who are ya? What do ya need? Whaat? I can't hear 
@@ -401,6 +401,7 @@ always:magic book:[Magic for Beginners]
 always:potion:Cure Light Wounds
 always:potion:Restore Life Levels
 always:scroll:Phase Door
+always:scroll:Detect Invisible
 #######################################################################
 normal:fortune cookie:*sings* Once I came to the land of dreams...
 normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
@@ -412,7 +413,7 @@ buy:flask
 store:Old guard Barry
 owner:5000:Barry the guard (Human)
 owner:5000:Barry the guard (Human)
-slots:0:5
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:(You hear shuffling) *growl* Arr.. Who is there?
@@ -443,7 +444,7 @@ buy:flask
 store:Bob the villager
 owner:5000:Bob the villager (Human)
 owner:5000:Bob the villager (Human)
-slots:0:4
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Hello, stranger. Don'y you mind to put your
@@ -467,7 +468,7 @@ buy:flask
 store:Marta the villager
 owner:5000:Marta the villager (Human)
 owner:5000:Marta the villager (Human)
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Oh, dear.. It's a pity I can't feed you.
@@ -521,7 +522,7 @@ buy:horn
 store:Danny the dog
 owner:5000:Danny (Dog)
 owner:5000:Danny (Dog)
-slots:0:8
+slots:0:1
 turnover:1
 welcome:0:looks at you with interest.
 welcome:1:looks at you with interest.
@@ -548,7 +549,7 @@ buy:flask
 store:Arthur the Archer
 owner:5000:Arthur the Archer (Human)
 owner:5000:Arthur the Archer (Human)
-slots:0:10
+slots:0:5
 turnover:1
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
@@ -587,7 +588,7 @@ buy:arrow
 store:Deckard Coin
 owner:5000:Deckard Coin
 owner:5000:Deckard Coin
-slots:0:7
+slots:0:3
 turnover:1
 #######################################################################
 always:fortune cookie:Stay awhile.. Er.. Wait.. Come closer, young men
@@ -619,7 +620,7 @@ buy:flask
 store:Boris the Guard
 owner:5000:Boris the Guard (Human)
 owner:5000:Boris the Guard (Human)
-slots:0:3
+slots:0:1
 turnover:1
 #######################################################################
 always:fortune cookie:Stranger, don't make trouble in our town..
