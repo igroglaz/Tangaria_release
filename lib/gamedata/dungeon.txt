@@ -1211,8 +1211,16 @@ rule:4000:0
 rule-flags:ANIMAL
 rule:3000:0
 rule-flags:UNDEAD
-rule-symbols:h
-rule:3000:1
+rule-symbols:hl
+rule:1000:0
+rule-symbols:caS
+#hybrid:
+rule:500:0
+rule-symbols:H
+#
+rule:500:0
+rule-symbols:J
+rule:1000:1
 
 ########################## 20 (boss: Azog, King of the Uruk-Hai)
 name:The Orc Mountains
@@ -1743,10 +1751,18 @@ perma:tree Y:1000
 #
 rule:4000:0
 rule-flags:ANIMAL
-rule:3000:0
-rule-flags:UNDEAD
+rule:2000:0
 rule-symbols:hl
-rule:3000:1
+rule:500:0
+rule-flags:UNDEAD
+rule:1000:0
+rule-symbols:caS
+#hybrid:
+rule:500:0
+rule-symbols:H
+rule:500:0
+rule-symbols:J
+rule:1500:1
 
 ########################## 25 (boss: Koschei the Deathless)
 name:Abandoned Manor
@@ -2192,8 +2208,9 @@ perma:E4 wall z:2500
 #
 rule:9000:0
 rule-symbols:w
-rule:1000:0
+rule:950:0
 rule-flags:MULTIPLY
+rule:50:1
 
 ########################## 35 (boss: Ulfang the Black)
 name:The Land Of Rhun
@@ -2966,8 +2983,9 @@ floor:F1 snow 0:9000
 floor:ice:1000
 wall:floor f ice wall:10000
 perma:floor f ice wall:10000
-rule:10000:0
+rule:9950:0
 rule-flags:IM_COLD
+rule:50:1
 
 ########################## 40 (boss: The Balrog of Moria)
 name:The Mines of Moria
@@ -5515,8 +5533,9 @@ perma:E3 dungeon wall d:2500
 perma:E3 dungeon wall e:2500
 perma:E3 dungeon wall f:2500
 #
-rule:10000:0
+rule:9950:0
 rule-flags:IM_FIRE
+rule:50:1
 
 ########################## X (boss: Tulkas)
 name:The Straight Road

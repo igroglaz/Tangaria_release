@@ -6330,7 +6330,7 @@ speed:110
 hit-points:11
 hearing:15
 armor-class:30
-sleepiness:10
+sleepiness:20
 depth:15
 #2
 rarity:9
