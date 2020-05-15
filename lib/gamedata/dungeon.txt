@@ -246,19 +246,19 @@ wall:E3 dungeon wall t:25
 wall:E3 dungeon wall u:25
 wall:E3 dungeon wall v:25
 #
-perma:E2 jail wall C:600
-perma:E2 jail wall E:600
-perma:E2 jail wall F:600
-perma:E2 jail wall G:600
-perma:E2 jail wall H:600
-perma:E2 jail wall U:600
-perma:E2 jail wall V:600
-perma:E2 jail wall W:600
-perma:E2 jail wall X:600
-perma:E3 dungeon wall c:1150
-perma:E3 dungeon wall d:1150
-perma:E3 dungeon wall e:1150
-perma:E3 dungeon wall f:1150
+perma:E2 P jail wall C:600
+perma:E2 P jail wall E:600
+perma:E2 P jail wall F:600
+perma:E2 P jail wall G:600
+perma:E2 P jail wall H:600
+perma:E2 P jail wall U:600
+perma:E2 P jail wall V:600
+perma:E2 P jail wall W:600
+perma:E2 P jail wall X:600
+perma:E3 P dungeon wall c:1150
+perma:E3 P dungeon wall d:1150
+perma:E3 P dungeon wall e:1150
+perma:E3 P dungeon wall f:1150
 #
 rule:10000:1
 
@@ -462,7 +462,7 @@ wall:obj_grass2 m:300
 wall:obj_grass2 n:300
 wall:obj_grass2 o:300
 ####
-perma:big dark wall 1:10000
+perma:P big dark wall 1:10000
 flags:EMPTY
 rule:10000:1
 
@@ -625,10 +625,10 @@ wall:ED dirt F2W t:25
 wall:ED dirt F2W u:25
 wall:ED dirt F2W v:25
 ##
-perma:ED dirt F2W 0:2500
-perma:ED dirt F2W 1:2500
-perma:ED dirt F2W 2:2500
-perma:ED dirt F2W 3:2500
+perma:ED P dirt F2W 0:2500
+perma:ED P dirt F2W 1:2500
+perma:ED P dirt F2W 2:2500
+perma:ED P dirt F2W 3:2500
 rule:4000:0
 rule-flags:ANIMAL
 rule:3000:0
@@ -899,10 +899,10 @@ wall:EE dirt F2W Z:1
 wall:EE dirt F2W ~:1
 wall:EE dirt F2W `:14
 #
-perma:ED dirt F2W 0:2500
-perma:ED dirt F2W 1:2500
-perma:ED dirt F2W 2:2500
-perma:ED dirt F2W 3:2500
+perma:ED P dirt F2W 0:2500
+perma:ED P dirt F2W 1:2500
+perma:ED P dirt F2W 2:2500
+perma:ED P dirt F2W 3:2500
 rule:5000:0
 rule-flags:ORC
 rule-symbols:koO
@@ -1011,10 +1011,10 @@ wall:B6 floors luquid Z:33
 wall:B6 floors luquid ~:33
 wall:B6 floors luquid `:34
 #
-perma:AA wall w:2500
-perma:AA wall x:2500
-perma:A3 severs 0:2500
-perma:A3 severs 1:2500
+perma:AA P wall w:2500
+perma:AA P wall x:2500
+perma:A3 P severs 0:2500
+perma:A3 P severs 1:2500
 #if green walls:
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
@@ -1202,13 +1202,13 @@ wall:tree Y:1000
 #
 wall:A5 plants N:100
 #
-perma:tree 9 willow:4000
-perma:tree n dead tree:1000
-perma:tree o dead tree:1000
-perma:tree V:1000
-perma:tree W:1000
-perma:tree X:1000
-perma:tree Y:1000
+perma:P tree 9 willow:4000
+perma:P tree n dead tree:1000
+perma:P tree o dead tree:1000
+perma:P tree V:1000
+perma:P tree W:1000
+perma:P tree X:1000
+perma:P tree Y:1000
 #
 rule:4000:0
 rule-flags:ANIMAL
@@ -1488,10 +1488,10 @@ wall:EE dirt F2W Z:10
 wall:EE dirt F2W ~:10
 wall:EE dirt F2W `:24
 #
-perma:ED dirt F2W 0:2500
-perma:ED dirt F2W 1:2500
-perma:ED dirt F2W 2:2500
-perma:ED dirt F2W 3:2500
+perma:ED P dirt F2W 0:2500
+perma:ED P dirt F2W 1:2500
+perma:ED P dirt F2W 2:2500
+perma:ED P dirt F2W 3:2500
 #
 rule:5000:0
 rule-flags:ORC
@@ -1744,13 +1744,13 @@ wall:obj_grass2 m:1
 wall:obj_grass2 n:1
 wall:obj_grass2 o:1
 #
-perma:tree 9 willow:4000
-perma:tree n dead tree:1000
-perma:tree o dead tree:1000
-perma:tree V:1000
-perma:tree W:1000
-perma:tree X:1000
-perma:tree Y:1000
+perma:P tree 9 willow:4000
+perma:P tree n dead tree:1000
+perma:P tree o dead tree:1000
+perma:P tree V:1000
+perma:P tree W:1000
+perma:P tree X:1000
+perma:P tree Y:1000
 #
 rule:4000:0
 rule-flags:ANIMAL
@@ -1921,7 +1921,7 @@ wall:AA wall W:1
 wall:AA wall X:1
 wall:AA wall Y:1
 # 1x29
-perma:dark wall 0:10000
+perma:P dark wall 0:10000
 #
 rule:3000:0
 rule-symbols:ph
@@ -2204,10 +2204,10 @@ wall:EA sand F2W Z:100
 wall:EA sand F2W ~:100
 wall:EA sand F2W `:100
 #
-perma:E4 wall w:2500
-perma:E4 wall x:2500
-perma:E4 wall y:2500
-perma:E4 wall z:2500
+perma:E4 P wall w:2500
+perma:E4 P wall x:2500
+perma:E4 P wall y:2500
+perma:E4 P wall z:2500
 #
 rule:9000:0
 rule-symbols:w
@@ -2367,14 +2367,14 @@ wall:floor ` lowland:10
 wall:B3 floors 2:80
 wall:B3 floors 3:100
 #
-perma:tree 6 coniferous:2000
-perma:tree 8 coniferous:2000
-perma:tree n dead tree:1000
-perma:tree o dead tree:1000
-perma:tree V:1000
-perma:tree W:1000
-perma:tree X:1000
-perma:tree Y:1000
+perma:P tree 6 coniferous:2000
+perma:P tree 8 coniferous:2000
+perma:P tree n dead tree:1000
+perma:P tree o dead tree:1000
+perma:P tree V:1000
+perma:P tree W:1000
+perma:P tree X:1000
+perma:P tree Y:1000
 #
 rule:3000:0
 rule-symbols:ph
@@ -2625,7 +2625,7 @@ wall:obj_grass2 m:300
 wall:obj_grass2 n:300
 wall:obj_grass2 o:300
 #
-perma:big dark wall 1:10000
+perma:P big dark wall 1:10000
 #
 rule:2500:0
 rule-flags:UNDEAD
@@ -2724,9 +2724,9 @@ wall:AA wall B:100
 #        chance of getting the feature
 door:DD wood wall 0:DD wood wall 1:DD wood wall 2:8000
 #
-perma:A3 severs s:3334
-perma:A3 severs t:3333
-perma:A3 severs u:3333
+perma:A3 P severs s:3334
+perma:A3 P severs t:3333
+perma:A3 P severs u:3333
 #
 rule:2000:0
 rule-symbols:p
@@ -2918,10 +2918,10 @@ wall:98 wall b:10
 wall:98 wall c:8
 wall:98 wall d:10
 #
-perma:F5 deep water 0:2500
-perma:F5 deep water 1:2500
-perma:F5 deep water 2:2500
-perma:F5 deep water 3:2500
+perma:F5 P deep water 0:2500
+perma:F5 P deep water 1:2500
+perma:F5 P deep water 2:2500
+perma:F5 P deep water 3:2500
 #
 rule:4000:0
 rule-flags:IM_COLD
@@ -2964,9 +2964,9 @@ wall:AA wall F:900
 wall:AA wall G:900
 wall:AA wall H:1000
 #
-perma:96 wall T:3334
-perma:96 wall U:3333
-perma:96 wall V:3333
+perma:96 P wall T:3334
+perma:96 P wall U:3333
+perma:96 P wall V:3333
 #
 rule:4000:0
 rule-symbols:#XgE
@@ -2985,7 +2985,7 @@ stair:9F stair down 0:9F stair up 1:10000
 floor:F1 snow 0:9000
 floor:ice:1000
 wall:floor f ice wall:10000
-perma:floor f ice wall:10000
+perma:P floor f ice wall:10000
 rule:9950:0
 rule-flags:IM_COLD
 rule:50:1
@@ -3276,9 +3276,9 @@ wall:EE dirt F2W Z:10
 wall:EE dirt F2W ~:10
 wall:EE dirt F2W `:24
 #
-perma:96 wall T:3334
-perma:96 wall U:3333
-perma:96 wall V:3333
+perma:96 P wall T:3334
+perma:96 P wall U:3333
+perma:96 P wall V:3333
 #
 rule:4000:0
 rule-flags:ORC
@@ -3473,7 +3473,7 @@ wall:AA wall W:1
 wall:AA wall X:1
 wall:AA wall Y:1
 # 1x29
-perma:dark wall 0:10000
+perma:P dark wall 0:10000
 #
 rule:7000:0
 rule-flags:STUPID | WEIRD_MIND | ATTR_MULTI | ATTR_FLICKER | RAND_25 |
@@ -3744,10 +3744,10 @@ wall:EE dirt F2W Z:10
 wall:EE dirt F2W ~:10
 wall:EE dirt F2W `:24
 #
-perma:ED dirt F2W 0:2500
-perma:ED dirt F2W 1:2500
-perma:ED dirt F2W 2:2500
-perma:ED dirt F2W 3:2500
+perma:ED P dirt F2W 0:2500
+perma:ED P dirt F2W 1:2500
+perma:ED P dirt F2W 2:2500
+perma:ED P dirt F2W 3:2500
 #
 rule:4900:0
 rule-symbols:caIS
@@ -3944,20 +3944,20 @@ wall:98 wall b:10
 wall:98 wall c:8
 wall:98 wall d:10
 #
-perma:F7 deep water F2W 0:600
-perma:F7 deep water F2W 2:600
-perma:F7 deep water F2W 3:600
-perma:F7 deep water F2W 4:600
-perma:F7 deep water F2W 5:600
-perma:F7 deep water F2W 6:2200
-perma:F7 deep water F2W 7:600
-perma:F7 deep water F2W 8:600
-perma:F7 deep water F2W 9:600
-perma:F7 deep water F2W a:600
-perma:F7 deep water F2W b:600
-perma:F7 deep water F2W c:600
-perma:F7 deep water F2W d:600
-perma:F7 deep water F2W f:600
+perma:F7 P deep water F2W 0:600
+perma:F7 P deep water F2W 2:600
+perma:F7 P deep water F2W 3:600
+perma:F7 P deep water F2W 4:600
+perma:F7 P deep water F2W 5:600
+perma:F7 P deep water F2W 6:2200
+perma:F7 P deep water F2W 7:600
+perma:F7 P deep water F2W 8:600
+perma:F7 P deep water F2W 9:600
+perma:F7 P deep water F2W a:600
+perma:F7 P deep water F2W b:600
+perma:F7 P deep water F2W c:600
+perma:F7 P deep water F2W d:600
+perma:F7 P deep water F2W f:600
 #
 rule:8000:0
 rule-flags:IM_WATER
@@ -4207,13 +4207,13 @@ wall:obj_grass2 m:1
 wall:obj_grass2 n:1
 wall:obj_grass2 o:1
 #
-perma:tree 9 willow:4000
-perma:tree n dead tree:1000
-perma:tree o dead tree:1000
-perma:tree V:1000
-perma:tree W:1000
-perma:tree X:1000
-perma:tree Y:1000
+perma:P tree 9 willow:4000
+perma:P tree n dead tree:1000
+perma:P tree o dead tree:1000
+perma:P tree V:1000
+perma:P tree W:1000
+perma:P tree X:1000
+perma:P tree Y:1000
 #
 rule:2500:0
 rule-symbols:S
@@ -4530,10 +4530,10 @@ wall:EE dirt F2W Z:10
 wall:EE dirt F2W ~:10
 wall:EE dirt F2W `:24
 #
-perma:AA wall w:2500
-perma:AA wall x:2500
-perma:A3 severs 0:2500
-perma:A3 severs 1:2500
+perma:AA P wall w:2500
+perma:AA P wall x:2500
+perma:A3 P severs 0:2500
+perma:A3 P severs 1:2500
 #
 #floor:packed dirt:7
 #floor:ash:3
@@ -4923,18 +4923,18 @@ wall:floor ` lowland:10
 wall:B3 floors 2:80
 wall:B3 floors 3:100
 #
-perma:grass mountain w:4000
-perma:grass mountain x:500
-perma:grass mountain y:500
-perma:grass mountain z:500
-perma:grass mountain A:500
-perma:grass mountain B:500
-perma:grass mountain C:1500
-perma:grass mountain D:1600
-perma:grass mountain E:100
-perma:grass mountain F:100
-perma:grass mountain H:100
-perma:grass mountain I:100
+perma:P grass mountain w:4000
+perma:P grass mountain x:500
+perma:P grass mountain y:500
+perma:P grass mountain z:500
+perma:P grass mountain A:500
+perma:P grass mountain B:500
+perma:P grass mountain C:1500
+perma:P grass mountain D:1600
+perma:P grass mountain E:100
+perma:P grass mountain F:100
+perma:P grass mountain H:100
+perma:P grass mountain I:100
 #
 rule:10000:1
 
@@ -5217,10 +5217,10 @@ wall:EE dirt F2W Z:10
 wall:EE dirt F2W ~:10
 wall:EE dirt F2W `:24
 #
-perma:ED dirt F2W 0:2500
-perma:ED dirt F2W 1:2500
-perma:ED dirt F2W 2:2500
-perma:ED dirt F2W 3:2500
+perma:ED P dirt F2W 0:2500
+perma:ED P dirt F2W 1:2500
+perma:ED P dirt F2W 2:2500
+perma:ED P dirt F2W 3:2500
 #
 rule:6000:0
 rule-symbols:D
@@ -5393,15 +5393,15 @@ wall:E2 jail wall Z:100
 wall:E2 jail wall ~:100
 wall:E2 jail wall `:100
 #
-perma:E2 jail wall C:1200
-perma:E2 jail wall E:1200
-perma:E2 jail wall F:1200
-perma:E2 jail wall G:1200
-perma:E2 jail wall H:1200
-perma:E2 jail wall U:1000
-perma:E2 jail wall V:1000
-perma:E2 jail wall W:1000
-perma:E2 jail wall X:1000
+perma:E2 P jail wall C:1200
+perma:E2 P jail wall E:1200
+perma:E2 P jail wall F:1200
+perma:E2 P jail wall G:1200
+perma:E2 P jail wall H:1200
+perma:E2 P jail wall U:1000
+perma:E2 P jail wall V:1000
+perma:E2 P jail wall W:1000
+perma:E2 P jail wall X:1000
 #
 rule:3000:0
 rule-symbols:pP
@@ -5467,10 +5467,10 @@ wall:E3 dungeon wall t:50
 wall:E3 dungeon wall u:50
 wall:E3 dungeon wall v:50
 #
-perma:E3 dungeon wall c:2500
-perma:E3 dungeon wall d:2500
-perma:E3 dungeon wall e:2500
-perma:E3 dungeon wall f:2500
+perma:E3 P dungeon wall c:2500
+perma:E3 P dungeon wall d:2500
+perma:E3 P dungeon wall e:2500
+perma:E3 P dungeon wall f:2500
 #
 rule:8500:0
 rule-flags:UNDEAD | NONLIVING
@@ -5530,10 +5530,10 @@ floor:FB lava q:50
 floor:FB lava r:50
 floor:FB lava s:50
 #
-perma:E3 dungeon wall c:2500
-perma:E3 dungeon wall d:2500
-perma:E3 dungeon wall e:2500
-perma:E3 dungeon wall f:2500
+perma:E3 P dungeon wall c:2500
+perma:E3 P dungeon wall d:2500
+perma:E3 P dungeon wall e:2500
+perma:E3 P dungeon wall f:2500
 #
 rule:9950:0
 rule-flags:IM_FIRE
@@ -5658,12 +5658,12 @@ wall:E1 moss wall t:50
 wall:E1 moss wall u:50
 wall:E1 moss wall v:50
 #############################
-perma:E1 moss wall 0:1700
-perma:E1 moss wall 1:1700
-perma:E1 moss wall o:1700
-perma:E1 moss wall p:1700
-perma:E1 moss wall q:1700
-perma:E1 moss wall r:1500
+perma:E1 P moss wall 0:1700
+perma:E1 P moss wall 1:1700
+perma:E1 P moss wall o:1700
+perma:E1 P moss wall p:1700
+perma:E1 P moss wall q:1700
+perma:E1 P moss wall r:1500
 #
 rule:10000:1
 
@@ -5974,10 +5974,10 @@ wall:floor ` lowland:10
 wall:B3 floors 2:80
 wall:B3 floors 3:100
 #
-perma:grass mountain 0:2500
-perma:grass mountain 1:2500
-perma:grass mountain 2:2500
-perma:grass mountain 3:2500
+perma:P grass mountain 0:2500
+perma:P grass mountain 1:2500
+perma:P grass mountain 2:2500
+perma:P grass mountain 3:2500
 #
 rule:10000:1
 
@@ -6098,19 +6098,19 @@ wall:E3 dungeon wall v:25
 #wall:B4 walls R:1250
 #wall:B4 walls S:1250
 #
-perma:E2 jail wall C:600
-perma:E2 jail wall E:600
-perma:E2 jail wall F:600
-perma:E2 jail wall G:600
-perma:E2 jail wall H:600
-perma:E2 jail wall U:600
-perma:E2 jail wall V:600
-perma:E2 jail wall W:600
-perma:E2 jail wall X:600
-perma:E3 dungeon wall c:1150
-perma:E3 dungeon wall d:1150
-perma:E3 dungeon wall e:1150
-perma:E3 dungeon wall f:1150
+perma:E2 P jail wall C:600
+perma:E2 P jail wall E:600
+perma:E2 P jail wall F:600
+perma:E2 P jail wall G:600
+perma:E2 P jail wall H:600
+perma:E2 P jail wall U:600
+perma:E2 P jail wall V:600
+perma:E2 P jail wall W:600
+perma:E2 P jail wall X:600
+perma:E3 P dungeon wall c:1150
+perma:E3 P dungeon wall d:1150
+perma:E3 P dungeon wall e:1150
+perma:E3 P dungeon wall f:1150
 #
 rule:9900:0
 rule-flags:UNDEAD | DEMON | DRAGON | NONLIVING
