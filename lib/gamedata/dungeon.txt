@@ -2367,8 +2367,8 @@ wall:floor ` lowland:10
 wall:B3 floors 2:80
 wall:B3 floors 3:100
 #
-perma:tree F2W 6 coniferous:2000
-perma:tree F2W 8 coniferous:2000
+perma:tree 6 coniferous:2000
+perma:tree 8 coniferous:2000
 perma:tree n dead tree:1000
 perma:tree o dead tree:1000
 perma:tree V:1000
@@ -4930,10 +4930,9 @@ perma:grass mountain z:500
 perma:grass mountain A:500
 perma:grass mountain B:500
 perma:grass mountain C:1500
-perma:grass mountain D:1500
+perma:grass mountain D:1600
 perma:grass mountain E:100
 perma:grass mountain F:100
-perma:grass mountain G:100
 perma:grass mountain H:100
 perma:grass mountain I:100
 #

@@ -6,10 +6,10 @@
 #
 # Info and licence of tileset: http://tangaria.com/gamedev/tileset/
 #
-#torch = when you walk with your light
-#los = when in los
-#lit = when permalit
-#dark = when out of los and dark
+#torch = when you walk with your light / turned off in options by default
+#los = when in los                     / work as main light
+#lit = when permalit                   / work as main dark
+#dark = when out of los and dark       / out of order
 
 
 ##### Spell effect types #####
@@ -2673,7 +2673,6 @@ feat:98 wall v:dark:0x98:0xFF
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 9D walls
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
-
 
 # 9D wall 0 
 feat:9D wall 0:torch:0x9D:0x80
@@ -24147,6 +24146,584 @@ feat:F7 deep water F2W v:lit:0xF7:0xFE
 feat:F7 deep water F2W v:dark:0xF7:0xFF
 
 ###########################################
+########################################### PERMA WALLS
+###########################################
+
+#                          E2 P
+
+# E2 P jail wall C 
+feat:E2 P jail wall C:torch:0xE2:0x98
+feat:E2 P jail wall C:los:0xE2:0x99
+feat:E2 P jail wall C:lit:0xE2:0x9A
+feat:E2 P jail wall C:dark:0xE2:0x9B
+
+# E2 P jail wall E 
+feat:E2 P jail wall E:torch:0xE2:0xA0
+feat:E2 P jail wall E:los:0xE2:0xA1
+feat:E2 P jail wall E:lit:0xE2:0xA2
+feat:E2 P jail wall E:dark:0xE2:0xA3
+
+# E2 P jail wall F 
+feat:E2 P jail wall F:torch:0xE2:0xA4
+feat:E2 P jail wall F:los:0xE2:0xA5
+feat:E2 P jail wall F:lit:0xE2:0xA6
+feat:E2 P jail wall F:dark:0xE2:0xA7
+
+# E2 P jail wall G 
+feat:E2 P jail wall G:torch:0xE2:0xA8
+feat:E2 P jail wall G:los:0xE2:0xA9
+feat:E2 P jail wall G:lit:0xE2:0xAA
+feat:E2 P jail wall G:dark:0xE2:0xAB
+
+# E2 P jail wall H 
+feat:E2 P jail wall H:torch:0xE2:0xAC
+feat:E2 P jail wall H:los:0xE2:0xAD
+feat:E2 P jail wall H:lit:0xE2:0xAE
+feat:E2 P jail wall H:dark:0xE2:0xAF
+
+# E2 P jail wall U 
+feat:E2 P jail wall U:torch:0xE2:0xE0
+feat:E2 P jail wall U:los:0xE2:0xE1
+feat:E2 P jail wall U:lit:0xE2:0xE2
+feat:E2 P jail wall U:dark:0xE2:0xE3
+
+# E2 P jail wall V 
+feat:E2 P jail wall V:torch:0xE2:0xE4
+feat:E2 P jail wall V:los:0xE2:0xE5
+feat:E2 P jail wall V:lit:0xE2:0xE6
+feat:E2 P jail wall V:dark:0xE2:0xE7
+
+# E2 P jail wall W 
+feat:E2 P jail wall W:torch:0xE2:0xE8
+feat:E2 P jail wall W:los:0xE2:0xE9
+feat:E2 P jail wall W:lit:0xE2:0xEA
+feat:E2 P jail wall W:dark:0xE2:0xEB
+
+# E2 P jail wall X 
+feat:E2 P jail wall X:torch:0xE2:0xEC
+feat:E2 P jail wall X:los:0xE2:0xED
+feat:E2 P jail wall X:lit:0xE2:0xEE
+feat:E2 P jail wall X:dark:0xE2:0xEF
+
+
+####################
+#################### E3 P
+####################
+
+
+# E3 P dungeon wall c 
+feat:E3 P dungeon wall c:torch:0xE3:0xB0
+feat:E3 P dungeon wall c:los:0xE3:0xB1
+feat:E3 P dungeon wall c:lit:0xE3:0xB2
+feat:E3 P dungeon wall c:dark:0xE3:0xB3
+
+# E3 P dungeon wall d 
+feat:E3 P dungeon wall d:torch:0xE3:0xB4
+feat:E3 P dungeon wall d:los:0xE3:0xB5
+feat:E3 P dungeon wall d:lit:0xE3:0xB6
+feat:E3 P dungeon wall d:dark:0xE3:0xB7
+
+# E3 P dungeon wall e 
+feat:E3 P dungeon wall e:torch:0xE3:0xB8
+feat:E3 P dungeon wall e:los:0xE3:0xB9
+feat:E3 P dungeon wall e:lit:0xE3:0xBA
+feat:E3 P dungeon wall e:dark:0xE3:0xBB
+
+# E3 P dungeon wall f 
+feat:E3 P dungeon wall f:torch:0xE3:0xBC
+feat:E3 P dungeon wall f:los:0xE3:0xBD
+feat:E3 P dungeon wall f:lit:0xE3:0xBE
+feat:E3 P dungeon wall f:dark:0xE3:0xBF
+
+
+####################
+#################### P big dark wall
+####################
+
+# P big dark wall 1
+feat:P big dark wall 1:torch:0xBD:0x84
+feat:P big dark wall 1:los:0xBD:0x85
+feat:P big dark wall 1:lit:0xBD:0x86
+feat:P big dark wall 1:dark:0xBD:0x87
+
+####################
+#################### ED P
+####################
+
+###
+
+# ED P dirt F2W 0 
+feat:ED P dirt F2W 0:torch:0xED:0x80
+feat:ED P dirt F2W 0:los:0xED:0x81
+feat:ED P dirt F2W 0:lit:0xED:0x82
+feat:ED P dirt F2W 0:dark:0xED:0x83
+
+# ED P dirt F2W 1 
+feat:ED P dirt F2W 1:torch:0xED:0x84
+feat:ED P dirt F2W 1:los:0xED:0x85
+feat:ED P dirt F2W 1:lit:0xED:0x86
+feat:ED P dirt F2W 1:dark:0xED:0x87
+
+# ED P dirt F2W 2 
+feat:ED P dirt F2W 2:torch:0xED:0x88
+feat:ED P dirt F2W 2:los:0xED:0x89
+feat:ED P dirt F2W 2:lit:0xED:0x8A
+feat:ED P dirt F2W 2:dark:0xED:0x8B
+
+# ED P dirt F2W 3 
+feat:ED P dirt F2W 3:torch:0xED:0x8C
+feat:ED P dirt F2W 3:los:0xED:0x8D
+feat:ED P dirt F2W 3:lit:0xED:0x8E
+feat:ED P dirt F2W 3:dark:0xED:0x8F
+
+
+####################
+#################### AA P
+####################
+
+# AA P wall w 
+feat:AA P wall w:torch:0xAA:0x80
+feat:AA P wall w:los:0xAA:0x81
+feat:AA P wall w:lit:0xAA:0x82
+feat:AA P wall w:dark:0xAA:0x83
+
+# AA P wall x 
+feat:AA P wall x:torch:0xAA:0x84
+feat:AA P wall x:los:0xAA:0x85
+feat:AA P wall x:lit:0xAA:0x86
+feat:AA P wall x:dark:0xAA:0x87
+
+####################
+#################### A3 P
+####################
+
+# A3 P severs 0 
+feat:A3 P severs 0:torch:0xA3:0x80
+feat:A3 P severs 0:los:0xA3:0x81
+feat:A3 P severs 0:lit:0xA3:0x82
+feat:A3 P severs 0:dark:0xA3:0x83
+
+# A3 P severs 1 
+feat:A3 P severs 1:torch:0xA3:0x84
+feat:A3 P severs 1:los:0xA3:0x85
+feat:A3 P severs 1:lit:0xA3:0x86
+feat:A3 P severs 1:dark:0xA3:0x87
+
+# A3 P severs s 
+feat:A3 P severs s:torch:0xA3:0xF0
+feat:A3 P severs s:los:0xA3:0xF1
+feat:A3 P severs s:lit:0xA3:0xF2
+feat:A3 P severs s:dark:0xA3:0xF3
+
+# A3 P severs t 
+feat:A3 P severs t:torch:0xA3:0xF4
+feat:A3 P severs t:los:0xA3:0xF5
+feat:A3 P severs t:lit:0xA3:0xF6
+feat:A3 P severs t:dark:0xA3:0xF7
+
+# A3 P severs u 
+feat:A3 P severs u:torch:0xA3:0xF8
+feat:A3 P severs u:los:0xA3:0xF9
+feat:A3 P severs u:lit:0xA3:0xFA
+feat:A3 P severs u:dark:0xA3:0xFB
+
+####################
+#################### P tree
+####################
+
+# P tree 6 coniferous
+feat:P tree 6 coniferous:torch:0xA1:0x98
+feat:P tree 6 coniferous:los:0xA1:0x99
+feat:P tree 6 coniferous:lit:0xA1:0x9A
+feat:P tree 6 coniferous:dark:0xA1:0x9B
+
+# P tree 8 coniferous
+feat:P tree 8 coniferous:torch:0xA1:0xA0
+feat:P tree 8 coniferous:los:0xA1:0xA1
+feat:P tree 8 coniferous:lit:0xA1:0xA2
+feat:P tree 8 coniferous:dark:0xA1:0xA3
+
+# P tree 9 willow
+feat:P tree 9 willow:torch:0xA1:0xA4
+feat:P tree 9 willow:los:0xA1:0xA5
+feat:P tree 9 willow:lit:0xA1:0xA6
+feat:P tree 9 willow:dark:0xA1:0xA7
+
+# P tree n dead tree
+feat:P tree n dead tree:torch:0xA1:0xDC
+feat:P tree n dead tree:los:0xA1:0xDD
+feat:P tree n dead tree:lit:0xA1:0xDE
+feat:P tree n dead tree:dark:0xA1:0xDF
+
+# P tree o dead tree
+feat:P tree o dead tree:torch:0xA1:0xE0
+feat:P tree o dead tree:los:0xA1:0xE1
+feat:P tree o dead tree:lit:0xA1:0xE2
+feat:P tree o dead tree:dark:0xA1:0xE3
+
+# P tree V 
+feat:P tree V:torch:0xA2:0xE4
+feat:P tree V:los:0xA2:0xE5
+feat:P tree V:lit:0xA2:0xE6
+feat:P tree V:dark:0xA2:0xE7
+
+# P tree W 
+feat:P tree W:torch:0xA2:0xE8
+feat:P tree W:los:0xA2:0xE9
+feat:P tree W:lit:0xA2:0xEA
+feat:P tree W:dark:0xA2:0xEB
+
+# P tree X 
+feat:P tree X:torch:0xA2:0xEC
+feat:P tree X:los:0xA2:0xED
+feat:P tree X:lit:0xA2:0xEE
+feat:P tree X:dark:0xA2:0xEF
+
+# P tree Y 
+feat:P tree Y:torch:0xA2:0xF0
+feat:P tree Y:los:0xA2:0xF1
+feat:P tree Y:lit:0xA2:0xF2
+feat:P tree Y:dark:0xA2:0xF3
+
+####################
+#################### E4 P
+####################
+
+# E4 P wall w 
+feat:E4 P wall w:torch:0xE4:0x80
+feat:E4 P wall w:los:0xE4:0x81
+feat:E4 P wall w:lit:0xE4:0x82
+feat:E4 P wall w:dark:0xE4:0x83
+
+# E4 P wall x 
+feat:E4 P wall x:torch:0xE4:0x84
+feat:E4 P wall x:los:0xE4:0x85
+feat:E4 P wall x:lit:0xE4:0x86
+feat:E4 P wall x:dark:0xE4:0x87
+
+# E4 P wall y 
+feat:E4 P wall y:torch:0xE4:0x88
+feat:E4 P wall y:los:0xE4:0x89
+feat:E4 P wall y:lit:0xE4:0x8A
+feat:E4 P wall y:dark:0xE4:0x8B
+
+# E4 P wall z 
+feat:E4 P wall z:torch:0xE4:0x8C
+feat:E4 P wall z:los:0xE4:0x8D
+feat:E4 P wall z:lit:0xE4:0x8E
+feat:E4 P wall z:dark:0xE4:0x8F
+
+####################
+#################### F5 P
+####################
+
+
+# F5 P deep water 0 
+feat:F5 P deep water 0:torch:0xF5:0x80
+feat:F5 P deep water 0:los:0xF5:0x81
+feat:F5 P deep water 0:lit:0xF5:0x82
+feat:F5 P deep water 0:dark:0xF5:0x83
+
+# F5 P deep water 1 
+feat:F5 P deep water 1:torch:0xF5:0x84
+feat:F5 P deep water 1:los:0xF5:0x85
+feat:F5 P deep water 1:lit:0xF5:0x86
+feat:F5 P deep water 1:dark:0xF5:0x87
+
+# F5 P deep water 2 
+feat:F5 P deep water 2:torch:0xF5:0x88
+feat:F5 P deep water 2:los:0xF5:0x89
+feat:F5 P deep water 2:lit:0xF5:0x8A
+feat:F5 P deep water 2:dark:0xF5:0x8B
+
+# F5 P deep water 3 
+feat:F5 P deep water 3:torch:0xF5:0x8C
+feat:F5 P deep water 3:los:0xF5:0x8D
+feat:F5 P deep water 3:lit:0xF5:0x8E
+feat:F5 P deep water 3:dark:0xF5:0x8F
+
+####################
+#################### 96 P
+####################
+
+# 96 P wall T 
+feat:96 P wall T:torch:0x96:0xDC
+feat:96 P wall T:los:0x96:0xDD
+feat:96 P wall T:lit:0x96:0xDE
+feat:96 P wall T:dark:0x96:0xDF
+
+# 96 P wall U 
+feat:96 P wall U:torch:0x96:0xE0
+feat:96 P wall U:los:0x96:0xE1
+feat:96 P wall U:lit:0x96:0xE2
+feat:96 P wall U:dark:0x96:0xE3
+
+# 96 P wall V 
+feat:96 P wall V:torch:0x96:0xE4
+feat:96 P wall V:los:0x96:0xE5
+feat:96 P wall V:lit:0x96:0xE6
+feat:96 P wall V:dark:0x96:0xE7
+
+####################
+#################### P floor
+####################
+
+# P floor f ice wall
+feat:P floor f ice wall:torch:0xB1:0xBC
+feat:P floor f ice wall:los:0xB1:0xBD
+feat:P floor f ice wall:lit:0xB1:0xBE
+feat:P floor f ice wall:dark:0xB1:0xBF
+
+####################
+#################### P dark wall
+####################
+
+# P dark wall 0
+feat:P dark wall 0:torch:0xB9:0x80
+feat:P dark wall 0:los:0xB9:0x81
+feat:P dark wall 0:lit:0xB9:0x82
+feat:P dark wall 0:dark:0xB9:0x83
+
+####################
+#################### F7 P
+####################
+
+
+# F7 P deep water F2W 0 
+feat:F7 P deep water F2W 0:torch:0xF7:0x80
+feat:F7 P deep water F2W 0:los:0xF7:0x81
+feat:F7 P deep water F2W 0:lit:0xF7:0x82
+feat:F7 P deep water F2W 0:dark:0xF7:0x83
+
+# F7 P deep water F2W 2 
+feat:F7 P deep water F2W 2:torch:0xF7:0x88
+feat:F7 P deep water F2W 2:los:0xF7:0x89
+feat:F7 P deep water F2W 2:lit:0xF7:0x8A
+feat:F7 P deep water F2W 2:dark:0xF7:0x8B
+
+# F7 P deep water F2W 3 
+feat:F7 P deep water F2W 3:torch:0xF7:0x8C
+feat:F7 P deep water F2W 3:los:0xF7:0x8D
+feat:F7 P deep water F2W 3:lit:0xF7:0x8E
+feat:F7 P deep water F2W 3:dark:0xF7:0x8F
+
+# F7 P deep water F2W 4 
+feat:F7 P deep water F2W 4:torch:0xF7:0x90
+feat:F7 P deep water F2W 4:los:0xF7:0x91
+feat:F7 P deep water F2W 4:lit:0xF7:0x92
+feat:F7 P deep water F2W 4:dark:0xF7:0x93
+
+# F7 P deep water F2W 5 
+feat:F7 P deep water F2W 5:torch:0xF7:0x94
+feat:F7 P deep water F2W 5:los:0xF7:0x95
+feat:F7 P deep water F2W 5:lit:0xF7:0x96
+feat:F7 P deep water F2W 5:dark:0xF7:0x97
+
+# F7 P deep water F2W 6 
+feat:F7 P deep water F2W 6:torch:0xF7:0x98
+feat:F7 P deep water F2W 6:los:0xF7:0x99
+feat:F7 P deep water F2W 6:lit:0xF7:0x9A
+feat:F7 P deep water F2W 6:dark:0xF7:0x9B
+
+# F7 P deep water F2W 7 
+feat:F7 P deep water F2W 7:torch:0xF7:0x9C
+feat:F7 P deep water F2W 7:los:0xF7:0x9D
+feat:F7 P deep water F2W 7:lit:0xF7:0x9E
+feat:F7 P deep water F2W 7:dark:0xF7:0x9F
+
+# F7 P deep water F2W 8 
+feat:F7 P deep water F2W 8:torch:0xF7:0xA0
+feat:F7 P deep water F2W 8:los:0xF7:0xA1
+feat:F7 P deep water F2W 8:lit:0xF7:0xA2
+feat:F7 P deep water F2W 8:dark:0xF7:0xA3
+
+# F7 P deep water F2W 9 
+feat:F7 P deep water F2W 9:torch:0xF7:0xA4
+feat:F7 P deep water F2W 9:los:0xF7:0xA5
+feat:F7 P deep water F2W 9:lit:0xF7:0xA6
+feat:F7 P deep water F2W 9:dark:0xF7:0xA7
+
+# F7 P deep water F2W a 
+feat:F7 P deep water F2W a:torch:0xF7:0xA8
+feat:F7 P deep water F2W a:los:0xF7:0xA9
+feat:F7 P deep water F2W a:lit:0xF7:0xAA
+feat:F7 P deep water F2W a:dark:0xF7:0xAB
+
+# F7 P deep water F2W b 
+feat:F7 P deep water F2W b:torch:0xF7:0xAC
+feat:F7 P deep water F2W b:los:0xF7:0xAD
+feat:F7 P deep water F2W b:lit:0xF7:0xAE
+feat:F7 P deep water F2W b:dark:0xF7:0xAF
+
+# F7 P deep water F2W c 
+feat:F7 P deep water F2W c:torch:0xF7:0xB0
+feat:F7 P deep water F2W c:los:0xF7:0xB1
+feat:F7 P deep water F2W c:lit:0xF7:0xB2
+feat:F7 P deep water F2W c:dark:0xF7:0xB3
+
+# F7 P deep water F2W d 
+feat:F7 P deep water F2W d:torch:0xF7:0xB4
+feat:F7 P deep water F2W d:los:0xF7:0xB5
+feat:F7 P deep water F2W d:lit:0xF7:0xB6
+feat:F7 P deep water F2W d:dark:0xF7:0xB7
+
+# F7 P deep water F2W f 
+feat:F7 P deep water F2W f:torch:0xF7:0xBC
+feat:F7 P deep water F2W f:los:0xF7:0xBD
+feat:F7 P deep water F2W f:lit:0xF7:0xBE
+feat:F7 P deep water F2W f:dark:0xF7:0xBF
+
+####################
+#################### P grass mountain
+####################
+
+
+# P grass mountain 0
+feat:P grass mountain 0:torch:0xAB:0x80
+feat:P grass mountain 0:los:0xAB:0x81
+feat:P grass mountain 0:lit:0xAB:0x82
+feat:P grass mountain 0:dark:0xAB:0x83
+
+# P grass mountain 1
+feat:P grass mountain 1:torch:0xAB:0x84
+feat:P grass mountain 1:los:0xAB:0x85
+feat:P grass mountain 1:lit:0xAB:0x86
+feat:P grass mountain 1:dark:0xAB:0x87
+
+# P grass mountain 2
+feat:P grass mountain 2:torch:0xAB:0x88
+feat:P grass mountain 2:los:0xAB:0x89
+feat:P grass mountain 2:lit:0xAB:0x8A
+feat:P grass mountain 2:dark:0xAB:0x8B
+
+# P grass mountain 3
+feat:P grass mountain 3:torch:0xAB:0x8C
+feat:P grass mountain 3:los:0xAB:0x8D
+feat:P grass mountain 3:lit:0xAB:0x8E
+feat:P grass mountain 3:dark:0xAB:0x8F
+
+
+##############################
+
+# P grass mountain w
+feat:P grass mountain w:torch:0xAC:0x80
+feat:P grass mountain w:los:0xAC:0x81
+feat:P grass mountain w:lit:0xAC:0x82
+feat:P grass mountain w:dark:0xAC:0x83
+
+# P grass mountain x
+feat:P grass mountain x:torch:0xAC:0x84
+feat:P grass mountain x:los:0xAC:0x85
+feat:P grass mountain x:lit:0xAC:0x86
+feat:P grass mountain x:dark:0xAC:0x87
+
+# P grass mountain y
+feat:P grass mountain y:torch:0xAC:0x88
+feat:P grass mountain y:los:0xAC:0x89
+feat:P grass mountain y:lit:0xAC:0x8A
+feat:P grass mountain y:dark:0xAC:0x8B
+
+# P grass mountain z
+feat:P grass mountain z:torch:0xAC:0x8C
+feat:P grass mountain z:los:0xAC:0x8D
+feat:P grass mountain z:lit:0xAC:0x8E
+feat:P grass mountain z:dark:0xAC:0x8F
+
+# P grass mountain A
+feat:P grass mountain A:torch:0xAC:0x90
+feat:P grass mountain A:los:0xAC:0x91
+feat:P grass mountain A:lit:0xAC:0x92
+feat:P grass mountain A:dark:0xAC:0x93
+
+# P grass mountain B
+feat:P grass mountain B:torch:0xAC:0x94
+feat:P grass mountain B:los:0xAC:0x95
+feat:P grass mountain B:lit:0xAC:0x96
+feat:P grass mountain B:dark:0xAC:0x97
+
+# P grass mountain C
+feat:P grass mountain C:torch:0xAC:0x98
+feat:P grass mountain C:los:0xAC:0x99
+feat:P grass mountain C:lit:0xAC:0x9A
+feat:P grass mountain C:dark:0xAC:0x9B
+
+# P grass mountain D
+feat:P grass mountain D:torch:0xAC:0x9C
+feat:P grass mountain D:los:0xAC:0x9D
+feat:P grass mountain D:lit:0xAC:0x9E
+feat:P grass mountain D:dark:0xAC:0x9F
+
+# P grass mountain E
+feat:P grass mountain E:torch:0xAC:0xA0
+feat:P grass mountain E:los:0xAC:0xA1
+feat:P grass mountain E:lit:0xAC:0xA2
+feat:P grass mountain E:dark:0xAC:0xA3
+
+# P grass mountain F	
+feat:P grass mountain F:torch:0xAC:0xA4
+feat:P grass mountain F:los:0xAC:0xA5
+feat:P grass mountain F:lit:0xAC:0xA6
+feat:P grass mountain F:dark:0xAC:0xA7
+
+# P grass mountain H 
+feat:P grass mountain H:torch:0xAC:0xAC
+feat:P grass mountain H:los:0xAC:0xAD
+feat:P grass mountain H:lit:0xAC:0xAE
+feat:P grass mountain H:dark:0xAC:0xAF
+
+# P grass mountain I 
+feat:P grass mountain I:torch:0xAC:0xB0
+feat:P grass mountain I:los:0xAC:0xB1
+feat:P grass mountain I:lit:0xAC:0xB2
+feat:P grass mountain I:dark:0xAC:0xB3
+
+####################
+#################### E1 P moss wall
+####################
+
+
+# E1 P moss wall 0 
+feat:E1 P moss wall 0:torch:0xE1:0x80
+feat:E1 P moss wall 0:los:0xE1:0x81
+feat:E1 P moss wall 0:lit:0xE1:0x82
+feat:E1 P moss wall 0:dark:0xE1:0x83
+
+# E1 P moss wall 1 
+feat:E1 P moss wall 1:torch:0xE1:0x84
+feat:E1 P moss wall 1:los:0xE1:0x85
+feat:E1 P moss wall 1:lit:0xE1:0x86
+feat:E1 P moss wall 1:dark:0xE1:0x87
+
+
+# E1 P moss wall o 
+feat:E1 P moss wall o:torch:0xE1:0xE0
+feat:E1 P moss wall o:los:0xE1:0xE1
+feat:E1 P moss wall o:lit:0xE1:0xE2
+feat:E1 P moss wall o:dark:0xE1:0xE3
+
+# E1 P moss wall p 
+feat:E1 P moss wall p:torch:0xE1:0xE4
+feat:E1 P moss wall p:los:0xE1:0xE5
+feat:E1 P moss wall p:lit:0xE1:0xE6
+feat:E1 P moss wall p:dark:0xE1:0xE7
+
+# E1 P moss wall q 
+feat:E1 P moss wall q:torch:0xE1:0xE8
+feat:E1 P moss wall q:los:0xE1:0xE9
+feat:E1 P moss wall q:lit:0xE1:0xEA
+feat:E1 P moss wall q:dark:0xE1:0xEB
+
+# E1 P moss wall r 
+feat:E1 P moss wall r:torch:0xE1:0xEC
+feat:E1 P moss wall r:los:0xE1:0xED
+feat:E1 P moss wall r:lit:0xE1:0xEE
+feat:E1 P moss wall r:dark:0xE1:0xEF
+
+
+####################
+####################
+####################
+
 
 # Load the special player pictures
 %:xtra-tan.prf

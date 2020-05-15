@@ -31414,5 +31414,836 @@ info:0:3
 short-desc:old ruins in water
 desc:.
 
+#####################################
+##################################### PERMA WALLS
+#####################################
+
+###################
+################### E2 P jail wal
+###################
 
 
+name:E2 P jail wall C
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+
+name:E2 P jail wall E
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall F
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall G
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall H
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+
+name:E2 P jail wall U
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall V
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall W
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E2 P jail wall X
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+
+###################
+################### E3 P dungeon wall
+###################
+
+
+name:E3 P dungeon wall c
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E3 P dungeon wall d
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E3 P dungeon wall e
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E3 P dungeon wall f
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+###################
+################### P big dark wall
+###################
+
+name:P big dark wall 1
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:3
+################################################################################
+short-desc:old wall
+desc:.
+
+###################
+################### ED P dirt F2W
+###################
+
+name:ED P dirt F2W 0
+graphics:^:s
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:ED P dirt F2W 1
+graphics:^:s
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:ED P dirt F2W 2
+graphics:^:s
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:ED P dirt F2W 3
+graphics:^:s
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+
+###################
+################### AA P wall
+###################
+
+name:AA P wall w
+graphics:#:W
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:AA P wall x
+graphics:#:W
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+###################
+################### A3 P severs
+###################
+
+name:A3 P severs 0
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:A3 P severs 1
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:A3 P severs s
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:A3 P severs t
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:A3 P severs u
+graphics:#:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+###################
+################### P tree w
+###################
+
+
+name:P tree 6 coniferous
+graphics:*:g
+priority:4
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:fir-tree. Sweetish smell of fresh resin and needles make you happy.
+desc:A coniferous tree.
+
+name:P tree 8 coniferous
+graphics:*:g
+priority:4
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:coniferous tree
+desc:.
+
+name:P tree 9 willow
+graphics:*:g
+priority:4
+flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:willow tree
+desc:.
+
+name:P tree n dead tree
+graphics:*:D
+priority:9
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:dead tree
+desc:.
+
+name:P tree o dead tree
+graphics:*:D
+priority:9
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:dead tree
+desc:.
+
+
+name:P tree V
+graphics:*:W
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:P tree W
+graphics:*:W
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:P tree X
+graphics:*:W
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+name:P tree Y
+graphics:*:W
+priority:18
+flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+info:0:1
+################################################################################
+short-desc:withered tree
+desc:.
+
+
+###################
+################### P dark wall 0
+###################
+
+name:P dark wall 0
+graphics:#:D
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:3
+################################################################################
+short-desc:wall
+desc:.
+
+###################
+################### E4 P wall
+###################
+
+
+name:E4 P wall w
+graphics:#:y
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 P wall x
+graphics:#:y
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 P wall y
+graphics:#:y
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+name:E4 P wall z
+graphics:#:y
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
+################################################################################
+info:0:2
+short-desc:sandwall
+desc:.
+
+###################
+################### F5 P deep water
+###################
+
+
+name:F5 P deep water 0
+graphics:^:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:F5 P deep water 1
+graphics:^:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:F5 P deep water 2
+graphics:^:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:F5 P deep water 3
+graphics:^:s
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+###################
+################### 96 P wall
+###################
+
+
+name:96 P wall T
+graphics:#:W
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:96 P wall U
+graphics:#:W
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:96 P wall V
+graphics:#:W
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+###################
+################### P floor f ice
+###################
+
+name:P floor f ice wall
+graphics:#:W
+priority:11
+flags:WALL | ROCK | NO_SCENT | NO_FLOW | ICE
+info:0:3
+short-desc:ice wall
+desc:A seam of compact ice. It can be removed by digging or magic, and passed
+desc: through by immaterial monsters. It stops any spells, missiles or line of
+desc: sight.
+
+###################
+################### F7 P deep water
+###################
+
+
+name:F7 P deep water F2W 0
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+
+name:F7 P deep water F2W 2
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 3
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 4
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 5
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 6
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 7
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 8
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W 9
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W a
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W b
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W c
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W d
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+name:F7 P deep water F2W f
+graphics:#:T
+priority:11
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:3
+short-desc:old ruins in water
+desc:.
+
+###################
+################### P grass mountain
+###################
+
+
+name:P grass mountain 0
+graphics:^:u
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:P grass mountain 1
+graphics:^:u
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:P grass mountain 2
+graphics:^:D
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+name:P grass mountain 3
+graphics:^:D
+priority:11
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high mountain
+desc:A high mountain.
+
+########################### 
+
+name:P grass mountain w
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain x
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain y
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain z
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain A
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain B
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain C
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain D
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain E
+graphics:^:W
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+name:P grass mountain F
+graphics:^:W
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:high snowy mountain
+desc:A high mountain.
+
+
+name:P grass mountain H
+graphics:^:u
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:high rocky peaks
+desc:.
+
+name:P grass mountain I
+graphics:^:s
+priority:18
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:4
+short-desc:high rocky peaks
+desc:.
+
+###################
+################### E1 P moss wall
+###################
+
+
+name:E1 P moss wall 0
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E1 P moss wall 1
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+
+name:E1 P moss wall o
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E1 P moss wall p
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E1 P moss wall q
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+name:E1 P moss wall r
+graphics:#:W
+priority:11
+flags:ROCK | NO_SCENT | NO_FLOW | TORCH
+################################################################################
+info:0:5
+short-desc:wall
+desc:.
+
+###################
+###################
+###################
+
+
+
+###################
+###################
+###################
+
+
+###################
+###################
+###################
