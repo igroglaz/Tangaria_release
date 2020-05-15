@@ -4113,7 +4113,7 @@ desc:.
 name:obj_grass2 n
 graphics:#:s
 priority:11
-flags:flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | NO_MONSTERS | NO_STAIRS
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | NO_MONSTERS | NO_STAIRS
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -23710,7 +23710,7 @@ desc:A high mountain.
 name:F0 dirt mountain G
 graphics:::g
 priority:11
-flags:flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | NO_MONSTERS | NO_STAIRS
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP | NO_MONSTERS | NO_STAIRS
 ################################################################################
 info:0:3
 short-desc:hills
