@@ -31677,7 +31677,7 @@ desc:.
 name:P tree 6 coniferous
 graphics:*:g
 priority:4
-flags:PERMANENT | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:fir-tree. Sweetish smell of fresh resin and needles make you happy.
@@ -31686,7 +31686,7 @@ desc:A coniferous tree.
 name:P tree 8 coniferous
 graphics:*:g
 priority:4
-flags:PERMANENT | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:coniferous tree
@@ -31695,7 +31695,7 @@ desc:.
 name:P tree 9 willow
 graphics:*:g
 priority:4
-flags:PERMANENT | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:willow tree
@@ -31704,7 +31704,7 @@ desc:.
 name:P tree n dead tree
 graphics:*:D
 priority:9
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -31713,7 +31713,7 @@ desc:.
 name:P tree o dead tree
 graphics:*:D
 priority:9
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -31723,7 +31723,7 @@ desc:.
 name:P tree V
 graphics:*:W
 priority:18
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -31732,7 +31732,7 @@ desc:.
 name:P tree W
 graphics:*:W
 priority:18
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -31741,7 +31741,7 @@ desc:.
 name:P tree X
 graphics:*:W
 priority:18
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -31750,11 +31750,12 @@ desc:.
 name:P tree Y
 graphics:*:W
 priority:18
-flags:PERMANENT | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:PERMANENT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:1
 ################################################################################
 short-desc:withered tree
 desc:.
+
 
 
 ###################
