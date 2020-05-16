@@ -21960,6 +21960,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 
@@ -22972,6 +22973,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:ED dirt g
@@ -24292,6 +24294,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:F2 snow g
@@ -24556,6 +24559,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:F3 shallow water g
@@ -24953,7 +24957,6 @@ desc:.
 # F5 deep water
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
-
 name:F5 deep water 0
 graphics:^:s
 priority:11
@@ -25080,6 +25083,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:F5 deep water g
@@ -28215,6 +28219,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:ED dirt F2W g
@@ -29217,6 +29222,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:E9 desert F2W g
@@ -30709,6 +30715,7 @@ graphics:::u
 priority:18
 info:0:2
 flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+short-desc:passable rubble
 desc:Passable rubble.
 
 name:F3 shallow water F2W g
