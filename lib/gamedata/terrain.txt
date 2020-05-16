@@ -1321,7 +1321,7 @@ desc:.
 name:98 wall 1
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH 
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH 
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1348,7 +1348,7 @@ desc:.
 name:98 wall 4
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1384,7 +1384,7 @@ desc:.
 name:98 wall 8
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -1393,7 +1393,7 @@ desc:.
 name:98 wall 9
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:3
 short-desc:wall
@@ -4111,7 +4111,7 @@ desc:.
 name:obj_grass2 n
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | NO_MONSTERS | NO_STAIRS
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -4615,7 +4615,7 @@ desc:.
 name:AA wall K
 graphics:#:W
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -4633,7 +4633,7 @@ desc:.
 name:AA wall M
 graphics:#:W
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -4741,7 +4741,7 @@ desc:.
 name:AA wall Y
 graphics:#:W
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -4768,7 +4768,7 @@ desc:.
 name:AA wall `
 graphics:#:W
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:4
 short-desc:wall
@@ -19203,7 +19203,7 @@ desc:.
 name:DF dark floor e
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | TRAP
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 ################################################################################
 info:0:3
 short-desc:old ruins
@@ -23457,7 +23457,7 @@ desc:.
 name:EF dirt K
 graphics:#:W
 priority:11
-flags:PROJECT | PASSABLE | ROCK | BORING | TORCH | EASY
+flags:NO_MONSTERS | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 info:0:3
 short-desc:old ruins
 desc:.
