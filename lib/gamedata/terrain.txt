@@ -3341,12 +3341,10 @@ short-desc:skull altar
 desc:A skull on altar.
 
 name:obj_grass 2 well
-graphics:::s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
-################################################################################
-info:0:1
-short-desc:well
+graphics:_:w
+priority:22
+flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
+short-desc:well filled with water
 desc:A well with clear water.
 
 name:obj_grass 3 cart
@@ -3404,13 +3402,11 @@ short-desc:old ruins
 desc:An old ruins.
 
 name:obj_grass 9 fountain
-graphics:::s
-priority:18
-flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | OBJECT | BORING | TRAP | OBJECT
-################################################################################
-info:0:3
-short-desc:fountain
-desc:A fountain.
+graphics:_:w
+priority:22
+flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
+short-desc:fountain filled with water
+desc:An ornate basin filled with water.
 
 name:obj_grass a down bowler
 graphics:::s
@@ -4268,61 +4264,50 @@ info:0:3
 short-desc:dummy
 desc:.
 
-######### END FOR NOW... ####
+# dried fountain
 name:obj_grass2 D
-graphics:@:g
-priority:18
-info:0:3
-flags:PROJECT | TORCH | BORING
-################################################################################
-short-desc:.
-desc:.
+graphics:_:s
+priority:22
+flags:LOS | PROJECT | PASSABLE | FOUNTAIN | DRIED | BORING | EASY | INTERESTING
+short-desc:empty ornate basin
+desc:An empty ornate basin.
 
 name:obj_grass2 E
-graphics:@:u
-priority:18
-info:0:3
-flags:LOS | PROJECT | TORCH | BORING | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
+graphics:_:s
+priority:22
+flags:LOS | PROJECT | PASSABLE | FOUNTAIN | DRIED | BORING | EASY | INTERESTING
+short-desc:empty well
+desc:An empty well.
 
 name:obj_grass2 F
-graphics:.:s
-priority:18
-info:0:3
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
+graphics:>:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+short-desc:down staircase
+desc:A staircase down to a deeper part of the dungeon.
 
 name:obj_grass2 G
-graphics:.:s
-priority:18
-info:0:3
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
+graphics:<:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | UPSTAIR | EASY | TORCH
+short-desc:up staircase
+desc:A staircase up to a shallower part of the dungeon.
 
 name:obj_grass2 H
-graphics:.:s
-priority:18
-info:0:3
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
+graphics:>:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
+short-desc:down staircase
+desc:A staircase down to a deeper part of the dungeon.
 
 name:obj_grass2 I
-graphics:.:s
-priority:18
-info:0:3
-flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP | OBJECT
-################################################################################
-short-desc:.
-desc:.
+graphics:<:w
+priority:26
+flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | UPSTAIR | EASY | TORCH
+short-desc:up staircase
+desc:A staircase up to a shallower part of the dungeon.
 
+######### END FOR NOW... ####
 name:obj_grass2 J
 graphics:.:s
 priority:18

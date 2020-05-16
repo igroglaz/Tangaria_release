@@ -268,8 +268,12 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:2
+flags:EMPTY
 stair:9F stair down 0:9F stair up 1:10000
 rubble:grass mountain e rubble:grass mountain f passable rubble:10000
+fountain:obj_grass 9 fountain:obj_grass2 D:4000
+fountain:obj_grass 2 well:obj_grass2 E:4000
+perma:P big dark wall 1:10000
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100
@@ -462,8 +466,6 @@ wall:obj_grass2 m:300
 wall:obj_grass2 n:300
 wall:obj_grass2 o:300
 ####
-perma:P big dark wall 1:10000
-flags:EMPTY
 rule:10000:1
 
 ########################## 5 (boss: Baba Yaga)
@@ -5668,6 +5670,9 @@ perma:E1 P moss wall r:1500
 rule:10000:1
 
 ########################## XX (boss: Manwe)
+#
+# monsters could spawn in 'walls'.. feature?
+#
 name:Valinor
 wpos:-5:0
 min-depth:101

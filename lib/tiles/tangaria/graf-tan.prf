@@ -4694,37 +4694,37 @@ feat:obj_grass2 C:los:0xA9:0x99
 feat:obj_grass2 C:lit:0xA9:0x9A
 feat:obj_grass2 C:dark:0xA9:0x9B
 
-# obj_grass2 D 
+# obj_grass2 D dried fountain
 feat:obj_grass2 D:torch:0xA9:0x9C
 feat:obj_grass2 D:los:0xA9:0x9D
 feat:obj_grass2 D:lit:0xA9:0x9E
 feat:obj_grass2 D:dark:0xA9:0x9F
 
-# obj_grass2 E 
+# obj_grass2 E dried well
 feat:obj_grass2 E:torch:0xA9:0xA0
 feat:obj_grass2 E:los:0xA9:0xA1
 feat:obj_grass2 E:lit:0xA9:0xA2
 feat:obj_grass2 E:dark:0xA9:0xA3
 
-# obj_grass2 F 
+# obj_grass2 F stair down leaf
 feat:obj_grass2 F:torch:0xA9:0xA4
 feat:obj_grass2 F:los:0xA9:0xA5
 feat:obj_grass2 F:lit:0xA9:0xA6
 feat:obj_grass2 F:dark:0xA9:0xA7
 
-# obj_grass2 G 
+# obj_grass2 G stair up leaf
 feat:obj_grass2 G:torch:0xA9:0xA8
 feat:obj_grass2 G:los:0xA9:0xA9
 feat:obj_grass2 G:lit:0xA9:0xAA
 feat:obj_grass2 G:dark:0xA9:0xAB
 
-# obj_grass2 H 
+# obj_grass2 H stair down gloomy
 feat:obj_grass2 H:torch:0xA9:0xAC
 feat:obj_grass2 H:los:0xA9:0xAD
 feat:obj_grass2 H:lit:0xA9:0xAE
 feat:obj_grass2 H:dark:0xA9:0xAF
 
-# obj_grass2 I 
+# obj_grass2 I stair up gloomy
 feat:obj_grass2 I:torch:0xA9:0xB0
 feat:obj_grass2 I:los:0xA9:0xB1
 feat:obj_grass2 I:lit:0xA9:0xB2
