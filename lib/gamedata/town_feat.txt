@@ -2866,7 +2866,8 @@ feat:X:X:E6 blood X
 feat:X:Y:E6 blood Y
 feat:X:Z:E6 blood Z
 feat:X:~:E6 blood ~
-feat:X:`:E6 blood `
+#feat:X:`:E6 dark floor rubble
+#feat:X:-----:E6 dark floor pass rubble
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -3581,6 +3582,8 @@ feat:(:d:mountains end top d
 feat:(:e:mountains end top e
 feat:(:f:mountains end top f
 feat:(:g:mountains end top g
+# NO town feat: FA lava rubble
+# NO town feat: FA lava pass rubble
 feat:(:h:FA lava h
 feat:(:i:FA lava i
 feat:(:j:FA lava j
@@ -3607,8 +3610,8 @@ feat:(:C:FA lava C
 feat:(:D:FA lava D
 feat:(:E:FA lava E
 feat:(:F:FA lava F
-feat:(:G:FA lava G
-feat:(:H:FA lava H
+feat:(:G:FA bizarre rubble
+feat:(:H:FA bizarre pass rubble
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # FB - mountains end bot

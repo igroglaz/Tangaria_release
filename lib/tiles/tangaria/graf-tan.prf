@@ -16876,17 +16876,25 @@ feat:E6 blood Z:los:0xE6:0xF5
 feat:E6 blood Z:lit:0xE6:0xF6
 feat:E6 blood Z:dark:0xE6:0xF7
 
-# E6 blood ~ 
+# E6 blood ~
 feat:E6 blood ~:torch:0xE6:0xF8
 feat:E6 blood ~:los:0xE6:0xF9
 feat:E6 blood ~:lit:0xE6:0xFA
 feat:E6 blood ~:dark:0xE6:0xFB
 
-# E6 blood ` 
-feat:E6 blood `:torch:0xE6:0xFC
-feat:E6 blood `:los:0xE6:0xFD
-feat:E6 blood `:lit:0xE6:0xFE
-feat:E6 blood `:dark:0xE6:0xFF
+# only 2 light types:
+# E6 blood `
+feat:E6 dark floor rubble:torch:0xE6:0xFC
+feat:E6 dark floor rubble:los:0xE6:0xFC
+feat:E6 dark floor rubble:lit:0xE6:0xFD
+feat:E6 dark floor rubble:dark:0xE6:0xFD
+
+# only 2 light types:
+# E6 blood `
+feat:E6 dark floor pass rubble:torch:0xE6:0xFE
+feat:E6 dark floor pass rubble:los:0xE6:0xFE
+feat:E6 dark floor pass rubble:lit:0xE6:0xFF
+feat:E6 dark floor pass rubble:dark:0xE6:0xFF
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -20486,6 +20494,22 @@ feat:mountains end top e:*:0xFA:0x8E
 feat:mountains end top f:*:0xFA:0x8F
 feat:mountains end top g:*:0xFA:0x90
 #
+# light 2 types:
+# FA lava rubble
+feat:FA lava rubble:torch:0xFA:0x91
+feat:FA lava rubble:los:0xFA:0x91
+feat:FA lava rubble:lit:0xFA:0x92
+feat:FA lava rubble:dark:0xFA:0x92
+
+# light 2 types:
+# FA lava pass rubble
+feat:FA lava pass rubble:torch:0xFA:0x93
+feat:FA lava pass rubble:los:0xFA:0x93
+feat:FA lava pass rubble:lit:0xFA:0x94
+feat:FA lava pass rubble:dark:0xFA:0x94
+
+############
+
 # FA lava h 
 feat:FA lava h:torch:0xFA:0x94
 feat:FA lava h:los:0xFA:0x95
@@ -20638,17 +20662,19 @@ feat:FA lava F:los:0xFA:0xF5
 feat:FA lava F:lit:0xFA:0xF6
 feat:FA lava F:dark:0xFA:0xF7
 
-# FA lava G 
-feat:FA lava G:torch:0xFA:0xF8
-feat:FA lava G:los:0xFA:0xF9
-feat:FA lava G:lit:0xFA:0xFA
-feat:FA lava G:dark:0xFA:0xFB
+# 2 light types:
+# FA lava G / bizarre rubble
+feat:FA bizarre rubble:torch:0xFA:0xF9
+feat:FA bizarre rubble:los:0xFA:0xF9
+feat:FA bizarre rubble:lit:0xFA:0xFA
+feat:FA bizarre rubble:dark:0xFA:0xFA
 
-# FA lava H 
-feat:FA lava H:torch:0xFA:0xFC
-feat:FA lava H:los:0xFA:0xFD
-feat:FA lava H:lit:0xFA:0xFE
-feat:FA lava H:dark:0xFA:0xFF
+# 2 light types:
+# FA lava H / FA bizarre rubble
+feat:FA bizarre pass rubble:torch:0xFA:0xFD
+feat:FA bizarre pass rubble:los:0xFA:0xFD
+feat:FA bizarre pass rubble:lit:0xFA:0xFE
+feat:FA bizarre pass rubble:dark:0xFA:0xFE
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 

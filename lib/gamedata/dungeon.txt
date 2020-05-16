@@ -1802,8 +1802,20 @@ max-level:25
 #floor:packed dirt:10
 #B3 DC (yellow ornament square in cirle)
 stair:9F stair down 0:9F stair up 1:10000
-floor:B3 floors n:300
-floor:B3 floors o:9700
+#
+rubble:E6 dark floor rubble:E6 dark floor pass rubble:10000
+#
+floor:E6 blood X:2500
+floor:E6 blood Y:2500
+floor:E6 blood Z:2500
+floor:E6 blood ~:2500
+#floor:B3 floors n:300
+#floor:B3 floors o:9700
+#
+floor:E6 blood X:2500
+floor:E6 blood Y:2500
+floor:E6 blood Z:2500
+floor:E6 blood ~:2500
 # B9
 wall:dark wall 0:3050
 wall:dark wall 1 narrow window:100
@@ -5445,6 +5457,9 @@ min-depth:66
 max-depth:77
 max-level:49
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:E6 dark floor rubble:E6 dark floor pass rubble:10000
+#
 floor:E6 blood X:2500
 floor:E6 blood Y:2500
 floor:E6 blood Z:2500
@@ -5512,6 +5527,9 @@ min-depth:84
 max-depth:98
 flags:CIRCULAR_ROOMS
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:FA lava rubble:FA lava pass rubble:10000
+#
 #wall:lava wall:9000
 #wall:lava rock:1000
 wall:B4 walls L:1250
@@ -6023,6 +6041,9 @@ max-depth:127
 #########################
 flags:EMPTY | WINNERS_ONLY
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:FA bizarre rubble:FA bizarre pass rubble:10000
+#
 floor:FA lava x:1150
 floor:FA lava y:1150
 floor:FA lava z:1100

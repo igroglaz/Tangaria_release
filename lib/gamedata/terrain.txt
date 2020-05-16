@@ -7417,10 +7417,11 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+
 name:B5 floors 0
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7428,7 +7429,7 @@ desc:.
 name:B5 floors 1
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7436,7 +7437,7 @@ desc:.
 name:B5 floors 2
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7444,7 +7445,7 @@ desc:.
 name:B5 floors 3
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7452,7 +7453,7 @@ desc:.
 name:B5 floors 4
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7460,7 +7461,7 @@ desc:.
 name:B5 floors 5
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7468,7 +7469,7 @@ desc:.
 name:B5 floors 6
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7476,7 +7477,7 @@ desc:.
 name:B5 floors 7
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7484,7 +7485,7 @@ desc:.
 name:B5 floors 8
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7492,7 +7493,7 @@ desc:.
 name:B5 floors 9
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7500,7 +7501,7 @@ desc:.
 name:B5 floors a
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7508,7 +7509,7 @@ desc:.
 name:B5 floors b
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7516,7 +7517,7 @@ desc:.
 name:B5 floors c
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7524,7 +7525,7 @@ desc:.
 name:B5 floors d
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7532,7 +7533,7 @@ desc:.
 name:B5 floors e
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7540,7 +7541,7 @@ desc:.
 name:B5 floors f
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7548,7 +7549,7 @@ desc:.
 name:B5 floors g
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7556,7 +7557,7 @@ desc:.
 name:B5 floors h
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7564,7 +7565,7 @@ desc:.
 name:B5 floors i
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7572,7 +7573,7 @@ desc:.
 name:B5 floors j
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7580,7 +7581,7 @@ desc:.
 name:B5 floors k
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7588,7 +7589,7 @@ desc:.
 name:B5 floors l
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7596,7 +7597,7 @@ desc:.
 name:B5 floors m
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7604,7 +7605,7 @@ desc:.
 name:B5 floors n
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7612,7 +7613,7 @@ desc:.
 name:B5 floors o
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7620,7 +7621,7 @@ desc:.
 name:B5 floors p
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7628,7 +7629,7 @@ desc:.
 name:B5 floors q
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7636,7 +7637,7 @@ desc:.
 name:B5 floors r
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7644,7 +7645,7 @@ desc:.
 name:B5 floors s
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7652,7 +7653,7 @@ desc:.
 name:B5 floors t
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7660,7 +7661,7 @@ desc:.
 name:B5 floors u
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
@@ -7668,10 +7669,11 @@ desc:.
 name:B5 floors v
 graphics:.:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | BORING | OBJECT | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 ################################################################################
 short-desc:wooden floor
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B6 - floors luquid
@@ -7961,24 +7963,28 @@ died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
 
+# basin with brown water
+
 name:B6 floors luquid U
-graphics:~:B
+graphics:~:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS | NO_MONSTERS
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
 
+# 2x brown water
+
 name:B6 floors luquid V
-graphics:~:B
+graphics:~:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS | NO_MONSTERS
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
@@ -7986,16 +7992,18 @@ die-msg:drowning
 resist-flag:IM_WATER
 
 name:B6 floors luquid W
-graphics:~:B
+graphics:~:u
 priority:18
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH
+flags:LOS | PROJECT | PASSABLE | WATER | BORING | NOTICEABLE | NO_SCENT | TORCH | NO_STAIRS | NO_MONSTERS
 ################################################################################
-short-desc:water
+short-desc:stinky sludge
 desc:.
 hurt-msg:You are drowning!
 died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
+
+# green sludge 5x:
 
 name:B6 floors luquid X
 graphics:~:g
@@ -21314,13 +21322,24 @@ flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
 short-desc:bloody floor
 desc:.
 
-name:E6 blood `
-graphics:.:s
+name:E6 dark floor rubble
+graphics:::W
 priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | EASY | TRAP | TORCH
-################################################################################
-short-desc:bloody floor
-desc:.
+flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+info:0:2
+short-desc:pile of rubble
+desc:Ends LOS, stops missiles, bolts, and beams. May dissolve or be tunnelled
+desc: to normal floor.
+
+name:E6 dark floor pass rubble
+graphics:::u
+priority:18
+flags:ROCK | PASSABLE | INTERESTING | TORCH
+info:0:2
+short-desc:pile of passable rubble
+desc:Ends LOS, stops missiles, bolts, and beams, and reduces the radius of ball
+desc: spells. May dissolve or be tunnelled to normal floor, and can be walked
+desc: through by the player and monsters.
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # E7 desert
@@ -26298,6 +26317,27 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 
+name:FA lava rubble
+graphics:::W
+priority:18
+flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+info:0:2
+short-desc:pile of rubble
+desc:Ends LOS, stops missiles, bolts, and beams. May dissolve or be tunnelled
+desc: to normal floor.
+
+name:FA lava pass rubble
+graphics:::u
+priority:18
+flags:ROCK | PASSABLE | INTERESTING | TORCH
+info:0:2
+short-desc:pile of passable rubble
+desc:Ends LOS, stops missiles, bolts, and beams, and reduces the radius of ball
+desc: spells. May dissolve or be tunnelled to normal floor, and can be walked
+desc: through by the player and monsters.
+
+
+###########
 
 name:FA lava h
 graphics:.:u
@@ -26503,19 +26543,24 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH | 
 short-desc:floor
 desc:.
 
-name:FA lava G
-graphics:~:u
+name:FA bizarre rubble
+graphics:::W
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
-short-desc:shallow water
-desc:A pool of shallow water.
+flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+info:0:2
+short-desc:pile of rubble
+desc:Ends LOS, stops missiles, bolts, and beams. May dissolve or be tunnelled
+desc: to normal floor.
 
-name:FA lava H
-graphics:~:u
+name:FA bizarre pass rubble
+graphics:::u
 priority:18
-flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR | BORING | EASY | NOTICEABLE | NO_SCENT
-short-desc:shallow water
-desc:A pool of shallow water.
+flags:ROCK | PASSABLE | INTERESTING | TORCH
+info:0:2
+short-desc:pile of passable rubble
+desc:Ends LOS, stops missiles, bolts, and beams, and reduces the radius of ball
+desc: spells. May dissolve or be tunnelled to normal floor, and can be walked
+desc: through by the player and monsters.
 
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
