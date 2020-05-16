@@ -72,7 +72,9 @@ wpos:1:-3
 flags:STREAMS
 min-depth:75
 max-depth:100
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
 floor:E0 dark floor w:1
 floor:E0 dark floor x:1
 floor:E0 dark floor y:1
@@ -269,11 +271,13 @@ min-depth:1
 max-depth:1
 max-level:2
 flags:EMPTY
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
 rubble:grass mountain e rubble:grass mountain f passable rubble:10000
-fountain:obj_grass 9 fountain:obj_grass2 D:4000
-fountain:obj_grass 2 well:obj_grass2 E:4000
-perma:P big dark wall 1:10000
+#
+fountain:obj_grass 9 fountain:A9 dried fountain:4000
+fountain:obj_grass 2 well:A9 dried well:4000
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100
@@ -465,6 +469,8 @@ wall:obj_grass2 l:300
 wall:obj_grass2 m:300
 wall:obj_grass2 n:300
 wall:obj_grass2 o:300
+#
+perma:P big dark wall 1:10000
 ####
 rule:10000:1
 
@@ -475,7 +481,9 @@ min-depth:2
 max-depth:5
 max-level:5
 flags:NO_DOORS | WATER_RIVER
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -1035,7 +1043,12 @@ min-depth:12
 max-depth:20
 max-level:20
 flags:NO_DOORS | WATER_RIVER | EMPTY
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:grass mountain e rubble:grass mountain f passable rubble:10000
+#
+fountain:obj_grass 2 well:A9 dried well:10000
 #floor:floor 1 grass:24
 #floor:floor w grass:12
 #

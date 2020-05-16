@@ -541,15 +541,19 @@ feat:`:z:obj_grass2 z
 feat:`:A:obj_grass2 A
 feat:`:B:obj_grass2 B
 feat:`:C:obj_grass2 C
-
-#ranger
-feat:`:D:obj_grass2 D
-
-feat:`:E:obj_grass2 E
-feat:`:F:obj_grass2 F
-feat:`:G:obj_grass2 G
-feat:`:H:obj_grass2 H
-feat:`:I:obj_grass2 I
+# obj_grass2 D
+feat:`:D:A9 dried fountain
+# obj_grass2 E
+feat:`:E::A9 dried well
+# obj_grass2 F
+feat:`:F:A9 stair down leaf
+# obj_grass2 G
+feat:`:G:A9 stair up leaf
+# obj_grass2 H
+feat:`:H:A9 stair down gloomy
+# obj_grass2 I
+feat:`:I:A9 stair up gloomy
+##########################
 feat:`:J:obj_grass2 J
 feat:`:K:obj_grass2 K
 feat:`:L:obj_grass2 L

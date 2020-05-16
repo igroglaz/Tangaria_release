@@ -4265,42 +4265,42 @@ short-desc:dummy
 desc:.
 
 # dried fountain
-name:obj_grass2 D
+name:A9 dried fountain
 graphics:_:s
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | DRIED | BORING | EASY | INTERESTING
 short-desc:empty ornate basin
 desc:An empty ornate basin.
 
-name:obj_grass2 E
+name:A9 dried well
 graphics:_:s
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | DRIED | BORING | EASY | INTERESTING
 short-desc:empty well
 desc:An empty well.
 
-name:obj_grass2 F
+name:A9 stair down leaf
 graphics:>:w
 priority:26
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 short-desc:down staircase
 desc:A staircase down to a deeper part of the dungeon.
 
-name:obj_grass2 G
+name:A9 stair up leaf
 graphics:<:w
 priority:26
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | UPSTAIR | EASY | TORCH
 short-desc:up staircase
 desc:A staircase up to a shallower part of the dungeon.
 
-name:obj_grass2 H
+name:A9 stair down gloomy
 graphics:>:w
 priority:26
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 short-desc:down staircase
 desc:A staircase down to a deeper part of the dungeon.
 
-name:obj_grass2 I
+name:A9 stair up gloomy
 graphics:<:w
 priority:26
 flags:LOS | PROJECT | PASSABLE | PERMANENT | INTERESTING | STAIR | UPSTAIR | EASY | TORCH
