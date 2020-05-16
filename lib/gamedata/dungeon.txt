@@ -272,7 +272,9 @@ max-depth:1
 max-level:2
 flags:EMPTY
 #
-stair:9F stair down 0:9F stair up 1:10000
+stair:9F stair down 0:9F stair up 1:1000
+stair:A9 stair down leaf:A9 stair up leaf:8000
+stair:A9 stair down gloomy:A9 stair up gloomy:1000
 #
 rubble:grass mountain e rubble:grass mountain f passable rubble:10000
 #
@@ -484,6 +486,8 @@ flags:NO_DOORS | WATER_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
 #
+rubble:ED dirt e:ED dirt f:10000
+#
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^
@@ -653,7 +657,11 @@ min-depth:4
 max-depth:12
 max-level:10
 flags:SAND_VEIN | CIRCULAR_ROOMS | WATER_RIVER
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:ED dirt e:ED dirt f:10000
+#
 floor:packed dirt:1400
 #20 + (1+8) + 71
 #900+2k^
@@ -1247,7 +1255,11 @@ min-depth:15
 max-depth:23
 max-level:20
 flags:CAVERN | SAND_VEIN | WATER_RIVER
+#
 stair:9F stair down 0:9F stair up 1:10000
+#
+rubble:ED dirt e:ED dirt f:10000
+#
 floor:packed dirt:3650
 #20 + (1+8) + 71
 #900+2k^

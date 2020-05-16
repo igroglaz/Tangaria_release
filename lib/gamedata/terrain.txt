@@ -556,6 +556,7 @@ graphics:::W
 priority:18
 flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
 info:0:2
+short-desc:pile of rubble
 desc:Ends LOS, stops missiles, bolts, and beams. May dissolve or be tunnelled
 desc: to normal floor.
 
@@ -637,6 +638,7 @@ graphics:::u
 priority:18
 flags:ROCK | PASSABLE | INTERESTING | TORCH
 info:0:2
+short-desc:pile of passable rubble
 desc:Ends LOS, stops missiles, bolts, and beams, and reduces the radius of ball
 desc: spells. May dissolve or be tunnelled to normal floor, and can be walked
 desc: through by the player and monsters.
@@ -1319,7 +1321,7 @@ desc:.
 name:98 wall 1
 graphics:#:s
 priority:11
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | TRAP | EASY | TORCH 
 ################################################################################
 info:0:3
 short-desc:wall
