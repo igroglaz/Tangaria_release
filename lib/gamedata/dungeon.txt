@@ -272,14 +272,14 @@ max-depth:1
 max-level:2
 flags:EMPTY
 #
-stair:9F stair down 0:9F stair up 1:1000
-stair:A9 stair down leaf:A9 stair up leaf:8000
-stair:A9 stair down gloomy:A9 stair up gloomy:1000
+stair:9F stair down 0:9F stair up 1:10000
+#stair:A9 stair down leaf:A9 stair up leaf:8000
+#stair:A9 stair down gloomy:A9 stair up gloomy:10000
 #
 rubble:grass mountain e rubble:grass mountain f passable rubble:10000
 #
-fountain:obj_grass 9 fountain:A9 dried fountain:4000
-fountain:obj_grass 2 well:A9 dried well:4000
+fountain:obj_grass 9 fountain:A9 dried fountain:9900
+fountain:obj_grass 2 well:A9 dried well:100
 # A4
 floor:flower 0 green:100
 floor:flower 1 green:100
@@ -482,7 +482,7 @@ wpos:1:0
 min-depth:2
 max-depth:5
 max-level:5
-flags:NO_DOORS | WATER_RIVER
+flags:STREAMS | SAND_VEIN | WATER_RIVER |  NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -656,7 +656,7 @@ wpos:1:1
 min-depth:4
 max-depth:12
 max-level:10
-flags:SAND_VEIN | CIRCULAR_ROOMS | WATER_RIVER
+flags:STREAMS | SAND_VEIN | WATER_RIVER | CIRCULAR_ROOMS
 #
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -937,6 +937,8 @@ max-level:15
 flags:WATER_RIVER
 #flags:!NO_DOORS
 stair:9F stair down 0:9F stair up 1:10000
+#
+door:DD wood wall 0:DD wood wall 1:DD wood wall 2:8000
 #slime-blood:
 floor:E6 blood w:20
 floor:E6 blood x:20
@@ -1037,9 +1039,6 @@ perma:A3 P severs 1:2500
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
 #wall:big dark wall b window:1
-# door : closed door feature : open door feature : broken door feature : 1/10000
-#        chance of getting the feature
-door:DD wood wall 0:DD wood wall 1:DD wood wall 2:8000
 rule:2000:0
 rule-symbols:p
 rule:8000:1
@@ -2666,6 +2665,9 @@ max-depth:40
 max-level:35
 flags:MAZE
 stair:9F stair down 0:9F stair up 1:10000
+#
+door:DD wood wall 0:DD wood wall 1:DD wood wall 2:8000
+#
 #slime-blood: 
 floor:E6 blood w:1
 floor:E6 blood x:1
@@ -2747,10 +2749,6 @@ wall:AA wall B:100
 #wall:big dark wall 9 entrance:1
 #wall:big dark wall a low entrance:1
 #wall:big dark wall b window:1
-# door : closed door feature : open door feature : broken door feature : 1/10000
-#        chance of getting the feature
-door:DD wood wall 0:DD wood wall 1:DD wood wall 2:8000
-#
 perma:A3 P severs s:3334
 perma:A3 P severs t:3333
 perma:A3 P severs u:3333
