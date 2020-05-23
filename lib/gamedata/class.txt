@@ -213,7 +213,8 @@ equip:food:Ration of Food:2:4:1
 equip:light:Rusty Lantern:1:1:1
 equip:sword:Dagger:1:1:1
 equip:bow:Short Bow:1:1:0
-equip:arrow:Arrow:30:40:0
+equip:arrow:Old Arrow:30:40:0
+equip:arrow:Old Arrow:30:40:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Remove Hunger (tattered):1:1:0
@@ -2012,7 +2013,8 @@ equip:light:Wooden Torch:1:3:1
 ##########equip:magic book:[Magic for Beginners]:1:1:1
 equip:sword:Main Gauche:1:1:1
 equip:bow:Short Bow:1:1:0
-equip:arrow:Arrow:15:20:0
+equip:arrow:Old Arrow:20:30:0
+equip:arrow:Old Arrow:20:30:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Remove Hunger (tattered):1:1:0
@@ -2835,7 +2837,8 @@ equip:light:Rusty Lantern:1:1:1
 ###################equip:hunt book:[Hunting and Tracking]:1:1:1
 equip:sword:Dagger:1:1:1
 equip:bow:Short Bow:1:1:0
-equip:arrow:Arrow:30:40:0
+equip:arrow:Old Arrow:25:35:0
+equip:arrow:Old Arrow:25:35:0
 equip:digger:Spade:1:1:1
 equip:scroll:Word of Recall (rugged):2:2:0
 equip:scroll:Remove Hunger (tattered):1:1:0

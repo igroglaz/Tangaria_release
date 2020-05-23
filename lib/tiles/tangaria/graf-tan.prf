@@ -21155,6 +21155,8 @@ feat:FD double `:dark:0xFD:0xFF
 
 ################ NEW ADDITIONS 2019
 
+object:arrow:Old Arrow:0x8A:0xB1
+
 object:digger:Spade:0x87:0x9F
 object:light:Old Lantern:0x87:0x99
 
