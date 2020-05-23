@@ -351,7 +351,7 @@ skill-melee:0
 skill-shoot:0
 skill-dig:0
 hitdie:6
-exp:80:50
+exp:80:80
 history:1
 age:14:6
 height:23:3
@@ -363,6 +363,7 @@ value:1:WIS[-1+-1d12]
 value:1:DEX[-1+-1d12]
 value:1:CON[-1+-1d12]
 value:1:MOVES[1+1d10]
+player-flags:FAST_THROW
 player-flags:ANIMAL
 
 name:Ent
