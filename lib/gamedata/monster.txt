@@ -28661,15 +28661,16 @@ hit-points:18
 hearing:18
 smell:20
 armor-class:21
-sleepiness:10
+sleepiness:60
 depth:8
 rarity:1
 weight:80
-experience:11
+experience:1
 blow:HIT:HURT:1d6
 flags:DROP_40
 flags:DROP_CORPSE
 desc:It is a strange small humanoid.
+locations:Abandoned Outpost
 
 name:Abandoned Outpost's small kobold
 base:kobold

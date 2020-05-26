@@ -19247,6 +19247,7 @@ info:0:3
 short-desc:rocks
 desc:.
 
+#duplicate
 name:DF dark floor i
 graphics:::W
 priority:18
@@ -19255,6 +19256,7 @@ info:0:2
 short-desc:pile of rubble
 desc:.
 
+#duplicate
 name:DF dark floor j
 graphics:::u
 priority:18
@@ -28254,19 +28256,21 @@ flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING 
 short-desc:rocks
 desc:.
 
+#regular tiles, not rubble ones.. to prevent tele in walls
 name:ED dirt F2W e
 graphics:::W
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
+#regular tiles, not rubble ones.. to prevent tele in walls
 name:ED dirt F2W f
 graphics:::u
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -29257,19 +29261,21 @@ flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING 
 short-desc:rocks
 desc:.
 
+#regular tiles, not rubble ones.. to prevent tele in walls
 name:E9 desert F2W e
 graphics:::W
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
+#regular tiles, not rubble ones.. to prevent tele in walls
 name:E9 desert F2W f
 graphics:::u
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 short-desc:passable rubble
 desc:Passable rubble.
 
@@ -30750,19 +30756,21 @@ flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING 
 short-desc:rocks
 desc:.
 
+# not a rubble flags.. to prevent tele to walls.
 name:F3 shallow water F2W e
 graphics:::W
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 short-desc:rubble
 desc:Rubble.
 
+# not a rubble flags.. to prevent tele to walls.
 name:F3 shallow water F2W f
 graphics:::u
 priority:18
 info:0:2
-flags:NO_STAIRS | NO_MONSTERS | ROCK | PASSABLE | INTERESTING | TORCH
+flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY | TORCH
 short-desc:passable rubble
 desc:Passable rubble.
 

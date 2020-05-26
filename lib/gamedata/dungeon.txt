@@ -3939,14 +3939,14 @@ wall:F3 shallow water F2W 9:10
 wall:F3 shallow water F2W a:10
 wall:F3 shallow water F2W b:10
 ################################### x
-wall:F3 shallow water F2W c:200
-wall:F3 shallow water F2W d:200
-wall:F3 shallow water F2W e:100
-wall:F3 shallow water F2W f:200
-wall:F3 shallow water F2W g:200
-wall:F3 shallow water F2W h:200
-wall:F3 shallow water F2W i:200
-wall:F3 shallow water F2W j:200
+wall:F3 shallow water F2W c:250
+wall:F3 shallow water F2W d:250
+# wall:F3 shallow water F2W e:100 rubble
+# wall:F3 shallow water F2W f:200 pass rubble
+wall:F3 shallow water F2W g:250
+wall:F3 shallow water F2W h:250
+wall:F3 shallow water F2W i:250
+wall:F3 shallow water F2W j:250
 wall:F3 shallow water F2W k:200
 wall:F3 shallow water F2W l:200
 wall:F3 shallow water F2W m:200
