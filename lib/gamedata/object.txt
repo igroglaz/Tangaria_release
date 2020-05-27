@@ -3430,8 +3430,6 @@ dice:20
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:20
-effect:NOURISH:INC_BY
-dice:1
 
 name:Cure Serious Wounds
 graphics:!:d

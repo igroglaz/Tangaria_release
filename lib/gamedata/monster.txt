@@ -28843,7 +28843,7 @@ name:Mountain Gorge's grey mushroom patch
 plural:grey mushroom patches
 base:mushroom
 color:s
-speed:110
+speed:100
 hit-points:2
 hearing:2
 armor-class:1
