@@ -24752,6 +24752,410 @@ feat:E1 P moss wall r:dark:0xE1:0xEF
 ####################
 ####################
 
+##### Ettenmoors and Sacred mountain F2W
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AB - grass mountain F2Ws
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# grass mountain F2W 0
+feat:grass mountain F2W 0:torch:0xAB:0x80
+feat:grass mountain F2W 0:los:0xAB:0x81
+feat:grass mountain F2W 0:lit:0xAB:0x82
+feat:grass mountain F2W 0:dark:0xAB:0x83
+
+# grass mountain F2W 1
+feat:grass mountain F2W 1:torch:0xAB:0x84
+feat:grass mountain F2W 1:los:0xAB:0x85
+feat:grass mountain F2W 1:lit:0xAB:0x86
+feat:grass mountain F2W 1:dark:0xAB:0x87
+
+# grass mountain F2W 2
+feat:grass mountain F2W 2:torch:0xAB:0x88
+feat:grass mountain F2W 2:los:0xAB:0x89
+feat:grass mountain F2W 2:lit:0xAB:0x8A
+feat:grass mountain F2W 2:dark:0xAB:0x8B
+
+# grass mountain F2W 3
+feat:grass mountain F2W 3:torch:0xAB:0x8C
+feat:grass mountain F2W 3:los:0xAB:0x8D
+feat:grass mountain F2W 3:lit:0xAB:0x8E
+feat:grass mountain F2W 3:dark:0xAB:0x8F
+
+# grass mountain F2W 4
+feat:grass mountain F2W 4:torch:0xAB:0x90
+feat:grass mountain F2W 4:los:0xAB:0x91
+feat:grass mountain F2W 4:lit:0xAB:0x92
+feat:grass mountain F2W 4:dark:0xAB:0x93
+
+# grass mountain F2W 5
+feat:grass mountain F2W 5:torch:0xAB:0x94
+feat:grass mountain F2W 5:los:0xAB:0x95
+feat:grass mountain F2W 5:lit:0xAB:0x96
+feat:grass mountain F2W 5:dark:0xAB:0x97
+
+# grass mountain F2W 6
+feat:grass mountain F2W 6:torch:0xAB:0x98
+feat:grass mountain F2W 6:los:0xAB:0x99
+feat:grass mountain F2W 6:lit:0xAB:0x9A
+feat:grass mountain F2W 6:dark:0xAB:0x9B
+
+# grass mountain F2W 7
+feat:grass mountain F2W 7:torch:0xAB:0x9C
+feat:grass mountain F2W 7:los:0xAB:0x9D
+feat:grass mountain F2W 7:lit:0xAB:0x9E
+feat:grass mountain F2W 7:dark:0xAB:0x9F
+
+# grass mountain F2W 8
+feat:grass mountain F2W 8:torch:0xAB:0xA0
+feat:grass mountain F2W 8:los:0xAB:0xA1
+feat:grass mountain F2W 8:lit:0xAB:0xA2
+feat:grass mountain F2W 8:dark:0xAB:0xA3
+
+# grass mountain F2W 9
+feat:grass mountain F2W 9:torch:0xAB:0xA4
+feat:grass mountain F2W 9:los:0xAB:0xA5
+feat:grass mountain F2W 9:lit:0xAB:0xA6
+feat:grass mountain F2W 9:dark:0xAB:0xA7
+
+# grass mountain F2W a
+feat:grass mountain F2W a:torch:0xAB:0xA8
+feat:grass mountain F2W a:los:0xAB:0xA9
+feat:grass mountain F2W a:lit:0xAB:0xAA
+feat:grass mountain F2W a:dark:0xAB:0xAB
+
+# grass mountain F2W b
+feat:grass mountain F2W b:torch:0xAB:0xAC
+feat:grass mountain F2W b:los:0xAB:0xAD
+feat:grass mountain F2W b:lit:0xAB:0xAE
+feat:grass mountain F2W b:dark:0xAB:0xAF
+
+# grass mountain F2W c rocks
+feat:grass mountain F2W c rocks:torch:0xAB:0xB0
+feat:grass mountain F2W c rocks:los:0xAB:0xB1
+feat:grass mountain F2W c rocks:lit:0xAB:0xB2
+feat:grass mountain F2W c rocks:dark:0xAB:0xB3
+
+# grass mountain F2W d small rocks
+feat:grass mountain F2W d small rocks:torch:0xAB:0xB4
+feat:grass mountain F2W d small rocks:los:0xAB:0xB5
+feat:grass mountain F2W d small rocks:lit:0xAB:0xB6
+feat:grass mountain F2W d small rocks:dark:0xAB:0xB7
+
+# grass mountain F2W e rubble
+feat:grass mountain F2W e rubble:torch:0xAB:0xB8
+feat:grass mountain F2W e rubble:los:0xAB:0xB9
+feat:grass mountain F2W e rubble:lit:0xAB:0xBA
+feat:grass mountain F2W e rubble:dark:0xAB:0xBB
+
+# grass mountain F2W f passable rubble
+feat:grass mountain F2W f passable rubble:torch:0xAB:0xBC
+feat:grass mountain F2W f passable rubble:los:0xAB:0xBD
+feat:grass mountain F2W f passable rubble:lit:0xAB:0xBE
+feat:grass mountain F2W f passable rubble:dark:0xAB:0xBF
+
+# grass mountain F2W g big rocks
+feat:grass mountain F2W g big rocks:torch:0xAB:0xC0
+feat:grass mountain F2W g big rocks:los:0xAB:0xC1
+feat:grass mountain F2W g big rocks:lit:0xAB:0xC2
+feat:grass mountain F2W g big rocks:dark:0xAB:0xC3
+
+# grass mountain F2W h moss rubble
+feat:grass mountain F2W h moss rubble:torch:0xAB:0xC4
+feat:grass mountain F2W h moss rubble:los:0xAB:0xC5
+feat:grass mountain F2W h moss rubble:lit:0xAB:0xC6
+feat:grass mountain F2W h moss rubble:dark:0xAB:0xC7
+
+# grass mountain F2W i boulders
+feat:grass mountain F2W i boulders:torch:0xAB:0xC8
+feat:grass mountain F2W i boulders:los:0xAB:0xC9
+feat:grass mountain F2W i boulders:lit:0xAB:0xCA
+feat:grass mountain F2W i boulders:dark:0xAB:0xCB
+
+# grass mountain F2W j boulders
+feat:grass mountain F2W j boulders:torch:0xAB:0xCC
+feat:grass mountain F2W j boulders:los:0xAB:0xCD
+feat:grass mountain F2W j boulders:lit:0xAB:0xCE
+feat:grass mountain F2W j boulders:dark:0xAB:0xCF
+
+# grass mountain F2W k boulders
+feat:grass mountain F2W k boulders:torch:0xAB:0xD0
+feat:grass mountain F2W k boulders:los:0xAB:0xD1
+feat:grass mountain F2W k boulders:lit:0xAB:0xD2
+feat:grass mountain F2W k boulders:dark:0xAB:0xD3
+
+# grass mountain F2W l big boulders
+feat:grass mountain F2W l big boulders:torch:0xAB:0xD4
+feat:grass mountain F2W l big boulders:los:0xAB:0xD5
+feat:grass mountain F2W l big boulders:lit:0xAB:0xD6
+feat:grass mountain F2W l big boulders:dark:0xAB:0xD7
+
+# grass mountain F2W m rocks
+feat:grass mountain F2W m rocks:torch:0xAB:0xD8
+feat:grass mountain F2W m rocks:los:0xAB:0xD9
+feat:grass mountain F2W m rocks:lit:0xAB:0xDA
+feat:grass mountain F2W m rocks:dark:0xAB:0xDB
+
+# grass mountain F2W n rocks
+feat:grass mountain F2W n rocks:torch:0xAB:0xDC
+feat:grass mountain F2W n rocks:los:0xAB:0xDD
+feat:grass mountain F2W n rocks:lit:0xAB:0xDE
+feat:grass mountain F2W n rocks:dark:0xAB:0xDF
+
+# grass mountain F2W o rock
+feat:grass mountain F2W o rock:torch:0xAB:0xE0
+feat:grass mountain F2W o rock:los:0xAB:0xE1
+feat:grass mountain F2W o rock:lit:0xAB:0xE2
+feat:grass mountain F2W o rock:dark:0xAB:0xE3
+
+# grass mountain F2W p rocks
+feat:grass mountain F2W p rocks:torch:0xAB:0xE4
+feat:grass mountain F2W p rocks:los:0xAB:0xE5
+feat:grass mountain F2W p rocks:lit:0xAB:0xE6
+feat:grass mountain F2W p rocks:dark:0xAB:0xE7
+
+# grass mountain F2W q rock
+feat:grass mountain F2W q rock:torch:0xAB:0xE8
+feat:grass mountain F2W q rock:los:0xAB:0xE9
+feat:grass mountain F2W q rock:lit:0xAB:0xEA
+feat:grass mountain F2W q rock:dark:0xAB:0xEB
+
+# grass mountain F2W r rocks
+feat:grass mountain F2W r rocks:torch:0xAB:0xEC
+feat:grass mountain F2W r rocks:los:0xAB:0xED
+feat:grass mountain F2W r rocks:lit:0xAB:0xEE
+feat:grass mountain F2W r rocks:dark:0xAB:0xEF
+
+# grass mountain F2W s rocks
+feat:grass mountain F2W s rocks:torch:0xAB:0xF0
+feat:grass mountain F2W s rocks:los:0xAB:0xF1
+feat:grass mountain F2W s rocks:lit:0xAB:0xF2
+feat:grass mountain F2W s rocks:dark:0xAB:0xF3
+
+# grass mountain F2W t rocks
+feat:grass mountain F2W t rocks:torch:0xAB:0xF4
+feat:grass mountain F2W t rocks:los:0xAB:0xF5
+feat:grass mountain F2W t rocks:lit:0xAB:0xF6
+feat:grass mountain F2W t rocks:dark:0xAB:0xF7
+
+# grass mountain F2W u rocks
+feat:grass mountain F2W u rocks:torch:0xAB:0xF8
+feat:grass mountain F2W u rocks:los:0xAB:0xF9
+feat:grass mountain F2W u rocks:lit:0xAB:0xFA
+feat:grass mountain F2W u rocks:dark:0xAB:0xFB
+
+# grass mountain F2W v rock
+feat:grass mountain F2W v rock:torch:0xAB:0xFC
+feat:grass mountain F2W v rock:los:0xAB:0xFD
+feat:grass mountain F2W v rock:lit:0xAB:0xFE
+feat:grass mountain F2W v rock:dark:0xAB:0xFF
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AC - grass mountain F2Ws
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+# grass mountain F2W w
+feat:grass mountain F2W w:torch:0xAC:0x80
+feat:grass mountain F2W w:los:0xAC:0x81
+feat:grass mountain F2W w:lit:0xAC:0x82
+feat:grass mountain F2W w:dark:0xAC:0x83
+
+# grass mountain F2W x
+feat:grass mountain F2W x:torch:0xAC:0x84
+feat:grass mountain F2W x:los:0xAC:0x85
+feat:grass mountain F2W x:lit:0xAC:0x86
+feat:grass mountain F2W x:dark:0xAC:0x87
+
+# grass mountain F2W y
+feat:grass mountain F2W y:torch:0xAC:0x88
+feat:grass mountain F2W y:los:0xAC:0x89
+feat:grass mountain F2W y:lit:0xAC:0x8A
+feat:grass mountain F2W y:dark:0xAC:0x8B
+
+# grass mountain F2W z
+feat:grass mountain F2W z:torch:0xAC:0x8C
+feat:grass mountain F2W z:los:0xAC:0x8D
+feat:grass mountain F2W z:lit:0xAC:0x8E
+feat:grass mountain F2W z:dark:0xAC:0x8F
+
+# grass mountain F2W A
+feat:grass mountain F2W A:torch:0xAC:0x90
+feat:grass mountain F2W A:los:0xAC:0x91
+feat:grass mountain F2W A:lit:0xAC:0x92
+feat:grass mountain F2W A:dark:0xAC:0x93
+
+# grass mountain F2W B
+feat:grass mountain F2W B:torch:0xAC:0x94
+feat:grass mountain F2W B:los:0xAC:0x95
+feat:grass mountain F2W B:lit:0xAC:0x96
+feat:grass mountain F2W B:dark:0xAC:0x97
+
+# grass mountain F2W C
+feat:grass mountain F2W C:torch:0xAC:0x98
+feat:grass mountain F2W C:los:0xAC:0x99
+feat:grass mountain F2W C:lit:0xAC:0x9A
+feat:grass mountain F2W C:dark:0xAC:0x9B
+
+# grass mountain F2W D
+feat:grass mountain F2W D:torch:0xAC:0x9C
+feat:grass mountain F2W D:los:0xAC:0x9D
+feat:grass mountain F2W D:lit:0xAC:0x9E
+feat:grass mountain F2W D:dark:0xAC:0x9F
+
+# grass mountain F2W E
+feat:grass mountain F2W E:torch:0xAC:0xA0
+feat:grass mountain F2W E:los:0xAC:0xA1
+feat:grass mountain F2W E:lit:0xAC:0xA2
+feat:grass mountain F2W E:dark:0xAC:0xA3
+
+# grass mountain F2W F	
+feat:grass mountain F2W F:torch:0xAC:0xA4
+feat:grass mountain F2W F:los:0xAC:0xA5
+feat:grass mountain F2W F:lit:0xAC:0xA6
+feat:grass mountain F2W F:dark:0xAC:0xA7
+
+#hills
+# grass mountain F2W G 	
+feat:grass mountain F2W G:torch:0xAC:0xA8
+feat:grass mountain F2W G:los:0xAC:0xA9
+feat:grass mountain F2W G:lit:0xAC:0xAA
+feat:grass mountain F2W G:dark:0xAC:0xAB
+
+# grass mountain F2W H 
+feat:grass mountain F2W H:torch:0xAC:0xAC
+feat:grass mountain F2W H:los:0xAC:0xAD
+feat:grass mountain F2W H:lit:0xAC:0xAE
+feat:grass mountain F2W H:dark:0xAC:0xAF
+
+# grass mountain F2W I 
+feat:grass mountain F2W I:torch:0xAC:0xB0
+feat:grass mountain F2W I:los:0xAC:0xB1
+feat:grass mountain F2W I:lit:0xAC:0xB2
+feat:grass mountain F2W I:dark:0xAC:0xB3
+
+# boulder
+# grass mountain F2W J 
+feat:grass mountain F2W J:torch:0xAC:0xB4
+feat:grass mountain F2W J:los:0xAC:0xB5
+feat:grass mountain F2W J:lit:0xAC:0xB6
+feat:grass mountain F2W J:dark:0xAC:0xB7
+
+# boulder and rocks
+# grass mountain F2W K 
+feat:grass mountain F2W K:torch:0xAC:0xB8
+feat:grass mountain F2W K:los:0xAC:0xB9
+feat:grass mountain F2W K:lit:0xAC:0xBA
+feat:grass mountain F2W K:dark:0xAC:0xBB
+
+# medium rock
+# grass mountain F2W L 
+feat:grass mountain F2W L:torch:0xAC:0xBC
+feat:grass mountain F2W L:los:0xAC:0xBD
+feat:grass mountain F2W L:lit:0xAC:0xBE
+feat:grass mountain F2W L:dark:0xAC:0xBF
+
+# grass mountain F2W M 
+feat:grass mountain F2W M:torch:0xAC:0xC0
+feat:grass mountain F2W M:los:0xAC:0xC1
+feat:grass mountain F2W M:lit:0xAC:0xC2
+feat:grass mountain F2W M:dark:0xAC:0xC3
+
+# grass mountain F2W N 
+feat:grass mountain F2W N:torch:0xAC:0xC4
+feat:grass mountain F2W N:los:0xAC:0xC5
+feat:grass mountain F2W N:lit:0xAC:0xC6
+feat:grass mountain F2W N:dark:0xAC:0xC7
+
+# grass mountain F2W O 
+feat:grass mountain F2W O:torch:0xAC:0xC8
+feat:grass mountain F2W O:los:0xAC:0xC9
+feat:grass mountain F2W O:lit:0xAC:0xCA
+feat:grass mountain F2W O:dark:0xAC:0xCB
+
+# grass mountain F2W P 
+feat:grass mountain F2W P:torch:0xAC:0xCC
+feat:grass mountain F2W P:los:0xAC:0xCD
+feat:grass mountain F2W P:lit:0xAC:0xCE
+feat:grass mountain F2W P:dark:0xAC:0xCF
+
+# grass mountain F2W Q 
+feat:grass mountain F2W Q:torch:0xAC:0xD0
+feat:grass mountain F2W Q:los:0xAC:0xD1
+feat:grass mountain F2W Q:lit:0xAC:0xD2
+feat:grass mountain F2W Q:dark:0xAC:0xD3
+
+# grass mountain F2W R 
+feat:grass mountain F2W R:torch:0xAC:0xD4
+feat:grass mountain F2W R:los:0xAC:0xD5
+feat:grass mountain F2W R:lit:0xAC:0xD6
+feat:grass mountain F2W R:dark:0xAC:0xD7
+
+# grass mountain F2W S 
+feat:grass mountain F2W S:torch:0xAC:0xD8
+feat:grass mountain F2W S:los:0xAC:0xD9
+feat:grass mountain F2W S:lit:0xAC:0xDA
+feat:grass mountain F2W S:dark:0xAC:0xDB
+
+# grass mountain F2W T 
+feat:grass mountain F2W T:torch:0xAC:0xDC
+feat:grass mountain F2W T:los:0xAC:0xDD
+feat:grass mountain F2W T:lit:0xAC:0xDE
+feat:grass mountain F2W T:dark:0xAC:0xDF
+
+# grass mountain F2W U 
+feat:grass mountain F2W U:torch:0xAC:0xE0
+feat:grass mountain F2W U:los:0xAC:0xE1
+feat:grass mountain F2W U:lit:0xAC:0xE2
+feat:grass mountain F2W U:dark:0xAC:0xE3
+
+# grass mountain F2W V 
+feat:grass mountain F2W V:torch:0xAC:0xE4
+feat:grass mountain F2W V:los:0xAC:0xE5
+feat:grass mountain F2W V:lit:0xAC:0xE6
+feat:grass mountain F2W V:dark:0xAC:0xE7
+
+# grass mountain F2W W 
+feat:grass mountain F2W W:torch:0xAC:0xE8
+feat:grass mountain F2W W:los:0xAC:0xE9
+feat:grass mountain F2W W:lit:0xAC:0xEA
+feat:grass mountain F2W W:dark:0xAC:0xEB
+
+# grass mountain F2W X 
+feat:grass mountain F2W X:torch:0xAC:0xEC
+feat:grass mountain F2W X:los:0xAC:0xED
+feat:grass mountain F2W X:lit:0xAC:0xEE
+feat:grass mountain F2W X:dark:0xAC:0xEF
+
+# grass mountain F2W Y 
+feat:grass mountain F2W Y:torch:0xAC:0xF0
+feat:grass mountain F2W Y:los:0xAC:0xF1
+feat:grass mountain F2W Y:lit:0xAC:0xF2
+feat:grass mountain F2W Y:dark:0xAC:0xF3
+
+# grass mountain F2W Z 
+feat:grass mountain F2W Z:torch:0xAC:0xF4
+feat:grass mountain F2W Z:los:0xAC:0xF5
+feat:grass mountain F2W Z:lit:0xAC:0xF6
+feat:grass mountain F2W Z:dark:0xAC:0xF7
+
+# grass mountain F2W ~ 
+feat:grass mountain F2W ~:torch:0xAC:0xF8
+feat:grass mountain F2W ~:los:0xAC:0xF9
+feat:grass mountain F2W ~:lit:0xAC:0xFA
+feat:grass mountain F2W ~:dark:0xAC:0xFB
+
+# grass mountain F2W ` 
+feat:grass mountain F2W `:torch:0xAC:0xFC
+feat:grass mountain F2W `:los:0xAC:0xFD
+feat:grass mountain F2W `:lit:0xAC:0xFE
+feat:grass mountain F2W `:dark:0xAC:0xFF
+
+
+####################
+####################
+####################
+
 
 # Load the special player pictures
 %:xtra-tan.prf
