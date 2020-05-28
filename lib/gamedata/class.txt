@@ -1114,11 +1114,11 @@ book-properties:40:30:20000
 book-alloc:15:40 to 100
 book-desc:An advanced divine book with a few prayers.
 
-spell:Light of Manwë:30:20:70:35:0
+spell:Light of Manwe:30:20:70:35:0
 effect:BALL:LIGHT:2
 dice:$B
 expr:B:PLAYER_LEVEL:* 2 + 80
-msg_other: invokes the light of Manwë.
+msg_other: invokes the light of Manwe.
 desc:Shoots a radius-2 light ball.
 
 spell:Healing:30:50:80:100:1
