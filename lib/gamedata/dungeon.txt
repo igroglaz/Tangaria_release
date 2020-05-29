@@ -2269,7 +2269,7 @@ wpos:2:1
 min-depth:23
 max-depth:30
 max-level:30
-flags:NO_DOORS | CAVERN | STREAMS
+flags:NO_DOORS | CIRCULAR_ROOMS
 #
 stair:A9 stair down gloomy:A9 stair up gloomy:10000
 #
@@ -2339,10 +2339,10 @@ floor:tree S:200
 #floor:tree T:1 ! basic symbol
 floor:tree U:100
 #### 4x dry:
-floor:tree V:50
-floor:tree W:50
-floor:tree X:50
-floor:tree Y:50
+floor:tree V:10
+floor:tree W:10
+floor:tree X:10
+floor:tree Y:10
 floor:tree Z:1
 floor:tree ~:1
 floor:tree `:1
@@ -2409,11 +2409,27 @@ floor:A5 plants L:2
 #1x20 V
 ################################ 1659 + 4500
 # B1
-floor:floor 0 grass:650
+
+#
+#       3x light tiles (lightning all stuff around)
+
+############################
+# floor:floor 0 grass:810
+floor:light grass:810
+############################
+
 #################################### 
-floor:floor 1 grass:1933
+# floor:floor 1 grass:1933
+floor:light grass plants:1933
+#############################
+
 # B2
-floor:floor w grass:1600
+################################
+#floor:floor w grass:1600
+floor:light grass flowers:1600
+###############################
+
+
 # 3x^=7350
 floor:floor x grass:100
 floor:floor y grass:100
