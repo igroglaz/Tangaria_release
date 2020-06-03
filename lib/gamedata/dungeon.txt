@@ -339,10 +339,23 @@ floor:A5 plants L:2
 #
 #1x20 V
 # B1
-floor:floor 0 grass:2100
-floor:floor 1 grass:2700
+
+############################
+# floor:floor 0 grass:
+floor:light grass:2100
+############################
+
+###############################
+# floor:floor 1 grass:
+floor:light grass plants:2700
+#############################
+
 # B2
-floor:floor w grass:2500
+################################
+#floor:floor w grass:
+floor:light grass flowers:2500
+###############################
+
 floor:floor x grass:100
 floor:floor y grass:100
 floor:floor z grass:100
