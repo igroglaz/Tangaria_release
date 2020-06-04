@@ -11875,6 +11875,7 @@ flags:UNIQUE | MALE
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
 flags:HURT_ROCK | HURT_LIGHT | IM_COLD
+flags:FORCE_DEPTH
 spell-freq:7
 innate-freq:100
 spells:BOULDER
@@ -11882,34 +11883,7 @@ friends:100:1d1:Tom the Stone Troll
 friends:100:1d1:Bill the Stone Troll
 desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
 desc: Bill and Tom.
-
-name:Bill the Stone Troll
-base:troll
-color:s
-speed:120
-hit-points:1100
-hearing:20
-smell:20
-armor-class:84
-sleepiness:50
-depth:30
-rarity:7
-weight:0
-experience:2000
-blow:HIT:HURT:6d6
-blow:HIT:HURT:6d6
-blow:BITE:HURT:3d10
-flags:UNIQUE | MALE
-flags:DROP_1 | DROP_GOOD | ONLY_ITEM
-flags:MOVE_BODY | TAKE_ITEM
-flags:HURT_ROCK | HURT_LIGHT | IM_COLD
-spell-freq:7
-innate-freq:100
-spells:BOULDER
-friends:100:1d1:Bert the Stone Troll
-friends:100:1d1:Tom the Stone Troll
-desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
-desc: Bert and Tom.
+locations:Ettenmoors
 
 name:Tom the Stone Troll
 base:troll
@@ -11931,6 +11905,7 @@ flags:UNIQUE | MALE
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
 flags:HURT_ROCK | HURT_LIGHT | IM_COLD
+flags:FORCE_DEPTH
 spell-freq:7
 innate-freq:100
 spells:BOULDER
@@ -11938,6 +11913,38 @@ friends:100:1d1:Bert the Stone Troll
 friends:100:1d1:Bill the Stone Troll
 desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
 desc: Bert and Bill.
+locations:Ettenmoors
+
+name:Bill the Stone Troll
+base:troll
+color:s
+speed:125
+hit-points:1400
+hearing:20
+smell:20
+armor-class:84
+sleepiness:50
+depth:30
+rarity:7
+weight:0
+experience:2000
+blow:HIT:HURT:6d6
+blow:HIT:HURT:6d6
+blow:BITE:HURT:3d10
+flags:UNIQUE | MALE
+flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:MOVE_BODY | TAKE_ITEM
+flags:HURT_ROCK | HURT_LIGHT | IM_COLD
+flags:FORCE_DEPTH
+spell-freq:7
+innate-freq:100
+spells:BOULDER
+friends:100:1d1:Bert the Stone Troll
+friends:100:1d1:Tom the Stone Troll
+desc:William Huggins, also known as Bill, is the leader of the troll-band.
+desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
+desc: Bert and Tom.
+locations:Ettenmoors
 
 name:mountain ogre
 base:ogre
@@ -29488,9 +29495,172 @@ locations:Dragon Mountain
 
 
 ###########################################################################
-################### Garlic Mountain
+################### Ettendales
 ###########################################################################
 
+name:Ettendales stone troll
+base:troll
+color:W
+speed:110
+hit-points:127
+hearing:20
+smell:20
+armor-class:60
+sleepiness:170
+depth:0
+rarity:1
+weight:500
+experience:8
+blow:HIT:HURT:1d6
+blow:HIT:HURT:1d6
+blow:BITE:HURT:3d4
+flags:MALE
+flags:HURT_ROCK | HURT_LIGHT
+flags:DROP_CORPSE | DROP_SKELETON
+friends:50:1d2:earth hound
+desc:He is a large, lumpish troll with scabrous black skin.
+locations:Ettendales
+
+name:Ettendales troll scavenger
+base:troll
+color:o
+speed:110
+hit-points:137
+hearing:20
+smell:20
+armor-class:90
+sleepiness:150
+depth:0
+rarity:1
+weight:600
+experience:10
+blow:CLAW:POISON:3d3
+blow:CLAW:POISON:3d3
+blow:BITE:HURT:1d6
+flags:IM_POIS | HURT_LIGHT
+flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
+friends:100:1d2:Same
+desc:A powerful, man-eating troll, its claws foul with the traces of its last
+desc: kill.
+locations:Ettendales
+
+name:Ettendales algroth
+base:troll
+color:o
+speed:110
+hit-points:240
+hearing:20
+smell:20
+armor-class:90
+sleepiness:150
+depth:0
+rarity:1
+weight:600
+experience:10
+blow:CLAW:HURT:1d6
+blow:CLAW:HURT:1d6
+blow:BITE:POISON:1d20
+blow:CRUSH:HURT:2d9
+flags:REGENERATE
+flags:IM_POIS
+flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_SWAMP | WILD_MOUNTAIN
+friends:100:1d2:Same
+desc:Pale, bald, fat, hairless troll creatures. Ugly beyond description.
+desc:Not to mention how bad their breath smells...
+locations:Ettendales
+
+name:Ettendales hill giant
+base:giant
+color:U
+speed:110
+hit-points:240
+hearing:20
+armor-class:54
+sleepiness:150
+depth:0
+rarity:1
+weight:350
+experience:10
+blow:HIT:HURT:4d8
+blow:HIT:HURT:4d8
+flags:OPEN_DOOR
+flags:DROP_CORPSE | DROP_SKELETON | WILD_MOUNTAIN
+spell-freq:10
+innate-freq:100
+spells:BOULDER
+friends:60:1d3:wolf
+friends:80:1d2:Same
+desc:A ten foot tall humanoid with powerful muscles.
+locations:Ettendales
+
+name:Ettendales cave ogre
+base:ogre
+color:u
+speed:110
+hit-points:150
+hearing:20
+smell:20
+armor-class:49
+sleepiness:140
+depth:0
+rarity:2
+weight:250
+experience:8
+blow:HIT:HURT:3d8
+blow:HIT:HURT:3d8
+flags:DROP_CORPSE | DROP_SKELETON
+desc:A giant orc-like figure with an awesomely muscled frame.
+locations:Ettendales
+
+name:Ettendales half-ogre
+base:ogre
+color:o
+speed:110
+hit-points:175
+light:2
+hearing:20
+smell:20
+armor-class:49
+sleepiness:130
+depth:0
+rarity:2
+weight:270
+experience:10
+blow:HIT:HURT:4d8
+blow:HIT:HURT:4d8
+flags:SMART | PWMANG_BASE
+flags:DROP_CORPSE | DROP_SKELETON
+friends:100:1d3:Same
+desc:A giant, brutish figure, as ugly as an orc, but with some of the
+desc: intelligence of his half-human ancestry.
+locations:Ettendales
+
+name:Ettendales ogre mage
+base:ogre
+color:r
+speed:110
+hit-points:163
+hearing:20
+smell:20
+armor-class:60
+sleepiness:140
+depth:0
+rarity:2
+weight:240
+experience:20
+blow:HIT:HURT:3d8
+blow:HIT:HURT:3d8
+blow:HIT:HURT:3d8
+blow:HIT:HURT:3d8
+flags:FORCE_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON
+spell-freq:4
+spell-power:27
+spells:HEAL | HOLD | TRAPS
+spells:BA_COLD
+spells:S_MONSTER
+desc:A hideous ogre wrapped in black sorcerous robes.
+locations:Ettendales
 
 ###########################################################################
 ################### Low Mountans

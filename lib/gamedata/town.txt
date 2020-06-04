@@ -203,7 +203,7 @@ name:Abandoned Outpost
 # The Orc Cave
 short:1_1
 wpos:1:1
-max-townies:10
+max-townies:15
 # high snowy mountain #3
 symbol:grass mountain y
 
@@ -259,11 +259,11 @@ short:2_2
 wpos:2:2
 max-townies:7
 
-name:Garlic Mountain
-###########
+name:Ettendales
+########### Ettenmoors
 short:2_1
 wpos:2:1
-max-townies:20
+max-townies:7
 
 name:Low Mountans
 ###########
