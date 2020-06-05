@@ -212,7 +212,7 @@ strength-multiplier:4
 equip:food:Ration of Food:2:4:1
 equip:light:Rusty Lantern:1:1:1
 equip:sword:Dagger:1:1:1
-equip:bow:Long Bow:1:1:0
+equip:bow:Short Bow:1:1:0
 equip:arrow:Old Arrow:30:40:0
 equip:arrow:Old Arrow:30:40:0
 equip:digger:Spade:1:1:1
@@ -228,7 +228,7 @@ value:1:CON[1]
 value:0:SHOTS[1d6]
 #
 player-flags:FAST_SHOT
-# this brand only for melee:
+# class brands works both on melee and ranged. races - only on melee!
 brand:5:POIS_2
 ############################
 obj-flag:20:SEE_INVIS
