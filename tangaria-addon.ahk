@@ -31,7 +31,7 @@ Winset, Alwaysontop, On, A
 WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
 ;// when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 9) ; If you wish to hide first stroke of gaming window - remove ";" at beginning of this line. Also change W1300 H550 at your resolution, for example W1680 H1050. 
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 10) ; If you wish to hide first stroke of gaming window - remove ";" at beginning of this line. Also change W1300 H550 at your resolution, for example W1680 H1050. 
 ; TERM-1
 WinSet, Style, -0xC00000, Term-1 ;
 WinSet, Style, -0xC40000, Term-1 ;
@@ -39,7 +39,7 @@ WinSet, Region, 0-30 W1920 H1080, Term-1 ; hide term header
 WinMove, Term-1, , 0, -30 ; move term-1 up
 ; TERM-5
 WinSet, Region, 0-70 W1920 H1080, Term-5 ; hide term header
-WinMove, Term-5, , 1490, -105 ; move term-5 up
+WinMove, Term-5, , 1490, -113 ; move term-5 up
 ;;
 WinSet, Region, 0-30 W1920 H1080, ZZoom - V1.0 ;
 ;;
