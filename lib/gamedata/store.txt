@@ -258,7 +258,10 @@ always:magic book
 normal:ring:Searching
 normal:ring:Levitation
 normal:ring:Protection
-#normal:amulet:Slow Digestion
+normal:ring:Resist Fire and Cold:1:400
+normal:ring:Free Action:1:400
+normal:ring:See Invisible:1:400
+normal:ring:Resist Poison:1:400
 normal:amulet:Resist Acid
 normal:wand:Slow Monster
 normal:wand:Confuse Monster
