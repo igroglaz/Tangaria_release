@@ -28664,12 +28664,12 @@ name:Abandoned Outpost's brown yeek
 base:yeek
 color:u
 speed:110
-hit-points:18
+hit-points:11
 hearing:18
 smell:20
 armor-class:21
 sleepiness:60
-depth:8
+depth:0
 rarity:1
 weight:80
 experience:1
