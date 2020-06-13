@@ -549,7 +549,7 @@ buy:flask
 store:Arthur the Archer
 owner:5000:Arthur the Archer (Human)
 owner:5000:Arthur the Archer (Human)
-slots:0:5
+slots:0:9
 turnover:1
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
@@ -571,6 +571,7 @@ always:shot:Rounded Pebble
 always:shot:Iron Shot
 always:arrow:Arrow
 always:bolt:Bolt
+always:bow:Long Bow
 #######################################################################
 normal:shot:Iron Shot
 normal:arrow:Arrow
@@ -579,6 +580,9 @@ normal:shot:Rounded Pebble
 normal:arrow:Magic Arrow:1:900
 normal:bolt:Magic Bolt:1:900
 normal:shot:Magic Shot:1:900
+normal:bow:Sling
+normal:bow:Short Bow
+normal:bow:Light Crossbow
 buy:shot
 buy:bolt
 buy:rock
@@ -588,7 +592,7 @@ buy:arrow
 store:Deckard Coin
 owner:5000:Deckard Coin
 owner:5000:Deckard Coin
-slots:0:3
+slots:0:10
 turnover:1
 #######################################################################
 always:fortune cookie:Stay awhile.. Er.. Wait.. Come closer, young men
@@ -614,6 +618,9 @@ normal:scroll:Identify Rune:1:500
 normal:scroll:*Remove Curse*:10:400
 normal:scroll:Teleport Level:10:400
 normal:scroll:Deep Descent:10:400
+normal:scroll:Enchant Weapon To-Hit:1:400
+normal:scroll:Enchant Weapon To-Dam:1:400
+normal:scroll:Enchant Armour:1:400
 buy:flask
 
 #town
