@@ -21359,6 +21359,7 @@ desc:.
 name:E7 desert 1
 graphics:*:g
 priority:18
+info:0:1
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:palm
@@ -21367,6 +21368,7 @@ desc:.
 name:E7 desert 2
 graphics:*:u
 priority:18
+info:0:1
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:small palm
@@ -21375,6 +21377,7 @@ desc:.
 name:E7 desert 3
 graphics:*:g
 priority:18
+info:0:1
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:cactus
@@ -21383,6 +21386,7 @@ desc:.
 name:E7 desert 4
 graphics:*:u
 priority:18
+info:0:1
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:tiny cactus
@@ -21391,6 +21395,7 @@ desc:.
 name:E7 desert 5
 graphics:*:g
 priority:18
+info:0:1
 flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:acacia
@@ -21399,6 +21404,7 @@ desc:.
 name:E7 desert 6
 graphics:*:u
 priority:18
+info:0:1
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
 ################################################################################
 short-desc:tiny acacia
@@ -21407,6 +21413,7 @@ desc:.
 name:E7 desert 7
 graphics:*:D
 priority:18
+info:0:1
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
@@ -21415,6 +21422,7 @@ desc:.
 name:E7 desert 8
 graphics:*:D
 priority:18
+info:0:1
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
@@ -22460,6 +22468,7 @@ desc:.
 name:EB dirt d
 graphics:*:D
 priority:18
+info:0:1
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
@@ -22467,6 +22476,7 @@ desc:Withered tree.
 name:EB dirt e
 graphics:*:D
 priority:18
+info:0:1
 flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
@@ -23953,6 +23963,7 @@ name:F1 snow 3
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+info:0:1
 ################################################################################
 short-desc:tiny fir-tree
 desc:.
@@ -23961,6 +23972,7 @@ name:F1 snow 4
 graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | TORCH | TRAP
+info:0:1
 ################################################################################
 short-desc:tiny fir-tree
 desc:.
@@ -27735,6 +27747,7 @@ desc:.
 name:EB dirt F2W d
 graphics:*:D
 priority:18
+info:0:1
 flags:NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
@@ -27742,6 +27755,7 @@ desc:Withered tree.
 name:EB dirt F2W e
 graphics:*:D
 priority:18
+info:0:1
 flags:NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
@@ -28649,6 +28663,7 @@ desc:.
 name:E7 desert F2W 1
 graphics:*:g
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:palm
@@ -28657,6 +28672,7 @@ desc:.
 name:E7 desert F2W 2
 graphics:*:u
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
 ################################################################################
 short-desc:small palm
@@ -28665,6 +28681,7 @@ desc:.
 name:E7 desert F2W 3
 graphics:*:g
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:cactus
@@ -28673,6 +28690,7 @@ desc:.
 name:E7 desert F2W 4
 graphics:*:u
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
 ################################################################################
 short-desc:tiny cactus
@@ -28681,6 +28699,7 @@ desc:.
 name:E7 desert F2W 5
 graphics:*:g
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | TREE | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:acacia
@@ -28689,6 +28708,7 @@ desc:.
 name:E7 desert F2W 6
 graphics:*:u
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | TORCH
 ################################################################################
 short-desc:tiny acacia
@@ -28697,6 +28717,7 @@ desc:.
 name:E7 desert F2W 7
 graphics:*:D
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
@@ -28705,6 +28726,7 @@ desc:.
 name:E7 desert F2W 8
 graphics:*:D
 priority:18
+info:0:1
 flags:NO_STAIRS | NO_MONSTERS | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
