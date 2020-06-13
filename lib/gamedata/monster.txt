@@ -2659,7 +2659,7 @@ desc:It's blue and it's oozing.
 name:green glutton ghost
 base:ghost
 color:g
-speed:120
+speed:110
 hit-points:8
 hearing:10
 armor-class:24
