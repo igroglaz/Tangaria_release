@@ -72,7 +72,7 @@ owner:5000:Erkenbrand
 owner:10000:Erkenbrand
 owner:20000:Erkenbrand
 owner:30000:Erkenbrand
-slots:2:5
+slots:2:4
 turnover:2
 always:cloak:Cloak
 always:light:Wooden Torch
@@ -81,9 +81,9 @@ always:rock:Rock
 always:stone:House Foundation Stone
 always:scroll:House Creation
 always:potion:Stomach Water
+always:light:Lantern
 # always:digger:Shovel
 # always:digger:Pick
-normal:light:Lantern
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
 normal:bottle:Empty Bottle
@@ -230,8 +230,8 @@ slots:6:12
 turnover:9
 always:scroll:Word of Recall
 always:scroll:Phase Door
-normal:scroll:Monster Confusion
 #normal:scroll:Magic Mapping
+normal:scroll:Monster Confusion
 normal:scroll:Detect Invisible
 normal:scroll:Recharging
 normal:potion:Boldness

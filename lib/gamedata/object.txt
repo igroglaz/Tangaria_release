@@ -2472,7 +2472,7 @@ graphics:=:d
 type:ring
 level:10
 weight:2
-cost:9999
+cost:0
 alloc:1:10 to 50
 flags:SLOW_DIGEST | EASY_KNOW
 desc:This magical bauble grants you some sustenance, allowing you to subsist on
@@ -2713,7 +2713,7 @@ graphics:":d
 type:amulet
 level:15
 weight:3
-cost:9999
+cost:0
 alloc:1:15 to 40
 flags:SLOW_DIGEST | EASY_KNOW
 desc:This talisman will make you hungry less quickly when worn.
