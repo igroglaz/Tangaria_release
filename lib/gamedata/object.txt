@@ -3014,7 +3014,7 @@ weight:5
 cost:0
 alloc:40:20 to 100
 pile:100:1d1
-effect:NOURISH:INC_TO
+effect:NOURISH:SET_TO
 dice:50
 
 name:Identify Rune
@@ -3444,8 +3444,6 @@ effect:CURE:BLIND
 effect:CURE:CUT
 effect:HEAL_HP
 dice:40
-effect:NOURISH:INC_BY
-dice:1
 
 name:Cure Critical Wounds
 graphics:!:d
@@ -3463,8 +3461,6 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:60
-effect:NOURISH:INC_BY
-dice:1
 
 name:Healing
 graphics:!:d
@@ -3482,8 +3478,6 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:300+m35
-effect:NOURISH:INC_BY
-dice:1
 
 name:*Healing*
 graphics:!:d
@@ -3500,8 +3494,6 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:1200
-effect:NOURISH:INC_BY
-dice:1
 
 name:Life
 graphics:!:d
@@ -6381,7 +6373,7 @@ type:scroll
 level:0
 weight:5
 cost:0
-effect:NOURISH:INC_TO
+effect:NOURISH:SET_TO
 dice:50
 desc:Smelly... It looks like someone covered fish with this scroll.
 
