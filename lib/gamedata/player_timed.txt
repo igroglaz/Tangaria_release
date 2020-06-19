@@ -274,6 +274,7 @@ on-decrease:You feel less resistant to poison.
 near-begin: is surrounded by a toxic aura.
 near-end:'s toxic aura disappears.
 msgt:RES_POIS
+fail:3:POIS
 
 name:OPP_CONF
 desc:temporary resistance to confusion
