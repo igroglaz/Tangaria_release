@@ -19,6 +19,7 @@
 # rule-flags : monster flags
 # rule-spells : monster spell flags
 # rule-symbols : monster symbols
+# stairs : extra ups : extra downs
 
 # Set min-depth to the depth of the first level of the dungeon.
 # Leaving min-depth unset means that the first level of the dungeon has a
@@ -48,7 +49,14 @@
 # 'rule-flags' are monster flags checked by the rule
 # 'rule-spells' are monster spell flags checked by the rule
 # 'rule-symbols' are monster symbols checked by the rule
-#
+
+# 'stairs' are extra stairs up and down generated in the dungeon
+# up is the random value used for extra up staircases
+# down is the random value used for extra down staircases
+
+# For example: "stairs:1d2:2+1d2"
+# add 1d2 stairs up and 2+1d2 stairs down on any level for that dungeon.
+
 # number before dungeon name - max player lvl to enter
 # the dungeon... and at endgame 50+: lvl of monsters (1-127) who lives there
 #
@@ -72,6 +80,7 @@ wpos:1:-3
 flags:STREAMS
 min-depth:75
 max-depth:100
+stairs:1:1d2
 #
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -271,6 +280,7 @@ min-depth:1
 max-depth:1
 max-level:2
 flags:EMPTY
+stairs:1+1d2:0
 #
 stair:9F stair down 0:9F stair up 1:10000
 #stair:A9 stair down leaf:A9 stair up leaf:8000
@@ -495,6 +505,7 @@ wpos:1:0
 min-depth:2
 max-depth:5
 max-level:5
+stairs:1d2:2+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER |  NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -669,6 +680,7 @@ wpos:1:1
 min-depth:4
 max-depth:12
 max-level:10
+stairs:1d2:2+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER | CIRCULAR_ROOMS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -947,6 +959,7 @@ wpos:0:1
 min-depth:8
 max-depth:15
 max-level:15
+stairs:1d2:2+1d2
 flags:WATER_RIVER
 #flags:!NO_DOORS
 stair:9F stair down 0:9F stair up 1:10000
@@ -1064,6 +1077,7 @@ wpos:-1:0
 min-depth:12
 max-depth:20
 max-level:20
+stairs:1d2:2+1d2
 flags:SAND_VEIN | WATER_RIVER | EMPTY | NO_DOORS
 #
 stair:A9 stair down leaf:A9 stair up leaf:10000
@@ -1268,6 +1282,7 @@ wpos:1:2
 min-depth:15
 max-depth:23
 max-level:20
+stairs:1d2:2+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER | CAVERN
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -1547,6 +1562,7 @@ wpos:0:-1
 min-depth:18
 max-depth:25
 max-level:25
+stairs:1d2:2+1d2
 flags:STREAMS | WATER_RIVER | CIRCULAR_ROOMS | NO_DOORS
 #
 stair:A9 stair down leaf:A9 stair up leaf:10000
@@ -1819,6 +1835,7 @@ wpos:-1:2
 min-depth:21
 max-depth:27
 max-level:25
+stairs:1d2:2+1d2
 #floor:packed dirt:10
 #B3 DC (yellow ornament square in cirle)
 stair:9F stair down 0:9F stair up 1:10000
@@ -1993,6 +2010,7 @@ wpos:-2:2
 min-depth:23
 max-depth:30
 max-level:30
+stairs:1d2:2+1d2
 flags:STREAMS | CAVERN | NO_DOORS
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -2282,6 +2300,7 @@ wpos:2:1
 min-depth:23
 max-depth:30
 max-level:30
+stairs:1d2:2+1d2
 flags:NO_DOORS | CIRCULAR_ROOMS
 #
 stair:A9 stair down gloomy:A9 stair up gloomy:10000
@@ -2708,6 +2727,7 @@ wpos:0:-2
 min-depth:27
 max-depth:34
 max-level:35
+stairs:1d2:2+1d2
 flags:NO_DOORS | EMPTY | CIRCULAR_ROOMS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -2881,6 +2901,7 @@ wpos:0:2
 min-depth:28
 max-depth:35
 max-level:35
+stairs:1d2:2+1d2
 flags:STREAMS | EMPTY
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -3136,6 +3157,7 @@ wpos:-1:-1
 min-depth:33
 max-depth:40
 max-level:35
+stairs:1:2+1d2
 flags:MAZE
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -3238,6 +3260,7 @@ wpos:-1:3
 min-depth:35
 max-depth:45
 max-level:35
+stairs:1:1+1d2
 flags:STREAMS | WATER_RIVER | NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -3441,6 +3464,7 @@ wpos:-1:-2
 min-depth:38
 max-depth:45
 max-level:40
+stairs:1:1+1d2
 flags:STREAMS | SAND_VEIN | LAVA_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -3486,6 +3510,7 @@ wpos:0:4
 min-depth:42
 max-depth:50
 max-level:40
+stairs:1:1+1d2
 flags:STREAMS | WATER_RIVER | NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -3506,6 +3531,7 @@ wpos:1:3
 min-depth:43
 max-depth:50
 max-level:40
+stairs:1:1+1d2
 flags:STREAMS | WATER_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -3808,6 +3834,7 @@ wpos:-2:1
 min-depth:44
 max-depth:52
 max-level:45
+stairs:1:1+1d2
 #
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -4005,6 +4032,7 @@ wpos:-2:-1
 min-depth:47
 max-depth:55
 max-level:45
+stairs:1:1+1d2
 flags:STREAMS | SAND_VEIN | CIRCULAR_ROOMS | MAZE
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -4284,6 +4312,7 @@ wpos:-2:3
 min-depth:47
 max-depth:55
 max-level:45
+stairs:1:1+1d2
 flags:STREAMS | WATER_RIVER | SAND_VEIN
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -4495,6 +4524,7 @@ wpos:0:-3
 min-depth:55
 max-depth:64
 max-level:49
+stairs:1:1+1d2
 flags:NO_DOORS | CIRCULAR_ROOMS | MAZE
 #
 stair:A9 stair down leaf:A9 stair up leaf:10000
@@ -4756,6 +4786,7 @@ wpos:1:-1
 min-depth:56
 max-depth:65
 max-level:49
+stairs:1:1d2
 flags:STREAMS | CAVERN | LAVA_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -5080,6 +5111,7 @@ wpos:2:2
 min-depth:60
 max-depth:72
 max-level:49
+stairs:1:1d2
 flags:NO_DOORS
 #
 stair:A9 stair down gloomy:A9 stair up gloomy:10000
@@ -5486,6 +5518,7 @@ wpos:-1:-3
 min-depth:62
 max-depth:75
 max-level:49
+stairs:1:1d2
 flags:STREAMS | CAVERN | WATER_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -5779,6 +5812,7 @@ wpos:-2:0
 min-depth:63
 max-depth:75
 max-level:49
+stairs:1:1d2
 flags:STREAMS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -5969,6 +6003,7 @@ wpos:-1:-4
 min-depth:66
 max-depth:77
 max-level:49
+stairs:1:1d2
 flags:WATER_RIVER
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -6039,6 +6074,7 @@ name:Mount Doom
 wpos:1:-2
 min-depth:84
 max-depth:98
+stairs:1:1d2
 flags:CIRCULAR_ROOMS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -6102,6 +6138,7 @@ name:The Straight Road
 wpos:-3:0
 min-depth:101
 max-depth:124
+stairs:1:1d2
 flags:STREAMS | LAVA_RIVER | WINNERS_ONLY |  WATER_RIVER | NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -6237,6 +6274,7 @@ name:Valinor
 wpos:-5:0
 min-depth:101
 max-depth:126
+stairs:0:1d2
 flags:WINNERS_ONLY | WATER_RIVER
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -6565,6 +6603,7 @@ name:Utumno, Portal to the Void
 wpos:0:-5
 min-depth:102
 max-depth:127
+stairs:0:1
 #########################
 flags:EMPTY | WINNERS_ONLY
 # EMPTY.. ?
