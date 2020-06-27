@@ -1,28 +1,31 @@
-;// Addon for one-window setup. Guide how to use it: 
+﻿;// Addon for one-window setup. Guide how to use it: 
 ;//         https://tangar.info/en/tangaria-game
 ;//
 ;numlock off
 SetNumLockState, AlwaysOff
 ;capslock off
 SetCapsLockState, AlwaysOff
-;Remapping Num5 -> f11;
-vk0C::F11
-;winkey -> F10
-LWin::F10
-;capslock -> F9
-~Capslock::F9
-;numlock -> F8
+; ////////////////////////////////////////
+;winkey -> F11
+LWin::F11
+;capslock -> F10
+~Capslock::F10
+;numlock -> F9
 Numlock::
 {
 KeyWait, NumLock
-sendinput, {F8}
+sendinput, {F9}
 }
+; /////////////////////////////////////// NOT USED:
+;Remapping Num5 -> f8;
+;vk0C::F8 // NO NEED
 ;tab -> F7
-Tab::F7
-;tilda -> F6
-vkC0::F6
+;Tab::F7 // NO NEED
+;` (tilda) -> F6
+;vkC0::F6 // NO NEED
 ;ESC -> F5 // do be able to do so, you need to arrange ESC manually in .prf BEWARE: if you would open '%' screen - you won't be able to exit it with remapped ESC (/rfed this problem)
 ;vk1B::F5
+;////////////////////////////////////////
 ;Fixing alt-problem
 ~LAlt Up:: return
 ;Activate addon WinKey+LMC at the window
@@ -30,8 +33,13 @@ MButton & LButton::
 Winset, Alwaysontop, On, A
 WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
+;//////////////////////////////////////////////////////////////////////////
 ;// when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 12) ; If you wish to hide first stroke of gaming window - remove ";" at beginning of this line. Also change W1300 H550 at your resolution, for example W1680 H1050. 
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 12) 
+;// If you wish to hide first stroke of gaming window:
+;// remove ";" at beginning of this line.
+;// Also change W1300 H550 at your resolution, for example W1680 H1050. 
+;//////////////////////////////////////////////////////////////////////////
 ; TERM-1
 WinSet, Style, -0xC00000, Term-1 ;
 WinSet, Style, -0xC40000, Term-1 ;
