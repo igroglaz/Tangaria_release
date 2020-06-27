@@ -5608,10 +5608,10 @@ flags:FORCE_SLEEP
 spell-freq:3
 spells:BLIND | BLINK | HEAL | SLOW | TPORT
 spells:S_KIN | S_MONSTER
-friends:50:1d6:terrified yeek:servant
-friends:50:1d6:brave yeek:servant
+friends:50:1d3:terrified yeek:servant
+friends:50:1d3:brave yeek:servant
 friends:100:2d6:blue yeek:servant
-friends:100:2d4:master yeek:servant
+friends:100:2d3:master yeek:servant
 friends:100:1d1:Orfax, Son of Boldor
 desc:A great yeek, powerful in magic and sorcery, but a yeek all the same.
 

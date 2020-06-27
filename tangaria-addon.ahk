@@ -47,7 +47,7 @@ WinSet, Region, 0-30 W1920 H1080, Term-1 ; hide term header
 WinMove, Term-1, , 0, -30 ; move term-1 up
 ; TERM-5
 WinSet, Region, 0-70 W1920 H1080, Term-5 ; hide term header
-WinMove, Term-5, , 1490, -113 ; move term-5 up
+WinMove, Term-5, , 1490, -103 ; move term-5 up
 ;;
 WinSet, Region, 0-30 W1920 H1080, ZZoom - V1.0 ;
 ;;
