@@ -513,7 +513,7 @@ effect:TIMED_INC:ESP
 dice:50+7d7
 effect:CURE:BLIND
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Fast Recovery
 graphics:,:d
@@ -530,7 +530,7 @@ effect:CURE:STUN
 effect:HEAL_HP
 dice:30
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Vigor
 graphics:,:d
@@ -546,7 +546,7 @@ effect:RESTORE_STAT:WIS
 effect:RESTORE_STAT:INT
 effect:RESTORE_STAT:STR
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Clear Mind
 graphics:,:d
@@ -564,7 +564,7 @@ effect:CURE:CONFUSED
 effect:RESTORE_MANA
 dice:10
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Emergency
 graphics:,:d
@@ -583,7 +583,7 @@ dice:25+5d5
 effect:TIMED_INC:IMAGE
 dice:25+5d5
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Terror
 graphics:,:d
@@ -596,7 +596,7 @@ pile:70:1d4
 effect:TIMED_SET:TERROR
 dice:25+5d5
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 desc:It allows you to run for your life.
 
 name:Stoneskin
@@ -610,7 +610,7 @@ pile:70:1d4
 effect:TIMED_SET:STONESKIN
 dice:50+7d7
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 desc:Its poison turns your skin to stone, albeit briefly.
 
 name:Debility
@@ -627,7 +627,7 @@ effect:RANDOM
 dice:2
 effect:RESTORE_MANA
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 
 name:Sprinting
 graphics:,:d
@@ -640,7 +640,7 @@ pile:70:1d4
 effect:TIMED_INC:SPRINT
 dice:100
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 desc:It hastes you for a while, but then makes you slower for a while afterward.
 
 name:Purging
@@ -655,7 +655,7 @@ effect:CURE:POISONED
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
 effect:NOURISH:SET_TO
-dice:2
+dice:5
 msg_self:Your stomach heaves.
 desc:It makes you very hungry but otherwise healthy.
 
@@ -670,7 +670,7 @@ pile:70:1d3
 effect:TIMED_INC:STEALTH
 dice:10+1d10
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 desc:It makes you very stealthy for a short while.
 
 name:Paranoia
@@ -690,7 +690,7 @@ dice:50
 effect:TIMED_INC:STEALTH
 dice:5+1d5
 effect:NOURISH:INC_BY
-dice:2
+dice:3
 desc:It allows you to run for your life.
 
 name:Hallucination
@@ -704,7 +704,7 @@ pile:70:1d4
 effect:TIMED_INC_NO_RES:IMAGE
 dice:5+5d5
 effect:NOURISH:INC_BY
-dice:2
+dice:5
 desc:It allows you to run for your life.
 
 name:Toadstool
@@ -720,7 +720,7 @@ dice:5+5d5
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:2
 effect:NOURISH:SET_TO
-dice:13
+dice:5
 effect:TIMED_INC:POISONED
 dice:10+2d7
 desc:It allows you to run for your life.
@@ -3461,6 +3461,8 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:60
+effect:NOURISH:INC_BY
+dice:1
 
 name:Healing
 graphics:!:d
@@ -3478,6 +3480,8 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:300+m35
+effect:NOURISH:INC_BY
+dice:1
 
 name:*Healing*
 graphics:!:d
@@ -3494,6 +3498,8 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:1200
+effect:NOURISH:INC_BY
+dice:1
 
 name:Life
 graphics:!:d
@@ -3518,6 +3524,8 @@ effect:CURE:POISONED
 effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:RESTORE_EXP
+effect:NOURISH:INC_BY
+dice:1
 msg_self:You feel life flow through your body!
 
 name:Neutralize Poison
@@ -3760,7 +3768,7 @@ effect:TIMED_INC:SINVIS
 dice:50+2d6
 effect:CURE:BLIND
 effect:TIMED_INC:IMAGE
-dice:1+1d3
+dice:1d2
 msg_self:*Boom!* For a moment you had stars in your eyes..
 
 name:Infravision
@@ -3912,6 +3920,8 @@ cost:0
 alloc:10:10 to 30
 pile:25:2
 effect:LOSE_EXP
+effect:NOURISH:INC_BY
+dice:1
 
 name:Novice Alchemist's Creation
 graphics:!:d
@@ -3925,6 +3935,8 @@ effect:DRAIN_STAT:INT
 dice:3
 effect:DRAIN_STAT:WIS
 dice:3
+effect:NOURISH:INC_BY
+dice:1
 
 name:Surprise
 graphics:!:d
@@ -3943,6 +3955,8 @@ effect:TIMED_INC:SCRAMBLE
 dice:20+1d20
 effect:RANDOM
 dice:5
+effect:NOURISH:INC_BY
+dice:1
 
 name:Salt Water
 graphics:!:d
@@ -6194,7 +6208,7 @@ graphics:,:U
 type:food
 level:30
 weight:5
-cost:15000
+cost:0
 alloc:10:20 to 100
 effect:ACQUIRE
 dice:1
@@ -6258,7 +6272,7 @@ graphics:,:U
 type:food
 level:30
 weight:5
-cost:30000
+cost:0
 alloc:5:60 to 100
 #last number is a chance to summon friendly djinn
 effect:ACQUIRE

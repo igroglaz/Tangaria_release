@@ -300,21 +300,21 @@ skill-melee:10
 skill-shoot:25
 skill-dig:0
 #add one more HP (V is 10) after skill-melee modificators rebalance
-hitdie:9
+hitdie:10
 exp:120:125
 history:7
 age:100:30
 height:77:6
 weight:190:20
 obj-flag:25:SEE_INVIS
-value:0:STR[0+1d49]
+value:0:STR[-2+1d15]
 value:0:INT[0+1d16]
-value:0:WIS[-1]
+value:0:WIS[-2+1d30]
 value:0:DEX[0+1d16]
-value:0:CON[1]
+value:0:CON[-2+1d15]
 value:1:INFRA[1+1d16]
 value:50:RES_LIGHT[1]
-value:50:STEALTH[2]
+value:15:STEALTH[1+1d15]
 
 name:Kobold
 skill-disarm-phys:10
@@ -636,7 +636,7 @@ value:1:INFRA[3]
 value:25:RES_DISEN[1]
 player-flags:SEE_ORE
 value:5:TUNNEL[1+1d15]
-value:25:STEALTH[-1]
+value:10:STEALTH[1]
 
 #tiny orcs.. meluzga
 name:Goblin
