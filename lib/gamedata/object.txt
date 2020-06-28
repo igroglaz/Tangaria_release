@@ -2956,7 +2956,7 @@ graphics:?:w
 type:scroll
 level:20
 weight:5
-cost:45000
+cost:0
 #cost:15000
 alloc:2:20 to 40
 effect:ACQUIRE
@@ -2967,7 +2967,7 @@ graphics:?:w
 type:scroll
 level:60
 weight:5
-cost:100000
+cost:0
 #cost:30000
 alloc:1:40 to 60
 effect:ACQUIRE
@@ -3968,7 +3968,7 @@ weight:4
 cost:1
 effect:NOURISH:SET_TO
 dice:5
-msg_self:The potion calms your stomach.
+msg_self:The potion calms your stomach, but leaves you very hungry.
 msg_other: hiccups.
 
 name:Death
@@ -6337,7 +6337,8 @@ expr:S:PLAYER_LEVEL:/ 10 + 1
 effect:DETECT_SOUL
 effect-yx:22:40
 msg_self:Why did you touch it!.. It was CURSED!
-desc:It's better to do not touch it.
+desc:You feel wicked evil energy oozing through this object...
+desc: It's better to do not touch it. RUN!
 
 ##############
 #newbie items#
