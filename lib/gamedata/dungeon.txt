@@ -280,7 +280,7 @@ min-depth:1
 max-depth:1
 max-level:2
 flags:EMPTY
-stairs:1+1d2:0
+stairs:2+1d2:0
 #
 stair:9F stair down 0:9F stair up 1:10000
 #stair:A9 stair down leaf:A9 stair up leaf:8000
@@ -505,7 +505,7 @@ wpos:1:0
 min-depth:2
 max-depth:5
 max-level:5
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER |  NO_DOORS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -680,7 +680,7 @@ wpos:1:1
 min-depth:4
 max-depth:12
 max-level:10
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER | CIRCULAR_ROOMS
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -959,7 +959,7 @@ wpos:0:1
 min-depth:8
 max-depth:15
 max-level:15
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:WATER_RIVER
 #flags:!NO_DOORS
 stair:9F stair down 0:9F stair up 1:10000
@@ -1077,7 +1077,7 @@ wpos:-1:0
 min-depth:12
 max-depth:20
 max-level:20
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:SAND_VEIN | WATER_RIVER | EMPTY | NO_DOORS
 #
 stair:A9 stair down leaf:A9 stair up leaf:10000
@@ -1282,7 +1282,7 @@ wpos:1:2
 min-depth:15
 max-depth:23
 max-level:20
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:STREAMS | SAND_VEIN | WATER_RIVER | CAVERN
 #
 stair:9F stair down 0:9F stair up 1:10000
@@ -1562,7 +1562,7 @@ wpos:0:-1
 min-depth:18
 max-depth:25
 max-level:25
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:STREAMS | WATER_RIVER | CIRCULAR_ROOMS | NO_DOORS
 #
 stair:A9 stair down leaf:A9 stair up leaf:10000
@@ -1835,7 +1835,7 @@ wpos:-1:2
 min-depth:21
 max-depth:27
 max-level:25
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 #floor:packed dirt:10
 #B3 DC (yellow ornament square in cirle)
 stair:9F stair down 0:9F stair up 1:10000
@@ -2010,7 +2010,7 @@ wpos:-2:2
 min-depth:23
 max-depth:30
 max-level:30
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:STREAMS | CAVERN | NO_DOORS
 stair:9F stair down 0:9F stair up 1:10000
 #
@@ -2300,7 +2300,7 @@ wpos:2:1
 min-depth:23
 max-depth:30
 max-level:30
-stairs:1d2:2+1d2
+stairs:1d2:3+1d2
 flags:NO_DOORS | CIRCULAR_ROOMS
 #
 stair:A9 stair down gloomy:A9 stair up gloomy:10000
