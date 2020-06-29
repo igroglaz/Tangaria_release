@@ -3407,11 +3407,14 @@ graphics:!:d
 type:potion
 level:65
 weight:4
-cost:25000
+cost:0
 alloc:50:65 to 100
 effect:GAIN_EXP
-dice:100000
+dice:$B*500-1000
+expr:B:DUNGEON_LEVEL:+ 0
 effect:RESTORE_EXP
+desc:Do not drink this potion in town!
+desc: Magic of this potion works better on deep levels.
 
 ### Healings ###
 
