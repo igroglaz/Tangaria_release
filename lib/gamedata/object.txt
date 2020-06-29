@@ -3410,11 +3410,9 @@ weight:4
 cost:0
 alloc:50:65 to 100
 effect:GAIN_EXP
-dice:$B*500-1000
-expr:B:DUNGEON_LEVEL:+ 0
+dice:$B
+expr:B:PLAYER_LEVEL:* 1000 - 1000
 effect:RESTORE_EXP
-desc:Do not drink this potion in town!
-desc: Magic of this potion works better on deep levels.
 
 ### Healings ###
 
