@@ -10239,7 +10239,7 @@ blow:HIT:HURT:1d6
 blow:HIT:HURT:1d6
 blow:BITE:EXP_20:2d6
 flags:UNIQUE
-flags:DROP_GOOD | DROP_3 | ONLY_ITEM
+flags:DROP_GOOD | DROP_3 | ONLY_ITEM | PASS_WALL
 flags:FORCE_DEPTH | PWMANG_FIXED
 spell-freq:9
 spell-power:27
@@ -10249,7 +10249,7 @@ desc:It is a humanoid with an aura of power. You notice a sharp set of front
 desc: teeth.
 locations:Abandoned Manor
 
-name:Mîm, Betrayer of Turin
+name:Mim, Betrayer of Turin
 base:humanoid
 color:I
 speed:120
@@ -10275,7 +10275,7 @@ spell-freq:6
 spells:HEAL | SCARE
 spells:BA_ACID
 spells:BO_ACID
-desc:The last of his race, Mîm is a Petty-Dwarf. Petty-Dwarves are strange
+desc:The last of his race, Mim is a Petty-Dwarf. Petty-Dwarves are strange
 desc: creatures, powerful in sorcery and originating in the East. They have been
 desc: hunted nearly to extinction by the High Elves.
 
