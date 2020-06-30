@@ -1998,11 +1998,14 @@ wall:AA wall Y:1
 # 1x29
 perma:P dark wall 0:10000
 #
-rule:3000:0
+rule:2000:0
 rule-symbols:ph
-rule:3000:0
+rule:5000:0
 rule-flags:UNDEAD
-rule:7500:1
+rule:1000:0
+rule-flags:UNDEAD
+rule-symbols:V
+rule:2000:1
 
 ########################## 30 (boss: The Sandworm Queen)
 name:The Sandworm Lair
