@@ -2055,7 +2055,7 @@ desc:.
 name:tree f linden small
 graphics:*:u
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH | TRAP
 info:0:1
 ################################################################################
 short-desc:tiny linden tree
@@ -2073,7 +2073,7 @@ desc:.
 name:tree h larch small
 graphics:*:u
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH | TRAP
 info:0:1
 ################################################################################
 short-desc:tiny larch tree
@@ -2082,7 +2082,7 @@ desc:.
 name:tree i bush
 graphics:*:u
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH | TRAP
 info:0:1
 ################################################################################
 short-desc:bush
@@ -29807,7 +29807,7 @@ desc:.
 name:tree F2W f linden small
 graphics:*:u
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH
 info:0:1
 ################################################################################
 short-desc:tiny linden tree
@@ -29825,7 +29825,7 @@ desc:.
 name:tree F2W h larch small
 graphics:*:u
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH
 info:0:1
 ################################################################################
 short-desc:tiny larch tree
@@ -29834,7 +29834,7 @@ desc:.
 name:tree F2W i bush
 graphics:*:u
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | PASSABLE | BORING
+flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | TORCH
 info:0:1
 ################################################################################
 short-desc:bush
