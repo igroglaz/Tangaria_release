@@ -530,7 +530,7 @@ alloc:0:20 to 127
 attack:4d5:-22:-25
 armor:0:0
 flags:ESP_UNDEAD | SEE_INVIS | SLOW_DIGEST | FREE_ACT | AGGRAVATE
-values:SPEED[-10] | STR[-10] | WIS[-10]
+values:SPEED[10] | STR[-10] | WIS[-10] | CON[-10] | WIS[-10]
 brand:FIRE_3
 brand:VAMPIRIC
 desc:Dark flames wreath the naked steel of the Witch-King of Angmar.
@@ -1131,8 +1131,9 @@ alloc:2:65 to 127
 attack:4d6:-12:20
 armor:0:0
 flags:DRAIN_EXP | AGGRAVATE | PROT_BLIND
-values:STEALTH[-4] | WIS[-4] | RES_DARK[1] | RES_LIGHT[1] | RES_NETHER[1]
+values:STEALTH[-4] | WIS[-4] | RES_DARK[1] | RES_LIGHT[1] | RES_NETHER[1] | SPEED[3]
 brand:POIS_3
+brand:VAMPIRIC
 desc:A mighty, heavy black spear, once wielded by the Lord of Darkness
 desc: himself as he came to Valinor in wrath. Its envenomed bite pierced
 desc: the Two Trees with wounds that would not heal.
@@ -2771,7 +2772,7 @@ alloc:5:10 to 100
 attack:1d1:-12:-12
 armor:3:0
 flags:FREE_ACT | DRAIN_EXP | AGGRAVATE
-values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1]
+values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1] | SPEED[3]
 desc:A pair of weakening gauntlets, named after Beren, who returned to Thingol
 desc: having lost to Carcharoth the hand that clasped a Silmaril.
 
