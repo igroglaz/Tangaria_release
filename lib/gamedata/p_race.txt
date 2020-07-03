@@ -1201,35 +1201,35 @@ value:1:RES_POIS[1]
 obj-flag:1:FREE_ACT
 obj-flag:1:SEE_INVIS
 
-#name:Pixie
-#skill-disarm-phys:10
-#skill-disarm-magic:20
-#skill-device:7
-#skill-save:15
-#skill-stealth:7
-#skill-search:8
-#skill-melee:-20
-#skill-shoot:10
-#skill-dig:-1
-#hitdie:4
-#exp:100:125
-#history:100
-#age:10:4
-#height:21:2
-#weight:12:1
-#value:1:STR[-6]
-#value:1:INT[4]
-#value:1:WIS[4]
-#value:1:DEX[9]
-#value:1:CON[-4]
+name:Pixie
+skill-disarm-phys:10
+skill-disarm-magic:20
+skill-device:7
+skill-save:15
+skill-stealth:7
+skill-search:8
+skill-melee:-20
+skill-shoot:10
+skill-dig:-1
+hitdie:4
+exp:100:125
+history:100
+age:10:4
+height:21:2
+weight:12:1
+value:1:STR[-6]
+value:1:INT[4]
+value:1:WIS[4]
+value:1:DEX[9]
+value:1:CON[-4]
 #######CHA:6
-#value:1:INFRA[1+1d15]
-#value:1:SPEED[1+1d12]
+value:1:INFRA[1+1d15]
+value:1:SPEED[1+1d12]
 ####### bolt spells frequently turn into beams
-#player-flags:BEAM
+player-flags:BEAM
 ######perfect success rate with magic
-#player-flags:ZERO_FAIL 
-#obj-flag:1:FEATHER
+player-flags:ZERO_FAIL 
+obj-flag:1:FEATHER
 ######giving them a chance to use less spell points when they cast a spell, probably based upon their primary spell stat, (i.e., int or wis)
 #######some type of innate survival spells that they can cast every so often (like a built-in rod), things like phase door, teleport, etc.
 

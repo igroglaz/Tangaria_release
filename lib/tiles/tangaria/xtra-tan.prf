@@ -168,6 +168,11 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
+
 
 ########################################################
 
@@ -328,6 +333,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Mage] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Mage] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -486,6 +495,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Druid] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Druid] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -644,6 +657,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Priest] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Priest] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -802,6 +819,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -960,6 +981,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1118,6 +1143,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1276,6 +1305,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1434,6 +1467,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1592,6 +1629,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1750,6 +1791,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -1908,6 +1953,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2066,6 +2115,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Monk] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Monk] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2224,6 +2277,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2382,6 +2439,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2540,6 +2601,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2698,6 +2763,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2857,6 +2926,10 @@ RF:<player>:0x97:0x94
 monster:<player>:0x97:0x95
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Golem] [EQU $GENDER Female] ]
 RF:<player>:0x97:0x95
+?:[AND [EQU $CLASS Archer] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96
+?:[AND [EQU $CLASS Archer] [EQU $RACE Pixie] [EQU $GENDER Female] ]
+RF:<player>:0x97:0x96
 
 ########################################################
 
@@ -2940,3 +3013,5 @@ monster:<player>:0x97:0x93
 monster:<player>:0x97:0x94
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Golem] ]
 monster:<player>:0x97:0x95
+?:[AND [EQU $CLASS Ghost] [EQU $RACE Pixie] ]
+monster:<player>:0x97:0x96

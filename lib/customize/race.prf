@@ -376,3 +376,7 @@ help: Golems are extreamely strong, but a bit slow. They can not be paralized,
 help: or poisoned. They could see invisible and good in digging. They are miserable
 help: in stealth, good at fighting and somehow resistant to malicious spell effects.
 ####################################################################################
+race:Pixie
+help:Pixies - wondrous tiny flying creatures who got fascinating magical powers.
+help: Not much mortals saw one as they are very fast and covert...
+####################################################################################
