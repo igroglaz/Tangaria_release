@@ -424,7 +424,7 @@ weight:100
 alloc:3:20 to 100
 attack:2d4:12:16
 armor:0:0
-flags:BLESSED | PROT_BLIND | SLOW_DIGEST | ESP_TROLL | ESP_GIANT
+flags:BLESSED | PROT_BLIND | ESP_TROLL | ESP_GIANT
 values:SEARCH[1] | LIGHT[1] | RES_ELEC[1]
 brand:ELEC_3
 slay:ORC_3
@@ -529,7 +529,7 @@ weight:130
 alloc:0:20 to 127
 attack:4d5:-22:-25
 armor:0:0
-flags:ESP_UNDEAD | SEE_INVIS | SLOW_DIGEST | FREE_ACT | AGGRAVATE
+flags:ESP_UNDEAD | SEE_INVIS | FREE_ACT | AGGRAVATE
 values:SPEED[10] | STR[-10] | WIS[-10] | CON[-10] | WIS[-10]
 brand:FIRE_3
 brand:VAMPIRIC
@@ -544,7 +544,7 @@ weight:150
 alloc:2:20 to 100
 attack:3d5:20:12
 armor:0:0
-flags:FREE_ACT | FEATHER | SLOW_DIGEST
+flags:FREE_ACT | FEATHER
 values:DEX[4] | RES_COLD[1]
 slay:DEMON_3
 slay:ORC_3
@@ -561,7 +561,7 @@ weight:150
 alloc:5:20 to 80
 attack:2d5:10:15
 armor:0:0
-flags:BLESSED | SLOW_DIGEST | ESP_DEMON
+flags:BLESSED | ESP_DEMON
 values:SEARCH[1] | LIGHT[1] | RES_FIRE[1] | RES_LIGHT[1]
 brand:FIRE_3
 slay:ORC_3
@@ -577,7 +577,7 @@ weight:150
 alloc:5:20 to 80
 attack:2d5:10:15
 armor:0:0
-flags:BLESSED | SLOW_DIGEST | ESP_DRAGON
+flags:BLESSED | ESP_DRAGON
 values:SEARCH[3] | LIGHT[1] | RES_COLD[1] | RES_DARK[1]
 brand:COLD_3
 slay:EVIL_2
@@ -1078,7 +1078,7 @@ weight:50
 alloc:2:15 to 100
 attack:3d6:15:25
 armor:0:5
-flags:PROT_FEAR | FREE_ACT | SLOW_DIGEST | BLESSED | ESP_UNDEAD
+flags:PROT_FEAR | FREE_ACT | BLESSED | ESP_UNDEAD
 values:DEX[4] | WIS[2] | RES_COLD[1]
 brand:COLD_3
 slay:EVIL_2
@@ -1207,7 +1207,7 @@ weight:160
 alloc:7:20 to 80
 attack:1d17:10:12
 armor:0:10
-flags:SUST_INT | SLOW_DIGEST | ESP_GIANT | ESP_DEMON
+flags:SUST_INT | ESP_GIANT | ESP_DEMON
 values:STR[3] | INT[3] | SPEED[2] | RES_FIRE[1] | RES_COLD[1]
 brand:COLD_3
 brand:FIRE_3
@@ -1242,7 +1242,7 @@ weight:180
 alloc:7:20 to 100
 attack:2d8:8:10
 armor:0:0
-flags:ESP_ALL | SLOW_DIGEST
+flags:ESP_ALL
 values:WIS[3] | CON[3]
 slay:DRAGON_3
 act:DRAIN_LIFE2
@@ -1578,7 +1578,7 @@ weight:30
 alloc:10:30 to 80
 attack:0d0:12:15
 armor:0:0
-flags:SLOW_DIGEST
+flags:PROT_FEAR
 values:INT[2] | WIS[2] | DEX[2] | SHOTS[5] | MIGHT[1] | SPEED[1] |
 values:RES_FIRE[1] | RES_ELEC[1] | RES_COLD[1]
 desc:One of a pair of hunting bows once belonging to Feanor's two youngest
@@ -2730,7 +2730,7 @@ weight:25
 alloc:5:50 to 127
 attack:1d1:0:0
 armor:3:14
-flags:SLOW_DIGEST | FREE_ACT
+flags:FREE_ACT
 values:RES_COLD[1]
 brand:COLD_2
 act:COLD_BOLT
@@ -2827,7 +2827,7 @@ attack:1d1:-50:-50
 armor:5:30
 flags:AFRAID | SEE_INVIS | REGEN | FREE_ACT | ESP_ALL | PROT_BLIND |
 flags:SUST_STR | SUST_INT | SUST_WIS | SUST_DEX | SUST_CON |
-flags:FEATHER | SLOW_DIGEST | HOLD_LIFE
+flags:FEATHER | HOLD_LIFE
 values:SEARCH[3] | INFRA[3] | STEALTH[3] | LIGHT[1] |
 values:RES_FIRE[1] | RES_COLD[1] | RES_ELEC[1] | RES_ACID[1] |
 values:RES_POIS[1] | RES_DISEN[1] | RES_NETHER[1] | RES_CHAOS[1]
@@ -3272,7 +3272,7 @@ weight:200
 alloc:0:75 to 127
 attack:2d4:-2:0
 armor:32:25
-flags:SUST_INT | PROT_BLIND | SLOW_DIGEST | ESP_TROLL
+flags:SUST_INT | PROT_BLIND | ESP_TROLL
 values:INT[3] | SEARCH[3] | RES_LIGHT[1] | RES_DARK[1]
 act:DRAGON_SHADOW
 time:50
@@ -3469,7 +3469,7 @@ weight:70
 alloc:0:50 to 127
 attack:4d7:0:0
 armor:0:0
-flags:SLOW_DIGEST | SEE_INVIS | FREE_ACT | HOLD_LIFE |
+flags:SEE_INVIS | FREE_ACT | HOLD_LIFE |
 flags:SUST_STR | SUST_DEX | SUST_CON
 values:BLOWS[2] | CON[2] | RES_DISEN[1] | RES_NETHER[1] | ANTI_MAGIC[4]
 slay:ANIMAL_2
