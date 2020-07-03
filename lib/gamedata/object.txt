@@ -2806,6 +2806,12 @@ alloc:1:20 to 100
 effect:ALTER_REALITY
 effect:TIMED_INC_NO_RES:IMAGE
 dice:10+1d15
+effect:DISENCHANT
+effect:SPOT:ACID:0
+dice:4d$S
+expr:S:DUNGEON_LEVEL:/ 2
+msg_self:Suddenly world shatters!
+msg_other: trembles reality!
 
 ### Detection ###
 
@@ -3274,25 +3280,11 @@ weight:5
 cost:0
 alloc:10:30 to 70
 pile:25:2
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-effect:DISENCHANT
-#dice:4d$S
-#expr:S:DUNGEON_LEVEL:/ 2
-effect:SPOT:ACID:0
-dice:4d$S
-expr:S:DUNGEON_LEVEL:/ 2
-msg_self:Suddenly your armour become animated!
-msg_other: armour became animated!
+effect:WAKE
+effect:TIMED_INC:STUN
+dice:10+1d10
+msg_self:Your scroll made an ear-piercing shriek!
+msg_other: read foul scroll which shrieks!
 
 name:Damned Jail
 graphics:?:w
