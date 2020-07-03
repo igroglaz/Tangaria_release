@@ -2459,10 +2459,10 @@ level:10
 weight:2
 cost:0
 alloc:1:10 to 50
-flags:SLOW_DIGEST | EASY_KNOW | FEATHER | SEE_INVIS
+flags:EASY_KNOW | FEATHER | SEE_INVIS
 curse:teleportation:100
-values:INT[-3]
-values:WIS[-3]
+values:INT[3]
+values:WIS[3]
 #values:INT[-1+-M5]
 #values:WIS[-1+-M5]
 desc:This ring emanated with dark powers.
@@ -2585,7 +2585,7 @@ weight:3
 cost:20000
 alloc:10:60 to 100
 flags:SUST_STR | SUST_INT | SUST_WIS | SUST_DEX | SUST_CON |
-flags:HOLD_LIFE | SLOW_DIGEST | EASY_KNOW |
+flags:HOLD_LIFE | EASY_KNOW |
 flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
 desc:This blessed amulet will make the wearer impervious to evil magics
 desc: that would sap innate abilities. It also slows down the digestive
