@@ -1212,7 +1212,7 @@ obj-flag:1:SEE_INVIS
 #skill-shoot:10
 #skill-dig:-1
 #hitdie:4
-#exp:100:110
+#exp:100:125
 #history:100
 #age:10:4
 #height:21:2

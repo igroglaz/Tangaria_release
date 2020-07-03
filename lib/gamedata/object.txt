@@ -307,7 +307,7 @@ pile:50:1d3
 effect:NOURISH:SET_TO
 dice:5+1d4
 effect:NOURISH:SET_TO
-dice:3d2+1d4
+dice:3+3d2
 effect:NOURISH:INC_BY
 dice:10
 effect:NOURISH:INC_BY
