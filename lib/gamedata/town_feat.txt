@@ -62,6 +62,8 @@ feat:~:~:safe floor
 
 feat:#:0:illusion wall
 feat:#:1:illusion brick wall
+# short grass tile:
+feat:#:2:training grounds
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # 96 - walls                            0x96:0xBC - web ... next:

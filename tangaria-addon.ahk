@@ -35,7 +35,7 @@ WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
 ;//////////////////////////////////////////////////////////////////////////
 ;// when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 12) 
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 13) 
 ;// If you wish to hide first stroke of gaming window:
 ;// remove ";" at beginning of this line.
 ;// Also change W1300 H550 at your resolution, for example W1680 H1050. 

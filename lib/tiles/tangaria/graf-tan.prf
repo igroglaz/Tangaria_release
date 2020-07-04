@@ -567,6 +567,12 @@ feat:illusion brick wall:los:0xB9:0x81
 feat:illusion brick wall:lit:0xB9:0x82
 feat:illusion brick wall:dark:0xB9:0x83
 
+# training grounds / short grass tile
+feat:training grounds:torch:0xB1:0x80
+feat:training grounds:los:0xB1:0x81
+feat:training grounds:lit:0xB1:0x82
+feat:training grounds:dark:0xB1:0x83
+
 # glyph of warding
 trap:glyph of warding:torch:0x9F:0x89
 trap:glyph of warding:los:0x9F:0x89
