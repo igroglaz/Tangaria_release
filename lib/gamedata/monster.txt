@@ -7177,10 +7177,10 @@ desc:A creature that was once human, but is now as green as moss.
 
 #v hummerhorn
 name:pixie
-base:insect
+base:hybrid
 color:y
 speed:120
-hit-points:15
+hit-points:40
 hearing:8
 armor-class:16
 sleepiness:10
@@ -7193,12 +7193,12 @@ flags:SMART | LEVITATE | COLD_BLOOD
 spell-freq:15
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT
-friends:10:1d2:grey mushroom patch
-friends:10:1d1:shrieker mushroom patch
-friends:10:1d3:yellow mushroom patch
-friends:10:1d2:spotted mushroom patch
-friends:10:1d2:purple mushroom patch
-friends:10:1d1:magic mushroom patch
+friends:25:1d2:grey mushroom patch
+friends:25:1d1:shrieker mushroom patch
+friends:25:1d3:yellow mushroom patch
+friends:25:1d2:spotted mushroom patch
+friends:25:1d2:purple mushroom patch
+friends:25:1d1:magic mushroom patch
 ####################################################################################
 desc:Barely a foot tall, mischievous and attractively childlike with pointed ears,
 desc:and wearing a tiny green outfit and pointed hat. It's skin, hair, and eyes come
@@ -9874,10 +9874,10 @@ desc: through air and walls with equal facility, leaving void in its wake.
 
 #giant firefly
 name:fairy
-base:insect
+base:hybrid
 color:r
 speed:120
-hit-points:70
+hit-points:140
 light:2
 hearing:8
 armor-class:21
@@ -9893,11 +9893,11 @@ flags:SMART | LEVITATE | COLD_BLOOD
 spell-freq:12
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT | BLIND
-friends:10:1d2:shrieker mushroom patch
-friends:10:1d1:yellow mushroom patch
-friends:10:1d1:spotted mushroom patch
-friends:10:1d1:purple mushroom patch
-friends:10:1d2:unmagic mushroom patch
+friends:25:1d2:shrieker mushroom patch
+friends:25:1d1:yellow mushroom patch
+friends:25:1d1:spotted mushroom patch
+friends:25:1d1:purple mushroom patch
+friends:25:1d2:unmagic mushroom patch
 ####################################################################################
 desc:Barely a foot tall, with butterfly wings and pointed ears. It's skin, hair, and eyes come in shades of greens of the leaves and grass.
 desc:It's buzzing something offensive at you.
