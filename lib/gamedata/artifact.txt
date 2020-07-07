@@ -1130,7 +1130,7 @@ weight:50
 alloc:2:65 to 127
 attack:4d6:-12:20
 armor:0:0
-flags:AGGRAVATE | PROT_BLIND
+flags:DRAIN_EXP | AGGRAVATE | PROT_BLIND
 values:STEALTH[-4] | WIS[-4] | RES_DARK[1] | RES_LIGHT[1] | RES_NETHER[1] | SPEED[3]
 brand:POIS_3
 brand:VAMPIRIC
@@ -1494,7 +1494,7 @@ weight:250
 alloc:0:90 to 127
 attack:10d6:40:0
 armor:0:0
-flags:AGGRAVATE | ESP_UNDEAD
+flags:DRAIN_EXP | AGGRAVATE | ESP_UNDEAD
 values:RES_COLD[3] | RES_DARK[1] |
 values:RES_NETHER[1] | RES_CHAOS[1] | RES_DISEN[1] | RES_TIME[1]
 slay:UNDEAD_5
@@ -2771,7 +2771,7 @@ weight:25
 alloc:5:10 to 100
 attack:1d1:-12:-12
 armor:3:0
-flags:FREE_ACT | AGGRAVATE
+flags:FREE_ACT | DRAIN_EXP | AGGRAVATE
 values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1] | SPEED[3]
 desc:A pair of weakening gauntlets, named after Beren, who returned to Thingol
 desc: having lost to Carcharoth the hand that clasped a Silmaril.
@@ -3048,7 +3048,7 @@ weight:2
 alloc:1:100 to 127
 attack:0d0:15:15
 armor:0:0
-flags:AGGRAVATE | SEE_INVIS | REGEN | ESP_ALL | STICKY |
+flags:AGGRAVATE | DRAIN_EXP | SEE_INVIS | REGEN | ESP_ALL | STICKY |
 flags:SUST_STR | SUST_DEX | SUST_CON | SUST_INT | SUST_WIS
 values:STR[5] | INT[5] | WIS[5] | DEX[5] | CON[5] | SPEED[5] |
 values:RES_FIRE[3] | RES_COLD[3] | RES_ELEC[3] | RES_ACID[3] | RES_DARK[1] |
@@ -3450,7 +3450,7 @@ weight:70
 alloc:0:30 to 100
 attack:5d7:0:0
 armor:0:0
-flags:SEE_INVIS | AGGRAVATE |
+flags:SEE_INVIS | AGGRAVATE | DRAIN_EXP |
 flags:ESP_DRAGON | PROT_FEAR
 values:BLOWS[2] | SPEED[2] | RES_CHAOS[1] | RES_FIRE[3] | RES_DISEN[1] |
 values:ANTI_MAGIC[4]
