@@ -7193,12 +7193,12 @@ flags:SMART | LEVITATE | COLD_BLOOD
 spell-freq:15
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT
-friends:25:1d2:grey mushroom patch
-friends:25:1d1:shrieker mushroom patch
-friends:25:1d3:yellow mushroom patch
-friends:25:1d2:spotted mushroom patch
-friends:25:1d2:purple mushroom patch
-friends:25:1d1:magic mushroom patch
+friends:35:1d2:grey mushroom patch
+friends:35:1d1:shrieker mushroom patch
+friends:35:1d3:yellow mushroom patch
+friends:35:1d2:spotted mushroom patch
+friends:35:1d2:purple mushroom patch
+friends:35:1d1:magic mushroom patch
 ####################################################################################
 desc:Barely a foot tall, mischievous and attractively childlike with pointed ears,
 desc:and wearing a tiny green outfit and pointed hat. It's skin, hair, and eyes come
@@ -9893,11 +9893,11 @@ flags:SMART | LEVITATE | COLD_BLOOD
 spell-freq:12
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT | BLIND
-friends:25:1d2:shrieker mushroom patch
-friends:25:1d1:yellow mushroom patch
-friends:25:1d1:spotted mushroom patch
-friends:25:1d1:purple mushroom patch
-friends:25:1d2:unmagic mushroom patch
+friends:35:1d2:shrieker mushroom patch
+friends:35:1d1:yellow mushroom patch
+friends:35:1d1:spotted mushroom patch
+friends:35:1d1:purple mushroom patch
+friends:35:1d2:unmagic mushroom patch
 ####################################################################################
 desc:Barely a foot tall, with butterfly wings and pointed ears. It's skin, hair, and eyes come in shades of greens of the leaves and grass.
 desc:It's buzzing something offensive at you.
