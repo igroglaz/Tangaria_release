@@ -618,11 +618,13 @@ power:-20
 msg:You notice your {name} aggravating things around you.
 desc:Aggravates nearby creatures
 
+# REPLACED by YET another aggro for the nazgul rings case...
+# as they are hardcoded (I suppose)
 name:experience drain
 type:flag
 subtype:bad
 id-type:timed
-code:DRAIN_EXP
+code:AGGRAVATE
 power:-5
 type-mult:horn:0
 type-mult:bow:0
@@ -641,10 +643,10 @@ type-mult:soft armour:0
 type-mult:hard armour:0
 type-mult:dragon armour:0
 type-mult:amulet:0
-type-mult:ring:0
+#type-mult:ring:0
 type-mult:light:0
-msg:You sense your {name} is draining your life.
-desc:Drains experience
+msg:You notice your {name} aggravating things around you.
+desc:Aggravates nearby creatures
 
 name:stuck on
 type:flag
