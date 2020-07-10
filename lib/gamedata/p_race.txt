@@ -74,7 +74,8 @@
 # value:0:CON[1+-1d5M10]
 
 ##### WE USE CLASSIC EXP FACTOR
-# exp:100:125  --- > # exp:expbase:classic expbase -> 2nd value
+# exp:100:125  --- > # exp:expbase:classic expbase 
+# -> 2nd value
 
 
 name:Human
@@ -93,6 +94,7 @@ history:1
 age:14:6
 height:69:10
 weight:165:35
+value:0:STR[0+1d24]
 value:0:CON[0+1d12]
 value:1:DAM_RED[1+1d24]
 
@@ -107,16 +109,17 @@ skill-melee:-1
 skill-shoot:5
 skill-dig:0
 hitdie:10
-exp:120:110
+exp:120:125
 history:4
 age:24:16
 height:71:8
 weight:115:25
 obj-flag:1:SUST_DEX
+value:0:STR[0+1d30]
 value:1:INT[1]
 value:1:WIS[-1]
 value:1:DEX[1]
-value:1:CON[-1]
+value:1:CON[-1+1d24]
 value:1:INFRA[2]
 
 name:Elf
@@ -130,7 +133,7 @@ skill-melee:-5
 skill-shoot:15
 skill-dig:0
 hitdie:9
-exp:120:120
+exp:120:125
 history:5
 age:75:75
 height:73:7
@@ -156,7 +159,7 @@ skill-melee:-10
 skill-shoot:20
 skill-dig:0
 hitdie:7
-exp:120:110
+exp:120:125
 history:10
 age:21:12
 height:34:4
@@ -205,7 +208,7 @@ skill-melee:15
 skill-shoot:0
 skill-dig:40
 hitdie:11
-exp:120:120
+exp:120:125
 history:16
 age:35:15
 height:47:4
@@ -230,7 +233,7 @@ skill-melee:12
 skill-shoot:-5
 skill-dig:0
 hitdie:10
-exp:120:110
+exp:120:125
 history:19
 age:11:4
 height:64:2
@@ -253,7 +256,7 @@ skill-melee:20
 skill-shoot:-10
 skill-dig:0
 hitdie:12
-exp:120:120
+exp:120:125
 history:21
 age:20:10
 height:90:16
@@ -289,7 +292,7 @@ value:1:INT[0+1d24]
 value:1:WIS[0+1d24]
 value:1:DEX[0+1d24]
 value:1:CON[0+1d16]
-value:50:STEALTH[1]
+value:25:STEALTH[1]
 obj-flag:35:SUST_CON
 
 name:High-Elf
@@ -302,7 +305,6 @@ skill-search:10
 skill-melee:10
 skill-shoot:25
 skill-dig:0
-#add one more HP (V is 10) after skill-melee modificators rebalance
 hitdie:10
 exp:120:125
 history:7
@@ -330,7 +332,7 @@ skill-melee:-5
 skill-shoot:10
 skill-dig:0
 hitdie:8
-exp:120:115
+exp:120:125
 history:23
 age:15:10
 height:37:4
@@ -366,6 +368,7 @@ value:1:WIS[-1+-1d12]
 value:1:DEX[-1+-1d12]
 value:1:CON[-1+-1d12]
 value:1:MOVES[1+1d10]
+value:1:DAM_RED[1+1d24]
 player-flags:FAST_THROW
 player-flags:ANIMAL
 
@@ -653,7 +656,7 @@ skill-melee:0
 skill-shoot:5
 skill-dig:2
 hitdie:9
-exp:100:120
+exp:100:125
 history:100
 age:15:10
 height:40:3
