@@ -77,6 +77,31 @@
 # exp:100:125  --- > # exp:expbase:classic expbase 
 # -> 2nd value
 
+name:Half-Troll
+skill-disarm-phys:-5
+skill-disarm-magic:-5
+skill-device:-8
+skill-save:-8
+skill-stealth:-2
+skill-search:-9
+skill-melee:20
+skill-shoot:-10
+skill-dig:0
+hitdie:12
+exp:120:125
+history:21
+age:20:10
+height:90:16
+weight:240:60
+obj-flag:1:SUST_STR
+obj-flag:1:REGEN
+value:1:STR[4]
+value:1:INT[-4]
+value:1:WIS[-2]
+value:1:DEX[-4]
+value:1:CON[3]
+value:1:INFRA[3]
+player-flags:TROLL
 
 name:Human
 skill-disarm-phys:0
@@ -244,32 +269,6 @@ value:1:CON[1]
 value:1:INFRA[3]
 value:1:RES_DARK[1]
 player-flags:ORC
-
-name:Half-Troll
-skill-disarm-phys:-5
-skill-disarm-magic:-5
-skill-device:-8
-skill-save:-8
-skill-stealth:-2
-skill-search:-9
-skill-melee:20
-skill-shoot:-10
-skill-dig:0
-hitdie:12
-exp:120:125
-history:21
-age:20:10
-height:90:16
-weight:240:60
-obj-flag:1:SUST_STR
-obj-flag:1:REGEN
-value:1:STR[4]
-value:1:INT[-4]
-value:1:WIS[-2]
-value:1:DEX[-4]
-value:1:CON[3]
-value:1:INFRA[3]
-player-flags:TROLL
 
 name:Dunedain
 skill-disarm-phys:4

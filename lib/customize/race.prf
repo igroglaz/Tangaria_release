@@ -6,6 +6,15 @@
 # Descriptions should be limited to 20 lines.
 #
 
+race:Half-Troll
+help:Half-Trolls are incredibly strong, and have more hit points than most
+help: other character race. They are also very stupid and slow. They will make
+help: great warriors and iffy priests. They are bad at searching, disarming,
+help: perception, and stealth. They are so ugly that a Half-Orc grimaces in
+help: their presence. Half-trolls always have their strength sustained, and
+help: they regenerate quickly like other trolls. Unfortunately, this
+help: regeneration also requires them to eat more food than other races. They
+help: have fair infravision.
 
 race:Human
 help:The human is the base character. All other races are compared to them.
@@ -69,16 +78,6 @@ help: rogues, for the simple reason that Half-Orcs tend to have great
 help: constitution and lots of hit points. Because of their preference to
 help: living underground to on the surface, half-orcs resist darkness attacks.
 help: They have fair infravision.
-
-race:Half-Troll
-help:Half-Trolls are incredibly strong, and have more hit points than most
-help: other character race. They are also very stupid and slow. They will make
-help: great warriors and iffy priests. They are bad at searching, disarming,
-help: perception, and stealth. They are so ugly that a Half-Orc grimaces in
-help: their presence. Half-trolls always have their strength sustained, and
-help: they regenerate quickly like other trolls. Unfortunately, this
-help: regeneration also requires them to eat more food than other races. They
-help: have fair infravision.
 
 race:Dunedain
 help:Dunedain are a race of hardy men from the West. This elder race surpasses
