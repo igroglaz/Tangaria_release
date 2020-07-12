@@ -205,7 +205,7 @@ skill-search:10:12
 skill-melee:35:15
 skill-shoot:82:55
 skill-dig:0:0
-hitdie:4
+hitdie:5
 max-attacks:2
 min-weight:35
 strength-multiplier:4
