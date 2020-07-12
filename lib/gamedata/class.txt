@@ -231,7 +231,7 @@ player-flags:FAST_SHOT
 # class brands works both on melee and ranged. races - only on melee!
 brand:5:POIS_2
 ############################
-obj-flag:20:SEE_INVIS
+obj-flag:25:SEE_INVIS
 #
 title:Fletcher
 title:Shooter
