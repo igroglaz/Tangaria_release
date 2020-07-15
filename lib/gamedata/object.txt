@@ -228,7 +228,7 @@ type:food
 level:0
 weight:2
 cost:300
-alloc:10:1 to 20
+alloc:15:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:4
@@ -248,7 +248,7 @@ type:food
 level:0
 weight:4
 cost:0
-alloc:10:1 to 20
+alloc:15:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:10
@@ -261,7 +261,7 @@ type:food
 level:0
 weight:3
 cost:0
-alloc:10:1 to 50
+alloc:15:1 to 50
 effect:NOURISH:INC_BY
 dice:10
 msg_self:That tastes good.
