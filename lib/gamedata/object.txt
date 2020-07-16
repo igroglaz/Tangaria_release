@@ -3423,6 +3423,8 @@ dice:20
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:20
+effect:TIMED_INC:OPP_CONF
+dice:1d1
 
 name:Cure Serious Wounds
 graphics:!:d
@@ -3437,6 +3439,8 @@ effect:CURE:BLIND
 effect:CURE:CUT
 effect:HEAL_HP
 dice:40
+effect:TIMED_INC:OPP_CONF
+dice:1d1
 
 name:Cure Critical Wounds
 graphics:!:d
@@ -3454,6 +3458,8 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:60
+effect:TIMED_INC:OPP_CONF
+dice:1d1
 
 name:Healing
 graphics:!:d
