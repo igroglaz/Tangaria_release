@@ -107,7 +107,7 @@ name:Human
 skill-disarm-phys:0
 skill-disarm-magic:0
 skill-device:0
-skill-save:0
+skill-save:6
 skill-stealth:0
 skill-search:0
 skill-melee:0
@@ -122,6 +122,7 @@ weight:165:35
 value:0:STR[0+1d24]
 value:0:CON[0+1d12]
 value:1:DAM_RED[1+1d24]
+value:1:TUNNEL[1+1d30]
 
 name:Half-Elf
 skill-disarm-phys:2
@@ -146,6 +147,7 @@ value:1:WIS[-1]
 value:1:DEX[1]
 value:1:CON[-1+1d24]
 value:1:INFRA[2]
+value:1:TUNNEL[1]
 
 name:Elf
 skill-disarm-phys:5
@@ -197,6 +199,7 @@ value:1:DEX[3]
 value:1:CON[2]
 value:1:INFRA[4]
 player-flags:KNOW_MUSHROOM
+value:1:TUNNEL[1]
 
 name:Gnome
 skill-disarm-phys:10
@@ -221,6 +224,7 @@ value:1:DEX[2]
 value:1:CON[1]
 value:1:INFRA[4]
 player-flags:KNOW_ZAPPER
+value:1:TUNNEL[1]
 
 name:Dwarf
 skill-disarm-phys:2
@@ -268,6 +272,8 @@ value:1:INT[-1]
 value:1:CON[1]
 value:1:INFRA[3]
 value:1:RES_DARK[1]
+value:1:TUNNEL[1]
+obj-flag:15:ESP_ORC
 player-flags:ORC
 
 name:Dunedain
@@ -342,6 +348,7 @@ value:1:DEX[2]
 value:1:CON[2]
 value:1:INFRA[5]
 value:1:RES_POIS[1]
+value:1:TUNNEL[1]
 
 name:Yeek
 skill-disarm-phys:0
@@ -355,7 +362,7 @@ skill-melee:0
 skill-shoot:0
 skill-dig:0
 hitdie:6
-exp:80:80
+exp:80:125
 history:1
 age:14:6
 height:23:3
@@ -369,6 +376,7 @@ value:1:CON[-1+-1d12]
 value:1:MOVES[1+1d10]
 value:1:DAM_RED[1+1d24]
 player-flags:FAST_THROW
+value:1:TUNNEL[1]
 player-flags:ANIMAL
 
 name:Ent
@@ -447,7 +455,7 @@ name:Dragon
 skill-disarm-phys:-33
 skill-disarm-magic:-33
 skill-device:-16
-skill-save:10
+skill-save:0
 skill-stealth:-16
 skill-search:10
 skill-melee:15
@@ -534,7 +542,7 @@ value:1:WIS[-1]
 value:10:DEX[1]
 value:1:CON[-2+1d12]
 value:15:INFRA[1]
-obj-flag:25:ESP_EVIL
+obj-flag:1:ESP_EVIL
 
 #immortal human
 name:Damned
@@ -648,7 +656,7 @@ name:Goblin
 skill-disarm-phys:-2
 skill-disarm-magic:-2
 skill-device:-3
-skill-save:-3
+skill-save:3
 skill-stealth:1
 skill-search:2
 skill-melee:0
@@ -668,6 +676,7 @@ value:1:DEX[2+1d10]
 value:1:CON[1+1d30]
 value:1:INFRA[4]
 value:10:RES_DARK[1]
+value:1:TUNNEL[1]
 player-flags:ORC
 
 #half-giant.. giant blood, heritage
@@ -711,7 +720,7 @@ skill-disarm-phys:-8
 skill-disarm-magic:-6
 skill-device:-3
 skill-save:-3
-skill-stealth:-2
+skill-stealth:-1
 skill-search:-5
 skill-melee:15
 skill-shoot:-5
@@ -845,6 +854,7 @@ obj-flag:1:SEE_INVIS
 value:25:RES_DARK[1]
 value:1:RES_LIGHT[-1]
 value:1:STEALTH[1+1d15]
+value:1:DAM_RED[-1]
 
 name:Werewolf
 skill-disarm-phys:-15
