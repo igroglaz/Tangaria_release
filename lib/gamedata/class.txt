@@ -200,7 +200,7 @@ skill-disarm-phys:28:8
 skill-disarm-magic:21:7
 skill-device:24:8
 skill-save:24:10
-skill-stealth:2:0
+skill-stealth:3:0
 skill-search:10:12
 skill-melee:35:15
 skill-shoot:82:55
