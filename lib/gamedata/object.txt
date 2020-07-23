@@ -2204,7 +2204,7 @@ level:5
 weight:2
 cost:250
 alloc:20:5 to 90
-values:SEARCH[d4M2]
+values:SEARCH[d4M2] | STEALTH[1]
 desc:This ring magically improves your attention, so you can detect hidden
 desc: things better.
 
@@ -2218,6 +2218,7 @@ weight:2
 cost:750
 alloc:20:30 to 100
 flags:SUST_STR | SUST_DEX | SUST_CON | EASY_KNOW
+values:CON[1]
 desc:This magical bauble protects your body against draining attacks.
 
 name:Soulkeeping
@@ -2228,6 +2229,7 @@ weight:2
 cost:600
 alloc:20:30 to 100
 flags:SUST_STR | SUST_INT | SUST_WIS | EASY_KNOW
+values:CON[1]
 desc:This magical ring protects your mind against draining attacks.
 
 ### Resistance rings ###
@@ -2278,7 +2280,7 @@ alloc:20:20 to 100
 attack:0d0:0:0
 armor:0:5+d5M10
 flags:IGNORE_FIRE
-values:RES_FIRE[1]
+values:RES_FIRE[1] | CON[1]
 act:RING_FLAMES
 time:50+d50
 desc:This fiery circlet grants you protection, makes fire less dangerous and
@@ -2294,7 +2296,7 @@ alloc:20:20 to 100
 attack:0d0:0:0
 armor:0:5+d5M10
 flags:IGNORE_ACID
-values:RES_ACID[1]
+values:RES_ACID[1] | CON[1]
 act:RING_ACID
 time:50+d50
 desc:This magical ring is imbued with spells of devouring acid, granting
@@ -2311,7 +2313,7 @@ alloc:20:20 to 100
 attack:0d0:0:0
 armor:0:5+d5M10
 flags:IGNORE_COLD
-values:RES_COLD[1]
+values:RES_COLD[1] | CON[1]
 act:RING_ICE
 time:50+d50
 desc:This ring is imbued with supernatural cold, which makes you less vulnerable
@@ -2328,7 +2330,7 @@ alloc:20:20 to 100
 attack:0d0:0:0
 armor:0:5+d5M10
 flags:IGNORE_ELEC
-values:RES_ELEC[1]
+values:RES_ELEC[1] | CON[1]
 act:RING_LIGHTNING
 time:50+d50
 desc:This sparkling circlet grants you protection, makes electricity less
@@ -2415,6 +2417,7 @@ weight:2
 cost:700
 alloc:20:10 to 50
 flags:IMPAIR_HP | EASY_KNOW
+values:CON[1]
 act:CURE_SERIOUS
 time:10+5d8
 
@@ -2427,7 +2430,7 @@ cost:4000
 alloc:50:15 to 80
 flags:AFRAID | EASY_KNOW
 curse:hallucination:100
-values:SPEED[4]
+values:SPEED[3]
 
 name:the Mouse
 graphics:=:d
@@ -2448,7 +2451,7 @@ weight:2
 cost:100
 alloc:50:10 to 50
 flags:PROT_FEAR | EASY_KNOW
-values:STEALTH[-2]
+values:STEALTH[-2] | CON[1]
 
 ### Misc rings ###
 
@@ -2518,7 +2521,7 @@ level:10
 weight:2
 cost:800
 alloc:20:10 to 50
-values:TUNNEL[2+d3]
+values:TUNNEL[2+d3] | CON[1]
 act:STONE_TO_MUD
 time:15+2d10
 
@@ -2548,7 +2551,7 @@ weight:3
 cost:300
 alloc:50:10 to 50
 flags:IGNORE_ELEC | EASY_KNOW
-values:RES_ELEC[1]
+values:RES_ELEC[1] | CON[1]
 desc:This amulet will protect you from electrical discharges and storms.
 
 name:Resist Acid
@@ -2559,7 +2562,7 @@ weight:3
 cost:300
 alloc:50:10 to 50
 flags:IGNORE_ACID | EASY_KNOW
-values:RES_ACID[1]
+values:RES_ACID[1] | CON[1]
 desc:This magical talisman will make the corroding forces of acid less
 desc: threatening to your health.
 
@@ -2681,7 +2684,7 @@ level:10
 weight:3
 cost:200
 alloc:30:10 to 70
-values:INFRA[1+M5]
+values:INFRA[1+M5] | CON[1]
 desc:This amulet will increase your ability to sense warm-blooded
 desc: creatures in your vicinity.
 
@@ -2692,7 +2695,7 @@ level:10
 weight:3
 cost:600
 alloc:20:10 to 40
-values:SEARCH[d5M5]
+values:SEARCH[d5M5] | STEALTH[1]
 desc:This amulet grants keen sight, finding things that are hidden.
 
 ### Powers ###
@@ -2706,6 +2709,7 @@ cost:10
 alloc:20:10 to 40
 flags:EASY_KNOW
 curse:teleportation:100
+values:SEARCH[d5M5] | MOVES[1]
 desc:This amulet will randomly teleport you all over the place.
 
 name:Slow Digestion
@@ -2726,7 +2730,8 @@ weight:3
 cost:0
 alloc:20:10 to 40
 flags:EASY_KNOW
-desc:This amulet is not magical. It just looks good.
+value:1:INT[1] | WIS[-1]
+desc:Is this amulet magical? It looks good though..
 
 name:Doom
 graphics:":d
@@ -2752,7 +2757,7 @@ weight:3
 cost:10
 alloc:20:15 to 40
 flags:FREE_ACT
-values:SPEED[-3+1d2]
+values:MOVES[-3+1d2]
 
 
 ##### Scrolls #####
