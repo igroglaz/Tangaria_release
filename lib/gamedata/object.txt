@@ -3477,6 +3477,12 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:300+m35
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:1
+effect:RANDOM
+dice:2
 
 name:*Healing*
 graphics:!:d
@@ -3493,6 +3499,12 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:1200
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:1
+effect:RANDOM
+dice:2
 
 name:Life
 graphics:!:d
@@ -3518,7 +3530,11 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:RESTORE_EXP
 effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
 dice:1
+effect:RANDOM
+dice:2
 msg_self:You feel life flow through your body!
 
 name:Neutralize Poison
@@ -3685,7 +3701,13 @@ effect:CURE:AFRAID
 effect:HEAL_HP
 dice:10
 effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
 dice:1
+effect:RANDOM
+dice:3
 
 name:Berserk Strength
 graphics:!:d
@@ -3774,8 +3796,16 @@ alloc:40:3 to 40
 pile:25:2
 effect:TIMED_INC:SINFRA
 dice:100+4d25
+effect:TIMED_INC:IMAGE
+dice:1d1
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
 effect:NOURISH:INC_BY
 dice:1
+effect:RANDOM
+dice:3
 
 name:Invisibility
 graphics:!:d
@@ -4071,6 +4101,12 @@ effect:BREATH:COLD:1:20
 dice:80
 effect:BREATH:FIRE:1:20
 dice:80
+effect:RANDOM
+dice:2
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:1
 effect:RANDOM
 dice:2
 
@@ -5840,7 +5876,13 @@ cost:0
 alloc:50:0 to 100
 pile:70:1d3
 effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:1
+effect:NOURISH:INC_BY
 dice:2
+effect:RANDOM
+dice:3
 msg_self:You feel less thirsty.
 
 
