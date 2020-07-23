@@ -305,9 +305,9 @@ cost:0
 alloc:30:50 to 100
 pile:50:1d3
 effect:NOURISH:SET_TO
-dice:5+1d4
+dice:7+1d4
 effect:NOURISH:SET_TO
-dice:3+3d2
+dice:7+3d2
 effect:NOURISH:INC_BY
 dice:10
 effect:NOURISH:INC_BY
@@ -460,7 +460,7 @@ alloc:20:10 to 50
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
 effect:NOURISH:INC_BY
-dice:3
+dice:7
 msg_self:You feel your heart warm.
 desc:Just a little of this warm and fragrant liquor gives you fresh hope and
 desc: vigour.
@@ -493,8 +493,8 @@ effect:GAIN_STAT:CON
 effect:GAIN_STAT:STR
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
-effect:NOURISH:INC_BY
-dice:60
+effect:NOURISH:INC_TO
+dice:80
 msg_self:Refreshing!
 desc:This looks like pure water, but its scent reminds you of the smell of a
 desc: distant wood borne from afar by a cool breeze at night.
@@ -655,7 +655,7 @@ effect:CURE:POISONED
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
 effect:NOURISH:SET_TO
-dice:5
+dice:7
 msg_self:Your stomach heaves.
 desc:It makes you very hungry but otherwise healthy.
 
@@ -3963,7 +3963,7 @@ effect:TIMED_INC_NO_RES:PARALYZED
 dice:4
 effect:CURE:POISONED
 effect:NOURISH:SET_TO
-dice:2
+dice:5
 msg_self:The potion makes you queasy.
 msg_other: vomits!
 
@@ -3974,7 +3974,7 @@ level:3
 weight:4
 cost:1
 effect:NOURISH:SET_TO
-dice:5
+dice:2
 msg_self:The potion calms your stomach, but leaves you very hungry.
 msg_other: hiccups.
 
