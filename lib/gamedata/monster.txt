@@ -615,7 +615,7 @@ locations:Farfest
 name:goldfish
 base:aquatic
 color:r
-speed:110
+speed:100
 hit-points:1
 hearing:30
 armor-class:4
@@ -634,7 +634,7 @@ locations:Hunter's Valley|Farfest
 name:roach fish
 base:aquatic
 color:r
-speed:115
+speed:105
 hit-points:1
 hearing:30
 armor-class:4
@@ -652,7 +652,7 @@ desc:A small fish.
 name:ruff fish
 base:aquatic
 color:r
-speed:115
+speed:110
 hit-points:1
 hearing:30
 armor-class:4
