@@ -2730,7 +2730,7 @@ weight:3
 cost:0
 alloc:20:10 to 40
 flags:EASY_KNOW
-value:1:INT[1] | WIS[-1]
+values:INT[1] | WIS[-1]
 desc:Is this amulet magical? It looks good though..
 
 name:Doom
