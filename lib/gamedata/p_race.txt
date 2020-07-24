@@ -421,35 +421,41 @@ value:1:SPEED[0+-1d14M29]
 player-flags:GIANT
 
 #got hardcoded full ESP with expanding radius
+# humanoid race which had descendence from Storm Giants and live with Eagles.
+# They are bigger then normal humans, but overal looks quite alike to them,
+# except their eyes which is bright blue, like there is a living lightning inside.
+# They like to fight in battle openly, loudly singing a song - thats why enemies know
+# about them from afar. They do not like hidden things and trickery.
+# But at the same time Thunderlords could feel most of enemies 
+# from the distance too because of their electric potency,
+# although this potency mess with their ability to use magic devices.
+# They live alongside their traditions and don't like new things and changes.
+# The highest honor for them is to die in the battle, so
+# even experienced fighters among thunderlords are pretty
+# reckless.
 name:Thunderlord
-skill-disarm-phys:-6
-skill-disarm-magic:-6
-skill-device:0
-skill-save:10
-skill-stealth:-16
+skill-disarm-phys:-15
+skill-disarm-magic:-15
+skill-device:-16
+skill-save:-10
+skill-stealth:-7
 skill-search:-10
-skill-melee:15
+skill-melee:7
 skill-shoot:5
 skill-dig:0
-#add one more HP (V is 12)
-hitdie:10
+hitdie:12
 exp:180:125
 history:89
 age:14:6
 height:170:20
 weight:240:60
-obj-flag:25:FEATHER
-obj-flag:5:ESP_DRAGON
-# 6 2 1 1 3
-value:1:STR[-6+1d4]
-value:1:INT[-6+1d6]
-value:1:WIS[-6+1d7]
-value:1:DEX[-6+1d7]
-value:1:CON[-6+1d4]
-value:50:RES_FIRE[1]
-value:50:RES_COLD[1]
-value:50:RES_ACID[1]
-value:50:RES_ELEC[1]
+value:1:STR[3]
+value:1:INT[-4]
+value:1:WIS[-2]
+value:1:DEX[0]
+value:1:CON[4]
+value:1:RES_ELEC[1]
+value:1:DAM_RED[-1+-1d5]
 player-flags:THUNDERLORD
 
 #dragon got 1/2 bonuses from dragons which form they take
@@ -1247,6 +1253,40 @@ obj-flag:1:FEATHER
 ######giving them a chance to use less spell points when they cast a spell, probably based upon their primary spell stat, (i.e., int or wis)
 #######some type of innate survival spells that they can cast every so often (like a built-in rod), things like phase door, teleport, etc.
 
+# draconian race was almost exterminated by thunderlods during
+# the ancient war. Only a few survived by hiding in high mountains caves.
+# They are born as a small whelplings, very vulnerable..but if they
+# manage to survive to mature age - they become very powerful.
+#name:Draconian
+#skill-disarm-phys:-16
+#skill-disarm-magic:-16
+#skill-device:-8
+#skill-save:8
+#skill-stealth:-11
+#skill-search:5
+#skill-melee:15
+#skill-shoot:5
+#skill-dig:0
+#hitdie:13
+#exp:180:125
+#history:89
+#age:14:6
+#height:170:20
+#weight:240:60
+#obj-flag:25:FEATHER
+#obj-flag:5:ESP_DRAGON
+# 6 2 1 1 3
+#value:1:STR[-6+1d4]
+#value:1:INT[-6+1d6]
+#value:1:WIS[-6+1d7]
+#value:1:DEX[-6+1d7]
+#value:1:CON[-6+1d4]
+#value:10:RES_FIRE[1]
+#value:20:RES_COLD[1]
+#value:30:RES_ACID[1]
+#value:40:RES_ELEC[1]
+#value:1:INFRA[1+1d15]
+#player-flags:THUNDERLORD
 
 # mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
 #Permanently hallucinating (effect decreases with increased int,wis) Innate ESP
