@@ -232,6 +232,9 @@ player-flags:FAST_SHOT
 brand:5:POIS_2
 ############################
 obj-flag:25:SEE_INVIS
+value:25:STEALTH[-1]
+#value:10:INFRA[1]
+#value:25:DAM_RED[-1]
 #
 title:Fletcher
 title:Shooter
