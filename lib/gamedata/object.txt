@@ -591,8 +591,10 @@ type:mushroom
 level:5
 weight:1
 cost:150
-alloc:10:5 to 40
+alloc:5:5 to 40
 pile:70:1d4
+effect:TIMED_INC_NO_RES:IMAGE
+dice:25+5d5
 effect:TIMED_SET:TERROR
 dice:25+5d5
 effect:NOURISH:INC_BY
@@ -679,14 +681,12 @@ type:mushroom
 level:5
 weight:1
 cost:0
-alloc:10:5 to 40
+alloc:5:5 to 40
 pile:70:1d4
 effect:TIMED_SET:TERROR
 dice:25+5d5
 effect:TIMED_INC_NO_RES:IMAGE
 dice:25+5d5
-effect:TIMED_INC:SPRINT
-dice:50
 effect:TIMED_INC:STEALTH
 dice:5+1d5
 effect:NOURISH:INC_BY

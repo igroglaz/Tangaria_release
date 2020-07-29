@@ -58,7 +58,7 @@ name:Farfest
 # TOWN
 short:0_1
 wpos:0:1
-max-townies:-1
+max-townies:100
 #red tower
 symbol:obj_grass2 e
 
