@@ -228,8 +228,8 @@ type:food
 level:0
 weight:2
 cost:300
-alloc:15:1 to 20
-pile:10:1d2
+alloc:5:1 to 20
+pile:10:2d4
 effect:NOURISH:INC_BY
 dice:4
 effect:NOURISH:INC_BY
@@ -248,7 +248,7 @@ type:food
 level:0
 weight:4
 cost:0
-alloc:15:1 to 20
+alloc:5:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:10
@@ -261,7 +261,7 @@ type:food
 level:0
 weight:3
 cost:0
-alloc:15:1 to 50
+alloc:5:1 to 50
 effect:NOURISH:INC_BY
 dice:10
 msg_self:That tastes good.
@@ -274,7 +274,7 @@ type:food
 level:5
 weight:2
 cost:0
-alloc:10:5 to 60
+alloc:5:5 to 60
 pile:100:1d3
 effect:NOURISH:INC_BY
 dice:25
@@ -326,7 +326,7 @@ type:food
 level:10
 weight:10
 cost:0
-alloc:10:10 to 50
+alloc:5:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
 dice:40
@@ -340,7 +340,7 @@ type:food
 level:10
 weight:10
 cost:0
-alloc:10:10 to 50
+alloc:5:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
 dice:40
@@ -354,7 +354,7 @@ type:food
 level:20
 weight:10
 cost:0
-alloc:10:20 to 70
+alloc:5:20 to 70
 pile:40:1d3
 effect:NOURISH:INC_TO
 dice:60
@@ -369,7 +369,7 @@ type:food
 level:30
 weight:3
 cost:0
-alloc:20:30 to 100
+alloc:10:30 to 100
 pile:10:1d2
 effect:CURE:POISONED
 effect:HEAL_HP
@@ -386,7 +386,7 @@ type:food
 level:0
 weight:5
 cost:75
-alloc:20:0 to 50
+alloc:5:0 to 50
 effect:NOURISH:INC_BY
 dice:1
 effect:TIMED_INC:CONFUSED
@@ -394,6 +394,7 @@ dice:8+1d8
 effect:TIMED_INC:BOLD
 dice:50+1d20
 effect:RESTORE_STAT:STR
+effect:RESTORE_STAT:CON
 ######################
 effect:DRAIN_STAT:INT
 dice:1
@@ -424,13 +425,14 @@ type:food
 level:0
 weight:10
 cost:100
-alloc:20:0 to 50
+alloc:10:0 to 50
 effect:NOURISH:INC_BY
 dice:3
 effect:TIMED_INC:CONFUSED
 dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
+effect:RESTORE_STAT:STR
 effect:RESTORE_STAT:CON
 ########################
 effect:TIMED_INC_NO_RES:PARALYZED
@@ -456,7 +458,7 @@ type:food
 level:10
 weight:2
 cost:100
-alloc:20:10 to 50
+alloc:5:10 to 50
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
 effect:NOURISH:INC_BY
@@ -471,7 +473,7 @@ type:food
 level:20
 weight:2
 cost:0
-alloc:20:20 to 100
+alloc:5:20 to 100
 pile:10:1d3
 effect:HEAL_HP
 dice:3
@@ -488,7 +490,7 @@ type:food
 level:60
 weight:10
 cost:22000
-alloc:10:60 to 100
+alloc:5:60 to 100
 effect:GAIN_STAT:CON
 effect:GAIN_STAT:STR
 effect:RESTORE_STAT:CON
@@ -3023,7 +3025,7 @@ weight:5
 cost:0
 alloc:40:20 to 100
 pile:100:1d1
-effect:NOURISH:SET_TO
+effect:NOURISH:INC_TO
 dice:50
 
 name:Identify Rune
@@ -5666,13 +5668,14 @@ type:food
 level:0
 weight:5
 cost:50
+alloc:10:0 to 50
 effect:NOURISH:INC_BY
 dice:2
 effect:TIMED_INC:CONFUSED
 dice:1+1d8
 effect:TIMED_INC:BOLD
 dice:30+1d20
-effect:RESTORE_STAT:WIS
+effect:RESTORE_STAT:STR
 #########################
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d4
@@ -5697,7 +5700,7 @@ type:crop
 level:0
 weight:2
 cost:0
-alloc:20:1 to 20
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5710,6 +5713,7 @@ type:crop
 level:0
 weight:2
 cost:0
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5722,6 +5726,7 @@ type:crop
 level:0
 weight:2
 cost:0
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5734,6 +5739,7 @@ type:crop
 level:0
 weight:2
 cost:0
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5746,6 +5752,7 @@ type:crop
 level:0
 weight:2
 cost:0
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5758,6 +5765,7 @@ type:crop
 level:0
 weight:2
 cost:0
+alloc:5:1 to 20
 effect:HEAL_HP
 dice:1d4
 effect:NOURISH:INC_BY
@@ -5911,7 +5919,7 @@ type:food
 level:1
 weight:10
 cost:0
-alloc:10:1 to 100
+alloc:5:1 to 100
 attack:2d3:0:0
 armor:0:0
 effect:NOURISH:INC_BY
