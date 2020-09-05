@@ -3603,7 +3603,7 @@ alloc:0:15 to 127
 attack:1d1:0:0
 armor:0:0
 flags:ESP_DRAGON
-values:WIS[2]
+values:WIS[2] | SPEED[1]
 act:ANNOY_MON
 time:5+d5
 desc:A horn carved from the bones of the Dragon of Ered-Mithrin, this
