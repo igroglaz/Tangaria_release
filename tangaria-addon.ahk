@@ -38,8 +38,8 @@ WinSet, Style, -0xC40000, A
 WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 16) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;// Destroy menu:
-;//WinWait PWMAngband 1.4.0 (Beta 16)
-;//DllCall("SetMenu", uint, WinExist(), uint, 0)  ;
+;WinWait PWMAngband 1.4.0 (Beta 16)
+;DllCall("SetMenu", uint, WinExist(), uint, 0) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;// If you wish to hide first stroke of gaming window:
 ;// remove ";" at beginning of this line.
@@ -49,13 +49,14 @@ WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Beta 16) ;
 WinSet, Style, -0xC00000, Term-1 ;
 WinSet, Style, -0xC40000, Term-1 ;
 WinSet, Region, 0-30 W1920 H1080, Term-1 ; hide term header
-WinMove, Term-1, , 0, -30 ; move term-1 up
+WinMove, Term-1, , 0, -95 ; move term-1 up
 ; TERM-5
-WinSet, Region, 0-70 W1920 H1080, Term-5 ; hide term header
-WinMove, Term-5, , 1490, -103 ; move term-5 up
+WinSet, Region, 0-72 W1920 H1080, Term-5 ; hide term header
+WinMove, Term-5, , 1490, -120 ; move term-5 up
 ;;
 WinSet, Region, 0-30 W1920 H1080, ZZoom - V1.0 ;
 ;;
+
 
 ;WinSet, Region, 275-34  1660-34 1660-988 275-988, Term-6 ; could be used to cut screen from Term-6
 return ;
