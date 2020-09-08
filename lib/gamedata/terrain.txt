@@ -9,6 +9,9 @@
 # hurt-msg: damage message
 # died-flavor: flavored death message
 # die-msg: death message
+# confused-msg: message for confused monster moving into non-passable terrain
+# look-prefix: used before the name in the result from looking
+# look-in-preposition: preposition used when looking at one's own position
 # resist-flag: monster race flag for resist
 # short-desc: short description -- overrides "name" when describing a feature
 # desc: long description
@@ -71,6 +74,17 @@
 
 # 'die-msg' is the description if damaging terrain kills the player
 
+# 'confused-msg' is the description of an attempt for a monster to move into
+# non-passable terrain due to confusion
+
+# 'look-prefix' is printed before the name in the result of looking at the
+# terrain. If not set, the default is to use 'an' if the name starts with
+# a vowel or 'a' if the name does not start with a vowel.
+
+# 'look-in-preposition' is the preposition that will be used when printing
+# the result for an observer looking at the observer's grid: 'You are
+# <preposition> <prefix> <name>'. If not set, the default is to use 'on'.
+
 # 'resist-flag' is the race flag a monster must have to be able to enter
 # damaging terrain
 
@@ -95,6 +109,8 @@ graphics:+:U
 priority:21
 flags:DOOR_ANY | DOOR_CLOSED | INTERESTING
 info:0:6
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:Doors may be locked; getting through them may not be easy. Your
 desc: disarming skill makes all the difference to your ability to handle locks,
 desc: but you can also take a pickaxe to them, or blast them open
@@ -105,6 +121,7 @@ name:open door
 graphics:':U
 priority:20
 flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | CLOSABLE | EASY
+look-in-preposition:in
 desc:A door that is already open. Player, monster, spell and missile can pass
 desc: through as long as it stays open.
 
@@ -112,6 +129,7 @@ name:broken door
 graphics:':u
 priority:20
 flags:LOS | PROJECT | PASSABLE | DOOR_ANY | INTERESTING | EASY
+look-in-preposition:in
 desc:A door so broken that it cannot be shut.
 
 name:up staircase
@@ -131,6 +149,8 @@ graphics:1:U
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:1:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:The General Store sells food, ammunition and lighting supplies.
 
 name:Armoury
@@ -138,6 +158,8 @@ graphics:2:s
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:2:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:The armour sold here will give you some protection against the blows of
 desc: your enemies.
 
@@ -146,6 +168,8 @@ graphics:3:w
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:3:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:Weapons for hitting and shooting your enemies are forged in the hot, acrid
 desc: backroom of this enticing shop.
 
@@ -154,6 +178,8 @@ graphics:4:g
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:4:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:A quiet, reflective place of refuge, with priestly books and supplies of
 desc: magical and hallowed goods for the pure of heart.
 
@@ -162,6 +188,8 @@ graphics:5:b
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:5:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:A dim, scented room where potions and scrolls are traded.
 
 name:Magic Shop
@@ -169,6 +197,8 @@ graphics:6:r
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:6:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:A shop for devices with magic trapped within, lined with shelves of
 desc: mystical tomes. 
 
@@ -177,6 +207,8 @@ graphics:9:o
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:7:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:A shop that sells and buys magical and mystical books.
 
 
@@ -195,7 +227,7 @@ desc:A shop that sells and buys magical and mystical books.
 name:Halbarad, the old ranger
 graphics:@:u
 priority:24
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:8:0
 ################################################################################
 short-desc:not too old man with weathered face. He looks at you mindfully.
@@ -204,7 +236,7 @@ desc:Old ranger. He isn't glad to see you, but look at you with pity.
 name:Sonya the cat
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:9:0
 ################################################################################
 short-desc:tiny cream colored siamese cat with yellowish brown-green eyes.
@@ -213,7 +245,7 @@ desc:Cat looks at you with interest.
 name:Morinehtar the Wizard
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:10:0
 ################################################################################
 short-desc:old man with bright hazel eyes. He's a wizard it seems. No hat though
@@ -222,7 +254,7 @@ desc:.
 name:Old guard Barry
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:11:0
 ################################################################################
 short-desc:red eyed battle-scared face. It smells heavy alchohol and garlic odor
@@ -231,7 +263,7 @@ desc:.
 name:Bob the villager
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:12:0
 ################################################################################
 short-desc:middle-aged man with bright ginger hair 'n beard. He looks frightened
@@ -240,7 +272,7 @@ desc:.
 name:Marta the villager
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:13:0
 ################################################################################
 short-desc:fancy looking green-eyed woman. She is not too young, but pretty.
@@ -249,7 +281,7 @@ desc:.
 name:Shtukensia the tavernkeeper
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:14:0
 ################################################################################
 short-desc:beautiful young woman with big brown eyes and long eyelashes. *winks*
@@ -258,7 +290,7 @@ desc:.
 name:Danny the dog
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:15:0
 ################################################################################
 short-desc:old dog who growl sometimes, but looks harmless..
@@ -267,7 +299,7 @@ desc:.
 name:Arthur the Archer
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:16:0
 ################################################################################
 short-desc:young man with grey eyes and tiny beard-goatee. He grins.
@@ -276,7 +308,7 @@ desc:.
 name:Deckard Coin
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:17:0
 ################################################################################
 short-desc:very old bended man. He looks ancient, but you see sparks in his eyes
@@ -285,7 +317,7 @@ desc:.
 name:Boris the Guard
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:18:0
 ################################################################################
 short-desc:grim faced warrior with long stubble. His armour got some blood on it
@@ -294,7 +326,7 @@ desc:.
 name:Tom Bombadil
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:19:0
 ################################################################################
 short-desc:wrinkled and ruddy face, bright blue eyes and a bristling brown beard
@@ -303,7 +335,7 @@ desc:.
 name:Mr. Underhill
 graphics:h:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:20:0
 ################################################################################
 short-desc:taller than some and fairer than most, perky chap with a bright eye
@@ -312,7 +344,7 @@ desc:.
 name:Gildor
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:21:0
 ################################################################################
 short-desc:tall elf. You feel that he possess ethereal grace and various powers.
@@ -321,7 +353,7 @@ desc:.
 name:Squint-eyed Southerner
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:22:0
 ################################################################################
 short-desc:looks more than half like a goblin, full of mischief...
@@ -330,7 +362,7 @@ desc:.
 name:Bill Ferny
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:23:0
 ################################################################################
 short-desc:swarthy sneering fellow; he would sell anything to anybody
@@ -341,7 +373,7 @@ desc: he took it out of his mouth and spat.
 name:Boromir
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:24:0
 ################################################################################
 short-desc:a tall man with a fair and noble face, dark-haired and grey-eyed
@@ -350,7 +382,7 @@ desc:.
 name:Barliman
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:25:0
 ################################################################################
 short-desc:good-hearted fat man but notorious for his very bad memory
@@ -359,7 +391,7 @@ desc:.
 name:Torog
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:26:0
 ################################################################################
 short-desc:looks like a troll, more then in a half.. strong and dim-witted
@@ -368,7 +400,7 @@ desc:.
 name:Nob, a servant
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:27:0
 ################################################################################
 short-desc:"Nob! ... Where are you, you wolly-footed slow-coach?"
@@ -377,7 +409,7 @@ desc:.
 name:Rose
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:28:0
 ################################################################################
 short-desc:bright and funny little girl
@@ -388,7 +420,7 @@ desc:.
 name:NPC l
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:29:0
 ################################################################################
 short-desc:.
@@ -397,7 +429,7 @@ desc:.
 name:NPC m
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:30:0
 ################################################################################
 short-desc:.
@@ -406,7 +438,7 @@ desc:.
 name:NPC n
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:31:0
 ################################################################################
 short-desc:.
@@ -415,7 +447,7 @@ desc:.
 name:NPC o
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:32:0
 ################################################################################
 short-desc:.
@@ -424,7 +456,7 @@ desc:.
 name:NPC p
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:33:0
 ################################################################################
 short-desc:.
@@ -433,7 +465,7 @@ desc:.
 name:NPC q
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:34:0
 ################################################################################
 short-desc:.
@@ -442,7 +474,7 @@ desc:.
 name:NPC r
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:35:0
 ################################################################################
 short-desc:.
@@ -451,7 +483,7 @@ desc:.
 name:NPC s
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:36:0
 ################################################################################
 short-desc:.
@@ -460,7 +492,7 @@ desc:.
 name:NPC t
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:37:0
 ################################################################################
 short-desc:.
@@ -469,7 +501,7 @@ desc:.
 name:NPC u
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:38:0
 ################################################################################
 short-desc:.
@@ -478,7 +510,7 @@ desc:.
 name:NPC v
 graphics:@:s
 priority:18
-flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | VENDOR
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:39:0
 ################################################################################
 short-desc:.
@@ -508,6 +540,8 @@ graphics:7:D
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:40:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains.
 
@@ -516,6 +550,8 @@ graphics:7:v
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:41:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:Watch your back and hold onto your purse as you enter this disreputable
 desc: haunt - and do not expect friendly service or good bargains. Although
 desc: you may find exceptional items, be ready to spend a lot of money for
@@ -525,8 +561,10 @@ desc: them!
 name:Tavern
 graphics:8:y
 priority:24
-flags:PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | FLOOR_SAFE | OBJECT | NO_GENERATION
+flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY | FLOOR_SAFE | OBJECT | NO_GENERATION
 info:42:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:A safe place, perfect for drinking a pint of ale or two.
 
 #Home NOT WORK
@@ -535,6 +573,8 @@ graphics:0:B
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:43:0
+look-prefix:the entrance to the
+look-in-preposition:at
 desc:Your safe piece of Middle Earth, and the only place you can store goods 
 desc:apart from on your person.
 
@@ -549,6 +589,8 @@ graphics:#:w
 mimic:granite wall
 priority:11
 flags:WALL | ROCK | DOOR_ANY | GRANITE | TORCH
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A door that appears like a granite wall to untrained eyes.
 
 name:pile of rubble
@@ -556,7 +598,8 @@ graphics:::W
 priority:18
 flags:ROCK | NO_SCENT | NO_FLOW | INTERESTING | TORCH
 info:0:2
-short-desc:pile of rubble
+confused-msg:bumps into some rocks
+look-in-preposition:in
 desc:Ends LOS, stops missiles, bolts, and beams. May dissolve or be tunnelled
 desc: to normal floor.
 
@@ -565,6 +608,8 @@ graphics:%:D
 priority:15
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | MAGMA | TORCH
 info:0:3
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of soft rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -574,6 +619,8 @@ graphics:%:s
 priority:14
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | QUARTZ | TORCH
 info:0:4
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of hardish rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -583,6 +630,8 @@ graphics:*:o
 priority:19
 flags:WALL | ROCK | INTERESTING | NO_SCENT | NO_FLOW | GOLD | MAGMA
 info:0:3
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of soft rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight. It contains visible treasure.
@@ -592,6 +641,8 @@ graphics:*:y
 priority:19
 flags:WALL | ROCK | INTERESTING | NO_SCENT | NO_FLOW | GOLD | QUARTZ
 info:0:4
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of hardish rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight. It contains visible treasure.
@@ -602,6 +653,8 @@ graphics:#:W
 priority:11
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of hard rock. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -610,6 +663,8 @@ name:permanent wall
 graphics:#:z
 priority:25
 flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:You can dig through most walls but these are impenetrable. The dungeon is
 desc: surrounded by these kinds of walls and some special rooms are made of
 desc: them.
@@ -619,12 +674,13 @@ name:lava
 graphics:~:r
 priority:25
 flags:PROJECT | FIERY | PASSABLE | NO_SCENT | BRIGHT
-short-desc:fiery pool of glowing lava
-desc:A fiery pool of glowing lava. Step in it at your peril!
 hurt-msg:The lava burns you!
 died-flavor:burned to a cinder in lava
 die-msg:burning to a cinder in lava
 resist-flag:IM_FIRE
+look-prefix:some
+short-desc:fiery pool of glowing lava
+desc:A fiery pool of glowing lava. Step in it at your peril!
 
 # yellow lattice lave:
 name:solid lava
@@ -649,6 +705,8 @@ name:static dungeon town wall
 graphics:#:z
 priority:25
 flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:You can dig through most walls but these are impenetrable. Static dungeon
 desc: towns are surrounded by these kinds of walls.
 
@@ -656,6 +714,8 @@ name:house wall
 graphics:#:u
 priority:22
 flags:WALL | ROCK | PERMANENT | PLOT | NO_SCENT | NO_FLOW
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a section of wall from such
 desc: house.
@@ -664,23 +724,27 @@ name:arena wall
 graphics:#:r
 priority:25
 flags:WALL | ROCK | PERMANENT | PLOT | ARENA | NO_SCENT | NO_FLOW
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:This is a section of wall from an arena.
 
 name:water
 graphics:~:B
 priority:5
 flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
-short-desc:pool of water
-desc:A pool of water.
 hurt-msg:You are drowning!
 died-flavor:drowned
 die-msg:drowning
 resist-flag:IM_WATER
+look-prefix:some
+short-desc:pool of water
+desc:A pool of water.
 
 name:mud
 graphics:~:u
 priority:8
 flags:LOS | PROJECT | PASSABLE | BORING | EASY | NOTICEABLE
+look-prefix:some
 short-desc:slippery mud
 desc:A section of slippery mud.
 
@@ -708,83 +772,91 @@ desc:An empty ornate basin.
 name:loose dirt
 graphics:%:u
 priority:10
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | PLOT | BORING | EASY | NOTICEABLE
-short-desc:loose dirt
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | PLOT | BORING | OBJECT | EASY | NOTICEABLE
+look-prefix:some
 desc:A section of loose dirt.
 
 name:packed dirt
 graphics:.:u
 priority:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | DIRT | BORING | EASY
-short-desc:packed dirt
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | DIRT | BORING | OBJECT | EASY
+look-prefix:some
 desc:A section of packed dirt.
 
 name:lava stream
 graphics:.:r
 priority:7
 flags:LOS | PROJECT | PASSABLE | LAVA | BORING | EASY | NOTICEABLE | NO_SCENT
-desc:A stream of glowing lava.
 hurt-msg:You are hit by fire!
 died-flavor:took a bath in molten lava
 die-msg:molten lava
 resist-flag:IM_FIRE
+desc:A stream of glowing lava.
 
 name:street
 graphics:.:w
 priority:16
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
 desc:A section of street.
 
 name:pit floor
 graphics:.:D
 priority:16
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | PIT | EASY | TRAP
+flags:LOS | PROJECT | PASSABLE | FLOOR | PIT | OBJECT | EASY | TRAP
 desc:An open floor or bare ground that prevents any form of teleportation.
 
 name:grass
 graphics:.:g
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | EASY | TORCH
-short-desc:grass
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | GRASS | BORING | OBJECT | EASY | TORCH
+look-prefix:some
 desc:A patch of grass.
 
 name:crops
 graphics:%:g
 priority:10
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | PLOT | CROP | BORING | EASY | NOTICEABLE
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | PLOT | CROP | BORING | OBJECT | EASY | NOTICEABLE
 desc:A piece of land used for growing any kind of vegetables.
 
 name:tree
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
+confused-msg:bangs into a tree
+look-in-preposition:in
 desc:A tree.
 
 name:dark tree
 graphics:*:D
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
+confused-msg:bangs into a tree
+look-in-preposition:in
 desc:A withered tree.
 
 name:mountain
 graphics:^:D
 priority:6
-flags:MOUNTAIN | PREFIXED | NO_SCENT | NO_FLOW
+flags:MOUNTAIN | NO_SCENT | NO_FLOW
+confused-msg:bumps into some mountain
+look-in-preposition:in
 desc:A section of mountains.
 
 name:log
 graphics:=:u
 priority:13
-flags:ROCK | PERMANENT | PLOT | PREFIXED | NO_SCENT | NO_FLOW
+flags:ROCK | PERMANENT | PLOT | NO_SCENT | NO_FLOW
+confused-msg:bashes into a log
+look-in-preposition:in
 desc:A section of wall from a public building. It is made of wood.
 
 name:sand
 graphics:.:y
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
-short-desc:section of sand
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+look-prefix:some
 desc:A section of sand.
 
 name:sandwall
@@ -792,6 +864,8 @@ graphics:#:y
 priority:11
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | SAND
 info:0:2
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of compact sand. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -799,8 +873,8 @@ desc: sight.
 name:ice
 graphics:.:W
 priority:2
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
-short-desc:ice
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY | TORCH
+look-prefix:some
 desc:A section of ice.
 
 name:ice wall
@@ -808,6 +882,8 @@ graphics:#:W
 priority:11
 flags:WALL | ROCK | NO_SCENT | NO_FLOW | ICE
 info:0:3
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A seam of compact ice. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -828,6 +904,7 @@ name:deep water
 graphics:~:b
 priority:10
 flags:METAMAP
+look-prefix:some
 short-desc:deep water
 desc:A section of deep water.
 
@@ -846,7 +923,8 @@ desc:Lake or sea shore.
 name:border permawall
 graphics: :w
 priority:27
-flags:BORDER | PREFIXED | NO_SCENT | NO_FLOW
+flags:BORDER | NO_SCENT | NO_FLOW
+look-in-preposition:in
 desc:The border of a wilderness or town level.
 
 name:open house door
@@ -860,6 +938,8 @@ name:closed house door
 graphics:+:U
 priority:23
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 
@@ -869,6 +949,8 @@ name:closed house door (white)
 graphics:+:w
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -877,6 +959,8 @@ name:closed house door (slate)
 graphics:+:s
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -885,6 +969,8 @@ name:closed house door (orange)
 graphics:+:o
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -893,6 +979,8 @@ name:closed house door (red)
 graphics:+:r
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -901,6 +989,8 @@ name:closed house door (green)
 graphics:+:g
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -909,6 +999,8 @@ name:closed house door (blue)
 graphics:+:b
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -917,6 +1009,8 @@ name:closed house door (umber)
 graphics:+:u
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -925,6 +1019,8 @@ name:closed house door (light dark)
 graphics:+:D
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -933,6 +1029,8 @@ name:closed house door (light white)
 graphics:+:W
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -941,6 +1039,8 @@ name:closed house door (light purple)
 graphics:+:P
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -949,6 +1049,8 @@ name:closed house door (yellow)
 graphics:+:y
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -957,6 +1059,8 @@ name:closed house door (light red)
 graphics:+:R
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -965,6 +1069,8 @@ name:closed house door (light green)
 graphics:+:G
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -973,6 +1079,8 @@ name:closed house door (light blue)
 graphics:+:B
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -981,6 +1089,8 @@ name:closed house door (light umber)
 graphics:+:U
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -989,6 +1099,8 @@ name:closed house door (purple)
 graphics:+:p
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -997,6 +1109,8 @@ name:closed house door (violet)
 graphics:+:v
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1005,6 +1119,8 @@ name:closed house door (teal)
 graphics:+:t
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1013,6 +1129,8 @@ name:closed house door (mud)
 graphics:+:m
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1021,6 +1139,8 @@ name:closed house door (light yellow)
 graphics:+:Y
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1029,6 +1149,8 @@ name:closed house door (magenta)
 graphics:+:i
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1037,6 +1159,8 @@ name:closed house door (light teal)
 graphics:+:T
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1045,6 +1169,8 @@ name:closed house door (light violet)
 graphics:+:V
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1053,6 +1179,8 @@ name:closed house door (light pink)
 graphics:+:I
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1061,6 +1189,8 @@ name:closed house door (mustard)
 graphics:+:M
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1069,6 +1199,8 @@ name:closed house door (blue slate)
 graphics:+:z
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1077,6 +1209,8 @@ name:closed house door (deep light blue)
 graphics:+:Z
 priority:24
 flags:DOOR_HOME | DOOR_CLOSED | INTERESTING
+confused-msg:bangs into a door
+look-in-preposition:in
 desc:A safe piece of Middle Earth, and the only place you can store goods
 desc: safely apart from on your person. This is a closed door from such house.
 desc: Objects dropped inside can be sold to other players.
@@ -1086,7 +1220,8 @@ desc: Objects dropped inside can be sold to other players.
 name:ash
 graphics:.:s
 priority:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
+look-prefix:some
 short-desc:ash
 desc:A section of ash.
 
@@ -1094,18 +1229,21 @@ name:nether mist
 graphics:.:G
 priority:5
 flags:LOS | PROJECT | PASSABLE | BORING | EASY | NOTICEABLE | NETHER | NO_SCENT
-short-desc:patch of nether mist
-desc:Some nether mist.
 hurt-msg:The mist saps your health!
 died-flavor:was sucked dry by nether mist
 die-msg:nether mist
 resist-flag:IM_NETHER
+look-prefix:some
+short-desc:patch of nether mist
+desc:Some nether mist.
 
 name:dark wall
 graphics:#:s
 priority:11
 flags:WALL | ROCK | DARK | NO_SCENT | NO_FLOW
 info:0:5
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A dark wall. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
@@ -1123,7 +1261,8 @@ desc: to normal floor, and can be walked through by the player and monsters.
 name:void
 graphics:.:d
 priority:3
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | OBJECT | EASY
+look-prefix:some
 short-desc:nothingness
 desc:A section of nothingness.
 
@@ -1131,6 +1270,8 @@ name:glass wall
 graphics:#:B
 priority:25
 flags:WALL | ROCK | PERMANENT | NO_SCENT | NO_FLOW
+confused-msg:bashes into a wall
+look-in-preposition:in
 desc:A glass wall blocking your way.
 
 name:illusion wall
@@ -1149,6 +1290,7 @@ name:training grounds
 graphics:.:o
 priority:3
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | BORING | EASY
+look-prefix:some
 short-desc:training grounds
 desc:Training grounds suitable for training.
 
@@ -1935,7 +2077,7 @@ desc:A withered tree stump.
 name:tree 1
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
 short-desc:common tree. It's got thick leaves and strong roots.
 info:0:1
@@ -1953,7 +2095,7 @@ desc:A little tree.
 name:tree 3
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
 short-desc:tree. Its stretch it's brances to the sun and whispers to a wind...
 info:0:1
@@ -1962,7 +2104,7 @@ desc:A tree.
 name:tree 4 maple
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:maple tree. Its spiky leaves outlines reminds you about childhood.
@@ -1971,7 +2113,7 @@ desc:A maple tree.
 name:tree 5 maple
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:strong maple. It will hold a house on it's branches. Lets climb it?
@@ -1980,7 +2122,7 @@ desc:A maple tree.
 name:tree 6 coniferous
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:fir-tree. Sweetish smell of fresh resin and needles make you happy.
@@ -1999,7 +2141,7 @@ desc:.
 name:tree 8 coniferous
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:coniferous tree
@@ -2008,7 +2150,7 @@ desc:.
 name:tree 9 willow
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:willow tree
@@ -2044,7 +2186,7 @@ desc:.
 name:tree d birch
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:birch tree
@@ -2053,7 +2195,7 @@ desc:.
 name:tree e linden
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:linden tree
@@ -2071,7 +2213,7 @@ desc:.
 name:tree g larch
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:larch tree
@@ -2098,7 +2240,7 @@ desc:.
 name:tree j gervais
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:acacia tree
@@ -2116,7 +2258,7 @@ desc:.
 name:tree l palm
 graphics:*:g
 priority:4
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:palm tree
@@ -2134,7 +2276,7 @@ desc:.
 name:tree n dead tree
 graphics:*:D
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -2143,7 +2285,7 @@ desc:.
 name:tree o dead tree
 graphics:*:D
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -2282,7 +2424,7 @@ desc:.
 name:tree D tree
 graphics:*:g
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -2291,7 +2433,7 @@ desc:.
 name:tree E tree
 graphics:*:g
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -2300,7 +2442,7 @@ desc:.
 name:tree F tree
 graphics:*:g
 priority:9
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -2446,7 +2588,7 @@ desc:.
 name:tree V
 graphics:*:W
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -2455,7 +2597,7 @@ desc:.
 name:tree W
 graphics:*:W
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -2464,7 +2606,7 @@ desc:.
 name:tree X
 graphics:*:W
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -2473,7 +2615,7 @@ desc:.
 name:tree Y
 graphics:*:W
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -3204,7 +3346,7 @@ desc:.
 name:A5 plants N
 graphics:#:u
 priority:18
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
 info:0:1
 short-desc:fir-tree
@@ -21367,7 +21509,7 @@ name:E7 desert 1
 graphics:*:g
 priority:18
 info:0:1
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:palm
 desc:.
@@ -21385,7 +21527,7 @@ name:E7 desert 3
 graphics:*:g
 priority:18
 info:0:1
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:cactus
 desc:.
@@ -21403,7 +21545,7 @@ name:E7 desert 5
 graphics:*:g
 priority:18
 info:0:1
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:acacia
 desc:.
@@ -21421,7 +21563,7 @@ name:E7 desert 7
 graphics:*:D
 priority:18
 info:0:1
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
 desc:.
@@ -21430,7 +21572,7 @@ name:E7 desert 8
 graphics:*:D
 priority:18
 info:0:1
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
 desc:.
@@ -22476,7 +22618,7 @@ name:EB dirt d
 graphics:*:D
 priority:18
 info:0:1
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
@@ -22484,7 +22626,7 @@ name:EB dirt e
 graphics:*:D
 priority:18
 info:0:1
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
@@ -23548,7 +23690,7 @@ desc:.
 name:EF dirt Q
 graphics:*:g
 priority:11
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:fir-tree
 desc:.
@@ -23564,7 +23706,7 @@ desc:.
 name:EF dirt S
 graphics:*:g
 priority:11
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:fir-tree
 desc:.
@@ -23610,7 +23752,7 @@ desc:.
 name:EF dirt Y
 graphics:*:u
 priority:11
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:withered fir-tree
 desc:.
@@ -23618,7 +23760,7 @@ desc:.
 name:EF dirt Z
 graphics:*:u
 priority:11
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:withered fir-tree
 desc:.
@@ -23626,7 +23768,7 @@ desc:.
 name:EF dirt ~
 graphics:*:u
 priority:11
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:withered fir-tree
 desc:.
@@ -23634,7 +23776,7 @@ desc:.
 name:EF dirt `
 graphics:*:u
 priority:11
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 short-desc:withered fir-tree
 desc:.
@@ -23951,7 +24093,7 @@ desc:.
 name:F1 snow 1
 graphics:*:g
 priority:18
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
 ################################################################################
 short-desc:fir-tree
@@ -23960,7 +24102,7 @@ desc:.
 name:F1 snow 2
 graphics:*:g
 priority:18
-flags:TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
 ################################################################################
 short-desc:fir-tree
@@ -24067,7 +24209,7 @@ desc:.
 name:F1 snow f
 graphics:*:D
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -24076,7 +24218,7 @@ desc:.
 name:F1 snow g
 graphics:*:D
 priority:18
-flags:TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -27755,7 +27897,7 @@ name:EB dirt F2W d
 graphics:*:D
 priority:18
 info:0:1
-flags:NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
@@ -27763,7 +27905,7 @@ name:EB dirt F2W e
 graphics:*:D
 priority:18
 info:0:1
-flags:NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW
 short-desc:withered tree
 desc:Withered tree.
 
@@ -28671,7 +28813,7 @@ name:E7 desert F2W 1
 graphics:*:g
 priority:18
 info:0:1
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:palm
 desc:.
@@ -28689,7 +28831,7 @@ name:E7 desert F2W 3
 graphics:*:g
 priority:18
 info:0:1
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:cactus
 desc:.
@@ -28707,7 +28849,7 @@ name:E7 desert F2W 5
 graphics:*:g
 priority:18
 info:0:1
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:acacia
 desc:.
@@ -28725,7 +28867,7 @@ name:E7 desert F2W 7
 graphics:*:D
 priority:18
 info:0:1
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
 desc:.
@@ -28734,7 +28876,7 @@ name:E7 desert F2W 8
 graphics:*:D
 priority:18
 info:0:1
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW
 ################################################################################
 short-desc:dry tree
 desc:.
@@ -29687,7 +29829,7 @@ desc:A withered tree stump.
 name:tree F2W 1
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
 short-desc:common tree. It's got thick leaves and strong roots.
 info:0:1
@@ -29705,7 +29847,7 @@ desc:A little tree.
 name:tree F2W 3
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
 short-desc:tree. Its stretch it's brances to the sun and whispers to a wind...
 info:0:1
@@ -29714,7 +29856,7 @@ desc:A tree.
 name:tree F2W 4 maple
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:maple tree. Its spiky leaves outlines reminds you about childhood.
@@ -29723,7 +29865,7 @@ desc:A maple tree.
 name:tree F2W 5 maple
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:strong maple. It will hold a house on it's branches. Lets climb it?
@@ -29732,7 +29874,7 @@ desc:A maple tree.
 name:tree F2W 6 coniferous
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:fir-tree. Sweetish smell of fresh resin and needles make you happy.
@@ -29751,7 +29893,7 @@ desc:.
 name:tree F2W 8 coniferous
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:coniferous tree
@@ -29760,7 +29902,7 @@ desc:.
 name:tree F2W 9 willow
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:willow tree
@@ -29796,7 +29938,7 @@ desc:.
 name:tree F2W d birch
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:birch tree
@@ -29805,7 +29947,7 @@ desc:.
 name:tree F2W e linden
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:linden tree
@@ -29823,7 +29965,7 @@ desc:.
 name:tree F2W g larch
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:larch tree
@@ -29850,7 +29992,7 @@ desc:.
 name:tree F2W j gervais
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:acacia tree
@@ -29868,7 +30010,7 @@ desc:.
 name:tree F2W l palm
 graphics:*:g
 priority:4
-flags:NO_STAIRS | NO_GENERATION | TREE | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:palm tree
@@ -29886,7 +30028,7 @@ desc:.
 name:tree F2W n dead tree
 graphics:*:D
 priority:9
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -29895,7 +30037,7 @@ desc:.
 name:tree F2W o dead tree
 graphics:*:D
 priority:9
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:dead tree
@@ -30034,7 +30176,7 @@ desc:.
 name:tree F2W D tree
 graphics:*:g
 priority:9
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -30043,7 +30185,7 @@ desc:.
 name:tree F2W E tree
 graphics:*:g
 priority:9
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -30052,7 +30194,7 @@ desc:.
 name:tree F2W F tree
 graphics:*:g
 priority:9
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:tree
@@ -30198,7 +30340,7 @@ desc:.
 name:tree F2W V
 graphics:*:W
 priority:18
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -30207,7 +30349,7 @@ desc:.
 name:tree F2W W
 graphics:*:W
 priority:18
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -30216,7 +30358,7 @@ desc:.
 name:tree F2W X
 graphics:*:W
 priority:18
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
@@ -30225,7 +30367,7 @@ desc:.
 name:tree F2W Y
 graphics:*:W
 priority:18
-flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | PREFIXED | NO_SCENT | NO_FLOW | BORING
+flags:NO_STAIRS | NO_GENERATION | TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
 ################################################################################
 short-desc:withered tree
