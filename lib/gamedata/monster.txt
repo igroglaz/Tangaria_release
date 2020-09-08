@@ -18186,9 +18186,8 @@ flags:NO_CONF | NO_FEAR
 flags:FORCE_DEPTH | FORCE_SLEEP
 spell-freq:5
 innate-freq:29
-spells:BA_WATE
 spells:BO_WATE | BO_ICE
-spells:BR_POIS | BR_WATE
+spells:BR_POIS
 spells:HOLD | TELE_TO
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to 
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
