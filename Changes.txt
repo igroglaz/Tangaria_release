@@ -50,7 +50,7 @@ PWMAngband Forum: http://www.mangband.org/forum/viewforum.php?f=9
 Features from Angband 4.x and MAngband 1.x are explicitely mentioned. Other
 changes and fixes are specific to PWMAngband.
 
-New features in PWMAngband 1.4.0 beta 16
+New features in PWMAngband 1.4.0 build 1
 ========================================
 
 User interface
@@ -86,6 +86,11 @@ Angband 4.2.x:
 - Add option to sort monsters by experience instead of depth in the monster list
 - Allow alter command to close doors and open chests
 - Only describe brands and slays that come from the object
+- Don't automatically repeat the digging command if there's no chance to clear
+  the obstacle
+- Use a white asterisk rather than an orange asterisk for detected gold lying
+  on the floor
+- Add terrain configuration items to help phrase messages for looking/targeting
 
 PWMAngband:
 
@@ -111,6 +116,9 @@ PWMAngband:
 - Add message when using chargeable items from the ground
 - Add message for projected damage if show_damage option is set
 - Add time limit of 7 days on Expensive Black Market orders
+- Add preferred price info (BM price) when inspecting identified items
+- Use "askprice" for worthless items when selling in player shops
+- Add LEVEL_FEELINGS server option to hide or limit level feelings
 
 Gameplay changes
 ----------------
@@ -192,6 +200,19 @@ Angband 4.2.x:
 - Use to-hit skill instead of player level in critical calculation
 - Add 'line of sight' through rock, improve PASS_WALL monster behaviour near
   permanent walls
+- Use ARC for wands of Dragon's Breath etc, allowing device boost
+- Drop the empty lantern after refueling if there's no room in the pack
+- Allow confused monster to move into non-passable terrain (+ message)
+- Allow monster to hit player/decoy standing in non-passable terrain
+- Allow a monster's confusion to affect breath targeting
+- Increase the damage on Dispel Evil and Undead
+- Increase chest frequency
+- Make healing potions that used to add to food cost food
+- Stop trampling of uniques
+- For spell decisions in mon-attack.c, use the decoy position, if it is present
+- Set so smart monsters won't use TELE_SELF_TO when next to the target
+- Turn fear into hold if a monster has nowhere to run
+- Don't allow a monster to cast if the player cannot witness the attack
 
 PWMAngband:
 
@@ -238,6 +259,11 @@ PWMAngband:
 - Allow "fire at nearest" command to throw missiles when no launcher is equipped
 - Add HOUSE_FLOOR_SIZE server option to limit the size of object piles in houses
 - Make ego torches more common
+- Remove 2x XBM price cap on items for sale in player shops
+- Add store:home-inven-max in constants.txt to set home capacity on servers
+  with access to houses
+- Add lab-depth parameter in constants.txt to set the depth where labyrinths
+  start to be generated unlit/unknown
 
 Bugs fixed
 ----------
@@ -272,6 +298,13 @@ PWMAngband:
 - Fix critical bug that made wraithed players totally invisible to monsters
 - Fix ghostly powers for deceased warriors/unbelievers/monks
 - Fix OPP_CONF timed effect not ending properly
+- Fix ID-by-use not working on Identify scrolls
+- Fix a mon->cdis instance used in MvM code instead of target_m_dis
+- Fix water resistance not being able to be learned as a rune
+- Fix broken ENLIGHTENMENT effect
+- Fix level feeling squares not set for a player entering a level with another
+  player on it
+- Add hack to try fixing keypresses not being processed in some cases
 
 Coding changes
 --------------
@@ -305,6 +338,11 @@ Angband 4.2.x:
 - Tightened code for unique generation
 - Small optimisation for resting
 - Add sval validity check in parse_ego_item()
+- Only forget floors when going dark in cave_illuminate()
+- Add check for failed ego search in brand_object()
+- Move describe_effect() code to effects-info.c
+- Add handling for unrevealed mimics in push_object()
+- Change names of BLOWS and MOVES modifiers
 
 PWMAngband:
 
@@ -321,14 +359,13 @@ PWMAngband:
 - Switch tval/sval pair from byte to u16b
 - Don't close VERSION_BETA servers if an object cannot be placed, but just
   discard the object
-- Allow full home capacity on VERSION_BETA servers
 - Don't generate custom stores in the base town
 - Put gold drop rates for no_selling servers into level_golds.txt
 - Save player id counter + player names in a separate file
 - Check saved password vs provided password when loading player savefile
 - Remove duplicates from the player name database when loading player names
 - Use new player id if player id already exists in the player name database
-  when loading player savefile
+  when player logs in
 - Move decrease_timeouts() before process_pending_commands() to make effects
   last the proper amount of turns
 
@@ -339,3 +376,5 @@ Compilation
 - Add README file
 - Update help
 - Improve datafile documentation
+- Upgrade FREETYPE to version 2.10.2
+- Upgrade PYTHON to version 2.7.18
