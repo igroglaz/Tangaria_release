@@ -18189,6 +18189,10 @@ innate-freq:29
 spells:BO_WATE | BO_ICE
 spells:BR_POIS
 spells:HOLD | TELE_TO
+friends:100:2d1:giant octopus:servant
+friends:100:1d1:seahorse:servant
+friends:100:1d1:giant squid:servant
+friends:100:2d1:mermaid
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to 
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
 locations:The Small Watery Cave
