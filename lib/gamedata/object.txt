@@ -3438,6 +3438,14 @@ effect:TIMED_INC:OPP_CONF
 dice:1d1
 effect:NOURISH:DEC_BY
 dice:1
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
+effect:RANDOM
+dice:4
 
 name:Cure Serious Wounds
 graphics:!:d
@@ -3456,6 +3464,12 @@ effect:TIMED_INC:OPP_CONF
 dice:1d1
 effect:NOURISH:DEC_BY
 dice:1
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
+effect:RANDOM
+dice:3
 
 name:Cure Critical Wounds
 graphics:!:d
@@ -3477,6 +3491,10 @@ effect:TIMED_INC:OPP_CONF
 dice:1d1
 effect:NOURISH:DEC_BY
 dice:1
+effect:NOURISH:INC_BY
+dice:0
+effect:RANDOM
+dice:2
 
 name:Healing
 graphics:!:d
@@ -3496,12 +3514,6 @@ effect:HEAL_HP
 dice:300+m35
 effect:NOURISH:DEC_BY
 dice:1
-effect:NOURISH:INC_BY
-dice:0
-effect:NOURISH:INC_BY
-dice:1
-effect:RANDOM
-dice:3
 
 name:*Healing*
 graphics:!:d
@@ -3518,14 +3530,8 @@ effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP
 dice:1200
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:INC_BY
-dice:0
 effect:NOURISH:INC_BY
 dice:1
-effect:RANDOM
-dice:3
 
 name:Life
 graphics:!:d
@@ -3550,14 +3556,8 @@ effect:CURE:POISONED
 effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:RESTORE_EXP
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:INC_BY
-dice:0
 effect:NOURISH:INC_BY
 dice:1
-effect:RANDOM
-dice:3
 msg_self:You feel life flow through your body!
 
 name:Neutralize Poison
