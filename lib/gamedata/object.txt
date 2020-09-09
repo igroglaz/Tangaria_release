@@ -3663,8 +3663,7 @@ type:potion
 level:25
 weight:4
 cost:0
-alloc:40:25 to 100
-pile:25:2
+alloc:20:25 to 100
 effect:LIGHT_LEVEL:NONE:1
 effect:RESTORE_EXP
 effect:TIMED_INC_NO_RES:PARALYZED
@@ -3680,7 +3679,7 @@ type:potion
 level:70
 weight:4
 cost:0
-alloc:8:70 to 100
+alloc:4:70 to 100
 effect:DETECT_ALL_MONSTERS
 effect:DETECT_TREASURES:NONE:1
 effect-yx:22:40
@@ -6213,7 +6212,7 @@ type:ring
 level:10
 weight:2
 cost:100
-alloc:10:10 to 127
+alloc:3:10 to 127
 values:POLY_RACE[d1000]
 effect:POLY_RACE
 
