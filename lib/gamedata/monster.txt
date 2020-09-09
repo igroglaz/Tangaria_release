@@ -2590,11 +2590,33 @@ flags:UNIQUE | FEMALE | PWMANG_FIXED
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:FORCE_DEPTH
 friends:100:1d3:rattlesnake:servant
+spells:SHAPECHANGE
+shape:Vasilisa the Beautiful
 desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
 desc:jutting jaw that shows off her iron teeth.
 desc:She is skinny, like a skeleton, with a bony leg.
 desc:She knows how to turn from old into young in a blink of an eye.
 desc: She likes her ssssnakes.
+locations:The Mountain Gorge
+
+name:Vasilisa the Beautiful
+base:humanoid
+color:U
+speed:115
+hit-points:60
+hearing:16
+armor-class:12
+sleepiness:30
+depth:5
+rarity:0
+weight:0
+experience:90
+blow:HIT:SEDUCE:1d8
+blow:HIT:HURT:1d8
+flags:UNIQUE | FEMALE | PWMANG_FIXED
+flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:FORCE_DEPTH
+desc:Beautiful girl with long hair. She give you a wink..
 locations:The Mountain Gorge
 
 name:Bullroarer the Hobbit
