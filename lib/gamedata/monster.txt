@@ -2590,6 +2590,7 @@ flags:UNIQUE | FEMALE | PWMANG_FIXED
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:FORCE_DEPTH
 friends:100:1d3:rattlesnake:servant
+spell-freq:3
 spells:SHAPECHANGE
 shape:Vasilisa the Beautiful
 desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
