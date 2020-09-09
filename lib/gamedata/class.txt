@@ -1182,6 +1182,8 @@ effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
+effect:NOURISH:DEC_BY
+dice:3
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -1761,6 +1763,8 @@ effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
+effect:NOURISH:DEC_BY
+dice:3
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -2754,6 +2758,8 @@ effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
+effect:NOURISH:DEC_BY
+dice:3
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -3306,6 +3312,8 @@ effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
+effect:NOURISH:DEC_BY
+dice:3
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 

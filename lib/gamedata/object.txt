@@ -3672,6 +3672,8 @@ effect:TIMED_INC_NO_RES:BLIND
 dice:3+1d6
 effect:TIMED_INC_NO_RES:IMAGE
 dice:9+1d18
+effect:NOURISH:DEC_BY
+dice:5
 
 name:*Enlightenment*
 graphics:!:d
@@ -3693,6 +3695,8 @@ effect:TIMED_INC_NO_RES:PARALYZED
 dice:1d1
 effect:TIMED_INC_NO_RES:IMAGE
 dice:6+1d12
+effect:NOURISH:DEC_BY
+dice:5
 
 ### Buffs ###
 
