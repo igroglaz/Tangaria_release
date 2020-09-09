@@ -336,7 +336,7 @@ always:fortune cookie:north-east from my tavern. But I don't complain..
 always:fortune cookie:Finally I could get a few coins by selling some
 always:fortune cookie:of this goods.. Take a look at them...
 #######################################################################
-normal:fortune cookie:Be careful in Mountain Passage to the east..
+normal:fortune cookie:Be careful in Mountain Gorge to the east..
 normal:fortune cookie:I didn't visit town for some time already..
 normal:fortune cookie:Maybe its time for me to go on adventure with you
 #######################################################################
@@ -370,7 +370,7 @@ welcome:6:looks at you with interest.
 welcome:7:looks at you with interest.
 welcome:8:looks at you with interest.
 #######################################################################
-always:fortune cookie:(you take cat on your hands..)
+always:fortune cookie:(you take the cat in your arms..)
 normal:fortune cookie:meow
 normal:fortune cookie:*purrr*
 #######################################################################
@@ -409,7 +409,7 @@ always:scroll:Detect Invisible
 #######################################################################
 normal:fortune cookie:*sings* Once I came to the land of dreams...
 normal:fortune cookie:*sings* Three trolls.. In the forest of mourn..
-normal:fortune cookie:*sings* Don ya tell me wat todo, little fairy..
+normal:fortune cookie:*sings* Don ya tell me wat to do, little fairy..
 normal:fortune cookie:Did ya know there is a secret passage nearby? shh
 buy:flask
 
@@ -427,13 +427,16 @@ always:fortune cookie:(it appeared to be a mirror to hide from arrows)
 always:fortune cookie:Oh! A human-beign! Are you in union with this
 always:fortune cookie:cave orcs?! Darn orcish beasts! Filthy maggots!
 always:fortune cookie:...Erm.. Anyway. Got any tabacco, mate?
-always:fortune cookie:I got plety of food there, but no darn weed to
-always:fortune cookie:fill my pipe.. I'm alone there you see..
+always:fortune cookie:I got plenty of food there, but no darn weed to
+always:fortune cookie:fill my pipe.. I'm alone there, you see..
 always:fortune cookie:All horizon run away back to town on the west 
 always:fortune cookie:months ago.. Filthy cowards! Went back to mommy!
 always:fortune cookie:But I won't run from this stupid orcish beasts!
 always:fortune cookie:They would know how to come to The Guards Tower!!
 always:fortune cookie:Darn.. Are you pretty sure ya don have any weed?
+always:fortune cookie:I see.. *sight* You are not the first who came..
+always:fortune cookie:Anyway If you wanna hunt some orcs - get to
+always:fortune cookie:their cave on the west from the lake..
 #######################################################################
 normal:fortune cookie:Long time ago this was a heart of trade ways..
 normal:fortune cookie:It was well guarded dwarven trade route.. 
@@ -451,7 +454,7 @@ owner:5000:Bob the villager (Human)
 slots:0:1
 turnover:1
 #######################################################################
-always:fortune cookie:Hello, stranger. Don'y you mind to put your
+always:fortune cookie:Hello, stranger. Don't you mind to put your
 always:fortune cookie:weapons away, to sheath them.. I don't like
 always:fortune cookie:people going around with all this fighting stuff.
 always:fortune cookie:Erhh. Even villagers like me nowadays took
@@ -464,7 +467,7 @@ always:fortune cookie:It doesn't help though. Nothing help..
 #######################################################################
 normal:fortune cookie:I can't sell you food, adventurer.
 normal:fortune cookie:I don't need you gold. There is no food. NO FOOD.
-normal:fortune cookie:My pumpkin's were famous all over Middle-lands!
+normal:fortune cookie:My pumpkin's were famous all over Middle-Lands!
 normal:fortune cookie:And now I'm broken. People kill for food.
 buy:flask
 
@@ -498,7 +501,7 @@ always:fortune cookie:came there.. At your place I wouldn't come to
 always:fortune cookie:this lands even for all gold of the world.
 always:fortune cookie:Anyway.. In short words - gods cursed us.
 always:fortune cookie:*whispers* (they say). No one knows really.
-always:fortune cookie:Fields doesn't provide yeild anymore..
+always:fortune cookie:Fields don't provide yeild anymore..
 always:fortune cookie:All cattle died by unknown diseases.
 always:fortune cookie:So bag of wheat cost more then two bags of gold.
 always:fortune cookie:Eeh.. But we still got some booze left.. *hic*
@@ -540,7 +543,7 @@ welcome:8:looks at you with interest.
 #######################################################################
 normal:fortune cookie:(you are trying to pat the dog)
 normal:fortune cookie:(the dog carefully sniff your arm)
-normal:fortune cookie:(the dog give you to pat it on the head)
+normal:fortune cookie:(the dog allow you to pat it on the head)
 normal:fortune cookie:(the dog wing it's tail)
 normal:fortune cookie:Gaf-gaf!
 normal:fortune cookie:Bow-vo!
@@ -558,15 +561,15 @@ turnover:1
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
 always:fortune cookie:Hm. Hello. I'm Archy - and who are you?
-always:fortune cookie:Oh.. A hero. Alrihgt. Can you shoot with a bow?
-always:fortune cookie:Nevermind. I don't need to hear your answer.
+always:fortune cookie:Oh.. A hero. Alright. Can you shoot with a bow?
+always:fortune cookie:Crossbow? Catapult? Haha! Anyway..
 always:fortune cookie:If ya can't shoot - then try to throw rocks.
 always:fortune cookie:Still effective way to survive. Just dont forget
 always:fortune cookie:Dont become a dead hero. Run. Use plan B. Escape.
 always:fortune cookie:Good hero - is alive hero. You won't help the
 always:fortune cookie:world if you would die. Many tried...
 #######################################################################
-normal:fortune cookie:*Grins* dont run from archer. You would die tired
+normal:fortune cookie:*Grins* Dont run from archer. You will die tired!
 normal:fortune cookie:Your strength is in your guts, not muscles..
 normal:fortune cookie:An dont forget to bring me some ale from sewers..
 #######################################################################
@@ -600,9 +603,9 @@ slots:0:10
 turnover:1
 #######################################################################
 always:fortune cookie:Stay awhile.. Er.. Wait.. Come closer, young men
-always:fortune cookie:or woman? I can not see well..
-always:fortune cookie:(Old man hears your voice) Oh. Hello, friend.
-always:fortune cookie:I am headman of this village. Groger is my name.
+always:fortune cookie:or woman? I can not see well.. Damn manuscripts!
+always:fortune cookie:(Old man hears your voice) Oh. Hello there.
+always:fortune cookie:I am headman of this village. Deckard is my name.
 always:fortune cookie:And we are not doing well, you know. All this
 always:fortune cookie:food problem and everything.. But we get used to
 always:fortune cookie:it. I love mushrooms, you know.. But there is
@@ -612,7 +615,7 @@ always:fortune cookie:Could you help us with it? I heard they got
 always:fortune cookie:plenty of gold..and what is more important - food
 always:fortune cookie:down there.. You will find severs to the east of
 always:fortune cookie:our village. 
-always:fortune cookie:Take care, friend.. And good luck..
+always:fortune cookie:Take care, friend.. And good luck to thee..
 #######################################################################
 normal:fortune cookie:There always were a lot of criminal.. But not so.
 normal:fortune cookie:We thought the worse was lack of food...
@@ -638,13 +641,18 @@ always:fortune cookie:Stranger, don't make trouble in our town..
 always:fortune cookie:Or I'll take care of you.
 always:fortune cookie:... 
 always:fortune cookie:You look tought.
+always:fortune cookie:I hope you won't make trouble.
 always:fortune cookie:Mind to help us in this dire days? 
 always:fortune cookie:I wanna point out immideatelly - we don't recruit
-always:fortune cookie:to the guard. Magirstare has to cut our funds
-always:fortune cookie:recently.. I got jnly a few mushrooms per week..
+always:fortune cookie:to the guard. Magistrate has to cut our funds
+always:fortune cookie:recently.. I got only a few mushrooms per day..
 always:fortune cookie:Aa-ah. Anyway. We need a hand with all this 
-always:fortune cookie:madness happening around.
-always:fortune cookie: I hope you won't make trouble.
+always:fortune cookie:madness happening around. Our mayor is missing..
+always:fortune cookie:Last time he was seen coming to the Hunter Valley
+always:fortune cookie:to the south-east to visit Old Sorcerer, to ask
+always:fortune cookie:him to help us with wraiths from the north..
+always:fortune cookie:Maybe you can help to find him? I can't go myself
+always:fortune cookie:as I need to protect this town...
 #######################################################################
 normal:fortune cookie:Years ago I was an adventurer myself.. But..
 normal:fortune cookie:Life is tought. I had enought scars on my face.
@@ -810,9 +818,13 @@ owner:5000:Gildor
 slots:0:1
 turnover:1
 #######################################################################
+always:fortune cookie:Elves seldom give unguarded advice...
 always:fortune cookie:Advice is a dangerous gift,
 always:fortune cookie:even from the wise to the wise,
 always:fortune cookie:and all courses may run ill.
+always:fortune cookie:The wide world is all about you -
+always:fortune cookie:you can fence yourselves in,
+always:fortune cookie:but you cannot forever fence it out.
 #######################################################################
 normal:fortune cookie:Courage is found in unlikely places.
 normal:fortune cookie:Do not meddle in the affairs of Wizards...
@@ -830,6 +842,9 @@ always:fortune cookie:Errr...
 normal:fortune cookie:Who are you?
 normal:fortune cookie:Anyway..
 normal:fortune cookie:*spits*
+normal:fortune cookie:Kek..
+normal:fortune cookie:*whispers* All this damn rag-tag danglers..
+normal:fortune cookie:And this thatched barn...
 buy:flask
 
 store:Bill Ferny
@@ -891,7 +906,7 @@ owner:5000:Torog
 slots:0:1
 turnover:1
 #######################################################################
-always:fortune cookie:Eat. Me. Hungry.
+always:fortune cookie:Give. Eat. Me. Hungry.
 #######################################################################
 normal:fortune cookie:*blowing his nose*
 normal:fortune cookie:*burps*
