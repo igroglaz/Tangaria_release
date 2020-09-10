@@ -3810,7 +3810,7 @@ dice:50+2d6
 effect:CURE:BLIND
 effect:TIMED_INC:IMAGE
 dice:1d2
-msg_self:*Boom!* For a moment you had stars in your eyes..
+msg_self:This tastes like slime mold juice.
 
 name:Infravision
 graphics:!:d
@@ -3832,6 +3832,7 @@ effect:NOURISH:INC_BY
 dice:1
 effect:RANDOM
 dice:3
+msg_self:*Boom!* For a moment you had stars in your eyes..
 
 name:Invisibility
 graphics:!:d
@@ -3884,6 +3885,7 @@ alloc:10:1 to 10
 pile:70:1d3
 effect:NOURISH:INC_BY
 dice:10
+effect:CURE:BLIND
 msg_self:You feel less thirsty.
 
 name:Sleep
