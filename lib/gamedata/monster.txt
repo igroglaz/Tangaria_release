@@ -5565,6 +5565,25 @@ desc: scales shimmering blue.
 
 ### Dungeon level 13 ###
 
+name:giant gnat
+base:killer beetle
+color:u
+speed:120
+hit-points:66
+hearing:10
+smell:30
+armor-class:50
+sleepiness:30
+depth:13
+rarity:7
+weight:1
+experience:50
+blow:BITE:HURT:1d2
+blow:BITE:HURT:1d2
+blow:BITE:HURT:1d2
+flags:HURT_FIRE | RAND_50
+desc:Nasty oversized fly which moves very erratically and very quickly.
+
 name:baby multi-hued dragon
 base:dragon
 color:v
