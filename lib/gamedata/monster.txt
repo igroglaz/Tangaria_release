@@ -4879,6 +4879,30 @@ desc:A very large and bloodthirsty fish.
 
 ### Dungeon level 11 ###
 
+name:hobgoblin
+base:orc
+color:U
+speed:110
+hit-points:48
+hearing:20
+smell:20
+armor-class:38
+sleepiness:70
+depth:11
+rarity:7
+weight:160
+experience:35
+blow:HIT:HURT:1d10
+blow:HIT:HURT:1d10
+flags:DROP_20
+flags:HURT_LIGHT
+flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
+spell-freq:15
+innate-freq:100
+spells:BOULDER
+desc:An unusual breed of goblins... It's got a huge sling
+desc:in it's long arms that nearly reach the floor.
+
 name:hippogriff
 base:hybrid
 color:U
