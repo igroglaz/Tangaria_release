@@ -25,9 +25,9 @@ RF:<player>:0x83:0x81
 monster:<player>:0x83:0x82
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x82
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0x83
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x83
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0x84
@@ -188,9 +188,9 @@ RF:<player>:0x83:0x8F
 monster:<player>:0x83:0x90
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x90
-?:[AND [EQU $CLASS Mage] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0x91
-?:[AND [EQU $CLASS Mage] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x91
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0x92
@@ -352,9 +352,9 @@ RF:<player>:0x83:0x9D
 monster:<player>:0x83:0x9E
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x9E
-?:[AND [EQU $CLASS Druid] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0x9F
-?:[AND [EQU $CLASS Druid] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0x9F
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xA0
@@ -514,9 +514,9 @@ RF:<player>:0x83:0xAB
 monster:<player>:0x83:0xAC
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xAC
-?:[AND [EQU $CLASS Priest] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xAD
-?:[AND [EQU $CLASS Priest] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xAD
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xAE
@@ -676,9 +676,9 @@ RF:<player>:0x83:0xB9
 monster:<player>:0x83:0xBA
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xBA
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xBB
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xBB
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xBC
@@ -838,9 +838,9 @@ RF:<player>:0x83:0xC7
 monster:<player>:0x83:0xC8
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xC8
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xC9
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xC9
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xCA
@@ -1000,9 +1000,9 @@ RF:<player>:0x83:0xD5
 monster:<player>:0x83:0xD6
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xD6
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xD7
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xD7
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xD8
@@ -1162,9 +1162,9 @@ RF:<player>:0x83:0xE3
 monster:<player>:0x83:0xE4
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xE4
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xE5
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xE5
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xE6
@@ -1324,9 +1324,9 @@ RF:<player>:0x83:0xF1
 monster:<player>:0x83:0xF2
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF2
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Halfling] ]
 monster:<player>:0x83:0xF3
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x83:0xF3
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Gnome] ]
 monster:<player>:0x83:0xF4
@@ -1486,9 +1486,9 @@ RF:<player>:0x84:0x81
 monster:<player>:0x84:0x82
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x82
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0x83
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x83
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0x84
@@ -1648,9 +1648,9 @@ RF:<player>:0x84:0x8F
 monster:<player>:0x84:0x90
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x90
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0x91
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x91
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0x92
@@ -1810,9 +1810,9 @@ RF:<player>:0x84:0x9D
 monster:<player>:0x84:0x9E
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x9E
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0x9F
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x9F
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xA0
@@ -1972,9 +1972,9 @@ RF:<player>:0x84:0xAB
 monster:<player>:0x84:0xAC
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xAC
-?:[AND [EQU $CLASS Monk] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0xAD
-?:[AND [EQU $CLASS Monk] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xAD
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xAE
@@ -2134,9 +2134,9 @@ RF:<player>:0x84:0xB9
 monster:<player>:0x84:0xBA
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xBA
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0xBB
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xBB
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xBC
@@ -2296,9 +2296,9 @@ RF:<player>:0x84:0xC7
 monster:<player>:0x84:0xC8
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xC8
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0xC9
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xC9
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xCA
@@ -2458,9 +2458,9 @@ RF:<player>:0x84:0xD5
 monster:<player>:0x84:0xD6
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD6
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0xD7
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xD7
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xD8
@@ -2620,9 +2620,9 @@ RF:<player>:0x84:0xE3
 monster:<player>:0x84:0xE4
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE4
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0xE5
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0xE5
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xE6
@@ -2783,9 +2783,9 @@ RF:<player>:0x84:0x9D
 monster:<player>:0x84:0x9E
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Elf] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x9E
-?:[AND [EQU $CLASS Archer] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Halfling] ]
 monster:<player>:0x84:0x9F
-?:[AND [EQU $CLASS Archer] [EQU $RACE Hobbit] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Halfling] [EQU $GENDER Female] ]
 RF:<player>:0x84:0x9F
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Gnome] ]
 monster:<player>:0x84:0xA0
@@ -2940,7 +2940,7 @@ monster:<player>:0x94:0x98
 monster:<player>:0x94:0x98
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Elf] ]
 monster:<player>:0x94:0x98
-?:[AND [EQU $CLASS Ghost] [EQU $RACE Hobbit] ]
+?:[AND [EQU $CLASS Ghost] [EQU $RACE Halfling] ]
 monster:<player>:0x94:0x98
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Gnome] ]
 monster:<player>:0x94:0x98
