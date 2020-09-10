@@ -18904,6 +18904,30 @@ desc:An angelic being, who was mighty once, but dared defy its Creator.
 
 ### Dungeon level 50 ###
 
+name:The Evil Iggy
+base:person
+color:b
+speed:130
+hit-points:1666
+hearing:60
+armor-class:80
+sleepiness:10
+depth:50
+rarity:7
+weight:0
+experience:23000
+blow:TOUCH:EAT_GOLD:4d6
+blow:TOUCH:EAT_GOLD:4d6
+blow:HIT:POISON:4d6
+blow:INSULT:EAT_ITEM:4d6
+flags:MALE | EVIL | PWMANG_BASE | UNIQUE
+flags:DROP_4 | DROP_GOOD | ONLY_ITEM
+flags:TAKE_ITEM | OPEN_DOOR
+flags:INVISIBLE | NO_SLEEP | NO_CONF | NO_HOLD
+spell-freq:3
+spells:BLINK | WOUND | HOLD | BLIND | SCARE | S_UNDEAD | SLOW | DRAIN_MANA
+desc:The Evil Iggy does a lurid dance at you!
+
 name:master mystic
 base:person
 color:o
@@ -19225,7 +19249,7 @@ desc: trouble.
 name:Harowen the Black Hand
 base:person
 color:Z
-speed:140
+speed:135
 hit-points:2500
 hearing:40
 armor-class:108
