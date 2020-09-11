@@ -1149,7 +1149,7 @@ hit-points:1
 hearing:30
 armor-class:1
 sleepiness:10
-depth:1
+depth:0
 rarity:6
 weight:0
 experience:0
@@ -1168,7 +1168,7 @@ hearing:30
 smell:20
 armor-class:1
 sleepiness:10
-depth:1
+depth:0
 rarity:3
 weight:10
 experience:0
@@ -1187,8 +1187,8 @@ hit-points:6
 hearing:10
 armor-class:1
 sleepiness:150
-depth:1
-rarity:2
+depth:0
+rarity:6
 weight:150
 experience:0
 blow:HIT:HURT:1d6
@@ -1216,7 +1216,7 @@ experience:5
 blow:HIT:HURT:1d6
 flags:MALE | UNIQUE
 flags:RAND_25 | DROP_SKELETON | DROP_CORPSE
-flags:ONLY_GOLD | DROP_40
+flags:ONLY_GOLD | DROP_1
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
 desc:He looks pale.. and got strange crimson gleal in his eyes..
@@ -1280,6 +1280,7 @@ blow:CLAW:HURT:1d2
 flags:UNIQUE | BASH_DOOR
 flags:ANIMAL | NO_CONF | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
+drop-base:food:100:1:1
 desc:A striped housecat who enjoys hunting.
 
 name:kobold
