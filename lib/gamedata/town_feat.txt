@@ -902,9 +902,15 @@ feat:.:S:floor S dirt
 feat:.:T:floor T dirt
 feat:.:U:floor U dirt
 feat:.:V:floor V dirt
-feat:.:W:floor W hills
-feat:.:X:floor X hill
-feat:.:Y:floor Y hill
+####### removed from there non-town hills!
+####### cause ^ better not to use for floors
+####### in ASCII mode: you could miss it with a trap
+#######
+feat:.:W:floor W hills town
+feat:.:X:floor X hill town
+feat:.:Y:floor Y hill town
+#######
+#######
 feat:.:Z:floor Z lowland
 feat:.:z:floor ~ lowland
 feat:.:`:floor ` lowland

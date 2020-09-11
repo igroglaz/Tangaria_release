@@ -6565,6 +6565,51 @@ feat:floor V dirt:los:0xB2:0xE5
 feat:floor V dirt:lit:0xB2:0xE6
 feat:floor V dirt:dark:0xB2:0xE7
 
+#####
+#####
+#####
+#####
+#####
+#####      `Hills for town!`
+#####
+#####      Cause in ASCII mode ^ symbol could be missed
+#####      with a trap!
+#####
+#####
+#####
+#####
+#####
+
+# floor W hills town
+feat:floor W hills:torch:0xB2:0xE8
+feat:floor W hills:los:0xB2:0xE9
+feat:floor W hills:lit:0xB2:0xEA
+feat:floor W hills:dark:0xB2:0xEB
+
+# floor X hill town
+feat:floor X hill:torch:0xB2:0xEC
+feat:floor X hill:los:0xB2:0xED
+feat:floor X hill:lit:0xB2:0xEE
+feat:floor X hill:dark:0xB2:0xEF
+
+# floor Y hill town
+feat:floor Y hill:torch:0xB2:0xF0
+feat:floor Y hill:los:0xB2:0xF1
+feat:floor Y hill:lit:0xB2:0xF2
+feat:floor Y hill:dark:0xB2:0xF3
+
+#####
+#####
+#####
+#####
+#####
+#####    END `Hills for town`
+#####    
+#####
+#####
+#####
+#####
+
 # floor W hills
 feat:floor W hills:torch:0xB2:0xE8
 feat:floor W hills:los:0xB2:0xE9
