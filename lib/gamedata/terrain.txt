@@ -3544,7 +3544,7 @@ short-desc:A bowler on bonfire. It smells strange.
 desc:A bowler on bonfire. It smells strange.
 
 name:obj_grass 8 old ruins
-graphics:::s
+graphics:.:s
 priority:18
 flags:LOS | PROJECT | PASSABLE | TORCH | TRAP | BORING | TRAP
 ################################################################################
@@ -4258,7 +4258,7 @@ desc:.
 
 #pass
 name:obj_grass2 n
-graphics:#:s
+graphics:.:s
 priority:11
 flags:NO_GENERATION | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
@@ -19410,7 +19410,7 @@ short-desc:old ruins
 desc:.
 
 name:DF dark floor e
-graphics:#:s
+graphics:.:s
 priority:11
 flags:NO_GENERATION | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
@@ -23688,7 +23688,7 @@ desc:.
 
 #pass
 name:EF dirt K
-graphics:#:W
+graphics:.:W
 priority:11
 flags:NO_GENERATION | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 info:0:3
@@ -28210,7 +28210,7 @@ short-desc:dry well
 desc:.
 
 name:EC dirt F2W K
-graphics:::w
+graphics:.:w
 priority:18
 flags:NO_GENERATION | PASSABLE | FLOOR_OTHER | OBJECT | BORING | TORCH | NO_STAIRS
 short-desc:ruins
@@ -29226,7 +29226,7 @@ short-desc:dry well
 desc:.
 
 name:E8 desert F2W K
-graphics:::w
+graphics:.:w
 priority:18
 flags:NO_STAIRS | NO_GENERATION | PASSABLE | FLOOR_OTHER | OBJECT | BORING | TORCH
 short-desc:ruins
@@ -31525,7 +31525,7 @@ desc:.
 
 #passable
 name:F7 deep water F2W e
-graphics:#:T
+graphics:.:T
 priority:11
 flags:NO_STAIRS | NO_GENERATION | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | PASSABLE | LOS
 ################################################################################
