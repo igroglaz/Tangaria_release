@@ -35,7 +35,7 @@ WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
 ;//////////////////////////////////////////////////////////////////////////
 ;// when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Build 1) ;
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Build 2) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;// Destroy menu:
 ;WinWait PWMAngband 1.4.0 (Beta 16)
