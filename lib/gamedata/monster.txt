@@ -6171,6 +6171,9 @@ flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_DEPTH | PWMANG_FIXED
 friends:60:1d3:bandit
+spell-freq:4
+innate-freq:25
+spells:BLINK | SHOT | TRAPS | DARKNESS
 desc:Beautiful tiny girls with huge... eyes.
 desc:She winks at you.
 locations:The Severs
