@@ -1077,7 +1077,11 @@ value:1:DAM_RED[-1+-1d2]
 #############^^^^^^^^################
 #######obj-flag:10:DRAIN_EXP
 
-#Some people call them ‘angels’, but they are not kind and helpful (and they doesn’t have wings!), but very cruel race which got their own goals which they would achieve no matter what. The only thing which save the world from their roth is that there are not too many of them. In eternal war with titans;
+# Some people call them ‘angels’, but they are not kind and helpful 
+# (and they doesn’t have wings!), but very cruel race which got their
+# own goals which they would achieve no matter what. The only thing
+# which save the world from their roth is that there are not too many
+# of them. In eternal war with titans;
 name:Celestial
 skill-disarm-phys:0
 skill-disarm-magic:0
