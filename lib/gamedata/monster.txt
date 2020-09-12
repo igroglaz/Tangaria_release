@@ -2618,9 +2618,8 @@ weight:0
 experience:90
 blow:HIT:SEDUCE:1d8
 blow:HIT:HURT:1d8
-flags:UNIQUE | FEMALE | PWMANG_FIXED
+flags:UNIQUE | FEMALE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
-flags:FORCE_DEPTH
 desc:Beautiful girl with long hair. She give you a wink..
 locations:The Mountain Gorge
 
