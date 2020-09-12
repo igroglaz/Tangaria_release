@@ -5308,7 +5308,7 @@ desc:A high mountain.
 
 #hills
 name:grass mountain G
-graphics:::g
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -7002,7 +7002,7 @@ short-desc:dirt with patches of grass
 desc:.
 
 name:floor W hills
-graphics:^:g
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -7010,7 +7010,7 @@ short-desc:hill
 desc:.
 
 name:floor X hill
-graphics:^:g
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -7018,7 +7018,7 @@ short-desc:hill
 desc:.
 
 name:floor Y hill
-graphics:^:g
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -23894,7 +23894,7 @@ desc:A high mountain.
 
 #hills
 name:F0 dirt mountain G
-graphics:::g
+graphics:.:g
 priority:11
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP | NO_GENERATION | NO_STAIRS
 ################################################################################
@@ -30728,7 +30728,7 @@ short-desc:dirt with patches of grass
 desc:.
 
 name:floor F2W W hills
-graphics:^:g
+graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
@@ -30736,7 +30736,7 @@ short-desc:hill
 desc:.
 
 name:floor F2W X hill
-graphics:^:g
+graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
@@ -30744,7 +30744,7 @@ short-desc:hill
 desc:.
 
 name:floor F2W Y hill
-graphics:^:g
+graphics:.:g
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
@@ -32851,7 +32851,7 @@ desc:A high mountain.
 
 #hills
 name:grass mountain F2W G
-graphics:::g
+graphics:.:g
 priority:18
 flags:NO_GENERATION | NO_STAIRS | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH
 ################################################################################
