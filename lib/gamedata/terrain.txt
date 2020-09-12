@@ -888,6 +888,10 @@ desc:A seam of compact ice. It can be removed by digging or magic, and passed
 desc: through by immaterial monsters. It stops any spells, missiles or line of
 desc: sight.
 
+############################
+###   METAMAP !! ###########
+############################
+
 name:swamp
 graphics:%:v
 priority:10
@@ -919,6 +923,8 @@ graphics:~:y
 priority:10
 flags:METAMAP
 desc:Lake or sea shore.
+
+#################################3
 
 name:border permawall
 graphics: :w
@@ -6616,8 +6622,18 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | TORCH | TRAP
 short-desc:bog
 desc:.
 
+# Hills in town! !!! Do not change ^ graphics there!
 name:floor d hills
 graphics:^:g
+priority:18
+flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
+################################################################################
+short-desc:hills
+desc:.
+
+# ADDED AFTERWARDS: Hills in dungeons! Got . graphics.
+name:floor d hills dungeon
+graphics:.:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################

@@ -6290,11 +6290,22 @@ feat:floor c bog:los:0xB1:0xB1
 feat:floor c bog:lit:0xB1:0xB2
 feat:floor c bog:dark:0xB1:0xB3
 
+# Hills in town! Do not change ^ ASCII graphics there!
+
 # floor d hills
 feat:floor d hills:torch:0xB1:0xB4
 feat:floor d hills:los:0xB1:0xB5
 feat:floor d hills:lit:0xB1:0xB6
 feat:floor d hills:dark:0xB1:0xB7
+
+# ADDED AFTERWARDS:
+# Hills in dungeons! Got . ASCII graphics.
+
+# floor d hills dungeon
+feat:floor d hills dungeon:torch:0xB1:0xB4
+feat:floor d hills dungeon:los:0xB1:0xB5
+feat:floor d hills dungeon:lit:0xB1:0xB6
+feat:floor d hills dungeon:dark:0xB1:0xB7
 
 # floor e snow hills
 feat:floor e snow hills:torch:0xB1:0xB8

@@ -411,7 +411,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 #24 total; 
 #A1
 ###################################################
@@ -1754,7 +1754,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 #24 total; 
 # A7
 floor:obj_grass A puddle:7
@@ -2511,7 +2511,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 ######################################################
 #-#-#-#-#-#-#-#-#-#-# AB - grass mountains 2400
 wall:grass mountain F2W 0:130
@@ -3087,7 +3087,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 ##################################### 25+75+50+50=200
 # A6
 floor:obj_grass 1 skull altar:1
@@ -4719,7 +4719,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 #24 total; 
 # A7
 floor:obj_grass A puddle:7
@@ -5306,7 +5306,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 ######################################################
 #-#-#-#-#-#-#-#-#-#-# AB - grass mountains 2400
 wall:grass mountain F2W 0:130
@@ -6396,7 +6396,7 @@ floor:floor ` lowland:1
 floor:B3 floors 2:100
 floor:B3 floors 3:100
 #
-floor:hill:1
+floor:floor d hills dungeon:1
 ########################################
 wall:grass mountain 0:130
 wall:grass mountain 1:100
