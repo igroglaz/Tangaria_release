@@ -6985,60 +6985,8 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | 
 short-desc:dirt with patches of grass
 desc:.
 
-#####
-#####
-#####
-#####
-#####
-#####      `Hills for town!`
-#####
-#####      Cause in ASCII mode ^ symbol could be missed
-#####      with a trap!
-#####
-#####
-#####
-#####
-#####
-
-name:floor W hills town
-graphics:.:g
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
-################################################################################
-short-desc:hill
-desc:.
-
-name:floor X hill town
-graphics:.:g
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
-################################################################################
-short-desc:hill
-desc:.
-
-name:floor Y hill town
-graphics:.:g
-priority:18
-flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
-################################################################################
-short-desc:hill
-desc:.
-
-#####
-#####
-#####
-#####
-#####
-#####    END `Hills for town`
-#####    
-#####
-#####
-#####
-#####
-
-
 name:floor W hills
-graphics:.:g
+graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -7046,7 +6994,7 @@ short-desc:hill
 desc:.
 
 name:floor X hill
-graphics:.:g
+graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -7054,7 +7002,7 @@ short-desc:hill
 desc:.
 
 name:floor Y hill
-graphics:.:g
+graphics:^:g
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
