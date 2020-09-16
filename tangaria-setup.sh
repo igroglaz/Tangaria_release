@@ -1,12 +1,49 @@
 #!/bin/sh
 
-#sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
+## Script for setup Tangaria.
+##
+## Version 1.0.0
+## Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria/master/tangaria-setup.sh
+##      Github PWMAngband: https://github.com/draconisPW/PWMAngband
+##      PWMAngband binaries: https://powerwyrm.monsite-orange.fr/page-56e3134c5ebab.html
+##      Github Tangaria: https://github.com/igroglaz/Tangaria
+##      Link to Tangaria: https://tangaria.com/
+##      Discord channel:https://discord.gg/zBNG369
+##
 
-cd "$(dirname "$0")"
+#### to make script executable, use chmod +x ./tangaria-setup.sh
+#### if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev
+#### ***if you use RPM-based linux (Fedora, Centos, openSUSE..) the command to obtain build tools is something like: sudo yum group install "Development Tools"
+####    and the command to obtain all the needed libraries is: sudo yum install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel
 
-########## INSTALL_DIR ##########
+########### INSTALL_DIR ###########
 INSTALL_DIR=$HOME/Tangaria
-#################################
+###################################
+
+REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/master.zip"
+REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/master.zip"
+
+###################################
+
+printerr() {
+    echo "ERROR: $*" >&2
+}
+
+TARGET_DIR=$(dirname "$(readlink -f $0)")
+
+cd "$(dirname "$TARGET_DIR")" || {
+    printerr "Could not change directory to '$TARGET_DIR'"
+    exit 1
+}
+
+if ! [ -d ./tangaria_setup_files ]; then
+  mkdir -p $TARGET_DIR/tangaria_setup_files
+fi
+
+cd $TARGET_DIR/tangaria_setup_files || {
+    printerr "Could not change directory to '$TARGET_DIR'"
+    exit 1
+}
 
 echo "----------------------------------"
 echo "-----  Tangaria linux setup  -----"
@@ -23,15 +60,16 @@ case "$item" in
        exit 0
         ;;
 esac
-echo "...path:$INSTALL_DIR"
-sleep 2
 
-if [ -z "$INSTALL_DIR" ]
+if [ -z $INSTALL_DIR ]
  then
+ echo "path is empty string..."
  exit 0
 fi
 
-mkdir -p $INSTALL_DIR
+if ! [ -d $INSTALL_DIR ]; then
+  mkdir -p $INSTALL_DIR
+fi
 
 echo "-----------------------------------"
 echo "----------- PWMAngband ------------"
@@ -49,17 +87,21 @@ echo " |  /   V        ))       V   \  | "
 echo " |/     '       //        '     \| "
 echo " '              V                ' "
 echo "                                   "
-sleep 2
+
+echo -n "Install PWMAngband? path:$INSTALL_DIR     (y/n)"
+read item
+case "$item" in
+    y|Y) echo "«yes», Ok..."
 
 if ! [ -f ./PWMAngband-master.zip ];
     then
-    wget --output-document=PWMAngband-master.zip https://github.com/draconisPW/PWMAngband/archive/master.zip
+    wget --output-document=PWMAngband-master.zip $REPOSITORY_URL_PWMANGBAND
     else
     echo -n "Update PWMAngband-master.zip ?     (y/n)"
     read item
     case "$item" in
         y|Y) echo "«yes», Ok..."
-             wget --output-document=PWMAngband-master.zip https://github.com/draconisPW/PWMAngband/archive/master.zip
+             wget --output-document=PWMAngband-master.zip $REPOSITORY_URL_PWMANGBAND
             ;;
         n|N) echo "«no», Ok..."
             ;;
@@ -88,6 +130,7 @@ fi
 
 cd ./PWMAngband-master
 ./autogen.sh
+# ./configure --help
 # ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
 ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
 make clean
@@ -95,36 +138,60 @@ make clean
 make
 make install
 
-mkdir -p $INSTALL_DIR/var
-mkdir -p $INSTALL_DIR/var/games
-mkdir -p $INSTALL_DIR/var/games/pwmangband
-mkdir -p $INSTALL_DIR/var/games/pwmangband/user
-mkdir -p $INSTALL_DIR/var/games/pwmangband/user/save
-mkdir -p $INSTALL_DIR/var/games/pwmangband/user/scores
+if ! [ -d $INSTALL_DIR/var ]; then
+  mkdir -p $INSTALL_DIR/var  
+fi
+if ! [ -d $INSTALL_DIR/var/games ]; then
+  mkdir -p $INSTALL_DIR/var/games
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/save ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/save
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/scores ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/scores
+fi
+
 cp -f ./setup/mangclient_sdl.INI $INSTALL_DIR/games
 cp -f ./setup/mangband.cfg $INSTALL_DIR/games
+
 cd ../
 
-cat > ./pwmangclient-launcher.sh << EOF
+if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
+cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
 cd "\$(dirname "\$0")"/games
 ./pwmangclient --config mangclient_sdl.INI
 # ./pwmangclient
-# $HOME/.mangrc
+# \$HOME/.mangrc
 EOF
+chmod +x $INSTALL_DIR/pwmangclient-launcher.sh
+fi
 
-cat > ./pwmangband-server.sh << EOF
+if ! [ -f $INSTALL_DIR/pwmangband-launcher.sh ]; then
+cat > $INSTALL_DIR/pwmangband-launcher.sh << EOF
 #!/bin/sh
 cd "\$(dirname "\$0")"/games
 ./pwmangband
 EOF
+chmod +x $INSTALL_DIR/pwmangband-launcher.sh
+fi
 
-chmod +x ./pwmangclient-launcher.sh
-chmod +x ./pwmangband-server.sh
-cp -f ./pwmangclient-launcher.sh $INSTALL_DIR
-cp -f ./pwmangband-server.sh $INSTALL_DIR
+        ;;
+    n|N) echo "«no», Ok..."
+        ;;
+    *) echo "«y» or «n». Exit..."
+       exit 0
+        ;;
+esac
 
 ##### exit 0 ##########PWMAngband#####
+
 echo "----------------------------------------------------"
 echo "--------------------- Tangaria ---------------------"
 echo "----------------------------------------------------"
@@ -138,7 +205,6 @@ echo "/  '-.__ ^   / .-'.--\ =-=~_=-=~=^/  _ '--./ .-'  '-"
 echo "        '.  / /       '.~-^=-=~=^=.-'      '-._ '._ "
 echo "tangaria.com                                        "
 echo "----------------------------------------------------"
-sleep 2
 
 echo -n "Install Tangaria? path:$INSTALL_DIR     (y/n)"
 read item
@@ -155,13 +221,13 @@ esac
 
 if ! [ -f ./Tangaria-master.zip ];
     then
-    wget --output-document=Tangaria-master.zip https://github.com/igroglaz/Tangaria/archive/master.zip
+    wget --output-document=Tangaria-master.zip $REPOSITORY_URL_TANGARIA
     else
     echo -n "Update Tangaria-master.zip ?     (y/n)"
     read item
     case "$item" in
         y|Y) echo "«yes», Ok..."
-             wget --output-document=Tangaria-master.zip https://github.com/igroglaz/Tangaria/archive/master.zip
+             wget --output-document=Tangaria-master.zip $REPOSITORY_URL_TANGARIA
             ;;
         n|N) echo "«no», Ok..."
             ;;
@@ -190,6 +256,40 @@ fi
 
 cd ./Tangaria-master
 
+if ! [ -d $INSTALL_DIR/etc ]; then
+  mkdir -p $INSTALL_DIR/etc/pwmangband/customize  
+  mkdir -p $INSTALL_DIR/etc/pwmangband/gamedata
+fi
+if ! [ -d $INSTALL_DIR/games ]; then
+  mkdir -p $INSTALL_DIR/games  
+fi
+if ! [ -d $INSTALL_DIR/share ]; then
+  mkdir -p $INSTALL_DIR/share/pwmangband/fonts
+  mkdir -p $INSTALL_DIR/share/pwmangband/help
+  mkdir -p $INSTALL_DIR/share/pwmangband/icons
+  mkdir -p $INSTALL_DIR/share/pwmangband/screens
+  mkdir -p $INSTALL_DIR/share/pwmangband/sounds
+  mkdir -p $INSTALL_DIR/share/pwmangband/tiles
+fi
+if ! [ -d $INSTALL_DIR/var ]; then
+  mkdir -p $INSTALL_DIR/var  
+fi
+if ! [ -d $INSTALL_DIR/var/games ]; then
+  mkdir -p $INSTALL_DIR/var/games
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/save ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/save
+fi
+if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/scores ]; then
+  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/scores
+fi
+
 rm -r $INSTALL_DIR/etc/pwmangband/customize
 cp -R ./lib/customize $INSTALL_DIR/etc/pwmangband
 rm -r $INSTALL_DIR/etc/pwmangband/gamedata
@@ -206,9 +306,9 @@ rm -r $INSTALL_DIR/share/pwmangband/sounds
 cp -R ./lib/sounds $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/tiles
 cp -R ./lib/tiles $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/var/games/pwmangband/user
-cp -R ./lib/user $INSTALL_DIR/var/games/pwmangband
-cp -f ./lib/user/sdlinit.txt $INSTALL_DIR/var/games/pwmangband/user
+
+cp -f ./lib/user/save/account $INSTALL_DIR/var/games/pwmangband/user/save
+cp -i ./lib/user/sdlinit.txt $INSTALL_DIR/var/games/pwmangband/user
 
 cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
 cp -f ./Changes.txt $INSTALL_DIR
