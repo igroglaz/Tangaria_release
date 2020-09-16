@@ -726,7 +726,7 @@ value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
 obj-flag:40:TRAP_IMMUNE
 #value:1:SPEED[-1+-1d30]
-value:1:MOVES[-1]
+#########################value:1:MOVES[-1]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
@@ -758,7 +758,7 @@ value:1:WIS[-5+1d12]
 value:1:DEX[0+-1d30M32]
 value:1:CON[1+1d15M32]
 value:1:INFRA[1+1d7]
-value:1:MOVES[-1]
+#########################value:1:MOVES[-1]
 obj-flag:1:SUST_INT
 value:1:TUNNEL[1]
 value:50:MANA[1]
@@ -788,7 +788,7 @@ value:1:CON[1+1d8M30]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:MOVES[-2+-1d24]
+#########################value:1:MOVES[-2+-1d24]
 value:50:SPEED[-1]
 ###########value:1:SPEED[-1+-1d35]
 value:20:RES_POIS[1]

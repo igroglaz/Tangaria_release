@@ -2760,10 +2760,10 @@ graphics:":d
 type:amulet
 level:15
 weight:3
-cost:10
+cost:0
 alloc:20:15 to 40
 flags:FREE_ACT
-values:MOVES[-3+1d2]
+#values:MOVES[-3+1d2]
 
 
 ##### Scrolls #####
