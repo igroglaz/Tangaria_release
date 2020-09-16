@@ -6157,9 +6157,10 @@ name:Shtukensia the Rogue
 base:person
 color:b
 speed:110
-hit-points:440
+hit-points:777
 hearing:20
-armor-class:48
+smell:10
+armor-class:65
 sleepiness:40
 depth:15
 rarity:3
@@ -6173,9 +6174,11 @@ flags:UNIQUE | FEMALE
 flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_DEPTH | PWMANG_FIXED
-friends:60:1d3:bandit
+friends:95:1d3:bandit:servant
+friends:95:1d2:Same
+friends:95:1d1:half-orc
 spell-freq:4
-innate-freq:25
+innate-freq:33
 spells:BLINK | SHOT | TRAPS | DARKNESS
 desc:Beautiful tiny girls with huge... eyes.
 desc:She winks at you.
