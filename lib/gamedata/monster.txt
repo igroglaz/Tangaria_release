@@ -4488,7 +4488,7 @@ blow:HIT:HURT:1d10
 blow:HIT:HURT:1d10
 flags:UNIQUE | PWMANG_FIXED | FORCE_DEPTH
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
-flags:IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:IM_COLD | IM_ELEC | IM_POIS
 friends:50:4d4:snaga:servant
 friends:80:2d7:warg:servant
 friends:100:5d4:hill orc:servant
