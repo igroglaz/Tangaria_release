@@ -99,7 +99,7 @@ info:1000:10
 alloc:40:10 to 100
 item:light:Lantern
 item:light:Lamp
-values:STEALTH[d2] | RES_LIGHT[1] | LIGHT[-4]
+values:STEALTH[d2] | RES_LIGHT[1] | LIGHT[-2]
 min-values:STEALTH[0]
 
 name:of Brightness
@@ -483,7 +483,7 @@ alloc:10:10 to 80
 type:sword
 type:polearm
 type:hafted
-flags:SEE_INVIS | AGGRAVATE | DRAIN_EXP
+flags:SEE_INVIS | AGGRAVATE
 brand:POIS_3
 
 ## Template for elemental weapons ##
@@ -498,7 +498,7 @@ type:hafted
 ### Missile Launchers ###
 
 name:of Accuracy
-info:1000:10
+info:2500:10
 alloc:100:5 to 70
 combat:d15:d5:0
 min-combat:15:255:0
@@ -507,7 +507,7 @@ desc:It has no special abilities, but its to-hit value may be unusually
 desc: high.
 
 name:of Power
-info:1000:10
+info:4500:10
 alloc:100:5 to 70
 combat:d5:d15:0
 min-combat:255:15:0
@@ -516,7 +516,7 @@ desc:It has no special abilities, but its to-dam value may be unusually
 desc: high.
 
 name:of Lothlórien
-info:20000:30
+info:35000:30
 alloc:5:20 to 127
 combat:d10:d10:0
 item:bow:Short Bow
@@ -526,7 +526,7 @@ values:DEX[1+d2M2] | MIGHT[d2]
 min-values:DEX[2] | MIGHT[1]
 
 name:of the Haradrim
-info:20000:30
+info:30000:30
 alloc:5:20 to 127
 combat:d5:d5:0
 item:bow:Light Crossbow
@@ -552,7 +552,7 @@ min-values:SHOTS[2]
 
 # PWMAngband: SHOTS limited to +1 (+2 was too powerful)
 name:of Buckland
-info:20000:25
+info:25000:25
 alloc:5:20 to 127
 combat:d8:d8:0
 item:bow:Sling
@@ -731,7 +731,7 @@ info:250:7
 alloc:100:1 to 15
 type:boots
 flags:FEATHER
-min-values:STEALTH[-2]
+min-values:STEALTH[-1]
 
 name:of Stealth
 info:500:16
@@ -1306,3 +1306,5 @@ info:2000:2
 alloc:20:15 to 127
 type:horn
 flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+values:STR[d2]
+min-values:STR[0]
