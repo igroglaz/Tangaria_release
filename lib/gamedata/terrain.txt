@@ -756,7 +756,7 @@ short-desc:drawbridge
 desc:This is a section of a bridge.
 
 name:fountain
-graphics:_:w
+graphics:_:B
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
 short-desc:fountain filled with water
@@ -3498,7 +3498,7 @@ short-desc:skull altar
 desc:A skull on altar.
 
 name:obj_grass 2 well
-graphics:_:w
+graphics:_:B
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
 short-desc:well filled with water
@@ -3559,7 +3559,7 @@ short-desc:old ruins
 desc:An old ruins.
 
 name:obj_grass 9 fountain
-graphics:_:w
+graphics:_:B
 priority:22
 flags:LOS | PROJECT | PASSABLE | FOUNTAIN | BORING | EASY | INTERESTING | TORCH
 short-desc:fountain filled with water
