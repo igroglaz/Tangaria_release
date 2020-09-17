@@ -225,7 +225,7 @@ desc:A shop that sells and buys magical and mystical books.
 
 
 name:Halbarad, the old ranger
-graphics:@:u
+graphics:p:g
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:8:0
@@ -234,7 +234,7 @@ short-desc:not too old man with weathered face. He looks at you mindfully.
 desc:Old ranger. He isn't glad to see you, but look at you with pity.
 
 name:Sonya the cat
-graphics:@:s
+graphics:f:D
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:9:0
@@ -243,7 +243,7 @@ short-desc:tiny cream colored siamese cat with yellowish brown-green eyes.
 desc:Cat looks at you with interest.
 
 name:Morinehtar the Wizard
-graphics:@:s
+graphics:p:r
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:10:0
@@ -252,7 +252,7 @@ short-desc:old man with bright hazel eyes. He's a wizard it seems. No hat though
 desc:.
 
 name:Old guard Barry
-graphics:@:s
+graphics:p:w
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:11:0
@@ -261,7 +261,7 @@ short-desc:red eyed battle-scared face. It smells heavy alchohol and garlic odor
 desc:.
 
 name:Bob the villager
-graphics:@:s
+graphics:p:u
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:12:0
@@ -270,7 +270,7 @@ short-desc:middle-aged man with bright ginger hair 'n beard. He looks frightened
 desc:.
 
 name:Marta the villager
-graphics:@:s
+graphics:p:t
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:13:0
@@ -279,7 +279,7 @@ short-desc:fancy looking green-eyed woman. She is not too young, but pretty.
 desc:.
 
 name:Shtukensia the tavernkeeper
-graphics:@:s
+graphics:p:P
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:14:0
@@ -288,7 +288,7 @@ short-desc:beautiful young woman with big brown eyes and long eyelashes. *winks*
 desc:.
 
 name:Danny the dog
-graphics:@:s
+graphics:C:u
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:15:0
@@ -297,7 +297,7 @@ short-desc:old dog who growl sometimes, but looks harmless..
 desc:.
 
 name:Arthur the Archer
-graphics:@:s
+graphics:p:g
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:16:0
@@ -306,7 +306,7 @@ short-desc:young man with grey eyes and tiny beard-goatee. He grins.
 desc:.
 
 name:Deckard Coin
-graphics:@:s
+graphics:p:D
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:17:0
@@ -315,7 +315,7 @@ short-desc:very old bended man. He looks ancient, but you see sparks in his eyes
 desc:.
 
 name:Boris the Guard
-graphics:@:s
+graphics:p:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:18:0
@@ -324,7 +324,7 @@ short-desc:grim faced warrior with long stubble. His armour got some blood on it
 desc:.
 
 name:Tom Bombadil
-graphics:@:s
+graphics:p:y
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:19:0
@@ -333,7 +333,7 @@ short-desc:wrinkled and ruddy face, bright blue eyes and a bristling brown beard
 desc:.
 
 name:Mr. Underhill
-graphics:h:s
+graphics:h:W
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:20:0
@@ -342,7 +342,7 @@ short-desc:taller than some and fairer than most, perky chap with a bright eye
 desc:.
 
 name:Gildor
-graphics:@:s
+graphics:p:o
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:21:0
@@ -351,7 +351,7 @@ short-desc:tall elf. You feel that he possess ethereal grace and various powers.
 desc:.
 
 name:Squint-eyed Southerner
-graphics:@:s
+graphics:o:t
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:22:0
@@ -360,7 +360,7 @@ short-desc:looks more than half like a goblin, full of mischief...
 desc:.
 
 name:Bill Ferny
-graphics:@:s
+graphics:p:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:23:0
@@ -371,7 +371,7 @@ desc: a sneer. He is smoking a short black pipe. As you approached
 desc: he took it out of his mouth and spat.
 
 name:Boromir
-graphics:@:s
+graphics:p:W
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:24:0
@@ -380,7 +380,7 @@ short-desc:a tall man with a fair and noble face, dark-haired and grey-eyed
 desc:.
 
 name:Barliman
-graphics:@:s
+graphics:p:m
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:25:0
@@ -389,7 +389,7 @@ short-desc:good-hearted fat man but notorious for his very bad memory
 desc:.
 
 name:Torog
-graphics:@:s
+graphics:O:s
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:26:0
@@ -398,7 +398,7 @@ short-desc:looks like a troll, more then in a half.. strong and dim-witted
 desc:.
 
 name:Nob, a servant
-graphics:@:s
+graphics:h:u
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:27:0
@@ -407,7 +407,7 @@ short-desc:"Nob! ... Where are you, you wolly-footed slow-coach?"
 desc:.
 
 name:Rose
-graphics:@:s
+graphics:h:P
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:28:0
@@ -4046,7 +4046,7 @@ desc:.
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 
 name:obj_grass2 0
-graphics:o:s
+graphics:*:u
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP
 ################################################################################
@@ -4055,7 +4055,7 @@ short-desc:trough with hay
 desc:.
 
 name:obj_grass2 1
-graphics:0:s
+graphics:0:b
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP
 ################################################################################
@@ -4065,7 +4065,7 @@ desc:.
 
 #archery target dummy
 name:obj_grass2 2
-graphics:O:u
+graphics:#:u
 priority:18
 flags:TORCH | BORING
 ################################################################################
