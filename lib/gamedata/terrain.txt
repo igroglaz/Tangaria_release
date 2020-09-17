@@ -24900,7 +24900,7 @@ desc:.
 name:F4 shallow water w
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24908,7 +24908,7 @@ desc:.
 name:F4 shallow water x
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24916,7 +24916,7 @@ desc:.
 name:F4 shallow water y
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24924,7 +24924,7 @@ desc:.
 name:F4 shallow water z
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24932,7 +24932,7 @@ desc:.
 name:F4 shallow water A
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24940,7 +24940,7 @@ desc:.
 name:F4 shallow water B
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24948,7 +24948,7 @@ desc:.
 name:F4 shallow water C
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24956,7 +24956,7 @@ desc:.
 name:F4 shallow water D
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24964,7 +24964,7 @@ desc:.
 name:F4 shallow water E
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24972,7 +24972,7 @@ desc:.
 name:F4 shallow water F
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24980,7 +24980,7 @@ desc:.
 name:F4 shallow water G
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24988,7 +24988,7 @@ desc:.
 name:F4 shallow water H
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -24996,7 +24996,7 @@ desc:.
 name:F4 shallow water I
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25004,7 +25004,7 @@ desc:.
 name:F4 shallow water J
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25012,7 +25012,7 @@ desc:.
 name:F4 shallow water K
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25020,7 +25020,7 @@ desc:.
 name:F4 shallow water L
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25028,7 +25028,7 @@ desc:.
 name:F4 shallow water M
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25036,7 +25036,7 @@ desc:.
 name:F4 shallow water N
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25044,7 +25044,7 @@ desc:.
 name:F4 shallow water O
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25052,7 +25052,7 @@ desc:.
 name:F4 shallow water P
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25060,7 +25060,7 @@ desc:.
 name:F4 shallow water Q
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25068,7 +25068,7 @@ desc:.
 name:F4 shallow water R
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25076,7 +25076,7 @@ desc:.
 name:F4 shallow water S
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25084,7 +25084,7 @@ desc:.
 name:F4 shallow water T
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25092,7 +25092,7 @@ desc:.
 name:F4 shallow water U
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25100,7 +25100,7 @@ desc:.
 name:F4 shallow water V
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25108,7 +25108,7 @@ desc:.
 name:F4 shallow water W
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25116,7 +25116,7 @@ desc:.
 name:F4 shallow water X
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25124,7 +25124,7 @@ desc:.
 name:F4 shallow water Y
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25132,7 +25132,7 @@ desc:.
 name:F4 shallow water Z
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25140,7 +25140,7 @@ desc:.
 name:F4 shallow water ~
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25148,7 +25148,7 @@ desc:.
 name:F4 shallow water `
 graphics:~:T
 priority:5
-flags:LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
+flags:TORCH | LOS | PROJECT | PASSABLE | FLOOR | OBJECT | BORING | EASY | NOTICEABLE | NO_SCENT | TRAP
 ################################################################################
 short-desc:shallow water
 desc:.
@@ -25424,7 +25424,7 @@ desc:.
 name:F6 deep water w
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25436,7 +25436,7 @@ resist-flag:IM_WATER
 name:F6 deep water x
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25448,7 +25448,7 @@ resist-flag:IM_WATER
 name:F6 deep water y
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25460,7 +25460,7 @@ resist-flag:IM_WATER
 name:F6 deep water z
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25472,7 +25472,7 @@ resist-flag:IM_WATER
 name:F6 deep water A
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25484,7 +25484,7 @@ resist-flag:IM_WATER
 name:F6 deep water B
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25496,7 +25496,7 @@ resist-flag:IM_WATER
 name:F6 deep water C
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25508,7 +25508,7 @@ resist-flag:IM_WATER
 name:F6 deep water D
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25520,7 +25520,7 @@ resist-flag:IM_WATER
 name:F6 deep water E
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25532,7 +25532,7 @@ resist-flag:IM_WATER
 name:F6 deep water F
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25544,7 +25544,7 @@ resist-flag:IM_WATER
 name:F6 deep water G
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25556,7 +25556,7 @@ resist-flag:IM_WATER
 name:F6 deep water H
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25568,7 +25568,7 @@ resist-flag:IM_WATER
 name:F6 deep water I
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25580,7 +25580,7 @@ resist-flag:IM_WATER
 name:F6 deep water J
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25592,7 +25592,7 @@ resist-flag:IM_WATER
 name:F6 deep water K
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25604,7 +25604,7 @@ resist-flag:IM_WATER
 name:F6 deep water L
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25616,7 +25616,7 @@ resist-flag:IM_WATER
 name:F6 deep water M
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25628,7 +25628,7 @@ resist-flag:IM_WATER
 name:F6 deep water N
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25640,7 +25640,7 @@ resist-flag:IM_WATER
 name:F6 deep water O
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25652,7 +25652,7 @@ resist-flag:IM_WATER
 name:F6 deep water P
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25664,7 +25664,7 @@ resist-flag:IM_WATER
 name:F6 deep water Q
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25676,7 +25676,7 @@ resist-flag:IM_WATER
 name:F6 deep water R
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25688,7 +25688,7 @@ resist-flag:IM_WATER
 name:F6 deep water S
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25700,7 +25700,7 @@ resist-flag:IM_WATER
 name:F6 deep water T
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25712,7 +25712,7 @@ resist-flag:IM_WATER
 name:F6 deep water U
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25724,7 +25724,7 @@ resist-flag:IM_WATER
 name:F6 deep water V
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25736,7 +25736,7 @@ resist-flag:IM_WATER
 name:F6 deep water W
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25748,7 +25748,7 @@ resist-flag:IM_WATER
 name:F6 deep water X
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25760,7 +25760,7 @@ resist-flag:IM_WATER
 name:F6 deep water Y
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25772,7 +25772,7 @@ resist-flag:IM_WATER
 name:F6 deep water Z
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25784,7 +25784,7 @@ resist-flag:IM_WATER
 name:F6 deep water ~
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.
@@ -25796,7 +25796,7 @@ resist-flag:IM_WATER
 name:F6 deep water `
 graphics:~:B
 priority:5
-flags:LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
+flags:TORCH | LOS | PROJECT | PASSABLE | WATER | BORING | EASY | NOTICEABLE | NO_SCENT
 ################################################################################
 short-desc:deep water
 desc:A pool of water.

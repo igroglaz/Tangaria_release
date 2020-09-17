@@ -42,7 +42,7 @@ map:#..,.T....,TT...T.,.T.,.....::::.....T.T...&s8xa...T.,........T.:hi..T..`...
 map:#.^...TTT...............:%d%d.x%.T.T...T...&s.w&......,.T.,..,...i..T.T`yyyyyyy`....T..T......fgffgggf.T....TT....T.TTT..T,,TT:,,TTTTTT..TTT.T.TT.TTT...T.T.,^***************************************#
 map:#..T..,.,.......,.T..T.:d>...&t%......T...,awwo&.T.......T.&&a&&ad&&&.,`y@yyy@y`,.T.T...T.,.Tfgzgglllgf.,.T.,T..TTTTT..T..,..,,:....TTTTTT..,,.T.T..TT.,T..,^^***************************************#
 map:#T..T.T..,..,.T....T...&w9d=&&..T...,...T..&&&&&..T.,.....,&wo&oqxoo&,.`yyyyyyy`......T.T.T.fgllllmFzlf..TT,T...TT.T....T....,..,TTTTTT.T..T.T,.T.TTT.T..,^^^****************************************#
-map:#.,.T......T.,,,.....,.&%%&.,.....T..T.T...,,,...T..,...T..&sxaw.7.xa..,````````T....T.....fglmzFzFzlmf,T.,T..T...T..TTTTTTTTT.TTT.TT.TTTTT....TTT...T.^^^^******************************************#
+map:#.,.T......T.,,,.....,.&%%&.,.....T..T.T...,,,...T..,...T..&sxaw.7.xa..`````````T....T.....fglmzFzFzlmf,T.,T..T...T..TTTTTTTTT.TTT.TT.TTTTT....TTT...T.^^^^******************************************#
 map:#..,TT..T...T...,,..T....T.,.T.T.TT..T....T..__....T..,..T.awn&rwwnw&.T.........T..T...T...flmFzzFzzlfg.TTT,T.T..T.T..TTT..T.TT.....T..TTT.T.T..T..^^^^^*********************************************#
 map:#T....,.,...,...,.T......,....T..T.....T...T...T....,...T..&&&&&&a&&&....T..TT.......T.T..TflzzFzzFlmfT.....TTT.T,T.T.TT.TT..T.TTT.T.,T.T.T.T.TTT.^^*************************************************#
 map:#..T,..T.T...........T..T.T..T....T....T.T.....T..........,..,..^..T.....T.....T.T.T......fglFllllFmfg..T.T.TT..TT....T.T..TTTTTT...TTTTTT.TT..T.^^**************************************************#
@@ -109,7 +109,7 @@ mask:#001B`wx1xI11010e151v1811111PLQN01111t1111CVc8x5qq11160q111011d19xz10e01Bqq
 mask:#1GCDAe11w10011111111111QYsMZ3xN1n111111110Ve2rVqqqqq1Eq1001zJy10010101ycccccccz1111111e111111xxyxxxxy111110ee0Az0O068801g1Jggf11788NN61168R0g1gP0PPQ01D8080I0000000000000000000000000000000000000000#
 mask:#wA3zxIxJC111101J1f11e1LM2222G2O1111116111lubiwVq`10qqqq01BRSmSRl5QST11ycdcccgczJ11111111171Axzwwzcefwy150f1Ng1Bg686700f1y1011v7`y0yr8q68610JN0g0P00PP1JP00100000000000000000000000000000000000000000#
 mask:#vCCyCeww101Ix1Bw11W111089K6FD11q111311111DVVVVV11d181q1111ReJQ86xg3QJ1ycccccccz111111y11111xzcdddeUxfw11hzKh01D880n01108x110100188R868080080gN080P7P08Bx80000000000000000000000000000000000000000000#
-mask:#1Iw11111x1pCJJIx1111z12MNF1111111111e1y11CJJIACyv101qq1r00S2d5z272dpBxIxxxxxxxz11111611111xzcexKxTxJLw4X00g01h1106018688Q8R6818860P8188Pg80110PQQwwz800000000000000000000000000000000000000000000000#
+mask:#1Iw11111x1pCJJIx1111z12MNF1111111111e1y11CJJIACyv101qq1r00S2d5z272dpBxyxxxxxxxz11111611111xzcexKxTxJLw4X00g01h1106018688Q8R6818860P8188Pg80110PQQwwz800000000000000000000000000000000000000000000000#
 mask:#11Ie1AB1y1w111w7I11n11111141x1o11111e1111u11yzBA0C10q21111pK~S0vyQJS0111Cw10101111e111r111zcemxxZxxL02Bh`hLg0t10s081078PBAt0N3000006118Ve0Q0800Qz000000000000000000000000000000000000000000000000000#
 mask:#111By2yIA1DJB10IAi111111I1111111111111e111111111ywy1q1A11ySRSTTQvRRSC0yy1z111111111111b11azIxxRxxu8Lwaz1xzz88q0gI81807e06811P0P88180Ng080P0P08P80000000000000000000000000000000000000000000000000000#
 mask:#001I108z111w11D11101e11e1X1111111t111111v111111111A0q1ACwI11JzDG11111y11111111n111t111111xzIIJ9bKU8021x6xQB68003g0101C1f00886R6811xWg886P08P00uB0000000000000000000000000000000000000000000000000000#
