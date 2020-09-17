@@ -819,7 +819,7 @@ flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | PLOT | CROP | BORING | OBJECT | E
 desc:A piece of land used for growing any kind of vegetables.
 
 name:tree
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
@@ -828,7 +828,7 @@ look-in-preposition:in
 desc:A tree.
 
 name:dark tree
-graphics:*:D
+graphics:#:D
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -2081,7 +2081,7 @@ info:0:1
 desc:A withered tree stump.
 
 name:tree 1
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
@@ -2099,7 +2099,7 @@ info:0:1
 desc:A little tree.
 
 name:tree 3
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
@@ -2108,7 +2108,7 @@ info:0:1
 desc:A tree.
 
 name:tree 4 maple
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2117,7 +2117,7 @@ short-desc:maple tree. Its spiky leaves outlines reminds you about childhood.
 desc:A maple tree.
 
 name:tree 5 maple
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2126,7 +2126,7 @@ short-desc:strong maple. It will hold a house on it's branches. Lets climb it?
 desc:A maple tree.
 
 name:tree 6 coniferous
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2145,7 +2145,7 @@ short-desc:tiny coniferous tree
 desc:.
 
 name:tree 8 coniferous
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2154,7 +2154,7 @@ short-desc:coniferous tree
 desc:.
 
 name:tree 9 willow
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2190,7 +2190,7 @@ short-desc:broken log
 desc:.
 
 name:tree d birch
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2199,7 +2199,7 @@ short-desc:birch tree
 desc:.
 
 name:tree e linden
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2217,7 +2217,7 @@ short-desc:tiny linden tree
 desc:.
 
 name:tree g larch
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2244,7 +2244,7 @@ short-desc:bush
 desc:.
 
 name:tree j gervais
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2262,7 +2262,7 @@ short-desc:tiny acacia tree
 desc:.
 
 name:tree l palm
-graphics:*:g
+graphics:#:g
 priority:4
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2280,7 +2280,7 @@ short-desc:tiny palm tree
 desc:.
 
 name:tree n dead tree
-graphics:*:D
+graphics:#:D
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2289,7 +2289,7 @@ short-desc:dead tree
 desc:.
 
 name:tree o dead tree
-graphics:*:D
+graphics:#:D
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2428,7 +2428,7 @@ short-desc:small tree
 desc:.
 
 name:tree D tree
-graphics:*:g
+graphics:#:g
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2437,7 +2437,7 @@ short-desc:tree
 desc:.
 
 name:tree E tree
-graphics:*:g
+graphics:#:g
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2446,7 +2446,7 @@ short-desc:tree
 desc:.
 
 name:tree F tree
-graphics:*:g
+graphics:#:g
 priority:9
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2592,7 +2592,7 @@ short-desc:small trees
 desc:.
 
 name:tree V
-graphics:*:W
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2601,7 +2601,7 @@ short-desc:withered tree
 desc:.
 
 name:tree W
-graphics:*:W
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2610,7 +2610,7 @@ short-desc:withered tree
 desc:.
 
 name:tree X
-graphics:*:W
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -2619,7 +2619,7 @@ short-desc:withered tree
 desc:.
 
 name:tree Y
-graphics:*:W
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW | BORING
 info:0:1
@@ -3350,7 +3350,7 @@ short-desc:small tree
 desc:.
 
 name:A5 plants N
-graphics:#:u
+graphics:#:g
 priority:18
 flags:TREE | NO_SCENT | NO_FLOW | BORING
 ################################################################################
@@ -21522,7 +21522,7 @@ short-desc:sand
 desc:.
 
 name:E7 desert 1
-graphics:*:g
+graphics:#:g
 priority:18
 info:0:1
 flags:TREE | NO_SCENT | NO_FLOW
@@ -21540,7 +21540,7 @@ short-desc:small palm
 desc:.
 
 name:E7 desert 3
-graphics:*:g
+graphics:#:g
 priority:18
 info:0:1
 flags:TREE | NO_SCENT | NO_FLOW
@@ -21558,7 +21558,7 @@ short-desc:tiny cactus
 desc:.
 
 name:E7 desert 5
-graphics:*:g
+graphics:#:g
 priority:18
 info:0:1
 flags:TREE | NO_SCENT | NO_FLOW
@@ -21576,7 +21576,7 @@ short-desc:tiny acacia
 desc:.
 
 name:E7 desert 7
-graphics:*:D
+graphics:#:D
 priority:18
 info:0:1
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
@@ -21585,7 +21585,7 @@ short-desc:dry tree
 desc:.
 
 name:E7 desert 8
-graphics:*:D
+graphics:#:D
 priority:18
 info:0:1
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
@@ -22631,7 +22631,7 @@ short-desc:tree log
 desc:.
 
 name:EB dirt d
-graphics:*:D
+graphics:#:D
 priority:18
 info:0:1
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
@@ -22639,7 +22639,7 @@ short-desc:withered tree
 desc:Withered tree.
 
 name:EB dirt e
-graphics:*:D
+graphics:#:D
 priority:18
 info:0:1
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
@@ -23704,7 +23704,7 @@ short-desc:round rock
 desc:.
 
 name:EF dirt Q
-graphics:*:g
+graphics:#:g
 priority:11
 flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
@@ -23720,7 +23720,7 @@ short-desc:small fir-tree
 desc:.
 
 name:EF dirt S
-graphics:*:g
+graphics:#:g
 priority:11
 flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
@@ -23766,7 +23766,7 @@ short-desc:amanita mushroom
 desc:.
 
 name:EF dirt Y
-graphics:*:u
+graphics:#:D
 priority:11
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -23774,7 +23774,7 @@ short-desc:withered fir-tree
 desc:.
 
 name:EF dirt Z
-graphics:*:u
+graphics:#:D
 priority:11
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -23782,7 +23782,7 @@ short-desc:withered fir-tree
 desc:.
 
 name:EF dirt ~
-graphics:*:u
+graphics:#:D
 priority:11
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -23790,7 +23790,7 @@ short-desc:withered fir-tree
 desc:.
 
 name:EF dirt `
-graphics:*:u
+graphics:#:D
 priority:11
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -24107,7 +24107,7 @@ short-desc:snow
 desc:.
 
 name:F1 snow 1
-graphics:*:g
+graphics:#:g
 priority:18
 flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
@@ -24116,7 +24116,7 @@ short-desc:fir-tree
 desc:.
 
 name:F1 snow 2
-graphics:*:g
+graphics:#:g
 priority:18
 flags:TREE | NO_SCENT | NO_FLOW
 info:0:1
@@ -24223,7 +24223,7 @@ short-desc:tree log
 desc:.
 
 name:F1 snow f
-graphics:*:D
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
@@ -24232,7 +24232,7 @@ short-desc:withered tree
 desc:.
 
 name:F1 snow g
-graphics:*:D
+graphics:#:D
 priority:18
 flags:TREE | WITHERED | NO_SCENT | NO_FLOW
 info:0:1
