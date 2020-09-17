@@ -4858,18 +4858,18 @@ short-desc:wall
 desc:.
 
 name:AA wall U
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
 short-desc:wall
 desc:.
 
 name:AA wall V
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
 short-desc:wall
@@ -8238,7 +8238,7 @@ resist-flag:IM_WATER
 name:wooden walls 0 solid
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8247,7 +8247,7 @@ desc:.
 name:wooden walls 1 solid corner
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall corner
@@ -8256,7 +8256,7 @@ desc:.
 name:wooden walls 2 empty window
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:empty window
@@ -8265,7 +8265,7 @@ desc:.
 name:wooden walls 3 window
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8274,7 +8274,7 @@ desc:.
 name:wooden walls 4 barred window
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:barred window
@@ -8283,7 +8283,7 @@ desc:.
 name:wooden walls 5 door
 graphics:+:U
 priority:11
-flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE | OBJECT
+flags:MAGMA | PASSABLE | EASY | FLOOR_SAFE | OBJECT
 info:0:2
 ################################################################################
 short-desc:door
@@ -8292,7 +8292,7 @@ desc:.
 name:wooden walls 6 door
 graphics:+:U
 priority:11
-flags:MAGMA | PASSABLE | EASY | TORCH | FLOOR_SAFE | OBJECT
+flags:MAGMA | PASSABLE | EASY | FLOOR_SAFE | OBJECT
 info:0:2
 ################################################################################
 short-desc:door
@@ -8302,7 +8302,7 @@ desc:.
 name:wooden walls 7
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:statue
@@ -8312,7 +8312,7 @@ desc:.
 name:wooden walls 8
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:fountain
@@ -8323,7 +8323,7 @@ desc:.
 name:wooden walls 9
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8332,7 +8332,7 @@ desc:.
 name:wooden walls a
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8341,7 +8341,7 @@ desc:.
 name:wooden walls b
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8350,7 +8350,7 @@ desc:.
 name:wooden walls c
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8359,7 +8359,7 @@ desc:.
 name:wooden walls d
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8368,7 +8368,7 @@ desc:.
 name:wooden walls e
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8377,7 +8377,7 @@ desc:.
 name:wooden walls f
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8386,7 +8386,7 @@ desc:.
 name:wooden walls g
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8395,7 +8395,7 @@ desc:.
 name:wooden walls h
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8404,7 +8404,7 @@ desc:.
 name:wooden walls i
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8414,7 +8414,7 @@ desc:.
 name:wooden walls j
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8423,7 +8423,7 @@ desc:.
 name:wooden walls k
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8432,7 +8432,7 @@ desc:.
 name:wooden walls l
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8441,7 +8441,7 @@ desc:.
 name:wooden walls m
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8450,7 +8450,7 @@ desc:.
 name:wooden walls n
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8459,7 +8459,7 @@ desc:.
 name:wooden walls o
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8468,7 +8468,7 @@ desc:.
 name:wooden walls p
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8477,7 +8477,7 @@ desc:.
 name:wooden walls q
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8486,7 +8486,7 @@ desc:.
 name:wooden walls r
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8495,7 +8495,7 @@ desc:.
 name:wooden walls s
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8504,7 +8504,7 @@ desc:.
 name:wooden walls t
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8513,7 +8513,7 @@ desc:.
 name:wooden walls u
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8522,7 +8522,7 @@ desc:.
 name:wooden walls v
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:window
@@ -8536,7 +8536,7 @@ desc:.
 name:wooden walls w
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:bulletin board
@@ -8545,7 +8545,7 @@ desc:.
 name:wooden walls x
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:bulletin board
@@ -8555,7 +8555,7 @@ desc:.
 name:wooden walls y
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | BRIGHT
 info:0:2
 ################################################################################
 short-desc:fireplace
@@ -8564,7 +8564,7 @@ desc:.
 name:wooden walls z
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8573,7 +8573,7 @@ desc:.
 name:wooden walls A
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8582,7 +8582,7 @@ desc:.
 name:wooden walls B
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8591,7 +8591,7 @@ desc:.
 name:wooden walls C
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8600,7 +8600,7 @@ desc:.
 name:wooden walls D
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8609,7 +8609,7 @@ desc:.
 name:wooden walls E
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8618,7 +8618,7 @@ desc:.
 name:wooden walls F
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8627,7 +8627,7 @@ desc:.
 name:wooden walls G
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8636,7 +8636,7 @@ desc:.
 name:wooden walls H
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8645,7 +8645,7 @@ desc:.
 name:wooden walls I
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8654,7 +8654,7 @@ desc:.
 name:wooden walls J
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8663,7 +8663,7 @@ desc:.
 name:wooden walls K
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8672,7 +8672,7 @@ desc:.
 name:wooden walls L
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8681,7 +8681,7 @@ desc:.
 name:wooden walls M
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8690,7 +8690,7 @@ desc:.
 name:wooden walls N
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8699,7 +8699,7 @@ desc:.
 name:wooden walls O
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8708,7 +8708,7 @@ desc:.
 name:wooden walls P
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8717,7 +8717,7 @@ desc:.
 name:wooden walls Q
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8726,7 +8726,7 @@ desc:.
 name:wooden walls R
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8735,7 +8735,7 @@ desc:.
 name:wooden walls S
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8744,7 +8744,7 @@ desc:.
 name:wooden walls T
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8753,7 +8753,7 @@ desc:.
 name:wooden walls U
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8762,7 +8762,7 @@ desc:.
 name:wooden walls V
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8772,7 +8772,7 @@ desc:.
 name:wooden walls W
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8781,7 +8781,7 @@ desc:.
 name:wooden walls X
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8790,7 +8790,7 @@ desc:.
 name:wooden walls Y
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 info:0:2
 ################################################################################
 short-desc:wall
@@ -8799,7 +8799,7 @@ desc:.
 name:wooden walls Z
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | BRIGHT
 info:0:2
 ################################################################################
 short-desc:brazier on the wall
@@ -8808,7 +8808,7 @@ desc:.
 name:wooden walls ~
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | BRIGHT
 info:0:2
 ################################################################################
 short-desc:candle on the wall
@@ -8817,11 +8817,12 @@ desc:.
 name:wooden walls `
 graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH | BRIGHT
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | BRIGHT
 info:0:2
 ################################################################################
 short-desc:lamp on the wall
 desc:.
+
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
 # B9 - dark wall
