@@ -6165,7 +6165,7 @@ sleepiness:40
 depth:15
 rarity:3
 weight:0
-experience:200
+experience:350
 blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
@@ -8519,7 +8519,7 @@ sleepiness:10
 depth:20
 rarity:5
 weight:0
-experience:400
+experience:750
 blow:CRAWL:POISON:3d4
 blow:CRAWL:EAT_FOOD:3d4
 blow:TOUCH:ACID:3d5
@@ -9059,7 +9059,7 @@ sleepiness:20
 depth:23
 rarity:5
 weight:0
-experience:1111
+experience:750
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
@@ -9874,7 +9874,7 @@ name:Old Man Willow
 base:tree
 color:s
 speed:110
-hit-points:1700
+hit-points:2000
 light:-2
 hearing:20
 armor-class:100
@@ -10310,7 +10310,7 @@ sleepiness:30
 depth:27
 rarity:1
 weight:0
-experience:1111
+experience:2500
 blow:HIT:HURT:1d11
 blow:HIT:HURT:2d3
 blow:HIT:HURT:3d2
@@ -12055,7 +12055,7 @@ sleepiness:80
 depth:30
 rarity:3
 weight:0
-experience:300
+experience:5000
 blow:CLAW:ACID:5d4
 blow:CLAW:POISON:5d4
 blow:BITE:FIRE:5d4
@@ -13176,7 +13176,7 @@ sleepiness:40
 depth:34
 rarity:5
 weight:0
-experience:1200
+experience:7500
 blow:HIT:HURT:5d6
 blow:HIT:HURT:5d6
 blow:HIT:HURT:5d6
@@ -13970,7 +13970,7 @@ sleepiness:0
 depth:35
 rarity:1
 weight:0
-experience:15000
+experience:10000
 blow:HIT:HURT:2d10
 blow:WAIL:PARALYZE:2d6
 blow:TOUCH:EXP_80:4d8
@@ -16554,8 +16554,8 @@ armor-class:30
 sleepiness:10
 depth:40
 rarity:2
-weight:10000
-experience:3100
+weight:0
+experience:12000
 blow:BUTT:HURT:4d6
 blow:BUTT:HURT:4d6
 blow:BUTT:HURT:3d6
@@ -18251,7 +18251,7 @@ sleepiness:80
 depth:45
 rarity:3
 weight:0
-experience:12000
+experience:15000
 blow:CRUSH:ACID:8d8
 blow:CRUSH:POISON:8d8
 blow:CRUSH:PARALYZE:8d8
@@ -18309,7 +18309,7 @@ sleepiness:40
 depth:45
 rarity:2
 weight:0
-experience:1500
+experience:15000
 blow:HIT:HURT:4d6
 blow:HIT:HURT:4d6
 blow:HIT:HURT:4d6
@@ -19008,7 +19008,7 @@ sleepiness:20
 depth:50
 rarity:3
 weight:0
-experience:30000
+experience:20000
 blow:HIT:FIRE:6d12
 blow:HIT:FIRE:6d12
 blow:CRUSH:HURT:5d12
@@ -19472,7 +19472,7 @@ sleepiness:10
 depth:52
 rarity:4
 weight:0
-experience:2000
+experience:27000
 blow:HIT:FORGET:4d6
 blow:HIT:FORGET:3d6
 blow:HIT:FORGET:4d6
@@ -19995,7 +19995,7 @@ sleepiness:20
 depth:55
 rarity:3
 weight:0
-experience:27000
+experience:30000
 blow:CLAW:POISON:5d6
 blow:CLAW:POISON:5d6
 blow:BITE:PARALYZE:5d10
@@ -20120,7 +20120,7 @@ sleepiness:255
 depth:55
 rarity:1
 weight:0
-experience:32500
+experience:35000
 blow:HIT:HURT:8d8
 blow:HIT:HURT:8d8
 blow:HIT:HURT:8d8
@@ -23369,7 +23369,7 @@ sleepiness:10
 depth:77
 rarity:2
 weight:0
-experience:30000
+experience:40000
 blow:TOUCH:EXP_80:6d12
 blow:TOUCH:DRAIN_CHARGES:6d12
 blow:TOUCH:LOSE_DEX:6d12
