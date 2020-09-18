@@ -16555,7 +16555,7 @@ sleepiness:10
 depth:40
 rarity:2
 weight:0
-experience:12000
+experience:13000
 blow:BUTT:HURT:4d6
 blow:BUTT:HURT:4d6
 blow:BUTT:HURT:3d6
@@ -18251,7 +18251,7 @@ sleepiness:80
 depth:45
 rarity:3
 weight:0
-experience:15000
+experience:17000
 blow:CRUSH:ACID:8d8
 blow:CRUSH:POISON:8d8
 blow:CRUSH:PARALYZE:8d8
@@ -18309,7 +18309,7 @@ sleepiness:40
 depth:45
 rarity:2
 weight:0
-experience:15000
+experience:22500
 blow:HIT:HURT:4d6
 blow:HIT:HURT:4d6
 blow:HIT:HURT:4d6
@@ -19008,7 +19008,7 @@ sleepiness:20
 depth:50
 rarity:3
 weight:0
-experience:20000
+experience:25000
 blow:HIT:FIRE:6d12
 blow:HIT:FIRE:6d12
 blow:CRUSH:HURT:5d12
@@ -19042,7 +19042,7 @@ sleepiness:40
 depth:50
 rarity:3
 weight:0
-experience:25000
+experience:30000
 blow:HIT:COLD:4d12
 blow:HIT:COLD:4d12
 blow:CRUSH:HURT:3d12
@@ -19472,7 +19472,7 @@ sleepiness:10
 depth:52
 rarity:4
 weight:0
-experience:27000
+experience:33000
 blow:HIT:FORGET:4d6
 blow:HIT:FORGET:3d6
 blow:HIT:FORGET:4d6
@@ -19995,7 +19995,7 @@ sleepiness:20
 depth:55
 rarity:3
 weight:0
-experience:30000
+experience:35000
 blow:CLAW:POISON:5d6
 blow:CLAW:POISON:5d6
 blow:BITE:PARALYZE:5d10
@@ -20120,7 +20120,7 @@ sleepiness:255
 depth:55
 rarity:1
 weight:0
-experience:35000
+experience:37000
 blow:HIT:HURT:8d8
 blow:HIT:HURT:8d8
 blow:HIT:HURT:8d8
@@ -21462,7 +21462,7 @@ sleepiness:10
 depth:64
 rarity:3
 weight:0
-experience:35000
+experience:45000
 blow:HIT:DISENCHANT:6d8
 blow:HIT:FIRE:6d8
 blow:HIT:BLIND:10d10
@@ -21614,7 +21614,7 @@ sleepiness:10
 depth:65
 rarity:3
 weight:0
-experience:38000
+experience:47000
 blow:HIT:DISENCHANT:6d8
 blow:HIT:DISENCHANT:6d8
 blow:HIT:DRAIN_CHARGES:5d5
@@ -22786,7 +22786,7 @@ sleepiness:80
 depth:72
 rarity:2
 weight:0
-experience:45000
+experience:50000
 blow:HIT:HURT:12d10
 blow:HIT:HURT:12d10
 blow:CRUSH:HURT:10d10
@@ -23192,7 +23192,7 @@ sleepiness:20
 depth:75
 rarity:3
 weight:0
-experience:55000
+experience:53000
 blow:CLAW:HURT:6d12
 blow:CLAW:HURT:6d12
 blow:BITE:POISON:8d14
@@ -23225,7 +23225,7 @@ sleepiness:10
 depth:75
 rarity:3
 weight:0
-experience:40000
+experience:57000
 blow:HIT:DISENCHANT:6d8
 blow:HIT:DRAIN_CHARGES:6d8
 blow:HIT:BLIND:6d8
@@ -23369,7 +23369,7 @@ sleepiness:10
 depth:77
 rarity:2
 weight:0
-experience:40000
+experience:65000
 blow:TOUCH:EXP_80:6d12
 blow:TOUCH:DRAIN_CHARGES:6d12
 blow:TOUCH:LOSE_DEX:6d12
@@ -24995,7 +24995,7 @@ sleepiness:10
 depth:98
 rarity:1
 weight:0
-experience:48000
+experience:75000
 blow:HIT:FIRE:10d12
 blow:HIT:FIRE:10d12
 blow:CRUSH:HURT:10d12
@@ -25150,7 +25150,7 @@ sleepiness:0
 depth:100
 rarity:1
 weight:0
-experience:60000
+experience:80000
 blow:HIT:SHATTER:20d10
 blow:HIT:SHATTER:20d10
 blow:HIT:LOSE_ALL:10d12
@@ -25443,7 +25443,7 @@ sleepiness:0
 depth:124
 rarity:1
 weight:0
-experience:70000
+experience:90000
 blow:TOUCH:DISENCHANT:10d10
 blow:HIT:TIME:10d10
 blow:GAZE:FORGET:10d10
@@ -25614,7 +25614,7 @@ sleepiness:0
 depth:124
 rarity:1
 weight:0
-experience:70000
+experience:95000
 blow:HIT:PARALYZE:20d10
 blow:HIT:EXP_80:20d10
 blow:HIT:LOSE_ALL:10d12
@@ -25649,7 +25649,7 @@ sleepiness:0
 depth:125
 rarity:1
 weight:0
-experience:80000
+experience:95000
 blow:HIT:PARALYZE:20d15
 blow:HIT:EXP_80:20d17
 blow:HIT:LOSE_ALL:10d12
@@ -26447,7 +26447,7 @@ sleepiness:0
 depth:126
 rarity:1
 weight:0
-experience:90000
+experience:97000
 blow:HIT:DISENCHANT:24d10
 blow:HIT:TIME:20d10
 blow:HIT:FORGET:20d10
