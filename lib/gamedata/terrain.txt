@@ -297,7 +297,7 @@ short-desc:old dog who growl sometimes, but looks harmless..
 desc:.
 
 name:Arthur the Archer
-graphics:p:g
+graphics:p:G
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:16:0
@@ -342,7 +342,7 @@ short-desc:taller than some and fairer than most, perky chap with a bright eye
 desc:.
 
 name:Gildor
-graphics:p:o
+graphics:p:u
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:21:0
@@ -569,7 +569,7 @@ desc:A safe place, perfect for drinking a pint of ale or two.
 
 #Home NOT WORK
 name:Home
-graphics:0:B
+graphics:+:y
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:43:0
@@ -2831,12 +2831,12 @@ short-desc:wall
 desc:.
 
 name:A3 severs j
-graphics:#:s
+graphics:#:D
 priority:11
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
-info:0:4
-short-desc:wall
+info:0:3
+short-desc:cell wall
 desc:.
 
 name:A3 severs k
@@ -4055,7 +4055,7 @@ short-desc:trough with hay
 desc:.
 
 name:obj_grass2 1
-graphics:0:b
+graphics:#:b
 priority:18
 flags:LOS | PROJECT | TORCH | PASSABLE | BORING | TRAP
 ################################################################################
@@ -4355,7 +4355,7 @@ desc:.
 name:obj_grass2 w
 graphics:|:u
 priority:18
-flags:FLOOR_SAFE | NO_GENERATION |TORCH | PASSABLE | BORING
+flags:FLOOR_SAFE | NO_GENERATION | TORCH | PASSABLE | BORING
 ################################################################################
 info:0:1
 short-desc:wooden fence
@@ -4365,7 +4365,7 @@ desc:.
 name:obj_grass2 x
 graphics:|:u
 priority:18
-flags:FLOOR_SAFE | NO_GENERATION |TORCH | PASSABLE | BORING
+flags:FLOOR_SAFE | NO_GENERATION | TORCH | PASSABLE | BORING
 ################################################################################
 info:0:1
 short-desc:wooden fence
@@ -4375,7 +4375,7 @@ desc:.
 name:obj_grass2 y
 graphics:|:u
 priority:18
-flags:FLOOR_SAFE | NO_GENERATION |TORCH | PASSABLE | BORING
+flags:FLOOR_SAFE | NO_GENERATION | TORCH | PASSABLE | BORING
 ################################################################################
 info:0:1
 short-desc:wooden fence
@@ -4385,7 +4385,7 @@ desc:.
 name:obj_grass2 z
 graphics:|:u
 priority:18
-flags:FLOOR_SAFE | NO_GENERATION |TORCH | PASSABLE | BORING
+flags:FLOOR_SAFE | NO_GENERATION | TORCH | PASSABLE | BORING
 ################################################################################
 info:0:1
 short-desc:wooden fence
@@ -4403,7 +4403,7 @@ desc:.
 
 #dummy
 name:obj_grass2 B
-graphics:g:u
+graphics:#:u
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
@@ -4413,7 +4413,7 @@ desc:.
 
 #armoured dummy
 name:obj_grass2 C
-graphics:g:W
+graphics:#:W
 priority:18
 flags:PROJECT | TORCH | BORING
 ################################################################################
@@ -4822,39 +4822,39 @@ short-desc:wall
 desc:.
 
 name:AA wall Q
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
-short-desc:wall
+short-desc:brick sandwall
 desc:.
 
 name:AA wall R
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
-short-desc:wall
+short-desc:brick sandwall
 desc:.
 
 name:AA wall S
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
-short-desc:wall
+short-desc:brick sandwall
 desc:.
 
 name:AA wall T
-graphics:#:W
+graphics:#:u
 priority:11
-flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
 ################################################################################
 info:0:4
-short-desc:wall
+short-desc:brick sandwall
 desc:.
 
 name:AA wall U
@@ -12949,11 +12949,11 @@ short-desc:statue
 desc:.
 
 name:road_ m
-graphics:.:s
+graphics:@:w
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
-short-desc:statue
+short-desc:high statue
 desc:.
 
 name:road_ n
@@ -13215,11 +13215,11 @@ short-desc:statue
 desc:.
 
 name:road_ S
-graphics:.:s
+graphics:^:w
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
-short-desc:statue
+short-desc:high statue
 desc:.
 
 name:road_ T
