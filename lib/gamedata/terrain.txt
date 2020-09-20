@@ -21699,7 +21699,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert m
-graphics:,:u
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -21707,7 +21707,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert n
-graphics:,:u
+graphics:.:u
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | EASY | TORCH | TRAP
 ################################################################################
@@ -21715,7 +21715,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert o
-graphics:^:y
+graphics:.:y
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | TORCH | TRAP
 ################################################################################
@@ -29003,7 +29003,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W m
-graphics:,:u
+graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | EASY | TORCH
 ################################################################################
@@ -29011,7 +29011,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W n
-graphics:,:u
+graphics:.:u
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | GRASS | BORING | EASY | TORCH
 ################################################################################
@@ -29019,7 +29019,7 @@ short-desc:plant on sand
 desc:.
 
 name:E7 desert F2W o
-graphics:^:y
+graphics:.:y
 priority:18
 flags:NO_STAIRS | NO_GENERATION | LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | TORCH
 ################################################################################
