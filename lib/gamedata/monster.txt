@@ -8533,7 +8533,7 @@ spells:BLIND | CONF | SCARE | DARKNESS | WOUND
 friends-base:100:1d5:dragon worm
 friends-base:75:1d5:dragon worm
 friends-base:50:1d5:dragon worm
-desc: An old hag living in the swapms.. She like to eat humans...
+desc: An old hag living in the swamps.. She likes to eat humans...
 locations:Fetid Swamps
 
 name:Lugdush, the Uruk
