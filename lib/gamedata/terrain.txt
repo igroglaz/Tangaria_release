@@ -225,7 +225,7 @@ desc:A shop that sells and buys magical and mystical books.
 
 
 name:Halbarad, the old ranger
-graphics:p:g
+graphics:p:G
 priority:24
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:8:0
@@ -234,7 +234,7 @@ short-desc:not too old man with weathered face. He looks at you mindfully.
 desc:Old ranger. He isn't glad to see you, but look at you with pity.
 
 name:Sonya the cat
-graphics:f:D
+graphics:f:W
 priority:18
 flags:SHOP | PROJECT | PASSABLE | PERMANENT | INTERESTING | EASY
 info:9:0
@@ -25819,7 +25819,7 @@ resist-flag:IM_WATER
 
 #5
 name:stair down 0
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance to The Mountain Gorge
@@ -25828,7 +25828,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #10
 name:stair down 1
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance to The Orc Cave
@@ -25837,7 +25837,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #15
 name:stair down 2
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance to The Severs
@@ -25846,7 +25846,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #20
 name:stair down 3
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Next (<25 lvl): The Orc Mountains [1,2]; The Old Forest [0,-1]
@@ -25855,7 +25855,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #25
 name:stair down 4
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Next (<30 lvl): Abandoned Manor [-1,2]; The Sandworm Lair [-2, 2]
@@ -25864,7 +25864,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #30
 name:stair down 5
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Next (<35 lvl): The Land Of Rhun [0,-2]; The Barrow-downs [0,2]
@@ -25873,7 +25873,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #35
 name:stair down 6
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Next (<40 lvl): Maze [-1,-1], Small Water Cave [-1,3], HotE [-1,-2]..
@@ -25882,7 +25882,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #40
 name:stair down 7
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:<45: HCA [0,4], Moria [1,3], IC [-2,1], CU [-2, -1], Numenor [-2,3]
@@ -25891,7 +25891,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #45
 name:stair down 8
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:<50lvl: Mirkwood [0,-3], Mordor [1,-1], Erebor [-1,-3], SLoM [2,2]...
@@ -25900,7 +25900,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 #50
 name:stair down 9
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25908,7 +25908,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down a
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25916,7 +25916,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down b
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25925,7 +25925,7 @@ desc:A staircase down to a deeper part of the dungeon.
 
 
 name:stair down c
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25933,7 +25933,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down d
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25941,7 +25941,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down e
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25949,7 +25949,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down f
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25957,7 +25957,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down g
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25965,7 +25965,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down h
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25973,7 +25973,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down i
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25981,7 +25981,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down j
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25989,7 +25989,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down k
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -25997,7 +25997,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down l
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26005,7 +26005,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down m
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26013,7 +26013,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down n
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26021,7 +26021,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down o
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26029,7 +26029,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down p
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26037,7 +26037,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down q
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26045,7 +26045,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down r
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26053,7 +26053,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down s
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26061,7 +26061,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down t
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26069,7 +26069,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down u
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
@@ -26077,7 +26077,7 @@ flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
 name:stair down v
-graphics:>:s
+graphics:>:w
 priority:18
 ################################################################################
 short-desc:Entrance
