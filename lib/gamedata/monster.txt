@@ -7062,8 +7062,8 @@ flags:IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 spell-freq:6
 spells:BLIND | WOUND | CONF | HEAL | MIND_BLAST
-desc:The friend and companion of the dwarven king Thrór, he went mad with grief
-desc: after Thrór's death at the hands of Azog the Orc. With torn beard and
+desc:The friend and companion of the dwarven king Thror, he went mad with grief
+desc: after Thror's death at the hands of Azog the Orc. With torn beard and
 desc: ragged clothes, he seems to have fixed on you as a convenient target to
 desc: vent his anger.
 
@@ -8526,15 +8526,14 @@ blow:TOUCH:ACID:3d5
 blow:HIT:HURT:3d5
 flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
 flags:ONLY_ITEM | DROP_3 | DROP_GOOD | PWMANG_FIXED
-flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | FORCE_DEPTH
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | FORCE_DEPTH | LEVITATE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
 spell-freq:5
-spell-power:20
-spells:BLIND | CONF | DRAIN_MANA | SCARE | WOUND
+spells:BLIND | CONF | SCARE | DARKNESS | WOUND
 friends-base:100:1d5:dragon worm
 friends-base:75:1d5:dragon worm
 friends-base:50:1d5:dragon worm
-desc: An old hag living in the swapms.. She like to eat humans...
+desc: An old hag living in the swamps.. She likes to eat humans...
 locations:Fetid Swamps
 
 name:Lugdush, the Uruk
