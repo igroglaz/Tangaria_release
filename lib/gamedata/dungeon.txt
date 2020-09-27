@@ -1842,6 +1842,8 @@ stair:9F stair down 0:9F stair up 1:10000
 #
 rubble:E6 dark floor rubble:E6 dark floor pass rubble:10000
 #
+fill:dark wall 0:10000
+#
 floor:E6 blood X:2500
 floor:E6 blood Y:2500
 floor:E6 blood Z:2500
