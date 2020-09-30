@@ -726,12 +726,13 @@ value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
 obj-flag:40:TRAP_IMMUNE
 #value:1:SPEED[-1+-1d30]
+#MOVES works as not intended
 value:1:MOVES[-1]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
 brand:50:STUN_2
-value:1:DAM_RED[5]
+value:1:DAM_RED[2+1d10]
 obj-flag:1:NO_TELEPORT
 
 #Swamp troll
@@ -740,7 +741,7 @@ skill-disarm-phys:-8
 skill-disarm-magic:-6
 skill-device:-3
 skill-save:-3
-skill-stealth:-1
+skill-stealth:-2
 skill-search:-5
 skill-melee:15
 skill-shoot:-5
@@ -758,6 +759,7 @@ value:1:WIS[-5+1d12]
 value:1:DEX[0+-1d30M32]
 value:1:CON[1+1d15M32]
 value:1:INFRA[1+1d7]
+#MOVES works as not intended
 value:1:MOVES[-1]
 obj-flag:1:SUST_INT
 value:1:TUNNEL[1]
@@ -788,6 +790,7 @@ value:1:CON[1+1d8M30]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
+#MOVES works as not intended
 value:1:MOVES[-2+-1d24]
 value:50:SPEED[-1]
 ###########value:1:SPEED[-1+-1d35]
