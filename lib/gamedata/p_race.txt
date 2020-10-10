@@ -734,6 +734,7 @@ brand:40:STUN_1
 brand:50:STUN_2
 value:1:DAM_RED[2+1d10]
 obj-flag:1:NO_TELEPORT
+# add another race... which will have limited teleport, but a lot of MOVES
 
 #Swamp troll
 name:Ogre
