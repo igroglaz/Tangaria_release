@@ -2,7 +2,7 @@
 
 ## Script for setup Tangaria.
 ##
-## Version 1.0.0
+## Version 1.0.1
 ## Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria/master/tangaria-setup.sh
 ##      Github PWMAngband: https://github.com/draconisPW/PWMAngband
 ##      PWMAngband binaries: https://powerwyrm.monsite-orange.fr/page-56e3134c5ebab.html
@@ -128,12 +128,58 @@ if ! [ -d ./PWMAngband-master ];
     esac
 fi
 
+###################################
+make clean
+
+if [ -d PWMAngband-master ]; then
+make -C PWMAngband-master clean
+
+if [ -f PWMAngband-master/src/pwmangband.o ] ; then
+rm -r PWMAngband-master/src/pwmangband.o
+fi
+
+if [ -f PWMAngband-master/src/pwmangclient.o ] ; then
+rm -r PWMAngband-master/src/pwmangclient.o
+fi
+
+if [ -f PWMAngband-master/src/client/main-sdl.o ] ; then
+rm -r PWMAngband-master/src/client/main-sdl.o
+fi
+
+if [ -f PWMAngband-master/src/client/main.o ] ; then
+rm -r PWMAngband-master/src/client/main.o
+fi
+
+if [ -f PWMAngband-master/src/client/snd-sdl.o ] ; then
+rm -r PWMAngband-master/src/client/snd-sdl.o
+fi
+
+if [ -f PWMAngband-master/src/client/main-gcu.o ] ; then
+rm -r PWMAngband-master/src/client/main-gcu.o
+fi
+
+fi
+###################################
+
 cd ./PWMAngband-master
 ./autogen.sh
+
 # ./configure --help
-# ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
-./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
-make clean
+
+echo -n "./configure  y:sdl-client  n:curses-client(terminal)     (y/n)"
+read item
+case "$item" in
+    y|Y) echo "«y:sdl-client», Ok..."
+         ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
+        ;;
+    n|N) echo "«n:curses-client(terminal)», Ok..."
+         ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
+        ;;
+    *) echo "«y» or «n». sdl-client(default)..."
+       ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
+        ;;
+esac
+
 # make -j8
 make
 make install
