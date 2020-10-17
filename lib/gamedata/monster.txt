@@ -5106,7 +5106,7 @@ blow:BITE:POISON:4d6
 flags:RAND_50
 flags:IM_POIS
 flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD | WILD_SWAMP
-spell-freq:4
+spell-freq:5
 innate-freq:100
 spells:SPIT
 desc:It has glistening black skin, a sleek body and highly venomous fangs.
@@ -5250,7 +5250,7 @@ flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:3
 spell-power:6
 spells:HEAL | SCARE | HEAL_KIN
-spells:BA_LIGHT | BA_HOLY
+spells:BA_LIGHT | WOUND
 spells:S_KIN
 drop-base:prayer book:8:1:1
 friends:50:1d2:brigand
@@ -5822,13 +5822,13 @@ depth:13
 rarity:4
 weight:200
 experience:45
-blow:HIT:POISON:1d6
+blow:HIT:HURT:1d6
 blow:HIT:POISON:1d6
 flags:DROP_20
 flags:HURT_LIGHT
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
 innate-freq:100
-spell-freq:2
+spell-freq:4
 spell-power:8
 spells:WHIP
 friends:100:1d5:Same
@@ -11684,7 +11684,7 @@ flags:ATTR_FLICKER
 flags:IM_ELEC
 flags:NO_STUN
 spell-freq:4
-innate-freq:50
+innate-freq:75
 spells:BR_ELEC | BE_ELEC | BR_WATE
 desc:A shimmering tornado of air and water, sparks crackle along its length.
 

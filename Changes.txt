@@ -50,8 +50,43 @@ PWMAngband Forum: http://www.mangband.org/forum/viewforum.php?f=9
 Features from Angband 4.x and MAngband 1.x are explicitely mentioned. Other
 changes and fixes are specific to PWMAngband.
 
-New features in PWMAngband 1.4.0 build 3
+New features in PWMAngband 1.4.0 build 4
 ========================================
+
+Gameplay changes
+----------------
+
+Angband 4.2.x:
+
+- Adjust food again
+- Activate "hard centre", "lair" and "gauntlet" dungeon profiles
+- Allow negative MOVES
+
+PWMAngband:
+
+- Implement water and tree tiles in vaults
+- Add CHALLENGING_LEVELS server option to make dungeon levels more challenging
+- Adjust damage per mana value of some spells
+
+Bugs fixed
+----------
+
+Angband 4.2.x:
+
+- Changed some vaults and interesting rooms so the tunneling code can always
+  connect them properly
+- When loading a savefile discovers a mimic with no mimicked object, just delete
+  the mimic instead of making a new object
+
+Coding changes
+--------------
+
+Angband 4.2.x:
+  
+- Add a facility to dump a level (as HTML) for post-mortem analysis
+
+Features in PWMAngband 1.4.0 build 3
+====================================
 
 User interface
 --------------

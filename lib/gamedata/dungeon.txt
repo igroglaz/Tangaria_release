@@ -8,6 +8,7 @@
 # flags : dungeon flags
 # floor : floor feature : 1/10000 chance of getting the feature
 # wall : wall feature : 1/10000 chance of getting the feature
+# fill : wall feature : 1/10000 chance of getting the feature
 # perma : permawall feature : 1/10000 chance of getting the feature
 # door : closed door feature : open door feature : broken door feature : 1/10000
 #        chance of getting the feature
@@ -39,6 +40,7 @@
 
 # 'floor' are dungeon features that can replace basic floors
 # 'wall' are dungeon features that can replace basic walls
+# 'fill' are dungeon features that can replace "core" walls
 # 'perma' are dungeon features that can replace basic permawalls
 # 'door' are dungeon features that can replace basic doors
 # 'stair' are dungeon features that can replace basic stairs
