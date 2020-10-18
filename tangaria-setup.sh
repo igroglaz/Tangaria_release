@@ -129,7 +129,7 @@ if ! [ -d ./PWMAngband-master ];
 fi
 
 ###################################
-make clean
+#make -C PWMAngband-master clean
 
 if [ -d PWMAngband-master ]; then
 make -C PWMAngband-master clean
