@@ -353,7 +353,10 @@ cp -R ./lib/sounds $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/tiles
 cp -R ./lib/tiles $INSTALL_DIR/share/pwmangband
 
+if ! [ -f $INSTALL_DIR/var/games/pwmangband/user/save/account ] ; then
 cp -f ./lib/user/save/account $INSTALL_DIR/var/games/pwmangband/user/save
+fi
+
 cp -i ./lib/user/sdlinit.txt $INSTALL_DIR/var/games/pwmangband/user
 
 cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
