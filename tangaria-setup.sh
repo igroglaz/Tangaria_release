@@ -204,18 +204,6 @@ cp -f ./setup/mangband.cfg $INSTALL_DIR/games
 
 cd ../
 
-if ! [ -f $INSTALL_DIR/games/mangclient_sdl.INI ]; then
-cat > $INSTALL_DIR/games/mangclient_sdl.INI << EOF
-[MAngband]
-nick=PLAYER
-pass=pass
-;host=localhost
-meta_address=mangband.org
-meta_port=8802
-DisableNumlock=1
-EOF
-fi
-
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
