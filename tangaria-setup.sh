@@ -214,7 +214,6 @@ meta_address=mangband.org
 meta_port=8802
 DisableNumlock=1
 EOF
-chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
@@ -258,7 +257,7 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
 EOF
-chmod +x $INSTALL_DIR/pwmangband.desktop
+chmod +x $INSTALL_DIR/pwmangclient.desktop
 fi
 
 if ! [ -f $INSTALL_DIR/pwmangband.desktop ]; then
