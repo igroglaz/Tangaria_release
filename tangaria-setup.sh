@@ -2,7 +2,6 @@
 
 ## Script for setup Tangaria.
 ##
-## Version 1.0.1
 ## Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria/master/tangaria-setup.sh
 ##      Github PWMAngband: https://github.com/draconisPW/PWMAngband
 ##      PWMAngband binaries: https://powerwyrm.monsite-orange.fr/page-56e3134c5ebab.html
@@ -184,29 +183,39 @@ esac
 make
 make install
 
-if ! [ -d $INSTALL_DIR/var ]; then
-  mkdir -p $INSTALL_DIR/var  
+if ! [ -d $HOME/.pwmangband ]; then
+  mkdir -p $HOME/.pwmangband  
 fi
-if ! [ -d $INSTALL_DIR/var/games ]; then
-  mkdir -p $INSTALL_DIR/var/games
+if ! [ -d $HOME/.pwmangband/PWMAngband ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband
 fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband
+if ! [ -d $HOME/.pwmangband/PWMAngband/save ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband/save
 fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user
-fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/save ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/save
-fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/scores ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/scores
+if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband/scores
 fi
 
-cp -f ./setup/mangclient_sdl.INI $INSTALL_DIR/games
+if ! [ -d $INSTALL_DIR/user ]; then
+ln -s $HOME/.pwmangband $INSTALL_DIR/user
+fi
+
 cp -f ./setup/mangband.cfg $INSTALL_DIR/games
 
 cd ../
+
+if ! [ -f $INSTALL_DIR/games/mangclient_sdl.INI ]; then
+cat > $INSTALL_DIR/games/mangclient_sdl.INI << EOF
+[MAngband]
+nick=PLAYER
+pass=pass
+;host=localhost
+meta_address=mangband.org
+meta_port=8802
+DisableNumlock=1
+EOF
+chmod +x $INSTALL_DIR/pwmangband-launcher.sh
+fi
 
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
@@ -215,6 +224,16 @@ cd "\$(dirname "\$0")"/games
 ./pwmangclient --config mangclient_sdl.INI
 # ./pwmangclient
 # \$HOME/.mangrc
+
+# mangclient_sdl.INI
+#
+# [MAngband]
+# nick=PLAYER
+# pass=pass
+# ;host=localhost
+# meta_address=mangband.org
+# meta_port=8802
+# DisableNumlock=1
 EOF
 chmod +x $INSTALL_DIR/pwmangclient-launcher.sh
 fi
@@ -226,6 +245,34 @@ cd "\$(dirname "\$0")"/games
 ./pwmangband
 EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
+fi
+
+if ! [ -f $INSTALL_DIR/pwmangclient.desktop ]; then
+cat > $INSTALL_DIR/pwmangclient.desktop << EOF
+[Desktop Entry]
+Name=PWMAngband (client)
+Type=Application
+Comment=PWMAngband (client)
+Exec=$INSTALL_DIR/games/pwmangclient --config $INSTALL_DIR/games/mangclient_sdl.INI
+Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
+Terminal=false
+Categories=Game;RolePlaying;
+EOF
+chmod +x $INSTALL_DIR/pwmangband.desktop
+fi
+
+if ! [ -f $INSTALL_DIR/pwmangband.desktop ]; then
+cat > $INSTALL_DIR/pwmangband.desktop << EOF
+[Desktop Entry]
+Name=PWMAngband (server)
+Type=Application
+Comment=PWMAngband (server)
+Exec=$INSTALL_DIR/games/pwmangband
+Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
+Terminal=true
+Categories=Game;RolePlaying;
+EOF
+chmod +x $INSTALL_DIR/pwmangband.desktop
 fi
 
         ;;
@@ -317,23 +364,22 @@ if ! [ -d $INSTALL_DIR/share ]; then
   mkdir -p $INSTALL_DIR/share/pwmangband/sounds
   mkdir -p $INSTALL_DIR/share/pwmangband/tiles
 fi
-if ! [ -d $INSTALL_DIR/var ]; then
-  mkdir -p $INSTALL_DIR/var  
+
+if ! [ -d $HOME/.pwmangband ]; then
+  mkdir -p $HOME/.pwmangband  
 fi
-if ! [ -d $INSTALL_DIR/var/games ]; then
-  mkdir -p $INSTALL_DIR/var/games
+if ! [ -d $HOME/.pwmangband/PWMAngband ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband
 fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband
+if ! [ -d $HOME/.pwmangband/PWMAngband/save ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband/save
 fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user
+if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
+  mkdir -p $HOME/.pwmangband/PWMAngband/scores
 fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/save ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/save
-fi
-if ! [ -d $INSTALL_DIR/var/games/pwmangband/user/scores ]; then
-  mkdir -p $INSTALL_DIR/var/games/pwmangband/user/scores
+
+if ! [ -d $INSTALL_DIR/user ]; then
+ln -s $HOME/.pwmangband $INSTALL_DIR/user
 fi
 
 rm -r $INSTALL_DIR/etc/pwmangband/customize
@@ -353,15 +399,15 @@ cp -R ./lib/sounds $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/tiles
 cp -R ./lib/tiles $INSTALL_DIR/share/pwmangband
 
-cp -n ./lib/user/save/account $INSTALL_DIR/var/games/pwmangband/user/save
-cp -i ./lib/user/sdlinit.txt $INSTALL_DIR/var/games/pwmangband/user
+cp -n ./lib/user/save/account $HOME/.pwmangband/PWMAngband/save
+cp -i ./lib/user/sdlinit.txt $HOME/.pwmangband/PWMAngband
 
 cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
 cp -f ./Changes.txt $INSTALL_DIR
 cp -f ./Manual.html $INSTALL_DIR
 cp -f ./Manual.pdf $INSTALL_DIR
 
-cp -f ./mangclient_sdl.INI $INSTALL_DIR/games
+cp -i ./mangclient_sdl.INI $INSTALL_DIR/games
 cp -f ./mangband.cfg $INSTALL_DIR/games
 
 echo "                "
