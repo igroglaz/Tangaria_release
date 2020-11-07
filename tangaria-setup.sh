@@ -250,6 +250,7 @@ cat > $INSTALL_DIR/pwmangclient.desktop << EOF
 Name=PWMAngband (client)
 Type=Application
 Comment=PWMAngband (client)
+Path=$INSTALL_DIR/games
 Exec=$INSTALL_DIR/games/pwmangclient --config $INSTALL_DIR/games/mangclient_sdl.INI
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
@@ -264,6 +265,7 @@ cat > $INSTALL_DIR/pwmangband.desktop << EOF
 Name=PWMAngband (server)
 Type=Application
 Comment=PWMAngband (server)
+Path=$INSTALL_DIR/games
 Exec=$INSTALL_DIR/games/pwmangband
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=true
