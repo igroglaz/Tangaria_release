@@ -110,7 +110,6 @@ case "$item" in
     *) echo "«y» or «n»   skip update..."
        if ! [ -e "$(ls -A . | head -1)" ]; then
         echo "./tangaria_setup_files   empty directory..."
-        ls
         exit 0
        fi
        
