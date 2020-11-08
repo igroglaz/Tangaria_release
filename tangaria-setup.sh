@@ -16,11 +16,13 @@
 ####    and the command to obtain all the needed libraries is: sudo yum install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
 
 ########### INSTALL_DIR ###########
+
 INSTALL_DIR=$HOME/Tangaria
+
 ###################################
 
-REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/master.zip"
-REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/master.zip"
+REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
+REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/"
 
 ###################################
 
@@ -53,7 +55,7 @@ read item
 case "$item" in
     y|Y) echo "«yes», Ok..."
         ;;
-    n|N) read -p "Enter path:" INSTALL_DIR
+    n|N) read -p "enter path:" INSTALL_DIR
         ;;
     *) echo "«y» or «n». Exit..."
        exit 0
@@ -92,76 +94,84 @@ read item
 case "$item" in
     y|Y) echo "«yes», Ok..."
 
-if ! [ -f ./PWMAngband-master.zip ];
-    then
-    wget --output-document=PWMAngband-master.zip $REPOSITORY_URL_PWMANGBAND
-    else
-    echo -n "Update PWMAngband-master.zip ?     (y/n)"
+echo -n "Select PWMAngband version?  y:master(latest)  n:other(branches)     (y/n)"
+read item
+case "$item" in
+    y|Y) echo "«y:PWMAngband-master», Ok..."
+         VERSION_PWMANGBAND="master"
+         rm -r ./PWMAngband-*".zip"
+         wget --output-document=PWMAngband-$VERSION_PWMANGBAND.zip $REPOSITORY_URL_PWMANGBAND"/"$VERSION_PWMANGBAND".zip" || exit 1
+        ;;
+    n|N) echo "follow the link https://github.com/draconisPW/PWMAngband/branches"
+         read -p "enter: PWMAngband-" VERSION_PWMANGBAND
+         rm -r ./PWMAngband-*".zip"
+         wget --output-document=PWMAngband-$VERSION_PWMANGBAND.zip $REPOSITORY_URL_PWMANGBAND"/"$VERSION_PWMANGBAND".zip" || exit 1
+        ;;
+    *) echo "«y» or «n»   skip update..."
+       if ! [ -e "$(ls -A . | head -1)" ]; then
+        echo "./tangaria_setup_files   empty directory..."
+        exit 0
+       fi
+       
+       if ! [ -d $(ls -d PWMAngband-* | head -1 || exit 1) ];
+        then
+        VERSION_PWMANGBAND=$(ls -d PWMAngband-* | head -1 | sed -e 's/.*PWMAngband-//; s/.zip*//')
+        echo "Ok... PWMAngband-$VERSION_PWMANGBAND"
+        else
+        VERSION_PWMANGBAND=$(ls -d PWMAngband-*/ | head -1 | sed -e 's/.*PWMAngband-//; s/.$//')
+        echo "Ok... PWMAngband-$VERSION_PWMANGBAND"
+       fi
+        ;;
+esac
+
+echo -n "Unpack PWMAngband-$VERSION_PWMANGBAND.zip ?     (y/n)"
     read item
     case "$item" in
         y|Y) echo "«yes», Ok..."
-             wget --output-document=PWMAngband-master.zip $REPOSITORY_URL_PWMANGBAND
+             rm -r $(ls -d PWMAngband-*/)
+             unzip -o PWMAngband-$VERSION_PWMANGBAND.zip || exit 1
             ;;
         n|N) echo "«no», Ok..."
             ;;
         *) echo "«no», Ok..."
             ;;
     esac
-fi
-
-if ! [ -d ./PWMAngband-master ];
-    then
-    unzip -o PWMAngband-master.zip
-    else
-    echo -n "Unpack PWMAngband-master.zip ?     (y/n)"
-    read item
-    case "$item" in
-        y|Y) echo "«yes», Ok..."
-             rm -r ./PWMAngband-master
-             unzip -o PWMAngband-master.zip
-            ;;
-        n|N) echo "«no», Ok..."
-            ;;
-        *) echo "«no», Ok..."
-            ;;
-    esac
-fi
 
 ###################################
-#make -C PWMAngband-master clean
+#make -C $(ls -d PWMAngband-*/ | head -1) clean
 
-if [ -d PWMAngband-master ]; then
-make -C PWMAngband-master clean
+if [ -d $(ls -d PWMAngband-*/ | head -1) ]; then
+make -C $(ls -d PWMAngband-*/ | head -1) clean
 
-if [ -f PWMAngband-master/src/pwmangband.o ] ; then
-rm -r PWMAngband-master/src/pwmangband.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/pwmangband.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/pwmangband.o
 fi
 
-if [ -f PWMAngband-master/src/pwmangclient.o ] ; then
-rm -r PWMAngband-master/src/pwmangclient.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/pwmangclient.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/pwmangclient.o
 fi
 
-if [ -f PWMAngband-master/src/client/main-sdl.o ] ; then
-rm -r PWMAngband-master/src/client/main-sdl.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/client/main-sdl.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/client/main-sdl.o
 fi
 
-if [ -f PWMAngband-master/src/client/main.o ] ; then
-rm -r PWMAngband-master/src/client/main.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/client/main.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/client/main.o
 fi
 
-if [ -f PWMAngband-master/src/client/snd-sdl.o ] ; then
-rm -r PWMAngband-master/src/client/snd-sdl.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/client/snd-sdl.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/client/snd-sdl.o
 fi
 
-if [ -f PWMAngband-master/src/client/main-gcu.o ] ; then
-rm -r PWMAngband-master/src/client/main-gcu.o
+if [ -f $(ls -d PWMAngband-*/ | head -1)/src/client/main-gcu.o ] ; then
+rm -r $(ls -d PWMAngband-*/ | head -1)/src/client/main-gcu.o
 fi
 
 fi
 ###################################
 
-cd ./PWMAngband-master
-./autogen.sh
+cd ./$(ls -d PWMAngband-*/ | head -1)
+./autogen.sh || exit 1
 
 # ./configure --help
 
@@ -179,7 +189,7 @@ case "$item" in
         ;;
 esac
 
-# make -j8
+#make -j8
 make
 make install
 
@@ -203,19 +213,6 @@ fi
 cp -f ./setup/mangband.cfg $INSTALL_DIR/games
 
 cd ../
-
-if ! [ -f $INSTALL_DIR/games/mangclient_sdl.INI ]; then
-cat > $INSTALL_DIR/games/mangclient_sdl.INI << EOF
-[MAngband]
-nick=PLAYER
-pass=pass
-;host=localhost
-meta_address=mangband.org
-meta_port=8802
-DisableNumlock=1
-EOF
-chmod +x $INSTALL_DIR/pwmangband-launcher.sh
-fi
 
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
@@ -253,12 +250,13 @@ cat > $INSTALL_DIR/pwmangclient.desktop << EOF
 Name=PWMAngband (client)
 Type=Application
 Comment=PWMAngband (client)
-Exec=$INSTALL_DIR/games/pwmangclient --config $INSTALL_DIR/games/mangclient_sdl.INI
+Path=$INSTALL_DIR/games
+Exec=$INSTALL_DIR/games/pwmangclient --config mangclient_sdl.INI
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
 EOF
-chmod +x $INSTALL_DIR/pwmangband.desktop
+chmod +x $INSTALL_DIR/pwmangclient.desktop
 fi
 
 if ! [ -f $INSTALL_DIR/pwmangband.desktop ]; then
@@ -267,6 +265,7 @@ cat > $INSTALL_DIR/pwmangband.desktop << EOF
 Name=PWMAngband (server)
 Type=Application
 Comment=PWMAngband (server)
+Path=$INSTALL_DIR/games
 Exec=$INSTALL_DIR/games/pwmangband
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=true
@@ -299,6 +298,8 @@ echo "        '.  / /       '.~-^=-=~=^=.-'      '-._ '._ "
 echo "tangaria.com                                        "
 echo "----------------------------------------------------"
 
+VERSION_TANGARIA="master"
+
 echo -n "Install Tangaria? path:$INSTALL_DIR     (y/n)"
 read item
 case "$item" in
@@ -312,15 +313,17 @@ case "$item" in
         ;;
 esac
 
-if ! [ -f ./Tangaria-master.zip ];
+if ! [ -f ./Tangaria-$VERSION_TANGARIA.zip ];
     then
-    wget --output-document=Tangaria-master.zip $REPOSITORY_URL_TANGARIA
+    rm -r ./Tangaria-*".zip"
+    wget --output-document=Tangaria-$VERSION_TANGARIA.zip $REPOSITORY_URL_TANGARIA"/"$VERSION_TANGARIA".zip" || exit 1
     else
-    echo -n "Update Tangaria-master.zip ?     (y/n)"
+    echo -n "Update Tangaria-$VERSION_TANGARIA.zip ?     (y/n)"
     read item
     case "$item" in
         y|Y) echo "«yes», Ok..."
-             wget --output-document=Tangaria-master.zip $REPOSITORY_URL_TANGARIA
+             rm -r ./Tangaria-*".zip"
+             wget --output-document=Tangaria-$VERSION_TANGARIA.zip $REPOSITORY_URL_TANGARIA"/"$VERSION_TANGARIA".zip" || exit 1
             ;;
         n|N) echo "«no», Ok..."
             ;;
@@ -329,16 +332,16 @@ if ! [ -f ./Tangaria-master.zip ];
     esac
 fi
 
-if ! [ -d ./Tangaria-master ];
+if ! [ -d ./Tangaria-$VERSION_TANGARIA ];
     then
-    unzip -o Tangaria-master.zip
+    unzip -o Tangaria-$VERSION_TANGARIA.zip || exit 1
     else
-    echo -n "Unpack Tangaria-master.zip ?     (y/n)"
+    echo -n "Unpack Tangaria-$VERSION_TANGARIA.zip ?     (y/n)"
     read item
     case "$item" in
         y|Y) echo "«yes», Ok..."
-             rm -r ./Tangaria-master
-             unzip -o Tangaria-master.zip
+             rm -r $(ls -d Tangaria-*/)
+             unzip -o Tangaria-$VERSION_TANGARIA.zip || exit 1
             ;;
         n|N) echo "«no», Ok..."
             ;;
@@ -347,7 +350,7 @@ if ! [ -d ./Tangaria-master ];
     esac
 fi
 
-cd ./Tangaria-master
+cd ./Tangaria-$VERSION_TANGARIA
 
 if ! [ -d $INSTALL_DIR/etc ]; then
   mkdir -p $INSTALL_DIR/etc/pwmangband/customize  
