@@ -174,7 +174,7 @@ fi
 fi
 ###################################
 
-cd ./$(ls -d PWMAngband-*/ | head -1)
+cd ./$(ls -d PWMAngband-*/ | head -1) || exit 1
 ./autogen.sh || exit 1
 
 # ./configure --help
@@ -215,7 +215,7 @@ fi
 
 cp -f ./setup/mangband.cfg $INSTALL_DIR/games
 
-cd ../
+cd ../ || exit 1
 
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
@@ -353,7 +353,7 @@ if ! [ -d ./Tangaria-$VERSION_TANGARIA ];
     esac
 fi
 
-cd ./Tangaria-$VERSION_TANGARIA
+cd ./Tangaria-$VERSION_TANGARIA || exit 1
 
 if ! [ -d $INSTALL_DIR/etc ]; then
   mkdir -p $INSTALL_DIR/etc/pwmangband/customize  
