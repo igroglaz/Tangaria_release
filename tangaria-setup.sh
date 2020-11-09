@@ -24,6 +24,10 @@ INSTALL_DIR=$HOME/Tangaria
 REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
 REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/"
 
+##### make -j$CPU_CORES ###########
+
+CPU_CORES=1
+
 ###################################
 
 printerr() {
@@ -53,11 +57,11 @@ echo "----------------------------------"
 echo -n "Install path:$INSTALL_DIR     (y/n)"
 read item
 case "$item" in
-    y|Y) echo "«yes», Ok..."
+    y|Y) echo "«yes», ok..."
         ;;
     n|N) read -p "enter path:" INSTALL_DIR
         ;;
-    *) echo "«y» or «n». Exit..."
+    *) echo "«y» or «n». exit..."
        exit 0
         ;;
 esac
@@ -92,12 +96,12 @@ echo "                                   "
 echo -n "Install PWMAngband? path:$INSTALL_DIR     (y/n)"
 read item
 case "$item" in
-    y|Y) echo "«yes», Ok..."
+    y|Y) echo "«yes», ok..."
 
 echo -n "Select PWMAngband version?  y:master(latest)  n:other(branches)     (y/n)"
 read item
 case "$item" in
-    y|Y) echo "«y:PWMAngband-master», Ok..."
+    y|Y) echo "«y:PWMAngband-master», ok..."
          VERSION_PWMANGBAND="master"
          rm -r ./PWMAngband-*".zip"
          wget --output-document=PWMAngband-$VERSION_PWMANGBAND.zip $REPOSITORY_URL_PWMANGBAND"/"$VERSION_PWMANGBAND".zip" || exit 1
@@ -116,10 +120,10 @@ case "$item" in
        if ! [ -d $(ls -d PWMAngband-* | head -1 || exit 1) ];
         then
         VERSION_PWMANGBAND=$(ls -d PWMAngband-* | head -1 | sed -e 's/.*PWMAngband-//; s/.zip*//')
-        echo "Ok... PWMAngband-$VERSION_PWMANGBAND"
+        echo "ok... PWMAngband-$VERSION_PWMANGBAND"
         else
         VERSION_PWMANGBAND=$(ls -d PWMAngband-*/ | head -1 | sed -e 's/.*PWMAngband-//; s/.$//')
-        echo "Ok... PWMAngband-$VERSION_PWMANGBAND"
+        echo "ok... PWMAngband-$VERSION_PWMANGBAND"
        fi
         ;;
 esac
@@ -127,13 +131,13 @@ esac
 echo -n "Unpack PWMAngband-$VERSION_PWMANGBAND.zip ?     (y/n)"
     read item
     case "$item" in
-        y|Y) echo "«yes», Ok..."
+        y|Y) echo "«yes», ok..."
              rm -r $(ls -d PWMAngband-*/)
              unzip -o PWMAngband-$VERSION_PWMANGBAND.zip || exit 1
             ;;
-        n|N) echo "«no», Ok..."
+        n|N) echo "«no», ok..."
             ;;
-        *) echo "«no», Ok..."
+        *) echo "«no», ok..."
             ;;
     esac
 
@@ -178,10 +182,10 @@ cd ./$(ls -d PWMAngband-*/ | head -1)
 echo -n "./configure  y:sdl-client  n:curses-client(terminal)     (y/n)"
 read item
 case "$item" in
-    y|Y) echo "«y:sdl-client», Ok..."
+    y|Y) echo "«y:sdl-client», ok..."
          ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
         ;;
-    n|N) echo "«n:curses-client(terminal)», Ok..."
+    n|N) echo "«n:curses-client(terminal)», ok..."
          ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
         ;;
     *) echo "«y» or «n». sdl-client(default)..."
@@ -189,8 +193,7 @@ case "$item" in
         ;;
 esac
 
-#make -j8
-make
+make -j$CPU_CORES
 make install
 
 if ! [ -d $HOME/.pwmangband ]; then
@@ -206,7 +209,7 @@ if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
   mkdir -p $HOME/.pwmangband/PWMAngband/scores
 fi
 
-if ! [ -d $INSTALL_DIR/user ]; then
+if ! [ -e $INSTALL_DIR/user ]; then
 ln -s $HOME/.pwmangband $INSTALL_DIR/user
 fi
 
@@ -218,19 +221,19 @@ if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
 cd "\$(dirname "\$0")"/games
-./pwmangclient --config mangclient_sdl.INI
-# ./pwmangclient
-# \$HOME/.mangrc
+./pwmangclient --config mangclient.ini
 
-# mangclient_sdl.INI
+# Please copy example mangrc to your home directory and adjust it
+# .mangrc (mangclient.ini)
 #
-# [MAngband]
-# nick=PLAYER
-# pass=pass
-# ;host=localhost
-# meta_address=mangband.org
-# meta_port=8802
-# DisableNumlock=1
+#[MAngband]
+#nick=PLAYER
+#pass=pass
+#;host=localhost
+#meta_address=mangband.org
+#meta_port=8802
+#DisableNumlock=1
+#LighterBlue=1
 EOF
 chmod +x $INSTALL_DIR/pwmangclient-launcher.sh
 fi
@@ -251,7 +254,7 @@ Name=PWMAngband (client)
 Type=Application
 Comment=PWMAngband (client)
 Path=$INSTALL_DIR/games
-Exec=$INSTALL_DIR/games/pwmangclient --config mangclient_sdl.INI
+Exec=$INSTALL_DIR/games/pwmangclient --config mangclient.ini
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
@@ -275,9 +278,9 @@ chmod +x $INSTALL_DIR/pwmangband.desktop
 fi
 
         ;;
-    n|N) echo "«no», Ok..."
+    n|N) echo "«no», ok..."
         ;;
-    *) echo "«y» or «n». Exit..."
+    *) echo "«y» or «n». exit..."
        exit 0
         ;;
 esac
@@ -303,12 +306,12 @@ VERSION_TANGARIA="master"
 echo -n "Install Tangaria? path:$INSTALL_DIR     (y/n)"
 read item
 case "$item" in
-    y|Y) echo "«yes», Ok..."
+    y|Y) echo "«yes», ok..."
         ;;
-    n|N) echo "«no», Exit..."
+    n|N) echo "«no», exit..."
          exit 0
         ;;
-    *) echo "«y» or «n». Exit..."
+    *) echo "«y» or «n». exit..."
        exit 0
         ;;
 esac
@@ -321,13 +324,13 @@ if ! [ -f ./Tangaria-$VERSION_TANGARIA.zip ];
     echo -n "Update Tangaria-$VERSION_TANGARIA.zip ?     (y/n)"
     read item
     case "$item" in
-        y|Y) echo "«yes», Ok..."
+        y|Y) echo "«yes», ok..."
              rm -r ./Tangaria-*".zip"
              wget --output-document=Tangaria-$VERSION_TANGARIA.zip $REPOSITORY_URL_TANGARIA"/"$VERSION_TANGARIA".zip" || exit 1
             ;;
-        n|N) echo "«no», Ok..."
+        n|N) echo "«no», ok..."
             ;;
-        *) echo "«no», Ok..."
+        *) echo "«no», ok..."
             ;;
     esac
 fi
@@ -339,13 +342,13 @@ if ! [ -d ./Tangaria-$VERSION_TANGARIA ];
     echo -n "Unpack Tangaria-$VERSION_TANGARIA.zip ?     (y/n)"
     read item
     case "$item" in
-        y|Y) echo "«yes», Ok..."
+        y|Y) echo "«yes», ok..."
              rm -r $(ls -d Tangaria-*/)
              unzip -o Tangaria-$VERSION_TANGARIA.zip || exit 1
             ;;
-        n|N) echo "«no», Ok..."
+        n|N) echo "«no», ok..."
             ;;
-        *) echo "«no», Ok..."
+        *) echo "«no», ok..."
             ;;
     esac
 fi
@@ -381,9 +384,11 @@ if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
   mkdir -p $HOME/.pwmangband/PWMAngband/scores
 fi
 
-if ! [ -d $INSTALL_DIR/user ]; then
+if ! [ -e $INSTALL_DIR/user ]; then
 ln -s $HOME/.pwmangband $INSTALL_DIR/user
 fi
+
+echo "copying files..."
 
 rm -r $INSTALL_DIR/etc/pwmangband/customize
 cp -R ./lib/customize $INSTALL_DIR/etc/pwmangband
@@ -410,8 +415,57 @@ cp -f ./Changes.txt $INSTALL_DIR
 cp -f ./Manual.html $INSTALL_DIR
 cp -f ./Manual.pdf $INSTALL_DIR
 
-cp -i ./mangclient_sdl.INI $INSTALL_DIR/games
-cp -f ./mangband.cfg $INSTALL_DIR/games
+cp -i ./mangband.cfg $INSTALL_DIR/games
+
+###################################
+if ! [ -f $INSTALL_DIR/games/mangclient.ini ]; then
+NICK=$(sed -n '/nick=/p' ./mangclient.ini)
+PASS=$(sed -n '/pass=/p' ./mangclient.ini)
+HOST=$(sed -n '/host=/p' ./mangclient.ini)
+META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
+META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
+DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
+LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
+cat > $INSTALL_DIR/games/mangclient.ini << EOF
+[MAngband]
+$NICK
+$PASS
+$HOST
+$META_ADDRESS
+$META_PORT
+$DISABLENUMLOCK
+$LIGHTERBLUE
+EOF
+else
+echo -n "replace $INSTALL_DIR/games/mangclient.ini ?     (y/n)"
+read item
+case "$item" in
+    y|Y) echo "«yes», ok..."
+NICK=$(sed -n '/nick=/p' ./mangclient.ini)
+PASS=$(sed -n '/pass=/p' ./mangclient.ini)
+HOST=$(sed -n '/host=/p' ./mangclient.ini)
+META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
+META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
+DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
+LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
+cat > $INSTALL_DIR/games/mangclient.ini << EOF
+[MAngband]
+$NICK
+$PASS
+$HOST
+$META_ADDRESS
+$META_PORT
+$DISABLENUMLOCK
+$LIGHTERBLUE
+EOF
+        ;;
+    n|N) echo "«no», ok..."
+        ;;
+    *) echo "«no», ok..."
+        ;;
+esac
+fi
+###################################
 
 echo "                "
 echo "              _,"
