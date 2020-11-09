@@ -24,7 +24,7 @@ INSTALL_DIR=$HOME/Tangaria
 REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
 REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/"
 
-##### make -j$CPU_CORES ###########
+######## make -j$CPU_CORES ########
 
 CPU_CORES=1
 
@@ -415,7 +415,7 @@ cp -f ./Changes.txt $INSTALL_DIR
 cp -f ./Manual.html $INSTALL_DIR
 cp -f ./Manual.pdf $INSTALL_DIR
 
-cp -i ./mangband.cfg $INSTALL_DIR/games
+cp -f ./mangband.cfg $INSTALL_DIR/games
 
 ###################################
 if ! [ -f $INSTALL_DIR/games/mangclient.ini ]; then
