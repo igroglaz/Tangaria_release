@@ -418,7 +418,7 @@ cp -f ./Manual.pdf $INSTALL_DIR
 cp -f ./mangband.cfg $INSTALL_DIR/games
 
 ###################################
-if ! [ -f $INSTALL_DIR/games/mangclient.ini ]; then
+write_mangclientini() {
 NICK=$(sed -n '/nick=/p' ./mangclient.ini)
 PASS=$(sed -n '/pass=/p' ./mangclient.ini)
 HOST=$(sed -n '/host=/p' ./mangclient.ini)
@@ -436,28 +436,16 @@ $META_PORT
 $DISABLENUMLOCK
 $LIGHTERBLUE
 EOF
+}
+
+if ! [ -f $INSTALL_DIR/games/mangclient.ini ]; then
+ write_mangclientini
 else
 echo -n "replace $INSTALL_DIR/games/mangclient.ini ?     (y/n)"
 read item
 case "$item" in
     y|Y) echo "«yes», ok..."
-NICK=$(sed -n '/nick=/p' ./mangclient.ini)
-PASS=$(sed -n '/pass=/p' ./mangclient.ini)
-HOST=$(sed -n '/host=/p' ./mangclient.ini)
-META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
-META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
-DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
-LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
-cat > $INSTALL_DIR/games/mangclient.ini << EOF
-[MAngband]
-$NICK
-$PASS
-$HOST
-$META_ADDRESS
-$META_PORT
-$DISABLENUMLOCK
-$LIGHTERBLUE
-EOF
+         write_mangclientini
         ;;
     n|N) echo "«no», ok..."
         ;;
