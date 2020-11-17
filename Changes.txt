@@ -22,6 +22,8 @@ MAngband 1.5.x:
 
 - Add possibility to macro by item names
 - Add version number to "incompatible client version" error message
+- Enter and leave query-item-by-name mode via quote symbol
+- Add possibility to macro by spell names
 
 PWMAngband:
 
@@ -47,6 +49,8 @@ MAngband 1.5.x:
 - Do not speed up time with monsters in LoS
 - Fix DM_NEVER_DISTURB
 - Allow filling empty bottles from water tiles
+- Make hostile visible players prevent running
+- Disable banishment in dwarven halls
 
 PWMAngband:
 
@@ -73,6 +77,7 @@ MAngband 1.5.x:
 - Handle topline ickyness when confirming suicide
 - Open correct directory when selecting fonts
 - Stop allocating too much font resources
+- Make sure player-player visibility is refreshed when changing level
 
 PWMAngband:
 
@@ -102,3 +107,4 @@ Compilation
 
 - Update help
 - USE_NCURSES define
+- Compiling with Embarcadero C++ 7.20
