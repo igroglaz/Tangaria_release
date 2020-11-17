@@ -15,7 +15,7 @@
 #### ***if you use RPM-based linux (Fedora, Centos, openSUSE..) the command to obtain build tools is something like: sudo yum group install "Development Tools"
 ####    and the command to obtain all the needed libraries is: sudo yum install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
 
-########### INSTALL_DIR ###########
+########### INSTALL DIR ###########
 
 INSTALL_DIR=$HOME/Tangaria
 
@@ -27,6 +27,10 @@ REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/"
 ######## make -j$CPU_CORES ########
 
 CPU_CORES=1
+
+########## link dir user ##########
+
+LINK_DIR_USER=1
 
 ###################################
 
@@ -196,23 +200,6 @@ esac
 make -j$CPU_CORES
 make install
 
-if ! [ -d $HOME/.pwmangband ]; then
-  mkdir -p $HOME/.pwmangband  
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband/save ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband/save
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband/scores
-fi
-
-if ! [ -e $INSTALL_DIR/user ]; then
-ln -s $HOME/.pwmangband $INSTALL_DIR/user
-fi
-
 cp -f ./setup/mangband.cfg $INSTALL_DIR/games
 
 cd ../ || exit 1
@@ -220,11 +207,17 @@ cd ../ || exit 1
 if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
-cd "\$(dirname "\$0")"/games
-./pwmangclient --config mangclient.ini
 
-# Please copy example mangrc to your home directory and adjust it
-# .mangrc (mangclient.ini)
+PWMANGCLIENT_DIR="\$(dirname "\$0")"/games
+cd \$HOME || {
+    echo "ERROR: Could not change directory..."
+    exit 1
+}
+\$PWMANGCLIENT_DIR/pwmangclient
+
+# To get path to config file ./pwmangclient --config file
+#
+# Example .pwmangrc
 #
 #[MAngband]
 #nick=PLAYER
@@ -241,7 +234,10 @@ fi
 if ! [ -f $INSTALL_DIR/pwmangband-launcher.sh ]; then
 cat > $INSTALL_DIR/pwmangband-launcher.sh << EOF
 #!/bin/sh
-cd "\$(dirname "\$0")"/games
+cd "\$(dirname "\$0")"/games || {
+    echo "ERROR: Could not change directory..."
+    exit 1
+}
 ./pwmangband
 EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
@@ -253,8 +249,7 @@ cat > $INSTALL_DIR/pwmangclient.desktop << EOF
 Name=PWMAngband (client)
 Type=Application
 Comment=PWMAngband (client)
-Path=$INSTALL_DIR/games
-Exec=$INSTALL_DIR/games/pwmangclient --config mangclient.ini
+Exec=$INSTALL_DIR/games/pwmangclient
 Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
@@ -384,10 +379,6 @@ if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
   mkdir -p $HOME/.pwmangband/PWMAngband/scores
 fi
 
-if ! [ -e $INSTALL_DIR/user ]; then
-ln -s $HOME/.pwmangband $INSTALL_DIR/user
-fi
-
 echo "copying files..."
 
 rm -r $INSTALL_DIR/etc/pwmangband/customize
@@ -417,8 +408,14 @@ cp -f ./Manual.pdf $INSTALL_DIR
 
 cp -f ./mangband.cfg $INSTALL_DIR/games
 
+if [ $LINK_DIR_USER = 1 ]; then
+  if ! [ -e $INSTALL_DIR/user ]; then
+  ln -s $HOME/.pwmangband $INSTALL_DIR/user
+  fi
+fi
+
 ###################################
-write_mangclientini() {
+write_pwmangrc() {
 NICK=$(sed -n '/nick=/p' ./mangclient.ini)
 PASS=$(sed -n '/pass=/p' ./mangclient.ini)
 HOST=$(sed -n '/host=/p' ./mangclient.ini)
@@ -426,7 +423,7 @@ META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
 META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
 DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
 LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
-cat > $INSTALL_DIR/games/mangclient.ini << EOF
+cat > $HOME/.pwmangrc << EOF
 [MAngband]
 $NICK
 $PASS
@@ -438,14 +435,14 @@ $LIGHTERBLUE
 EOF
 }
 
-if ! [ -f $INSTALL_DIR/games/mangclient.ini ]; then
- write_mangclientini
+if ! [ -f $HOME/.pwmangrc ]; then
+ write_pwmangrc
 else
-echo -n "replace $INSTALL_DIR/games/mangclient.ini ?     (y/n)"
+echo -n "replace $HOME/.pwmangrc ?     (y/n)"
 read item
 case "$item" in
     y|Y) echo "«yes», ok..."
-         write_mangclientini
+         write_pwmangrc
         ;;
     n|N) echo "«no», ok..."
         ;;
