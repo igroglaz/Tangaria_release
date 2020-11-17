@@ -210,13 +210,10 @@ cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 
 PWMANGCLIENT_DIR="\$(dirname "\$0")"/games
 cd \$HOME || {
-    echo "ERROR: Could not change directory to '\$HOME'"
+    echo "ERROR: Could not change directory..."
     exit 1
 }
-\$PWMANGCLIENT_DIR/pwmangclient || {
-    echo "ERROR: '\$PWMANGCLIENT_DIR/pwmangclient' not found. exit..."
-    exit 1
-}
+\$PWMANGCLIENT_DIR/pwmangclient
 
 # To get path to config file ./pwmangclient --config file
 #
