@@ -86,7 +86,7 @@ always:light:Lantern
 # always:digger:Pick
 normal:potion:Cure Critical Wounds
 normal:potion:Restore Life Levels
-normal:bottle:Empty Bottle
+normal:bottle:Empty Bottle:1:500
 normal:food:Hard Biscuit:1:500
 #normal:food:Handful of Dried Fruits:9:500
 #normal:food:Ration of Food:10:500
@@ -556,7 +556,7 @@ buy:flask
 store:Arthur the Archer
 owner:5000:Arthur the Archer (Human)
 owner:5000:Arthur the Archer (Human)
-slots:0:9
+slots:0:10
 turnover:1
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
@@ -573,7 +573,6 @@ normal:fortune cookie:*Grins* Dont run from archer. You will die tired!
 normal:fortune cookie:Your strength is in your guts, not muscles..
 normal:fortune cookie:An dont forget to bring me some ale from sewers..
 #######################################################################
-always:rock:Rock
 always:shot:Rounded Pebble
 always:shot:Iron Shot
 always:arrow:Arrow
