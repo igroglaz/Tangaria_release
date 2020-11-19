@@ -556,8 +556,8 @@ buy:flask
 store:Arthur the Archer
 owner:5000:Arthur the Archer (Human)
 owner:5000:Arthur the Archer (Human)
-slots:0:10
-turnover:1
+slots:10:11
+turnover:9
 #######################################################################
 always:fortune cookie:I'd shoot rat in the eye, so I wont spoil its fur
 always:fortune cookie:Hm. Hello. I'm Archy - and who are you?
@@ -577,7 +577,6 @@ always:shot:Rounded Pebble
 always:shot:Iron Shot
 always:arrow:Arrow
 always:bolt:Bolt
-always:bow:Long Bow
 #######################################################################
 normal:shot:Iron Shot
 normal:arrow:Arrow
@@ -588,6 +587,7 @@ normal:bolt:Magic Bolt:1:900
 normal:shot:Magic Shot:1:900
 normal:bow:Sling
 normal:bow:Short Bow
+normal:bow:Long Bow
 normal:bow:Light Crossbow
 buy:shot
 buy:bolt
