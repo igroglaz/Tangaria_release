@@ -498,7 +498,7 @@ type:hafted
 ### Missile Launchers ###
 
 name:of Accuracy
-info:2500:10
+info:1800:10
 alloc:100:5 to 70
 combat:d15:d5:0
 min-combat:15:255:0

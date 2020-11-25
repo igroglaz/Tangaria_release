@@ -5434,7 +5434,7 @@ graphics:!:w
 type:bottle
 level:0
 weight:2
-cost:1
+cost:35
 alloc:50:0 to 100
 desc:A plain bottle made of glass. It can be filled with various liquids...
 
@@ -5963,10 +5963,8 @@ effect:NOURISH:INC_BY
 dice:0
 effect:NOURISH:INC_BY
 dice:1
-effect:NOURISH:INC_BY
-dice:2
 effect:RANDOM
-dice:3
+dice:2
 msg_self:You feel less thirsty.
 
 

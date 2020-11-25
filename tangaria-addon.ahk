@@ -35,10 +35,10 @@ WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
 ;//////////////////////////////////////////////////////////////////////////
 ;// when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.4.0 (Build 4) ;
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.5.0 (Beta 0) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;// Destroy menu:
-;WinWait PWMAngband 1.4.0 (Beta 16)
+;WinWait PWMAngband 1.5.0 (Beta 0)
 ;DllCall("SetMenu", uint, WinExist(), uint, 0) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;// If you wish to hide first stroke of gaming window:

@@ -150,7 +150,6 @@ desc:A great globe seemingly filled with moonlight, the famed Heart of the
 desc: Mountain. It splinters the light that falls upon it into ten thousand
 desc: sparks of white radiance shot with glints of the rainbow.
 
-
 ### Swords and Daggers ###
 
 name:'Shard'
@@ -3653,3 +3652,24 @@ values:STR[1] | INT[1] | WIS[1] | DEX[1] | CON[1]
 act:DRAGON_WATER
 time:50
 desc:A suit of armour made of the hide of a dead water dragon.
+
+############################
+
+name:of Westernesse
+base-object:light:Palantir
+graphics:~:y
+level:75
+weight:200
+alloc:1:75 to 127
+attack:10d10:0:0
+armor:0:0
+flags:NO_FUEL
+flags:SEE_INVIS | ESP_ALL | AGGRAVATE
+flags:PROT_BLIND
+values:INT[2] | WIS[2] | INFRA[3] |  SEARCH[3] | RES_CHAOS[1] | LIGHT[4]
+curse:anti-teleportation:100
+act:CLAIRVOYANCE
+time:50+d50
+msg:The {kind} glow{s} a deep green...
+desc:A great globe with a heart of fire, the Palantir provides the wearer with 
+desc:sight of far places - at a cost...

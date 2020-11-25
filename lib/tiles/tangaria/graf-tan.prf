@@ -1167,6 +1167,9 @@ object:light:Star:0x87:0xB5
 # The Arkenstone of Thrain
 object:light:Arkenstone:0x87:0xB6
 
+# The Palantir of Westernesse
+object:light:Palantir:0x87:0xB6
+
 # The Amulet of Carlammas
 #object:amulet:Amulet:0x85:0xAD
 

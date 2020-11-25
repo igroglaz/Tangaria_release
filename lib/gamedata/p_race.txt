@@ -727,7 +727,7 @@ obj-flag:10:SUST_STR
 obj-flag:40:TRAP_IMMUNE
 #value:1:SPEED[-1+-1d30]
 #MOVES works as not intended
-value:1:MOVES[-1]
+value:1:MOVES[3+5d10]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:40:STUN_1
