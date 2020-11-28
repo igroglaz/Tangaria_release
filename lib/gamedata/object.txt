@@ -294,7 +294,7 @@ type:food
 level:1
 weight:8
 cost:0
-alloc:20:1 to 50
+alloc:25:1 to 50
 pile:100:1d2
 effect:NOURISH:INC_BY
 dice:40
