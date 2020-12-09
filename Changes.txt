@@ -27,6 +27,8 @@ MAngband 1.5.x:
 - Macro Action Generator (3 new options to keymap screen)
 - Change the way topline message is displayed
 - Add "wrap_messages" option to word-wrap long messages in sub-windows
+- New option: Compare equipment when examining items
+- Add Ctrl+E toggle_inven_equip command from V
 
 PWMAngband:
 
@@ -38,6 +40,7 @@ PWMAngband:
   server option
 - Sort killed list (for polymorphing) from highest to lowest level
 - Display forms that are 50%/75% learnt in orange/yellow on the killed list
+- Buying house command moved to 'H' (original keyset) and '§' (roguelike keyset)
 
 Gameplay changes
 ----------------
@@ -54,6 +57,8 @@ MAngband 1.5.x:
 - Allow filling empty bottles from water tiles
 - Make hostile visible players prevent running
 - Disable banishment in dwarven halls
+- Add Acenoid's vaults
+- Change House Foundation allocation/rarity
 
 PWMAngband:
 
@@ -75,6 +80,7 @@ Angband 4.2.x:
 - Adjust size of gauntlet levels
 - Stop SMASH_WALL removing floor features
 - Stop quest artifacts being stealable
+- Ensure grids on the target path are hit by projections in project()
 
 MAngband 1.5.x:
 
@@ -88,13 +94,15 @@ PWMAngband:
 
 - Fix crash when quitting GCU client in debug mode
 - Fix lag bar under Linux
+- Fix crash when calling make_gold() with NULL player parameter
 
 Coding changes
 --------------
 
 Angband 4.2.x:
 
--
+- Make dungeon profile selection less error-prone
+- Added a debugging command to dump the current level as an HTML file
 
 MAngband 1.5.x:
 
@@ -102,16 +110,20 @@ MAngband 1.5.x:
 - Collapse "mangclient_xxx.ini" into "mangclient.ini" (sdl + gcu)
 - Add "instance_closed" option
 - Fix some really obvious warnings
+- Dump each item/monster/vault allocation to #cheat channel in debug mode
+- Ensure old players are not placed into newly created parties with colliding
+  party ids
 
 PWMAngband:
 
 - Change default FPS from 1 to 50
 - KEYMAP_ACTION_MAX increased from 20 to 30
 - Move message truncation from server to client
+- Add paranoia check to avoid walking out of bounds
 
 Compilation
 -----------
 
-- Update help
 - USE_NCURSES define
 - Compiling with Embarcadero C++ 7.20
+- Update docs for option customization
