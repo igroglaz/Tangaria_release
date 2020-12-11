@@ -3172,11 +3172,11 @@ graphics:?:w
 type:scroll
 level:5
 weight:5
-cost:30
+cost:50
 alloc:16:5 to 60
 pile:25:2
 effect:TIMED_INC:ATT_CONF
-dice:10000
+dice:250+1d50
 
 name:Rune of Protection
 graphics:?:w
