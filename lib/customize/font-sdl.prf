@@ -12,11 +12,18 @@
 #
 
 
+
 ### Terrain features ###
 
 # Floors (white : centered dot)
 feat:open floor:*:1:7
 
+feat:open floor:*:1:7
+
 # Simplified version to specify default attribute for all lighting effects
 # glyph : terrain name : symbol
 # glyph:open floor:7
+
+# For example:
+# glyph:granite wall:8
+# feat:granite wall:all lighting:color in terrain.txt is:8

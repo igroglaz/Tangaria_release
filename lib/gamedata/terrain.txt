@@ -4984,7 +4984,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain 6
-graphics:^:r
+graphics:^:u
 priority:11
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
@@ -5016,7 +5016,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain a
-graphics:^:y
+graphics:^:u
 priority:11
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
@@ -5024,7 +5024,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain b
-graphics:^:y
+graphics:^:u
 priority:11
 flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
@@ -32528,7 +32528,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain F2W 6
-graphics:^:r
+graphics:^:u
 priority:11
 flags:NO_GENERATION | NO_STAIRS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
@@ -32560,7 +32560,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain F2W a
-graphics:^:y
+graphics:^:u
 priority:11
 flags:NO_GENERATION | NO_STAIRS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
@@ -32568,7 +32568,7 @@ short-desc:high mountain
 desc:A high mountain.
 
 name:grass mountain F2W b
-graphics:^:y
+graphics:^:u
 priority:11
 flags:NO_GENERATION | NO_STAIRS | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 info:0:5
