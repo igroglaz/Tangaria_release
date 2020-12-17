@@ -9347,7 +9347,7 @@ spells:BO_FIRE
 desc:One of the last of the Petty-Dwarves. Ibun is a tricky sorcerous little
 desc: being, full of mischief.
 
-name:Khom, Son of Mim
+name:Khim, Son of Mim
 base:humanoid
 color:o
 speed:110
@@ -9370,7 +9370,7 @@ flags:FORCE_SLEEP
 spell-freq:8
 spells:HEAL | SLOW
 spells:BO_FIRE
-desc:One of the last of the Petty-Dwarves. Khom is a tricky sorcerous little
+desc:One of the last of the Petty-Dwarves. Khim is a tricky sorcerous little
 desc: being, full of mischief.
 
 name:4-headed hydra
