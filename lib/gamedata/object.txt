@@ -1,5 +1,31 @@
 # === Understanding object.txt ("object kind") ===
 
+
+
+
+
+
+
+
+
+
+
+
+
+### REORDER STUFF AFTER WIPE!
+
+
+
+
+
+
+
+
+
+
+
+
+
 # name: & object name~
 # graphics: symbol : color
 # type: tval
@@ -9086,3 +9112,17 @@ dice:60
 effect:DESTRUCTION:LIGHT:15
 effect:MASS_BANISH
 effect:DARKEN_LEVEL
+
+name:'Stormbringer'
+graphics:|:x
+type:sword
+level:45
+weight:180
+cost:0
+attack:6d6:16:16
+armor:0:0
+flags:FREE_ACT | HOLD_LIFE | PROT_CONF | AGGRAVATE
+values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
+brand:VAMPIRIC
+curse:treacherous weapon:100
+desc:Death is all. Beware, cursed is the wielder.

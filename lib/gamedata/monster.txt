@@ -17926,7 +17926,7 @@ flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
 flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN
 flags:IM_NETHER | 
 desc:A deadly blade of chaos lurking for prey. Beware!
-#drop:sword:'Stormbringer':100:1:1
+drop:sword:'Stormbringer':100:1:1
 mimic:sword:Blade of Chaos
 
 name:Mutant's leader

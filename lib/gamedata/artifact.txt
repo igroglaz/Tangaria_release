@@ -3674,16 +3674,31 @@ msg:The {kind} glow{s} a deep green...
 desc:A great globe with a heart of fire, the Palantir provides the wearer with 
 desc:sight of far places - at a cost...
 
-name:'Stormbringer'
-base-object:sword:Blade of Chaos
-level:45
-weight:180
+name:'Excalibur'
+base-object:sword:Long Sword
+level:70
+weight:120
 alloc:1:126 to 127
-attack:6d6:16:16
-armor:0:0
-flags:FREE_ACT | HOLD_LIFE | PROT_CONF | AGGRAVATE
-values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
-brand:VAMPIRIC
-curse:treacherous weapon:100
-desc:Death is all. Beware, cursed is the wielder.
-
+attack:2d5:15:27
+armor:0:5
+flags:FREE_ACT | SEE_INVIS | HOLD_LIFE | PROT_CONF
+values:SPEED[5] | STR[3] | CON[1] | BLOWS[1]
+values:INFRA[5] | WIS[5] | SEARCH[5] | LIGHT[1]
+brand:ELEC_3
+slay:DEMON_5
+slay:DRAGON_5
+desc:Sword from another dimension...
+desc:At first only its tip was visible, but then it rose, straight,
+desc:proud, all that was noble and great and wondrous. The tip of
+desc:the blade pointed toward the moon, as if it would cleave it
+desc:in two. The blade itself gleamed like a beacon in the night.
+desc:There was no light source for the sword to be reflecting
+desc:from, for the moon had darted behind a cloud in fear. The
+desc:sword was glowing from the intensity of its strength and
+desc:power and knowledge that it was justice incarnate, and that
+desc:after a slumber of uncounted years its time had again come.
+desc:After the blade broke the surface, the hilt was visible, and
+desc:holding the sword was a single strong, yet feminine hand,
+desc:wearing several rings that bore jewels sparkling with the
+desc:blue-green color of the ocean.
+desc:-Knight Life, by Peter David-
