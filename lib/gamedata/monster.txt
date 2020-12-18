@@ -17899,6 +17899,36 @@ desc:A huge draconic form. Its scales are shimmering purple.
 
 ### Dungeon level 45 ###
 
+name:The Stormbringer
+base:hybrid
+glyph:|
+color:v
+light:1
+speed:120
+hit-points:1500
+hearing:0
+armor-class:99
+sleepiness:20
+depth:45
+rarity:3
+weight:0
+experience:13000
+blow:WAIL:TERRIFY
+blow:HIT:EXP_80:64d1
+blow:HIT:EXP_80:64d1
+blow:HIT:EXP_80:8d8
+flags:UNIQUE | EVIL | NONLIVING | LEVITATE
+flags:COLD_BLOOD | EMPTY_MIND | UNAWARE
+flags:BASH_DOOR
+flags:ATTR_MULTI
+flags:FORCE_SLEEP
+flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
+flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN
+flags:IM_NETHER | 
+desc:A deadly blade of chaos lurking for prey. Beware!
+#drop:sword:'Stormbringer':100:1:1
+mimic:sword:Blade of Chaos
+
 name:Mutant's leader
 base:person
 color:t
@@ -22669,6 +22699,34 @@ desc:A massive pile of rotting flesh. A disgusting stench fills the air as it
 desc: throbs and writhes.
 
 ### Dungeon level 72 ###
+
+name:Null, the Living Void
+glyph:.
+base:hybrid
+color:d
+speed:110
+hit-points:2500
+hearing:20
+armor-class:100
+sleepiness:30
+depth:72
+rarity:3
+weight:0
+experience:30000
+blow:TOUCH:LOSE_ALL:6d16
+blow:TOUCH:DRAIN_CHARGES:6d16
+blow:TOUCH:EXP_80:6d16
+flags:UNIQUE | NONLIVING | LEVITATE | PASS_WALL
+flags:EMPTY_MIND | INVISIBLE | SMART | REGENERATE
+flags:NO_FEAR | NO_CONF | NO_SLEEP
+flags:IM_POIS | IM_COLD | IM_ACID
+flags:IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:DROP_4 | DROP_GOOD | ONLY_ITEM
+spell-freq:5
+innate-freq:15
+spells:BR_NETH | DRAIN_MANA | SCARE | BRAIN_SMASH | S_UNDEAD
+spells:S_HI_UNDEAD | HEAL | ANIM_DEAD
+desc:A black hole in the fabric of reality. It simply is not there.
 
 name:Xakaze, Father of Abominations
 base:person

@@ -3673,3 +3673,17 @@ time:50+d50
 msg:The {kind} glow{s} a deep green...
 desc:A great globe with a heart of fire, the Palantir provides the wearer with 
 desc:sight of far places - at a cost...
+
+name:'Stormbringer'
+base-object:sword:Blade of Chaos
+level:45
+weight:180
+alloc:1:126 to 127
+attack:6d6:16:16
+armor:0:0
+flags:FREE_ACT | HOLD_LIFE | PROT_CONF | AGGRAVATE
+values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
+brand:VAMPIRIC
+curse:treacherous weapon:100
+desc:Death is all. Beware, cursed is the wielder.
+
