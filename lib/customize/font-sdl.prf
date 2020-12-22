@@ -22,7 +22,7 @@ feat:Old guard Barry:*:3:188
 #feat:Bob the villager:*:2:177
 #feat:Marta the villager:*:7:164
 feat:Shtukensia the tavernkeeper:*:10:164
-feat:Danny the dog:*:3:167
+feat:Danny the dog:*:15:167
 #feat:Arthur the Archer:*:5:187
 #feat:Deckard Coin:*:8:186
 #feat:Boris the Guard:*:9:188
@@ -37,7 +37,7 @@ feat:Danny the dog:*:3:167
 #feat:Nob, a servant:*::
 #feat:Rose:*::
 
-monster:Target Dummy:3:131
+monster:Target Dummy:25:131
 
 
 ### Monsters ###
@@ -129,7 +129,8 @@ monster:Ji Indur Dawndeath:5:205
 monster:Dwar, Dog Lord of Waw:18:205
 monster:Hoarmurath of Dir:11:205
 monster:Khamul, the Black Easterling:12:205
-monster:The Witch-King of Angmar:10:205
+
+monster:The Witch-King of Angmar:10:2
 
 
 
