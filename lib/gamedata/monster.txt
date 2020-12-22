@@ -8532,7 +8532,6 @@ desc: a mammal. And it is huge!
 
 ### Dungeon level 21 ###
 
-#name:Komurik the Terrific
 name:Kikimora
 base:person
 color:s
@@ -10324,7 +10323,6 @@ desc:He is out to have revenge on those who have desecrated his tomb.
 
 ### Dungeon level 27 ###
 
-#name:Ragnat the Dreadful
 name:Koschei the Deathless
 base:vampire
 color:W
@@ -19060,7 +19058,7 @@ locations:The Mines of Moria
 
 name:The White Balrog
 base:major demon
-color:v
+color:w
 speed:120
 hit-points:6000
 light:2
