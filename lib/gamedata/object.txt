@@ -4017,13 +4017,16 @@ level:10
 weight:4
 cost:0
 alloc:10:10 to 30
-pile:25:2
+pile:99:2
 effect:LOSE_EXP
+#
 effect:BATTY
 effect:TIMED_INC:SCRAMBLE
 dice:20+1d20
+effect:DRAIN_STAT:INT
+dice:1
 effect:RANDOM
-dice:2
+dice:3
 effect:NOURISH:DEC_BY
 dice:3
 #good:
