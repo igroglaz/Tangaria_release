@@ -1406,7 +1406,7 @@ If running doesn't work, try pressing Numlock.</p>
 <td>Alter grid</td>
 </tr>
 <tr><td>'_'</td>
-<td>Drink/fill from a fountain</td>
+<td>Drink/fill an empty bottle</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
 </tr>
@@ -1610,7 +1610,7 @@ If running doesn't work, try pressing Numlock.</p>
 <col width="41%" />
 </colgroup>
 <tbody valign="top">
-<tr><td>'^E'</td>
+<tr><td>'H'</td>
 <td>Buy a house</td>
 <td>&nbsp;</td>
 <td>&nbsp;</td>
@@ -1638,7 +1638,7 @@ To view your own shop inventory, press this key inside a house.</p>
 <tr><td>'&#64;'</td>
 <td>Display connected players</td>
 <td>'%'</td>
-<td>Display current time</td>
+<td>Interact with keymaps</td>
 </tr>
 <tr><td>'C'</td>
 <td>Character description</td>
@@ -1737,6 +1737,11 @@ To view your own shop inventory, press this key inside a house.</p>
 <td>Center map</td>
 <td>'U'</td>
 <td>Use an item</td>
+</tr>
+<tr><td>'^E'</td>
+<td>Toggle inven/equip window</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 </tbody>
 </table>
@@ -4935,7 +4940,7 @@ which is most convenient when using the original keyset.</p>
 <tr><td><tt class="docutils literal">h</tt></td>
 <td>Fire default ammo at target</td>
 <td><tt class="docutils literal">H</tt></td>
-<td>(unused)</td>
+<td>Buy a house</td>
 </tr>
 <tr><td><tt class="docutils literal">i</tt></td>
 <td>Inventory list</td>
@@ -5048,9 +5053,9 @@ which is most convenient when using the original keyset.</p>
 <td>Describe object</td>
 </tr>
 <tr><td><tt class="docutils literal">%</tt></td>
-<td>Display current time</td>
+<td>Interact with keymaps</td>
 <td><tt class="docutils literal">^E</tt></td>
-<td>Buy a house</td>
+<td>Toggle inven/equip window</td>
 </tr>
 <tr><td><tt class="docutils literal">^</tt></td>
 <td>(special - control key)</td>
@@ -5103,7 +5108,7 @@ which is most convenient when using the original keyset.</p>
 <td>Show previous message</td>
 </tr>
 <tr><td><tt class="docutils literal">_</tt></td>
-<td>Drink/fill from a fountain</td>
+<td>Drink/fill an empty bottle</td>
 <td><tt class="docutils literal">^P</tt></td>
 <td>Show previous messages</td>
 </tr>
@@ -5336,9 +5341,9 @@ which is most convenient when using the original keyset.</p>
 <td>Ignore an item</td>
 </tr>
 <tr><td>%</td>
-<td>Display current time</td>
+<td>Interact with keymaps</td>
 <td>^E</td>
-<td>Buy a house</td>
+<td>Toggle inven/equip window</td>
 </tr>
 <tr><td>^</td>
 <td>(special - control key)</td>
@@ -5391,7 +5396,7 @@ which is most convenient when using the original keyset.</p>
 <td>Show previous message</td>
 </tr>
 <tr><td>_</td>
-<td>Drink/fill from a fountain</td>
+<td>Drink/fill an empty bottle</td>
 <td>^P</td>
 <td>Show previous messages</td>
 </tr>
@@ -5459,6 +5464,11 @@ which is most convenient when using the original keyset.</p>
 <td>Identify monster</td>
 <td>'|'</td>
 <td>Quiver list</td>
+</tr>
+<tr><td>£</td>
+<td>Buy a house</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
 </tr>
 <tr><td>TAB</td>
 <td>Fire default ammo at target</td>
@@ -5792,7 +5802,7 @@ This command requires a direction, and takes some energy.</dd>
 </dl>
 <!--  -->
 <dl class="docutils">
-<dt>Drink/fill an empty bottle from a fountain (<tt class="docutils literal">_</tt>)</dt>
+<dt>Drink from a fountain/fill an empty bottle (<tt class="docutils literal">_</tt>)</dt>
 <dd>When standing on a fountain square, this command allows you to interact with
 the fountain. Dried out fountains will produce no effect. If you carry empty
 bottles, the command will allow you to fill one empty bottle and generate
@@ -5800,7 +5810,8 @@ a random potion. If you don't carry empty bottles, or if you don't want to
 fill a bottle, the command will allow you to drink from the fountain.
 Drinking from a fountain will produce a random potion effect, which will
 range from very good to very bad. Sometimes, other effects may be
-experienced. This command takes some energy.</dd>
+experienced. This command has been extended to allow filling empty bottles
+from water tiles. This command takes some energy.</dd>
 </dl>
 </div>
 <div class="section" id="spell-commands">
@@ -6190,7 +6201,7 @@ inventory in the chat window.</dd>
 <h3><a class="toc-backref" href="#id157">3.5.13&nbsp;&nbsp;&nbsp;Player House Commands</a></h3>
 <!--  -->
 <dl class="docutils">
-<dt>Buy a house ('^E')</dt>
+<dt>Buy a house ('H') or Buy a house ('£')</dt>
 <dd>Allows you to purchase a house to store extra objects once your inventory is
 full. You must stand in front of the house door, outside of the house to do
 so. Use the same command to sell a house once you don't have any use for it
@@ -6239,9 +6250,9 @@ toward other players.</dd>
 </dl>
 <!--  -->
 <dl class="docutils">
-<dt>Display current time (<tt class="docutils literal">%</tt>)</dt>
-<dd>This command allows you to see what time it is on server. Useful to keep track
-of sunrise/sunset.</dd>
+<dt>Interact with keymaps (<tt class="docutils literal">%</tt>)</dt>
+<dd>This command allows you to interact with kemaps. Same as pressing '='
+then 'k'.</dd>
 </dl>
 <!--  -->
 <dl class="docutils">
@@ -6331,6 +6342,12 @@ that name.</dd>
 <h3><a class="toc-backref" href="#id162">3.5.18&nbsp;&nbsp;&nbsp;Extra Commands</a></h3>
 <!--  -->
 <dl class="docutils">
+<dt>Toggle Choice Window ('^E')</dt>
+<dd>Toggles the display in any sub-windows (if available) which are
+displaying your inventory or equipment.</dd>
+</dl>
+<!--  -->
+<dl class="docutils">
 <dt>Redraw Screen ('^R')</dt>
 <dd>This command adapts to various changes in global options, and redraws all
 of the windows. It is normally only necessary in abnormal situations,
@@ -6404,8 +6421,6 @@ interface to the various sets of options available to the player.</p>
 <p>In the descriptions below, each option is listed as the textual summary
 which is shown on the &quot;options&quot; screen, plus the internal name of the
 option in brackets, followed by a textual description of the option.</p>
-<p>Note that the internal name of the option can be used in user pref files to
-force the option to a given setting, see &quot;customize.txt&quot; for more info.</p>
 <p>Various concepts are mentioned in the descriptions below, including
 &quot;disturb&quot;, (cancel any running, resting, or repeated commands, which are in
 progress), &quot;flush&quot; (forget any keypresses waiting in the keypress queue),
@@ -6621,9 +6636,39 @@ displaying a menu with one item.</dd>
 <dd>This option displays monsters using ASCII symbols instead of tiles when using
 a tileset.</dd>
 </dl>
+<!--  -->
+<dl class="docutils">
+<dt>Nonmoving monsters disturb running <tt class="docutils literal">disturb_nomove</tt></dt>
+<dd>Disturb the player when trying to run in line of sight of a nonmoving monster.</dd>
+</dl>
+<!--  -->
+<dl class="docutils">
+<dt>Wrap long messages in sub-windows <tt class="docutils literal">wrap_messages</tt></dt>
+<dd>This option displays long messages on multiple lines instead of single lines
+in sub-windows.</dd>
+</dl>
+<!--  -->
+<dl class="docutils">
+<dt>Compare equipment when examining items <tt class="docutils literal">expand_inspect</tt></dt>
+<dd>This option displays extra information about the currently equipped item
+in the slot corresponding to the item that is examined.</dd>
+</dl>
+<!--  -->
+<dl class="docutils">
+<dt>Disturb when effects end <tt class="docutils literal">disturb_effect_end</tt></dt>
+<dd>Disturb the player when any effect ends.</dd>
+</dl>
 </div>
 <div class="section" id="birth-options">
 <h3><a class="toc-backref" href="#id167">3.6.3&nbsp;&nbsp;&nbsp;Birth options</a></h3>
+<p>The birth options may only be changed when creating a character or using
+the quick restart option for a dead character. When setting the birth
+options, there are handful of commands to make it easier to get to a
+well-known state for all the birth options. They are: 's' to save the
+current selections so that they will be used as the starting point for
+future characters, 'r' to reset the current selections to the defaults
+for a new character, and 'm' to reset the current selections to the
+Angband maintainer's defaults for the birth options.</p>
 <!--  -->
 <dl class="docutils">
 <dt>Force player descent <tt class="docutils literal">birth_force_descend</tt></dt>
@@ -6813,8 +6858,9 @@ These include:</p>
 <li><a class="reference internal" href="#keymaps">Keymaps</a> - a way to assign commonly-used actions to specific keys</li>
 <li><a class="reference internal" href="#colours">Colours</a> - allowing you to make a given color brighter, darker, or even completely different</li>
 </ul>
-<p>You can save your preferences for these into files, which are called
-<cite>user pref files</cite>.</p>
+<p>Except for the options, which are linked to the save file, you can save your
+preferences for these into files, which are called <cite>user pref files</cite>. For
+the options, customize those using the <tt class="docutils literal">=</tt> command while playing.</p>
 <div class="section" id="user-pref-files">
 <h3><a class="toc-backref" href="#id171">3.7.1&nbsp;&nbsp;&nbsp;User Pref Files</a></h3>
 <p>User pref files are PWMAngband's way of saving and loading certain settings.
@@ -8233,34 +8279,46 @@ keen to hear new ideas and ways to play.</p>
 </div>
 <div class="section" id="compiling-instructions">
 <h2><a class="toc-backref" href="#id201">5.2&nbsp;&nbsp;&nbsp;Compiling Instructions</a></h2>
-<p>Remember that PWMAngband can only be built and run under Windows. If you're
-using Linux, get the PWMAngband binaries directly and use WinE.</p>
+<p>PWMAngband is usually built and run under Windows. If you're using Linux, you
+can get the PWMAngband binaries directly and use WinE. Otherwise, a few
+makefiles have been added to compile under Linux. Check the compiling.txt file
+for instructions.</p>
 <p>PWMAngband comes with various text files that explain how to compile the game
 and several batch files that actually do the job.</p>
-<p>PWMAngband uses Borland C++ as compiler tool. You can download a free version
-of the compiler (see for example: <a class="reference external" href="https://edn.embarcadero.com/article/20633">https://edn.embarcadero.com/article/20633</a>).</p>
+<p>PWMAngband uses Borland C++ 6.0 as compiler tool and IDE for coding and
+debugging. For a free version, check Embarcadero C++ 7.20 from
+<a class="reference external" href="https://www.embarcadero.com/free-tools/ccompiler">https://www.embarcadero.com/free-tools/ccompiler</a>.</p>
 <div class="section" id="how-to-build-all-libraries-required-to-run-the-win-client">
 <h3><a class="toc-backref" href="#id202">5.2.1&nbsp;&nbsp;&nbsp;How to build all libraries required to run the WIN client</a></h3>
 <p>Just follow the instructions given in the WIN.txt file located in the /src
 directory. This will generate the ZLIB and LIBPNG libraries using the WIN.bat
-file in the same directory.</p>
+file in the same directory.
+For Embarcadero C++ 7.20, follow the instructions given in the WIN.txt file
+located in the /bcc32c subdirectory instead.</p>
 </div>
 <div class="section" id="how-to-build-all-sdl-libraries-required-to-run-the-sdl-client">
 <h3><a class="toc-backref" href="#id203">5.2.2&nbsp;&nbsp;&nbsp;How to build all SDL libraries required to run the SDL client</a></h3>
 <p>Just follow the instructions given in the SDL.txt file located in the /src
 directory. This will generate the SDL, FREETYPE, SDL_TTF, SDL_IMAGE, LIBMAD and
-SDL_MIXER libraries using the SDL.bat file in the same directory.</p>
+SDL_MIXER libraries using the SDL.bat file in the same directory.
+For Embarcadero C++ 7.20, there is no easy way to compile the SDL libraries due
+to incompatibility between the code and the compiler. There will be thousands
+of compile errors that you'll have to fix manually.</p>
 </div>
 <div class="section" id="how-to-build-the-pwmangband-client">
 <h3><a class="toc-backref" href="#id204">5.2.3&nbsp;&nbsp;&nbsp;How to build the PWMAngband client</a></h3>
 <p>This is done by running the client.bat file in the /src directory. This will
 generate the mangclient_gcu.exe, mangclient_sdl.exe and mangclient.exe
-executable files corresponding to the GCU, SDL and WIN client.</p>
+executable files corresponding to the GCU, SDL and WIN client.
+For Embarcadero C++ 7.20, run the client.bat file located in the /bcc32c
+subdirectory instead.</p>
 </div>
 <div class="section" id="how-to-build-the-pwmangband-server">
 <h3><a class="toc-backref" href="#id205">5.2.4&nbsp;&nbsp;&nbsp;How to build the PWMAngband server</a></h3>
 <p>This is done by running the server.bat file in the /src directory. This will
-generate the mangband.exe executable file corresponding to the server.</p>
+generate the mangband.exe executable file corresponding to the server.
+For Embarcadero C++ 7.20, run the server.bat file located in the /bcc32c
+subdirectory instead.</p>
 <p>The clean.bat file will delete all generated binaries in case you want to
 recompile everything from scratch.</p>
 </div>
@@ -8457,6 +8515,11 @@ for a normal level.</dd>
 <dl class="docutils">
 <dt>Advance time</dt>
 <dd>Advances time by 1 to 12 hours.</dd>
+</dl>
+<!--  -->
+<dl class="docutils">
+<dt>Write a map of the current level</dt>
+<dd>Writes out a map of the current level as an HTML file.</dd>
 </dl>
 </div>
 </div>

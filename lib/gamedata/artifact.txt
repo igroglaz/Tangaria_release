@@ -156,7 +156,7 @@ name:'Shard'
 base-object:sword:Broken Dagger
 level:20
 weight:9
-alloc:0:20 to 100
+alloc:1:30 to 100
 attack:1d2:14:19
 armor:0:7
 flags:FREE_ACT | REGEN | PROT_BLIND
@@ -172,7 +172,7 @@ name:'Narsil'
 base-object:sword:Broken Sword
 level:20
 weight:90
-alloc:3:15 to 100
+alloc:3:25 to 100
 attack:1d4:10:15
 armor:0:10
 flags:PROT_FEAR | FREE_ACT | SUST_STR | SUST_DEX | SEE_INVIS | ESP_EVIL
@@ -188,7 +188,7 @@ name:Athame 'Elbereth'
 base-object:sword:Dagger
 level:20
 weight:12
-alloc:2:20 to 100
+alloc:2:35 to 100
 attack:1d7:17:17
 armor:0:7
 flags:BLESSED | FREE_ACT | REGEN | PROT_BLIND
@@ -228,7 +228,7 @@ name:'Narthanc'
 base-object:sword:Dagger
 level:1
 weight:12
-alloc:40:1 to 50
+alloc:40:15 to 50
 attack:2d4:9:12
 armor:0:10
 values:RES_FIRE[1]
@@ -242,7 +242,7 @@ name:'Nimthanc'
 base-object:sword:Dagger
 level:1
 weight:12
-alloc:40:1 to 50
+alloc:40:15 to 50
 attack:2d4:9:12
 armor:0:10
 values:RES_COLD[1]
@@ -256,7 +256,7 @@ name:'Dethanc'
 base-object:sword:Dagger
 level:1
 weight:12
-alloc:40:1 to 50
+alloc:40:15 to 50
 attack:2d4:9:12
 armor:0:10
 values:RES_ELEC[1]
@@ -270,7 +270,7 @@ name:of Rilia
 base-object:sword:Dagger
 level:5
 weight:12
-alloc:5:5 to 75
+alloc:5:20 to 75
 attack:2d4:14:13
 armor:0:0
 values:RES_POIS[1] | RES_DISEN[1]
@@ -286,7 +286,7 @@ name:'Belangil'
 base-object:sword:Dagger
 level:10
 weight:12
-alloc:2:10 to 80
+alloc:2:20 to 80
 attack:3d4:16:14
 armor:0:0
 flags:SEE_INVIS | SLOW_DIGEST | REGEN
@@ -301,7 +301,7 @@ name:'Rust In Peace'
 base-object:sword:Dagger
 level:1
 weight:12
-alloc:0:1 to 50
+alloc:1:15 to 50
 attack:2d4:9:12
 armor:0:10
 values:RES_ACID[1]
@@ -315,7 +315,7 @@ name:of Azaghal
 base-object:sword:Main Gauche
 level:18
 weight:30
-alloc:3:18 to 100
+alloc:3:25 to 100
 attack:2d5:12:14
 armor:0:0
 flags:PROT_FEAR | ESP_DRAGON
@@ -331,7 +331,7 @@ name:of Maedhros
 base-object:sword:Main Gauche
 level:15
 weight:30
-alloc:3:15 to 65
+alloc:3:20 to 65
 attack:2d6:12:15
 armor:0:0
 flags:FREE_ACT | SEE_INVIS
@@ -346,7 +346,7 @@ name:'Forasgil'
 base-object:sword:Rapier
 level:5
 weight:40
-alloc:38:5 to 50
+alloc:38:15 to 50
 attack:1d12:12:19
 armor:0:0
 values:LIGHT[1] | RES_COLD[1] | RES_LIGHT[1]
@@ -358,7 +358,7 @@ name:'Careth Asdriag'
 base-object:sword:Rapier
 level:15
 weight:40
-alloc:10:15 to 80
+alloc:10:20 to 80
 attack:2d6:16:12
 armor:0:0
 values:BLOWS[1] | STR[2] | DEX[2] | CON[2]
@@ -374,7 +374,7 @@ name:'Sting'
 base-object:sword:Short Sword
 level:20
 weight:80
-alloc:6:20 to 100
+alloc:6:25 to 100
 attack:1d7:7:8
 armor:0:0
 flags:PROT_FEAR | FREE_ACT | SEE_INVIS
@@ -392,7 +392,7 @@ name:'Dagmor'
 base-object:sword:Short Sword
 level:20
 weight:80
-alloc:12:20 to 80
+alloc:12:25 to 80
 attack:1d7:13:11
 armor:0:0
 flags:SLOW_DIGEST | REGEN
@@ -420,7 +420,7 @@ name:'Aeglin'
 base-object:sword:Tulwar
 level:20
 weight:100
-alloc:3:20 to 100
+alloc:3:25 to 100
 attack:2d4:12:16
 armor:0:0
 flags:BLESSED | PROT_BLIND | ESP_TROLL | ESP_GIANT
@@ -452,7 +452,7 @@ name:'Ringil'
 base-object:sword:Long Sword
 level:20
 weight:130
-alloc:1:20 to 127
+alloc:1:70 to 127
 attack:4d5:22:25
 armor:0:0
 flags:PROT_FEAR | BLESSED | FREE_ACT | SEE_INVIS | SLOW_DIGEST | REGEN |
@@ -474,7 +474,7 @@ name:'Anduril'
 base-object:sword:Long Sword
 level:20
 weight:130
-alloc:3:20 to 127
+alloc:3:25 to 127
 attack:3d5:10:15
 armor:0:10
 flags:PROT_FEAR | FREE_ACT | BLESSED | SUST_STR | SUST_DEX | SEE_INVIS
@@ -511,7 +511,7 @@ name:'Elvagil'
 base-object:sword:Long Sword
 level:10
 weight:130
-alloc:50:10 to 50
+alloc:50:15 to 50
 attack:2d5:12:12
 armor:0:0
 flags:FEATHER | SEE_INVIS | ESP_ORC | ESP_TROLL
@@ -525,7 +525,7 @@ name:of Angmar
 base-object:sword:Long Sword
 level:20
 weight:130
-alloc:0:20 to 127
+alloc:10:20 to 127
 attack:4d5:-22:-25
 armor:0:0
 flags:ESP_UNDEAD | SEE_INVIS | FREE_ACT | AGGRAVATE
@@ -540,7 +540,7 @@ name:'Aranruth'
 base-object:sword:Broad Sword
 level:20
 weight:150
-alloc:2:20 to 100
+alloc:2:25 to 100
 attack:3d5:20:12
 armor:0:0
 flags:FREE_ACT | FEATHER
@@ -557,7 +557,7 @@ name:'Glamdring'
 base-object:sword:Broad Sword
 level:20
 weight:150
-alloc:5:20 to 80
+alloc:5:25 to 80
 attack:2d5:10:15
 armor:0:0
 flags:BLESSED | ESP_DEMON
@@ -573,7 +573,7 @@ name:'Orcrist'
 base-object:sword:Broad Sword
 level:20
 weight:150
-alloc:5:20 to 80
+alloc:5:25 to 80
 attack:2d5:10:15
 armor:0:0
 flags:BLESSED | ESP_DRAGON
@@ -624,7 +624,7 @@ name:'Aglarang'
 base-object:sword:Katana
 level:30
 weight:120
-alloc:4:30 to 100
+alloc:4:35 to 100
 attack:6d6:10:10
 armor:0:0
 flags:SUST_DEX
@@ -675,7 +675,7 @@ name:'Icon of Life'
 base-object:sword:Zweihander
 level:30
 weight:200
-alloc:0:30 to 100
+alloc:3:30 to 100
 attack:4d8:0:0
 armor:0:20
 flags:BLESSED
@@ -724,7 +724,7 @@ name:'Hunger Strike'
 base-object:sword:Blade of Chaos
 level:70
 weight:180
-alloc:0:70 to 127
+alloc:1:85 to 127
 attack:6d5:32:32
 armor:0:0
 flags:FREE_ACT | SEE_INVIS | SLOW_DIGEST | REGEN
@@ -761,7 +761,7 @@ name:'Lasher'
 base-object:hafted:Whip
 level:20
 weight:30
-alloc:0:20 to 127
+alloc:20:25 to 70
 attack:3d3:12:15
 armor:0:0
 flags:FREE_ACT | ESP_ORC
@@ -791,7 +791,7 @@ name:'Bloodspike'
 base-object:hafted:Morning Star
 level:20
 weight:150
-alloc:3:20 to 75
+alloc:3:25 to 75
 attack:2d6:8:22
 armor:0:0
 flags:SEE_INVIS
@@ -807,7 +807,7 @@ name:'Firestar'
 base-object:hafted:Morning Star
 level:20
 weight:150
-alloc:7:20 to 100
+alloc:7:25 to 100
 attack:2d6:15:17
 armor:0:2
 values:RES_FIRE[3]
@@ -821,7 +821,7 @@ name:'Totila'
 base-object:hafted:Flail
 level:20
 weight:150
-alloc:12:20 to 65
+alloc:12:25 to 65
 attack:3d6:16:12
 armor:0:0
 flags:PROT_CONF
@@ -890,7 +890,7 @@ name:'Skullcleaver'
 base-object:hafted:Lead-Filled Mace
 level:30
 weight:180
-alloc:0:30 to 127
+alloc:5:30 to 127
 attack:6d3:11:23
 armor:0:20
 flags:AGGRAVATE | ESP_DRAGON | PROT_BLIND
@@ -919,7 +919,7 @@ name:'Eriril'
 base-object:hafted:Quarterstaff
 level:20
 weight:150
-alloc:5:20 to 100
+alloc:5:25 to 100
 attack:1d11:13:15
 armor:0:0
 flags:SEE_INVIS | ESP_EVIL
@@ -955,7 +955,7 @@ name:'Glimdrir'
 base-object:hafted:Throwing Hammer
 level:40
 weight:55
-alloc:0:40 to 127
+alloc:2:40 to 127
 attack:4d4:15:16
 armor:0:0
 flags:FREE_ACT | REGEN
@@ -972,7 +972,7 @@ name:'Ars Numenis'
 base-object:hafted:War Hammer
 level:50
 weight:120
-alloc:0:50 to 127
+alloc:2:50 to 127
 attack:4d3:20:25
 armor:0:0
 flags:ESP_DEMON | HOLD_LIFE
@@ -986,7 +986,7 @@ name:'Soulcaller'
 base-object:hafted:Maul
 level:40
 weight:200
-alloc:0:40 to 127
+alloc:2:40 to 127
 attack:4d4:15:18
 armor:0:0
 flags:ESP_EVIL | ESP_UNDEAD | FREE_ACT
@@ -1018,7 +1018,7 @@ name:'Quietus'
 base-object:hafted:Great Hammer
 level:40
 weight:180
-alloc:0:40 to 127
+alloc:5:40 to 127
 attack:12d1:25:25
 armor:0:0
 flags:HOLD_LIFE | FREE_ACT
@@ -1054,7 +1054,7 @@ name:'Skull Splitter'
 base-object:hafted:Mace of Disruption
 level:80
 weight:400
-alloc:0:80 to 127
+alloc:2:80 to 127
 attack:5d10:25:26
 armor:0:0
 flags:PROT_FEAR
@@ -1074,7 +1074,7 @@ name:'Aiglos'
 base-object:polearm:Spear
 level:15
 weight:50
-alloc:2:15 to 100
+alloc:2:30 to 100
 attack:3d6:15:25
 armor:0:5
 flags:PROT_FEAR | FREE_ACT | BLESSED | ESP_UNDEAD
@@ -1093,7 +1093,7 @@ name:of Orome
 base-object:polearm:Spear
 level:15
 weight:50
-alloc:2:15 to 127
+alloc:2:25 to 127
 attack:4d6:15:15
 armor:0:0
 flags:FEATHER | SEE_INVIS | BLESSED
@@ -1110,7 +1110,7 @@ name:'Nimloth'
 base-object:polearm:Spear
 level:15
 weight:50
-alloc:8:15 to 65
+alloc:8:25 to 65
 attack:1d7:11:13
 armor:0:0
 flags:BLESSED | SEE_INVIS
@@ -1141,7 +1141,7 @@ name:'Misericordia'
 base-object:polearm:Awl-Pike
 level:40
 weight:160
-alloc:0:40 to 127
+alloc:5:40 to 127
 attack:2d8:40:15
 armor:0:0
 flags:PROT_FEAR | ESP_UNDEAD
@@ -1155,7 +1155,7 @@ name:of Wrath
 base-object:polearm:Trident
 level:15
 weight:70
-alloc:3:15 to 100
+alloc:3:30 to 100
 attack:3d10:16:18
 armor:0:0
 flags:SEE_INVIS | BLESSED | ESP_UNDEAD
@@ -1171,7 +1171,7 @@ name:of Ulmo
 base-object:polearm:Trident
 level:30
 weight:70
-alloc:1:30 to 127
+alloc:1:35 to 127
 attack:4d10:15:19
 armor:0:0
 flags:FREE_ACT | HOLD_LIFE | SEE_INVIS | SLOW_DIGEST | REGEN | BLESSED
@@ -1203,7 +1203,7 @@ name:'Til-i-arc'
 base-object:polearm:Pike
 level:20
 weight:160
-alloc:7:20 to 80
+alloc:7:25 to 80
 attack:1d17:10:12
 armor:0:10
 flags:SUST_INT | ESP_GIANT | ESP_DEMON
@@ -1220,7 +1220,7 @@ name:'Twilight'
 base-object:polearm:Throwing Axe
 level:25
 weight:40
-alloc:0:25 to 127
+alloc:1:35 to 127
 attack:4d3:25:30
 armor:0:0
 flags:PROT_FEAR | FREE_ACT | SEE_INVIS
@@ -1253,7 +1253,7 @@ name:of Hurin
 base-object:polearm:Beaked Axe
 level:20
 weight:180
-alloc:7:20 to 100
+alloc:7:25 to 100
 attack:3d8:12:15
 armor:0:0
 flags:ESP_DEMON
@@ -1275,7 +1275,7 @@ name:'Barukkheled'
 base-object:polearm:Broad Axe
 level:20
 weight:160
-alloc:12:20 to 75
+alloc:12:25 to 75
 attack:2d6:13:19
 armor:0:0
 flags:SEE_INVIS
@@ -1291,7 +1291,7 @@ name:'Orchast'
 base-object:polearm:Broad Axe
 level:20
 weight:160
-alloc:0:20 to 75
+alloc:5:25 to 75
 attack:2d6:20:16
 armor:0:0
 flags:ESP_ORC
@@ -1337,7 +1337,7 @@ name:of Dain Ironfoot
 base-object:polearm:Battle Axe
 level:50
 weight:170
-alloc:0:50 to 127
+alloc:5:50 to 127
 attack:4d8:18:25
 armor:0:0
 flags:ESP_ORC | ESP_TROLL | PROT_FEAR | FREE_ACT | SUST_STR | SUST_CON
@@ -1437,7 +1437,7 @@ name:of the Eorlingas
 base-object:polearm:Lance
 level:20
 weight:300
-alloc:4:20 to 100
+alloc:4:25 to 100
 attack:2d19:3:21
 armor:0:0
 flags:PROT_FEAR | SEE_INVIS
@@ -1453,7 +1453,7 @@ name:'Sunspire'
 base-object:polearm:Lance
 level:60
 weight:300
-alloc:0:60 to 127
+alloc:2:60 to 127
 attack:3d10:20:30
 armor:0:0
 flags:PROT_FEAR | FREE_ACT | SEE_INVIS | ESP_UNDEAD | ESP_DEMON
@@ -1471,7 +1471,7 @@ name:'Stormspire'
 base-object:polearm:Lance
 level:60
 weight:300
-alloc:0:60 to 127
+alloc:2:60 to 127
 attack:3d10:20:30
 armor:0:0
 flags:PROT_FEAR | FREE_ACT | ESP_UNDEAD | ESP_DEMON
@@ -1490,7 +1490,7 @@ name:'Soul Reaver'
 base-object:polearm:Scythe of Slicing
 level:90
 weight:250
-alloc:0:90 to 127
+alloc:3:90 to 127
 attack:10d6:40:0
 armor:0:0
 flags:AGGRAVATE | ESP_UNDEAD
@@ -1508,7 +1508,7 @@ name:'Razor Sharp'
 base-object:polearm:Scythe of Slicing
 level:80
 weight:250
-alloc:0:80 to 127
+alloc:3:80 to 127
 attack:8d6:40:15
 armor:0:0
 flags:REGEN
@@ -1521,7 +1521,7 @@ name:'Zodia'
 base-object:polearm:Lucerne Hammer
 level:70
 weight:120
-alloc:0:70 to 127
+alloc:2:70 to 127
 attack:5d5:0:0
 armor:0:0
 flags:FREE_ACT
@@ -1537,7 +1537,7 @@ name:of the Halflings
 base-object:bow:Sling
 level:45
 weight:5
-alloc:0:45 to 127
+alloc:2:45 to 127
 attack:0d0:20:25
 armor:0:0
 flags:SUST_DEX | REGEN | ESP_ANIMAL | SEE_INVIS
@@ -1549,7 +1549,7 @@ name:of Lamfada
 base-object:bow:Sling
 level:85
 weight:5
-alloc:0:85 to 127
+alloc:3:85 to 127
 attack:0d0:28:29
 armor:0:0
 flags:SEE_INVIS | PROT_FEAR
@@ -1611,7 +1611,7 @@ name:'Doublezee'
 base-object:bow:Long Bow
 level:40
 weight:40
-alloc:0:40 to 127
+alloc:7:40 to 127
 attack:0d0:25:15
 armor:0:0
 flags:ESP_ANIMAL
@@ -1625,7 +1625,7 @@ name:of Domination
 base-object:bow:Long Bow
 level:90
 weight:40
-alloc:0:90 to 127
+alloc:1:90 to 127
 attack:0d0:30:30
 armor:0:0
 flags:ESP_DRAGON | ESP_DEMON | ESP_UNDEAD | FREE_ACT | PROT_FEAR
@@ -1641,7 +1641,7 @@ name:'Cubragol'
 base-object:bow:Light Crossbow
 level:50
 weight:110
-alloc:4:50 to 127
+alloc:4:70 to 127
 attack:0d0:10:14
 armor:0:0
 values:SPEED[10] | RES_FIRE[1]
@@ -1667,7 +1667,7 @@ name:of the Goblins
 base-object:bow:Heavy Crossbow
 level:60
 weight:200
-alloc:0:60 to 127
+alloc:5:60 to 127
 attack:4d1:10:22
 armor:0:0
 flags:REGEN
@@ -1681,7 +1681,7 @@ name:of the Uruk-Hai
 base-object:bow:Heavy Crossbow
 level:50
 weight:200
-alloc:0:50 to 127
+alloc:5:50 to 127
 attack:4d1:20:24
 armor:0:0
 flags:REGEN
@@ -1696,7 +1696,7 @@ name:of Bard
 base-object:arrow:Arrow
 level:60
 weight:2
-alloc:0:60 to 127
+alloc:3:60 to 127
 attack:2d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1707,7 +1707,7 @@ name:'Bullseye'
 base-object:arrow:Seeker Arrow
 level:55
 weight:2
-alloc:0:55 to 127
+alloc:2:55 to 127
 attack:4d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1718,7 +1718,7 @@ name:of Gondor
 base-object:arrow:Seeker Arrow
 level:55
 weight:2
-alloc:0:55 to 127
+alloc:2:55 to 127
 attack:4d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1729,7 +1729,7 @@ name:'Dailir'
 base-object:arrow:Mithril Arrow
 level:50
 weight:2
-alloc:0:50 to 127
+alloc:3:50 to 127
 attack:3d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1742,7 +1742,7 @@ name:'Travak'
 base-object:bolt:Bolt
 level:20
 weight:3
-alloc:0:20 to 127
+alloc:3:20 to 127
 attack:2d5:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1757,7 +1757,7 @@ name:'Piercer'
 base-object:bolt:Seeker Bolt
 level:65
 weight:3
-alloc:0:65 to 127
+alloc:2:65 to 127
 attack:4d5:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1769,7 +1769,7 @@ name:of Thunder
 base-object:bolt:Mithril Bolt
 level:60
 weight:2
-alloc:0:60 to 127
+alloc:2:60 to 127
 attack:3d5:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1781,7 +1781,7 @@ name:of Moon-Stone
 base-object:shot:Rounded Pebble
 level:40
 weight:4
-alloc:0:40 to 127
+alloc:3:40 to 127
 attack:1d2:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1793,7 +1793,7 @@ name:'Ripper'
 base-object:shot:Iron Shot
 level:20
 weight:5
-alloc:0:20 to 127
+alloc:3:20 to 127
 attack:2d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -1804,7 +1804,7 @@ name:'Giver of Sleep'
 base-object:shot:Mithril Shot
 level:40
 weight:4
-alloc:0:40 to 127
+alloc:2:40 to 127
 attack:2d4:0:0
 armor:0:0
 flags:AMMO_MAGIC
@@ -3673,3 +3673,32 @@ time:50+d50
 msg:The {kind} glow{s} a deep green...
 desc:A great globe with a heart of fire, the Palantir provides the wearer with 
 desc:sight of far places - at a cost...
+
+name:'Excalibur'
+base-object:sword:Long Sword
+level:70
+weight:120
+alloc:1:126 to 127
+attack:2d5:15:27
+armor:0:5
+flags:FREE_ACT | SEE_INVIS | HOLD_LIFE | PROT_CONF
+values:SPEED[5] | STR[3] | CON[1] | BLOWS[1]
+values:INFRA[5] | WIS[5] | SEARCH[5] | LIGHT[1]
+brand:ELEC_3
+slay:DEMON_5
+slay:DRAGON_5
+desc:Sword from another dimension...
+desc:At first only its tip was visible, but then it rose, straight,
+desc:proud, all that was noble and great and wondrous. The tip of
+desc:the blade pointed toward the moon, as if it would cleave it
+desc:in two. The blade itself gleamed like a beacon in the night.
+desc:There was no light source for the sword to be reflecting
+desc:from, for the moon had darted behind a cloud in fear. The
+desc:sword was glowing from the intensity of its strength and
+desc:power and knowledge that it was justice incarnate, and that
+desc:after a slumber of uncounted years its time had again come.
+desc:After the blade broke the surface, the hilt was visible, and
+desc:holding the sword was a single strong, yet feminine hand,
+desc:wearing several rings that bore jewels sparkling with the
+desc:blue-green color of the ocean.
+desc:-Knight Life, by Peter David-

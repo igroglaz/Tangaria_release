@@ -16,15 +16,19 @@ User interface
 
 Angband 4.2.x:
 
--
+- Added commands to birth option screen to save and restore custom birth options
 
 MAngband 1.5.x:
 
-- Add possibility to macro by item names
+- Add possibility to macro by (identified) item names
 - Add version number to "incompatible client version" error message
 - Enter and leave query-item-by-name mode via quote symbol
 - Add possibility to macro by spell names
 - Macro Action Generator (3 new options to keymap screen)
+- Change the way topline message is displayed
+- Add "wrap_messages" option to word-wrap long messages in sub-windows
+- New option: Compare equipment when examining items
+- Add Ctrl+E toggle_inven_equip command from V
 
 PWMAngband:
 
@@ -36,6 +40,13 @@ PWMAngband:
   server option
 - Sort killed list (for polymorphing) from highest to lowest level
 - Display forms that are 50%/75% learnt in orange/yellow on the killed list
+- Buying house command moved to 'H' (original keyset) and '£' (roguelike keyset)
+- Implement the '/house' chat command to purchase a house
+- Allow '~xxx' inscription along 'for sale xxx' to price items in player shops
+- Bring back '%' command as "Interact with keymaps" and implement the '/time'
+  chat command to display current time
+- SDL client: allow fonts to be loaded from "xxx.FON" files and raise the
+  maximum number of fonts to 60
 
 Gameplay changes
 ----------------
@@ -43,6 +54,7 @@ Gameplay changes
 Angband 4.2.x:
 
 - Allow inscribed throwing weapons to be quivered
+- Blackguard tweaks
 
 MAngband 1.5.x:
 
@@ -52,6 +64,9 @@ MAngband 1.5.x:
 - Allow filling empty bottles from water tiles
 - Make hostile visible players prevent running
 - Disable banishment in dwarven halls
+- Add Acenoid's vaults
+- Change House Foundation allocation/rarity
+- Do not disturb after being hit by a non-threatening projected spell
 
 PWMAngband:
 
@@ -64,6 +79,7 @@ PWMAngband:
 - Give +1 moves every 10 speed instead of +5 speed to shapechangers under
   level 20
 - Halve the energy gained from extra moves
+- Add option to avoid getting disturbed when effects end
 
 Bugs fixed
 ----------
@@ -72,6 +88,8 @@ Angband 4.2.x:
 
 - Adjust size of gauntlet levels
 - Stop SMASH_WALL removing floor features
+- Stop quest artifacts being stealable
+- Ensure grids on the target path are hit by projections in project()
 
 MAngband 1.5.x:
 
@@ -85,13 +103,21 @@ PWMAngband:
 
 - Fix crash when quitting GCU client in debug mode
 - Fix lag bar under Linux
+- Fix crash when calling make_gold() with NULL player parameter
+- Forget memory of the old level when a player that saved during day connects
+  back during night (or vice versa)
+- Respawn NO_DEATH monsters every dawn if they somehow disappeared
 
 Coding changes
 --------------
 
 Angband 4.2.x:
 
--
+- Make dungeon profile selection less error-prone
+- Added a debugging command to dump the current level as an HTML file
+- Slightly tightened shape change logic
+- Account for throwing weapons in the quiver within pack_slots_used() and
+  quiver_absorb_num()
 
 MAngband 1.5.x:
 
@@ -99,15 +125,25 @@ MAngband 1.5.x:
 - Collapse "mangclient_xxx.ini" into "mangclient.ini" (sdl + gcu)
 - Add "instance_closed" option
 - Fix some really obvious warnings
+- Dump each item/monster/vault allocation to #cheat channel in debug mode
+- Ensure old players are not placed into newly created parties with colliding
+  party ids
 
 PWMAngband:
 
 - Change default FPS from 1 to 50
 - KEYMAP_ACTION_MAX increased from 20 to 30
+- Move message truncation from server to client
+- Add paranoia check to avoid walking out of bounds
+- Add pre-processing to chat messages to look for '/' commands
+- Ensure that Dragon and Hydra characters have the proper race when logging
+- Added simplified and alternate versions of "monster" directive in font-xxx.prf
+  files to specify default attribute (monster-char) or attribute by symbol
+  (monster-attr)
 
 Compilation
 -----------
 
-- Update help
 - USE_NCURSES define
 - Compiling with Embarcadero C++ 7.20
+- Update docs for option customization

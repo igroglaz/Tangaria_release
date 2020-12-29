@@ -1,5 +1,29 @@
 # === Understanding monster.txt ===
 
+
+
+
+
+
+
+
+
+
+
+# ON WIPE MOVE MONSTER FROM EoF
+
+
+
+
+
+
+
+
+
+
+
+
+
 # name: monster name
 # plural: custom plural for monster name
 # base: template name
@@ -723,8 +747,8 @@ desc:A small fish.
 ### Dungeon level 1 ###
 
 name:blinking dot
-base:hybrid
-color:s
+base:lurker
+color:w
 speed:110
 hit-points:2
 hearing:40
@@ -737,7 +761,8 @@ experience:3
 blow:SPORE:CONFUSE:1d6
 flags:NEVER_MOVE | STUPID | EMPTY_MIND
 flags:NO_CONF | NO_SLEEP | NO_FEAR
-spell-freq:50
+flags:ATTR_MULTI
+spell-freq:2
 spells:BLINK
 desc:Is it there or is it not?
 
@@ -8507,7 +8532,6 @@ desc: a mammal. And it is huge!
 
 ### Dungeon level 21 ###
 
-#name:Komurik the Terrific
 name:Kikimora
 base:person
 color:s
@@ -9270,6 +9294,9 @@ desc: different colours as you watch.
 
 ### Dungeon level 24 ###
 
+#name:It
+
+
 name:forest wight
 base:wraith
 color:g
@@ -9292,7 +9319,7 @@ spell-freq:10
 spells:DRAIN_MANA | SCARE
 desc:It is a ghostly apparition with a humanoid form.
 
-name:Ibun, Son of Mîm
+name:Ibun, Son of Mim
 base:humanoid
 color:o
 speed:110
@@ -9318,7 +9345,7 @@ spells:BO_FIRE
 desc:One of the last of the Petty-Dwarves. Ibun is a tricky sorcerous little
 desc: being, full of mischief.
 
-name:Khîm, Son of Mîm
+name:Khim, Son of Mim
 base:humanoid
 color:o
 speed:110
@@ -9341,7 +9368,7 @@ flags:FORCE_SLEEP
 spell-freq:8
 spells:HEAL | SLOW
 spells:BO_FIRE
-desc:One of the last of the Petty-Dwarves. Khîm is a tricky sorcerous little
+desc:One of the last of the Petty-Dwarves. Khim is a tricky sorcerous little
 desc: being, full of mischief.
 
 name:4-headed hydra
@@ -9431,7 +9458,7 @@ flags:FORCE_SLEEP
 spell-freq:4
 spells:CONF | SLOW
 friends:100:1d1:Angamait of Umbar
-desc:A Black Numenórean with a blacker heart.
+desc:A Black Numenorean with a blacker heart.
 
 name:Angamait of Umbar
 base:person
@@ -9458,7 +9485,7 @@ flags:FORCE_SLEEP
 spell-freq:4
 spells:CONF | SLOW
 friends:100:1d1:Sangahyando of Umbar
-desc:A Black Numenórean who hates the men of the west.
+desc:A Black Numenorean who hates the men of the west.
 
 name:banshee
 base:ghost
@@ -10296,7 +10323,6 @@ desc:He is out to have revenge on those who have desecrated his tomb.
 
 ### Dungeon level 27 ###
 
-#name:Ragnat the Dreadful
 name:Koschei the Deathless
 base:vampire
 color:W
@@ -15348,7 +15374,7 @@ flags:FORCE_SLEEP
 spell-freq:2
 spells:HEAL | TRAPS
 spells:BO_COLD | BO_ELEC | BO_FIRE | BO_ICE
-desc:A Black Numenórean who usurped the throne of Gondor, he is treacherous and
+desc:A Black Numenorean who usurped the throne of Gondor, he is treacherous and
 desc: evil.
 
 name:mature balance drake
@@ -17870,6 +17896,9 @@ desc:A huge draconic form. Its scales are shimmering purple.
 
 ### Dungeon level 45 ###
 
+#name:The Stormbringer
+
+
 name:Mutant's leader
 base:person
 color:t
@@ -19029,7 +19058,7 @@ locations:The Mines of Moria
 
 name:The White Balrog
 base:major demon
-color:v
+color:w
 speed:120
 hit-points:6000
 light:2
@@ -22640,6 +22669,9 @@ desc:A massive pile of rotting flesh. A disgusting stench fills the air as it
 desc: throbs and writhes.
 
 ### Dungeon level 72 ###
+
+#name:Null, the Living Void
+
 
 name:Xakaze, Father of Abominations
 base:person
@@ -27471,7 +27503,7 @@ weight:0
 experience:7
 blow:HIT:HURT:1d6
 blow:HIT:HURT:1d6
-blow:TOUCH:EXP_20
+blow:TOUCH:LOSE_WIS
 flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP | LEVITATE
 spell-freq:8
@@ -27983,8 +28015,8 @@ depth:0
 rarity:3
 weight:0
 experience:5
-blow:BITE:EXP_40:1d4
-blow:BITE:EXP_40:1d4
+blow:BITE:LOSE_WIS:1d4
+blow:BITE:LOSE_INT:1d4
 flags:UNDEAD | EVIL | COLD_BLOOD | REGENERATE
 flags:IM_COLD | NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN
 desc:A blood-sucking bat that flies at your neck hungrily.
@@ -28035,7 +28067,7 @@ depth:0
 rarity:3
 weight:0
 experience:6
-blow:TOUCH:EXP_10
+blow:TOUCH:LOSE_DEX
 flags:NEVER_MOVE
 flags:HURT_LIGHT | HURT_COLD | IM_POIS | NO_CONF | NO_SLEEP
 spell-freq:11
@@ -28544,7 +28576,7 @@ experience:25
 blow:HIT:HURT:1d12
 blow:HIT:HURT:1d12
 blow:HIT:HURT:1d12
-blow:TOUCH:EXP_80
+blow:TOUCH:LOSE_STR
 flags:INVISIBLE
 flags:PASS_WALL
 flags:FORCE_SLEEP
@@ -28634,7 +28666,7 @@ experience:50
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
-blow:HIT:EXP_80:10d5
+blow:HIT:LOSE_CON:10d5
 flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART
 flags:OPEN_DOOR
 flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
@@ -29346,7 +29378,7 @@ experience:50
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
 blow:HIT:HURT:10d5
-blow:HIT:EXP_80:10d5
+blow:HIT:LOSE_INT:10d5
 flags:COLD_BLOOD | EVIL | PWMANG_BASE | SMART
 flags:OPEN_DOOR
 flags:IM_NEXUS | IM_PLASMA | IM_NETHER | IM_FIRE | IM_COLD | IM_POIS
@@ -29772,3 +29804,90 @@ locations:Ettendales
 
 #....
 #Greatest mortal wizard of all times. He is looking for a meeting with you.
+
+
+name:The Stormbringer
+base:hybrid
+glyph:|
+color:v
+light:1
+speed:120
+hit-points:1500
+hearing:0
+armor-class:99
+sleepiness:20
+depth:45
+rarity:3
+weight:0
+experience:13000
+blow:WAIL:TERRIFY
+blow:HIT:EXP_80:64d1
+blow:HIT:EXP_80:64d1
+blow:HIT:EXP_80:8d8
+flags:UNIQUE | EVIL | NONLIVING | LEVITATE
+flags:COLD_BLOOD | EMPTY_MIND | UNAWARE
+flags:BASH_DOOR
+flags:ATTR_MULTI
+flags:FORCE_SLEEP
+flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
+flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN
+flags:IM_NETHER | 
+desc:A deadly blade of chaos lurking for prey. Beware!
+drop:sword:'Stormbringer':100:1:1
+mimic:sword:Blade of Chaos
+
+name:Null, the Living Void
+glyph:.
+base:hybrid
+color:d
+speed:110
+hit-points:2500
+hearing:20
+armor-class:100
+sleepiness:30
+depth:72
+rarity:3
+weight:0
+experience:30000
+blow:TOUCH:LOSE_ALL:6d16
+blow:TOUCH:DRAIN_CHARGES:6d16
+blow:TOUCH:EXP_80:6d16
+flags:UNIQUE | NONLIVING | LEVITATE | PASS_WALL
+flags:EMPTY_MIND | INVISIBLE | SMART | REGENERATE
+flags:NO_FEAR | NO_CONF | NO_SLEEP
+flags:IM_POIS | IM_COLD | IM_ACID
+flags:IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:DROP_4 | DROP_GOOD | ONLY_ITEM
+spell-freq:5
+innate-freq:15
+spells:BR_NETH | DRAIN_MANA | SCARE | BRAIN_SMASH | S_UNDEAD
+spells:S_HI_UNDEAD | HEAL | ANIM_DEAD
+desc:A black hole in the fabric of reality. It simply is not there.
+
+name:It
+glyph:.
+base:hybrid
+color:w
+speed:110
+hit-points:700
+hearing:25
+armor-class:80
+sleepiness:25
+depth:24
+rarity:5
+weight:0
+experience:400
+blow:GAZE:BLIND:8d8
+blow:TOUCH:TERRIFY
+blow:GAZE:EXP_20
+blow:TOUCH:EAT_ITEM
+flags:UNIQUE | STUPID | EVIL | LEVITATE
+flags:COLD_BLOOD | EMPTY_MIND | INVISIBLE | UNAWARE
+flags:NO_FEAR | NO_CONF | NO_SLEEP
+flags:ATTR_MULTI | CHAR_CLEAR
+flags:IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
+spell-freq:4
+spells:BLINK | DRAIN_MANA | SCARE | CONF | S_MONSTER
+spells:DARKNESS | S_HYDRA | FORGET | TELE_TO
+desc:Nobody has ever seen It.
