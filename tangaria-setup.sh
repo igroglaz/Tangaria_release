@@ -1,21 +1,21 @@
 #!/bin/bash
 
-## Script for setup Tangaria.
+## Script for setup Tangaria
 ##
-## Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria/master/tangaria-setup.sh
-##      Github PWMAngband: https://github.com/draconisPW/PWMAngband
-##      PWMAngband binaries: https://powerwyrm.monsite-orange.fr/page-56e3134c5ebab.html
-##      Github Tangaria: https://github.com/igroglaz/Tangaria
-##      Link to Tangaria: https://tangaria.com/
-##      Discord channel:https://discord.gg/zBNG369
-##
+README=\
+'<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
+# Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria/master/tangaria-setup.sh
+# Github PWMAngband: https://github.com/draconisPW/PWMAngband
+# PWMAngband binaries: https://powerwyrm.monsite-orange.fr/page-56e3134c5ebab.html
+# Github Tangaria: https://github.com/igroglaz/Tangaria
+# Link to Tangaria: https://tangaria.com/
+# Discord channel:https://discord.gg/zBNG369
 
-README='
 to make script executable, use chmod +x ./tangaria-setup.sh
 if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
 ***if you use RPM-based linux (Fedora, RHEL, CentOS..) the command to obtain build tools is something like: sudo dnf group install "Development Tools"
 and the command to obtain all the needed libraries is: sudo dnf install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
-'
+<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>'
 
 ########### INSTALL DIR ###########
 
@@ -76,6 +76,15 @@ fi
 
 ###################################
 
+# XDG Base Directory Specification
+if [[ -z "$XDG_CONFIG_HOME" ]]; then
+  export XDG_CONFIG_HOME="$HOME"/.config
+fi
+
+if [[ -z "$XDG_DATA_HOME" ]]; then
+  export XDG_DATA_HOME="$HOME"/.local/share
+fi
+
 TARGET_DIR=$(dirname "$(readlink -f $0)")
 
 cd "$(dirname "$TARGET_DIR")" || {
@@ -119,7 +128,7 @@ radioListRoguelike() {
 
 inputBoxInstallPath() {
     INSTALL_DIR=$($DIALOG --title "Install path" --nocancel --inputbox \
-        "enter path:" 8 78 $INSTALL_DIR 3>&1 1>&2 2>&3)
+        "enter path:" 8 76 $INSTALL_DIR 3>&1 1>&2 2>&3)
 
         exitstatus=$?
         if [ ${exitstatus} != 0 ]; then
@@ -147,7 +156,7 @@ radioListVersion() {
                     RADIOLIST_VERSION_PWMANGBAND_MASTER=OFF
                     RADIOLIST_VERSION_PWMANGBAND_OTHER=ON
                     VERSION_PWMANGBAND=$($DIALOG --title "other(branches)" --nocancel --inputbox \
-                    "follow the link https://github.com/draconisPW/PWMAngband/branches \nenter: PWMAngband-" 9 78 $VERSION_PWMANGBAND 3>&1 1>&2 2>&3)
+                    "follow the link https://github.com/draconisPW/PWMAngband/branches \nenter: PWMAngband-" 9 76 $VERSION_PWMANGBAND 3>&1 1>&2 2>&3)
                     exitstatus=$?
                     if [ ${exitstatus} != 0 ]; then
                         clear
@@ -188,7 +197,7 @@ radioListClient() {
 
 checkListOptions() {
     MENU_OPTIONS=$($DIALOG --title "Options" --nocancel --separate-output --checklist \
-        "use UP/DOWN, SPACE, ENTER keys\nSelect update options:" 16 54 6 \
+        "use UP/DOWN, SPACE, ENTER keys\nSelect options:" 16 54 6 \
             "link directory user" "" $CHECKLIST_OPTIONS_LINK_DIR_USER \
             3>&1 1>&2 2>&3)
 
@@ -243,7 +252,7 @@ checkListUpdate() {
 }
 
 messageBoxHelp() {
-    $DIALOG --title "Help" --msgbox "$README" 24 71
+$DIALOG --title "Help" --scrolltext --msgbox "$README" 25 80
 }
 
 do_install() {
@@ -336,7 +345,9 @@ fi
 make -j$CPU_CORES
 make install
 
-cp -f ./setup/mangband.cfg $INSTALL_DIR/games
+if [ $MENU_ROGUELIKE = "PWMAngband" ]; then
+cp -i ./setup/mangband.cfg $INSTALL_DIR/games
+fi
 
 cd ../ || exit 1
 
@@ -379,8 +390,8 @@ EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
-if ! [ -f $INSTALL_DIR/pwmangclient.desktop ]; then
-cat > $INSTALL_DIR/pwmangclient.desktop << EOF
+if ! [ -f $XDG_DATA_HOME/applications/pwmangclient.desktop ]; then
+cat > $XDG_DATA_HOME/applications/pwmangclient.desktop << EOF
 [Desktop Entry]
 Name=PWMAngband (client)
 Type=Application
@@ -390,11 +401,10 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
 EOF
-chmod +x $INSTALL_DIR/pwmangclient.desktop
 fi
 
-if ! [ -f $INSTALL_DIR/pwmangband.desktop ]; then
-cat > $INSTALL_DIR/pwmangband.desktop << EOF
+if ! [ -f $XDG_DATA_HOME/applications/pwmangband.desktop ]; then
+cat > $XDG_DATA_HOME/applications/pwmangband.desktop << EOF
 [Desktop Entry]
 Name=PWMAngband (server)
 Type=Application
@@ -405,7 +415,6 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=true
 Categories=Game;RolePlaying;
 EOF
-chmod +x $INSTALL_DIR/pwmangband.desktop
 fi
 
 ###################################
@@ -496,6 +505,10 @@ cp -R ./lib/sounds $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/tiles
 cp -R ./lib/tiles $INSTALL_DIR/share/pwmangband
 
+if [ $MENU_ROGUELIKE = "Tangaria" ]; then
+cp -i ./mangband.cfg $INSTALL_DIR/games
+fi
+
 cp -n ./lib/user/save/account $HOME/.pwmangband/PWMAngband/save
 cp -i ./lib/user/sdlinit.txt $HOME/.pwmangband/PWMAngband
 
@@ -503,8 +516,6 @@ cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
 cp -f ./Changes.txt $INSTALL_DIR
 cp -f ./Manual.html $INSTALL_DIR
 cp -f ./Manual.pdf $INSTALL_DIR
-
-cp -f ./mangband.cfg $INSTALL_DIR/games
 
 if [ $CHECKLIST_OPTIONS_LINK_DIR_USER = ON ]; then
   if ! [ -e $INSTALL_DIR/user ]; then
@@ -564,6 +575,7 @@ echo "                "
 fi
 exit 0
 }
+
 ###################################
 
 main() {
@@ -579,7 +591,7 @@ MENU_INSTALL_DIR=$(echo "$INSTALL_DIR" | sed -e 's/\(.\{40\}\).*/\1/; s/./&.../4
             "Options" "" \
             "Update" "" \
             "Help" "" \
-            "Install" "" \
+            "Install" ">>>------>" \
             3>&1 1>&2 2>&3)
 
         exitstatus=$?
