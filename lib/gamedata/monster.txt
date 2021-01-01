@@ -4643,7 +4643,7 @@ name:wolf
 plural:wolves
 base:canine
 color:u
-speed:120
+speed:115
 hit-points:21
 hearing:30
 smell:50
@@ -4654,6 +4654,7 @@ rarity:1
 weight:60
 experience:30
 blow:BITE:HURT:1d6
+blow:BITE:HURT:1d4
 flags:RAND_25 | BASH_DOOR
 flags:GROUP_AI
 flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_WASTE | WILD_MOUNTAIN

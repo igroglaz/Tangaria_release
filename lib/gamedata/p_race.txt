@@ -152,7 +152,7 @@ value:1:CON[-1+1d24]
 value:1:INFRA[2]
 value:25:DAM_RED[1]
 value:1:TUNNEL[1]
-value:50:SPEED[1]
+value:45:SPEED[1]
 
 name:Elf
 skill-disarm-phys:5
@@ -570,7 +570,7 @@ skill-disarm-magic:-5
 skill-device:-5
 skill-save:-5
 skill-stealth:-1
-skill-search:-5
+skill-search:10
 skill-melee:-5
 skill-shoot:-5
 skill-dig:-1
@@ -668,7 +668,7 @@ value:1:INFRA[3]
 value:25:RES_DISEN[1]
 player-flags:SEE_ORE
 value:5:TUNNEL[1+1d15]
-#value:10:STEALTH[1]
+value:10:STEALTH[1]
 
 #tiny orcs.. meluzga
 name:Goblin
@@ -696,7 +696,7 @@ value:1:CON[1+1d30]
 value:1:INFRA[4]
 value:10:RES_DARK[1]
 value:1:TUNNEL[1]
-value:50:SPEED[1]
+value:25:SPEED[1]
 player-flags:ORC
 
 #half-giant.. giant blood, heritage
@@ -734,7 +734,19 @@ brand:40:STUN_1
 brand:50:STUN_2
 value:1:DAM_RED[2+1d10]
 obj-flag:1:NO_TELEPORT
+value:1:TUNNEL[3+1d10]
 # add another race... which will have limited teleport, but a lot of MOVES
+player-flags:SHAPECHANGE
+shape:5:hill giant
+shape:10:frost giant
+shape:15:fire giant
+shape:20:stone giant
+shape:25:cloud giant
+shape:30:sand giant
+shape:35:cyclops
+shape:40:storm giant
+shape:45:lesser titan
+shape:50:greater titan
 
 #Swamp troll
 name:Ogre
@@ -764,7 +776,7 @@ value:1:INFRA[1+1d7]
 value:1:MOVES[-1]
 obj-flag:1:SUST_INT
 value:1:TUNNEL[1]
-value:50:MANA[1]
+value:25:MANA[1]
 
 name:Troll
 skill-disarm-phys:-18
@@ -791,7 +803,6 @@ value:1:CON[1+1d8M30]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-#MOVES works as not intended
 value:1:MOVES[-2+-1d24]
 value:50:SPEED[-1]
 ###########value:1:SPEED[-1+-1d35]
@@ -799,6 +810,8 @@ value:20:RES_POIS[1]
 value:35:RES_SHARD[1]
 value:1:RES_LIGHT[-1]
 player-flags:TROLL
+player-flags:SHAPECHANGE
+shape:30:snow troll
 
 name:Orc
 skill-disarm-phys:-8
@@ -875,15 +888,15 @@ height:58:6
 weight:111:8
 #0 2 -2 3 0
 value:1:STR[0]
-value:1:INT[2]
+value:1:INT[0+1d20]
 value:1:WIS[-2]
-value:1:DEX[3]
+value:1:DEX[0+1d15]
 value:1:CON[0]
-value:1:INFRA[2+1d8]
-obj-flag:1:SEE_INVIS
-value:25:RES_DARK[1]
+value:1:INFRA[0+1d6]
+obj-flag:25:SEE_INVIS
+value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
-value:1:STEALTH[1+1d15]
+value:1:STEALTH[0+1d12]
 value:1:DAM_RED[-1]
 
 name:Werewolf
@@ -915,9 +928,16 @@ value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
 value:1:MOVES[1]
 value:50:SPEED[1]
-brand:25:CUT_1
+brand:15:CUT_1
 brand:50:CUT_2
+value:10:STEALTH[-1+-1d3]
+obj-flag:50:AGGRAVATE
 player-flags:ANIMAL
+player-flags:SHAPECHANGE
+shape:1:wolf
+shape:10:werewolf
+shape:30:hellhound
+shape:50:volkodlak
 
 name:Undead
 skill-disarm-phys:-15
@@ -992,6 +1012,12 @@ brand:1:VAMPIRIC
 value:1:DAM_RED[-1+-1d15]
 value:1:TUNNEL[-1+-1d30]
 value:50:SPEED[-1]
+player-flags:SHAPECHANGE
+shape:5:vampiric mist
+shape:10:fruit bat
+shape:20:vampire bat
+shape:30:bat of Gorgoroth
+shape:40:doombat
 
 ############################## GODLIKE
 # ? spirits.. of fire, elec, cold, 
@@ -1080,6 +1106,12 @@ value:1:RES_ELEC[-1]
 value:1:DAM_RED[-1+-1d2]
 #############^^^^^^^^################
 #######obj-flag:10:DRAIN_EXP
+player-flags:SHAPECHANGE
+shape:15:tengu
+shape:20:quasit
+shape:30:bodak
+shape:40:vrock
+shape:50:nalfeshnee
 
 # Some people call them ‘angels’, but they are not kind and helpful 
 # (and they doesn’t have wings!), but very cruel race which got their
@@ -1216,7 +1248,7 @@ obj-flag:25:SUST_WIS
 obj-flag:35:SUST_DEX
 obj-flag:45:SUST_CON
 value:1:INFRA[1+1d9]
-value:1:SPEED[-1]
+value:1:SPEED[-1+-1d5]
 value:1:RES_POIS[1]
 value:20:RES_FIRE[1]
 value:30:RES_ACID[1]
@@ -1225,6 +1257,7 @@ value:50:RES_SHARD[1]
 obj-flag:10:FEATHER
 obj-flag:1:IMPAIR_HP
 obj-flag:1:IMPAIR_MANA
+value:1:DAM_RED[1+1d1]
 
 name:Golem
 skill-disarm-phys:-16
@@ -1252,6 +1285,8 @@ value:1:SPEED[-1]
 value:1:RES_POIS[1]
 obj-flag:1:FREE_ACT
 obj-flag:1:SEE_INVIS
+value:1:DAM_RED[1+1d5]
+#value:1:MOVES[-1+-1d5]
 
 name:Pixie
 skill-disarm-phys:10
@@ -1371,6 +1406,8 @@ obj-flag:1:FEATHER
 # Minotaur
 # Naga
 
+# shape:50:succubus
+
 #STEALTH_MODE
 #CROWD_FIGHT
 #MARTIAL_ARTS
@@ -1412,3 +1449,6 @@ obj-flag:1:FEATHER
 #IMPAIR_MANA // slowed mana regen
 
 #AFRAID // constant fear
+
+
+# KILL_WALL ?
