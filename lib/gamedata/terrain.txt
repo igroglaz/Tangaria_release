@@ -4150,7 +4150,7 @@ desc:.
 name:obj_grass2 b
 graphics:::s
 priority:18
-flags:TORCH | BORING
+flags:WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW | TORCH
 ################################################################################
 info:0:3
 short-desc:standing stone; looks like a broken tooth towering alone in silence..
