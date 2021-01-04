@@ -21,6 +21,11 @@ and the command to obtain all the needed libraries is: sudo dnf install SDL-deve
 
 INSTALL_DIR=$HOME/Tangaria
 
+############ USER DIR #############
+
+USER_PWMANGBAND="$HOME/.pwmangband"
+USER_PWMANGRC="$HOME/.pwmangrc"
+
 ######## make -j$CPU_CORES ########
 
 CPU_CORES=$(cat /proc/cpuinfo | grep processor | wc -l)
@@ -47,6 +52,7 @@ MENU_CLIENT="sdl"
 RADIOLIST_CLIENT_SDL=ON
 RADIOLIST_CLIENT_CURSES=OFF
 
+CHECKLIST_OPTIONS_SDLINIT=ON
 CHECKLIST_OPTIONS_LINK_DIR_USER=ON
 
 CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND=ON
@@ -101,6 +107,17 @@ cd $TARGET_DIR/tangaria_setup_files || {
     exit 1
 }
 
+arrayContains() {
+    local arr=${!1}
+    local el="$2"
+    local flag=$3
+    if printf "%s\n" "${arr[@]}" | grep -x -q "$el"; then
+        eval $flag=ON
+    else
+        eval $flag=OFF
+    fi
+}
+
 radioListRoguelike() {
     MENU_ROGUELIKE=$($DIALOG --title "Roguelike Game" --nocancel --radiolist \
         "use UP/DOWN, SPACE, ENTER keys\nChoose a roguelike game:" 16 54 6 \
@@ -110,16 +127,8 @@ radioListRoguelike() {
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            case ${MENU_ROGUELIKE} in
-                Tangaria)
-                    RADIOLIST_ROGUELIKE_TANGARIA=ON
-                    RADIOLIST_ROGUELIKE_PWMANGBAND=OFF
-                ;;
-                PWMAngband)
-                    RADIOLIST_ROGUELIKE_TANGARIA=OFF
-                    RADIOLIST_ROGUELIKE_PWMANGBAND=ON
-                ;;
-            esac
+            arrayContains MENU_ROGUELIKE[@] "Tangaria" RADIOLIST_ROGUELIKE_TANGARIA
+            arrayContains MENU_ROGUELIKE[@] "PWMAngband" RADIOLIST_ROGUELIKE_PWMANGBAND
         else
             clear
             exit 0
@@ -146,24 +155,20 @@ radioListVersion() {
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            case ${MENU_VERSION_PWMANGBAND} in
-                master)
-                    RADIOLIST_VERSION_PWMANGBAND_MASTER=ON
-                    RADIOLIST_VERSION_PWMANGBAND_OTHER=OFF
-                    VERSION_PWMANGBAND="master"
-                ;;
-                other)
-                    RADIOLIST_VERSION_PWMANGBAND_MASTER=OFF
-                    RADIOLIST_VERSION_PWMANGBAND_OTHER=ON
-                    VERSION_PWMANGBAND=$($DIALOG --title "other(branches)" --nocancel --inputbox \
+            arrayContains MENU_VERSION_PWMANGBAND[@] "master" RADIOLIST_VERSION_PWMANGBAND_MASTER
+            arrayContains MENU_VERSION_PWMANGBAND[@] "other" RADIOLIST_VERSION_PWMANGBAND_OTHER
+            if [ $MENU_VERSION_PWMANGBAND = "master" ]; then
+                VERSION_PWMANGBAND="master"
+            fi
+            if [ $MENU_VERSION_PWMANGBAND = "other" ]; then
+                VERSION_PWMANGBAND=$($DIALOG --title "other(branches)" --nocancel --inputbox \
                     "follow the link https://github.com/draconisPW/PWMAngband/branches \nenter: PWMAngband-" 9 76 $VERSION_PWMANGBAND 3>&1 1>&2 2>&3)
                     exitstatus=$?
                     if [ ${exitstatus} != 0 ]; then
                         clear
                         exit 0
                     fi
-                ;;
-            esac
+            fi
         else
             clear
             exit 0
@@ -179,16 +184,8 @@ radioListClient() {
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            case ${MENU_CLIENT} in
-                sdl)
-                    RADIOLIST_CLIENT_SDL=ON
-                    RADIOLIST_CLIENT_CURSES=OFF
-                ;;
-                curses)
-                    RADIOLIST_CLIENT_SDL=OFF
-                    RADIOLIST_CLIENT_CURSES=ON
-                ;;
-            esac
+            arrayContains MENU_CLIENT[@] "sdl" RADIOLIST_CLIENT_SDL
+            arrayContains MENU_CLIENT[@] "curses" RADIOLIST_CLIENT_CURSES
         else
             clear
             exit 0
@@ -198,16 +195,14 @@ radioListClient() {
 checkListOptions() {
     MENU_OPTIONS=$($DIALOG --title "Options" --nocancel --separate-output --checklist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect options:" 16 54 6 \
-            "link directory user" "" $CHECKLIST_OPTIONS_LINK_DIR_USER \
+            "sdlinit.txt" "Tangaria " $CHECKLIST_OPTIONS_SDLINIT \
+            "link directory user" "Tangaria " $CHECKLIST_OPTIONS_LINK_DIR_USER \
             3>&1 1>&2 2>&3)
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            if printf "%s\n" "${MENU_OPTIONS[@]}" | grep -x -q "link directory user"; then
-                CHECKLIST_OPTIONS_LINK_DIR_USER=ON
-            else
-                CHECKLIST_OPTIONS_LINK_DIR_USER=OFF
-            fi
+            arrayContains MENU_OPTIONS[@] "sdlinit.txt" CHECKLIST_OPTIONS_SDLINIT
+            arrayContains MENU_OPTIONS[@] "link directory user" CHECKLIST_OPTIONS_LINK_DIR_USER
         else
             clear
             exit 0
@@ -225,26 +220,10 @@ checkListUpdate() {
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            if printf "%s\n" "${MENU_UPDATE[@]}" | grep -x -q "Download PWMAngband"; then
-                CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND=ON
-            else
-                CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND=OFF
-            fi
-            if printf "%s\n" "${MENU_UPDATE[@]}" | grep -x -q "Unpack PWMAngband"; then
-                CHECKLIST_UPDATE_UNPACK_PWMANGBAND=ON
-            else
-                CHECKLIST_UPDATE_UNPACK_PWMANGBAND=OFF
-            fi
-            if printf "%s\n" "${MENU_UPDATE[@]}" | grep -x -q "Download Tangaria"; then
-                CHECKLIST_UPDATE_DOWNLOAD_TANGARIA=ON
-            else
-                CHECKLIST_UPDATE_DOWNLOAD_TANGARIA=OFF
-            fi
-            if printf "%s\n" "${MENU_UPDATE[@]}" | grep -x -q "Unpack Tangaria"; then
-                CHECKLIST_UPDATE_UNPACK_TANGARIA=ON
-            else
-                CHECKLIST_UPDATE_UNPACK_TANGARIA=OFF
-            fi
+            arrayContains MENU_UPDATE[@] "Download PWMAngband" CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND
+            arrayContains MENU_UPDATE[@] "Unpack PWMAngband" CHECKLIST_UPDATE_UNPACK_PWMANGBAND
+            arrayContains MENU_UPDATE[@] "Download Tangaria" CHECKLIST_UPDATE_DOWNLOAD_TANGARIA
+            arrayContains MENU_UPDATE[@] "Unpack Tangaria" CHECKLIST_UPDATE_UNPACK_TANGARIA
         else
             clear
             exit 0
@@ -252,7 +231,7 @@ checkListUpdate() {
 }
 
 messageBoxHelp() {
-$DIALOG --title "Help" --scrolltext --msgbox "$README" 25 80
+    $DIALOG --title "Help" --scrolltext --msgbox "$README" 25 80
 }
 
 do_install() {
@@ -390,7 +369,6 @@ EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
-if ! [ -f $XDG_DATA_HOME/applications/pwmangclient.desktop ]; then
 cat > $XDG_DATA_HOME/applications/pwmangclient.desktop << EOF
 [Desktop Entry]
 Name=PWMAngband (client)
@@ -401,9 +379,7 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
 EOF
-fi
 
-if ! [ -f $XDG_DATA_HOME/applications/pwmangband.desktop ]; then
 cat > $XDG_DATA_HOME/applications/pwmangband.desktop << EOF
 [Desktop Entry]
 Name=PWMAngband (server)
@@ -415,7 +391,6 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=true
 Categories=Game;RolePlaying;
 EOF
-fi
 
 ###################################
 
@@ -457,35 +432,6 @@ fi
 
 cd ./Tangaria-$VERSION_TANGARIA || exit 1
 
-if ! [ -d $INSTALL_DIR/etc ]; then
-  mkdir -p $INSTALL_DIR/etc/pwmangband/customize
-  mkdir -p $INSTALL_DIR/etc/pwmangband/gamedata
-fi
-if ! [ -d $INSTALL_DIR/games ]; then
-  mkdir -p $INSTALL_DIR/games  
-fi
-if ! [ -d $INSTALL_DIR/share ]; then
-  mkdir -p $INSTALL_DIR/share/pwmangband/fonts
-  mkdir -p $INSTALL_DIR/share/pwmangband/help
-  mkdir -p $INSTALL_DIR/share/pwmangband/icons
-  mkdir -p $INSTALL_DIR/share/pwmangband/screens
-  mkdir -p $INSTALL_DIR/share/pwmangband/sounds
-  mkdir -p $INSTALL_DIR/share/pwmangband/tiles
-fi
-
-if ! [ -d $HOME/.pwmangband ]; then
-  mkdir -p $HOME/.pwmangband  
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband/save ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband/save
-fi
-if ! [ -d $HOME/.pwmangband/PWMAngband/scores ]; then
-  mkdir -p $HOME/.pwmangband/PWMAngband/scores
-fi
-
 echo "copying files..."
 
 rm -r $INSTALL_DIR/etc/pwmangband/customize
@@ -509,8 +455,24 @@ if [ $MENU_ROGUELIKE = "Tangaria" ]; then
 cp -i ./mangband.cfg $INSTALL_DIR/games
 fi
 
-cp -n ./lib/user/save/account $HOME/.pwmangband/PWMAngband/save
-cp -i ./lib/user/sdlinit.txt $HOME/.pwmangband/PWMAngband
+if ! [ -d $USER_PWMANGBAND ]; then
+    mkdir -p $USER_PWMANGBAND  
+fi
+if ! [ -d $USER_PWMANGBAND/PWMAngband ]; then
+    mkdir -p $USER_PWMANGBAND/PWMAngband
+fi
+if ! [ -d $USER_PWMANGBAND/PWMAngband/save ]; then
+    mkdir -p $USER_PWMANGBAND/PWMAngband/save
+fi
+if ! [ -d $USER_PWMANGBAND/PWMAngband/scores ]; then
+    mkdir -p $USER_PWMANGBAND/PWMAngband/scores
+fi
+
+cp -n ./lib/user/save/account $USER_PWMANGBAND/PWMAngband/save
+
+if [ $CHECKLIST_OPTIONS_SDLINIT = ON ]; then
+cp -i ./lib/user/sdlinit.txt $USER_PWMANGBAND/PWMAngband
+fi
 
 cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
 cp -f ./Changes.txt $INSTALL_DIR
@@ -518,9 +480,9 @@ cp -f ./Manual.html $INSTALL_DIR
 cp -f ./Manual.pdf $INSTALL_DIR
 
 if [ $CHECKLIST_OPTIONS_LINK_DIR_USER = ON ]; then
-  if ! [ -e $INSTALL_DIR/user ]; then
-  ln -s $HOME/.pwmangband $INSTALL_DIR/user
-  fi
+    if ! [ -e $INSTALL_DIR/user ]; then
+    ln -s $USER_PWMANGBAND $INSTALL_DIR/user
+    fi
 fi
 
 write_pwmangrc() {
@@ -531,7 +493,7 @@ META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
 META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
 DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
 LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
-cat > $HOME/.pwmangrc << EOF
+cat > $USER_PWMANGRC << EOF
 [MAngband]
 $NICK
 $PASS
@@ -543,10 +505,10 @@ $LIGHTERBLUE
 EOF
 }
 
-if ! [ -f $HOME/.pwmangrc ]; then
- write_pwmangrc
+if ! [ -f $USER_PWMANGRC ]; then
+write_pwmangrc
 else
-echo -n "replace $HOME/.pwmangrc ?     (y/n)"
+echo -n "replace $USER_PWMANGRC ?     (y/n)"
 read item
 case "$item" in
     y|Y) echo "«yes», ok..."
