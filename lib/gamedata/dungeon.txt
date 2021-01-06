@@ -2301,7 +2301,7 @@ rule:950:0
 rule-flags:MULTIPLY
 rule:50:1
 
-########################## 49 (boss: Trone, the Rebel Thunderlord)
+########################## 49 (boss: Trolls)
 name:Ettenmoors
 wpos:2:1
 min-depth:23

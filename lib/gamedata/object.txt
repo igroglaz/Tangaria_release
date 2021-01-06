@@ -419,21 +419,6 @@ level:0
 weight:5
 cost:75
 alloc:5:0 to 50
-effect:NOURISH:INC_BY
-dice:1
-effect:TIMED_INC:CONFUSED
-dice:8+1d8
-effect:TIMED_INC:BOLD
-dice:50+1d20
-effect:RESTORE_STAT:STR
-effect:RESTORE_STAT:CON
-######################
-effect:DRAIN_STAT:INT
-dice:1
-effect:DRAIN_STAT:WIS
-dice:1
-effect:RANDOM
-dice:2
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:11+1d8
 effect:TIMED_INC:BLIND
@@ -448,6 +433,17 @@ effect:TIMED_INC:SLOW
 dice:11+1d11
 effect:RANDOM
 dice:6
+effect:NOURISH:INC_BY
+dice:1
+effect:TIMED_INC:CONFUSED
+dice:8+1d8
+effect:TIMED_INC:BOLD
+dice:50+1d20
+effect:RESTORE_STAT:STR
+effect:RESTORE_STAT:CON
+######################
+effect:DRAIN_STAT:INT
+dice:1
 msg_self:*Hic... Hic...*
 desc:It pretty strong and could raise your spirits.
 
@@ -458,15 +454,6 @@ level:0
 weight:10
 cost:100
 alloc:10:0 to 50
-effect:NOURISH:INC_BY
-dice:3
-effect:TIMED_INC:CONFUSED
-dice:1+1d8
-effect:TIMED_INC:BOLD
-dice:30+1d20
-effect:RESTORE_STAT:STR
-effect:RESTORE_STAT:CON
-########################
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d8
 effect:TIMED_INC:BLIND
@@ -481,6 +468,14 @@ effect:TIMED_INC:SLOW
 dice:1+1d8
 effect:RANDOM
 dice:6
+effect:NOURISH:INC_BY
+dice:3
+effect:TIMED_INC:CONFUSED
+dice:1+1d8
+effect:TIMED_INC:BOLD
+dice:30+1d20
+effect:RESTORE_STAT:STR
+effect:RESTORE_STAT:CON
 msg_self:That tastes great! A fine vintage.
 desc:A fine way to wash down some otherwise unappetising rations.
 
@@ -3467,15 +3462,6 @@ weight:4
 cost:20
 alloc:80:1 to 15
 pile:90:2d3
-effect:TIMED_DEC:CONFUSED
-dice:20
-effect:TIMED_DEC:CUT
-dice:20
-effect:CURE:BLIND
-effect:HEAL_HP
-dice:20
-effect:TIMED_INC:OPP_CONF
-dice:1d1
 effect:NOURISH:DEC_BY
 dice:1
 effect:NOURISH:INC_BY
@@ -3486,6 +3472,15 @@ effect:NOURISH:INC_BY
 dice:0
 effect:RANDOM
 dice:4
+effect:TIMED_DEC:CONFUSED
+dice:20
+effect:TIMED_DEC:CUT
+dice:20
+effect:CURE:BLIND
+effect:HEAL_HP
+dice:20
+effect:TIMED_INC:OPP_CONF
+dice:1d1
 
 name:Cure Serious Wounds
 graphics:!:d
@@ -3495,13 +3490,6 @@ weight:4
 cost:70
 alloc:80:5 to 40
 pile:80:2d3
-effect:CURE:CONFUSED
-effect:CURE:BLIND
-effect:CURE:CUT
-effect:HEAL_HP
-dice:40
-effect:TIMED_INC:OPP_CONF
-dice:1d1
 effect:NOURISH:DEC_BY
 dice:1
 effect:NOURISH:INC_BY
@@ -3510,6 +3498,13 @@ effect:NOURISH:INC_BY
 dice:0
 effect:RANDOM
 dice:3
+effect:CURE:CONFUSED
+effect:CURE:BLIND
+effect:CURE:CUT
+effect:HEAL_HP
+dice:40
+effect:TIMED_INC:OPP_CONF
+dice:1d1
 
 name:Cure Critical Wounds
 graphics:!:d
@@ -3519,6 +3514,12 @@ weight:4
 cost:200
 alloc:80:12 to 100
 pile:70:2d3
+effect:NOURISH:DEC_BY
+dice:1
+effect:NOURISH:INC_BY
+dice:0
+effect:RANDOM
+dice:2
 effect:CURE:AMNESIA
 effect:CURE:CUT
 effect:CURE:STUN
@@ -3529,12 +3530,6 @@ effect:HEAL_HP
 dice:60
 effect:TIMED_INC:OPP_CONF
 dice:1d1
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:INC_BY
-dice:0
-effect:RANDOM
-dice:2
 
 name:Healing
 graphics:!:d
@@ -3759,13 +3754,6 @@ weight:4
 cost:25
 alloc:40:1 to 100
 pile:25:2
-effect:TIMED_INC:HERO
-dice:25+1d25
-effect:TIMED_INC:BOLD
-dice:25+1d25
-effect:CURE:AFRAID
-effect:HEAL_HP
-dice:10
 effect:NOURISH:INC_BY
 dice:0
 effect:NOURISH:INC_BY
@@ -3774,6 +3762,13 @@ effect:NOURISH:INC_BY
 dice:1
 effect:RANDOM
 dice:3
+effect:TIMED_INC:HERO
+dice:25+1d25
+effect:TIMED_INC:BOLD
+dice:25+1d25
+effect:CURE:AFRAID
+effect:HEAL_HP
+dice:10
 
 name:Berserk Strength
 graphics:!:d
@@ -3860,10 +3855,6 @@ weight:4
 cost:20
 alloc:40:3 to 40
 pile:25:2
-effect:TIMED_INC:SINFRA
-dice:100+4d25
-effect:TIMED_INC:IMAGE
-dice:1d1
 effect:NOURISH:INC_BY
 dice:0
 effect:NOURISH:INC_BY
@@ -3872,6 +3863,10 @@ effect:NOURISH:INC_BY
 dice:1
 effect:RANDOM
 dice:3
+effect:TIMED_INC:SINFRA
+dice:100+4d25
+effect:TIMED_INC:IMAGE
+dice:1d1
 msg_self:*Boom!* For a moment you had stars in your eyes..
 
 name:Invisibility
@@ -4018,8 +4013,6 @@ weight:4
 cost:0
 alloc:10:10 to 30
 pile:99:2
-effect:LOSE_EXP
-#
 effect:BATTY
 effect:TIMED_INC:SCRAMBLE
 dice:20+1d20
@@ -4027,6 +4020,7 @@ effect:DRAIN_STAT:INT
 dice:1
 effect:RANDOM
 dice:3
+effect:LOSE_EXP
 effect:NOURISH:DEC_BY
 dice:3
 #good:
@@ -4204,11 +4198,7 @@ dice:80
 effect:RANDOM
 dice:2
 effect:NOURISH:INC_BY
-dice:0
-effect:NOURISH:INC_BY
 dice:1
-effect:RANDOM
-dice:2
 # buff:
 effect:TIMED_INC:OPP_FIRE
 dice:50+1d10
@@ -5771,14 +5761,6 @@ level:0
 weight:5
 cost:50
 alloc:10:0 to 50
-effect:NOURISH:INC_BY
-dice:2
-effect:TIMED_INC:CONFUSED
-dice:1+1d8
-effect:TIMED_INC:BOLD
-dice:30+1d20
-effect:RESTORE_STAT:STR
-#########################
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d4
 effect:TIMED_INC:BLIND
@@ -5793,6 +5775,13 @@ effect:TIMED_INC:SLOW
 dice:1+1d11
 effect:RANDOM
 dice:6
+effect:NOURISH:INC_BY
+dice:2
+effect:TIMED_INC:CONFUSED
+dice:1+1d8
+effect:TIMED_INC:BOLD
+dice:30+1d20
+effect:RESTORE_STAT:STR
 msg_self:That tastes good.
 desc:A fine way to wash down some otherwise unappetising rations.
 
@@ -6364,8 +6353,6 @@ level:30
 weight:5
 cost:0
 alloc:10:20 to 100
-effect:ACQUIRE
-dice:1
 effect:SUMMON:AINU:0:50
 dice:1d1
 effect:SUMMON:AINU:0:50
@@ -6418,6 +6405,8 @@ effect:SUMMON:AINU:0:-1
 dice:1d10
 effect:RANDOM
 dice:25
+effect:ACQUIRE
+dice:1
 msg_self:You rubbed an ancient vessel...
 desc:Rumours say that such vessels could contain a djinn...
 
@@ -6429,8 +6418,6 @@ weight:5
 cost:0
 alloc:5:60 to 100
 #last number is a chance to summon friendly djinn
-effect:ACQUIRE
-dice:1
 effect:SUMMON:AINU:0:50
 dice:1d1
 effect:SUMMON:AINU:0:50
@@ -6483,6 +6470,8 @@ effect:SUMMON:AINU:0:-1
 dice:1d10
 effect:RANDOM
 dice:25
+effect:ACQUIRE
+dice:1
 msg_self:You rubbed an ancient vessel...
 desc:Rumours say that such lamps could contain a djinn...
 
