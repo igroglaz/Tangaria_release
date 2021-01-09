@@ -389,10 +389,16 @@ echo "         ''-_ _ _ /   "
 echo "           /          "
 echo "          /           "
 
+INSTALL_DIR="/tmp/$MENU_ROGUELIKE"
+APP_DIR="AppDir"
+
+######## linuxdeploy-x86_64 ########
 LINUX_DEPLOY_URL="https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-x86_64.AppImage"
 LINUX_DEPLOY="linuxdeploy-x86_64.AppImage"
-APP_DIR="./AppDir"
-INSTALL_DIR="/tmp/$MENU_ROGUELIKE"
+
+######### linuxdeploy-i386 ##########
+#LINUX_DEPLOY_URL="https://github.com/linuxdeploy/linuxdeploy/releases/download/continuous/linuxdeploy-i386.AppImage"
+#LINUX_DEPLOY="linuxdeploy-i386.AppImage"
 
 if ! [ -f ./$LINUX_DEPLOY ]; then
     wget $LINUX_DEPLOY_URL || exit 1
@@ -413,8 +419,8 @@ else
     esac
 fi
 
-rm -rf ${APP_DIR}
-mkdir ${APP_DIR}
+rm -rf ./${APP_DIR}
+mkdir ./${APP_DIR}
 
 download_PWMAngband
 
@@ -443,25 +449,25 @@ make install DESTDIR="$TARGET_DIR/tangaria_setup_files/${APP_DIR}"
 cd ../ || exit 1
 
 # Icons
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/16x16/apps
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/32x32/apps
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/64x64/apps
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/128x128/apps
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/256x256/apps
-mkdir -p ${APP_DIR}/usr/share/icons/hicolor/scalable/apps
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-16.png ${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-32.png ${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-32.png ${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-128.png ${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-256.png ${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
-cp ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att.svg ${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps
+mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-16.png ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att-256.png ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 
 if [ $MENU_ROGUELIKE = "PWMAngband" ]; then
-cp ./PWMAngband-$VERSION_PWMANGBAND/setup/mangband.cfg ../${APP_DIR}/games
+cp -fv ./PWMAngband-$VERSION_PWMANGBAND/setup/mangband.cfg ../${APP_DIR}/games
 fi
 
-mkdir -p ${APP_DIR}/usr/bin/
-mv ${APP_DIR}/$INSTALL_DIR/games/pwmangclient ${APP_DIR}/usr/bin/pwmangclient
+mkdir -p ./${APP_DIR}/usr/bin/
+mv ./${APP_DIR}/$INSTALL_DIR/games/pwmangclient ./${APP_DIR}/usr/bin/pwmangclient
 
 ###################################
 
@@ -471,53 +477,53 @@ download_Tangaria
 
 echo "copying files..."
 
-rm -r ${APP_DIR}/$INSTALL_DIR/etc/pwmangband/customize
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/customize ${APP_DIR}/$INSTALL_DIR/etc/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/etc/pwmangband/gamedata
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/gamedata ${APP_DIR}/$INSTALL_DIR/etc/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/fonts
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/fonts ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/help
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/help ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/icons
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/icons ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/screens
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/screens ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/sounds
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/sounds ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-rm -r ${APP_DIR}/$INSTALL_DIR/share/pwmangband/tiles
-cp -R ./Tangaria-$VERSION_TANGARIA/lib/tiles ${APP_DIR}/$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/etc/pwmangband/customize
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/customize ./${APP_DIR}$INSTALL_DIR/etc/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/etc/pwmangband/gamedata
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/gamedata ./${APP_DIR}$INSTALL_DIR/etc/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/fonts
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/fonts ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/help
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/help ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/icons
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/icons ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/screens
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/screens ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/sounds
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/sounds ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+rm -r ./${APP_DIR}/$INSTALL_DIR/share/pwmangband/tiles
+cp -Rv ./Tangaria-$VERSION_TANGARIA/lib/tiles ./${APP_DIR}$INSTALL_DIR/share/pwmangband
 
-cp -f ./Tangaria-$VERSION_TANGARIA/lib/readme.txt ${APP_DIR}/$INSTALL_DIR/share/pwmangband
-cp -f ./Tangaria-$VERSION_TANGARIA/Changes.txt ${APP_DIR}/$INSTALL_DIR
-cp -f ./Tangaria-$VERSION_TANGARIA/Manual.html ${APP_DIR}/$INSTALL_DIR
-cp -f ./Tangaria-$VERSION_TANGARIA/Manual.pdf ${APP_DIR}/$INSTALL_DIR
+cp -fv ./Tangaria-$VERSION_TANGARIA/lib/readme.txt ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+cp -fv ./Tangaria-$VERSION_TANGARIA/Changes.txt ./${APP_DIR}$INSTALL_DIR
+cp -fv ./Tangaria-$VERSION_TANGARIA/Manual.html ./${APP_DIR}$INSTALL_DIR
+cp -fv ./Tangaria-$VERSION_TANGARIA/Manual.pdf ./${APP_DIR}$INSTALL_DIR
 
 if [ $MENU_ROGUELIKE = "Tangaria" ]; then
-cp -i ./Tangaria-$VERSION_TANGARIA/mangband.cfg ${APP_DIR}/$INSTALL_DIR/games
+cp -iv ./Tangaria-$VERSION_TANGARIA/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
 fi
 
-cp -f ./Tangaria-$VERSION_TANGARIA/lib/user/sdlinit.txt ${APP_DIR}/$INSTALL_DIR/games
+cp -fv ./Tangaria-$VERSION_TANGARIA/lib/user/sdlinit.txt ${APP_DIR}$INSTALL_DIR/games
 
 cd ./Tangaria-$VERSION_TANGARIA || exit 1
-write_pwmangrc "$TARGET_DIR/tangaria_setup_files/${APP_DIR}/$INSTALL_DIR/games/.pwmangrc"
+write_pwmangrc "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
 cd ../ || exit 1
 
 # Icons
-cp ./Tangaria-$VERSION_TANGARIA/lib/icons/att-128.png ${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
-cp ./Tangaria-$VERSION_TANGARIA/lib/icons/att.svg ${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
+cp -fv ./Tangaria-$VERSION_TANGARIA/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
+cp -fv ./Tangaria-$VERSION_TANGARIA/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 
 fi
 
 ###################################
 
 ##########
-mv ${APP_DIR}/tmp/$MENU_ROGUELIKE ${APP_DIR}/usr
-rm -rf ${APP_DIR}/tmp
+mv ./${APP_DIR}/tmp/$MENU_ROGUELIKE ./${APP_DIR}/usr
+rm -rf ./${APP_DIR}/tmp
 
-#ln -s $INSTALL_DIR/bin/pwmangclient ${APP_DIR}/AppRun
+#ln -s $INSTALL_DIR/bin/pwmangclient ./${APP_DIR}/AppRun
 
-cat > ${APP_DIR}/pwmangclient.desktop << EOF
+cat > ./${APP_DIR}/pwmangclient.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE
 Type=Application
@@ -529,24 +535,23 @@ Categories=Game;RolePlaying;
 EOF
 
 if [ $MENU_ROGUELIKE = "PWMAngband" ]; then
-cat > ${APP_DIR}/AppRun << EOF
+cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
 SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
 cd \${SELF_DIR} || exit 1
 ln -sf \${SELF_DIR}/usr/$MENU_ROGUELIKE $INSTALL_DIR
-
-cd ./usr/bin || exit 1
-
-set -ex
-
-"./pwmangclient"
+cd \$HOME || {
+    echo "ERROR: Could not change directory..."
+    exit 1
+}
+\${SELF_DIR}/usr/bin/pwmangclient
 EOF
-chmod +x ${APP_DIR}/AppRun
+chmod +x ./${APP_DIR}/AppRun
 fi
 
 if [ $MENU_ROGUELIKE = "Tangaria" ]; then
-cat > ${APP_DIR}/AppRun << EOF
+cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
 SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
@@ -558,6 +563,7 @@ cp -f ./usr/$MENU_ROGUELIKE/games/.pwmangrc \$HOME
 fi
 
 if ! [ -f \$HOME/.pwmangband/PWMAngband/sdlinit.txt ]; then
+mkdir -p \$HOME/.pwmangband/PWMAngband
 cp -f ./usr/$MENU_ROGUELIKE/games/sdlinit.txt \$HOME/.pwmangband/PWMAngband/
 fi
 
@@ -567,15 +573,14 @@ set -ex
 
 "./pwmangclient"
 EOF
-chmod +x ${APP_DIR}/AppRun
+chmod +x ./${APP_DIR}/AppRun
 fi
 
 # Bake AppImage
-rm -f PWMAngband*.AppImage*
-rm -f Tangaria*.AppImage*
+rm -f $MENU_ROGUELIKE*.AppImage*
 ./${LINUX_DEPLOY} \
---appdir ${APP_DIR} \
---desktop-file ${APP_DIR}/pwmangclient.desktop \
+--appdir ./${APP_DIR} \
+--desktop-file ./${APP_DIR}/pwmangclient.desktop \
 --output appimage
 
 exit 0
@@ -613,7 +618,7 @@ make -j$CPU_CORES
 make install
 
 if [ $MENU_ROGUELIKE = "PWMAngband" ]; then
-cp -i ./setup/mangband.cfg $INSTALL_DIR/games
+cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
 fi
 
 cd ../ || exit 1
@@ -691,29 +696,29 @@ cd ./Tangaria-$VERSION_TANGARIA || exit 1
 echo "copying files..."
 
 rm -r $INSTALL_DIR/etc/pwmangband/customize
-cp -R ./lib/customize $INSTALL_DIR/etc/pwmangband
+cp -Rv ./lib/customize $INSTALL_DIR/etc/pwmangband
 rm -r $INSTALL_DIR/etc/pwmangband/gamedata
-cp -R ./lib/gamedata $INSTALL_DIR/etc/pwmangband
+cp -Rv ./lib/gamedata $INSTALL_DIR/etc/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/fonts
-cp -R ./lib/fonts $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/fonts $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/help
-cp -R ./lib/help $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/help $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/icons
-cp -R ./lib/icons $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/icons $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/screens
-cp -R ./lib/screens $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/screens $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/sounds
-cp -R ./lib/sounds $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/sounds $INSTALL_DIR/share/pwmangband
 rm -r $INSTALL_DIR/share/pwmangband/tiles
-cp -R ./lib/tiles $INSTALL_DIR/share/pwmangband
+cp -Rv ./lib/tiles $INSTALL_DIR/share/pwmangband
 
-cp -f ./lib/readme.txt $INSTALL_DIR/share/pwmangband
-cp -f ./Changes.txt $INSTALL_DIR
-cp -f ./Manual.html $INSTALL_DIR
-cp -f ./Manual.pdf $INSTALL_DIR
+cp -fv ./lib/readme.txt $INSTALL_DIR/share/pwmangband
+cp -fv ./Changes.txt $INSTALL_DIR
+cp -fv ./Manual.html $INSTALL_DIR
+cp -fv ./Manual.pdf $INSTALL_DIR
 
 if [ $MENU_ROGUELIKE = "Tangaria" ]; then
-cp -i ./mangband.cfg $INSTALL_DIR/games
+cp -iv ./mangband.cfg $INSTALL_DIR/games
 fi
 
 if ! [ -d $USER_PWMANGBAND ]; then
@@ -729,10 +734,10 @@ if ! [ -d $USER_PWMANGBAND/PWMAngband/scores ]; then
     mkdir -p $USER_PWMANGBAND/PWMAngband/scores
 fi
 
-cp -n ./lib/user/save/account $USER_PWMANGBAND/PWMAngband/save
+cp -nv ./lib/user/save/account $USER_PWMANGBAND/PWMAngband/save
 
 if [ $CHECKLIST_OPTIONS_SDLINIT = ON ]; then
-cp -i ./lib/user/sdlinit.txt $USER_PWMANGBAND/PWMAngband
+cp -iv ./lib/user/sdlinit.txt $USER_PWMANGBAND/PWMAngband
 fi
 
 if [ $CHECKLIST_OPTIONS_LINK_DIR_USER = ON ]; then
