@@ -280,7 +280,7 @@ name:The Old Ruins
 wpos:0:0
 min-depth:1
 max-depth:1
-max-level:2
+max-level:1
 flags:EMPTY
 stairs:2+1d2:0
 #
