@@ -2835,7 +2835,7 @@ level:20
 weight:5
 cost:0
 alloc:1:20 to 100
-effect:ALTER_REALITY
+effect:ALTER_REALITY:NONE:1
 effect:TIMED_INC_NO_RES:IMAGE
 dice:10+1d15
 effect:DISENCHANT
@@ -4162,7 +4162,7 @@ pile:70:1d3
 attack:1d10:0:0
 armor:0:0
 flags:EXPLODE
-effect:TELEPORT
+effect:TELEPORT:0:1
 dice:2
 effect:SPOT:FIRE:0
 dice:4d$S
