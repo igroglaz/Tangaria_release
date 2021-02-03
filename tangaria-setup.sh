@@ -521,8 +521,6 @@ fi
 mv ./${APP_DIR}/tmp/$MENU_ROGUELIKE ./${APP_DIR}/usr
 rm -rf ./${APP_DIR}/tmp
 
-#ln -s $INSTALL_DIR/bin/pwmangclient ./${APP_DIR}/AppRun
-
 cat > ./${APP_DIR}/pwmangclient.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE
@@ -662,7 +660,11 @@ EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
-cat > $XDG_DATA_HOME/applications/pwmangclient.desktop << EOF
+if ! [ -d $XDG_DATA_HOME/applications ]; then
+    mkdir -p $XDG_DATA_HOME/applications
+fi
+
+cat > $XDG_DATA_HOME/applications/$MENU_ROGUELIKE-client.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE (client)
 Type=Application
@@ -673,7 +675,7 @@ Terminal=false
 Categories=Game;RolePlaying;
 EOF
 
-cat > $XDG_DATA_HOME/applications/pwmangband.desktop << EOF
+cat > $XDG_DATA_HOME/applications/$MENU_ROGUELIKE-server.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE (server)
 Type=Application
@@ -722,7 +724,7 @@ cp -iv ./mangband.cfg $INSTALL_DIR/games
 fi
 
 if ! [ -d $USER_PWMANGBAND ]; then
-    mkdir -p $USER_PWMANGBAND  
+    mkdir -p $USER_PWMANGBAND
 fi
 if ! [ -d $USER_PWMANGBAND/PWMAngband ]; then
     mkdir -p $USER_PWMANGBAND/PWMAngband
