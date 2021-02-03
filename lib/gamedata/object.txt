@@ -4162,7 +4162,7 @@ pile:70:1d3
 attack:1d10:0:0
 armor:0:0
 flags:EXPLODE
-effect:TELEPORT:0:1
+effect:TELEPORT:NONE:0:1
 dice:2
 effect:SPOT:FIRE:0
 dice:4d$S
