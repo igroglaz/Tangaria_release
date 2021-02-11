@@ -10762,21 +10762,22 @@ name:sandworm
 base:sandworm
 color:M
 speed:115
-hit-points:132
+hit-points:44
 hearing:10
 armor-class:48
 sleepiness:80
 depth:27
-rarity:6
+rarity:4
 weight:0
-experience:12
-blow:CLAW:POISON:4d4
-blow:CLAW:POISON:4d4
-blow:CLAW:POISON:4d4
-blow:BITE:HURT:5d5
-flags:MULTIPLY | PWMANG_BASE
+experience:6
+blow:CLAW:POISON:2d3
+blow:CLAW:POISON:2d3
+blow:CLAW:POISON:2d3
+blow:BITE:HURT:3d4
+flags:MULTIPLY | PWMANG_BASE | KILL_WALL
 flags:RAND_25
 desc:Off breed of the Sandworm Queen, they are harmless alone...
+locations:The Sandworm Lair
 
 ### Dungeon level 28 ###
 
@@ -12096,6 +12097,7 @@ innate-freq:50
 spells:BR_POIS
 spells:S_KIN
 friends-base:100:1d5:sandworm:servant
+friends-base:5:1d1:adult sandworm:servant
 friends-base:75:1d5:dragon worm:servant
 friends-base:50:1d5:dragon worm:servant
 desc:Queen and Mother of the sandworms, fear her and her prolific children.
@@ -29892,3 +29894,25 @@ spell-freq:4
 spells:BLINK | DRAIN_MANA | SCARE | CONF | S_MONSTER
 spells:DARKNESS | S_HYDRA | FORGET | TELE_TO
 desc:Nobody has ever seen It.
+
+name:adult sandworm
+base:sandworm
+color:o
+speed:115
+hit-points:132
+hearing:10
+armor-class:48
+sleepiness:80
+depth:27
+rarity:7
+weight:0
+experience:12
+blow:CLAW:POISON:4d4
+blow:CLAW:POISON:4d4
+blow:CLAW:POISON:4d4
+blow:BITE:HURT:5d5
+flags:MULTIPLY | PWMANG_BASE
+flags:RAND_25
+desc:Enormous size worms, up to 200 meters long with thick rough skin of orange
+desc:color covered by firm scales. Worms defend their territory of which they 
+desc:are very protective, so if you feel rhythmic vibrations on the surface - run.
