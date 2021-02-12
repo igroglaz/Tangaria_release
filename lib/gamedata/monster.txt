@@ -12097,7 +12097,7 @@ innate-freq:50
 spells:BR_POIS
 spells:S_KIN
 friends-base:100:1d5:sandworm:servant
-friends-base:5:1d1:adult sandworm:servant
+friends:5:1d1:adult sandworm:servant
 friends-base:75:1d5:dragon worm:servant
 friends-base:50:1d5:dragon worm:servant
 desc:Queen and Mother of the sandworms, fear her and her prolific children.
