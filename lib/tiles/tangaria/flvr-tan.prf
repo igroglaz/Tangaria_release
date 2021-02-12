@@ -934,3 +934,6 @@ flavor:306:0x85:0xD7
 # Black ring
 # Fixed: Black Ring of Power
 flavor:307:0x85:0xC5
+
+# Chrysoberyl amulet
+flavor:308:0x85:0x9B

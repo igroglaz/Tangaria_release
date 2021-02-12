@@ -9118,3 +9118,18 @@ values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
 brand:VAMPIRIC
 curse:treacherous weapon:100
 desc:Death is all. Beware, cursed is the wielder.
+
+name:Cat
+graphics:":W
+type:amulet
+level:70
+weight:2
+cost:0
+alloc:1:70 to 100
+flags:IGNORE_ELEC | GOOD
+flags:HOLD_LIFE | SEE_INVIS
+values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[1]
+values:LIGHT[-1] | DAM_RED[-3] | WIS[-5]
+desc:This medallions were ones worn by one of Beruthiel's cats.
+desc:Maybe it will be good idea to try to wear it.. even though you are
+desc:definitely not a cat. 
