@@ -9120,7 +9120,7 @@ curse:treacherous weapon:100
 desc:Death is all. Beware, cursed is the wielder.
 
 name:the Cat
-graphics:":W
+graphics:":d
 type:amulet
 level:70
 weight:2
