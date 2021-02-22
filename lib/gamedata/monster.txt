@@ -13196,7 +13196,7 @@ name:Ulfang the Black
 base:person
 color:U
 speed:120
-hit-points:2250
+hit-points:3000
 light:2
 hearing:20
 armor-class:108
