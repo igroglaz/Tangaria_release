@@ -13991,7 +13991,7 @@ name:The Wight-King of the Barrow-downs
 base:wraith
 color:R
 speed:120
-hit-points:1836
+hit-points:2500
 hearing:30
 armor-class:60
 sleepiness:0
