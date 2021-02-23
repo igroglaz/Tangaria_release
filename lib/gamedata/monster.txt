@@ -17920,7 +17920,7 @@ blow:TOUCH:HURT:5d5
 blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
 flags:EVIL
-flags:MOVE_BODY | OPEN_DOOR
+flags:MOVE_BODY | OPEN_DOOR | LEVITATE
 flags:IM_FIRE | IM_PLASMA | IM_NETHER | NO_CONF | NO_SLEEP | NO_FEAR | IM_COLD
 flags:IM_POIS | NO_STUN | NO_HOLD
 desc:He is working undercover in the Resistance, to protect mutant's
@@ -29834,7 +29834,7 @@ flags:ATTR_MULTI
 flags:FORCE_SLEEP
 flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
 flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN
-flags:IM_NETHER | 
+flags:IM_NETHER
 desc:A deadly blade of chaos lurking for prey. Beware!
 drop:sword:'Stormbringer':100:1:1
 mimic:sword:Blade of Chaos
