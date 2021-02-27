@@ -13247,11 +13247,11 @@ short-desc:road
 desc:.
 
 name:road_ W
-graphics:.:s
+graphics:.:w
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
-short-desc:road
+short-desc:bridge
 desc:.
 
 name:road_ X
