@@ -57,6 +57,8 @@ RADIOLIST_CLIENT_SDL=ON
 RADIOLIST_CLIENT_CURSES=OFF
 RADIOLIST_CLIENT_OTHER=OFF
 
+CHECKLIST_OPTIONS_CLIENT_DESKTOP=ON
+CHECKLIST_OPTIONS_SERVER_DESKTOP=ON
 CHECKLIST_OPTIONS_SDLINIT=ON
 CHECKLIST_OPTIONS_LINK_DIR_USER=ON
 CHECKLIST_OPTIONS_APPIMAGE=OFF
@@ -76,7 +78,7 @@ else
   then
     DIALOG=${DIALOG=dialog}
   else
-    echo "please install whiptail or dialog to run setup..."
+    echo "please install 'whiptail' or 'dialog' to run setup..."
     exit 1
   fi
 fi
@@ -87,6 +89,22 @@ fi
 #DIALOG=dialog
 
 ###################################
+
+if ! command -V wget &> /dev/null ; then
+    echo "'wget' is required for running the installer, but could not be found."
+    echo "Please install 'wget' using the package manager for your distribution before proceeding."
+    exit 1
+fi
+if ! command -V unzip &> /dev/null ; then
+    echo "'unzip' is required for running the installer, but could not be found."
+    echo "Please install 'unzip' using the package manager for your distribution before proceeding."
+    exit 1
+fi
+if ! command -V sed &> /dev/null ; then
+    echo "'sed' is required for running the installer, but could not be found."
+    echo "Please install 'sed' using the package manager for your distribution before proceeding."
+    exit 1
+fi
 
 # XDG Base Directory Specification
 if [[ -z "$XDG_CONFIG_HOME" ]]; then
@@ -204,6 +222,8 @@ radioListClient() {
 checkListOptions() {
     MENU_OPTIONS=$($DIALOG --title "Options" --nocancel --separate-output --checklist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect options:" 16 54 6 \
+            "client.desktop" "AppMenu " $CHECKLIST_OPTIONS_CLIENT_DESKTOP \
+            "server.desktop" "AppMenu " $CHECKLIST_OPTIONS_SERVER_DESKTOP \
             "sdlinit.txt" "Tangaria " $CHECKLIST_OPTIONS_SDLINIT \
             "link directory user" "Tangaria " $CHECKLIST_OPTIONS_LINK_DIR_USER \
             "AppImage" "build " $CHECKLIST_OPTIONS_APPIMAGE \
@@ -211,6 +231,8 @@ checkListOptions() {
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
+            arrayContains MENU_OPTIONS[@] "client.desktop" CHECKLIST_OPTIONS_CLIENT_DESKTOP
+            arrayContains MENU_OPTIONS[@] "server.desktop" CHECKLIST_OPTIONS_SERVER_DESKTOP
             arrayContains MENU_OPTIONS[@] "sdlinit.txt" CHECKLIST_OPTIONS_SDLINIT
             arrayContains MENU_OPTIONS[@] "link directory user" CHECKLIST_OPTIONS_LINK_DIR_USER
             arrayContains MENU_OPTIONS[@] "AppImage" CHECKLIST_OPTIONS_APPIMAGE
@@ -346,15 +368,16 @@ fi
 }
 
 write_pwmangrc() {
-local WRITE_PWMANGRC=$1
-NICK=$(sed -n '/nick=/p' ./mangclient.ini)
-PASS=$(sed -n '/pass=/p' ./mangclient.ini)
-HOST=$(sed -n '/host=/p' ./mangclient.ini)
-META_ADDRESS=$(sed -n '/meta_address=/p' ./mangclient.ini)
-META_PORT=$(sed -n '/meta_port=/p' ./mangclient.ini)
-DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' ./mangclient.ini)
-LIGHTERBLUE=$(sed -n '/LighterBlue=/p' ./mangclient.ini)
-cat > $WRITE_PWMANGRC << EOF
+local PATH_INI_PWMANGRC=$1
+local WRITE_FILE_PWMANGRC=$2
+NICK=$(sed -n '/nick=/p' $PATH_INI_PWMANGRC)
+PASS=$(sed -n '/pass=/p' $PATH_INI_PWMANGRC)
+HOST=$(sed -n '/host=/p' $PATH_INI_PWMANGRC)
+META_ADDRESS=$(sed -n '/meta_address=/p' $PATH_INI_PWMANGRC)
+META_PORT=$(sed -n '/meta_port=/p' $PATH_INI_PWMANGRC)
+DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' $PATH_INI_PWMANGRC)
+LIGHTERBLUE=$(sed -n '/LighterBlue=/p' $PATH_INI_PWMANGRC)
+cat > $WRITE_FILE_PWMANGRC << EOF
 [MAngband]
 $NICK
 $PASS
@@ -505,9 +528,7 @@ fi
 
 cp -fv ./Tangaria-$VERSION_TANGARIA/lib/user/sdlinit.txt ${APP_DIR}$INSTALL_DIR/games
 
-cd ./Tangaria-$VERSION_TANGARIA || exit 1
-write_pwmangrc "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
-cd ../ || exit 1
+write_pwmangrc ./Tangaria-$VERSION_TANGARIA/mangclient.ini "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
 
 # Icons
 cp -fv ./Tangaria-$VERSION_TANGARIA/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
@@ -664,6 +685,7 @@ if ! [ -d $XDG_DATA_HOME/applications ]; then
     mkdir -p $XDG_DATA_HOME/applications
 fi
 
+if [ $CHECKLIST_OPTIONS_CLIENT_DESKTOP = ON ]; then
 cat > $XDG_DATA_HOME/applications/$MENU_ROGUELIKE-client.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE (client)
@@ -674,7 +696,9 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=false
 Categories=Game;RolePlaying;
 EOF
+fi
 
+if [ $CHECKLIST_OPTIONS_SERVER_DESKTOP = ON ]; then
 cat > $XDG_DATA_HOME/applications/$MENU_ROGUELIKE-server.desktop << EOF
 [Desktop Entry]
 Name=$MENU_ROGUELIKE (server)
@@ -686,6 +710,7 @@ Icon=$INSTALL_DIR/share/pwmangband/icons/att-128.png
 Terminal=true
 Categories=Game;RolePlaying;
 EOF
+fi
 
 ###################################
 
@@ -694,6 +719,11 @@ if [ $MENU_ROGUELIKE = "Tangaria" ]; then
 download_Tangaria
 
 cd ./Tangaria-$VERSION_TANGARIA || exit 1
+
+if ! [ -d $INSTALL_DIR ]; then
+    echo "ERROR: directory not found '$INSTALL_DIR'"
+    exit 1
+fi
 
 echo "copying files..."
 
@@ -749,13 +779,13 @@ if [ $CHECKLIST_OPTIONS_LINK_DIR_USER = ON ]; then
 fi
 
 if ! [ -f $USER_PWMANGRC ]; then
-write_pwmangrc $USER_PWMANGRC
+write_pwmangrc ./mangclient.ini $USER_PWMANGRC
 else
 echo -n "replace $USER_PWMANGRC ?     (y/n)"
 read item
 case "$item" in
     y|Y) echo "«yes», ok..."
-         write_pwmangrc $USER_PWMANGRC
+         write_pwmangrc ./mangclient.ini $USER_PWMANGRC
         ;;
     n|N) echo "«no», ok..."
         ;;
