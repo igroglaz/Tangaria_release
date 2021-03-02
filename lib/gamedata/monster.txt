@@ -14812,7 +14812,7 @@ desc:An ugly demon with insect-like extremities and large bulbous eyes.
 
 name:seahorse
 base:aquatic
-color:u
+color:o
 speed:120
 hit-points:400
 hearing:20
