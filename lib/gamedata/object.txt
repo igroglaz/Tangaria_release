@@ -260,7 +260,7 @@ type:food
 level:0
 weight:2
 cost:300
-alloc:5:1 to 20
+alloc:3:1 to 20
 pile:10:2d4
 effect:NOURISH:INC_BY
 dice:4
@@ -280,7 +280,7 @@ type:food
 level:0
 weight:4
 cost:0
-alloc:5:1 to 20
+alloc:3:1 to 20
 pile:10:1d2
 effect:NOURISH:INC_BY
 dice:10
@@ -293,7 +293,7 @@ type:food
 level:0
 weight:3
 cost:0
-alloc:5:1 to 50
+alloc:3:1 to 50
 effect:NOURISH:INC_BY
 dice:10
 msg_self:That tastes good.
@@ -306,7 +306,7 @@ type:food
 level:5
 weight:2
 cost:0
-alloc:5:5 to 60
+alloc:3:5 to 60
 pile:100:1d3
 effect:NOURISH:INC_BY
 dice:25
@@ -358,7 +358,7 @@ type:food
 level:10
 weight:10
 cost:0
-alloc:5:10 to 50
+alloc:3:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
 dice:40
@@ -372,7 +372,7 @@ type:food
 level:10
 weight:10
 cost:0
-alloc:5:10 to 50
+alloc:3:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
 dice:40
@@ -386,7 +386,7 @@ type:food
 level:20
 weight:10
 cost:0
-alloc:5:20 to 70
+alloc:3:20 to 70
 pile:40:1d3
 effect:NOURISH:INC_TO
 dice:60
@@ -500,7 +500,7 @@ type:food
 level:20
 weight:2
 cost:0
-alloc:5:20 to 100
+alloc:3:20 to 100
 pile:10:1d3
 effect:HEAL_HP
 dice:3
@@ -517,7 +517,7 @@ type:food
 level:60
 weight:10
 cost:22000
-alloc:5:60 to 100
+alloc:3:60 to 100
 effect:GAIN_STAT:CON
 effect:GAIN_STAT:STR
 effect:RESTORE_STAT:CON
@@ -2784,7 +2784,7 @@ weight:3
 cost:0
 alloc:20:15 to 40
 flags:FREE_ACT | SUST_DEX
-values:MOVES[-1] | DEX[1]
+values:MOVES[-1] | SPEED[1]
 
 
 ##### Scrolls #####
@@ -4162,7 +4162,7 @@ pile:70:1d3
 attack:1d10:0:0
 armor:0:0
 flags:EXPLODE
-effect:TELEPORT:0:1
+effect:TELEPORT:NONE:0:1
 dice:2
 effect:SPOT:FIRE:0
 dice:4d$S
@@ -6012,7 +6012,7 @@ type:food
 level:1
 weight:10
 cost:0
-alloc:5:1 to 100
+alloc:3:1 to 100
 attack:2d3:0:0
 armor:0:0
 effect:NOURISH:INC_BY
@@ -9118,3 +9118,18 @@ values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
 brand:VAMPIRIC
 curse:treacherous weapon:100
 desc:Death is all. Beware, cursed is the wielder.
+
+name:the Cat
+graphics:":d
+type:amulet
+level:70
+weight:2
+cost:0
+alloc:1:70 to 100
+flags:IGNORE_ELEC | GOOD
+flags:HOLD_LIFE | SEE_INVIS
+values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[1]
+values:LIGHT[-1] | DAM_RED[-3] | WIS[-5]
+desc:This medallions were ones worn by one of Beruthiel's cats.
+desc:Maybe it will be good idea to try to wear it.. even though you are
+desc:definitely not a cat. 

@@ -13247,11 +13247,11 @@ short-desc:road
 desc:.
 
 name:road_ W
-graphics:.:s
+graphics:.:w
 priority:18
 flags:LOS | PROJECT | PASSABLE | FLOOR_OTHER | OBJECT | BORING | EASY | TORCH | TRAP
 ################################################################################
-short-desc:road
+short-desc:bridge
 desc:.
 
 name:road_ X
@@ -25840,106 +25840,124 @@ name:stair down 2
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Severs Entrance. Next <20lvl: Orc Mountains[1,2], Fetid Swapms[-1,0]
+short-desc:Sewers Entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Sewers Entrance.
+desc:Go to (1,2) for Orc Mountains or (1,0) for Fetid Swamps next.
 
 #20
 name:stair down 3
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Next (<25 lvl): The Old Forest [0,-1], Abandoned Manor [-1,2]
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Next (<25 lvl): The Old Forest [0,-1], Abandoned Manor [-1,2]
 
 #25
 name:stair down 4
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Next (<30 lvl): The Sandworm Lair [-2, 2], Ettenmoors [2,1]
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Next (<30 lvl):
+desc:The Sandworm Lair [-2, 2], Ettenmoors [2,1], Land Of Rhun[0,-2]
 
 #30
 name:stair down 5
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:<35: Land Of Rhun[0,-2], Barrow-downs[0,2], Maze[-1,-1], Cave[-1,3]
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 35:
+desc:Barrow-downs[0,2], Maze[-1,-1], Small Watery Cave[-1,3]
+desc:Heart of the Earth [-1,-2]
 
 #35
 name:stair down 6
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:<40:Heart of the Earth [-1,-2], Helcaraxe [0,4], Moria [1,3]
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 40:
+desc:Helcaraxe [0,4], Mines of Moria [1,3], Illusory Castle [-2,1]
+desc:Cirith Ungol [-2, -1], Numenor [-2,3]
 
 #40
 name:stair down 7
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:<45:Illusory Castle [-2,1], Cirith Ungol [-2, -1], Numenor [-2,3]
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 45:
+desc:Mirkwood [0,-3], Mordor [1,-1]
 
 #45
 name:stair down 8
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Mrkw[0,-3] Mrdr[1,-1] SLoM[2,2] Erebor[-1,-3] DlGldr[-2,0] PotD[-1,-4
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 46:
+desc:The Sacred Land Of Mountains [2,2] Erebor [-1,-3]
 
-#50
+
+#46
 name:stair down 9
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Angband[1,-3], MtDoom[1,-2], Straight Road, Valinor... Utumno.
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 47:
+desc:Dol Guldur [-2,0], The Paths of the Dead [-1,-4]
 
+#47
 name:stair down a
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Entrance
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
 
+#48
 name:stair down b
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Entrance
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for < 49:
+desc:Mt. Doom [1,-2]
 
-
+#49
 name:stair down c
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Entrance
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
 desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for 50:
+desc:Angband [1,-3]
 
+#50
 name:stair down d
 graphics:>:w
 priority:18
 ################################################################################
-short-desc:Entrance
+short-desc:Dungeon entrance
 flags:LOS | PROJECT | PASSABLE | INTERESTING | STAIR | DOWNSTAIR | EASY | TORCH
-desc:A staircase down to a deeper part of the dungeon.
+desc:Dungeons for 50+:
+desc:Straight Road, Valinor... Utumno.
 
+#skull
 name:stair down e
 graphics:>:w
 priority:18

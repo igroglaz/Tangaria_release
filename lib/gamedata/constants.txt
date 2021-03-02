@@ -91,8 +91,10 @@ dun-gen:amt-gold:3
 dun-gen:pit-max:2
 
 # Depth where labyrinths start to be generated unlit/unknown
-# ... wrong desc ^. It's a probability to generate unlit/unknown lvl which is based on depth
-dun-gen:lab-depth:25
+# eg Maze is 40 depth.
+# if you put 25 that's 25 out of 40 yeah that's high
+# if you put 5 that's 5 out of 40 (1/8 chance)
+dun-gen:lab-depth:5
 
 #---------------------------------------------------------------------
 # Game World

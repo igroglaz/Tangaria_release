@@ -393,3 +393,9 @@ kind:ring:=
 
 # Fixed: Black Ring of Power
 fixed:307:Black Ring of Power:Light Dark:Black
+
+##### Tangaria #####
+
+kind:amulet:"
+
+flavor:308:Light Dark:Chrysoberyl
