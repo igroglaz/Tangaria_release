@@ -6078,6 +6078,25 @@ rule:500:1
 
 #### ANGBAND for 50 lvl (at beginning)
 
+# Fallen Gondolin (boss: Maeglin, the Traitor of Gondolin)
+name:Fallen Gondolin
+wpos:2:0
+min-depth:70
+max-depth:87
+flags:STREAMS
+floor:street:2000
+floor:packed dirt:1000
+floor:pile of hard passable rubble:500
+wall:pile of hard rubble:2000
+fill:pile of hard rubble:1000
+rule:2000:0
+rule-symbols:h
+rule:2000:0
+rule-flags:UNDEAD
+rule:2000:0
+rule-flags:ORC | TROLL
+rule:4000:1
+
 ########################## 50 (boss: The Balrog of the Sammath Naur)
 name:Mount Doom
 wpos:1:-2

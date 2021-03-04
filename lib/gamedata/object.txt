@@ -2736,7 +2736,7 @@ cost:10
 alloc:20:10 to 40
 flags:EASY_KNOW
 curse:teleportation:100
-values:SEARCH[d5M5] | MOVES[1]
+values:SEARCH[d5M5] | MOVES[10]
 desc:This amulet will randomly teleport you all over the place.
 
 name:Slow Digestion
@@ -2784,7 +2784,7 @@ weight:3
 cost:0
 alloc:20:15 to 40
 flags:FREE_ACT | SUST_DEX
-values:MOVES[-1] | SPEED[1]
+values:MOVES[-10] | SPEED[1]
 
 
 ##### Scrolls #####
@@ -9128,7 +9128,7 @@ cost:0
 alloc:1:70 to 100
 flags:IGNORE_ELEC | GOOD
 flags:HOLD_LIFE | SEE_INVIS
-values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[1]
+values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[10]
 values:LIGHT[-1] | DAM_RED[-3] | WIS[-5]
 desc:This medallions were ones worn by one of Beruthiel's cats.
 desc:Maybe it will be good idea to try to wear it.. even though you are
