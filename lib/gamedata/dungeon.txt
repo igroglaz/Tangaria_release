@@ -6083,6 +6083,7 @@ name:Fallen Gondolin
 wpos:2:0
 min-depth:70
 max-depth:87
+max-level:48
 stairs:1:1d2
 flags:STREAMS | WATER_RIVER | CIRCULAR_ROOMS | SAND_VEIN
 stair:9F stair down 0:9F stair up 1:10000
