@@ -731,8 +731,8 @@ obj-flag:40:TRAP_IMMUNE
 value:1:MOVES[10+10d10]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
-brand:40:STUN_1
-brand:50:STUN_2
+brand:40:50:STUN_1
+brand:50:50:STUN_2
 value:1:DAM_RED[2+1d10]
 #########################obj-flag:1:NO_TELEPORT
 obj-flag:1:LIMITED_TELE
@@ -930,8 +930,8 @@ value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
 value:1:MOVES[10]
 value:50:SPEED[1]
-brand:15:CUT_1
-brand:50:CUT_2
+brand:15:50:CUT_1
+brand:50:50:CUT_2
 value:10:STEALTH[-1+-1d3]
 obj-flag:50:AGGRAVATE
 player-flags:ANIMAL
@@ -1010,7 +1010,7 @@ value:35:RES_DARK[1]
 value:40:RES_POIS[1]
 value:45:RES_NETHER[1]
 value:50:RES_TIME[1]
-brand:1:VAMPIRIC
+brand:1:50:VAMPIRIC
 value:1:DAM_RED[-1+-1d15]
 value:1:TUNNEL[-1+-1d30]
 value:50:SPEED[-1]
@@ -1064,7 +1064,7 @@ value:45:RES_POIS[1]
 value:1:RES_LIGHT[1]
 value:1:RES_DARK[-1]
 value:50:RES_TIME[1]
-brand:50:COLD_2
+brand:50:50:COLD_2
 
 # 'corrupted' descendants of ancient powers;
 name:Cambion
@@ -1103,7 +1103,7 @@ value:1:RES_DARK[1]
 value:1:RES_TIME[1]
 value:1:RES_SOUND[1]
 ##########value:1:RES_NEXUS[1] ->brand instead
-brand:1:POIS_2
+brand:1:50:POIS_2
 value:50:RES_CHAOS[1]
 value:1:RES_ELEC[-1]
 #############################
@@ -1153,7 +1153,7 @@ obj-flag:30:SLOW_DIGEST
 obj-flag:40:SEE_INVIS
 obj-flag:50:PROT_BLIND
 value:1:RES_GRAVITY[1]
-brand:50:ELEC_2
+brand:50:50:ELEC_2
 
 #Balrog – undeground ancient ‘race’ or some would call them as a ‘force’; in eternal war with dragons;
 name:Balrog
@@ -1191,8 +1191,8 @@ value:1:RES_LIGHT[-1]
 value:10:RES_DARK[1]
 value:25:RES_TIME[1]
 value:50:RES_FIRE[3]
-brand:1:FIRE_2
-brand:40:FIRE_3
+brand:1:50:FIRE_2
+brand:40:50:FIRE_3
 obj-flag:1:AGGRAVATE
 
 #Nephalem – example what could appear if celestial would make love to balrog. Amazingly it happens sometimes, so such creatures could be met.. very-very rare, but there they are.

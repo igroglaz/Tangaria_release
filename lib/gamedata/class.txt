@@ -229,7 +229,6 @@ value:0:SHOTS[1d6]
 #
 player-flags:FAST_SHOT
 # class brands works both on melee and ranged. races - only on melee!
-brand:min level:max level:brand code
 brand:5:29:POIS_2
 brand:30:50:CUT_1
 ############################
