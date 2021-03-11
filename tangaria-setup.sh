@@ -564,7 +564,8 @@ cd \$HOME || {
     echo "ERROR: Could not change directory..."
     exit 1
 }
-\${SELF_DIR}/usr/bin/pwmangclient
+exec \${SELF_DIR}/usr/bin/pwmangclient \\
+\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9
 EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
@@ -590,7 +591,8 @@ cd ./usr/bin || exit 1
 
 set -ex
 
-"./pwmangclient"
+exec "./pwmangclient" \\
+\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9
 EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
@@ -651,7 +653,7 @@ cd \$HOME || {
     echo "ERROR: Could not change directory..."
     exit 1
 }
-\$PWMANGCLIENT_DIR/pwmangclient
+exec \$PWMANGCLIENT_DIR/pwmangclient
 
 # To get path to config file ./pwmangclient --config file
 #
@@ -676,13 +678,15 @@ cd "\$(dirname "\$0")"/games || {
     echo "ERROR: Could not change directory..."
     exit 1
 }
-./pwmangband
+exec ./pwmangband
 EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
-if ! [ -d $XDG_DATA_HOME/applications ]; then
-    mkdir -p $XDG_DATA_HOME/applications
+if [ $CHECKLIST_OPTIONS_CLIENT_DESKTOP = ON ] || [ $CHECKLIST_OPTIONS_SERVER_DESKTOP = ON ]; then
+    if ! [ -d $XDG_DATA_HOME/applications ]; then
+        mkdir -p $XDG_DATA_HOME/applications
+    fi
 fi
 
 if [ $CHECKLIST_OPTIONS_CLIENT_DESKTOP = ON ]; then
