@@ -2454,7 +2454,7 @@ name:magpie
 base:bird
 color:D
 speed:120
-hit-points:12
+hit-points:11
 hearing:40
 armor-class:14
 sleepiness:0
