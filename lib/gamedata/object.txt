@@ -3119,14 +3119,10 @@ type:scroll
 level:1
 weight:5
 cost:0
-alloc:1:40 to 100
+alloc:1:20 to 100
 effect:CREATE_TREES
 effect:SUMMON:ANIMAL:0:-1
-dice:1d2
-effect:SUMMON:SPIDER:0:-1
-dice:1d2
-effect:SUMMON:HOUND:0:-1
-dice:1d2
+dice:1d4
 
 ### "Holy" spells ###
 
