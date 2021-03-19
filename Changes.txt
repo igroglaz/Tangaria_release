@@ -160,6 +160,7 @@ PWMAngband:
 - Fix enchant scrolls description
 - Fix crash in process_monsters when mon->closest_player is dead
 - Fix weight decrease when wielding from a stack of inventory items
+- Fix Linux code not saving savefiles
 
 Coding changes
 --------------
@@ -199,6 +200,7 @@ PWMAngband:
   (monster-attr)
 - Add constants for depth where labyrinths start to be generated
   unlit/unknown/with hard walls
+- Re-enable signal handling on Linux
 
 Compilation
 -----------
@@ -207,4 +209,3 @@ Compilation
 - Compiling with Embarcadero C++ 7.20
 - Update docs for option customization
 - Remove Necklace of the Eye support
-- Add SETGID support
