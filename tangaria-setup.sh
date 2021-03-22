@@ -343,30 +343,6 @@ else
 fi
 }
 
-make_clean_PWMAngband() {
-if [ -d ./PWMAngband-$VERSION_PWMANGBAND ]; then
-    make -C ./PWMAngband-$VERSION_PWMANGBAND clean
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/pwmangband.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/pwmangband.o
-    fi
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/pwmangclient.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/pwmangclient.o
-    fi
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/client/main-sdl.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/client/main-sdl.o
-    fi
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/client/main.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/client/main.o
-    fi
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/client/snd-sdl.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/client/snd-sdl.o
-    fi
-    if [ -f ./PWMAngband-$VERSION_PWMANGBAND/src/client/main-gcu.o ] ; then
-        rm -r ./PWMAngband-$VERSION_PWMANGBAND/src/client/main-gcu.o
-    fi
-fi
-}
-
 write_pwmangrc() {
 local PATH_INI_PWMANGRC=$1
 local WRITE_FILE_PWMANGRC=$2
@@ -447,9 +423,7 @@ mkdir ./${APP_DIR}
 
 download_PWMAngband
 
-##########
-#make -C ./PWMAngband-$VERSION_PWMANGBAND clean
-make_clean_PWMAngband
+make -C ./PWMAngband-$VERSION_PWMANGBAND clean
 
 cd ./PWMAngband-$VERSION_PWMANGBAND || exit 1
 ./autogen.sh || exit 1
@@ -538,7 +512,6 @@ fi
 
 ###################################
 
-##########
 mv ./${APP_DIR}/tmp/$MENU_ROGUELIKE ./${APP_DIR}/usr
 rm -rf ./${APP_DIR}/tmp
 
@@ -607,6 +580,8 @@ rm -f $MENU_ROGUELIKE*.AppImage*
 exit 0
 }
 
+###################################
+
 do_install() {
 clear
 if [ $CHECKLIST_OPTIONS_APPIMAGE = ON ]; then
@@ -615,9 +590,7 @@ fi
 
 download_PWMAngband
 
-##########
-#make -C ./PWMAngband-$VERSION_PWMANGBAND clean
-make_clean_PWMAngband
+make -C ./PWMAngband-$VERSION_PWMANGBAND clean
 
 cd ./PWMAngband-$VERSION_PWMANGBAND || exit 1
 ./autogen.sh || exit 1
