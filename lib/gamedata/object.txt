@@ -1,31 +1,5 @@
 # === Understanding object.txt ("object kind") ===
 
-
-
-
-
-
-
-
-
-
-
-
-
-### REORDER STUFF AFTER WIPE!
-
-
-
-
-
-
-
-
-
-
-
-
-
 # name: & object name~
 # graphics: symbol : color
 # type: tval
@@ -2691,6 +2665,21 @@ desc:The ultimate amulet for a rogue or assassin, it protects the
 desc: wearer against some evil magics, granting improvements in
 desc: the abilities vital to these adventurers.
 
+name:the Cat
+graphics:":d
+type:amulet
+level:70
+weight:2
+cost:0
+alloc:1:70 to 100
+flags:IGNORE_ELEC | GOOD
+flags:HOLD_LIFE | SEE_INVIS
+values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[10]
+values:LIGHT[-1] | DAM_RED[-3] | WIS[-5]
+desc:This medallions were ones worn by one of Beruthiel's cats.
+desc:Maybe it will be good idea to try to wear it.. even though you are
+desc:definitely not a cat. 
+
 ### Ability boosts ###
 
 name:Regeneration
@@ -3130,14 +3119,10 @@ type:scroll
 level:1
 weight:5
 cost:0
-alloc:1:1 to 100
+alloc:1:20 to 100
 effect:CREATE_TREES
 effect:SUMMON:ANIMAL:0:-1
-dice:1d2
-effect:SUMMON:SPIDER:0:-1
-dice:1d2
-effect:SUMMON:HOUND:0:-1
-dice:1d2
+dice:1d4
 
 ### "Holy" spells ###
 
@@ -3347,6 +3332,52 @@ dice:1+1d4
 #effect:BIZARRE
 
 ##### Potions #####
+
+name:Philosopher's stone
+# test potion for dev purpose
+graphics:!:d
+type:potion
+level:100
+weight:4
+cost:0
+alloc:1:126 to 127
+effect:TELEPORT:NONE:0:1
+dice:10
+effect:CURE:IMAGE
+effect:TIMED_INC:SHERO
+dice:25+1d25
+effect:TIMED_INC:SINVIS
+dice:50+2d6
+effect:TIMED_INC:SINFRA
+dice:100+4d25
+effect:TIMED_INC:INVIS:0:5
+dice:$B+1d20
+effect:NOURISH:INC_BY
+dice:1
+effect:NOURISH:DEC_BY
+dice:1
+effect:BOLT_AWARE:TURN_ALL
+dice:10
+effect:BOLT_OR_BEAM:ACID
+dice:10d8
+flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
+effect:BOLT_STATUS_DAM:MON_DRAIN
+dice:250
+effect:EARTHQUAKE:NONE:10
+effect:PROJECT_LOS_AWARE:MON_CONF
+dice:5+1d5
+effect:PROJECT_LOS_AWARE:MON_SLOW
+dice:10+1d10
+effect:PROJECT_LOS_AWARE:SLEEP_ALL
+effect:DETECT_INVISIBLE_MONSTERS
+effect-yx:22:40
+effect:DETECT_EVIL
+effect-yx:22:40
+effect:PROJECT_LOS_AWARE:DISP_EVIL:0:1
+dice:60
+effect:DESTRUCTION:LIGHT:15
+effect:MASS_BANISH
+effect:DARKEN_LEVEL
 
 ### Statgain ###
 
@@ -6226,12 +6257,13 @@ name:& Mage Staff~
 graphics:|:B
 type:mage staff
 level:5
-weight:12
+weight:20
 cost:10
 alloc:10:5 to 100
 attack:1d1:0:0
 armor:0:0
 flags:TWO_HANDED
+values:MANA[1]
 desc:It looks like a simple walking stick, plain and nondescript.
 desc: In the hands of a spellcaster, it can be a deadly weapon.
 
@@ -6245,6 +6277,7 @@ alloc:10:20 to 100
 attack:1d1:0:0
 armor:0:0
 flags:REGEN | TWO_HANDED
+values:MANA[1]
 desc:It looks like a simple walking stick, plain and nondescript.
 desc: In the hands of a spellcaster, it can be a deadly weapon.
 
@@ -6499,6 +6532,20 @@ effect:MASS_BANISH
 msg_self:Why did you touch it!.. It was CURSED!
 desc:You feel wicked evil energy oozing through this object...
 desc: It's better to do not touch it. RUN!
+
+name:'Stormbringer'
+graphics:|:x
+type:sword
+level:45
+weight:180
+cost:0
+attack:6d6:16:16
+armor:0:0
+flags:FREE_ACT | HOLD_LIFE | PROT_CONF | AGGRAVATE
+values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
+brand:VAMPIRIC
+curse:treacherous weapon:100
+desc:Death is all. Beware, cursed is the wielder.
 
 ##############
 #newbie items#
@@ -9058,78 +9105,3 @@ level:0
 weight:5
 cost:99999999
 desc:.
-
-name:Philosopher's stone
-# test potion for dev purpose
-graphics:!:d
-type:potion
-level:100
-weight:4
-cost:0
-alloc:1:126 to 127
-effect:TELEPORT:NONE:0:1
-dice:10
-effect:CURE:IMAGE
-effect:TIMED_INC:SHERO
-dice:25+1d25
-effect:TIMED_INC:SINVIS
-dice:50+2d6
-effect:TIMED_INC:SINFRA
-dice:100+4d25
-effect:TIMED_INC:INVIS:0:5
-dice:$B+1d20
-effect:NOURISH:INC_BY
-dice:1
-effect:NOURISH:DEC_BY
-dice:1
-effect:BOLT_AWARE:TURN_ALL
-dice:10
-effect:BOLT_OR_BEAM:ACID
-dice:10d8
-flags:IGNORE_ACID | IGNORE_ELEC | IGNORE_FIRE | IGNORE_COLD
-effect:BOLT_STATUS_DAM:MON_DRAIN
-dice:250
-effect:EARTHQUAKE:NONE:10
-effect:PROJECT_LOS_AWARE:MON_CONF
-dice:5+1d5
-effect:PROJECT_LOS_AWARE:MON_SLOW
-dice:10+1d10
-effect:PROJECT_LOS_AWARE:SLEEP_ALL
-effect:DETECT_INVISIBLE_MONSTERS
-effect-yx:22:40
-effect:DETECT_EVIL
-effect-yx:22:40
-effect:PROJECT_LOS_AWARE:DISP_EVIL:0:1
-dice:60
-effect:DESTRUCTION:LIGHT:15
-effect:MASS_BANISH
-effect:DARKEN_LEVEL
-
-name:'Stormbringer'
-graphics:|:x
-type:sword
-level:45
-weight:180
-cost:0
-attack:6d6:16:16
-armor:0:0
-flags:FREE_ACT | HOLD_LIFE | PROT_CONF | AGGRAVATE
-values:STR[1] | CON[1] | RES_CHAOS[1] | RES_NETHER[1]
-brand:VAMPIRIC
-curse:treacherous weapon:100
-desc:Death is all. Beware, cursed is the wielder.
-
-name:the Cat
-graphics:":d
-type:amulet
-level:70
-weight:2
-cost:0
-alloc:1:70 to 100
-flags:IGNORE_ELEC | GOOD
-flags:HOLD_LIFE | SEE_INVIS
-values:SEARCH[1+d4M5] | STEALTH[1+d2M3] | INFRA[1+d4M5] | SPEED[2+d4M6] | MOVES[10]
-values:LIGHT[-1] | DAM_RED[-3] | WIS[-5]
-desc:This medallions were ones worn by one of Beruthiel's cats.
-desc:Maybe it will be good idea to try to wear it.. even though you are
-desc:definitely not a cat. 
