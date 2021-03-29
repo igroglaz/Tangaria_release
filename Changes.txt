@@ -161,6 +161,13 @@ PWMAngband:
 - Fix crash in process_monsters when mon->closest_player is dead
 - Fix weight decrease when wielding from a stack of inventory items
 - Fix Linux code not saving savefiles
+- Fix damaging terrain aborting running for players immune to damage
+- Fix aquatic forms able to run outside of water
+- Fix aquatic forms not suffocating outside of water
+- Fix aquatic forms drowning in water
+- Fix LEVITATE form not giving FEATHER flag
+- Fix FRIGHTENED form not giving AFRAID flag
+- Prevent out of bounds asserts when players change level
 
 Coding changes
 --------------
@@ -190,7 +197,7 @@ MAngband 1.5.x:
 PWMAngband:
 
 - Change default FPS from 1 to 50
-- KEYMAP_ACTION_MAX increased from 20 to 30
+- KEYMAP_ACTION_MAX increased from 20 to 35
 - Move message truncation from server to client
 - Add paranoia check to avoid walking out of bounds
 - Add pre-processing to chat messages to look for '/' commands
@@ -201,6 +208,8 @@ PWMAngband:
 - Add constants for depth where labyrinths start to be generated
   unlit/unknown/with hard walls
 - Re-enable signal handling on Linux
+- Add dungeon profile to struct chunk
+- Remove ladder info from character dumps
 
 Compilation
 -----------
