@@ -396,6 +396,9 @@ value:1:DAM_RED[1+1d24]
 player-flags:FAST_THROW
 value:1:TUNNEL[1]
 player-flags:ANIMAL
+shape:5:terrified yeek
+shape:15:brave yeek
+shape:25:master yeek
 
 name:Ent
 skill-disarm-phys:-5
@@ -435,6 +438,7 @@ value:1:INFRA[1+1d12]
 value:1:RES_FIRE[-1]
 value:1:SPEED[0+-1d14M29]
 player-flags:GIANT
+shape:1:lonely tree
 
 #got hardcoded full ESP with expanding radius
 name:Thunderlord
@@ -570,7 +574,7 @@ name:Damned
 skill-disarm-phys:-5
 skill-disarm-magic:-5
 skill-device:-5
-skill-save:-5
+skill-save:6
 skill-stealth:-1
 skill-search:10
 skill-melee:-5
@@ -944,25 +948,25 @@ shape:50:volkodlak
 name:Undead
 skill-disarm-phys:-15
 skill-disarm-magic:-15
-skill-device:-5
+skill-device:-15
 skill-save:5
 skill-stealth:-3
 skill-search:-10
-skill-melee:-5
-skill-shoot:-15
+skill-melee:-15
+skill-shoot:-25
 skill-dig:0
-hitdie:11
+hitdie:9
 exp:100:125
 history:19
 age:11:4
 height:68:5
 weight:140:12
-#2 -6 -6 1 4
+#2 -6 -6 -1 -5
 value:0:STR[-2+1d10M20]
 value:1:INT[-6]
 value:1:WIS[-6]
-value:1:DEX[1]
-value:1:CON[-4+1d6]
+value:1:DEX[-1]
+value:1:CON[-1+-1d12]
 value:1:INFRA[0+1d5]
 value:1:SPEED[-1+1d28]
 obj-flag:10:SUST_STR
@@ -974,8 +978,8 @@ obj-flag:5:HOLD_LIFE
 obj-flag:1:IMPAIR_HP
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
-value:30:RES_NETHER[1]
-#######value:50:RES_NETHER[3]
+value:25:RES_NETHER[1]
+value:50:RES_NETHER[3]
 
 name:Vampire
 skill-disarm-phys:-2
@@ -1064,7 +1068,7 @@ value:45:RES_POIS[1]
 value:1:RES_LIGHT[1]
 value:1:RES_DARK[-1]
 value:50:RES_TIME[1]
-brand:50:50:COLD_2
+brand:1:50:COLD_2
 
 # 'corrupted' descendants of ancient powers;
 name:Cambion
@@ -1153,7 +1157,7 @@ obj-flag:30:SLOW_DIGEST
 obj-flag:40:SEE_INVIS
 obj-flag:50:PROT_BLIND
 value:1:RES_GRAVITY[1]
-brand:50:50:ELEC_2
+brand:1:50:ELEC_2
 
 #Balrog – undeground ancient ‘race’ or some would call them as a ‘force’; in eternal war with dragons;
 name:Balrog
@@ -1323,44 +1327,6 @@ obj-flag:1:FEATHER
 ######giving them a chance to use less spell points when they cast a spell, probably based upon their primary spell stat, (i.e., int or wis)
 #######some type of innate survival spells that they can cast every so often (like a built-in rod), things like phase door, teleport, etc.
 
-#got hardcoded full ESP with expanding radius
-# humanoid race which had descendence from Storm Giants and live with Eagles.
-# They are bigger then normal humans, but overal looks quite alike to them,
-# except their eyes which is bright blue, like there is a living lightning inside.
-# They like to fight in battle openly, loudly singing a song - thats why enemies know
-# about them from afar. They do not like hidden things and trickery.
-# But at the same time Thunderlords could feel most of enemies 
-# from the distance too because of their electric potency,
-# although this potency mess with their ability to use magic devices.
-# They live alongside their traditions and don't like new things and changes.
-# The highest honor for them is to die in the battle, so
-# even experienced fighters among thunderlords are pretty
-# reckless.
-#name:Thunderlord
-#skill-disarm-phys:-15
-#skill-disarm-magic:-15
-#skill-device:-16
-#skill-save:-10
-#skill-stealth:-7
-#skill-search:-10
-#skill-melee:7
-#skill-shoot:5
-#skill-dig:0
-#hitdie:12
-#exp:180:125
-#history:89
-#age:14:6
-#height:170:20
-#weight:240:60
-#value:1:STR[3]
-#value:1:INT[-4]
-#value:1:WIS[-2]
-#value:1:DEX[0]
-#value:1:CON[4]
-#value:1:RES_ELEC[1]
-#value:1:DAM_RED[-1+-1d5]
-#player-flags:THUNDERLORD
-
 # draconian race was almost exterminated by thunderlods during
 # the ancient war. Only a few survived by hiding in high mountains caves.
 # They are born as a small whelplings, very vulnerable..but if they
@@ -1377,7 +1343,7 @@ obj-flag:1:FEATHER
 #skill-dig:0
 #hitdie:13
 #exp:180:125
-#history:89
+#history:100
 #age:14:6
 #height:170:20
 #weight:240:60
@@ -1389,12 +1355,39 @@ obj-flag:1:FEATHER
 #value:1:WIS[-6+1d7]
 #value:1:DEX[-6+1d7]
 #value:1:CON[-6+1d4]
-#value:10:RES_FIRE[1]
-#value:20:RES_COLD[1]
-#value:30:RES_ACID[1]
-#value:40:RES_ELEC[1]
+#brand:10:19:POIS_2
+#brand:20:29:COLD_2
+#brand:30:39:ELEC_2
+#brand:40:49:FIRE_2
+#brand:50:50:ACID_2
 #value:1:INFRA[1+1d15]
-#player-flags:THUNDERLORD
+
+#name:Yeti
+#skill-disarm-phys:-15
+#skill-disarm-magic:-15
+#skill-device:-16
+#skill-save:-10
+#skill-stealth:-7
+#skill-search:-10
+#skill-melee:7
+#skill-shoot:-10
+#skill-dig:0
+#hitdie:12
+#exp:180:125
+#history:100
+#age:14:6
+#height:170:20
+#weight:240:60
+#value:1:STR[3]
+#value:1:INT[-4]
+#value:1:WIS[-2]
+#value:1:DEX[-2]
+#value:1:CON[4]
+#value:1:INFRA[0+1d6]
+#value:1:RES_FIRE[-1]
+#value:1:RES_COLD[3]
+#value:1:DAM_RED[-1+-1d5]
+#value:1:MOVES[-1]
 
 # mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
 #Permanently hallucinating (effect decreases with increased int,wis) Innate ESP
