@@ -1137,7 +1137,7 @@ rarity:1
 weight:2
 experience:1
 blow:BITE:HURT:1d1
-flags:DROP_CORPSE | WILD_WOOD | WILD_SWAMP | RAND_25
+flags:DROP_CORPSE | WILD_WOOD | WILD_SWAMP
 desc:A fast-moving pest.
 
 #towny
