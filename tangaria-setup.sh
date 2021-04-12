@@ -28,7 +28,8 @@ USER_PWMANGRC="$HOME/.pwmangrc"
 
 ####### ./configure --help ########
 
-OTHER_CONFIGURE_PWMANGBAND="--prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl"
+## to change directory for storing pref-files and character-dumps.
+## ./configure CFLAGS=-DPRIVATE_USER_PATH=\\\"~/.pwmangband\\\"
 
 ######## make -j$CPU_CORES ########
 
@@ -602,10 +603,8 @@ if [ $MENU_CLIENT = "curses" ]; then
     ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
 fi
 if [ $MENU_CLIENT = "other" ]; then
-    ./configure --help
-    echo " "
-    read -ep "./configure " -i "$OTHER_CONFIGURE_PWMANGBAND" OTHER_CONFIGURE_PWMANGBAND
-    ./configure $OTHER_CONFIGURE_PWMANGBAND
+##  ./configure --help
+    ./configure --prefix $INSTALL_DIR
 fi
 
 make -j$CPU_CORES
