@@ -1299,12 +1299,6 @@ expr:D:PLAYER_LEVEL:/ 10 + 1
 expr:S:PLAYER_LEVEL:/ 10 + 1
 effect:DETECT_SOUL
 effect-yx:22:40
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Detects all monsters which have a spirit in the immediate area,
 desc: and then maps in a region around them, increasing in size with
 desc: character level.
