@@ -8334,7 +8334,7 @@ desc:.
 name:wooden walls 3 window
 graphics:#:u
 priority:11
-flags:LOS | PROJECT | WALL | ROCK | GRANITE | NO_SCENT | NO_FLOW
+flags:LOS | PROJECT | PASSABLE | EASY | TORCH | FLOOR_SAFE | OBJECT
 info:0:2
 ################################################################################
 short-desc:window
