@@ -25191,6 +25191,11 @@ feat:grass mountain F2W `:dark:0xAC:0xFF
 ####################
 ####################
 
+############## SUMMONS
+
+monster:skeleton:0x94:0x9C
+monster:zombie:0x93:0xB3
+
 
 # Load the special player pictures
 %:xtra-tan.prf
