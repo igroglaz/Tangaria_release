@@ -405,7 +405,7 @@ skill-disarm-phys:-5
 skill-disarm-magic:-5
 skill-device:-16
 skill-save:20
-skill-stealth:-6
+skill-stealth:0
 skill-search:-2
 skill-melee:15
 skill-shoot:5
@@ -430,13 +430,17 @@ obj-flag:45:ESP_EVIL
 obj-flag:50:ESP_RADIUS
 #str8 int-4 wis2 dex-4 con8
 value:1:STR[-8+1d3]
-value:1:INT[-8+1d12]
+value:1:INT[-5+1d30]
 value:1:WIS[-2+1d12]
 value:1:DEX[-8+1d12]
 value:1:CON[-8+1d3]
 value:1:INFRA[1+1d12]
 value:1:RES_FIRE[-1]
 value:1:SPEED[0+-1d14M29]
+# stealth -6
+value:1:STEALTH[0+-1d5M30]
+value:1:TUNNEL[5]
+obj-flag:40:IMPAIR_HP
 player-flags:GIANT
 shape:1:lonely tree
 
@@ -462,8 +466,8 @@ obj-flag:25:FEATHER
 obj-flag:5:ESP_DRAGON
 # 6 2 1 1 3
 value:1:STR[-6+1d4]
-value:1:INT[-6+1d6]
-value:1:WIS[-6+1d7]
+value:1:INT[-5+1d7]
+value:1:WIS[-5+1d7]
 value:1:DEX[-6+1d7]
 value:1:CON[-6+1d4]
 value:10:RES_FIRE[1]
@@ -471,6 +475,7 @@ value:20:RES_COLD[1]
 value:30:RES_ACID[1]
 value:40:RES_ELEC[1]
 value:25:DAM_RED[1]
+value:50:MANA[-1]
 player-flags:THUNDERLORD
 
 #dragon got 1/2 bonuses from dragons which form they take
@@ -802,14 +807,14 @@ height:150:5
 weight:240:22
 #7 -8 -4 -5 4
 value:1:STR[1+1d8]
-value:1:INT[-8]
+value:1:INT[-5+-1d15]
 value:1:WIS[-4]
 value:1:DEX[-5]
 value:1:CON[1+1d8M30]
 value:1:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-value:1:MOVES[-10]
+value:1:MOVES[-1+-1d5]
 value:50:SPEED[-1]
 ###########value:1:SPEED[-1+-1d35]
 value:20:RES_POIS[1]
@@ -903,7 +908,6 @@ obj-flag:25:SEE_INVIS
 value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
 value:1:STEALTH[0+1d12]
-value:1:DAM_RED[-1]
 
 name:Werewolf
 skill-disarm-phys:-15
@@ -932,12 +936,10 @@ obj-flag:1:REGEN
 obj-flag:20:ESP_ANIMAL
 value:35:RES_DARK[1]
 value:1:RES_LIGHT[-1]
-value:1:MOVES[10]
 value:50:SPEED[1]
-brand:15:50:CUT_1
+brand:15:49:CUT_1
 brand:50:50:CUT_2
 value:10:STEALTH[-1+-1d3]
-obj-flag:50:AGGRAVATE
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
 shape:1:wolf
@@ -963,8 +965,8 @@ height:68:5
 weight:140:12
 #2 -6 -6 -1 -5
 value:0:STR[-2+1d10M20]
-value:1:INT[-6]
-value:1:WIS[-6]
+value:1:INT[-5+-1d30]
+value:1:WIS[-5+-1d30]
 value:1:DEX[-1]
 value:1:CON[-1+-1d12]
 value:1:INFRA[0+1d5]
@@ -978,8 +980,10 @@ obj-flag:5:HOLD_LIFE
 obj-flag:1:IMPAIR_HP
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
-value:25:RES_NETHER[1]
+value:1:RES_NETHER[1]
 value:50:RES_NETHER[3]
+value:50:MANA[-1]
+value:50:MOVES[-10]
 
 name:Vampire
 skill-disarm-phys:-2
@@ -1000,8 +1004,8 @@ height:68:5
 weight:150:10
 #2 2 -1 2 0
 value:0:STR[-3+1d9]
-value:0:INT[-8+1d5]
-value:0:WIS[-8+1d7]
+value:0:INT[-5+1d7]
+value:0:WIS[-5+1d12]
 value:0:DEX[-3+1d9]
 value:0:CON[-7+1d7]
 value:0:INFRA[0+1d3]
@@ -1030,8 +1034,9 @@ shape:40:doombat
 ############################## GODLIKE
 # ? spirits.. of fire, elec, cold, 
 
-#Maya
-# descendants of ancient powers;
+########## NEXT TIME: lower initial str, con, dex for extra powerful races
+
+#Maya descendants of ancient powers;
 name:Enlightened
 skill-disarm-phys:2
 skill-disarm-magic:4
@@ -1042,8 +1047,8 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-#add one more HP (V is 11)
-hitdie:8
+#11
+hitdie:10
 exp:100:125
 history:100
 age:11:4
@@ -1069,6 +1074,9 @@ value:1:RES_LIGHT[1]
 value:1:RES_DARK[-1]
 value:50:RES_TIME[1]
 brand:1:50:COLD_2
+value:50:BLOWS[-1]
+value:50:MIGHT[-1]
+value:50:MANA[-1]
 
 # 'corrupted' descendants of ancient powers;
 name:Cambion
@@ -1081,8 +1089,8 @@ skill-search:1
 skill-melee:15
 skill-shoot:5
 skill-dig:0
-#add one more HP (V is 11)
-hitdie:9
+#11
+hitdie:11
 exp:100:125
 history:100
 age:11:4
@@ -1104,12 +1112,11 @@ value:1:RES_FIRE[1]
 value:1:RES_POIS[1]
 value:1:RES_LIGHT[-1]
 value:1:RES_DARK[1]
-value:1:RES_TIME[1]
+value:1:RES_TIME[-1]
 value:1:RES_SOUND[1]
 ##########value:1:RES_NEXUS[1] ->brand instead
 brand:1:50:POIS_2
 value:50:RES_CHAOS[1]
-value:1:RES_ELEC[-1]
 #############################
 value:1:DAM_RED[-1+-1d2]
 #############^^^^^^^^################
@@ -1133,11 +1140,11 @@ skill-device:-20
 skill-save:8
 skill-stealth:2
 skill-search:2
-skill-melee:10
-skill-shoot:7
-skill-dig:0
-#add one more HP (V is 11)
-hitdie:8
+skill-melee:-5
+skill-shoot:0
+skill-dig:-40
+#11
+hitdie:10
 exp:100:125
 history:100
 age:11:4
@@ -1158,6 +1165,10 @@ obj-flag:40:SEE_INVIS
 obj-flag:50:PROT_BLIND
 value:1:RES_GRAVITY[1]
 brand:1:50:ELEC_2
+value:1:RES_ELEC[1]
+value:1:MOVES[-1]
+value:1:TUNNEL[-1+-1d10]
+obj-flag:50:IMPAIR_MANA
 
 #Balrog – undeground ancient ‘race’ or some would call them as a ‘force’; in eternal war with dragons;
 name:Balrog
@@ -1179,8 +1190,8 @@ height:145:8
 weight:210:12
 #4 2 -10 2 3
 value:0:STR[-6+1d5]
-value:0:INT[-6+1d6]
-value:0:WIS[-10]
+value:0:INT[-5+1d7]
+value:0:WIS[-5+-5d45]
 value:0:DEX[-6+1d6]
 value:0:CON[3]
 value:1:INFRA[5]
@@ -1237,8 +1248,7 @@ skill-search:-3
 skill-melee:10
 skill-shoot:-10
 skill-dig:0
-#add one more HP (V is 12)
-hitdie:10
+hitdie:12
 exp:100:125
 history:100
 age:11:4
@@ -1246,7 +1256,7 @@ height:85:5
 weight:245:23
 #3 -3 2 -3 3
 value:0:STR[3]
-value:0:INT[-7+1d12]
+value:0:INT[-5+1d24]
 value:0:WIS[-2+1d12]
 value:0:DEX[-10+1d7]
 value:0:CON[3]
@@ -1257,9 +1267,9 @@ obj-flag:35:SUST_DEX
 obj-flag:45:SUST_CON
 value:1:INFRA[1+1d9]
 value:1:SPEED[-1+-1d5]
+value:1:RES_ACID[-1]
 value:1:RES_POIS[1]
 value:20:RES_FIRE[1]
-value:30:RES_ACID[1]
 value:40:RES_ELEC[1]
 value:50:RES_SHARD[1]
 obj-flag:10:FEATHER
@@ -1285,8 +1295,8 @@ height:82:3
 weight:244:23
 #4 -5 -5 -2 3
 value:0:STR[4]
-value:0:INT[-10+1d10]
-value:0:WIS[-10+1d10]
+value:0:INT[-5]
+value:0:WIS[-5]
 value:0:DEX[-2]
 value:0:CON[3+-1d15]
 value:1:MOVES[-10]
@@ -1294,6 +1304,7 @@ value:1:RES_POIS[1]
 obj-flag:1:FREE_ACT
 obj-flag:1:SEE_INVIS
 value:1:DAM_RED[1+1d5]
+value:1:RES_ELEC[-1]
 
 name:Pixie
 skill-disarm-phys:10
@@ -1315,7 +1326,8 @@ value:1:STR[-6]
 value:1:INT[4]
 value:1:WIS[4]
 value:1:DEX[9]
-value:1:CON[-4]
+#replace with LIFE
+value:1:CON[-4+5d20M21]]
 #######CHA:6
 value:1:INFRA[1+1d15]
 value:1:SPEED[1+1d12]
