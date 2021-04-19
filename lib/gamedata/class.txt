@@ -358,7 +358,7 @@ book-graphics:?:R
 book-properties:1:30:25
 book-alloc:40:1 to 100
 book-desc:A standard arcane book with a few spells.
-equip:magic book:[Magic for Beginners]:1:1:1
+equip:magic book:[Magic for Beginners]:1:1:none
 
 spell:Magic Missile:1:1:22:4:0
 effect:BOLT_OR_BEAM:MISSILE:0:-10
@@ -675,7 +675,7 @@ book-graphics:?:y
 book-properties:1:30:25
 book-alloc:40:1 to 100
 book-desc:A standard nature book with a few verses.
-equip:nature book:[Lesser Charms]:1:1:1
+equip:nature book:[Lesser Charms]:1:1:none
 
 spell:Detect Life:1:1:23:2:0
 effect:DETECT_LIVING_MONSTERS
@@ -931,7 +931,6 @@ min-weight:35
 strength-multiplier:3
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-######################equip:prayer book:[Beginners Handbook]:1:1:1
 equip:hafted:Mace:1:1:none
 equip:digger:Spade:1:1:none
 equip:potion:Cure Serious Wounds:2:3:none
@@ -962,7 +961,7 @@ book-graphics:?:G
 book-properties:1:30:25
 book-alloc:40:1 to 100
 book-desc:A standard divine book with a few prayers.
-equip:prayer book:[Beginners Handbook]:1:1:1
+equip:prayer book:[Beginners Handbook]:1:1:none
 
 spell:Detect Evil:1:1:10:4:0
 effect:DETECT_EVIL
@@ -1276,7 +1275,7 @@ book-graphics:?:s
 book-properties:1:30:25
 book-alloc:40:1 to 100
 book-desc:A standard shadow book with a few rituals.
-equip:shadow book:[Shadows for Beginners]:1:1:1
+equip:shadow book:[Shadows for Beginners]:1:1:none
 
 spell:Horrify:1:2:26:2:0
 effect:BOLT_AWARE:TURN_ALL
@@ -1572,7 +1571,6 @@ min-weight:30
 strength-multiplier:5
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-###############################equip:prayer book:[Beginners Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
 equip:digger:Spade:1:1:none
 equip:scroll:Protection from Evil:1:1:birth_no_recall
@@ -1600,7 +1598,7 @@ title:Paladin Lord
 magic:1:400:5
 
 book:prayer book:town:[Beginners Handbook]:5:divine
-equip:prayer book:[Beginners Handbook]:1:1:1
+equip:prayer book:[Beginners Handbook]:1:1:none
 
 spell:Detect Evil:1:1:30:4:0
 effect:DETECT_EVIL
@@ -1834,7 +1832,7 @@ title:Master Thief
 magic:5:350:5
 
 book:shadow book:town:[Shadows for Beginners]:5:shadow
-equip:shadow book:[Shadows for Beginners]:1:1:1
+equip:shadow book:[Shadows for Beginners]:1:1:none
 
 spell:Detect Creatures:5:1:50:4:0
 effect:DETECT_VISIBLE_MONSTERS
@@ -2055,7 +2053,7 @@ title:Ranger Lord
 magic:3:400:5
 
 book:nature book:town:[Lesser Charms]:4:nature
-equip:nature book:[Lesser Charms]:1:1:1
+equip:nature book:[Lesser Charms]:1:1:none
 
 spell:Detect Life:3:1:25:2:0
 effect:DETECT_LIVING_MONSTERS
@@ -2212,7 +2210,6 @@ min-weight:100
 strength-multiplier:5
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-####################equip:sorcery book:[Shadows for Beginners]:1:1:1
 equip:sword:Tulwar:1:1:none
 equip:shield:Leather Shield:1:1:none
 equip:digger:Spade:1:1:none
@@ -2241,7 +2238,7 @@ title:Tyrant
 magic:1:600:5
 
 book:shadow book:town:[Shadows for Beginners]:5:shadow
-equip:shadow book:[Shadows for Beginners]:1:1:1
+equip:shadow book:[Shadows for Beginners]:1:1:none
 
 spell:Seek Battle:1:1:15:2:0
 effect:DETECT_FEARFUL_MONSTERS
@@ -2471,7 +2468,7 @@ title:Arch-Mage
 magic:1:300:5
 
 book:magic book:town:[Magic for Beginners]:8:arcane
-equip:magic book:[Magic for Beginners]:1:1:1
+equip:magic book:[Magic for Beginners]:1:1:none
 
 spell:Magic Missile:1:1:12:4:0
 effect:BOLT_OR_BEAM:MISSILE:0:-10
@@ -2882,7 +2879,7 @@ title:Night Hunter
 magic:5:400:5
 
 book:nature book:town:[Lesser Charms]:4:nature
-equip:nature book:[Lesser Charms]:1:1:1
+equip:nature book:[Lesser Charms]:1:1:none
 
 spell:Lightning Shots:5:1:10:4:0
 effect:BOW_BRAND_SHOT:ELEC
@@ -3017,7 +3014,6 @@ min-weight:35
 strength-multiplier:3
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-############################equip:psi book:of Telepathy:1:1:1
 equip:sword:Dagger:1:1:none
 equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
@@ -3047,7 +3043,7 @@ book-graphics:?:B
 book-properties:1:30:25
 book-alloc:40:1 to 100
 book-desc:A glowing stone, engraved with runes of power.
-equip:psi book:of Telepathy:1:1:1
+equip:psi book:of Telepathy:1:1:none
 
 spell:Mind Blast:1:1:12:4:0
 effect:BOLT_OR_BEAM:PSI
@@ -3381,7 +3377,6 @@ min-weight:40
 strength-multiplier:2
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-########################## equip:elemental book:[Fire]:1:1:1
 equip:sword:Dagger:1:1:none
 equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
@@ -3487,7 +3482,7 @@ book-graphics:?:x
 book-properties:5:30:100
 book-alloc:25:5 to 100
 book-desc:A standard spellbook with a few spells.
-equip:elemental book:[Fire]:1:1:1
+equip:elemental book:[Fire]:1:1:none
 
 spell:Burning Hands:1:1:17:4:0
 effect:BOLT_MELEE:FIRE
@@ -3897,7 +3892,7 @@ title:Summoner Lord
 magic:1:300:5
 
 book:prayer book:town:[Beginners Handbook]:5:divine
-equip:prayer book:[Beginners Handbook]:1:1:1
+equip:prayer book:[Beginners Handbook]:1:1:none
 
 spell:Summon Monster:1:1:22:4:0
 effect:SUMMON:MONSTER:0:100
