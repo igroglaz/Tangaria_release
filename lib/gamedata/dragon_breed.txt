@@ -31,9 +31,9 @@ wyrm:bile:0
 info:1:100:1
 
 #NOT IMMUNE!
-dragon:green:0
-wyrm:swamp:0
-info:1:100:0
+#dragon:green:0
+#wyrm:swamp:0
+#info:1:100:0
 
 #br_iner: only br_iner mobs will resist
 #res_cold

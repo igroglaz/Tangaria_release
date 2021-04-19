@@ -29923,3 +29923,131 @@ flags:EMPTY_MIND
 flags:NO_FEAR
 desc:It is an animated corpse. Flesh falls off in large chunks as it
 desc: shambles forward.
+
+###############
+############### FORMS:
+###############
+
+#new
+name:ball of fur
+base:yeek
+color:u
+speed:100
+hit-points:25
+hearing:18
+smell:20
+armor-class:30
+sleepiness:10
+depth:8
+rarity:0
+weight:80
+experience:11
+flags:NEVER_BLOW | NEVER_MOVE | NO_CONF
+spell-freq:9
+innate-freq:100
+spells:HEAL
+desc:It is a strange small humanoid in a constant state of extreme terror.
+
+#name:terrified yeek
+name:panicked yeek
+base:yeek
+color:u
+speed:120
+hit-points:18
+hearing:18
+smell:20
+armor-class:21
+sleepiness:10
+depth:8
+rarity:0
+weight:80
+experience:11
+flags:FRIGHTENED | NEVER_BLOW
+desc:It is a strange small humanoid in a constant state of extreme terror.
+
+#name:master yeek
+name:yeek master
+base:yeek
+color:U
+speed:110
+hit-points:60
+hearing:18
+smell:20
+armor-class:28
+sleepiness:10
+depth:12
+rarity:0
+weight:60
+experience:28
+blow:HIT:HURT:1d8
+flags:EVIL
+flags:FORCE_SLEEP
+spell-freq:4
+spells:BLIND | BLINK | SLOW | TPORT
+spells:BA_POIS
+drop-base:magic book:5:1:1
+desc:A small humanoid that radiates some power.
+
+#name:master yeek tile, but based on Boldor
+name:yeek grandmaster
+base:yeek
+color:P
+speed:120
+hit-points:80
+hearing:18
+smell:20
+armor-class:28
+sleepiness:10
+depth:13
+rarity:0
+weight:0
+experience:200
+blow:HIT:HURT:1d9
+blow:HIT:HURT:1d9
+blow:HIT:HURT:1d8
+flags:MALE | EVIL | SMART
+spell-freq:3
+spells:BLIND | HEAL | SLOW | TPORT
+desc:A great yeek, powerful in magic and sorcery, but a yeek all the same.
+
+#name:lonely tree
+name:tree form
+base:tree
+color:G
+speed:100
+hit-points:50
+light:-2
+hearing:40
+armor-class:50
+sleepiness:20
+depth:1
+rarity:0
+weight:0
+experience:4
+blow:CRUSH:HURT:1d5
+flags:NO_SLEEP | WEIRD_MIND
+flags:IM_COLD | NEVER_MOVE | NEVER_BLOW
+spell-freq:25
+spell-power:5
+spells:SCARE
+desc:They say that staying near lonely tree at thunderstorm could be dangerous
+desc: But actually staying nearby such tree could be deadly in any weather.
+
+#hill giant
+name:giant form
+base:giant
+color:U
+speed:110
+hit-points:240
+hearing:20
+armor-class:54
+sleepiness:50
+depth:25
+rarity:0
+weight:350
+experience:150
+blow:HIT:HURT:4d8
+blow:HIT:HURT:4d8
+flags:IM_NEXUS
+flags:OPEN_DOOR
+desc:A ten foot tall humanoid with powerful muscles.
