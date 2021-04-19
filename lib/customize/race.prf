@@ -376,6 +376,9 @@ help: or poisoned. They could see invisible and good in digging. They are misera
 help: in stealth, good at fighting and somehow resistant to malicious spell effects.
 ####################################################################################
 race:Pixie
-help:Pixies - wondrous tiny flying creatures who got fascinating magical powers.
+help:ATTENTION!
+help: Please be careful - as pixie got very low strength - it could become very slow
+help: if you will take a lot of items in your inventory or use heavy equipment. |
+help: Pixies - wondrous tiny flying creatures who got fascinating magical powers.
 help: Not much mortals saw one as they are very fast and covert...
 ####################################################################################
