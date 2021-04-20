@@ -1539,31 +1539,34 @@ slay:25:50:TROLL_3
 obj-flag:25:ESP_UNDEAD
 
 name:Centaur
-skill-disarm-phys:2
-skill-disarm-magic:2
-skill-device:9
-skill-save:9
-skill-stealth:-1
+skill-disarm-phys:3
+skill-disarm-magic:-2
+skill-device:-7
+skill-save:2
+skill-stealth:0
 skill-search:2
-skill-melee:15
-skill-shoot:0
-skill-dig:40
+skill-melee:4
+skill-shoot:10
+skill-dig:-5
 hitdie:11
 exp:120:125
-history:16
-age:35:15
+history:100
+age:30:11
 height:47:4
-weight:135:20
-obj-flag:1:PROT_BLIND
-value:1:STR[2]
-value:1:INT[-3]
-value:1:WIS[2]
-value:1:DEX[-2]
-value:1:CON[2]
-value:1:INFRA[5]
+weight:185:30
+# 1 -1 2 0 1
+value:1:STR[-1+1d24]
+value:1:INT[-1]
+value:1:WIS[-1+1d15]
+value:1:DEX[-1+1d30]
+value:1:CON[-1+1d24]
+value:1:INFRA[1]
+obj-flag:1:PROT_CONF
+obj-flag:1:SUST_WIS
 player-flags:KNOW_MUSHROOM
 value:1:MOVES[10+5d9]
-value:1:STEALTH[-1+-1d30]
+value:1:STEALTH[-1+-1d24]
+value:0:TUNNEL[-1+-1d10]
 
 # mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
 #Permanently hallucinating (effect decreases with increased int,wis) Innate ESP
