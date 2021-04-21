@@ -1600,8 +1600,10 @@ value:50:RES_POIS[3]
 value:1:SPEED[1+1d24]
 value:50:MANA[-1]
 value:1:DAM_RED[-1+-1d5]
+value:1:RES_LIGHT[-1]
 # . // work?
 #PASS_WEB
+
 
 name:Djinn
 skill-disarm-phys:20
@@ -1713,6 +1715,7 @@ shape:30:jelly
 shape:40:mushroom
 shape:50:mind flayer
 #hallucinating (effect decreases with increased int,wis)
+value:1:RES_LIGHT[-1]
 
 name:Minotaur
 skill-disarm-phys:-8
@@ -1782,7 +1785,7 @@ skill-device:-15
 skill-save:3
 skill-stealth:-1
 skill-search:5
-skill-melee:15
+skill-melee:7
 skill-shoot:-10
 skill-dig:0
 hitdie:11
@@ -1804,6 +1807,7 @@ value:25:SPEED[-1+-1d23]
 value:25:DAM_RED[-3]
 value:1:TUNNEL[-1+-1d24]
 obj-flag:50:IMPAIR_HP
+value:1:RES_ELEC[-1]
 
 # chaos mutation, so resistant to it
 name:Gnoll
