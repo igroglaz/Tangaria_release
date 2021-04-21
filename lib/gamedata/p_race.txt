@@ -382,7 +382,8 @@ skill-melee:0
 skill-shoot:0
 skill-dig:0
 hitdie:6
-exp:80:125
+#more exp to lvl!
+exp:80:150
 history:1
 age:14:6
 height:23:3
@@ -1123,6 +1124,7 @@ shape:20:quasit
 shape:30:bodak
 shape:40:vrock
 shape:50:nalfeshnee
+# shape:50:succubus
 
 # re Angel.. Half-Angel
 # Some people call them ‘angels’, but they are not kind and helpful 
@@ -1326,7 +1328,7 @@ value:1:INT[4]
 value:1:WIS[4]
 value:1:DEX[9]
 #replace with LIFE
-value:1:CON[-4+5d20M21]]
+value:1:CON[-4+5d20M21]
 #######CHA:6
 value:1:INFRA[1+1d15]
 value:1:SPEED[1+1d12]
@@ -1353,7 +1355,7 @@ skill-melee:5
 skill-shoot:0
 skill-dig:0
 hitdie:13
-exp:180:125
+exp:100:125
 history:100
 age:22:8
 height:190:25
@@ -1439,7 +1441,7 @@ skill-melee:-2
 skill-shoot:20
 skill-dig:0
 hitdie:10
-exp:120:125
+exp:100:125
 history:100
 age:60:55
 height:74:7
@@ -1521,7 +1523,7 @@ skill-melee:5
 skill-shoot:3
 skill-dig:0
 hitdie:11
-exp:180:125
+exp:100:125
 history:100
 age:14:6
 height:170:20
@@ -1549,7 +1551,7 @@ skill-melee:4
 skill-shoot:10
 skill-dig:-5
 hitdie:11
-exp:120:125
+exp:100:125
 history:100
 age:30:11
 height:47:4
@@ -1568,32 +1570,426 @@ value:1:MOVES[10+5d9]
 value:1:STEALTH[-1+-1d24]
 value:0:TUNNEL[-1+-1d10]
 
-# mindflayer (beholder?) mold -> mushroom -> medusa -> beholder
-#Permanently hallucinating (effect decreases with increased int,wis) Innate ESP
-# troglodite
-# gnoll
-# spider
-# beholder
-# jelly
-# Harpy
-# Djinn
-# Minotaur
-# Naga
-# Lizardman
+name:Spider
+skill-disarm-phys:-15
+skill-disarm-magic:-15
+skill-device:-15
+skill-save:0
+skill-stealth:2
+skill-search:10
+skill-melee:-10
+skill-shoot:-10
+skill-dig:0
+hitdie:9
+exp:100:125
+history:100
+age:10:5
+height:28:3
+weight:51:6
+# -3 -1 1 5 -2
+value:1:STR[-3]
+value:1:INT[-3+1d20]
+value:1:WIS[-2+1d15]
+value:1:DEX[0+1d9]
+value:1:CON[-2]
+value:1:INFRA[1+1d6]
+value:1:STEALTH[0+1d24]
+brand:15:50:POIS_2
+value:1:RES_POIS[1]
+value:50:RES_POIS[3]
+value:1:SPEED[1+1d24]
+value:50:MANA[-1]
+value:1:DAM_RED[-1+-1d5]
+# . // work?
+#PASS_WEB
 
-# shape:50:succubus
+name:Djinn
+skill-disarm-phys:20
+skill-disarm-magic:20
+skill-device:20
+skill-save:15
+skill-stealth:3
+skill-search:20
+skill-melee:0
+skill-shoot:0
+skill-dig:0
+hitdie:10
+exp:100:125
+history:100
+age:10:4
+height:170:20
+weight:33:11
+value:0:STR[0+1d8]
+value:0:INT[0+1d8]
+value:0:WIS[0+1d8]
+value:0:DEX[0+1d8]
+value:0:CON[0+1d8]
+obj-flag:1:FEATHER
+obj-flag:1:SLOW_DIGEST
+obj-flag:1:PROT_FEAR
+obj-flag:25:SEE_INVIS
+value:1:INFRA[1+1d15]
+value:1:SPEED[1+1d12]
+player-flags:BEAM
+player-flags:ZERO_FAIL
+player-flags:KNOW_MUSHROOM
+player-flags:KNOW_ZAPPER
+# _ // auto-id
+obj-flag:50:KNOWLEDGE
+value:1:DAM_RED[0+1d15]
+value:50:BLOWS[1]
+value:50:MIGHT[1]
+value:50:MANA[1]
+value:1:RES_POIS[1]
+value:1:RES_ACID[1]
+value:10:RES_ELEC[1]
+value:20:RES_FIRE[1]
+value:30:RES_COLD[1]
+value:40:RES_TIME[1]
+value:50:RES_SHARD[1]
+obj-flag:1:ESP_DEMON
+slay:25:50:DEMON_3
+obj-flag:1:LIMITED_TELE
+
+name:Harpy
+skill-disarm-phys:-4
+skill-disarm-magic:-6
+skill-device:-7
+skill-save:-1
+skill-stealth:1
+skill-search:9
+skill-melee:-5
+skill-shoot:-2
+skill-dig:0
+hitdie:9
+# more exp to lvl!
+exp:100:150
+history:100
+age:24:3
+height:40:2
+weight:65:2
+#-1 -1 -3 2 -1
+value:1:STR[-1]
+value:1:INT[-1]
+value:1:WIS[-3]
+value:1:DEX[2]
+value:1:CON[-1]
+obj-flag:1:PROT_BLIND
+obj-flag:1:FEATHER
+player-flags:KNOW_MUSHROOM
+value:15:MOVES[1]
+value:1:INFRA[2]
+value:40:SPEED[1+1d2]
+
+name:Beholder
+skill-disarm-phys:-50
+skill-disarm-magic:50
+skill-device:-50
+skill-save:-10
+skill-stealth:1
+skill-search:15
+skill-melee:-15
+skill-shoot:-15
+skill-dig:-40
+hitdie:10
+exp:100:125
+history:100
+age:50:8
+height:47:4
+weight:60:12
+#-2 3 -2 -3 -2
+value:1:STR[-1]
+value:1:INT[-2+1d10]
+value:1:WIS[-2]
+value:1:DEX[-3]
+value:1:CON[-2]
+value:1:INFRA[1+1d5]
+value:1:TUNNEL[-5+-1d15]
+obj-flag:1:ESP_RADIUS
+player-flags:SHAPECHANGE
+shape:10:mold
+shape:20:slime
+shape:30:jelly
+shape:40:mushroom
+shape:50:mind flayer
+#hallucinating (effect decreases with increased int,wis)
+
+name:Minotaur
+skill-disarm-phys:-8
+skill-disarm-magic:-10
+skill-device:-3
+skill-save:5
+skill-stealth:0
+skill-search:-15
+skill-melee:25
+skill-shoot:-15
+skill-dig:0
+hitdie:13
+exp:100:125
+history:100
+age:20:10
+height:120:19
+weight:290:75
+obj-flag:1:SUST_STR
+obj-flag:1:SUST_CON
+# 4 -4 -2 -4 3
+value:1:STR[-2+1d8]
+value:1:INT[-4]
+value:1:WIS[-2]
+value:1:DEX[-4]
+value:1:CON[-3+1d8]
+value:1:INFRA[2]
+obj-flag:1:PROT_CONF
+obj-flag:1:PROT_STUN
+value:1:STEALTH[-4+-1d10]
+value:30:SPEED[-1]
+value:1:DAM_RED[-1+-1d5]
+value:50:MOVES[-10]
+obj-flag:50:IMPAIR_HP
+
+name:Troglodite
+skill-disarm-phys:-10
+skill-disarm-magic:-20
+skill-device:-30
+skill-save:-10
+skill-stealth:1
+skill-search:-7
+skill-melee:-5
+skill-shoot:-5
+skill-dig:20
+hitdie:9
+# . //exp
+exp:100:150
+history:100
+age:14:4
+height:30:2
+weight:56:3
+value:1:STR[-1]
+value:1:INT[-1]
+value:1:WIS[-3]
+value:1:DEX[2]
+value:1:CON[-1]
+value:1:INFRA[1+1d5]
+value:1:TUNNEL[1+1d24]
+obj-flag:1:PROT_BLIND
+value:1:RES_DARK[1]
+obj-flag:1:REGEN
+
+name:Naga
+skill-disarm-phys:-4
+skill-disarm-magic:-7
+skill-device:-15
+skill-save:3
+skill-stealth:-1
+skill-search:5
+skill-melee:15
+skill-shoot:-10
+skill-dig:0
+hitdie:11
+exp:100:125
+history:100
+age:81:14
+height:47:4
+weight:155:21
+value:1:STR[1]
+value:1:INT[-2]
+value:1:WIS[-2]
+value:1:DEX[3]
+value:1:CON[-1]
+value:1:INFRA[6]
+obj-flag:1:FREE_ACT
+value:1:MOVES[-3+-1d15]
+value:1:BLOWS[1]
+value:25:SPEED[-1+-1d23]
+value:25:DAM_RED[-3]
+value:1:TUNNEL[-1+-1d24]
+obj-flag:50:IMPAIR_HP
+
+# chaos mutation, so resistant to it
+name:Gnoll
+skill-disarm-phys:-9
+skill-disarm-magic:-11
+skill-device:-17
+skill-save:-7
+skill-stealth:0
+skill-search:5
+skill-melee:3
+skill-shoot:1
+skill-dig:0
+hitdie:9
+exp:100:125
+history:100
+age:17:5
+height:58:4
+weight:115:4
+# 0 0 -1 3 0
+value:1:STR[-1+1d40]
+value:1:INT[-2+1d24]
+value:1:WIS[-3+1d24]
+value:1:DEX[1+1d14]
+value:1:CON[0]
+value:1:INFRA[1+1d10]
+value:30:MOVES[1]
+value:1:TUNNEL[1]
+value:1:RES_CHAOS[1]
+
+name:Lizardmen
+skill-disarm-phys:-4
+skill-disarm-magic:-7
+skill-device:-3
+skill-save:-2
+skill-stealth:-1
+skill-search:-5
+skill-melee:7
+skill-shoot:-6
+skill-dig:0
+hitdie:10
+exp:100:125
+history:100
+age:13:2
+height:69:3
+weight:145:17
+# 0 -1 -2 0 0
+value:1:STR[0]
+value:1:INT[-1]
+value:1:WIS[-2]
+value:1:DEX[0]
+value:1:CON[0]
+value:1:INFRA[4]
+value:1:DAM_RED[1d15]
+value:25:TUNNEL[1]
+value:20:SPEED[1]
+player-flags:COMBAT_REGEN
+
+# mysterious creature woven out bright light
+name:Wisp
+skill-disarm-phys:-50
+skill-disarm-magic:20
+skill-device:-50
+skill-save:-20
+skill-stealth:4
+skill-search:0
+skill-melee:-15
+skill-shoot:-25
+skill-dig:0
+hitdie:7
+exp:100:125
+history:100
+age:63:7
+height:35:2
+weight:5:1
+# -7 3 -1 -2 -1
+value:1:STR[-5+-1d24]
+value:1:INT[-1+1d12]
+value:1:WIS[-3+1d24]
+value:1:DEX[-2]
+value:1:CON[-1]
+obj-flag:30:ESP_EVIL
+player-flags:BLESS_WEAPON
+obj-flag:1:FEATHER
+obj-flag:1:FREE_ACT
+obj-flag:1:SLOW_DIGEST
+value:1:RES_POIS[1]
+value:1:BLOWS[1]
+value:1:SHOTS[1]
+value:1:RES_LIGHT[1]
+value:35:RES_LIGHT[3]
+value:50:RES_MANA
+value:1:DAM_RED[1d5]
+value:1:SPEED[-1+-1d40]
+value:1:RES_DARK[-1]
+value:1:RES_TIME[-1]
+value:1:MOVES[-9+-10d30]
+
+name:Imp
+skill-disarm-phys:7
+skill-disarm-magic:5
+skill-device:4
+skill-save:5
+skill-stealth:2
+skill-search:10
+skill-melee:-7
+skill-shoot:0
+skill-dig:0
+hitdie:6
+exp:100:125
+history:100
+age:13:1
+height:34:2
+weight:40:3
+value:1:STR[-4]
+value:1:INT[1]
+value:1:WIS[-3]
+value:1:DEX[4]
+value:1:CON[0]
+value:1:SPEED[1+1d9]
+value:1:MOVES[1+1d5]
+value:15:RES_FIRE[1]
+value:30:RES_FIRE[3]
+value:1:RES_COLD[-1]
+
+name:Ghost
+skill-disarm-phys:-50
+skill-disarm-magic:-50
+skill-device:-50
+skill-save:20
+skill-stealth:3
+skill-search:-20
+skill-melee:-15
+skill-shoot:-15
+skill-dig:0
+hitdie:8
+exp:100:125
+history:100
+age:82:3
+height:98:4
+weight:31:2
+#-3 0 0 -2 -2
+value:0:STR[-3+1d9]
+value:0:INT[-5+1d9]
+value:0:WIS[-5+1d9]
+value:0:DEX[-7+1d9]
+value:0:CON[-3+1d30]
+value:0:INFRA[5+1d5]
+obj-flag:1:PROT_FEAR
+obj-flag:5:FEATHER
+obj-flag:10:HOLD_LIFE
+value:1:RES_LIGHT[-1]
+value:35:RES_DARK[1]
+value:40:RES_POIS[1]
+value:45:RES_NETHER[1]
+value:50:RES_TIME[1]
+value:1:TUNNEL[-5]
+value:1:SPEED[-1]
+value:1:MOVES[-10]
+obj-flag:1:LIMITED_TELE
+obj-flag:50:DRAIN_EXP
+##########################PASS_WALL forms:
+player-flags:SHAPECHANGE
+shape:10:Outcast ghost
+shape:20:Wretched ghost
+shape:30:Wicked	ghost
+shape:40:Nefarious ghost
+shape:50:Dread ghost
+
+# curses
+# anti-esp by type
+# agro with small radius
+# monster flags (PASS_WALL)
 
 #STEALTH_MODE
 #CROWD_FIGHT
 #MARTIAL_ARTS
 
-#value:1:RES_MANA
+#COMBAT_REGEN
+#SHIELD_BASH
+#BACK_STAB
+#NO_MANA
 
 #IMPAIR_MANA
 #MANA
 #value:1:AFRAID
 #value:1:ANTIMAGIC[1+1d30]
-#RES_MANA
 
 #new:
 #value:1:MOVES[10]
@@ -1604,8 +2000,6 @@ value:0:TUNNEL[-1+-1d10]
 #value:1:RES_ELEC[-1]
 #value:1:RES_FIRE[-1]
 #value:1:RES_COLD[-1]
-
-#KNOWLEDGE // auto-id
 
 #STEALTH
 #SEARCH
@@ -1624,6 +2018,3 @@ value:0:TUNNEL[-1+-1d10]
 #IMPAIR_MANA // slowed mana regen
 
 #AFRAID // constant fear
-
-
-# KILL_WALL ?
