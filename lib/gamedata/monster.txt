@@ -29885,9 +29885,9 @@ locations:Ettendales
 #....
 #Greatest mortal wizard of all times. He is looking for a meeting with you.
 
-
-
-############## SUMMONING MONSTERS
+######################################
+#///////////   SUMMONS   ////////////#
+######################################
 
 name:skeleton
 base:skeleton
@@ -29924,9 +29924,11 @@ flags:NO_FEAR
 desc:It is an animated corpse. Flesh falls off in large chunks as it
 desc: shambles forward.
 
-###############
-############### FORMS:
-###############
+######################################
+#/////////////   FORMS   ////////////#
+######################################
+
+#///////////   YEEK
 
 #new
 name:ball of fur
@@ -30010,8 +30012,9 @@ spell-freq:3
 spells:BLIND | HEAL | SLOW | TPORT
 desc:A great yeek, powerful in magic and sorcery, but a yeek all the same.
 
-#name:lonely tree
-name:tree form
+#///////////   ENT
+
+name:lonely tree form
 base:tree
 color:G
 speed:100
@@ -30033,8 +30036,9 @@ spells:SCARE
 desc:They say that staying near lonely tree at thunderstorm could be dangerous
 desc: But actually staying nearby such tree could be deadly in any weather.
 
-#hill giant
-name:giant form
+#///////////   Half-Giant
+
+name:hill giant form
 base:giant
 color:U
 speed:110
@@ -30051,3 +30055,301 @@ blow:HIT:HURT:4d8
 flags:IM_NEXUS
 flags:OPEN_DOOR
 desc:A ten foot tall humanoid with powerful muscles.
+
+#///////////   Troll
+
+name:snow troll form
+base:troll
+color:w
+speed:110
+hit-points:132
+hearing:20
+smell:20
+armor-class:67
+sleepiness:50
+depth:28
+rarity:0
+weight:500
+experience:200
+blow:CLAW:HURT:1d5
+blow:CLAW:HURT:1d5
+blow:BITE:COLD:2d6
+blow:BITE:COLD:2d6
+flags:MALE
+flags:DROP_20
+flags:HURT_LIGHT | IM_COLD
+flags:DROP_CORPSE | DROP_SKELETON | WILD_WASTE | WILD_GLACIER
+friends:100:2d7:white wolf
+friends:100:4d4:Same
+desc:He is a white troll with shaggy fur and powerfully clawed hands.
+
+
+#///////////   Werewolf
+
+#name:jackal
+name:jackal form
+base:canine
+color:U
+speed:112
+hit-points:10
+hearing:10
+smell:50
+armor-class:3
+sleepiness:10
+depth:1
+rarity:0
+weight:40
+experience:1
+blow:BITE:HURT:1d1
+flags:GROUP_AI
+flags:DROP_CORPSE | DROP_SKELETON | WILD_GRASS | WILD_WOOD
+desc:It is a yapping snarling dog, dangerous when in a pack.
+
+#wolf
+name:wolf form
+base:canine
+color:u
+speed:115
+hit-points:21
+hearing:30
+smell:50
+armor-class:45
+sleepiness:10
+depth:10
+rarity:0
+weight:60
+experience:30
+blow:BITE:HURT:1d6
+blow:BITE:HURT:1d4
+flags:RAND_25 | BASH_DOOR
+flags:GROUP_AI
+flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_WASTE | WILD_MOUNTAIN
+friends:100:2d10:Same
+desc:It howls and snaps at you.
+
+#name:warg
+name:warg form
+base:canine
+color:s
+speed:120
+hit-points:36
+hearing:20
+smell:50
+armor-class:30
+sleepiness:10
+depth:14
+rarity:0
+weight:70
+experience:40
+blow:BITE:HURT:1d8
+flags:EVIL | GROUP_AI
+flags:RAND_25 | BASH_DOOR
+flags:DROP_CORPSE | DROP_SKELETON | WILD_WOOD | WILD_MOUNTAIN
+friends:100:2d7:Same
+desc:It is a large wolf with eyes full of cunning.
+
+#name:werewolf
+name:werewolf form
+base:canine
+color:D
+speed:110
+hit-points:230
+hearing:15
+smell:50
+armor-class:36
+sleepiness:70
+depth:20
+rarity:0
+weight:90
+experience:150
+blow:CLAW:HURT:2d6
+blow:CLAW:HURT:2d6
+blow:BITE:HURT:2d10
+flags:EVIL
+flags:RAND_25 | OPEN_DOOR | BASH_DOOR | TAKE_ITEM
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
+desc:It is a huge wolf with eyes that glow with manly intelligence.
+
+#name:hellhound
+name:hellwolf form
+base:canine
+color:r
+speed:120
+hit-points:352
+light:2
+hearing:25
+smell:50
+armor-class:120
+sleepiness:10
+depth:42
+rarity:0
+weight:60
+experience:600
+blow:BITE:FIRE:3d12
+blow:BITE:FIRE:3d12
+blow:BITE:FIRE:3d12
+flags:EVIL
+flags:RAND_25 | BASH_DOOR | MOVE_BODY
+flags:IM_FIRE | GROUP_AI
+flags:FORCE_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON
+spell-freq:5
+innate-freq:100
+spells:BR_FIRE
+friends:100:2d5:Same
+desc:It is a giant wolf that glows with heat. Flames pour from its nostrils.
+
+#name:volkodlak
+name:volkodlak form
+base:canine
+color:G
+speed:120
+hit-points:2200
+hearing:30
+smell:50
+armor-class:88
+sleepiness:5
+depth:63
+rarity:0
+weight:60
+experience:4000
+blow:BITE:EXP_20:2d4
+blow:CLAW:POISON:4d10
+blow:CLAW:POISON:4d10
+flags:FORCE_SLEEP | SMART | EVIL
+flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:IM_POIS | IM_COLD | IM_FIRE | IM_NETHER
+flags:NO_FEAR | NO_CONF | NO_SLEEP
+flags:DROP_CORPSE | DROP_SKELETON | HYBRID
+spell-freq:7
+innate-freq:67
+spells:BR_NETH | BR_DARK
+spells:S_HOUND
+friends:50:2d4:warg:servant
+friends:50:2d3:hellhound:servant
+friends:100:2d3:werewolf:servant
+desc:A massive wolf, appearing like a mighty shadow. Its glowing red eyes
+desc: glare malevolently.
+
+#///////////   Vampire
+
+name:vampiric mist form
+base:mist
+color:s
+speed:110
+hit-points:45
+hearing:12
+armor-class:66
+sleepiness:30
+depth:22
+rarity:0
+weight:0
+experience:40
+blow:ENGULF:EXP_20:1d6
+blow:ENGULF:EXP_20:1d6
+flags:UNDEAD | PWMANG_BASE
+flags:NO_SLEEP | NO_STUN
+flags:WILD_SWAMP
+friends:100:2d7:Same
+desc:A cloud of evil, sentient mist.
+
+name:fruit bat form
+base:bat
+color:o
+speed:120
+hit-points:4
+hearing:20
+armor-class:3
+sleepiness:10
+depth:1
+rarity:0
+weight:2
+experience:1
+blow:BITE:HURT:1d1
+flags:DROP_CORPSE | WILD_WOOD | WILD_SWAMP
+desc:A fast-moving pest.
+
+name:vampire bat form
+base:bat
+color:D
+speed:120
+hit-points:50
+hearing:12
+armor-class:60
+sleepiness:10
+depth:24
+rarity:0
+weight:0
+experience:150
+blow:BITE:EXP_40:1d4
+blow:BITE:EXP_40:1d4
+flags:UNDEAD | EVIL | COLD_BLOOD | REGENERATE
+flags:RAND_50
+flags:IM_COLD | NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN
+desc:A blood-sucking bat that flies at your neck hungrily.
+
+name:bat of Gorgoroth form
+base:bat
+color:g
+speed:120
+hit-points:110
+hearing:20
+armor-class:36
+sleepiness:30
+depth:28
+rarity:0
+weight:15
+experience:100
+blow:BITE:POISON:1d10
+blow:CLAW:HURT:1d4
+flags:WEIRD_MIND
+flags:DROP_40
+flags:RAND_25 | BASH_DOOR | MOVE_BODY
+flags:IM_POIS
+flags:DROP_CORPSE
+spell-freq:8
+innate-freq:67
+spells:SCARE
+spells:BR_DARK | BR_POIS
+friends:100:2d7:Same
+desc:Fed with horrid meats and grown to enormous size, this slavering creature
+desc: seeks livelier prey.
+
+name:doombat form
+base:bat
+color:R
+speed:130
+hit-points:180
+light:2
+hearing:16
+armor-class:112
+sleepiness:20
+depth:32
+rarity:0
+weight:15
+experience:250
+blow:BITE:FIRE:5d4
+blow:BITE:FIRE:5d4
+blow:BITE:FIRE:5d4
+flags:WEIRD_MIND
+flags:DROP_CORPSE
+flags:BASH_DOOR
+flags:IM_FIRE
+flags:WILD_DESERT
+desc:It is a fast moving creature of chaos, a gigantic black bat surrounded by
+desc: flickering bright red flames.
+
+#///////////   Demonic (Cambion)
+
+
+
+
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H
+#///////////   H

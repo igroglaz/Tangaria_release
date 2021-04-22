@@ -937,10 +937,12 @@ brand:50:50:CUT_2
 value:10:STEALTH[-1+-1d3]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
-shape:1:wolf
-shape:10:werewolf
-shape:30:hellhound
-shape:50:volkodlak
+shape:1:jackal form
+shape:10:wolf form
+shape:20:warg form
+shape:30:werewolf form
+shape:40:hellhound form
+shape:50:volkodlak form
 
 name:Undead
 skill-disarm-phys:-15
@@ -1020,11 +1022,11 @@ value:50:SPEED[-1]
 value:1:MOVES[-1]
 value:1:STEALTH[0+1d24]
 player-flags:SHAPECHANGE
-shape:5:vampiric mist
-shape:10:fruit bat
-shape:20:vampire bat
-shape:30:bat of Gorgoroth
-shape:40:doombat
+shape:5:vampiric mist form
+shape:10:fruit bat form
+shape:20:vampire bat form
+shape:30:bat of Gorgoroth form
+shape:40:doombat form
 
 ############################## GODLIKE
 # ? spirits.. of fire, elec, cold, 
