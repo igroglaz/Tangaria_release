@@ -400,10 +400,9 @@ value:1:DAM_RED[1+1d24]
 player-flags:FAST_THROW
 value:1:TUNNEL[1]
 player-flags:ANIMAL
+player-flags:SHAPECHANGE
 shape:1:ball of fur
-shape:5:panicked yeek
-shape:10:yeek master
-shape:15:yeek grandmaster
+shape:5:terrifying yeek
 
 name:Ent
 skill-disarm-phys:-5
@@ -447,7 +446,8 @@ value:1:STEALTH[0+-1d5M30]
 value:1:TUNNEL[5]
 obj-flag:40:IMPAIR_HP
 player-flags:GIANT
-shape:1:lonely tree
+player-flags:SHAPECHANGE
+shape:1:sleepy ent
 
 #got hardcoded full ESP with expanding radius
 name:Thunderlord
@@ -751,8 +751,6 @@ slay:1:50:DRAGON_3
 #########################obj-flag:1:NO_TELEPORT
 obj-flag:1:LIMITED_TELE
 value:1:TUNNEL[3+1d10]
-player-flags:SHAPECHANGE
-shape:15:giant form
 
 #Swamp troll
 name:Ogre
@@ -816,8 +814,6 @@ value:20:RES_POIS[1]
 value:35:RES_SHARD[1]
 value:1:RES_LIGHT[-1]
 player-flags:TROLL
-player-flags:SHAPECHANGE
-shape:30:snow troll
 
 name:Orc
 skill-disarm-phys:-8
@@ -941,7 +937,7 @@ shape:1:jackal form
 shape:10:wolf form
 shape:20:warg form
 shape:30:werewolf form
-shape:40:hellhound form
+shape:40:hellwolf form
 shape:50:volkodlak form
 
 name:Undead
@@ -1121,12 +1117,7 @@ value:1:DAM_RED[-1+-1d2]
 #############^^^^^^^^################
 #######obj-flag:10:DRAIN_EXP
 player-flags:SHAPECHANGE
-shape:15:tengu
-shape:20:quasit
-shape:30:bodak
-shape:40:vrock
-shape:50:nalfeshnee
-# shape:50:succubus
+shape:30:succubi
 
 # re Angel.. Half-Angel
 # Some people call them ‘angels’, but they are not kind and helpful 
@@ -1369,12 +1360,12 @@ value:1:WIS[-5+1d7]
 value:1:DEX[-5+1d9]
 value:1:CON[-3+1d14]
 player-flags:SHAPECHANGE
-#shape:1:newborn green dragon
-#shape:10:baby green dragon
-#shape:20:young green dragon
-#shape:30:mature green dragon
-#shape:40:ancient green dragon
-#shape:50:great swamp wyrm
+shape:1:newborn dracon
+shape:10:baby dracon
+shape:20:young dracon
+shape:30:mature dracon
+shape:40:ancient dracon
+shape:50:great dracon
 slay:50:50:GIANT_3
 
 name:Titan
@@ -1399,7 +1390,7 @@ value:1:STR[-3+1d4]
 value:1:INT[-5+1d15]
 value:1:WIS[-5+1d15]
 value:1:DEX[-2+1d30]
-value:1:CON[-3+1d6]
+value:1:CON[-10+1d2]
 obj-flag:5:SUST_STR
 obj-flag:10:SUST_DEX
 obj-flag:15:SUST_CON
@@ -1419,13 +1410,12 @@ slay:1:24:DRAGON_3
 slay:25:50:DRAGON_5
 obj-flag:1:NO_TELEPORT
 player-flags:SHAPECHANGE
-shape:5:hill giant
-shape:10:frost giant
-shape:15:fire giant
-shape:20:stone giant
-shape:25:cloud giant
-shape:30:sand giant
-shape:35:cyclops
+shape:10:hill giant
+shape:15:frost giant
+shape:20:fire giant
+shape:25:stone giant
+shape:30:cloud giant
+shape:35:sand giant
 shape:40:storm giant
 shape:45:lesser titan
 shape:50:greater titan
@@ -1572,6 +1562,7 @@ value:1:MOVES[10+5d9]
 value:1:STEALTH[-1+-1d24]
 value:0:TUNNEL[-1+-1d10]
 
+# should always use forms to compensate speed debuff
 name:Spider
 skill-disarm-phys:-15
 skill-disarm-magic:-15
@@ -1599,13 +1590,22 @@ value:1:STEALTH[0+1d24]
 brand:15:50:POIS_2
 value:1:RES_POIS[1]
 value:50:RES_POIS[3]
-value:1:SPEED[1+1d24]
+value:0:SPEED[0+-1d5]
 value:50:MANA[-1]
 value:1:DAM_RED[-1+-1d5]
 value:1:RES_LIGHT[-1]
-# . // work?
-#PASS_WEB
-
+player-flags:SHAPECHANGE
+shape:1:s'spider
+shape:5:s'weaver
+shape:10:s'warrior
+shape:15:s'guard
+shape:20:s'apprentice
+shape:25:s'adept
+shape:30:s'master
+shape:35:s'aranea
+shape:40:s'elder
+shape:45:s'ancient
+shape:50:s'lord
 
 name:Djinn
 skill-disarm-phys:20
@@ -1684,40 +1684,6 @@ player-flags:KNOW_MUSHROOM
 value:15:MOVES[1]
 value:1:INFRA[2]
 value:40:SPEED[1+1d2]
-
-name:Beholder
-skill-disarm-phys:-50
-skill-disarm-magic:50
-skill-device:-50
-skill-save:-10
-skill-stealth:1
-skill-search:15
-skill-melee:-15
-skill-shoot:-15
-skill-dig:-40
-hitdie:10
-exp:100:125
-history:100
-age:50:8
-height:47:4
-weight:60:12
-#-2 3 -2 -3 -2
-value:1:STR[-1]
-value:1:INT[-2+1d10]
-value:1:WIS[-2]
-value:1:DEX[-3]
-value:1:CON[-2]
-value:1:INFRA[1+1d5]
-value:1:TUNNEL[-5+-1d15]
-obj-flag:1:ESP_RADIUS
-player-flags:SHAPECHANGE
-shape:10:mold
-shape:20:slime
-shape:30:jelly
-shape:40:mushroom
-shape:50:mind flayer
-#hallucinating (effect decreases with increased int,wis)
-value:1:RES_LIGHT[-1]
 
 name:Minotaur
 skill-disarm-phys:-8
@@ -1951,32 +1917,91 @@ age:82:3
 height:98:4
 weight:31:2
 #-3 0 0 -2 -2
-value:0:STR[-3+1d9]
+value:0:STR[-3]
 value:0:INT[-5+1d9]
 value:0:WIS[-5+1d9]
 value:0:DEX[-7+1d9]
 value:0:CON[-3+1d30]
 value:0:INFRA[5+1d5]
+obj-flag:1:SLOW_DIGEST
 obj-flag:1:PROT_FEAR
-obj-flag:5:FEATHER
-obj-flag:10:HOLD_LIFE
+obj-flag:1:ESP_UNDEAD
+obj-flag:1:FEATHER
 value:1:RES_LIGHT[-1]
-value:35:RES_DARK[1]
-value:40:RES_POIS[1]
-value:45:RES_NETHER[1]
+value:1:RES_POIS[1]
+obj-flag:10:HOLD_LIFE
+obj-flag:20:SEE_INVIS
+value:30:RES_DARK[1]
+value:40:RES_NETHER[1]
 value:50:RES_TIME[1]
-value:1:TUNNEL[-5]
+value:1:TUNNEL[-10]
 value:1:SPEED[-1]
-value:1:MOVES[-10]
+value:1:MOVES[-1+-1d9]
 obj-flag:1:LIMITED_TELE
 obj-flag:50:DRAIN_EXP
 ##########################PASS_WALL forms:
 player-flags:SHAPECHANGE
-shape:10:Outcast ghost
-shape:20:Wretched ghost
-shape:30:Wicked	ghost
-shape:40:Nefarious ghost
-shape:50:Dread ghost
+shape:1:expulsion
+shape:10:echo
+shape:20:imprint
+shape:30:spectral
+shape:40:spirit
+shape:50:wraith
+
+name:Beholder
+skill-disarm-phys:-50
+skill-disarm-magic:50
+skill-device:-50
+skill-save:-10
+skill-stealth:1
+skill-search:15
+skill-melee:-15
+skill-shoot:-15
+skill-dig:-40
+hitdie:10
+exp:100:125
+history:100
+age:50:8
+height:47:4
+weight:60:12
+#-5 3 -2 -3 -2
+value:1:STR[-5]
+value:1:INT[-2+1d10]
+value:1:WIS[-2]
+value:1:DEX[-3]
+value:1:CON[-2]
+value:1:INFRA[1+1d5]
+value:1:TUNNEL[-5+-1d15]
+obj-flag:1:FEATHER
+obj-flag:1:ESP_RADIUS
+value:1:RES_LIGHT[-1]
+value:1:DAM_RED[-1+-1d2]
+value:1:BLOWS[-1]
+value:1:SHOTS[-1]
+player-flags:SHIELD_BASH
+player-flags:SHAPECHANGE
+shape:1:floating eye'
+shape:10:disenchanter eye'
+shape:20:evil eye'
+#zritel
+shape:30:spectator'
+#nabludatel
+shape:40:observer'
+#nadsmotrshik
+shape:50:overseer'
+#mind flayer
+
+#obj-flag:1:IMPAIR_MANA
+#value:1:MANA[1]
+#hallucinating (effect decreases with increased int,wis)
+
+
+#player-flags:SHAPECHANGE
+#shape:10:mold
+#shape:20:slime
+#shape:30:jelly
+#shape:40:ooze
+#shape:50:mushroom
 
 # curses
 # anti-esp by type
@@ -1987,7 +2012,7 @@ shape:50:Dread ghost
 #CROWD_FIGHT
 #MARTIAL_ARTS
 
-#COMBAT_REGEN
+#COMBAT_REGEN +
 #SHIELD_BASH
 #BACK_STAB
 #NO_MANA
