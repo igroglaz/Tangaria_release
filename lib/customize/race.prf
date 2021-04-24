@@ -382,3 +382,68 @@ help: if you will take a lot of items in your inventory or use heavy equipment. 
 help: Pixies - wondrous tiny flying creatures who got fascinating magical powers.
 help: Not much mortals saw one as they are very fast and covert...
 ####################################################################################
+race:Draconian
+help:Peaceful race which was almost exterminated by titans during
+help: the ancient war. Only a few survived by hiding in high mountains caves.
+help: They are born as a small whelplings, very vulnerable.. but if they
+help: manage to survive to mature age - they become more powerful.
+####################################################################################
+race:Titan
+help:Powerful as gods, imbued by thunder. The only reason that they didn't 
+help: conqure the world - their powers interupt spatial field..
+help: So they can not use teleportation magic.
+####################################################################################
+race:Wood-Elf
+help:Nandor..  Silvan Elves or Green-elves. Lives in Lorien and Mirkwood.
+####################################################################################
+race:Elemental
+help:Creature of nature, eternally developing.
+####################################################################################
+race:Frostmen
+help:Someone who still dwells at North...
+help: Norse.. Magical northmen barbarians. They specialize on hunting snow
+help: trolls knowing all their weaknesses. As they live on north where a lot
+help: of undeads dwells, they could feel their presense on certain distance.
+help: Their skin magically enhanced and protected from frost, but it makes
+help: them vulnerable to heat.
+####################################################################################
+race:Centaur
+help:Has the body of a large horse topped by a humanoid torso, head, and arms. 
+####################################################################################
+race:Spider
+help:Likes dark places... Spiders. What else to say. Don't mess with them.
+####################################################################################
+race:Djinn
+help:Mythical magic creatures. Some of them managed to get freedom.
+####################################################################################
+race:Harpy
+help:Winged humanoids with nasty temper.
+####################################################################################
+race:Minotaur
+help:Huge figure which got the body of a human and the head of a bull.
+####################################################################################
+race:Troglodite
+help:One of the cave little folk. Always hungry, but not necessary evil.
+####################################################################################
+race:Naga
+help:Humanoids who got snake-like tails in place of legs.
+####################################################################################
+race:Gnoll
+help:Chaotic mutation: humanoids with dog's head. Like ale.
+####################################################################################
+race:Lizardmen
+help:Reptilian humanoids who lives in southeren bogs.
+####################################################################################
+race:Wisp
+help:Mysterious creature woven out bright light.
+####################################################################################
+race:Imp
+help:Imps - small creatures with bright red skin. They do not fear fire, but
+help: don't like frost.
+####################################################################################
+race:Ghost
+help:Magic emanation of dead who've chosen to stay in out world.
+####################################################################################
+race:Beholder
+help:Floating eyes with dangerous magical powers.
+####################################################################################

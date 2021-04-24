@@ -1499,11 +1499,6 @@ value:35:DAM_RED[-1+-1d3]
 value:50:MOVES[-10]
 obj-flag:50:IMPAIR_HP
 
-# Norse.. magical northmen barbarians. they specialize on hunting snow
-# trolls knowing all their weaknesses. As they live on north where a lot
-# of undeads dwells, they could feel their presense on certain distance.
-# their skin magically enhanced and protected from frost, but it makes
-# they vulnerable to hear.
 name:Frostmen
 skill-disarm-phys:-15
 skill-disarm-magic:-15
