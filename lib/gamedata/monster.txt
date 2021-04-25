@@ -30784,7 +30784,7 @@ desc:An unholy creature of darkness, the aura emanating from this evil being
 desc: saps your very soul.
 
 #name:shadow
-name:wraith
+name:wraith'
 base:ghost
 color:D
 speed:110

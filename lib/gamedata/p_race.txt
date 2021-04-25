@@ -1895,7 +1895,7 @@ value:15:RES_FIRE[1]
 value:30:RES_FIRE[3]
 value:1:RES_COLD[-1]
 
-name:Ghost
+name:Wraith
 skill-disarm-phys:-50
 skill-disarm-magic:-50
 skill-device:-50
@@ -1941,7 +1941,7 @@ shape:10:echo
 shape:20:imprint
 shape:30:spectral
 shape:40:spirit
-shape:50:wraith
+shape:50:wraith'
 
 name:Beholder
 skill-disarm-phys:-50

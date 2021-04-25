@@ -25196,6 +25196,11 @@ feat:grass mountain F2W `:dark:0xAC:0xFF
 monster:skeleton:0x94:0x9C
 monster:zombie:0x93:0xB3
 
+############## FORMS
+
+monster:ball of fur:0x9A:0xD0
+
+
 
 # Load the special player pictures
 %:xtra-tan.prf
