@@ -401,8 +401,10 @@ player-flags:FAST_THROW
 value:1:TUNNEL[1]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
-shape:1:ball of fur
-shape:5:terrifying yeek
+value:1:MIGHT[-1]
+shape:1:oook
+shape:12:yook
+shape:24:yeek
 
 name:Ent
 skill-disarm-phys:-5
@@ -933,12 +935,12 @@ brand:50:50:CUT_2
 value:10:STEALTH[-1+-1d3]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
-shape:1:jackal form
-shape:10:wolf form
-shape:20:warg form
-shape:30:werewolf form
-shape:40:hellwolf form
-shape:50:volkodlak form
+shape:1:jackal_
+shape:10:wolf_
+shape:20:warg_
+shape:30:werewolf_
+shape:40:hellwolf_
+shape:50:volkodlak_
 
 name:Undead
 skill-disarm-phys:-15
@@ -1018,11 +1020,11 @@ value:50:SPEED[-1]
 value:1:MOVES[-1]
 value:1:STEALTH[0+1d24]
 player-flags:SHAPECHANGE
-shape:5:vampiric mist form
-shape:10:fruit bat form
-shape:20:vampire bat form
-shape:30:bat of Gorgoroth form
-shape:40:doombat form
+shape:5:vampiric mist_
+shape:10:fruit bat_
+shape:20:vampire bat_
+shape:30:bat of Gorgoroth_
+shape:40:doombat_
 
 ############################## GODLIKE
 # ? spirits.. of fire, elec, cold, 
@@ -1378,7 +1380,6 @@ skill-search:-5
 skill-melee:25
 skill-shoot:-15
 skill-dig:40
-#add one more HP (V is 13)
 hitdie:14
 exp:100:125
 history:100
@@ -1410,6 +1411,7 @@ slay:1:24:DRAGON_3
 slay:25:50:DRAGON_5
 obj-flag:1:NO_TELEPORT
 player-flags:SHAPECHANGE
+#regular forms
 shape:10:hill giant
 shape:15:frost giant
 shape:20:fire giant
@@ -1713,7 +1715,7 @@ value:1:DAM_RED[-1+-1d5]
 value:50:MOVES[-10]
 obj-flag:50:IMPAIR_HP
 
-name:Troglodite
+name:Troglodyte
 skill-disarm-phys:-10
 skill-disarm-magic:-20
 skill-device:-30
