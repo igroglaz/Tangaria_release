@@ -1863,7 +1863,7 @@ value:1:BLOWS[1]
 value:1:SHOTS[1]
 value:1:RES_LIGHT[1]
 value:35:RES_LIGHT[3]
-value:50:RES_MANA
+value:50:RES_MANA[1]
 value:1:DAM_RED[1d5]
 value:1:SPEED[-1+-1d40]
 value:1:RES_DARK[-1]

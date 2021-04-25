@@ -30451,7 +30451,8 @@ flags:ANIMAL | WEIRD_MIND
 desc:It is a black spider that moves in fits and starts.
 
 #name:wood spider
-base:s'weaver
+name:s'weaver
+base:spider
 color:U
 speed:112
 hit-points:40
@@ -30539,6 +30540,7 @@ flags:EVIL | ANIMAL | WEIRD_MIND
 flags:IM_POIS
 spell-freq:5
 spell-power:20
+innate-freq:50
 spells:BLINK | WEAVE
 desc:A strong and powerful spider. Cunning and evil, it
 desc: seeks to taste your juicy insides.
@@ -30565,6 +30567,7 @@ flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
 spell-freq:6
 spell-power:25
+innate-freq:50
 spells:BLINK | WEAVE | HOLD
 desc:An intelligent arachnid whose hairy legs weave spells in the air.
 
@@ -30616,6 +30619,7 @@ flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
 spell-freq:6
 spell-power:35
+innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND
 desc:An intelligent arachnid whose hairy legs weave spells in the air.
 
@@ -30641,6 +30645,7 @@ flags:EVIL | ANIMAL
 flags:WEIRD_MIND | HURT_LIGHT | IM_POIS
 spell-power:40
 spell-freq:5
+innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND
 desc:A massive spider, heaving the bloated bag of its body between great
 desc: spined legs.
@@ -30669,6 +30674,7 @@ flags:HURT_LIGHT | IM_POIS
 spell-freq:6
 spell-power:45
 innate-freq:13
+innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND
 spells:BR_POIS
 desc:A foul creature of spider form, older even than the pits of Angband.
@@ -30697,6 +30703,7 @@ flags:HURT_LIGHT | IM_FIRE | IM_POIS
 spell-freq:6
 spell-power:50
 innate-freq:13
+innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND | HEAL
 spells:BR_POIS | BR_DARK
 desc:A vast, bloated arachnid, master of its brood: among the more terrible of
