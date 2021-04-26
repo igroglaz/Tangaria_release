@@ -430,9 +430,9 @@ help: echoing in the dungeon passages.
 race:Spider
 help:Likes dark places...
 help: Most of intelligent spiders are also poisonous. Moving silently they could
-help: sneak up even to the most experience rangers. Some species could even posses
-help: magical powers. Their main drawback is vulnerable cover and their legs are
-help: easy to cut.
+help: sneak up even to the most experience rangers. Some elder species could even
+help: posses magical powers. Their main drawback is vulnerable cover and their 
+help: legs are easy to cut off.
 ####################################################################################
 race:Djinn
 help:Mythical magic creatures.
@@ -443,13 +443,13 @@ help: spatial fields, so they can not use teleportation which is vital for
 help: surviving in our deadly world... But djinny don't complain.
 ####################################################################################
 race:Harpy
-help:Winged humanoids with nasty temper. Can not be blinded, mature species could
+help:Winged humanoids with nasty temper. Can not be blinded; mature species could
 help: become quite speedy and perilous.
 ####################################################################################
 race:Minotaur
 help:Huge figure which got the body of a human and the head of a bull.
-help: Stubborn, but righteous; they don't like strangers prefering to live in
-help: mountain caverns. They are famours because of their strength and vitality.
+help: Stubborn, but righteous. Prefering to live in mountain caverns, they don't
+help: like strangers there. They are famours because of their strength and vitality.
 ####################################################################################
 race:Troglodite
 help:One of the cave little folk. Always hungry, but not necessary evil.
@@ -459,7 +459,7 @@ help: to the surface long time ago, where they partly adapted to it's conditions
 race:Naga
 help:Humanoids who got snake-like tails in place of legs.
 help: Their womans are exeptionally beautiful and known to be desired brides not
-help: only for their own kind. They moves not so fast, but can not be stopped or
+help: only for their own kind. They crawl not too fast, but can not be stopped or
 help: paralyzed. They got lightning fast reflexes which gives them possibility
 help: to make an extra blow in the battle.
 ####################################################################################
@@ -469,28 +469,30 @@ help: all day long.
 ####################################################################################
 race:Lizardmen
 help:Reptilian humanoids who lives in southeren bogs. They got outgrowths on their
-help: skin which gives they some extra protection. Quite mediocre in everything,
+help: skin which gives them some extra protection. Quite mediocre in everything,
 help: they are known for possiblity to regenerate fast; even in the battle.
 ####################################################################################
 race:Wisp
 help:Mysterious creature woven out bright light. They do not speak, but use
 help: telepathy to transport their thought to other creatures minds. Though
 help: they do not possess ability to invade other's minds unbidden, as their minds
-help: are very unadulterated; though mature wisps could feel presence of evil.
+help: are very unadulterated; though mature wisps can feel presence of evil beings.
 help: They are quite bad in physical interaction which makes them quite loosy
-help: fighters.
-help: They  are very resistant to raw magic and even could become immune to light.
-help: At the same time they don't move fast and prefer carry on without haste.
+help: fighters, but they are very resistant to raw magic and even could become
+help: immune to light. At the same time they don't move fast and prefer carry on
+help: without haste.
 ####################################################################################
 race:Imp
-help:Imps - small creatures with bright red skin. They do not fear fire, but
+help:Imps - small creatures with reddish skin. They do not fear fire, but
 help: don't like frost. They came not from the hell, but from other dimension which
 help: were destroyed long time ago. Weak, but pretty fast and stealthy.
 ####################################################################################
 race:Wraith
-help:Magic emanation of dead who've chosen to stay in out world.
-help: They can not teleport, but could move through certain walls and objects.
+help:Magic emanation of dead who ought to stay in mortal world as bodiless spirits.
+help: They can not teleport, but could move through walls.
 ####################################################################################
 race:Beholder
-help:Floating eyes with dangerous magical powers.
+help:Intelligent floating in air orb-shaped eyes. They got several tentacle 
+help: eyestalks which gives the capacity to see in all directions at once.
+help: As they develop in time, they could get obtain magic powers.
 ####################################################################################
