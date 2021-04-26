@@ -29943,10 +29943,13 @@ sleepiness:10
 #1
 depth:8
 rarity:0
-weight:80
+weight:1
 experience:11
+blow:HIT:HURT:1d2
 flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
-spell-freq:9
+flags:NO_STUN | NO_CONF | NO_SLEEP
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+spell-freq:34
 spell-power:1
 spells:HEAL
 desc:Small and shivering.
@@ -29964,16 +29967,19 @@ sleepiness:10
 #12
 depth:8
 rarity:0
-weight:80
+weight:1
 experience:11
+blow:HIT:HURT:1d4
 flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
+flags:NO_STUN | NO_CONF | NO_SLEEP
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 spell-power:5
-spell-freq:9
+spell-freq:34
 spells:HEAL | BLINK
 desc:It's time to run! RUN! RUUUUUN!
 
 #name:master yeek
-name:yeek
+name:yaak
 base:yeek
 color:U
 speed:100
@@ -29985,14 +29991,16 @@ sleepiness:10
 #24
 depth:12
 rarity:0
-weight:60
+weight:1
 experience:28
 blow:HIT:HURT:1d8
 flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
+flags:NO_STUN | NO_CONF | NO_SLEEP
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 spell-power:10
-spell-freq:9
+spell-freq:34
 spells:HEAL | BLINK | TPORT
-desc:A small humanoid that radiates some power.
+desc:A small ball of fur that radiates desire to run away.
 
 #///////////   ENT
 
@@ -30008,9 +30016,9 @@ armor-class:30
 sleepiness:20
 depth:1
 rarity:0
-weight:0
+weight:1
 experience:4
-blow:CRUSH:HURT:1d5
+blow:CRUSH:HURT:1d10
 flags:WEIRD_MIND
 flags:IM_COLD | NEVER_MOVE
 desc:They say that staying near lonely tree at thunderstorm could be dangerous
@@ -30074,7 +30082,7 @@ depth:14
 rarity:0
 weight:70
 experience:40
-blow:BITE:HURT:1d8
+blow:BITE:HURT:1d10
 flags:RAND_25 | EVIL
 flags:HURT_LIGHT
 desc:It is a large wolf with eyes full of cunning.
@@ -30115,7 +30123,7 @@ sleepiness:10
 #40
 depth:42
 rarity:0
-weight:60
+weight:75
 experience:600
 blow:BITE:FIRE:3d12
 blow:BITE:FIRE:3d12
@@ -30123,7 +30131,7 @@ blow:BITE:FIRE:3d12
 flags:IM_FIRE | NO_FEAR
 flags:RAND_25 | EVIL
 flags:HURT_LIGHT
-spell-freq:5
+spell-freq:34
 innate-freq:100
 spells:BR_FIRE
 desc:It is a giant wolf that glows with heat. Flames pour from its nostrils.
@@ -30133,21 +30141,22 @@ name:volkodlak_
 base:canine
 color:G
 #!
-speed:110
+speed:120
 hit-points:1200
 hearing:30
 smell:50
 #!
-armor-class:30
+armor-class:130
 sleepiness:5
 #50
 depth:63
 rarity:0
-weight:60
+weight:80
 experience:4000
 blow:BITE:EXP_20:2d4
 blow:CLAW:POISON:4d10
 blow:CLAW:POISON:4d10
+#IM_NETHER converted to 'hold life' meh
 flags:IM_POIS | IM_NETHER
 flags:HURT_LIGHT | HURT_COLD | HURT_FIRE
 flags:NO_FEAR | NO_CONF | NO_SLEEP
@@ -30168,7 +30177,7 @@ sleepiness:30
 #5
 depth:22
 rarity:0
-weight:0
+weight:1
 experience:40
 blow:ENGULF:EXP_20:1d6
 blow:ENGULF:EXP_20:1d6
@@ -30204,7 +30213,7 @@ sleepiness:10
 #20
 depth:24
 rarity:0
-weight:0
+weight:1
 experience:150
 blow:BITE:EXP_40:1d4
 blow:BITE:EXP_40:1d4
@@ -30234,7 +30243,7 @@ flags:RAND_25 | BASH_DOOR | MOVE_BODY
 flags:IM_POIS
 flags:HURT_LIGHT
 spell-freq:8
-innate-freq:67
+innate-freq:34
 spells:SCARE
 spells:BR_POIS
 desc:Fed with horrid meats and grown to enormous size, this slavering creature
@@ -30277,13 +30286,13 @@ armor-class:84
 sleepiness:15
 depth:35
 rarity:0
-weight:1400
+weight:10
 experience:500
 blow:TOUCH:LOSE_WIS
 blow:TOUCH:EXP_40:3d4
 blow:TOUCH:SEDUCE
 flags:FEMALE | SMART
-spell-freq:9
+spell-freq:34
 spells:DARKNESS | FORGET | HEAL | TELE_TO | TPORT
 desc:A daemon with a form of beautiful woman, she visits you while asleep and...
 
@@ -30301,7 +30310,7 @@ sleepiness:70
 #1
 depth:5
 rarity:0
-weight:175
+weight:80
 experience:15
 blow:CLAW:HURT:1d3
 blow:SPIT:FIRE:1d4
@@ -30325,7 +30334,7 @@ sleepiness:70
 depth:9
 #10
 rarity:0
-weight:400
+weight:90
 experience:35
 blow:CLAW:HURT:1d3
 blow:SPIT:FIRE:1d5
@@ -30351,7 +30360,7 @@ sleepiness:70
 #20
 depth:28
 rarity:0
-weight:2000
+weight:120
 experience:500
 blow:CLAW:HURT:2d4
 blow:SPIT:FIRE:3d6
@@ -30377,7 +30386,7 @@ sleepiness:70
 #30
 depth:34
 rarity:0
-weight:11000
+weight:150
 experience:1200
 blow:CLAW:HURT:2d8
 blow:SPIT:FIRE:4d8
@@ -30402,7 +30411,7 @@ sleepiness:80
 #40
 depth:40
 rarity:0
-weight:17000
+weight:175
 experience:5000
 blow:CLAW:HURT:4d8
 blow:SPIT:FIRE:7d8
@@ -30427,7 +30436,7 @@ sleepiness:30
 depth:63
 #50
 rarity:0
-weight:19000
+weight:200
 experience:20000
 blow:CLAW:HURT:4d12
 blow:CLAW:HURT:4d12
@@ -30455,10 +30464,10 @@ sleepiness:80
 #1
 depth:2
 rarity:0
-weight:0
+weight:1
 experience:7
 blow:BITE:HURT:1d4
-flags:ANIMAL | WEIRD_MIND
+flags:ANIMAL
 desc:It is a black spider that moves in fits and starts.
 
 #name:wood spider
@@ -30473,13 +30482,13 @@ sleepiness:80
 #5
 depth:7
 rarity:0
-weight:0
+weight:1
 experience:15
 blow:BITE:HURT:1d3
 blow:STING:POISON:1d4
-flags:ANIMAL | WEIRD_MIND
+flags:ANIMAL
 flags:IM_POIS
-spell-freq:3
+spell-freq:34
 innate-freq:100
 spells:WEAVE
 desc:It scuttles around weaving spider silk.
@@ -30496,13 +30505,13 @@ sleepiness:40
 #10
 depth:10
 rarity:0
-weight:0
+weight:1
 experience:35
 blow:BITE:HURT:1d10
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:HURT:1d10
-flags:ANIMAL | WEIRD_MIND
+flags:ANIMAL
 flags:IM_POIS
 desc:It is a vast black spider with bulbous bloated body.
 
@@ -30518,14 +30527,14 @@ sleepiness:20
 #15
 depth:15
 rarity:0
-weight:0
+weight:1
 experience:70
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
-flags:ANIMAL | WEIRD_MIND
+flags:ANIMAL
 flags:IM_POIS
-spell-freq:3
+spell-freq:34
 innate-freq:100
 spells:WEAVE
 desc:A giant, fast-moving spider with hairy black and red legs.
@@ -30542,14 +30551,14 @@ sleepiness:80
 #20
 depth:20
 rarity:0
-weight:0
+weight:1
 experience:25
 blow:BITE:HURT:1d8
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
-flags:EVIL | ANIMAL | WEIRD_MIND
+flags:EVIL | ANIMAL
 flags:IM_POIS
-spell-freq:5
+spell-freq:34
 spell-power:20
 innate-freq:50
 spells:BLINK | WEAVE
@@ -30568,15 +30577,15 @@ sleepiness:50
 # 25
 depth:38
 rarity:0
-weight:0
+weight:1
 experience:250
 blow:STING:POISON:2d8
 blow:CLAW:HURT:1d8
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL | SMART
+flags:EVIL | ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
-spell-freq:6
+spell-freq:34
 spell-power:25
 innate-freq:50
 spells:BLINK | WEAVE | HOLD
@@ -30593,16 +30602,16 @@ sleepiness:50
 # 30
 depth:38
 rarity:0
-weight:0
+weight:1
 experience:250
 blow:CLAW:POISON:2d8
 blow:CLAW:POISON:2d8
 blow:BITE:POISON:2d6
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL | SMART
+flags:EVIL | ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
-spell-freq:6
+spell-freq:34
 spell-power:30
 innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF
@@ -30619,16 +30628,16 @@ sleepiness:50
 # 35
 depth:38
 rarity:0
-weight:0
+weight:1
 experience:250
 blow:CLAW:POISON:2d8
 blow:CLAW:POISON:2d8
 blow:BITE:POISON:2d6
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL | SMART
+flags:EVIL | ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
-spell-freq:6
+spell-freq:34
 spell-power:35
 innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND
@@ -30646,7 +30655,7 @@ sleepiness:50
 # 40
 depth:38
 rarity:0
-weight:0
+weight:1
 experience:250
 blow:CLAW:HURT:2d8
 blow:STING:POISON:2d6
@@ -30655,7 +30664,7 @@ blow:BITE:CONFUSE:1d3
 flags:EVIL | ANIMAL
 flags:WEIRD_MIND | HURT_LIGHT | IM_POIS
 spell-power:40
-spell-freq:5
+spell-freq:34
 innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND
 desc:A massive spider, heaving the bloated bag of its body between great
@@ -30673,18 +30682,17 @@ sleepiness:50
 # 45
 depth:48
 rarity:0
-weight:0
+weight:1
 experience:2500
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
 blow:BITE:EAT_LIGHT:5d6
-flags:EVIL | ANIMAL | SMART
+flags:EVIL | ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
-spell-freq:6
+spell-freq:34
 spell-power:45
-innate-freq:13
 innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND
 spells:BR_POIS
@@ -30702,7 +30710,7 @@ sleepiness:50
 # 50
 depth:48
 rarity:0
-weight:0
+weight:1
 experience:3000
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
@@ -30711,9 +30719,8 @@ blow:BITE:EAT_LIGHT:5d6
 flags:EVIL | ANIMAL | SMART
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_FIRE | IM_POIS
-spell-freq:6
+spell-freq:34
 spell-power:50
-innate-freq:13
 innate-freq:50
 spells:BLINK | WEAVE | HOLD | CONF | BLIND | WOUND | HEAL
 spells:BR_POIS | BR_DARK
@@ -30736,7 +30743,7 @@ sleepiness:10
 #1
 depth:3
 rarity:0
-weight:0
+weight:1
 experience:8
 blow:TOUCH:TERRIFY:1d2
 flags:RAND_25 | RAND_50
@@ -30756,7 +30763,7 @@ sleepiness:10
 #10
 depth:12
 rarity:0
-weight:0
+weight:1
 experience:44
 blow:WAIL:TERRIFY
 blow:TOUCH:LOSE_DEX:1d4
@@ -30776,7 +30783,7 @@ sleepiness:10
 #20
 depth:24
 rarity:0
-weight:0
+weight:1
 experience:60
 blow:WAIL:TERRIFY
 blow:TOUCH:EXP_20:1d8
@@ -30796,14 +30803,14 @@ sleepiness:10
 #30
 depth:31
 rarity:0
-weight:0
+weight:1
 experience:350
 blow:WAIL:TERRIFY
 blow:TOUCH:EXP_20
 blow:CLAW:LOSE_INT:1d6
 blow:CLAW:LOSE_WIS:1d6
 flags:RAND_25
-spell-freq:15
+spell-freq:34
 spells:BLINK
 desc:You don't believe in it. But it believes in you...
 
@@ -30820,14 +30827,14 @@ sleepiness:20
 #40
 depth:40
 rarity:0
-weight:0
+weight:1
 experience:400
 blow:TOUCH:EXP_80
 blow:TOUCH:EXP_40
 blow:CLAW:LOSE_INT:2d8
 blow:CLAW:LOSE_WIS:2d8
 flags:RAND_25
-spell-freq:15
+spell-freq:51
 spells:BLINK | SCARE
 desc:An unholy creature of darkness, the aura emanating from this evil being
 desc: saps your very soul.
@@ -30846,14 +30853,14 @@ sleepiness:20
 #50
 depth:50
 rarity:0
-weight:0
+weight:1
 experience:800
 blow:TOUCH:EXP_80
 blow:TOUCH:EXP_40
 blow:CLAW:LOSE_INT:3d10
 blow:CLAW:LOSE_WIS:3d10
 flags:RAND_25
-spell-freq:15
+spell-freq:51
 spells:BLINK | SCARE | CONF
 desc:A mighty spirit of darkness of vaguely humanoid form. Razor-edged claws
 desc: reach out to end your life as it glides towards you, seeking to suck the
@@ -30872,12 +30879,13 @@ sleepiness:10
 #1
 depth:1
 rarity:0
-weight:50
+weight:1
 experience:1
 blow:GAZE:PARALYZE
+#empty mind should disable ESP  | EMPTY_MIND
 flags:NEVER_MOVE | NEVER_BLOW
 flags:HURT_LIGHT | NO_FEAR
-spell-freq:5
+spell-freq:34
 spells:MIND_BLAST | HOLD
 desc:A disembodied eye, floating a few feet above the ground.
 
@@ -30892,12 +30900,12 @@ sleepiness:10
 #10
 depth:5
 rarity:0
-weight:50
+weight:1
 experience:20
 blow:GAZE:DISENCHANT
 flags:NEVER_MOVE
-flags:HURT_LIGHT | IM_DISEN | NO_FEAR
-spell-freq:5
+flags:HURT_LIGHT | IM_DISEN | NO_FEAR | SMART
+spell-freq:1
 spells:MIND_BLAST | HOLD | BLIND
 desc:A disembodied eye, crackling with magic.
 
@@ -30912,13 +30920,13 @@ sleepiness:10
 #20
 depth:18
 rarity:0
-weight:60
+weight:1
 experience:80
 blow:GAZE:EXP_10
 blow:GAZE:EXP_10
-flags:NEVER_MOVE | NEVER_BLOW
+flags:NEVER_MOVE | NEVER_BLOW | SMART
 flags:HURT_LIGHT | NO_FEAR
-spell-freq:5
+spell-freq:34
 spells:MIND_BLAST | HOLD | BLIND | CONF
 desc:A huge disembodied eye. As you stare into the black nothingness of its
 desc: pupil, you feel your will and vitality draining away, and are unable to do
@@ -30935,14 +30943,14 @@ sleepiness:30
 #30
 depth:28
 rarity:0
-weight:160
+weight:1
 experience:150
 blow:GAZE:PARALYZE:1d4
 blow:GAZE:CONFUSE:1d4
 blow:BITE:HURT:1d8
-flags:NEVER_MOVE | NEVER_BLOW
+flags:NEVER_MOVE | NEVER_BLOW | SMART
 flags:HURT_LIGHT | NO_FEAR | NO_CONF | NO_SLEEP
-spell-freq:5
+spell-freq:51
 spells:MIND_BLAST | HOLD | BLIND | CONF | SCARE
 desc:A lesser relative of the beholder: a globular body with a large toothy
 desc: mouth, a large central eye, and four smaller eyes on stalks protruding
@@ -30960,15 +30968,15 @@ sleepiness:10
 #40
 depth:40
 rarity:0
-weight:160
+weight:1
 experience:6000
 blow:GAZE:EXP_20:2d6
 blow:GAZE:DRAIN_CHARGES:2d6
 blow:GAZE:FORGET:2d6
 blow:BITE:HURT:6d6
 flags:NEVER_MOVE | NEVER_BLOW
-flags:HURT_LIGHT | NO_CONF | NO_SLEEP
-spell-freq:5
+flags:HURT_LIGHT | NO_CONF | NO_SLEEP | SMART
+spell-freq:100
 spells:MIND_BLAST | HOLD | BLIND | CONF | SCARE | SLOW
 desc:A vile creature with one huge central eye, twelve smaller eyes on stalks,
 desc: and a huge mouth filled with sharp teeth.
@@ -30985,15 +30993,15 @@ sleepiness:10
 #50
 depth:56
 rarity:0
-weight:0
+weight:1
 experience:10000
 blow:GAZE:EXP_20:6d6
 blow:GAZE:DRAIN_CHARGES:6d6
 blow:GAZE:FORGET:6d6
 blow:GAZE:PARALYZE:6d6
 flags:NEVER_MOVE | NEVER_BLOW
-flags:HURT_LIGHT | NO_CONF | NO_SLEEP
-spell-freq:5
+flags:HURT_LIGHT | NO_CONF | NO_SLEEP | SMART
+spell-freq:100
 spells:MIND_BLAST | HOLD | BLIND | CONF | SCARE | SLOW
 desc:A weird bloodshot disembodied eye, floating a few feet above the ground.
 desc:It blinks slowly and menacily.
