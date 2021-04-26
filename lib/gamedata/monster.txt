@@ -29938,7 +29938,7 @@ speed:100
 hit-points:20
 hearing:18
 smell:20
-armor-class:30
+armor-class:20
 sleepiness:10
 #1
 depth:8
@@ -29959,7 +29959,7 @@ speed:100
 hit-points:100
 hearing:18
 smell:20
-armor-class:21
+armor-class:35
 sleepiness:10
 #12
 depth:8
@@ -29980,7 +29980,7 @@ speed:100
 hit-points:220
 hearing:18
 smell:20
-armor-class:28
+armor-class:60
 sleepiness:10
 #24
 depth:12
@@ -30004,7 +30004,7 @@ speed:100
 hit-points:40
 light:-2
 hearing:40
-armor-class:50
+armor-class:30
 sleepiness:20
 depth:1
 rarity:0
@@ -30138,7 +30138,7 @@ hit-points:1200
 hearing:30
 smell:50
 #!
-armor-class:40
+armor-class:30
 sleepiness:5
 #50
 depth:63
@@ -30161,9 +30161,9 @@ name:vampiric mist_
 base:mist
 color:s
 speed:110
-hit-points:45
+hit-points:22
 hearing:12
-armor-class:66
+armor-class:33
 sleepiness:30
 depth:22
 rarity:0
@@ -30171,7 +30171,7 @@ weight:0
 experience:40
 blow:ENGULF:EXP_20:1d6
 blow:ENGULF:EXP_20:1d6
-flags:UNDEAD | PWMANG_BASE
+flags:UNDEAD
 flags:NO_SLEEP | NO_STUN
 desc:A cloud of evil, sentient mist.
 
@@ -30264,8 +30264,9 @@ desc: flickering bright red flames.
 name:succubi
 base:major demon
 color:I
-speed:115
-hit-points:98
+speed:116
+#hit-points:98
+hit-points:198
 hearing:50
 armor-class:84
 sleepiness:15
@@ -30737,7 +30738,8 @@ name:echo
 base:ghost
 color:u
 speed:110
-hit-points:23
+#hit-points:23
+hit-points:66
 hearing:14
 armor-class:24
 sleepiness:10
@@ -30756,7 +30758,8 @@ name:imprint
 base:ghost
 color:b
 speed:110
-hit-points:27
+#hit-points:27
+hit-points:144
 hearing:20
 armor-class:28
 sleepiness:10
@@ -30775,7 +30778,8 @@ name:spectral
 base:ghost
 color:w
 speed:110
-hit-points:59
+#hit-points:59
+hit-points:233
 hearing:20
 armor-class:36
 sleepiness:10
@@ -30798,7 +30802,8 @@ name:spirit
 base:ghost
 color:P
 speed:110
-hit-points:175
+#hit-points:175
+hit-points:333
 hearing:30
 armor-class:36
 sleepiness:20
@@ -30822,7 +30827,8 @@ name:wraith'
 base:ghost
 color:D
 speed:110
-hit-points:260
+#hit-points:260
+hit-points:555
 light:-2
 hearing:30
 armor-class:36
