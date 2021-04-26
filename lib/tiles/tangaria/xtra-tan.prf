@@ -213,9 +213,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Warrior] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Warrior] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Warrior] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -450,9 +450,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Mage] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Mage] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Mage] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Mage] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -684,9 +684,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Druid] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Druid] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Druid] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Druid] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -918,9 +918,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Priest] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Priest] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Priest] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Priest] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -1152,9 +1152,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Necromancer] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Necromancer] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Necromancer] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -1386,9 +1386,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Paladin] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Paladin] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Paladin] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -1620,9 +1620,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Rogue] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Rogue] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Rogue] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -1854,9 +1854,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Ranger] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Ranger] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Ranger] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -2088,9 +2088,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Blackguard] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Blackguard] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Blackguard] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -2322,9 +2322,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Sorceror] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Sorceror] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Sorceror] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -2556,9 +2556,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Unbeliever] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -2790,9 +2790,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Hunter] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Hunter] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Hunter] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -3024,9 +3024,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Monk] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Monk] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Monk] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Monk] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -3258,9 +3258,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Telepath] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Telepath] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Telepath] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -3492,9 +3492,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Elementalist] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Elementalist] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Elementalist] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -3726,9 +3726,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Summoner] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Summoner] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Summoner] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -3960,9 +3960,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Shapechanger] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -4195,9 +4195,9 @@ RF:<player>:0x97:0x9F
 monster:<player>:0x97:0xA0
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Minotaur] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA0
-?:[AND [EQU $CLASS Archer] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Troglodyte] ]
 monster:<player>:0x97:0xA1
-?:[AND [EQU $CLASS Archer] [EQU $RACE Troglodite] [EQU $GENDER Female] ]
+?:[AND [EQU $CLASS Archer] [EQU $RACE Troglodyte] [EQU $GENDER Female] ]
 RF:<player>:0x97:0xA1
 ?:[AND [EQU $CLASS Archer] [EQU $RACE Naga] ]
 monster:<player>:0x97:0xA2
@@ -4332,7 +4332,7 @@ monster:<player>:0x94:0x98
 monster:<player>:0x94:0x98
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Minotaur] ]
 monster:<player>:0x94:0x98
-?:[AND [EQU $CLASS Ghost] [EQU $RACE Troglodite] ]
+?:[AND [EQU $CLASS Ghost] [EQU $RACE Troglodyte] ]
 monster:<player>:0x94:0x98
 ?:[AND [EQU $CLASS Ghost] [EQU $RACE Naga] ]
 monster:<player>:0x94:0x98
