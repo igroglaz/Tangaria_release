@@ -1323,7 +1323,7 @@ value:1:INT[4]
 value:1:WIS[4]
 value:1:DEX[9]
 #replace with LIFE
-value:1:CON[-4+5d20M21]
+value:1:CON[-4+7d20M21]
 #######CHA:6
 value:1:INFRA[1+1d15]
 value:1:SPEED[1+1d12]
@@ -1332,6 +1332,8 @@ player-flags:BEAM
 ######perfect success rate with magic
 player-flags:ZERO_FAIL 
 obj-flag:1:FEATHER
+value:20:BLOWS[-1]
+value:20:MIGHT[-1]
 ######giving them a chance to use less spell points when they cast a spell, probably based upon their primary spell stat, (i.e., int or wis)
 #######some type of innate survival spells that they can cast every so often (like a built-in rod), things like phase door, teleport, etc.
 
