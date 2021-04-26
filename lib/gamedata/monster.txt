@@ -29945,7 +29945,7 @@ depth:8
 rarity:0
 weight:80
 experience:11
-flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE
+flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
 spell-freq:9
 spell-power:1
 spells:HEAL
@@ -29966,7 +29966,7 @@ depth:8
 rarity:0
 weight:80
 experience:11
-flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE
+flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
 spell-power:5
 spell-freq:9
 spells:HEAL | BLINK
@@ -29988,7 +29988,7 @@ rarity:0
 weight:60
 experience:28
 blow:HIT:HURT:1d8
-flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE
+flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
 spell-power:10
 spell-freq:9
 spells:HEAL | BLINK | TPORT
@@ -30163,8 +30163,9 @@ color:s
 speed:110
 hit-points:22
 hearing:12
-armor-class:33
+armor-class:40
 sleepiness:30
+#5
 depth:22
 rarity:0
 weight:0
@@ -30183,6 +30184,7 @@ hit-points:4
 hearing:20
 armor-class:3
 sleepiness:10
+#10
 depth:1
 rarity:0
 weight:2
@@ -30199,6 +30201,7 @@ hit-points:50
 hearing:12
 armor-class:60
 sleepiness:10
+#20
 depth:24
 rarity:0
 weight:0
@@ -30219,6 +30222,7 @@ hit-points:110
 hearing:20
 armor-class:36
 sleepiness:30
+#30
 depth:28
 rarity:0
 weight:15
@@ -30245,6 +30249,7 @@ light:2
 hearing:16
 armor-class:112
 sleepiness:20
+#40
 depth:32
 rarity:0
 weight:15
@@ -30288,7 +30293,7 @@ desc:A daemon with a form of beautiful woman, she visits you while asleep and...
 name:newborn dracon
 base:dragon
 color:t
-speed:110
+speed:112
 hit-points:25
 hearing:20
 armor-class:24
@@ -30312,7 +30317,7 @@ desc: scales without particular color.
 name:baby dracon
 base:dragon
 color:g
-speed:108
+speed:112
 hit-points:80
 hearing:20
 armor-class:36
@@ -30327,9 +30332,10 @@ blow:SPIT:FIRE:1d5
 blow:BITE:HURT:1d3
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:10
+spell-power:1
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:This hatchling dracon is still soft, its eyes unaccustomed to light and its
 desc: scales a sickly green.
 
@@ -30337,7 +30343,7 @@ desc: scales a sickly green.
 name:young dracon
 base:dragon
 color:g
-speed:106
+speed:112
 hit-points:150
 hearing:20
 armor-class:60
@@ -30352,9 +30358,10 @@ blow:SPIT:FIRE:3d6
 blow:BITE:HURT:2d4
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:20
+spell-power:10
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:It has a form that legends are made of. Its still-tender scales are a deep
 desc: green in hue.
 
@@ -30362,7 +30369,7 @@ desc: green in hue.
 name:mature dracon
 base:dragon
 color:g
-speed:104
+speed:112
 hit-points:300
 hearing:20
 armor-class:84
@@ -30377,16 +30384,17 @@ blow:SPIT:FIRE:4d8
 blow:BITE:HURT:2d8
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:30
+spell-power:15
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:A large dracon, scales tinted deep green.
 
 #name:ancient green dragon
 name:ancient dracon
 base:ancient dragon
 color:g
-speed:102
+speed:112
 hit-points:600
 hearing:20
 armor-class:120
@@ -30401,16 +30409,17 @@ blow:SPIT:FIRE:7d8
 blow:BITE:HURT:4d8
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:40
+spell-power:20
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:A huge draconic form enveloped in beautiful green scale.
 
 #name:great swamp wyrm
 name:great dracon
 base:ancient dragon
 color:g
-speed:100
+speed:112
 hit-points:1168
 hearing:30
 armor-class:180
@@ -30426,9 +30435,10 @@ blow:BITE:HURT:6d14
 blow:SPIT:FIRE:6d14
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:50
+spell-power:25
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:A truly enormous dracon.
 
 #///////////   Spider
@@ -30458,7 +30468,7 @@ color:U
 speed:112
 hit-points:40
 hearing:8
-armor-class:19
+armor-class:25
 sleepiness:80
 #5
 depth:7
@@ -30856,7 +30866,7 @@ base:eye
 color:o
 speed:110
 hit-points:20
-hearing:2
+hearing:1
 armor-class:10
 sleepiness:10
 #1
