@@ -401,10 +401,11 @@ player-flags:FAST_THROW
 value:1:TUNNEL[1]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
-value:1:MIGHT[-1]
 shape:1:oook
 shape:12:yook
 shape:24:yeek
+#temp
+value:1:SPEED[1]
 
 name:Ent
 skill-disarm-phys:-5
@@ -450,6 +451,8 @@ obj-flag:40:IMPAIR_HP
 player-flags:GIANT
 player-flags:SHAPECHANGE
 shape:1:sleepy ent
+#temp
+value:1:BLOWS[1+-1d30]
 
 #got hardcoded full ESP with expanding radius
 name:Thunderlord
@@ -484,6 +487,8 @@ value:40:RES_ELEC[1]
 value:1:DAM_RED[0+-1d9]
 value:50:MANA[-1]
 player-flags:THUNDERLORD
+#temp
+value:1:SPEED[1]
 
 #dragon got 1/2 bonuses from dragons which form they take
 name:Dragon
@@ -586,7 +591,7 @@ name:Damned
 skill-disarm-phys:-5
 skill-disarm-magic:-5
 skill-device:-5
-skill-save:6
+skill-save:20
 skill-stealth:-1
 skill-search:10
 skill-melee:-5
@@ -602,10 +607,10 @@ value:1:STR[-1+-1d27]
 value:1:INT[-1+-1d27]
 value:1:WIS[-1+-1d27]
 value:1:DEX[-1+-1d27]
-value:1:CON[-1+-1d27]
-obj-flag:25:HOLD_LIFE
-obj-flag:15:REGEN
+value:1:CON[0]
 value:1:RES_TIME[1]
+obj-flag:15:REGEN
+obj-flag:25:HOLD_LIFE
 
 name:Merfolk
 skill-disarm-phys:-2
@@ -623,8 +628,8 @@ history:100
 age:14:6
 height:67:5
 weight:165:23
-#-1 0 2 1 -1
-value:1:STR[-1]
+#0 0 2 1 -1
+value:1:STR[-1+1d27]
 value:1:INT[-1+1d20M21]
 value:1:WIS[0+1d24]
 value:1:DEX[-1+1d24]
@@ -632,6 +637,8 @@ value:1:CON[-3+1d24]
 value:1:INFRA[1+1d7]
 value:25:RES_WATER[1]
 value:1:TUNNEL[-1+-1d15]
+#temp:
+obj-flag:1:FEATHER
 
 name:Barbarian
 skill-disarm-phys:-2
@@ -743,12 +750,14 @@ value:1:DEX[-2]
 value:1:CON[1+1d24]
 obj-flag:10:SUST_STR
 obj-flag:50:TRAP_IMMUNE
+obj-flag:24:PROT_CONF
+obj-flag:48:PROT_STUN
 #value:1:SPEED[-1+-1d30]
 value:1:MOVES[5+5d10]
 value:1:BLOWS[1]
 value:30:RES_GRAVITY[1]
 brand:1:50:STUN_1
-value:1:DAM_RED[2+1d10]
+value:0:DAM_RED[0+1d4]
 slay:1:50:DRAGON_3
 #########################obj-flag:1:NO_TELEPORT
 obj-flag:1:LIMITED_TELE
@@ -778,7 +787,7 @@ value:1:WIS[-5+1d12]
 value:1:DEX[0+-1d30M32]
 value:1:CON[1+1d15M32]
 value:1:INFRA[1+1d7]
-value:1:MOVES[-10]
+value:1:MOVES[-9]
 value:1:STEALTH[0+1d24]
 obj-flag:1:SUST_INT
 value:1:TUNNEL[1]
@@ -833,10 +842,10 @@ history:100
 age:11:4
 height:63:4
 weight:125:5
-#1 -1 -1 1 1
+#1 -1 0 1 1
 value:1:STR[1]
 value:1:INT[-1]
-value:1:WIS[-1]
+value:1:WIS[-1+1d45]
 value:1:DEX[1]
 value:1:CON[1]
 value:1:INFRA[2+1d10M35]
@@ -932,7 +941,7 @@ value:1:RES_LIGHT[-1]
 value:50:SPEED[1]
 brand:15:49:CUT_1
 brand:50:50:CUT_2
-value:10:STEALTH[-1+-1d3]
+value:10:STEALTH[-1+-1d15]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
 shape:1:jackal_
@@ -1002,7 +1011,7 @@ value:0:STR[-3+1d9]
 value:0:INT[-5+1d7]
 value:0:WIS[-5+1d12]
 value:0:DEX[-3+1d9]
-value:0:CON[-7+1d7]
+value:0:CON[-5+1d9]
 value:0:INFRA[0+1d3]
 obj-flag:1:PROT_FEAR
 obj-flag:5:FEATHER
@@ -1016,7 +1025,9 @@ value:50:RES_TIME[1]
 brand:1:50:VAMPIRIC
 value:1:DAM_RED[-1+-1d15]
 value:1:TUNNEL[-1+-1d30]
-value:50:SPEED[-1]
+#temp
+value:1:SPEED[1+-2d48]
+#value:50:SPEED[-1]
 value:1:MOVES[-1]
 value:1:STEALTH[0+1d24]
 player-flags:SHAPECHANGE
@@ -1025,6 +1036,7 @@ shape:10:fruit bat_
 shape:20:vampire bat_
 shape:30:bat of Gorgoroth_
 shape:40:doombat_
+
 
 ############################## GODLIKE
 # ? spirits.. of fire, elec, cold, 
@@ -1070,9 +1082,11 @@ value:1:RES_DARK[-1]
 value:50:RES_TIME[1]
 brand:1:50:COLD_2
 slay:50:50:EVIL_2
-value:50:BLOWS[-1]
 value:50:MIGHT[-1]
 value:50:MANA[-1]
+#value:50:BLOWS[-1]
+#temp
+value:1:SPEED[1]
 
 # 'corrupted' descendants of ancient powers;
 # re Demonic
@@ -1120,6 +1134,8 @@ value:1:DAM_RED[-1+-1d2]
 #######obj-flag:10:DRAIN_EXP
 player-flags:SHAPECHANGE
 shape:30:succubi
+#temp
+value:1:SPEED[1]
 
 # re Angel.. Half-Angel
 # Some people call them ‘angels’, but they are not kind and helpful 
@@ -1164,6 +1180,8 @@ value:1:MOVES[-1]
 value:1:TUNNEL[-1+-1d10]
 obj-flag:50:IMPAIR_MANA
 slay:50:50:UNDEAD_3
+#temp
+value:1:SPEED[1]
 
 #Balrog – undeground ancient ‘race’ or some would call them as a ‘force’; in eternal war with dragons;
 name:Balrog
@@ -1177,7 +1195,7 @@ skill-melee:0
 skill-shoot:-5
 skill-dig:0
 #add one more HP (V is 13)
-hitdie:11
+hitdie:12
 exp:100:125
 history:100
 age:11:4
@@ -1204,6 +1222,8 @@ value:50:RES_FIRE[3]
 brand:1:50:FIRE_2
 brand:40:50:FIRE_3
 obj-flag:1:AGGRAVATE
+#temp
+value:1:SPEED[1]
 
 #Nephalem – example what could appear if celestial would make love to balrog. Amazingly it happens sometimes, so such creatures could be met.. very-very rare, but there they are.
 name:Nephalem
@@ -1371,6 +1391,8 @@ shape:30:mature dracon
 shape:40:ancient dracon
 shape:50:great dracon
 slay:50:50:GIANT_3
+#temp
+value:1:SPEED[1]
 
 name:Titan
 skill-disarm-phys:-50
@@ -1502,6 +1524,8 @@ value:35:SPEED[-1+-1d3]
 value:35:DAM_RED[-1+-1d3]
 value:50:MOVES[-10]
 obj-flag:50:IMPAIR_HP
+#temp
+value:1:BLOWS[1+-1d30]
 
 name:Frostmen
 skill-disarm-phys:-15
@@ -1712,10 +1736,10 @@ value:1:INFRA[2]
 obj-flag:1:PROT_CONF
 obj-flag:1:PROT_STUN
 value:1:STEALTH[-4+-1d10]
-value:30:SPEED[-1]
+value:1:SPEED[1]
 value:1:DAM_RED[-1+-1d5]
-value:50:MOVES[-10]
-obj-flag:50:IMPAIR_HP
+value:0:MOVES[-1+-1d5]
+obj-flag:1:IMPAIR_HP
 
 name:Troglodyte
 skill-disarm-phys:-10
@@ -1827,10 +1851,11 @@ value:1:WIS[-2]
 value:1:DEX[0]
 value:1:CON[0]
 value:1:INFRA[4]
-value:1:DAM_RED[0+1d15]
+value:1:DAM_RED[1+1d15]
 value:25:TUNNEL[1]
 value:27:SPEED[1]
-player-flags:COMBAT_REGEN
+player-flags:SHIELD_BASH
+#player-flags:COMBAT_REGEN mana thingy.. add regen without spending satiation
 
 # mysterious creature woven out bright light
 name:Wisp
@@ -1865,7 +1890,8 @@ value:1:RES_LIGHT[1]
 value:35:RES_LIGHT[3]
 value:50:RES_MANA[1]
 value:1:DAM_RED[0+-1d5]
-value:1:SPEED[-1+-1d40]
+value:1:SPEED[1+-1d40]
+#value:1:SPEED[-1+-1d40]
 value:1:RES_DARK[-1]
 value:1:RES_TIME[-1]
 value:1:MOVES[-9+-10d30]
@@ -1934,7 +1960,9 @@ value:30:RES_DARK[1]
 value:40:RES_NETHER[1]
 value:50:RES_TIME[1]
 value:1:TUNNEL[-10]
-value:1:SPEED[-1]
+#temp:
+value:1:SPEED[1+-1d30]
+#value:1:SPEED[-1]
 value:1:MOVES[-1+-1d9]
 obj-flag:1:LIMITED_TELE
 obj-flag:50:DRAIN_EXP
@@ -1978,6 +2006,10 @@ value:1:DAM_RED[-1+-1d2]
 value:1:BLOWS[-1]
 value:1:SHOTS[-1]
 player-flags:SHIELD_BASH
+value:1:MOVES[-5+-1d9]
+value:1:SPEED[1]
+obj-flag:1:IMPAIR_MANA
+value:1:MANA[1]
 player-flags:SHAPECHANGE
 shape:1:floating eye'
 shape:10:disenchanter eye'
@@ -1988,11 +2020,8 @@ shape:30:spectator'
 shape:40:observer'
 #nadsmotrshik
 shape:50:overseer'
-#mind flayer
-
-#obj-flag:1:IMPAIR_MANA
-#value:1:MANA[1]
-#hallucinating (effect decreases with increased int,wis)
+#+ mind flayer @ 50
+#+hallucinating (effect decreases with increased int,wis)
 
 
 #player-flags:SHAPECHANGE
@@ -2008,7 +2037,7 @@ shape:50:overseer'
 # monster flags (PASS_WALL)
 
 #STEALTH_MODE
-#CROWD_FIGHT
+#CROWD_FIGHT - removed, +restore
 #MARTIAL_ARTS
 
 #COMBAT_REGEN +

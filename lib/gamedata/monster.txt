@@ -30302,7 +30302,7 @@ desc:A daemon with a form of beautiful woman, she visits you while asleep and...
 name:newborn dracon
 base:dragon
 color:t
-speed:112
+speed:102
 hit-points:25
 hearing:20
 armor-class:24
@@ -30318,7 +30318,8 @@ flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
 spell-power:1
 innate-freq:100
-spells:SPIT
+#spells:SPIT
+spells:BR_FIRE
 desc:This hatchling dracon is very soft, its eyes unaccustomed to light and its
 desc: scales without particular color.
 
@@ -30326,7 +30327,7 @@ desc: scales without particular color.
 name:baby dracon
 base:dragon
 color:g
-speed:112
+speed:104
 hit-points:80
 hearing:20
 armor-class:36
@@ -30341,7 +30342,7 @@ blow:SPIT:FIRE:1d5
 blow:BITE:HURT:1d3
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:1
+spell-power:8
 innate-freq:100
 #spells:SPIT
 spells:BR_FIRE
@@ -30352,7 +30353,7 @@ desc: scales a sickly green.
 name:young dracon
 base:dragon
 color:g
-speed:112
+speed:106
 hit-points:150
 hearing:20
 armor-class:60
@@ -30367,7 +30368,7 @@ blow:SPIT:FIRE:3d6
 blow:BITE:HURT:2d4
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:10
+spell-power:16
 innate-freq:100
 #spells:SPIT
 spells:BR_FIRE
@@ -30378,7 +30379,7 @@ desc: green in hue.
 name:mature dracon
 base:dragon
 color:g
-speed:112
+speed:108
 hit-points:300
 hearing:20
 armor-class:84
@@ -30393,7 +30394,7 @@ blow:SPIT:FIRE:4d8
 blow:BITE:HURT:2d8
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:15
+spell-power:24
 innate-freq:100
 #spells:SPIT
 spells:BR_FIRE
@@ -30403,7 +30404,7 @@ desc:A large dracon, scales tinted deep green.
 name:ancient dracon
 base:ancient dragon
 color:g
-speed:112
+speed:110
 hit-points:600
 hearing:20
 armor-class:120
@@ -30418,7 +30419,7 @@ blow:SPIT:FIRE:7d8
 blow:BITE:HURT:4d8
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:20
+spell-power:32
 innate-freq:100
 #spells:SPIT
 spells:BR_FIRE
@@ -30444,7 +30445,7 @@ blow:BITE:HURT:6d14
 blow:SPIT:FIRE:6d14
 flags:OPEN_DOOR | BASH_DOOR
 spell-freq:1
-spell-power:25
+spell-power:40
 innate-freq:100
 #spells:SPIT
 spells:BR_FIRE
@@ -30872,7 +30873,7 @@ name:floating eye'
 base:eye
 color:o
 speed:110
-hit-points:20
+hit-points:40
 hearing:1
 armor-class:10
 sleepiness:10
@@ -30893,7 +30894,7 @@ name:disenchanter eye'
 base:eye
 color:v
 speed:110
-hit-points:90
+hit-points:150
 hearing:2
 armor-class:20
 sleepiness:10
@@ -30913,7 +30914,7 @@ name:evil eye'
 base:eye
 color:g
 speed:112
-hit-points:160
+hit-points:250
 hearing:2
 armor-class:45
 sleepiness:10
@@ -30936,7 +30937,7 @@ name:spectator'
 base:eye
 color:B
 speed:114
-hit-points:270
+hit-points:400
 hearing:30
 armor-class:65
 sleepiness:30
@@ -30961,7 +30962,7 @@ name:observer'
 base:eye
 color:U
 speed:120
-hit-points:500
+hit-points:700
 hearing:30
 armor-class:90
 sleepiness:10
@@ -30986,7 +30987,7 @@ name:overseer'
 base:eye
 color:r
 speed:130
-hit-points:800
+hit-points:1000
 hearing:30
 armor-class:110
 sleepiness:10
