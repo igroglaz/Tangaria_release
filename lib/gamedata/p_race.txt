@@ -95,13 +95,13 @@ history:21
 age:20:10
 height:90:16
 weight:240:60
-obj-flag:1:SUST_STR
-obj-flag:1:REGEN
 value:1:STR[4]
 value:1:INT[-4]
 value:1:WIS[-2]
 value:1:DEX[-4]
 value:1:CON[3]
+obj-flag:1:SUST_STR
+obj-flag:1:REGEN
 value:1:INFRA[3]
 value:1:DAM_RED[0+1d12]
 value:1:TUNNEL[1+1d20]
@@ -145,15 +145,15 @@ history:4
 age:24:16
 height:71:8
 weight:115:25
-obj-flag:1:SUST_DEX
 value:0:STR[0+1d30]
 value:1:INT[1]
 value:1:WIS[-1]
 value:1:DEX[1]
 value:1:CON[-1+1d24]
+obj-flag:1:SUST_DEX
 value:1:INFRA[2]
-value:25:DAM_RED[1]
 value:1:TUNNEL[1]
+value:25:DAM_RED[1]
 value:45:SPEED[1]
 
 #Sindar, Grey Elves.. Elves of the Twilight
@@ -173,13 +173,13 @@ history:5
 age:75:75
 height:73:7
 weight:90:10
-obj-flag:1:SUST_DEX
 # -1 2 -1 1 -1
 value:1:STR[-1]
 value:1:INT[2]
 value:1:WIS[-1]
 value:1:DEX[1]
 value:1:CON[-1]
+obj-flag:1:SUST_DEX
 value:1:INFRA[3]
 value:1:RES_LIGHT[1]
 value:1:MOVES[0+1d9]
@@ -202,7 +202,6 @@ history:10
 age:21:12
 height:34:4
 weight:55:5
-obj-flag:1:HOLD_LIFE
 # original: -2 2 1 3 2
 value:1:STR[-2]
 #value:1:INT[2] ---> 0
@@ -210,10 +209,11 @@ value:1:WIS[1]
 value:1:DEX[3]
 value:1:CON[2]
 value:1:INFRA[4]
-player-flags:KNOW_MUSHROOM
+obj-flag:1:HOLD_LIFE
 value:1:DAM_RED[0+1d15]
-value:25:SPEED[1]
 value:1:MANA[1]
+value:25:SPEED[1]
+player-flags:KNOW_MUSHROOM
 
 name:Gnome
 skill-disarm-phys:10
@@ -231,14 +231,14 @@ history:13
 age:50:40
 height:40:5
 weight:80:5
-obj-flag:1:FREE_ACT
 value:1:STR[-1]
 value:1:INT[2]
 value:1:DEX[2]
 value:1:CON[1]
 value:1:INFRA[4]
-player-flags:KNOW_ZAPPER
+obj-flag:1:FREE_ACT
 value:1:TUNNEL[1+1d30]
+player-flags:KNOW_ZAPPER
 
 name:Dwarf
 skill-disarm-phys:2
@@ -256,13 +256,13 @@ history:16
 age:35:15
 height:47:4
 weight:135:20
-obj-flag:1:PROT_BLIND
 value:1:STR[2]
 value:1:INT[-3]
 value:1:WIS[2]
 value:1:DEX[-2]
 value:1:CON[2]
 value:1:INFRA[5]
+obj-flag:1:PROT_BLIND
 player-flags:SEE_ORE
 
 name:Half-Orc
@@ -287,8 +287,8 @@ value:1:CON[1]
 value:1:INFRA[3]
 value:1:RES_DARK[1]
 value:1:TUNNEL[1]
-obj-flag:15:ESP_ORC
 value:1:DAM_RED[0+1d15]
+obj-flag:15:ESP_ORC
 value:35:SPEED[1]
 player-flags:ORC
 
@@ -340,10 +340,10 @@ value:0:WIS[-2+1d30]
 value:0:DEX[0+1d16]
 value:0:CON[-2+1d15]
 value:1:INFRA[1+1d16]
+value:1:DAM_RED[-1+-1d30]
+value:15:STEALTH[1+1d15]
 obj-flag:25:SEE_INVIS
 value:50:RES_LIGHT[1]
-value:15:STEALTH[1+1d15]
-value:1:DAM_RED[-1+-1d30]
 
 name:Kobold
 skill-disarm-phys:10
@@ -399,13 +399,13 @@ value:1:MOVES[1+10d24]
 value:1:DAM_RED[1+1d24]
 player-flags:FAST_THROW
 value:1:TUNNEL[1]
-player-flags:ANIMAL
+#temp
+value:1:SPEED[1]
 player-flags:SHAPECHANGE
 shape:1:oook
 shape:12:eeek
 shape:24:yaak
-#temp
-value:1:SPEED[1]
+player-flags:ANIMAL
 
 name:Ent
 skill-disarm-phys:-5
