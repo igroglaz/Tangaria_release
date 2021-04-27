@@ -30460,7 +30460,7 @@ color:p
 speed:112
 hit-points:15
 hearing:8
-armor-class:19
+armor-class:0
 sleepiness:80
 #1
 depth:2
@@ -30478,7 +30478,7 @@ color:U
 speed:114
 hit-points:40
 hearing:8
-armor-class:25
+armor-class:0
 sleepiness:80
 #5
 depth:7
@@ -30488,7 +30488,7 @@ experience:15
 blow:BITE:HURT:1d3
 blow:STING:POISON:1d4
 flags:ANIMAL
-flags:IM_POIS
+flags:IM_POIS | HURT_LIGHT
 spell-freq:34
 innate-freq:100
 spells:WEAVE
@@ -30501,7 +30501,7 @@ color:V
 speed:116
 hit-points:80
 hearing:8
-armor-class:24
+armor-class:0
 sleepiness:40
 #10
 depth:10
@@ -30513,7 +30513,7 @@ blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:HURT:1d10
 flags:ANIMAL
-flags:IM_POIS
+flags:IM_POIS | HURT_LIGHT
 desc:It is a vast black spider with bulbous bloated body.
 
 #name:giant tarantula
@@ -30523,7 +30523,7 @@ color:o
 speed:118
 hit-points:140
 hearing:8
-armor-class:48
+armor-class:0
 sleepiness:20
 #15
 depth:15
@@ -30534,7 +30534,7 @@ blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 flags:ANIMAL
-flags:IM_POIS
+flags:IM_POIS | HURT_LIGHT
 spell-freq:34
 innate-freq:100
 spells:WEAVE
@@ -30547,7 +30547,7 @@ color:g
 speed:120
 hit-points:190
 hearing:15
-armor-class:30
+armor-class:0
 sleepiness:80
 #20
 depth:20
@@ -30558,7 +30558,7 @@ blow:BITE:HURT:1d8
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 flags:EVIL | ANIMAL
-flags:IM_POIS
+flags:IM_POIS | HURT_LIGHT
 spell-freq:34
 spell-power:20
 innate-freq:50
@@ -30573,7 +30573,7 @@ color:R
 speed:122
 hit-points:240
 hearing:20
-armor-class:37
+armor-class:0
 sleepiness:50
 # 25
 depth:38
@@ -30598,7 +30598,7 @@ color:R
 speed:124
 hit-points:330
 hearing:20
-armor-class:45
+armor-class:0
 sleepiness:50
 # 30
 depth:38
@@ -30624,7 +30624,7 @@ color:R
 speed:126
 hit-points:370
 hearing:20
-armor-class:54
+armor-class:0
 sleepiness:50
 # 35
 depth:38
@@ -30651,7 +30651,7 @@ color:G
 speed:128
 hit-points:450
 hearing:20
-armor-class:54
+armor-class:0
 sleepiness:50
 # 40
 depth:38
@@ -30678,7 +30678,7 @@ color:r
 speed:130
 hit-points:700
 hearing:20
-armor-class:78
+armor-class:0
 sleepiness:50
 # 45
 depth:48
@@ -30706,7 +30706,7 @@ color:r
 speed:132
 hit-points:950
 hearing:20
-armor-class:99
+armor-class:0
 sleepiness:50
 # 50
 depth:48
