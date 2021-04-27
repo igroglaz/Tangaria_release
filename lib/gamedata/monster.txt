@@ -30457,7 +30457,7 @@ desc:A truly enormous dracon.
 name:s'spider
 base:spider
 color:p
-speed:120
+speed:112
 hit-points:15
 hearing:8
 armor-class:19
@@ -30475,7 +30475,7 @@ desc:It is a black spider that moves in fits and starts.
 name:s'weaver
 base:spider
 color:U
-speed:112
+speed:114
 hit-points:40
 hearing:8
 armor-class:25
@@ -30498,7 +30498,7 @@ desc:It scuttles around weaving spider silk.
 name:s'warrior
 base:spider
 color:V
-speed:114
+speed:116
 hit-points:80
 hearing:8
 armor-class:24

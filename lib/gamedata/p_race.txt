@@ -1614,6 +1614,7 @@ brand:15:50:POIS_2
 value:1:RES_POIS[1]
 value:50:RES_POIS[3]
 value:0:SPEED[0+-1d5]
+value:1:MOVES[-1]
 value:50:MANA[-1]
 value:1:DAM_RED[-1+-1d5]
 value:1:RES_LIGHT[-1]
