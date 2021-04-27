@@ -402,8 +402,8 @@ value:1:TUNNEL[1]
 player-flags:ANIMAL
 player-flags:SHAPECHANGE
 shape:1:oook
-shape:12:yook
-shape:24:yeek
+shape:12:eeek
+shape:24:yaak
 #temp
 value:1:SPEED[1]
 

@@ -29955,7 +29955,7 @@ spells:HEAL
 desc:Small and shivering.
 
 #name:terrified yeek
-name:yook
+name:eeek
 base:yeek
 color:u
 speed:100
@@ -29995,7 +29995,7 @@ weight:1
 experience:28
 blow:HIT:HURT:1d8
 flags:FRIGHTENED | NEVER_BLOW | NEVER_MOVE | REGENERATE
-flags:NO_STUN | NO_CONF | NO_SLEEP
+flags:NO_STUN | NO_CONF | NO_SLEEP | INVISIBLE
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
 spell-power:10
 spell-freq:34
