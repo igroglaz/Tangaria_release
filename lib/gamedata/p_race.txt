@@ -448,7 +448,7 @@ value:1:SPEED[0+-1d14M29]
 value:1:STEALTH[0+-1d5M30]
 value:1:TUNNEL[5]
 obj-flag:40:IMPAIR_HP
-player-flags:GIANT
+player-flags:GIANT | CAN_SWIM
 player-flags:SHAPECHANGE
 shape:1:sleepy ent
 #temp
@@ -637,6 +637,7 @@ value:1:CON[-3+1d24]
 value:1:INFRA[1+1d7]
 value:25:RES_WATER[1]
 value:1:TUNNEL[-1+-1d15]
+player-flags:CAN_SWIM
 #temp:
 obj-flag:1:FEATHER
 

@@ -1226,12 +1226,12 @@ power:43
 
 # new
 
-name:swimming
-type:flag
-subtype:misc ability
-id-type:on effect
-code:SWIM
-power:1
-msg:Your {name} makes you able to swim.
-desc:Makes you able to swim
-short-desc:Swim
+#name:swimming
+#type:flag
+#subtype:misc ability
+#id-type:on effect
+#code:SWIM
+#power:1
+#msg:Your {name} makes you able to swim.
+#desc:Makes you able to swim
+#short-desc:Swim
