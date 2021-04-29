@@ -382,6 +382,11 @@ value:-1
 
 # new
 
+type:player
+code:NO_RECALL
+name:No recall
+desc:You can not recall.
+
 #type:object
 #code:SWIM
 #name:Swimming
