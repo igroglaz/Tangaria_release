@@ -281,7 +281,7 @@ wpos:0:0
 min-depth:1
 max-depth:1
 max-level:1
-flags:EMPTY
+flags:EMPTY | FAST_SPAWN
 stairs:2+1d2:0
 #
 stair:9F stair down 0:9F stair up 1:10000
