@@ -380,14 +380,14 @@ name:Vulnerability
 desc:You are vulnerable to
 value:-1
 
-# new
+# Tangaria
 
 type:player
 code:NO_RECALL
 name:No recall
 desc:You can not recall.
 
-#type:object
-#code:SWIM
-#name:Swimming
-#desc:You able to swim.
+type:player
+code:RACE_REGEN
+name:Natural regeneration
+desc:Your wounds regenerate quickly.
