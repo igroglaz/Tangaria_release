@@ -50,12 +50,15 @@ NAME_ROGUELIKE="Tangaria"
 RADIOLIST_ROGUELIKE_TANGARIA=ON
 RADIOLIST_ROGUELIKE_PWMANGBAND=OFF
 
-VERSION_TANGARIA="dev"
+VERSION_TANGARIA_STABLE="6db7e6c5e0df889eacd68759f8888add09ce54a3"
+VERSION_TANGARIA_LATEST="dev"
+VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
 VERSION_TANGARIA_RELEASE="master"
 VERSION_PWMANGBAND="master"
 
 MENU_VERSION_SRC="default"
-RADIOLIST_VERSION_SRC_MASTER=ON
+RADIOLIST_VERSION_SRC_STABLE=ON
+RADIOLIST_VERSION_SRC_LATEST=OFF
 RADIOLIST_VERSION_SRC_OTHER=OFF
 
 MENU_CLIENT="sdl"
@@ -181,17 +184,22 @@ inputBoxInstallPath() {
 radioListVersion() {
     MENU_VERSION_SRC=$($DIALOG --title "Version $NAME_ROGUELIKE" --nocancel --radiolist \
         "use UP/DOWN, SPACE, ENTER keys\nChoose $NAME_ROGUELIKE version:" 16 54 6 \
-            "default" "(latest) " $RADIOLIST_VERSION_SRC_MASTER \
+            "default" "(stable) " $RADIOLIST_VERSION_SRC_STABLE \
+            "latest" "(dev) " $RADIOLIST_VERSION_SRC_LATEST \
             "other" "(branches) " $RADIOLIST_VERSION_SRC_OTHER \
             3>&1 1>&2 2>&3)
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            arrayContains MENU_VERSION_SRC[@] "default" RADIOLIST_VERSION_SRC_MASTER
+            arrayContains MENU_VERSION_SRC[@] "default" RADIOLIST_VERSION_SRC_STABLE
+            arrayContains MENU_VERSION_SRC[@] "latest" RADIOLIST_VERSION_SRC_LATEST
             arrayContains MENU_VERSION_SRC[@] "other" RADIOLIST_VERSION_SRC_OTHER
             if [ $NAME_ROGUELIKE = "Tangaria" ]; then
                 if [ $MENU_VERSION_SRC = "default" ]; then
-                    VERSION_TANGARIA="dev"
+                    VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
+                fi
+                if [ $MENU_VERSION_SRC = "latest" ]; then
+                    VERSION_TANGARIA="$VERSION_TANGARIA_LATEST"
                 fi
                 if [ $MENU_VERSION_SRC = "other" ]; then
                     VERSION_TANGARIA=$($DIALOG --title "other(branches)" --nocancel --inputbox \
@@ -207,6 +215,9 @@ radioListVersion() {
 
             if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
                 if [ $MENU_VERSION_SRC = "default" ]; then
+                    VERSION_PWMANGBAND="master"
+                fi
+                if [ $MENU_VERSION_SRC = "latest" ]; then
                     VERSION_PWMANGBAND="master"
                 fi
                 if [ $MENU_VERSION_SRC = "other" ]; then
@@ -563,8 +574,8 @@ cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att.svg ./${A
 fi
 
 if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = OFF ]; then
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
-write_pwmangrc ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/mangclient.ini "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
+cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/setup/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
+write_pwmangrc ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/setup/mangclient.ini "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
 fi
 
 if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
@@ -743,15 +754,15 @@ make -j$CPU_CORES
 make install
 
 if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = OFF ]; then
-    cp -iv ./mangband.cfg $INSTALL_DIR/games
+    cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
     if ! [ -f $USER_PWMANGRC ]; then
-        write_pwmangrc ./mangclient.ini $USER_PWMANGRC
+        write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
     else
         echo -n "replace $USER_PWMANGRC ?     (y/n)"
         read item
         case "$item" in
             y|Y) echo "«yes», ok..."
-                 write_pwmangrc ./mangclient.ini $USER_PWMANGRC
+                 write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
                 ;;
             n|N) echo "«no», ok..."
                 ;;
@@ -915,6 +926,9 @@ else
     esac
 fi
 
+fi
+
+if [ $NAME_ROGUELIKE = "Tangaria" ]; then
 echo "                "
 echo "              _,"
 echo "  _._   ,'._,'  "
@@ -927,7 +941,6 @@ echo "   /^>          "
 echo "  '  '          "
 echo "    tangaria.com"
 echo "                "
-
 fi
 exit 0
 }
@@ -939,10 +952,10 @@ while true; do
 clear
 MENU_INSTALL_DIR=$(echo "$INSTALL_DIR" | sed -e 's/\(.\{40\}\).*/\1/; s/./&.../40')
 if [ $NAME_ROGUELIKE = "Tangaria" ]; then
-    VERSION_SRC=$VERSION_TANGARIA
+    VERSION_SRC=$(echo "$VERSION_TANGARIA" | sed -e 's/\(.\{7\}\).*/\1/; s/./&.../7')
 fi
 if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
-    VERSION_SRC=$VERSION_PWMANGBAND
+    VERSION_SRC=$(echo "$VERSION_PWMANGBAND" | sed -e 's/\(.\{7\}\).*/\1/; s/./&.../7')
 fi
 
         MAIN_MENU=$($DIALOG --title "Setup - Menu" --ok-button "Select" --cancel-button "Quit" --menu \
