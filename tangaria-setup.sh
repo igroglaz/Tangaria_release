@@ -19,12 +19,16 @@ and the command to obtain all the needed libraries is: sudo dnf install SDL-deve
 
 ########### INSTALL DIR ###########
 
-INSTALL_DIR=$HOME/Tangaria
+INSTALL_DIR="$HOME/Tangaria"
 
 ############ USER DIR #############
 
 USER_PWMANGBAND="$HOME/.pwmangband"
 USER_PWMANGRC="$HOME/.pwmangrc"
+
+###################################
+
+SETUP_FILES="tangaria_setup_files"
 
 ####### ./configure --help ########
 
@@ -44,17 +48,17 @@ REPOSITORY_URL_TANGARIA_RELEASE="https://github.com/igroglaz/Tangaria_release/ar
 REPOSITORY_NAME_PWMANGBAND="PWMAngband"
 REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
 
-###################################
-
-NAME_ROGUELIKE="Tangaria"
-RADIOLIST_ROGUELIKE_TANGARIA=ON
-RADIOLIST_ROGUELIKE_PWMANGBAND=OFF
-
 VERSION_TANGARIA_STABLE="6db7e6c5e0df889eacd68759f8888add09ce54a3"
 VERSION_TANGARIA_LATEST="dev"
 VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
 VERSION_TANGARIA_RELEASE="master"
 VERSION_PWMANGBAND="master"
+
+###################################
+
+NAME_ROGUELIKE="Tangaria"
+RADIOLIST_ROGUELIKE_TANGARIA=ON
+RADIOLIST_ROGUELIKE_PWMANGBAND=OFF
 
 MENU_VERSION_SRC="default"
 RADIOLIST_VERSION_SRC_STABLE=ON
@@ -119,25 +123,25 @@ fi
 
 # XDG Base Directory Specification
 if [[ -z "$XDG_CONFIG_HOME" ]]; then
-  export XDG_CONFIG_HOME="$HOME"/.config
+  export XDG_CONFIG_HOME="$HOME/.config"
 fi
 
 if [[ -z "$XDG_DATA_HOME" ]]; then
-  export XDG_DATA_HOME="$HOME"/.local/share
+  export XDG_DATA_HOME="$HOME/.local/share"
 fi
 
-TARGET_DIR=$(dirname "$(readlink -f $0)")
+TARGET_DIR=$(dirname "$(readlink -f "$0")")
 
 cd "$(dirname "$TARGET_DIR")" || {
     echo "ERROR: Could not change directory to '$TARGET_DIR'"
     exit 1
 }
 
-if ! [ -d ./tangaria_setup_files ]; then
-  mkdir -p $TARGET_DIR/tangaria_setup_files
+if ! [ -d ./$SETUP_FILES ]; then
+  mkdir -p $TARGET_DIR/$SETUP_FILES
 fi
 
-cd $TARGET_DIR/tangaria_setup_files || {
+cd $TARGET_DIR/$SETUP_FILES || {
     echo "ERROR: Could not change directory to '$TARGET_DIR'"
     exit 1
 }
@@ -194,14 +198,14 @@ radioListVersion() {
             arrayContains MENU_VERSION_SRC[@] "default" RADIOLIST_VERSION_SRC_STABLE
             arrayContains MENU_VERSION_SRC[@] "latest" RADIOLIST_VERSION_SRC_LATEST
             arrayContains MENU_VERSION_SRC[@] "other" RADIOLIST_VERSION_SRC_OTHER
-            if [ $NAME_ROGUELIKE = "Tangaria" ]; then
-                if [ $MENU_VERSION_SRC = "default" ]; then
+            if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
+                if [ "$MENU_VERSION_SRC" = "default" ]; then
                     VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
                 fi
-                if [ $MENU_VERSION_SRC = "latest" ]; then
+                if [ "$MENU_VERSION_SRC" = "latest" ]; then
                     VERSION_TANGARIA="$VERSION_TANGARIA_LATEST"
                 fi
-                if [ $MENU_VERSION_SRC = "other" ]; then
+                if [ "$MENU_VERSION_SRC" = "other" ]; then
                     VERSION_TANGARIA=$($DIALOG --title "other(branches)" --nocancel --inputbox \
                         "follow the link https://github.com/igroglaz/Tangaria/commits \nenter: Tangaria-" 9 76 \
                         $VERSION_TANGARIA 3>&1 1>&2 2>&3)
@@ -213,14 +217,14 @@ radioListVersion() {
                 fi
             fi
 
-            if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
-                if [ $MENU_VERSION_SRC = "default" ]; then
+            if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
+                if [ "$MENU_VERSION_SRC" = "default" ]; then
                     VERSION_PWMANGBAND="master"
                 fi
-                if [ $MENU_VERSION_SRC = "latest" ]; then
+                if [ "$MENU_VERSION_SRC" = "latest" ]; then
                     VERSION_PWMANGBAND="master"
                 fi
-                if [ $MENU_VERSION_SRC = "other" ]; then
+                if [ "$MENU_VERSION_SRC" = "other" ]; then
                     VERSION_PWMANGBAND=$($DIALOG --title "other(branches)" --nocancel --inputbox \
                         "follow the link https://github.com/draconisPW/PWMAngband/commits \nenter: PWMAngband-" 9 76 \
                         $VERSION_PWMANGBAND 3>&1 1>&2 2>&3)
@@ -280,7 +284,7 @@ checkListOptions() {
 }
 
 checkListUpdate() {
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
     MENU_UPDATE=$($DIALOG --title "Update" --nocancel --separate-output --checklist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect update options:" 16 54 6 \
             "Download $REPOSITORY_NAME_TANGARIA" "" $CHECKLIST_UPDATE_DOWNLOAD_TANGARIA \
@@ -301,7 +305,7 @@ if [ $NAME_ROGUELIKE = "Tangaria" ]; then
         fi
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
     MENU_UPDATE=$($DIALOG --title "Update" --nocancel --separate-output --checklist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect update options:" 16 54 6 \
             "Download $REPOSITORY_NAME_PWMANGBAND" "" $CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND \
@@ -362,27 +366,27 @@ echo "----------- PWMAngband ------------"
 echo "-----------------------------------"
 logo_PWMAngband
 
-if [ $CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND = ON ]; then
-    rm -rf ./$REPOSITORY_NAME_PWMANGBAND-*".zip"
-    wget --output-document=$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND".zip" \
-    $REPOSITORY_URL_PWMANGBAND$VERSION_PWMANGBAND".zip" || exit 1
+if [ "$CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND" = "ON" ]; then
+    rm -rf ./${REPOSITORY_NAME_PWMANGBAND}-*".zip"
+    wget --output-document=${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}".zip" \
+    ${REPOSITORY_URL_PWMANGBAND}${VERSION_PWMANGBAND}".zip" || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
-        echo "./tangaria_setup_files   empty directory..."
+        echo "./$SETUP_FILES   empty directory..."
         exit 0
     fi
-    if ! [ -d $(ls -d $REPOSITORY_NAME_PWMANGBAND-* | head -1 || exit 1) ]; then
-        VERSION_PWMANGBAND=$(ls -d $REPOSITORY_NAME_PWMANGBAND-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.zip*//")
-        echo "ok... $REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND"
+    if ! [ -d $(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 || exit 1) ]; then
+        VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.zip*//")
+        echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
     else
-        VERSION_PWMANGBAND=$(ls -d $REPOSITORY_NAME_PWMANGBAND-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.$//")
-        echo "ok... $REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND"
+        VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.$//")
+        echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
     fi
 fi
 
-if [ $CHECKLIST_UPDATE_UNPACK_PWMANGBAND = ON ]; then
-    rm -rf $(ls -d $REPOSITORY_NAME_PWMANGBAND-*/)
-    unzip -o $REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND".zip" || exit 1
+if [ "$CHECKLIST_UPDATE_UNPACK_PWMANGBAND" = "ON" ]; then
+    rm -rf $(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/)
+    unzip -o ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}".zip" || exit 1
 fi
 }
 
@@ -392,46 +396,46 @@ echo "------ powered by PWMAngband ------"
 echo "-----------------------------------"
 logo_PWMAngband
 
-if [ $CHECKLIST_UPDATE_DOWNLOAD_TANGARIA = ON ]; then
-    rm -rf ./$REPOSITORY_NAME_TANGARIA-*".zip"
-    wget --output-document=$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA".zip" \
-    $REPOSITORY_URL_TANGARIA$VERSION_TANGARIA".zip" || exit 1
+if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA" = "ON" ]; then
+    rm -rf ./${REPOSITORY_NAME_TANGARIA}-*".zip"
+    wget --output-document=${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}".zip" \
+    ${REPOSITORY_URL_TANGARIA}${VERSION_TANGARIA}".zip" || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
-        echo "./tangaria_setup_files   empty directory..."
+        echo "./$SETUP_FILES   empty directory..."
         exit 0
     fi
-    if ! [ -d $(ls -d $REPOSITORY_NAME_TANGARIA-* | head -1 || exit 1) ]; then
-        VERSION_TANGARIA=$(ls -d $REPOSITORY_NAME_TANGARIA-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.zip*//")
-        echo "ok... $REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA"
+    if ! [ -d $(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 || exit 1) ]; then
+        VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.zip*//")
+        echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
     else
-        VERSION_TANGARIA=$(ls -d $REPOSITORY_NAME_TANGARIA-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.$//")
-        echo "ok... $REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA"
+        VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.$//")
+        echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
     fi
 fi
 
-if [ $CHECKLIST_UPDATE_UNPACK_TANGARIA = ON ]; then
-    rm -rf $(ls -d $REPOSITORY_NAME_TANGARIA-*/)
-    unzip -o $REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA".zip" || exit 1
+if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA" = "ON" ]; then
+    rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA}-*/)
+    unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}".zip" || exit 1
 fi
 
 ##########
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = ON ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
 
 logo_Tangaria
 
-if [ $CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE = ON ]; then
-    rm -rf ./$REPOSITORY_NAME_TANGARIA_RELEASE-*".zip"
-    wget --output-document=$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE".zip" \
-    $REPOSITORY_URL_TANGARIA_RELEASE$VERSION_TANGARIA_RELEASE".zip" || exit 1
+if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE" = "ON" ]; then
+    rm -rf ./${REPOSITORY_NAME_TANGARIA_RELEASE}-*".zip"
+    wget --output-document=${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" \
+    ${REPOSITORY_URL_TANGARIA_RELEASE}${VERSION_TANGARIA_RELEASE}".zip" || exit 1
 fi
 
-if ! [ -d ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE ]; then
-    unzip -o $REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE".zip" || exit 1
+if ! [ -d ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} ]; then
+    unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" || exit 1
 else
-    if [ $CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE = ON ]; then
-        rm -rf $(ls -d $REPOSITORY_NAME_TANGARIA_RELEASE-*/)
-        unzip -o $REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE".zip" || exit 1
+    if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
+        rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
+        unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" || exit 1
     fi
 fi
 
@@ -441,13 +445,13 @@ fi
 write_pwmangrc() {
 local PATH_INI_PWMANGRC=$1
 local WRITE_FILE_PWMANGRC=$2
-NICK=$(sed -n '/nick=/p' $PATH_INI_PWMANGRC)
-PASS=$(sed -n '/pass=/p' $PATH_INI_PWMANGRC)
-HOST=$(sed -n '/host=/p' $PATH_INI_PWMANGRC)
-META_ADDRESS=$(sed -n '/meta_address=/p' $PATH_INI_PWMANGRC)
-META_PORT=$(sed -n '/meta_port=/p' $PATH_INI_PWMANGRC)
-DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' $PATH_INI_PWMANGRC)
-LIGHTERBLUE=$(sed -n '/LighterBlue=/p' $PATH_INI_PWMANGRC)
+NICK=$(sed -n '/nick=/p' "$PATH_INI_PWMANGRC")
+PASS=$(sed -n '/pass=/p' "$PATH_INI_PWMANGRC")
+HOST=$(sed -n '/host=/p' "$PATH_INI_PWMANGRC")
+META_ADDRESS=$(sed -n '/meta_address=/p' "$PATH_INI_PWMANGRC")
+META_PORT=$(sed -n '/meta_port=/p' "$PATH_INI_PWMANGRC")
+DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' "$PATH_INI_PWMANGRC")
+LIGHTERBLUE=$(sed -n '/LighterBlue=/p' "$PATH_INI_PWMANGRC")
 cat > $WRITE_FILE_PWMANGRC << EOF
 [MAngband]
 $NICK
@@ -516,34 +520,34 @@ fi
 rm -rf ./${APP_DIR}
 mkdir ./${APP_DIR}
 
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
     download_Tangaria
-    make -C ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA clean
-    cd ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA || exit 1
+    make -C ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA} clean
+    cd ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA} || exit 1
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
     download_PWMAngband
-    make -C ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND clean
-    cd ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND || exit 1
+    make -C ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND} clean
+    cd ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND} || exit 1
 fi
 
 ./autogen.sh || exit 1
 
 # Build (prefix must be INSTALL_DIR="/usr")
-if [ $MENU_CLIENT = "sdl" ]; then
+if [ "$MENU_CLIENT" = "sdl" ]; then
     ./configure --prefix="$INSTALL_DIR" --disable-curses --disable-x11 --enable-sdl
 fi
-if [ $MENU_CLIENT = "curses" ]; then
+if [ "$MENU_CLIENT" = "curses" ]; then
     ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-x11 --disable-sdl
 fi
-if [ $MENU_CLIENT = "other" ]; then
+if [ "$MENU_CLIENT" = "other" ]; then
     ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-x11 --disable-sdl
 fi
 make -j$CPU_CORES
 
 # Base install
-make install DESTDIR="$TARGET_DIR/tangaria_setup_files/${APP_DIR}"
+make install DESTDIR="${TARGET_DIR}/${SETUP_FILES}/${APP_DIR}"
 
 cd ../ || exit 1
 
@@ -555,79 +559,71 @@ mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps
 mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps
 mkdir -p ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps
 
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att-16.png ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att-256.png ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att-16.png ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att-256.png ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att-16.png ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att-256.png ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-16.png ./${APP_DIR}/usr/share/icons/hicolor/16x16/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/32x32/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-32.png ./${APP_DIR}/usr/share/icons/hicolor/64x64/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-256.png ./${APP_DIR}/usr/share/icons/hicolor/256x256/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 fi
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = OFF ]; then
-cp -fv ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/setup/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
-write_pwmangrc ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA/setup/mangclient.ini "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
+cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/setup/mangband.cfg ./${APP_DIR}${INSTALL_DIR}/games
+write_pwmangrc ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/setup/mangclient.ini "${TARGET_DIR}/${SETUP_FILES}/${APP_DIR}${INSTALL_DIR}/games/.pwmangrc"
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
-cp -fv ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND/setup/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
+cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/setup/mangband.cfg ./${APP_DIR}${INSTALL_DIR}/games
 fi
 
 mkdir -p ./${APP_DIR}/usr/bin/
-mv ./${APP_DIR}$INSTALL_DIR/games/pwmangclient ./${APP_DIR}/usr/bin/pwmangclient
+mv ./${APP_DIR}${INSTALL_DIR}/games/pwmangclient ./${APP_DIR}/usr/bin/pwmangclient
 
 ###################################
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = ON ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
 
 echo "copying files..."
 
-rm -r ./${APP_DIR}$INSTALL_DIR/etc/pwmangband/customize
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/customize ./${APP_DIR}$INSTALL_DIR/etc/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/etc/pwmangband/gamedata
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/gamedata ./${APP_DIR}$INSTALL_DIR/etc/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/fonts
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/fonts ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/help
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/help ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/icons
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/icons ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/screens
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/screens ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/sounds
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/sounds ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-rm -r ./${APP_DIR}$INSTALL_DIR/share/pwmangband/tiles
-cp -Rv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/tiles ./${APP_DIR}$INSTALL_DIR/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/customize ./${APP_DIR}${INSTALL_DIR}/etc/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/gamedata ./${APP_DIR}${INSTALL_DIR}/etc/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/fonts ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/help ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/icons ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/screens ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/sounds ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/tiles ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/readme.txt ./${APP_DIR}$INSTALL_DIR/share/pwmangband
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/Changes.txt ./${APP_DIR}$INSTALL_DIR
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/Manual.html ./${APP_DIR}$INSTALL_DIR
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/Manual.pdf ./${APP_DIR}$INSTALL_DIR
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/readme.txt ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/Changes.txt ./${APP_DIR}${INSTALL_DIR}
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/Manual.html ./${APP_DIR}${INSTALL_DIR}
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/Manual.pdf ./${APP_DIR}${INSTALL_DIR}
 
-cp -iv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/mangband.cfg ./${APP_DIR}$INSTALL_DIR/games
+cp -iv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/mangband.cfg ./${APP_DIR}${INSTALL_DIR}/games
 
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/user/sdlinit.txt ${APP_DIR}$INSTALL_DIR/games
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/user/sdlinit.txt ${APP_DIR}${INSTALL_DIR}/games
 
-write_pwmangrc ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/mangclient.ini "$TARGET_DIR/tangaria_setup_files/${APP_DIR}$INSTALL_DIR/games/.pwmangrc"
+write_pwmangrc ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/mangclient.ini "${TARGET_DIR}/${SETUP_FILES}/${APP_DIR}${INSTALL_DIR}/games/.pwmangrc"
 
 # Icons
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
-cp -fv ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/icons/att-128.png ./${APP_DIR}/usr/share/icons/hicolor/128x128/apps/pwmangclient.png
+cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 
 fi
 
 ###################################
 
-mv ./${APP_DIR}/tmp/$NAME_ROGUELIKE ./${APP_DIR}/usr
+mv ./${APP_DIR}/tmp/${NAME_ROGUELIKE} ./${APP_DIR}/usr
 rm -rf ./${APP_DIR}/tmp
 
 cat > ./${APP_DIR}/pwmangclient.desktop << EOF
@@ -641,7 +637,7 @@ Terminal=false
 Categories=Game;RolePlaying;
 EOF
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
 cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
@@ -658,7 +654,7 @@ EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = OFF ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
 cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
@@ -680,7 +676,7 @@ EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = ON ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
 cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
@@ -708,7 +704,7 @@ chmod +x ./${APP_DIR}/AppRun
 fi
 
 # Bake AppImage
-rm -f $NAME_ROGUELIKE*.AppImage*
+rm -f ${NAME_ROGUELIKE}*.AppImage*
 ./${LINUX_DEPLOY} \
 --appdir ./${APP_DIR} \
 --desktop-file ./${APP_DIR}/pwmangclient.desktop \
@@ -721,31 +717,31 @@ exit 0
 
 do_install() {
 clear
-if [ $CHECKLIST_OPTIONS_APPIMAGE = ON ]; then
+if [ "$CHECKLIST_OPTIONS_APPIMAGE" = "ON" ]; then
 build_AppImage
 fi
 
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
     download_Tangaria
-    make -C ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA clean
-    cd ./$REPOSITORY_NAME_TANGARIA-$VERSION_TANGARIA || exit 1
+    make -C ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA} clean
+    cd ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA} || exit 1
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
     download_PWMAngband
-    make -C ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND clean
-    cd ./$REPOSITORY_NAME_PWMANGBAND-$VERSION_PWMANGBAND || exit 1
+    make -C ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND} clean
+    cd ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND} || exit 1
 fi
 
 ./autogen.sh || exit 1
 
-if [ $MENU_CLIENT = "sdl" ]; then
+if [ "$MENU_CLIENT" = "sdl" ]; then
     ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
 fi
-if [ $MENU_CLIENT = "curses" ]; then
+if [ "$MENU_CLIENT" = "curses" ]; then
     ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
 fi
-if [ $MENU_CLIENT = "other" ]; then
+if [ "$MENU_CLIENT" = "other" ]; then
 ##  ./configure --help
     ./configure --prefix $INSTALL_DIR
 fi
@@ -753,7 +749,7 @@ fi
 make -j$CPU_CORES
 make install
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = OFF ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
     cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
     if ! [ -f $USER_PWMANGRC ]; then
         write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
@@ -772,7 +768,7 @@ if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = O
     fi
 fi
 
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
 cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
 fi
 
@@ -817,14 +813,14 @@ EOF
 chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
-if [ $CHECKLIST_OPTIONS_CLIENT_DESKTOP = ON ] || [ $CHECKLIST_OPTIONS_SERVER_DESKTOP = ON ]; then
+if [ "$CHECKLIST_OPTIONS_CLIENT_DESKTOP" = "ON" ] || [ "$CHECKLIST_OPTIONS_SERVER_DESKTOP" = "ON" ]; then
     if ! [ -d $XDG_DATA_HOME/applications ]; then
         mkdir -p $XDG_DATA_HOME/applications
     fi
 fi
 
-if [ $CHECKLIST_OPTIONS_CLIENT_DESKTOP = ON ]; then
-cat > $XDG_DATA_HOME/applications/$NAME_ROGUELIKE-client.desktop << EOF
+if [ "$CHECKLIST_OPTIONS_CLIENT_DESKTOP" = "ON" ]; then
+cat > $XDG_DATA_HOME/applications/${NAME_ROGUELIKE}-client.desktop << EOF
 [Desktop Entry]
 Name=$NAME_ROGUELIKE (client)
 Type=Application
@@ -836,8 +832,8 @@ Categories=Game;RolePlaying;
 EOF
 fi
 
-if [ $CHECKLIST_OPTIONS_SERVER_DESKTOP = ON ]; then
-cat > $XDG_DATA_HOME/applications/$NAME_ROGUELIKE-server.desktop << EOF
+if [ "$CHECKLIST_OPTIONS_SERVER_DESKTOP" = "ON" ]; then
+cat > $XDG_DATA_HOME/applications/${NAME_ROGUELIKE}-server.desktop << EOF
 [Desktop Entry]
 Name=$NAME_ROGUELIKE (server)
 Type=Application
@@ -850,7 +846,7 @@ Categories=Game;RolePlaying;
 EOF
 fi
 
-if [ $CHECKLIST_OPTIONS_LINK_DIR_USER = ON ]; then
+if [ "$CHECKLIST_OPTIONS_LINK_DIR_USER" = "ON" ]; then
     if ! [ -e $INSTALL_DIR/user ]; then
     ln -s $USER_PWMANGBAND $INSTALL_DIR/user
     fi
@@ -858,9 +854,9 @@ fi
 
 ###################################
 
-if [ $NAME_ROGUELIKE = "Tangaria" ] && [ $CHECKLIST_OPTIONS_TANGARIA_RELEASE = ON ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
 
-cd ./$REPOSITORY_NAME_TANGARIA_RELEASE-$VERSION_TANGARIA_RELEASE || exit 1
+cd ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} || exit 1
 
 if ! [ -d $INSTALL_DIR ]; then
     echo "ERROR: directory not found '$INSTALL_DIR'"
@@ -869,22 +865,14 @@ fi
 
 echo "copying files..."
 
-rm -r $INSTALL_DIR/etc/pwmangband/customize
-cp -Rv ./lib/customize $INSTALL_DIR/etc/pwmangband
-rm -r $INSTALL_DIR/etc/pwmangband/gamedata
-cp -Rv ./lib/gamedata $INSTALL_DIR/etc/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/fonts
-cp -Rv ./lib/fonts $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/help
-cp -Rv ./lib/help $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/icons
-cp -Rv ./lib/icons $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/screens
-cp -Rv ./lib/screens $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/sounds
-cp -Rv ./lib/sounds $INSTALL_DIR/share/pwmangband
-rm -r $INSTALL_DIR/share/pwmangband/tiles
-cp -Rv ./lib/tiles $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/customize $INSTALL_DIR/etc/pwmangband
+cp -Rfv ./lib/gamedata $INSTALL_DIR/etc/pwmangband
+cp -Rfv ./lib/fonts $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/help $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/icons $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/screens $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/sounds $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/tiles $INSTALL_DIR/share/pwmangband
 
 cp -fv ./lib/readme.txt $INSTALL_DIR/share/pwmangband
 cp -fv ./Changes.txt $INSTALL_DIR
@@ -928,7 +916,7 @@ fi
 
 fi
 
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
 echo "                "
 echo "              _,"
 echo "  _._   ,'._,'  "
@@ -951,10 +939,10 @@ main() {
 while true; do
 clear
 MENU_INSTALL_DIR=$(echo "$INSTALL_DIR" | sed -e 's/\(.\{40\}\).*/\1/; s/./&.../40')
-if [ $NAME_ROGUELIKE = "Tangaria" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
     VERSION_SRC=$(echo "$VERSION_TANGARIA" | sed -e 's/\(.\{7\}\).*/\1/; s/./&.../7')
 fi
-if [ $NAME_ROGUELIKE = "PWMAngband" ]; then
+if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
     VERSION_SRC=$(echo "$VERSION_PWMANGBAND" | sed -e 's/\(.\{7\}\).*/\1/; s/./&.../7')
 fi
 
