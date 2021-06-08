@@ -43,6 +43,11 @@ code:CAN_SWIM
 name:Swimming
 desc:You are able to swim.
 
+type:player
+code:PERM_SHAPE
+name:Permanently polymorphed
+desc:You are permanently polymorphed.
+
 ## Class player flags
 
 type:player
@@ -217,6 +222,11 @@ type:object
 code:SUST_CON
 name:Sustain Constitution
 desc:Your constitution is sustained.
+
+type:object
+code:SUST_CHR
+name:Sustain Charisma
+desc:Your charisma is sustained.
 
 type:object
 code:PROT_FEAR
@@ -406,3 +416,8 @@ type:player
 code:NO_BOOTS
 name:No boots
 desc:You can not wear footwear.
+
+type:object
+code:SLOW_DIGEST_2
+name:Slow Digestion
+desc:You have slow metabolism.

@@ -54,7 +54,7 @@ feat:V:V:water
 #feat:@:@:mud
 feat:,:;:mud
 feat:O:O:street
-feat:-:-:grass
+feat:-:_:grass
 feat:^:^:mountain
 
 feat:x:x:safe floor
@@ -1170,7 +1170,9 @@ feat:b:o:dark wall o up staircase
 feat:b:p:dark wall p down staircase
 feat:b:q:dark wall q jail window
 feat:b:r:dark wall r prison bars
+# HIDDEN PASSAGE FOR TOWN WIZARD SHOP
 feat:b:s:dark wall s
+# ILLUSIONARY WALL FOR DUNGEON ILL.CASTLE
 feat:b:t:dark wall t
 feat:b:u:dark wall u
 feat:b:v:dark wall v
@@ -3806,8 +3808,6 @@ feat:G:v:F7 deep water F2W v
 # CLONE TERRAIN: FLOORS _AS_ WALLS DECORATIONS
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#
 
-
-
 # EB - EE dirt.. No stairs / no monsters... for dungeons
 
 #-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
@@ -3831,3 +3831,1355 @@ feat:G:v:F7 deep water F2W v
 #H
 
 # the same No stairs / no monsters for sand, trees...
+
+###############
+### HOUSE
+###############
+
+# 'H' walls - after house floors!
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AD - former "wooden floor object"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:I:0:house floor a0
+feat:I:1:house floor a1
+feat:I:2:house floor a2
+feat:I:3:house floor a3
+feat:I:4:house floor a4
+feat:I:5:house floor a5
+feat:I:6:house floor a6
+feat:I:7:house floor a7
+feat:I:8:house floor a8
+feat:I:9:house floor a9
+feat:I:a:house floor aa
+feat:I:b:house floor ab
+feat:I:c:house floor ac
+feat:I:d:house floor ad
+feat:I:e:house floor ae
+feat:I:f:house floor af
+feat:I:g:house floor ag
+feat:I:h:house floor ah
+feat:I:i:house floor ai
+feat:I:j:house floor aj
+feat:I:k:house floor ak
+feat:I:l:house floor al
+feat:I:m:house floor am
+feat:I:n:house floor an
+feat:I:o:house floor ao
+feat:I:p:house floor ap
+feat:I:q:house floor aq
+feat:I:r:house floor ar
+feat:I:s:house floor as
+feat:I:t:house floor at
+feat:I:u:house floor au
+feat:I:v:house floor av
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AE - former "wooden floor object"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:I:w:house floor aw
+feat:I:x:house floor ax
+feat:I:y:house floor ay
+feat:I:z:house floor az
+feat:I:A:house floor aA
+feat:I:B:house floor aB
+feat:I:C:house floor aC
+feat:I:D:house floor aD
+feat:I:E:house floor aE
+feat:I:F:house floor aF
+feat:I:G:house floor aG
+feat:I:H:house floor aH
+feat:I:I:house floor aI
+feat:I:J:house floor aJ
+feat:I:K:house floor aK
+feat:I:L:house floor aL
+feat:I:M:house floor aM
+feat:I:N:house floor aN
+feat:I:O:house floor aO
+feat:I:P:house floor aP
+feat:I:Q:house floor aQ
+feat:I:R:house floor aR
+feat:I:S:house floor aS
+feat:I:T:house floor aT
+feat:I:U:house floor aU
+feat:I:V:house floor aV
+feat:I:W:house floor aW
+feat:I:X:house floor aX
+feat:I:Y:house floor aY
+feat:I:Z:house floor aZ
+feat:I:~:house floor a~
+feat:I:`:house floor a`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AF - former "wooden floor object"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:J:0:house floor b0
+feat:J:1:house floor b1
+feat:J:2:house floor b2
+feat:J:3:house floor b3
+feat:J:4:house floor b4
+feat:J:5:house floor b5
+feat:J:6:house floor b6
+feat:J:7:house floor b7
+feat:J:8:house floor b8
+feat:J:9:house floor b9
+feat:J:a:house floor ba
+feat:J:b:house floor bb
+feat:J:c:house floor bc
+feat:J:d:house floor bd
+feat:J:e:house floor be
+feat:J:f:house floor bf
+feat:J:g:house floor bg
+feat:J:h:house floor bh
+feat:J:i:house floor bi
+feat:J:j:house floor bj
+feat:J:k:house floor bk
+feat:J:l:house floor bl
+feat:J:m:house floor bm
+feat:J:n:house floor bn
+feat:J:o:house floor bo
+feat:J:p:house floor bp
+feat:J:q:house floor bq
+feat:J:r:house floor br
+feat:J:s:house floor bs
+feat:J:t:house floor bt
+feat:J:u:house floor bu
+feat:J:v:house floor bv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B0 - former "wooden floor object"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:J:w:house floor bw
+feat:J:x:house floor bx
+feat:J:y:house floor by
+feat:J:z:house floor bz
+feat:J:A:house floor bA
+feat:J:B:house floor bB
+feat:J:C:house floor bC
+feat:J:D:house floor bD
+feat:J:E:house floor bE
+feat:J:F:house floor bF
+feat:J:G:house floor bG
+feat:J:H:house floor bH
+feat:J:I:house floor bI
+feat:J:J:house floor bJ
+feat:J:K:house floor bK
+feat:J:L:house floor bL
+feat:J:M:house floor bM
+feat:J:N:house floor bN
+feat:J:O:house floor bO
+feat:J:P:house floor bP
+feat:J:Q:house floor bQ
+feat:J:R:house floor bR
+feat:J:S:house floor bS
+feat:J:T:house floor bT
+feat:J:U:house floor bU
+feat:J:V:house floor bV
+feat:J:W:house floor bW
+feat:J:X:house floor bX
+feat:J:Y:house floor bY
+feat:J:Z:house floor bZ
+feat:J:~:house floor b~
+feat:J:`:house floor b`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:K:0:house floor c0
+feat:K:1:house floor c1
+feat:K:2:house floor c2
+feat:K:3:house floor c3
+feat:K:4:house floor c4
+feat:K:5:house floor c5
+feat:K:6:house floor c6
+feat:K:7:house floor c7
+feat:K:8:house floor c8
+feat:K:9:house floor c9
+feat:K:a:house floor ca
+feat:K:b:house floor cb
+feat:K:c:house floor cc
+feat:K:d:house floor cd
+feat:K:e:house floor ce
+feat:K:f:house floor cf
+feat:K:g:house floor cg
+feat:K:h:house floor ch
+feat:K:i:house floor ci
+feat:K:j:house floor cj
+feat:K:k:house floor ck
+feat:K:l:house floor cl
+feat:K:m:house floor cm
+feat:K:n:house floor cn
+feat:K:o:house floor co
+feat:K:p:house floor cp
+feat:K:q:house floor cq
+feat:K:r:house floor cr
+feat:K:s:house floor cs
+feat:K:t:house floor ct
+feat:K:u:house floor cu
+feat:K:v:house floor cv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D2
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:K:w:house floor cw
+feat:K:x:house floor cx
+feat:K:y:house floor cy
+feat:K:z:house floor cz
+feat:K:A:house floor cA
+feat:K:B:house floor cB
+feat:K:C:house floor cC
+feat:K:D:house floor cD
+feat:K:E:house floor cE
+feat:K:F:house floor cF
+feat:K:G:house floor cG
+feat:K:H:house floor cH
+feat:K:I:house floor cI
+feat:K:J:house floor cJ
+feat:K:K:house floor cK
+feat:K:L:house floor cL
+feat:K:M:house floor cM
+feat:K:N:house floor cN
+feat:K:O:house floor cO
+feat:K:P:house floor cP
+feat:K:Q:house floor cQ
+feat:K:R:house floor cR
+feat:K:S:house floor cS
+feat:K:T:house floor cT
+feat:K:U:house floor cU
+feat:K:V:house floor cV
+feat:K:W:house floor cW
+feat:K:X:house floor cX
+feat:K:Y:house floor cY
+feat:K:Z:house floor cZ
+feat:K:~:house floor c~
+feat:K:`:house floor c`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D3
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:L:0:house floor d0
+feat:L:1:house floor d1
+feat:L:2:house floor d2
+feat:L:3:house floor d3
+feat:L:4:house floor d4
+feat:L:5:house floor d5
+feat:L:6:house floor d6
+feat:L:7:house floor d7
+feat:L:8:house floor d8
+feat:L:9:house floor d9
+feat:L:a:house floor da
+feat:L:b:house floor db
+feat:L:c:house floor dc
+feat:L:d:house floor dd
+feat:L:e:house floor de
+feat:L:f:house floor df
+feat:L:g:house floor dg
+feat:L:h:house floor dh
+feat:L:i:house floor di
+feat:L:j:house floor dj
+feat:L:k:house floor dk
+feat:L:l:house floor dl
+feat:L:m:house floor dm
+feat:L:n:house floor dn
+feat:L:o:house floor do
+feat:L:p:house floor dp
+feat:L:q:house floor dq
+feat:L:r:house floor dr
+feat:L:s:house floor ds
+feat:L:t:house floor dt
+feat:L:u:house floor du
+feat:L:v:house floor dv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D4
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:L:w:house floor dw
+feat:L:x:house floor dx
+feat:L:y:house floor dy
+feat:L:z:house floor dz
+feat:L:A:house floor dA
+feat:L:B:house floor dB
+feat:L:C:house floor dC
+feat:L:D:house floor dD
+feat:L:E:house floor dE
+feat:L:F:house floor dF
+feat:L:G:house floor dG
+feat:L:H:house floor dH
+feat:L:I:house floor dI
+feat:L:J:house floor dJ
+feat:L:K:house floor dK
+feat:L:L:house floor dL
+feat:L:M:house floor dM
+feat:L:N:house floor dN
+feat:L:O:house floor dO
+feat:L:P:house floor dP
+feat:L:Q:house floor dQ
+feat:L:R:house floor dR
+feat:L:S:house floor dS
+feat:L:T:house floor dT
+feat:L:U:house floor dU
+feat:L:V:house floor dV
+feat:L:W:house floor dW
+feat:L:X:house floor dX
+feat:L:Y:house floor dY
+feat:L:Z:house floor dZ
+feat:L:~:house floor d~
+feat:L:`:house floor d`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D5
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:M:0:house floor e0
+feat:M:1:house floor e1
+feat:M:2:house floor e2
+feat:M:3:house floor e3
+feat:M:4:house floor e4
+feat:M:5:house floor e5
+feat:M:6:house floor e6
+feat:M:7:house floor e7
+feat:M:8:house floor e8
+feat:M:9:house floor e9
+feat:M:a:house floor ea
+feat:M:b:house floor eb
+feat:M:c:house floor ec
+feat:M:d:house floor ed
+feat:M:e:house floor ee
+feat:M:f:house floor ef
+feat:M:g:house floor eg
+feat:M:h:house floor eh
+feat:M:i:house floor ei
+feat:M:j:house floor ej
+feat:M:k:house floor ek
+feat:M:l:house floor el
+feat:M:m:house floor em
+feat:M:n:house floor en
+feat:M:o:house floor eo
+feat:M:p:house floor ep
+feat:M:q:house floor eq
+feat:M:r:house floor er
+feat:M:s:house floor es
+feat:M:t:house floor et
+feat:M:u:house floor eu
+feat:M:v:house floor ev
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D6
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:M:w:house floor ew
+feat:M:x:house floor ex
+feat:M:y:house floor ey
+feat:M:z:house floor ez
+feat:M:A:house floor eA
+feat:M:B:house floor eB
+feat:M:C:house floor eC
+feat:M:D:house floor eD
+feat:M:E:house floor eE
+feat:M:F:house floor eF
+feat:M:G:house floor eG
+feat:M:H:house floor eH
+feat:M:I:house floor eI
+feat:M:J:house floor eJ
+feat:M:K:house floor eK
+feat:M:L:house floor eL
+feat:M:M:house floor eM
+feat:M:N:house floor eN
+feat:M:O:house floor eO
+feat:M:P:house floor eP
+feat:M:Q:house floor eQ
+feat:M:R:house floor eR
+feat:M:S:house floor eS
+feat:M:T:house floor eT
+feat:M:U:house floor eU
+feat:M:V:house floor eV
+feat:M:W:house floor eW
+feat:M:X:house floor eX
+feat:M:Y:house floor eY
+feat:M:Z:house floor eZ
+feat:M:~:house floor e~
+feat:M:`:house floor e`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D7
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:N:0:house floor f0
+feat:N:1:house floor f1
+feat:N:2:house floor f2
+feat:N:3:house floor f3
+feat:N:4:house floor f4
+feat:N:5:house floor f5
+feat:N:6:house floor f6
+feat:N:7:house floor f7
+feat:N:8:house floor f8
+feat:N:9:house floor f9
+feat:N:a:house floor fa
+feat:N:b:house floor fb
+feat:N:c:house floor fc
+feat:N:d:house floor fd
+feat:N:e:house floor fe
+feat:N:f:house floor ff
+feat:N:g:house floor fg
+feat:N:h:house floor fh
+feat:N:i:house floor fi
+feat:N:j:house floor fj
+feat:N:k:house floor fk
+feat:N:l:house floor fl
+feat:N:m:house floor fm
+feat:N:n:house floor fn
+feat:N:o:house floor fo
+feat:N:p:house floor fp
+feat:N:q:house floor fq
+feat:N:r:house floor fr
+feat:N:s:house floor fs
+feat:N:t:house floor ft
+feat:N:u:house floor fu
+feat:N:v:house floor fv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D8
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:N:w:house floor fw
+feat:N:x:house floor fx
+feat:N:y:house floor fy
+feat:N:z:house floor fz
+feat:N:A:house floor fA
+feat:N:B:house floor fB
+feat:N:C:house floor fC
+feat:N:D:house floor fD
+feat:N:E:house floor fE
+feat:N:F:house floor fF
+feat:N:G:house floor fG
+feat:N:H:house floor fH
+feat:N:I:house floor fI
+feat:N:J:house floor fJ
+feat:N:K:house floor fK
+feat:N:L:house floor fL
+feat:N:M:house floor fM
+feat:N:N:house floor fN
+feat:N:O:house floor fO
+feat:N:P:house floor fP
+feat:N:Q:house floor fQ
+feat:N:R:house floor fR
+feat:N:S:house floor fS
+feat:N:T:house floor fT
+feat:N:U:house floor fU
+feat:N:V:house floor fV
+feat:N:W:house floor fW
+feat:N:X:house floor fX
+feat:N:Y:house floor fY
+feat:N:Z:house floor fZ
+feat:N:~:house floor f~
+feat:N:`:house floor f`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# D9
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:O:0:house floor g0
+feat:O:1:house floor g1
+feat:O:2:house floor g2
+feat:O:3:house floor g3
+feat:O:4:house floor g4
+feat:O:5:house floor g5
+feat:O:6:house floor g6
+feat:O:7:house floor g7
+feat:O:8:house floor g8
+feat:O:9:house floor g9
+feat:O:a:house floor ga
+feat:O:b:house floor gb
+feat:O:c:house floor gc
+feat:O:d:house floor gd
+feat:O:e:house floor ge
+feat:O:f:house floor gf
+feat:O:g:house floor gg
+feat:O:h:house floor gh
+feat:O:i:house floor gi
+feat:O:j:house floor gj
+feat:O:k:house floor gk
+feat:O:l:house floor gl
+feat:O:m:house floor gm
+feat:O:n:house floor gn
+feat:O:o:house floor go
+feat:O:p:house floor gp
+feat:O:q:house floor gq
+feat:O:r:house floor gr
+feat:O:s:house floor gs
+feat:O:t:house floor gt
+feat:O:u:house floor gu
+feat:O:v:house floor gv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DA
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:O:w:house floor gw
+feat:O:x:house floor gx
+feat:O:y:house floor gy
+feat:O:z:house floor gz
+feat:O:A:house floor gA
+feat:O:B:house floor gB
+feat:O:C:house floor gC
+feat:O:D:house floor gD
+feat:O:E:house floor gE
+feat:O:F:house floor gF
+feat:O:G:house floor gG
+feat:O:H:house floor gH
+feat:O:I:house floor gI
+feat:O:J:house floor gJ
+feat:O:K:house floor gK
+feat:O:L:house floor gL
+feat:O:M:house floor gM
+feat:O:N:house floor gN
+feat:O:O:house floor gO
+feat:O:P:house floor gP
+feat:O:Q:house floor gQ
+feat:O:R:house floor gR
+feat:O:S:house floor gS
+feat:O:T:house floor gT
+feat:O:U:house floor gU
+feat:O:V:house floor gV
+feat:O:W:house floor gW
+feat:O:X:house floor gX
+feat:O:Y:house floor gY
+feat:O:Z:house floor gZ
+feat:O:~:house floor g~
+feat:O:`:house floor g`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DB
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:P:0:house floor h0
+feat:P:1:house floor h1
+feat:P:2:house floor h2
+feat:P:3:house floor h3
+feat:P:4:house floor h4
+feat:P:5:house floor h5
+feat:P:6:house floor h6
+feat:P:7:house floor h7
+feat:P:8:house floor h8
+feat:P:9:house floor h9
+feat:P:a:house floor ha
+feat:P:b:house floor hb
+feat:P:c:house floor hc
+feat:P:d:house floor hd
+feat:P:e:house floor he
+feat:P:f:house floor hf
+feat:P:g:house floor hg
+feat:P:h:house floor hh
+feat:P:i:house floor hi
+feat:P:j:house floor hj
+feat:P:k:house floor hk
+feat:P:l:house floor hl
+feat:P:m:house floor hm
+feat:P:n:house floor hn
+feat:P:o:house floor ho
+feat:P:p:house floor hp
+feat:P:q:house floor hq
+feat:P:r:house floor hr
+feat:P:s:house floor hs
+feat:P:t:house floor ht
+feat:P:u:house floor hu
+feat:P:v:house floor hv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B4
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:P:w:house floor hw
+feat:P:x:house floor hx
+feat:P:y:house floor hy
+feat:P:z:house floor hz
+feat:P:A:house floor hA
+feat:P:B:house floor hB
+feat:P:C:house floor hC
+feat:P:D:house floor hD
+feat:P:E:house floor hE
+feat:P:F:house floor hF
+feat:P:G:house floor hG
+feat:P:H:house floor hH
+feat:P:I:house floor hI
+feat:P:J:house floor hJ
+feat:P:K:house floor hK
+feat:P:L:house floor hL
+feat:P:M:house floor hM
+feat:P:N:house floor hN
+feat:P:O:house floor hO
+feat:P:P:house floor hP
+feat:P:Q:house floor hQ
+feat:P:R:house floor hR
+feat:P:S:house floor hS
+feat:P:T:house floor hT
+feat:P:U:house floor hU
+feat:P:V:house floor hV
+feat:P:W:house floor hW
+feat:P:X:house floor hX
+feat:P:Y:house floor hY
+feat:P:Z:house floor hZ
+feat:P:~:house floor h~
+feat:P:`:house floor h`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B5
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:Q:0:house floor i0
+feat:Q:1:house floor i1
+feat:Q:2:house floor i2
+feat:Q:3:house floor i3
+feat:Q:4:house floor i4
+feat:Q:5:house floor i5
+feat:Q:6:house floor i6
+feat:Q:7:house floor i7
+feat:Q:8:house floor i8
+feat:Q:9:house floor i9
+feat:Q:a:house floor ia
+feat:Q:b:house floor ib
+feat:Q:c:house floor ic
+feat:Q:d:house floor id
+feat:Q:e:house floor ie
+feat:Q:f:house floor if
+feat:Q:g:house floor ig
+feat:Q:h:house floor ih
+feat:Q:i:house floor ii
+feat:Q:j:house floor ij
+feat:Q:k:house floor ik
+feat:Q:l:house floor il
+feat:Q:m:house floor im
+feat:Q:n:house floor in
+feat:Q:o:house floor io
+feat:Q:p:house floor ip
+feat:Q:q:house floor iq
+feat:Q:r:house floor ir
+feat:Q:s:house floor is
+feat:Q:t:house floor it
+feat:Q:u:house floor iu
+feat:Q:v:house floor iv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A4 flowers
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:Q:w:house floor iw
+feat:Q:x:house floor ix
+feat:Q:y:house floor iy
+feat:Q:z:house floor iz
+feat:Q:A:house floor iA
+feat:Q:B:house floor iB
+feat:Q:C:house floor iC
+feat:Q:D:house floor iD
+feat:Q:E:house floor iE
+feat:Q:F:house floor iF
+feat:Q:G:house floor iG
+feat:Q:H:house floor iH
+feat:Q:I:house floor iI
+feat:Q:J:house floor iJ
+feat:Q:K:house floor iK
+feat:Q:L:house floor iL
+feat:Q:M:house floor iM
+feat:Q:N:house floor iN
+feat:Q:O:house floor iO
+feat:Q:P:house floor iP
+feat:Q:Q:house floor iQ
+feat:Q:R:house floor iR
+feat:Q:S:house floor iS
+feat:Q:T:house floor iT
+feat:Q:U:house floor iU
+feat:Q:V:house floor iV
+feat:Q:W:house floor iW
+feat:Q:X:house floor iX
+feat:Q:Y:house floor iY
+feat:Q:Z:house floor iZ
+feat:Q:~:house floor i~
+feat:Q:`:house floor i`
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B7 - former "wooden walls"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:H:0:house wall a0
+feat:H:1:house wall a1
+feat:H:2:house wall a2
+feat:H:3:house wall a3
+feat:H:4:house wall a4
+feat:H:5:house wall a5
+feat:H:6:house wall a6
+feat:H:7:house wall a7
+feat:H:8:house wall a8
+feat:H:9:house wall a9
+feat:H:a:house wall aa
+feat:H:b:house wall ab
+feat:H:c:house wall ac
+feat:H:d:house wall ad
+feat:H:e:house wall ae
+feat:H:f:house wall af
+feat:H:g:house wall ag
+feat:H:h:house wall ah
+feat:H:i:house wall ai
+feat:H:j:house wall aj
+feat:H:k:house wall ak
+feat:H:l:house wall al
+feat:H:m:house wall am
+feat:H:n:house wall an
+feat:H:o:house wall ao
+feat:H:p:house wall ap
+feat:H:q:house wall aq
+feat:H:r:house wall ar
+feat:H:s:house wall as
+feat:H:t:house wall at
+feat:H:u:house wall au
+feat:H:v:house wall av
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B8 - former "wooden walls"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:H:w:house wall aw
+feat:H:x:house wall ax
+feat:H:y:house wall ay
+feat:H:z:house wall az
+feat:H:A:house wall aA
+feat:H:B:house wall aB
+feat:H:C:house wall aC
+feat:H:D:house wall aD
+feat:H:E:house wall aE
+feat:H:F:house wall aF
+feat:H:G:house wall aG
+feat:H:H:house wall aH
+feat:H:I:house wall aI
+feat:H:J:house wall aJ
+feat:H:K:house wall aK
+feat:H:L:house wall aL
+feat:H:M:house wall aM
+feat:H:N:house wall aN
+feat:H:O:house wall aO
+feat:H:P:house wall aP
+feat:H:Q:house wall aQ
+feat:H:R:house wall aR
+feat:H:S:house wall aS
+feat:H:T:house wall aT
+feat:H:U:house wall aU
+feat:H:V:house wall aV
+feat:H:W:house wall aW
+feat:H:X:house wall aX
+feat:H:Y:house wall aY
+feat:H:Z:house wall aZ
+feat:H:~:house wall a~
+feat:H:`:house wall a`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# B9 - former "dark wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:R:0:house wall b0
+feat:R:1:house wall b1
+feat:R:2:house wall b2
+feat:R:3:house wall b3
+feat:R:4:house wall b4
+feat:R:5:house wall b5
+feat:R:6:house wall b6
+feat:R:7:house wall b7
+feat:R:8:house wall b8
+feat:R:9:house wall b9
+feat:R:a:house wall ba
+feat:R:b:house wall bb
+feat:R:c:house wall bc
+feat:R:d:house wall bd
+feat:R:e:house wall be
+feat:R:f:house wall bf
+feat:R:g:house wall bg
+feat:R:h:house wall bh
+feat:R:i:house wall bi
+feat:R:j:house wall bj
+feat:R:k:house wall bk
+feat:R:l:house wall bl
+feat:R:m:house wall bm
+feat:R:n:house wall bn
+feat:R:o:house wall bo
+feat:R:p:house wall bp
+feat:R:q:house wall bq
+feat:R:r:house wall br
+feat:R:s:house wall bs
+feat:R:t:house wall bt
+feat:R:u:house wall bu
+feat:R:v:house wall bv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BA - former "dark wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:R:w:house wall bw
+feat:R:x:house wall bx
+feat:R:y:house wall by
+feat:R:z:house wall bz
+feat:R:A:house wall bA
+feat:R:B:house wall bB
+feat:R:C:house wall bC
+feat:R:D:house wall bD
+feat:R:E:house wall bE
+feat:R:F:house wall bF
+feat:R:G:house wall bG
+feat:R:H:house wall bH
+feat:R:I:house wall bI
+feat:R:J:house wall bJ
+feat:R:K:house wall bK
+feat:R:L:house wall bL
+feat:R:M:house wall bM
+feat:R:N:house wall bN
+feat:R:O:house wall bO
+feat:R:P:house wall bP
+feat:R:Q:house wall bQ
+feat:R:R:house wall bR
+feat:R:S:house wall bS
+feat:R:T:house wall bT
+feat:R:U:house wall bU
+feat:R:V:house wall bV
+feat:R:W:house wall bW
+feat:R:X:house wall bX
+feat:R:Y:house wall bY
+feat:R:Z:house wall bZ
+feat:R:~:house wall b~
+feat:R:`:house wall b`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BB - former "big white wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:S:0:house wall c0
+feat:S:1:house wall c1
+feat:S:2:house wall c2
+feat:S:3:house wall c3
+feat:S:4:house wall c4
+feat:S:5:house wall c5
+feat:S:6:house wall c6
+feat:S:7:house wall c7
+feat:S:8:house wall c8
+feat:S:9:house wall c9
+feat:S:a:house wall ca
+feat:S:b:house wall cb
+feat:S:c:house wall cc
+feat:S:d:house wall cd
+feat:S:e:house wall ce
+feat:S:f:house wall cf
+feat:S:g:house wall cg
+feat:S:h:house wall ch
+feat:S:i:house wall ci
+feat:S:j:house wall cj
+feat:S:k:house wall ck
+feat:S:l:house wall cl
+feat:S:m:house wall cm
+feat:S:n:house wall cn
+feat:S:o:house wall co
+feat:S:p:house wall cp
+feat:S:q:house wall cq
+feat:S:r:house wall cr
+feat:S:s:house wall cs
+feat:S:t:house wall ct
+feat:S:u:house wall cu
+feat:S:v:house wall cv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BC - former "big white wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:S:w:house wall cw
+feat:S:x:house wall cx
+feat:S:y:house wall cy
+feat:S:z:house wall cz
+feat:S:A:house wall cA
+feat:S:B:house wall cB
+feat:S:C:house wall cC
+feat:S:D:house wall cD
+feat:S:E:house wall cE
+feat:S:F:house wall cF
+feat:S:G:house wall cG
+feat:S:H:house wall cH
+feat:S:I:house wall cI
+feat:S:J:house wall cJ
+feat:S:K:house wall cK
+feat:S:L:house wall cL
+feat:S:M:house wall cM
+feat:S:N:house wall cN
+feat:S:O:house wall cO
+feat:S:P:house wall cP
+feat:S:Q:house wall cQ
+feat:S:R:house wall cR
+feat:S:S:house wall cS
+feat:S:T:house wall cT
+feat:S:U:house wall cU
+feat:S:V:house wall cV
+feat:S:W:house wall cW
+feat:S:X:house wall cX
+feat:S:Y:house wall cY
+feat:S:Z:house wall cZ
+feat:S:~:house wall c~
+feat:S:`:house wall c`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BD - former "big dark wall" !!!!!!!!!!!! Instead of T we use ` (T was before)
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:+:0:house wall d0
+feat:+:1:house wall d1
+feat:+:2:house wall d2
+feat:+:3:house wall d3
+feat:+:4:house wall d4
+feat:+:5:house wall d5
+feat:+:6:house wall d6
+feat:+:7:house wall d7
+feat:+:8:house wall d8
+feat:+:9:house wall d9
+feat:+:a:house wall da
+feat:+:b:house wall db
+feat:+:c:house wall dc
+feat:+:d:house wall dd
+feat:+:e:house wall de
+feat:+:f:house wall df
+feat:+:g:house wall dg
+feat:+:h:house wall dh
+feat:+:i:house wall di
+feat:+:j:house wall dj
+feat:+:k:house wall dk
+feat:+:l:house wall dl
+feat:+:m:house wall dm
+feat:+:n:house wall dn
+feat:+:o:house wall do
+feat:+:p:house wall dp
+feat:+:q:house wall dq
+feat:+:r:house wall dr
+feat:+:s:house wall ds
+feat:+:t:house wall dt
+feat:+:u:house wall du
+feat:+:v:house wall dv
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BE - former "big dark wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:+:w:house wall dw
+feat:+:x:house wall dx
+feat:+:y:house wall dy
+feat:+:z:house wall dz
+feat:+:A:house wall dA
+feat:+:B:house wall dB
+feat:+:C:house wall dC
+feat:+:D:house wall dD
+feat:+:E:house wall dE
+feat:+:F:house wall dF
+feat:+:G:house wall dG
+feat:+:H:house wall dH
+feat:+:I:house wall dI
+feat:+:J:house wall dJ
+feat:+:K:house wall dK
+feat:+:L:house wall dL
+feat:+:M:house wall dM
+feat:+:N:house wall dN
+feat:+:O:house wall dO
+feat:+:P:house wall dP
+feat:+:Q:house wall dQ
+feat:+:R:house wall dR
+feat:+:S:house wall dS
+feat:+:T:house wall dT
+feat:+:U:house wall dU
+feat:+:V:house wall dV
+feat:+:W:house wall dW
+feat:+:X:house wall dX
+feat:+:Y:house wall dY
+feat:+:Z:house wall dZ
+feat:+:~:house wall d~
+feat:+:`:house wall d`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# BF - former "brick wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:U:0:house wall e0
+feat:U:1:house wall e1
+feat:U:2:house wall e2
+feat:U:3:house wall e3
+feat:U:4:house wall e4
+feat:U:5:house wall e5
+feat:U:6:house wall e6
+feat:U:7:house wall e7
+feat:U:8:house wall e8
+feat:U:9:house wall e9
+feat:U:a:house wall ea
+feat:U:b:house wall eb
+feat:U:c:house wall ec
+feat:U:d:house wall ed
+feat:U:e:house wall ee
+feat:U:f:house wall ef
+feat:U:g:house wall eg
+feat:U:h:house wall eh
+feat:U:i:house wall ei
+feat:U:j:house wall ej
+feat:U:k:house wall ek
+feat:U:l:house wall el
+feat:U:m:house wall em
+feat:U:n:house wall en
+feat:U:o:house wall eo
+feat:U:p:house wall ep
+feat:U:q:house wall eq
+feat:U:r:house wall er
+feat:U:s:house wall es
+feat:U:t:house wall et
+feat:U:u:house wall eu
+feat:U:v:house wall ev
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# C0 - former "brick wall"
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:U:w:house wall ew
+feat:U:x:house wall ex
+feat:U:y:house wall ey
+feat:U:z:house wall ez
+feat:U:A:house wall eA
+feat:U:B:house wall eB
+feat:U:C:house wall eC
+feat:U:D:house wall eD
+feat:U:E:house wall eE
+feat:U:F:house wall eF
+feat:U:G:house wall eG
+feat:U:H:house wall eH
+feat:U:I:house wall eI
+feat:U:J:house wall eJ
+feat:U:K:house wall eK
+feat:U:L:house wall eL
+feat:U:M:house wall eM
+feat:U:N:house wall eN
+feat:U:O:house wall eO
+feat:U:P:house wall eP
+feat:U:Q:house wall eQ
+feat:U:R:house wall eR
+feat:U:S:house wall eS
+feat:U:T:house wall eT
+feat:U:U:house wall eU
+feat:U:V:house wall eV
+feat:U:W:house wall eW
+feat:U:X:house wall eX
+feat:U:Y:house wall eY
+feat:U:Z:house wall eZ
+feat:U:~:house wall e~
+feat:U:`:house wall e`
+
+
+
+#################################################
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 96 - house wall (various) // 96 98
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:V:0:house wall f0
+feat:V:1:house wall f1
+feat:V:2:house wall f2
+feat:V:3:house wall f3
+feat:V:4:house wall f4
+feat:V:5:house wall f5
+feat:V:6:house wall f6
+feat:V:7:house wall f7
+feat:V:8:house wall f8
+feat:V:9:house wall f9
+feat:V:a:house wall fa
+feat:V:b:house wall fb
+feat:V:c:house wall fc
+feat:V:d:house wall fd
+feat:V:e:house wall fe
+feat:V:f:house wall ff
+feat:V:g:house wall fg
+feat:V:h:house wall fh
+feat:V:i:house wall fi
+feat:V:j:house wall fj
+feat:V:k:house wall fk
+feat:V:l:house wall fl
+feat:V:m:house wall fm
+feat:V:n:house wall fn
+feat:V:o:house wall fo
+feat:V:p:house wall fp
+feat:V:q:house wall fq
+feat:V:r:house wall fr
+feat:V:s:house wall fs
+feat:V:t:house wall ft
+feat:V:u:house wall fu
+feat:V:v:house wall fv
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# 98 - house wall (moss) // 96 98
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:V:w:house wall fw
+feat:V:x:house wall fx
+feat:V:y:house wall fy
+feat:V:z:house wall fz
+feat:V:A:house wall fA
+feat:V:B:house wall fB
+feat:V:C:house wall fC
+feat:V:D:house wall fD
+feat:V:E:house wall fE
+feat:V:F:house wall fF
+feat:V:G:house wall fG
+feat:V:H:house wall fH
+feat:V:I:house wall fI
+feat:V:J:house wall fJ
+feat:V:K:house wall fK
+feat:V:L:house wall fL
+feat:V:M:house wall fM
+feat:V:N:house wall fN
+feat:V:O:house wall fO
+feat:V:P:house wall fP
+feat:V:Q:house wall fQ
+feat:V:R:house wall fR
+feat:V:S:house wall fS
+feat:V:T:house wall fT
+feat:V:U:house wall fU
+######################### VV is WATER!
+feat:V:!:house wall fV
+feat:V:W:house wall fW
+feat:V:X:house wall fX
+feat:V:Y:house wall fY
+feat:V:Z:house wall fZ
+feat:V:~:house wall f~
+feat:V:`:house wall f`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# A3 - house wall (sewers) // A3 AA
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:$:0:house wall g0
+feat:$:1:house wall g1
+feat:$:2:house wall g2
+feat:$:3:house wall g3
+feat:$:4:house wall g4
+feat:$:5:house wall g5
+feat:$:6:house wall g6
+feat:$:7:house wall g7
+feat:$:8:house wall g8
+feat:$:9:house wall g9
+feat:$:a:house wall ga
+feat:$:b:house wall gb
+feat:$:c:house wall gc
+feat:$:d:house wall gd
+feat:$:e:house wall ge
+feat:$:f:house wall gf
+feat:$:g:house wall gg
+feat:$:h:house wall gh
+feat:$:i:house wall gi
+feat:$:j:house wall gj
+feat:$:k:house wall gk
+feat:$:l:house wall gl
+feat:$:m:house wall gm
+feat:$:n:house wall gn
+feat:$:o:house wall go
+feat:$:p:house wall gp
+feat:$:q:house wall gq
+feat:$:r:house wall gr
+feat:$:s:house wall gs
+feat:$:t:house wall gt
+feat:$:u:house wall gu
+feat:$:v:house wall gv
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# AA - house wall (various) // A3 AA
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:$:w:house wall gw
+feat:$:x:house wall gx
+feat:$:y:house wall gy
+feat:$:z:house wall gz
+feat:$:A:house wall gA
+feat:$:B:house wall gB
+feat:$:C:house wall gC
+feat:$:D:house wall gD
+feat:$:E:house wall gE
+feat:$:F:house wall gF
+feat:$:G:house wall gG
+feat:$:H:house wall gH
+feat:$:I:house wall gI
+feat:$:J:house wall gJ
+feat:$:K:house wall gK
+feat:$:L:house wall gL
+feat:$:M:house wall gM
+feat:$:N:house wall gN
+feat:$:O:house wall gO
+feat:$:P:house wall gP
+feat:$:Q:house wall gQ
+feat:$:R:house wall gR
+feat:$:S:house wall gS
+feat:$:T:house wall gT
+feat:$:U:house wall gU
+feat:$:V:house wall gV
+feat:$:W:house wall gW
+feat:$:X:house wall gX
+feat:$:Y:house wall gY
+feat:$:Z:house wall gZ
+feat:$:~:house wall g~
+feat:$:`:house wall g`
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# DC - house wall (black brick wall with paintings) // DC E1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:-:0:house wall h0
+feat:-:1:house wall h1
+feat:-:2:house wall h2
+feat:-:3:house wall h3
+feat:-:4:house wall h4
+feat:-:5:house wall h5
+feat:-:6:house wall h6
+feat:-:7:house wall h7
+feat:-:8:house wall h8
+feat:-:9:house wall h9
+feat:-:a:house wall ha
+feat:-:b:house wall hb
+feat:-:c:house wall hc
+feat:-:d:house wall hd
+feat:-:e:house wall he
+feat:-:f:house wall hf
+feat:-:g:house wall hg
+feat:-:h:house wall hh
+feat:-:i:house wall hi
+feat:-:j:house wall hj
+feat:-:k:house wall hk
+feat:-:l:house wall hl
+feat:-:m:house wall hm
+feat:-:n:house wall hn
+feat:-:o:house wall ho
+feat:-:p:house wall hp
+feat:-:q:house wall hq
+feat:-:r:house wall hr
+feat:-:s:house wall hs
+feat:-:t:house wall ht
+feat:-:u:house wall hu
+feat:-:v:house wall hv
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E1 - house wall (green castle) // DC E1
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:-:w:house wall hw
+feat:-:x:house wall hx
+feat:-:y:house wall hy
+feat:-:z:house wall hz
+feat:-:A:house wall hA
+feat:-:B:house wall hB
+feat:-:C:house wall hC
+feat:-:D:house wall hD
+feat:-:E:house wall hE
+feat:-:F:house wall hF
+feat:-:G:house wall hG
+feat:-:H:house wall hH
+feat:-:I:house wall hI
+feat:-:J:house wall hJ
+feat:-:K:house wall hK
+feat:-:L:house wall hL
+feat:-:M:house wall hM
+feat:-:N:house wall hN
+feat:-:O:house wall hO
+feat:-:P:house wall hP
+feat:-:Q:house wall hQ
+feat:-:R:house wall hR
+feat:-:S:house wall hS
+feat:-:T:house wall hT
+feat:-:U:house wall hU
+feat:-:V:house wall hV
+feat:-:W:house wall hW
+feat:-:X:house wall hX
+feat:-:Y:house wall hY
+feat:-:Z:house wall hZ
+feat:-:~:house wall h~
+feat:-:`:house wall h`
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E2 - house wall (green jail) // E2 E3
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:\:0:house wall i0
+feat:\:1:house wall i1
+feat:\:2:house wall i2
+feat:\:3:house wall i3
+feat:\:4:house wall i4
+feat:\:5:house wall i5
+feat:\:6:house wall i6
+feat:\:7:house wall i7
+feat:\:8:house wall i8
+feat:\:9:house wall i9
+feat:\:a:house wall ia
+feat:\:b:house wall ib
+feat:\:c:house wall ic
+feat:\:d:house wall id
+feat:\:e:house wall ie
+feat:\:f:house wall if
+feat:\:g:house wall ig
+feat:\:h:house wall ih
+feat:\:i:house wall ii
+feat:\:j:house wall ij
+feat:\:k:house wall ik
+feat:\:l:house wall il
+feat:\:m:house wall im
+feat:\:n:house wall in
+feat:\:o:house wall io
+feat:\:p:house wall ip
+feat:\:q:house wall iq
+feat:\:r:house wall ir
+feat:\:s:house wall is
+feat:\:t:house wall it
+feat:\:u:house wall iu
+feat:\:v:house wall iv
+
+
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+# E3 - house wall (black jail) // E2 E3
+#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-#-# 
+
+feat:\:w:house wall iw
+feat:\:x:house wall ix
+feat:\:y:house wall iy
+feat:\:z:house wall iz
+feat:\:A:house wall iA
+feat:\:B:house wall iB
+feat:\:C:house wall iC
+feat:\:D:house wall iD
+feat:\:E:house wall iE
+feat:\:F:house wall iF
+feat:\:G:house wall iG
+feat:\:H:house wall iH
+feat:\:I:house wall iI
+feat:\:J:house wall iJ
+feat:\:K:house wall iK
+feat:\:L:house wall iL
+feat:\:M:house wall iM
+feat:\:N:house wall iN
+feat:\:O:house wall iO
+feat:\:P:house wall iP
+feat:\:Q:house wall iQ
+feat:\:R:house wall iR
+feat:\:S:house wall iS
+feat:\:T:house wall iT
+feat:\:U:house wall iU
+feat:\:V:house wall iV
+feat:\:W:house wall iW
+feat:\:X:house wall iX
+feat:\:Y:house wall iY
+feat:\:Z:house wall iZ
+feat:\:~:house wall i~
+feat:\:`:house wall i`
+
+
+
