@@ -1225,6 +1225,7 @@ object:shield:Orcish Shield:0x80:0xDA
 
 object:scroll:Life:0x87:0xCA
 object:scroll:House Creation:0x87:0xCD
+object:scroll:Small House Creation:0x87:0xCD
 
 ##### PWMAngband objects #####
 
@@ -1235,6 +1236,7 @@ object:arrow:Magic Arrow:0x8A:0xD8
 object:bolt:Magic Bolt:0x8A:0xE2
 object:shot:Magic Shot:0x8A:0xE8
 object:rock:Rock:0x8A:0xB6
+object:rock:Throwing rock:0x8A:0xB6
 object:rock:Shuriken:0x8A:0xCF
 object:rock:Boomerang:0x8A:0xF0
 # Black Ring of Power
