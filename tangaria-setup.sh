@@ -9,7 +9,7 @@ README=\
 # PWMAngband binaries: https://powerwyrm.monsite-orange.fr/
 # Github Tangaria: https://github.com/igroglaz/Tangaria
 # Link to Tangaria: https://tangaria.com/
-# Discord channel:https://discord.gg/zBNG369
+# Discord channel: https://discord.gg/zBNG369
 
 to make script executable, use chmod +x ./tangaria-setup.sh
 if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
@@ -48,9 +48,9 @@ REPOSITORY_URL_TANGARIA_RELEASE="https://github.com/igroglaz/Tangaria_release/ar
 REPOSITORY_NAME_PWMANGBAND="PWMAngband"
 REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
 
+VERSION_TANGARIA_DEV="dev"
 VERSION_TANGARIA_STABLE="stable"
-VERSION_TANGARIA_LATEST="dev"
-VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
+VERSION_TANGARIA="$VERSION_TANGARIA_DEV"
 VERSION_TANGARIA_RELEASE="master"
 VERSION_PWMANGBAND="master"
 
@@ -60,9 +60,9 @@ NAME_ROGUELIKE="Tangaria"
 RADIOLIST_ROGUELIKE_TANGARIA=ON
 RADIOLIST_ROGUELIKE_PWMANGBAND=OFF
 
-MENU_VERSION_SRC="default"
-RADIOLIST_VERSION_SRC_STABLE=ON
-RADIOLIST_VERSION_SRC_LATEST=OFF
+MENU_VERSION_SRC="dev"
+RADIOLIST_VERSION_SRC_DEV=ON
+RADIOLIST_VERSION_SRC_STABLE=OFF
 RADIOLIST_VERSION_SRC_OTHER=OFF
 
 MENU_CLIENT="sdl"
@@ -188,22 +188,22 @@ inputBoxInstallPath() {
 radioListVersion() {
     MENU_VERSION_SRC=$($DIALOG --title "Version $NAME_ROGUELIKE" --nocancel --radiolist \
         "use UP/DOWN, SPACE, ENTER keys\nChoose $NAME_ROGUELIKE version:" 16 54 6 \
-            "default" "(stable) " $RADIOLIST_VERSION_SRC_STABLE \
-            "latest" "(dev) " $RADIOLIST_VERSION_SRC_LATEST \
+            "dev" "(default branch) " $RADIOLIST_VERSION_SRC_DEV \
+            "stable" "(active branch) " $RADIOLIST_VERSION_SRC_STABLE \
             "other" "(branches) " $RADIOLIST_VERSION_SRC_OTHER \
             3>&1 1>&2 2>&3)
 
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
-            arrayContains MENU_VERSION_SRC[@] "default" RADIOLIST_VERSION_SRC_STABLE
-            arrayContains MENU_VERSION_SRC[@] "latest" RADIOLIST_VERSION_SRC_LATEST
+            arrayContains MENU_VERSION_SRC[@] "dev" RADIOLIST_VERSION_SRC_DEV
+            arrayContains MENU_VERSION_SRC[@] "stable" RADIOLIST_VERSION_SRC_STABLE
             arrayContains MENU_VERSION_SRC[@] "other" RADIOLIST_VERSION_SRC_OTHER
             if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
-                if [ "$MENU_VERSION_SRC" = "default" ]; then
-                    VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
+                if [ "$MENU_VERSION_SRC" = "dev" ]; then
+                    VERSION_TANGARIA="$VERSION_TANGARIA_DEV"
                 fi
-                if [ "$MENU_VERSION_SRC" = "latest" ]; then
-                    VERSION_TANGARIA="$VERSION_TANGARIA_LATEST"
+                if [ "$MENU_VERSION_SRC" = "stable" ]; then
+                    VERSION_TANGARIA="$VERSION_TANGARIA_STABLE"
                 fi
                 if [ "$MENU_VERSION_SRC" = "other" ]; then
                     VERSION_TANGARIA=$($DIALOG --title "other(branches)" --nocancel --inputbox \
@@ -218,10 +218,10 @@ radioListVersion() {
             fi
 
             if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
-                if [ "$MENU_VERSION_SRC" = "default" ]; then
+                if [ "$MENU_VERSION_SRC" = "dev" ]; then
                     VERSION_PWMANGBAND="master"
                 fi
-                if [ "$MENU_VERSION_SRC" = "latest" ]; then
+                if [ "$MENU_VERSION_SRC" = "stable" ]; then
                     VERSION_PWMANGBAND="master"
                 fi
                 if [ "$MENU_VERSION_SRC" = "other" ]; then
