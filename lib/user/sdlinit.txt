@@ -1,7 +1,9 @@
 Resolution = 1920x1009
 Fullscreen = 1
-Volume = 50
-StatusBarColor = 2
+SoundVolume = 50
+MusicVolume = 50
+DefaultColor = 160,60,60
+StatusBarColor = 0
 NiceGraphics = 0
 Graphics = 1
 TileWidth = 4
