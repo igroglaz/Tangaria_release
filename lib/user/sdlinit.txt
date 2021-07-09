@@ -1,6 +1,9 @@
 Resolution = 1920x1009
 Fullscreen = 1
-WindowBorders = 1
+SoundVolume = 50
+MusicVolume = 50
+DefaultColor = 160,60,60
+StatusBarColor = 0
 NiceGraphics = 0
 Graphics = 1
 TileWidth = 4
@@ -13,6 +16,7 @@ Top = 172
 Width = 1500
 Height = 889
 Keys = 1024
+WinBorders = 2
 FontSize = 22
 Font = UbuntuMono-Bold.ttf
 
@@ -23,6 +27,7 @@ Top = 13
 Width = 966
 Height = 165
 Keys = 32
+WinBorders = 2
 FontSize = 24
 Font = AnonymousPro-Bold.ttf
 
@@ -33,6 +38,7 @@ Top = 172
 Width = 409
 Height = 262
 Keys = 32
+WinBorders = 2
 FontSize = 18
 Font = UbuntuMono-Bold.ttf
 
@@ -43,6 +49,7 @@ Top = 434
 Width = 406
 Height = 262
 Keys = 32
+WinBorders = 2
 FontSize = 12
 Font = UbuntuMono-Bold.ttf
 
@@ -53,6 +60,7 @@ Top = 13
 Width = 409
 Height = 167
 Keys = 32
+WinBorders = 2
 FontSize = 18
 Font = UbuntuMono-Bold.ttf
 
@@ -63,6 +71,7 @@ Top = 13
 Width = 535
 Height = 167
 Keys = 32
+WinBorders = 2
 FontSize = 18
 Font = UbuntuMono-Bold.ttf
 
@@ -73,6 +82,7 @@ Top = 696
 Width = 406
 Height = 184
 Keys = 32
+WinBorders = 2
 FontSize = 12
 Font = UbuntuMono-Bold.ttf
 
@@ -83,5 +93,6 @@ Top = 865
 Width = 404
 Height = 207
 Keys = 32
+WinBorders = 2
 FontSize = 8
 Font = 5X8TG.FON
