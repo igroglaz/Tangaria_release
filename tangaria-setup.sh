@@ -175,7 +175,7 @@ radioListRoguelike() {
 }
 
 inputBoxInstallPath() {
-    INSTALL_DIR=$($DIALOG --title "Install path" --nocancel --inputbox \
+    INSTALL_DIR=$($DIALOG --title "Install Path" --nocancel --inputbox \
         "enter path:" 8 76 $INSTALL_DIR 3>&1 1>&2 2>&3)
 
         exitstatus=$?
@@ -600,6 +600,7 @@ cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/ga
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/fonts ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/help ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/icons ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/music ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/screens ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/sounds ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
 cp -Rfv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/tiles ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
@@ -870,6 +871,7 @@ cp -Rfv ./lib/gamedata $INSTALL_DIR/etc/pwmangband
 cp -Rfv ./lib/fonts $INSTALL_DIR/share/pwmangband
 cp -Rfv ./lib/help $INSTALL_DIR/share/pwmangband
 cp -Rfv ./lib/icons $INSTALL_DIR/share/pwmangband
+cp -Rfv ./lib/music $INSTALL_DIR/share/pwmangband
 cp -Rfv ./lib/screens $INSTALL_DIR/share/pwmangband
 cp -Rfv ./lib/sounds $INSTALL_DIR/share/pwmangband
 cp -Rfv ./lib/tiles $INSTALL_DIR/share/pwmangband
@@ -949,7 +951,7 @@ fi
         MAIN_MENU=$($DIALOG --title "Setup - Menu" --ok-button "Select" --cancel-button "Quit" --menu \
         "_.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._.-=-._\n " 18 71 9 \
             "$NAME_ROGUELIKE" "" \
-            "Install Path" "$MENU_INSTALL_DIR" \
+            "Path:" "$MENU_INSTALL_DIR" \
             "Version" "$NAME_ROGUELIKE-$VERSION_SRC" \
             "Client" "$MENU_CLIENT" \
             "Options" "" \
@@ -964,7 +966,7 @@ fi
                 "$NAME_ROGUELIKE")
                     radioListRoguelike
                 ;;
-                "Install Path")
+                "Path:")
                     inputBoxInstallPath
                 ;;
                 "Version")
