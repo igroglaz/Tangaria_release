@@ -452,6 +452,7 @@ META_ADDRESS=$(sed -n '/meta_address=/p' "$PATH_INI_PWMANGRC")
 META_PORT=$(sed -n '/meta_port=/p' "$PATH_INI_PWMANGRC")
 DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' "$PATH_INI_PWMANGRC")
 LIGHTERBLUE=$(sed -n '/LighterBlue=/p' "$PATH_INI_PWMANGRC")
+INTROMUSIC=$(sed -n '/IntroMusic=/p' "$PATH_INI_PWMANGRC")
 cat > $WRITE_FILE_PWMANGRC << EOF
 [MAngband]
 $NICK
@@ -461,6 +462,7 @@ $META_ADDRESS
 $META_PORT
 $DISABLENUMLOCK
 $LIGHTERBLUE
+$INTROMUSIC
 EOF
 }
 
@@ -798,6 +800,7 @@ exec \$PWMANGCLIENT_DIR/pwmangclient
 #meta_port=8802
 #DisableNumlock=1
 #LighterBlue=1
+#IntroMusic=0
 EOF
 chmod +x $INSTALL_DIR/pwmangclient-launcher.sh
 fi
