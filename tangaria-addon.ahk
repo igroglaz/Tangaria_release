@@ -23,7 +23,8 @@ sendinput, {^F9}
 ;Tab::F7 // NO NEED
 ; //` (tilda) -> F6
 ;vkC0::F6 // NO NEED
-; //ESC -> F5 // you be able to do so, but you need to arrange ESC manually in .prf BEWARE: if you would open '%' screen - you won't be able to exit it with remapped ESC (/rfed this problem)
+; //ESC -> F5 // you be able to do so, but you need to arrange ESC manually in .prf BEWARE:
+; if you would open '%' screen - you won't be able to exit it with remapped ESC
 ;vk1B::F5
 ;////////////////////////////////////////
 ; //Fixing alt-problem

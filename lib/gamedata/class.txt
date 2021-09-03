@@ -742,10 +742,6 @@ desc: is susceptible to rock remover takes 20+1d30 points of damage.
 spell:Sense Surroundings:9:4:35:6:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
 desc:Maps out a portion of the level around you.
@@ -1058,7 +1054,6 @@ msg_other: fires a holy orb!
 desc:Shoots a radius-2 or radius-3 ball that does unresistable
 desc: damage to each monster in its area of effect.
 desc: Evil monsters take double damage.
-desc: All cursed items in the area of effect are destroyed.
 desc: The bigger area of effect is attained at character level 30.
 
 spell:Sense Invisible:11:8:42:4:0
@@ -1543,12 +1538,8 @@ spell:Fume of Mordor:40:50:80:150:0
 effect:DARKEN_LEVEL:NONE:1
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
 
@@ -2139,10 +2130,6 @@ book:nature book:town:[Creature Dominion]:4:nature
 spell:Sense Surroundings:20:8:35:8:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
 desc:Maps out a portion of the level around you.
@@ -2453,7 +2440,7 @@ effect:EARTHQUAKE:NONE:13
 desc:Causes a radius 13 earthquake centered around the player.
 
 
-############### SORCEROR ###############
+############### SORCERER ###############
 name:Sorceror
 color:R
 skill-disarm-phys:35:9
@@ -2541,6 +2528,8 @@ effect:DETECT_DOORS
 effect-yx:22:40
 effect:DETECT_TRAPS
 effect-yx:22:40
+effect:TIMED_INC_NO_RES:BLIND
+dice:1d3
 desc:Detects all traps, doors and stairs in the immediate area.
 
 spell:Fire Ball:3:2:17:3:0
@@ -2553,6 +2542,8 @@ desc:Shoots a radius-2 fire ball.
 spell:Detect Treasure:4:4:18:4:0
 effect:DETECT_TREASURES
 effect-yx:22:40
+effect:TIMED_INC_NO_RES:BLIND
+dice:1+1d4
 desc:Detects all treasure in the immediate area.
 
 spell:Lightning Beam:5:4:20:4:0
@@ -2597,6 +2588,8 @@ desc: is susceptible to rock remover takes 20+1d30 points of damage.
 
 spell:Identify Rune:12:7:40:6:0
 effect:IDENTIFY
+effect:NOURISH:DEC_BY
+dice:1
 desc:Reveals an unknown rune on an object.
 
 spell:Map Area:13:10:45:7:0
@@ -2607,7 +2600,7 @@ dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
+dice:11+1d13
 desc:Maps out a portion of the level around you.
 
 spell:Radiate Fear:14:12:45:8:0
@@ -2982,12 +2975,8 @@ book:nature book:dungeon:[Nature Craft]:4:nature
 spell:Sense Surroundings:28:14:56:28:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Piercing Shots:30:11:50:50:0
@@ -3166,12 +3155,6 @@ desc:Attempts to put to sleep each monster within line of sight.
 spell:Sense Surroundings:12:10:34:12:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Psychometry:14:12:37:14:0
