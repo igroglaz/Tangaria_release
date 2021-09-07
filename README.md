@@ -10,4 +10,4 @@ It combines the complexity and unpredictability of **roguelike genre** and socia
 
 
 
-ℹ️ This is binaries repo. To see the source code: https://github.com/igroglaz/Tangaria
+✅ This is binaries repo. To see the source code: https://github.com/igroglaz/Tangaria
