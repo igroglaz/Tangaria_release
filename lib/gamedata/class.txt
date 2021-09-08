@@ -178,7 +178,6 @@ equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:sword:Dagger:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -228,7 +227,6 @@ equip:sword:Dagger:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -279,7 +277,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -338,7 +335,6 @@ strength-multiplier:2
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -536,6 +532,8 @@ dice:5+1d5
 desc:Doubles spellcasting speed for 5+1d5 turns.
 
 spell:Mana Bolt:25:8:60:30:0
+# 8-14 @ 24 (~60)
+# 8-40 @ 50 (~164)
 effect:BOLT_OR_BEAM:MANA
 dice:$Dd8
 expr:D:PLAYER_LEVEL:- 10
@@ -636,7 +634,10 @@ strength-multiplier:3
 equip:food:Ration of Food:1:3:none
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Whip:1:1:none
-equip:scroll:Word of Recall:1:1:birth_no_recall
+equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
+equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Phase Door:3:4:birth_no_recall
+equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-2]
 value:1:WIS[3]
 value:1:DEX[-2]
@@ -939,7 +940,6 @@ strength-multiplier:3
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Mace:1:1:none
-equip:digger:Spade:1:1:none
 equip:potion:Cure Serious Wounds:2:3:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
@@ -1253,7 +1253,10 @@ strength-multiplier:3
 equip:food:Ration of Food:1:3:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Main Gauche:1:1:none
-equip:scroll:Word of Recall:1:1:birth_no_recall
+equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
+equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Phase Door:3:4:birth_no_recall
+equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-3]
 value:1:INT[3]
 value:1:CON[-2]
@@ -1587,7 +1590,6 @@ strength-multiplier:5
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Protection from Evil:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
@@ -1823,7 +1825,6 @@ equip:light:Wooden Torch:1:3:none
 ####################equip:shadow book:[Robbers Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -2048,7 +2049,6 @@ equip:sword:Main Gauche:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -2228,7 +2228,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Tulwar:1:1:none
 equip:shield:Leather Shield:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -2447,7 +2446,7 @@ skill-disarm-phys:35:9
 skill-disarm-magic:50:12
 skill-device:40:15
 skill-save:30:9
-skill-stealth:2:0
+skill-stealth:0:0
 skill-search:10:12
 skill-melee:30:11
 skill-shoot:20:15
@@ -2460,7 +2459,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ######################equip:sorcery book:[Apprentice Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -2468,7 +2466,8 @@ equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-5]
 value:1:INT[5]
 value:1:CON[-3]
-value:1:CHR[2]
+# sullen old sorcerer who focused on magical arts to get POWER beyond imagination
+value:1:CHR[-2]
 value:1:MANA[5]
 player-flags:0:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
@@ -2488,6 +2487,8 @@ book:magic book:town:[Magic for Beginners]:8:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
 
 spell:Magic Missile:1:1:12:4:0
+# 6-42  @ 24 (~24)
+# 9-108 @ 50 (~58)
 effect:BOLT_OR_BEAM:MISSILE:0:-10
 dice:$Dd$S
 expr:D:PLAYER_LEVEL:- 1 / 5 + 3
@@ -2827,7 +2828,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
@@ -2876,7 +2876,6 @@ equip:sword:Dagger:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -3034,7 +3033,6 @@ strength-multiplier:3
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -3390,7 +3388,6 @@ strength-multiplier:2
 equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
@@ -3869,7 +3866,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ###################### equip:summoning book:[Survival]:1:1:1
 equip:hafted:Quarterstaff:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Summon Monster:10:10:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
@@ -4087,6 +4083,8 @@ desc:Prevents summoning around you for a level-dependent duration.
 
 ############### SHAPECHANGER ###############
 name:Shapechanger
+# Add exp penalty? so it will be easier to hunt forms
+# in our dungeon bracket system
 color:M
 skill-disarm-phys:36:10
 skill-disarm-magic:34:8
@@ -4105,7 +4103,6 @@ equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
