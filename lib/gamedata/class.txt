@@ -176,10 +176,10 @@ strength-multiplier:5
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 #equip:ring:Speed:2:2:none
@@ -223,12 +223,12 @@ min-weight:35
 strength-multiplier:4
 #equip:food:Ration of Food:2:4:none
 equip:light:Rusty Lantern:1:1:none
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-1]
@@ -278,7 +278,7 @@ equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:10:FEATHER
@@ -293,6 +293,7 @@ value:1:CHR[-1]
 value:0:SPEED[1d10]
 value:0:BLOWS[1d1]
 player-flags:0:NO_MANA | MARTIAL_ARTS | FAST_THROW
+# reduce aggro radius?
 title:Initiate
 title:Brother
 title:Disciple
@@ -336,7 +337,7 @@ strength-multiplier:2
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-3]
@@ -635,7 +636,7 @@ strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Whip:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-2]
@@ -942,7 +943,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Mace:1:1:none
 equip:potion:Cure Serious Wounds:2:3:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:1:STR[-1]
 value:1:INT[-3]
@@ -1254,7 +1255,7 @@ strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:sword:Main Gauche:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-3]
@@ -1589,10 +1590,10 @@ min-weight:30
 strength-multiplier:5
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:scroll:Protection from Evil:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[1]
@@ -1823,10 +1824,10 @@ strength-multiplier:4
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ####################equip:shadow book:[Robbers Handbook]:1:1:1
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:INT[1]
@@ -2045,12 +2046,12 @@ strength-multiplier:4
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ##########equip:magic book:[Magic for Beginners]:1:1:1
-equip:sword:Main Gauche:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:WIS[2]
@@ -2229,7 +2230,7 @@ equip:light:Wooden Torch:1:3:none
 equip:sword:Tulwar:1:1:none
 equip:shield:Leather Shield:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:1:IMPAIR_HP
@@ -2460,7 +2461,7 @@ equip:light:Wooden Torch:1:3:none
 ######################equip:sorcery book:[Apprentice Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-5]
@@ -2818,10 +2819,10 @@ skill-disarm-magic:21:7
 skill-device:0:0
 skill-save:32:14
 skill-stealth:0:0
-skill-search:10:12
+skill-search:18:15
 skill-melee:70:45
 skill-shoot:55:45
-skill-dig:0:0
+skill-dig:5:2
 hitdie:9
 max-attacks:6
 min-weight:30
@@ -2829,20 +2830,34 @@ strength-multiplier:5
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:1:STR[3]
-value:1:INT[-4]
+# Believing in science (or religion) instead of magic is not the reason to be stupid...
+value:0:INT[-4+1d10]
+# ...but in magical world it's definitely not wise.
 value:1:WIS[-3]
 value:1:DEX[2]
 value:1:CON[2]
-value:1:CHR[-3]
+value:0:CHR[0+1d24]
 value:0:ANTI_MAGIC[1d1]
 player-flags:0:NO_MANA
+# + SEE_INVIS in 1 range
+########################
+#player-flags:0:CAN_SWIM .. make swimming movement slower.. rework it.
+#obj-flag:0:CANT_FLY
+#obj-flag:0:SLOW_DIGEST
+#value:1:STEALTH[1]
+#value:50:RES_DISEN[1]
+# some ideas..
+# - drain magic? -> restore life when hit p/h
+# - make curse works rare (like save)
+# - remove buffs from mobs
+# - drink from fountains only water
 title:Asker
 title:Thinker
 title:Faithless
@@ -2874,12 +2889,12 @@ strength-multiplier:3
 #equip:food:Ration of Food:2:4:none
 equip:light:Rusty Lantern:1:1:none
 ###################equip:hunt book:[Hunting and Tracking]:1:1:1
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-2]
@@ -2889,6 +2904,7 @@ value:1:DEX[2]
 value:1:CHR[-1]
 value:0:SHOTS[1d3]
 player-flags:0:CHOOSE_SPELLS | FAST_THROW
+# increase vision radius?
 title:Rock Thrower
 title:Slinger
 title:Fowler
@@ -3034,9 +3050,9 @@ min-weight:35
 strength-multiplier:3
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-1]
@@ -3045,6 +3061,7 @@ value:1:WIS[3]
 value:1:DEX[-1]
 value:1:CHR[0+1d15]
 player-flags:0:BEAM | CHOOSE_SPELLS
+obj-flag:0:PROT_AMNESIA
 title:Novice
 title:Talent
 title:Empath
@@ -3391,7 +3408,7 @@ strength-multiplier:2
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-4]
@@ -3870,7 +3887,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Quarterstaff:1:1:none
 equip:scroll:Summon Monster:10:10:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:1:STR[-5]
@@ -4104,10 +4121,10 @@ strength-multiplier:4
 #equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:1:STR[1]
