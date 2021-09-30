@@ -4143,12 +4143,12 @@ weight:4
 cost:0
 alloc:10:3 to 15
 pile:100:1d2
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:4
 effect:CURE:POISONED
 effect:NOURISH:SET_TO
-dice:5
-msg_self:The potion makes you queasy.
+dice:6
+effect:RESTORE_MANA
+dice:15
+msg_self:The potion makes you queasy, but makes you awake.
 msg_other: vomits!
 
 name:Stomach Water
@@ -4157,8 +4157,16 @@ type:potion
 level:3
 weight:4
 cost:1
+effect:CURE:POISONED
+effect:CURE:STUN
+effect:CURE:POISONED
+effect:CURE:CONFUSED
+effect:HEAL_HP
+dice:40
 effect:NOURISH:DEC_BY
 dice:25
+effect:RESTORE_MANA
+dice:7
 msg_self:The potion calms your stomach, but leaves you more hungry.
 msg_other: hiccups.
 
@@ -6129,12 +6137,9 @@ weight:4
 cost:0
 alloc:50:0 to 100
 pile:70:1d3
-effect:NOURISH:INC_BY
-dice:0
-effect:NOURISH:INC_BY
+#hardcoded
+effect:HEAL_HP
 dice:1
-effect:RANDOM
-dice:2
 msg_self:You feel less thirsty.
 
 
@@ -6722,7 +6727,7 @@ name:& Spade~
 graphics:\:s
 type:digger
 level:5
-weight:50
+weight:200
 cost:10
 alloc:20:5 to 100
 attack:1d1:0:0
@@ -9400,8 +9405,9 @@ dice:6
 effect:TIMED_INC:BLESSED
 dice:6+1d12
 msg_self:Ho! Ho! Ho! To the bottle I go! To heal my heart and drown my woe!
-desc:Clear drink, pale golden in colour: it has the scent of a honey
+desc:Clear fragrant draught, pale golden in colour: it has the scent of a honey
 desc: made of many flowers, and is wonderfully refreshing.
+desc: It is cool as a clear fountain, golden as a summer afternoon...
 
 name:& Apple of Youth
 graphics:,:I
@@ -9437,3 +9443,15 @@ alloc:2:1 to 100
 attack:1d3:0:0
 armor:0:0
 desc:A simple oak club.. it's quite old, but still do the job.
+
+# rename to Levitation... while rename current leviation to Swimming
+name:Flying
+graphics:=:d
+type:ring
+level:25
+weight:2
+cost:7000
+alloc:13:25 to 100
+flags:FLYING | EASY_KNOW
+desc:When you put on this ring, you will be able to levitate a few feet 
+desc: above the floor. It works only if you have solid ground below.

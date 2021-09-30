@@ -226,6 +226,7 @@ name:insect
 glyph:I
 pain:7
 flags:ANIMAL | WEIRD_MIND | MULTIPLY | LEVITATE
+flags:NO_PASS_TREE
 flags:RAND_25 | RAND_50
 desc:Insect
 
@@ -556,6 +557,7 @@ pain:1
 desc:Aquatic
 flags:ANIMAL | AQUATIC | CLEAR_WEB
 flags:IM_WATER
+flags:NO_PASS_TREE
 
 name:ball
 glyph:*

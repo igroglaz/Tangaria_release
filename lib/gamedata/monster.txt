@@ -280,6 +280,7 @@ experience:0
 blow:CLAW:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
+flags:NO_PASS_TREE
 desc:A skinny little furball with sharp claws and a menacing look.
 locations:Farfest
 
@@ -300,6 +301,7 @@ experience:0
 blow:BITE:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
+flags:NO_PASS_TREE
 desc:A thin flea-ridden mutt, growling as you get close.
 locations:Farfest
 
@@ -569,6 +571,7 @@ weight:0
 experience:0
 blow:MOAN
 flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
+flags:NO_PASS_TREE
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
@@ -611,7 +614,7 @@ weight:0
 experience:0
 flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH
 flags:PWMANG_EXTRA | PWMANG_FIXED
-flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID | UNDEAD | RES_LIGHT | HURT_ROCK
+flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID | UNDEAD | HURT_ROCK | IM_LIGHT | HURT_LIGHT
 desc:An indestructible golem used for target practice.
 locations:Farfest
 
@@ -1001,6 +1004,7 @@ blow:BITE:HURT:1d2
 flags:MULTIPLY
 flags:RAND_50
 flags:DROP_SKELETON | WILD_GRASS
+flags:NO_PASS_TREE
 desc:It is about three feet long with large teeth.
 
 name:large white snake
@@ -1224,7 +1228,7 @@ weight:150
 experience:5
 blow:HIT:HURT:1d6
 flags:MALE | UNIQUE
-flags:RAND_25 | DROP_SKELETON | DROP_CORPSE | WANDERER
+flags:RAND_25 | DROP_SKELETON | DROP_CORPSE | WANDERER | WILD_WOOD
 flags:ONLY_GOLD | DROP_1
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
@@ -1291,6 +1295,7 @@ flags:ANIMAL | NO_CONF | NO_SLEEP | WANDERER
 flags:DROP_CORPSE | DROP_SKELETON
 drop:fortune cookie:Fortune Cookie:80:1:1
 desc:A striped housecat who enjoys hunting.
+locations:The Mountain Gorge|The Orc Cave|The Severs
 
 name:kobold
 base:kobold
@@ -2373,6 +2378,7 @@ blow:BITE:POISON:1d3
 flags:MULTIPLY
 flags:RAND_25
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is a very vicious rodent.
 
 name:blue worm mass
@@ -2454,6 +2460,7 @@ blow:BITE:EAT_LIGHT:1d2
 flags:MULTIPLY
 flags:RAND_50
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is about three feet long with large teeth. As the light of your lamp
 desc: falls on it, it seems to grow stronger.
 
@@ -3919,6 +3926,7 @@ blow:BITE:POISON:1d4
 flags:MULTIPLY
 flags:RAND_25
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is a rodent of unusual size.
 
 name:black harpy
@@ -7848,7 +7856,7 @@ smell:20
 armor-class:2
 sleepiness:10
 depth:20
-rarity:3
+rarity:4
 weight:80
 experience:50
 blow:CLAW:HURT:2d10
@@ -7856,6 +7864,7 @@ blow:CLAW:HURT:2d10
 blow:BITE:HURT:3d8
 flags:NO_FEAR
 flags:DROP_CORPSE | WILD_WOOD | NO_PIT
+flags:NO_PASS_TREE
 desc:A blinding whirlwind of fear and feathers. Its razor sharp beak and talons
 desc: fill its foes with terror as it seeks to rend flesh from bone with
 desc: unbridled ferocity.
@@ -16332,6 +16341,7 @@ blow:HIT:EXP_80:4d6
 flags:UNIQUE | MALE | LEVITATE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:RES_LIGHT
 drop:ring:Black Ring of Power:100:1:1
 desc:A tall black cloaked Ringwraith, he is a master of horsemanship. He longs
 desc: to taste your blood.
@@ -17550,6 +17560,7 @@ flags:UNIQUE | FEMALE | INVISIBLE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:PASS_WALL | MOVE_BODY
 flags:FORCE_SLEEP
+flags:RES_LIGHT
 spell-freq:3
 spell-power:43
 spells:BLIND | WOUND | FORGET | HOLD | SCARE
@@ -18180,6 +18191,7 @@ flags:UNIQUE | MALE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
+flags:RES_LIGHT
 spell-freq:3
 spell-power:45
 spells:BLIND | WOUND | DARKNESS | HOLD | SCARE
@@ -18751,7 +18763,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | INVISIBLE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_FIRE
+flags:IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:48
@@ -19571,7 +19583,7 @@ blow:TOUCH:EXP_40:6d7
 flags:UNIQUE | MALE | INVISIBLE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_FIRE
+flags:IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:52
@@ -20397,7 +20409,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:3
 spell-power:56
 spells:BLIND | WOUND | HOLD | SCARE
@@ -21553,7 +21565,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:3
 spell-power:64
 spells:BLIND | WOUND | MISSILE | HOLD | MIND_BLAST | SCARE
@@ -22884,7 +22896,7 @@ blow:TOUCH:EXP_40:7d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_ACID | IM_FIRE
+flags:IM_ACID | IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:2
 spell-power:72
@@ -23872,7 +23884,7 @@ blow:HIT:EXP_80:7d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:2
 spell-power:80
 spells:BLIND | BRAIN_SMASH | WOUND | HOLD | SCARE | TELE_AWAY
@@ -24139,6 +24151,7 @@ spells:S_HI_DEMON | S_UNDEAD
 desc:Originally of the semi-divine Maiar, this evil spirit swore allegiance to
 desc: Morgoth at the beginning of time and is now one of his most terrible
 desc: demonic servants. With its flaming whip and sword it seeks to destroy you.
+
 name:Ancalagon the Black
 base:ancient dragon
 color:D
@@ -28475,6 +28488,7 @@ depth:0
 rarity:3
 weight:0
 experience:4
+flags:NO_PASS_TREE
 blow:BITE:HURT:1d2
 flags:BASH_DOOR
 desc:It makes you itch just to look at it.
@@ -28531,6 +28545,7 @@ depth:0
 rarity:1
 weight:0
 experience:3
+flags:NO_PASS_TREE
 blow:BITE:HURT:1d2
 desc:It makes you itch just to look at it.
 locations:Mosquito Marshes
@@ -31159,9 +31174,9 @@ name:shadow of nazgul
 base:wraith
 color:p
 speed:115
-hit-points:250
+hit-points:500
 light:-2
-hearing:90
+hearing:40
 smell:50
 armor-class:72
 sleepiness:10
@@ -31175,6 +31190,7 @@ blow:HIT:BLACK_BREATH:3d7
 flags:MALE | LEVITATE
 flags:DROP_1 | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:RES_LIGHT
 desc:Nazguls don't dissapear for ever.. They return. Always.
 desc:But till the moment when they will reclaim, 
 desc:they dwell aas shadowless shapes.

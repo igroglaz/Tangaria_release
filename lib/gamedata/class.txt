@@ -187,12 +187,12 @@ equip:potion:Cure Light Wounds:2:3:birth_no_recall
 #equip:scroll:House Creation:40:40:none
 #equip:potion:Experience:1:1:none
 obj-flag:30:PROT_FEAR
-value:1:STR[3]
-value:1:INT[-2]
-value:1:WIS[-2]
-value:1:DEX[2]
-value:1:CON[2]
-value:1:CHR[-2]
+value:0:STR[3]
+value:0:INT[-2]
+value:0:WIS[-2]
+value:0:DEX[2]
+value:0:CON[2]
+value:0:CHR[-2]
 player-flags:0:NO_MANA | SHIELD_BASH
 title:Rookie
 title:Soldier
@@ -231,12 +231,12 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-2]
-value:1:WIS[-1]
-value:1:DEX[3]
-value:1:CON[1]
-value:1:CHR[-2]
+value:0:STR[-1]
+value:0:INT[-2]
+value:0:WIS[-1]
+value:0:DEX[3]
+value:0:CON[1]
+value:0:CHR[-2]
 value:0:SHOTS[1d6]
 #
 player-flags:0:FAST_SHOT
@@ -285,11 +285,11 @@ obj-flag:10:FEATHER
 obj-flag:15:PROT_FEAR
 obj-flag:20:PROT_CONF
 obj-flag:25:FREE_ACT
-value:1:STR[1]
-value:1:INT[-2]
-value:1:DEX[2]
-value:1:CON[1]
-value:1:CHR[-1]
+value:0:STR[1]
+value:0:INT[-2]
+value:0:DEX[2]
+value:0:CON[1]
+value:0:CHR[-1]
 value:0:SPEED[1d10]
 value:0:BLOWS[1d1]
 player-flags:0:NO_MANA | MARTIAL_ARTS | FAST_THROW
@@ -316,7 +316,6 @@ attack:hit: with a jump kick:25:20:JUMP
 attack:hit: with a circle kick:35:30:CIRCLE
 attack:hit: with a crushing blow:45:35:CRUSH
 
-
 ############### MAGE ###############
 name:Mage
 color:r
@@ -333,17 +332,16 @@ hitdie:1
 max-attacks:4
 min-weight:40
 strength-multiplier:2
-#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-3]
-value:1:INT[3]
-value:1:CON[-2]
-value:1:CHR[1+1d35]
+value:0:STR[-3]
+value:0:INT[3]
+value:0:CON[-2]
+value:0:CHR[1+1d35]
 player-flags:0:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
@@ -358,7 +356,7 @@ title:Arch-Mage
 
 magic:1:300:5
 
-book:magic book:town:[Magic for Beginners]:7:arcane
+book:magic book:town:[Magic for Beginners]:8:arcane
 book-graphics:?:R
 book-properties:1:30:25
 book-alloc:40:1 to 100
@@ -383,10 +381,14 @@ desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
 spell:Phase Door:1:2:24:4:0
+effect:TIMED_INC:MOVE_FAST
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 + 5
 effect:TELEPORT
 dice:10
 msg_other: blinks away.
-desc:Teleports you randomly up to 10 squares away.
+desc:Teleports you randomly up to 10 squares away and make you
+desc: hasty for some time.
 
 spell:Light Room:1:2:26:4:0
 effect:BLAST:LIGHT_WEAK:2
@@ -414,12 +416,23 @@ expr:B:PLAYER_LEVEL:+ 10
 msg_other: fires a fire ball.
 desc:Shoots a radius-2 fire ball.
 
-spell:Lightning Beam:5:4:30:4:0
+spell:Lightning Beam:5:3:30:4:0
 effect:BEAM:ELEC
 dice:$Dd6
 expr:D:PLAYER_LEVEL:- 1 / 5 + 3
 msg_other: fires a lightning beam.
 desc:Fires a lightning beam that hurts each monster in its path.
+
+spell:Frost Shield:6:4:5:4:0
+effect:TIMED_INC:SHIELD
+dice:$B
+expr:B:PLAYER_LEVEL:+ 20
+effect:TIMED_INC:ICY_AURA
+dice:$B
+expr:B:PLAYER_LEVEL:+ 20
+desc:Grants you cold resistance, provide freezing aura, brands
+desc: your physical attacks with cold... but also greatly reduce stealth
+desc: and your movement speed.
 
 book:magic book:town:[Conjurings and Tricks]:7:arcane
 book-graphics:?:R
@@ -440,16 +453,6 @@ expr:B:PLAYER_LEVEL:* 5
 msg_other: teleports away.
 desc:Teleports you randomly within the current level.
 
-spell:Frost Bolt:7:3:40:6:0
-effect:BOLT_OR_BEAM:COLD
-dice:$Dd8
-expr:D:PLAYER_LEVEL:- 5 / 3 + 6
-msg_other: fires a frost bolt.
-desc:Fires a frost bolt that always hits its target.
-desc: Sometimes a beam is fired instead that hurts each monster
-desc: in its path.
-desc: The chance to get a beam goes up with your character level.
-
 spell:Recharging:9:7:75:6:0
 effect:RECHARGE
 dice:$B
@@ -459,12 +462,28 @@ desc: Chance of success and number of charges gained increase with your
 desc: level and decrease with level of wand or staff and number of charges.
 desc: A failed attempt to recharge destroys one wand or staff from the stack.
 
-spell:Detect Treasure:10:3:60:5:0
+spell:Frost Bolt:10:3:30:6:0
+effect:BOLT_OR_BEAM:COLD
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 * 40
+#                 sorc vs mage
+# @10: 7d8   7-56  ~31 vs 40
+# @20: 11d8 11-88  ~50 vs 80
+# @30: 14d8 14-112 ~63 vs 120
+# @40: 17d8 17-136 ~77 vs 160
+# @50: 21d8 21-168 ~95 vs 200
+msg_other: fires a frost bolt.
+desc:Fires a frost bolt that always hits its target.
+desc: Sometimes a beam is fired instead that hurts each monster
+desc: in its path.
+desc: The chance to get a beam goes up with your character level.
+
+spell:Detect Treasure:11:3:60:5:0
 effect:DETECT_TREASURES
 effect-yx:22:40
 desc:Detects all treasure in the immediate area.
 
-spell:Identify Rune:11:7:25:8:0
+spell:Identify Rune:12:7:25:8:0
 effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
@@ -485,7 +504,7 @@ effect-yx:22:40
 desc:Detects all monsters in the immediate area, for one turn only.
 
 spell:Shock Wave:16:5:40:10:0
-effect:BALL:SOUND:2
+effect:BALL:SOUND:3
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
 msg_other: fires a sonic ball.
@@ -496,14 +515,14 @@ desc: each monster in the area of effect.
 spell:Explosion:20:10:50:12:0
 effect:BALL:SHARD:2
 dice:$B
-expr:B:PLAYER_LEVEL:* 2 + 20
+expr:B:PLAYER_LEVEL:* 2 + 30
 msg_other: fires an exploding missile.
 desc:Shoots a radius-2 shards ball.
 
 spell:Acid Spray:20:7:30:12:0
 effect:BREATH:ACID:0:30
 dice:$Dd8
-expr:D:PLAYER_LEVEL:/ 2
+expr:D:PLAYER_LEVEL:- 5
 msg_other: sprays acid.
 desc:Sprays acid.
 
@@ -527,12 +546,7 @@ book-properties:40:30:20000
 book-alloc:15:40 to 100
 book-desc:An advanced arcane book with a few spells.
 
-spell:Mana Channel:25:10:50:20:0
-effect:TIMED_INC:FASTCAST
-dice:5+1d5
-desc:Doubles spellcasting speed for 5+1d5 turns.
-
-spell:Mana Bolt:25:8:60:30:0
+spell:Mana Bolt:24:8:60:30:0
 # 8-14 @ 24 (~60)
 # 8-40 @ 50 (~164)
 effect:BOLT_OR_BEAM:MANA
@@ -543,6 +557,11 @@ desc:Fires a mana bolt that always hits its target.
 desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
+
+spell:Mana Channel:25:10:50:20:0
+effect:TIMED_INC:FASTCAST
+dice:5+1d5
+desc:Doubles spellcasting speed for 5+1d5 turns.
 
 spell:Resistance:28:20:65:20:0
 effect:CLEAR_VALUE
@@ -639,9 +658,9 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-2]
-value:1:WIS[3]
-value:1:DEX[-2]
+value:0:STR[-2]
+value:0:WIS[3]
+value:0:DEX[-2]
 value:0:CHR[1+1d24]
 player-flags:0:ZERO_FAIL | CHOOSE_SPELLS | CHARM | SHAPECHANGE
 shape:5:cave bear
@@ -945,11 +964,11 @@ equip:potion:Cure Serious Wounds:2:3:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-3]
-value:1:WIS[3]
-value:1:DEX[-1]
-value:1:CON[1]
+value:0:STR[-1]
+value:0:INT[-3]
+value:0:WIS[3]
+value:0:DEX[-1]
+value:0:CON[1]
 value:0:CHR[2+1d24]
 player-flags:0:BLESS_WEAPON | ZERO_FAIL
 title:Believer
@@ -1258,11 +1277,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-3]
-value:1:INT[3]
-value:1:CON[-2]
-value:1:CHR[-4]
-value:1:RES_DARK[1]
+value:0:STR[-3]
+value:0:INT[3]
+value:0:CON[-2]
+value:0:CHR[-4]
+value:0:RES_DARK[1]
 player-flags:0:ZERO_FAIL | CHOOSE_SPELLS | UNLIGHT | SHAPECHANGE | UNDEAD_POWERS
 ########################### MOVE TO SEPARATE FORMS
 shape:5:fruit bat_
@@ -1596,11 +1615,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[1]
-value:1:INT[-3]
-value:1:WIS[1]
-value:1:DEX[-1]
-value:1:CON[2]
+value:0:STR[1]
+value:0:INT[-3]
+value:0:WIS[1]
+value:0:DEX[-1]
+value:0:CON[2]
 value:0:CHR[1+1d24]
 player-flags:0:BLESS_WEAPON | SHIELD_BASH
 title:Gallant
@@ -1830,11 +1849,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:INT[1]
-value:1:WIS[-3]
-value:1:DEX[3]
-value:1:CON[-1]
-value:1:CHR[-1+-1d40]
+value:0:INT[1]
+value:0:WIS[-3]
+value:0:DEX[3]
+value:0:CON[-1]
+value:0:CHR[-1+-1d40]
 value:5:SPEED[1+1d15]
 player-flags:0:CHOOSE_SPELLS | STEAL
 player-flags:0:BACK_STAB | STEALING_IMPROV | STEALTH_MODE
@@ -2054,10 +2073,10 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:WIS[2]
-value:1:DEX[1]
-value:1:CON[-1]
-value:1:CHR[0]
+value:0:WIS[2]
+value:0:DEX[1]
+value:0:CON[-1]
+value:0:CHR[0]
 player-flags:0:FAST_SHOT | CHOOSE_SPELLS
 title:Runner
 title:Strider
@@ -2234,10 +2253,10 @@ equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:1:IMPAIR_HP
-value:1:STR[2]
-value:1:WIS[-3]
-value:1:CON[2]
-value:1:CHR[0+-1d15]
+value:0:STR[2]
+value:0:WIS[-3]
+value:0:CON[2]
+value:0:CHR[0+-1d15]
 player-flags:0:CHOOSE_SPELLS | SHIELD_BASH | COMBAT_REGEN | SHAPECHANGE
 shape:20:werewolf
 shape:40:volkodlak
@@ -2464,12 +2483,12 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-5]
-value:1:INT[5]
-value:1:CON[-3]
+value:0:STR[-5]
+value:0:INT[5]
+value:0:CON[-3]
 # sullen old sorcerer who focused on magical arts to get POWER beyond imagination
-value:1:CHR[-2]
-value:1:MANA[5]
+value:0:CHR[-2]
+value:0:MANA[5]
 player-flags:0:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
@@ -2836,28 +2855,27 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[3]
+value:0:STR[3]
 # Believing in science (or religion) instead of magic is not the reason to be stupid...
 value:0:INT[-4+1d10]
 # ...but in magical world it's definitely not wise.
-value:1:WIS[-3]
-value:1:DEX[2]
-value:1:CON[2]
+value:0:WIS[-3]
+value:0:DEX[2]
+value:0:CON[2]
 value:0:CHR[0+1d24]
 value:0:ANTI_MAGIC[1d1]
 player-flags:0:NO_MANA
 # + SEE_INVIS in 1 range
+# + drain magic from non-natural magic creatures -> restore life
+# + make curse works rare (like save)
+# + drink from fountains mainly water
+# - can't uncurse items
 ########################
 #player-flags:0:CAN_SWIM .. make swimming movement slower.. rework it.
 #obj-flag:0:CANT_FLY
 #obj-flag:0:SLOW_DIGEST
-#value:1:STEALTH[1]
+#value:0:STEALTH[1]
 #value:50:RES_DISEN[1]
-# some ideas..
-# - drain magic? -> restore life when hit p/h
-# - make curse works rare (like save)
-# - remove buffs from mobs
-# - drink from fountains only water
 title:Asker
 title:Thinker
 title:Faithless
@@ -2897,11 +2915,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-2]
-value:1:INT[-2]
-value:1:WIS[2]
-value:1:DEX[2]
-value:1:CHR[-1]
+value:0:STR[-2]
+value:0:INT[-2]
+value:0:WIS[2]
+value:0:DEX[2]
+value:0:CHR[-1]
 value:0:SHOTS[1d3]
 player-flags:0:CHOOSE_SPELLS | FAST_THROW
 # increase vision radius?
@@ -3055,11 +3073,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-2]
-value:1:WIS[3]
-value:1:DEX[-1]
-value:1:CHR[0+1d15]
+value:0:STR[-1]
+value:0:INT[-2]
+value:0:WIS[3]
+value:0:DEX[-1]
+value:0:CHR[0+1d15]
 player-flags:0:BEAM | CHOOSE_SPELLS
 obj-flag:0:PROT_AMNESIA
 title:Novice
@@ -3411,11 +3429,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-4]
-value:1:INT[4]
-value:1:CON[-2]
-value:1:CHR[1]
-value:1:MANA[3]
+value:0:STR[-4]
+value:0:INT[4]
+value:0:CON[-2]
+value:0:CHR[1]
+value:0:MANA[3]
 value:10:RES_FIRE[1]
 value:15:RES_COLD[1]
 value:20:RES_ACID[1]
@@ -3890,11 +3908,11 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-5]
-value:1:INT[-5]
-value:1:WIS[5]
-value:1:DEX[-5]
-value:1:CON[-5]
+value:0:STR[-5]
+value:0:INT[-5]
+value:0:WIS[5]
+value:0:DEX[-5]
+value:0:CON[-5]
 value:0:CHR[1+1d12]
 player-flags:0:BLESS_WEAPON | ZERO_FAIL | CHOOSE_SPELLS | SUMMON_SPELLS
 title:Novice
@@ -4127,12 +4145,12 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[1]
-value:1:INT[-1]
-value:1:WIS[-1]
-value:1:DEX[1]
-value:1:CON[1]
-value:1:CHR[-5]
+value:0:STR[1]
+value:0:INT[-1]
+value:0:WIS[-1]
+value:0:DEX[1]
+value:0:CON[1]
+value:0:CHR[-5]
 player-flags:0:MONSTER_SPELLS | SHAPECHANGE
 title:Pretender
 title:Modifier
