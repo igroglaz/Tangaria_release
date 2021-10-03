@@ -173,14 +173,13 @@ hitdie:10
 max-attacks:6
 min-weight:30
 strength-multiplier:5
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 #equip:ring:Speed:2:2:none
@@ -188,12 +187,12 @@ equip:potion:Cure Light Wounds:2:3:birth_no_recall
 #equip:scroll:House Creation:40:40:none
 #equip:potion:Experience:1:1:none
 obj-flag:30:PROT_FEAR
-value:1:STR[3]
-value:1:INT[-2]
-value:1:WIS[-2]
-value:1:DEX[2]
-value:1:CON[2]
-value:1:CHR[-2]
+value:0:STR[3]
+value:0:INT[-2]
+value:0:WIS[-2]
+value:0:DEX[2]
+value:0:CON[2]
+value:0:CHR[-2]
 player-flags:0:NO_MANA | SHIELD_BASH
 title:Rookie
 title:Soldier
@@ -222,23 +221,22 @@ hitdie:5
 max-attacks:2
 min-weight:35
 strength-multiplier:4
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Rusty Lantern:1:1:none
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-2]
-value:1:WIS[-1]
-value:1:DEX[3]
-value:1:CON[1]
-value:1:CHR[-2]
+value:0:STR[-1]
+value:0:INT[-2]
+value:0:WIS[-1]
+value:0:DEX[3]
+value:0:CON[1]
+value:0:CHR[-2]
 value:0:SHOTS[1d6]
 #
 player-flags:0:FAST_SHOT
@@ -275,27 +273,27 @@ skill-melee:64:40
 skill-shoot:60:30
 skill-dig:10:5
 hitdie:8
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:10:FEATHER
 obj-flag:15:PROT_FEAR
 obj-flag:20:PROT_CONF
 obj-flag:25:FREE_ACT
-value:1:STR[1]
-value:1:INT[-2]
-value:1:DEX[2]
-value:1:CON[1]
-value:1:CHR[-1]
+value:0:STR[1]
+value:0:INT[-2]
+value:0:DEX[2]
+value:0:CON[1]
+value:0:CHR[-1]
 value:0:SPEED[1d10]
 value:0:BLOWS[1d1]
 player-flags:0:NO_MANA | MARTIAL_ARTS | FAST_THROW
+# reduce aggro radius?
 title:Initiate
 title:Brother
 title:Disciple
@@ -318,7 +316,6 @@ attack:hit: with a jump kick:25:20:JUMP
 attack:hit: with a circle kick:35:30:CIRCLE
 attack:hit: with a crushing blow:45:35:CRUSH
 
-
 ############### MAGE ###############
 name:Mage
 color:r
@@ -335,18 +332,16 @@ hitdie:1
 max-attacks:4
 min-weight:40
 strength-multiplier:2
-equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-3]
-value:1:INT[3]
-value:1:CON[-2]
-value:1:CHR[1+1d35]
+value:0:STR[-3]
+value:0:INT[3]
+value:0:CON[-2]
+value:0:CHR[1+1d35]
 player-flags:0:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
@@ -361,7 +356,7 @@ title:Arch-Mage
 
 magic:1:300:5
 
-book:magic book:town:[Magic for Beginners]:7:arcane
+book:magic book:town:[Magic for Beginners]:8:arcane
 book-graphics:?:R
 book-properties:1:30:25
 book-alloc:40:1 to 100
@@ -386,10 +381,14 @@ desc:Detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
 
 spell:Phase Door:1:2:24:4:0
+effect:TIMED_INC:MOVE_FAST
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 + 5
 effect:TELEPORT
 dice:10
 msg_other: blinks away.
-desc:Teleports you randomly up to 10 squares away.
+desc:Teleports you randomly up to 10 squares away and make you
+desc: hasty for some time.
 
 spell:Light Room:1:2:26:4:0
 effect:BLAST:LIGHT_WEAK:2
@@ -417,12 +416,23 @@ expr:B:PLAYER_LEVEL:+ 10
 msg_other: fires a fire ball.
 desc:Shoots a radius-2 fire ball.
 
-spell:Lightning Beam:5:4:30:4:0
+spell:Lightning Beam:5:3:30:4:0
 effect:BEAM:ELEC
 dice:$Dd6
 expr:D:PLAYER_LEVEL:- 1 / 5 + 3
 msg_other: fires a lightning beam.
 desc:Fires a lightning beam that hurts each monster in its path.
+
+spell:Frost Shield:6:4:5:4:0
+effect:TIMED_INC:SHIELD
+dice:$B
+expr:B:PLAYER_LEVEL:+ 20
+effect:TIMED_INC:ICY_AURA
+dice:$B
+expr:B:PLAYER_LEVEL:+ 20
+desc:Grants you cold resistance, provide freezing aura, brands
+desc: your physical attacks with cold... but also greatly reduce stealth
+desc: and your movement speed.
 
 book:magic book:town:[Conjurings and Tricks]:7:arcane
 book-graphics:?:R
@@ -443,16 +453,6 @@ expr:B:PLAYER_LEVEL:* 5
 msg_other: teleports away.
 desc:Teleports you randomly within the current level.
 
-spell:Frost Bolt:7:3:40:6:0
-effect:BOLT_OR_BEAM:COLD
-dice:$Dd8
-expr:D:PLAYER_LEVEL:- 5 / 3 + 6
-msg_other: fires a frost bolt.
-desc:Fires a frost bolt that always hits its target.
-desc: Sometimes a beam is fired instead that hurts each monster
-desc: in its path.
-desc: The chance to get a beam goes up with your character level.
-
 spell:Recharging:9:7:75:6:0
 effect:RECHARGE
 dice:$B
@@ -462,17 +462,33 @@ desc: Chance of success and number of charges gained increase with your
 desc: level and decrease with level of wand or staff and number of charges.
 desc: A failed attempt to recharge destroys one wand or staff from the stack.
 
-spell:Detect Treasure:10:3:60:5:0
+spell:Frost Bolt:10:3:30:6:0
+effect:BOLT_OR_BEAM:COLD
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 * 40
+#                 sorc vs mage
+# @10: 7d8   7-56  ~31 vs 40
+# @20: 11d8 11-88  ~50 vs 80
+# @30: 14d8 14-112 ~63 vs 120
+# @40: 17d8 17-136 ~77 vs 160
+# @50: 21d8 21-168 ~95 vs 200
+msg_other: fires a frost bolt.
+desc:Fires a frost bolt that always hits its target.
+desc: Sometimes a beam is fired instead that hurts each monster
+desc: in its path.
+desc: The chance to get a beam goes up with your character level.
+
+spell:Detect Treasure:11:3:60:5:0
 effect:DETECT_TREASURES
 effect-yx:22:40
 desc:Detects all treasure in the immediate area.
 
-spell:Identify Rune:11:7:25:8:0
+spell:Identify Rune:12:7:25:8:0
 effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
 spell:Door Creation:13:9:40:12:0
-effect:TOUCH:MAKE_DOOR:1
+effect:TOUCH:MAKE_DOOR:1:1
 desc:A door is created on each empty floor space that is directly
 desc: adjacent to you. These doors are closed, but not locked.
 
@@ -488,7 +504,7 @@ effect-yx:22:40
 desc:Detects all monsters in the immediate area, for one turn only.
 
 spell:Shock Wave:16:5:40:10:0
-effect:BALL:SOUND:2
+effect:BALL:SOUND:3
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
 msg_other: fires a sonic ball.
@@ -499,18 +515,18 @@ desc: each monster in the area of effect.
 spell:Explosion:20:10:50:12:0
 effect:BALL:SHARD:2
 dice:$B
-expr:B:PLAYER_LEVEL:* 2 + 20
+expr:B:PLAYER_LEVEL:* 2 + 30
 msg_other: fires an exploding missile.
 desc:Shoots a radius-2 shards ball.
 
 spell:Acid Spray:20:7:30:12:0
 effect:BREATH:ACID:0:30
 dice:$Dd8
-expr:D:PLAYER_LEVEL:/ 2
+expr:D:PLAYER_LEVEL:- 5
 msg_other: sprays acid.
 desc:Sprays acid.
 
-spell:Mana Drain:22:2:30:12:0
+spell:Mana Drain:22:2:30:12:0   
 effect:TIMED_INC:STUN
 dice:1d2
 effect:TAP_DEVICE
@@ -530,12 +546,9 @@ book-properties:40:30:20000
 book-alloc:15:40 to 100
 book-desc:An advanced arcane book with a few spells.
 
-spell:Mana Channel:25:10:50:20:0
-effect:TIMED_INC:FASTCAST
-dice:5+1d5
-desc:Doubles spellcasting speed for 5+1d5 turns.
-
-spell:Mana Bolt:25:8:60:30:0
+spell:Mana Bolt:24:8:60:30:0
+# 8-14 @ 24 (~60)
+# 8-40 @ 50 (~164)
 effect:BOLT_OR_BEAM:MANA
 dice:$Dd8
 expr:D:PLAYER_LEVEL:- 10
@@ -545,17 +558,20 @@ desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
+spell:Mana Channel:25:10:50:20:0
+effect:TIMED_INC:FASTCAST
+dice:5+1d5
+desc:Doubles spellcasting speed for 5+1d5 turns.
+
 spell:Resistance:28:20:65:20:0
+effect:CLEAR_VALUE
 effect:TIMED_INC:OPP_POIS
-dice:20+1d20
 effect:TIMED_INC:OPP_COLD
-dice:20+1d20
 effect:TIMED_INC:OPP_FIRE
-dice:20+1d20
 effect:TIMED_INC:OPP_ELEC
-dice:20+1d20
 effect:END_INFO
 effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
 dice:20+1d20
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns.
@@ -575,8 +591,8 @@ effect:DETECT_DOORS
 effect-yx:22:40
 effect:DETECT_TRAPS
 effect-yx:22:40
-desc:Detects all gold, objects, doors, stairs, traps and monsters
-desc: in the immediate area.
+desc:Detects all traps, doors, stairs, treasure, objects and monsters in the
+desc: immediate area.
 
 book:magic book:dungeon:[Wizard's Tome of Power]:5:arcane
 book-graphics:?:r
@@ -635,13 +651,16 @@ hitdie:2
 max-attacks:4
 min-weight:35
 strength-multiplier:3
-equip:food:Ration of Food:1:3:none
+#equip:food:Ration of Food:1:3:none
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Whip:1:1:none
-equip:scroll:Word of Recall:1:1:birth_no_recall
-value:1:STR[-2]
-value:1:WIS[3]
-value:1:DEX[-2]
+equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Phase Door:3:4:birth_no_recall
+equip:potion:Cure Light Wounds:2:3:birth_no_recall
+value:0:STR[-2]
+value:0:WIS[3]
+value:0:DEX[-2]
 value:0:CHR[1+1d24]
 player-flags:0:ZERO_FAIL | CHOOSE_SPELLS | CHARM | SHAPECHANGE
 shape:5:cave bear
@@ -744,10 +763,6 @@ desc: is susceptible to rock remover takes 20+1d30 points of damage.
 spell:Sense Surroundings:9:4:35:6:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
 desc:Maps out a portion of the level around you.
@@ -894,11 +909,14 @@ desc:Speed up digestion to increase regeneration of hitpoints for
 desc: the next 5+1d3 turns (or until hungry).
 
 spell:Herbal Curing:40:20:90:100:0
+effect:NOURISH:INC_TO
+dice:15
 effect:CURE:BLACKBREATH
 effect:CURE:STUN
 effect:CURE:POISONED
 effect:CURE:CUT
-desc:Cures all cuts, poison, stunning and black breath.
+desc:Cures all cuts, poison, stunning and black breath, and leaves you
+desc: well-nourished.
 
 spell:Volcanic Eruption:40:30:75:50:0
 effect:EARTHQUAKE:NONE:5
@@ -939,19 +957,18 @@ hitdie:2
 max-attacks:4
 min-weight:35
 strength-multiplier:3
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Mace:1:1:none
-equip:digger:Spade:1:1:none
 equip:potion:Cure Serious Wounds:2:3:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-3]
-value:1:WIS[3]
-value:1:DEX[-1]
-value:1:CON[1]
+value:0:STR[-1]
+value:0:INT[-3]
+value:0:WIS[3]
+value:0:DEX[-1]
+value:0:CON[1]
 value:0:CHR[2+1d24]
 player-flags:0:BLESS_WEAPON | ZERO_FAIL
 title:Believer
@@ -1057,7 +1074,6 @@ msg_other: fires a holy orb!
 desc:Shoots a radius-2 or radius-3 ball that does unresistable
 desc: damage to each monster in its area of effect.
 desc: Evil monsters take double damage.
-desc: All cursed items in the area of effect are destroyed.
 desc: The bigger area of effect is attained at character level 30.
 
 spell:Sense Invisible:11:8:42:4:0
@@ -1254,15 +1270,18 @@ hitdie:1
 max-attacks:4
 min-weight:35
 strength-multiplier:3
-equip:food:Ration of Food:1:3:none
+#equip:food:Ration of Food:1:3:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Main Gauche:1:1:none
-equip:scroll:Word of Recall:1:1:birth_no_recall
-value:1:STR[-3]
-value:1:INT[3]
-value:1:CON[-2]
-value:1:CHR[-4]
-value:1:RES_DARK[1]
+equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Phase Door:3:4:birth_no_recall
+equip:potion:Cure Light Wounds:2:3:birth_no_recall
+value:0:STR[-3]
+value:0:INT[3]
+value:0:CON[-2]
+value:0:CHR[-4]
+value:0:RES_DARK[1]
 player-flags:0:ZERO_FAIL | CHOOSE_SPELLS | UNLIGHT | SHAPECHANGE | UNDEAD_POWERS
 ########################### MOVE TO SEPARATE FORMS
 shape:5:fruit bat_
@@ -1284,7 +1303,7 @@ title:Night Lord
 
 magic:1:300:5
 
-book:shadow book:town:[Shadows for Beginners]:7:shadow
+book:shadow book:town:[Shadows for Beginners]:8:shadow
 book-graphics:?:s
 book-properties:1:30:25
 book-alloc:40:1 to 100
@@ -1350,16 +1369,27 @@ desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
+spell:Resist Cold:9:10:50:5:0
+effect:TIMED_INC:OPP_COLD
+dice:20+1d20
+desc:Grants you resistance to cold for 20+1d20 turns.
+
 book:shadow book:town:[Dark Conjurings]:7:shadow
 book-graphics:?:s
 book-properties:10:30:400
 book-alloc:30:10 to 100
 book-desc:A standard shadow book with a few rituals.
 
-spell:Resist Cold:9:10:50:20:0
-effect:TIMED_INC:OPP_COLD
-dice:20+1d20
-desc:Grants you resistance to cold for 20+1d20 turns.
+spell:Crush:10:6:40:5:0
+effect:DAMAGE
+dice:d$S
+expr:S:PLAYER_LEVEL:* 2
+effect:PROJECT_LOS:MON_CRUSH
+dice:$B
+expr:B:PLAYER_LEVEL:* 4
+desc:Instantly kill any monster in line-of-sight with less than four times the
+desc: player's level in hitpoints, also hurting the player. Other monsters are
+desc: unharmed.
 
 spell:Sleep Evil:12:5:50:5:0
 effect:PROJECT_LOS_AWARE:SLEEP_EVIL
@@ -1486,12 +1516,12 @@ desc: to-dam bonus of the same weapon.
 desc: The spell has no effect if the weapon is an artifact, an ego item
 desc: or a worthless item.
 
-spell:Crush:32:30:60:130:0
-effect:PROJECT_LOS:MON_CRUSH
+spell:Zone of Unmagic:32:16:60:110:0
+effect:BLAST:DISEN:4
 dice:$B
-expr:B:PLAYER_LEVEL:* 4
-desc:Instantly kill any monster in line-of-sight with less than four times the
-desc: player's level in hitpoints. Other monsters are unharmed.
+expr:B:PLAYER_LEVEL:* 3
+desc:Produces a zone of disenchantment affecting the player and monsters
+desc: within radius 4.
 
 spell:Grond's Blow:35:35:80:115:0
 effect:DESTRUCTION:DARK:15
@@ -1531,12 +1561,8 @@ spell:Fume of Mordor:40:50:80:150:0
 effect:DARKEN_LEVEL:NONE:1
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
 
@@ -1581,20 +1607,19 @@ hitdie:7
 max-attacks:5
 min-weight:30
 strength-multiplier:5
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
+equip:hafted:Club:1:1:none
 equip:scroll:Protection from Evil:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[1]
-value:1:INT[-3]
-value:1:WIS[1]
-value:1:DEX[-1]
-value:1:CON[2]
+value:0:STR[1]
+value:0:INT[-3]
+value:0:WIS[1]
+value:0:DEX[-1]
+value:0:CON[2]
 value:0:CHR[1+1d24]
 player-flags:0:BLESS_WEAPON | SHIELD_BASH
 title:Gallant
@@ -1815,21 +1840,20 @@ hitdie:5
 max-attacks:5
 min-weight:20
 strength-multiplier:4
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ####################equip:shadow book:[Robbers Handbook]:1:1:1
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:INT[1]
-value:1:WIS[-3]
-value:1:DEX[3]
-value:1:CON[-1]
-value:1:CHR[-1+-1d40]
+value:0:INT[1]
+value:0:WIS[-3]
+value:0:DEX[3]
+value:0:CON[-1]
+value:0:CHR[-1+-1d40]
 value:5:SPEED[1+1d15]
 player-flags:0:CHOOSE_SPELLS | STEAL
 player-flags:0:BACK_STAB | STEALING_IMPROV | STEALTH_MODE
@@ -2038,22 +2062,21 @@ hitdie:6
 max-attacks:5
 min-weight:35
 strength-multiplier:4
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ##########equip:magic book:[Magic for Beginners]:1:1:1
-equip:sword:Main Gauche:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:WIS[2]
-value:1:DEX[1]
-value:1:CON[-1]
-value:1:CHR[0]
+value:0:WIS[2]
+value:0:DEX[1]
+value:0:CON[-1]
+value:0:CHR[0]
 player-flags:0:FAST_SHOT | CHOOSE_SPELLS
 title:Runner
 title:Strider
@@ -2087,9 +2110,12 @@ effect:DETECT_STAIRS
 effect-yx:22:40
 desc:Detects all stairs in the immediate area.
 
-spell:Cure Poison:9:4:30:4:0
+spell:Herbal Curing:9:6:30:4:0
+effect:CURE:BLACKBREATH
+effect:CURE:STUN
 effect:CURE:POISONED
-desc:Neutralizes poison.
+effect:CURE:CUT
+desc:Cures all cuts, poison, stunning and black breath.
 
 book:nature book:town:[Gifts of Nature]:4:nature
 
@@ -2124,10 +2150,6 @@ book:nature book:town:[Creature Dominion]:4:nature
 spell:Sense Surroundings:20:8:35:8:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
 dice:11+1d24
 desc:Maps out a portion of the level around you.
@@ -2181,13 +2203,10 @@ desc:Leaves a magical decoy that looks and sounds like the player.
 
 book:nature book:dungeon:[Wild Forces]:4:nature
 
-spell:Elemental Brand:31:60:95:180:0
-effect:BRAND_AMMO
-desc:Brands one stack of ammunition with fire, cold or poison
-desc: (selected at random) and at the same time attempts to improve
-desc: the to-hit bonus and the to-dam bonus of the same ammunition.
-desc: The spell has no effect if the ammunition is an artifact, an ego item
-desc: or a worthless item.
+spell:Power Shots:31:12:50:40:0
+effect:BOW_BRAND_SHOT:MISSILE
+dice:5
+desc:Covers your missiles with the elements.
 
 spell:Enchant Weapon:34:50:90:60:0
 effect:ENCHANT:TOBOTH
@@ -2200,12 +2219,13 @@ effect:BOW_BRAND_SHOT:POIS
 dice:5
 desc:Covers your missiles with venom.
 
-spell:Herbal Curing:40:20:90:100:0
-effect:CURE:BLACKBREATH
-effect:CURE:STUN
-effect:CURE:POISONED
-effect:CURE:CUT
-desc:Cures all cuts, poison, stunning and black breath.
+spell:Elemental Brand:40:60:95:120:0
+effect:BRAND_AMMO
+desc:Brands one stack of ammunition with fire, cold or poison
+desc: (selected at random) and at the same time attempts to improve
+desc: the to-hit bonus and the to-dam bonus of the same ammunition.
+desc: The spell has no effect if the ammunition is an artifact, an ego item
+desc: or a worthless item.
 
 
 ############### BLACKGUARD ###############
@@ -2224,20 +2244,19 @@ hitdie:9
 max-attacks:5
 min-weight:100
 strength-multiplier:5
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Tulwar:1:1:none
 equip:shield:Leather Shield:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:1:IMPAIR_HP
-value:1:STR[2]
-value:1:WIS[-3]
-value:1:CON[2]
-value:1:CHR[0+-1d15]
+value:0:STR[2]
+value:0:WIS[-3]
+value:0:CON[2]
+value:0:CHR[0+-1d15]
 player-flags:0:CHOOSE_SPELLS | SHIELD_BASH | COMBAT_REGEN | SHAPECHANGE
 shape:20:werewolf
 shape:40:volkodlak
@@ -2295,9 +2314,10 @@ dice:20+1d20
 desc:Grants you resistance to draining attacks for 20+1d20 turns.
 
 spell:Grim Purpose:13:8:30:12:0
+effect:CLEAR_VALUE
 effect:TIMED_INC:FREE_ACT
-dice:12+1d12
 effect:TIMED_INC:OPP_CONF
+effect:SET_VALUE
 dice:12+1d12
 desc:Your mind becomes too focused to be slowed, paralyzed or confused
 desc: for 12+1d12 turns.
@@ -2397,16 +2417,14 @@ desc: of 66 HP.
 book:shadow book:dungeon:[Great Shadows]:5:shadow
 
 spell:Demonic Resistance:36:18:72:36:0
+effect:CLEAR_VALUE
 effect:TIMED_INC:OPP_POIS
-dice:20+1d20
 effect:TIMED_INC:OPP_COLD
-dice:20+1d20
 effect:TIMED_INC:OPP_FIRE
-dice:20+1d20
 effect:TIMED_INC:OPP_ELEC
-dice:20+1d20
 effect:END_INFO
 effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
 dice:20+1d20
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns.
@@ -2441,14 +2459,14 @@ effect:EARTHQUAKE:NONE:13
 desc:Causes a radius 13 earthquake centered around the player.
 
 
-############### SORCEROR ###############
+############### SORCERER ###############
 name:Sorceror
 color:R
 skill-disarm-phys:35:9
 skill-disarm-magic:50:12
 skill-device:40:15
 skill-save:30:9
-skill-stealth:2:0
+skill-stealth:0:0
 skill-search:10:12
 skill-melee:30:11
 skill-shoot:20:15
@@ -2457,20 +2475,20 @@ hitdie:0
 max-attacks:1
 min-weight:40
 strength-multiplier:2
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ######################equip:sorcery book:[Apprentice Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-5]
-value:1:INT[5]
-value:1:CON[-3]
-value:1:CHR[2]
-value:1:MANA[5]
+value:0:STR[-5]
+value:0:INT[5]
+value:0:CON[-3]
+# sullen old sorcerer who focused on magical arts to get POWER beyond imagination
+value:0:CHR[-2]
+value:0:MANA[5]
 player-flags:0:ZERO_FAIL | BEAM | CHOOSE_SPELLS
 title:Novice
 title:Apprentice
@@ -2489,6 +2507,8 @@ book:magic book:town:[Magic for Beginners]:8:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
 
 spell:Magic Missile:1:1:12:4:0
+# 6-42  @ 24 (~24)
+# 9-108 @ 50 (~58)
 effect:BOLT_OR_BEAM:MISSILE:0:-10
 dice:$Dd$S
 expr:D:PLAYER_LEVEL:- 1 / 5 + 3
@@ -2529,6 +2549,8 @@ effect:DETECT_DOORS
 effect-yx:22:40
 effect:DETECT_TRAPS
 effect-yx:22:40
+effect:TIMED_INC_NO_RES:BLIND
+dice:1d3
 desc:Detects all traps, doors and stairs in the immediate area.
 
 spell:Fire Ball:3:2:17:3:0
@@ -2541,6 +2563,8 @@ desc:Shoots a radius-2 fire ball.
 spell:Detect Treasure:4:4:18:4:0
 effect:DETECT_TREASURES
 effect-yx:22:40
+effect:TIMED_INC_NO_RES:BLIND
+dice:1+1d4
 desc:Detects all treasure in the immediate area.
 
 spell:Lightning Beam:5:4:20:4:0
@@ -2575,16 +2599,20 @@ desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
-spell:Dig:9:7:34:8:0
+spell:Dig:10:7:34:8:0
 effect:LINE:KILL_WALL
-dice:20+1d30
+# regular damage, not vuln
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 * 50
 msg_other: makes a moving gesture.
 desc:Produces a beam that destroys the first section of wall it hits,
 desc: unless it is a permanent wall. Each monster caught in the beam that
-desc: is susceptible to rock remover takes 20+1d30 points of damage.
+desc: is susceptible to rock remover takes damage.
 
 spell:Identify Rune:12:7:40:6:0
 effect:IDENTIFY
+effect:NOURISH:DEC_BY
+dice:1
 desc:Reveals an unknown rune on an object.
 
 spell:Map Area:13:10:45:7:0
@@ -2595,7 +2623,7 @@ dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
 effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
+dice:11+1d13
 desc:Maps out a portion of the level around you.
 
 spell:Radiate Fear:14:12:45:8:0
@@ -2670,8 +2698,8 @@ spell:Wipe:27:20:65:50:0
 effect:WIPE_AREA:NONE:10
 msg_other: wrecks havoc.
 desc:Wipes everything in a 10-square radius around you.
-desc: Only artifacts and permanent features (stairs and permanent
-desc: doors/walls) will not be affected by this spell.
+desc: All monsters, objects and terrain features in the area of
+desc: effect are wiped, except stairs and permanent walls.
 desc: This spell has no effect when used in the town.
 
 spell:Sunfire:28:15:60:35:0
@@ -2684,16 +2712,14 @@ desc:Shoots a radius-2 light ball.
 book:magic book:dungeon:[Sorcery and Evocations]:7:arcane
 
 spell:Resistance:28:20:55:60:1
+effect:CLEAR_VALUE
 effect:TIMED_INC:OPP_POIS
-dice:20+1d20
 effect:TIMED_INC:OPP_COLD
-dice:20+1d20
 effect:TIMED_INC:OPP_FIRE
-dice:20+1d20
 effect:TIMED_INC:OPP_ELEC
-dice:20+1d20
 effect:END_INFO
 effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
 dice:20+1d20
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns.
@@ -2812,32 +2838,44 @@ skill-disarm-magic:21:7
 skill-device:0:0
 skill-save:32:14
 skill-stealth:0:0
-skill-search:10:12
+skill-search:18:15
 skill-melee:70:45
 skill-shoot:55:45
-skill-dig:0:0
+skill-dig:5:2
 hitdie:9
 max-attacks:6
 min-weight:30
 strength-multiplier:5
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[3]
-value:1:INT[-4]
-value:1:WIS[-3]
-value:1:DEX[2]
-value:1:CON[2]
-value:1:CHR[-3]
+value:0:STR[3]
+# Believing in science (or religion) instead of magic is not the reason to be stupid...
+value:0:INT[-4+1d10]
+# ...but in magical world it's definitely not wise.
+value:0:WIS[-3]
+value:0:DEX[2]
+value:0:CON[2]
+value:0:CHR[0+1d24]
 value:0:ANTI_MAGIC[1d1]
 player-flags:0:NO_MANA
+# + SEE_INVIS in 1 range
+# + drain magic from non-natural magic creatures -> restore life
+# + make curse works rare (like save)
+# + drink from fountains mainly water
+# - can't uncurse items
+########################
+#player-flags:0:CAN_SWIM .. make swimming movement slower.. rework it.
+#obj-flag:0:CANT_FLY
+#obj-flag:0:SLOW_DIGEST
+#value:0:STEALTH[1]
+#value:50:RES_DISEN[1]
 title:Asker
 title:Thinker
 title:Faithless
@@ -2866,25 +2904,25 @@ hitdie:4
 max-attacks:2
 min-weight:35
 strength-multiplier:3
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Rusty Lantern:1:1:none
 ###################equip:hunt book:[Hunting and Tracking]:1:1:1
-equip:sword:Dagger:1:1:none
+equip:hafted:Club:1:1:none
 equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-2]
-value:1:INT[-2]
-value:1:WIS[2]
-value:1:DEX[2]
-value:1:CHR[-1]
+value:0:STR[-2]
+value:0:INT[-2]
+value:0:WIS[2]
+value:0:DEX[2]
+value:0:CHR[-1]
 value:0:SHOTS[1d3]
 player-flags:0:CHOOSE_SPELLS | FAST_THROW
+# increase vision radius?
 title:Rock Thrower
 title:Slinger
 title:Fowler
@@ -2972,12 +3010,8 @@ book:nature book:dungeon:[Nature Craft]:4:nature
 spell:Sense Surroundings:28:14:56:28:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
 effect:TIMED_INC_NO_RES:BLIND
 dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Piercing Shots:30:11:50:50:0
@@ -3032,20 +3066,20 @@ hitdie:3
 max-attacks:4
 min-weight:35
 strength-multiplier:3
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
-equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
+equip:hafted:Club:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-1]
-value:1:INT[-2]
-value:1:WIS[3]
-value:1:DEX[-1]
-value:1:CHR[0+1d15]
+value:0:STR[-1]
+value:0:INT[-2]
+value:0:WIS[3]
+value:0:DEX[-1]
+value:0:CHR[0+1d15]
 player-flags:0:BEAM | CHOOSE_SPELLS
+obj-flag:0:PROT_AMNESIA
 title:Novice
 title:Talent
 title:Empath
@@ -3156,12 +3190,6 @@ desc:Attempts to put to sleep each monster within line of sight.
 spell:Sense Surroundings:12:10:34:12:0
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:3d1
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE
-dice:11+1d24
 desc:Maps out a portion of the level around you.
 
 spell:Psychometry:14:12:37:14:0
@@ -3204,8 +3232,8 @@ effect:DETECT_DOORS
 effect-yx:22:40
 effect:DETECT_TRAPS
 effect-yx:22:40
-desc:Detects all gold, objects, doors, stairs, traps and monsters
-desc: in the immediate area.
+desc:Detects all traps, doors, stairs, treasure, objects and monsters in the
+desc: immediate area.
 
 spell:Psychic Drain:24:21:50:24:0
 effect:BOLT:PSI_DRAIN
@@ -3227,16 +3255,14 @@ dice:30+1d20
 desc:Grants you +50 to AC for 30+1d20 turns.
 
 spell:Prismatic Shield:29:25:59:33:0
+effect:CLEAR_VALUE
 effect:TIMED_INC:OPP_POIS
-dice:20+1d20
 effect:TIMED_INC:OPP_COLD
-dice:20+1d20
 effect:TIMED_INC:OPP_FIRE
-dice:20+1d20
 effect:TIMED_INC:OPP_ELEC
-dice:20+1d20
 effect:END_INFO
 effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
 dice:20+1d20
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns.
@@ -3396,19 +3422,18 @@ hitdie:1
 max-attacks:3
 min-weight:40
 strength-multiplier:2
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-4]
-value:1:INT[4]
-value:1:CON[-2]
-value:1:CHR[1]
-value:1:MANA[3]
+value:0:STR[-4]
+value:0:INT[4]
+value:0:CON[-2]
+value:0:CHR[1]
+value:0:MANA[3]
 value:10:RES_FIRE[1]
 value:15:RES_COLD[1]
 value:20:RES_ACID[1]
@@ -3773,24 +3798,14 @@ desc: Artifacts will not be destroyed by this spell.
 desc: This spell has no effect when used in the town.
 
 spell:Resistance:23:11:55:19:0
+effect:CLEAR_VALUE
 effect:TIMED_INC:OPP_POIS
-dice:$B+1d$S
-expr:B:PLAYER_SPELL_POWER:* 5
-expr:S:PLAYER_SPELL_POWER:* 5
 effect:TIMED_INC:OPP_COLD
-dice:$B+1d$S
-expr:B:PLAYER_SPELL_POWER:* 5
-expr:S:PLAYER_SPELL_POWER:* 5
 effect:TIMED_INC:OPP_FIRE
-dice:$B+1d$S
-expr:B:PLAYER_SPELL_POWER:* 5
-expr:S:PLAYER_SPELL_POWER:* 5
 effect:TIMED_INC:OPP_ELEC
-dice:$B+1d$S
-expr:B:PLAYER_SPELL_POWER:* 5
-expr:S:PLAYER_SPELL_POWER:* 5
 effect:END_INFO
 effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
 dice:$B+1d$S
 expr:B:PLAYER_SPELL_POWER:* 5
 expr:S:PLAYER_SPELL_POWER:* 5
@@ -3884,21 +3899,20 @@ hitdie:0
 max-attacks:1
 min-weight:40
 strength-multiplier:2
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 ###################### equip:summoning book:[Survival]:1:1:1
 equip:hafted:Quarterstaff:1:1:none
-equip:digger:Spade:1:1:none
 equip:scroll:Summon Monster:10:10:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:1:STR[-5]
-value:1:INT[-5]
-value:1:WIS[5]
-value:1:DEX[-5]
-value:1:CON[-5]
+value:0:STR[-5]
+value:0:INT[-5]
+value:0:WIS[5]
+value:0:DEX[-5]
+value:0:CON[-5]
 value:0:CHR[1+1d12]
 player-flags:0:BLESS_WEAPON | ZERO_FAIL | CHOOSE_SPELLS | SUMMON_SPELLS
 title:Novice
@@ -4106,6 +4120,8 @@ desc:Prevents summoning around you for a level-dependent duration.
 
 ############### SHAPECHANGER ###############
 name:Shapechanger
+# Add exp penalty? so it will be easier to hunt forms
+# in our dungeon bracket system
 color:M
 skill-disarm-phys:36:10
 skill-disarm-magic:34:8
@@ -4120,22 +4136,21 @@ hitdie:5
 max-attacks:5
 min-weight:35
 strength-multiplier:4
-equip:food:Ration of Food:2:4:none
+#equip:food:Ration of Food:2:4:none
 equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
-equip:sword:Dagger:1:1:none
-equip:digger:Spade:1:1:none
+equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):1:1:birth_no_recall
+equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
-value:1:STR[1]
-value:1:INT[-1]
-value:1:WIS[-1]
-value:1:DEX[1]
-value:1:CON[1]
-value:1:CHR[-5]
+value:0:STR[1]
+value:0:INT[-1]
+value:0:WIS[-1]
+value:0:DEX[1]
+value:0:CON[1]
+value:0:CHR[-5]
 player-flags:0:MONSTER_SPELLS | SHAPECHANGE
 title:Pretender
 title:Modifier
