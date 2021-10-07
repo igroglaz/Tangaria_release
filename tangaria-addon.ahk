@@ -23,7 +23,8 @@ sendinput, {^F9}
 ;Tab::F7 // NO NEED
 ; //` (tilda) -> F6
 ;vkC0::F6 // NO NEED
-; //ESC -> F5 // you be able to do so, but you need to arrange ESC manually in .prf BEWARE: if you would open '%' screen - you won't be able to exit it with remapped ESC (/rfed this problem)
+; //ESC -> F5 // you be able to do so, but you need to arrange ESC manually in .prf BEWARE:
+; if you would open '%' screen - you won't be able to exit it with remapped ESC
 ;vk1B::F5
 ;////////////////////////////////////////
 ; //Fixing alt-problem
@@ -35,10 +36,10 @@ WinSet, Style, -0xC00000, A
 WinSet, Style, -0xC40000, A
 ;//////////////////////////////////////////////////////////////////////////
 ;//when new client version is out: change header ↓
-WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.5.0 (Beta 4) ;
+WinSet, Region, 0-30 W1920 H1080, PWMAngband 1.5.0 (Build 3) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;//OFF Destroy menu:
-;WinWait PWMAngband 1.5.0 (Beta 2)
+;WinWait PWMAngband 1.5.0 (Build 3)
 ;DllCall("SetMenu", uint, WinExist(), uint, 0) ;
 ;//////////////////////////////////////////////////////////////////////////
 ;//If you wish to hide first stroke of gaming window:

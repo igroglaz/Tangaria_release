@@ -155,8 +155,9 @@
 # Some friends can have special roles; these are appended to the line end.
 
 # 'desc' is for description. As many desc: lines may be used as are needed to
-# describe the monster. Leading whitespace will be removed, and a single space
-# will be added between desc: lines.
+# describe the monster. Note that lines will need spaces at their
+# ends or the beginning of the next line to prevent words from running
+# together.
 
 # 'mimic' lines give item types that this monster may mimic. Each of the objects
 # has an equal chance of being mimicked.
@@ -279,6 +280,7 @@ experience:0
 blow:CLAW:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
+flags:NO_PASS_TREE
 desc:A skinny little furball with sharp claws and a menacing look.
 locations:Farfest
 
@@ -299,6 +301,7 @@ experience:0
 blow:BITE:HURT:1d1
 flags:RAND_25
 flags:DROP_CORPSE | DROP_SKELETON
+flags:NO_PASS_TREE
 desc:A thin flea-ridden mutt, growling as you get close.
 locations:Farfest
 
@@ -568,6 +571,7 @@ weight:0
 experience:0
 blow:MOAN
 flags:ANIMAL | FRIENDLY | PWMANG_BASE | FRIGHTENED
+flags:NO_PASS_TREE
 desc:A common horse.
 locations:Hunter's Valley|Farfest
 
@@ -610,6 +614,7 @@ weight:0
 experience:0
 flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH
 flags:PWMANG_EXTRA | PWMANG_FIXED
+flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID | UNDEAD | HURT_ROCK | IM_LIGHT | HURT_LIGHT
 desc:An indestructible golem used for target practice.
 locations:Farfest
 
@@ -777,7 +782,9 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40 | ONLY_GOLD
+flags:DROP_40 | ONLY_GOLD
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_DISEN | IM_NETHER
+flags:IM_COLD | IM_ELEC | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
 spell-freq:100
 spells:S_ANIMAL | S_SPIDER | S_MONSTER
 desc:An old barrel. When you hit it, you hear hollow sound. Is it empty?
@@ -997,6 +1004,7 @@ blow:BITE:HURT:1d2
 flags:MULTIPLY
 flags:RAND_50
 flags:DROP_SKELETON | WILD_GRASS
+flags:NO_PASS_TREE
 desc:It is about three feet long with large teeth.
 
 name:large white snake
@@ -1220,7 +1228,7 @@ weight:150
 experience:5
 blow:HIT:HURT:1d6
 flags:MALE | UNIQUE
-flags:RAND_25 | DROP_SKELETON | DROP_CORPSE | WANDERER
+flags:RAND_25 | DROP_SKELETON | DROP_CORPSE | WANDERER | WILD_WOOD
 flags:ONLY_GOLD | DROP_1
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR
 desc:He has a strong axe with a sharp edge.
@@ -1285,8 +1293,9 @@ blow:CLAW:HURT:1d2
 flags:UNIQUE | BASH_DOOR
 flags:ANIMAL | NO_CONF | NO_SLEEP | WANDERER
 flags:DROP_CORPSE | DROP_SKELETON
-drop-base:food:100:1:1
+drop:fortune cookie:Fortune Cookie:80:1:1
 desc:A striped housecat who enjoys hunting.
+locations:The Mountain Gorge|The Orc Cave|The Severs
 
 name:kobold
 base:kobold
@@ -1437,6 +1446,7 @@ flags:DROP_40
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
+flags:IM_LIGHT
 spell-freq:12
 spells:HEAL | SCARE
 drop-base:prayer book:5:1:1
@@ -2303,6 +2313,7 @@ blow:HIT:HURT:1d2
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
+flags:IM_LIGHT
 spell-freq:8
 spells:HEAL | SLOW | CONF
 drop-base:nature book:5:1:1
@@ -2344,6 +2355,7 @@ depth:4
 rarity:3
 weight:0
 experience:9
+flags:IM_LIGHT
 blow:HIT:HURT:1d4
 blow:TOUCH:POISON:2d4
 desc:It appears to be a pile of copper coins.
@@ -2366,6 +2378,7 @@ blow:BITE:POISON:1d3
 flags:MULTIPLY
 flags:RAND_25
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is a very vicious rodent.
 
 name:blue worm mass
@@ -2447,6 +2460,7 @@ blow:BITE:EAT_LIGHT:1d2
 flags:MULTIPLY
 flags:RAND_50
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is about three feet long with large teeth. As the light of your lamp
 desc: falls on it, it seems to grow stronger.
 
@@ -2573,7 +2587,9 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_DISEN | IM_NETHER
+flags:IM_COLD | IM_ELEC | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+flags:DROP_40
 spell-freq:100
 spells:S_ANIMAL | S_SPIDER | S_MONSTER
 desc:Crude wooden crate. Small beetle sits on it's lid.
@@ -2594,9 +2610,12 @@ blow:HIT:HURT:1d8
 blow:HIT:HURT:1d8
 flags:UNIQUE | FEMALE | PWMANG_FIXED
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:IM_POIS
 flags:FORCE_DEPTH
+drop:food:Apple of Youth:100:1:1
+drop:food:Apple:100:2:3
 friends:100:1d3:rattlesnake:servant
-spell-freq:3
+spell-freq:7
 spells:SHAPECHANGE
 shape:Vasilisa the Beautiful
 desc:Haggard ugly dirty old woman with a huge distorted hooked nose and a 
@@ -2622,6 +2641,8 @@ blow:HYPNOTIZE:SEDUCE:1d8
 blow:HIT:HURT:1d8
 flags:UNIQUE | FEMALE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+drop:food:Apple of Youth:100:1:1
+drop:food:Apple:100:2:3
 desc:Beautiful girl with long hair. She give you a wink..
 locations:The Mountain Gorge
 
@@ -2998,6 +3019,7 @@ depth:6
 rarity:3
 weight:0
 experience:18
+flags:IM_LIGHT
 blow:HIT:HURT:1d6
 blow:TOUCH:POISON:2d6
 desc:It appears to be a pile of silver coins.
@@ -3521,6 +3543,7 @@ flags:UNIQUE | MALE | EVIL
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_SLEEP
+drop:food:Salted Pork from Isengard:100:1:1
 spell-freq:5
 spells:HEAL | SLOW | TRAPS
 spells:BA_POIS
@@ -3903,6 +3926,7 @@ blow:BITE:POISON:1d4
 flags:MULTIPLY
 flags:RAND_25
 flags:DROP_SKELETON
+flags:NO_PASS_TREE
 desc:It is a rodent of unusual size.
 
 name:black harpy
@@ -4168,7 +4192,8 @@ experience:30
 blow:BITE:HURT:1d12
 blow:BITE:HURT:1d12
 flags:BASH_DOOR | WILD_GRASS | WILD_WOOD | PWMANG_BASE
-flags:UNIQUE
+flags:UNIQUE | MALE
+drop:food:Scrap of Flesh:30:1:1
 desc:It has been terrorizing the nearby villages.
 
 name:war bear
@@ -4247,8 +4272,9 @@ weight:0
 experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
-flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_60
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_DISEN | IM_NETHER
+flags:IM_COLD | IM_ELEC | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+flags:DROP_60
 spell-freq:100
 spells:S_MONSTER
 desc:Some one made a meal there.. It's sad but pot is empty.
@@ -4346,6 +4372,7 @@ blow:BITE:HURT:1d5
 flags:DROP_40 | DROP_1 | ONLY_GOLD
 flags:OPEN_DOOR | BASH_DOOR | NO_STUN
 flags:DROP_CORPSE
+flags:IM_LIGHT
 spell-freq:12
 innate-freq:100
 spells:BR_SOUN
@@ -4491,6 +4518,7 @@ blow:HIT:HURT:1d10
 flags:UNIQUE | PWMANG_FIXED | FORCE_DEPTH | MALE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:IM_COLD | IM_ELEC | IM_POIS
+drop:mushroom:Hallucination:100:7:9
 friends:50:4d4:snaga:servant
 friends:80:2d7:warg:servant
 friends:100:5d4:hill orc:servant
@@ -4516,6 +4544,7 @@ blow:HIT:HURT:1d12
 blow:HIT:HURT:1d10
 flags:UNIQUE
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
+drop:food:Scrap of Flesh:90:1:1
 friends:50:2d5:snaga:servant
 friends:80:2d7:wolf
 friends:90:5d4:orc tracker:servant
@@ -4611,7 +4640,7 @@ weight:0
 experience:32
 blow:HIT:HURT:2d5
 blow:TOUCH:POISON:3d5
-flags:IM_ACID
+flags:IM_ACID | IM_LIGHT
 desc:It appears to be a pile of gold coins, until it starts crawling towards you
 desc: on tiny legs.
 mimic:gold:gold
@@ -5250,6 +5279,7 @@ flags:DROP_60
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
+flags:IM_LIGHT
 spell-freq:3
 spell-power:6
 spells:HEAL | SCARE | HEAL_KIN
@@ -5481,10 +5511,11 @@ flags:NEVER_MOVE
 flags:HURT_LIGHT | IM_ACID | IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP
 desc:A strange jelly thing, covered in discoloured blotches.
 
+#rename to werebear
 name:The wounded bear
 base:quadruped
 color:r
-speed:110
+speed:111
 hit-points:150
 hearing:10
 smell:20
@@ -5499,6 +5530,7 @@ blow:CLAW:HURT:1d10
 blow:BITE:HURT:1d11
 flags:FORCE_SLEEP | UNIQUE | PWMANG_BASE | WANDERER
 flags:ANIMAL | WILD_WOOD | WILD_GRASS | WILD_MOUNTAIN
+drop:food:Handful of Dried Fruits:75:1:1
 desc:A wounded bear, who has occasionally attacked humans.
 
 name:eagle
@@ -5677,6 +5709,7 @@ blow:HIT:HURT:1d8
 flags:UNIQUE | MALE | EVIL | SMART
 flags:DROP_60 | DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:FORCE_SLEEP
+drop:fortune cookie:Fortune Cookie:50:1:1
 spell-freq:3
 spells:BLIND | BLINK | HEAL | SLOW | TPORT
 spells:S_KIN | S_MONSTER
@@ -5722,7 +5755,7 @@ weight:0
 experience:45
 blow:HIT:HURT:2d5
 blow:TOUCH:POISON:3d5
-flags:IM_ACID
+flags:IM_ACID | IM_LIGHT
 desc:It appears to be a pile of sentient mithril coins that doesn't like being
 desc: picked up.
 mimic:gold:mithril
@@ -6150,7 +6183,9 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+flags:DROP_40
 spell-freq:100
 innate-freq:25
 spells:S_UNDEAD | SHRIEK | DARKNESS | SCARE
@@ -6177,6 +6212,7 @@ flags:UNIQUE | FEMALE
 flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_DEPTH | PWMANG_FIXED
+drop:potion:Slime Mold Juice:100:3:4
 friends:95:1d3:bandit:servant
 friends:95:1d2:Same
 friends:95:1d1:half-orc
@@ -6777,6 +6813,7 @@ blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 flags:MALE | EVIL
 flags:OPEN_DOOR | TAKE_ITEM
+flags:IM_LIGHT
 spell-freq:7
 spells:HEAL
 desc:A short and swarthy mutant. He was paladin.
@@ -7229,7 +7266,8 @@ rarity:1
 weight:0
 experience:50
 blow:ENGULF:ELEC:8d8
-flags:IM_ELEC | NO_FEAR | NO_CONF | NO_SLEEP | PWMANG_BASE
+flags:NO_FEAR | NO_CONF | NO_SLEEP | PWMANG_BASE
+flags:IM_ELEC | IM_LIGHT
 flags:FORCE_SLEEP
 desc:A crackling ball of energy, zooming about seemingly at random.
 
@@ -7270,6 +7308,7 @@ weight:0
 experience:80
 blow:BITE:CONFUSE:2d2
 flags:SMART | LEVITATE | COLD_BLOOD
+flags:IM_LIGHT
 spell-freq:15
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT
@@ -7618,6 +7657,7 @@ blow:BITE:DISEASE:4d2
 flags:UNIQUE | PWMANG_BASE
 flags:BASH_DOOR
 flags:NO_CONF | NO_SLEEP | NO_HOLD
+flags:DROP_3 | ONLY_GOLD
 friends-base:100:1d5:rodent:servant
 friends-base:75:1d5:rodent:servant
 friends-base:50:1d5:rodent:servant
@@ -7792,7 +7832,10 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+flags:DROP_40
+flags:IM_LIGHT
 spell-freq:100
 innate-freq:25
 spells:S_ANIMAL | S_SPIDER
@@ -7813,7 +7856,7 @@ smell:20
 armor-class:2
 sleepiness:10
 depth:20
-rarity:3
+rarity:4
 weight:80
 experience:50
 blow:CLAW:HURT:2d10
@@ -7821,6 +7864,7 @@ blow:CLAW:HURT:2d10
 blow:BITE:HURT:3d8
 flags:NO_FEAR
 flags:DROP_CORPSE | WILD_WOOD | NO_PIT
+flags:NO_PASS_TREE
 desc:A blinding whirlwind of fear and feathers. Its razor sharp beak and talons
 desc: fill its foes with terror as it seeks to rend flesh from bone with
 desc: unbridled ferocity.
@@ -8199,6 +8243,7 @@ flags:MALE
 flags:DROP_1
 flags:OPEN_DOOR | TAKE_ITEM
 flags:DROP_CORPSE | DROP_SKELETON
+flags:IM_LIGHT
 spell-freq:4
 spells:HEAL | SLOW
 drop-base:prayer book:5:1:1
@@ -8533,6 +8578,7 @@ flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
 flags:ONLY_ITEM | DROP_3 | DROP_GOOD | PWMANG_FIXED
 flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | FORCE_DEPTH | LEVITATE
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
+drop:food:Stolen mushroom:100:7:9
 spell-freq:5
 spells:BLIND | CONF | SCARE | DARKNESS | WOUND
 friends-base:100:1d5:dragon worm
@@ -8775,7 +8821,6 @@ flags:MALE | PWMANG_BASE
 flags:DROP_20 | WILD_WASTE | WILD_MOUNTAIN
 flags:DROP_SKELETON | DROP_CORPSE
 flags:HURT_FIRE | REGENERATE
-flags:HURT_LIGHT
 spell-freq:8
 spells:HEAL | HEAL_KIN
 spells:WOUND
@@ -8823,6 +8868,7 @@ blow:HIT:HURT:3d5
 flags:UNIQUE | MOVE_BODY
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
+drop:food:Swig of Orcish Liquor:90:1:1
 friends:50:2d4:half-orc:servant
 friends:80:2d5:warg
 friends:100:4d4:uruk:bodyguard
@@ -8847,7 +8893,8 @@ experience:500
 blow:HIT:HURT:2d6
 blow:HIT:HURT:2d6
 blow:HIT:HURT:2d6
-flags:UNIQUE
+flags:UNIQUE | MALE
+drop-base:food:50:1:2
 friends:100:2d4:half-orc
 friends:100:2d4:uruk:bodyguard
 desc:He will eat you alive...
@@ -9070,6 +9117,7 @@ blow:HIT:HURT:5d5
 flags:UNIQUE | PWMANG_FIXED | MOVE_BODY
 flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:FORCE_DEPTH
+drop:food:Maggoty bread:100:7:9
 friends:10:1d4:half-orc
 friends:80:2d7:warg
 friends:100:2d2:orc tracker
@@ -9345,6 +9393,7 @@ flags:UNIQUE | MALE
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:IM_COLD | IM_FIRE | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
+drop:food:Petty-dwarf roots:100:1:1
 spell-freq:8
 spells:HEAL | SLOW
 spells:BO_FIRE
@@ -9371,6 +9420,7 @@ flags:UNIQUE | MALE
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:IM_COLD | IM_FIRE | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
+drop:food:Petty-dwarf roots:100:1:1
 spell-freq:8
 spells:HEAL | SLOW
 spells:BO_FIRE
@@ -9650,7 +9700,9 @@ experience:0
 flags:NEVER_BLOW
 flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
-flags:NO_CONF | NO_SLEEP | NO_FEAR | DROP_40
+flags:DROP_40
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
 spell-freq:100
 innate-freq:25
 spells:S_MONSTER | ANIM_DEAD | TRAPS | DARKNESS | HEAL_KIN | HEAL | SLOW
@@ -9924,6 +9976,7 @@ flags:IM_POIS | IM_ACID
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:COLD_BLOOD | NO_CUT | HURT_FIRE
 flags:FORCE_DEPTH | PWMANG_FIXED
+drop:food:Draught of the Ents:100:1:1
 spell-freq:3
 innate-freq:25
 spells:WHIP | HOLD | TELE_TO | SCARE
@@ -9946,11 +9999,10 @@ depth:25
 rarity:10
 weight:0
 experience:100000
-flags:EMPTY_MIND | MALE | REGENERATE | RAND_50
-flags:IM_POIS | IM_ACID | IM_FIRE
-flags:IM_COLD | IM_ELEC
+flags:EMPTY_MIND | MALE | REGENERATE | RAND_50 | WANDERER
+flags:IM_POIS | IM_ACID | IM_FIRE | IM_COLD | IM_ELEC
 flags:IM_NETHER | IM_PLASMA | IM_DISEN
-flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
+flags:DROP_1 | DROP_GREAT | ONLY_ITEM
 flags:NO_FEAR | NO_SLEEP | SMART
 spell-freq:5
 spells:BLINK | TPORT | HEAL
@@ -9999,6 +10051,7 @@ blow:BITE:BLIND:1d2
 blow:SPIT:POISON:1d2
 blow:HIT:DISENCHANT
 flags:SMART | LEVITATE | COLD_BLOOD
+flags:IM_LIGHT
 spell-freq:12
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT | BLIND
@@ -10048,7 +10101,7 @@ blow:HIT:HURT:1d8
 blow:BITE:HURT:3d4
 flags:MALE
 flags:DROP_60
-flags:HURT_LIGHT | NO_CONF | NO_SLEEP
+flags:NO_CONF | NO_SLEEP
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:5
@@ -10234,9 +10287,8 @@ blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
 blow:HIT:HURT:3d4
 flags:DROP_2
-flags:IM_ACID
 flags:NO_STUN | NO_CONF | LEVITATE
-flags:IM_ACID | IM_POIS
+flags:IM_ACID | IM_POIS | IM_LIGHT
 flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
 spell-freq:3
 spell-power:26
@@ -10349,11 +10401,14 @@ blow:BITE:EXP_20:2d6
 flags:UNIQUE | MALE | EMPTY_MIND
 flags:DROP_GOOD | DROP_3 | ONLY_ITEM | PASS_WALL
 flags:FORCE_DEPTH | PWMANG_FIXED
-spell-freq:7
-spells:WOUND | DARKNESS | MIND_BLAST | TELE_TO
-spells:HOLD | SCARE
-desc:It is a humanoid with an aura of power. You notice a sharp set of front
-desc: teeth.
+flags:RES_ELEC
+drop:food:Elvish wine:100:2:3
+spell-freq:6
+spells:WOUND | HEAL | MIND_BLAST | TELE_TO
+spells:DARKNESS | HOLD | SCARE
+desc:They say His death is in the needle inside an egg, that inside a duck,
+desc: that inside a hare, that nests in a hollow log, that floats in pond,
+desc: found on a far island..
 locations:Abandoned Manor
 
 name:Mim, Betrayer of Turin
@@ -10378,6 +10433,7 @@ flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_CONF
 flags:NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 flags:IM_DISEN
+drop:food:Petty-dwarf roots:100:1:1
 spell-freq:6
 spells:HEAL | SCARE
 spells:BA_ACID
@@ -10425,7 +10481,7 @@ blow:BITE:POISON:3d4
 blow:TOUCH:POISON:3d5
 blow:HIT:HURT:1d12
 blow:HIT:HURT:1d12
-flags:IM_ACID
+flags:IM_ACID | IM_LIGHT
 desc:It appears to be a pile of coins made of precious adamant, slithering
 desc: toward you on lots of tiny legs.
 mimic:gold:adamantite
@@ -10965,6 +11021,8 @@ blow:HIT:HURT:4d6
 flags:UNIQUE | MALE | EVIL
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
+flags:NO_STUN | NO_CONF | NO_SLEEP | NO_SLOW
+flags:IM_COLD | RES_ELEC | IM_FIRE | IM_POIS
 spell-freq:7
 spells:BLIND | HOLD | SCARE
 spells:S_KIN
@@ -11260,6 +11318,7 @@ blow:BITE:HURT:4d8
 blow:CRUSH:HURT:3d6
 flags:UNIQUE | MALE | ANIMAL | SMART | SPIRIT
 flags:MOVE_BODY
+drop:food:Honey-cake:50:1:1
 desc:Beorn in his form as a great black bear of the mountains, grown to
 desc: giant-size in wrath. The roar of his voice is like drums, and no weapon
 desc: seems to bite upon him.
@@ -11438,12 +11497,12 @@ blow:WAIL:EXP_20
 blow:WAIL:TERRIFY
 blow:WAIL:PARALYZE
 flags:UNDEAD | PWMANG_EXTRA
-flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID
+flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID | IM_LIGHT
 flags:NO_SLEEP | NO_STUN
 spell-freq:15
 innate-freq:100
 spells:SHRIEK
-desc:Often found in graveyards.
+desc:Not all that glitters is gold...
 
 name:jellyfish
 base:aquatic
@@ -11661,6 +11720,7 @@ blow:BITE:HURT:3d6
 flags:DROP_2
 flags:OPEN_DOOR | BASH_DOOR | NO_STUN
 flags:DROP_CORPSE | WILD_MOUNTAIN
+flags:IM_LIGHT
 spell-freq:10
 innate-freq:50
 spells:SCARE
@@ -11736,7 +11796,7 @@ weight:0
 experience:140
 blow:ENGULF:ELEC:3d4
 flags:ATTR_FLICKER
-flags:IM_ELEC
+flags:IM_ELEC | IM_LIGHT
 flags:NO_STUN
 spell-freq:4
 innate-freq:75
@@ -12008,6 +12068,7 @@ flags:DROP_3 | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
 flags:HURT_ROCK | HURT_LIGHT | IM_COLD
 flags:FORCE_DEPTH
+drop:food:Scrap of Flesh:100:1:1
 spell-freq:4
 innate-freq:100
 spells:BOULDER
@@ -12036,8 +12097,9 @@ blow:BITE:HURT:3d10
 flags:UNIQUE | MALE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
-flags:HURT_ROCK | HURT_LIGHT | IM_COLD
+flags:HURT_ROCK | IM_COLD
 flags:FORCE_DEPTH
+drop:food:Scrap of Flesh:100:1:1
 spell-freq:11
 innate-freq:100
 spells:BOULDER
@@ -12068,6 +12130,7 @@ flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
 flags:HURT_ROCK | HURT_LIGHT | IM_COLD
 flags:FORCE_DEPTH
+drop:food:Scrap of Flesh:100:1:1
 spell-freq:7
 innate-freq:100
 spells:BOULDER
@@ -12118,8 +12181,9 @@ blow:BITE:ELEC:5d4
 flags:ANIMAL | UNIQUE | FEMALE | POWERFUL | PWMANG_BASE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
-flags:NO_CONF
+flags:NO_CONF | RES_LIGHT
 flags:FORCE_DEPTH
+drop:mushroom:Terror:100:7:9
 spell-freq:2
 innate-freq:50
 spells:BR_POIS
@@ -12339,7 +12403,7 @@ blow:BUTT:HURT:1d9
 flags:ANIMAL
 flags:DROP_CORPSE
 flags:BASH_DOOR | MOVE_BODY
-flags:IM_POIS | IM_ACID
+flags:IM_POIS | RES_ACID | RES_ELEC
 flags:FORCE_SLEEP
 flags:WILD_WOOD
 spell-freq:8
@@ -12773,7 +12837,7 @@ blow:KICK:HURT:10d2
 flags:MALE | INVISIBLE
 flags:DROP_1 | ONLY_ITEM
 flags:OPEN_DOOR
-flags:IM_ACID | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
+flags:RES_ACID | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:6
@@ -13002,7 +13066,7 @@ blow:BITE:HURT:3d5
 blow:BITE:HURT:3d5
 flags:MALE
 flags:DROP_60
-flags:HURT_LIGHT | NO_CONF | NO_SLEEP
+flags:NO_CONF | NO_SLEEP
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:5
@@ -13058,7 +13122,7 @@ blow:HIT:HURT:3d5
 flags:DROP_2
 flags:IM_ACID
 flags:NO_STUN | NO_CONF | LEVITATE
-flags:IM_POIS | IM_FIRE | IM_COLD
+flags:IM_POIS | IM_FIRE | IM_COLD | IM_LIGHT
 flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
 spell-freq:3
 spells:BLIND | CONF | HASTE | HEAL | SCARE
@@ -13241,6 +13305,8 @@ flags:UNIQUE | MALE | EVIL | PWMANG_FIXED
 flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:FORCE_DEPTH
+flags:SRES_LIGHT
+drop:food:Flagon of mead:100:3:4
 spell-freq:9
 spells:S_KIN
 friends:60:1d3:mumak
@@ -14034,6 +14100,7 @@ blow:TOUCH:EXP_80:4d8
 flags:SMART | UNIQUE | PWMANG_BASE | PWMANG_FIXED | LEVITATE
 flags:DROP_2 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:FORCE_DEPTH
+flags:SRES_LIGHT
 spell-freq:4
 spells:WOUND | HOLD | SCARE
 spells:BO_NETH
@@ -14137,6 +14204,7 @@ flags:DROP_4
 flags:OPEN_DOOR | BASH_DOOR
 flags:NO_CONF | NO_SLEEP | NO_STUN
 flags:DROP_CORPSE | WILD_MOUNTAIN
+flags:IM_LIGHT
 spell-freq:8
 spell-power:35
 innate-freq:33
@@ -14244,7 +14312,7 @@ blow:HIT:ELEC:3d8
 blow:HIT:ELEC:3d8
 flags:COLD_BLOOD | LEVITATE
 flags:BASH_DOOR
-flags:IM_POIS
+flags:IM_POIS | IM_LIGHT
 flags:FORCE_SLEEP
 flags:NO_STUN
 spell-freq:3
@@ -15306,12 +15374,12 @@ depth:38
 rarity:4
 weight:0
 experience:500
-blow:HIT:HURT:1d9
+blow:HIT:EAT_LIGHT:1d9
 blow:HIT:HURT:1d9
 blow:HIT:HALLU:1d9
 flags:INVISIBLE | SMART
 flags:RAND_50 | PASS_WALL
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 flags:WILD_SWAMP
 spell-freq:2
@@ -15526,14 +15594,14 @@ depth:38
 rarity:2
 weight:0
 experience:1700
-blow:HIT:HALLU:1d9
+blow:HIT:EAT_LIGHT:1d9
 blow:HIT:HALLU:1d9
 blow:HIT:HALLU:1d9
 blow:HIT:HALLU:1d9
 flags:DROP_2 | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
 flags:FORCE_SLEEP | LEVITATE | SMART
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | RES_LIGHT
 spell-freq:7
 spell-power:38
 spells:BLINK | WOUND | HOLD | TELE_AWAY | TELE_LEVEL | TELE_TO
@@ -15689,7 +15757,7 @@ blow:HIT:HURT:3d8
 flags:SMART
 flags:DROP_2
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | RES_LIGHT
 flags:NO_STUN | NO_CONF | LEVITATE
 flags:IM_POIS
 flags:OPEN_DOOR | BASH_DOOR | NO_SLEEP
@@ -16273,6 +16341,7 @@ blow:HIT:EXP_80:4d6
 flags:UNIQUE | MALE | LEVITATE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:RES_LIGHT
 drop:ring:Black Ring of Power:100:1:1
 desc:A tall black cloaked Ringwraith, he is a master of horsemanship. He longs
 desc: to taste your blood.
@@ -16321,6 +16390,7 @@ flags:OPEN_DOOR
 flags:IM_ACID | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 flags-off:HURT_COLD
+drop:fortune cookie:Fortune Cookie:50:1:1
 spell-freq:2
 spell-power:40
 spells:WOUND | HOLD | SCARE
@@ -16402,6 +16472,7 @@ flags:OPEN_DOOR
 flags:NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON
+flags:IM_LIGHT
 spell-freq:2
 spells:BLIND | HEAL | HEAL_KIN | MIND_BLAST
 spells:BA_LIGHT | BA_ELEC | BA_HOLY
@@ -16534,6 +16605,7 @@ blow:BITE:HURT:6d6
 flags:REGENERATE | UNIQUE | ANIMAL | PWMANG_BASE | WANDERER
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
 flags:NO_HOLD
+drop-base:crop:100:1:3
 desc:Shadowfax is the chief of the "Mearas", the greatest of all horses that are
 desc: bred in the fields of Rohan. Although the Mearas should technically be
 desc: only ridden by the royal family of Rohan, only Gandalf the Wizard has ever
@@ -16619,7 +16691,9 @@ blow:BUTT:HURT:3d6
 flags:EVIL | UNIQUE | PWMANG_BASE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR | HYBRID
+flags:RES_LIGHT
 flags:FORCE_DEPTH
+drop:food:Strip of Beef Jerky:100:1:1
 desc:It is a cross between a human and a bull.
 locations:The Maze
 
@@ -16642,6 +16716,7 @@ blow:HIT:POISON:5d5
 flags:UNIQUE | PWMANG_BASE
 flags:IM_ACID | IM_FIRE | IM_ELEC | IM_COLD
 flags:IM_POIS
+drop-base:chest:30:1:1
 spell-freq:2
 innate-freq:6
 spells:BRAIN_SMASH | WOUND | FORGET | SHRIEK
@@ -16853,6 +16928,7 @@ blow:CLAW:HURT:4d8
 blow:BITE:HURT:7d9
 flags:OPEN_DOOR | BASH_DOOR | NO_STUN
 flags:DROP_CORPSE
+flags:IM_LIGHT
 spell-freq:6
 spell-power:41
 innate-freq:25
@@ -17374,6 +17450,7 @@ blow:HIT:HURT:3d5
 blow:HIT:HURT:3d5
 flags:FEMALE | INVISIBLE
 flags:DROP_2
+flags:IM_LIGHT
 spell-freq:3
 spells:BLIND | HASTE | HEAL | SCARE
 spells:BO_MANA
@@ -17429,6 +17506,7 @@ flags:UNIQUE | POWERFUL
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
 flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD
 flags:FORCE_SLEEP
+drop-base:chest:10:1:1
 spell-freq:4
 spells:BA_FIRE
 spells:BO_PLAS
@@ -17454,6 +17532,7 @@ flags:UNIQUE | COLD_BLOOD | POWERFUL
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
 flags:IM_ACID | IM_COLD | IM_FIRE | IM_WATER
 flags:FORCE_SLEEP
+drop-base:chest:10:1:1
 spell-freq:4
 spells:BA_COLD | BA_WATE
 spells:BO_ICE | BO_WATE
@@ -17481,6 +17560,7 @@ flags:UNIQUE | FEMALE | INVISIBLE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:PASS_WALL | MOVE_BODY
 flags:FORCE_SLEEP
+flags:RES_LIGHT
 spell-freq:3
 spell-power:43
 spells:BLIND | WOUND | FORGET | HOLD | SCARE
@@ -17532,6 +17612,7 @@ flags:UNIQUE | MALE | COLD_BLOOD | POWERFUL
 flags:PASS_WALL | KILL_BODY | KILL_ITEM
 flags:HURT_ROCK | IM_COLD | IM_ELEC | IM_FIRE
 flags:FORCE_SLEEP
+drop-base:chest:10:1:1
 spell-freq:6
 spells:BA_ACID | BA_SHAR
 spells:BO_ACID
@@ -17558,6 +17639,7 @@ flags:UNIQUE | FEMALE | COLD_BLOOD | POWERFUL | LEVITATE
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC
 flags:FORCE_SLEEP
+drop-base:chest:10:1:1
 spell-freq:5
 spells:BA_COLD | BA_ELEC
 spells:BO_ELEC
@@ -17684,7 +17766,7 @@ smell:20
 armor-class:120
 sleepiness:200
 depth:44
-rarity:9
+rarity:8
 weight:0
 experience:666
 blow:KICK:HURT:4d4
@@ -17694,7 +17776,7 @@ blow:TOUCH:DRAIN_CHARGES
 flags:SMART
 flags:REGENERATE | ANIMAL
 flags:NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD
-flags:IM_ACID | IM_ELEC | IM_POIS
+flags:IM_ACID | IM_ELEC | IM_POIS | RES_LIGHT
 spell-freq:4
 spell-power:44
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY
@@ -17751,6 +17833,7 @@ flags:DROP_2 | ONLY_ITEM
 flags:OPEN_DOOR | TAKE_ITEM
 flags:NO_FEAR | NO_CONF | NO_SLEEP
 flags:DROP_CORPSE | DROP_SKELETON | IM_NEXUS | IM_DISEN | IM_NETHER | NO_STUN
+flags:IM_LIGHT
 spell-freq:4
 spell-power:44
 spells:BLIND | WOUND | MISSILE | HASTE | HEAL | SCARE
@@ -17813,7 +17896,7 @@ blow:CLAW:HURT:3d10
 blow:BITE:FIRE:6d10
 blow:BITE:FIRE:6d10
 flags:OPEN_DOOR | BASH_DOOR
-flags:IM_FIRE | IM_POIS
+flags:IM_FIRE | IM_POIS | RES_LIGHT
 flags:NO_STUN
 flags:FORCE_SLEEP
 spell-freq:5
@@ -17951,7 +18034,7 @@ flags:BASH_DOOR
 flags:ATTR_MULTI
 flags:FORCE_SLEEP
 flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
-flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN
+flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN | RES_LIGHT
 flags:IM_NETHER
 desc:A deadly blade of chaos lurking for prey. Beware!
 drop:sword:'Stormbringer':100:1:1
@@ -18028,7 +18111,7 @@ flags:SMART
 flags:DROP_2
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
-flags:NO_STUN | NO_CONF | LEVITATE
+flags:NO_STUN | NO_CONF | LEVITATE | IM_LIGHT
 spell-freq:9
 spell-power:45
 spells:CONF | HASTE | HEAL | TELE_AWAY
@@ -18050,7 +18133,7 @@ hearing:30
 armor-class:68
 sleepiness:255
 depth:45
-rarity:9
+rarity:8
 weight:0
 experience:5000
 blow:HIT:HURT:4d6
@@ -18108,6 +18191,7 @@ flags:UNIQUE | MALE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:FORCE_SLEEP
+flags:RES_LIGHT
 spell-freq:3
 spell-power:45
 spells:BLIND | WOUND | DARKNESS | HOLD | SCARE
@@ -18330,7 +18414,7 @@ name:The Watcher in the Water
 base:aquatic
 color:v
 speed:120
-hit-points:2700
+hit-points:3500
 hearing:30
 armor-class:100
 sleepiness:80
@@ -18346,13 +18430,10 @@ flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:IM_ACID | IM_COLD | IM_POIS
 flags:NO_CONF | NO_FEAR
 flags:FORCE_DEPTH | FORCE_SLEEP
+drop:food:Large Trout:100:3:5
 spell-freq:3
 spells:BO_WATE | BO_ICE
 spells:HOLD | TELE_TO
-friends:100:1d3:giant octopus:servant
-friends:100:1d3:seahorse:servant
-friends:100:1d3:giant squid:servant
-friends:100:1d3:mermaid
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to 
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
 locations:The Small Watery Cave
@@ -18401,8 +18482,9 @@ blow:HIT:HURT:5d6
 flags:UNIQUE | NONLIVING | PWMANG_BASE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:PASS_WALL | KILL_BODY
-flags:IM_ELEC | HURT_ROCK
 flags:FORCE_DEPTH | FORCE_SLEEP
+flags:IM_ELEC | RES_LIGHT | HURT_ROCK
+drop:food:Slime Mold:100:2:3
 spell-freq:7
 spells:BA_FIRE
 spells:BO_ACID
@@ -18681,7 +18763,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | INVISIBLE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_FIRE
+flags:IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:48
@@ -19501,7 +19583,7 @@ blow:TOUCH:EXP_40:6d7
 flags:UNIQUE | MALE | INVISIBLE | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_FIRE
+flags:IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:3
 spell-power:52
@@ -19681,7 +19763,7 @@ blow:HIT:HURT:5d5
 blow:HIT:HALLU:5d5
 flags:MALE | REGENERATE
 flags:ONLY_ITEM | DROP_4 | DROP_CORPSE | DROP_SKELETON
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_DISEN
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_DISEN | IM_LIGHT
 flags:OPEN_DOOR
 flags:ONLY_ITEM | DROP_4
 flags:ANTI_MAGIC | NO_STUN
@@ -20123,7 +20205,7 @@ flags:SMART | ATTR_FLICKER
 flags:DROP_4
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | NO_FEAR | SMART
-flags:NO_STUN | NO_CONF | LEVITATE
+flags:NO_STUN | NO_CONF | LEVITATE | IM_LIGHT
 spell-freq:3
 spell-power:55
 spells:BLIND | WOUND | BA_LIGHT | SCARE | TELE_TO | HEAL | MISSILE
@@ -20212,6 +20294,7 @@ flags:DROP_3 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | MOVE_BODY | TAKE_ITEM
 flags:IM_ELEC | IM_FIRE | IM_POIS
 flags:FORCE_DEPTH | FORCE_SLEEP | LEVITATE
+drop:food:Ration of Food:100:1:1
 spell-freq:6
 spells:HEAL | TELE_AWAY
 spells:S_KIN | S_MONSTERS
@@ -20326,7 +20409,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:3
 spell-power:56
 spells:BLIND | WOUND | HOLD | SCARE
@@ -20677,7 +20760,7 @@ hearing:30
 armor-class:96
 sleepiness:15
 depth:60
-rarity:3
+rarity:6
 weight:0
 experience:6000
 blow:HIT:COLD:9d10
@@ -20857,6 +20940,7 @@ flags:UNIQUE | MALE | EVIL
 flags:DROP_4 | DROP_GOOD | DROP_GREAT
 flags:IM_ELEC
 flags:ATTR_MULTI
+drop:food:Pipe-weed:100:3:4
 spell-freq:2
 spells:BLIND | WOUND | FORGET | HASTE | HEAL | MIND_BLAST
 spells:SCARE | TELE_AWAY | TPORT | TRAPS
@@ -20997,7 +21081,7 @@ flags:UNIQUE | MALE | SMART | ATTR_FLICKER
 flags:DROP_3 | DROP_GOOD
 flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_PLASMA
-flags:NO_STUN
+flags:NO_STUN | RES_LIGHT
 spell-freq:2
 innate-freq:15
 spells:BLIND | TELE_TO
@@ -21481,7 +21565,7 @@ blow:WAIL:TERRIFY:6d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:3
 spell-power:64
 spells:BLIND | WOUND | MISSILE | HOLD | MIND_BLAST | SCARE
@@ -21513,7 +21597,7 @@ blow:HIT:BLIND:10d10
 flags:UNIQUE | MALE | SMART
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM | LEVITATE
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_LIGHT
 flags:NO_STUN
 spell-freq:2
 spells:BLIND | TELE_TO
@@ -21555,6 +21639,7 @@ flags:MOVE_BODY
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | WANDERER
 flags:NO_STUN
 flags:FORCE_DEPTH
+drop:food:Handful of Dried Fruits:100:3:5
 spell-freq:2
 spells:BLIND | TELE_TO
 spells:BO_MANA | BO_WATE | BO_FIRE | BO_ICE
@@ -21677,7 +21762,7 @@ blow:ENGULF:ACID:6d10
 blow:ENGULF:ACID:6d10
 flags:COLD_BLOOD | POWERFUL | LEVITATE
 flags:BASH_DOOR | KILL_BODY | KILL_ITEM
-flags:IM_ACID | IM_WATER
+flags:IM_ACID | IM_WATER | IM_COLD
 spell-freq:5
 innate-freq:33
 spells:BA_WATE | BO_WATE
@@ -21706,6 +21791,7 @@ flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR
 flags:IM_COLD | IM_ELEC | IM_FIRE | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_DEPTH | FORCE_SLEEP
+drop:food:One Ring Cake:100:1:1
 spell-freq:2
 spells:WOUND | HOLD | TELE_TO | TRAPS
 spells:BA_DARK | BA_FIRE | BA_MANA | BA_NETH | BA_WATE
@@ -22072,6 +22158,7 @@ flags:DROP_40 | DROP_60 | ONLY_ITEM
 flags:BASH_DOOR
 flags:ATTR_MULTI | FORCE_SLEEP | NO_CONF
 flags:DROP_CORPSE
+flags:IM_LIGHT
 spell-freq:5
 innate-freq:50
 spells:WOUND
@@ -22159,7 +22246,7 @@ blow:BITE:HURT:2d12
 blow:BITE:HURT:2d12
 flags:INVISIBLE
 flags:PASS_WALL
-flags:NO_CONF | NO_SLEEP | NO_HOLD | IM_NETHER
+flags:NO_CONF | NO_SLEEP | NO_HOLD | IM_NETHER | IM_DISEN
 flags:FORCE_SLEEP
 spell-freq:5
 innate-freq:100
@@ -22809,7 +22896,7 @@ blow:TOUCH:EXP_40:7d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_ACID | IM_FIRE
+flags:IM_ACID | IM_FIRE | RES_LIGHT
 flags:FORCE_SLEEP
 spell-freq:2
 spell-power:72
@@ -22908,6 +22995,7 @@ flags:OPEN_DOOR | BASH_DOOR
 flags:IM_FIRE | IM_COLD | IM_POIS
 flags:NO_CONF | NO_SLEEP | NO_HOLD | NO_FEAR
 flags:FORCE_DEPTH
+drop:food:Cold chicken:100:2:2
 spell-freq:4
 innate-freq:33
 spells:TELE_TO | SCARE | BR_TIME | BR_FIRE
@@ -22997,6 +23085,7 @@ flags:UNIQUE | MALE | EVIL | SMART
 flags:BASH_DOOR
 flags:IM_ACID | IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
+drop:fortune cookie:Fortune Cookie:90:1:1
 spell-freq:2
 spells:BLIND | BRAIN_SMASH | CONF | DRAIN_MANA | FORGET | SCARE
 spells:BA_ACID | BA_COLD | BA_DARK | BA_FIRE | BA_NETH
@@ -23029,6 +23118,7 @@ flags:DROP_GOOD | ONLY_ITEM
 flags:WEIRD_MIND
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS | IM_DISEN | IM_NETHER
 flags:IM_NEXUS | NO_CONF | NO_SLEEP | NO_HOLD | NO_SLOW | NO_STUN
+drop:food:Draught of the Ents:60:1:1
 spell-freq:3
 innate-freq:50
 spells:S_KIN
@@ -23237,7 +23327,7 @@ depth:75
 rarity:1
 weight:0
 experience:35000
-blow:CLAW:POISON:8d6
+blow:CLAW:EAT_LIGHT:8d6
 blow:CLAW:POISON:8d6
 blow:BITE:PARALYZE:8d10
 blow:STING:LOSE_STR:8d4
@@ -23276,7 +23366,7 @@ blow:HIT:HURT:10d10
 blow:HIT:HURT:10d10
 flags:DEMON | COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR
-flags:IM_ACID | IM_FIRE | IM_POIS
+flags:IM_ACID | IM_FIRE | IM_POIS | RES_LIGHT
 flags:FORCE_SLEEP
 flags:NO_STUN
 spell-freq:8
@@ -23313,6 +23403,7 @@ flags:BASH_DOOR
 flags:IM_FIRE | IM_POIS
 flags:NO_STUN
 flags:FORCE_DEPTH
+drop:food:Cram Bread:100:1:2
 spell-freq:3
 innate-freq:33
 spells:BLIND | CONF | SCARE
@@ -23345,6 +23436,7 @@ flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM | PWMANG_FIXED
 flags:OPEN_DOOR
 flags:IM_FIRE | IM_COLD | IM_ELEC | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_DEPTH | FORCE_SLEEP
+drop:food:Swig of Orcish Liquor:100:6:8
 spell-freq:2
 spells:WOUND | DRAIN_MANA | HOLD | TELE_TO | TRAPS
 spells:BA_DARK | BA_FIRE | BA_MANA | BA_NETH | BA_WATE
@@ -23459,7 +23551,8 @@ flags:UNIQUE | SMART | WANDERER
 flags:REGENERATE | ANIMAL
 flags:NO_CONF | NO_SLEEP | NO_FEAR
 flags:IM_FIRE | IM_COLD | IM_ELEC | IM_ACID | IM_POIS
-flags:NO_STUN | IM_PLASMA | IM_DISEN
+flags:NO_STUN | IM_PLASMA | IM_DISEN | RES_LIGHT
+drop-base:rod:50:1:2
 spell-freq:4
 innate-freq:15
 spells:DRAIN_MANA | HEAL | WOUND | TELE_AWAY | BR_LIGHT | BR_MANA
@@ -23762,6 +23855,7 @@ blow:ENGULF:HURT:3d6
 flags:UNIQUE | NEVER_MOVE
 flags:IM_COLD | IM_FIRE | IM_ACID
 flags-off:RAND_50 | BASH_DOOR | CLEAR_WEB
+drop-base:chest:10:1:1
 spell-freq:5
 innate-freq:67
 spells:BR_COLD | BR_SOUN
@@ -23790,7 +23884,7 @@ blow:HIT:EXP_80:7d7
 flags:UNIQUE | MALE | SMART | LEVITATE
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_LIGHT
 spell-freq:2
 spell-power:80
 spells:BLIND | BRAIN_SMASH | WOUND | HOLD | SCARE | TELE_AWAY
@@ -24020,6 +24114,7 @@ flags:NEVER_MOVE
 flags:IM_ELEC | IM_FIRE | IM_POIS | IM_PLASMA
 flags:HURT_LIGHT | NO_FEAR
 flags:DROP_CORPSE
+drop:food:Hard Biscuit:100:1:1
 spell-freq:3
 spells:BLINK | TPORT | TELE_AWAY | TELE_TO
 spells:BRAIN_SMASH | MIND_BLAST | S_MONSTERS
@@ -24056,6 +24151,7 @@ spells:S_HI_DEMON | S_UNDEAD
 desc:Originally of the semi-divine Maiar, this evil spirit swore allegiance to
 desc: Morgoth at the beginning of time and is now one of his most terrible
 desc: demonic servants. With its flaming whip and sword it seeks to destroy you.
+
 name:Ancalagon the Black
 base:ancient dragon
 color:D
@@ -24249,6 +24345,7 @@ flags:KILL_WALL | MOVE_BODY
 flags:IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
 flags:FORCE_DEPTH | PWMANG_FIXED
+drop:food:Elvish water:100:6:9
 spell-freq:5
 spells:S_ANIMAL | S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS | S_UNIQUE
 desc:The son of Eol the Dark Elf, Maeglin is every bit as evil as his father and
@@ -24853,7 +24950,7 @@ blow:HIT:DISENCHANT:11d11
 flags:UNIQUE | MALE | SMART
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM | LEVITATE
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_LIGHT
 flags:NO_STUN
 spell-freq:2
 innate-freq:17
@@ -25016,7 +25113,7 @@ blow:BEG:HURT:9d13
 flags:UNIQUE | MALE | SMART
 flags:DROP_1 | DROP_GOOD | ONLY_ITEM | LEVITATE
 flags:MOVE_BODY
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_LIGHT
 flags:NO_STUN
 spell-freq:2
 innate-freq:15
@@ -25088,6 +25185,7 @@ flags:REGENERATE | ANIMAL
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_FEAR | IM_FIRE | IM_COLD | IM_ELEC
 flags:IM_NETHER | NO_STUN | IM_PLASMA | IM_DISEN
 flags:IM_ACID
+drop:crop:carrot:100:2:3
 spell-freq:3
 innate-freq:25
 spells:BR_GRAV | BR_TIME
@@ -25183,7 +25281,7 @@ blow:CLAW:PARALYZE:6d8
 flags:UNIQUE | MALE | EVIL | REGENERATE
 flags:FORCE_SLEEP | FORCE_DEPTH
 flags:SMART | OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:IM_POIS | IM_ELEC | IM_FIRE | IM_COLD
+flags:IM_POIS | IM_ELEC | IM_FIRE | IM_COLD | IM_NETHER
 flags:NO_CONF | NO_SLEEP | NO_FEAR
 spell-freq:3
 innate-freq:13
@@ -25398,7 +25496,7 @@ blow:HIT:HURT:10d10
 flags:PWMANG_EXTRA | REGENERATE | LEVITATE
 flags:BASH_DOOR | NEVER_BLOW | KILL_WALL
 flags:IM_FIRE | IM_COLD | IM_POIS | IM_PLASMA | IM_NETHER | IM_ACID
-flags:NO_STUN | IM_ELEC
+flags:NO_STUN | IM_ELEC | IM_LIGHT
 flags:FORCE_DEPTH
 spell-freq:3
 innate-freq:33
@@ -25852,6 +25950,28 @@ blow:CLAW:LOSE_WIS:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition ready to sap your mind.
+locations:Utumno, Portal to the Void
+
+name:spirit of lust
+plural:spirits of lust
+base:ghost
+color:P
+speed:130
+hit-points:4000
+hearing:20
+armor-class:180
+sleepiness:10
+depth:102
+rarity:9
+weight:0
+experience:25000
+blow:HYPNOTIZE:SEDUCE:8d8
+blow:HIT:PARALYZE:8d8
+blow:HIT:FORGET:8d8
+blow:HIT:CONFUSE:8d8
+flags:PWMANG_EXTRA | MALE | FEMALE
+flags:FORCE_DEPTH
+desc:When you look at it you are ready to unscrew your head off from pleasure...
 locations:Utumno, Portal to the Void
 
 name:spirit of greed
@@ -26570,6 +26690,7 @@ flags:KILL_WALL | MOVE_BODY | ATTR_FLICKER
 flags:IM_ACID | IM_ELEC | NO_FEAR
 flags:IM_NETHER | IM_PLASMA | IM_DISEN
 flags:FORCE_DEPTH
+drop:fortune cookie:Fortune Cookie:100:1:1
 spell-freq:4
 innate-freq:11
 spells:BRAIN_SMASH | HEAL
@@ -26609,6 +26730,7 @@ flags:KILL_WALL | MOVE_BODY | ATTR_FLICKER
 flags:IM_ACID | IM_ELEC | NO_FEAR
 flags:IM_NETHER | IM_PLASMA | IM_DISEN
 flags:FORCE_DEPTH
+drop:fortune cookie:Fortune Cookie:100:1:1
 spell-freq:3
 innate-freq:13
 spells:BRAIN_SMASH | HEAL | TELE_SELF_TO
@@ -28366,6 +28488,7 @@ depth:0
 rarity:3
 weight:0
 experience:4
+flags:NO_PASS_TREE
 blow:BITE:HURT:1d2
 flags:BASH_DOOR
 desc:It makes you itch just to look at it.
@@ -28422,6 +28545,7 @@ depth:0
 rarity:1
 weight:0
 experience:3
+flags:NO_PASS_TREE
 blow:BITE:HURT:1d2
 desc:It makes you itch just to look at it.
 locations:Mosquito Marshes
@@ -30462,7 +30586,7 @@ desc:A truly enormous dracon.
 name:s'spider
 base:spider
 color:p
-speed:112
+speed:110
 hit-points:15
 hearing:8
 armor-class:0
@@ -30470,17 +30594,18 @@ sleepiness:80
 #1
 depth:2
 rarity:0
-weight:1
+weight:25
 experience:7
 blow:BITE:HURT:1d4
 flags:ANIMAL
+flags:HURT_LIGHT
 desc:It is a black spider that moves in fits and starts.
 
 #name:wood spider
 name:s'weaver
 base:spider
 color:U
-speed:114
+speed:110
 hit-points:40
 hearing:8
 armor-class:0
@@ -30488,12 +30613,12 @@ sleepiness:80
 #5
 depth:7
 rarity:0
-weight:1
+weight:50
 experience:15
 blow:BITE:HURT:1d3
 blow:STING:POISON:1d4
 flags:ANIMAL
-flags:IM_POIS | HURT_LIGHT
+flags:HURT_LIGHT
 spell-freq:34
 innate-freq:100
 spells:WEAVE
@@ -30503,7 +30628,7 @@ desc:It scuttles around weaving spider silk.
 name:s'warrior
 base:spider
 color:V
-speed:116
+speed:110
 hit-points:80
 hearing:8
 armor-class:0
@@ -30511,21 +30636,21 @@ sleepiness:40
 #10
 depth:10
 rarity:0
-weight:1
+weight:70
 experience:35
 blow:BITE:HURT:1d10
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:HURT:1d10
 flags:ANIMAL
-flags:IM_POIS | HURT_LIGHT
+flags:HURT_LIGHT
 desc:It is a vast black spider with bulbous bloated body.
 
 #name:giant tarantula
 name:s'guard
 base:spider
 color:o
-speed:118
+speed:110
 hit-points:140
 hearing:8
 armor-class:0
@@ -30533,13 +30658,14 @@ sleepiness:20
 #15
 depth:15
 rarity:0
-weight:1
+weight:80
 experience:70
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
 flags:ANIMAL
-flags:IM_POIS | HURT_LIGHT
+flags:OPEN_DOOR
+flags:HURT_LIGHT
 spell-freq:34
 innate-freq:100
 spells:WEAVE
@@ -30549,7 +30675,7 @@ desc:A giant, fast-moving spider with hairy black and red legs.
 name:s'apprentice
 base:spider
 color:g
-speed:120
+speed:110
 hit-points:190
 hearing:15
 armor-class:0
@@ -30557,13 +30683,14 @@ sleepiness:80
 #20
 depth:20
 rarity:0
-weight:1
+weight:90
 experience:25
 blow:BITE:HURT:1d8
 blow:BITE:POISON:1d6
 blow:BITE:POISON:1d6
-flags:EVIL | ANIMAL
-flags:IM_POIS | HURT_LIGHT
+flags:ANIMAL
+flags:OPEN_DOOR
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:20
 innate-freq:50
@@ -30575,7 +30702,7 @@ desc: seeks to taste your juicy insides.
 name:s'adept
 base:spider
 color:R
-speed:122
+speed:110
 hit-points:240
 hearing:20
 armor-class:0
@@ -30583,14 +30710,14 @@ sleepiness:50
 # 25
 depth:38
 rarity:0
-weight:1
+weight:100
 experience:250
 blow:STING:POISON:2d8
 blow:CLAW:HURT:1d8
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL
+flags:ANIMAL
 flags:OPEN_DOOR
-flags:HURT_LIGHT | IM_POIS
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:25
 innate-freq:50
@@ -30600,7 +30727,7 @@ desc:An intelligent arachnid whose hairy legs weave spells in the air.
 #name:aranea
 name:s'master
 color:R
-speed:124
+speed:110
 hit-points:330
 hearing:20
 armor-class:0
@@ -30608,15 +30735,15 @@ sleepiness:50
 # 30
 depth:38
 rarity:0
-weight:1
+weight:110
 experience:250
 blow:CLAW:POISON:2d8
 blow:CLAW:POISON:2d8
 blow:BITE:POISON:2d6
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL
+flags:ANIMAL
 flags:OPEN_DOOR
-flags:HURT_LIGHT | IM_POIS
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:30
 innate-freq:50
@@ -30626,7 +30753,7 @@ desc:Fast and furious spider. Master of the web and poison.
 #name:aranea
 name:s'aranea
 color:R
-speed:126
+speed:110
 hit-points:370
 hearing:20
 armor-class:0
@@ -30634,15 +30761,15 @@ sleepiness:50
 # 35
 depth:38
 rarity:0
-weight:1
+weight:120
 experience:250
 blow:CLAW:POISON:2d8
 blow:CLAW:POISON:2d8
 blow:BITE:POISON:2d6
 blow:BITE:POISON:2d6
-flags:EVIL | ANIMAL
+flags:ANIMAL
 flags:OPEN_DOOR
-flags:HURT_LIGHT | IM_POIS
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:35
 innate-freq:50
@@ -30653,7 +30780,7 @@ desc:An intelligent arachnid whose hairy legs weave spells in the air.
 name:s'elder
 base:spider
 color:G
-speed:128
+speed:110
 hit-points:450
 hearing:20
 armor-class:0
@@ -30661,14 +30788,15 @@ sleepiness:50
 # 40
 depth:38
 rarity:0
-weight:1
+weight:130
 experience:250
 blow:CLAW:HURT:2d8
 blow:STING:POISON:2d6
 blow:STING:POISON:2d6
 blow:BITE:CONFUSE:1d3
-flags:EVIL | ANIMAL
-flags:WEIRD_MIND | HURT_LIGHT | IM_POIS
+flags:ANIMAL
+flags:OPEN_DOOR
+flags:HURT_LIGHT
 spell-power:40
 spell-freq:34
 innate-freq:50
@@ -30680,7 +30808,7 @@ desc: spined legs.
 name:s'ancient
 base:spider
 color:r
-speed:130
+speed:110
 hit-points:700
 hearing:20
 armor-class:0
@@ -30688,15 +30816,15 @@ sleepiness:50
 # 45
 depth:48
 rarity:0
-weight:1
+weight:140
 experience:2500
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
 blow:BITE:EAT_LIGHT:5d6
-flags:EVIL | ANIMAL
+flags:ANIMAL
 flags:OPEN_DOOR
-flags:HURT_LIGHT | IM_POIS
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:45
 innate-freq:50
@@ -30708,7 +30836,7 @@ desc:A foul creature of spider form, older even than the pits of Angband.
 name:s'lord
 base:spider
 color:r
-speed:132
+speed:110
 hit-points:950
 hearing:20
 armor-class:0
@@ -30716,15 +30844,15 @@ sleepiness:50
 # 50
 depth:48
 rarity:0
-weight:1
+weight:150
 experience:3000
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
 blow:BITE:EAT_LIGHT:5d6
-flags:EVIL | ANIMAL | SMART
+flags:ANIMAL
 flags:OPEN_DOOR
-flags:HURT_LIGHT | IM_FIRE | IM_POIS
+flags:HURT_LIGHT
 spell-freq:34
 spell-power:50
 innate-freq:50
@@ -31012,27 +31140,96 @@ spells:MIND_BLAST | HOLD | BLIND | CONF | SCARE | SLOW
 desc:A weird bloodshot disembodied eye, floating a few feet above the ground.
 desc:It blinks slowly and menacily.
 
-#///////////   H
-#///////////   H
+#///////////    ^^^ FORMS
+#///////////   
 
-name:spirit of lust
-plural:spirits of lust
-base:ghost
-color:P
-speed:130
-hit-points:4000
+
+
+##### ADD after wipe:
+
+
+name:darkling
+base:minor demon
+color:u
+speed:111
+hit-points:75
+light:-2
 hearing:20
-armor-class:180
+armor-class:42
+sleepiness:35
+depth:13
+rarity:4
+weight:140
+experience:75
+blow:HIT:EAT_LIGHT:1d7
+blow:HIT:EAT_LIGHT:1d7
+flags:OPEN_DOOR | BASH_DOOR
+flags:DROP_40
+flags:NO_FEAR
+spell-freq:7
+spells:DARKNESS
+desc:Corrupted fey-demons which feed on light.
+
+name:shadow of nazgul
+base:wraith
+color:p
+speed:115
+hit-points:500
+light:-2
+hearing:40
+smell:50
+armor-class:72
 sleepiness:10
-depth:102
-rarity:9
+depth:30
+rarity:6
 weight:0
-experience:25000
-blow:HYPNOTIZE:SEDUCE:8d8
-blow:HIT:PARALYZE:8d8
-blow:HIT:FORGET:8d8
-blow:HIT:CONFUSE:8d8
-flags:PWMANG_EXTRA | MALE | FEMALE
-flags:FORCE_DEPTH
-desc:When you look at it you are ready to unscrew your head off from pleasure...
-locations:Utumno, Portal to the Void
+experience:666
+blow:MOAN:TERRIFY:2d5
+blow:HIT:EAT_LIGHT:4d5
+blow:HIT:BLACK_BREATH:3d7
+flags:MALE | LEVITATE
+flags:DROP_1 | ONLY_ITEM
+flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:RES_LIGHT
+desc:Nazguls don't dissapear for ever.. They return. Always.
+desc:But till the moment when they will reclaim, 
+desc:they dwell aas shadowless shapes.
+
+name:Test dummy
+base:golem
+color:y
+speed:100
+hit-points:1000
+hearing:1
+armor-class:0
+sleepiness:0
+depth:1
+############### make 0!
+rarity:0
+weight:0
+experience:1
+spell-freq:1
+spell-power:50
+spells:FORGET
+flags:NEVER_MOVE
+desc:An indestructible golem used for testing purposes.
+
+name:Test drop
+base:golem
+color:y
+speed:100
+hit-points:1000
+hearing:1
+armor-class:0
+sleepiness:0
+depth:1
+############### make 0!
+rarity:0
+weight:0
+experience:1
+spell-freq:1
+blow:HIT:FORGET:10d1
+flags:NEVER_MOVE
+flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+#drop:sword:'Stormbringer':100:1:1
+desc:An indestructible golem used for testing purposes.

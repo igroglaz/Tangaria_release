@@ -1,7 +1,7 @@
 # === Understanding blow_effects.txt (monster race blow effects) ===
 
 # name - blow effect name as in monster.txt
-# power - used for attack quality in check_hit()
+# power - used in monster to-hit chance calculation
 # eval - used for power evaluation in eval_blow_effect()
 # desc - description for monster recall
 # lore-color-base - base color for lore
@@ -303,6 +303,9 @@ power:60
 eval:10
 desc:cause amnesia
 lore-color-base:Yellow
+lore-color-resist:Light Green
+effect-type:flag
+resist:PROT_AMNESIA
 lash-type:TIME
 
 name:DISEASE

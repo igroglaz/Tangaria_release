@@ -1175,6 +1175,9 @@ object:light:Arkenstone:0x87:0xB6
 # The Palantir of Westernesse
 object:light:Palantir:0x87:0xB6
 
+# Stormbringer (sword)
+object:sword:'Stormbringer':0x8A:0xC3
+
 # The Amulet of Carlammas
 #object:amulet:Amulet:0x85:0xAD
 
@@ -1235,7 +1238,6 @@ object:sword:Dark Sword:0x8A:0xC6
 object:arrow:Magic Arrow:0x8A:0xD8
 object:bolt:Magic Bolt:0x8A:0xE2
 object:shot:Magic Shot:0x8A:0xE8
-object:rock:Rock:0x8A:0xB6
 object:rock:Throwing rock:0x8A:0xB6
 object:rock:Shuriken:0x8A:0xCF
 object:rock:Boomerang:0x8A:0xF0
@@ -1298,6 +1300,8 @@ monster:Horse:0x9B:0x81
 monster:Lobelia Sackville-Baggins:0x8B:0xA6
 monster:Mountain Gorge's grey mold:0x8E:0xC2
 monster:Target dummy:0x8B:0xB0
+monster:Test dummy:0x8B:0xB0
+monster:Test drop:0x8B:0xB0
 monster:blinking dot:0x9A:0xC9
 monster:grid bug:0x9D:0xF3
 monster:Wooden barrel:0xA0:0xEA
@@ -7368,28 +7372,25 @@ feat:B6 floors luquid S:los:0xB6:0xD9
 feat:B6 floors luquid S:lit:0xB6:0xDA
 feat:B6 floors luquid S:dark:0xB6:0xDB
 
-#murky water
 # B6 floors luquid T 
 feat:B6 floors luquid T:torch:0xB6:0xDC
 feat:B6 floors luquid T:los:0xB6:0xDD
 feat:B6 floors luquid T:lit:0xB6:0xDE
 feat:B6 floors luquid T:dark:0xB6:0xDF
 
-#waterfall 1
+#murky water:
 # B6 floors luquid U 
 feat:B6 floors luquid U:torch:0xB6:0xE0
 feat:B6 floors luquid U:los:0xB6:0xE1
 feat:B6 floors luquid U:lit:0xB6:0xE2
 feat:B6 floors luquid U:dark:0xB6:0xE3
 
-#waterfall 2
 # B6 floors luquid V 
 feat:B6 floors luquid V:torch:0xB6:0xE4
 feat:B6 floors luquid V:los:0xB6:0xE5
 feat:B6 floors luquid V:lit:0xB6:0xE6
 feat:B6 floors luquid V:dark:0xB6:0xE7
 
-#waterfall 3
 # B6 floors luquid W 
 feat:B6 floors luquid W:torch:0xB6:0xE8
 feat:B6 floors luquid W:los:0xB6:0xE9
@@ -17103,6 +17104,7 @@ feat:E7 desert p:los:0xE7:0xE5
 feat:E7 desert p:lit:0xE7:0xE6
 feat:E7 desert p:dark:0xE7:0xE7
 
+# water puddle
 # E7 desert q 
 feat:E7 desert q:torch:0xE7:0xE8
 feat:E7 desert q:los:0xE7:0xE9
@@ -25257,17 +25259,17 @@ monster:great dracon:0x8C:0xA4
 #monster:s'elder:0x8F:0xB8
 #monster:s'ancient:0x8F:0xB2
 #monster:s'lord:0x9D:0x97
-monster:s'spider:0x9D:0xDF
-monster:s'weaver:0x9D:0xDF
-monster:s'warrior:0x9D:0xDF
-monster:s'guard:0x8F:0xDF
-monster:s'apprentice:0x8F:0xDF
-monster:s'adept:0x8F:0xDF
-monster:s'master:0x8F:0xDF
-monster:s'aranea:0x8F:0xDF
-monster:s'elder:0x8F:0xDF
-monster:s'ancient:0x8F:0xDF
-monster:s'lord:0x9D:0xDF
+monster:s'spider:0x84:0xF1
+monster:s'weaver:0x84:0xF2
+monster:s'warrior:0x84:0xF3
+monster:s'guard:0x84:0xF4
+monster:s'apprentice:0x84:0xF5
+monster:s'adept:0x84:0xF6
+monster:s'master:0x84:0xF7
+monster:s'aranea:0x84:0xF8
+monster:s'elder:0x84:0xF9
+monster:s'ancient:0x84:0xFA
+monster:s'lord:0x84:0xFB
 
 #wraith
 monster:expulsion:0x94:0x85
@@ -32390,7 +32392,24 @@ feat:house wall i`:los:0xE3:0xFD
 feat:house wall i`:lit:0xE3:0xFE
 feat:house wall i`:dark:0xE3:0xFF
 
+###################
+### ADD AFTER WIPE:
+monster:darkling:0x9C:0xF5
+monster:shadow of nazgul:0x9B:0xF5
 
+object:food:Cram Bread:0x82:0x86
+object:food:Petty-dwarf roots:0x9F:0xDC
+object:food:Salted Pork from Isengard:0x82:0x83
+object:food:Pipe-weed:0x82:0x83
+object:food:Elvish wine:0x82:0x83
+object:food:Cold chicken:0x82:0x93
+object:food:Maggoty bread:0x9F:0xDD
+object:food:Flagon of mead:0x88:0x83
+object:food:One Ring Cake:0x9F:0xDB
+object:food:Stolen mushroom:0x82:0x97
+object:food:Elvish water:0x88:0xC8
+object:food:Apple of Youth:0x82:0xA1
+object:hafted:Club:0x8A:0xEF
 
 # Load the special player pictures
 %:xtra-tan.prf
