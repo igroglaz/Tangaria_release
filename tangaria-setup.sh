@@ -1,15 +1,15 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 ## Script for setup Tangaria
 ##
 README=\
 '<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
-# Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria_release/master/tangaria-setup.sh
-# Github PWMAngband: https://github.com/draconisPW/PWMAngband
-# PWMAngband binaries: https://powerwyrm.monsite-orange.fr
-# Github Tangaria: https://github.com/igroglaz/Tangaria
-# Link to Tangaria: https://tangaria.com
-# Discord channel: https://discord.gg/zBNG369
+* Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria_release/master/tangaria-setup.sh
+* Github PWMAngband: https://github.com/draconisPW/PWMAngband
+* PWMAngband binaries: https://powerwyrm.monsite-orange.fr
+* Github Tangaria: https://github.com/igroglaz/Tangaria
+* Link to Tangaria: https://tangaria.com
+* Discord channel: https://discord.gg/zBNG369
 
 to make script executable, use chmod +x ./tangaria-setup.sh
 if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
@@ -17,13 +17,15 @@ if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get ins
 and the command to obtain all the needed libraries is: sudo dnf install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
 <<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>'
 
-####### ./configure --help ########
+## ./configure --help
 
 ## to change directory for storing pref-files and character-dumps.
 ## ./configure CFLAGS=-DPRIVATE_USER_PATH=\\\"~/.pwmangband\\\"
 
 ## enable SDL mixer sound support (default: disabled unless SDL enabled)
 ## ./configure --enable-curses --enable-sdl-mixer
+
+## to get path to config file (~/.pwmangrc) from command-line ./pwmangclient --config <file>
 
 ########### INSTALL DIR ###########
 
@@ -127,28 +129,19 @@ if ! command -V sed &> /dev/null ; then
     exit 1
 fi
 
-# XDG Base Directory Specification
-if [[ -z "$XDG_CONFIG_HOME" ]]; then
-    export XDG_CONFIG_HOME="$HOME/.config"
-fi
-
-if [[ -z "$XDG_DATA_HOME" ]]; then
-    export XDG_DATA_HOME="$HOME/.local/share"
-fi
-
-if [ -d "$TARGET_DIR" ]; then
-    cd "$(dirname "$TARGET_DIR")" || {
-        echo "ERROR: Could not change directory to '$TARGET_DIR'"
+if [ -d "${TARGET_DIR}" ]; then
+    cd "$(dirname "${TARGET_DIR}")" || {
+        echo "ERROR: Could not change directory to '${TARGET_DIR}'"
         exit 1
     }
 fi
 
-if ! [ -d $SETUP_FILES ]; then
-    mkdir -p $SETUP_FILES
+if ! [ -d "${SETUP_FILES}" ]; then
+    mkdir -p "${SETUP_FILES}"
 fi
 
-cd $SETUP_FILES || {
-    echo "ERROR: Could not change directory to '$SETUP_FILES'"
+cd "${SETUP_FILES}" || {
+    echo "ERROR: Could not change directory to '${SETUP_FILES}'"
     exit 1
 }
 
@@ -157,9 +150,9 @@ arrayContains() {
     local el="$2"
     local flag=$3
     if printf "%s\n" "${arr[@]}" | grep -x -q "$el"; then
-        eval "$flag"=ON
+        eval "${flag}"=ON
     else
-        eval "$flag"=OFF
+        eval "${flag}"=OFF
     fi
 }
 
@@ -182,7 +175,7 @@ radioListRoguelike() {
 
 inputBoxInstallPath() {
     INSTALL_DIR=$($DIALOG --title "Install Path" --nocancel --inputbox \
-        "enter path:" 8 76 $INSTALL_DIR 3>&1 1>&2 2>&3)
+        "enter path:" 8 76 "$INSTALL_DIR" 3>&1 1>&2 2>&3)
 
         exitstatus=$?
         if [ ${exitstatus} != 0 ]; then
@@ -378,10 +371,10 @@ if [ "$CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND" = "ON" ]; then
     ${REPOSITORY_URL_PWMANGBAND}${VERSION_PWMANGBAND}".zip" || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
-        echo "$SETUP_FILES   empty directory..."
+        echo "${SETUP_FILES}   empty directory..."
         exit 0
     fi
-    if ! [ -d $(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 || exit 1) ]; then
+    if ! [ -d "$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 || exit 1)" ]; then
         VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.zip*//")
         echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
     else
@@ -408,10 +401,10 @@ if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA" = "ON" ]; then
     ${REPOSITORY_URL_TANGARIA}${VERSION_TANGARIA}".zip" || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
-        echo "$SETUP_FILES   empty directory..."
+        echo "${SETUP_FILES}   empty directory..."
         exit 0
     fi
-    if ! [ -d $(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 || exit 1) ]; then
+    if ! [ -d "$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 || exit 1)" ]; then
         VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.zip*//")
         echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
     else
@@ -425,7 +418,6 @@ if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA" = "ON" ]; then
     unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}".zip" || exit 1
 fi
 
-##########
 if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
 
 logo_Tangaria
@@ -436,13 +428,9 @@ if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE" = "ON" ]; then
     ${REPOSITORY_URL_TANGARIA_RELEASE}${VERSION_TANGARIA_RELEASE}".zip" || exit 1
 fi
 
-if ! [ -d ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} ]; then
+if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
+    rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
     unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" || exit 1
-else
-    if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
-        rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
-        unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" || exit 1
-    fi
 fi
 
 fi
@@ -544,14 +532,16 @@ fi
 
 # Build (prefix must be INSTALL_DIR="/usr")
 if [ "$MENU_CLIENT" = "sdl" ]; then
-    ./configure --prefix="$INSTALL_DIR" --disable-curses --disable-x11 --enable-sdl
+    ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl
 fi
 if [ "$MENU_CLIENT" = "curses" ]; then
-    ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-x11 --disable-sdl
+    ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-sdl
 fi
 if [ "$MENU_CLIENT" = "other" ]; then
-    ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-x11 --disable-sdl
+##  ./configure --help
+    ./configure --prefix="$INSTALL_DIR"
 fi
+
 make -j$CPU_CORES
 
 # Base install
@@ -657,8 +647,7 @@ cd \$HOME || {
     echo "ERROR: Could not change directory..."
     exit 1
 }
-exec \${SELF_DIR}/usr/bin/pwmangclient \\
-\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9
+exec "\${SELF_DIR}/usr/bin/pwmangclient" "\$@"
 EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
@@ -671,7 +660,7 @@ SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
 cd \${SELF_DIR} || exit 1
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
 
-if ! [ -f \$HOME/.pwmangrc ]; then
+if ! [ -f "\$HOME/.pwmangrc" ]; then
 cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
 fi
 
@@ -679,8 +668,7 @@ cd ./usr/bin || exit 1
 
 set -ex
 
-exec "./pwmangclient" \\
-\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9
+exec "./pwmangclient" "\$@"
 EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
@@ -693,11 +681,11 @@ SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
 cd \${SELF_DIR} || exit 1
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
 
-if ! [ -f \$HOME/.pwmangrc ]; then
+if ! [ -f "\$HOME/.pwmangrc" ]; then
 cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
 fi
 
-if ! [ -f \$HOME/.pwmangband/Tangaria/sdlinit.txt ]; then
+if ! [ -f "\$HOME/.pwmangband/Tangaria/sdlinit.txt" ]; then
 mkdir -p \$HOME/.pwmangband/Tangaria
 cp -f ./usr/$NAME_ROGUELIKE/games/sdlinit.txt \$HOME/.pwmangband/Tangaria/
 fi
@@ -706,8 +694,7 @@ cd ./usr/bin || exit 1
 
 set -ex
 
-exec "./pwmangclient" \\
-\$1 \$2 \$3 \$4 \$5 \$6 \$7 \$8 \$9
+exec "./pwmangclient" "\$@"
 EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
@@ -745,14 +732,14 @@ fi
 ./autogen.sh || exit 1
 
 if [ "$MENU_CLIENT" = "sdl" ]; then
-    ./configure --prefix $INSTALL_DIR --disable-curses --disable-x11 --enable-sdl
+    ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl
 fi
 if [ "$MENU_CLIENT" = "curses" ]; then
-    ./configure --prefix $INSTALL_DIR --enable-curses --disable-x11 --disable-sdl
+    ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-sdl
 fi
 if [ "$MENU_CLIENT" = "other" ]; then
 ##  ./configure --help
-    ./configure --prefix $INSTALL_DIR
+    ./configure --prefix="$INSTALL_DIR"
 fi
 
 make -j$CPU_CORES
@@ -760,7 +747,7 @@ make install
 
 if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
     cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
-    if ! [ -f $USER_PWMANGRC ]; then
+    if ! [ -f "$USER_PWMANGRC" ]; then
         write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
     else
         echo -n "replace $USER_PWMANGRC ?     (y/n)"
@@ -783,7 +770,7 @@ fi
 
 cd ../ || exit 1
 
-if ! [ -f $INSTALL_DIR/pwmangclient-launcher.sh ]; then
+if ! [ -f "$INSTALL_DIR/pwmangclient-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
 
@@ -792,26 +779,14 @@ cd \$HOME || {
     echo "ERROR: Could not change directory..."
     exit 1
 }
-exec \$PWMANGCLIENT_DIR/pwmangclient
+exec "\$PWMANGCLIENT_DIR/pwmangclient" "\$@"
 
-# To get path to config file ./pwmangclient --config file
-#
-# Example .pwmangrc
-#
-#[MAngband]
-#nick=PLAYER
-#pass=pass
-#;host=localhost
-#meta_address=mangband.org
-#meta_port=8802
-#DisableNumlock=1
-#LighterBlue=1
-#IntroMusic=0
+## to get path to config file (~/.pwmangrc) from command-line ./pwmangclient --config <file>
 EOF
 chmod +x $INSTALL_DIR/pwmangclient-launcher.sh
 fi
 
-if ! [ -f $INSTALL_DIR/pwmangband-launcher.sh ]; then
+if ! [ -f "$INSTALL_DIR/pwmangband-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangband-launcher.sh << EOF
 #!/bin/sh
 cd "\$(dirname "\$0")"/games || {
@@ -824,13 +799,13 @@ chmod +x $INSTALL_DIR/pwmangband-launcher.sh
 fi
 
 if [ "$CHECKLIST_OPTIONS_CLIENT_DESKTOP" = "ON" ] || [ "$CHECKLIST_OPTIONS_SERVER_DESKTOP" = "ON" ]; then
-    if ! [ -d $XDG_DATA_HOME/applications ]; then
-        mkdir -p $XDG_DATA_HOME/applications
+    if ! [ -d "$HOME/.local/share/applications" ]; then
+        mkdir -p "$HOME/.local/share/applications"
     fi
 fi
 
 if [ "$CHECKLIST_OPTIONS_CLIENT_DESKTOP" = "ON" ]; then
-cat > $XDG_DATA_HOME/applications/${NAME_ROGUELIKE}-client.desktop << EOF
+cat > "$HOME/.local/share/applications/${NAME_ROGUELIKE}-client.desktop" << EOF
 [Desktop Entry]
 Name=$NAME_ROGUELIKE (client)
 Type=Application
@@ -843,7 +818,7 @@ EOF
 fi
 
 if [ "$CHECKLIST_OPTIONS_SERVER_DESKTOP" = "ON" ]; then
-cat > $XDG_DATA_HOME/applications/${NAME_ROGUELIKE}-server.desktop << EOF
+cat > "$HOME/.local/share/applications/${NAME_ROGUELIKE}-server.desktop" << EOF
 [Desktop Entry]
 Name=$NAME_ROGUELIKE (server)
 Type=Application
@@ -857,7 +832,7 @@ EOF
 fi
 
 if [ "$CHECKLIST_OPTIONS_LINK_DIR_USER" = "ON" ]; then
-    if ! [ -e $INSTALL_DIR/user ]; then
+    if ! [ -e "$INSTALL_DIR/user" ]; then
     ln -s $USER_PWMANGBAND $INSTALL_DIR/user
     fi
 fi
@@ -868,7 +843,7 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE"
 
 cd ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} || exit 1
 
-if ! [ -d $INSTALL_DIR ]; then
+if ! [ -d "$INSTALL_DIR" ]; then
     echo "ERROR: directory not found '$INSTALL_DIR'"
     exit 1
 fi
@@ -892,16 +867,16 @@ cp -fv ./Manual.pdf $INSTALL_DIR
 
 cp -iv ./mangband.cfg $INSTALL_DIR/games
 
-if ! [ -d $USER_PWMANGBAND ]; then
+if ! [ -d "$USER_PWMANGBAND" ]; then
     mkdir -p $USER_PWMANGBAND
 fi
-if ! [ -d $USER_PWMANGBAND/Tangaria ]; then
+if ! [ -d "$USER_PWMANGBAND/Tangaria" ]; then
     mkdir -p $USER_PWMANGBAND/Tangaria
 fi
-if ! [ -d $USER_PWMANGBAND/Tangaria/save ]; then
+if ! [ -d "$USER_PWMANGBAND/Tangaria/save" ]; then
     mkdir -p $USER_PWMANGBAND/Tangaria/save
 fi
-if ! [ -d $USER_PWMANGBAND/Tangaria/scores ]; then
+if ! [ -d "$USER_PWMANGBAND/Tangaria/scores" ]; then
     mkdir -p $USER_PWMANGBAND/Tangaria/scores
 fi
 
@@ -909,7 +884,7 @@ cp -nv ./lib/user/save/account $USER_PWMANGBAND/Tangaria/save
 
 cp -iv ./lib/user/sdlinit.txt $USER_PWMANGBAND/Tangaria
 
-if ! [ -f $USER_PWMANGRC ]; then
+if ! [ -f "$USER_PWMANGRC" ]; then
     write_pwmangrc ./mangclient.ini $USER_PWMANGRC
 else
     echo -n "replace $USER_PWMANGRC ?     (y/n)"
