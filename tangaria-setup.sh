@@ -40,7 +40,7 @@ USER_PWMANGRC="$HOME/.pwmangrc"
 
 #SETUP_FILES="/tmp/tangaria_setup_files"
 
-TARGET_DIR=$(dirname "$(readlink -f "$0")")
+TARGET_DIR="$(dirname "$(readlink -f "$0")")"
 SETUP_FILES="${TARGET_DIR}/tangaria_setup_files"
 
 ######## make -j$CPU_CORES ########
@@ -129,9 +129,9 @@ if ! command -V sed &> /dev/null ; then
     exit 1
 fi
 
-if [ -d "${TARGET_DIR}" ]; then
-    cd "$(dirname "${TARGET_DIR}")" || {
-        echo "ERROR: Could not change directory to '${TARGET_DIR}'"
+if [ -n "${TARGET_DIR}" ]; then
+    cd "${TARGET_DIR}" || {
+        echo "ERROR: Could not change directory to '${TARGET_DIR}'" >&2
         exit 1
     }
 fi
@@ -141,7 +141,7 @@ if ! [ -d "${SETUP_FILES}" ]; then
 fi
 
 cd "${SETUP_FILES}" || {
-    echo "ERROR: Could not change directory to '${SETUP_FILES}'"
+    echo "ERROR: Could not change directory to '${SETUP_FILES}'" >&2
     exit 1
 }
 
@@ -644,7 +644,7 @@ SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
 cd \${SELF_DIR} || exit 1
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
 cd \$HOME || {
-    echo "ERROR: Could not change directory..."
+    echo "ERROR: Could not change directory..." >&2
     exit 1
 }
 exec "\${SELF_DIR}/usr/bin/pwmangclient" "\$@"
@@ -774,9 +774,9 @@ if ! [ -f "$INSTALL_DIR/pwmangclient-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
 
-PWMANGCLIENT_DIR="\$(dirname "\$0")"/games
+PWMANGCLIENT_DIR="\$(dirname "\$(readlink -f "\$0")")"/games
 cd \$HOME || {
-    echo "ERROR: Could not change directory..."
+    echo "ERROR: Could not change directory..." >&2
     exit 1
 }
 exec "\$PWMANGCLIENT_DIR/pwmangclient" "\$@"
@@ -789,8 +789,10 @@ fi
 if ! [ -f "$INSTALL_DIR/pwmangband-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangband-launcher.sh << EOF
 #!/bin/sh
-cd "\$(dirname "\$0")"/games || {
-    echo "ERROR: Could not change directory..."
+
+PWMANGBAND_DIR="\$(dirname "\$(readlink -f "\$0")")"/games
+cd "\${PWMANGBAND_DIR}" || {
+    echo "ERROR: Could not change directory..." >&2
     exit 1
 }
 exec ./pwmangband
@@ -844,7 +846,7 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE"
 cd ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} || exit 1
 
 if ! [ -d "$INSTALL_DIR" ]; then
-    echo "ERROR: directory not found '$INSTALL_DIR'"
+    echo "ERROR: directory not found '$INSTALL_DIR'" >&2
     exit 1
 fi
 
