@@ -93,25 +93,29 @@ CHECKLIST_UPDATE_UNPACK_PWMANGBAND=ON
 
 ###################################
 
-if (command -v whiptail >/dev/null)
-then
-  DIALOG=${DIALOG=whiptail}
-else
-  if (command -v dialog >/dev/null)
-  then
-    DIALOG=${DIALOG=dialog}
-  else
-    echo "Please install 'whiptail' or 'dialog' to run setup..."
-    exit 1
+DIALOG_MENU=ON
+
+#DIALOG="whiptail"
+#DIALOG="dialog"
+
+###################################
+
+if [ "${DIALOG_MENU}" = "ON" ]; then
+  if [ -z "${DIALOG}" ]; then
+    if (command -v whiptail >/dev/null)
+    then
+      DIALOG=${DIALOG=whiptail}
+    else
+      if (command -v dialog >/dev/null)
+      then
+        DIALOG=${DIALOG=dialog}
+      else
+        echo "Please install 'whiptail' or 'dialog' to run setup..."
+        exit 1
+      fi
+    fi
   fi
 fi
-
-###################################
-
-#DIALOG=whiptail
-#DIALOG=dialog
-
-###################################
 
 if ! command -V wget &> /dev/null ; then
     echo "'wget' is required for running the installer, but could not be found."
@@ -374,7 +378,7 @@ else
         echo "${SETUP_FILES}   empty directory..."
         exit 0
     fi
-    if ! [ -d "$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 || exit 1)" ]; then
+    if ! [ -d "$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1)" ]; then
         VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.zip*//")
         echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
     else
@@ -404,7 +408,7 @@ else
         echo "${SETUP_FILES}   empty directory..."
         exit 0
     fi
-    if ! [ -d "$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 || exit 1)" ]; then
+    if ! [ -d "$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1)" ]; then
         VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.zip*//")
         echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
     else
@@ -447,7 +451,7 @@ META_PORT=$(sed -n '/meta_port=/p' "$PATH_INI_PWMANGRC")
 DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' "$PATH_INI_PWMANGRC")
 LIGHTERBLUE=$(sed -n '/LighterBlue=/p' "$PATH_INI_PWMANGRC")
 INTROMUSIC=$(sed -n '/IntroMusic=/p' "$PATH_INI_PWMANGRC")
-cat > $WRITE_FILE_PWMANGRC << EOF
+cat > "$WRITE_FILE_PWMANGRC" << EOF
 [MAngband]
 $NICK
 $PASS
@@ -641,7 +645,10 @@ cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
 SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
-cd \${SELF_DIR} || exit 1
+cd \${SELF_DIR} || {
+    echo "ERROR: Could not change directory..." >&2
+    exit 1
+}
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
 cd \$HOME || {
     echo "ERROR: Could not change directory..." >&2
@@ -657,14 +664,18 @@ cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
 SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
-cd \${SELF_DIR} || exit 1
+cd \${SELF_DIR} || {
+    echo "ERROR: Could not change directory..." >&2
+    exit 1
+}
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
-
 if ! [ -f "\$HOME/.pwmangrc" ]; then
-cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
+    cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
 fi
-
-cd ./usr/bin || exit 1
+cd ./usr/bin || {
+    echo "ERROR: Could not change directory..." >&2
+    exit 1
+}
 
 set -ex
 
@@ -678,19 +689,22 @@ cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
 SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
-cd \${SELF_DIR} || exit 1
+cd \${SELF_DIR} || {
+    echo "ERROR: Could not change directory..." >&2
+    exit 1
+}
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
-
 if ! [ -f "\$HOME/.pwmangrc" ]; then
-cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
+    cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
 fi
-
 if ! [ -f "\$HOME/.pwmangband/Tangaria/sdlinit.txt" ]; then
-mkdir -p \$HOME/.pwmangband/Tangaria
-cp -f ./usr/$NAME_ROGUELIKE/games/sdlinit.txt \$HOME/.pwmangband/Tangaria/
+    mkdir -p \$HOME/.pwmangband/Tangaria
+    cp -f ./usr/$NAME_ROGUELIKE/games/sdlinit.txt \$HOME/.pwmangband/Tangaria/
 fi
-
-cd ./usr/bin || exit 1
+cd ./usr/bin || {
+    echo "ERROR: Could not change directory..." >&2
+    exit 1
+}
 
 set -ex
 
@@ -714,7 +728,7 @@ exit 0
 do_install() {
 clear
 if [ "$CHECKLIST_OPTIONS_APPIMAGE" = "ON" ]; then
-build_AppImage
+    build_AppImage
 fi
 
 if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
@@ -774,7 +788,7 @@ if ! [ -f "$INSTALL_DIR/pwmangclient-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangclient-launcher.sh << EOF
 #!/bin/sh
 
-PWMANGCLIENT_DIR="\$(dirname "\$(readlink -f "\$0")")"/games
+PWMANGCLIENT_DIR="\$(dirname "\$(readlink -f "\$0")")/games"
 cd \$HOME || {
     echo "ERROR: Could not change directory..." >&2
     exit 1
@@ -790,8 +804,8 @@ if ! [ -f "$INSTALL_DIR/pwmangband-launcher.sh" ]; then
 cat > $INSTALL_DIR/pwmangband-launcher.sh << EOF
 #!/bin/sh
 
-PWMANGBAND_DIR="\$(dirname "\$(readlink -f "\$0")")"/games
-cd "\${PWMANGBAND_DIR}" || {
+PWMANGBAND_DIR="\$(dirname "\$(readlink -f "\$0")")/games"
+cd "\$PWMANGBAND_DIR" || {
     echo "ERROR: Could not change directory..." >&2
     exit 1
 }
@@ -920,6 +934,10 @@ echo "                "
 fi
 exit 0
 }
+
+if [ "${DIALOG_MENU}" = "OFF" ]; then
+    do_install
+fi
 
 ###################################
 
