@@ -193,6 +193,7 @@ alloc:70:10 to 100
 attack:1d1:0:0
 armor:0:0
 flags:TAKES_FUEL | LIGHT_3 | IGNORE_FIRE
+values:STEALTH[-1]
 desc:A brass container with a wick emerging from it, protected from draughts by
 desc: a sheet of greased paper. It can be carried by a handle.
 
@@ -260,12 +261,12 @@ name:& Apple~
 graphics:,:I
 type:food
 level:0
-weight:4
+weight:3
 cost:0
 alloc:3:1 to 20
-pile:10:1d2
+pile:5:1d2
 effect:NOURISH:INC_BY
-dice:10
+dice:7
 msg_self:That tastes good.
 desc:Wrinkled, but sound and sweet.
 
@@ -273,11 +274,11 @@ name:& Handful~ of Dried Fruits
 graphics:,:u
 type:food
 level:0
-weight:3
+weight:2
 cost:0
 alloc:3:1 to 50
 effect:NOURISH:INC_BY
-dice:10
+dice:7
 msg_self:That tastes good.
 desc:Fruit roughly chopped and sun-dried, prepared as marching rations for the
 desc: rangers of Ithilien.
@@ -289,7 +290,7 @@ level:5
 weight:2
 cost:0
 alloc:3:5 to 60
-pile:100:1d3
+pile:100:1d2
 effect:NOURISH:INC_BY
 dice:25
 msg_self:That tastes better than nothing.
@@ -339,12 +340,12 @@ name:& Slice~ of Meat
 graphics:,:W
 type:food
 level:10
-weight:10
+weight:5
 cost:0
 alloc:3:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
-dice:34
+dice:25
 msg_self:That tastes porky. Nice!
 desc:Salted slice of pork.
 
@@ -352,12 +353,12 @@ name:& Strip~ of Beef Jerky
 graphics:,:W
 type:food
 level:10
-weight:10
+weight:7
 cost:0
 alloc:3:10 to 50
 pile:50:1d3
 effect:NOURISH:INC_BY
-dice:40
+dice:30
 msg_self:That tastes good.
 desc:A thick slice of beef, salted to keep it from spoiling. It is very
 desc: filling.
@@ -366,12 +367,12 @@ name:& Honey-cake~
 graphics:,:i
 type:food
 level:20
-weight:10
+weight:7
 cost:0
 alloc:3:20 to 70
 pile:40:1d3
-effect:NOURISH:INC_TO
-dice:60
+effect:NOURISH:INC_BY
+dice:30
 msg_self:Delicious!
 desc:The Beornings are renowned as the best bakers among men, and their
 desc: honey-cakes are deservedly prized. Made of wheat flour with nuts and
@@ -383,13 +384,13 @@ type:food
 level:30
 weight:3
 cost:0
-alloc:10:30 to 100
+alloc:5:30 to 100
 pile:10:1d2
 effect:CURE:POISONED
 effect:HEAL_HP
 dice:20
-effect:NOURISH:INC_TO
-dice:75
+effect:NOURISH:INC_BY
+dice:40
 msg_self:That tastes great.
 desc:Food of the elves is always good; their waybread is no exception. These
 desc: thin cakes are wrapped in leaves and keep their tastiness for months.
@@ -413,10 +414,10 @@ effect:TIMED_INC:POISONED
 dice:8+1d8
 effect:TIMED_INC:SLOW
 dice:11+1d11
-effect:RANDOM
-dice:6
 effect:NOURISH:INC_BY
 dice:1
+effect:RANDOM
+dice:7
 effect:TIMED_INC:CONFUSED
 dice:8+1d8
 effect:TIMED_INC:BOLD
@@ -434,7 +435,7 @@ graphics:,:v
 type:food
 level:0
 weight:10
-cost:100
+cost:300
 alloc:10:0 to 50
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d8
@@ -451,7 +452,7 @@ dice:1+1d8
 effect:RANDOM
 dice:6
 effect:NOURISH:INC_BY
-dice:3
+dice:2
 effect:TIMED_INC:CONFUSED
 dice:1+1d8
 effect:TIMED_INC:BOLD
@@ -503,8 +504,8 @@ alloc:3:60 to 100
 effect:GAIN_STAT:CON
 effect:RESTORE_STAT:CON
 effect:RESTORE_STAT:STR
-effect:NOURISH:INC_TO
-dice:45
+effect:NOURISH:INC_BY
+dice:20
 msg_self:Refreshing!
 desc:This looks like pure water, but its scent reminds you of the smell of a
 desc: distant wood borne from afar by a cool breeze at night.
@@ -3052,7 +3053,7 @@ type:scroll
 level:5
 weight:5
 cost:0
-alloc:40:20 to 100
+alloc:20:20 to 100
 pile:100:1d1
 effect:NOURISH:INC_TO
 dice:50
@@ -5904,7 +5905,7 @@ graphics:,:Y
 type:food
 level:0
 weight:5
-cost:50
+cost:150
 alloc:10:0 to 50
 effect:TIMED_INC_NO_RES:PARALYZED
 dice:1+1d4
@@ -5921,7 +5922,7 @@ dice:1+1d11
 effect:RANDOM
 dice:6
 effect:NOURISH:INC_BY
-dice:2
+dice:1
 effect:TIMED_INC:CONFUSED
 dice:1+1d8
 effect:TIMED_INC:BOLD
@@ -6140,7 +6141,7 @@ pile:70:1d3
 #hardcoded
 effect:HEAL_HP
 dice:1
-msg_self:You feel less thirsty.
+msg_self:You feel less thirsty. Could be especially useful if hungry.
 
 
 ##### PWMAngband objects #####
@@ -6155,6 +6156,7 @@ alloc:20:20 to 100
 attack:1d1:0:0
 armor:0:0
 flags:TAKES_FUEL | LIGHT_4 | IGNORE_FIRE
+values:STEALTH[-2]
 desc:A brass container, larger than a lantern, with a wick emerging from it,
 desc: protected from draughts by a sheet of greased paper. It can be carried by
 desc: a handle.
@@ -6498,6 +6500,7 @@ alloc:70:1 to 10
 flags:BURNS_OUT | LIGHT_3
 attack:3d3:0:0
 flags:EXPLODE
+values:STEALTH[-1]
 desc:An old glass light source with a crackling emerging from it.
 desc:It can be carried by a handle. You don't think it can be refilled.
 desc:It looks like good idea to throw it and burn your enemies!
@@ -6708,6 +6711,7 @@ weight:70
 cost:0
 attack:1d3:0:0
 flags:BURNS_OUT | LIGHT_3 | IGNORE_FIRE
+values:STEALTH[-1]
 desc:A tiny brass light source with a soft emerging from it,
 desc: protected from draughts by a sheet of dirty paper. It can be carried by
 desc: a handle. It looks so old that you don't think it can be refilled.
@@ -9250,10 +9254,10 @@ name:& Cram Bread~
 graphics:,:U
 type:food
 level:0
-weight:6
+weight:5
 cost:0
 effect:NOURISH:INC_BY
-dice:27
+dice:20
 msg_self:That tastes... crunchy.
 desc:Nutritious dry pancakes-biscuits which provide sustenance
 desc: on long journeys. It's made from tightly pressed flour.
@@ -9264,7 +9268,7 @@ name:Petty-dwarf roots
 graphics:,:U
 type:food
 level:1
-weight:4
+weight:3
 cost:0
 effect:NOURISH:INC_BY
 dice:14
@@ -9276,10 +9280,10 @@ name:Salted Pork from Isengard
 graphics:,:U
 type:food
 level:1
-weight:5
+weight:3
 cost:0
 effect:NOURISH:INC_BY
-dice:38
+dice:15
 msg_self:That tastes particularly good.
 desc:The salted pork is particularly good.
 
@@ -9321,7 +9325,7 @@ name:& Cold chicken~
 graphics:,:U
 type:food
 level:1
-weight:6
+weight:4
 cost:0
 effect:NOURISH:INC_BY
 dice:19
@@ -9342,7 +9346,7 @@ cost:0
 effect:NOURISH:DEC_BY
 dice:7+1d2
 effect:NOURISH:INC_BY
-dice:7
+dice:5
 effect:NOURISH:INC_BY
 dice:8
 effect:NOURISH:INC_BY
@@ -9372,10 +9376,10 @@ name:One Ring Cake~
 graphics:,:U
 type:food
 level:1
-weight:12
+weight:6
 cost:0
 effect:NOURISH:INC_BY
-dice:42
+dice:32
 msg_self:It is mine, I tell you. My own. My precious. Yes, my precious..
 desc:Deliciousssssss!.. You don't want to share this cake with anyone,
 desc: but eat it by yourself somewhere in the corner...
