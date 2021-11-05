@@ -83,6 +83,10 @@
 
 # MOVES works: +10 moves is like +10 speed, but movement only
 
+# Note: currently in p_race.txt only one entry of the same resistance
+# element is allowed; meaning that it's possible to assign 
+# an element to a race or class only once. So we hardcode such cases.
+
 # can't fly:
 #Ent
 #Hydra
@@ -493,41 +497,40 @@ obj-flag:0:IMPAIR_HP
 # _ when staying in the water - feeding?
 # 'y' grow tree?
 
-#got hardcoded full ESP with expanding radius
 name:Thunderlord
 skill-disarm-phys:-6
 skill-disarm-magic:-6
 skill-device:-20
-skill-save:10
+skill-save:-8
 skill-stealth:-13
 skill-search:-10
 skill-melee:15
 skill-shoot:5
 skill-dig:-10
 hitdie:12
-# -10%
-exp:180:115
+# -15%
+exp:180:110
 history:89
 age:14:6
 height:170:20
 weight:240:60
-obj-flag:25:FEATHER
 obj-flag:5:ESP_DRAGON
 gift:food:Hard Biscuit:1:1
-# 6 2 1 1 3
-value:0:STR[-6+1d4]
-value:0:INT[0+1d24]
-value:0:WIS[0+1d30]
-value:0:DEX[-6+1d7]
+# 4 0 0 0 3
+value:0:STR[-6+1d5]
+value:0:INT[-1+1d30]
+value:0:WIS[-1+1d30]
+value:0:DEX[-7+1d7]
 value:0:CON[-6+1d4]
-value:0:CHR[-2]
-value:10:RES_FIRE[1]
-value:20:RES_COLD[1]
-value:30:RES_ACID[1]
-value:40:RES_ELEC[1]
+value:0:CHR[-4]
 value:0:TUNNEL[-1+-1d15]
-player-flags:0:THUNDERLORD
-slay:1:50:ORC_3
+#got eagle :)
+obj-flag:1:AGGRAVATE
+obj-flag:1:HUNGER
+
+#hardcoded full ESP with expanding radius
+############## player-flags:0:THUNDERLORD - rename to ESP_RADIUS
+
 value:0:MANA[4+-1d6M25]
 
 #dragon got 1/2 bonuses from dragons which form they take
@@ -650,15 +653,15 @@ obj-flag:1:ESP_EVIL
 
 #immortal human, highlander-like
 name:Damned
-skill-disarm-phys:-5
-skill-disarm-magic:-5
-skill-device:-5
-skill-save:20
-skill-stealth:-1
+skill-disarm-phys:5
+skill-disarm-magic:5
+skill-device:5
+skill-save:10
+skill-stealth:1
 skill-search:10
-skill-melee:-5
-skill-shoot:-5
-skill-dig:-1
+skill-melee:5
+skill-shoot:0
+skill-dig:1
 hitdie:10
 # +10%
 exp:100:135
@@ -667,15 +670,19 @@ age:11:4
 height:69:5
 weight:165:23
 gift:food:Apple:1:1
-value:0:STR[-1+-1d27]
-value:0:INT[-1+-1d27]
-value:0:WIS[-1+-1d27]
-value:0:DEX[-1+-1d27]
+value:0:STR[0+1d24]
+value:0:INT[0+1d27]
+value:0:WIS[0+1d27]
+value:0:DEX[0+1d24]
 value:0:CON[0]
 value:0:CHR[1+1d27]
 value:0:RES_TIME[1]
+obj-flag:0:PROT_FEAR
 player-flags:0:RACE_REGEN
 obj-flag:25:HOLD_LIFE
+# hunted by gods... rethink boni:
+# - chance to survive fatal blow?
+# - give expanded esp?
 
 name:Merfolk
 skill-disarm-phys:-2
@@ -703,8 +710,8 @@ value:0:DEX[-1+1d24]
 value:0:CON[-3+1d24]
 value:0:CHR[-1]
 value:0:INFRA[1+1d7]
-value:0:RES_WATER[1]
-value:50:RES_WATER[3]
+#value:0:RES_WATER[1]
+#value:50:RES_WATER[3] hardcoded
 value:0:TUNNEL[-1+-1d15]
 # make fast regen only in water
 obj-flag:1:REGEN
@@ -901,6 +908,7 @@ value:0:CHR[-7]
 value:0:INFRA[1+1d10]
 obj-flag:1:SUST_STR
 obj-flag:1:SUST_INT
+obj-flag:1:REGEN
 player-flags:0:RACE_REGEN
 obj-flag:1:HUNGER
 value:0:MOVES[-1+-1d5]
@@ -911,6 +919,7 @@ value:0:RES_LIGHT[-1]
 value:0:DAM_RED[1+1d5]
 player-flags:0:TROLL
 obj-flag:1:CANT_FLY
+# no feelings (monster/object)
 
 name:Orc
 skill-disarm-phys:-8
@@ -1027,7 +1036,7 @@ age:14:6
 height:69:5
 weight:165:23
 gift:mushroom:Clear Mind:1:1
-#2 -3 -3 1 2 -8 // 'night' bonuses + regen hp
+#2 -3 -3 1 2 -8
 value:0:STR[0]
 value:0:INT[0]
 value:0:WIS[0]
@@ -1039,10 +1048,11 @@ player-flags:0:RACE_REGEN
 obj-flag:1:HUNGER
 obj-flag:20:ESP_ANIMAL
 value:0:RES_LIGHT[-1]
-brand:15:49:CUT_1
-brand:50:50:CUT_2
 value:0:MANA[3+-1d15]
 player-flags:0:ANIMAL
+#/// 'night' bonuses + regen hp.. but howls
+#/// hardcoded CUT_1 (15) & CUT_2 (50) at night
+#value:50:RES_DARK[++] at night
 #player-flags:0:SHAPECHANGE
 #shape:1:jackal_
 #shape:10:wolf_
@@ -1083,9 +1093,9 @@ obj-flag:5:HOLD_LIFE
 obj-flag:1:IMPAIR_HP
 value:0:RES_POIS[1]
 value:0:RES_LIGHT[-1]
-value:0:RES_NETHER[1]
-value:50:RES_NETHER[3]
-value:0:MOVES[0+-1d5]
+#value:0:RES_NETHER[1]
+#value:50:RES_NETHER[++] hardcoded
+value:0:MOVES[-1]
 
 name:Vampire
 skill-disarm-phys:-2
@@ -1264,7 +1274,8 @@ value:0:DEX[-6+1d6]
 value:0:CON[3]
 value:0:CHR[-10+1d25]
 value:0:INFRA[5]
-value:0:RES_FIRE[1]
+#value:0:RES_FIRE[1]
+#value:35:RES_FIRE[3] hardcoded
 value:0:RES_COLD[-1]
 value:0:RES_LIGHT[-1]
 # no fear prot.. it run away from G after all
@@ -1274,7 +1285,6 @@ value:15:RES_DARK[1]
 obj-flag:20:SEE_INVIS
 obj-flag:25:HOLD_LIFE
 value:35:LIGHT[1]
-value:35:RES_FIRE[3]
 obj-flag:40:FEATHER
 value:45:RES_CHAOS[1]
 brand:1:50:FIRE_2
@@ -1361,16 +1371,14 @@ value:0:WIS[0]
 value:0:DEX[-1+1d24]
 value:50:CON[-1]
 value:0:CHR[-1+1d24]
-# atm -1 still works.. only 3 will disable it. change?
-# add [2] - resist a lot
-value:24:RES_DARK[1]
-value:24:RES_LIGHT[1]
-value:0:RES_LIGHT[-1]
-value:0:RES_DARK[-1]
+#value:35:RES_DARK[2]
+#value:35:RES_LIGHT[2]
+#value:0:RES_LIGHT[-1]
+#value:0:RES_DARK[-1] hardcoded: -- 35++ 50++
 obj-flag:1:ESP_DEMON
-slay:1:39:DEMON_3
-slay:40:50:DEMON_5
-obj-flag:50:HUNGER
+slay:35:49:DEMON_3
+slay:49:50:DEMON_5
+obj-flag:1:HUNGER
 #+vs angels
 
 name:Gargoyle
@@ -1403,8 +1411,8 @@ obj-flag:25:SUST_WIS
 obj-flag:35:SUST_DEX
 obj-flag:45:SUST_CON
 value:0:INFRA[1+1d9]
-value:0:SPEED[-1+-1d5]
-value:0:MOVES[1+1d5]
+value:0:SPEED[-1+-1d24]
+value:0:MOVES[1+1d24]
 value:0:RES_ACID[-1]
 value:0:RES_POIS[1]
 value:20:RES_FIRE[1]
@@ -1412,9 +1420,8 @@ value:40:RES_ELEC[1]
 value:50:RES_SHARD[1]
 obj-flag:10:FEATHER
 value:0:MANA[10+-1d5]
-# replace with % dam red
-value:0:DAM_RED[1+1d2]
-obj-flag:50:SLOW_DIGEST
+# + lev AC hardcoded
+obj-flag:0:SLOW_DIGEST
 # more casting flags... sleepery fingers?
 
 name:Golem
@@ -1450,7 +1457,7 @@ obj-flag:1:IMPAIR_HP
 value:0:DAM_RED[0+1d4]
 value:0:RES_ELEC[-1]
 value:0:MANA[10+-1d5]
-# reflection
+# rfe reflection
 obj-flag:1:CANT_FLY
 
 name:Pixie
@@ -1532,6 +1539,10 @@ shape:40:ancient dracon
 shape:50:great dracon
 slay:50:50:GIANT_3
 #temp
+value:10:RES_FIRE[1]
+value:20:RES_COLD[1]
+value:30:RES_ACID[1]
+value:40:RES_ELEC[1]
 value:0:SPEED[1]
 value:0:MOVES[-1]
 value:0:MANA[4+-1d6M25]
@@ -1662,29 +1673,17 @@ brand:30:39:COLD_2
 brand:40:49:FIRE_2
 brand:50:50:ACID_2
 ###########
-value:0:RES_ELEC[-1]
-#
-value:20:RES_ELEC[3]
-value:20:RES_COLD[-1]
-#
-value:30:RES_COLD[3]
-value:30:RES_FIRE[-1]
-#
-value:40:RES_FIRE[3]
-value:40:RES_ACID[-1]
-#
-value:50:RES_ACID[3]
-#
-# imm broken for now due bug..
+#value:0:RES_ELEC[-1]
+#value:20:RES_ELEC[++]
+#value:20:RES_COLD[-1]
+#value:30:RES_COLD[++]
+#value:30:RES_FIRE[--]
+#value:40:RES_FIRE[++]
+#value:40:RES_ACID[--]
+#value:50:RES_ACID[++] hardcoded
 #############
-value:0:STEALTH[-1+-1d9]
-value:35:SPEED[-1+-1d3]
-value:35:DAM_RED[-1+-1d4]
-value:0:MOVES[-1+-10d48]
-obj-flag:1:IMPAIR_HP
-value:0:MANA[6+-1d10]
-#temp
-value:0:BLOWS[1+-1d30]
+value:0:STEALTH[-1+-1d8]
+value:0:MANA[5+-1d10]
 
 name:Frostmen
 skill-disarm-phys:-15
@@ -1710,12 +1709,12 @@ value:0:DEX[-2]
 value:0:CON[3]
 value:0:CHR[-5]
 value:25:INFRA[1]
-value:0:RES_FIRE[1]
-value:0:RES_FIRE[-1]
-value:0:RES_COLD[1]
-value:25:RES_ICE[1]
-brand:1:50:COLD_2
-slay:25:50:TROLL_3
+#value:35:RES_FIRE[1]
+#value:0:RES_FIRE[-1]
+#value:0:RES_COLD[1]
+#value:35:RES_COLD[2] hardcoded
+brand:45:50:COLD_2
+slay:32:50:TROLL_3
 value:0:MANA[3+-1d15]
 obj-flag:25:ESP_UNDEAD
 
@@ -1779,8 +1778,8 @@ value:0:CON[-2]
 value:0:CHR[-9]
 value:0:INFRA[1+1d6]
 brand:15:50:POIS_2
-# value:0:RES_POIS[1] bugged order.. so leaving imminity only for now
-value:0:RES_POIS[3]
+# value:0:RES_POIS[1]
+#value:30:RES_POIS[3] hardcoded
 value:0:MANA[4+-1d12]
 value:0:DAM_RED[-1+-1d5]
 value:0:RES_LIGHT[-1]
@@ -1815,8 +1814,7 @@ skill-melee:0
 skill-shoot:0
 skill-dig:0
 hitdie:10
-# -10%
-exp:100:115
+exp:100:125
 history:100
 age:10:4
 height:170:20
@@ -1852,6 +1850,8 @@ slay:25:50:DEMON_3
 player-flags:0:NO_BOOTS
 obj-flag:1:IMPAIR_HP
 obj-flag:1:IMPAIR_MANA
+# hardcoded: no feelings (monster/object).
+# rethink...
 
 name:Harpy
 skill-disarm-phys:-4
@@ -1906,7 +1906,7 @@ gift:potion:Cure Serious Wounds:1:1
 obj-flag:1:SUST_STR
 obj-flag:1:SUST_CON
 # 4 -4 -2 1 3
-value:0:STR[-2+1d8]
+value:0:STR[1+1d15]
 value:0:INT[-4]
 value:0:WIS[-2]
 # becoming hasty...
@@ -1918,10 +1918,9 @@ obj-flag:1:PROT_CONF
 obj-flag:1:PROT_STUN
 value:0:STEALTH[-4+-1d10]
 value:0:SPEED[1]
-value:0:DAM_RED[-1+-1d7]
-value:0:MOVES[-1+-1d7]
 obj-flag:1:IMPAIR_HP
 value:0:MANA[4+-1d6M25]
+# AGGRAVATE 3 range hardcoded
 
 name:Troglodyte
 skill-disarm-phys:-10
@@ -2073,14 +2072,15 @@ age:63:7
 height:35:2
 weight:5:1
 gift:scroll:Light:6:12
-# -7 3 -1 -2 -1
-value:0:STR[-5+-1d24]
+# -5 3 -1 -2 -1
+value:0:STR[-3+-1d24]
 value:0:INT[-1+1d12]
 value:0:WIS[-3+1d24]
 value:0:DEX[-2]
 value:0:CON[-1]
 value:0:CHR[-3]
 value:0:LIGHT[1+1d24]
+# make ESP increasing by radius?
 obj-flag:30:ESP_EVIL
 player-flags:0:BLESS_WEAPON
 obj-flag:1:FEATHER
@@ -2088,15 +2088,14 @@ obj-flag:1:FREE_ACT
 obj-flag:1:SLOW_DIGEST
 obj-flag:50:SLOW_DIGEST_2
 value:0:RES_POIS[1]
-value:0:RES_LIGHT[1]
-value:35:RES_LIGHT[3]
-# op? [3] doesn't work atm though..
+#value:0:RES_LIGHT[1]
+#value:35:RES_LIGHT[++] hardcoded
 value:50:RES_MANA[1]
 # -
 value:0:DAM_RED[0+-1d5]
 value:0:SPEED[1+-1d40]
 value:0:RES_DARK[-1]
-value:0:MOVES[0+-1d1M30]
+value:0:MOVES[0+-1d1M25]
 value:0:MANA[10+-1d5]
 #value:0:BLOWS[1]
 #value:0:SHOTS[1]
@@ -2105,7 +2104,7 @@ name:Imp
 skill-disarm-phys:7
 skill-disarm-magic:5
 skill-device:4
-skill-save:5
+skill-save:20
 skill-stealth:2
 skill-search:10
 skill-melee:-7
@@ -2127,11 +2126,14 @@ value:0:CON[0]
 value:0:CHR[-8]
 value:0:SPEED[1+1d15]
 value:0:MOVES[1+1d5]
-value:15:RES_FIRE[1]
-value:30:RES_FIRE[3]
+#value:15:RES_FIRE[1]
+#value:30:RES_FIRE[2]
+#value:40:RES_FIRE[3] hardcoded
 value:0:RES_COLD[-1]
 obj-flag:0:IMPAIR_MANA
-value:0:MANA[8+-1d5]
+# can teleport around from time to time
+player-flags:0:STEALTH_MODE
+value:0:MANA[8+-1d6]
 
 name:Wraith
 skill-disarm-phys:-50
@@ -2204,8 +2206,8 @@ age:50:8
 height:47:4
 weight:60:12
 gift:mushroom:Stoneskin:1:1
-#-5 3 -2 -3 -2
-value:0:STR[-5]
+#0 3 -2 -3 -2
+value:0:STR[-5+1d10]
 value:0:INT[-2+1d10]
 value:0:WIS[-2]
 value:0:DEX[-3]
@@ -2219,11 +2221,10 @@ obj-flag:1:ESP_ALL
 obj-flag:1:PROT_AMNESIA
 value:0:SPEED[1]
 value:0:DAM_RED[0+-1d4]
-value:0:BLOWS[-1]
-value:0:SHOTS[-1]
-value:0:MANA[8+-1d5]
+value:0:MANA[8+-1d6]
 value:0:RES_LIGHT[-1]
 value:0:MOVES[-5+-1d9]
+# hardcoded: hallucinating
 player-flags:0:SHAPECHANGE
 shape:1:floating eye'
 shape:10:disenchanter eye'
@@ -2235,7 +2236,10 @@ shape:40:observer'
 #nadsmotrshik
 shape:50:overseer'
 #+ mind flayer @ 50
-#+hallucinating (effect decreases with increased int,wis)
+
+
+# slay:1:50:ORC_3 .. dunedains?
+#obj-flag:1:HUNGER_2
 
 #player-flags:0:FAST_THROW
 

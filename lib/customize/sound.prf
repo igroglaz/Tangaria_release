@@ -452,6 +452,12 @@ sound:mon_moan:mco_strange_music
 # Attack - hypnotize
 sound:mon_hypnotize:hypnotize
 
+# Attack - swallow (only for EAT_FOOD and FAMINE!)
+sound:mon_swallow:mon_swallow
+
+# Attack - devour (only for EAT_LIGHT!)
+sound:mon_devour:mon_devour
+
 # Attack - shriek
 sound:mon_shriek:mco_mouse_squeaks
 
@@ -604,3 +610,17 @@ sound:resist:resist
 sound:resist_somewhat:resist
 
 sound:spell_fail:spell_fail
+
+sound:werewolf_howl:werewolf_howl
+
+sound:imp_giggles:imp_giggles
+
+sound:terrain_slip:terrain_slip
+
+sound:tunnel_wall:dig1 dig2 dig3 dig4 dig5 dig6
+
+sound:chop_tree:chop1 chop2 chop3 chop4 chop5 chop6
+
+sound:chop_tree_fall:chop_tree_fall
+
+# leave empty line for EOF

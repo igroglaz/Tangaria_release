@@ -814,7 +814,7 @@ object:food:Scrap of Flesh:0x82:0xA3
 object:food:Slice of Meat:0x82:0xA4
 object:food:Strip of Beef Jerky:0x82:0xA4
 object:food:Honey-cake:0x82:0xA5
-object:food:Piece of Elvish Waybread:0x82:0xA6
+object:food:Lembas:0x82:0xA6
 object:food:Flask of Whisky:0x82:0xA7
 object:food:Pint of Fine Wine:0x82:0xA8
 object:food:Sip of Miruvor:0x82:0xA9
@@ -1030,8 +1030,8 @@ object:scroll:Mass Banishment:0x87:0xEA
 
 ### Utility ###
 
-object:scroll:Remove Hunger:0x87:0xE7
-object:scroll:Identify Rune:0x87:0xCE
+object:scroll:Satisfy Hunger:0x87:0xE7
+object:scroll:Identify:0x87:0xCE
 object:scroll:Light:0x87:0xD4
 object:scroll:Word of Recall:0x87:0xE0
 object:scroll:Recharging:0x87:0xDC
@@ -1174,6 +1174,12 @@ object:light:Arkenstone:0x87:0xB6
 
 # The Palantir of Westernesse
 object:light:Palantir:0x87:0xB6
+
+# 'Nimphelos' (light, white pearl)
+object:light:Pearl:0x88:0xC9
+
+# Stone of Lore (light, green sphere)
+object:light:Stone:0x88:0xCA
 
 # Stormbringer (sword)
 object:sword:'Stormbringer':0x8A:0xC3
@@ -1557,6 +1563,7 @@ monster:Spotted jelly:0x8F:0x90
 monster:Mosquito Marshes spotted jelly:0x8F:0x90
 monster:The wounded bear:0x93:0xA1
 monster:eagle:0x93:0xAA
+monster:tamed eagle:0x93:0xAA
 monster:Baby chaos drake:0x8C:0xCF
 monster:Baby law drake:0xA0:0xA2
 monster:giant gnat:0x9C:0xEE
@@ -1686,6 +1693,7 @@ monster:Old Forest ranger:0x8B:0xF6
 monster:Paladin:0x8B:0xF7
 monster:Lizard king:0x8F:0xC1
 monster:great eagle:0x93:0xAB
+monster:tamed great eagle:0x93:0xAB
 monster:Livingstone:0xBB:0x81
 monster:Elite uruk:0x8D:0xDE
 monster:The Icky Queen:0x8E:0xE2
@@ -1826,7 +1834,7 @@ monster:Young white dragon:0x8C:0x8A
 monster:Young green dragon:0x8C:0x8B
 monster:Stairway to hell:0xA0:0x8D
 monster:Stairway to heaven:0xA0:0x8E
-monster:green elf archer:0x8B:0xAA
+monster:green elf archer:0x9B:0xE9
 monster:Giant black scorpion:0x92:0xCD
 monster:Purple worm:0x91:0x98
 monster:Catoblepas:0x93:0x9B
@@ -2022,6 +2030,7 @@ monster:Enchantress:0x8B:0xF4
 monster:Sorcerer:0x8B:0xF9
 monster:Xaren:0x92:0xA3
 monster:Giant roc:0x91:0x8C
+monster:tamed giant eagle:0x91:0x8C
 monster:Magery Peninsula giant roc:0x91:0x8C
 #monster:Uvatha the Horseman:0x95:0xA7
 monster:Uvatha the Horseman:0x94:0xD0
@@ -2403,6 +2412,7 @@ monster:Melkor, Lord of Darkness:0xA0:0xC2
 monster:Eru Iluvatar:0xA0:0xFC
 
 #monster:Arch-vile:0x8D:0xAD
+#monster:Ghost female tile - for new ghost boss:0xA0:0xFA
 
 
 ##### Tangaria objects #####
@@ -21201,7 +21211,7 @@ feat:FD double Z:dark:0xFD:0xFD
 feat:FD double ~:dark:0xFD:0xFE
 feat:FD double `:dark:0xFD:0xFF
 
-################ NEW ADDITIONS 2019
+################ NEW ADDITIONS 2019+ Tangaria
 
 object:arrow:Old Arrow:0x8A:0xB1
 
@@ -21214,12 +21224,29 @@ object:food:Cursed Jar:0x8A:0xED
 object:food:Sprig of Athelas:0x9A:0x83
 
 object:light:Rusty Lantern:0x87:0x99
-object:scroll:Remove Hunger (tattered):0x87:0xE7
+object:scroll:Satisfy Hunger (tattered):0x87:0xE7
 object:scroll:Word of Recall (rugged):0x87:0xE0
 
 trap:hunger trap:*:0x9F:0x86
 trap:squeaky board:*:0x9F:0xA3
 trap:beauty:*:0x9A:0xB7
+
+object:food:Cram Bread:0x82:0x86
+object:food:Petty-dwarf roots:0x9F:0xDC
+object:food:Salted Pork from Isengard:0x82:0x83
+object:food:Pipe-weed:0x82:0x83
+object:food:Elvish wine:0x82:0x83
+object:food:Cold chicken:0x82:0x93
+object:food:Maggoty bread:0x9F:0xDD
+object:food:Flagon of mead:0x88:0x83
+object:food:One Ring Cake:0x9F:0xDB
+object:food:Stolen mushroom:0x82:0x97
+object:food:Elvish water:0x88:0xC8
+object:food:Apple of Youth:0x82:0xA1
+object:hafted:Club:0x8A:0xEF
+
+monster:darkling:0x9C:0xF5
+monster:shadow of nazgul:0x9B:0xF5
 
 #NPC
 
@@ -21239,6 +21266,7 @@ monster:cow:0x9B:0x86
 monster:donkey:0x9B:0x87
 monster:wagtail bird:0x9B:0x88
 monster:thrush bird:0x9B:0x89
+monster:tamed young eagle:0x9B:0x89
 monster:sparrow bird:0x9B:0x8A
 monster:tit bird:0x9B:0x8B
 monster:woodpecker bird:0x9B:0x8C
@@ -32394,22 +32422,7 @@ feat:house wall i`:dark:0xE3:0xFF
 
 ###################
 ### ADD AFTER WIPE:
-monster:darkling:0x9C:0xF5
-monster:shadow of nazgul:0x9B:0xF5
 
-object:food:Cram Bread:0x82:0x86
-object:food:Petty-dwarf roots:0x9F:0xDC
-object:food:Salted Pork from Isengard:0x82:0x83
-object:food:Pipe-weed:0x82:0x83
-object:food:Elvish wine:0x82:0x83
-object:food:Cold chicken:0x82:0x93
-object:food:Maggoty bread:0x9F:0xDD
-object:food:Flagon of mead:0x88:0x83
-object:food:One Ring Cake:0x9F:0xDB
-object:food:Stolen mushroom:0x82:0x97
-object:food:Elvish water:0x88:0xC8
-object:food:Apple of Youth:0x82:0xA1
-object:hafted:Club:0x8A:0xEF
 
 # Load the special player pictures
 %:xtra-tan.prf

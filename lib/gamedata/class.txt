@@ -179,7 +179,7 @@ equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 #equip:ring:Speed:2:2:none
@@ -228,7 +228,7 @@ equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:arrow:Old Arrow:30:40:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-1]
@@ -278,7 +278,7 @@ equip:light:Wooden Torch:1:3:none
 equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:10:FEATHER
@@ -335,7 +335,7 @@ strength-multiplier:2
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-3]
@@ -663,7 +663,7 @@ strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Whip:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-2]
@@ -970,7 +970,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Mace:1:1:none
 equip:potion:Cure Serious Wounds:2:3:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:0:STR[-1]
 value:0:INT[-3]
@@ -1061,7 +1061,7 @@ msg_other:'s hands project a line of shimmering blue light.
 desc:Fires a beam that lights up each square and hurts each
 desc: light-sensitive monster in its path.
 
-book:prayer book:town:[Words of Wisdom]:7:divine
+book:prayer book:town:[Words of Wisdom]:8:divine
 book-graphics:?:G
 book-properties:10:30:400
 book-alloc:30:10 to 100
@@ -1114,6 +1114,12 @@ dice:1d$S
 expr:S:PLAYER_LEVEL:* 5
 msg_other: dispels evil.
 desc:Inflicts unresistable damage on each evil monster within line of sight.
+
+spell:Holy Water:19:25:80:15:0
+effect:CREATE_HOLY_WATER
+desc:Allows to bless any potions and turn it to holy water.
+desc: Attention! It will bless full stack of potions.
+desc: This prayer requires nutrition.
 
 book:prayer book:town:[Chants and Blessings]:6:divine
 book-graphics:?:G
@@ -1187,7 +1193,10 @@ desc: cut damage, neutralizes poison, and cures amnesia.
 spell:Enchant Weapon:32:50:80:120:0
 effect:ENCHANT:TOBOTH
 dice:1d4
+effect:NOURISH:DEC_BY
+dice:1
 desc:Attempts to improve the to-hit bonus and the to-dam bonus of a weapon.
+desc: This prayer reduce your nourishment.
 
 spell:Restoration:35:70:90:130:1
 effect:RESTORE_STAT:CHR
@@ -1201,7 +1210,10 @@ desc:Restores to maximum all stats that are currently below maximum.
 spell:Enchant Armour:35:60:85:150:0
 effect:ENCHANT:TOAC
 dice:1+1d3
+effect:NOURISH:DEC_BY
+dice:1
 desc:Attempts to improve the armour class bonus of a piece of armour.
+desc: This prayer reduce your nourishment.
 
 book:prayer book:dungeon:[Wrath of the Valar]:5:divine
 book-graphics:?:g
@@ -1282,7 +1294,7 @@ strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:sword:Main Gauche:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-3]
@@ -1518,11 +1530,14 @@ desc: Does not affect undead, demons, golems, elementals or vortices.
 
 spell:Cold Brand:31:60:95:150:0
 effect:BRAND_WEAPON:NONE:1
+effect:NOURISH:DEC_BY
+dice:1
 desc:Brands the currently wielded melee weapon with cold
 desc: and at the same time attempts to improve the to-hit bonus and the
 desc: to-dam bonus of the same weapon.
 desc: The spell has no effect if the weapon is an artifact, an ego item
 desc: or a worthless item.
+desc: This spell reduce your nourishment.
 
 spell:Zone of Unmagic:32:16:60:110:0
 effect:BLAST:DISEN:4
@@ -1620,7 +1635,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Club:1:1:none
 equip:scroll:Protection from Evil:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[1]
@@ -1733,11 +1748,14 @@ book:prayer book:town:[Chants and Blessings]:5:divine
 
 spell:Elemental Brand:20:30:85:40:0
 effect:BRAND_WEAPON
+effect:NOURISH:DEC_BY
+dice:1
 desc:Brands the currently wielded melee weapon with fire (50%) or cold (50%),
 desc: and at the same time attempts to improve the to-hit bonus and the
 desc: to-dam bonus of the same weapon.
 desc: The prayer has no effect if the weapon is an artifact, an ego item
 desc: or a worthless item.
+desc: This prayer reduce your nourishment.
 
 spell:Protection from Evil:22:15:50:5:0
 effect:TIMED_INC:PROTEVIL
@@ -1778,7 +1796,10 @@ desc: of recall again.
 spell:Enchant Weapon:32:50:80:120:0
 effect:ENCHANT:TOBOTH
 dice:1d4
+effect:NOURISH:DEC_BY
+dice:1
 desc:Attempts to improve the to-hit bonus and the to-dam bonus of a weapon.
+desc: This prayer reduce your nourishment.
 
 spell:Sanctuary:34:20:75:80:1
 effect:TIMED_INC:SHIELD
@@ -1788,7 +1809,10 @@ desc:Grants you +50 to AC for 30+1d20 turns.
 spell:Enchant Armour:35:60:85:150:0
 effect:ENCHANT:TOAC
 dice:1+1d3
+effect:NOURISH:DEC_BY
+dice:1
 desc:Attempts to improve the armour class bonus of a piece of armour.
+desc: This prayer reduce your nourishment.
 
 book:prayer book:dungeon:[Wrath of the Valar]:4:divine
 
@@ -1854,7 +1878,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:INT[1]
@@ -1882,6 +1906,7 @@ book:shadow book:town:[Shadows for Beginners]:5:shadow
 equip:shadow book:[Shadows for Beginners]:1:1:none
 
 spell:Detect Creatures:5:1:50:4:0
+# make it detect noisy monsters
 effect:DETECT_VISIBLE_MONSTERS
 effect-yx:22:40
 desc:Detects all non-invisible monsters in the immediate area,
@@ -1895,7 +1920,9 @@ desc:Teleports you randomly up to 10 squares away.
 
 spell:Create Poison:8:3:60:5:0
 effect:CREATE_POISON
-desc:Allows to create potions of poison from any potion.
+desc:Allows to create potions of poison from any potion and
+desc: rarely isolate a nutrious substance to restore mana.
+desc: Attention! It will turn full stack of potions to poison.
 
 spell:Detect Objects:10:3:60:5:0
 effect:DETECT_TREASURES:NONE:1
@@ -1957,10 +1984,17 @@ desc:Prepares you to teleport a short distance after stealing.
 
 spell:Stair Creation:24:12:40:25:0
 effect:CREATE_STAIRS
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:1d1
+effect:TIMED_INC:SLOW
+dice:5+1d10
+effect:NOURISH:DEC_BY
+dice:1
 desc:A stair (going up or down, chosen at random) is created on the space
 desc: where you are standing. This will destroy any terrain feature that
 desc: was there before. It will also destroy all items currently on the
 desc: floor where the spell is cast.
+desc: You've become tired after building stairs and it reduce your satiation a bit.
 
 spell:Reveal Creatures:25:3:40:8:0
 effect:DETECT_MONSTERS
@@ -1991,7 +2025,11 @@ spell:Cloak of Changement:28:15:75:15:0
 effect:CLOAK_CHANGT
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 20
+effect:TIMED_INC:MOVE_FAST
+dice:$B
+expr:B:PLAYER_LEVEL:/ 10 + 5
 desc:Disguises you as another player's class.
+desc: Also makes you walk faster for a short while.
 
 spell:Teleport to Target:29:20:65:20:0
 effect:TELEPORT_TO
@@ -2007,11 +2045,15 @@ msg_other: makes a rush gesture.
 desc:Produces a bolt that teleports the first monster in its path
 desc: up to 100 squares away.
 
-spell:Create Traps:31:15:75:25:0
+spell:Hide Tracks:31:15:75:25:0
 effect:TOUCH:MAKE_TRAP:3:1
-desc:A trap is created on each empty floor space that is directly
+effect:TIMED_INC:COVERTRACKS:0:5
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:/ 2
+desc:Prevents you from leaving scent for monsters to track you by for a
+desc: level-dependent duration.
+desc: Also a trap is created on each empty floor space that is directly
 desc: adjacent to you.
-desc: This spell has no effect when used in the town.
 
 book:shadow book:dungeon:[Great Shadows]:4:shadow
 
@@ -2032,7 +2074,10 @@ desc: a penalty of -10 to AC) for 30+1d30 turns.
 
 spell:Far Escape:35:17:65:80:0
 effect:TELEPORT_LEVEL
+effect:NOURISH:DEC_BY
+dice:1
 desc:Teleports you 1 level up or 1 level down (chosen at random).
+desc: You spend some satiation on this magic.
 
 spell:Fast Recall:36:40:80:18:0
 effect:RECALL
@@ -2045,14 +2090,21 @@ desc: The recall effect is not immediate; it is delayed by a level-dependent
 desc: duration. During that delay, the effect can be canceled by invoking
 desc: the spell of recall again.
 
-spell:Summon Monsters:38:37:90:50:0
+spell:Trick or Treat:38:37:90:50:0
 effect:SUMMON:MONSTERS:0:5
 dice:8
+effect:CLEAR_VALUE
+effect:TIMED_INC:OPP_POIS
+effect:TIMED_INC:OPP_COLD
+effect:TIMED_INC:OPP_FIRE
+effect:TIMED_INC:OPP_ELEC
+effect:END_INFO
+effect:TIMED_INC:OPP_ACID
+effect:SET_VALUE
+dice:20+1d20
 msg_other: summons some monsters.
-desc:Attempts to summon up to eight monsters generated at the current dungeon
-desc: level.
-desc: This spell has no effect when used in the town.
-
+desc:Challenge gods for a bet: they summon a rival to you and
+desc: for such daring they rewards you with a blessing.
 
 ############### RANGER ###############
 name:Ranger
@@ -2078,7 +2130,7 @@ equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:arrow:Old Arrow:20:30:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:WIS[2]
@@ -2220,7 +2272,10 @@ spell:Enchant Weapon:34:50:90:60:0
 effect:ENCHANT:TOBOTH
 dice:$B+1d4
 expr:B:PLAYER_LEVEL:/ 20
+effect:NOURISH:DEC_BY
+dice:1
 desc:Attempts to improve the to-hit bonus and the to-dam bonus of a weapon.
+desc: This spell reduce your nourishment.
 
 spell:Poison Shots:37:20:85:45:0
 effect:BOW_BRAND_SHOT:POIS
@@ -2257,7 +2312,7 @@ equip:light:Wooden Torch:1:3:none
 equip:sword:Tulwar:1:1:none
 equip:shield:Leather Shield:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 obj-flag:1:IMPAIR_HP
@@ -2502,7 +2557,7 @@ equip:light:Wooden Torch:1:3:none
 ######################equip:sorcery book:[Apprentice Handbook]:1:1:1
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-5]
@@ -2874,7 +2929,7 @@ equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:0:STR[3]
@@ -2934,7 +2989,7 @@ equip:bow:Short Bow:1:1:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:arrow:Old Arrow:25:35:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-2]
@@ -3092,7 +3147,7 @@ strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:hafted:Club:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-1]
@@ -3448,7 +3503,7 @@ strength-multiplier:2
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-4]
@@ -3940,7 +3995,7 @@ equip:light:Wooden Torch:1:3:none
 equip:hafted:Quarterstaff:1:1:none
 equip:scroll:Summon Monster:10:10:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-5]
@@ -4177,7 +4232,7 @@ equip:potion:Berserk Strength:1:1:birth_no_recall
 equip:hafted:Club:1:1:none
 equip:soft armour:Soft Leather Armour:1:1:birth_no_recall
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
-equip:scroll:Remove Hunger (tattered):2:2:birth_no_recall
+equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 value:0:STR[1]

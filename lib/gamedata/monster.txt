@@ -621,7 +621,7 @@ locations:Farfest
 name:goldfish
 base:aquatic
 color:r
-speed:100
+speed:90
 hit-points:1
 hearing:30
 armor-class:4
@@ -632,7 +632,7 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE | FRIENDLY
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:Beautiful red fish in ponds.
 locations:Hunter's Valley|Farfest
 
@@ -640,7 +640,7 @@ locations:Hunter's Valley|Farfest
 name:roach fish
 base:aquatic
 color:r
-speed:105
+speed:95
 hit-points:1
 hearing:30
 armor-class:4
@@ -651,14 +651,14 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:A small fish.
 
 #ersh
 name:ruff fish
 base:aquatic
 color:r
-speed:110
+speed:100
 hit-points:1
 hearing:30
 armor-class:4
@@ -669,14 +669,14 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:A small fish.
 
 #karas
 name:crucian fish
 base:aquatic
 color:r
-speed:115
+speed:100
 hit-points:1
 hearing:30
 armor-class:4
@@ -687,14 +687,14 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:A small fish.
 
 #okun
 name:perch fish
 base:aquatic
 color:r
-speed:115
+speed:100
 hit-points:1
 hearing:30
 armor-class:4
@@ -705,14 +705,14 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:A small fish.
 
 #karp
 name:carp fish
 base:aquatic
 color:r
-speed:115
+speed:95
 hit-points:1
 hearing:30
 armor-class:4
@@ -723,7 +723,7 @@ weight:0
 experience:0
 blow:BITE:HURT:1d1
 flags:FRIGHTENED | PWMANG_BASE
-flags:RAND_50 | COLD_BLOOD | NO_SLEEP
+flags:RAND_100 | COLD_BLOOD | NO_SLEEP
 desc:A small fish.
 
 ### Dungeon level 1 ###
@@ -1350,7 +1350,7 @@ rarity:1
 weight:40
 experience:8
 blow:CRAWL:POISON:1d4
-blow:CRAWL:EAT_FOOD
+blow:SWALLOW:EAT_FOOD
 flags:EMPTY_MIND
 flags:KILL_BODY | TAKE_ITEM
 flags:IM_POIS
@@ -1826,6 +1826,7 @@ flags:UNIQUE | MALE | EVIL | INVISIBLE
 flags:DROP_1 | DROP_GOOD | DROP_GREAT
 flags:RAND_25 | RAND_50 | TAKE_ITEM
 flags:HURT_LIGHT
+flags:SWIM_GOOD
 desc:Usually known as Gollum. He's been sneaking, and he wants his 'precious.'
 
 name:green ooze
@@ -1953,8 +1954,8 @@ depth:3
 rarity:2
 weight:0
 experience:12
-blow:TOUCH:EAT_LIGHT:1d3
-blow:TOUCH:EAT_LIGHT:1d3
+blow:DEVOUR:EAT_LIGHT:1d3
+blow:DEVOUR:EAT_LIGHT:1d3
 flags:NEVER_MOVE
 flags:IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP
 spell-freq:15
@@ -2456,7 +2457,8 @@ depth:4
 rarity:1
 weight:0
 experience:1
-blow:BITE:EAT_LIGHT:1d2
+blow:DEVOUR:EAT_LIGHT
+blow:BITE:HURT:1d2
 flags:MULTIPLY
 flags:RAND_50
 flags:DROP_SKELETON
@@ -2641,6 +2643,7 @@ blow:HYPNOTIZE:SEDUCE:1d8
 blow:HIT:HURT:1d8
 flags:UNIQUE | FEMALE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
+flags:SWIM_NORM
 drop:food:Apple of Youth:100:1:1
 drop:food:Apple:100:2:3
 desc:Beautiful girl with long hair. She give you a wink..
@@ -2717,8 +2720,8 @@ depth:5
 rarity:2
 weight:0
 experience:15
-blow:TOUCH:EAT_FOOD:1d1
-blow:TOUCH:FAMINE:1d1
+blow:SWALLOW:EAT_FOOD:1d1
+blow:SWALLOW:FAMINE:1d1
 flags:DROP_40 | DROP_60
 flags:RAND_25 | RAND_50
 flags-off:IM_COLD
@@ -2926,7 +2929,7 @@ depth:5
 rarity:1
 weight:0
 experience:15
-blow:TOUCH:EAT_FOOD:2d3
+blow:SWALLOW:EAT_FOOD:2d3
 blow:TOUCH:LOSE_CHR:2d3
 flags:NEVER_MOVE
 flags:HURT_LIGHT | IM_POIS | NO_CONF | NO_SLEEP | HURT_COLD
@@ -4476,6 +4479,7 @@ flags:MALE | EVIL
 flags:DROP_60
 flags:HURT_LIGHT
 flags:DROP_CORPSE | DROP_SKELETON
+flags:SWIM_NORM
 desc:A dark elven figure in armour and ready with his sword.
 
 name:clear mushroom patch
@@ -5603,6 +5607,28 @@ desc: scales shimmering blue.
 
 ### Dungeon level 13 ###
 
+name:darkling
+base:minor demon
+color:u
+speed:111
+hit-points:75
+light:-2
+hearing:20
+armor-class:42
+sleepiness:35
+depth:13
+rarity:4
+weight:140
+experience:75
+blow:DEVOUR:EAT_LIGHT:1d7
+blow:DEVOUR:EAT_LIGHT:1d7
+flags:OPEN_DOOR | BASH_DOOR
+flags:DROP_40
+flags:NO_FEAR
+spell-freq:7
+spells:DARKNESS
+desc:Corrupted fey-demons which feed on light.
+
 name:giant gnat
 base:killer beetle
 color:u
@@ -6051,7 +6077,7 @@ rarity:4
 weight:0
 experience:20
 blow:CRAWL:POISON:1d4
-blow:CRAWL:EAT_FOOD
+blow:SWALLOW:EAT_FOOD
 blow:HIT:HURT:1d4
 blow:HIT:HURT:1d4
 flags:EVIL | MULTIPLY
@@ -6985,6 +7011,7 @@ flags:MALE | EVIL | PWMANG_BASE
 flags:DROP_40 | DROP_CORPSE
 flags:IM_ACID | IM_WATER
 flags:WILD_SHORE
+flags:SWIM_GOOD
 friends:100:4d4:Same
 desc:Intelligent lizard being from the depths.
 
@@ -8280,6 +8307,7 @@ flags:MALE | EVIL | PWMANG_BASE
 flags:DROP_40 | DROP_1 | DROP_CORPSE
 flags:IM_ACID | IM_POIS | IM_WATER
 flags:WILD_SHORE
+flags:SWIM_GOOD
 friends:80:1d3:lizard man:servant
 desc:A lizard-man leader.
 
@@ -8367,7 +8395,7 @@ rarity:5
 weight:0
 experience:400
 blow:CRAWL:POISON:3d4
-blow:CRAWL:EAT_FOOD:3d4
+blow:SWALLOW:EAT_FOOD:3d4
 blow:TOUCH:ACID:3d5
 blow:HIT:HURT:3d5
 flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
@@ -8575,7 +8603,7 @@ rarity:5
 weight:0
 experience:750
 blow:CRAWL:POISON:3d4
-blow:CRAWL:EAT_FOOD:3d4
+blow:SWALLOW:EAT_FOOD:3d4
 blow:TOUCH:ACID:3d5
 blow:HIT:HURT:3d5
 flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
@@ -9020,8 +9048,8 @@ depth:22
 rarity:1
 weight:0
 experience:40
-blow:ENGULF:EAT_LIGHT:1d8
-blow:ENGULF:EAT_LIGHT:1d8
+blow:DEVOUR:EAT_LIGHT:1d8
+blow:DEVOUR:EAT_LIGHT:1d8
 flags:IM_ELEC | HURT_FIRE | IM_NETHER | PWMANG_BASE
 friends:100:2d7:Same
 desc:A pitch-dark cloud of evil, sentient mist.
@@ -11816,6 +11844,31 @@ desc:A shimmering tornado of air and water, sparks crackle along its length.
 ########## DUNGEON LEVELS 30-39 ##########
 
 ### Dungeon level 30 ###
+
+name:shadow of nazgul
+base:wraith
+color:p
+speed:115
+hit-points:500
+light:-2
+hearing:40
+smell:50
+armor-class:72
+sleepiness:10
+depth:30
+rarity:6
+weight:0
+experience:666
+blow:MOAN:TERRIFY:2d5
+blow:DEVOUR:EAT_LIGHT:4d5
+blow:HIT:BLACK_BREATH:3d7
+flags:MALE | LEVITATE
+flags:DROP_1 | ONLY_ITEM
+flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
+flags:RES_LIGHT
+desc:Nazguls don't dissapear for ever.. They return. Always.
+desc:But till the moment when they will reclaim, 
+desc:they dwell aas shadowless shapes.
 
 name:fire giant
 base:giant
@@ -15396,7 +15449,7 @@ depth:38
 rarity:4
 weight:0
 experience:500
-blow:HIT:EAT_LIGHT:1d9
+blow:DEVOUR:EAT_LIGHT:1d9
 blow:HIT:HURT:1d9
 blow:HIT:HALLU:1d9
 flags:INVISIBLE | SMART
@@ -15616,7 +15669,7 @@ depth:38
 rarity:2
 weight:0
 experience:1700
-blow:HIT:EAT_LIGHT:1d9
+blow:DEVOUR:EAT_LIGHT:1d9
 blow:HIT:HALLU:1d9
 blow:HIT:HALLU:1d9
 blow:HIT:HALLU:1d9
@@ -18820,7 +18873,7 @@ experience:2500
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
-blow:BITE:EAT_LIGHT:5d6
+blow:DEVOUR:EAT_LIGHT:5d6
 flags:EVIL | ANIMAL | SMART | SPIRIT
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_POIS
@@ -18851,7 +18904,7 @@ experience:3000
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
-blow:BITE:EAT_LIGHT:5d6
+blow:DEVOUR:EAT_LIGHT:5d6
 flags:EVIL | ANIMAL | SMART | SPIRIT
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_FIRE | IM_POIS
@@ -19033,7 +19086,7 @@ flags:UNIQUE | MALE | EVIL | SMART
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:HURT_LIGHT | IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
-drop:food:Piece of Elvish Waybread:50:1:1
+#drop:food:Lembas:50:1:1
 spell-freq:2
 spells:BLIND | BLINK | WOUND | CONF | DARKNESS | HEAL
 spells:TELE_TO
@@ -21406,7 +21459,7 @@ spell-freq:4
 innate-freq:33
 spells:WOUND | CONF
 spells:BR_FIRE
-desc:Smaug is one of the Urulóki that still survive, a fire-drake of immense
+desc:Smaug is one of the Urul'ki that still survive, a fire-drake of immense
 desc: cunning and intelligence. His speed through air is matched by few other
 desc: dragons and his dragonfire is what legends are made of; he is believed to
 desc: be the greatest dragon still surviving into the Third Age.
@@ -22519,7 +22572,7 @@ experience:10000
 blow:INSULT:HURT:1d20
 blow:TOUCH:EAT_GOLD:5d10
 blow:TOUCH:EAT_ITEM:5d10
-blow:TOUCH:EAT_FOOD:5d10
+blow:SWALLOW:EAT_FOOD:5d10
 flags:COLD_BLOOD
 flags:OPEN_DOOR | BASH_DOOR | TAKE_ITEM | PASS_WALL
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
@@ -23361,7 +23414,7 @@ depth:75
 rarity:1
 weight:0
 experience:35000
-blow:CLAW:EAT_LIGHT:8d6
+blow:DEVOUR:EAT_LIGHT:8d6
 blow:CLAW:POISON:8d6
 blow:BITE:PARALYZE:8d10
 blow:STING:LOSE_STR:8d4
@@ -23616,6 +23669,7 @@ blow:TOUCH:LOSE_DEX:6d12
 flags:UNIQUE | MALE | PWMANG_FIXED
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:FORCE_DEPTH
+drop:mushroom:Terror:100:6:8
 spell-freq:2
 spells:BLIND | BLINK | WOUND | HOLD | SCARE | BRAIN_SMASH
 spells:TELE_TO | TRAPS
@@ -24143,8 +24197,8 @@ rarity:6
 weight:0
 experience:10000
 blow:GAZE:HURT:10d10
-blow:TOUCH:EAT_FOOD:10d10
-blow:TOUCH:FAMINE:10d10
+blow:SWALLOW:EAT_FOOD:10d10
+blow:SWALLOW:FAMINE:10d10
 blow:BITE:POISON:10d10
 flags:NEVER_MOVE
 flags:IM_ELEC | IM_FIRE | IM_POIS | IM_PLASMA
@@ -26033,8 +26087,8 @@ weight:0
 experience:25000
 blow:TOUCH:EAT_GOLD:8d8
 blow:TOUCH:EAT_ITEM:8d8
-blow:TOUCH:EAT_FOOD:8d8
-blow:TOUCH:EAT_LIGHT:8d8
+blow:SWALLOW:EAT_FOOD:8d8
+blow:DEVOUR:EAT_LIGHT:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition full of greed.
@@ -26054,9 +26108,9 @@ rarity:2
 weight:0
 experience:25000
 blow:HIT:DISEASE:8d8
-blow:CLAW:FAMINE:8d8
+blow:SWALLOW:FAMINE:8d8
 blow:HIT:DISEASE:8d8
-blow:CLAW:FAMINE:8d8
+blow:SWALLOW:FAMINE:8d8
 flags:PWMANG_EXTRA
 flags:FORCE_DEPTH
 desc:A ghostly apparition full of filth.
@@ -28954,7 +29008,7 @@ experience:25
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
-blow:BITE:EAT_LIGHT:5d6
+blow:DEVOUR:EAT_LIGHT:5d6
 flags:EVIL | ANIMAL | SMART | SPIRIT
 flags:OPEN_DOOR
 flags:HURT_LIGHT | IM_FIRE | IM_POIS
@@ -30865,7 +30919,7 @@ experience:2500
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
-blow:BITE:EAT_LIGHT:5d6
+blow:DEVOUR:EAT_LIGHT:5d6
 flags:ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT
@@ -30893,7 +30947,7 @@ experience:3000
 blow:CLAW:POISON:5d8
 blow:CLAW:POISON:5d8
 blow:BITE:HALLU:5d6
-blow:BITE:EAT_LIGHT:5d6
+blow:DEVOUR:EAT_LIGHT:5d6
 flags:ANIMAL
 flags:OPEN_DOOR
 flags:HURT_LIGHT
@@ -31188,56 +31242,93 @@ desc:It blinks slowly and menacily.
 #///////////   
 
 
+#############
+#############
+############# Thunderlord race pet
 
-##### ADD after wipe:
-
-
-name:darkling
-base:minor demon
-color:u
+name:tamed young eagle
+base:bird
+color:m
 speed:111
-hit-points:75
-light:-2
-hearing:20
-armor-class:42
-sleepiness:35
-depth:13
-rarity:4
-weight:140
-experience:75
-blow:HIT:EAT_LIGHT:1d7
-blow:HIT:EAT_LIGHT:1d7
-flags:OPEN_DOOR | BASH_DOOR
-flags:DROP_40
-flags:NO_FEAR
-spell-freq:7
-spells:DARKNESS
-desc:Corrupted fey-demons which feed on light.
-
-name:shadow of nazgul
-base:wraith
-color:p
-speed:115
-hit-points:500
-light:-2
-hearing:40
-smell:50
-armor-class:72
+hit-points:1
+hearing:30
+armor-class:4
 sleepiness:10
-depth:30
-rarity:6
-weight:0
-experience:666
-blow:MOAN:TERRIFY:2d5
-blow:HIT:EAT_LIGHT:4d5
-blow:HIT:BLACK_BREATH:3d7
-flags:MALE | LEVITATE
-flags:DROP_1 | ONLY_ITEM
-flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
-flags:RES_LIGHT
-desc:Nazguls don't dissapear for ever.. They return. Always.
-desc:But till the moment when they will reclaim, 
-desc:they dwell aas shadowless shapes.
+depth:1
+rarity:0
+weight:20
+experience:2
+blow:CLAW:HURT:1d1
+blow:BITE:HURT:1d1
+flags:WILD_WASTE | WILD_MOUNTAIN | WILD_WOOD | PWMANG_BASE
+desc:A magnificent youngling of predatory bird.
+
+name:tamed eagle
+base:bird
+color:m
+speed:115
+#hit-points:45
+hit-points:1
+hearing:30
+armor-class:25
+sleepiness:10
+depth:10
+rarity:0
+weight:60
+experience:22
+blow:CLAW:HURT:1d3
+#blow:CLAW:HURT:1d3
+blow:BITE:HURT:1d6
+flags:WILD_WASTE | WILD_MOUNTAIN | WILD_WOOD | PWMANG_BASE
+desc:A magnificent huge predatory bird.
+
+name:tamed great eagle
+base:bird
+color:M
+speed:120
+#hit-points:300
+hit-points:1
+hearing:20
+armor-class:65
+sleepiness:20
+depth:20
+rarity:0
+weight:100
+experience:1
+blow:CLAW:HURT:3d6
+#blow:CLAW:HURT:6d3
+blow:BITE:HURT:3d6
+flags:PWMANG_BASE
+flags:WILD_MOUNTAIN | WILD_VOLCANO | WILD_WASTE | WILD_WOOD
+flags:WILD_DESERT
+desc:Greater and more intelligent than most of its kind, this great eagle is
+desc: a messenger between the forces of good.
+
+name:tamed giant eagle
+base:bird
+color:u
+speed:121
+#hit-points:560
+hit-points:1
+hearing:20
+armor-class:84
+sleepiness:10
+depth:40
+rarity:0
+weight:150
+experience:1
+blow:CLAW:HURT:4d8
+blow:BITE:HURT:4d12
+flags:BASH_DOOR
+flags:DROP_CORPSE | WILD_WOOD | WILD_MOUNTAIN
+desc:A vast legendary bird, its iron talons rake the most impenetrable of
+desc: surfaces and its screech echoes through the many winding dungeon
+desc: corridors.
+
+
+#######
+###############
+######################### Test stuff
 
 name:Test dummy
 base:golem
@@ -31274,5 +31365,8 @@ blow:HIT:FORGET:10d1
 flags:NEVER_MOVE
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 #drop:ring:Black Ring of Power:100:1:1
-#drop:sword:'Stormbringer':100:1:1
+drop:sword:'Stormbringer':100:1:1
 desc:An indestructible golem used for testing purposes.
+
+
+# # leave empty line for EOF
