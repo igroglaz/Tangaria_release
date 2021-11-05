@@ -50,11 +50,11 @@ CPU_CORES=$(grep -c processor /proc/cpuinfo)
 ###################################
 
 REPOSITORY_NAME_TANGARIA="Tangaria"
-REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria/archive/"
+REPOSITORY_URL_TANGARIA="https://github.com/igroglaz/Tangaria"
 REPOSITORY_NAME_TANGARIA_RELEASE="Tangaria_release"
-REPOSITORY_URL_TANGARIA_RELEASE="https://github.com/igroglaz/Tangaria_release/archive/"
+REPOSITORY_URL_TANGARIA_RELEASE="https://github.com/igroglaz/Tangaria_release"
 REPOSITORY_NAME_PWMANGBAND="PWMAngband"
-REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband/archive/"
+REPOSITORY_URL_PWMANGBAND="https://github.com/draconisPW/PWMAngband"
 
 VERSION_TANGARIA_DEV="dev"
 VERSION_TANGARIA_STABLE="stable"
@@ -210,7 +210,7 @@ radioListVersion() {
                 fi
                 if [ "$MENU_VERSION_SRC" = "other" ]; then
                     VERSION_TANGARIA=$($DIALOG --title "other(branches)" --nocancel --inputbox \
-                        "follow the link https://github.com/igroglaz/Tangaria/commits \nenter: Tangaria-" 9 76 \
+                        "follow the link $REPOSITORY_URL_TANGARIA/commits \nenter: Tangaria-" 9 76 \
                         $VERSION_TANGARIA 3>&1 1>&2 2>&3)
                         exitstatus=$?
                         if [ ${exitstatus} != 0 ]; then
@@ -229,7 +229,7 @@ radioListVersion() {
                 fi
                 if [ "$MENU_VERSION_SRC" = "other" ]; then
                     VERSION_PWMANGBAND=$($DIALOG --title "other(branches)" --nocancel --inputbox \
-                        "follow the link https://github.com/draconisPW/PWMAngband/commits \nenter: PWMAngband-" 9 76 \
+                        "follow the link $REPOSITORY_URL_PWMANGBAND/commits \nenter: PWMAngband-" 9 76 \
                         $VERSION_PWMANGBAND 3>&1 1>&2 2>&3)
                         exitstatus=$?
                         if [ ${exitstatus} != 0 ]; then
@@ -370,9 +370,9 @@ echo "-----------------------------------"
 logo_PWMAngband
 
 if [ "$CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND" = "ON" ]; then
-    rm -rf ./${REPOSITORY_NAME_PWMANGBAND}-*".zip"
-    wget --output-document=${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}".zip" \
-    ${REPOSITORY_URL_PWMANGBAND}${VERSION_PWMANGBAND}".zip" || exit 1
+    rm -rf ./${REPOSITORY_NAME_PWMANGBAND}-*.zip
+    wget --output-document=${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}.zip \
+    ${REPOSITORY_URL_PWMANGBAND}/archive/${VERSION_PWMANGBAND}.zip || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
         echo "${SETUP_FILES}   empty directory..."
@@ -380,7 +380,7 @@ else
     fi
     if ! [ -d "$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1)" ]; then
         VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.zip*//")
-        echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
+        echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}.zip"
     else
         VERSION_PWMANGBAND=$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_PWMANGBAND}-//; s/.$//")
         echo "ok... ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}"
@@ -389,7 +389,7 @@ fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_PWMANGBAND" = "ON" ]; then
     rm -rf $(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/)
-    unzip -o ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}".zip" || exit 1
+    unzip -o ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}.zip || exit 1
 fi
 }
 
@@ -400,9 +400,9 @@ echo "-----------------------------------"
 logo_PWMAngband
 
 if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA" = "ON" ]; then
-    rm -rf ./${REPOSITORY_NAME_TANGARIA}-*".zip"
-    wget --output-document=${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}".zip" \
-    ${REPOSITORY_URL_TANGARIA}${VERSION_TANGARIA}".zip" || exit 1
+    rm -rf ./${REPOSITORY_NAME_TANGARIA}-*.zip
+    wget --output-document=${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}.zip \
+    ${REPOSITORY_URL_TANGARIA}/archive/${VERSION_TANGARIA}.zip || exit 1
 else
     if ! [ -e "$(ls -A . | head -1)" ]; then
         echo "${SETUP_FILES}   empty directory..."
@@ -410,7 +410,7 @@ else
     fi
     if ! [ -d "$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1)" ]; then
         VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-* | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.zip*//")
-        echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
+        echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}.zip"
     else
         VERSION_TANGARIA=$(ls -d ${REPOSITORY_NAME_TANGARIA}-*/ | head -1 | sed -e "s/.*${REPOSITORY_NAME_TANGARIA}-//; s/.$//")
         echo "ok... ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}"
@@ -419,7 +419,7 @@ fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA" = "ON" ]; then
     rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA}-*/)
-    unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}".zip" || exit 1
+    unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}.zip || exit 1
 fi
 
 if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
@@ -427,14 +427,14 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE"
 logo_Tangaria
 
 if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE" = "ON" ]; then
-    rm -rf ./${REPOSITORY_NAME_TANGARIA_RELEASE}-*".zip"
-    wget --output-document=${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" \
-    ${REPOSITORY_URL_TANGARIA_RELEASE}${VERSION_TANGARIA_RELEASE}".zip" || exit 1
+    rm -rf ./${REPOSITORY_NAME_TANGARIA_RELEASE}-*.zip
+    wget --output-document=${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}.zip \
+    ${REPOSITORY_URL_TANGARIA_RELEASE}/archive/${VERSION_TANGARIA_RELEASE}.zip || exit 1
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
     rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
-    unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}".zip" || exit 1
+    unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}.zip || exit 1
 fi
 
 fi
@@ -472,8 +472,6 @@ build_AppImage() {
 # Thus, while this script shall work on your machine, and that is
 # useful for debugging it, please DON'T re-destribute the resulting
 # appimage!
-#
-# install appstream
 
 echo "        __      __    "
 echo "     __/  \-''- _ |   "
