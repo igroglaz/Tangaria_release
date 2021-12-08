@@ -59,14 +59,14 @@ help: There is no rule that says a mage cannot become a good fighter, but spells
 help: are their true realm and they will get fewer blows with melee weapons than
 help: other classes.
 
-class:Druid
-help:A Druid is a lover of nature, and at one with the natural world. Druids
+class:Shaman
+help:A Shaman is a lover of nature, and at one with the natural world. Shamans
 help: have control of their environment and direct power over creatures, leading
-help: even to the ability to take their forms. Druid skills are moderate, and
-help: they have some fighting ability, especially when transformed. A druid will
+help: even to the ability to take their forms. Shaman skills are moderate, and
+help: they have some fighting ability, especially when transformed. A shaman will
 help: usually seek to shape the flow of events to their purpose rather than
 help: using devices or missiles, but at high levels they do gain access to
-help: potent nature-based magic. Druids rely on their wisdom, and have good
+help: potent nature-based magic. Shamans rely on their wisdom, and have good
 help: saving throws.
 
 class:Priest
@@ -84,14 +84,14 @@ help: Although weak in the beginning, priests could become decent fighters
 help: who strongly prefer blunt weapons over edged ones; if they wield one that
 help: isn't blessed, they receive an additional severe penalty.
 
-class:Necromancer
-help:A Necromancer seeks to master the spirits of sentient creatures, creating
+class:Warlock
+help:A Warlock seeks to master the spirits of sentient creatures, creating
 help: servants of their own will. They have chosen a dark and wicked path, and
-help: run a continual risk of harm to their own body and mind. Necromancers love
+help: run a continual risk of harm to their own body and mind. Warlocks love
 help: shadows and hate light, automatically shrouding themselves in darkness.
 help: Their spells require high intelligence, and frequently harm the caster or
 help: place them in danger. In return they achieve awesome power at high levels.
-help: The ultimate aim of the necromancer is to supplant the Dark Enemy and set
+help: The ultimate aim of the warlock is to supplant the Dark Enemy and set
 help: up a tyranny in his place.
 
 class:Paladin
@@ -209,3 +209,142 @@ help: to vanquish before he can assume their form. While transformed, they lose
 help: their intrinsic abilities, and gain those of the creature they have 
 help: transformed into, plus whatever abilities and resistances provided by their
 help: equipment.
+
+class:Tamer
+help:Scar-covered hands of tamer - person devoted his life and (remaining) limbs
+help: to take care of wild creatures - is an evidence what a tideous and dangerous
+help: job it is. Going through dense dim-lit thickets, hot sands and insidious
+help: mountains to stalk a dragon in its den.. to make friends with it - this is
+help: your life ambition. |
+help:You will start not with a dragons though, but with rat companion. If you will
+help: take a good care of it - it will give you certain powers eventually..
+help: Each new pet which you will acquire will teach you something and fight for
+help: your life.
+
+class:Druid
+help:Nature magic and can shift to animals. Good in martial arts and do not use
+help: weapons. Every 5 levels can learn a new animal form to transform; some
+help: forms can cast magic spells or have innate abilities.
+
+class:Fighter
+help:Mercenary who uses different fighting tricks and blows to survive at all cost.
+help: Like all mercenaries, they are very good in armor and weapon care.
+help: Fighters are very superstitious and believe in fortune.
+help: As they care a lot about signs and omens they may get lucky to survive
+help: blows which will be mortal wound for anyone else.
+
+class:Knight
+help:Noble knight in heavy armour who charges into enemies with immense power.
+help: They can not be confused and can use their shield with astonishing mastery.
+
+class:Traveller
+help:Common person who know some basic magic and not too bad in fighting..
+help: He is not alone in his wanderings - he's got a four-legged friend.
+help: Travellers are pretty sure that they knows well about navigation and 
+help: direction, maps and cardinal points...
+help: but often they come into real adventure due to this overconfidence.
+
+class:Bard
+help:Expert in musicanship and singing, you can not only give joy to people,
+help: but also know how to use music magic to bring cure and wreak havoc.
+help: He is resistant to sound attacks.
+
+class:Battlemage
+help:Specialise in destruction of his enemies not only with power of elements,
+help: but also uses all melee fighting skills making his universal death machine.
+
+class:Necromancer
+help:Weak and fragile, necromancer has powers to raise and command armies of dead.
+help: Resistant to nether, he can summon power of bone and poison for his profit.
+help: Most powerful necromancers can also command golems.
+
+class:Hermit
+help:Spiritual guide, this holy monk sworn not to take weapon in his hand.
+help: This sacred vow does not interfere with his ability to crush enemies
+help: skulls with his bare hands.
+
+class:Wizard
+help:Legendary magician who obtained ancient secrets which were forgotten for ages.
+help: There is a rumour that wizards even can summon and control daemons.
+
+class:Trader
+help:Enterprising merchant who went into the dungeon to fulfil his life ambition:
+help: get enought money to open his own tavern. Trader proud of his cat who
+help: follows him during adventures. |
+help:Trader can sell items to NPC stores. With higher lvls he has better prices. |
+help:They can not form party with other players.
+
+class:Assassin
+help:Stealthy slayers who know 100500 different ways to kill it's prey fast and
+help: effective. Their ambushing especially deadly to enemies which are not
+help: expecting an attack.
+help: Most powerful assassins specialises on sentries - special magic traps which
+help: shoot poison, blades and magic elements to enemies on sight.
+
+class:Phaseblade
+help:Warrior who dwells in two worlds and doesn't feel space/weight burden. It can
+help: teleport around and using his phase technics to cut enemies to pieces.
+help: They prefer swords and not good with other types of weapons.
+help: They can teleport from non/limited-teleport area.
+
+class:Cryokinetic
+help:Some also call them 'Weathermasters'. Cryokinetic can instantly change
+help: surrounding temperature to extremums. Not much creatures can endure their
+help: freezing roth which change in a flash to blazing fire.
+help: They doesn't fear lava and can not slip on ice.
+
+class:Timeturner
+help:Extreamely brittle, but lightning fast, they commands time by void magic.
+help: Some call them 'Mesmers' as they also got battle telepathic powers.
+help: They become especially speedy after level 30.
+
+class:Scavenger
+help:Vagabond who ventured to the dungeons to get his hands to monster's treasures,
+help: but also won't say no to maraudering corpses of other adventurers.
+help: He can salvage equipment into valuables right in the dungeon, so he does not
+help: need to get distracted on going to town every now and then.
+help: They are good in stealing, but not so good as rogues.
+help: Also they got a pet - rat which is trained to divert enemies attention. |
+help: Scavengers can salvage ego items at lvl 20, random artifacts at 30 and
+help: true artifacts at 40+ lvl. |
+help:The higher level it got - the more valuables he can get from salvaging. |
+help: They can not form party with other players.
+
+class:Alchemist
+help:Can brew potions and concoct elixirs which can not only bring devastation and
+help: exterminate all living creatures, but also may bring cure and hope.
+help: To make a potion they should first gather a reagent. Some reagents are
+help: organic and may be found in plants. Some are mineral and may be gathered by
+help: mining. Brewing potion takes some time and concentration during which
+help: alchemist is very vulnerable. |
+help:Brewed potions are soulbound and can be used only by creator; you can not
+help: neither trade it, nor drop it on the ground.
+help: To get rid of potions which you don't need:
+help: use 'k' key to destroy it or simply drink it or throw into enemies. |
+help:They can not form party with other players.
+
+class:Crafter
+help:Can gather resources by chopping trees for logs or mining mountains for ore,
+help: to use this materials in crafting equipment. |
+help:Crafter equipment is soulbound and can be fitted only on creator; you can not
+help: neither trade it, nor drop it on the ground. |
+help:To get rid of crafted equipment which you don't need:
+help: use 'k' key to destroy it. |
+help:They can not form party with other players.
+
+class:Inquisitor
+help:Inquisitors exterminate heretics, witches and other sacrilege magic riffraff.
+help: They hate sorcery and witchcraft which they judge as black magic and idolatry.
+help: They themself refuse to use common magic, they refuse all
+help: training in the use of magic items, although they can still quaff potions
+help: and read scrolls which they accept as minor evil to fight greater evil.
+help: Because they are so hateful towards magic, Inquisitors can prevent magical
+help: gates from opening around them, eventually extending to a complete
+help: suppression all magic in the area around them. |
+help:They prefer not to use weapons, but to break bones with bare hands... |
+help:Inquisitors replenish their life forces by hurting victims which fear them.
+
+class:Adventurer
+help:Jack of all trades, master of none... He knows a lot of stuff and tried
+help: lots professions. Very versatile, but also very mediocre in every regard..
+help: ...though oftentimes better than master of one.
