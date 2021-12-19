@@ -614,7 +614,7 @@ weight:0
 experience:0
 flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH
 flags:PWMANG_EXTRA | PWMANG_FIXED
-flags:IM_FIRE | IM_ELEC | IM_POIS | IM_ACID | UNDEAD | HURT_ROCK | IM_LIGHT | HURT_LIGHT
+#flags:IM_FIRE | IM_ELEC | IM_POIS | UNDEAD | HURT_ROCK | IM_LIGHT | HURT_LIGHT
 desc:An indestructible golem used for target practice.
 locations:Farfest
 
@@ -27509,7 +27509,7 @@ desc:It doesn't like strangers.
 locations:Hunter's Valley|Farfest
 
 ### dog - in other place of tileset
-name:dog
+name:small dog
 base:townsfolk
 color:B
 speed:110
@@ -31257,7 +31257,7 @@ sleepiness:10
 depth:1
 rarity:0
 weight:20
-experience:2
+experience:0
 blow:CLAW:HURT:1d1
 blow:BITE:HURT:1d1
 flags:WILD_WASTE | WILD_MOUNTAIN | WILD_WOOD | PWMANG_BASE
@@ -31275,7 +31275,7 @@ sleepiness:10
 depth:10
 rarity:0
 weight:60
-experience:22
+experience:0
 blow:CLAW:HURT:1d3
 #blow:CLAW:HURT:1d3
 blow:BITE:HURT:1d6
@@ -31294,7 +31294,7 @@ sleepiness:20
 depth:20
 rarity:0
 weight:100
-experience:1
+experience:0
 blow:CLAW:HURT:3d6
 #blow:CLAW:HURT:6d3
 blow:BITE:HURT:3d6
@@ -31316,7 +31316,7 @@ sleepiness:10
 depth:40
 rarity:0
 weight:150
-experience:1
+experience:0
 blow:CLAW:HURT:4d8
 blow:BITE:HURT:4d12
 flags:BASH_DOOR
@@ -31368,5 +31368,833 @@ flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 drop:sword:'Stormbringer':100:1:1
 desc:An indestructible golem used for testing purposes.
 
+# tamer class pets
+
+name:tamed frog
+base:reptile
+color:W
+speed:110
+hit-points:1
+hearing:8
+smell:20
+armor-class:3
+sleepiness:30
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:TOUCH:POISON:1d3
+flags:RAND_25
+flags:NO_PASS_TREE
+desc:Very vicious... little frog. You may laugh at it, but don't be so sure:
+desc: it is very poisonous.
+
+# copperhead snake
+name:tamed snake
+base:snake
+color:o
+speed:110
+hit-points:3
+hearing:6
+armor-class:5
+sleepiness:10
+depth:5
+rarity:0
+weight:20
+experience:0
+blow:BITE:POISON:2d4
+flags:RAND_50
+flags:IM_POIS
+desc:Tamed sssnake dangerousss for everyone excccept itsss massster. 
+desc: It hass a copper head and sssharp venomouss fangssss.
+
+# nighthawk
+name:tamed hawk
+base:bird
+color:u
+speed:110
+hit-points:7
+hearing:30
+armor-class:10
+sleepiness:10
+depth:10
+rarity:0
+weight:30
+experience:0
+blow:CLAW:HURT:1d3
+blow:CLAW:HURT:1d3
+blow:BITE:HURT:1d4
+flags:NO_FEAR
+desc:Trained to hunt and kill without fear, this glorious bird can bring its prey
+desc: corpses to the master.
+
+name:tamed boar
+base:quadruped
+color:u
+speed:110
+hit-points:12
+hearing:12
+smell:20
+armor-class:20
+sleepiness:40
+depth:15
+rarity:0
+weight:100
+experience:0
+blow:HIT:HURT:3d4
+blow:BITE:HURT:2d6
+# 3-12 2-12
+#  7    7 = 14
+flags:ANIMAL
+flags:BASH_DOOR
+desc:Huge ill-tempered wild boar covered in brown coarse thick fur with large sharp
+desc: tusks and watery snout. It's got good sense of smell and will charge anyone
+desc: who threat its master.
+
+# werewolf
+name:tamed wolf
+base:canine
+color:D
+speed:110
+hit-points:17
+hearing:15
+smell:50
+armor-class:30
+sleepiness:70
+depth:20
+rarity:0
+weight:90
+experience:0
+blow:CLAW:HURT:2d6
+blow:CLAW:HURT:2d6
+blow:BITE:HURT:2d10
+# 2-12  2-12  2-20
+#  7     7     11 = 25
+flags:BASH_DOOR
+desc:It is a huge wolf with eyes that glow with manly intelligence.
+desc: Not many managed to time it...
+
+# werebear
+name:tamed bear
+base:quadruped
+color:D
+speed:112
+hit-points:25
+hearing:20
+smell:20
+armor-class:40
+sleepiness:40
+depth:25
+rarity:0
+weight:300
+experience:0
+blow:CLAW:HURT:1d10
+blow:CLAW:HURT:1d10
+blow:BITE:HURT:2d8
+blow:CRUSH:HURT:2d6
+# 1-10  1-10  2-16  2-12
+#  5     5     9     7 = 26 (*1.2x speed)
+flags:BASH_DOOR
+desc:In the eyes of this bear, there glimmers the bright light of
+desc: intelligence. The combination of animal cunning, nearly human intelligence
+desc: and the great physical strength makes this bear valuable ally.
+
+# basilisk
+name:tamed reptile
+base:reptile
+color:s
+speed:115
+hit-points:35
+hearing:15
+smell:20
+armor-class:50
+sleepiness:30
+depth:30
+rarity:0
+weight:200
+experience:0
+blow:BITE:HURT:2d12
+blow:BITE:HURT:2d12
+blow:BITE:HURT:2d12
+# 2-24  2-24  2-24
+#  13    13    13 = 39 (*1.5x speed)
+flags:BASH_DOOR
+flags:IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
+spell-freq:12
+spells:BO_POIS
+desc:A vile reptile that preys on unsuspecting travellers. Its eyes stare deeply
+desc: at your enemies soul starts to wilt..
+desc: It's a miracle that someone managed to tame it!
+
+name:tamed hellcat
+base:feline
+color:r
+speed:120
+hit-points:50
+light:1
+hearing:25
+smell:50
+armor-class:60
+sleepiness:10
+depth:35
+rarity:0
+weight:120
+experience:0
+blow:BITE:FIRE:4d4
+blow:BITE:FIRE:4d4
+blow:CLAW:FIRE:4d4
+# 4-16 4-16 4-16
+#  10   10   10 = 30 (*2x speed)
+flags:BASH_DOOR
+flags:IM_FIRE | HURT_ROCK | HURT_LIGHT
+spell-freq:8
+spells:BO_FIRE
+desc:Giant fiery panther that glows with heat. Flames pour from its nostrils.
+desc: Sometimes it purrs to you.
+
+name:tamed young unicorn
+base:quadruped
+color:w
+speed:120
+hit-points:70
+light:1
+hearing:20
+smell:20
+armor-class:70
+sleepiness:10
+depth:40
+rarity:0
+weight:300
+experience:0
+blow:KICK:HURT:3d12
+blow:BITE:HURT:3d12
+blow:BUTT:HURT:3d12
+# 3-36  3-36  3-36
+#  20    20    20 = 60 (*2x speed)
+flags:BASH_DOOR
+flags:REGENERATE
+flags:NO_CONF | NO_SLEEP | NO_FEAR | RES_LIGHT
+spell-freq:8
+spells:HEAL | WOUND
+desc:Innocent holy stallion in blinding white color with silky flowing manes,
+desc: sapphire blue eyes and horn which sparks with magic, walking with
+desc: dignified grace. Their neighing is like bells on the wind, sparkling like
+desc: a warm stream.
+
+# great balance drake
+name:tamed drake
+base:dragon
+color:r
+speed:125
+hit-points:100
+light:1
+hearing:20
+armor-class:84
+sleepiness:70
+depth:45
+rarity:0
+weight:4000
+experience:0
+blow:CLAW:HURT:4d8
+blow:CLAW:HURT:4d8
+blow:CRUSH:HURT:4d8
+blow:BITE:HURT:7d9
+# 4-32 4-32 4-32 7-63
+#  18   18   18   35 = 89 (*2.5x speed)
+flags:BASH_DOOR
+flags:IM_FIRE | NO_STUN | NO_CUT
+spell-freq:8
+spells:BLIND | CONF | SCARE
+spells:BA_FIRE | BO_FIRE
+desc:A quite large young dragon with shimmering scales tinted deep red.
+desc: It seems it's in deep affection to its master.
+
+# ancient red dragon
+name:tamed dragon
+base:dragon
+color:r
+speed:130
+hit-points:150
+light:2
+hearing:20
+armor-class:120
+sleepiness:80
+depth:50
+rarity:0
+weight:9000
+experience:0
+# 4-40 4-40 4-40 7-70
+# 22    22   22   38 = 104 (*3x speed)
+blow:CLAW:HURT:4d10
+blow:CLAW:HURT:4d10
+blow:CRUSH:HURT:4d10
+blow:BITE:HURT:7d10
+flags:BASH_DOOR
+flags:IM_FIRE
+spell-freq:6
+spells:BA_FIRE
+desc:A tamed full-grown dragon. Dream of many tamers of Middle-Earth.
+desc: Very intelligent, dragon consider you not as master, but rather like a friend.
+desc: Wisps of smoke steam from its nostrils and the extreme heat surrounding
+desc: it makes you gasp for breath.
+
+###### adventurer's dog
+
+name:cub
+base:canine
+color:u
+speed:110
+hit-points:1
+hearing:20
+smell:50
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d2
+flags:RAND_50
+flags:NO_PASS_TREE
+desc:Tiny wild dog which you found accidentally.
+
+name:puppy
+base:canine
+color:u
+speed:110
+hit-points:1
+hearing:20
+smell:50
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:2d3
+flags:RAND_25
+flags:NO_PASS_TREE
+desc:Small puppy, it recognizes you as a master.
+
+name:dog
+base:canine
+color:u
+speed:120
+hit-points:1
+hearing:20
+smell:50
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:4d4
+flags:NO_PASS_TREE
+desc:Your faithful dog. It wags tail all the time, even when it pursue enemies.
+
+name:hound
+base:canine
+color:u
+speed:130
+hit-points:1
+hearing:20
+smell:50
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:5d5
+flags:NO_PASS_TREE
+desc:Huge hound. You can't believe that it was a small cub one day..
+
+#### Necromancer summons
+
+name:clay_golem
+base:golem
+color:U
+speed:110
+hit-points:30
+hearing:12
+armor-class:30
+sleepiness:10
+depth:15
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d8
+blow:HIT:HURT:1d8
+flags:COLD_BLOOD
+flags:BASH_DOOR
+flags:HURT_ROCK | IM_COLD | IM_FIRE | IM_POIS
+flags:NO_STUN
+flags:SWIM_BAD
+desc:It is a massive animated statue made out of hardened clay.
+
+name:stone_golem
+base:golem
+color:s
+speed:110
+hit-points:70
+hearing:12
+armor-class:40
+sleepiness:20
+depth:25
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d12
+flags:COLD_BLOOD
+flags:BASH_DOOR
+flags:IM_COLD | IM_FIRE | IM_POIS
+flags:FORCE_SLEEP
+flags:NO_STUN
+flags:SWIM_BAD
+desc:It is a massive metal statue that moves steadily towards you.
+
+name:iron_golem
+base:golem
+color:w
+speed:110
+hit-points:100
+hearing:20
+armor-class:50
+sleepiness:50
+depth:35
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d9
+blow:HIT:HURT:1d9
+blow:HIT:HURT:1d9
+blow:HIT:HURT:1d9
+flags:IM_COLD | IM_FIRE | IM_POIS
+flags:EMPTY_MIND | REGENERATE
+flags:OPEN_DOOR | BASH_DOOR
+flags:NO_STUN | COLD_BLOOD
+flags:SWIM_BAD
+desc:It's lighter and faster than other golems.
+
+name:fire_golem
+base:golem
+color:g
+speed:120
+hit-points:150
+light:2
+hearing:25
+armor-class:70
+sleepiness:80
+depth:45
+rarity:0
+weight:0
+experience:0
+blow:CLAW:HURT:3d10
+blow:CLAW:HURT:3d10
+blow:BITE:FIRE:6d10
+blow:BITE:FIRE:6d10
+flags:OPEN_DOOR | BASH_DOOR
+flags:IM_FIRE | IM_POIS | RES_LIGHT
+flags:NO_STUN
+flags:FORCE_SLEEP
+desc:Golem consisted entirely from living flame... summoned by
+desc:accelerating particles of the air at an ever increasing pace
+desc: till the will ignite and the Golem crackles to the world of living to BURN..
+
+name:drolem_
+base:golem
+color:g
+speed:120
+hit-points:250
+hearing:25
+armor-class:100
+sleepiness:80
+depth:50
+rarity:0
+weight:0
+experience:0
+blow:CLAW:HURT:3d10
+blow:CLAW:HURT:3d10
+blow:BITE:POISON:5d10
+blow:BITE:POISON:5d10
+flags:DRAGON | COLD_BLOOD
+flags:OPEN_DOOR | BASH_DOOR
+flags:IM_COLD | IM_FIRE | IM_POIS
+flags:NO_STUN
+flags:FORCE_SLEEP
+flags:SWIM_BAD
+spell-freq:7
+innate-freq:100
+spells:ARROW
+desc:A constructed dragon, the drolem has massive strength. Powerful spells
+desc: weaved during its creation make it a fearsome adversary. Its eyes show
+desc: little intelligence, but it has been instructed to destroy all it meets.
+
+### Necromancer's skeletons
+
+name:skel
+base:skeleton
+color:w
+speed:110
+hit-points:7
+hearing:20
+armor-class:20
+sleepiness:80
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d4
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+name:skelet
+base:skeleton
+color:w
+speed:110
+hit-points:20
+hearing:20
+armor-class:30
+sleepiness:80
+depth:10
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d5
+blow:HIT:HURT:1d5
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+name:skeleton_
+base:skeleton
+color:w
+speed:110
+hit-points:40
+hearing:20
+armor-class:40
+sleepiness:80
+depth:20
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d5
+blow:HIT:HURT:1d5
+blow:HIT:HURT:1d5
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+name:skeleton warrior
+base:skeleton
+color:w
+speed:110
+hit-points:70
+hearing:20
+armor-class:50
+sleepiness:80
+depth:30
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:1d6
+blow:HIT:HURT:1d6
+blow:HIT:HURT:2d6
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+name:skeleton knight
+base:skeleton
+color:w
+speed:110
+hit-points:100
+hearing:20
+armor-class:60
+sleepiness:80
+depth:40
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+blow:HIT:HURT:2d6
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+name:skeleton warlord
+base:skeleton
+color:w
+speed:120
+hit-points:150
+hearing:20
+armor-class:80
+sleepiness:80
+depth:50
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:6d6
+blow:HIT:HURT:6d6
+blow:HIT:HURT:6d6
+blow:HIT:HURT:6d6
+flags:EMPTY_MIND
+flags:OPEN_DOOR | BASH_DOOR
+desc:It is a small animated skeleton.
+
+###### trader's cat
+
+name:kitten
+base:feline
+color:z
+speed:110
+hit-points:1
+hearing:30
+smell:30
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d1
+flags:RAND_50 | RAND_25
+flags:NO_PASS_TREE
+desc:Your meowing cat. It walks by itself, but sometimes can guard you from threats.
+
+name:cat
+base:feline
+color:z
+speed:110
+hit-points:1
+hearing:30
+smell:30
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d3
+flags:RAND_50
+flags:NO_PASS_TREE
+desc:Your meowing cat. It walks by itself, but sometimes can guard you from threats.
+
+name:housecat
+base:feline
+color:z
+speed:120
+hit-points:1
+hearing:30
+smell:30
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d6
+flags:RAND_25
+flags:NO_PASS_TREE
+desc:Your meowing cat. It walks by itself, but sometimes can guard you from threats.
+
+name:big cat
+base:feline
+color:z
+speed:130
+hit-points:1
+hearing:30
+smell:30
+armor-class:1
+sleepiness:10
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d12
+flags:NO_PASS_TREE
+desc:Your meowing cat. It walks by itself, but sometimes can guard you from threats.
+
+# Assassin's traps
+
+name:blade sentry
+base:sentry
+color:y
+speed:110
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:1
+rarity:8
+weight:10
+experience:0
+blow:HIT:HURT:1d1
+flags:NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+desc:Simple, but yet effective.
+
+name:dart sentry
+base:sentry
+color:y
+speed:110
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:10
+rarity:8
+weight:10
+experience:0
+blow:HIT:HURT:1d4
+flags:NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+spell-freq:3
+innate-freq:100
+spells:WHIP
+desc:Simple, but yet effective.
+
+name:spear sentry
+base:sentry
+color:y
+speed:110
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:20
+rarity:8
+weight:10
+experience:0
+blow:HIT:HURT:1d8
+flags:NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+spell-freq:3
+innate-freq:100
+spells:SPIT
+desc:Simple, but yet effective.
+
+name:acid sentry
+base:sentry
+color:y
+speed:110
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:30
+rarity:8
+weight:10
+experience:0
+flags:NEVER_BLOW | NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+spell-freq:3
+spells:BO_ACID
+desc:Simple, but yet effective.
+
+name:fire sentry
+base:sentry
+color:y
+speed:120
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:40
+rarity:8
+weight:10
+experience:0
+flags:NEVER_BLOW | NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+spell-freq:3
+spells:BA_FIRE
+desc:Simple, but yet effective.
+
+name:lightning sentry
+base:sentry
+color:y
+speed:130
+hit-points:1
+hearing:1
+armor-class:0
+sleepiness:100
+depth:50
+rarity:8
+weight:10
+experience:0
+flags:NEVER_BLOW | NEVER_MOVE
+flags:FORCE_SLEEP | COLD_BLOOD | STUPID | EMPTY_MIND
+flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+spell-freq:3
+innate-freq:100
+spells:BR_ELEC
+desc:Simple, but yet effective.
+
+# scavenger's
+name:baby rat
+base:rodent
+color:W
+speed:110
+hit-points:1
+hearing:8
+smell:20
+armor-class:3
+sleepiness:30
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d1
+flags:NO_PASS_TREE
+desc:Very vicious rodent. It can bite (quite painfully) all who threats its master.
+
+name:rat
+base:rodent
+color:W
+speed:120
+hit-points:1
+hearing:8
+smell:20
+armor-class:3
+sleepiness:30
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d2
+flags:NO_PASS_TREE
+desc:Very vicious rodent. It can bite (quite painfully) all who threats its master.
+
+name:fancy rat
+base:rodent
+color:W
+speed:130
+hit-points:1
+hearing:8
+smell:20
+armor-class:3
+sleepiness:30
+depth:1
+rarity:0
+weight:0
+experience:0
+blow:BITE:HURT:1d3
+flags:NO_PASS_TREE
+desc:Very vicious rodent. It can bite (quite painfully) all who threats its master.
 
 # # leave empty line for EOF
