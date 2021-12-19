@@ -12,9 +12,13 @@ README=\
 * Discord channel: https://discord.gg/zBNG369
 
 to make script executable, use chmod +x ./tangaria-setup.sh
-if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
-***if you use RPM-based linux (Fedora, RHEL, CentOS..) the command to obtain build tools is something like: sudo dnf group install "Development Tools"
-and the command to obtain all the needed libraries is: sudo dnf install SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
+if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get
+install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev 
+libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
+***if you use RPM-based linux (Fedora, RHEL, CentOS..) the command to obtain
+build tools is something like: sudo dnf group install "Development Tools"
+and the command to obtain all the needed libraries is: sudo dnf install 
+SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
 <<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>'
 
 ## ./configure --help
@@ -82,6 +86,7 @@ CHECKLIST_OPTIONS_CLIENT_DESKTOP=ON
 CHECKLIST_OPTIONS_SERVER_DESKTOP=ON
 CHECKLIST_OPTIONS_LINK_DIR_USER=ON
 CHECKLIST_OPTIONS_TANGARIA_RELEASE=ON
+CHECKLIST_OPTIONS_REMOVE_DIR=ON
 CHECKLIST_OPTIONS_APPIMAGE=OFF
 
 CHECKLIST_UPDATE_DOWNLOAD_TANGARIA=ON
@@ -270,6 +275,7 @@ checkListOptions() {
             "server.desktop" "AppMenu " $CHECKLIST_OPTIONS_SERVER_DESKTOP \
             "link directory user" "ln path " $CHECKLIST_OPTIONS_LINK_DIR_USER \
             "$REPOSITORY_NAME_TANGARIA_RELEASE" "install " $CHECKLIST_OPTIONS_TANGARIA_RELEASE \
+            "remove dir" "" $CHECKLIST_OPTIONS_REMOVE_DIR \
             "AppImage" "build " $CHECKLIST_OPTIONS_APPIMAGE \
             3>&1 1>&2 2>&3)
 
@@ -279,6 +285,7 @@ checkListOptions() {
             arrayContains MENU_OPTIONS[@] "server.desktop" CHECKLIST_OPTIONS_SERVER_DESKTOP
             arrayContains MENU_OPTIONS[@] "link directory user" CHECKLIST_OPTIONS_LINK_DIR_USER
             arrayContains MENU_OPTIONS[@] "$REPOSITORY_NAME_TANGARIA_RELEASE" CHECKLIST_OPTIONS_TANGARIA_RELEASE
+            arrayContains MENU_OPTIONS[@] "remove dir" CHECKLIST_OPTIONS_REMOVE_DIR
             arrayContains MENU_OPTIONS[@] "AppImage" CHECKLIST_OPTIONS_APPIMAGE
         else
             clear
@@ -388,7 +395,7 @@ else
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_PWMANGBAND" = "ON" ]; then
-    rm -rf $(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/)
+    rm -rf ./$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/)
     unzip -o ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}.zip || exit 1
 fi
 }
@@ -418,7 +425,7 @@ else
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA" = "ON" ]; then
-    rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA}-*/)
+    rm -rf ./$(ls -d ${REPOSITORY_NAME_TANGARIA}-*/)
     unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}.zip || exit 1
 fi
 
@@ -433,7 +440,7 @@ if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE" = "ON" ]; then
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
-    rm -rf $(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
+    rm -rf ./$(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
     unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}.zip || exit 1
 fi
 
@@ -472,6 +479,8 @@ build_AppImage() {
 # Thus, while this script shall work on your machine, and that is
 # useful for debugging it, please DON'T re-destribute the resulting
 # appimage!
+#
+# to build appimage with music, copy to 'SETUP_FILES/music'
 
 echo "        __      __    "
 echo "     __/  \-''- _ |   "
@@ -624,6 +633,11 @@ fi
 
 ###################################
 
+# Music
+if [ -d "./music" ]; then
+cp -Rfv ./music ./${APP_DIR}${INSTALL_DIR}/share/pwmangband
+fi
+
 mv ./${APP_DIR}/tmp/${NAME_ROGUELIKE} ./${APP_DIR}/usr
 rm -rf ./${APP_DIR}/tmp
 
@@ -717,6 +731,19 @@ rm -f ${NAME_ROGUELIKE}*.AppImage*
 --appdir ./${APP_DIR} \
 --desktop-file ./${APP_DIR}/pwmangclient.desktop \
 --output appimage
+
+if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
+    rm -r ./${APP_DIR}
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
+        rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
+    fi
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+        rm -r ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}
+    fi
+    if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
+        rm -r ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}
+    fi
+fi
 
 exit 0
 }
@@ -914,6 +941,20 @@ else
     esac
 fi
 
+cd ../ || exit 1
+
+fi
+
+if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
+        rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
+    fi
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+        rm -r ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}
+    fi
+    if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
+        rm -r ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}
+    fi
 fi
 
 if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
@@ -930,6 +971,7 @@ echo "  '  '          "
 echo "    tangaria.com"
 echo "                "
 fi
+
 exit 0
 }
 
