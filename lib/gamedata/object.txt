@@ -2212,6 +2212,7 @@ graphics:=:d
 type:ring
 level:75
 weight:2
+# price hc in store.c
 cost:100000
 alloc:40:75 to 100
 flags:GOOD
@@ -3421,6 +3422,9 @@ alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:STR
 effect:RESTORE_STAT:STR
+effect:RANDOM
+dice:2
+effect:RESTORE_STAT:STR
 
 name:Intelligence
 graphics:!:d
@@ -3431,6 +3435,9 @@ cost:8000
 alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:INT
+effect:RESTORE_STAT:INT
+effect:RANDOM
+dice:2
 effect:RESTORE_STAT:INT
 
 name:Wisdom
@@ -3443,6 +3450,9 @@ alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:WIS
 effect:RESTORE_STAT:WIS
+effect:RANDOM
+dice:2
+effect:RESTORE_STAT:WIS
 
 name:Dexterity
 graphics:!:d
@@ -3454,6 +3464,9 @@ alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:DEX
 effect:RESTORE_STAT:DEX
+effect:RANDOM
+dice:2
+effect:RESTORE_STAT:DEX
 
 name:Constitution
 graphics:!:d
@@ -3464,6 +3477,9 @@ cost:8000
 alloc:30:30 to 100
 pile:10:2
 effect:GAIN_STAT:CON
+effect:RESTORE_STAT:CON
+effect:RANDOM
+dice:2
 effect:RESTORE_STAT:CON
 
 name:Ugliness
@@ -3488,10 +3504,10 @@ weight:4
 cost:50000
 alloc:20:40 to 100
 effect:GAIN_STAT:CHR
-effect:NOURISH:INC_BY
-dice:0
+effect:RESTORE_STAT:CHR
+effect:RESTORE_STAT:CHR
 effect:RANDOM
-dice:2
+dice:3
 effect:RESTORE_STAT:CHR
 effect:GAIN_STAT:CON
 effect:RESTORE_STAT:CON
@@ -6206,7 +6222,7 @@ graphics:{:v
 type:arrow
 level:10
 weight:2
-# price hc
+# price hc in obj-power.c
 cost:100
 alloc:10:10 to 100
 attack:1d4:0:0
@@ -6219,7 +6235,7 @@ graphics:{:b
 type:bolt
 level:10
 weight:3
-# price hc
+# price hc in obj-power.c
 cost:100
 alloc:10:10 to 100
 attack:1d5:0:0
@@ -6232,7 +6248,7 @@ graphics:{:D
 type:shot
 level:10
 weight:2
-# price hc
+# price hc in obj-power.c
 cost:100
 alloc:10:10 to 100
 attack:1d3:0:0
@@ -6248,7 +6264,7 @@ weight:5
 cost:1
 pile:100:6d7
 alloc:20:1 to 100
-attack:1d6:0:0
+attack:1d5:0:0
 armor:0:0
 brand:STUN_1
 flags:THROWING
@@ -6512,7 +6528,7 @@ graphics:~:U
 type:light
 level:5
 weight:100
-# price hc
+# price hc in store.c
 cost:100
 alloc:70:1 to 10
 flags:BURNS_OUT | LIGHT_3
@@ -6695,11 +6711,11 @@ name:& Cobble~
 graphics:*:s
 type:cobble
 level:1
-weight:6
+weight:10
 cost:1
 pile:100:2d6
 alloc:5:1 to 100
-attack:1d5:0:0
+attack:1d6:0:0
 armor:0:0
 brand:STUN_1
 flags:THROWING
@@ -7187,7 +7203,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:this wild lands? You are not the first who came
@@ -7195,7 +7211,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:though.. Strange folk appeared recently.
@@ -7203,7 +7219,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And all of them ar interested in Old Ruins to the
@@ -7211,7 +7227,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:north-east from my tavern. But I don't complain..
@@ -7219,7 +7235,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Finally I could get a few coins by selling some
@@ -7227,7 +7243,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:of this goods.. Take a look at them...
@@ -7235,7 +7251,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Be careful in Mountain Gorge to the east..
@@ -7243,7 +7259,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I didn't visit town for some time already..
@@ -7251,7 +7267,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Maybe its time for me to go on adventure with you
@@ -7259,7 +7275,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(you take the cat in your arms..)
@@ -7267,7 +7283,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:meow
@@ -7275,7 +7291,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*purrr*
@@ -7283,7 +7299,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Who are ya? What do ya need? Whaat? I can't hear 
@@ -7291,7 +7307,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:you.. *grumbles* They come.. and go.. come.. and
@@ -7299,7 +7315,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:sometimes not come back..
@@ -7307,7 +7323,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*whipped up* So.. Can ya read? If you can't,
@@ -7315,7 +7331,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I can't help ya.. But if you do - take a look at
@@ -7323,7 +7339,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:this finest books about miracles. With them you 
@@ -7331,7 +7347,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:would be able to conquer world!.. What?? 
@@ -7339,7 +7355,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I can't hear ya!! Speak louder, yongster! Whaat?
@@ -7347,7 +7363,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*sings* Once I came to the land of dreams...
@@ -7355,7 +7371,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*sings* Three trolls.. In the forest of mourn..
@@ -7363,7 +7379,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*sings* Don ya tell me wat to do, little fairy..
@@ -7371,7 +7387,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Did ya know there is a secret passage nearby? shh
@@ -7379,7 +7395,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(You hear shuffling) *growl* Arr.. Who is there?
@@ -7387,7 +7403,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(small narrow window on the door opened)
@@ -7395,7 +7411,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(you see bright blue eyes through it)
@@ -7403,7 +7419,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(it appeared to be a mirror to hide from arrows)
@@ -7411,7 +7427,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Oh! A human-beign! Are you in union with this
@@ -7419,7 +7435,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:cave orcs?! Darn orcish beasts! Filthy maggots!
@@ -7427,7 +7443,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:...Erm.. Anyway. Got any tabacco, mate?
@@ -7435,7 +7451,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I got plenty of food there, but no darn weed to
@@ -7443,7 +7459,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:fill my pipe.. I'm alone there, you see..
@@ -7451,7 +7467,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:All horizon run away back to town on the west 
@@ -7459,7 +7475,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:months ago.. Filthy cowards! Went back to mommy!
@@ -7467,7 +7483,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:But I won't run from this stupid orcish beasts!
@@ -7475,7 +7491,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:They would know how to come to The Guards Tower!!
@@ -7483,7 +7499,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Darn.. Are you pretty sure ya don have any weed?
@@ -7491,7 +7507,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I see.. *sight* You are not the first who came..
@@ -7499,7 +7515,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Anyway If you wanna hunt some orcs - get to
@@ -7507,7 +7523,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:their cave on the west from the lake..
@@ -7515,7 +7531,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Long time ago this was a heart of trade ways..
@@ -7523,7 +7539,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:It was well guarded dwarven trade route.. 
@@ -7531,7 +7547,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:A lot of caravans traveled over this lands.. 
@@ -7539,7 +7555,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And now everything gone.. Only orcs left. And me.
@@ -7547,7 +7563,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hello, stranger. Don't you mind to put your
@@ -7555,7 +7571,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:weapons away, to sheath them.. I don't like
@@ -7563,7 +7579,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:people going around with all this fighting stuff.
@@ -7571,7 +7587,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Erhh. Even villagers like me nowadays took
@@ -7579,7 +7595,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:weapons in their hands. I heard old Mag run away
@@ -7587,7 +7603,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:to the forest.. Old mad dog.. Everything went to
@@ -7595,7 +7611,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:dogs nowadays.. No food to grow, only mushrooms..
@@ -7603,7 +7619,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And I hate mushrooms.
@@ -7611,7 +7627,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Marta could cook mushrooms in 57 different ways..
@@ -7619,7 +7635,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:It doesn't help though. Nothing help..
@@ -7627,7 +7643,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I can't sell you food, adventurer.
@@ -7635,7 +7651,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I don't need you gold. There is no food. NO FOOD.
@@ -7643,7 +7659,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:My pumpkin's were famous all over Middle-Lands!
@@ -7651,7 +7667,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And now I'm broken. People kill for food.
@@ -7659,7 +7675,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Oh, dear.. It's a pity I can't feed you.
@@ -7667,7 +7683,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:We barely survive from hunger by our-self..
@@ -7675,7 +7691,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:But you could look for smthing in tavern in town
@@ -7683,7 +7699,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Nowadays there are so much adventurers around..
@@ -7691,7 +7707,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I hope you won't make trouble to us.
@@ -7699,7 +7715,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Be safe..
@@ -7707,7 +7723,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hi.. Don't look at me with such hungry eyes..
@@ -7715,7 +7731,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Didn't you know about catastrophe?
@@ -7723,7 +7739,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Oh.. You are outlander.. Well.. I wonder why you
@@ -7731,7 +7747,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:came there.. At your place I wouldn't come to
@@ -7739,7 +7755,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:this lands even for all gold of the world.
@@ -7747,7 +7763,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Anyway.. In short words - gods cursed us.
@@ -7755,7 +7771,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*whispers* (they say). No one knows really.
@@ -7763,7 +7779,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Fields don't provide yeild anymore..
@@ -7771,7 +7787,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:All cattle died by unknown diseases.
@@ -7779,7 +7795,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:So bag of wheat cost more then two bags of gold.
@@ -7787,7 +7803,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Eeh.. But we still got some booze left.. *hic*
@@ -7795,7 +7811,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:We got troubles with burglars from town severs..
@@ -7803,7 +7819,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Someone should give a lesson to this thiefs...
@@ -7811,7 +7827,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(you are trying to pat the dog)
@@ -7819,7 +7835,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(the dog carefully sniff your arm)
@@ -7827,7 +7843,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(the dog allow you to pat it on the head)
@@ -7835,7 +7851,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(the dog wing it's tail)
@@ -7843,7 +7859,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Gaf-gaf!
@@ -7851,7 +7867,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Bow-vo!
@@ -7859,7 +7875,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Arf-arf!
@@ -7867,7 +7883,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*rrrr*
@@ -7875,7 +7891,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I'd shoot rat in the eye, so I wont spoil its fur
@@ -7883,7 +7899,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hm. Hello. I'm Archy - and who are you?
@@ -7891,7 +7907,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Oh.. A hero. Alright. Can you shoot with a bow?
@@ -7899,7 +7915,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Crossbow? Catapult? Haha! Anyway..
@@ -7907,7 +7923,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:If ya can't shoot - then try to throw rocks.
@@ -7915,7 +7931,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Still effective way to survive. Just dont forget
@@ -7923,7 +7939,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Dont become a dead hero. Run. Use plan B. Escape.
@@ -7931,7 +7947,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Good hero - is alive hero. You won't help the
@@ -7939,7 +7955,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:world if you would die. Many tried...
@@ -7947,7 +7963,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*Grins* Dont run from archer. You will die tired!
@@ -7955,7 +7971,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Your strength is in your guts, not muscles..
@@ -7963,7 +7979,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:An dont forget to bring me some ale from sewers..
@@ -7971,7 +7987,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Stay awhile.. Er.. Wait.. Come closer, young men
@@ -7979,7 +7995,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:or woman? I can not see well.. Damn manuscripts!
@@ -7987,7 +8003,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:(Old man hears your voice) Oh. Hello there.
@@ -7995,7 +8011,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I am headman of this village. Deckard is my name.
@@ -8003,7 +8019,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And we are not doing well, you know. All this
@@ -8011,7 +8027,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:food problem and everything.. But we get used to
@@ -8019,7 +8035,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:it. I love mushrooms, you know.. But there is
@@ -8027,7 +8043,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:another problem. Scoundrels, rogues and bandits.
@@ -8035,7 +8051,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Someone say they got a headquaters in severs.
@@ -8043,7 +8059,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Could you help us with it? I heard they got
@@ -8051,7 +8067,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:plenty of gold..and what is more important - food
@@ -8059,7 +8075,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:down there.. You will find severs to the east of
@@ -8067,7 +8083,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:our village. 
@@ -8075,7 +8091,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Take care, friend.. And good luck to thee..
@@ -8083,7 +8099,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:There always were a lot of criminal.. But not so.
@@ -8091,7 +8107,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:We thought the worse was lack of food...
@@ -8099,7 +8115,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Outlaws, robbers..and even monsters. Gods save us
@@ -8107,7 +8123,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Stranger, don't make trouble in our town..
@@ -8115,7 +8131,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Or I'll take care of you.
@@ -8123,7 +8139,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:... 
@@ -8131,7 +8147,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:You look tought.
@@ -8139,7 +8155,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I hope you won't make trouble.
@@ -8147,7 +8163,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Mind to help us in this dire days? 
@@ -8155,7 +8171,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I wanna point out immideatelly - we don't recruit
@@ -8163,7 +8179,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:to the guard. Magistrate has to cut our funds
@@ -8171,7 +8187,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:recently.. I got only a few mushrooms per day..
@@ -8179,7 +8195,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Aa-ah. Anyway. We need a hand with all this 
@@ -8187,7 +8203,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:madness happening around. Our mayor is missing..
@@ -8195,7 +8211,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Last time he was seen coming to the Hunter Valley
@@ -8203,7 +8219,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:to the south-east to visit Old Sorcerer, to ask
@@ -8211,7 +8227,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:him to help us with wraiths from the north..
@@ -8219,7 +8235,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Maybe you can help to find him? I can't go myself
@@ -8227,7 +8243,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:as I need to protect this town...
@@ -8235,7 +8251,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Years ago I was an adventurer myself.. But..
@@ -8243,7 +8259,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Life is tought. I had enought scars on my face.
@@ -8251,7 +8267,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:You would understand me one day.
@@ -8259,7 +8275,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey dol! merry dol! ring a dong dillo!
@@ -8267,7 +8283,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Ring a dong! hop along! Fal lal the willow!
@@ -8275,7 +8291,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom Bom, jolly Tom, Tom Bombadillo!
@@ -8283,7 +8299,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey! Come merry dol! derry dol! My darling!
@@ -8291,7 +8307,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Light goes weather-wind n the feathered starling!
@@ -8299,7 +8315,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Down along under Hill, shining in the sunlight!
@@ -8307,7 +8323,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Waiting on the doorstep for the cold starlight!
@@ -8315,7 +8331,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:There my pretty lady is, River-woman's daughter!
@@ -8323,7 +8339,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Slender as willow-wand, clearer than the water!
@@ -8331,7 +8347,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Old Tom Bombadil water-lilies bringing!
@@ -8339,7 +8355,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Comes hopping home again. Can y hear him singing?
@@ -8347,7 +8363,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey! Come merry dol! derry dol! and merry-o!
@@ -8355,7 +8371,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Goldberry, Goldberry, merry yellow berry-o!
@@ -8363,7 +8379,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Poor old Willow-man, you tuck your roots away!
@@ -8371,7 +8387,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom's in a hurry now. Evening will follow day.
@@ -8379,7 +8395,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom's going home again water-lilies bringing.
@@ -8387,7 +8403,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey! Come derry dol! Can you hear me singing?
@@ -8395,7 +8411,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hop along, my little friends, up the Withywindle!
@@ -8403,7 +8419,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom's going on ahead candles for to kindle!
@@ -8411,7 +8427,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Down west sinks the Sun - soon you'll be groping!
@@ -8419,7 +8435,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:When night-shadows fall, then the door will open!
@@ -8427,7 +8443,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Out of window-panes light will twinkle yellow!
@@ -8435,7 +8451,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Fear no alder black! Heed no hoary willow!
@@ -8443,7 +8459,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Fear neighter root nor bough! 
@@ -8451,7 +8467,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom goes on before you!
@@ -8459,7 +8475,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey now! merry dol! We'll be waiting for you!
@@ -8467,7 +8483,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hey! Come derry dol! Hop along, my hearties!
@@ -8475,7 +8491,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Hobbits! Ponies all! We are fond of parties.
@@ -8483,7 +8499,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now let the fun begin! Let us sing together!
@@ -8491,7 +8507,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now let the song begin! Let us sing together!
@@ -8499,7 +8515,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Of sun, stars, moon and mist!
@@ -8507,7 +8523,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Rain and cloudy weather!
@@ -8515,7 +8531,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Light on the budding leaf, dew on the feather!
@@ -8523,7 +8539,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Wind on the open hill, bells on the heather!
@@ -8531,7 +8547,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Reeds by the shady pool, lilies on the water!
@@ -8539,7 +8555,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Old Tom Bombadil and the River-daughter!
@@ -8547,7 +8563,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I had an errand there - gathering water-lilies!
@@ -8555,7 +8571,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Green leaves and lilies white for my pretty lady!
@@ -8563,7 +8579,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Ho! Tom Bombadil, Tom Bombadillo!
@@ -8571,7 +8587,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:By water, wood and hill, by the reed and willow!
@@ -8579,7 +8595,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:By fire, sun and moon, harken now and hear us!
@@ -8587,7 +8603,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Come, Tom Bombadil, for our need is near us!
@@ -8595,7 +8611,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Old Tom Bombadil is a merry fellow!
@@ -8603,7 +8619,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Bright blue his jacket is, n his boots ar yellow!
@@ -8611,7 +8627,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Non hs evr caugt him et, for Tom, he's th master!
@@ -8619,7 +8635,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:His songs ar stronger songs, n his feet r faster!
@@ -8627,7 +8643,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Wake now my merry lads! Wake and hear me calling!
@@ -8635,7 +8651,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Warm now be heart and limb!
@@ -8643,7 +8659,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The cold stone is fallen!
@@ -8651,7 +8667,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Dark door is standing wide; dead hand is broken!
@@ -8659,7 +8675,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Night under Night is flown, and the Gate is open!
@@ -8667,7 +8683,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Tom has his house to mind, n Goldbery is waiting!
@@ -8675,7 +8691,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:There is an inn, a merry old inn
@@ -8683,7 +8699,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:beneath an old grey hill,
@@ -8691,7 +8707,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And there they brew a beer so brown
@@ -8699,7 +8715,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:That the Man in the Moon himself came down
@@ -8707,7 +8723,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:One night to drink his fill.
@@ -8715,7 +8731,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The ostler has a tipsy cat
@@ -8723,7 +8739,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:that plays a five-stringed fiddle;
@@ -8731,7 +8747,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And up and down he runs his bow,
@@ -8739,7 +8755,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now squeaking high, now purring low,
@@ -8747,7 +8763,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now sawing in the middle.
@@ -8755,7 +8771,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The landlord keeps a little dog
@@ -8763,7 +8779,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:that is mighty fond of jokes;
@@ -8771,7 +8787,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:When there's good cheer among the guests,
@@ -8779,7 +8795,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:He cocks an ear at all the jests
@@ -8787,7 +8803,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And laughs until he chokes.
@@ -8795,7 +8811,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:They also keep a horned cow
@@ -8803,7 +8819,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:as proud as any queen;
@@ -8811,7 +8827,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:But music turns her head like ale,
@@ -8819,7 +8835,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And makes her wave her tufted tail
@@ -8827,7 +8843,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and dance upon the green.
@@ -8835,7 +8851,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And O! the rows of silver dishes
@@ -8843,7 +8859,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and the store of silver spoons!
@@ -8851,7 +8867,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:For Sunday there's a special pair,
@@ -8859,7 +8875,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And these they polish up with care
@@ -8867,7 +8883,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:on Saturday afternoons.
@@ -8875,7 +8891,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The Man in the Moon was drinking deep,
@@ -8883,7 +8899,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and the cat began to wail;
@@ -8891,7 +8907,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:A dish and a spoon on the table danced,
@@ -8899,7 +8915,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The cow in the garden madly pranced,
@@ -8907,7 +8923,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and the little dog chased his tail.
@@ -8915,7 +8931,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The Man in the Moon took another mug,
@@ -8923,7 +8939,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and then rolled beneath his chair;
@@ -8931,7 +8947,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And there he dozed and dreamed of ale,
@@ -8939,7 +8955,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Till in the sky the stars were pale,
@@ -8947,7 +8963,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and dawn was in the air.
@@ -8955,7 +8971,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Then the ostler said to his tipsy cat
@@ -8963,7 +8979,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The white horses of the Moon,
@@ -8971,7 +8987,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:They neigh and champ their silver bits;
@@ -8979,7 +8995,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:But their master's been and drowned his wits,
@@ -8987,7 +9003,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and the Sun'll be rising soon!'
@@ -8995,7 +9011,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:So the cat on his fiddle played hey-diddle-diddle
@@ -9003,7 +9019,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:a jig that would wake the dead
@@ -9011,7 +9027,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:He squeaked and sawed and quickened the tune,
@@ -9019,7 +9035,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:While the landlord shook the Man in the Moon
@@ -9027,7 +9043,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:'It's after three!' he said.
@@ -9035,7 +9051,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:They rolled the Man slowly up the hill
@@ -9043,7 +9059,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and bundled him into the Moon,
@@ -9051,7 +9067,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:While his horses galloped up in rear,
@@ -9059,7 +9075,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And the cow came capering like a deer,
@@ -9067,7 +9083,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and a dish ran up with the spoon.
@@ -9075,7 +9091,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now quicker the fiddle went deedle-dum-diddle;
@@ -9083,7 +9099,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:the dog began to roar,
@@ -9091,7 +9107,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The cow and the horses stood on their heads;
@@ -9099,7 +9115,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The guests all bounded from their beds
@@ -9107,7 +9123,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and danced upon the floor.
@@ -9115,7 +9131,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:With a ping and a pong the fiddle-strings broke!
@@ -9123,7 +9139,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:the cow jumped over the Moon,
@@ -9131,7 +9147,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And the little dog laughed to see such fun,
@@ -9139,7 +9155,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And the Saturday dish went off at a run
@@ -9147,7 +9163,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:with the silver Sunday spoon.
@@ -9155,7 +9171,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The round Moon rolled behind the hill
@@ -9163,7 +9179,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:as the Sun raised up her head.
@@ -9171,7 +9187,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:She hardly believed her fiery eyes;
@@ -9179,7 +9195,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:For though it was day, to her surprise
@@ -9187,7 +9203,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:they all went back to bed!
@@ -9195,7 +9211,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Elves seldom give unguarded advice...
@@ -9203,7 +9219,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Advice is a dangerous gift,
@@ -9211,7 +9227,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:even from the wise to the wise,
@@ -9219,7 +9235,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:and all courses may run ill.
@@ -9227,7 +9243,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The wide world is all about you -
@@ -9235,7 +9251,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:you can fence yourselves in,
@@ -9243,7 +9259,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:but you cannot forever fence it out.
@@ -9251,7 +9267,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Courage is found in unlikely places.
@@ -9259,7 +9275,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Do not meddle in the affairs of Wizards...
@@ -9267,7 +9283,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:The choice is yours - to go or wait.
@@ -9275,7 +9291,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Errr...
@@ -9283,7 +9299,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Who are you?
@@ -9291,7 +9307,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Anyway..
@@ -9299,7 +9315,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*spits*
@@ -9307,7 +9323,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Kek..
@@ -9315,7 +9331,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*whispers* All this damn rag-tag danglers..
@@ -9323,7 +9339,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:And this thatched barn...
@@ -9331,7 +9347,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Need a pony? Twelve silver pennies and its yours!
@@ -9339,7 +9355,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Off early?
@@ -9347,7 +9363,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Found some friends at last?
@@ -9355,7 +9371,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I suppose you know who you've taken up with?
@@ -9363,7 +9379,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Watch out tonight!
@@ -9371,7 +9387,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*spits*
@@ -9379,7 +9395,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I'm training there.. Don't mess around.
@@ -9387,7 +9403,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:If ever such a tale was told in the South...
@@ -9395,7 +9411,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Believe not that the blood of Numenor is spent.
@@ -9403,7 +9419,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:By our valour the East are still restrained..
@@ -9411,7 +9427,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Barliman is my name.
@@ -9419,7 +9435,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Barliman Butterbur at your service!
@@ -9427,7 +9443,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:My granddaughter is in charge right now...
@@ -9435,7 +9451,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Now what does that remind me of?
@@ -9443,7 +9459,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:There now!
@@ -9451,7 +9467,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:It's gone again!
@@ -9459,7 +9475,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:But it'll come back, when I have time to think.
@@ -9467,7 +9483,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I'm run off my feet..
@@ -9475,7 +9491,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I'll see what I can do for you..
@@ -9483,7 +9499,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Here is a nice little parlour!
@@ -9491,7 +9507,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I hope it will suit.
@@ -9499,7 +9515,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Excuse me now. I'm that busy.
@@ -9507,7 +9523,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:No time for talking.
@@ -9515,7 +9531,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I must be trotting.
@@ -9523,7 +9539,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:It's hard work for two legs..
@@ -9531,7 +9547,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:If you want anything, ring the hand bell.
@@ -9539,7 +9555,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Give. Eat. Me. Hungry.
@@ -9547,7 +9563,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*blowing his nose*
@@ -9555,7 +9571,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*burps*
@@ -9563,7 +9579,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*picking his nose*
@@ -9571,7 +9587,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Coming! Coming!
@@ -9579,7 +9595,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*grins*
@@ -9587,7 +9603,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*winks*
@@ -9595,7 +9611,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Ring the bell, if you lack anything!
@@ -9603,7 +9619,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Will you be wanting anything to drink, master?
@@ -9611,7 +9627,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Shall I show you the bedrooms?
@@ -9619,7 +9635,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Supper is getting ready...
@@ -9627,7 +9643,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*smiles*
@@ -9635,7 +9651,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:I saw Gandalf onces...
@@ -9643,7 +9659,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:Gandalf makes so great fireworks!
@@ -9651,7 +9667,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:My grandfarther was a warrior too!
@@ -9659,7 +9675,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*sings* Once I came to the land of dreams...
@@ -9667,7 +9683,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 name:*sings* Three trolls.. In the forest of mourn..
@@ -9675,7 +9691,7 @@ graphics:?:y
 type:fortune cookie
 level:0
 weight:5
-cost:99999999
+cost:-1
 desc:.
 
 # add empty line EOF
