@@ -1,25 +1,27 @@
 #!/usr/bin/env bash
 
 ## Script for setup Tangaria
-##
+# <<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
 README=\
-'<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
-* Link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria_release/master/tangaria-setup.sh
+'* link to latest version: https://raw.githubusercontent.com/igroglaz/Tangaria_release/master/tangaria-setup.sh
+* PWMAngband Website: https://powerwyrm.monsite-orange.fr
 * Github PWMAngband: https://github.com/draconisPW/PWMAngband
-* PWMAngband binaries: https://powerwyrm.monsite-orange.fr
+* Tangaria Website: https://tangaria.com
 * Github Tangaria: https://github.com/igroglaz/Tangaria
-* Link to Tangaria: https://tangaria.com
 * Discord channel: https://discord.gg/zBNG369
 
 to make script executable, use chmod +x ./tangaria-setup.sh
 if you have Debian-based linux*** (Ubuntu, Mint, etc) requires: sudo apt-get
-install build-essential autoconf libsdl1.2debian libsdl-ttf2.0-dev 
-libsdl-image1.2-dev libsdl-mixer1.2-dev libncurses5-dev
+install build-essential autoconf libsdl1.2debian libsdl-image1.2-dev 
+libsdl-ttf2.0-dev libsdl-mixer1.2-dev libncurses5-dev 
+libsdl2-dev libsdl2-image-dev libsdl2-ttf-dev libsdl2-mixer-dev
 ***if you use RPM-based linux (Fedora, RHEL, CentOS..) the command to obtain
 build tools is something like: sudo dnf group install "Development Tools"
 and the command to obtain all the needed libraries is: sudo dnf install 
-SDL-devel SDL_ttf-devel SDL_mixer-devel SDL_image-devel ncurses-devel
-<<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>'
+SDL-devel SDL_image-devel SDL_ttf-devel SDL_mixer-devel ncurses-devel 
+SDL2-devel SDL2_image-devel SDL2_ttf-devel SDL2_mixer-devel
+'
+# <<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>><<>>
 
 ## ./configure --help
 
@@ -79,18 +81,19 @@ RADIOLIST_VERSION_SRC_OTHER=OFF
 
 MENU_CLIENT="sdl"
 RADIOLIST_CLIENT_SDL=ON
+RADIOLIST_CLIENT_SDL2=OFF
 RADIOLIST_CLIENT_CURSES=OFF
 RADIOLIST_CLIENT_OTHER=OFF
 
 CHECKLIST_OPTIONS_CLIENT_DESKTOP=ON
 CHECKLIST_OPTIONS_SERVER_DESKTOP=ON
 CHECKLIST_OPTIONS_LINK_DIR_USER=ON
-CHECKLIST_OPTIONS_TANGARIA_RELEASE=ON
 CHECKLIST_OPTIONS_REMOVE_DIR=ON
 CHECKLIST_OPTIONS_APPIMAGE=OFF
 
 CHECKLIST_UPDATE_DOWNLOAD_TANGARIA=ON
 CHECKLIST_UPDATE_UNPACK_TANGARIA=ON
+CHECKLIST_UPDATE_TANGARIA_RELEASE=ON
 CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE=ON
 CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE=ON
 CHECKLIST_UPDATE_DOWNLOAD_PWMANGBAND=ON
@@ -253,6 +256,7 @@ radioListClient() {
     MENU_CLIENT=$($DIALOG --title "Client" --nocancel --radiolist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect client version:" 16 54 6 \
             "sdl" "(SDL 1.2) " $RADIOLIST_CLIENT_SDL \
+            "sdl2" "(SDL 2.0) " $RADIOLIST_CLIENT_SDL2 \
             "curses" "(terminal) " $RADIOLIST_CLIENT_CURSES \
             "other" "(./configure) " $RADIOLIST_CLIENT_OTHER \
             3>&1 1>&2 2>&3)
@@ -260,6 +264,7 @@ radioListClient() {
         exitstatus=$?
         if [ ${exitstatus} = 0 ]; then
             arrayContains MENU_CLIENT[@] "sdl" RADIOLIST_CLIENT_SDL
+            arrayContains MENU_CLIENT[@] "sdl2" RADIOLIST_CLIENT_SDL2
             arrayContains MENU_CLIENT[@] "curses" RADIOLIST_CLIENT_CURSES
             arrayContains MENU_CLIENT[@] "other" RADIOLIST_CLIENT_OTHER
         else
@@ -274,8 +279,7 @@ checkListOptions() {
             "client.desktop" "AppMenu " $CHECKLIST_OPTIONS_CLIENT_DESKTOP \
             "server.desktop" "AppMenu " $CHECKLIST_OPTIONS_SERVER_DESKTOP \
             "link directory user" "ln path " $CHECKLIST_OPTIONS_LINK_DIR_USER \
-            "$REPOSITORY_NAME_TANGARIA_RELEASE" "install " $CHECKLIST_OPTIONS_TANGARIA_RELEASE \
-            "remove dir" "" $CHECKLIST_OPTIONS_REMOVE_DIR \
+            "remove src dir" "" $CHECKLIST_OPTIONS_REMOVE_DIR \
             "AppImage" "build " $CHECKLIST_OPTIONS_APPIMAGE \
             3>&1 1>&2 2>&3)
 
@@ -284,8 +288,7 @@ checkListOptions() {
             arrayContains MENU_OPTIONS[@] "client.desktop" CHECKLIST_OPTIONS_CLIENT_DESKTOP
             arrayContains MENU_OPTIONS[@] "server.desktop" CHECKLIST_OPTIONS_SERVER_DESKTOP
             arrayContains MENU_OPTIONS[@] "link directory user" CHECKLIST_OPTIONS_LINK_DIR_USER
-            arrayContains MENU_OPTIONS[@] "$REPOSITORY_NAME_TANGARIA_RELEASE" CHECKLIST_OPTIONS_TANGARIA_RELEASE
-            arrayContains MENU_OPTIONS[@] "remove dir" CHECKLIST_OPTIONS_REMOVE_DIR
+            arrayContains MENU_OPTIONS[@] "remove src dir" CHECKLIST_OPTIONS_REMOVE_DIR
             arrayContains MENU_OPTIONS[@] "AppImage" CHECKLIST_OPTIONS_APPIMAGE
         else
             clear
@@ -299,6 +302,7 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         "use UP/DOWN, SPACE, ENTER keys\nSelect update options:" 16 54 6 \
             "Download $REPOSITORY_NAME_TANGARIA" "" $CHECKLIST_UPDATE_DOWNLOAD_TANGARIA \
             "Unpack $REPOSITORY_NAME_TANGARIA" "" $CHECKLIST_UPDATE_UNPACK_TANGARIA \
+            "Install $REPOSITORY_NAME_TANGARIA_RELEASE" "" $CHECKLIST_UPDATE_TANGARIA_RELEASE \
             "Download $REPOSITORY_NAME_TANGARIA_RELEASE" "" $CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE \
             "Unpack $REPOSITORY_NAME_TANGARIA_RELEASE" "" $CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE \
             3>&1 1>&2 2>&3)
@@ -307,6 +311,7 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         if [ ${exitstatus} = 0 ]; then
             arrayContains MENU_UPDATE[@] "Download $REPOSITORY_NAME_TANGARIA" CHECKLIST_UPDATE_DOWNLOAD_TANGARIA
             arrayContains MENU_UPDATE[@] "Unpack $REPOSITORY_NAME_TANGARIA" CHECKLIST_UPDATE_UNPACK_TANGARIA
+            arrayContains MENU_UPDATE[@] "Install $REPOSITORY_NAME_TANGARIA_RELEASE" CHECKLIST_UPDATE_TANGARIA_RELEASE
             arrayContains MENU_UPDATE[@] "Download $REPOSITORY_NAME_TANGARIA_RELEASE" CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE
             arrayContains MENU_UPDATE[@] "Unpack $REPOSITORY_NAME_TANGARIA_RELEASE" CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE
         else
@@ -395,7 +400,7 @@ else
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_PWMANGBAND" = "ON" ]; then
-    rm -rf ./$(ls -d ${REPOSITORY_NAME_PWMANGBAND}-*/)
+    rm -rf ./${REPOSITORY_NAME_PWMANGBAND}-*/
     unzip -o ${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}.zip || exit 1
 fi
 }
@@ -425,11 +430,11 @@ else
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA" = "ON" ]; then
-    rm -rf ./$(ls -d ${REPOSITORY_NAME_TANGARIA}-*/)
+    rm -rf ./${REPOSITORY_NAME_TANGARIA}-*/
     unzip -o ${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}.zip || exit 1
 fi
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "ON" ]; then
 
 logo_Tangaria
 
@@ -440,7 +445,7 @@ if [ "$CHECKLIST_UPDATE_DOWNLOAD_TANGARIA_RELEASE" = "ON" ]; then
 fi
 
 if [ "$CHECKLIST_UPDATE_UNPACK_TANGARIA_RELEASE" = "ON" ]; then
-    rm -rf ./$(ls -d ${REPOSITORY_NAME_TANGARIA_RELEASE}-*/)
+    rm -rf ./${REPOSITORY_NAME_TANGARIA_RELEASE}-*/
     unzip -o ${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}.zip || exit 1
 fi
 
@@ -472,16 +477,15 @@ EOF
 }
 
 build_AppImage() {
-# This function will build & bundle a valid AppImage[https://appimage.org]
-# HOWEVER! AppImages should be built on oldest possible linux distro,
-# e.g. CentOS 6, so if you build this on latest Ubuntu, it won't be
-# of any use to anyone!
-# Thus, while this script shall work on your machine, and that is
-# useful for debugging it, please DON'T re-destribute the resulting
-# appimage!
-#
-# to build appimage with music, copy to 'SETUP_FILES/music'
-
+echo "This function will build & bundle a valid AppImage[https://appimage.org]"
+echo "HOWEVER! AppImages should be built on oldest possible linux distro,"
+echo "e.g. CentOS 6, so if you build this on latest Ubuntu, it won't be"
+echo "of any use to anyone!"
+echo "Thus, while this script shall work on your machine, and that is"
+echo "useful for debugging it, please DON'T re-destribute the resulting"
+echo "appimage!"
+echo "*to build appimage with music, copy to 'SETUP_FILES/music'"
+echo
 echo "        __      __    "
 echo "     __/  \-''- _ |   "
 echo "__- - {            \  "
@@ -493,6 +497,7 @@ echo "       \_       (..)  "
 echo "         ''-_ _ _ /   "
 echo "           /          "
 echo "          /           "
+echo
 
 INSTALL_DIR="/tmp/$NAME_ROGUELIKE"
 APP_DIR="AppDir"
@@ -506,6 +511,7 @@ LINUX_DEPLOY="linuxdeploy-x86_64.AppImage"
 #LINUX_DEPLOY="linuxdeploy-i386.AppImage"
 
 if ! [ -f ./$LINUX_DEPLOY ]; then
+    read -p "- press enter to continue -"
     wget $LINUX_DEPLOY_URL || exit 1
     chmod +x ./linuxdeploy*.AppImage
 else
@@ -513,9 +519,9 @@ else
     read item
     case "$item" in
         y|Y) echo "«(honey)», m-m-m..."
-             rm -rf ./$LINUX_DEPLOY
-             wget $LINUX_DEPLOY_URL || exit 1
-             chmod +x ./linuxdeploy*.AppImage
+            rm -rf ./$LINUX_DEPLOY
+            wget $LINUX_DEPLOY_URL || exit 1
+            chmod +x ./linuxdeploy*.AppImage
             ;;
         n|N) echo "«no», ok..."
             ;;
@@ -544,6 +550,9 @@ fi
 # Build (prefix must be INSTALL_DIR="/usr")
 if [ "$MENU_CLIENT" = "sdl" ]; then
     ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl
+fi
+if [ "$MENU_CLIENT" = "sdl2" ]; then
+    ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl2
 fi
 if [ "$MENU_CLIENT" = "curses" ]; then
     ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-sdl
@@ -586,7 +595,7 @@ cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att-256.p
 cp -fv ./${REPOSITORY_NAME_PWMANGBAND}-${VERSION_PWMANGBAND}/lib/icons/att.svg ./${APP_DIR}/usr/share/icons/hicolor/scalable/apps/pwmangclient.svg
 fi
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "OFF" ]; then
 cp -fv ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/setup/mangband.cfg ./${APP_DIR}${INSTALL_DIR}/games
 write_pwmangrc ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}/setup/mangclient.ini "${SETUP_FILES}/${APP_DIR}${INSTALL_DIR}/games/.pwmangrc"
 fi
@@ -600,7 +609,7 @@ mv ./${APP_DIR}${INSTALL_DIR}/games/pwmangclient ./${APP_DIR}/usr/bin/pwmangclie
 
 ###################################
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "ON" ]; then
 
 echo "copying files..."
 
@@ -671,7 +680,7 @@ EOF
 chmod +x ./${APP_DIR}/AppRun
 fi
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
 cat > ./${APP_DIR}/AppRun << EOF
 #!/bin/sh
 
@@ -683,35 +692,6 @@ cd \${SELF_DIR} || {
 ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
 if ! [ -f "\$HOME/.pwmangrc" ]; then
     cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
-fi
-cd ./usr/bin || {
-    echo "ERROR: Could not change directory..." >&2
-    exit 1
-}
-
-set -ex
-
-exec "./pwmangclient" "\$@"
-EOF
-chmod +x ./${APP_DIR}/AppRun
-fi
-
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
-cat > ./${APP_DIR}/AppRun << EOF
-#!/bin/sh
-
-SELF_DIR="\$(dirname "\$(readlink -f "\$0")")"
-cd \${SELF_DIR} || {
-    echo "ERROR: Could not change directory..." >&2
-    exit 1
-}
-ln -sf \${SELF_DIR}/usr/$NAME_ROGUELIKE $INSTALL_DIR
-if ! [ -f "\$HOME/.pwmangrc" ]; then
-    cp -f ./usr/$NAME_ROGUELIKE/games/.pwmangrc \$HOME
-fi
-if ! [ -f "\$HOME/.pwmangband/Tangaria/sdlinit.txt" ]; then
-    mkdir -p \$HOME/.pwmangband/Tangaria
-    cp -f ./usr/$NAME_ROGUELIKE/games/sdlinit.txt \$HOME/.pwmangband/Tangaria/
 fi
 cd ./usr/bin || {
     echo "ERROR: Could not change directory..." >&2
@@ -737,7 +717,7 @@ if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
     if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
     fi
-    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "ON" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}
     fi
     if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
@@ -773,6 +753,9 @@ fi
 if [ "$MENU_CLIENT" = "sdl" ]; then
     ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl
 fi
+if [ "$MENU_CLIENT" = "sdl2" ]; then
+    ./configure --prefix="$INSTALL_DIR" --disable-curses --enable-sdl2
+fi
 if [ "$MENU_CLIENT" = "curses" ]; then
     ./configure --prefix="$INSTALL_DIR" --enable-curses --disable-sdl
 fi
@@ -784,7 +767,7 @@ fi
 make -j$CPU_CORES
 make install
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "OFF" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "OFF" ]; then
     cp -iv ./setup/mangband.cfg $INSTALL_DIR/games
     if ! [ -f "$USER_PWMANGRC" ]; then
         write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
@@ -793,7 +776,7 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE"
         read item
         case "$item" in
             y|Y) echo "«yes», ok..."
-                 write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
+                write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
                 ;;
             n|N) echo "«no», ok..."
                 ;;
@@ -880,7 +863,7 @@ fi
 
 ###################################
 
-if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "ON" ]; then
 
 cd ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE} || exit 1
 
@@ -932,7 +915,7 @@ else
     read item
     case "$item" in
         y|Y) echo "«yes», ok..."
-             write_pwmangrc ./mangclient.ini $USER_PWMANGRC
+            write_pwmangrc ./mangclient.ini $USER_PWMANGRC
             ;;
         n|N) echo "«no», ok..."
             ;;
@@ -949,7 +932,7 @@ if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
     if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
     fi
-    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_OPTIONS_TANGARIA_RELEASE" = "ON" ]; then
+    if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" = "ON" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}
     fi
     if [ "$NAME_ROGUELIKE" = "PWMAngband" ]; then
