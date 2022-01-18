@@ -2428,6 +2428,7 @@ type:ring
 level:10
 weight:2
 cost:200
+flags:SUST_STR | SUST_CON
 alloc:30:10 to 50
 attack:0d0:2+d3:2+d3
 armor:0:-8+4d3
@@ -7006,7 +7007,7 @@ name:& Club~
 graphics:\:u
 type:hafted
 level:0
-weight:20
+weight:35
 cost:0
 alloc:2:1 to 100
 attack:1d3:0:0
@@ -7019,8 +7020,10 @@ graphics:=:d
 type:ring
 level:25
 weight:2
-cost:7000
+cost:3400
+# price hardcoded in store.c
 alloc:13:25 to 100
+# should be more useful? most of players will use swimming...
 flags:FLYING | EASY_KNOW
 desc:When you put on this ring, you will be able to levitate a few feet 
 desc: above the floor. It works only if you have solid ground below.

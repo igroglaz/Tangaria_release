@@ -98,7 +98,7 @@
 # 'attack' is for barehanded attacks.
 
 # 'magic' is for general magic info - level of the first spell, weight that
-# hurts spells, number of books used.
+# hurts spells (max armor weight to avoid mana penalties), number of books used.
 
 # 'book' defines one of these books - object base, whether a town or a dungeon
 # book, name, number of spells, book realm. A book needs to be defined for
@@ -432,19 +432,11 @@ effect:TIMED_INC:ICY_AURA
 dice:$B
 expr:B:PLAYER_LEVEL:+ 20
 desc:Creates a curtain of ice around you to block enemy attacks, damaging and
-desc: freezing them in the process, grants cold resistance, but also
-desc: greatly reduce stealth, movement and can make you vulnerable to fire.
+desc: freezing them in the process, but also reduce stealth and movement speed.
+desc: Additionally:
 desc: 10 level: + 10 to AC
-desc: 20 level:
-desc: - brands your physical attacks with cold
-desc: - you are not vulnerable to fire, but can not have double resist or immunity
-desc: 30 level:
-desc: - grants double cold resistance
-desc: - you can not have fire immunity
-desc: 40 level:
-desc: - reduce malus to stealth and movement
-desc: - no more fire resist limitations
-desc: 50 level: grants cold immunity
+desc: 20 level: brands your physical attacks with cold
+desc: 40 level: reduce malus to stealth and movement
 
 book:magic book:town:[Conjurings and Tricks]:7:arcane
 book-graphics:?:R
@@ -1853,6 +1845,7 @@ skill-melee:35:45
 skill-shoot:66:30
 skill-dig:0:0
 hitdie:4
+# got exp 10% (harder). hardcoded in player.c
 max-attacks:5
 min-weight:20
 strength-multiplier:4
@@ -2028,14 +2021,9 @@ msg_other: makes a rush gesture.
 desc:Produces a bolt that teleports the first monster in its path
 desc: up to 100 squares away.
 
-spell:Hide Tracks:31:15:75:25:0
+spell:Create Traps:31:15:75:25:0
 effect:TOUCH:MAKE_TRAP:3:1
-effect:TIMED_INC:COVERTRACKS:0:5
-dice:$B+1d20
-expr:B:PLAYER_LEVEL:/ 2
-desc:Prevents you from leaving scent for monsters to track you by for a
-desc: level-dependent duration.
-desc: Also a trap is created on each empty floor space that is directly
+desc:A trap is created on each empty floor space that is directly
 desc: adjacent to you.
 
 book:shadow book:dungeon:[Great Shadows]:4:shadow
@@ -2047,8 +2035,6 @@ effect:NOURISH:DEC_BY
 dice:1
 effect:RANDOM
 dice:2
-effect:TIMED_INC:SHERO:0:5
-dice:30+1d30
 effect:TIMED_INC:BOLD:0:5
 dice:30+1d30
 effect:CURE:AFRAID
@@ -2057,19 +2043,22 @@ dice:30
 effect:TIMED_SET:FAST
 dice:30+1d30
 msg_self:%s of the Night rejoice! It's the Day of the Misrule!
-desc:Hastes you (+10 to speed), cures 30 points of damage, removes fear and
-desc: grants you berserk strength (resistance to fear, a bonus of +24 to-hit and
-desc: a penalty of -10 to AC) for 30+1d30 turns.
+desc:Hastes you (+10 to speed), cures 30 points of damage, removes fear
+desc: for 30+1d30 turns.
 desc: You may spend some satiation on this magic.
 
-spell:Far Escape:40:17:65:80:0
+spell:Far Escape:40:17:35:80:0
 effect:TELEPORT_LEVEL
 effect:NOURISH:DEC_BY
 dice:1
 desc:Teleports you 1 level up or 1 level down (chosen at random).
 desc: You spend some satiation on this magic.
 
-spell:Fast Recall:45:40:80:18:0
+spell:Fast Recall:45:40:40:18:0
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:DEC_BY
+dice:1
 effect:RECALL
 dice:$B+1d$S
 expr:B:PLAYER_LEVEL:n + 50
@@ -2079,8 +2068,9 @@ desc: deepest level you have visited in the dungeon.
 desc: The recall effect is not immediate; it is delayed by a level-dependent
 desc: duration. During that delay, the effect can be canceled by invoking
 desc: the spell of recall again.
+desc: You may spend some satiation on this magic.
 
-spell:Trick or Treat:50:37:90:50:0
+spell:Trick or Treat:50:37:30:50:0
 effect:SUMMON:MONSTERS:0:1
 dice:8
 effect:CLEAR_VALUE
@@ -2345,7 +2335,7 @@ effect:SWEEP
 desc:Deals a melee attack to each adjacent enemy.
 
 spell:Shatter Stone:7:3:20:8:0
-effect:BOLT_MELEE:KILL_WALL
+effect:SHORT_BEAM:KILL_WALL:1
 dice:20+1d30
 desc:Destroys an adjacent section of wall or rubble, unless it is a permanent
 desc: wall. Deals 20+1d30 damage to monsters vulnerable to rock remover.
@@ -2502,19 +2492,11 @@ effect:TIMED_INC:ZFARSIGHT
 dice:10+1d10
 desc:Grants infravision, telepathic powers, and surrounds you with an icy aura
 desc: for 10+1d10 turns, but also teleports you around.
-desc: Icy aura creates a curtain of ice around you to block enemy attacks,
-desc: damaging and freezing them in the process, grants cold resistance, but also
-desc: greatly reduce stealth, movement and can make you vulnerable to fire.
+desc: Creates a curtain of ice around you to block enemy attacks, damaging and
+desc: freezing them in the process, but also reduce stealth and movement speed.
+desc: Additionally:
 desc: 10 level: + 10 to AC
-desc: 20 level:
-desc: - you are not vulnerable to fire, but can not have double resist or immunity
-desc: 30 level:
-desc: - grants double cold resistance
-desc: - you can not have fire immunity
-desc: 40 level:
-desc: - reduce malus to stealth and movement
-desc: - no more fire resist limitations
-desc: 50 level: grants cold immunity
+desc: 40 level: reduce malus to stealth and movement
 
 spell:Quake:44:39:55:175:0
 effect:EARTHQUAKE:NONE:13
@@ -2855,7 +2837,7 @@ desc: and does unresistable damage.
 spell:Clairvoyance:40:50:95:200:0
 effect:LIGHT_LEVEL
 effect:NOURISH:DEC_BY
-dice:3
+dice:2
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
 
@@ -3577,7 +3559,7 @@ book-desc:A standard spellbook with a few spells.
 equip:elemental book:[Fire]:1:1:none
 
 spell:Burning Hands:1:1:17:4:0
-effect:BOLT_MELEE:FIRE
+effect:SHORT_BEAM:FIRE:1
 dice:$Dd$S
 expr:D:PLAYER_LEVEL:- 1 / 4 + 4
 expr:S:PLAYER_SPELL_POWER:+ 3
@@ -3724,19 +3706,12 @@ effect:TIMED_INC:ICY_AURA
 dice:$B+1d$S
 expr:B:PLAYER_SPELL_POWER:* 5
 expr:S:PLAYER_SPELL_POWER:* 5
-desc: Creates a curtain of ice around you to block enemy attacks,
-desc: damaging and freezing them in the process, grants cold resistance, but also
-desc: greatly reduce stealth, movement and can make you vulnerable to fire.
+desc: Creates a curtain of ice around you to block enemy attacks, damaging and
+desc: freezing them in the process, but also reduce stealth and movement speed.
+desc: Additionally:
 desc: 10 level: + 10 to AC
-desc: 20 level:
-desc: - you are not vulnerable to fire, but can not have double resist or immunity
-desc: 30 level:
-desc: - grants double cold resistance
-desc: - you can not have fire immunity
-desc: 40 level:
-desc: - reduce malus to stealth and movement
-desc: - no more fire resist limitations
-desc: 50 level: grants cold immunity
+desc: 20 level: brands your physical attacks with cold
+desc: 40 level: reduce malus to stealth and movement
 
 spell:Frost Bolt:7:3:27:5:0
 effect:BOLT_OR_BEAM:COLD
@@ -4015,6 +3990,10 @@ dice:20
 effect:TIMED_DEC:CUT
 dice:20
 effect:HEAL_HP
+dice:$B+m$M
+expr:B:PLAYER_LEVEL:+ 10
+expr:M:PLAYER_LEVEL:/ 3 + 12
+effect:BOLT_STATUS:MON_HEAL
 dice:$B+m$M
 expr:B:PLAYER_LEVEL:+ 10
 expr:M:PLAYER_LEVEL:/ 3 + 12
@@ -4831,7 +4810,7 @@ skill-save:28:9
 skill-stealth:0:0
 skill-search:10:12
 skill-melee:30:11
-skill-shoot:20:15
+skill-shoot:25:15
 skill-dig:0:0
 hitdie:1
 max-attacks:2
@@ -4848,7 +4827,7 @@ value:0:INT[-1]
 value:0:WIS[3]
 value:0:DEX[-1]
 value:0:CON[-1]
-value:0:CHR[0+1d15]
+value:0:CHR[1+1d15]
 player-flags:0:CHOOSE_SPELLS
 # got different pets
 title:Rookie
@@ -4862,70 +4841,107 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:600:2
+magic:1:350:2
 
-book:nature book:town:[Lesser Charms]:11:nature
+book:nature book:town:[Lesser Charms]:12:nature
 equip:nature book:[Lesser Charms]:1:1:none
 
 spell:Froggie's Jump:1:1:26:1:0
+cooldown:30
 effect:TELEPORT
-dice:2
-msg_other: jumps away like a frog.
-desc:You retreat at random to a short distance.
+dice:1
+effect:BLAST:POIS:1
+dice:$B
+expr:B:WEAPON_DAMAGE:+ 0
+effect:TIMED_INC:UNSUMMON_MINIONS
+dice:1
+msg_other: emits a poison cloud and jumps away like a frog.
+desc:You emit poison cloud and retreat at random to a short distance.
+desc: Also you resummon your pet.
+desc: Cooldown 30 turns.
+# we need lvl dependent cooldown for this.
+
+spell:Veterinary:3:1:26:2:0
+effect:SHORT_BEAM:MON_HEAL:1
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
+msg_other: project healing energy.
+desc:Heals certain amount of damage points, cures cut and stun of your target.
+desc: Requires to be in close range.
 
 spell:Once Bitten:5:3:32:5:0
-effect:TIMED_INC:OPP_POIS
+effect:TIMED_SET:OPP_POIS
 dice:20+1d20
-effect:SPEND_MANA
+effect:CURE:POISONED
+effect:MELEE_BLOWS:POIS
 dice:$B
-expr:B:PLAYER_LEVEL:/ 2
-desc:Grants you resistance to poison for 20+1d20 turns.
-desc: Mana which you spend on this skill depends on your level.
+expr:B:WEAPON_DAMAGE:+ 0
+effect:MELEE_BLOWS:MISSILE
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
+msg_other: attacks enemy like a snake.
+desc:You make fast attack, like a snake.
+desc: Also neutralizes poison and grants you resistance to poison for 20+1d20 turns.
 
 spell:Falcon Gift:10:5:37:10:0
+cooldown:60
+effect:STRIKE:MISSILE:0
+dice:$B
+expr:B:PLAYER_LEVEL:* 2
 effect:NOURISH:INC_TO
 dice:15
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
-msg_self:Your falcon brought to you some food.
-desc:Falcon shares with you his prey. It's not much, but still..
-desc: Mana which you spend on this skill depends on your level.
+effect:TIMED_INC:HERO
+dice:25+1d25
+msg_self:Your falcon flew to the hunt...
+desc:Falcon strikes a target and then it will shares with you his prey by
+desc: restoring some satiation. It's not much, but still..
+desc: Also it grants you precision bonus for 25+1d25 turns.
+desc: Target grid must be targetable and known to the player.
+desc: no target grid will mean the player grid is hit.
+desc: Cooldown 60 turns.
 
 spell:Sensitive Snout:15:10:42:15:0
 effect:DETECT_ANIMALS
 effect-yx:22:40
+effect:TIMED_INC:SINVIS
+dice:24+1d24
 desc:Detects all animals in the immediate area, for one turn only.
+desc: Also you feel invisible monsters for 24+1d24 turns.
 
 spell:Growl and Howl:20:15:47:20:0
+cooldown:30
 effect:PROJECT_LOS_AWARE:TURN_ALL
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
 msg_other: makes a complicated gesture to his wolf.
 desc:Your wolf makes long terrifying howl.
-desc: Mana which you spend on this skill depends on your level.
+desc: Cooldown 30 turns.
 
 spell:Bear Therapy:25:20:53:30:0
 effect:CURE:BLACKBREATH
+effect:NOURISH:INC_BY
+dice:0
+effect:NOURISH:INC_BY
+dice:0
+effect:RANDOM
+dice:3
 effect:CURE:AMNESIA
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
-desc:Your pet's magic cures amnesia and black breath.
-desc: Mana which you spend on this skill depends on your level.
+effect:CURE:CUT
+effect:HEAL_HP
+dice:$B+m$M
+expr:B:PLAYER_LEVEL:+ 10
+expr:M:PLAYER_LEVEL:/ 3 + 12
+desc:Your pet licks you wounds to cure them. Also its warm helps you to remember
+desc: who you are and cures amnesia.
+desc: There are rumours that it also cure black breath sometimes.
 
 spell:Chase!:30:20:58:40:0
+cooldown:60
 effect:BOLT_STATUS:MON_SPEED
 dice:100
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
 msg_other: makes a lengthy gesture.
 desc:Your pet will attack the target with double diligence.
-desc: Mana which you spend on this skill depends on your level.
+desc: Cooldown 60 turns.
 
 spell:Cat Magnetism:35:30:63:50:0
 effect:TIMED_INC:STEALTH
@@ -4935,7 +4951,7 @@ dice:10+1d10
 effect:SPEND_MANA
 dice:$B
 expr:B:PLAYER_LEVEL:/ 2
-desc:Grants ability to walk silently and infravision.
+desc:Grants infravision and ability to walk silently.
 desc: Mana which you spend on this skill depends on your level.
 
 spell:Shoo:40:75:55:50:0
@@ -4946,58 +4962,50 @@ msg_other: speaks an order on nearby animals!
 desc:Teleports away each animal within line of sight.
 
 spell:Burn A Hole:45:50:50:75:0
-effect:BOLT_MELEE:KILL_WALL
+effect:SHORT_BEAM:KILL_WALL:1
 dice:100+10d30
 desc:Destroys an adjacent section of wall or rubble, unless it is a permanent
 desc: wall. Deals 100+10d30 damage to monsters vulnerable to rock remover.
 
 spell:Dragon Friends:50:75:50:100:0
-cooldown:30
+cooldown:300
 effect:TIMED_INC_NO_RES:BLIND
 dice:1
 effect:TIMED_INC:ANTISUMMON
-dice:25+1d5
-effect:SUMMON:ANIMAL:0:5
+dice:50+1d20
+effect:SUMMON:ANIMAL:0:1
 flag:S_ANIMAL
 dice:12
 msg_other: magically summons animals.
 desc:Attempts to summon up to twelve animals and then prevents summoning
 desc: around you for some time. Makes you blind for a tiny moment.
-desc: You can use this skill once per 30 seconds.
+desc: You can use this skill once per 300 turns.
 
 #2
 book:nature book:town:[Gifts of Nature]:3:nature
 
-spell:Veterinary:1:1:26:1:0
-effect:BOLT_MELEE:MON_HEAL
+spell:Rabbit's Feet:23:1:33:10:0
+cooldown:300
+effect:TIMED_INC:MOVE_FAST
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-msg_other: project healing energy.
-desc:Cures a level-dependent amount of damage points, and heals all cut and stun damage.
-desc: Requires to be in close range.
+expr:B:PLAYER_LEVEL:/ 10 + 5
+desc:Increases you movement speed for a short while.
+desc: Cooldown 300 turns.
 
-spell:Summon Pet:5:1:32:5:0
+spell:Good Treatment:33:1:33:60:0
 cooldown:60
-effect:TIMED_INC:REVIVE_PET
-dice:2
-effect:SPEND_MANA
+effect:TIMED_INC:REGEN_PET
 dice:$B
-expr:B:PLAYER_LEVEL:/ 2
-desc:Summon your pet. If it was unconscious - it will even come to senses
-desc: to come at your call.
-desc: You can use this skill once per minute.
-desc: Mana which you spend on this skill depends on your level.
+expr:B:PLAYER_LEVEL:/ 10 + 1
+desc:You treat your pet so it regen its wounds.
+desc: You can use this skill once per 60 turns.
 
-spell:Heal Pet:10:1:26:1:0
-effect:BOLT_STATUS:MON_HEAL
-dice:$B
-expr:B:PLAYER_LEVEL:* 2
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
-msg_other: project healing energy.
-desc:Heals a level-dependent amount of damage points, and heals all cut and stun damage.
-desc: Mana which you spend on this skill depends on your level.
+spell:Eagles Help:43:1:33:20:0
+cooldown:300
+effect:TELEPORT_LEVEL
+msg_other: blinks away.
+desc:Brings you far away from current spot to another level.
+cooldown:300
 
 ############### CLASS TEMPLATE for Druid ###############
 name:Druid
@@ -5100,7 +5108,7 @@ desc:Creates a radius-5 healing ball around you.
 book:nature book:dungeon:[Nature Craft]:5:nature
 
 spell:Turn Stone to Mud:20:7:25:5:0
-effect:BOLT_MELEE:KILL_WALL
+effect:SHORT_BEAM:KILL_WALL:1
 dice:20+1d30
 msg_other: makes a moving gesture.
 desc:Destroys the first section of wall it hits, unless it is a permanent wall.
@@ -5258,7 +5266,7 @@ desc:Gives your next melee blow in current fight a high chance to score
 desc: a critical hit.
 
 spell:Gush:20:15:22:30:0
-effect:MELEE_BLOWS:CURSE
+effect:MELEE_BLOWS:MISSILE
 dice:$Dd5
 expr:D:PLAYER_LEVEL:/ 3 * 2
 msg_other: stubbed a tearing blow.
@@ -5286,7 +5294,7 @@ desc:Attempts to improve the armour class bonus of a piece of armour.
 desc: This prayer reduce your nourishment.
 
 spell:Whirlwind:40:16:60:110:0
-effect:BLAST:CURSE:2
+effect:BLAST:MISSILE:2
 dice:$B
 expr:B:PLAYER_LEVEL:* 2
 desc:Make rain of blows in a dance of killing machine.
@@ -5346,7 +5354,7 @@ title:Chevalier
 title:Lord
 title:Glorious Lord
 
-magic:1:500:1
+magic:1:600:1
 
 book:prayer book:town:[Beginners Handbook]:11:divine
 equip:prayer book:[Beginners Handbook]:1:1:none
@@ -5378,6 +5386,7 @@ effect:TELEPORT_TO
 dice:$B
 expr:B:PLAYER_LEVEL:/ 10 + 1
 desc:Reckless charge to chosen target.
+desc: You can use this skill once per 5 turns.
 
 spell:First Aid:15:15:32:12:0
 effect:TIMED_INC:REGEN
@@ -5466,7 +5475,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:1
+magic:1:350:1
 
 book:magic book:town:[Magic for Beginners]:11:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
@@ -5579,6 +5588,7 @@ desc: are standing on the glyph, it must first succeed in breaking the glyph.
 desc: Higher level monsters are more likely to break the glyph.
 desc: The glyph will remain where it is, until a monster succeeds in
 desc: breaking it or until you leave the level.
+desc: You can cast this spell every 100 turns.
 
 ############### CLASS TEMPLATE for Bard ###############
 name:Bard
@@ -5620,7 +5630,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:400:1
+magic:1:350:1
 
 book:prayer book:town:[Beginners Handbook]:11:divine
 equip:prayer book:[Beginners Handbook]:1:1:none
@@ -5810,7 +5820,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:1
+magic:1:350:1
 
 book:magic book:town:[Magic for Beginners]:11:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
@@ -5857,20 +5867,12 @@ spell:Frost Aura:20:20:35:12:0
 effect:TIMED_INC:ICY_AURA
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
-desc:Creates a curtain of ice around you to block enemy attacks, damaging and
-desc: freezing them in the process, grants cold resistance, but also
-desc: greatly reduce stealth, movement and can make you vulnerable to fire.
+desc: Creates a curtain of ice around you to block enemy attacks, damaging and
+desc: freezing them in the process, but also reduce stealth and movement speed.
+desc: Additionally:
 desc: 10 level: + 10 to AC
-desc: 20 level:
-desc: - brands your physical attacks with cold
-desc: - you are not vulnerable to fire, but can not have double resist or immunity
-desc: 30 level:
-desc: - grants double cold resistance
-desc: - you can not have fire immunity
-desc: 40 level:
-desc: - reduce malus to stealth and movement
-desc: - no more fire resist limitations
-desc: 50 level: grants cold immunity
+desc: 20 level: brands your physical attacks with cold
+desc: 40 level: reduce malus to stealth and movement
 
 spell:Acid Rain:25:28:30:16:0
 cooldown:10
@@ -5888,6 +5890,7 @@ desc: Meteors will explode as a radius-1 ball that does unresistable
 desc: damage to each monster in its area of effect.
 desc: If this kills the monster that blocked the path to the target
 desc: location, the next meteor may continue to find another target.
+desc: You can cast this spell every 10 turns.
 
 spell:Stoneskin:30:35:40:20:0
 effect:TIMED_INC:SHIELD
@@ -5948,9 +5951,9 @@ equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 # -4 4 0 -3 -5
-value:0:STR[-2+-1d20]
+value:0:STR[-1+-1d15]
 value:0:INT[4]
-value:0:CON[-2+-1d30]
+value:0:CON[-1+-1d20]
 value:0:CHR[-2+-1d15]
 value:0:RES_NETHER[1]
 player-flags:0:ZERO_FAIL | CHOOSE_SPELLS | UNLIGHT | BEAM
@@ -5986,28 +5989,31 @@ dice:$B
 expr:B:PLAYER_LEVEL:+ 50
 effect:TIMED_INC:UNSUMMON_MINIONS
 dice:1
+effect:HEAL_HP
+dice:$B+m$M
+expr:B:PLAYER_LEVEL:+ 10
+expr:M:PLAYER_LEVEL:/ 3 + 12
 effect:CURE:CUT
 desc:Annihilate your minions and creates armour from their flesh and bones.
-desc: Also cures cut.
+desc: Also heals you and cures cut.
 
 spell:Nether Bolt:10:3:33:4:0
 effect:BOLT_OR_BEAM:NETHER:0:-10
 dice:$B
 expr:B:PLAYER_LEVEL:* 3
 msg_other: fires a nether bolt.
-desc:Fires a magic missile that always hits its target and does
-desc: unresistable damage.
+desc:Fires a nether missile that always hits its target.
 desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
 spell:Summon Golem:15:8:1:7:0
-cooldown:10
+cooldown:6
 effect:TIMED_INC:GOLEM
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+dice:2
 msg_other: summons a golem.
 desc:Attempts to summon golem.
+desc: Cooldown 6 turns.
 
 spell:Dark Portal:20:12:30:10:0
 effect:TELEPORT
@@ -6016,7 +6022,7 @@ expr:B:PLAYER_LEVEL:* 2
 effect:DETECT_EVIL
 effect-yx:22:40
 msg_other: blinks away.
-desc:Teleports you randomly over a short distance.
+desc:Teleports you randomly over a medium distance.
 desc: This travel through astral grants ability to feel presence of evil.
 
 spell:Cry Of Cthulhu:25:15:30:15:0
@@ -6049,9 +6055,11 @@ desc: There you get resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns.
 
 spell:Necromancy Mastery:40:30:35:33:0
+cooldown:45
 effect:SUMMON:UNDEAD:0:100
 dice:1
 desc:Summon undead remains to fight on your side.
+desc: Cooldown 45 turns.
 
 spell:Detonate Skeleton:45:40:40:40:0
 effect:DETONATE
@@ -6172,10 +6180,11 @@ desc: Attention! It will bless full stack of potions.
 desc: Also this ritual requires nutrition.
 
 spell:Holy Force:25:19:50:30:0
-effect:BOLT_MELEE:FORCE
+effect:SHORT_BEAM:FORCE:2
 dice:$B
 expr:B:PLAYER_LEVEL:* 2
 desc:Hits the target with force, knocking it back with a chance to stun it.
+desc: Can be used not only in melee, but also on short distance.
 
 spell:Rage Of Inquisition:30:25:37:50:0
 effect:TIMED_INC:BLOODLUST:0:-1
@@ -6269,69 +6278,111 @@ title:Wizard
 
 magic:1:300:2
 
-book:magic book:town:[Magic for Beginners]:11:arcane
+# spells hardcoded (hc) by mana cost! (to ease adding new spells)
+
+book:magic book:town:[Magic for Beginners]:16:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
 
-spell:Fireball:1:1:27:2:0
+spell:Magic Blade:1:1:12:1:0
+effect:TELEPORT
+dice:1
+#hc
+effect:SHORT_BEAM:MISSILE:1
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
+msg_other: strikes with a magic blade.
+desc:Strikes with a magic blade that always hits its target and does
+desc: unresistable damage.
+desc: Distance of the attack and damage depends on your level.
+desc: Each cast cause recoil which shifts you to random direction.
+
+spell:Fireball:3:2:27:2:0
+#ball dmg hc
 effect:BALL:FIRE:1
 dice:$B
-expr:B:PLAYER_LEVEL:+ 1
+expr:B:PLAYER_LEVEL:+ 10
 msg_other: fires a fire ball.
-desc:Shoots a radius-2 fire ball.
+desc:Shoots a small radius fire ball.
+desc: It's damage increase with levels.
 
-spell:Teleport:5:2:35:5:0
-effect:HEAL_HP
-dice:$B
-expr:B:PLAYER_LEVEL:* 2
+spell:Teleport:5:4:35:5:0
 effect:TELEPORT
 dice:$B
 expr:B:PLAYER_LEVEL:* 2
 msg_other: teleports away.
-desc:Teleports you randomly within the current level and
-desc: restore some vigor.
+desc:Teleports you randomly within the current level.
 
-spell:Cold Ray:10:3:30:6:0
+spell:Cold Ray:10:4:30:6:0
 effect:BEAM:COLD
 dice:$B
 expr:B:PLAYER_LEVEL:/ 10 * 30
 msg_other: fires a cold ray.
 desc:Fires a cold ray that hurts each monster in its path.
 
-spell:Protection:15:5:34:11:0
-effect:TIMED_INC:SHIELD
-dice:20+1d20
-desc:Grants you +50 to AC for 20+1d20 turns.
+spell:Acid Bolt:15:5:27:40:0
+effect:BOLT:ACID
+dice:$B
+expr:B:PLAYER_LEVEL:* 5
+msg_other: fires an acid bolt.
+desc:Shoots an acid bolt.
 
 spell:Static Charge:20:7:32:24:0
+cooldown:5
+effect:TIMED_INC_NO_RES:BLIND
+dice:1
 effect:STAR:ELEC
-dice:$Dd$S&m8
-expr:D:PLAYER_LEVEL:- 5 / 4 + 6
-expr:S:PLAYER_LEVEL:/ 5
+dice:$B
+expr:B:PLAYER_LEVEL:* 7
 msg_other: strikes lightning from above.
 desc:Strikes surrounding targets with a lightning.
+desc: This spell causes blindness which pass almost instantly.
+desc: Cooldown 5 turns.
 
 spell:Invisibility:25:15:45:30:0
+cooldown:150
 effect:TIMED_INC:INVIS:0:5
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 20
 desc:Makes you invisible for a short duration.
 desc: High level, questor, invisible and injured monsters
 desc: cannot be fooled by this trick.
+desc: Cooldown 150 turns.
 
 spell:Energy Bolt:30:15:27:40:0
+cooldown:10
 effect:BALL:PLASMA:1
 dice:$B
-expr:B:PLAYER_LEVEL:* 3
+expr:B:PLAYER_LEVEL:* 5
 effect:BALL:PLASMA:2
 dice:$B
-expr:B:PLAYER_LEVEL:* 2
-effect:RANDOM
-dice:2
+expr:B:PLAYER_LEVEL:* 5
+effect:BALL:PLASMA:3
+dice:$B
+expr:B:PLAYER_LEVEL:* 5
 effect:BOLT:PLASMA
 dice:$B
-expr:B:PLAYER_LEVEL:* 4
+expr:B:PLAYER_LEVEL:* 5
+effect:RANDOM
+dice:4
+#stun monsters
+effect:BOLT:PLASMA
+dice:$B
+expr:B:PLAYER_LEVEL:* 5
+effect:TIMED_INC_NO_RES:SLOW
+dice:2
 msg_other: fires an energy bolt.
-desc:Shoots an energy bolt which explodes upon impact.
+desc:Shoots an energy bolt which may explode upon impact.
+desc: This spell causes weakness which pass in short time.
+desc: Cooldown 10 turns.
+
+spell:Dimension Shift:33:17:35:20:0
+cooldown:100
+effect:TIMED_INC:WRAITHFORM
+dice:5
+effect:TELEPORT_LEVEL
+desc:Teleports you 1 level up or 1 level down (chosen at random) and
+desc: grants you the ability to pass through non-permanent walls for a moment.
+desc: Cooldown 100 turns.
 
 spell:Magic Reflection:35:20:45:50:0
 effect:CLEAR_VALUE
@@ -6348,6 +6399,23 @@ dice:20+1d20
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
 desc: 20+1d20 turns and also protect from bad effects.
 
+spell:Armageddon:37:20:35:50:0
+effect:DRAIN_STAT:CHR
+dice:1
+effect:WIPE_AREA:NONE:3
+effect:EARTHQUAKE:NONE:7
+effect:DESTRUCTION:DARK:15
+msg_other: wrecks havoc.
+desc:You bring devastation around you.
+desc: Epicenter: wipes everything in a close radius around you.
+desc: Medium area: causes an earthquake.
+desc: At the distance: Destroys everything in a certain radius.
+desc: All monsters, objects and terrain features in the area of
+desc: effect are destroyed, except stairs and permanent walls.
+desc: You will also be blinded for 10+1d10 turns, unless you
+desc: have resistance to blindness or dark.
+desc: Each cast of this spell bring big reputation loss and recude your charisma.
+
 spell:Flamestrike:40:25:33:70:0
 effect:STRIKE:FIRE:0
 dice:$B
@@ -6357,6 +6425,26 @@ desc:Strikes a target from below with a fire.
 desc: Target grid must be targetable and known to the player;
 desc: no target grid will mean the player grid is hit.
 
+spell:Turn Into Stone:43:10:32:10:0
+cooldown:300
+effect:TIMED_INC_NO_RES:SCRAMBLE
+dice:10
+effect:CREATE_WALLS
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:3d1
+effect:TIMED_INC:INVULN
+dice:3
+effect:CURE:STUN
+effect:CURE:CUT
+effect:HEAL_HP
+dice:$B
+expr:B:PLAYER_LEVEL:* 5
+msg_other: become stone statue.
+desc:Turns you into stone statue for some time, healing and curing stun or cuts.
+desc: It also grants you resistance against non-physical attacks.
+desc: This spell causes internal injuries which recover after some time.
+desc: Cooldown 300 turns.
+
 spell:Ice Storm:45:40:40:100:0
 effect:ARC:ICE:0:30
 dice:$B
@@ -6364,10 +6452,19 @@ expr:B:PLAYER_LEVEL:* 7
 msg_other: subzeroes air into a sharp icicles.
 desc:Sends forward sharp icicle storm.
 
-spell:Armageddon:50:50:40:150:0
+spell:Summon Daemon:49:100:42:200:0
+cooldown:150
+effect:SUMMON:DEMON:0:100
+dice:1
+effect:GLYPH:WARDING
+msg_other: summons a daemon.
+desc:Draws a pentagram and attempts to summon a daemon.
+desc: Cooldown 150 turns.
+
+spell:Pure Magic:50:50:40:150:0
 effect:SWARM:MANA:1
 dice:$B+m$M
-expr:B:PLAYER_LEVEL:* 2
+expr:B:PLAYER_LEVEL:* 3
 # testing note: won't work on the surface as number of Meteors depends of depth
 expr:M:DUNGEON_LEVEL:/ 30
 msg_other: fires a swarm of mana meteors.
@@ -6379,14 +6476,18 @@ desc: damage to each monster in its area of effect.
 desc: If this kills the monster that blocked the path to the target
 desc: location, the next meteor may continue to find another target.
 
+#remove this book
 book:magic book:dungeon:[Wizard's Tome of Power]:1:arcane
 
-spell:Summon Daemon:50:100:42:200:0
-cooldown:100
-effect:SUMMON:DEMON:0:100
-dice:1
-msg_other: summons a daemon.
-desc:Attempts to summon a daemon.
+spell:Town Portal:1:3:33:5:0
+effect:RECALL
+dice:10+1d20
+desc:Teleports you from the dungeon to the town or from the town to the
+desc: deepest level you have visited in the dungeon.
+desc: The recall effect is not immediate; it is delayed by some turns.
+desc: During that delay, the effect can be canceled by invoking the prayer
+desc: of recall again.
+
 
 ############### CLASS TEMPLATE for Trader ###############
 name:Trader
@@ -6428,7 +6529,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:2
+magic:1:350:2
 
 book:magic book:town:[Magic for Beginners]:11:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
@@ -6455,12 +6556,13 @@ msg_other: blinks away.
 desc:Teleports you randomly to a short distance.
 
 spell:Pray:15:11:35:20:0
-cooldown:100
+cooldown:42
 effect:WONDER
 desc:You pray to gods for unknown effect.
+desc: Cooldown 42 turns.
 
 spell:Tunnel:20:12:35:25:0
-effect:BOLT_MELEE:KILL_WALL
+effect:SHORT_BEAM:KILL_WALL:1
 dice:20+1d30
 desc:Destroys an adjacent section of wall or rubble, unless it is a permanent
 desc: wall. Deals 20+1d30 damage to monsters vulnerable to rock remover.
@@ -6529,6 +6631,7 @@ dice:1
 effect:NOURISH:SET_TO
 dice:5
 desc:You venture into dangerous business for a trade deal.
+desc: Cooldown 10000 turns.
 
 ############### CLASS TEMPLATE for Assassin ###############
 name:Assassin
@@ -6537,7 +6640,7 @@ skill-disarm-phys:43:11
 skill-disarm-magic:36:10
 skill-device:32:10
 skill-save:28:10
-skill-stealth:0:1
+skill-stealth:1:1
 skill-search:18:13
 skill-melee:45:45
 skill-shoot:66:40
@@ -6559,8 +6662,11 @@ value:0:WIS[-2]
 value:0:DEX[2]
 value:0:CON[0]
 value:0:CHR[-2]
+value:0:MANA[0+1d5]
+value:0:BLOWS[1d5]
 player-flags:0:CHOOSE_SPELLS
 player-flags:0:BACK_STAB
+#player-flags:50:SHIELD_BASH
 title:Vagabond
 title:Cutpurse
 title:Footpad
@@ -6572,18 +6678,18 @@ title:Eliminator
 title:Assassin
 title:Master Assassin
 
-magic:5:350:2
+magic:1:550:2
 
 book:shadow book:town:[Shadows for Beginners]:11:shadow
 equip:shadow book:[Shadows for Beginners]:1:1:none
 
 spell:Sentry:1:1:20:1:0
-#cooldown:10
+cooldown:5
 effect:TIMED_INC:SENTRY
 dice:2
 effect:SPEND_MANA
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:/ 3
 msg_other: activate sentry.
 desc:Setup battle sentry.
 desc:  1 level: blade sentry
@@ -6594,83 +6700,96 @@ desc: 40 level: fire sentry
 desc: 50 level: lightning sentry
 desc: Requires additional mana when you get each level.
 desc: If you cast the spell without enough mana - you suffer severe exhaustion.
+desc: Cooldown 5 turns.
 
 spell:Bad Feeling:5:1:1:3:0
 effect:TIMED_INC:ESP
-dice:1
+dice:2
+effect:TIMED_INC:UNSUMMON_MINIONS
+dice:2
 desc:Grants you the power of telepathy for a moment.
+desc: Also you loose control over your magic sentries and they become demolished.
 
 spell:Lightning Reflex:10:3:25:5:0
+effect:MELEE_BLOWS:MISSILE
+dice:$B
+expr:B:WEAPON_DAMAGE:+ 0
+effect:TIMED_INC:BOLD
+dice:2
+effect:CURE:AFRAID
 effect:TIMED_INC:FAST:0:5
 dice:2
-effect:MELEE_BLOWS:CURSE
-dice:$B
-expr:B:WEAPON_DAMAGE:+ 0
 msg_other: stubbed a tearing blow.
-desc:Makes a wounding blow and hastes you for a moment.
-desc: This also has a chance to cause open wounds.
+desc:Makes a wounding blow and hastes you for a moment and makes fearful.
 
-spell:Adrenaline Splash:15:5:30:10:0
+spell:Adrenaline Splash:15:4:30:10:0
 cooldown:10
+effect:TIMED_INC:FAST:0:5
+dice:2
 effect:MELEE_BLOWS:FORCE
 dice:$B
-expr:B:WEAPON_DAMAGE:+ 0
+expr:B:PLAYER_LEVEL:* 2
 desc:Makes melee attack and hits the target with force, knocking it back
 desc: with a chance to stun it.
+desc: Cooldown 10 turns.
 
-spell:Shadowstep:20:7:16:17:0
-cooldown:12
+spell:Shadowstep:20:5:16:15:0
+effect:TIMED_INC:FAST:0:5
+dice:2
 effect:MELEE_BLOWS:MON_STUN
 dice:2
 effect:TELEPORT_TO
 dice:$B
-expr:B:PLAYER_LEVEL:/ 10 + 1
-effect:TIMED_INC:FAST:0:5
-dice:1
+expr:B:PLAYER_LEVEL:/ 5 + 10
 desc:Teleports you next to a chosen target and shrewdly hit it to stun it.
 
-spell:Shadow Decoy:25:15:40:25:0
-cooldown:15
-effect:GLYPH:DECOY
-desc:Leaves a magical decoy that looks and sounds like the player.
-
-spell:Infiltration:30:20:22:30:0
-effect:BOLT:SLEEP_ALL
-effect:BOLT:PSI
+spell:Nuke:25:1:1:17:0
+effect:TELEPORT
 dice:$B
-expr:B:PLAYER_LEVEL:* 3
-msg_other: hurls a mind blast.
-desc:Fires a mental blast that will damage minded creatures with some
-desc: side effects like stun, confuse, scare.
-desc: Also attempts to put asleep every adjacent, non-resistant monster for a level-dependent
-desc: number of turns. Animals are entranced for longer.
+expr:B:PLAYER_LEVEL:* 4
+effect:BLAST:POIS:3:10
+dice:$B
+expr:B:PLAYER_LEVEL:/ 2
+effect:SPEND_MANA
+dice:$B
+expr:B:PLAYER_LEVEL:/ 3
+msg_other: blasts cloud of poison.
+desc:Explode around thick 7-8 radius poison cloud and teleports away.
+desc: Requires additional mana when you get each level.
+desc: If you cast the spell without enough mana - you suffer severe exhaustion.
 
-spell:Shield of Blades:35:25:27:40:0
+spell:Shield of Blades:30:10:27:20:0
 effect:BLAST:MISSILE:1
 dice:$B
 expr:B:PLAYER_LEVEL:* 3
 effect:TIMED_SET:DEADLY
 dice:2
-effect:TIMED_INC:BIOFEEDBACK
-dice:2
 desc:Makes powerful whirl attack.
-desc: Also gives your melee blows a chance to score a critical hit,
-desc: increases regeneration rate, reduces damage from missile,
-desc: shards or sound attacks.
-desc: This power can cause additional nasty effects when Adrenaline Charging is
-desc: activated.
+desc: Also gives your melee blows a chance to score a critical hit.
 
-spell:Finishing Move:40:35:30:60:0
-cooldown:11
+spell:Magic Dagger:35:5:45:30:0
+effect:BOLT:MISSILE
+dice:$B
+expr:B:PLAYER_LEVEL:* 3
+msg_other: fires a magic dagger.
+desc:Fires a magic dagger that always hits its target and does
+desc: unresistable damage.
+
+spell:Finishing Move:40:15:30:40:0
+cooldown:60
 effect:CURSE
 dice:$Dd$S
 expr:D:PLAYER_LEVEL:/ 8 + 1
 expr:S:MONSTER_PERCENT_HP_GONE:+ 0
-desc:Deals direct damage to a single monster, more the more damaged the monster
-desc: is already.
+effect:TELEPORT_TO
+dice:$B
+expr:B:PLAYER_LEVEL:/ 5 + 10
+desc:Teleports to target and deals direct damage to a single monster,
+desc: more the more damaged the monster is already.
+desc: Cooldown 60 turns.
 
-spell:Traumaturgy:45:50:35:80:0
-cooldown:15
+spell:Traumaturgy:45:30:35:80:0
+cooldown:45
 effect:STRIKE:PSI_DRAIN:0
 dice:$B
 expr:B:PLAYER_LEVEL:* 3
@@ -6678,35 +6797,40 @@ msg_other: strikes with psi energy.
 desc:Drains part of the life-force from a nearby monster and replenishes
 desc: your mana with it. Does not affect undead, demons, golems, elementals or
 desc: vortices.
+desc: Cooldown 45 turns.
 
-spell:Flower of Death:50:10:32:100:0
+spell:Flower of Death:50:30:32:100:0
+cooldown:10
 effect:STAR:POIS
 dice:$B
-expr:B:PLAYER_LEVEL:* 7
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-msg_other: activate fire trap.
-desc:Activate fire trap that shoots poison in each of
+expr:B:PLAYER_LEVEL:* 10
+msg_other: opens Flower of Death.
+desc:Activate trap that shoots spray of poison in each of
 desc: the eight directions starting from your character.
-desc: Beware to use on low mana.
+desc: Cooldown 10 turns.
 
 # 1st dungeon book
 book:shadow book:dungeon:[Dark Evocations]:6:shadow
 
-spell:Fade in Shadows:25:15:30:25:0
-cooldown:50
+spell:Shadow Decoy:25:15:40:25:0
+cooldown:60
+effect:GLYPH:DECOY
 effect:TIMED_INC:STEALTH
 dice:10+1d10
-desc:Makes your more silent for a while.
+desc:Leaves a magical decoy that looks and sounds like the player.
+desc:Also makes your more silent for a while.
+desc: Cooldown 60 turns.
 
-spell:Sneak to Depths:30:20:30:40:0
+spell:Sneak to Depths:30:10:30:30:0
 effect:TIMED_INC:PROBTRAVEL
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+dice:2
 desc:Allows you to go 1 level down at will immediately.
 
-spell:Dissolve into Shadow:35:30:40:50:0
+spell:Inception:35:20:22:40:0
+effect:PROJECT_LOS_AWARE:SLEEP_ALL
+desc:Attempts to put to sleep each monster within line of sight.
+
+spell:Fade in Shadows:40:40:40:70:0
 effect:TIMED_INC:INVIS:0:5
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 20
@@ -6714,42 +6838,31 @@ desc:Makes you invisible for a short duration.
 desc: High level, questor, invisible and injured monsters
 desc: cannot be fooled by this trick.
 
-spell:Assassin's Potion:40:30:20:70:0
-cooldown:50
-effect:TIMED_INC:SHERO:0:5
-dice:12+1d12
-effect:TIMED_INC:HERO
-dice:12+1d12
-effect:TIMED_INC:SINFRA
-dice:12+1d12
-effect:TIMED_INC:BOLD:0:5
-dice:12+1d12
-effect:CURE:AFRAID
-desc:Grants you resistance to fear and a bonus of +36 to-hit
-desc: and a penalty of -10 to AC.
-desc: Also you can see in the dark like a cat for a little while.
+spell:Dark Mark:45:50:33:120:0
+cooldown:300
+effect:WAKE
+effect:SAFE_GUARD
+effect:NOURISH:DEC_BY
+dice:5
+desc:Inscribes a Dark Mark beneath you.
+desc: Summoned monsters can't appear on the Dark Mark.
+desc: If a monster attempts to move onto the mark or melee you while you
+desc: are standing on the mark, it must first succeed in breaking the mark.
+desc: Higher level monsters are more likely to break the mark.
+desc: The mark will remain where it is, until a monster succeeds in
+desc: breaking it or until you leave the level.
+desc: Inscribing the Dark Mark reduces your nourishment.
+desc: It wakes up surrounding monsters.
+desc: Cooldown 300 turns.
 
-spell:Preparation:45:50:30:90:0
-cooldown:100
-effect:TIMED_INC:HOLD_WEAPON
-dice:20+1d20
-desc:Grants extra damage each turn and makes you immune to disarming
-desc: for 20+1d20 turns.
-
-spell:Inception:50:40:33:120:0
-effect:TIMED_INC:ADRENALINE
-dice:10+1d10
-desc:Attempts to get full control over your mind and body, increasing your
-desc: fighting abilities each time you apply this meditation while it's active.
-desc: At a first stage, cures 30 points of damage, removes fear and grants
-desc: you berserk strength (resistance to fear, a bonus of +24 to-hit and a
-desc: penalty of -10 to AC).
-desc: At a second stage, increases strength, dexterity and constitution.
-desc: At a third stage, grants a bonus of +8 to-dam.
-desc: At a fourth stage, increases attack speed by 1.
-desc: At a fifth and last stage, hastes you (+10 to speed).
-desc: This power can cause damage if used too often or when Biofeedback is
-desc: activated.
+spell:Inner Power:50:40:50:90:0
+cooldown:60
+effect:TIMED_INC:MANASHIELD
+dice:8+1d10
+desc:Creates a shield of mana around you that absorbs all damage
+desc: inflicted to your character... as long as you have mana
+desc: to fuel it.
+desc: Cooldown 60 turns.
 
 ############### CLASS TEMPLATE for Phaseblade (Psyblade/Telekinetic/Teleporter)
 name:Phaseblade
@@ -6905,6 +7018,7 @@ effect:TELEPORT
 dice:5
 msg_other: blinks away.
 desc:You teleport around battlefield times bringing havoc with you.
+desc: Cooldown 4 turns.
 
 
 ############### CLASS TEMPLATE for Weathermaster / Cryokinetic ###############
@@ -6942,7 +7056,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:400:1
+magic:1:350:1
 
 book:magic book:town:[Magic for Beginners]:11:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
@@ -6952,7 +7066,7 @@ equip:magic book:[Magic for Beginners]:1:1:none
 spell:Pyrokinetic Touch:1:3:20:1:0
 effect:TIMED_INC:OPP_FIRE
 dice:20+1d20
-effect:BOLT_MELEE:FIRE
+effect:SHORT_BEAM:FIRE:1
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other:'s hands are covered with fire.
@@ -6962,7 +7076,7 @@ desc: Grants fire resistance.
 spell:Cryokinetic Touch:5:3:20:2:0
 effect:TIMED_INC:OPP_COLD
 dice:20+1d20
-effect:BOLT_MELEE:COLD
+effect:SHORT_BEAM:COLD:1
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other:'s hands are covered with frost.
@@ -6994,6 +7108,7 @@ desc: of cuts and stunning.
 desc: Also grants you resistance against non-physical attacks.
 desc: The shield absorbs a percentage of damage from such attacks
 desc: equal to your character level.
+desc: Cooldown 150 turns.
 
 spell:Pyrokinesis:20:10:32:20:0
 effect:STRIKE:FIRE:0
@@ -7046,6 +7161,7 @@ dice:$B
 expr:B:PLAYER_LEVEL:* 4
 msg_other: subzeroes surrounding air into a sharp icicles.
 desc:Starts icy blizzard around you.
+desc: Cooldown 2 turns.
 
 spell:Firestorm:50:50:39:150:0
 cooldown:3
@@ -7054,6 +7170,7 @@ dice:$B
 expr:B:PLAYER_LEVEL:* 7
 msg_other: invokes a hellish storm.
 desc:Spews fire in a long narrow cone from you.
+desc: Cooldown 3 turns.
 
 ############### CLASS TEMPLATE for Chronowarrior / Mesmer / Predictor
 name:Timeturner
@@ -7095,7 +7212,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:400:5
+magic:1:350:5
 
 book:psi book:town:of Telepathy:11:psi
 equip:psi book:of Telepathy:1:1:none
@@ -7111,6 +7228,7 @@ dice:500
 msg_self:Your body begins to rapidly recover.
 desc:Cures 500 points of damage, cures all stunning, heals all
 desc: cut damage, neutralizes poison, and cures amnesia.
+desc: Cooldown 100 turns.
 
 spell:Fastest Recall:5:5:35:10:0
 effect:RECALL
@@ -7135,6 +7253,7 @@ cooldown:75
 effect:TIMED_INC:FASTCAST
 dice:5+1d5
 desc:Doubles spellcasting speed for 5+1d5 turns.
+desc: Cooldown 75 turns.
 
 spell:Temporal Paradox:20:15:45:30:0
 effect:TIMED_INC:ANCHOR
@@ -7245,7 +7364,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:1
+magic:1:350:1
 
 # brainstorm for later:
 # create rubble with with 'y' key?
@@ -7433,7 +7552,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:1
+magic:1:350:1
 
 book:nature book:town:[Lesser Charms]:6:nature
 equip:nature book:[Lesser Charms]:1:1:none
@@ -7477,7 +7596,7 @@ book:prayer book:town:[Beginners Handbook]:11:divine
 equip:prayer book:[Beginners Handbook]:1:1:none
 
 spell:Novice Torture:1:2:33:1:0
-effect:BOLT_MELEE:PSI_DRAIN
+effect:SHORT_BEAM:PSI_DRAIN:1
 dice:$Dd4
 expr:D:PLAYER_LEVEL:* 2 / 3 + 2
 msg_other: attemps to torture the victim.
@@ -7500,11 +7619,12 @@ desc: for one turn only. Mana cost increase with levels.
 
 spell:Cleansing Fire:10:4:33:5:0
 cooldown:5
-effect:BOLT_MELEE:FIRE
+effect:SHORT_BEAM:FIRE:1
 dice:$B
 expr:B:PLAYER_LEVEL:* 3
 msg_other: scorches the victim.
 desc:Scorches victim with a fire.
+desc: Cooldown 5 turns.
 
 spell:Confession:15:9:33:7:0
 effect:TIMED_INC:TAUNT
@@ -7516,13 +7636,14 @@ desc: which you may use for profit.
 
 spell:Torment:20:17:33:10:0
 cooldown:13
-effect:BOLT_MELEE:PSI_DRAIN
+effect:SHORT_BEAM:PSI_DRAIN:1
 dice:$B
 expr:B:PLAYER_LEVEL:* 4
 msg_other: makes devious torture to the victim.
 desc:Hits the victim in a weak spot to cause a pain.
 desc: Restores your mana.
 desc: Does not affect undead, demons, golems, elementals or vortices.
+desc: Cooldown 13 turns.
 
 spell:Get to Hell:25:20:33:15:0
 effect:DEEP_DESCENT
@@ -7551,6 +7672,7 @@ msg_other: attempts to drain soul from victim.
 desc:Drains part of the life-force from a nearby victim and replenishes
 desc: your mana with it. Does not affect undead, demons, golems, elementals or
 desc: vortices.
+desc: Cooldown 13 turns.
 
 spell:Surge of Sin:45:50:33:80:0
 effect:BEAM:DISEN
@@ -7563,6 +7685,7 @@ spell:Retribution:50:70:33:120:0
 cooldown:333
 effect:BIZARRE
 desc:Bring retribution to heretics...
+desc: Cooldown 333 turns.
 
 ############### Additional class slot for incoming PWMA Adventurer ###############
 name:Adventurer
@@ -7592,7 +7715,7 @@ value:0:WIS[0]
 value:0:DEX[0]
 value:0:CON[0]
 value:0:CHR[0]
-#/// will have it's own pet for summoning
+#/// will have its own pet for summoning
 title:Rookie
 title:Initiate
 title:Neophyte
@@ -7604,7 +7727,7 @@ title:Adept
 title:Master
 title:Grandmaster
 
-magic:1:300:1
+magic:1:350:1
 
 book:magic book:town:[Magic for Beginners]:11:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
@@ -7699,6 +7822,7 @@ desc: are standing on the glyph, it must first succeed in breaking the glyph.
 desc: Higher level monsters are more likely to break the glyph.
 desc: The glyph will remain where it is, until a monster succeeds in
 desc: breaking it or until you leave the level.
+desc: Cooldown 100 turns.
 
 #effect:MELEE_BLOWS:MISSILE
 #dice:$B
