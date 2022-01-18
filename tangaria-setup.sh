@@ -88,7 +88,7 @@ RADIOLIST_CLIENT_OTHER=OFF
 CHECKLIST_OPTIONS_CLIENT_DESKTOP=ON
 CHECKLIST_OPTIONS_SERVER_DESKTOP=ON
 CHECKLIST_OPTIONS_LINK_DIR_USER=ON
-CHECKLIST_OPTIONS_REMOVE_DIR=ON
+CHECKLIST_OPTIONS_REMOVE_SRC_DIR=ON
 CHECKLIST_OPTIONS_APPIMAGE=OFF
 
 CHECKLIST_UPDATE_DOWNLOAD_TANGARIA=ON
@@ -279,7 +279,7 @@ checkListOptions() {
             "client.desktop" "AppMenu " $CHECKLIST_OPTIONS_CLIENT_DESKTOP \
             "server.desktop" "AppMenu " $CHECKLIST_OPTIONS_SERVER_DESKTOP \
             "link directory user" "ln path " $CHECKLIST_OPTIONS_LINK_DIR_USER \
-            "remove src dir" "" $CHECKLIST_OPTIONS_REMOVE_DIR \
+            "remove src dir" "" $CHECKLIST_OPTIONS_REMOVE_SRC_DIR \
             "AppImage" "build " $CHECKLIST_OPTIONS_APPIMAGE \
             3>&1 1>&2 2>&3)
 
@@ -288,7 +288,7 @@ checkListOptions() {
             arrayContains MENU_OPTIONS[@] "client.desktop" CHECKLIST_OPTIONS_CLIENT_DESKTOP
             arrayContains MENU_OPTIONS[@] "server.desktop" CHECKLIST_OPTIONS_SERVER_DESKTOP
             arrayContains MENU_OPTIONS[@] "link directory user" CHECKLIST_OPTIONS_LINK_DIR_USER
-            arrayContains MENU_OPTIONS[@] "remove src dir" CHECKLIST_OPTIONS_REMOVE_DIR
+            arrayContains MENU_OPTIONS[@] "remove src dir" CHECKLIST_OPTIONS_REMOVE_SRC_DIR
             arrayContains MENU_OPTIONS[@] "AppImage" CHECKLIST_OPTIONS_APPIMAGE
         else
             clear
@@ -630,8 +630,6 @@ cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/Manual.
 
 cp -iv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/mangband.cfg ./${APP_DIR}${INSTALL_DIR}/games
 
-cp -fv ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/lib/user/sdlinit.txt ${APP_DIR}${INSTALL_DIR}/games
-
 write_pwmangrc ./${REPOSITORY_NAME_TANGARIA_RELEASE}-${VERSION_TANGARIA_RELEASE}/mangclient.ini "${SETUP_FILES}/${APP_DIR}${INSTALL_DIR}/games/.pwmangrc"
 
 # Icons
@@ -712,7 +710,7 @@ rm -f ${NAME_ROGUELIKE}*.AppImage*
 --desktop-file ./${APP_DIR}/pwmangclient.desktop \
 --output appimage
 
-if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
+if [ "$CHECKLIST_OPTIONS_REMOVE_SRC_DIR" = "ON" ]; then
     rm -r ./${APP_DIR}
     if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
@@ -906,7 +904,13 @@ fi
 
 cp -nv ./lib/user/save/account $USER_PWMANGBAND/Tangaria/save
 
-cp -iv ./lib/user/sdlinit.txt $USER_PWMANGBAND/Tangaria
+if [ "$MENU_CLIENT" = "sdl" ]; then
+    cp -iv ./lib/user/sdlinit.txt $USER_PWMANGBAND/Tangaria
+fi
+
+if [ "$MENU_CLIENT" = "sdl2" ]; then
+    cp -iv ./lib/user/sdl2init.txt $USER_PWMANGBAND/Tangaria
+fi
 
 if ! [ -f "$USER_PWMANGRC" ]; then
     write_pwmangrc ./mangclient.ini $USER_PWMANGRC
@@ -928,7 +932,7 @@ cd ../ || exit 1
 
 fi
 
-if [ "$CHECKLIST_OPTIONS_REMOVE_DIR" = "ON" ]; then
+if [ "$CHECKLIST_OPTIONS_REMOVE_SRC_DIR" = "ON" ]; then
     if [ "$NAME_ROGUELIKE" = "Tangaria" ]; then
         rm -r ./${REPOSITORY_NAME_TANGARIA}-${VERSION_TANGARIA}
     fi
