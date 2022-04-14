@@ -23,6 +23,11 @@ Angband 4.2.x:
 - Change keymap terminator to =
 - Change key to reset birth options to the Angband defaults
 - Changed purchase message to show if a book is not usable
+- More consistent background handling
+- Allow yes/no interface options to carry over between characters
+- Generate sounds when entering or leaving stores
+- Reorder checks/confirmations so they happen before additional prompts
+- In open targeting mode, allow running keys to step 10 grids at a time
 
 MAngband 1.5.x:
 
@@ -48,6 +53,8 @@ PWMAngband:
 - Limit ESP_RADIUS to 75% of z_info->max_sight if LIMITED_ESP is set
 - Drastically reduce dark elven warlock group size
 - Allow curative spells/potions to heal controlled monsters
+- Allow permanently polymorphed DMs, turn ghost mode off in that case
+- Tweak dragons a bit, reduce HP bonus from high level forms by roughly 5%
 
 Bugs fixed
 ----------
@@ -56,6 +63,8 @@ Angband 4.2.x:
 
 - A couple of minor fixes
 - Stop monsters hasting themselves
+- Set kind's cost for special artifacts
+- Allow dumping a color with all zero components if in the basic colors
 
 PWMAngband:
 
@@ -73,6 +82,15 @@ PWMAngband:
   level
 - Fix moronic crash when looking at a pile of floor-size items on the floor
 - Fix moronic bug allowing players to walk while paralyzed
+- Fix spell info/description for spells using SET_VALUE or spell power
+  (elementalists)
+- Fix Cloud room template
+- Correctly set mana pool cap to +10 from items and +15 overall
+- Add spell name to spell info sent to client to allow keymap by spell to work
+  properly
+- Fix object_all_modifiers_are_known()
+- Redraw equip subwindow when inscribing items in the quiver
+- Fix crash in file_newer()
 
 Coding changes
 --------------
@@ -101,6 +119,17 @@ Angband 4.2.x:
 - Use TF_LOS, remove square_iswall()
 - Perform the extra color table set up for more than 16 colors in init_gcu
 - Improve object origin merging
+- Remove some suspect uses of format()
+- Refactor object_similar()
+- Refine combining origins
+- Account for SET_VALUE/CLEAR_VALUE effects in get_spell_info()
+- Remember cursor size
+- Stop treating quiver items as wielded for learning of runes
+- Add Term_redraw_all()
+- Don't overwrite a normal save with a panic save
+- Fix some comments in z-file.c
+- Constrain search in drop_find_grid() to avoid out-of-bounds access
+- Make highscore_read return value consistent
 
 PWMAngband:
 
@@ -108,6 +137,7 @@ PWMAngband:
 - Fix potential crash with standard roller
 - Implement SHORT_BEAM effect, replace BOLT_MELEE effect by SHORT_BEAM with
   length 1
+- Remove bogus END_INFO effect
 
 Compilation/documentation
 -------------------------
@@ -116,3 +146,7 @@ Compilation/documentation
 - Modify the comment about room cutoffs in dungeon_profile.txt
 - Update attack.rst
 - Put in first draft of "how it works" documentation for dungeon generation
+- Update comments in artifact.txt, ego_item.txt and object.txt
+- Adjust brief description for commands
+- Update comment about swap weapons keymap in pref.prf
+- Add configure option to store gamedata on libpath
