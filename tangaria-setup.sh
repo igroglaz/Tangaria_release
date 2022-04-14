@@ -108,21 +108,19 @@ DIALOG_MENU=ON
 
 ###################################
 
-if [ "${DIALOG_MENU}" = "ON" ]; then
-  if [ -z "${DIALOG}" ]; then
+if [ "${DIALOG_MENU}" = "ON" ] && [ -z "${DIALOG}" ]; then
     if (command -v whiptail >/dev/null)
     then
-      DIALOG=${DIALOG=whiptail}
+        DIALOG=${DIALOG=whiptail}
     else
-      if (command -v dialog >/dev/null)
-      then
-        DIALOG=${DIALOG=dialog}
-      else
-        echo "Please install 'whiptail' or 'dialog' to run setup..."
-        exit 1
-      fi
+        if (command -v dialog >/dev/null)
+        then
+            DIALOG=${DIALOG=dialog}
+        else
+            echo "Please install 'whiptail' or 'dialog' to run setup..."
+            exit 1
+        fi
     fi
-  fi
 fi
 
 if ! command -V wget &> /dev/null ; then
@@ -897,9 +895,6 @@ if ! [ -d "$USER_PWMANGBAND/Tangaria" ]; then
 fi
 if ! [ -d "$USER_PWMANGBAND/Tangaria/save" ]; then
     mkdir -p $USER_PWMANGBAND/Tangaria/save
-fi
-if ! [ -d "$USER_PWMANGBAND/Tangaria/scores" ]; then
-    mkdir -p $USER_PWMANGBAND/Tangaria/scores
 fi
 
 cp -nv ./lib/user/save/account $USER_PWMANGBAND/Tangaria/save
