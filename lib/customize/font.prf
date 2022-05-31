@@ -1,0 +1,27 @@
+# File: font.prf
+
+#
+# This file defines special attr/char mappings for use in "text" mode
+#
+# This file includes, if appropriate, various "sub-files"
+#
+
+
+##### System Specific Subfiles #####
+
+?:[EQU $SYS sdl]
+%:font-sdl.prf
+
+?:[EQU $SYS sdl2]
+%:font-sdl2.prf
+
+?:[EQU $SYS win]
+%:font-win.prf
+
+?:[EQU $SYS gcu]
+%:font-gcu.prf
+
+?:[IOR [EQU $FONTNAME 21x31tg.fon] [EQU $FONTNAME 24x36tg.fon]]
+%:font-tng.prf
+
+?:1
