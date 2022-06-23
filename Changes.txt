@@ -56,6 +56,7 @@ Angband 4.2.x:
 - Suppress "You have ..." message for artifact jewelry when all non-curse runes
   are known
 - Modify text when player is aware of a monster via detection or telepathy
+- Change default Enter key behavior in stores
 
 MAngband 1.5.x:
 
@@ -69,6 +70,9 @@ PWMAngband:
   play
 - Clarify message when creating a character with a name that is already taken
 - Revert default ignoring options to "no ignore"
+- MotD shown on login in message window (from motd.txt in /lib/screens)
+- Add slays/brands to character sheet
+- Allow to polymorph directly using form name with the V command
 
 Gameplay changes
 ----------------
@@ -95,6 +99,8 @@ PWMAngband:
 - Buffed The Lost Silmaril of Maglor
 - Take half a turn when taking off/dropping/refilling an item (ported from V)
 - Make pit walls much less likely to be pierced by steamers deep in the dungeon
+- Exclude wearing from !* inscription
+- Implement RAND_100 flag and assign it to goldfishes
 - New class: Villager
 
 Bugs fixed
@@ -140,6 +146,9 @@ PWMAngband:
 - Fix attacking while walking/jumping/running with extra moves not spending
   a full turn of energy
 - Fix READ_MINDS
+- Fix some va_arg argument types in vstrnfmt
+- Learn FEATHER flag when walking on water
+- Fix monster AI bug
 
 Coding changes
 --------------
@@ -199,6 +208,7 @@ PWMAngband:
 - Implement SHORT_BEAM effect, replace BOLT_MELEE effect by SHORT_BEAM with
   length 1
 - Remove bogus END_INFO effect
+- Remove square_hack_iscloseddoor() hack
 
 Compilation/documentation
 -------------------------
