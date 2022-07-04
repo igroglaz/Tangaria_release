@@ -73,6 +73,7 @@ PWMAngband:
 - MotD shown on login in message window (from motd.txt in /lib/screens)
 - Add slays/brands to character sheet
 - Allow to polymorph directly using form name with the V command
+- Add swear word protection for names and messages
 
 Gameplay changes
 ----------------
@@ -149,6 +150,9 @@ PWMAngband:
 - Fix some va_arg argument types in vstrnfmt
 - Learn FEATHER flag when walking on water
 - Fix monster AI bug
+- Fix crash when targeting a healing spell with a friendly monster in sight
+- Fix Dungeon Master pet attacking other monsters
+- Fix pets attacking non-hostile player pets
 
 Coding changes
 --------------
@@ -209,6 +213,8 @@ PWMAngband:
   length 1
 - Remove bogus END_INFO effect
 - Remove square_hack_iscloseddoor() hack
+- Don't display "Could not accept TCP Connection, socket error = 0" messages in
+  the log
 
 Compilation/documentation
 -------------------------

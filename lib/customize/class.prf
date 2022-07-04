@@ -232,6 +232,15 @@ class:Druid
 help:Nature magic and can shift to animals. Good at martial arts and do not use
 help: weapons. Every 5 levels can learn a new animal form to transform; some
 help: forms can cast magic spells or have innate abilities.
+help: Druids have to find their spellbooks in the dungeons; they are not for sale.
+help: Druid forms:
+help: - bird form can fly very fast and fly over water and other terrain;
+help: - rat form can pass through little cracks and find holes in the walls;
+help: - boar can find different eadable plants which reduce its nourishment consumption;
+help: - cat can jump at its enemies;
+help: - wolf can howl to summon allies;
+help: - bear is bold and could survive even very harsh attacks.
+help: Druids hitpoints does not influenced by its forms.
 
 class:Fighter
 help:Mercenary who uses different fighting tricks and blows to survive at all cost.
@@ -239,6 +248,8 @@ help: Like all mercenaries, they are very good at armor and weapon care.
 help: Fighters are very superstitious and believe in fortune.
 help: As they care a lot about signs and omens, they may get lucky to survive
 help: blows that would be mortal wounds for anyone else.
+help: His mana pool depends on his intelligence and his strength.
+help: Also fighters can sense hidden weapon properties better than others.
 
 class:Knight
 help:Noble knight in heavy armour who charges into enemies with immense power.
