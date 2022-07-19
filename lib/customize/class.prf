@@ -231,16 +231,27 @@ help: your life.
 class:Druid
 help:Nature magic and can shift to animals. Good at martial arts and do not use
 help: weapons. Every 5 levels can learn a new animal form to transform; some
-help: forms can cast magic spells or have innate abilities.
-help: Druids have to find their spellbooks in the dungeons; they are not for sale.
-help: Druid forms:
-help: - bird form can fly very fast and fly over water and other terrain;
-help: - rat form can pass through little cracks and find holes in the walls;
-help: - boar can find different eadable plants which reduce its nourishment consumption;
-help: - cat can jump at its enemies;
-help: - wolf can howl to summon allies;
-help: - bear is bold and could survive even very harsh attacks.
-help: Druids hitpoints does not influenced by its forms.
+help: forms have innate abilities (to use them, press 'y' key).
+help: Druid has to find spellbooks in the dungeons; such books are not for sale. |
+help:Druid forms:
+help: - BIRD: fast and able to fly over water and other terrain; can heal ('y').
+help: Fragile and worthless in combat, but can dodge melee attacks well.
+help: Resistant to gravity. |
+help: - RAT: harmless and stealthy, rats can find little cracks and holes in the
+help: walls to pass through them. They can avoid traps most of the time and able to
+help: sniff items to detect curses on them. Resistant to poison and can life drain. |
+help: - BOAR: find different edible plants which reduce its nourishment consumption;
+help: good in mushroom's identification. Boars are very wise, got high vitality and
+help: fearless. Can charge at its enemies from distance ('y'). |
+help: - CAT: stealthy and nimble. Can backstab sleeping target.
+help: Regenerate especially fast, but bad at mana restoring. |
+help: - WOLF: makes fast vicious attacks; can howl to summon allies ('y').
+help: Less resistant to magic, except dark arts. Reckless in defense,
+help: but generates rage while in combat. |
+help: - BEAR: tough and powerful, but very noisy and a bit clumsy.
+help: Can survive even very harsh blows and curses. Can bash enemies and stun them. |
+help:Druids hitpoints does not influenced by its forms and they cannot cast spells
+help: while in animal form, bad in trap disarming and magical devices.
 
 class:Fighter
 help:Mercenary who uses different fighting tricks and blows to survive at all cost.
@@ -327,6 +338,7 @@ class:Timeturner
 help:Extremely brittle, but lightning fast, they command time by void magic.
 help: Some call them 'Mesmers' as they also have battle telepathic powers.
 help: They become especially speedy after level 30.
+help: Their haste buff from the spell can stack its duration.
 
 class:Scavenger
 help:Vagabond who ventured to the dungeons to get his hands to monster's treasures,

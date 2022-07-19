@@ -2659,7 +2659,7 @@ weight:0
 experience:90
 blow:HYPNOTIZE:SEDUCE:1d8
 blow:HIT:HURT:1d8
-flags:UNIQUE | FEMALE | NEUTRAL
+flags:UNIQUE | FEMALE | NEUTRAL | SWIM_NORM
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:SWIM_NORM
 drop:food:Apple of Youth:100:1:1
@@ -32252,28 +32252,28 @@ desc:Very vicious rodent. It can bite (quite painfully) all who threats its mast
 name:bird-form
 base:bird
 color:T
-speed:112
+speed:110
 hit-points:45
 hearing:10
 smell:10
-armor-class:10
+armor-class:1
 sleepiness:0
 depth:1
 rarity:0
 weight:3
 experience:0
 blow:CLAW:HURT:1d2
-flags:ANIMAL | OPEN_DOOR | WILD_WOOD | LEVITATE
+flags:ANIMAL | OPEN_DOOR | WILD_WOOD
 desc:A small bird. You noticed unusual intelligence in its eyes.
 
 name:rat-form
 base:rodent
 color:Z
-speed:112
+speed:110
 hit-points:45
 hearing:10
 smell:10
-armor-class:10
+armor-class:1
 sleepiness:0
 depth:1
 rarity:0
@@ -32286,17 +32286,17 @@ desc:A small rat. Apparently it can penetrate even through little cracks.
 name:boar-form
 base:quadruped
 color:Y
-speed:112
+speed:110
 hit-points:45
 hearing:10
 smell:10
-armor-class:10
+armor-class:40
 sleepiness:0
 depth:1
 rarity:0
 weight:30
 experience:0
-blow:CLAW:HURT:1d4
+blow:CLAW:HURT:1d8
 flags:ANIMAL | OPEN_DOOR
 desc:A boar can find and dig out food even in unusual places.
 
@@ -32327,7 +32327,7 @@ speed:110
 hit-points:325
 hearing:30
 smell:50
-armor-class:50
+armor-class:30
 sleepiness:40
 depth:1
 rarity:0
@@ -32359,6 +32359,42 @@ blow:CRUSH:HURT:1d6
 flags:ANIMAL | OPEN_DOOR
 desc:In the eyes of this bear, there glimmers the faintest light of
 desc: intelligence.
+
+name:acid blob
+base:jelly
+color:P
+speed:115
+hit-points:12
+hearing:8
+armor-class:14
+sleepiness:80
+depth:1
+rarity:3
+weight:0
+experience:3
+blow:SPIT:ACID:2d4
+flags:IM_ACID | IM_POIS | HURT_COLD | NO_CONF | NO_SLEEP | NEVER_MOVE | NEVER_BLOW
+spell-freq:4
+innate-freq:100
+spells:WHIP
+desc:Brightly pink and oozing at you dripping caustic acid all around place.
+
+# jelly player race breed
+name:oozling
+base:jelly
+color:G
+speed:110
+hit-points:11
+hearing:2
+armor-class:1
+sleepiness:99
+depth:1
+rarity:8
+weight:0
+experience:0
+blow:TOUCH:ACID:1d3
+flags:HURT_LIGHT | IM_ACID | HURT_COLD | NO_CONF | NO_SLEEP
+desc:A small pulsing green ooze.
 
 ### !!! move Test dummy there, to the bottom... so it will be easier to change it
 # BUT.. change druid class forms IDs after that!
