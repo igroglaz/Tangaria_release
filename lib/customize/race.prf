@@ -143,6 +143,7 @@ help: have tamed the Great Eagles of Middle-Earth and use them in their hunts.
 help: They need to eat often to feed themselves and their eagle. |
 help: Thunderlords easily discovered by enemies as they sing their battle songs
 help: loudly and their eagle piercingly screams seeking for pray...
+help: They can breath fire in a narrow line which become more deadly with the age.
 
 race:Dragon
 help:ATTENTION! If you decided to take dragon race:
@@ -317,6 +318,8 @@ help: Night creatures, they don't like light and feel bad during the day hours;
 help: but still they can tolerate daylight, thought become weakened.
 help: Vampires don't eat normal food.. they restore their thirst when they hunt
 help: humanoids in the dungeons.
+help: They can take form of vampiric mist to pass most of obstacles; also they are
+help: able to polymorph into bats.
 
 race:Maiar
 help:Maiar - descendants of ancient powers. Not much know about them, except 
@@ -331,7 +334,9 @@ help: maiar race, but to the other side of power. Resistant to chaos, they
 help: are able to control nexus vibrations and possess very powerful abilities. 
 help: But there is a price for this - they are very hard to learn.. Chaos inside 
 help: of them makes it almost impossible to control their will to achieve their own 
-help: goals...
+help: goals...|
+help: They can summon demon-slaves ('y') to serve them. Summoning ritual require some
+help: time and demonic's blood as sacrifice.
 
 race:Balrog
 help:Balrog - undeground ancient 'race' or some would call them as a 'force'. 
@@ -401,6 +406,7 @@ race:Pixie
 help:Pixies - wondrous tiny flying creatures who got fascinating magical powers.
 help: Not much mortals saw one as they are very fast and covert...
 help: They can dodge melee attacks occasionally. |
+help: They can become invisible for a while ('y'), but have to spend HP on the spell.
 help: ATTENTION!
 help: Please be careful - as pixie got very low strength - it could become very slow
 help: if you will take a lot of items in your inventory or use heavy equipment.
@@ -467,7 +473,10 @@ help: from other dimensions. They are very dangerous as their nature gives them
 help: raw magical power in almost unlimited qualities; thought this interfere with
 help: spatial fields, they can not use boots and restore fast which is vital for
 help: surviving in our deadly world... But djinny don't complain.
-help: They are so powerful that they don't feel any danger in the dungeons...
+help: Djinns literally can make wonders ('y' key). But such magic not always bring
+help: good consequences as they don't have full control on their wishes. |
+help: Also they are so powerful that they don't feel any danger in the dungeons and
+help: their magic interfere with magical devices making them hiccup a little.
 
 race:Harpy
 help:Winged humanoids with nasty temper. Can not be blinded; mature species could
@@ -496,7 +505,6 @@ help:Chaotic mutation: humanoids with dog's head. Likes ale and howling rude son
 help: all day long.
 help: They enjoy eating rodents which provide to them
 help: additional nourishment when caught in the dungeons.
-
 
 race:Lizardmen
 help:Reptilian humanoids who lives in southeren bogs. Quite mediocre in everything,
@@ -533,9 +541,12 @@ help: They can avoid melee attacks quite often.
 race:Beholder
 help:Intelligent floating in air orb-shaped eyes. They got several tentacle 
 help: eyestalks which gives the capacity to see in all directions at once.
-help: As they develop in time, they could get obtain magic powers. |
-help: Beholders may try to predict future from time to time which
-help: cause hallucinations.
+help: As they develop in time, they could get obtain magic powers:
+help: they able to fire rays which has various properties and can cause different
+help: effects. Magic classes' ray is more powerful. |
+help: Beholder's conscious dwells on different realms which make them have
+help: hallucinations from time to time. More mature beholders got hallucinations
+help: very rare.
 
 race:Ooze
 help:Gelatinous slimy creatures, they rarely appears to have mind and comprehension.
@@ -547,5 +558,6 @@ help: diet, so oozes get nourishment upon every enemy which was killed by it.
 help: They cannot have ESP, but has excellent infravision and survivability.
 help: Oozes can duplicate themselves ('y' key) making its minor copies which can
 help: attack and distract enemies. At lvl 35 they are able to inflict acid attacks.
+help: They can pass doors by crawling under them.
 
 # leave empty line for EOF
