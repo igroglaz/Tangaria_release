@@ -299,7 +299,7 @@ value:0:INT[-2]
 value:0:DEX[1+1d30]
 value:0:CON[0+1d30]
 value:0:CHR[-1]
-value:30:SPEED[1+1d10]
+value:30:SPEED[0+1d4]
 value:0:BLOWS[1d1]
 player-flags:0:NO_MANA | MARTIAL_ARTS | FAST_THROW
 # reduce aggro radius?
@@ -6289,7 +6289,8 @@ equip:prayer book:[Beginners Handbook]:1:1:none
 #? friendly to angels
 
 spell:Light Ray I:1:1:22:3:0
-effect:BOLT_OR_BEAM:LIGHT:0:-10
+# hc distance up to 10
+effect:BOLT_RADIUS:LIGHT:1
 dice:$D
 expr:D:PLAYER_LEVEL:+ 0
 effect:LINE:LIGHT_WEAK
@@ -6298,11 +6299,9 @@ expr:D:PLAYER_LEVEL:+ 0
 effect:LIGHT_AREA
 msg_self:A line of shimmering light appears.
 msg_other:'s hands project a line of shimmering light.
-desc:Fires a light missile that always hits its target.
+desc:Fires a light missile to a level-dependent distance.
 desc: Also it creates a beam that lights up each square and hurts each
 desc: light-sensitive monster in its path.
-desc: Sometimes especially strong beam is fired instead.
-desc: The chance to get a beam goes up with your character level.
 desc: If you are in a room, the entire room will be lit up as well.
 
 spell:Safe Guard:5:2:35:7:0
@@ -6347,7 +6346,7 @@ desc: The effect of this spell is cumulative with other means of regeneration.
 desc: Cooldown 11 turns.
 
 spell:Light Ray II:20:5:22:22:0
-effect:BOLT_OR_BEAM:LIGHT:0:-10
+effect:BOLT_RADIUS:LIGHT:1
 dice:$D + 1d$D
 expr:D:PLAYER_LEVEL:+ 0
 effect:LINE:LIGHT
@@ -6356,11 +6355,9 @@ expr:D:PLAYER_LEVEL:+ 0
 effect:LIGHT_AREA
 msg_self:A line of shimmering light appears.
 msg_other:'s hands project a line of shimmering light.
-desc:Fires a light missile that always hits its target.
+desc:Fires a light missile that always hits its target at medium distance.
 desc: Also it creates a beam that lights up each square and hurts each
 desc: light-sensitive monster in its path.
-desc: Sometimes especially strong beam is fired instead.
-desc: The chance to get a beam goes up with your character level.
 desc: If you are in a room, the entire room will be lit up as well.
 
 spell:Vasa Sacra:25:7:40:25:0
@@ -7401,9 +7398,13 @@ equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Satisfy Hunger (tattered):2:2:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
+value:0:BLOWS[5]
 obj-flag:0:CLUMSY
-value:30:RES_FIRE[1]
-value:30:RES_COLD[1]
+# class brands works both on melee and ranged. races - only on melee!
+brand:10:50:FIRE_2
+brand:10:50:COLD_2
+value:30:RES_FIRE[2]
+value:30:RES_COLD[2]
 title:Rookie
 title:Initiate
 title:Neophyte
@@ -7423,6 +7424,7 @@ equip:magic book:[Magic for Beginners]:1:1:none
 # fog, clouds; freeze water; create lava
 
 spell:Pyrokinetic Touch:1:1:20:1:0
+#hc rng
 effect:TIMED_SET:OPP_FIRE
 dice:20+1d20
 effect:SHORT_BEAM:FIRE:1
@@ -7432,23 +7434,24 @@ msg_other:'s hands are covered with fire.
 desc:Covers your hands with fire to burn your foes.
 desc: Grants fire resistance.
 
-spell:Cryokinetic Touch:5:2:20:2:0
+spell:Cryokinetic Whirl:5:2:20:2:0
+#hc rng
 effect:TIMED_SET:OPP_COLD
 dice:20+1d20
-effect:SHORT_BEAM:COLD:1
+effect:BLAST:COLD:2
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other:'s hands are covered with frost.
 desc:Covers your hands with frost to freeze your foes.
 desc: Grants cold resistance.
 
-spell:Ice and Fire:10:5:30:3:0
-effect:TIMED_SET:ATT_FIRE:0:5
+spell:Warmth:10:5:30:3:0
+cooldown:120
+effect:TIMED_SET:REGEN
 dice:20+1d20
-effect:TIMED_SET:ATT_COLD:0:5
-dice:20+1d20
-desc:Temporarily makes your melee attacks imbued with heat or frost,
-desc: depending on situation.
+desc:Greatly increases your regeneration rate for 20+1d20 turns.
+desc: The effect of this spell is cumulative with other means of regeneration.
+desc: Cooldown 120 turns.
 
 spell:Cryo Hybernation:15:10:32:10:0
 cooldown:150
@@ -7456,32 +7459,34 @@ effect:TIMED_INC_NO_RES:PARALYZED
 dice:5d1
 effect:TIMED_INC:INVULN
 dice:5
+effect:TIMED_INC:ICY_AURA
+dice:5
 effect:CURE:STUN
 effect:CURE:CUT
 effect:HEAL_HP
 dice:$B
 expr:B:PLAYER_LEVEL:* 5
 msg_other: become frozen.
-desc:Cures a level-dependent percentage of your wounds and heals 20 points worth
-desc: of cuts and stunning.
+desc:Freezes you into a globe of ice.
+desc: Cures a level-dependent percentage of your wounds and heals cuts and stunning.
 desc: Also grants you resistance against non-physical attacks.
 desc: The shield absorbs a percentage of damage from such attacks
 desc: equal to your character level.
 desc: Cooldown 150 turns.
 
 spell:Pyrokinesis:20:10:32:20:0
-effect:STRIKE:FIRE:0
+# hc
+effect:BOLT_RADIUS:FIRE:10
 dice:$B
-expr:B:PLAYER_LEVEL:* 9
+expr:B:PLAYER_LEVEL:+ 0
 msg_other: strikes with heat.
 desc:Strikes a target with immense heat.
-desc: Target grid must be targetable and known to the player;
-desc: no target grid will mean the player grid is hit.
 
 spell:Cryokinetic Ray:25:10:32:30:0
-effect:BOLT:COLD
+# hc
+effect:BOLT_RADIUS:COLD:10
 dice:$B
-expr:B:PLAYER_LEVEL:* 9
+expr:B:PLAYER_LEVEL:+ 0
 msg_other: fires a ray of frost.
 desc:Fires a ray of frost that always hits its target and knocks it away.
 desc: This ray does not penetrate target.
@@ -7515,7 +7520,7 @@ desc: no target grid will mean the player grid is hit.
 
 spell:Blizzard:45:40:35:100:0
 cooldown:2
-effect:BLAST:ICE:4
+effect:BLAST:ICE:5
 dice:$B
 expr:B:PLAYER_LEVEL:* 4
 msg_other: subzeroes surrounding air into a sharp icicles.
@@ -7523,13 +7528,13 @@ desc:Starts icy blizzard around you.
 desc: Cooldown 2 turns.
 
 spell:Firestorm:50:50:39:150:0
-cooldown:3
+cooldown:2
 effect:ARC:FIRE:0:30
 dice:$B
 expr:B:PLAYER_LEVEL:* 7
 msg_other: invokes a hellish storm.
 desc:Spews fire in a long narrow cone from you.
-desc: Cooldown 3 turns.
+desc: Cooldown 2 turns.
 
 ############### CLASS TEMPLATE for Chronowarrior / Mesmer / Predictor
 name:Timeturner

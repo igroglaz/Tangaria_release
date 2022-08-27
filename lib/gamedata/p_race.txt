@@ -127,7 +127,7 @@ value:0:CON[3]
 value:0:CHR[-4]
 obj-flag:1:SUST_STR
 obj-flag:1:REGEN
-player-flags:40:RACE_REGEN
+player-flags:50:RACE_REGEN
 value:0:INFRA[3]
 player-flags:0:TROLL
 
@@ -155,6 +155,7 @@ value:50:WIS[1]
 value:50:DEX[1]
 value:50:CON[1]
 value:50:CHR[1]
+# 'y' restore CON
 # ? inv slot
 
 # mediocre bonus.. versatile
@@ -183,11 +184,12 @@ value:0:WIS[-1]
 value:0:DEX[1]
 value:0:CON[-1+1d24]
 value:0:CHR[1]
+# 'y' hero
 obj-flag:1:SUST_DEX
 value:0:INFRA[2]
 value:15:TUNNEL[1]
-value:25:DAM_RED[1]
-value:45:SPEED[1]
+value:50:DAM_RED[1]
+value:50:SPEED[1]
 
 #Sindar, Grey Elves.. Elves of the Twilight
 name:Elf
@@ -214,6 +216,7 @@ value:0:WIS[-1]
 value:0:DEX[1]
 value:0:CON[-1]
 value:0:CHR[2]
+# 'y' bless
 obj-flag:1:SUST_DEX
 value:0:INFRA[3]
 value:0:RES_LIGHT[1]
@@ -245,6 +248,7 @@ value:0:WIS[0+1d30]
 value:0:DEX[3]
 value:0:CON[0+1d10M20]
 value:0:CHR[1]
+# 'y' trapsafe for 1 turn
 value:0:INFRA[1]
 # 5% dodge melee attacks
 obj-flag:1:HOLD_LIFE
@@ -273,6 +277,7 @@ value:0:INT[2]
 value:0:DEX[2]
 value:0:CON[1]
 value:0:CHR[-1]
+# 'y' clear hallucinations
 value:0:INFRA[4]
 obj-flag:1:FREE_ACT
 value:0:TUNNEL[1+1d30]
@@ -302,6 +307,7 @@ value:0:WIS[2]
 value:0:DEX[-2]
 value:0:CON[2]
 value:0:CHR[-2]
+# 'y' detect treasure in a small radius (not only gold veins)
 value:0:INFRA[5]
 obj-flag:1:PROT_BLIND
 player-flags:0:SEE_ORE
@@ -327,6 +333,7 @@ value:0:STR[2]
 value:0:INT[-1]
 value:0:CON[1]
 value:0:CHR[-3]
+# 'y' restore STR
 value:0:INFRA[3]
 value:0:RES_DARK[1]
 value:0:TUNNEL[1]
@@ -335,7 +342,6 @@ obj-flag:25:ESP_ORC
 value:50:SPEED[1]
 obj-flag:50:SLOW_DIGEST
 player-flags:0:ORC
-# ? vigorous..stamina.. like MANA
 
 name:Dunadan
 skill-disarm-phys:4
@@ -357,11 +363,12 @@ height:80:6
 weight:190:20
 gift:food:Sprig of Athelas:1:1
 value:0:STR[1]
-value:0:INT[0+1d24]
-value:0:WIS[0+1d24]
-value:0:DEX[0+1d24]
-value:0:CON[1+1d24]
+value:0:INT[1]
+value:0:WIS[1]
+value:0:DEX[1]
+value:0:CON[2]
 value:0:CHR[2]
+# 'y' cure blackbreath
 obj-flag:1:SUST_CON
 
 #noble and proud
@@ -418,6 +425,7 @@ value:0:INT[-1]
 value:0:DEX[2]
 value:0:CON[2]
 value:0:CHR[-2]
+# 'y' double pois resist
 value:0:INFRA[5]
 value:0:RES_POIS[1]
 value:0:TUNNEL[1+1d30]
@@ -448,6 +456,7 @@ value:0:WIS[-5]
 value:0:DEX[-5]
 value:0:CON[-5]
 value:0:CHR[-5]
+# 'y' become bold :) like real brave yeek!
 obj-flag:1:FEATHER
 # + no agro! you simply can't be angry on cute yeek..
 player-flags:0:SHAPECHANGE
@@ -481,10 +490,10 @@ value:0:WIS[0+1d24]
 value:0:DEX[-4]
 value:0:CON[2+1d8]
 value:0:CHR[-3]
+# 'y' grow trees (5 lvl)
 # + don't eat normal food, but drink from fountains
 # + immune to polymorph
 # + stay at one place very silent
-# + 5 lvl: 'y' grow trees
 # + can move through trees somewhat
 # - after 30 lvl got malus to MOVES up to -10 (&& -2 there)
 value:0:INFRA[1+1d12]
@@ -505,7 +514,7 @@ value:0:STEALTH[-1+-1d5M25]
 # perma vulnerability; fire imm makes it less harsh
 value:0:RES_FIRE[-1]
 # /rfe what about certain vuln to nether?.. while make fire vuln minor.. also dislike poison?
-value:0:MOVES[-2]
+value:0:MOVES[-2+1d25]
 value:0:SPEED[0+-1d25]
 # barky
 value:0:DAM_RED[1+1d5]
@@ -541,6 +550,7 @@ value:0:WIS[0]
 value:0:DEX[0]
 value:0:CON[-6+1d4]
 value:0:CHR[-4]
+# 'y' electrify (res elec + brand)
 # + got eagle
 value:0:TUNNEL[-1+-1d15]
 obj-flag:1:AGGRAVATE
@@ -577,6 +587,7 @@ value:0:WIS[0]
 value:0:DEX[-20]
 value:0:CON[-10]
 value:0:CHR[-5]
+# 'y' breath
 # - hc monks: -1 BpR after lvl 10
 # - 1/13 hp
 value:0:MANA[5+-1d10M40]
@@ -619,6 +630,7 @@ value:0:WIS[-4]
 value:0:DEX[-20]
 value:0:CON[-20+20d25]
 value:0:CHR[-20+1d5]
+# 'y' breath
 # + AGGRAVATE 20 range hardcoded
 # - hc monks: -1 BpR after lvl 10
 value:15:SPEED[-10+2d7]
@@ -672,16 +684,17 @@ height:80:4
 weight:198:12
 gift:food:Handful of Dried Fruits:1:1
 #1 2 -1 1 2
-value:5:STR[1]
-value:0:INT[0+1d24]
+value:0:STR[1]
+value:0:INT[1+1d35]
 value:0:WIS[-1]
-value:10:DEX[1]
-value:0:CON[-2+1d12]
-value:0:CHR[-3+1d12]
-value:15:INFRA[1]
-value:25:TUNNEL[1]
+value:0:DEX[1]
+value:0:CON[0+2d35]
+value:0:CHR[0+1d35]
+# 'y' detect evil
+value:1:INFRA[1]
+value:35:TUNNEL[1]
 value:35:DAM_RED[1]
-obj-flag:1:ESP_EVIL
+obj-flag:35:ESP_EVIL
 
 #immortal human, highlander-like
 name:Damned
@@ -708,6 +721,7 @@ value:0:WIS[0+1d27]
 value:0:DEX[0+1d24]
 value:0:CON[0]
 value:0:CHR[1+1d27]
+# 'y' prevent summon for a moment
 # - hunted by gods (summon)...
 value:0:RES_TIME[1]
 obj-flag:0:PROT_FEAR
@@ -740,6 +754,7 @@ value:0:WIS[0+1d24]
 value:0:DEX[-1+1d24]
 value:0:CON[-3+1d24]
 value:0:CHR[-1]
+# 'y' cure poison
 # + water restore hp and satiation (in addition to food)
 # + value:0:RES_WATER[1]
 # + value:50:RES_WATER[3] hardcoded
@@ -773,6 +788,7 @@ value:0:WIS[-1]
 value:0:DEX[0+1d10M11]
 value:0:CON[0+1d7M15]
 value:0:CHR[-2]
+# 'y' aggro yell for heroism and taunt
 value:0:INFRA[1]
 obj-flag:1:PROT_FEAR
 value:0:RES_POIS[1]
@@ -805,6 +821,7 @@ value:0:WIS[-1]
 value:0:DEX[0]
 value:25:CON[1]
 value:0:CHR[-2]
+# 'y' detect doors
 value:0:INFRA[3]
 value:35:RES_DISEN[1]
 player-flags:15:SEE_ORE
@@ -836,6 +853,7 @@ value:0:WIS[-4]
 value:0:DEX[3+1d15]
 value:0:CON[1+1d30]
 value:0:CHR[-4]
+# 'y' bloodlust
 value:0:INFRA[4]
 value:10:RES_DARK[1]
 value:0:TUNNEL[1+1d30]
@@ -868,6 +886,7 @@ value:0:WIS[-2]
 value:0:DEX[-2]
 value:0:CON[3]
 value:0:CHR[-4]
+# 'y' SAFE (+ m.resistance)
 gift:food:Hard Biscuit:1:1
 # + -7% phys damage hc
 # got +1 BpR, except monk, warr, unbel -1 BpR till 35 lvl, hardcoded
@@ -910,11 +929,13 @@ value:0:WIS[-4+1d15]
 value:0:DEX[0+-1d30M32]
 value:0:CON[1+1d15M32]
 value:0:CHR[-5]
+# 'y' restore 1 mana or (if no mana) 1 hp
 value:0:INFRA[2+1d8]
 value:0:MOVES[-9]
 value:0:STEALTH[0+1d30]
 obj-flag:0:CLUMSY
 obj-flag:1:SUST_INT
+player-flags:0:CAN_SWIM
 value:0:TUNNEL[1]
 value:0:MANA[1]
 
@@ -925,8 +946,9 @@ skill-device:-16
 skill-save:-16
 skill-stealth:-5
 skill-search:-10
-skill-melee:25
-skill-shoot:-20
+# trolls isn't skillful in fight, but very strong
+skill-melee:5
+skill-shoot:-25
 skill-dig:1
 hitdie:13
 # @49: 300%
@@ -943,6 +965,7 @@ value:0:WIS[-4]
 value:0:DEX[-5]
 value:0:CON[1+1d8M30]
 value:0:CHR[-7]
+# 'y' +AC
 # - limited esp -1/3
 value:0:INFRA[1+1d10]
 obj-flag:1:SUST_STR
@@ -983,6 +1006,7 @@ value:0:WIS[-1+1d45]
 value:0:DEX[1]
 value:0:CON[1]
 value:0:CHR[-4]
+# 'y' summon warg
 value:0:INFRA[2+1d10M35]
 value:0:RES_DARK[1]
 value:10:RES_POIS[1]
@@ -1043,11 +1067,12 @@ weight:111:8
 gift:food:Petty-dwarf roots:1:1
 #0 2 -1 3 1
 value:0:STR[0]
-value:0:INT[0+1d20]
+value:0:INT[0+1d35]
 value:0:WIS[-2+1d35]
-value:0:DEX[1+1d24]
+value:0:DEX[1+1d35]
 value:0:CON[1]
 value:0:CHR[-5+1d10]
+# 'y' apply poison
 value:0:INFRA[0+1d6]
 obj-flag:25:SEE_INVIS
 value:35:RES_DARK[1]
@@ -1087,6 +1112,7 @@ obj-flag:20:ESP_ANIMAL
 value:0:RES_LIGHT[-1]
 value:0:MANA[3+-1d15]
 player-flags:0:ANIMAL
+# 'y' re-poly
 #/// 'night' bonuses + regen hp..
 #/// bad at shooting and other precise stuff at night..
 #/// hardcoded CUT_1 (15) & CUT_2 (50) at night
@@ -1130,6 +1156,7 @@ value:0:CHR[-9]
 value:0:INFRA[0+1d5]
 # 'y' detect living creatures
 # eating living humanoids nourish and heal
+# darkness-loving (see in the dark, but light makes it worse)
 obj-flag:1:HOLD_LIFE
 obj-flag:1:IMPAIR_HP
 value:0:RES_POIS[1]
@@ -1170,6 +1197,7 @@ value:0:CON[-5+1d9]
 value:0:CHR[-9+1d4]
 # + black breath
 # 'y' can FLY
+# darkness-loving (see in the dark, but light makes it worse)
 # - fear open water (only FLYING helps)
 #/// - during the day: -HP, regen HP, mana, skills; especially shooting
 # (during the day vamps should stay in the coffin kek)
@@ -1811,7 +1839,7 @@ skill-stealth:0
 # !
 skill-search:20
 skill-melee:-10
-skill-shoot:-10
+skill-shoot:-25
 skill-dig:0
 hitdie:9
 exp:100:125
@@ -1836,18 +1864,19 @@ value:0:MANA[4+-1d12]
 value:0:DAM_RED[-1+-1d5]
 value:0:RES_LIGHT[-1]
 value:0:STEALTH[1+1d12]
-player-flags:0:PERM_SHAPE
-shape:1:s'spider
-shape:5:s'weaver
-shape:10:s'warrior
-shape:15:s'guard
-shape:20:s'apprentice
-shape:25:s'adept
-shape:30:s'master
-shape:35:s'aranea
-shape:40:s'elder
-shape:45:s'ancient
-shape:50:s'lord
+############################## forms hced as deco in map-ui.c
+#player-flags:0:PERM_SHAPE
+#shape:1:s'spider
+#shape:5:s'weaver
+#shape:10:s'warrior
+#shape:15:s'guard
+#shape:20:s'apprentice
+#shape:25:s'adept
+#shape:30:s'master
+#shape:35:s'aranea
+#shape:40:s'elder
+#shape:45:s'ancient
+#shape:50:s'lord
 #attack:verb:hit_extra:min_level:chance:effect
 #attack:strike: with your talons:3:1:DICE
 #attack:strike:none:11:5:SLOW
@@ -1925,7 +1954,7 @@ value:0:WIS[-3+1d30]
 value:0:DEX[2+1d24]
 value:0:CON[-1+1d40]
 value:0:CHR[-2]
-# 'y' can remove image, conf, amnesia. at 30+ slow
+# 'y' clear slow
 obj-flag:1:FEATHER
 value:0:TUNNEL[-1]
 player-flags:0:KNOW_MUSHROOM
@@ -2190,7 +2219,7 @@ value:0:SPEED[1+1d15]
 value:0:RES_COLD[-1]
 obj-flag:0:IMPAIR_MANA
 # randomly teleports around from time to time
-player-flags:0:STEALTH_MODE
+player-flags:50:STEALTH_MODE
 value:0:MANA[8+-1d6]
 
 name:Wraith
@@ -2237,6 +2266,7 @@ value:0:MANA[4+-1d12]
 # +
 # 25% dodge melee attacks
 # 'y' passwall (blind)
+# darkness-loving (see in the dark, but light makes it worse)
 ############################
 # -
 player-flags:0:NO_RECALL
