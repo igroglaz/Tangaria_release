@@ -12,87 +12,87 @@ TileHeight = 2
 Window = 0
 Visible = 1
 Left = 0
-Top = 172
-Width = 1500
-Height = 889
+Top = 13
+Width = 1516
+Height = 911
 Keys = 1024
 WinBorders = 2
-FontSize = 22
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,27,UbuntuMono-Regular.ttf
+
 
 Window = 1
 Visible = 1
-Left = 0
-Top = 13
-Width = 966
-Height = 165
+Left = 2
+Top = 918
+Width = 804
+Height = 162
 Keys = 32
 WinBorders = 2
-FontSize = 24
-Font = AnonymousPro-Bold.ttf
+Font = NOTBITMAP,20,UbuntuMono-Regular.ttf
+
 
 Window = 2
 Visible = 1
-Left = 1499
-Top = 172
-Width = 409
-Height = 262
+Left = 1516
+Top = 237
+Width = 400
+Height = 243
 Keys = 32
 WinBorders = 2
-FontSize = 18
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,18,UbuntuMono-Bold.ttf
+
 
 Window = 3
 Visible = 1
-Left = 1500
-Top = 434
-Width = 406
-Height = 262
+Left = 1516
+Top = 480
+Width = 404
+Height = 279
 Keys = 32
 WinBorders = 2
-FontSize = 12
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,10,UbuntuMono-Bold.ttf
+
 
 Window = 4
 Visible = 1
-Left = 1499
+Left = 1516
 Top = 13
-Width = 409
-Height = 167
+Width = 404
+Height = 225
 Keys = 32
 WinBorders = 2
-FontSize = 18
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,20,UbuntuMono-Bold.ttf
+
 
 Window = 5
 Visible = 1
-Left = 964
-Top = 13
-Width = 535
+Left = 802
+Top = 913
+Width = 715
 Height = 167
 Keys = 32
 WinBorders = 2
-FontSize = 18
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,18,UbuntuMono-Bold.ttf
+
 
 Window = 6
 Visible = 1
-Left = 1500
-Top = 696
-Width = 406
-Height = 184
+Left = 1517
+Top = 759
+Width = 403
+Height = 120
 Keys = 32
 WinBorders = 2
-FontSize = 12
-Font = UbuntuMono-Bold.ttf
+Font = NOTBITMAP,14,UbuntuMono-Bold.ttf
+
 
 Window = 7
 Visible = 1
-Left = 1500
-Top = 865
+Left = 1516
+Top = 873
 Width = 404
 Height = 207
 Keys = 32
 WinBorders = 2
-FontSize = 8
 Font = 5X8TG.FON
+
