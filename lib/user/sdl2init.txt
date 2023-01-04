@@ -46,7 +46,7 @@ subwindow-alpha:3:255
 
 subwindow-window:0:0
 subwindow-full-rect:0:0:19:1515:880
-subwindow-font:0:30:UbuntuMono-Regular.ttf
+subwindow-font:0:30:UbuntuMono-Regular-tg.ttf
 subwindow-borders:0:true
 subwindow-top:0:false:false
 subwindow-alpha:0:255
