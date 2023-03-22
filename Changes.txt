@@ -67,6 +67,7 @@ Angband 4.2.x:
 - Better match store's in-game help description to the keys available
 - Have lurkers and trappers become noticeable in ASCII
 - Remove ctrl-c keymap
+- In inventory item context menu, change "Drop All" command key to 'A'
 
 PWMAngband:
 
@@ -156,6 +157,9 @@ Angband 4.2.x:
 - Check for resistance before issuing message about confusion from strong light
   or sound attacks
 - Fix incorrect scaling of monster hearing and smell
+- SDL2: limit the number of builtin fonts tracked
+- SDL2: return early in pict hook if tiles aren't enabled
+- Fix Venn diagram room template
 
 PWMAngband:
 
@@ -199,6 +203,7 @@ PWMAngband:
 - Fix wilderness mapping
 - Prevent trying to add a player to the "Neutral" party
 - Fix double free in Receive_minipos()
+- Fix allocation/deallocation of player body
 
 Coding changes
 --------------
@@ -277,6 +282,10 @@ Angband 4.2.x:
 - When _WIN32 is set, use GetCurrentProcessId() to mutate the seed in
   Rand_simple() and Rand_init()
 - Use codes rather than the printable names in data files
+- Configure categories for the monster knowledge menu from a data file
+- Add to default keymaps so shift+numeric keypad works for running on more
+  systems
+- Loosen coupling between MAX_COLORS and the BG_* constants
 
 PWMAngband:
 
