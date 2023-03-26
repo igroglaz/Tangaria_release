@@ -6,10 +6,10 @@ SetNumLockState, AlwaysOff
 ;//capslock off
 SetCapsLockState, AlwaysOff
 ;////////////////////////////////////////
-;//winkey -> ^F11
-LWin::^F11
-;//capslock -> ^F10
-~Capslock::^F10
+;//winkey -> F11
+LWin::F11
+;//capslock -> F10
+~Capslock::F10
 ;//numlock -> ^F9
 Numlock::
 {
