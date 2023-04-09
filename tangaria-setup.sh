@@ -253,8 +253,8 @@ radioListVersion() {
 radioListClient() {
     MENU_CLIENT=$($DIALOG --title "Client" --nocancel --radiolist \
         "use UP/DOWN, SPACE, ENTER keys\nSelect client version:" 16 54 6 \
-            "sdl" "(SDL 1.2) " $RADIOLIST_CLIENT_SDL \
-            "sdl2" "(SDL 2.0) " $RADIOLIST_CLIENT_SDL2 \
+            "sdl" "(libSDL1) " $RADIOLIST_CLIENT_SDL \
+            "sdl2" "(libSDL2) " $RADIOLIST_CLIENT_SDL2 \
             "curses" "(terminal) " $RADIOLIST_CLIENT_CURSES \
             "other" "(./configure) " $RADIOLIST_CLIENT_OTHER \
             3>&1 1>&2 2>&3)
@@ -461,6 +461,7 @@ META_PORT=$(sed -n '/meta_port=/p' "$PATH_INI_PWMANGRC")
 DISABLENUMLOCK=$(sed -n '/DisableNumlock=/p' "$PATH_INI_PWMANGRC")
 LIGHTERBLUE=$(sed -n '/LighterBlue=/p' "$PATH_INI_PWMANGRC")
 INTROMUSIC=$(sed -n '/IntroMusic=/p' "$PATH_INI_PWMANGRC")
+
 cat > "$WRITE_FILE_PWMANGRC" << EOF
 [MAngband]
 $NICK
@@ -472,6 +473,29 @@ $DISABLENUMLOCK
 $LIGHTERBLUE
 $INTROMUSIC
 EOF
+
+echo " "
+echo "settings '$PATH_INI_PWMANGRC'"
+echo "'$WRITE_FILE_PWMANGRC'"
+echo "[MAngband]"
+echo "$NICK"
+echo "$PASS"
+echo "$HOST"
+echo "$META_ADDRESS"
+echo "$META_PORT"
+echo "$DISABLENUMLOCK"
+echo "$LIGHTERBLUE"
+echo "$INTROMUSIC"
+echo " "
+}
+
+read_pwmangrc() {
+local PATH_INI_PWMANGRC=$1
+HOST=$(sed -n '/host=/p' "$PATH_INI_PWMANGRC")
+
+echo " "
+echo "Enjoy! '$USER_PWMANGRC' $HOST"
+echo " "
 }
 
 build_AppImage() {
@@ -516,14 +540,14 @@ else
     echo -n "Update $LINUX_DEPLOY ?     (y/n)"
     read item
     case "$item" in
-        y|Y) echo "«(honey)», m-m-m..."
+        y|Y) echo "'(honey)', m-m-m..."
             rm -rf ./$LINUX_DEPLOY
             wget $LINUX_DEPLOY_URL || exit 1
             chmod +x ./linuxdeploy*.AppImage
             ;;
-        n|N) echo "«no», ok..."
+        n|N) echo "'no', ok..."
             ;;
-        *) echo "«no», ok..."
+        *) echo "'no', ok..."
             ;;
     esac
 fi
@@ -768,15 +792,17 @@ if [ "$NAME_ROGUELIKE" = "Tangaria" ] && [ "$CHECKLIST_UPDATE_TANGARIA_RELEASE" 
     if ! [ -f "$USER_PWMANGRC" ]; then
         write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
     else
-        echo -n "replace $USER_PWMANGRC ?     (y/n)"
+        echo -n "replace '$USER_PWMANGRC' from 'mangclient.ini' settings ?     (y/n)"
         read item
         case "$item" in
-            y|Y) echo "«yes», ok..."
+            y|Y) echo "'yes', ok..."
                 write_pwmangrc ./setup/mangclient.ini $USER_PWMANGRC
                 ;;
-            n|N) echo "«no», ok..."
+            n|N) echo "'no', ok..."
+                read_pwmangrc ./setup/mangclient.ini
                 ;;
-            *) echo "«no», ok..."
+            *) echo "'no', ok..."
+                read_pwmangrc ./setup/mangclient.ini
                 ;;
         esac
     fi
@@ -910,15 +936,17 @@ fi
 if ! [ -f "$USER_PWMANGRC" ]; then
     write_pwmangrc ./mangclient.ini $USER_PWMANGRC
 else
-    echo -n "replace $USER_PWMANGRC ?     (y/n)"
+    echo -n "replace '$USER_PWMANGRC' from 'mangclient.ini' settings ?     (y/n)"
     read item
     case "$item" in
-        y|Y) echo "«yes», ok..."
+        y|Y) echo "'yes', ok..."
             write_pwmangrc ./mangclient.ini $USER_PWMANGRC
             ;;
-        n|N) echo "«no», ok..."
+        n|N) echo "'no', ok..."
+            read_pwmangrc ./mangclient.ini
             ;;
-        *) echo "«no», ok..."
+        *) echo "'no', ok..."
+            read_pwmangrc ./mangclient.ini
             ;;
     esac
 fi
