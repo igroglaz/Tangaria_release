@@ -1,0 +1,887 @@
+# File: player_timed.txt
+# Used in conjunction with list-player-timed.h
+# Timed player properties
+#
+# Descriptions, messages and message types can be edited without bad effects.
+# Changing fail may have unpredictable results.
+# Changing the name or adding whole new entries will severely disrupt the game.
+# It should only be done when list-player-timed.h (and other code) is also being
+# changed, and the game recompiled.
+# Changing a resist line will have to match to one of the hard-coded elements
+# from list-elements.h; currently, those resist lines are used to filter out
+# unnecessary messages when timed effects lapse and to affect selection of
+# randart activations.
+# Changing a brand or slay line will have to match to an entry in brand.txt or
+# slay.txt, respectively; besides the effect on combat, those lines also
+# affect selection of randart activations.
+# Changing a flag-synonym line will have to match to an entry, of type flag, in
+# object_property.txt; those lines are currently used to filter out unnecessary
+# messages when timed effects lapse and to affect selection of randart
+# activations.
+
+# === Understanding player_timed.txt ===
+
+# name - the effect name; the name must match the first argument to one of the
+#        TMD() macros in list-player-timed.h
+# desc - the effect description
+# grade - specify a grade for this effect; most effects only have two grades:
+#         off (implicit for all effects, maximum of 0, no transition messages)
+#         and on (the one grade specified for the effect in this file)
+#         param one: color used on the status line for this effect when in this
+#             grade; may be a one letter color code or the full color name
+#             (case insensitive)
+#         param two: is the maximum for this grade; to work properly must be
+#             greater than zero, less than 32768, and greater than the maximum
+#             for any previous grades specified for this effect
+#         param three: is the name of the grade and will be shown in the status
+#             line; use a one character long name for the grade to suppress
+#             showing the timed effect in the status line when in that grade
+#         param four: is the message to display when the effect enters this
+#             grade from a lower grade; no message will be displayed if the
+#             message is one character long
+#         param five (optional): is the message to display when the effect
+#             enters this grade from a higher grade; no message will be
+#             displayed if this parameter is omitted
+# on-end - the message on ending the effect
+# on-increase - the message on the effect increasing
+# on-decrease - the message on the effect decreasing
+# near-begin - the message on beginning the effect for nearby players
+# near-end - the message on ending the effect for nearby players
+# msgt - the message type to use for the change of grade, on-increase, and
+#        on-decrease messages for this effect; the type must either match
+#        (case-insensitive) the first argument to one of the MSG() macros in
+#        list-message.h or be an unsigned integer less than MSG_MAX which is
+#        the index of the message type to use within list-message.h; on-end
+#        messages always use the RECOVER message type; for the textui user
+#        interface, the message type affects the message color (configured
+#        globally by lib/customize/message.prf; also configurable by
+#        preferences in the user's files) and the sound played when the
+#        message is displayed (configured globally by lib/customize/sound.prf;
+#        also configurable by preferences in the user's files)
+# fail - determines what makes the effect fail; may be specified more than
+#        once - the effect will fail if any of the conditions are met
+#        param one:
+#          1 - object flag
+#          2 - resist
+#          3 - vulnerability
+#          4 - player flag
+#          5 - presence of timed effect
+#        param two:
+#          the actual flag that causes the failure; for an object flag, the
+#          flag must match the first argument to one of the OF() macros in
+#          list-object-flags.h; for a player flag, the flag must match the
+#          first argument to one of the PF() macros in list-player-flags.h; for
+#          a resist or vulnerability, the flag must match the argument to one
+#          of the ELEM() macros in list-elements.h; for a timed effect, the
+#          flag must match the argument to TMD() macros list-player-timed.h
+# on-begin-effect - (optional) specifies an effect to be invoked when the
+#                   timed effect starts; can be used more than once - the
+#                   additional effects will be executed in the order in which
+#                   they appear
+#                   param one: name of the effect (argument to one of the
+#                       EFFECT() macros in list-effects.h)
+#                   param two: name of the subtype of the effect; can be
+#                       omitted
+#                   param three: radius of the effect; can be omitted and
+#                       must be omitted if the subtype is omitted
+#                   param four: the "other" parameter for the effect; can be
+#                       omitted and must be omitted if the subtype or radius is
+#                       omitted
+# on-end-effect - (optional) specifies an effect to be invoked when the timed
+#                 effect lapses; can be used more than once - the additional
+#                 effects will be executed in the order in which they appear
+#                 param one: name of the effect (argument to one of the
+#                     EFFECT() macros in list-effects.h)
+#                 param two: name of the subtype of the effect; can be omitted
+#                 param three: radius of the effect; can be omitted and must
+#                     be omitted if the subtype is omitted
+#                 param four: the "other" parameter for the effect; can be
+#                     omitted and must be omitted if the subtype or radius is
+#                     omitted
+# effect-yx - (optional) specifies the y and x parameters of the most recently
+#             set effect (i.e. from a prior on-begin-effect or on-end-effect
+#             directive)
+#             param one: is the value of the y parameter for the effect
+#             param two: is the value of hte x parameter for the effect
+# effect-dice - (optional) specifies the dice string for the most recently
+#               set effect (i.e. from a prior on-begin-effect or on-end-effect
+#               directive)
+# effect-expr - (optional) defines an expression for the dice string of the
+#               most recently set effect (i.e. from a prior on-begin-effect
+#               or on-end-effect directive); requires that the dice string has
+#               been set for the effect with a effect-dice directive
+#               param one: is the name of the variable to substitute with the
+#                   value of the expression; variable names must be all
+#                   capital letters and a reference to a variable in a dice
+#                   string starts with a $; if the dice string does not contain
+#                   a reference to the given variable, parsing of the game's
+#                   data files will stop with an error
+#               param two: set the name of the base value to modify with the
+#                   operations in the third parameter; the name can be one of
+#                   those listed below; if it does not match any in the list,
+#                   the base value will be zero
+#                     PLAYER_LEVEL - the player's level
+#                     DUNGEON_LEVEL - the dungeon's level
+#                     MAX_SIGHT - the maximum sight range, in grids
+#                     WEAPON_DAMAGE - a random roll for the base damage (only
+#                         the weapon's dice and damage modifiers are included;
+#                         no damage modifiers from the player or equipment
+#                         other than the weapon are used) of the player's
+#                         equipped weapon; if the player has no equipped
+#                         weapon, the value of this is zero
+#                    PLAYER_HP - the player's current number of hit points
+#                    MONSTER_PERCENT_HP_GONE - ((maximum hit points for the
+#                         player's target monster - current hit poinst for the
+#                         player's target monster) * 100) / maximum hit points
+#                         for the player's target monster or 0 if the player
+#                         doesn't currently have a targeted monster
+#               param three: sets the operations to perform on the base value to
+#                   get the value substituted into the dice expression; for
+#                   instance, "* 2 / 3" would multiply the base value by 2 then
+#                   divide that result by three, discarding any remainder;
+#                   operators that are allowed are '+' (addition),
+#                   '-' (subtraction), '*' (multiplication), '/' (integer
+#                   division; discards remainder), and 'n' or 'N' (either negate
+#                   the result from before the operator); integer constants
+#                   in the operations must be between -32768 and 32767;
+#                   operators and integer constants in the operations should be
+#                   separated by single spaces
+# effect-msg - (optional) appends to the message associated with the most
+#              recently set effect (i.e. from a prior on-begin-effect or
+#              on-end-effect directive); how that  message is used depends on
+#              the effect - typically it may be printed during the effect or
+#              is used as a death message
+# resist - (optional) when this timed property is active, the recipient gain
+#          a temporary resistance to the named element
+# brand - (optional) when this timed property is active, the recipient gains
+#         the given brand (by its code in brand.txt) on equipped weapons; when
+#         there's no brand line, the timed property does not induce a brand
+# slay - (optional) when this timed property is active, the recipient gains
+#        the given slay (by its code in slay.txt) on equipped weapons; when
+#        there's no slay line, the timed property does not induce a slay
+# flag-synonym - (optional) indicate that this timed property is (largely)
+#                synonymous to the object property of type flag in
+#                object_property.txt with the code given by the first parameter;
+#                if the second parameter is not zero, this timed property is an
+#                exact synonym, except for duration; if the second parameter is
+#                zero, the timed property has other effects that are not
+#                implied by the named object property
+# lower-bound - (optional) overrides the default lower bound of zero for the
+#               timed effect; the lower bound must be non-negative, less
+#               than 32768, and less than or equal to the maximum for any of
+#               the timed effect's grades; if the lower bound is greater than
+#               zero, the timed effect is always active (so a message set by
+#               on-end or an effect by on-begin-effect or on-end-effect will
+#               not be used)
+# flags - (optional) specifies one or more flags for the timed effect; can
+#         appear more than once with all the flags specified accumulating;
+#         more than one flag can be specified each time it is used - the names
+#         of the flags must be separated by spaces or '|'; the flag names or
+#         that are understood are:
+#         NONSTACKING - any attempt to increase the timed effect while it is
+#             already active will not increase the duration; this is a stronger
+#             restriction than having the timed effect fail because of the
+#             timed effect itself, primarily because NONSTACKING also affects
+#             cases, like TIMED_INC_NO_RES effects, where the failure check is
+#             bypassed; NONSTACKING is also handled differently than failing
+#             for the timed effect itself in terms of lore checks (if a timed
+#             effect is NONSTACKING, lore for a monster won't show that a
+#             the monster's attack inflicting that status is resisted solely
+#             because the character is already subject to the timed effect)
+
+
+name:FAST
+desc:haste ({+10} to speed)
+grade:G:10000:Haste:You feel yourself moving faster!
+on-end:You feel yourself slow down.
+near-begin: starts moving faster.
+near-end: slows down.
+msgt:SPEED
+
+name:SLOW
+desc:slowness ({-10} to speed)
+grade:U:10000:Slow:You feel yourself moving slower!
+on-end:You feel yourself speed up.
+near-begin: starts moving slower.
+near-end: speeds up.
+msgt:SLOW
+fail:1:FREE_ACT
+
+name:BLIND
+desc:blindness
+grade:o:10000:Blind:You are blind!
+on-end:You blink and your eyes clear.
+near-begin: gropes around blindly.
+near-end: can see again.
+msgt:BLIND
+fail:1:PROT_BLIND
+
+name:PARALYZED
+desc:paralysis
+grade:r:10000:Paralyzed!:You are paralyzed!
+on-end:You can move again.
+near-begin: becomes rigid.
+near-end: can move again.
+msgt:PARALYZED
+fail:1:FREE_ACT
+flags:NONSTACKING
+
+name:CONFUSED
+desc:confusion
+grade:o:10000:Confused:You are confused!
+on-end:You are no longer confused.
+on-increase:You are more confused!
+on-decrease:You feel a little less confused.
+near-begin: appears confused.
+near-end: appears less confused.
+msgt:CONFUSED
+fail:1:PROT_CONF
+
+name:AFRAID
+desc:fear
+grade:o:10000:Afraid:You are terrified!
+on-end:You feel bolder now.
+on-increase:You are more scared!
+on-decrease:You feel a little less scared.
+near-begin: cowers in fear.
+near-end: appears bolder now.
+msgt:AFRAID
+fail:1:PROT_FEAR
+
+name:IMAGE
+desc:hallucinations
+grade:o:10000:Hallu:You feel drugged!
+on-end:You can see clearly again.
+on-increase:You feel more drugged!
+on-decrease:You feel less drugged.
+near-begin: appears drugged.
+near-end: can see clearly again.
+msgt:DRUGGED
+fail:2:CHAOS
+
+name:POISONED
+desc:poisoning
+grade:o:10000:Poisoned:You are poisoned!
+on-end:You are no longer poisoned.
+on-increase:You are more poisoned!
+on-decrease:You are less poisoned.
+near-begin: appears poisoned.
+near-end: appears less poisoned.
+msgt:POISONED
+fail:2:POIS
+fail:5:OPP_POIS
+
+name:CUT
+desc:cuts
+grade:y:10:Graze:You have been given a graze.
+grade:y:25:Light Cut:You have been given a light cut.
+grade:o:50:Bad Cut:You have been given a bad cut.
+grade:o:100:Nasty Cut:You have been given a nasty cut.
+grade:r:200:Severe Cut:You have been given a severe cut.
+grade:r:1000:Deep Gash:You have been given a deep gash.
+grade:R:10000:Mortal Wound:You have been given a mortal wound.
+on-end:You are no longer bleeding.
+near-begin: is bleeding.
+near-end: is no longer bleeding.
+msgt:CUT
+
+name:STUN
+desc:stunning
+grade:o:50:Stun:You have been stunned.
+grade:o:150:Heavy Stun:You have been heavily stunned.
+grade:r:10000:Knocked Out:You have been knocked out.
+on-end:You are no longer stunned.
+near-begin: is stunned.
+near-end: is no longer stunned.
+msgt:STUN
+fail:1:PROT_STUN
+
+# Note food grades are in percentages here, and are translated on parsing
+name:FOOD
+desc:nourishment
+grade:R:1:Starving:unused:You are starving!!
+grade:r:4:Faint:You are still faint.:You are getting faint from hunger!
+grade:o:8:Weak:You are still weak.:You are getting weak from hunger!
+grade:y:15:Hungry:You are still hungry.:You are getting hungry.
+grade:G:90:Fed:You are no longer hungry.:You are no longer full.
+grade:g:100:Full:You are full!
+msgt:HUNGRY
+lower-bound:1
+
+name:PROTEVIL
+desc:protection from evil
+grade:G:10000:ProtEvil:You feel safe from evil!
+on-end:You no longer feel safe from evil.
+on-increase:You feel even safer from evil!
+on-decrease:You feel less safe from evil.
+near-begin: is surrounded by a holy aura.
+near-end:'s holy aura disappears.
+msgt:PROT_EVIL
+
+name:INVULN
+grade:G:10000:Invuln:You feel invulnerable!
+on-end:You feel vulnerable once more.
+near-begin: is surrounded by an aura of power.
+near-end:'s aura of power disappears.
+msgt:INVULN
+
+name:HERO
+desc:heroism (a bonus of {+12} to-hit)
+grade:G:10000:Hero:You feel like a hero!
+on-end:You no longer feel heroic.
+on-increase:You feel more like a hero!
+on-decrease:You feel less heroic.
+near-begin: appears heroic.
+near-end: appears less heroic.
+msgt:HERO
+flag-synonym:PROT_FEAR:0
+
+name:SHERO
+desc:berserk strength (a bonus of {+24} to-hit, and a penalty of {-10} to AC)
+grade:G:10000:Berserk:You feel like a killing machine!
+on-end:You no longer feel berserk.
+on-increase:You feel even more berserk!
+on-decrease:You feel less berserk.
+near-begin: enters a battle rage.
+near-end: calms down.
+msgt:BERSERK
+flag-synonym:PROT_FEAR:0
+
+name:SHIELD
+grade:G:10000:Shield:A mystic shield forms around your body!
+on-end:Your mystic shield crumbles away.
+on-increase:The mystic shield strengthens.
+on-decrease:The mystic shield weakens.
+near-begin: forms a mystic shield.
+near-end:'s mystic shield crumbles away.
+msgt:SHIELD
+
+name:BLESSED
+desc:blessing (a bonus of {+5} to armor class and {+10} to-hit)
+grade:G:10000:Blessed:You feel righteous!
+on-end:The prayer has expired.
+on-increase:You feel more righteous!
+on-decrease:You feel less righteous.
+near-begin: is surrounded by a bright aura.
+near-end:'s bright aura disappears.
+msgt:BLESSED
+
+name:SINVIS
+desc:the power to see invisible
+grade:G:10000:SInvis:Your eyes feel very sensitive!
+on-end:Your eyes no longer feel so sensitive.
+on-increase:Your eyes feel more sensitive!
+on-decrease:Your eyes feel less sensitive.
+near-begin:'s eyes glow brightly.
+near-end:'s eyes are back to normal.
+msgt:SEE_INVIS
+flag-synonym:SEE_INVIS:1
+
+name:SINFRA
+desc:extra infravision ({+50} feet)
+grade:G:10000:Infra:Your eyes begin to tingle!
+on-end:Your eyes stop tingling.
+on-increase:The tingling in your eyes intensifies.
+near-begin:'s eyes begin to tingle.
+near-end:'s eyes stop tingling.
+msgt:INFRARED
+
+name:OPP_ACID
+desc:temporary resistance to acid
+grade:s:10000:RAcid:You feel resistant to acid!
+on-end:You are no longer resistant to acid.
+on-increase:You feel more resistant to acid!
+on-decrease:You feel less resistant to acid.
+near-begin: is surrounded by an acidic aura.
+near-end:'s acidic aura disappears.
+msgt:RES_ACID
+fail:3:ACID
+resist:ACID
+
+name:OPP_ELEC
+desc:temporary resistance to lightning
+grade:b:10000:RElec:You feel resistant to lightning!
+on-end:You are no longer resistant to lightning.
+on-increase:You feel more resistant to lightning!
+on-decrease:You feel less resistant to lightning.
+near-begin: is surrounded by an electric aura.
+near-end:'s electric aura disappears.
+msgt:RES_ELEC
+fail:3:ELEC
+resist:ELEC
+
+name:OPP_FIRE
+desc:temporary resistance to fire
+grade:r:10000:RFire:You feel resistant to fire!
+on-end:You are no longer resistant to fire.
+on-increase:You feel more resistant to fire!
+on-decrease:You feel less resistant to fire.
+near-begin: is surrounded by a fiery aura.
+near-end:'s fiery aura disappears.
+msgt:RES_FIRE
+fail:3:FIRE
+resist:FIRE
+
+name:OPP_COLD
+desc:temporary resistance to cold
+grade:w:10000:RCold:You feel resistant to cold!
+on-end:You are no longer resistant to cold.
+on-increase:You feel more resistant to cold!
+on-decrease:You feel less resistant to cold.
+near-begin: is surrounded by a chilling aura.
+near-end:'s chilling aura disappears.
+msgt:RES_COLD
+fail:3:COLD
+resist:COLD
+
+name:OPP_POIS
+desc:temporary resistance to poison
+grade:g:10000:RPois:You feel resistant to poison!
+on-end:You are no longer resistant to poison.
+on-increase:You feel more resistant to poison!
+on-decrease:You feel less resistant to poison.
+near-begin: is surrounded by a toxic aura.
+near-end:'s toxic aura disappears.
+msgt:RES_POIS
+fail:3:POIS
+resist:POIS
+
+name:OPP_CONF
+desc:temporary resistance to confusion
+grade:v:10000:RConf:You feel resistant to confusion!
+on-end:You are no longer resistant to confusion.
+on-increase:You feel more resistant to confusion!
+on-decrease:You feel less resistant to confusion.
+near-begin: is surrounded by a clear aura.
+near-end:'s clear aura disappears.
+flag-synonym:PROT_CONF:1
+
+name:AMNESIA
+desc:amnesia
+grade:o:10000:Amnesiac:You feel your memories fade!
+on-end:Your memories come flooding back.
+near-begin: appears disoriented.
+near-end: appears less disoriented.
+
+name:ESP
+desc:the power of telepathy
+grade:G:10000:ESP:Your mind expands!
+on-end:Your mind retracts.
+on-increase:Your mind expands further.
+near-begin: appears receptive.
+near-end: appears less receptive.
+flag-synonym:ESP_ALL:1
+
+name:STONESKIN
+desc:stoneskin (a bonus of {+40} to AC, and a penalty of {-5} to movement speed)
+grade:G:10000:Stone:Your skin turns to stone!
+on-end:A fleshy shade returns to your skin.
+near-begin:'s skin turns to stone.
+near-end:'s skin turns back to flesh.
+
+name:TERROR
+desc:terror (uncontrollable fear, with a bonus of {+10} to speed)
+grade:r:10000:Terror:You feel the need to run away and fast!
+on-end:The urge to run dissipates.
+near-begin: feels the need to run away, and fast!
+near-end:'s urge to run dissipates.
+msgt:AFRAID
+
+name:SPRINT
+desc:sprinting ({+10} to speed, then {-10} to speed)
+grade:G:10000:Sprint:You start sprinting!
+on-end:You suddenly stop sprinting.
+near-begin: starts sprinting.
+near-end: suddenly stops sprinting.
+msgt:SPEED
+on-end-effect:TIMED_INC_NO_RES:SLOW
+effect-dice:100
+
+name:BOLD
+desc:temporary resistance to fear
+grade:G:10000:Bold:You feel bold!
+on-end:You no longer feel bold.
+on-increase:You feel even bolder!
+on-decrease:You feel less bold.
+near-begin: feels bold.
+near-end: no longer feels bold.
+msgt:BOLD
+flag-synonym:PROT_FEAR:1
+
+name:SCRAMBLE
+desc:scrambled stats
+grade:v:10000:Scrambled:Your body starts to scramble...
+on-end:Your body reasserts its true nature.
+on-increase:You are more scrambled!
+on-decrease:You are less scrambled.
+near-begin:'s body starts to scramble.
+near-end:'s body reasserts its true nature.
+msgt:SCRAMBLE
+fail:2:NEXUS
+on-begin-effect:SCRAMBLE_STATS
+on-end-effect:UNSCRAMBLE_STATS
+
+name:TRAPSAFE
+grade:G:10000:TrapSafe:You feel safe from traps.
+on-end:You feel vulnerable to traps again.
+on-increase:You feel even safer from traps!
+on-decrease:You feel less safe from traps.
+near-begin: appears stealthy.
+near-end: appears less stealthy.
+flag-synonym:TRAP_IMMUNE:1
+
+name:FASTCAST
+grade:i:10000:FastCast:You feel your mind accelerate.
+on-end:You feel your mind slow again.
+near-begin:'s mind starts to accelerate.
+near-end:'s mind slows again.
+
+name:ATT_ACID
+desc:temporary acid brand
+grade:s:10000:AttAcid:Your {kind} start{s} to drip with acid!
+on-end:The acid disappears from your {kind}.
+near-begin:'s weapon is surrounded by an acidic aura.
+near-end:'s weapon's acidic aura disappears.
+brand:ACID_3
+
+name:ATT_ELEC
+desc:temporary lightning brand
+grade:b:10000:AttElec:Sparks gather around your {kind}!
+on-end:The sparks fade from your {kind}.
+near-begin:'s weapon is surrounded by an electric aura.
+near-end:'s weapon's electric aura disappears.
+brand:ELEC_3
+
+name:ATT_FIRE
+desc:temporary fire brand
+grade:r:10000:AttFire:Flames surround your {kind}!
+on-end:The flames on your {kind} subside.
+near-begin:'s weapon is surrounded by a fiery aura.
+near-end:'s weapon's fiery aura disappears.
+brand:FIRE_3
+
+name:ATT_COLD
+desc:temporary cold brand
+grade:w:10000:AttCold:Your {kind} {is} covered in frost!
+on-end:The frost evaporates from your {kind}.
+near-begin:'s weapon is surrounded by a chilling aura.
+near-end:'s weapon's chilling aura disappears.
+brand:COLD_3
+
+name:ATT_POIS
+desc:temporary poison brand
+grade:g:10000:AttPois:Your {kind} drip{s} with poison!
+on-end:The poison disappears from your {kind}.
+near-begin:'s weapon is surrounded by a toxic aura.
+near-end:'s weapon's toxic aura disappears.
+brand:POIS_3
+
+name:ATT_CONF
+desc:temporary monster confusion
+grade:U:10000:AttConf:Your hands begin to glow!
+on-end:The glow fades from your hands.
+near-begin:'s hands are surrounded by a confusing aura.
+near-end:'s hands' confusing aura disappears.
+
+name:ATT_EVIL
+desc:temporary slay evil
+grade:w:10000:AttEvil:Your {kind} {is} imbued with holy force!
+on-end:Holy force fades from your {kind}.
+near-begin:'s weapon is surrounded by a holy aura.
+near-end:'s weapon's holy aura disappears.
+slay:EVIL_2
+
+name:ATT_DEMON
+desc:temporary slay demon
+grade:R:10000:AttDemon:Your {kind} become{s} a bane of demons!
+on-end:Your {kind} return{s} to normal.
+near-begin:'s weapon is surrounded by a demonbane aura.
+near-end:'s weapon's demonbane aura disappears.
+slay:DEMON_5
+
+name:ATT_VAMP
+grade:p:10000:AttVamp:Your touch becomes vampiric!
+on-end:Your touch is back to normal.
+near-begin:'s touch becomes vampiric.
+near-end:'s touch is back to normal.
+brand:VAMPIRIC
+
+name:HEAL
+grade:G:10000:Heal:You feel the healing powers of nature!
+on-end:The healing effect fades.
+near-begin: appears healthier.
+near-end: appears less healthy.
+
+name:ATT_RUN
+grade:m:10000:HitRun:You tense up ready to escape!
+on-end:You relax again.
+near-begin: tenses up ready to run away.
+near-end: relaxes again.
+
+name:COVERTRACKS
+grade:T:10000:NoTrack:You begin covering your tracks.
+on-end:You stop covering your tracks.
+near-begin:'s scent disappears.
+near-end:'s scent reappears.
+
+name:TAUNT
+grade:i:10000:Taunt:You start aggravating your enemies!
+on-end:You stop aggravating your enemies.
+near-begin: appears very arrogant.
+near-end: appears less arrogant.
+
+name:BLOODLUST
+grade:y:10:Bloodlust:A red mist descends over your eyes!
+grade:I:18:Bloodlust:Your thirst for blood increases!
+grade:o:26:Bloodlust:Your thirst for blood increases!
+grade:r:34:Bloodlust:Your thirst for blood increases!
+grade:R:45:Bloodlust:Your thirst for blood increases!
+grade:P:50:Bloodlust:Your thirst for blood is insatiable!
+on-end:The mist clears.
+near-begin:'s eyes become bloodshot red.
+near-end:'s eyes are normal again.
+
+name:BLACKBREATH
+grade:D:10:BlkBrth:You are overcome by the Black Breath!
+on-end:The Black Shadow lifts.
+near-begin: appears deathly sick.
+near-end: appears more healthy.
+
+name:STEALTH
+desc:stealth
+grade:D:10000:Stealth:You feel silent!
+on-end:You feel less stealthy.
+near-begin: appears more stealthy.
+near-end: appears less stealthy.
+
+name:FREE_ACT
+grade:G:10000:FrAct:Your limbs fill with energy!
+on-end:Your limbs return to normal.
+on-increase:Your limbs feel more energetic!
+near-begin:'s limbs fill with energy.
+near-end:'s limbs return to normal.
+flag-synonym:FREE_ACT:1
+
+# PWMAngband
+
+name:WRAITHFORM
+grade:G:10000:Wraith:You turn into a wraith!
+on-end:You lose your wraith powers.
+near-begin: turns into a wraith.
+near-end: appears more solid.
+
+name:MEDITATE
+grade:G:10000:Medit:You start a calm meditation!
+on-end:You stop your meditation.
+near-begin: starts a calm meditation.
+near-end: stops meditating.
+
+name:MANASHIELD
+grade:G:10000:MShield:You feel immortal!
+on-end:You feel less immortal.
+near-begin: forms a mana shield.
+near-end:'s mana shield crumbles away.
+
+name:INVIS
+grade:G:10000:Invis:You fade in the shadows!
+on-end:The shadows enveloping you dissipate.
+near-begin: fades in the shadows.
+near-end: is visible once again.
+
+name:MIMIC
+grade:G:10000:Mimic:Your image changes!
+on-end:Your image is back to normality.
+near-begin:'s image changes.
+near-end:'s image is back to normality.
+
+name:BOWBRAND
+grade:G:10000:Brand:xxx
+
+name:ANCHOR
+grade:G:10000:Anchor:The space/time continuum seems to solidify!
+on-end:The space/time continuum seems more flexible.
+near-begin: tightens the space/time continuum.
+near-end: loosens the space/time continuum.
+
+name:PROBTRAVEL
+desc:the ability to cross floors and ceilings
+grade:G:10000:Proba:You feel instable!
+on-end:You feel more stable.
+near-begin: appears instable.
+near-end: appears more stable.
+
+name:ADRENALINE
+grade:G:10000:Adren:xxx
+
+name:BIOFEEDBACK
+grade:G:10000:BioFB:xxx
+
+name:SOUL
+grade:G:10000:Drain:You start absorbing the souls of your foes!
+on-end:You stop absorbing the souls of your foes.
+near-begin: is surrounded by a dark aura.
+near-end:'s dark aura disappears.
+
+name:DEADLY
+grade:G:10000:TDeath:Your hands begin to glow black!
+on-end:Your hands stop glowing black.
+near-begin:'s hands begin to glow black.
+near-end:'s hands stop glowing black.
+
+name:EPOWER
+grade:G:10000:EPower:You feel attuned to the elements!
+on-end:You feel less attuned to the elements.
+near-begin: appears more powerful.
+near-end: appears less powerful.
+
+name:ICY_AURA
+grade:w:10000:IcyAura:Your skin turns icy!
+on-end:Your skin is no longer icy.
+near-begin: is surrounded by an icy aura.
+near-end:'s icy aura disappears.
+
+name:FARSIGHT
+grade:G:10000:Farsight:Your sight expands!
+on-end:Your sight is back to normal.
+on-increase:Your sight expands further!
+near-begin:'s sight expands.
+near-end:'s sight is back to normal.
+
+name:ZFARSIGHT
+grade:G:10000:Farsight:Your sight expands!
+on-end:Your sight is back to normal.
+on-increase:Your sight expands further!
+near-begin:'s sight expands.
+near-end:'s sight is back to normal.
+
+name:REGEN
+grade:G:10000:Regen:You start to regenerate quickly!
+on-end:Your regeneration rate is back to normal.
+near-begin: starts to regenerate quickly.
+near-end:'s regeneration rate is back to normal.
+
+name:HARMONY
+grade:G:10000:Harmony:xxx
+
+name:ANTISUMMON
+grade:y:10000:NoSummon:You are surrounded by an anti-summon field!
+on-end:You should worry about summons again.
+near-begin: is surrounded by a black aura.
+near-end:'s black aura disappears.
+
+name:GROWTH
+grade:G:10000:Growth:You feel powerful!
+on-end:You feel less powerful.
+on-increase:You feel more powerful!
+on-decrease:You feel less powerful.
+near-begin:feels powerful.
+near-end:feels less powerful.
+
+name:REVIVE
+grade:b:10000:Revive:You feel invulnerable!
+on-end:You feel vulnerable once more.
+near-begin: is surrounded by an aura of power.
+near-end:'s aura of power disappears.
+
+name:HOLD_LIFE
+grade:G:10000:HoldLife:You feel safe from life draining attacks!
+on-end:You no longer feel safe from life draining attacks.
+on-increase:You feel even safer from life draining attacks!
+on-decrease:You feel less safe from life draining attacks.
+near-begin: feels safe from life draining attacks.
+near-end: no longer feels safe from life draining attacks.
+
+name:HOLD_WEAPON
+grade:G:10000:HoldWep:You feel safe from disarming attacks!
+on-end:You no longer feel safe from disarming attacks.
+on-increase:You feel even safer from disarming attacks!
+on-decrease:You feel less safe from disarming attacks.
+near-begin: feels safe from disarming attacks.
+near-end: no longer feels safe from disarming attacks.
+
+name:SAFE
+grade:G:10000:Save:You feel safe!
+on-end:You feel less safe.
+on-increase:You feel more safe!
+on-decrease:You feel less safe.
+near-begin:feels safe.
+near-end:feels less safe.
+
+name:DESPAIR
+grade:G:10000:Despair:You are surrounded by an aura of despair!
+on-end:Your aura of despair disappears.
+near-begin: is surrounded by an aura of despair.
+near-end:'s aura of despair disappears.
+
+name:FLIGHT
+grade:G:10000:Flight:You can fly!
+on-end:Your not longer fly.
+near-begin: start floating in the air.
+near-end: getting down from the air.
+
+name:SAFELOGIN
+grade:G:10000:Safe:xxx
+
+name:OPP_AMNESIA
+desc:temporary resistance to amnesia
+grade:v:10000:RAmne:You feel resistant to amnesia!
+on-end:You are no longer resistant to amnesia.
+on-increase:You feel more resistant to amnesia!
+on-decrease:You feel less resistant to amnesia.
+near-begin: is surrounded by a clear aura.
+near-end:'s clear aura disappears.
+flag-synonym:PROT_AMNESIA:1
+
+name:MOVE_FAST
+desc:haste ({+10} to movement)
+grade:G:10000:Haste:You feel yourself running faster!
+on-end:You feel your movement slow down.
+near-begin: starts running faster.
+near-end: slows movement down.
+#msgt:SPEED
+
+# necromancer spell
+name:GOLEM
+grade:D:10000:Golem:You summoned golem.
+
+# assassin spell
+name:SENTRY
+grade:D:10000:Sentry:You setted sentry.
+
+#no energy/turn during alchemy skills and some other activities
+name:OCCUPIED
+desc:occupation
+grade:w:10000:Occupied:You are occupied.
+
+# tamer skill
+name:REGEN_PET
+desc:treat your pet
+grade:w:10000:Pet:You treat your pet.
+
+# class spell
+name:UNSUMMON_MINIONS
+desc:unsummon your minions
+grade:w:10000:Unsummon:You unsummon your minions.
+
+name:BALANCED_STANCE
+desc:balanced stance
+grade:w:10000:Balanced:Balanced stance.
+msgt:BALANCED_STANCE
+
+name:DEFENSIVE_STANCE
+desc:defensive stance
+grade:T:10000:Defensive:Defensive stance.
+msgt:DEFENSIVE_STANCE
+
+name:OFFENSIVE_STANCE
+desc:offensive stance
+grade:t:10000:Offensive:Offensive stance.
+msgt:OFFENSIVE_STANCE
+
+name:SPEEDY
+desc:haste up to ({+10} to speed)
+grade:G:10000:Haste:You feel yourself moving faster!
+on-end:You feel yourself slow down.
+near-begin: starts moving faster.
+near-end: slows down.
+msgt:SPEED

@@ -1,0 +1,32 @@
+# File: font-gcu.prf
+
+#
+# This file is used by PWMAngband (when it was compiled using "main-gcu.c")
+# to specify simple attr/char remappings using a standard font, allowing
+# the use of special pseudo-graphic pictures for walls and such.
+#
+# feat-win: only applied for the Windows console
+
+
+### Terrain features (solid walls) ###
+
+# Floors
+feat-win:open floor:*:0x01:0xB7
+
+# Magma
+feat-win:magma vein:*:0x81:0xAE
+
+# Quartz
+feat-win:quartz vein:*:0x81:0xAE
+
+# Magma vein with treasure
+feat-win:magma vein with treasure:*:0x83:0xAE
+
+# Quartz vein with treasure
+feat-win:quartz vein with treasure:*:0x83:0xAE
+
+# Granite wall
+feat:granite wall:*:0x81:0x20
+
+# Permanent rock
+feat:permanent wall:*:0x87:0x20

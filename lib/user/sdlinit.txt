@@ -1,0 +1,98 @@
+Resolution = 1920x1009
+Fullscreen = 1
+SoundVolume = 50
+MusicVolume = 50
+DefaultColor = 160,60,60
+StatusBarColor = 0
+NiceGraphics = 0
+Graphics = 1
+TileWidth = 4
+TileHeight = 2
+
+Window = 0
+Visible = 1
+Left = 0
+Top = 13
+Width = 1516
+Height = 911
+Keys = 1024
+WinBorders = 2
+Font = NOTBITMAP,27,UbuntuMono-Regular-tg.ttf
+
+
+Window = 1
+Visible = 1
+Left = 2
+Top = 918
+Width = 804
+Height = 162
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,20,UbuntuMono-Regular-tg.ttf
+
+
+Window = 2
+Visible = 1
+Left = 1516
+Top = 237
+Width = 400
+Height = 243
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,18,UbuntuMono-Bold-tg.ttf
+
+
+Window = 3
+Visible = 1
+Left = 1516
+Top = 480
+Width = 404
+Height = 279
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,10,UbuntuMono-Bold-tg.ttf
+
+
+Window = 4
+Visible = 1
+Left = 1516
+Top = 13
+Width = 404
+Height = 225
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,20,UbuntuMono-Bold-tg.ttf
+
+
+Window = 5
+Visible = 1
+Left = 802
+Top = 913
+Width = 715
+Height = 167
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,18,UbuntuMono-Bold-tg.ttf
+
+
+Window = 6
+Visible = 1
+Left = 1517
+Top = 759
+Width = 403
+Height = 120
+Keys = 32
+WinBorders = 2
+Font = NOTBITMAP,14,UbuntuMono-Bold-tg.ttf
+
+
+Window = 7
+Visible = 1
+Left = 1516
+Top = 873
+Width = 404
+Height = 207
+Keys = 32
+WinBorders = 2
+Font = 5x8TG.FON
+

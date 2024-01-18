@@ -1,0 +1,66 @@
+Roguelike Keyset Command Summary
+================================
+
+^ followed by a letter is an abbreviation for pressing and releasing
+the letter key with the control key also depressed. You may also press
+and release ^ and then press and release the letter key to activate the
+same command in case your system intercepts the control plus key
+combination and does not pass it on.
+
+  a    Zap a rod (Activate)            A    Activate an object
+  b    (walk - south west)             B    (run - south west)
+  c    Close a door                    C    Character description
+  d    Drop an item                    D    Disarm a trap or lock a door
+  e    List equipped items             E    Eat some food
+  f    Use dragon breath attack        F    Fuel your lantern/torch
+  g    Get objects on floor            G    Gain new spells/prayers
+  h    (walk - west)                   H    (run - west)
+  i    List contents of pack           I    Inspect an item
+  j    (walk - south)                  J    (run - south)
+  k    (walk - north)                  K    (run - north)
+  l    (walk - east)                   L    (run - east)
+  m    Cast a spell                    M    Display map of entire level
+  n    (walk - south east)             N    (run - south east)
+  o    Open a door or chest            O    Toggle ignore
+  p    Project a spell                 P    Browse a book (Peruse)
+  q    Quaff a potion                  Q    End character & quit
+  r    Read a scroll                   R    Rest for a period
+  s    Steal                           S    Toggle stealth mode
+  t    Fire an item                    T    Take off equipment
+  u    (walk - north east)             U    (run - north east)
+  v    Throw an item                   V    Polymorph into a monster
+  w    Wear/wield equipment            W    Locate player on map (Where)
+  x    Look around (Examine)           X    Use an item
+  y    (walk - north west)             Y    (run - north west)
+  z    Aim a wand (Zap)                Z    Use a staff (Zap)
+  !    Access party menu               ^a   Do autopickup
+  @    Center map                      ^b   (alter - south west)
+  #    See abilities                   ^c   End character & quit
+  $    Drop gold                       ^d   Ignore an item
+  %    Interact with keymaps           ^e   Toggle inven/equip window
+  ^    (special - control key)         ^f   Repeat level feeling
+  &    Enter Dungeon Master menu       ^g   (special - bell)
+  *    Target monster or location      ^h   (alter - west)
+  (    Target friendly player          ^i   (special - tab)
+  )    Dump screen to a file           ^j   (alter - south)
+  {    Inscribe an object              ^k   (alter - north)
+  }    Uninscribe an object            ^l   (alter - east)
+  [    Display visible monster list    ^m   (special - return)
+  ]    Display visible object list     ^n   (alter - south east)
+  -    Walk into a trap                ^o   Show previous message
+  _    Drink/fill an empty bottle      ^p   Show previous messages
+  +    Alter grid                      ^q   Get a quest
+  =    Set options                     ^r   Redraw / Show Account Points
+  ;    Walk (with pickup)              ^s   Socials
+  :    Enter chat mode                 ^t   Dig a tunnel
+  '    Target closest monster          ^u   (alter - north east)
+  "    Enter a user pref command       ^v   Display connected players
+  ,    Run                             ^w   Full wilderness map
+  <    Go up staircase                 ^x   Save and quit
+  .    Stay still (with pickup)        ^y   (alter - north west)
+  >    Go down staircase               ^z   Use chat command
+  \    (special - bypass keymap)        ~   Check knowledge
+  `    (special - escape)               ?   Display help
+  /    Identify monster                 |   List contents of quiver
+  £    Buy a house
+  TAB  Fire default ammo at target     BKS  Describe object

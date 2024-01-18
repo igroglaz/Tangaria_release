@@ -1,0 +1,136 @@
+MKPATH=../../mk/
+include $(MKPATH)buildsys.mk
+
+SUBDIRS = ambient tomenet
+DATA = credits.txt \
+	amb_bell_metal1.ogg       mco_scurry_dry.ogg        plm_glass_smashing.ogg \
+	amb_bell_metal2.ogg       mco_shake_roll.ogg        plm_jar_ding.ogg \
+	amb_bell_tibet1.ogg       mco_snarl_short.ogg \
+	amb_bell_tibet2.ogg       mco_spray_long.ogg        plm_lock_case.ogg \
+	amb_bell_tibet3.ogg       mco_squish_hit.ogg        plm_lock_distant.ogg \
+	amb_deep.ogg              mco_squish_snap.ogg       plm_metal_clank.ogg \
+	amb_door_doom.ogg         mco_strange_music.ogg     plm_metal_sharpen.ogg \
+	amb_door_iron.ogg         mco_strange_thwoink.ogg   plm_open_case.ogg \
+	amb_dungeon_echo.ogg      mco_thoing_backwards.ogg  plm_spell1.ogg \
+	amb_dungeon_echowet.ogg   mco_thoing_deep.ogg       plm_spell2.ogg \
+	amb_gong_chinese.ogg      mco_thud_crash.ogg        plm_spell3.ogg \
+	amb_gong_low.ogg          mco_tube_hit.ogg          plm_use_staff.ogg \
+	amb_gong_strike.ogg       plc_bell_warn.ogg         plm_wood_thud.ogg \
+	amb_gong_undertone.ogg    plc_die_laugh.ogg         plm_zap_rod.ogg \
+	amb_guitar_chord.ogg      plc_hit_anvil2.ogg        pls_bell_bowl.ogg \
+	amb_melkor.ogg            plc_hit_anvil.ogg         pls_bell_chime_new.ogg \
+	amb_morgoth.ogg           plc_hit_arrow.ogg         pls_bell_glass.ogg \
+	amb_pulse_low.ogg         plc_hit_body.ogg          pls_bell_hibell_soft.ogg \
+	amb_sauron.ogg            plc_hit_critical.ogg      pls_bell_mute.ogg \
+	amb_senya.ogg             plc_hit_groan.ogg         pls_bell_sustain.ogg \
+	amb_thunder_rain.ogg      plc_hit_grunt2.ogg        pls_breathe_in.ogg \
+	amb_thunder_roll.ogg      plc_hit_grunt.ogg         pls_man_argoh.ogg \
+	amb_xakaze.ogg            plc_hit_hay.ogg           pls_man_gulp_new.ogg \
+	enter_pit.ogg             plc_miss_arrow2.ogg       pls_man_oooh.ogg \
+	id_bad_aww.ogg            plc_miss_arrow.ogg        pls_man_scream2.ogg \
+	id_bad_dang.ogg           plc_miss_swish.ogg        pls_man_sigh.ogg \
+	id_bad_hmm.ogg            plm_aim_wand.ogg          pls_man_sniff.ogg \
+	id_bad_hmph.ogg           plm_bang_ceramic.ogg      pls_man_sob.ogg \
+	id_bad_ohh.ogg            plm_bang_dumpster.ogg     pls_man_spit.ogg \
+	id_ego_whoa.ogg           plm_bang_metal.ogg        pls_man_ugh.ogg \
+	id_ego_woohoo.ogg         plm_book_pageturn.ogg     pls_man_yell.ogg \
+	id_ego_yeah2.ogg          plm_bottle_clinks.ogg     pls_tone_blurk.ogg \
+	id_ego_yeah.ogg           plm_break_canister.ogg    pls_tone_clave6.ogg \
+	id_ego_yes.ogg            plm_break_glass2.ogg      pls_tone_clavelo8.ogg \
+	id_good_hey2.ogg          plm_break_glass.ogg       pls_tone_conk.ogg \
+	id_good_hey.ogg           plm_break_plates.ogg      pls_tone_elec.ogg \
+	id_good_hmm.ogg           plm_break_shatter.ogg     pls_tone_goblet.ogg \
+	id_good_huh.ogg           plm_break_smash.ogg       pls_tone_guiro.ogg \
+	id_good_ooh.ogg           plm_break_wood.ogg        pls_tone_headstock.ogg \
+	id_good_ooo.ogg           plm_cabinet_open.ogg      pls_tone_scrape.ogg \
+	id_good_wow.ogg           plm_cabinet_shut.ogg      pls_tone_stick.ogg \
+	mco_attack_breath.ogg     plm_chain_light.ogg       sto_bell_desk.ogg \
+	mco_attack_spray.ogg      plm_chest_latch.ogg       sto_bell_dingaling.ogg \
+	mco_bite_chew.ogg         plm_chest_unlatch.ogg     sto_bell_ding.ogg \
+	mco_bite_chomp.ogg        plm_chimes_jangle.ogg     sto_bell_jingles.ogg \
+	mco_bite_dainty.ogg       plm_click_dry.ogg         sto_bell_register1.ogg \
+	mco_bite_gnash.ogg        plm_click_switch2.ogg     sto_bell_register2.ogg \
+	mco_bite_hard.ogg         plm_click_switch3.ogg     sto_bell_ringing.ogg \
+	mco_bite_long.ogg         plm_click_switch.ogg      sto_bell_shop.ogg \
+	mco_bite_munch.ogg        plm_click_wood.ogg        sto_coins_countertop.ogg \
+	mco_bite_regular.ogg      plm_close_hatch.ogg       sto_man_haha.ogg \
+	mco_bite_short.ogg        plm_coins_dump.ogg        sto_man_hey.ogg \
+	mco_bite_small.ogg        plm_coins_light.ogg       sto_man_whoohaha.ogg \
+	mco_bite_soft.ogg         plm_coins_pour.ogg        sum_angel_song.ogg \
+	mco_card_shuffle.ogg      plm_coins_shake.ogg       sum_bell_crystal.ogg \
+	mco_castanet_trill.ogg    plm_cork_pop.ogg          sum_bell_hand.ogg \
+	mco_ceramic_trill.ogg     plm_cork_squeak.ogg       sum_bell_tone.ogg \
+	mco_click_vibra.ogg       plm_door_bolt.ogg         sum_chime_jangle.ogg \
+	mco_creature_choking.ogg  plm_door_creak.ogg        sum_ghost_moan.ogg \
+	mco_creature_groan.ogg    plm_door_creakshut.ogg    sum_ghost_oooo.ogg \
+	mco_creature_yelp.ogg     plm_door_dungeon.ogg      sum_ghost_wail.ogg \
+	mco_cuica_rubbing.ogg     plm_door_echolock.ogg     sum_gong_temple.ogg \
+	mco_dino_low.ogg          plm_door_entrance.ogg     sum_laugh_evil2.ogg \
+	mco_dino_slur.ogg         plm_door_knob.ogg         sum_lion_growl.ogg  \
+	mco_dino_talk.ogg         plm_door_latch.ogg        sum_piano_scrape.ogg \
+	mco_dino_yawn.ogg         plm_door_opening.ogg      wild_deepwater.ogg \
+	mco_dub_wobble.ogg        plm_door_open.ogg         wild_desert.ogg \
+	mco_frog_trill.ogg        plm_door_rusty.ogg        wild_glacier.ogg \
+	mco_hit_whip.ogg          plm_door_shut.ogg         wild_grass.ogg \
+	mco_howl_croak.ogg        plm_door_slam.ogg         wild_hill.ogg \
+	mco_howl_deep.ogg         plm_door_squeaky.ogg      wild_hill2.ogg \
+	mco_howl_distressed.ogg   plm_door_wooden.ogg       wild_river.ogg \
+	mco_howl_high.ogg         plm_drop_boot.ogg         wild_shore.ogg \
+	mco_howl_long.ogg         plm_eat_bite.ogg          wild_swamp.ogg \
+	mco_liquid_squirt.ogg     plm_floor_creak2.ogg      wild_volcano.ogg \
+	mco_man_mumble.ogg        plm_floor_creak.ogg       wild_waste.ogg \
+	mco_mouse_squeaks.ogg     plm_glass_breaking.ogg    wild_wolf.ogg \
+	mco_rubber_thud.ogg       plm_glass_break.ogg \
+    blind.ogg                 blind1.ogg                blind2.ogg \
+    confused.ogg              hypnotize.ogg             afraid.ogg \
+    cut.ogg                   hallucinate.ogg           paralyzed.ogg \
+    poison.ogg                slow.ogg                  stun1.ogg \
+    stun2.ogg                 stun3.ogg                 immune1.ogg \
+    immune2.ogg               immune3.ogg               immune4.ogg \
+    immune5.ogg               immune6.ogg               immune7.ogg \
+    immune8.ogg               resist_a_lot1.ogg         resist_a_lot2.ogg \
+    resist_a_lot3.ogg         resist_a_lot4.ogg         resist_a_lot5.ogg \
+    resist_a_lot6.ogg         resist_a_lot7.ogg         resist.ogg \
+    spell_fail.ogg            mon_devour.ogg            mon_swallow.ogg \
+    imp_giggles.ogg           werewolf_howl.ogg         terrain_slip.ogg \
+    dig1.ogg                  dig2.ogg                  dig3.ogg \
+    dig4.ogg                  dig5.ogg                  dig6.ogg \
+    chop1.ogg                 chop2.ogg                 chop3.ogg \
+    chop4.ogg                 chop5.ogg                 chop6.ogg \
+    chop_tree_fall.ogg        sentry.ogg                door_broken.ogg \
+    silent.ogg                silent0.ogg               quiver.ogg \
+    silent100.ogg             silent101.ogg \
+    item_pickup.ogg           gold_1.ogg                gold_2.ogg \
+    backpack_1.ogg            backpack_2.ogg            backpack_3.ogg \
+    backpack_4.ogg            backpack_5.ogg            backpack_6.ogg \
+    backpack_7.ogg            backpack_8.ogg            backpack_9.ogg \
+    backpack_10.ogg           backpack_11.ogg           backpack_12.ogg \
+    backpack_13.ogg           backpack_14.ogg           backpack_15.ogg \
+    backpack_16.ogg           backpack_17.ogg           backpack_18.ogg \
+    item_medium_armor.ogg     item_pickup_1.ogg         kill_yeek.ogg \
+    item_light_lantern_1.ogg  item_light_lantern_2.ogg  item_light_lamp_1.ogg \
+    item_light_lamp_2.ogg     item_light_phial_1.ogg    item_light_phial_2.ogg \
+    item_light_palantir_1.ogg item_light_palantir_2.ogg kill_unique_yaga.ogg \
+    ambient_birds.ogg         ambient_birds_1.ogg       ambient_birds_2.ogg \
+    ambient_crow.ogg          ambient_forest_birds.ogg  ambient_fox.ogg \
+    ambient_wind_1.ogg        ambient_wind_2.ogg        ambient_wind_3.ogg \
+    ambient_wind_night_1.ogg  ambient_wind_night.ogg    ambient_wings.ogg \
+    arc.ogg                   beam.ogg                  blast.ogg \
+    burn_1.ogg                burn_2.ogg                danger_9.ogg \
+    detect.ogg                glyph.ogg                 defeat_unique_shtukensia.ogg \
+    kill_king.ogg             kill_slime_1.ogg          kill_slime_2.ogg \
+    kill_slime_3.ogg          kill_slime_4.ogg          kill_slime_5.ogg \
+    kill_slime_6.ogg          kill_slime_7.ogg          kill_slime_8.ogg \
+    kill_slime.ogg            kill_stinger.ogg          kill_unique_shelob.ogg \
+    lash.ogg                  melee_blows.ogg           kill_unique_witch_king.ogg\
+    message.ogg               paths_of_the_dead.ogg     project.ogg \
+    spot.ogg                  star.ogg                  strike.ogg \
+    touch.ogg                 enter_barrow.ogg          enter_ruins.ogg \
+    explosion_1.ogg           kill_koschei.ogg          kill_mushroom_10.ogg \
+    kill_mushroom_11.ogg      kill_mushroom_1.ogg       kill_mushroom_2.ogg \
+    kill_mushroom_3.ogg       kill_mushroom_4.ogg       kill_mushroom_5.ogg \
+    kill_mushroom_6.ogg       kill_mushroom_7.ogg       kill_mushroom_8.ogg \
+    kill_mushroom_9.ogg       kill_unique_angel.ogg     manor.ogg \
+    orc_caves.ogg             vulture.ogg               snoring.ogg
+
+PACKAGE = sounds

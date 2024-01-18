@@ -1,0 +1,401 @@
+# File: class.prf
+
+#
+# This file defines the class descriptions on character creation screen.
+#
+# Descriptions should be limited to 20 lines.
+#
+
+
+class:Warrior
+help:A Warrior is a hack-and-slash character, who solves most problems
+help: by cutting them to pieces, but will occasionally fall back on the help of
+help: a magical device. Their prime stats are strength, constitution, and
+help: dexterity, and they will strike more blows with melee weapons than any
+help: other class. A Warrior will be excellent at fighting, shooting and
+help: throwing, but bad at most other skills. A warrior has bad stealth and
+help: cannot learn any spells.
+
+class:Archer
+help:Archer could shoot squirrel in the eye so fur would not be spoiled. Very good
+help: in archery, they don't really know from which side to hold a sword; they 
+help: don't need one honestly. With the ability to hurl multiple arrows at long 
+help: distances, an Archer can inflict more damage in a single turn than any other
+help: character class, including mages. However, outside of his powerful bow,
+help: an Archer is relatively weak compared to the other classes. He does
+help: not have any healing nor defensive spells like the magical classes to
+help: compensate. Archers especially like bows; shooting with them, 
+help: they could achieve incredible speed and precision; much better than with 
+help: a crossbow or a sling. They can see farther than others.
+
+class:Monk
+help:Monks are very different from all other classes. Monks are warriors who
+help: decide to fight barehanded and cannot use weapons or bows. However, their
+help: training in martial arts makes them much more powerful with no armour
+help: nor weapons. As they advance in levels, they gain some new martial arts
+help: techniques to hit their opponents more effectively. In time, monk can learn
+help: how to stun and slow his opponents. With levels, they also gain
+help: interesting abilities: at level 10, they learn to fall like a feather;
+help: at level 15, they become resistant to fear; at level 20, they become
+help: resistant to confusion; finally, at level 25, they learn to resist
+help: paralysis effects. They can't wield weapons, but get extra damage, defense 
+help: and attacks per round as they advance in levels. However, they must wear
+help: light armor to stay unencumbered and fully benefit from their class bonuses.
+help: It is rumoured that the monastic training even makes monks faster than any
+help: other character class!
+
+
+class:Mage
+help:A Mage must live by their wits. They cannot hope to simply hack their way
+help: through the dungeon, and so must therefore use their magic to defeat,
+help: deceive, confuse, and escape. A mage is not really complete without an
+help: assortment of magical devices to use in addition to his spells. They can
+help: master the higher level magical devices far easier than anyone else, and
+help: has the excellent saving throws to resist effects of spells cast at him.
+help: However, they are incredibly weak, getting few hit dice and suffering strong
+help: penalties to strength and constitution. Intelligence is their primary stat
+help: and at high levels they can cast many spells without a chance of failure.
+help: There is no rule that says a mage cannot become a good fighter, but spells
+help: are their true realm, and they will get fewer blows with melee weapons than
+help: other classes.
+help: Mages speciality is a spell of Fireball which they operate especially good.
+
+class:Shaman
+help:A Shaman is a lover of nature, and at one with the natural world. Shamans
+help: have control of their environment and direct power over creatures, leading
+help: even to the ability to take their forms. Shaman skills are moderate, and
+help: they have some fighting ability, especially when transformed. A shaman will
+help: usually seek to shape the flow of events to their purpose rather than
+help: using devices or missiles, but at high levels they do gain access to
+help: potent nature-based magic. Shamans rely on their wisdom, and have good
+help: saving throws.
+
+class:Priest
+help:A Priest is a character of holy devotion. They explore the dungeon only
+help: to destroy the evil that lurks within, and if treasure just happens to
+help: fall into their packs, well, so much more to the glory of their temple!
+help: Priests receive their spells from a deity, and therefore do not choose
+help: which spells they will learn. They are familiar with magical devices,
+help: preferring to call them "instruments of God", but are not as good as a
+help: mage in their use. Priests have great saving throws, and make passable
+help: fighters, better if they can find a blessed weapon. Wisdom is the priest's
+help: primary stat and at high enough levels they can cast many prayers without
+help: a chance of failure. Priests have poor stealth.
+help: Although weak in the beginning, priests could become decent fighters 
+help: who strongly prefer blunt weapons over edged ones; if they wield one that
+help: isn't blessed, they receive an additional severe penalty.
+
+class:Warlock
+help:A Warlock must live by his wits. He cannot hope to simply hack his way
+help: through the dungeon, and so must therefore use his magic to defeat,
+help: deceive, confuse, and escape. |
+help:A Warlock seeks to master the spirits of sentient creatures, creating
+help: servants of their own will. They have chosen a dark and wicked path, and
+help: run a continual risk of harm to their own body and mind. Warlocks love
+help: shadows and hate light, automatically shrouding themselves in darkness.
+help: Their spells require high intelligence and frequently harm the caster or
+help: place them in danger. In return, they achieve awesome power at high levels.
+help: The ultimate aim of the warlock is to supplant the Dark Enemy and set
+help: up a tyranny in his place.
+
+class:Paladin
+help:A Paladin is a warrior/priest. Paladins are very good fighters, second
+help: only to the warrior class, but not very good at missile weapons. They
+help: receive prayers at a slower pace than the priest, but can use all but the
+help: most powerful prayers. A paladin lacks much in the way of abilities.
+help: Paladins have poor stealth, perception, searching, and magical device use.
+help: They have a decent saving throw due to their divine alliance. Their
+help: primary stats are strength and wisdom.
+
+class:Rogue
+help:A Rogue is a character that prefers to live by their cunning, but is
+help: capable of fighting their way out of a tight spot. The master of traps and
+help: locks, to the experienced rogue no device is impossible to overcome. A rogue
+help: has a high stealth enabling sneaking around many creatures without
+help: having to fight, or sneak up and get the first blow. They can steal items
+help: from monsters, but need to be wary of being caught in the act. Rogues'
+help: perception is higher than any other class, and many times they will notice
+help: a trap or secret door before having to search. A rogue is better than
+help: the more fighting oriented classes with magical devices, but still cannot
+help: rely on their performance. Rogues can also learn a few spells, but not the
+help: powerful offensive spells mages can use, and there will always be a chance
+help: of failure even with the simplest spells. A rogue's primary stats are
+help: dexterity and intelligence. |
+help: They gain experience a bit faster than others.
+
+class:Ranger
+help:A Ranger is at home in nature, and good at turning the environment to
+help: good use. Rangers are good fighters, and one of the best of all the classes
+help: with missile weapons, especially bows. The ranger learns chiefly spells of
+help: survival and forest craft. A ranger has good stealth, good perception,
+help: good searching, a good saving throw, and is good with magical devices.
+help: Their primary stats are strength, wisdom and dexterity.
+
+class:Blackguard
+help:A Blackguard is a brawler of no principle, who lives for the joy of maiming
+help: and killing. Blackguards prefer heavy weapons and shields, and learn a few
+help: spells for the purpose of wreaking more destruction. Their lust for blood
+help: is legendary, with a blackguard in full cry nigh on impossible to kill.
+help: Blackguards scorn skills apart from slaughter, and require strength and
+help: intelligence (or rat-cunning) to thrive in the dungeon. Blackguard can 
+help: polymorph into werewolf, can heal by spending rage and got additional 
+help: blows per round (BpR) by using his battle skills.
+
+class:Sorceror
+help:Sorcerers use intelligence primarily, determining how much mana they have to
+help: cast spells and how low their failure rate is. They are the all-around best
+help: magicians, having the most powerful spells. A high-level Sorceror can be very
+help: powerful, but getting there can be a difficult journey. On the downside, they
+help: are the worst fighters, being unable to use any weapon but a Mage Staff
+help: comfortably, and still unable to be anything even remotely approaching
+help: effective with it. A Sorceror has very few hit points compared to other
+help: classes, making survival difficult in the beginning. That's why this class is
+help: not recommended for beginners. Intelligence is the sorceror's primary stat.
+
+class:Unbeliever
+help:The full opposite of Sorcerors, Unbelievers so strongly despise magic that
+help: not only do they refuse to use magic spells, they refuse all training in the
+help: use of magic items, which leaves them totally incompetent when trying
+help: to use a magic item, although they can still quaff potions and read scrolls.
+help: Because they are so unattuned to magic, Unbelievers can prevent magical gates
+help: from opening around them, eventually extending to a complete suppression of
+help: teleportation abilities and all magic in the surrounding area.
+help: Unbelievers can replenish their forces when doing damage to non-natural 
+help: magic users. Also they can sense invisible creatures in melee range,
+help: can resist item's curses and cancel some other magic effects, eg when they
+help: drink from magic fountains, they often unmagic it. They can't remove
+help: curse from items.
+
+class:Hunter
+help:Hunters aren't good at fighting, but can deliver extremely high damage with
+help: their ranged weapons. They can die quickly too, however. Hunters are to arrows
+help: what warriors are to melee. They are the best class around with any
+help: bow, crossbow or sling. Hunter is very bad at melee, being only better than the
+help: Sorceror. Wisdom and dexterity are the archer's primary stats. They could 
+help: use wide-range of tricks, traps and even magic in their hunt in the dungeons.
+
+class:Telepath
+help:The Telepath is a character who uses the powers of mind instead of magic;
+help: mindcrafters, they can weaken or even kill with their wits.
+help: Their powers vary from simple extrasensory powers to mental
+help: domination of others. A Telepath uses the Wisdom score to determine how 
+help: well he can perform these psychic powers. In solo combat, a Telepath is 
+help: slightly weaker than a Priest, although a Telepath is never penalized for
+help: wielding an edged weapon (unlike a Priest).
+
+class:Elementalist
+help:Elementalists are spellcasters specializing in offensive spells. They share
+help: the same stats as mages, but get almost no support spells at all. They rely
+help: on the powers of the four elements (Air, Fire, Earth, Water) and can combine
+help: them to cast powerful Elemental spells. Elementalists have the innate ability
+help: to increase the power of their spells by studying them again each time they
+help: level. As masters of the elements, they gain intrinsic basic resistances as
+help: they level, fire at 10, cold at 15, acid at 20 and lightning at 25.
+
+class:Summoner
+help:A Summoner is the weakest of all classes you may choose. They have pathetic
+help: stats, no fighting abilities, and a few spells to kill enemies with magic.
+help: However, all these weaknesses don't trouble them much, because they can
+help: summon creatures to help them in battle, and still gain some experience from
+help: their kills. Summoners use wisdom to cast spells and summon allies, and to
+help: determine how many of them they can control and how effectively they can
+help: control them.
+
+class:Shapechanger
+help:Shapechangers possess the ability to transform into various creatures by 
+help: defeating them in battle. They are fighters that get abilities from the forms
+help: they can mimic. Basically, Shapechangers will melee a lot with the benefits
+help: from their current form (resists, melee brands, defense, speed and damage 
+help: boosts...). Some of those forms will provide innate spells and even breath 
+help: attacks. Shapechangers get basic mana points to cast those spells (note that
+help: breath attacks, like for the Dragon race, don't cost mana, but hit points 
+help: instead...). The higher level the monster, the more the Mimic is required 
+help: to vanquish before he can assume their form. While transformed, they lose 
+help: their intrinsic abilities, and gain those of the creature they have 
+help: transformed into, plus whatever abilities and resistances provided by their
+help: equipment. |
+help: Some races that have their own polymorph or shape forms got certain
+help: restrictions on being shapechangers.
+
+class:Tamer
+help:Scar-covered hands of tamer - person devoted his life and (remaining) limbs
+help: to take care of wild creatures - is an evidence what a tideous and dangerous
+help: job it is. Going through dense dim-lit thickets, hot sands and insidious
+help: mountains to stalk a dragon in its den.. to make friends with it - this is
+help: your life ambition. |
+help:You will start not with dragons though, but with a frog companion. If you
+help: take good care of it - frog will eventually give you certain powers..
+help: Each new pet that you acquire will teach you something and fight for
+help: your life.
+
+class:Druid
+help:Nature magic and can shift to animals. Good at martial arts and do not use
+help: weapons. Every 5 levels can learn a new animal form to transform; some
+help: forms have innate abilities (to use them, press 'y' key).
+help: Druid has to find spellbooks in the dungeons; such books are not for sale. |
+help:Druid forms:
+help: - BIRD: fast and able to fly over water and other terrain; can heal ('y').
+help: Fragile and worthless in combat, but can dodge melee attacks well.
+help: Resistant to gravity. |
+help: - RAT: harmless and stealthy, rats can find little cracks and holes in the
+help: walls to pass through them. They can avoid traps most of the time and able to
+help: sniff items to detect curses on them. Resistant to poison and can life drain. |
+help: - BOAR: find different edible plants which reduce its nourishment consumption;
+help: good in mushroom's identification. Boars are very wise, got high vitality and
+help: fearless. Can charge at its enemies from distance ('y'). |
+help: - CAT: stealthy and nimble. Can backstab sleeping target.
+help: Regenerate especially fast, but bad at mana restoring. |
+help: - WOLF: makes fast vicious attacks; can howl to summon allies ('y').
+help: Less resistant to magic, except dark arts. Reckless in defense,
+help: but generates rage while in combat. |
+help: - BEAR: tough and powerful, but very noisy and a bit clumsy.
+help: Can survive even very harsh blows and curses. Can bash enemies and stun them. |
+help:Druids hitpoints does not influenced by its forms and they cannot cast spells
+help: while in animal form, bad in trap disarming and magical devices.
+
+class:Fighter
+help:Mercenary who uses different fighting tricks and blows to survive at all cost.
+help: Like all mercenaries, they are very good at armor and weapon care.
+help: Fighters are very superstitious and believe in fortune.
+help: As they care a lot about signs and omens, they may get lucky to survive
+help: blows that would be mortal wounds for anyone else.
+help: His mana pool depends on his intelligence and his strength.
+help: Also fighters can sense hidden weapon properties better than others.
+
+class:Knight
+help:Noble knight in heavy armour who charges into enemies with immense power.
+help: They cannot be confused and can use their shield with astonishing mastery.
+
+class:Traveller
+help:"Jack of all trades, master of none..."
+help:Common person who know some basic magic and are not too bad at fighting..
+help: He is not alone in his wanderings - he's got a four-legged friend.
+help: Travellers are pretty sure that they know well about navigation and 
+help: direction, maps and cardinal points...
+help: but often they come into real adventure due to this overconfidence.
+help: Travellers starts with additional useful items.
+help: 
+help: p.s.
+help: "..though oftentimes better than master of one".
+
+class:Bard
+help:Expert in musicianship and singing, you can not only give joy to people,
+help: but also know how to use music magic to bring cure and wreak havoc.
+help: He is resistant to sound attacks.
+
+class:Battlemage
+help:Specialized in destruction of his enemies not only with power of elements,
+help: but also uses all melee fighting skills makes him universal death machine.
+help:There is no reason a Battlemage cannot become a good fighter, but magic
+help: is their true realm.
+help: Unlike other 'magic' users battlemage does not have problems with using
+help: ranged weapons and throwing.
+
+class:Necromancer
+help:Weak and fragile, necromancer has powers to raise and command armies of dead.
+help: Resistant to nether, he can summon power of bone and poison for his profit.
+help: The most powerful necromancers can also command golems.
+
+class:Hermit
+help:A spiritual guide, this holy monk has sworn not to take a weapon in his hand.
+help: This sacred vow does not interfere with his ability to crush enemies'
+help: skulls with his bare hands.
+
+class:Wizard
+help:A legendary magician who obtained ancient secrets that were forgotten for ages.
+help: There is a rumour that wizards even can summon and control daemons.
+
+class:Trader
+help:An enterprising merchant who went into the dungeon to fulfill his life ambition:
+help: get enough money to open his own tavern. Trader proud of his cat, who
+help: follows him during adventures. |
+help:Trader can sell items to NPC stores.
+help: With higher levels they have better prices. |
+help:They can not form a party with other players.|
+help:They got less speed penalty due overweight.
+
+class:Assassin
+help:Stealthy slayers who know 100500 different ways to kill its prey fast and
+help: effectively. Their ambushing is especially deadly to enemies who are not
+help: expecting an attack.
+help: Most powerful assassins specializes in sentries - special magic traps which
+help: shoot poison, blades and magic elements at enemies on sight.
+help: Assassin uses two spellbooks: Shadows for Beginners and Dark Evocations.
+
+class:Phaseblade
+help:Warrior who dwells in two worlds and doesn't feel space/weight burden. It can
+help: teleport around and using its phase techniques to cut enemies to pieces.
+help: They prefer swords and are not good with other types of weapons.
+help: They can teleport from non/limited-teleport area.
+
+class:Cryokinetic
+help:Some also call them 'Weathermasters'. Cryokinetic can instantly change
+help: surrounding temperature to extremums. Not many creatures can endure their
+help: freezing roth which changes in a flash to blazing fire.
+help: They don't fear lava and can't slip on ice.
+help: At level 10 they obtain intrinsic ability to brand their melee blows in
+help: fire or cold element and at level 30 they got innate resistances to it.
+
+class:Timeturner
+help:Extremely brittle, but lightning fast, they command time by void magic.
+help: Some call them 'Mesmers' as they also have battle telepathic powers.
+help: They become especially speedy after level 30.
+help: Their haste buff from the spell can stack its duration.
+
+class:Scavenger
+help:Vagabond who ventured to the dungeons to get his hands to monster's treasures,
+help: but also won't say no to marauding corpses of other adventurers.
+help: He can salvage equipment into valuables right in the dungeon, so he does not
+help: need to get distracted by going to town every now and then.
+help: They are good at stealing, but not so good as rogues.
+help: Also they got a pet rat, which is trained to divert enemies' attention. |
+help: Scavengers can salvage ego items at lvl 20, random artifacts at 30 and
+help: true artifacts at 40+ lvl. |
+help:The higher level it got - the more valuables he can get from salvaging. |
+help: They can not form a party with other players.|
+help:They got less speed penalty due overweight.
+
+class:Alchemist
+help:Can brew potions and concoct elixirs which can not only bring devastation and
+help: exterminate all living creatures, but also may bring cure and hope.
+help: To make a potion, they should first gather a reagent. Some reagents are
+help: organic and may be found in plants. Some are minerals and may be gathered by
+help: mining. Brewing a potion takes some time and concentration, during which
+help: the alchemist is very vulnerable. |
+help:Brewed potions are soulbound and can be used only by creator; you can not
+help: neither trade it, nor drop it on the ground.
+help: To get rid of potions that you don't need:
+help: use 'k' key to destroy it or simply drink it or throw into enemies. |
+help:They can not form a party with other players.
+
+class:Crafter
+help:Can gather resources by chopping trees for logs or mining mountains for ore,
+help: to use these materials in crafting equipment. |
+help:Crafter equipment is soulbound and can be fitted only on creator; you can not
+help: neither trade it, nor drop it on the ground. |
+help:To get rid of crafted equipment that you don't need:
+help: use 'k' key to destroy it. |
+help:They can not form a party with other players.|
+help:They got less speed penalty due overweight.
+
+class:Inquisitor
+help:Inquisitors exterminate heretics, witches and other sacrilege magic riffraff.
+help: They hate sorcery and witchcraft, which they judge as black magic and idolatry.
+help: They themselves refuse to use common magic, they refuse all
+help: training in the use of magic items, although they can still quaff potions
+help: and read scrolls, which they accept as minor evils to fight greater evil.
+help: Because they are so hateful towards magic, Inquisitors can prevent magical
+help: gates from opening around them, eventually extending to a complete
+help: suppression of all magic in the area around them. |
+help:They prefer not to use weapons, but to break bones with their bare hands... |
+help:Inquisitors replenish their life forces by hurting victims who fear them.
+
+class:Villager
+help:Villagers are common folks, versatile and able to do anything, but also
+help: average at everything they do. They have no strengths nor weaknesses.
+help: Villagers use stamina given by their constitution to perform common tasks
+help: and can be accompanied by a single pet that they can summon at their leisure.
+help: They can chop wood and mine ore more easily as they advance in levels. They
+help: are able to turn terrain into crops and farm food from them which is rare
+help: gift nowadays as not many can cultivate fields which become fell under
+help: dark curses of the Enemy.
