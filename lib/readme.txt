@@ -75,8 +75,7 @@ correctly.
 
 === Directory "lib/sounds" ===
 
-The "lib/sounds" directory contains the .mp3 sound files, plus the file
-sound.cfg which tells the game which sound files to use for which game events.
+The "lib/sounds" directory contains the .mp3 sound files.
 
 
 === Directory "lib/icons" ===
@@ -88,9 +87,12 @@ The "lib/icons" directory contains the PWMAngband icon files.
 
 The "lib/user" directory is used to put various game-written configuration
 files (such as the monster memory file, lore.txt, and a .prf file with the
-subwindow configuration for the current character). It also contains the
-directories for scores and savefiles (unless these are held systemwide, as in
-some Linux/Unix installations), and for user created help files.
+subwindow configuration for the current character). It is the destination
+for character dumps, output from the death screen spoilers, and results
+from the statistics front end or statistics debugging commands. It also
+contains the directories for scores, savefiles, and randart sets (all of
+those may be held systemwide, as in some Linux/Unix installations), and
+for user-created help files.
 
 
 === Directory "lib/user/save" ===
@@ -102,6 +104,12 @@ Each savefile is named the name of the character, or, on multi-user machines,
 
 The savefiles should be portable between systems, assuming that the
 appropriate renaming is perfomed.
+
+
+=== Directory "lib/user/panic" ===
+
+Is like "lib/user/save" but holds "savefiles" generated in repsonse to the
+game receiving a fatal signal, typically because of a game crash.
 
 
 === Directory "lib/user/scores" ===
