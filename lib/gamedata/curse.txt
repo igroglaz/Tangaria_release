@@ -383,3 +383,35 @@ type:helm
 type:crown
 values:CHR[-5]
 desc:distorts your features
+
+# for nazgul rings (and other rings too)
+# ~ combined rate of any effect happening at a given point in time is approximately 
+# 0.0421 per turn.
+# (means that one of these effects to occur ~ about once every 24 turns)
+name:nazgul
+type:ring
+effect:SUMMON:MONSTER:0:-2
+dice:1
+time:100+1d400
+effect:TELEPORT
+dice:40
+time:100+1d400
+effect:TIMED_INC_NO_RES:PARALYZED
+dice:1+1d2
+time:100+1d400
+effect:TIMED_INC_NO_RES:IMAGE
+dice:2+d8
+time:100+1d400
+effect:TIMED_INC_NO_RES:BLIND
+dice:1+1d3
+time:100+1d400
+effect:TIMED_INC_NO_RES:CONFUSED
+dice:1+1d3
+time:100+1d400
+effect:TIMED_INC_NO_RES:POISONED
+dice:10+d10
+time:1d1000
+effect:WAKE
+time:500+1d500
+msg:The ring whispers something!
+desc:bends your will
