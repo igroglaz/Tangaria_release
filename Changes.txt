@@ -64,6 +64,11 @@ Angband 4.2.x:
 - Allow glowing terrain that's not in a room or on the surface to light a wall
 - Avoid SDL_Color initialisation error
 
+PWMAngband:
+
+- Load race/class presets from the client instead of fixing them on the server
+- Split VERIFY packet in chunks
+
 Compilation/documentation
 -------------------------
 
