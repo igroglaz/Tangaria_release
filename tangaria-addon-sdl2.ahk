@@ -11,6 +11,10 @@ LWin::F11
 ~Capslock::F10
 ;//numlock -> ^F9
 PrintScreen::^F9
+
+;// alt+f4 = ctrl + '\'
+!F4::SendInput ^\
+
 ;/////////////////////////////////////// NOT USED:
 ;//Remapping Num5 -> f8;
 ;// vk0C::F8 // NO NEED
