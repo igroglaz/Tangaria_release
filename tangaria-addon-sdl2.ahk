@@ -25,6 +25,8 @@ PrintScreen::^F9
 ;//ESC -> F5 // you be able to do so, but you need to arrange ESC manually in .prf BEWARE:
 ;// if you would open '%' screen - you won't be able to exit it with remapped ESC
 ;// vk1B::F5
+;//////////////////////////////////////// disable alt+tab
+!Tab::Return
 ;////////////////////////////////////////
 ;//Fixing alt-problem
 ~LAlt Up:: return
