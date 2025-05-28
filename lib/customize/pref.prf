@@ -91,6 +91,18 @@ X:wrap_messages
 # Option 'Compare equipment when examining items'
 X:expand_inspect
 
+# Option 'Hardcore (No extra gold, 2nd Chance & low-HP heal)'
+X:birth_hardcore
+
+# Option 'Turbo (No slow-time bubble)'
+X:birth_turbo
+
+# Option 'Deeptown'
+X:birth_deeptown
+
+# Option 'Zeitnot'
+X:birth_zeitnot
+
 # Option 'Ironman'
 X:birth_ironman
 
@@ -120,9 +132,6 @@ Y:birth_no_ghost
 
 # Option 'Play as a fruit bat'
 X:birth_fruit_bat
-
-# Option 'Hardcore (No extra gold, 2nd Chance & low-HP heal)'
-X:birth_hardcore
 
 # Option 'Get out of icky screens when disturbed'
 X:disturb_icky

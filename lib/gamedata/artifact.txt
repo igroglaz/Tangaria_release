@@ -95,9 +95,92 @@
 # savefiles.
 
 
+
+# NO_ACTIVATION flag: copy_artifact_data() won't add activation to randart when copying
+
+
+
 #The Black Spear
 #The Elf's Dagger
 #The Adamant of Henna
+
+################## new stuff
+
+name:of the Withered King
+base-object:belt:Mummy Wrappings
+level:5
+weight:30
+alloc:10:1 to 100
+armor:0:-10
+flags:SEE_INVIS | HOLD_LIFE | ESP_UNDEAD | SUST_CON | NO_ACTIVATION
+values:CHR[-2] | CON[-1] | RES_NETHER[1] | RES_POIS[1]
+curse:strangling:100
+desc:An ancient strip of linen soaked with the rites of the dead.
+desc: Once wrapped around a long-forgotten monarch, it hums with a faint
+desc: pulse that isn't yours. Dry and scratchy, it clings to your skin
+desc: like a memory that refuses to fade.
+desc: As you wind it around your body, it tightens just a little
+desc: too much - as if testing how far it can go before you stop breathing.
+
+name:of Legolas
+base-object:belt:Belt
+level:5
+weight:6
+alloc:2:15 to 100
+armor:1:3
+flags:SEE_INVIS | FEATHER | SUST_DEX
+values:DEX[2] | STEALTH[1]
+desc:A light golden belt of woven threads, once given to Legolas by
+desc: the Lady of the Golden Wood.
+desc: It bears no rune, but lies upon the wearer with the ease of wind
+desc: in the trees. It grants a touch of woodland agility, as if made
+desc: for those swift of foot and keen of eye.
+
+name:of Sharkey
+base-object:mage staff:Mage Staff
+level:10
+weight:12
+alloc:2:5 to 100
+attack:1d1:1:3
+armor:0:0
+flags:LIMITED_TELE | SEE_INVIS | SLOW_DIGEST | PROT_CONF | NO_ACTIVATION
+values:INT[2] | CHR[-3] | MANA[2] | STEALTH[1]
+desc:A worn staff that once belonged to a wizard who called himself Sharkey.
+desc: Whatever magic it once held is tainted by bitterness and petty malice.
+desc: Few trust it, though fewer can say exactly why.
+
+name:of Gollum
+base-object:soft armour:Filthy Rag
+level:5
+weight:10
+alloc:2:5 to 100
+attack:0d0:0:0
+armor:1:10
+flags:REGEN | SLOW_DIGEST | NO_ACTIVATION
+values:STEALTH[3] | CON[-2] | CHR[-4]
+curse:whispers:100
+desc:An old, greasy scrap of cloth, more sack than garment.
+desc: Smells of fish bones, swamp mud, and fear. Gollum wore it as clothing,
+desc: though it's fit more as a warning than protection.
+
+name:of Grima
+base-object:sword:Broken Dagger
+level:19
+weight:9
+alloc:1:30 to 100
+attack:1d3:13:18
+armor:0:0
+flags:FREE_ACT | PROT_CONF
+values:STEALTH[2] | CHR[-2] | LIGHT[-1] | DEX[1]
+act:MON_CONFUSE
+time:50+d100
+curse:treachery:100
+desc:A thin, rust-pitted dagger with an oily sheen. The handle is wrapped in
+desc: rotting leather, and a faint sickly smell clings to the blade.
+desc: Whispers follow its movements, like voices arguing just out of hearing.
+desc: Once held by Gríma Wormtongue, it carries the residue of his deceit.
+
+
 
 ### Light Sources ###
 
@@ -178,8 +261,8 @@ flags:LIMITED_TELE
 act:CLAIRVOYANCE
 time:50+d50
 msg:The palantir clouds, then clears...
-desc:A great globe with a heart of fire, the Palantir provides the wearer with 
-desc:sight of far places - at a cost...
+desc:A great globe with a heart of fire, the Palantir provides the wearer with
+desc: sight of far places - at a cost...
 
 ### Swords and Daggers ###
 
@@ -190,7 +273,7 @@ weight:9
 alloc:1:30 to 100
 attack:1d2:14:19
 armor:0:7
-flags:FREE_ACT | REGEN | PROT_BLIND | HUNGER
+flags:FREE_ACT | REGEN | PROT_BLIND
 values:MANA[1] |
 values:BLOWS[1] | SPEED[1] | STEALTH[1] | RES_CHAOS[1] | LIGHT[-2]
 act:INVISIBILITY
@@ -211,7 +294,7 @@ values:STR[1] | DEX[1] | RES_FIRE[1] | RES_DISEN[1]
 brand:FIRE_2
 act:RESIST_ALL
 time:113+d50
-desc:"Red and white flame", the Sword that was Broken. 
+desc:"Red and white flame", the Sword that was Broken.
 desc: It still holds part of the Power of the Ring which it cutted away...
 desc: This strange power will persist in the Sword till it will be reforged.
 
@@ -546,7 +629,7 @@ alloc:50:15 to 50
 attack:2d5:12:12
 armor:0:0
 flags:FEATHER | SEE_INVIS | ESP_ORC | ESP_TROLL
-values:DEX[2] | STEALTH[2] 
+values:DEX[2] | STEALTH[2]
 slay:TROLL_3
 slay:ORC_3
 desc:The "Singing Blade", whose wearer can slay Orcs and Trolls in the hidden
@@ -936,12 +1019,12 @@ weight:180
 alloc:7:20 to 100
 attack:4d4:10:11
 armor:0:8
-flags:BLESSED | REGEN | ESP_ORC | HUNGER
+flags:BLESSED | REGEN | ESP_ORC
 values:WIS[4] | INFRA[4] | LIGHT[1] | RES_COLD[3] | RES_LIGHT[1]
 brand:COLD_3
 slay:ORC_3
 act:DRAIN_LIFE
-time:40
+time:100
 desc:Once wielded by the High Priest of Meneltarma, this great mace gleams
 desc: coldly as though moonlit, and can strike equally mighty spiritual and
 desc: physical blows.
@@ -1018,7 +1101,7 @@ weight:55
 alloc:2:40 to 127
 attack:4d4:15:16
 armor:0:0
-flags:FREE_ACT | REGEN | HUNGER
+flags:FREE_ACT | REGEN
 values:DEX[3] | SPEED[3] | RES_ACID[1] | RES_ELEC[1] | RES_FIRE[1] |
 values:RES_COLD[1] | RES_SOUND[1]
 brand:POIS_3
@@ -1368,7 +1451,7 @@ weight:170
 alloc:7:30 to 100
 attack:3d8:8:11
 armor:0:5
-flags:FREE_ACT | PROT_BLIND | FEATHER | SEE_INVIS | REGEN | HUNGER
+flags:FREE_ACT | PROT_BLIND | FEATHER | SEE_INVIS | REGEN
 values:STR[3] | CON[3] | STEALTH[1] | RES_ACID[1] | RES_ELEC[1] | RES_FIRE[1] |
 values:RES_COLD[1]
 slay:DEMON_3
@@ -1389,7 +1472,7 @@ values:STR[3] | DEX[3] | BLOWS[1] | RES_DISEN[1]
 slay:TROLL_3
 slay:ORC_3
 act:CURE_SERIOUS
-time:3+d3
+time:4+d3
 desc:A superbly crafted double-bladed axe once borne by Ceruthain, commander
 desc: of the Rangers of Arnor.
 
@@ -1571,7 +1654,7 @@ weight:250
 alloc:3:80 to 127
 attack:8d6:40:15
 armor:0:0
-flags:REGEN | HUNGER
+flags:REGEN
 values:INFRA[5] | RES_ACID[1]
 brand:ACID_3
 slay:ANIMAL_2
@@ -1600,7 +1683,7 @@ weight:5
 alloc:2:45 to 127
 attack:0d0:20:25
 armor:0:0
-flags:SUST_DEX | REGEN | ESP_ANIMAL | SEE_INVIS | HUNGER
+flags:SUST_DEX | REGEN | ESP_ANIMAL | SEE_INVIS
 values:DEX[3] | STEALTH[3] | MIGHT[1] | SHOTS[5]
 desc:More effort has gone into crafting this hunting weapon than you would
 desc: have expected. In fact there is no fault to be found in balance or power.
@@ -1625,7 +1708,7 @@ weight:30
 alloc:10:30 to 100
 attack:0d0:12:15
 armor:0:0
-flags:REGEN | HUNGER
+flags:REGEN
 values:STR[2] | CON[2] | MIGHT[2] | RES_FIRE[1] | RES_ELEC[1] | RES_COLD[1]
 desc:One of a pair of hunting bows once belonging to Feanor's two youngest
 desc: sons. The bows are like and yet unlike, much as the twin brothers were.
@@ -1730,7 +1813,7 @@ weight:200
 alloc:5:60 to 127
 attack:4d1:10:22
 armor:0:0
-flags:REGEN | HUNGER
+flags:REGEN
 values:MIGHT[1] | RES_DISEN[1]
 brand:COLD_3
 slay:DEMON_3
@@ -1744,7 +1827,7 @@ weight:200
 alloc:5:50 to 127
 attack:4d1:20:24
 armor:0:0
-flags:REGEN | HUNGER
+flags:REGEN
 values:STR[3] | MIGHT[1]
 desc:A tool to cut down elves, humans and dwarves and all enemies
 desc: of Mordor with relentless force.
@@ -2187,7 +2270,7 @@ armor:7:20
 flags:KNOWLEDGE
 values:LIGHT[1]
 act:DETECT_ALL
-time:30+d30
+time:50+d50
 desc:This helm, designed by Petty-Dwarves ages ago to act as the brain of a
 desc: long lost project, is made of finest glass. Its light banishes all
 desc: secrets, and makes audible whispers from the deceased.
@@ -2227,9 +2310,9 @@ attack:1d3:0:0
 armor:9:30
 flags:PROT_FEAR | SUST_STR | SUST_CON | PROT_CONF | SEE_INVIS
 values:STR[3] | CON[3] | SEARCH[3] | LIGHT[1] | RES_FIRE[3]
-desc:A helm wrought with the image of what Durin saw when he first gazed 
-desc: into the Kheled-zaram. Passed down to each Lord of Khazad-dum, 
-desc: till Durin III was slain. Found by Balin son of Fundin, 
+desc:A helm wrought with the image of what Durin saw when he first gazed
+desc: into the Kheled-zaram. Passed down to each Lord of Khazad-dum,
+desc: till Durin III was slain. Found by Balin son of Fundin,
 desc: Uzbadkhazaddumu, the last Lord of Moria.
 
 name:of Beruthiel
@@ -2253,7 +2336,7 @@ alloc:0:90 to 127
 attack:1d1:0:0
 armor:0:27
 flags:PROT_FEAR | SEE_INVIS | PROT_BLIND | SUST_INT | SUST_WIS | SUST_CHR | KNOWLEDGE
-values:RES_CHAOS[1] | INFRA[5] | INT[5] | WIS[5] | SEARCH[5] | LIGHT[1] | 
+values:RES_CHAOS[1] | INFRA[5] | INT[5] | WIS[5] | SEARCH[5] | LIGHT[1]
 desc:This radiating and impervious head gear will ensure
 desc: that its wearer will see nothing but the very truth.
 
@@ -2265,7 +2348,7 @@ alloc:5:45 to 127
 attack:1d1:0:0
 armor:0:15
 flags:PROT_BLIND | PROT_CONF | PROT_STUN |
-flags:SEE_INVIS | REGEN | HUNGER
+flags:SEE_INVIS | REGEN
 values:STR[3] | CON[3] | WIS[2] | LIGHT[1] | RES_COLD[1] | RES_FIRE[1] |
 values:RES_LIGHT[1]
 act:CURE_FULL500
@@ -2351,7 +2434,7 @@ weight:80
 alloc:0:25 to 127
 attack:0d0:0:0
 armor:8:20
-flags:PROT_CONF | FREE_ACT | HOLD_LIFE | REGEN | HUNGER
+flags:PROT_CONF | FREE_ACT | HOLD_LIFE | REGEN
 values:DEX[2] | STR[2] | RES_FIRE[1] | RES_COLD[1] | RES_ELEC[1]
 desc:Manufactured by the armourers of the Scarlet Order, this leather armour
 desc: aids every zealot in his struggle against the unholy forces.
@@ -2449,7 +2532,7 @@ alloc:0:50 to 127
 attack:1d4:-2:0
 armor:38:25
 flags:ESP_DRAGON | SUST_INT | SUST_CON | FREE_ACT | PROT_BLIND | PROT_CONF |
-flags:PROT_FEAR | REGEN | NO_TELEPORT | HUNGER
+flags:PROT_FEAR | REGEN | NO_TELEPORT
 values:STEALTH[4] | CON[4] | INT[4] | SPEED[4] | RES_NEXUS[1] | RES_ACID[1] |
 values:RES_ELEC[1] | RES_FIRE[1] | RES_COLD[3]
 desc:The flying suit of Flare, very powerful armour that protects
@@ -2475,7 +2558,7 @@ weight:220
 alloc:0:25 to 127
 attack:1d4:-2:0
 armor:32:-8
-flags:PROT_CONF | FREE_ACT | HOLD_LIFE | REGEN | HUNGER
+flags:PROT_CONF | FREE_ACT | HOLD_LIFE | REGEN
 values:RES_FIRE[1] | RES_ACID[1] | RES_COLD[1] | RES_ELEC[1] | RES_TIME[1]
 desc:This chain mail has endured many many fights!
 
@@ -2763,7 +2846,7 @@ weight:10
 alloc:0:40 to 127
 attack:0d0:0:0
 armor:1:19
-flags:ESP_UNDEAD | REGEN | FREE_ACT | HUNGER
+flags:ESP_UNDEAD | REGEN | FREE_ACT
 values:WIS[4]
 slay:UNDEAD_5
 brand:VAMPIRIC
@@ -2776,7 +2859,7 @@ weight:25
 alloc:40:10 to 60
 attack:1d1:0:0
 armor:3:14
-flags:REGEN | FREE_ACT | HUNGER
+flags:REGEN | FREE_ACT
 values:RES_FIRE[1]
 act:FIRE_BOLT
 time:8+d8
@@ -2886,7 +2969,7 @@ attack:1d1:-50:-50
 armor:5:30
 flags:AFRAID | SEE_INVIS | REGEN | FREE_ACT | ESP_ALL | PROT_BLIND |
 flags:SUST_STR | SUST_INT | SUST_WIS | SUST_DEX | SUST_CON |
-flags:FEATHER | HOLD_LIFE | HUNGER
+flags:FEATHER | HOLD_LIFE
 values:SEARCH[3] | INFRA[3] | STEALTH[3] | LIGHT[1] |
 values:RES_FIRE[1] | RES_COLD[1] | RES_ELEC[1] | RES_ACID[1] |
 values:RES_POIS[1] | RES_DISEN[1] | RES_NETHER[1] | RES_CHAOS[1]
@@ -2899,7 +2982,7 @@ weight:5
 alloc:0:50 to 127
 attack:1d1:0:0
 armor:0:15
-flags:REGEN | ESP_EVIL | FREE_ACT | SEE_INVIS | HUNGER
+flags:REGEN | ESP_EVIL | FREE_ACT | SEE_INVIS
 values:MANA[5]
 desc:The alchemist's best friend.
 
@@ -3048,8 +3131,8 @@ weight:2
 alloc:2:70 to 127
 attack:0d0:2:2
 armor:0:0
-flags:FREE_ACT | SEE_INVIS | SLOW_DIGEST | REGEN | ESP_ALL | 
-flags:SUST_STR | SUST_CON | SUST_CHR | PROT_FEAR | HUNGER
+flags:FREE_ACT | SEE_INVIS | SLOW_DIGEST | REGEN | ESP_ALL |
+flags:SUST_STR | SUST_CON | SUST_CHR | PROT_FEAR
 values:STR[1] | INT[1] | WIS[1] | DEX[1] | CON[1] | SPEED[5] | RES_FIRE[3]
 act:PROTEVIL
 time:200+4d50
@@ -3067,7 +3150,7 @@ alloc:2:80 to 127
 attack:0d0:3:3
 armor:0:0
 flags:HOLD_LIFE | FREE_ACT | SEE_INVIS |
-flags:FEATHER | REGEN | HUNGER
+flags:FEATHER | REGEN
 flags:SUST_INT | SUST_WIS | SUST_CON | SUST_CHR |
 flags:PROT_BLIND | ESP_ALL
 values:STR[2] | INT[2] | WIS[2] | DEX[2] | CON[2] | SPEED[5] | RES_COLD[3]
@@ -3108,7 +3191,7 @@ alloc:1:100 to 127
 attack:0d0:15:15
 armor:0:0
 flags:AGGRAVATE | DRAIN_EXP | SEE_INVIS | REGEN | ESP_ALL | STICKY |
-flags:SUST_STR | SUST_DEX | SUST_CON | SUST_INT | SUST_WIS | SUST_CHR | HUNGER
+flags:SUST_STR | SUST_DEX | SUST_CON | SUST_INT | SUST_WIS | SUST_CHR
 values:STR[5] | INT[5] | WIS[5] | DEX[5] | CON[5] | CHR[-5] | SPEED[5] |
 values:RES_FIRE[3] | RES_COLD[3] | RES_ELEC[3] | RES_ACID[3] | RES_DARK[1] |
 values:RES_DISEN[1] | RES_POIS[1] | RES_NETHER[1]
@@ -3172,7 +3255,7 @@ graphics:":d
 level:50
 weight:3
 alloc:2:50 to 127
-flags:SEE_INVIS | FREE_ACT | REGEN | PROT_FEAR | HUNGER
+flags:SEE_INVIS | FREE_ACT | REGEN | PROT_FEAR
 values:STR[3] | CON[3] | INFRA[5] | LIGHT[1]
 desc:The Nauglamir, a carcanet of gold set with a multitude of shining
 desc: gems of Valinor. The radiant Silmaril of Feanor hangs in its midst
@@ -3202,7 +3285,7 @@ graphics:":d
 level:30:40
 weight:3
 alloc:2:30 to 70
-flags:HOLD_LIFE | SUST_CON | SUST_WIS | REGEN | HUNGER
+flags:HOLD_LIFE | SUST_CON | SUST_WIS | REGEN
 values:WIS[2] | RES_DARK[1] | RES_COLD[1] | RES_NETHER[1]
 act:RESTORE_LIFE
 time:150
@@ -3267,7 +3350,7 @@ weight:120
 alloc:0:35 to 127
 attack:2d4:-2:0
 armor:16:25
-flags:SUST_STR | REGEN | ESP_ANIMAL | HUNGER
+flags:SUST_STR | REGEN | ESP_ANIMAL
 values:STR[3] | STEALTH[3] | RES_ACID[3] | RES_DISEN[1]
 act:DRAGON_BLACK
 time:50
@@ -3380,7 +3463,7 @@ weight:220
 alloc:0:80 to 127
 attack:2d4:-2:0
 armor:36:25
-flags:SUST_STR | REGEN | ESP_ANIMAL | HUNGER
+flags:SUST_STR | REGEN | ESP_ANIMAL
 values:STR[3] | STEALTH[3] | RES_SOUND[1] | RES_SHARD[1] | RES_LIGHT[1]
 act:DRAGON_LAW
 time:50
@@ -3438,7 +3521,7 @@ weight:300
 alloc:6:100 to 127
 attack:2d4:-3:0
 armor:60:35
-flags:HOLD_LIFE | REGEN | PROT_FEAR | PROT_BLIND | PROT_CONF | HUNGER
+flags:HOLD_LIFE | REGEN | PROT_FEAR | PROT_BLIND | PROT_CONF
 values:RES_ACID[1] | RES_ELEC[1] | RES_FIRE[1] | RES_COLD[1] | RES_POIS[1] |
 values:RES_LIGHT[1] | RES_DARK[1] | RES_SOUND[1] | RES_SHARD[1] |
 values:RES_NETHER[1] | RES_NEXUS[1] | RES_CHAOS[1] | RES_DISEN[1]
@@ -3518,7 +3601,7 @@ weight:40
 alloc:0:48 to 127
 attack:0d0:0:0
 armor:1:15
-flags:REGEN | FREE_ACT | PROT_CONF | HUNGER
+flags:REGEN | FREE_ACT | PROT_CONF
 values:MANA[10] | RES_DISEN[1]
 desc:Finely woven silk gloves of the first high king of the Noldor, friend of
 desc: Thingol, who lead his people on the journey from Middle-earth to Valinor.
@@ -3656,7 +3739,7 @@ weight:12
 alloc:0:57 to 127
 attack:1d1:0:0
 armor:0:0
-flags:REGEN | ESP_EVIL | HUNGER
+flags:REGEN | ESP_EVIL
 values:MANA[2] | RES_DARK[1] | RES_NETHER[1] | RES_ELEC[1] | RES_COLD[1]
 act:DESTRUCTION2
 time:200+d200
@@ -3671,7 +3754,7 @@ weight:12
 alloc:0:60 to 127
 attack:1d1:0:0
 armor:0:0
-flags:REGEN | SEE_INVIS | PROT_FEAR | HUNGER
+flags:REGEN | SEE_INVIS | PROT_FEAR
 values:CON[3] | INT[3] | RES_COLD[3] | RES_ELEC[1] | RES_MANA[1] | MANA[1]
 desc:A stick of white marbled wood with a small blue crystal embedded at the top
 desc: which resembles a perfect globe showing no trace of inclusions and shines
@@ -3684,7 +3767,7 @@ weight:12
 alloc:0:70 to 127
 attack:1d1:0:0
 armor:0:0
-flags:KNOWLEDGE | REGEN | SEE_INVIS | ESP_EVIL | HUNGER
+flags:KNOWLEDGE | REGEN | SEE_INVIS | ESP_EVIL
 values:CON[3] | INT[3] | RES_FIRE[3] | RES_DISEN[1] | RES_ELEC[1] | MANA[1]
 desc:The ebony staff crowned by three rubies, which evoked the hellraiser's
 desc: power.
@@ -3793,8 +3876,8 @@ attack:1d1:0:0
 armor:0:0
 flags:NO_FUEL
 values:LIGHT[3] | MANA[1] | INT[1]
-# replace with mana regen
 act:STONE_OF_LORE
+# pretty long CD, good.. but problem: STONE_OF_LORE can appear on randarts :(
 time:500
 msg:The stone reveals hidden mysteries...
 desc:A great emerald that fills your mind with images of knowledge and dreadful
@@ -3851,7 +3934,7 @@ attack:10d10:0:0
 armor:0:0
 values:INT[3] | WIS[3] | CON[3] | INFRA[5] |  SEARCH[5] | RES_NETHER[1] | LIGHT[4]
 flags:NO_FUEL | SEE_INVIS | ESP_ALL | PROT_BLIND |
-# - 
+# -
 flags:STICKY
 curse:undead summon:100
 #

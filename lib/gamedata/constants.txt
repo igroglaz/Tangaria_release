@@ -116,7 +116,7 @@ world:dungeon-hgt:66
 world:dungeon-wid:198
 
 # Number of features in each town level (vertically)
-# Note: this MUST be a divisor of dungeon-hgt and be at least 2 
+# Note: this MUST be a divisor of dungeon-hgt and be at least 2
 world:town-hgt:6
 
 # Number of features in each town level (horizontally)
@@ -127,7 +127,8 @@ world:town-wid:11
 world:feeling-total:100
 
 # Squares needed to see to get first feeling
-world:feeling-need:80
+# check FAQ "How is obj_feeling calculated?": https://tangaria.com/gamedesign/
+world:feeling-need:30
 
 # Number of levels for each stair
 world:stair-skip:1

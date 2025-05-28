@@ -4,12 +4,16 @@
 # This file defines special attr/char mappings for use in "graphics" mode
 # with Tangaria's 32x32 tileset.
 #
-# Info and licence of tileset: http://tangaria.com/gamedev/tileset/
+# Info and licence of tileset: https://tangaria.com/tileset/
 #
 #torch = when you walk with your light / turned off in options by default
 #los = when in los                     / work as main light
 #lit = when permalit                   / work as main dark
 #dark = when out of los and dark       / out of order
+
+########  x8D:0x90
+######## vert:horiz
+
 
 
 ##### Spell effect types #####
@@ -1290,7 +1294,7 @@ object:dragon armour:Water Dragon Scale Mail:0x80:0xBB
 object:deed:Deed of Property:0x87:0xCD
 object:scroll:Wilderness Mapping:0x87:0xDA
 object:fortune cookie:Fortune Cookie:0x82:0x82
-object:travel guide:[Basics]:0x86:0x80
+object:travel guide:[Basics]:0x86:0x89
 
 ##### Monster attr/char definitions #####
 
@@ -1356,6 +1360,7 @@ monster:woodsman:0x8B:0x91
 monster:mad woodsman:0x8B:0x91
 monster:Newt:0x93:0x90
 monster:Mountain Gorge's newt:0x93:0x90
+# TODO: add tile Insect swarm
 monster:Insect swarm:0x8F:0xAC
 monster:acid blob:0x9A:0xC3
 monster:Freesia:0x9B:0x98
@@ -1447,6 +1452,7 @@ monster:Giant white dragon fly:0x91:0xB8
 monster:Giant green dragon fly:0x91:0xB9
 monster:Rot jelly:0x8F:0x8D
 monster:Newborn dragon:0xA0:0x9E
+monster:Cleric:0x8B:0xE5
 monster:Purple mushroom patch:0x8E:0xD9
 monster:Brown mold:0x8E:0xC7
 monster:Giant brown bat:0x90:0x82
@@ -1458,6 +1464,7 @@ monster:Giant black dragon fly:0x91:0xBA
 monster:Giant gold dragon fly:0x91:0xBB
 monster:Death sword:0x85:0xEF
 monster:Giant slug:0x91:0xAD
+monster:Novice Paladin:0x8B:0xF7
 monster:crow of Durthang:0x93:0xA3
 monster:Cave orc:0x8D:0x94
 monster:Wood spider:0x8F:0xB5
@@ -1622,7 +1629,7 @@ monster:Giant tarantula:0x99:0xD3
 monster:Giant clear centipede:0x91:0xA6
 monster:Womb spider:0x9D:0xBF
 monster:Griffon:0x91:0x8E
-monster:Homunculus:0x8D:0xA7
+monster:Gremlin:0x8D:0xA7
 monster:Clear hound:0x90:0xBB
 monster:Clay golem:0x92:0x81
 monster:Clay_golem:0x92:0x81
@@ -1751,6 +1758,7 @@ monster:Giant silver ant:0x91:0x82
 monster:Dark elven warlock:0x8D:0x8A
 monster:Ice skeleton:0x94:0xA1
 monster:Multi-hued dragon worm:0x91:0x9F
+monster:mad merchant:0x8B:0x8F
 monster:It:0x9A:0xC9
 monster:Forest wight:0x94:0x90
 monster:Ibun, Son of Mim:0x95:0x92
@@ -1766,6 +1774,7 @@ monster:Fairy:0x9D:0xB8
 monster:Werebear:0x93:0xAF
 monster:Mindcrafter:0x8E:0x89
 monster:Phantom beast:0x94:0x83
+monster:dark cultist:0x8B:0xF1
 monster:statue of ancient god:0xA0:0xE8
 monster:flamme:0x9D:0xAC
 monster:necromancer:0x8B:0xF1
@@ -1856,6 +1865,7 @@ monster:Young gold dragon:0x8C:0x89
 monster:Young red dragon:0x8C:0x8D
 monster:Young silver dragon:0xA0:0xA5
 monster:rainbow vortex:0xA0:0xDF
+monster:holy fanatic:0x8B:0x9D
 monster:Fire giant:0x92:0x8C
 monster:Mithril golem:0x92:0x86
 monster:Skeleton troll:0x94:0xB8
@@ -2191,6 +2201,7 @@ monster:vampire mistress:0xA0:0xE4
 monster:Nether wraith:0x94:0x89
 monster:Maulotaur:0x8D:0x96
 monster:Old sorcerer:0xA0:0x91
+monster:hellcat:0x9B:0xC7
 monster:Quivering blob:0x9A:0xD1
 monster:Shelob, Spider of Darkness:0x95:0x9B
 monster:Archon:0x9A:0xDF
@@ -2300,6 +2311,7 @@ monster:Fangorn, Oldest of the Ents:0x95:0xEA
 monster:Skull druj:0x92:0xA0
 monster:Black reaver:0x94:0x93
 monster:Aether hound:0x99:0xDB
+monster:Holy Virtue:0x9A:0xDA
 monster:Likho:0x9D:0xC5
 monster:Great Wyrm of Chaos:0x8C:0xC1
 monster:Great Wyrm of Law:0x8C:0xC2
@@ -32447,7 +32459,7 @@ monster:tamed boar:0x9B:0xC4
 monster:tamed wolf:0x9B:0xC5
 monster:tamed bear:0x9B:0xC3
 monster:tamed reptile:0x9B:0xC6
-monster:tamed hellcat:0x9B:0xC7
+monster:tamed firecat:0x9B:0xC7
 monster:tamed young unicorn:0x9B:0xC8
 monster:tamed drake:0x9B:0xC9
 monster:tamed dragon:0x9B:0xCA
@@ -32503,6 +32515,14 @@ monster:Target dummy:0x8B:0xB0
 # test stuff
 monster:Test dummy:0x8B:0xB0
 monster:Test drop:0x8B:0xB0
+
+###### TODO: draw tiles ######
+object:belt:Belt:0x9A:0x99
+object:belt:Floating Belt:0x9A:0x99
+object:belt:Mummy Wrappings:0x9A:0xAF
+##############################
+
+object:skillbook:[Mastery]:0x86:0x80
 
 # Load the special player pictures
 %:xtra-tan.prf

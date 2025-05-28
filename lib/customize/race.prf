@@ -27,7 +27,8 @@ help: searching for every hidden treasure. Humans do not have any infravision.
 help: There are a lot of different kinds of humans living in Tangaria, but most
 help: of them are just common folk, who despite being mediocre became powerful
 help: in a certain way, as they don't have drawbacks.
-help: At level 50 they got ascension bonus which affects all their stats.
+help: At level 50 they got ascension bonus which affects all their stats and
+help: and their Charisma becomes unshakable.
 help: They can restore constitution ('y') by spending some energy. |
 help: |
 help:They have more space in the storage for keeping items.
@@ -107,7 +108,7 @@ help: magic. They are as bad as dwarves at stealth, and horrible at searching,
 help: disarming, and perception. Half-Orcs are, let's face it, ugly. They tend
 help: to pay more for goods in town. Half-Orcs do make good warriors and
 help: rogues, for the simple reason that they tend to have great
-help: constitution and lots of hit points. Because of their preference for
+help: constitution. Because of their preference for
 help: living underground to on the surface, half-orcs resist darkness attacks.
 help: They have fair infravision.|
 help: |
@@ -357,15 +358,17 @@ help: to be surprisingly decent at magical arts, as ogres practice their own,
 help: shamanic spell-weaving. Ogres sustain their intelligence even under
 help: heavy pressure.|
 help: |
-help:They swim well and are naturally resistant to mental collapse. Despite their
-help: bulk, they can move quietly - sometimes.|
+help:They swim well and are naturally resistant to mental collapse.
+help: They don't like too much light though. Despite their bulk, they can move
+help: quietly - sometimes.|
 help: |
 help:They can restore a bit of mana while resting actively ('y').
 
 race:Troll
 help:Trolls - huge pieces of walking rock. Their skin is hard to pierce, even with
 help: a sharp blade. They are slow, though. Don't fear poison (they eat literally
-help: everything), and are resistant to magical shards. Regenerate VERY fast.
+help: everything) - and later on, resistant to cold and magical shards..
+help: Regenerate VERY fast. Don't know fear.
 help: Very healthy. Very hungry. Not too bright, so they don't get level feelings...
 help: There are plenty of trolls in the Middle-earth; they often work as bodyguards,
 help: protecting caravans.
@@ -385,7 +388,7 @@ help:Huge orc hordes settled in the southern Banlands. They try to get their own
 help: piece of fertile lands to live peacefully, but Empire of Strength won't make
 help: it happen.|
 help: |
-help:They are resistant to darkness and poison, and tough enough to take a hit.
+help:They are resistant to darkness, hate light and tough enough to take a hit.
 help: At higher levels, they move faster and a bit quieter than expected.
 help: They can sense other orcs from afar.
 help: Traps, magic, devices - not their strong suit. Thinking in general isn't.
@@ -461,16 +464,31 @@ help:Vampires don't regenerate or eat normal food - they restore their strength
 help: by drinking the blood of slain humanoids. As they grow, they gain resistance
 help: to poison, nether, darkness and even time itself. They don't feel fear,
 help: have perfect infravision and can read minds...
-help: As night creatures, they don't like light and feel bad during daylight hours;
-help: but still they can tolerate daylight, though they become weakened.
 help: They can take the form of vampiric mist to pass most obstacles, and can also
 help: polymorph into bats. They fear open water and avoid it unless flying.
 help: They can fly ('y') by spending some energy; it helps to pass trees and water.
 help: They can see in the darkness well, while using light sources actually can
 help: reduce radius of their vision. Their innate vision grows when they become
-help: more mature.|
+help: more mature. They are bad at digging - it's beneath them.|
 help: |
-help:They are bad at digging - it's beneath them.
+help:As night creatures, they don't take well to daylight. It makes their skin
+help: itch, their senses dull. Leave them too long under the sun, and they start
+help: to steam - little curls of smoke rising off their backs like wet firewood.
+help: Hurts like hell, but doesn't kill. Just makes them meaner. Even a plain
+help: cloak helps, as long as it keeps the sun off. But gear with proper light
+help: resistance - that's a different story. With the right stuff, they might
+help: even pass for something close to comfortable.|
+help: |
+help:ATTENTION!
+help: When you first awaken, you don't remember how you got to the tavern.
+help: Something feels wrong. Light stings. Sounds feel too sharp. You hate it.
+help: A pale face in the mirror gives you no reflection. You've been bitten.
+help: The tavern keeper outside sells cloaks - thick and dark.
+help: It might be a good idea to cover up before you step outside. Smoking
+help: vampires attract attention.|
+help:|
+help:When you buy ('p') a cloak - wear it ('w'). It protects you from sunlight.
+help: It's better not to take it off. Better cloaks give better protection.
 
 race:Maiar
 help:Maiar - descendants of ancient powers. Not much is known about them, except
@@ -559,9 +577,9 @@ help: As they grow stronger, they gain resistance to both dark and light.
 help: Nephalem can sense demons and are especially deadly against them in combat.
 help: Their demonic nature makes them constantly hungry and hard to satisfy.|
 help: |
-help:They can produce glyph ('y') by spending some energy. Glyph prevents summoning
-help: and enemies have to destroy it before they can attack you. But putting glyph
-help: requires spending a lot of blood, leaving nephalem almost dead.
+help:Can perform a ritual by spoiling almost all their blood to place
+help: a glyph ('y') that prevents summoning and must be destroyed before
+help: enemies can attack.
 
 race:Gargoyle
 help:Gargoyles are stone creatures which sometimes appear after magic storms, when
@@ -624,7 +642,7 @@ help:Golems can also refill by consuming (with '_') oily things like
 help: Sprig of Athelas, Petty-dwarf roots and especially Slime Mold.
 help: Some mushrooms help too: Stoneskin a bit, Shadows quite a bit.|
 help: |
-help:Below 5% satiation (10% on Ironman), escalation form initiates.
+help:Below 5% satiation (10% on Zeitnot), escalation form initiates.
 help: Golem begins extracting energy from terrain while digging.
 
 race:Pixie
@@ -710,15 +728,21 @@ race:Frostmen
 help:Ancient beings of cold and silence, who still dwell in the North.. They are
 help: descendants of the first men of ice, who once raised armies of undead.
 help: Now they call themselves 'Norse': magical northmen barbarians. They
-help: specialize in hunting snow trolls, so they know all their weaknesses.
-help: Their skin is magically enhanced and protected from frost, but it makes
-help: them vulnerable to heat.|
-help: |
+help: specialize in hunting snow trolls, so they know all their weaknesses.|
+help:|
+help:Their skin is magically enhanced and protected from frost. However, it makes
+help: them vulnerable to heat up to level 35. Beyond that, they are no longer
+help: vulnerable to heat, but can't gain immunity. Even if they equip an item
+help: with fire immunity, they get double resistance instead.
+help: At level 50, they can finally gain immunity - but only in half the cases.
+help: Also their intuition is dulled, and they can't feel which level is
+help: dangerous and which one isn't.|
+help:|
 help:Their melee combat is brutal, with strength enhanced by icy rage, but they
 help: are bad at using magical devices, searching, disarming traps, and resisting
 help: magic. All other races fear them. They lack intuition, which helps most
-help: living creatures sense danger. They are weak in extrasensory perception,
-help: but their connection to the dead allows them to detect undead minds.
+help: living creatures sense danger. Their connection to the dead allows them
+help: to detect undead minds.
 help: They can resurrect the dead ('y') by spending some energy.
 
 race:Centaur
@@ -768,13 +792,15 @@ help: Djinn can literally perform wonders. But such magic does not always bring
 help: good consequences as they don't have full control over their wishes.|
 help: |
 help:Djinn are weightless and can float above ground without touching it.
-help: Even young Djinn have time and poison resistance. As they mature, they
-help: gain resistance to all basic elements.
-help: Djinn are extremely curious and automatically identify magical items.
-help: Djinn never feel fear or danger, which can be both a gift and a curse.
-help: They are naturally stealthy and can see invisible creatures.
-help: Their magic interferes with magical devices making them hiccup a little.|
-help: |
+help: Even young Djinn have poison and air resistance. As they mature, they
+help: gain resistance to the time itself.
+help: Ancient Djinn are extremely curious and automatically identify magical items.
+help: They can see invisible creatures.
+help: Their magic interferes with magical devices making them hiccup a little.
+help: As they grow older, they become increasingly ethereal, which takes a toll
+help: on their physical form. But everything else swells like it's on magic yeast.
+help: Also they don't like digging. |
+help:|
 help:They can create wonders ('y') by spending some energy.
 
 race:Harpy
@@ -782,11 +808,10 @@ help:Born from ancient storms and cursed winds, harpies haunt high cliffs and
 help: forgotten ruins. They look like winged humanoids and have a nasty temper.|
 help: |
 help:Harpies are feathered and light, able to glide and fall without injury.
-help: Once they reach maturity, they become very fast.
+help: Once they reach maturity, they become very fast and quite stealthy.
 help: They see well in the dark and have a natural affinity for ambush.
 help: Though not strong, their agility makes them deadly in quick attacks.
-help: Harpies are immune to blindness and instinctively know which mushrooms
-help: are safe to eat. They are also very good at searching.
+help: Harpies are immune to blindness and very good at searching.
 help: They can remove slowing effects ('y') by spending some energy.
 
 race:Minotaur
@@ -921,15 +946,15 @@ help: looking for trouble (or making it).
 help: They are weak, but pretty fast and stealthy. They do not fear fire, but
 help: don't like frost. In time they can become immune to fire completely.
 help: Imps got high magic resistance. They have high mana pool which decreases
-help: as they level up. They regenerate mana slowly as they need time to prepare
-help: for new mischief. Not wise, but smart enough to cause trouble (or at least
-help: think so). Hardly anyone likes them - they’re just too annoying.|
+help: as they level up. Not wise, but smart enough to cause trouble (or at least
+help: think so). Hardly anyone likes them - they're just too annoying.|
 help: |
 help:Sometimes they teleport around, just for fun... In time you will be able
 help: to 'tame' them, but at the start they will mess around, dragging you into
 help: unpredictable adventures.|
 help: |
-help:At level 50 imps can enter 'Stealth Mode' - to do so use [shift+s].|
+help:At level 50 imps can enter 'Stealth Mode' - to do so use [shift+s].
+help: But it makes them regenerate mana more slowly.|
 help: |
 help:They can teleport over short distances at will ('y') by spending some energy.
 
@@ -950,7 +975,10 @@ help:The living fear them and hardly understand their nature.|
 help: |
 help:They can see in the darkness well, while using light sources can actually
 help: reduce the radius of their vision. Their innate vision grows when they
-help: become more mature.|
+help: become more mature. Downside: their extrasensory range is reduced.|
+help: |
+help:They are vulnerable to light magic. They also can't gain full immunity
+help: to fire - it only works in half the cases.|
 help: |
 help:They cannot recall between town and dungeon.|
 help: |
@@ -1011,5 +1039,28 @@ help: so oozes get nourishment from every enemy they kill.|
 help: |
 help:Oozes can duplicate themselves ('y' key) making their minor copies which can
 help: attack and distract enemies. They can pass doors by crawling under them.
+
+race:Homunculus
+help:They were created - not born. Fleshy beings, assembled from strange
+help: substances and bound together by the will of their makers. In alchemical
+help: laboratories hidden from the eyes of ordinary folk, Homunculi are born in
+help: bubbling vats. Their creators hope to grow perfect servants: capable of
+help: magic, free from hunger, and never tired... But, as often happens, the
+help: result escapes control.|
+help: |
+help:Homi are soft, naive, and surprisingly durable. While they lack raw
+help: physical strength, their bodies are dense, stable, and resistant to stress.
+help: Their minds are sharp, with a natural attunement to magic and logic.
+help: Yet the physical world remains a challenge: their movements are awkward,
+help: and their spatial perception is flawed. They can't move diagonally and
+help: struggle in tight formations - but in return, they possess strange talents
+help: and magical resilience.|
+help: |
+help:Homi don't need food, but they consume magic, which they extract from
+help: magical devices - staves and wands. Use '_' to break a device and consume
+help: its magic (don't do it while standing on a magic fountain - it interferes).|
+help: |
+help:They can teleport over short distances at will ('y') by spending some energy.|
+
 
 # leave empty line for EOF

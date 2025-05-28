@@ -7,10 +7,14 @@
 # symbol : town symbol (for wilderness minimap)
 
 # Starting town should ALWAYS be the first entry in the list.
-# Base town should ALWAYS be the second entry in the list.
+# Base town should ALWAYS be the second entry in the list (hardcoded wilderness.c)
+# (same to other fixed towns)
 
 
 ############### Tiled got INVERTED _Y_ AXIS!!!
+
+# player can't recall to loc which wasn't previously explored!
+# valid_inscription() -> wild_is_explored()
 
 
 name:Hunter's Valley
@@ -21,15 +25,22 @@ max-townies:40
 symbol:newbie star
 
 name:Carn Dum
-# Base town for Brave dungeon (no-recall + force_descend birth option)
+# #1 Base town for Ironman dungeon (no-recall + force_descend birth option)
 short:Carn
 wpos:0:-6
 max-townies:0
 
 name:The Gondolin
-# Base town for Ironman (no-recall + force_descend + timelimit)
+# #2 Base town for Zeitnot dungeon (timelimit + no-recall + force_descend)
 short:Gondolin
 wpos:0:6
+max-townies:0
+
+name:The Deeptown
+# #3 Base town for Deeptown dungeon (small loc single dungeon)
+short:Deeptown
+# (to the west from Utumno)
+wpos:-6:0
 max-townies:0
 
 ############################### 0
@@ -285,7 +296,7 @@ max-townies:20
 #name:Bree
 #wpos:1:0
 
-# Starting town for non-ironman level 1 characters
+# Starting town for non-zeitnot level 1 characters
 # name:Hobbiton
 # wpos:-21:20
 
