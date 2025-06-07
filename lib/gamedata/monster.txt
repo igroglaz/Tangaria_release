@@ -2653,7 +2653,7 @@ desc: jutting jaw that shows off her iron teeth.
 desc: She is skinny, like a skeleton, with a bony leg.
 desc: She knows how to turn from old into young in a blink of an eye.
 desc: She likes her ssssnakes.
-locations:The Mountain Gorge
+locations:The Mountain Gorge|Angmar|The Thangorodrim|The Underdeep
 
 name:Vasilisa the Beautiful
 base:humanoid
@@ -4609,7 +4609,7 @@ friends:50:4d4:snaga:servant
 friends:80:2d7:warg:servant
 friends:100:5d4:hill orc:servant
 desc:A new leader of a band of raiding orcs.
-locations:The Orc Cave
+locations:The Orc Cave|Angmar|The Thangorodrim|The Underdeep
 
 name:Grishnukh, the Hill Orc
 base:orc
@@ -6333,7 +6333,7 @@ innate-freq:33
 spells:BLINK | SHOT | TRAPS | DARKNESS
 desc:Beautiful tiny girls with huge... eyes.
 desc:She winks at you.
-locations:The Sewers
+locations:The Sewers|Angmar|The Thangorodrim|The Underdeep
 
 name:wererat
 base:rodent
@@ -7784,6 +7784,36 @@ desc:A massive rat. He is the leader of the pack.
 
 ### Dungeon level 19 ###
 
+name:Kikimora
+base:person
+color:s
+speed:120
+hit-points:600
+light:-2
+hearing:20
+armor-class:60
+sleepiness:10
+depth:19
+rarity:1
+weight:0
+experience:750
+blow:CRAWL:POISON:3d4
+blow:SWALLOW:EAT_FOOD:3d4
+blow:TOUCH:ACID:3d5
+blow:HIT:HURT:3d5
+flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
+flags:ONLY_ITEM | DROP_3 | DROP_GOOD | PWMANG_FIXED
+flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | FORCE_DEPTH | LEVITATE
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
+drop:food:Stolen mushroom:100:7:9
+spell-freq:5
+spells:BLIND | CONF | SCARE | DARKNESS | WOUND
+friends-base:100:1d5:dragon worm
+friends-base:75:1d5:dragon worm
+friends-base:50:1d5:dragon worm
+desc: An old hag living in the swamps.. She likes to eat humans...
+locations:Fetid Swamps|Angmar|The Thangorodrim|The Underdeep
+
 name:Shagrat, the Orc Captain
 base:orc
 color:g
@@ -8680,36 +8710,6 @@ desc: a mammal. And it is huge!
 
 ### Dungeon level 21 ###
 
-name:Kikimora
-base:person
-color:s
-speed:120
-hit-points:600
-light:-2
-hearing:20
-armor-class:60
-sleepiness:10
-depth:20
-rarity:1
-weight:0
-experience:750
-blow:CRAWL:POISON:3d4
-blow:SWALLOW:EAT_FOOD:3d4
-blow:TOUCH:ACID:3d5
-blow:HIT:HURT:3d5
-flags:EVIL | WEIRD_MIND | UNIQUE | FEMALE | SMART | PWMANG_BASE
-flags:ONLY_ITEM | DROP_3 | DROP_GOOD | PWMANG_FIXED
-flags:TAKE_ITEM | OPEN_DOOR | BASH_DOOR | FORCE_DEPTH | LEVITATE
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_POIS
-drop:food:Stolen mushroom:100:7:9
-spell-freq:5
-spells:BLIND | CONF | SCARE | DARKNESS | WOUND
-friends-base:100:1d5:dragon worm
-friends-base:75:1d5:dragon worm
-friends-base:50:1d5:dragon worm
-desc: An old hag living in the swamps.. She likes to eat humans...
-locations:Fetid Swamps
-
 name:Lugdush, the Uruk
 base:orc
 color:b
@@ -9257,7 +9257,7 @@ friends:100:1d1:Bolg, Son of Azog
 desc:He is also known as the King of Khazad-dum,
 desc: the King of the Uruk-Hai and the Enemy of the Dwarves.
 desc: His ego is renowned to be bigger than his head.
-locations:The Orc Mountains
+locations:The Orc Mountains|Angmar|The Thangorodrim|The Underdeep
 
 name:outlaw
 base:person
@@ -10169,7 +10169,7 @@ desc: trespassers in his territory. "...a huge willow-tree, old and hoary.
 desc: Enormous it looked, its sprawling branches going up like racing arms with
 desc: many long-fingered hands, its knotted and twisted trunk gaping in wide
 desc: fissures that creaked faintly as the boughs moved."
-locations:The Old Forest
+locations:The Old Forest|Angmar|The Thangorodrim|The Underdeep
 
 name:Tom Bombadil
 base:person
@@ -10594,7 +10594,7 @@ spells:DARKNESS | HOLD | SCARE
 desc:They say His death is in the needle inside an egg, that inside a duck,
 desc: that inside a hare, that nests in a hollow log, that floats in pond,
 desc: found on a far island..
-locations:Abandoned Manor
+locations:Abandoned Manor|Angmar|The Thangorodrim|The Underdeep
 
 name:Mim, Betrayer of Turin
 base:humanoid
@@ -12315,7 +12315,7 @@ friends:100:1d1:Tom the Stone Troll
 friends:100:1d1:Bill the Stone Troll
 desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
 desc: Bill and Tom.
-locations:Ettenmoors
+locations:Ettenmoors|Angmar|The Thangorodrim|The Underdeep
 
 name:Tom the Stone Troll
 base:troll
@@ -12346,7 +12346,7 @@ friends:100:1d1:Bert the Stone Troll
 friends:100:1d1:Bill the Stone Troll
 desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
 desc: Bert and Bill.
-locations:Ettenmoors
+locations:Ettenmoors|Angmar|The Thangorodrim|The Underdeep
 
 name:Bill the Stone Troll
 base:troll
@@ -12378,7 +12378,7 @@ friends:100:1d1:Tom the Stone Troll
 desc:William Huggins, also known as Bill, is the leader of the troll-band.
 desc:Big, brawny, powerful and with a taste for hobbit. He has friends called
 desc: Bert and Tom.
-locations:Ettenmoors
+locations:Ettenmoors|Angmar|The Thangorodrim|The Underdeep
 
 name:mountain ogre
 base:ogre
@@ -12400,39 +12400,6 @@ flags:PWMANG_BASE
 flags:DROP_40 | DROP_CORPSE | DROP_SKELETON
 friends:100:2d7:Same
 desc:The largest breed of ogre, he is awesomely strong and awesomely ugly.
-
-name:The Sandworm Queen
-base:sandworm
-color:o
-speed:120
-hit-points:600
-hearing:10
-armor-class:48
-sleepiness:80
-depth:30
-rarity:1
-weight:0
-experience:5000
-blow:CLAW:ACID:5d4
-blow:CLAW:POISON:5d4
-blow:BITE:FIRE:5d4
-blow:BITE:ELEC:5d4
-flags:ANIMAL | UNIQUE | FEMALE | POWERFUL | PWMANG_BASE | PWMANG_FIXED
-flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM | NEUTRAL
-flags:OPEN_DOOR | BASH_DOOR
-flags:NO_CONF | RES_LIGHT
-flags:FORCE_DEPTH
-drop:mushroom:Terror:100:7:9
-spell-freq:2
-innate-freq:50
-spells:BR_POIS
-spells:S_KIN
-friends-base:100:1d5:sandworm:servant
-friends:5:1d1:adult sandworm:servant
-friends-base:75:1d5:dragon worm:servant
-friends-base:50:1d5:dragon worm:servant
-desc:Queen and Mother of the sandworms, fear her and her prolific children.
-locations:The Sandworm Lair
 
 name:psychedelic ball
 base:ball
@@ -12703,6 +12670,39 @@ desc:It has a form that legends are made of. Its still-tender scales are
 desc: shimmering blue.
 
 ### Dungeon level 32 ###
+
+name:The Sandworm Queen
+base:sandworm
+color:o
+speed:120
+hit-points:600
+hearing:10
+armor-class:48
+sleepiness:80
+depth:32
+rarity:1
+weight:0
+experience:5000
+blow:CLAW:ACID:5d4
+blow:CLAW:POISON:5d4
+blow:BITE:FIRE:5d4
+blow:BITE:ELEC:5d4
+flags:ANIMAL | UNIQUE | FEMALE | POWERFUL | PWMANG_BASE | PWMANG_FIXED
+flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM | NEUTRAL
+flags:OPEN_DOOR | BASH_DOOR
+flags:NO_CONF | RES_LIGHT
+flags:FORCE_DEPTH
+drop:mushroom:Terror:100:7:9
+spell-freq:2
+innate-freq:50
+spells:BR_POIS
+spells:S_KIN
+friends-base:100:1d5:sandworm:servant
+friends:5:1d1:adult sandworm:servant
+friends-base:75:1d5:dragon worm:servant
+friends-base:50:1d5:dragon worm:servant
+desc:Queen and Mother of the sandworms, fear her and her prolific children.
+locations:The Sandworm Lair|Angmar|The Thangorodrim|The Underdeep
 
 #V
 name:serpent of the brownlands
@@ -13560,7 +13560,7 @@ friends:100:1d1:Ulwarth, Son of Ulfang
 desc:A short and swarthy Easterling dressed in black. He and his three sons once
 desc: openly swore allegiance to the High Elves, but were secretly in the pay of
 desc: Morgoth.
-locations:The Land Of Rhun
+locations:The Land Of Rhun|Angmar|The Thangorodrim|The Underdeep
 
 name:lich
 plural:liches
@@ -14342,7 +14342,7 @@ light:-2
 hearing:30
 armor-class:60
 sleepiness:0
-depth:35
+depth:36
 rarity:1
 weight:0
 experience:10000
@@ -14361,7 +14361,7 @@ desc:He has lived in the Barrow-Downs for centuries after his first death at the
 desc: hands of the Witch-King of Angmar. A once loyal captain under the
 desc: Witch-King's command, he now awaits a time when his undead forces shall
 desc: rise again to avenge their deaths.
-locations:The Barrow-downs
+locations:The Barrow-downs|Angmar|The Thangorodrim|The Underdeep
 
 name:incubus
 plural:incubi
@@ -16002,6 +16002,32 @@ desc: spined legs.
 
 ### Dungeon level 39 ###
 
+name:The Minotaur of the Labyrinth
+base:hybrid
+color:W
+speed:130
+hit-points:1500
+hearing:13
+smell:20
+armor-class:30
+sleepiness:10
+depth:39
+rarity:1
+weight:0
+experience:13000
+blow:BUTT:HURT:4d6
+blow:BUTT:HURT:4d6
+blow:BUTT:HURT:3d6
+blow:BUTT:HURT:3d6
+flags:EVIL | UNIQUE | PWMANG_BASE | PWMANG_FIXED
+flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
+flags:BASH_DOOR | HYBRID
+flags:RES_LIGHT
+flags:FORCE_DEPTH
+drop:food:Strip of Beef Jerky:100:1:1
+desc:It is a cross between a human and a bull.
+locations:The Maze|Angmar|The Thangorodrim|The Underdeep
+
 name:Cherub
 base:angel
 color:G
@@ -16930,32 +16956,6 @@ friends:30:1d1:patriarch
 desc:A mindcrafter of the highest order. Powerful and evil, and a dangerous
 desc: enemy: a master of mind over matter, of his own mind, and of the minds of
 desc: others, who slavishly follow him into battle when he calls them.
-
-name:The Minotaur of the Labyrinth
-base:hybrid
-color:W
-speed:130
-hit-points:1500
-hearing:13
-smell:20
-armor-class:30
-sleepiness:10
-depth:40
-rarity:1
-weight:0
-experience:13000
-blow:BUTT:HURT:4d6
-blow:BUTT:HURT:4d6
-blow:BUTT:HURT:3d6
-blow:BUTT:HURT:3d6
-flags:EVIL | UNIQUE | PWMANG_BASE | PWMANG_FIXED
-flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
-flags:BASH_DOOR | HYBRID
-flags:RES_LIGHT
-flags:FORCE_DEPTH
-drop:food:Strip of Beef Jerky:100:1:1
-desc:It is a cross between a human and a bull.
-locations:The Maze
 
 name:Emperor Mimic
 base:random mimic
@@ -18282,7 +18282,7 @@ hearing:0
 #armor-class:99
 armor-class:150
 sleepiness:20
-depth:45
+depth:42
 rarity:1
 weight:0
 experience:13000
@@ -18310,7 +18310,7 @@ desc: the warmth of life.
 desc: It hunts not just flesh, but minds - and waits until thoughts go quiet.
 drop:sword:'Stormbringer':100:1:1
 mimic:sword:Blade of Chaos
-locations:The Drowned Halls
+locations:The Drowned Halls|Angmar|The Thangorodrim|The Underdeep
 
 name:Mutant's leader
 base:person
@@ -18692,7 +18692,7 @@ hit-points:3500
 hearing:30
 armor-class:100
 sleepiness:80
-depth:45
+depth:44
 rarity:1
 weight:0
 experience:17000
@@ -18710,7 +18710,7 @@ spells:BO_WATE | BO_ICE
 spells:HOLD | TELE_TO
 desc:A vile creature which seems to consist mostly of tentacles, it seeks to
 desc: drag people to their doom in the water. Few have ever escaped its grasp.
-locations:The Small Watery Cave
+locations:The Small Watery Cave|Angmar|The Thangorodrim|The Underdeep
 
 name:lesser black reaver
 base:lich
@@ -18746,7 +18746,7 @@ hit-points:4500
 hearing:20
 armor-class:120
 sleepiness:40
-depth:45
+depth:46
 rarity:1
 weight:0
 experience:22500
@@ -18768,7 +18768,7 @@ friends-base:75:1d5:mineral
 friends-base:50:1d5:mineral
 desc:Deep in the heart of the earth, even the rock itself is sentient and has
 desc: learned to despise intruders.
-locations:The Heart of the Earth
+locations:The Heart of the Earth|Angmar|The Thangorodrim|The Underdeep
 
 name:master unbeliever
 base:person
@@ -19470,7 +19470,7 @@ friends:100:2d2:cave troll:servant
 desc:A huge Balrog surrounded by raging pillars of fire, this is indeed a
 desc: terrible opponent. Wielding a great whip of fire and a blazing sword, his
 desc: fury blisters your skin and melts your flesh!
-locations:The Mines of Moria
+locations:The Mines of Moria|Angmar|The Thangorodrim|The Underdeep
 
 name:The White Balrog
 base:major demon
@@ -19481,7 +19481,7 @@ light:2
 hearing:20
 armor-class:144
 sleepiness:40
-depth:50
+depth:48
 rarity:1
 weight:0
 experience:30000
@@ -19502,7 +19502,7 @@ spells:BO_COLD
 spells:S_UNDEAD | S_DEMON
 desc:It is a massive humanoid demon wreathed in frost, wielding a cruel looking
 desc: pike in its hands.
-locations:The Helcaraxe
+locations:The Helcaraxe|Angmar|The Thangorodrim|The Underdeep
 
 name:13-headed hydra
 base:hydra
@@ -19936,7 +19936,7 @@ desc: explains their destruction. A creation of finest glass, the body of this
 desc: creature bends and amplifies light in a way that makes you unsure of its
 desc: position. You feel somewhat dizzy as the radiant light reflects off the
 desc: walls, the ceiling and your gear.
-locations:The Illusory Castle
+locations:The Illusory Castle|Angmar|The Thangorodrim|The Underdeep
 
 ### Dungeon level 53 ###
 
@@ -20491,7 +20491,7 @@ desc:Shelob is an enormous bloated spider, the last daughter of Ungoliant the
 desc: Unlight. Her poison is legendary, as is her ego. She normally guards the
 desc: pass through Cirith Ungol, but occasionally goes out foraging for food to
 desc: feed her voracious appetite.
-locations:Cirith Ungol
+locations:Cirith Ungol|Angmar|The Thangorodrim|The Underdeep
 
 #was name:Istar , removed in V
 name:Archon
@@ -20590,7 +20590,7 @@ light:2
 hearing:30
 armor-class:54
 sleepiness:255
-depth:55
+depth:57
 rarity:1
 weight:0
 experience:37000
@@ -20610,7 +20610,7 @@ spells:S_KIN | S_MONSTERS
 desc:Last and proudest king of ancient Numenor. Corrupted by power and avarice,
 desc: he fell victim to Sauron's wiles, tried to fight the Valar themselves, and
 desc: condemned Numenor to oblivion.
-locations:Numenor
+locations:Numenor|Angmar|The Thangorodrim|The Underdeep
 
 name:barbazu
 plural:barbazu
@@ -21930,7 +21930,7 @@ light:2
 hearing:40
 armor-class:216
 sleepiness:10
-depth:64
+depth:63
 rarity:1
 weight:0
 experience:45000
@@ -21956,7 +21956,7 @@ desc: gnarled walking stick. Sent to Middle-Earth by Yavanna, Radagast
 desc: has studied the plants and animals of Middle-Earth for many years
 desc: and considers himself their defender. His humble robes and demeanor
 desc: belie his inner strength.
-locations:Mirkwood
+locations:Mirkwood|Angmar|The Thangorodrim|The Underdeep
 
 name:chaos hound
 base:zephyr hound
@@ -22107,7 +22107,7 @@ desc:The Mouth of Sauron is a mighty spell caster. So old that even he cannot
 desc: remember his own name, his power and evil are undeniable. He believes
 desc: unshakably that he is unbeatable and laughs as he weaves his awesome
 desc: spells.
-locations:Mordor
+locations:Mordor|Angmar|The Thangorodrim|The Underdeep
 
 name:osyluth
 base:major demon
@@ -23316,7 +23316,7 @@ spells:TELE_TO | SCARE | BR_TIME | BR_FIRE
 spells:BO_MANA | S_KIN
 desc:As the Thunderlords came from afar to help the elves, Trone and his rebel
 desc: wing came to defend Morgoth! He is an evil and powerful Thunderlord.
-locations:The Sacred Land Of Mountains
+locations:The Sacred Land Of Mountains|Angmar|The Thangorodrim|The Underdeep
 
 name:mandragora
 base:mushroom
@@ -23737,7 +23737,7 @@ light:2
 hearing:30
 armor-class:210
 sleepiness:20
-depth:75
+depth:74
 rarity:1
 weight:0
 experience:53000
@@ -23761,7 +23761,7 @@ desc:Glaurung is the father of all dragons, and was for a long time the most
 desc: powerful. Though this is no longer so, he still has full command over his
 desc: brood and can command them to appear whenever he so wishes. He is the
 desc: definition of dragonfire.
-locations:Erebor
+locations:Erebor|Angmar|The Thangorodrim|The Underdeep
 
 name:The Necromancer of Dol Guldur
 base:person
@@ -23771,7 +23771,7 @@ hit-points:8200
 hearing:60
 armor-class:120
 sleepiness:10
-depth:75
+depth:76
 rarity:1
 weight:0
 experience:57000
@@ -23795,7 +23795,7 @@ desc:The dark master of the terrible fortress of southern Mirkwood. It is
 desc: rumoured that this is in fact none other than Sauron in disguise: although
 desc: if this is so, he has yet to reveal his full power - and perhaps will not
 desc: do so while his deception lasts, in the hope of keeping it going.
-locations:Dol Guldur
+locations:Dol Guldur|Angmar|The Thangorodrim|The Underdeep
 
 ### Dungeon level 76 ###
 
@@ -23919,7 +23919,7 @@ hit-points:5000
 hearing:20
 armor-class:127
 sleepiness:10
-depth:77
+depth:78
 rarity:1
 weight:0
 experience:65000
@@ -23946,7 +23946,7 @@ friends:40:1d2:master lich:servant
 friends:10:1d2:archlich:servant
 desc:A stench of corruption and decay surrounds this sorcerer, who has clearly
 desc: risen from the dead to continue his foul plots and schemes.
-locations:The Paths of the Dead
+locations:The Paths of the Dead|Angmar|The Thangorodrim|The Underdeep
 
 name:pit fiend
 base:major demon
@@ -24706,7 +24706,7 @@ desc:The son of Eol the Dark Elf, Maeglin is every bit as evil as his father and
 desc: more. His greed for gold led him to betray the Hidden Kingdom of Gondolin
 desc: to Morgoth's forces. He is a mighty warrior himself, and some of Morgoth's
 desc: greatest servants answer to his call.
-locations:Fallen Gondolin
+locations:Fallen Gondolin|Angmar|The Thangorodrim|The Underdeep
 
 name:ancient storm wyrm
 base:ancient dragon
@@ -25571,7 +25571,7 @@ spells:BR_FIRE | BR_PLAS
 spells:S_HI_DEMON | S_HI_UNDEAD
 desc:A huge Balrog of devastating power, he guards the entrance to the Chambers
 desc: of Fire at the top of Mount Doom.
-locations:Mount Doom
+locations:Mount Doom|Angmar|The Thangorodrim|The Underdeep
 
 ### Dungeon level 99 ###
 
@@ -26009,7 +26009,7 @@ hit-points:25000
 hearing:200
 armor-class:204
 sleepiness:0
-depth:124
+depth:123
 rarity:1
 weight:0
 experience:90000
@@ -26033,7 +26033,7 @@ desc: contests of strength. He doesn't need a weapon, and could move so fast
 desc: that doesn't need steed either.
 desc: He is the strongest of all the Valar.
 desc: He is coming for you.
-locations:The Straight Road
+locations:The Straight Road|Angmar|The Thangorodrim|The Underdeep
 
 ### Valinor ###
 
@@ -26180,7 +26180,7 @@ light:2
 hearing:155
 armor-class:210
 sleepiness:0
-depth:124
+depth:125
 rarity:1
 weight:0
 experience:95000
@@ -26204,7 +26204,7 @@ spells:BO_ICE | BO_MANA | BO_PLAS
 spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS
 desc:Wife of Manwe, Varda is the most beautiful of all the Valar...
 desc: She is also known as Elbereth - "Queen of the Stars".
-locations:Valinor
+locations:Valinor|Angmar|The Thangorodrim|The Underdeep
 
 name:Manwe, King of the Valar
 base:nether
@@ -26241,7 +26241,7 @@ spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_UNIQUE | S_ABOMINATION
 desc:Husband of Varda, brother of Melkor and the leader of the Ainur.
 desc: He was also known as Sulimo, commander of winds and air.
 desc: He is the one who will crush you to The Void!
-locations:Valinor
+locations:Valinor|Angmar|The Thangorodrim|The Underdeep
 
 ### Utumno, Portal to the Void ###
 
@@ -27065,7 +27065,7 @@ desc: forever. However here in the Void, his spirit gained much power
 desc: for he is closer to the Flame Imperishable. He is coming to you in pure
 desc: madness, which makes him even more dangerous. You are on the verge
 desc: of dying!
-locations:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void|Angmar|The Thangorodrim|The Underdeep
 
 name:Eru Iluvatar
 base:ainu
@@ -27102,7 +27102,7 @@ spells:ANIM_DEAD | S_SPIRIT
 desc:He is the master of this dimension. He is God. He control it entirely.
 desc: Will you dare to raise your head and to look directly into his eyes?
 desc: What will you see there?..
-locations:Utumno, Portal to the Void
+locations:Utumno, Portal to the Void|Angmar|The Thangorodrim|The Underdeep
 
 
 
