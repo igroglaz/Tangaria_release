@@ -648,7 +648,7 @@ help:They receive less speed penalty when overencumbered.
 help: They don't need to breathe.|
 help: |
 help:Golems are hard to kill - they take 10% less damage.
-help: They can create walls ('y' key) by spending some energy.
+help: They can create walls ('y' key) by spending some energy after level 35.
 help: Golems don't need food. But they consume fresh oil.
 help: Oil can be found in flasks or lanterns. Use '_' to drink from them while
 help: not standing on a fountain. Magic lanterns refill better.|
@@ -823,6 +823,10 @@ help: Also they don't like digging. |
 help:|
 help:They are unable to drink potions.|
 help:|
+help:They don't need food, but they consume magic, which they extract from
+help: magical devices - staves and wands. Use '_' to break a device and consume
+help: its magic (don't do it while standing on a magic fountain - it interferes).|
+help: |
 help:They can create wonders ('y') by spending some energy.
 
 race:Harpy
@@ -992,7 +996,7 @@ help:Wraiths are bad at using devices, traps, searching and fighting.
 help: Their strength is low and never improves, but other properties might
 help: improve in time. They resist poison, dark, nether, time, and fear.
 help: They are undead and can sense other undead beings.
-help: They digest food very slowly and hold their life force firmly.
+help: They hold their life force firmly.
 help: They dodge melee attacks often but struggle to equip items properly.|
 help: |
 help:The living fear them and hardly understand their nature.|
@@ -1004,7 +1008,15 @@ help: |
 help:They are vulnerable to light magic. They also can't gain full immunity
 help: to fire - it only works in half the cases.|
 help: |
+help:Nutrition: Their relationship with food got complicated ever since they
+help: stopped breathing. Instead, they just rest ('R'). They can't be fully
+help: satisfied and remain almost always hungry. As they grow in power, they
+help: can sustain themselves for longer periods.|
+help: |
 help:They cannot recall between town and dungeon.|
+help: |
+help:From time to time, they phase through the floor - and appear on a deeper
+help: dungeon level.|
 help: |
 help:They can pass walls at will ('y') by spending some energy, but become blind
 help: while doing so.
@@ -1078,13 +1090,11 @@ help: Their minds are sharp, with a natural attunement to magic and logic.
 help: Yet the physical world remains a challenge: their movements are awkward,
 help: and their spatial perception is flawed. They can't move diagonally and
 help: struggle in tight formations - but in return, they possess strange talents
-help: and magical resilience.|
+help: and magical resilience. Also they can carry more weight than most.|
 help: |
-help:Homi don't need food, but they consume magic, which they extract from
-help: magical devices - staves and wands. Use '_' to break a device and consume
-help: its magic (don't do it while standing on a magic fountain - it interferes).|
+help:They're dreadful with magic devices, as their own magic interferes with them.|
 help: |
-help:They can teleport over short distances at will ('y') by spending some energy.|
+help:They can conjure ('y') a magic web to create a safe spot after level 35.
 
 
 # leave empty line for EOF

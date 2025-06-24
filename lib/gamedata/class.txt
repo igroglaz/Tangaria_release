@@ -253,8 +253,7 @@ value:0:CHR[-2]
 value:0:SHOTS[1d6]
 player-flags:0:FAST_SHOT
 # class brands works both on melee and ranged. races - only on melee!
-brand:5:29:POIS_2
-brand:30:50:CUT_1
+brand:5:50:POIS_2
 title:Fletcher
 title:Shooter
 title:Dead Shot
@@ -296,7 +295,7 @@ value:0:INT[-2]
 value:0:DEX[1+1d30]
 value:0:CON[0+1d30]
 value:0:CHR[-1]
-value:30:SPEED[0+1d4]
+value:15:SPEED[1+1d8]
 value:0:BLOWS[1d1]
 player-flags:0:NO_MANA | MARTIAL_ARTS | FAST_THROW
 # reduce aggro radius?
@@ -2989,6 +2988,7 @@ player-flags:0:NO_MANA
 # + make curse works rare (like save)
 # + drink from fountains mainly water
 # - can't uncurse items
+# - can't use MD (exception: tp staff with 70% fail)
 ########################
 #player-flags:0:CAN_SWIM .. make swimming movement slower.. rework it.
 #obj-flag:0:CANT_FLY
@@ -4929,14 +4929,15 @@ book-alloc:40:1 to 100
 book-desc:A standard travel guide with a few tasks.
 equip:travel guide:[Basics]:1:1:none
 
+## TODO: rework this. must be a dog. for now just limited in by lvl in code
 spell:Summon Pet:1:1:22:4:0
-cooldown:100
+cooldown:15
 effect:SUMMON:ANIMAL:0:100
 dice:1
 msg_other: summons a pet.
 desc:Attempts to summon one pet generated at the current dungeon level.
 desc: This spell has no effect when used in the town.
-desc: Cooldown 100 turns.
+desc: Cooldown 15 turns.
 
 spell:Find Doors:5:1:10:4:0
 effect:DETECT_DOORS
@@ -6557,7 +6558,8 @@ value:0:INT[5]
 value:0:CON[-2]
 value:0:CHR[-2]
 value:25:STEALTH[1]
-# restore mana when polymorph monsters
+# 1) restore mana when polymorph monsters
+# 2) on <30% HP got auto MANASHIELD
 player-flags:0:ZERO_FAIL | BEAM
 obj-flag:0:CLUMSY
 title:Witling
@@ -6575,7 +6577,7 @@ magic:1:300:2
 
 # spells hardcoded (hc) by mana cost! (to ease adding new spells)
 
-### !! Also Polymorph hardcoded by spell number (#2)!
+### !! Also Polymorph hardcoded by spell number (#3)!
 ### Careful in changing order of first 3 spells!
 
 #add 'Sometimes ray fizzles and it spell appear other forms'.
@@ -6583,7 +6585,7 @@ magic:1:300:2
 book:magic book:town:[Magic for Beginners]:19:arcane
 equip:magic book:[Magic for Beginners]:1:1:none
 
-spell:Air Fist:1:0:5:1:0
+spell:Air Fist:1:0:1:1:0
 effect:STRIKE:MISSILE:0
 dice:1d$D
 expr:D:PLAYER_LEVEL:/ 5 + 3
@@ -6592,21 +6594,20 @@ desc:Fires magic fist to the target.
 desc: Target grid must be targetable and known to the player.
 desc: Does not require mana.
 
-spell:Magic Blade:1:1:12:1:0
+spell:Magic Blade:1:1:1:1:0
 #hc 1d7 .. mana 1->6
-effect:TELEPORT
-dice:1
 effect:SHORT_BEAM:MISSILE:1
 dice:$B
 expr:B:PLAYER_LEVEL:+ 3
 msg_other: bends index finger.. Blades appear from thin air!
 desc:Strikes with a magic blade that always hits its target and does
 desc: irresistible damage.
-desc: Distance of the attack and damage depend on your level.
-desc: Each cast cause a recoil which shifts you to random direction.
+desc: At level 11 and higher, damage is greatly increased (every 7 levels).
+desc: The range of the blades increases every 10 levels, up to 5 squares.
+desc: At level 10+, each cast also consumes a small amount of extra mana.
 
 spell:Electrocute:2:3:27:2:0
-# hc 1d5; distance -> ~15; mana -> 8
+# hc 1d5; distance -> ~15; mana -> 9
 effect:SHORT_BEAM:ELEC:6
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
@@ -6620,9 +6621,12 @@ effect:RANDOM
 dice:3
 msg_other: holds out a hand... Lightning!
 desc:Summon lighting upon an enemies.
-desc: At first you summon short bolt of lightning; it become longer with levels.
+desc: At first you summon short bolt of lightning.
+desc: The length and damage of the lightning increase with the caster's level.
+desc: Range increases every 5 levels, up to ~15 squares.
+desc: At each cast, an additional portion of remaining mana is consumed.
 
-# number 2 spell.. hc for mana restore in project-mon.c
+# number 3 spell.. hc for mana restore in project-mon.c
 spell:Polymorph:3:1:20:3:0
 cooldown:5
 effect:BOLT_AWARE:MON_POLY:1
@@ -6631,9 +6635,10 @@ expr:B:PLAYER_LEVEL:+ 0
 msg_other: snaps fingers. Polymorph!
 desc:Attempts to imbue surrounding chaos energy to polymorph an enemy.
 desc: Ordering chaotic energy restores your magic power.
+desc: The amount of restored mana increases with your level.
 desc: Cooldown 5 turns.
 
-spell:Teleport:5:4:35:5:0
+spell:Teleport:5:3:1:5:0
 effect:RESTORE_MANA
 dice:2
 effect:RESTORE_MANA
@@ -6658,44 +6663,49 @@ msg_self:A line of bright yellowish fog appears.
 msg_other: claps hands together.. Bright yellowish fog appears!
 desc:Fires a beam of magic fog which lights up each square and hurts each
 desc: light-sensitive monster in its path.
+desc: The range and damage of the fog increase with your level (range up to ~20).
 desc: If you are in a room, the entire room will be lit up as well.
 desc: Cooldown 10 turns.
 
-spell:Cold Ray:10:3:30:10:0
+spell:Cold Ray:10:5:30:10:0
 # hc 1d5 .. mana -> 13
 effect:BOLT_OR_BEAM:COLD
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: fires a cold ray.
-desc:Fires a cold ray that hurts first monster in its path.
+desc:Fires a cold ray that hurts the first monster in its path.
+desc: The damage of the ray increases with your level.
+desc: Each cast consumes an additional portion of your remaining mana.
 
-spell:Stone Curse:15:10:32:15:0
+spell:Stone Curse:15:6:32:15:0
 cooldown:240
 effect:TIMED_INC_NO_RES:SCRAMBLE
 dice:7d2
-# later: replace circle of walls to stone wall
-effect:CREATE_WALLS
+effect:GRANITE
 effect:TIMED_INC_NO_RES:PARALYZED
-dice:3
+dice:6
+#don't put too much as it might be cheezed to tank when playing in party
 effect:TIMED_SET:REVIVE
-dice:3
+dice:6
 msg_other: slowly nods.. and becomes stone statue.
-desc:Turns you into a stone statue for 3 turns.
+desc:Turns you into a stone statue for 6 turns.
 desc: While petrified, you are invulnerable to all attacks.
 desc: After some time you recover from stone, but the stone rock still
 desc: stays in place protecting you.
 desc: This spell may causes internal injuries which recover after some time.
 desc: Cooldown 240 turns.
 
-spell:Flamestrike:17:8:33:20:0
+spell:Flamestrike:17:7:33:20:0
 # hc 1d5; mana -> 13
 effect:STRIKE:FIRE:0
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: strikes fire from below.
-desc:Strikes a target from below with a fire.
+desc:Strikes a target from below with fire.
+desc: The damage increases with your level.
 desc: If targeting a direction or the target is not a passable
-desc: grid in the line of sight, the player will be the target.
+desc: grid in line of sight, you will be the target instead.
+desc: Each cast consumes an additional portion of your remaining mana.
 
 spell:Magic Reflection:20:15:11:25:0
 effect:NOURISH:DEC_BY
@@ -6722,14 +6732,15 @@ desc:Grants you resistance to fire (20), cold (25), lightning (30), poison (35),
 desc: acid (40) for 20+1d20 turns. Also increase magic resistance.
 desc: Require some satiation.
 
-spell:Manablast:25:10:30:30:0
+spell:Manablast:25:9:30:30:0
 cooldown:3
 #hc dam 1d10 and rad 1-4
 effect:BLAST:MANA:0
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: explodes with power.
-desc:Expands a sphere of power that explode around you.
+desc:Expands a sphere of power that explodes around you.
+desc: The radius and damage of the blast increase with your level (radius up to 4).
 desc: Cooldown 3 turns.
 
 spell:Dimension Shift:30:17:35:40:0
@@ -6741,7 +6752,7 @@ desc:Teleports you 1 level up or 1 level down (chosen at random) and
 desc: grants you the ability to pass through non-permanent walls for a moment.
 desc: Cooldown 100 turns.
 
-spell:Acid Breath:33:10:30:50:0
+spell:Acid Breath:33:11:30:50:0
 cooldown:60
 # hc 1d4 (up to x12)
 effect:TIMED_INC_NO_RES:STUN
@@ -6750,11 +6761,12 @@ effect:BREATH:ACID:0:30
 dice:$Dd8
 expr:D:PLAYER_LEVEL:+ 0
 msg_other: breathes acid.
-desc:Breathes acid.
-desc: This spell makes you stunned for a moment.
+desc:Breathes acid in a wide cone.
+desc: The damage of the breath increases with your level (up to x12).
+desc: Casting this spell stuns you for a moment.
 desc: Cooldown 60 turns.
 
-spell:Dark Ritual:35:10:32:70:0
+spell:Dark Ritual:35:12:32:70:0
 cooldown:30
 # hc 1d5
 effect:TIMED_INC_NO_RES:BLIND_REAL
@@ -6769,15 +6781,15 @@ effect:STAR:DARK
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: exhales sharply.. dark cloud fill surroundings!
-desc:Strikes surroundings with a dark magic.
-desc: This spell causes blindness which pass almost instantly.
-desc: Detects all monsters which have a spirit in the surrounding area,
-desc: and then maps in a region around them, increasing in size with
-desc: character level.
+desc:Strikes surroundings with dark magic.
+desc: This spell causes brief no-resistable blindness.
+desc: Reveals all monsters with a spirit nearby and maps the area around them.
+desc: The mapped area grows larger with your level.
+desc: The damage of the dark magic increases with your level.
 desc: Cooldown 30 turns.
 
 spell:Energy Bolt:40:13:27:90:0
-#stun monsters, slow and burn caster, 10x dps
+#stun monsters, slow and burn caster
 effect:DAMAGE
 dice:2
 effect:BALL:PLASMA:1
@@ -6835,7 +6847,7 @@ desc:Draws a protecting pentagram and attempts to summon a daemon.
 desc: Cooldown 150 turns.
 
 spell:Armageddon:50:42:35:666:0
-# add rng variations
+# TODO: add rng variations
 effect:DRAIN_STAT:CHR
 dice:1
 effect:WIPE_AREA:NONE:3
@@ -6853,6 +6865,8 @@ desc: have resistance to blindness or dark.
 desc: Each cast of this spell brings a big reputation loss and
 desc: reduces your charisma.
 
+#TODO: effect:BLAST:STONE_WALL:0
+# spell will create huge mound of walls.. name:"Create Mountain"?
 
 ############### CLASS TEMPLATE for Trader ###############
 name:Trader
@@ -8130,6 +8144,8 @@ value:0:CHR[0]
 # can create items which are bound to player
 # if item not needed - it should be destroyed with 'k'
 # + less speed penalty due overweight
+# 30+lvl: can sharpen his weapons and projectiles (got cut_1 to melee and ranged attacks)
+brand:30:50:CUT_1
 title:Tinkerhand
 title:Greasebud
 title:Scrapwright
@@ -8172,11 +8188,10 @@ desc: You don't need additional material to create it.
 desc: Cooldown 6 turns.
 
 spell:Build Walls:10:5:44:30:0
-effect:CREATE_WALLS
+effect:SHORT_BEAM:STONE_WALL:1:1
 effect:TIMED_INC:OCCUPIED
-dice:5+1d10
-desc:For several turns you create a wall on each empty floor space that is directly
-desc: adjacent to you.
+dice:5+1d5
+desc:Raises a wall one tile away in the chosen direction.
 
 
 ############### Inquisitor ###############

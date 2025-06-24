@@ -253,7 +253,10 @@ help: surrounding area. They replenish their forces when fighting unnatural magi
 help: users and can sense invisible creatures in melee range. Their presence can
 help: cancel magic effects - when they drink from magic fountains, they often
 help: unmagic it. Their sheer will lets them resist most curses, though they
-help: can't lift them.
+help: can't lift them.|
+help: |
+help:Even though they despise magical devices, they get along with using staves
+help: of teleportation in dire times (though with quite bad fail rate).
 
 class:Hunter
 help:Hunters aren't good at fighting, but can shoot and throw faster than others,
@@ -599,6 +602,9 @@ help:Yet wielding such forces comes at a price: their body wears thin against
 help: the chaos they summon. Minds burning bright with arcane fire, they grow
 help: grumpy, subtle, and quick to anger. Some say they balance on the creeping
 help: edge of madness. |
+help: |
+help:Old wards still linger in their flesh. When their life wanes to a third,
+help: forgotten enchantments stir, weaving a shield of mana that holds back death.|
 help: |
 help:They remain clumsy with ranged weapons until they become seasoned magi.
 
