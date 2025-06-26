@@ -5,12 +5,12 @@ SetNumLockState, AlwaysOff
 ;//capslock off
 SetCapsLockState, AlwaysOff
 ;////////////////////////////////////////
-;//winkey -> F11
-LWin::F11
-;//capslock -> F10
-~Capslock::F10
-;//numlock -> ^F9
-PrintScreen::^F9
+;//winkey -> F13
+LWin::F13
+;//capslock -> F14
+~Capslock::F14
+;//numlock -> F15
+PrintScreen::F15
 
 ;// alt+f4 = ctrl + '\'
 !F4::SendInput ^\
