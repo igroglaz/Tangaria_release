@@ -499,7 +499,8 @@ spell:Identify Rune:12:7:25:8:0
 effect:IDENTIFY
 desc:Reveals an unknown rune on an object.
 
-spell:Dune Creation:13:9:40:12:0
+# later on there is 'Wall Creation' spell.. so this one is low lvl, mana free
+spell:Dune Creation:13:1:40:12:0
 cooldown:300
 effect:SAND_WALL
 desc:Raises a mound of sand beneath your feet, forming a temporary barrier.
@@ -804,12 +805,11 @@ desc: unless it is a permanent wall. Each monster caught in the beam that
 desc: is susceptible to rock remover takes 20+1d30 points of damage.
 
 spell:Sense Surroundings:9:4:35:6:0
+cooldown:120
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:11+1d24
 desc:Maps out a portion of the level around you.
-desc: Induces temporary sensory overload.
+desc: Can be used every 120 turns.
 
 spell:Lightning Strike:12:6:35:8:0
 effect:STRIKE:SOUND:3
@@ -1281,9 +1281,10 @@ desc: This prayer has no effect when used in the town.
 spell:Clairvoyance:37:50:80:150:0
 effect:LIGHT_LEVEL
 effect:NOURISH:DEC_BY
-dice:3
+dice:1
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
+desc: This prayer reduces your nourishment.
 
 spell:Holy Word:39:32:95:20:0
 effect:CURE:AFRAID
@@ -1635,15 +1636,13 @@ desc:Fires a chaos beam, arc or ball in the chosen direction, wakes everything
 desc: in the area, and attempts to frighten everything in line of sight.
 
 spell:Fume of Mordor:40:50:80:150:0
+cooldown:120
 effect:DARKEN_LEVEL:NONE:1
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:CONFUSED_REAL
-dice:5+1d13
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
+desc: Can be used every 120 turns.
 
 spell:Curse:40:50:60:180:0
 effect:DAMAGE
@@ -1883,14 +1882,11 @@ desc:Cures 2000 points of damage, cures all stunning, heals all
 desc: cut damage, neutralizes poison, and cures amnesia.
 
 spell:Clairvoyance:37:50:80:150:0
+cooldown:100
 effect:LIGHT_LEVEL
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:11+1d24
-effect:NOURISH:DEC_BY
-dice:3
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
-desc: Induces temporary sensory overload.
+desc: Cooldown 100 turns.
 
 spell:Restoration:40:80:90:250:1
 effect:RESTORE_STAT:CHR
@@ -2070,16 +2066,11 @@ desc:Shoots a radius-3 poison ball.
 book:shadow book:dungeon:[Dark Evocations]:5:shadow
 
 spell:Deep Nights:27:12:80:10:0
+cooldown:100
 effect:DARKEN_LEVEL:NONE:1
-effect:TIMED_INC_NO_RES:CONFUSED_REAL
-dice:3
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:11+1d24
 desc:Darkens, maps out, and detects all objects on the complete current
 desc: dungeon level.
-desc: Induces temporary sensory overload.
+desc: Cooldown 100 turns.
 
 spell:Cloak of Changement:28:15:75:15:0
 effect:CLOAK_CHANGT
@@ -2273,12 +2264,12 @@ desc:Grants you stat growth for 20+1d20 turns.
 book:nature book:town:[Creature Dominion]:4:nature
 
 spell:Sense Surroundings:20:8:35:8:0
+cooldown:120
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:11+1d24
 desc:Maps out a portion of the level around you.
 desc: Induces temporary sensory overload.
+desc: Can be used every 120 turns.
 
 spell:Cover Tracks:20:20:40:40:0
 effect:TIMED_SET:COVERTRACKS:0:5
@@ -2681,8 +2672,6 @@ effect:DETECT_DOORS
 effect-yx:22:40
 effect:DETECT_TRAPS
 effect-yx:22:40
-effect:TIMED_INC_NO_RES:BLIND
-dice:3
 desc:Detects all traps, doors and stairs in the immediate area.
 
 spell:Fire Ball:3:2:17:3:0
@@ -2749,13 +2738,8 @@ desc:Reveals an unknown rune on an object.
 
 spell:Map Area:13:10:45:7:0
 effect:MAP_AREA
-effect-yx:15:32
-effect:TIMED_INC_NO_RES:BLIND
-dice:10
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:10
+effect-yx:22:40
 desc:Maps out a portion of the level around you.
-desc: Induces temporary sensory overload.
 
 spell:Radiate Fear:14:12:45:8:0
 effect:BLAST_OBVIOUS:TURN_ALL:5
@@ -2922,9 +2906,10 @@ desc: and does irresistible damage.
 spell:Clairvoyance:40:50:95:200:0
 effect:LIGHT_LEVEL
 effect:NOURISH:DEC_BY
-dice:2
+dice:1
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
+desc: The spell reduces your nourishment.
 
 spell:Mana Storm:42:16:50:200:0
 effect:BALL:MANA:3
@@ -3128,13 +3113,11 @@ desc:Covers your missiles with venom.
 book:nature book:dungeon:[Nature Craft]:4:nature
 
 spell:Sense Surroundings:28:14:56:28:0
+cooldown:120
 effect:MAP_AREA
 effect-yx:15:32
-effect:TIMED_INC_NO_RES:CONFUSED_REAL
-dice:10
-effect:TIMED_INC_NO_RES:BLIND
-dice:10
 desc:Maps out a portion of the level around you.
+desc: Can be used every 120 turns.
 
 spell:Piercing Shots:30:11:50:50:0
 effect:BOW_BRAND:ARROW
@@ -3473,16 +3456,11 @@ desc: in its path.
 desc: The chance to get a beam goes up with your character level.
 
 spell:Clairvoyance:40:34:76:55:0
+cooldown:100
 effect:LIGHT_LEVEL
-effect:TIMED_INC_NO_RES:CONFUSED_REAL
-dice:3
-effect:TIMED_INC_NO_RES:BLIND
-dice:5+1d13
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:11+1d24
 desc:Lights up, maps out and senses all objects on the complete current
 desc: dungeon level.
-desc: Induces temporary sensory overload.
+desc: Cooldown 100 turns.
 
 spell:Kinetic Wave:42:20:79:59:0
 effect:BLAST:FORCE:3:10
@@ -5633,13 +5611,11 @@ desc:Makes you able to run faster for some time.
 desc: Cooldown 100 turns.
 
 spell:Cartography:3:1:1:1:0
-cooldown:100
 # hc, radius increases with lvls
 effect:MAP_AREA
 effect-yx:5:5
 desc:You map out a portion of the level around.
 desc: Your mapping abilities depend on your level.
-desc: Cooldown 100 turns.
 
 spell:Travel:5:2:1:1:0
 effect:TELEPORT_LEVEL
@@ -6558,9 +6534,11 @@ value:0:INT[5]
 value:0:CON[-2]
 value:0:CHR[-2]
 value:25:STEALTH[1]
-# 1) restore mana when polymorph monsters
+# 1) restore hp&mana when polymorph monsters
 # 2) on <30% HP got auto MANASHIELD
 player-flags:0:ZERO_FAIL | BEAM
+# 3) ESP_EVIL evolves with lvls (1->20)
+obj-flag:0:ESP_EVIL
 obj-flag:0:CLUMSY
 title:Witling
 title:Cantricker
@@ -6594,29 +6572,29 @@ desc:Fires magic fist to the target.
 desc: Target grid must be targetable and known to the player.
 desc: Does not require mana.
 
+# feature: irresistible
 spell:Magic Blade:1:1:1:1:0
-#hc 1d7 .. mana 1->6
-effect:SHORT_BEAM:MISSILE:1
+#hc 1d5 dmg.. mana 1->6..
+effect:SHORT_BEAM:MISSILE:2
 dice:$B
-expr:B:PLAYER_LEVEL:+ 3
+expr:B:PLAYER_LEVEL:+ 5
 msg_other: bends index finger.. Blades appear from thin air!
 desc:Strikes with a magic blade that always hits its target and does
 desc: irresistible damage.
-desc: At level 11 and higher, damage is greatly increased (every 7 levels).
-desc: The range of the blades increases every 10 levels, up to 5 squares.
+desc: Damage is greatly increased every 5 levels (up to level 35).
 desc: At level 10+, each cast also consumes a small amount of extra mana.
 
-spell:Electrocute:2:3:27:2:0
-# hc 1d5; distance -> ~15; mana -> 9
+spell:Electrocute:2:2:27:2:0
+# hc 1d5; distance -> ~15; mana -> 8
 effect:SHORT_BEAM:ELEC:6
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 effect:SHORT_BEAM:ELEC:5
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 1
 effect:SHORT_BEAM:ELEC:4
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 2
 effect:RANDOM
 dice:3
 msg_other: holds out a hand... Lightning!
@@ -6634,8 +6612,8 @@ dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: snaps fingers. Polymorph!
 desc:Attempts to imbue surrounding chaos energy to polymorph an enemy.
-desc: Ordering chaotic energy restores your magic power.
-desc: The amount of restored mana increases with your level.
+desc: Ordering chaotic energy restores your magic power and health.
+desc: The amount of restored resource increases with your level.
 desc: Cooldown 5 turns.
 
 spell:Teleport:5:3:1:5:0
@@ -6647,14 +6625,13 @@ effect:RANDOM
 dice:2
 effect:TELEPORT
 dice:$B
-expr:B:PLAYER_LEVEL:* 2
+expr:B:PLAYER_LEVEL:* 3
 msg_other: winks... and disappears!
 desc:Teleports you randomly within medium distance.
 desc: It takes some mana before displacement, but some of it become restored
 desc: upon getting to destination.
 
-spell:Luminous Fog:7:5:35:7:0
-cooldown:10
+spell:Luminous Fog:7:3:35:7:0
 # hc distance (max dist should be 20) and damage 1d3
 effect:SHORT_BEAM:LIGHT_WEAK:10
 dice:4d4
@@ -6665,35 +6642,25 @@ desc:Fires a beam of magic fog which lights up each square and hurts each
 desc: light-sensitive monster in its path.
 desc: The range and damage of the fog increase with your level (range up to ~20).
 desc: If you are in a room, the entire room will be lit up as well.
-desc: Cooldown 10 turns.
 
 spell:Cold Ray:10:5:30:10:0
 # hc 1d5 .. mana -> 13
 effect:BOLT_OR_BEAM:COLD
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 5
 msg_other: fires a cold ray.
 desc:Fires a cold ray that hurts the first monster in its path.
 desc: The damage of the ray increases with your level.
 desc: Each cast consumes an additional portion of your remaining mana.
 
 spell:Stone Curse:15:6:32:15:0
-cooldown:240
-effect:TIMED_INC_NO_RES:SCRAMBLE
-dice:7d2
+cooldown:30
+effect:CREATE_WALLS
 effect:GRANITE
-effect:TIMED_INC_NO_RES:PARALYZED
-dice:6
-#don't put too much as it might be cheezed to tank when playing in party
-effect:TIMED_SET:REVIVE
-dice:6
-msg_other: slowly nods.. and becomes stone statue.
-desc:Turns you into a stone statue for 6 turns.
-desc: While petrified, you are invulnerable to all attacks.
-desc: After some time you recover from stone, but the stone rock still
-desc: stays in place protecting you.
-desc: This spell may causes internal injuries which recover after some time.
-desc: Cooldown 240 turns.
+msg_other: slowly nods.. and is engulfed by a block of solid stone.
+desc:Seals you inside a block of stone.
+desc: You need to move out quickly, or you'll start suffocating.
+desc: Cooldown 30 turns.
 
 spell:Flamestrike:17:7:33:20:0
 # hc 1d5; mana -> 13
@@ -6708,29 +6675,10 @@ desc: grid in line of sight, you will be the target instead.
 desc: Each cast consumes an additional portion of your remaining mana.
 
 spell:Magic Reflection:20:15:11:25:0
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:NOURISH:DEC_BY
-dice:0
-effect:RANDOM
-dice:8
-effect:TIMED_SET:OPP_FIRE
-dice:20+1d20
-desc:Grants you resistance to fire (20), cold (25), lightning (30), poison (35),
-desc: acid (40) for 20+1d20 turns. Also increase magic resistance.
-desc: Require some satiation.
+effect:TIMED_SET:OPP_ELEC
+dice:30
+desc:Grants you resistance to fire, cold, lightning, poison,
+desc: acid for 30 turns. Also increase magic resistance.
 
 spell:Manablast:25:9:30:30:0
 cooldown:3
@@ -6745,25 +6693,31 @@ desc: Cooldown 3 turns.
 
 spell:Dimension Shift:30:17:35:40:0
 cooldown:100
+effect:DETECT_STAIRS
+effect-yx:22:40
+effect:DETECT_DOORS
+effect-yx:22:40
+effect:DETECT_TRAPS
+effect-yx:22:40
+effect:MAP_AREA
+effect-yx:22:40
 effect:TIMED_INC:WRAITHFORM
 dice:5
 effect:TELEPORT_LEVEL
 desc:Teleports you 1 level up or 1 level down (chosen at random) and
 desc: grants you the ability to pass through non-permanent walls for a moment.
+desc: Upon arrival, you know the place like the back of your hand.
 desc: Cooldown 100 turns.
 
 spell:Acid Breath:33:11:30:50:0
 cooldown:60
 # hc 1d4 (up to x12)
-effect:TIMED_INC_NO_RES:STUN
-dice:1d2
 effect:BREATH:ACID:0:30
 dice:$Dd8
 expr:D:PLAYER_LEVEL:+ 0
 msg_other: breathes acid.
 desc:Breathes acid in a wide cone.
 desc: The damage of the breath increases with your level (up to x12).
-desc: Casting this spell stuns you for a moment.
 desc: Cooldown 60 turns.
 
 spell:Dark Ritual:35:12:32:70:0
@@ -6837,7 +6791,7 @@ desc: damage to each monster in its area of effect.
 desc: If this kills the monster that blocked the path to the target
 desc: location, the next meteor may continue to find another target.
 
-spell:Summon Daemon:49:100:42:200:0
+spell:Summon Daemon:49:60:42:200:0
 cooldown:150
 effect:SUMMON:DEMON:0:100
 dice:1
@@ -7298,7 +7252,7 @@ cooldown:300
 effect:WAKE
 effect:SAFE_GUARD
 effect:NOURISH:DEC_BY
-dice:4
+dice:1
 desc:Inscribes a Dark Mark beneath you.
 desc: Summoned monsters can't appear on the Dark Mark.
 desc: If a monster tries to move onto the mark or melee you while
@@ -8067,7 +8021,7 @@ equip:magic book:[Magic for Beginners]:1:1:none
 #desc:Prepare to look for rare reagents used in alchemy.
 
 spell:Acid Fog:1:0:5:1:0
-effect:SHORT_BEAM:ACID:1
+effect:SHORT_BEAM:ACID:2
 dice:1d$D
 expr:D:PLAYER_LEVEL:/ 5 + 3
 msg_other: splashed some acid.
@@ -8415,16 +8369,18 @@ desc: Cooldown 2 turns.
 
 ####### DEF
 
-spell:Nothingness:25:6:35:5:0
+spell:Nothingness:10:6:35:5:0
 effect:TELEPORT
 dice:$B
 expr:B:PLAYER_LEVEL:* 2
+effect:TIMED_SET:STEALTH
+dice:3
 effect:TIMED_INC_NO_RES:CONFUSED_REAL
 dice:2
 msg_other: teleports away.
 desc:Teleports you randomly within the current level and dazes afterwards.
 
-spell:Shroud:30:10:65:20:0
+spell:Shroud:20:10:65:20:0
 effect:CLEAR_VALUE
 effect:TIMED_SET:OPP_POIS
 effect:TIMED_SET:OPP_COLD
@@ -8435,11 +8391,11 @@ effect:SET_VALUE
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 effect:TIMED_INC_NO_RES:BLIND_REAL
-dice:3+1d3
+dice:2
 desc:Grants you resistance to acid, cold, fire, lightning and poison,
-desc: but makes you blind for some time.
+desc: but makes you blind for a moment.
 
-spell:Thunder Burst:35:15:50:1:0
+spell:Thunder Burst:30:15:50:1:0
 effect:TIMED_SET:SPEEDY:0:5
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 0
