@@ -6574,7 +6574,7 @@ desc: Does not require mana.
 
 # feature: irresistible
 spell:Magic Blade:1:1:1:1:0
-#hc 1d5 dmg
+#hc 1d5 dmg (2x starts with lvl 10)
 effect:SHORT_BEAM:MISSILE:2
 dice:$B
 expr:B:PLAYER_LEVEL:+ 4
@@ -6585,16 +6585,16 @@ desc: Damage is greatly increased every 5 levels (up to level 35).
 desc: At level 10+, each cast also consumes a small amount of extra mana.
 
 spell:Electrocute:2:2:27:2:0
-# hc 1d5; distance -> ~10
+# hc 1d5 (2x starts with lvl 10); distance -> ~10
 effect:SHORT_BEAM:ELEC:6
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 effect:SHORT_BEAM:ELEC:5
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 1
 effect:SHORT_BEAM:ELEC:4
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 2
 effect:RANDOM
 dice:3
 msg_other: holds out a hand... Lightning!
@@ -6614,6 +6614,7 @@ msg_other: snaps fingers. Polymorph!
 desc:Attempts to imbue surrounding chaos energy to polymorph an enemy.
 desc: Ordering chaotic energy restores your magic power and health.
 desc: The amount of restored resource increases with your level.
+desc: Note: you won't restore resources from multiplying creatures.
 desc: Cooldown 5 turns.
 
 spell:Teleport:5:3:1:5:0
@@ -7625,22 +7626,22 @@ skill-device:18:7
 skill-save:18:10
 skill-stealth:1:0
 skill-search:15:15
-skill-melee:30:14
+skill-melee:45:20
 skill-shoot:20:14
 skill-dig:0:0
 hitdie:1
 max-attacks:6
 min-weight:40
-strength-multiplier:2
+strength-multiplier:3
 equip:light:Wooden Torch:1:3:none
 equip:sword:Dagger:1:1:none
 equip:scroll:Word of Recall (rugged):2:2:birth_no_recall
 equip:scroll:Satisfy Hunger (tattered):2:2:none
 equip:scroll:Phase Door:3:4:birth_no_recall
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
-value:0:STR[-2]
+value:0:STR[-1]
 value:0:WIS[2]
-value:0:DEX[1]
+value:0:DEX[3]
 value:0:CHR[0+1d15]
 # speed buffs stopping working at 50
 value:0:SPEED[1+1d5]
@@ -7664,37 +7665,45 @@ magic:1:350:5
 book:psi book:town:of Telepathy:12:psi
 equip:psi book:of Telepathy:1:1:none
 
-spell:Aging Hex:1:0:5:1:0
-cooldown:2
-effect:BOLT:TIME:0
+spell:Aging Hex:1:1:5:1:0
+# 6-42  @ 24 (~24)
+# 9-108 @ 50 (~58)
+effect:BOLT:TIME:0:-10
+dice:$Dd$S
+expr:D:PLAYER_LEVEL:- 1 / 5 + 3
+expr:S:PLAYER_LEVEL:/ 10 + 4
+msg_other: wiggles one crooked finger.
+desc:Causes magical aging to the target.
+desc: This spell always hits its target.
+
+spell:Rewind Phase:3:0:35:5:0
+effect:DAMAGE
+dice:d$S
+expr:S:PLAYER_LEVEL:+ 1
+effect:RESTORE_MANA
 dice:$B
-expr:B:PLAYER_LEVEL:+ 2
-desc:Causes magical aging to the target. Does not require mana.
-desc: Cooldown 2 turns.
+expr:B:PLAYER_LEVEL:+ 1
+effect:TELEPORT
+dice:$B
+expr:B:PLAYER_LEVEL:+ 10
+msg_other: moves backwards awkwardly.
+desc:Shifts you to a random location on the current level.
+desc: Restores some mana based on your level.
+desc: May cause minor damage due to temporal instability.
 
-spell:Instant Recall:5:5:35:5:0
-cooldown:90
-effect:RECALL
-dice:5+1d7
-desc:Rewinds time moving you from the dungeon back to the town or from the town
-desc: to the deepest level you have visited in the dungeon.
-desc: The effect can be almost immediate, but sometimes it's somewhat delayed.
-desc: During that delay, the effect can be canceled by invoking the prayer
-desc: of recall again.
-desc: Cooldown 90 turns.
-
-spell:Quantum Trap:10:4:22:7:0
+spell:Quantum Trap:5:2:1:7:0
 cooldown:7
-#hc radius(7)/dmg(5)
-effect:BLAST:TIME:1
+effect:SHORT_BEAM:TIME:5
 dice:$B
 expr:B:PLAYER_LEVEL:+ 5
 msg_other: makes a circling gesture.
-desc:Rewind time back and forward making aging damage again and again.
-desc: Area radius increase with levels.
+desc:Rewind time back and forward making aging damage again and again
+desc: to everything that is in a line of 5 tiles.
+desc: Damage is greatly increased every 5 levels (up to level 35).
+desc: At level 10+, each cast also consumes a small amount of extra mana.
 desc: Cooldown 7 turns.
 
-spell:Revert Wounds:15:15:33:10:0
+spell:Revert Wounds:10:10:33:10:0
 cooldown:120
 effect:TIMED_INC_NO_RES:CONFUSED_REAL
 dice:2
@@ -7714,7 +7723,7 @@ desc:Cures damage, stunning, heals all cut damage, neutralizes poison, and cures
 desc: Side-effects might include brief confusion or blindness.
 desc: Cooldown 120 turns.
 
-spell:Ray of Time:20:10:30:20:0
+spell:Ray of Time:15:10:30:20:0
 effect:BEAM:SMASH:0
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
@@ -7725,11 +7734,8 @@ msg_other: emit a ray of time.
 desc:Fires a beam of pure time that affects each monster in its path.
 desc: It may additionally damage minded creatures and has a chance to blind,
 desc: confuse, put to sleep or slow affected monsters.
-desc: Drains part of the life-force from a nearby monsters and replenishes
-desc: your mana with it. Does not affect undead, demons, golems, elementals or
-desc: vortices.
 
-spell:Decay:25:15:35:30:0
+spell:Decay:20:11:35:30:0
 cooldown:240
 effect:TIMED_SET:ANCHOR
 dice:5
@@ -7751,7 +7757,7 @@ desc: You take 1d3 points of damage for every monster removed.
 desc: Side-effect: you won't be able to teleport for 5 turns.
 desc: Cooldown 240 turns.
 
-spell:Time Shield:30:30:48:75:0
+spell:Time Shield:25:30:48:75:0
 effect:TIMED_SET:MANASHIELD
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
@@ -7759,14 +7765,14 @@ desc:Creates a time shield around you that absorbs all damage
 desc: inflicted to your character... as long as you have mana
 desc: to fuel it.
 
-spell:Curvature of Space:35:40:90:100:0
+spell:Curvature of Space:30:40:90:100:0
 effect:TIMED_SET:PROBTRAVEL
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: breaks the space/time continuum.
 desc:Allows you to rewind time to move up to previous levels.
 
-spell:Reformation:40:50:35:150:0
+spell:Reformation:35:50:35:150:0
 cooldown:4
 effect:MELEE_BLOWS:PSI_DRAIN
 dice:$B
@@ -7776,22 +7782,29 @@ desc: your mana with it. Does not affect undead, demons, golems, elementals or
 desc: vortices.
 desc: Cooldown 4 turns.
 
-spell:Temporal Paradox:45:50:35:200:0
+spell:Temporal Paradox:40:50:35:200:0
 cooldown:120
 effect:TIMED_SET:ANCHOR
-dice:$B+1d20
-expr:B:PLAYER_LEVEL:+ 0
+dice:10
 effect:TIMED_INC:FASTCAST
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 0
 desc:Temporary doubles spellcasting speed and grants you resistance to
 desc: gravity and time.
-desc: Watch out, this also prevents any means of teleportation around you!
+desc: Watch out, this also prevents any means of teleportation around you
+desc: for 10 turns!
 desc: Cooldown 120 turns.
 
-spell:Time Forward:49:1:30:250:0
-effect:DEEP_DESCENT
-desc:Sends you to the deepest depths of the dungeon.
+spell:Time Forward:45:1:30:250:0
+cooldown:90
+effect:RECALL
+dice:7+1d10
+desc:Rewinds time moving you from the dungeon back to the town or from the town
+desc: to the deepest level you have visited in the dungeon.
+desc: The effect can be almost immediate, but sometimes it's somewhat delayed.
+desc: During that delay, the effect can be canceled by invoking the prayer
+desc: of recall again.
+desc: Cooldown 90 turns.
 
 spell:Time Wave:50:25:46:300:0
 cooldown:11
