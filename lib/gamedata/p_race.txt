@@ -201,16 +201,14 @@ age:14:6
 height:69:10
 weight:165:35
 gift:food:Hard Biscuit:1:1
-value:50:STR[1]
-value:50:INT[1]
-value:50:WIS[1]
-value:50:DEX[1]
-value:50:CON[1]
-value:50:CHR[1]
+value:0:STR[0]
+value:0:INT[0]
+value:0:WIS[0]
+value:0:DEX[0]
+value:0:CON[0]
+value:0:CHR[0]
 # 'y' restore CON (at 30+ lvl with CD)
 # + storage slot
-obj-flag:50:SUST_CHR
-value:50:DAM_RED[1]
 
 
 name:Half-Elf
@@ -523,9 +521,9 @@ value:0:INT[-1]
 value:0:WIS[-1]
 value:0:DEX[-1+-1d12]
 value:0:CON[-2+-1d15]
-value:0:CHR[-1]
+value:0:CHR[1]
 # 'y' become bold :) like real brave yeek!
-# + no agro when equipping aggo items! you simply can't be angry on cute yeek..
+# + no agro when equipping aggo items (50% HCed)! you simply can't be angry on cute yeek..
 obj-flag:0:FEATHER
 #/// -
 player-flags:0:ANIMAL
@@ -702,7 +700,7 @@ value:0:STR[-20]
 value:0:INT[-4]
 value:0:WIS[-4]
 value:0:DEX[-20]
-value:0:CON[-20+20d25]
+value:0:CON[-20+20d26]
 value:0:CHR[-20+1d5]
 # 'y' breath
 player-flags:0:CAN_SWIM
@@ -711,10 +709,11 @@ value:0:MANA[10]
 value:10:TUNNEL[1+1d10]
 player-flags:25:SEE_ORE
 value:35:RES_CHAOS[1]
-value:50:DAM_RED[5]
 #/// -
 value:0:DAM_RED[-2+2d30]
 # + AGGRAVATE 20 range hardcoded
+# (after lvl 40 we reduce aggro by 2 every lvl.. so at 50 hydra dont have aggro at all)
+# ============
 # - hc monks: -1 BpR after lvl 10
 value:15:MOVES[10+-2d7]
 value:15:SPEED[-10+2d7]
@@ -1373,9 +1372,9 @@ value:0:DEX[1]
 value:0:CON[-5+1d8]
 value:0:CHR[3]
 # 'y' lightning
-value:0:LIGHT[1]
 value:0:INFRA[1+4d30]
-obj-flag:0:SLOW_DIGEST
+value:30:LIGHT[1]
+obj-flag:30:SLOW_DIGEST
 obj-flag:30:HOLD_LIFE
 obj-flag:30:PROT_FEAR
 obj-flag:30:FEATHER
@@ -1385,8 +1384,6 @@ slay:30:50:EVIL_2
 #/// -
 # pickup less gold (1/2) in the dungeon
 value:0:RES_DARK[-1]
-# DARK minor vuln (up to 30 lvl; after can't get immunity),
-# but hardcoded xtra dmg from DARKNESS spell
 value:0:DAM_RED[-1+1d30]
 
 
@@ -1480,6 +1477,7 @@ brand:40:50:FIRE_3
 # might prevent protection VS ONE-MAGIC-SHOT-DEATH (see adjust_dam())
 value:0:RES_COLD[-1]
 # AGGRAVATE 40 range hardcoded
+# (after lvl 40 we reduce aggro by 2 every lvl.. so at 50 hydra dont have 20 aggro rad)
 # - receive 11% more non-physical dmg
 value:0:DAM_RED[-1+2d30]
 value:0:RES_LIGHT[-1]

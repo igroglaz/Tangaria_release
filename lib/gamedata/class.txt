@@ -181,7 +181,7 @@ skill-stealth:0:0
 skill-search:10:12
 skill-melee:70:45
 skill-shoot:55:45
-skill-throw:55:45
+skill-throw:45:35
 skill-dig:0:0
 hitdie:10
 max-attacks:6
@@ -230,6 +230,7 @@ skill-stealth:3:0
 skill-search:10:12
 skill-melee:35:15
 skill-shoot:82:55
+skill-throw:45:35
 skill-dig:0:0
 hitdie:5
 max-attacks:2
@@ -276,7 +277,7 @@ skill-save:28:10
 skill-stealth:3:1
 skill-search:20:16
 skill-melee:44:44
-skill-shoot:30:36
+skill-shoot:30:20
 skill-throw:60:30
 skill-dig:10:5
 hitdie:8
@@ -2589,7 +2590,7 @@ skill-disarm-phys:35:9
 skill-disarm-magic:50:12
 skill-device:40:15
 skill-save:30:9
-skill-stealth:1:0
+skill-stealth:2:0
 skill-search:10:12
 skill-melee:30:11
 skill-shoot:20:15
@@ -2772,7 +2773,7 @@ desc: The chance to get a beam goes up with your character level.
 
 spell:Meditation:20:5:30:15:0
 effect:TIMED_SET:MEDITATE
-dice:20+1d20
+dice:30+1d30
 desc:Helps increasing your mana capacity at the cost of hit points.
 
 spell:Stone Prison:20:15:44:30:0
@@ -2800,7 +2801,7 @@ desc: A failed attempt to recharge destroys one wand or staff from the stack.
 spell:Speed:25:12:55:20:1
 effect:TIMED_SET:SPEEDY:0:5
 dice:$B+1d$S
-expr:B:PLAYER_LEVEL:+ 20
+expr:B:PLAYER_LEVEL:+ 30
 expr:S:PLAYER_LEVEL:+ 0
 desc:Hastes you up to (+10 to speed) for a level-dependent duration.
 
@@ -2829,9 +2830,9 @@ effect:TIMED_SET:OPP_FIRE
 effect:TIMED_SET:OPP_ELEC
 effect:TIMED_SET:OPP_ACID
 effect:SET_VALUE
-dice:20+1d20
+dice:30+1d30
 desc:Grants you resistance to acid, cold, fire, lightning and poison for
-desc: 20+1d20 turns.
+desc: 30+1d30 turns.
 
 spell:Recall:30:25:65:70:1
 effect:RECALL
@@ -2844,8 +2845,8 @@ desc: of recall again.
 
 spell:Wraithform:30:30:95:70:1
 effect:TIMED_SET:WRAITHFORM
-dice:$B+1d20
-expr:B:PLAYER_LEVEL:+ 10
+dice:$B+1d30
+expr:B:PLAYER_LEVEL:+ 30
 desc:Grants you the ability to pass through non-permanent walls.
 
 spell:Destruction:33:21:80:80:0
@@ -2859,8 +2860,8 @@ desc: This spell has no effect when used in the town.
 
 spell:Telepathy:34:40:75:150:0
 effect:TIMED_SET:ESP
-dice:$B+1d10
-expr:B:PLAYER_LEVEL:+ 0
+dice:$B+1d30
+expr:B:PLAYER_LEVEL:+ 30
 desc:Grants you the power of telepathy for a level-dependent duration.
 
 spell:Mass Banishment:35:75:90:100:0
@@ -4963,7 +4964,8 @@ skill-save:28:9
 skill-stealth:0:0
 skill-search:10:12
 skill-melee:30:11
-skill-shoot:25:15
+skill-shoot:35:20
+skill-throw:25:15
 skill-dig:0:0
 hitdie:1
 max-attacks:2
@@ -4978,7 +4980,7 @@ equip:potion:Cure Light Wounds:2:3:birth_no_recall
 value:0:STR[-2]
 value:0:INT[-1]
 value:0:WIS[3]
-value:0:DEX[-1]
+value:0:DEX[0]
 value:0:CON[-1]
 value:0:CHR[1+1d15]
 player-flags:0:CHOOSE_SPELLS
@@ -5058,7 +5060,7 @@ desc: If targeting a direction or the target is not a passable
 desc: grid in the line of sight, the player will be the target.
 desc: Cooldown 60 turns.
 
-spell:Sensitive Snout:15:10:42:15:0
+spell:Sensitive Snout:15:9:42:15:0
 effect:DETECT_ANIMALS
 effect-yx:22:40
 effect:TIMED_SET:SINVIS
@@ -5150,12 +5152,11 @@ desc: wall. Deals 100+10d30 damage to monsters vulnerable to rock remover.
 
 spell:Dragon Friends:50:75:50:100:0
 cooldown:300
-effect:SUMMON:ANIMAL:0:80
+effect:SUMMON:ANIMAL:0:100
 flag:S_DRAGON
 dice:1
 msg_other: summons a dragon!
-desc:Attempts to summon a dragon friend. In most cases it will be friendly,
-desc: but not always.
+desc:Attempts to summon a dragon friend.
 desc: It takes 300 turns for dragons to heed your call again.
 
 
@@ -7682,7 +7683,7 @@ dice:d$S
 expr:S:PLAYER_LEVEL:+ 1
 effect:RESTORE_MANA
 dice:$B
-expr:B:PLAYER_LEVEL:+ 1
+expr:B:PLAYER_LEVEL:+ 5
 effect:TELEPORT
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
