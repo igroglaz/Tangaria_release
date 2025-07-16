@@ -3445,7 +3445,7 @@ book-properties:60:30:50000
 book-alloc:10:60 to 100
 book-desc:A stone glowing brightly, engraved with runes of power.
 
-spell:Time Bolt:38:23:73:51:0
+spell:Time Bolt:38:15:73:51:0
 effect:BOLT_OR_BEAM:TIME
 dice:$Dd$S
 expr:D:PLAYER_LEVEL:/ 12 + 10
@@ -3455,6 +3455,7 @@ desc:Fires a time bolt that always hits its target.
 desc: Sometimes a beam is fired instead that hurts each monster
 desc: in its path.
 desc: The chance to get a beam goes up with your character level.
+desc: Nonliving creatures may resist to some extent.
 
 spell:Clairvoyance:40:34:76:55:0
 cooldown:100
@@ -5694,9 +5695,9 @@ dice:10+1d10
 desc:Grants a bonus to attack, AC and speed.
 desc: Cooldown 100 turns.
 
-spell:Heartstone:40:37:1:1:0
+spell:Heartstone:40:20:1:1:0
 effect:RECALL
-dice:10+1d10
+dice:12+1d10
 desc:Moves you from the dungeon back to the town or from the town
 desc: to the deepest level you have visited in the dungeon.
 desc: The effect is somewhat delayed. During that delay, the effect
@@ -6513,7 +6514,7 @@ name:Wizard
 color:Z
 skill-disarm-phys:35:9
 skill-disarm-magic:50:12
-skill-device:40:15
+skill-device:0:0
 skill-save:30:9
 skill-stealth:1:0
 skill-search:10:12
@@ -6535,7 +6536,7 @@ value:0:INT[5]
 value:0:CON[-2]
 value:0:CHR[-2]
 value:25:STEALTH[1]
-# 1) restore hp&mana when polymorph monsters
+# 1) restore mana when polymorph monsters
 # 2) on <30% HP got auto MANASHIELD
 player-flags:0:ZERO_FAIL | BEAM
 # 3) ESP_EVIL evolves with lvls (1->20)
@@ -6608,15 +6609,18 @@ desc: At each cast, an additional portion of remaining mana is consumed.
 # number 3 spell.. hc for mana restore in project-mon.c
 spell:Polymorph:3:1:20:3:0
 cooldown:5
+effect:DAMAGE
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
 effect:BOLT_AWARE:MON_POLY:1
 dice:$B
 expr:B:PLAYER_LEVEL:+ 0
 msg_other: snaps fingers. Polymorph!
-desc:Attempts to imbue surrounding chaos energy to polymorph an enemy.
-desc: Ordering chaotic energy restores your magic power and health.
-desc: The amount of restored resource increases with your level.
-desc: Note: you won't restore resources from multiplying creatures.
-desc: Cooldown 5 turns.
+desc:Attempts to order chaotic energy to polymorph an enemy and restore some
+desc: of your magic power. The restored amount increases with your level.
+desc: Causes minor damage.
+desc: Does not restore mana if used on multiplying or already polymorphed creatures.
+desc: Cooldown: 5 turns.
 
 spell:Teleport:5:3:1:5:0
 effect:RESTORE_MANA
@@ -6682,7 +6686,7 @@ dice:30
 desc:Grants you resistance to fire, cold, lightning, poison,
 desc: acid for 30 turns. Also increase magic resistance.
 
-spell:Mana Bolt:25:5:30:30:0
+spell:Mana Bolt:25:8:30:30:0
 effect:BOLT:MANA
 dice:$Dd8
 expr:D:PLAYER_LEVEL:- 10
@@ -6890,7 +6894,7 @@ desc: Cooldown 42 turns.
 
 spell:Town Portal:5:3:1:5:0
 effect:RECALL
-dice:10+1d20
+dice:12+1d10
 desc:A portal between the bustling town and the treacherous dungeon's depths.
 desc: Teleports you from the dungeon to the town or from the town to the
 desc: deepest level you have visited in the dungeon.
@@ -7622,9 +7626,9 @@ desc: Cooldown 2 turns.
 name:Timeturner
 color:v
 skill-disarm-phys:28:8
-skill-disarm-magic:28:8
+skill-disarm-magic:37:10
 skill-device:18:7
-skill-save:18:10
+skill-save:25:10
 skill-stealth:1:0
 skill-search:15:15
 skill-melee:45:20
@@ -7666,7 +7670,7 @@ magic:1:350:5
 book:psi book:town:of Telepathy:12:psi
 equip:psi book:of Telepathy:1:1:none
 
-spell:Aging Hex:1:1:5:1:0
+spell:Aging Hex:1:1:1:1:0
 # 6-42  @ 24 (~24)
 # 9-108 @ 50 (~58)
 effect:BOLT:TIME:0:-10
@@ -7675,12 +7679,14 @@ expr:D:PLAYER_LEVEL:- 1 / 5 + 3
 expr:S:PLAYER_LEVEL:/ 10 + 4
 msg_other: wiggles one crooked finger.
 desc:Causes magical aging to the target.
+desc: Nonliving creatures may resist to some extent.
 desc: This spell always hits its target.
 
-spell:Rewind Phase:3:0:35:5:0
+spell:Rewind Phase:3:1:1:5:0
+cooldown:5
 effect:DAMAGE
-dice:d$S
-expr:S:PLAYER_LEVEL:+ 1
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
 effect:RESTORE_MANA
 dice:$B
 expr:B:PLAYER_LEVEL:+ 5
@@ -7691,8 +7697,10 @@ msg_other: moves backwards awkwardly.
 desc:Shifts you to a random location on the current level.
 desc: Restores some mana based on your level.
 desc: May cause minor damage due to temporal instability.
+desc: Cooldown: 5 turns.
 
 spell:Quantum Trap:5:2:1:7:0
+# dam HCed up to *7
 cooldown:7
 effect:SHORT_BEAM:TIME:5
 dice:$B
@@ -7702,15 +7710,12 @@ desc:Rewind time back and forward making aging damage again and again
 desc: to everything that is in a line of 5 tiles.
 desc: Damage is greatly increased every 5 levels (up to level 35).
 desc: At level 10+, each cast also consumes a small amount of extra mana.
+desc: Nonliving creatures may resist to some extent.
 desc: Cooldown 7 turns.
 
-spell:Revert Wounds:10:10:33:10:0
-cooldown:120
-effect:TIMED_INC_NO_RES:CONFUSED_REAL
-dice:2
+spell:Revert Wounds:7:3:1:10:0
+cooldown:30
 effect:TIMED_INC_NO_RES:BLIND_REAL
-dice:2
-effect:RANDOM
 dice:2
 effect:CURE:CUT
 effect:CURE:STUN
@@ -7721,44 +7726,83 @@ dice:$B
 expr:B:PLAYER_LEVEL:* 10
 msg_self:Your body begins to rapidly recover.
 desc:Cures damage, stunning, heals all cut damage, neutralizes poison, and cures amnesia.
-desc: Side-effects might include brief confusion or blindness.
-desc: Cooldown 120 turns.
+desc: Side-effects might include brief blindness.
+desc: Cooldown 30 turns.
 
-spell:Ray of Time:15:10:30:20:0
-effect:BEAM:SMASH:0
+spell:Ray of Time:10:3:1:15:0
+#x5 (every 10 lvls)
+effect:BALL:TIME:2
 dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-effect:BEAM:TIME
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
+expr:B:PLAYER_LEVEL:+ 10
 msg_other: emit a ray of time.
-desc:Fires a beam of pure time that affects each monster in its path.
-desc: It may additionally damage minded creatures and has a chance to blind,
-desc: confuse, put to sleep or slow affected monsters.
+desc:Fires a ray of temporal energy that explodes on impact.
+desc: Nonliving creatures may resist to some extent.
+desc: Becomes stronger every 10 levels.
 
-spell:Decay:20:11:35:30:0
+#spell:Ray of Time:10:10:1:15:0
+#effect:BEAM:SMASH:0
+#dice:$B
+#expr:B:PLAYER_LEVEL:+ 0
+#effect:BEAM:TIME
+#dice:$B
+#expr:B:PLAYER_LEVEL:+ 0
+#msg_other: emit a ray of time.
+#desc:Fires a beam of pure time that affects each monster in its path.
+#desc: It may additionally damage minded creatures and has a chance to blind,
+#desc: confuse, put to sleep or slow affected monsters.
+
+spell:Time Forward:15:10:1:20:0
+effect:RECALL
+dice:12+1d10
+desc:Rewinds time moving you from the dungeon back to the town or from the town
+desc: to the deepest level you have visited in the dungeon.
+desc: The effect can be almost immediate, but sometimes it's somewhat delayed.
+desc: During that delay, the effect can be canceled by invoking the prayer
+desc: of recall again.
+
+spell:Decay:20:15:1:30:0
 cooldown:240
 effect:TIMED_SET:ANCHOR
 dice:5
-# banish: hc rad reduced up to 10
+# banish: hc rad (effect_handler_MASS_BANISH)
 effect:MASS_BANISH
-effect:BLAST:ACID:10
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-effect:BLAST:MANA:10
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-effect:BLAST:TIME:10
-dice:$B
-expr:B:PLAYER_LEVEL:* 8
 msg_other: tilts head to the left.
-desc:Turn everything around to age to the dust in 10 squares around you.
+desc:Turn everything around to age to the dust in 5 squares around you.
+desc: More experienced Timeturners increase radius up to 10 squares.
 desc: Uniques are not affected.
 desc: You take 1d3 points of damage for every monster removed.
 desc: Side-effect: you won't be able to teleport for 5 turns.
 desc: Cooldown 240 turns.
 
-spell:Time Shield:25:30:48:75:0
+spell:Erase:25:4:1:50:0
+# HCed mana
+effect:SHORT_BEAM:MISSILE:2
+dice:$B
+expr:B:PLAYER_LEVEL:* 10
+effect:SHORT_BEAM:TIME:2
+dice:$B
+expr:B:PLAYER_LEVEL:* 10
+effect:SHORT_BEAM:MON_POLY:2
+dice:$B
+expr:B:PLAYER_LEVEL:+ 0
+effect:RANDOM
+dice:3
+msg_other: snaps fingers toward the target.
+desc:Attempts to erase the target from the current timeline.
+desc: May hit up to two nearby creatures within 2 tiles,
+desc: though it may sometimes polymorph them instead.
+desc: Deals time damage that scales with your level and
+desc: is sometimes irresistible.
+desc: Each use drains a bit of extra mana.
+
+spell:Curvature of Space:30:25:70:100:0
+effect:TIMED_SET:PROBTRAVEL
+dice:3
+msg_other: breaks the space/time continuum.
+desc:Allows you to rewind time to move up to previous levels.
+desc: This effect lasts for 3 turns.
+
+spell:Time Shield:35:25:1:150:0
 effect:TIMED_SET:MANASHIELD
 dice:$B
 expr:B:PLAYER_LEVEL:+ 10
@@ -7766,48 +7810,15 @@ desc:Creates a time shield around you that absorbs all damage
 desc: inflicted to your character... as long as you have mana
 desc: to fuel it.
 
-spell:Curvature of Space:30:40:90:100:0
-effect:TIMED_SET:PROBTRAVEL
-dice:$B
-expr:B:PLAYER_LEVEL:+ 0
-msg_other: breaks the space/time continuum.
-desc:Allows you to rewind time to move up to previous levels.
-
-spell:Reformation:35:50:35:150:0
-cooldown:4
-effect:MELEE_BLOWS:PSI_DRAIN
-dice:$B
-expr:B:PLAYER_LEVEL:* 2
-desc:Drains part of the life-force from a nearby target and replenishes
-desc: your mana with it. Does not affect undead, demons, golems, elementals or
-desc: vortices.
-desc: Cooldown 4 turns.
-
 spell:Temporal Paradox:40:50:35:200:0
 cooldown:120
-effect:TIMED_SET:ANCHOR
-dice:10
 effect:TIMED_INC:FASTCAST
 dice:$B+1d20
 expr:B:PLAYER_LEVEL:+ 0
-desc:Temporary doubles spellcasting speed and grants you resistance to
-desc: gravity and time.
-desc: Watch out, this also prevents any means of teleportation around you
-desc: for 10 turns!
+desc:Increases spellcasting speed by 33% some time.
 desc: Cooldown 120 turns.
 
-spell:Time Forward:45:1:30:250:0
-cooldown:90
-effect:RECALL
-dice:7+1d10
-desc:Rewinds time moving you from the dungeon back to the town or from the town
-desc: to the deepest level you have visited in the dungeon.
-desc: The effect can be almost immediate, but sometimes it's somewhat delayed.
-desc: During that delay, the effect can be canceled by invoking the prayer
-desc: of recall again.
-desc: Cooldown 90 turns.
-
-spell:Time Wave:50:25:46:300:0
+spell:Time Wave:45:25:46:300:0
 cooldown:11
 effect:ARC:CHAOS:0:30
 dice:$B
@@ -8018,26 +8029,29 @@ equip:magic book:[Magic for Beginners]:1:1:none
 #msg_other: carefully looking around.
 #desc:Prepare to look for rare reagents used in alchemy.
 
-spell:Acid Fog:1:0:5:1:0
+# spell:name:level:mana:fail:exp:sproj
+spell:Acid Fog:1:0:1:1:0
+effect:SHORT_BEAM:KILL_WALL:1
+dice:10
 effect:SHORT_BEAM:ACID:2
 dice:1d$D
-expr:D:PLAYER_LEVEL:/ 5 + 3
+expr:D:PLAYER_LEVEL:/ 5 + 5
 msg_other: splashed some acid.
 desc:Envelops target with a sparse acid fog.
-desc: Target grid must be targetable and known to the player.
+desc: Its strange mix eats through stone and crumbles walls.
 desc: Does not require mana.
 
-spell:Herbalism:1:1:15:32:0
-cooldown:75
+spell:Herbalism:1:1:1:1:0
+cooldown:60
 effect:HEAL_HP
 dice:$B+m$M
 expr:B:PLAYER_LEVEL:+ 1
 expr:M:PLAYER_LEVEL:/ 3 + 12
 desc:You collect magical healing herbs from time to time which, when applied,
 desc: cures your wounds.
-desc: Cooldown 75 turns.
+desc: Cooldown 60 turns.
 
-spell:Brew a Potion:1:1:30:5:0
+spell:Brew a Potion:1:1:30:1:0
 effect:ALCHEMY
 effect:TIMED_INC:OCCUPIED
 dice:$B
@@ -8114,12 +8128,12 @@ magic:1:350:1
 book:travel guide:town:[Basics]:3:common
 equip:travel guide:[Basics]:1:1:none
 
-spell:Crafting Mastery:1:1:30:5:0
+spell:Crafting Mastery:1:1:30:1:0
 effect:CRAFT
 msg_other: starts recrafting an item.
 desc:You try to recraft an item.
 
-spell:Create Sentry:5:1:20:1:0
+spell:Create Sentry:1:1:1:1:0
 cooldown:6
 effect:TIMED_INC:SENTRY
 dice:2
@@ -8127,7 +8141,7 @@ effect:SPEND_MANA
 dice:$B
 expr:B:PLAYER_LEVEL:/ 3
 msg_other: activates sentry.
-desc:Setup battle sentry.
+desc:Deploys a stationary sentry that attacks enemies automatically.
 desc:  1 level: blade sentry
 desc: 10 level: dart sentry
 desc: 20 level: spear sentry
@@ -8136,7 +8150,9 @@ desc: 40 level: fire sentry
 desc: 50 level: lightning sentry
 desc: Requires additional mana when you get each level.
 desc: If you cast the spell without enough mana - you suffer severe exhaustion.
-desc: You don't need additional material to create it.
+desc: No additional materials are needed to create it.
+desc: You can detonate the sentry manually using the '_' key.
+desc: Its explosion damage increases every 5 levels.
 desc: Cooldown 6 turns.
 
 spell:Build Walls:10:5:44:30:0

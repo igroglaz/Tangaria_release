@@ -507,6 +507,7 @@ msg:A savage rage fills you!
 desc:fills you with combat fury but drains your constitution and
 desc: occasionally sends you into uncontrolled rage
 
+# TODO: rename
 name:shadow_binding
 #type:cloak
 combat:-5:0:15
@@ -565,16 +566,18 @@ effect:SUMMON:MONSTER:0:-1
 dice:1
 time:100+1d1500
 msg:A hissing voice whispers: 'Mine... it's mine!'
+desc:clouds your thoughts and draws hostile creatures near
 
 name:treachery
 effect:DAMAGE
 dice:$B
-expr:B:WEAPON_DAMAGE:+ 0
+expr:B:WEAPON_DAMAGE:+ 1
 time:1d2000
 effect:TIMED_INC:POISONED
 dice:5+1d10
 time:1d1000
 msg:It whispers: 'Strike when they trust you most...'
+desc:poisons your strikes and urges betrayal at the worst moment
 
 name:strangling
 type:gloves
@@ -587,7 +590,7 @@ type:dragon armour
 type:amulet
 effect:DAMAGE
 dice:$B
-expr:B:WEAPON_DAMAGE:+ 0
+expr:B:WEAPON_DAMAGE:+ 1
 time:1d200
 msg:Your equipment tries to strangle you!
 desc:your gear occasionally tries to strangle you
