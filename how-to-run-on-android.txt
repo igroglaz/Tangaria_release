@@ -1,0 +1,56 @@
+How to run Tangaria on Android using Termux (guide by Serega88)
+
+======
+https://termux.dev
+
+--- Install F-Droid.apk https://f-droid.org
+
+Run F-Droid -> Search: 'Termux' ('Markor' ;-)) -> Install ("designed for an older version of android" - install anyway)
+
+--- Run Termux
+~ $ pkg update
+~ $ pkg upgrade
+
+~ $ pkg install wget
+~ $ pkg install whiptail
+~ $ pkg install build-essential
+~ $ pkg install autoconf
+~ $ pkg install ncurses
+
+! needs at least an 80x24 'curses' screen
+*** use two finger gestures to control the text size/zoom level
+    https://wiki.termux.com/wiki/Hardware_Keyboard
+    https://wiki.termux.com/wiki/Touch_Keyboard
+*** swipe right on the left side of termux app for 'New session' - server './pwmangband-launcher.sh'
+
+~ $ pkg wget https://raw.githubusercontent.com/igroglaz/Tangaria_release/master/tangaria-setup.sh
+~ $ chmod +x ./tangaria-setup.sh
+~ $ ./tangaria-setup.sh
+
+*** (use Up/Down, Space, Tab, Enter keys)
+Client -> (*) curses (terminal)
+Update -> [*] Download Tangaria, [*] Unpack Tangaria, [disable] Install Tangaria_release ..
+Install >>>------>
+
+~ $ ls
+~ $ cd ./Tangaria
+~ $ ./pwmangclient-launcher.sh
+or
+~ $ ./Tangaria/pwmangclient-launcher.sh
+
+edit '.pwmangrc' file:
+~ $ cd ~
+~ $ nano .pwmangrc
+* full path $ nano ~/.pwmangrc
+ctrl+o - save
+ctrl+x - exit
+
+terminal commands: 'clear', 'cd ~' <- home dir, 'cd ../', 'ls', 'exit'
+
+terminal programs:
+~ $ pkg install nano htop mc tmux
+nano - text editor
+htop - interactive process viewer
+mc - file manager
+tmux - is a terminal multiplexer
+       https://github.com/tmux/tmux/wiki
