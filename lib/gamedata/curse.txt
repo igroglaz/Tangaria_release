@@ -74,6 +74,10 @@
 #/// Note: if you don't specify any 'type' for a curse,
 #/// it won't appear on randarts or any other items (good for truearts/nazgul rings)
 
+### DO NOT CHANGE ORDER OF CURSES.
+### cause we use 'nazgul' curse id in the code - 28 (counting from 0)
+
+### time: - should be 1 per curse! affect whole curse, not effect
 
 name:vulnerability
 combat:0:0:-50
@@ -393,33 +397,13 @@ desc:distorts your features
 # for nazgul rings (and other rings too)
 # ~ combined rate of any effect happening at a given point in time is approximately
 # 0.5% per turn. 1 in 200 turns will trigger something
-#
-# All harsh status effects must be possible to cure with pot,
-# so eg confusion or blindness won't block 'r'eading 'teleport scroll for long in deadly situation
+# id #28
 name:nazgul
 type:ring
-effect:SUMMON:MONSTER:0:-2
-dice:1
-time:100+1d1000
-effect:TELEPORT
-dice:40
-time:100+1d2500
-effect:TIMED_INC_NO_RES:IMAGE_REAL
-dice:2+d8
-time:100+1d2500
-effect:TIMED_INC_NO_RES:BLIND
-dice:1+d8
-time:100+1d5000
-# can be cured by !
-effect:TIMED_INC_NO_RES:CONFUSED
-dice:1+d8
-time:100+1d5000
-effect:TIMED_INC_NO_RES:POISONED
+effect:TIMED_INC:INVIS
 dice:10+d10
-time:1d1000
-effect:WAKE
-time:100+1d5000
-msg:The ring whispers something!
+time:1d200
+msg:The ring whispers something and turn you invisible!
 desc:bends your will
 
 name:misfortune
@@ -456,6 +440,7 @@ msg:Your equipment compels you to fight!
 desc:improves your combat abilities but weakens your defenses and
 desc: regularly summons enemies to fight
 
+# TODO: rework.. (as only 1 time: works, so all effects triggered at once)
 name:chaos attunement
 #type:helm
 #type:crown
@@ -520,6 +505,7 @@ msg:Shadows envelop you.
 desc:binds shadows to you for protection and occasional invisibility
 desc: but instills fear and reduces vision
 
+# TODO: rework.. (as only 1 time: works, so all effects triggered at once)
 name:mental intruder
 #type:helm
 #type:crown
@@ -543,6 +529,7 @@ desc:grants telepathy and intelligence at the cost of wisdom and coordination
 conflict-flags:IMPAIR_MANA
 
 # idea is to cast it randomly (on contrast with One Ring activation)
+# TODO: rework.. (as only 1 time: works, so all effects triggered at once)
 name:eldritch
 #type:amulet
 #type:ring
@@ -557,11 +544,14 @@ time:1d10000
 msg:Reality warps unpredictably around you!
 desc:warps reality around you, causing powerful but unpredictable magical effects
 
+# TODO: rework.. (as only 1 time: works, so all effects triggered at once)
 name:whispers
 # curable
-effect:TIMED_INC_NO_RES:CONFUSED
-dice:5+1d5
-time:1d1000
+#effect:TIMED_INC_NO_RES:CONFUSED
+#dice:5+1d5
+#time:1d1000
+effect:TIMED_INC:POISONED
+dice:5+1d10
 effect:SUMMON:MONSTER:0:-1
 dice:1
 time:100+1d1500
@@ -572,7 +562,6 @@ name:treachery
 effect:DAMAGE
 dice:$B
 expr:B:WEAPON_DAMAGE:+ 1
-time:1d2000
 effect:TIMED_INC:POISONED
 dice:5+1d10
 time:1d1000

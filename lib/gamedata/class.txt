@@ -4063,6 +4063,9 @@ expr:B:PLAYER_LEVEL:+ 10
 expr:M:PLAYER_LEVEL:/ 3 + 12
 desc:Cures a level-dependent percentage of your wounds and heals 20 points worth
 desc: of cuts and stunning.
+desc: When you cast it, choose a target:
+desc: m1d(t to cast on another
+desc: m1d(5 to cast on yourself
 
 spell:Portal:7:5:30:5:0
 effect:TELEPORT
@@ -4861,6 +4864,7 @@ desc: dungeon level.
 desc: This spell has no effect when used in the town (#%d).
 
 
+# one of Tom Bombadil apprentices.. call himself 'villager'...
 ############### VILLAGER ###############
 name:Villager
 color:W
@@ -4885,10 +4889,12 @@ equip:scroll:Satisfy Hunger (tattered):3:3:none
 equip:potion:Cure Light Wounds:2:3:birth_no_recall
 equip:scroll:Phase Door:3:4:birth_no_recall
 player-flags:0:CHOOSE_SPELLS | SUMMON_PERMA | CAN_FARM
+#/// +cat
+#/// pass trees
+#/// at 30+ can summon animal which is SUMMON_PERMA
+#/// when Hungry - can steal veggies from T fields
+# -
 obj-flag:0:CLUMSY
-# - CLUMSY (so a bit harder to play than PWMA)
-# summon (spell) pet
-# when Hungry - can steal veggies from T fields
 title:Rambler
 title:Walker
 title:Tripper
@@ -4909,51 +4915,79 @@ book-alloc:40:1 to 100
 book-desc:A standard travel guide with a few tasks.
 equip:travel guide:[Basics]:1:1:none
 
-## TODO: rework this. must be a dog. for now just limited in by lvl in code
-spell:Summon Pet:1:1:22:4:0
+spell:Flash of Morning:1:1:1:1:0
+effect:BEAM:LIGHT_WEAK
+dice:2d$S
+expr:S:PLAYER_LEVEL:* 2
+effect:LIGHT_AREA
+desc:You call out for the sun - and it answers with a warm flash.
+desc: Sends a narrow beam of light ahead and lights up the room if indoors.
+desc: Hurts creatures that don't like brightness.
+
+spell:Magic Seeds:5:1:1:1:0
 cooldown:15
-effect:SUMMON:ANIMAL:0:100
-dice:1
-msg_other: summons a pet.
-desc:Attempts to summon one pet generated at the current dungeon level.
-desc: This spell has no effect when used in the town.
+effect:CREATE_TREES
+desc:Grow trees around you.
 desc: Cooldown 15 turns.
 
-spell:Find Doors:5:1:10:4:0
-effect:DETECT_DOORS
-effect-yx:11:20
-desc:Finds doors in the immediate area.
-
-spell:Find Stairs:10:3:18:12:0
-effect:DETECT_STAIRS
-effect-yx:11:20
-desc:Finds stairs in the immediate area.
-
-spell:Find Traps:15:5:26:20:0
-effect:DETECT_TRAPS
-effect-yx:11:20
-desc:Finds traps in the immediate area.
-
-spell:Town Patrol:20:7:34:30:0
+spell:Sniff the Wind:10:1:10:4:0
+cooldown:120
 effect:DETECT_VISIBLE_MONSTERS
-effect-yx:11:20
-desc:Detects all non-invisible monsters in the immediate area,
+effect-yx:22:40
+effect:DETECT_DOORS
+effect-yx:22:40
+effect:DETECT_STAIRS
+effect-yx:22:40
+effect:DETECT_TRAPS
+effect-yx:22:40
+desc:Finds doors, stairs, traps in the immediate area.
+desc:Also detects all non-invisible monsters in the immediate area,
 desc: for one turn only.
+desc: Cooldown 120 turns.
 
-spell:Poison Brand:25:9:42:40:0
-effect:TIMED_SET:ATT_POIS:0:5
-dice:20+1d20
-desc:Temporarily covers your weapon with poison.
-
-spell:Craft Door:30:11:50:50:0
-effect:SHORT_BEAM:MAKE_DOOR:1:1
-desc:Creates a door (closed, but not locked) next to you.
-
-spell:Poison Shots:40:18:66:80:0
-effect:BOW_BRAND_SHOT:POIS
+spell:Skip-Hop:15:3:18:12:0
+cooldown:11
+effect:TELEPORT
 dice:5
-desc:Temporarily covers your missiles with poison.
+effect:TIMED_SET:SPEEDY:0:5
+dice:5+1d5
+desc:Teleports you several tiles and grants a brief speed boost.
+desc: Cooldown 11 turns.
 
+spell:Dew Catcher:20:5:26:20:0
+cooldown:30
+effect:CURE:POISONED
+effect:HEAL_HP
+dice:$B
+expr:B:PLAYER_LEVEL:* 3
+msg_other: gently cups hands and drinks morning dew.
+desc:Heals a tiny bit of HP by catching dew from the air. Cures poison.
+desc: Cooldown 30 turns.
+
+spell:Commanding Chant:25:9:42:40:0
+effect:SHORT_BEAM:SOUND:2
+dice:$B
+expr:B:PLAYER_LEVEL:* 7
+msg_other: chants firmly - the air around trembles!
+desc:A commanding chant ripples outward, forcing nearby creatures to obey - or break.
+desc: The power fades quickly; only those right beside you are struck.
+
+spell:Whistle Friend:30:30:1:2:0
+effect:SUMMON:ANIMAL:0:100
+dice:1
+msg_other: whistles into the wind - and something answers.
+desc:You let out a soft whistle or hum, just the way forest folk do.
+desc: Some friendly creature hears - and comes to walk beside you.
+desc: This spell does nothing in town.
+
+spell:Shoo Now:35:50:90:100:0
+cooldown:300
+effect:MASS_BANISH
+msg_other: murmurs something old - and things disappear one by one.
+desc:You sing a verse that leaves no room for argument.
+desc: Most creatures nearby simply vanish - sent somewhere far from here.
+desc: Each one gone takes a bit of your strength with it.
+desc: Cooldown 300 turns.
 
 ############### TAMER ###############
 name:Tamer
@@ -5118,20 +5152,18 @@ effect:TIMED_INC:REGEN_PET
 dice:$B
 expr:B:PLAYER_LEVEL:/ 10 + 1
 desc:You treat your pet so it regenerates its wounds.
-desc: You can use this skill once per 60 turns.
+desc: Cooldown 60 turns
 
 spell:Cat Magnetism:35:30:63:50:0
+cooldown:240
 effect:TIMED_SET:STEALTH
-dice:10+1d10
+dice:30+1d10
 effect:TIMED_SET:SINFRA
-dice:10+1d10
-effect:SPEND_MANA
-dice:$B
-expr:B:PLAYER_LEVEL:/ 2
+dice:30+1d10
 desc:Grants infravision and ability to walk silently.
-desc: The mana cost depends on your level.
+desc: Cooldown 240 turns
 
-spell:Shoo:40:75:55:50:0
+spell:Shoo:40:50:55:50:0
 effect:PROJECT_LOS_AWARE:AWAY_ANIMAL
 dice:100
 msg_self:The power of nature banishes animals!
@@ -6693,14 +6725,18 @@ expr:D:PLAYER_LEVEL:- 10
 msg_other: fires a mana bolt!
 desc:Shoots a bolt that does irresistible damage.
 
-spell:Dimension Shift:30:17:35:40:0
-cooldown:100
-effect:DETECT_STAIRS
-effect-yx:22:40
-effect:DETECT_DOORS
-effect-yx:22:40
-effect:DETECT_TRAPS
-effect-yx:22:40
+spell:Make Passage:30:10:1:35:0
+effect:SHORT_BEAM:KILL_WALL:10
+dice:$B
+expr:B:PLAYER_LEVEL:* 4
+msg_other: makes a moving gesture.
+desc:Produces a beam that destroys the first section of wall it hits,
+desc: unless it is a permanent wall. Each monster caught in the beam that
+desc: is susceptible to rock remover takes damage.
+desc: Maximum beam range is 10 tiles.
+
+spell:Dimension Shift:33:17:35:40:0
+cooldown:300
 effect:MAP_AREA
 effect-yx:22:40
 effect:TIMED_INC:WRAITHFORM
@@ -6709,20 +6745,20 @@ effect:TELEPORT_LEVEL
 desc:Teleports you 1 level up or 1 level down (chosen at random) and
 desc: grants you the ability to pass through non-permanent walls for a moment.
 desc: Upon arrival, you know the place like the back of your hand.
-desc: Cooldown 100 turns.
+desc: Cooldown 300 turns.
 
-spell:Acid Breath:33:11:30:50:0
-cooldown:60
-# hc 1d4 (up to x12)
-effect:BREATH:ACID:0:30
-dice:$Dd8
-expr:D:PLAYER_LEVEL:+ 0
-msg_other: breathes acid.
-desc:Breathes acid in a wide cone.
-desc: The damage of the breath increases with your level (up to x12).
-desc: Cooldown 60 turns.
+spell:Energy Bolt:35:13:27:90:0
+cooldown:11
+#stun monsters
+effect:BALL:PLASMA:2
+dice:$B
+expr:B:PLAYER_LEVEL:* 10
+msg_other: fires an energy bolt.
+desc:Shoots an energy bolt which explode upon impact.
+desc: It might stun target.
+desc: Cooldown 11 turns.
 
-spell:Dark Ritual:35:12:32:70:0
+spell:Dark Ritual:40:12:32:70:0
 cooldown:30
 # hc 1d5
 effect:TIMED_INC_NO_RES:BLIND_REAL
@@ -6744,25 +6780,19 @@ desc: The mapped area grows larger with your level.
 desc: The damage of the dark magic increases with your level.
 desc: Cooldown 30 turns.
 
-spell:Energy Bolt:40:13:27:90:0
-#stun monsters, slow and burn caster
-effect:DAMAGE
-dice:2
-effect:BALL:PLASMA:2
-dice:$B
-expr:B:PLAYER_LEVEL:* 5
-effect:BOLT:PLASMA
-dice:$B
-expr:B:PLAYER_LEVEL:* 5
-msg_other: fires an energy bolt.
-desc:Shoots an energy bolt which explode upon impact.
-
-spell:Frozen Orb:45:40:40:100:0
-effect:ARC:ICE:0:30
+spell:Acid Breath:45:40:40:100:0
+effect:ARC:ACID:0:30
 dice:$B
 expr:B:PLAYER_LEVEL:* 7
-msg_other: subzeroes the air into sharp icicles.
-desc:Sends forward sharp icicle storm.
+msg_other: breathes acid.
+desc:Breathes acid in a wide cone.
+
+#spell:Frozen Orb:45:40:40:100:0
+#effect:ARC:ICE:0:30
+#dice:$B
+#expr:B:PLAYER_LEVEL:* 7
+#msg_other: subzeroes the air into sharp icicles.
+#desc:Sends forward sharp icicle storm.
 
 spell:Pure Magic:47:50:40:150:0
 # testing note: won't work on the surface as number of Meteors depends of depth
@@ -6819,13 +6849,11 @@ skill-disarm-phys:26:9
 skill-disarm-magic:22:9
 skill-device:19:8
 skill-save:18:9
-# 2:0
-skill-stealth:1:1
+skill-stealth:0:0
 skill-search:15:15
 skill-melee:45:20
 skill-shoot:40:30
 skill-dig:0:0
-# 4
 hitdie:5
 max-attacks:4
 min-weight:35
@@ -6843,9 +6871,11 @@ value:0:WIS[0]
 value:0:DEX[-1]
 value:0:CON[-1]
 value:0:CHR[0+1d10]
-#/// +cat
-# can sell items to NPC, but can't join parties
-# + less speed penalty due overweight
+#/// AUTO-ID when equip items
+#/// can sell items to NPC, but can't join parties
+#/// + less speed penalty due overweight
+#/// CHR give big boni to reduce fail chance for spellcasting
+#/// (also CHR is his main stat - mana amount depends on it (HCed))
 # maybe add skills:
 # Haggle or Golden Tongue - gives discount when buying items
 # Coin Call - Summons nearby loose coins and currency directly to the caster's hand.
@@ -6870,7 +6900,7 @@ magic:1:350:2
 book:travel guide:town:[Basics]:15:common
 equip:travel guide:[Basics]:1:1:none
 
-spell:Small Red Potion:1:1:1:32:0
+spell:Small Red Potion:1:1:1:1:0
 cooldown:10
 effect:HEAL_HP
 dice:$B+m$M
@@ -6883,16 +6913,20 @@ desc: its curative powers.
 desc: Cooldown 10 turns.
 desc: NOTE! Cooldowns restore ONLY while inside the dungeon.
 
-spell:Small Blue Potion:3:1:1:32:0
-cooldown:42
-effect:RESTORE_MANA
-dice:50
-desc:The cerulean luminescence of this potion speaks to its rarity.
-desc: Once earmarked for a lucrative deal, now it proves invaluable.
-desc: With a sip, a surge of arcane energy restores your dwindling reserves.
-desc: Cooldown 42 turns.
+spell:Bribe:3:1:1:3:0
+effect:SHORT_BEAM:COMMAND:1
+msg_other: tries to settle matters with coin.
+desc:Seeks to sway a single humanoid with coin and quiet words.
+desc: Must be close enough to make the deal feel personal.
+desc: Unique beings remain steadfast.
 
-spell:Town Portal:5:3:1:5:0
+spell:Merchant Scent:5:3:1:5:0
+effect:DETECT_TREASURES
+effect-yx:22:40
+desc:Merchants with keen senses and this spell can feel the pull of treasures
+desc: hidden by time and magic, making no hoard truly hidden from their gaze.
+
+spell:Town Portal:7:5:1:10:0
 effect:RECALL
 dice:12+1d10
 desc:A portal between the bustling town and the treacherous dungeon's depths.
@@ -6902,12 +6936,6 @@ desc: The recall effect is not immediate; it is delayed by some turns.
 desc: During that delay, the effect can be canceled by invoking the prayer
 desc: of recall again.
 
-spell:Merchant Scent:7:5:1:10:0
-effect:DETECT_TREASURES
-effect-yx:22:40
-desc:Merchants with keen senses and this spell can feel the pull of treasures
-desc: hidden by time and magic, making no hoard truly hidden from their gaze.
-
 spell:Teleportation:10:7:1:15:0
 effect:TELEPORT
 dice:$B
@@ -6916,45 +6944,30 @@ msg_other: blinks away.
 desc:An emergency incantation, taught to every trader for dire situations.
 desc: Teleports you randomly to a certain distance (depending on your level).
 
-spell:Pray:15:11:1:20:0
+spell:Small Blue Potion:15:1:1:30:0
+cooldown:42
+effect:RESTORE_MANA
+dice:50
+desc:The cerulean luminescence of this potion speaks to its rarity.
+desc: Once earmarked for a lucrative deal, now it proves invaluable.
+desc: With a sip, a surge of arcane energy restores your dwindling reserves.
+desc: Cooldown 42 turns.
+
+spell:Pray:20:11:1:20:0
 effect:WONDER
 dice:$B+1d100
 expr:B:PLAYER_LEVEL:/ 5
 desc:In times of uncertainty, merchants beseech the old gods of trade and
 desc: fortune, hoping for a boon... or bracing for a curse.
 
-spell:Repair Armour:20:10:1:30:0
-cooldown:2
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:DEC_BY
-dice:0
-effect:RANDOM
-dice:2
-effect:TIMED_INC:OCCUPIED
-dice:2+1d5
-effect:ENCHANT:TOAC
-dice:1
-desc:Armor, like any investment, requires care.
-desc: This prayer reduces your nourishment.
-desc: Cooldown 2 turns.
-
 spell:Sharpen Weapon:25:10:1:30:0
-cooldown:2
-effect:NOURISH:DEC_BY
-dice:1
-effect:NOURISH:DEC_BY
-dice:0
-effect:RANDOM
-dice:2
+cooldown:300
 effect:TIMED_INC:OCCUPIED
 dice:2+1d5
 effect:ENCHANT:TOBOTH
 dice:1
-desc:Ensuring one's blade is sharp can mean the difference between
-desc: success and failure.
-desc: This prayer reduces your nourishment.
-desc: Cooldown 2 turns.
+desc:A sharper blade means better damage... and a better price tag.
+desc: Cooldown 300 turns.
 
 spell:Recharging:30:17:1:40:0
 effect:RECHARGE
@@ -6982,10 +6995,14 @@ desc:A merchant's intuition, enhanced by magic, reveals hidden pathways and
 desc: banishes darkness. It's said that this spell channels the very first dawn,
 desc: revealing threats and secrets alike.
 
-spell:Identification:37:37:1:80:0
-effect:IDENTIFY
-desc:The world is full of enigmatic artifacts. With this spell, their secrets
-desc: unfold, revealing their purpose and power.
+spell:Free Speed Potion:37:37:1:80:0
+cooldown:60
+effect:TIMED_SET:SPEEDY:0:5
+dice:$B+1d20
+expr:B:PLAYER_LEVEL:+ 0
+desc:A quick sip from your own stash puts an extra spring in your step.
+desc: Who says a trader can't sample the goods?
+desc: Cooldown 60 turns.
 
 spell:Tunnel:40:12:1:25:0
 effect:SHORT_BEAM:KILL_WALL:1
@@ -7856,7 +7873,7 @@ value:0:WIS[-2]
 value:0:DEX[2]
 value:0:CON[0]
 value:0:CHR[-1]
-# got rat
+#/// Rat pet
 # cant join party
 # disassemble: 20+ ego, 30 randart, 40 trueart
 # + less speed penalty due overweight
@@ -8160,6 +8177,11 @@ effect:SHORT_BEAM:STONE_WALL:1:1
 effect:TIMED_INC:OCCUPIED
 dice:5+1d5
 desc:Raises a wall one tile away in the chosen direction.
+
+# TODO.. ADD:
+#spell:Craft Door:30:11:50:50:0
+#effect:SHORT_BEAM:MAKE_DOOR:1:1
+#desc:Creates a door (closed, but not locked) next to you.
 
 
 ############### Inquisitor ###############
