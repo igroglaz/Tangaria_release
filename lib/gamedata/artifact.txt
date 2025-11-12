@@ -243,7 +243,7 @@ armor:0:0
 flags:SEE_INVIS | NO_FUEL
 values:LIGHT[4]
 act:MAPPING
-time:50+d50
+time:200+d50
 desc:The shining Star of the North, a treasured heirloom of Elendil's house.
 
 name:of Thrain
@@ -257,7 +257,7 @@ armor:0:0
 flags:SEE_INVIS | HOLD_LIFE | NO_FUEL
 values:LIGHT[4] | RES_LIGHT[1] | RES_DARK[1]
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 desc:A great globe seemingly filled with moonlight, the famed Heart of the
 desc: Mountain. It splinters the light that falls upon it into ten thousand
 desc: sparks of white radiance shot with glints of the rainbow.
@@ -274,7 +274,7 @@ values:INT[2] | WIS[2] | INFRA[3] |  SEARCH[3] | LIGHT[4]
 flags:NO_FUEL | SEE_INVIS | ESP_ALL | PROT_BLIND | PROT_STUN |
 #
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 msg:The palantir clouds, then clears...
 desc:A great globe with a heart of fire, the Palantir provides the wearer with
 desc: sight of far places - at a cost...
@@ -964,7 +964,7 @@ desc: bathe it in the blood of your foes.
 
 name:'Firestar'
 base-object:hafted:Morning Star
-level:20:35
+level:20:25
 weight:150
 alloc:7:25 to 100
 attack:2d6:15:17
@@ -1012,7 +1012,7 @@ desc: crackle around its massive head.
 
 name:'Taratol'
 base-object:hafted:Mace
-level:20
+level:20:35
 weight:120
 alloc:7:20 to 100
 attack:3d6:12:12
@@ -1085,7 +1085,7 @@ flags:SEE_INVIS | ESP_EVIL
 values:INT[4] | WIS[4] | LIGHT[1] | RES_LIGHT[1]
 slay:EVIL_2
 act:DETECT_TREASURE
-time:50+d50
+time:100+d50
 desc:The radiant golden staff of an Istar of legend, this wizard's companion
 desc: grants keen sight and clear knowledge of many hidden things.
 
@@ -2073,7 +2073,7 @@ desc: silent, hasted movement.
 
 name:of Feanor
 base-object:boots:Pair of Leather Boots
-level:40:20
+level:40:30
 weight:20
 alloc:1:40 to 127
 attack:1d1:0:0
@@ -2139,7 +2139,7 @@ attack:1d1:5:5
 armor:4:30
 values:STR[3] | INFRA[3] | SEARCH[3] | TUNNEL[3]
 act:MAPPING
-time:50+d50
+time:200+d50
 desc:A set of iron-shod boots stamped by Gimli's combat prowess, a peerless
 desc: ally to those journeying through halls of stone under mountains.
 
@@ -2721,7 +2721,7 @@ desc: nothing else can.
 
 name:'Colluin'
 base-object:cloak:Cloak
-level:5
+level:5:12
 weight:10
 alloc:2:5 to 100
 attack:0d0:0:0
@@ -2734,7 +2734,7 @@ desc: of Elements.
 
 name:'Holcolleth'
 base-object:cloak:Cloak
-level:5
+level:5:13
 weight:10
 alloc:5:5 to 100
 attack:0d0:0:0
@@ -2748,7 +2748,7 @@ desc: the Sindar.
 
 name:of Thingol
 base-object:cloak:Cloak
-level:5
+level:5:62
 weight:10
 alloc:5:5 to 100
 attack:0d0:0:0
@@ -2775,7 +2775,7 @@ desc: and sea.
 
 name:'Colannon'
 base-object:cloak:Cloak
-level:5
+level:5:26
 weight:10
 alloc:5:5 to 100
 attack:0d0:0:0
@@ -2929,8 +2929,9 @@ weight:25
 alloc:5:10 to 100
 attack:1d1:-12:-12
 armor:3:0
-flags:FREE_ACT | AGGRAVATE | SLOW_DIGEST_2
+flags:FREE_ACT | SLOW_DIGEST | SLOW_DIGEST_2
 values:STR[-3] | DEX[-3] | RES_FIRE[1] | RES_DISEN[1] | SPEED[3]
+curse:nazgul:100
 desc:A pair of weakening gauntlets, named after Beren, who returned to Thingol
 desc: having lost to Carcharoth the hand that clasped a Silmaril.
 
@@ -2981,6 +2982,7 @@ base-object:gloves:Set of Caestus
 level:40
 weight:40
 alloc:0:40 to 127
+# enough to give malus to shooting
 attack:1d1:-50:-50
 armor:5:30
 flags:AFRAID | SEE_INVIS | REGEN | FREE_ACT | ESP_ALL | PROT_BLIND |
@@ -2988,7 +2990,9 @@ flags:SUST_STR | SUST_INT | SUST_WIS | SUST_DEX | SUST_CON |
 flags:FEATHER | HOLD_LIFE
 values:SEARCH[3] | INFRA[3] | STEALTH[3] | LIGHT[1] |
 values:RES_FIRE[1] | RES_COLD[1] | RES_ELEC[1] | RES_ACID[1] |
-values:RES_POIS[1] | RES_DISEN[1] | RES_NETHER[1] | RES_CHAOS[1]
+values:RES_POIS[1] | RES_DISEN[1] | RES_NETHER[1] | RES_CHAOS[1] |
+# as AFRAID doesn't prevent casting (only ^fail chance), some nerf:
+values:WIS[-5] | INT[-5]
 desc:When danger reared its ugly head, he bravely turned his tail and fled...
 
 name:of the Warlock
@@ -3230,7 +3234,7 @@ flags:HOLD_LIFE | ESP_EVIL | SUST_STR | SUST_CON | LIMITED_TELE
 values:STR[2] | CON[2] | BLOWS[1]
 values:RES_COLD[1] | RES_ACID[1] | RES_DARK[1] | RES_CHAOS[1] | RES_NETHER[1]
 act:DETECT_TREASURE
-time:50+d50
+time:100+d50
 msg:{name} flashs with a blue sparkle...
 desc:The greatest of the Seven Rings of the Dwarf-lords, and the last to be
 desc:lost. Alone among the Seven, it was not taken by Sauron when he made
@@ -3333,7 +3337,7 @@ flags:KNOWLEDGE | PROT_BLIND | AGGRAVATE | STICKY
 values:INT[2] | WIS[2] | SEARCH[3] | INFRA[3] | LIGHT[2] | SPEED[3] |
 values:RES_FIRE[3] | CHR[5]
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 desc:A red jewel, one of the two Silmarils that were reclaimed by the last sons
 desc: of Feanor after the War of Wrath. If the Silmaril taken by Maedhros was
 desc: lost forever into a fiery pit, this Silmaril, once held by Maglor and
@@ -3876,7 +3880,7 @@ armor:0:0
 flags:SEE_INVIS | NO_FUEL
 values:LIGHT[3] | CHR[1]
 act:MAPPING
-time:40+d40
+time:200+d40
 msg:The pearl shines brightly...
 desc:The greatest pearl from the Bay of Balar, its sheen was as starlight on the
 desc: foam of the sea.  It was given to the chieftain of the Dwarves of Belegost
@@ -3929,7 +3933,7 @@ flags:NO_FUEL | SEE_INVIS | ESP_ALL | PROT_BLIND |
 curse:siren:100
 #
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 msg:The palantir clouds, then clears...
 desc:A shining white ball of unbreakable crystal, the ancient Palantiri
 desc: were used by kings of Numenor and later by the Exiles for rapid
@@ -3953,7 +3957,7 @@ flags:STICKY
 curse:undead summon:30
 curse:nazgul:100
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 msg:The palantir clouds, then clears...
 desc:A shining white ball of unbreakable crystal, the ancient Palantiri
 desc: were used by kings of Numenor and later by the Exiles for rapid
@@ -3976,7 +3980,7 @@ curse:hallucination:100
 curse:siren:30
 #
 act:CLAIRVOYANCE
-time:50+d50
+time:300+d50
 msg:The palantir clouds, then clears...
 desc:A shining white ball of unbreakable crystal, the ancient Palantiri
 desc: were used by kings of Numenor and later by the Exiles for rapid

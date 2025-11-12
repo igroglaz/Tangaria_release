@@ -16,7 +16,8 @@ help: iffy priests. They are bad at searching, disarming, perception, and
 help: stealth. They are so ugly that a Half-Orc grimaces in their presence.
 help: Half-trolls always have their strength sustained, and they regenerate
 help: quickly like other trolls. They have fair infravision. They require
-help: extra food until they are mature.
+help: extra food until they are mature. |
+help: At a moderate age, they can recover from fear ('y').
 
 race:Human
 help:Humans are.. humans. All others are compared to them.
@@ -831,7 +832,7 @@ help: As they grow older, they become increasingly ethereal, which takes a toll
 help: on their physical form. But everything else swells like it's on magic yeast.
 help: Also they don't like digging. |
 help:|
-help:They are unable to drink potions.|
+help:They are unable to drink potions (but can still use stat potions).|
 help:|
 help:They don't need food, but they consume magic, which they extract from
 help: magical devices - staves and wands. Use '_' to break a device and consume

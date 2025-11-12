@@ -7427,7 +7427,7 @@ weight:0
 experience:80
 blow:BITE:CONFUSE:2d2
 flags:SMART | LEVITATE | COLD_BLOOD
-flags:IM_LIGHT
+flags:IM_LIGHT | RES_MANA
 spell-freq:15
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT
@@ -7523,7 +7523,7 @@ blow:HIT:FIRE:2d6
 blow:HIT:FIRE:2d6
 flags:LEVITATE
 flags:RAND_25 | BASH_DOOR
-flags:IM_FIRE | HURT_COLD
+flags:IM_FIRE | HURT_COLD | RES_PLASMA
 flags:WILD_VOLCANO | WILD_DESERT
 desc:A whirlwind of sentient flame.
 
@@ -7985,7 +7985,7 @@ flags:FORCE_SLEEP | NEVER_MOVE | STUPID | EMPTY_MIND | PWMANG_BASE
 flags:COLD_BLOOD
 flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
-flags:DROP_40
+flags:DROP_40 | RES_MANA
 flags:IM_LIGHT
 spell-freq:100
 innate-freq:25
@@ -9355,7 +9355,7 @@ weight:50
 experience:85
 blow:BITE:HURT:4d5
 flags:RAND_25
-flags:DROP_CORPSE | WILD_ALL
+flags:DROP_CORPSE | WILD_ALL | RES_MANA
 spell-freq:5
 spells:TELE_SELF_TO
 desc:It trying to get on your skin to suck your blood.
@@ -9885,6 +9885,7 @@ flags:COLD_BLOOD
 flags:DROP_40
 flags:NO_STUN | NO_CONF | NO_SLEEP | IM_NEXUS | IM_PLASMA | IM_DISEN | IM_NETHER
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | IM_WATER | NO_SLOW | IM_LIGHT
+flags:RES_MANA
 spell-freq:100
 innate-freq:25
 spells:S_MONSTER | ANIM_DEAD | TRAPS | DARKNESS | HEAL_KIN | HEAL | SLOW
@@ -10237,7 +10238,7 @@ blow:BITE:BLIND:1d2
 blow:SPIT:POISON:1d2
 blow:HIT:DISENCHANT
 flags:SMART | LEVITATE | COLD_BLOOD
-flags:IM_LIGHT
+flags:IM_LIGHT | RES_MANA
 spell-freq:12
 spells:BLINK | CONF | TELE_LEVEL
 spells:TPORT | BLIND
@@ -10879,7 +10880,7 @@ blow:HIT:HURT:3d8
 blow:HIT:HURT:3d8
 flags:COLD_BLOOD
 flags:BASH_DOOR
-flags:IM_POIS | IM_ACID | METAL
+flags:IM_POIS | IM_ACID | METAL | RES_MANA
 flags:FORCE_SLEEP
 flags:NO_STUN
 flags:SWIM_BAD
@@ -11071,7 +11072,7 @@ blow:ENGULF:HURT:1d10
 blow:ENGULF:HURT:1d10
 blow:ENGULF:HURT:1d10
 flags:SMART | LEVITATE
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_MANA
 spell-freq:3
 innate-freq:70
 spells:WHIP | BLINK | TELE_TO
@@ -11264,7 +11265,7 @@ flags:MALE | SMART
 flags:DROP_1 | ONLY_ITEM
 flags:OPEN_DOOR
 flags:FORCE_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | RES_MANA
 spell-freq:3
 spells:BLIND | CONF | TPORT | TELE_AWAY
 spells:BO_COLD | BO_ELEC | BO_FIRE
@@ -12093,7 +12094,7 @@ blow:HIT:HURT:5d5
 flags:COLD_BLOOD | METAL
 flags:DROP_2 | ONLY_GOLD
 flags:BASH_DOOR
-flags:IM_COLD | IM_FIRE | IM_POIS
+flags:IM_COLD | IM_FIRE | IM_POIS | RES_MANA
 flags:NO_STUN
 flags:SWIM_BAD
 desc:It is a massive statue of purest mithril. It looks expensive!
@@ -12611,7 +12612,7 @@ blow:BUTT:HURT:1d9
 flags:ANIMAL
 flags:DROP_CORPSE
 flags:BASH_DOOR | MOVE_BODY
-flags:IM_POIS | RES_ACID | RES_ELEC
+flags:IM_POIS | RES_ACID | RES_ELEC | RES_MANA
 flags:FORCE_SLEEP
 flags:WILD_WOOD
 spell-freq:8
@@ -12692,7 +12693,7 @@ blow:BITE:ELEC:5d4
 flags:ANIMAL | UNIQUE | FEMALE | POWERFUL | PWMANG_BASE | PWMANG_FIXED
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM | NEUTRAL | METAL
 flags:OPEN_DOOR | BASH_DOOR
-flags:NO_CONF | SRES_LIGHT
+flags:NO_CONF | SRES_LIGHT | RES_MANA
 flags:FORCE_DEPTH
 drop:mushroom:Terror:100:7:9
 spell-freq:2
@@ -13178,7 +13179,7 @@ blow:HIT:FIRE:4d6
 blow:HIT:FIRE:4d6
 flags:LEVITATE
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
-flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD
+flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD | RES_PLASMA
 flags:FORCE_SLEEP
 flags:WILD_VOLCANO | WILD_DESERT
 spell-freq:6
@@ -13673,7 +13674,7 @@ blow:HIT:HURT:6d6
 flags:COLD_BLOOD | METAL
 flags:DROP_2 | ONLY_GOLD
 flags:BASH_DOOR
-flags:IM_COLD | IM_FIRE | IM_POIS
+flags:IM_COLD | IM_FIRE | IM_POIS | RES_MANA
 flags:NO_STUN
 flags:SWIM_BAD
 desc:It is a massive deep brown statue, striding towards you with an
@@ -13932,7 +13933,7 @@ flags:MALE | REGENERATE
 flags:DROP_20
 flags:HURT_LIGHT | IM_COLD
 flags:DROP_CORPSE | DROP_SKELETON | WILD_SHORE | WILD_SWAMP
-flags:SWIM_GOOD
+flags:SWIM_GOOD | RES_WATER
 friends:50:1d5:water hound
 friends:100:4d4:Same
 desc:He is a troll that reeks of brine.
@@ -14564,7 +14565,7 @@ weight:0
 experience:900
 blow:HIT:ELEC:3d8
 blow:HIT:ELEC:3d8
-flags:COLD_BLOOD | LEVITATE | METAL
+flags:COLD_BLOOD | LEVITATE | METAL | RES_MANA
 flags:BASH_DOOR
 flags:IM_POIS | IM_LIGHT
 flags:FORCE_SLEEP
@@ -14650,7 +14651,7 @@ flags:BASH_DOOR | KILL_BODY | KILL_ITEM
 flags:IM_ACID | IM_COLD | IM_FIRE
 flags:FORCE_SLEEP
 flags:WILD_SHORE | WILD_SWAMP
-flags:SWIM_NORM
+flags:SWIM_NORM | RES_WATER
 spell-freq:5
 spells:BA_ACID
 spells:BO_ACID
@@ -14766,7 +14767,7 @@ blow:HIT:HURT:6d6
 blow:HIT:HURT:6d6
 flags:COLD_BLOOD | METAL
 flags:BASH_DOOR
-flags:IM_COLD | IM_FIRE | IM_POIS
+flags:IM_COLD | IM_FIRE | IM_POIS | RES_MANA
 flags:NO_STUN
 flags:SWIM_BAD
 desc:An enormous construct resembling a titan made from stone. It strides
@@ -15307,7 +15308,7 @@ blow:HIT:HURT:4d6
 blow:HIT:FIRE:3d7
 flags:POWERFUL
 flags:PASS_WALL | KILL_BODY | KILL_ITEM
-flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD
+flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD | RES_PLASMA
 flags:FORCE_SLEEP
 flags:WILD_VOLCANO
 spell-freq:7
@@ -16550,7 +16551,7 @@ flags:DROP_3 | ONLY_ITEM
 flags:OPEN_DOOR
 flags:NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_SLEEP
-flags:DROP_CORPSE | DROP_SKELETON
+flags:DROP_CORPSE | DROP_SKELETON | RES_MANA
 spell-freq:2
 spells:BLIND | BLINK | WOUND | CONF | TELE_TO | TRAPS
 spells:BA_COLD | BA_FIRE
@@ -16674,7 +16675,7 @@ flags:UNIQUE | SMART
 flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR
 flags:IM_ACID | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_WATER
 flags-off:HURT_COLD
 drop:fortune cookie:Fortune Cookie:50:1:1
 spell-freq:2
@@ -17215,7 +17216,7 @@ blow:HIT:HURT:2d8
 flags:MALE | EVIL | SMART
 flags:DROP_3 | ONLY_ITEM
 flags:HURT_LIGHT | NO_CONF | NO_SLEEP | NO_HOLD
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_MANA
 flags:DROP_CORPSE | DROP_SKELETON
 spell-freq:2
 spells:BLIND | BLINK | WOUND | CONF | DARKNESS | HEAL
@@ -17768,7 +17769,7 @@ blow:HIT:FIRE:4d6
 blow:HIT:FIRE:4d6
 flags:UNIQUE | NAME_COMMA | POWERFUL
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
-flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD
+flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD | RES_PLASMA
 flags:FORCE_SLEEP
 drop-base:chest:10:1:1
 spell-freq:4
@@ -17873,7 +17874,7 @@ blow:HIT:HURT:6d6
 blow:HIT:SHATTER:10d10
 flags:UNIQUE | MALE | NAME_COMMA | COLD_BLOOD | POWERFUL
 flags:PASS_WALL | KILL_BODY | KILL_ITEM
-flags:HURT_ROCK | IM_COLD | IM_ELEC | IM_FIRE
+flags:HURT_ROCK | IM_COLD | IM_ELEC | IM_FIRE | RES_PLASMA
 flags:FORCE_SLEEP
 drop-base:chest:10:1:1
 spell-freq:6
@@ -18159,7 +18160,7 @@ blow:CLAW:HURT:3d10
 blow:BITE:FIRE:6d10
 blow:BITE:FIRE:6d10
 flags:OPEN_DOOR | BASH_DOOR
-flags:IM_FIRE | IM_POIS | RES_LIGHT
+flags:IM_FIRE | IM_POIS | RES_LIGHT | RES_PLASMA
 flags:NO_STUN
 flags:FORCE_SLEEP
 spell-freq:5
@@ -18273,14 +18274,14 @@ desc:A huge draconic form. Its scales are shimmering purple.
 
 ### Dungeon level 45 ###
 
+# TODO: remove 'the'
 name:The Stormbringer
 base:hybrid
 glyph:|
 color:v
 light:1
-speed:121
-# was hit-points:1500 before KO nerf
-hit-points:2500
+speed:130
+hit-points:1500
 hearing:0
 #armor-class:99
 armor-class:150
@@ -18302,7 +18303,7 @@ flags:BASH_DOOR
 flags:ATTR_MULTI
 flags:FORCE_SLEEP
 flags:NO_FEAR | NO_CONF | NO_SLEEP | NO_STUN | NO_CUT
-flags:IM_POIS | IM_COLD | IM_FIRE | IM_DISEN | RES_LIGHT
+flags:IM_POIS | IM_COLD | IM_FIRE | IM_ELEC | IM_ACID | IM_DISEN | RES_LIGHT
 flags:IM_NETHER
 flags:FORCE_DEPTH
 drop:food:Slime Mold:100:2:3
@@ -18986,7 +18987,7 @@ blow:SPORE:DISENCHANT:7d7
 blow:SPORE:EXP_80:5d5
 flags:EVIL
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE
-flags:FORCE_SLEEP | ATTR_FLICKER
+flags:FORCE_SLEEP | ATTR_FLICKER | RES_WATER
 flags-off:HURT_FIRE
 desc:It is the epitome of all that is evil, in a mold. Its lifeless form draws
 desc: power from sucking the souls of those that approach it, a nimbus of pure
@@ -19282,7 +19283,7 @@ blow:HIT:HURT:3d8
 flags:UNIQUE | MALE | NAME_COMMA | EVIL | SMART | METAL
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:HURT_LIGHT | IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_MANA
 #drop:food:Lembas:50:1:1
 spell-freq:2
 spells:BLIND | BLINK | WOUND | CONF | DARKNESS | HEAL
@@ -20394,7 +20395,7 @@ blow:HIT:HURT:6d8
 flags:EVIL | MALE | PWMANG_BASE | SMART
 flags:ONLY_ITEM | DROP_4
 flags:OPEN_DOOR | TAKE_ITEM
-flags:NO_CONF | NO_SLEEP | NO_HOLD
+flags:NO_CONF | NO_SLEEP | NO_HOLD | RES_MANA
 flags:FORCE_SLEEP
 spell-freq:2
 spells:BLIND | BLINK | WOUND | CONF | TELE_TO | TRAPS
@@ -21179,7 +21180,7 @@ blow:HIT:HURT:6d6
 blow:HIT:SHATTER:10d10
 flags:MALE | PASS_WALL
 flags:DROP_3
-flags:IM_ELEC
+flags:IM_ELEC | RES_MANA
 spell-freq:5
 innate-freq:50
 spells:BOULDER
@@ -21244,6 +21245,7 @@ spells:BR_FIRE | BR_GRAV | BR_INER | BR_LIGHT | BR_NETH | BR_NEXU
 spells:BR_PLAS | BR_POIS | BR_SHAR | BR_SOUN | BR_TIME | BR_WALL
 desc:An awesome vortex of pure magic, power radiates from its frame.
 
+# should be harder to kill for mages.. but sorc can use eg light or plasma
 name:Saruman of Many Colours
 base:ainu
 color:v
@@ -21263,7 +21265,8 @@ blow:HIT:HURT:5d5
 blow:HIT:HURT:5d5
 flags:UNIQUE | MALE | EVIL | METAL
 flags:DROP_4 | DROP_GOOD | DROP_GREAT
-flags:IM_ELEC
+flags:IM_FIRE | IM_COLD |  IM_ELEC | IM_ACID | IM_POIS
+flags:IM_WATER | RES_MANA
 flags:ATTR_MULTI
 drop:food:Pipe-weed:100:3:4
 spell-freq:2
@@ -21472,7 +21475,7 @@ blow:HIT:FIRE:6d9
 blow:HIT:FIRE:6d9
 flags:LEVITATE | POWERFUL
 flags:RAND_25 | BASH_DOOR | KILL_BODY | KILL_ITEM
-flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD
+flags:IM_ACID | IM_ELEC | IM_FIRE | HURT_COLD | RES_PLASMA
 flags:FORCE_SLEEP
 flags:WILD_VOLCANO | WILD_DESERT
 spell-freq:5
@@ -21530,7 +21533,7 @@ flags:REGENERATE | UNIQUE | MALE | PWMANG_BASE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:KILL_WALL | KILL_BODY
 flags:IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD | IM_ELEC | IM_COLD | IM_FIRE
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_WATER | RES_MANA
 desc:Ulik is the strongest troll who has ever lived. He could challenge the
 desc: immortals and pound them to dust with his great strength.
 
@@ -21691,7 +21694,7 @@ blow:BITE:FIRE:7d14
 flags:UNIQUE | MALE | METAL
 flags:DROP_1 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
-flags:IM_FIRE
+flags:IM_FIRE | RES_MANA | RES_PLASMA
 spell-freq:4
 innate-freq:33
 spells:WOUND | CONF
@@ -22318,7 +22321,7 @@ blow:BITE:HURT:6d14
 flags:ATTR_FLICKER
 flags:ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR
-flags:IM_FIRE
+flags:IM_FIRE | RES_PLASMA
 flags:DROP_CORPSE
 spell-freq:4
 spell-power:67
@@ -22599,7 +22602,7 @@ blow:HIT:CONFUSE:12d12
 blow:HIT:CONFUSE:12d12
 flags:UNIQUE | MALE | NAME_COMMA | SMART | ATTR_FLICKER | LEVITATE
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
-flags:TAKE_ITEM | IM_FIRE
+flags:TAKE_ITEM | IM_FIRE | RES_MANA
 flags:FORCE_SLEEP
 spell-freq:4
 innate-freq:25
@@ -22927,7 +22930,7 @@ blow:HYPNOTIZE:SEDUCE:8d10
 blow:ENGULF:CONFUSE:8d10
 flags:MALE
 flags:DROP_4
-flags:IM_ACID | IM_ELEC | IM_WATER
+flags:IM_ACID | IM_ELEC | IM_WATER | RES_PLASMA
 spell-freq:3
 spells:STORM | BA_ELEC
 spells:S_AINU
@@ -22957,7 +22960,7 @@ blow:ENGULF:ACID:6d10
 blow:ENGULF:ACID:6d10
 flags:FEMALE
 flags:DROP_4
-flags:IM_ACID | IM_ELEC
+flags:IM_ACID | IM_ELEC | RES_MANA
 spell-freq:3
 spells:BA_LIGHT
 spells:BO_MANA
@@ -23763,7 +23766,7 @@ blow:BITE:FIRE:8d14
 flags:UNIQUE | MALE | NAME_COMMA | PWMANG_FIXED
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
-flags:IM_FIRE | IM_POIS
+flags:IM_FIRE | IM_POIS | RES_PLASMA
 flags:NO_STUN
 flags:FORCE_DEPTH
 drop:food:Cram Bread:100:1:2
@@ -23853,7 +23856,7 @@ blow:HIT:SHATTER:13d13
 blow:HIT:CONFUSE:13d13
 flags:UNIQUE | MALE | NAME_COMMA
 flags:DROP_4 | DROP_GOOD
-flags:IM_ACID | IM_ELEC
+flags:IM_ACID | IM_ELEC | RES_MANA
 spell-freq:4
 innate-freq:33
 spells:BLINK | BOULDER | TELE_TO
@@ -23916,7 +23919,7 @@ flags:UNIQUE | SMART | GOOD | METAL
 flags:REGENERATE | ANIMAL
 flags:NO_CONF | NO_SLEEP | NO_FEAR
 flags:IM_FIRE | IM_COLD | IM_ELEC | IM_ACID | IM_POIS
-flags:NO_STUN | IM_PLASMA | IM_DISEN | RES_LIGHT
+flags:NO_STUN | IM_PLASMA | IM_DISEN | RES_LIGHT | RES_MANA
 drop-base:rod:50:1:2
 spell-freq:4
 innate-freq:15
@@ -23982,7 +23985,7 @@ blow:BITE:LOSE_CON:5d10
 flags:POWERFUL | REGENERATE | LEVITATE
 flags:DROP_4
 flags:MOVE_BODY
-flags:IM_FIRE | IM_POIS
+flags:IM_FIRE | IM_POIS | RES_PLASMA
 spell-freq:5
 innate-freq:38
 spells:WOUND | SCARE
@@ -24013,7 +24016,7 @@ experience:17000
 blow:CRUSH:HURT:15d10
 blow:CRUSH:CONFUSE:15d10
 flags:ATTR_MULTI | RAND_25
-flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL
+flags:DROP_CORPSE | DROP_SKELETON | WILD_ALL | RES_MANA | RES_WATER
 spell-freq:6
 innate-freq:33
 spells:BLINK | TELE_TO
@@ -24042,7 +24045,7 @@ blow:BITE:FIRE:5d12
 blow:BITE:FIRE:5d12
 flags:EVIL
 flags:RAND_25 | BASH_DOOR | MOVE_BODY
-flags:IM_FIRE | GROUP_AI
+flags:IM_FIRE | GROUP_AI | RES_PLASMA
 flags:FORCE_SLEEP
 flags:DROP_CORPSE
 spell-freq:5
@@ -24539,7 +24542,7 @@ blow:BITE:HURT:10d14
 flags:UNIQUE | MALE
 flags:DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:BASH_DOOR
-flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS
+flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | RES_PLASMA
 spell-freq:3
 innate-freq:71
 spells:BR_ACID | BR_COLD | BR_ELEC | BR_FIRE | BR_POIS
@@ -24607,7 +24610,7 @@ flags:UNIQUE | POWERFUL
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:IM_COLD | IM_FIRE | IM_DISEN | NO_CONF | NO_SLEEP | NO_HOLD
-flags:ATTR_MULTI | FORCE_SLEEP
+flags:ATTR_MULTI | FORCE_SLEEP | RES_WATER | RES_MANA
 flags-off:HURT_COLD
 spell-freq:2
 innate-freq:100
@@ -24637,7 +24640,7 @@ flags:UNIQUE | MALE | SMART
 flags:DROP_4 | DROP_GOOD | ONLY_ITEM
 flags:MOVE_BODY | TAKE_ITEM
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_STUN | NO_CUT
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_PLASMA
 flags:SWIM_NORM
 spell-freq:3
 spell-power:87
@@ -24674,7 +24677,7 @@ blow:HIT:CONFUSE:12d12
 flags:UNIQUE | FEMALE | NAME_COMMA
 flags:DROP_4 | DROP_GOOD
 flags:MOVE_BODY
-flags:IM_ACID | IM_ELEC | NO_CUT
+flags:IM_ACID | IM_ELEC | NO_CUT | RES_MANA
 spell-freq:5
 innate-freq:29
 innate-freq:30
@@ -24712,7 +24715,7 @@ flags:UNIQUE | MALE | NAME_COMMA | EVIL | METAL
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:KILL_WALL | MOVE_BODY
 flags:IM_COLD | IM_FIRE | IM_POIS | NO_CONF | NO_SLEEP | NO_HOLD
-flags:FORCE_SLEEP
+flags:FORCE_SLEEP | RES_MANA
 flags:FORCE_DEPTH | PWMANG_FIXED
 drop:food:Elvish water:100:6:9
 spell-freq:5
@@ -24902,7 +24905,7 @@ blow:CRUSH:HURT:9d14
 flags:ATTR_FLICKER
 flags:ONLY_ITEM | DROP_CORPSE
 flags:OPEN_DOOR | BASH_DOOR
-flags:IM_FIRE
+flags:IM_FIRE | RES_PLASMA
 spell-freq:3
 spell-power:89
 innate-freq:17
@@ -25608,11 +25611,12 @@ blow:HIT:DISENCHANT:10d12
 blow:HIT:DRAIN_CHARGES:8d12
 blow:HIT:DRAIN_CHARGES:8d12
 flags:UNIQUE | QUESTOR | MALE | NAME_COMMA | EVIL | REGENERATE | METAL
-flags:DROP_4 | DROP_GOOD | DROP_GREAT
+flags:DROP_4 | DROP_GOOD | DROP_GREAT | RES_MANA
 flags:MOVE_BODY
 flags:IM_ELEC | NO_FEAR
 flags:FORCE_DEPTH
 drop:potion:Healing:100:20:40
+drop:potion:Restore Mana:100:15:20
 spell-freq:2
 spell-power:130
 spells:BRAIN_SMASH | WOUND | TELE_LEVEL | TPORT
@@ -25649,7 +25653,7 @@ flags:UNIQUE | MALE | EVIL | REGENERATE
 flags:FORCE_SLEEP | FORCE_DEPTH
 flags:SMART | OPEN_DOOR | BASH_DOOR | MOVE_BODY
 flags:IM_POIS | IM_ELEC | IM_FIRE | IM_COLD | IM_NETHER
-flags:NO_CONF | NO_SLEEP | NO_FEAR
+flags:NO_CONF | NO_SLEEP | NO_FEAR | RES_PLASMA
 spell-freq:3
 innate-freq:13
 spell-power:105
@@ -25676,7 +25680,7 @@ flags:UNIQUE | MALE | EVIL
 flags:FORCE_SLEEP | FORCE_DEPTH
 flags:SMART | OPEN_DOOR | MOVE_BODY | REGENERATE
 flags:IM_POIS | IM_ACID | IM_ELEC | IM_COLD
-flags:NO_CONF | NO_SLEEP | NO_FEAR
+flags:NO_CONF | NO_SLEEP | NO_FEAR | IM_WATER
 spell-freq:4
 innate-freq:19
 spell-power:108
@@ -25738,8 +25742,9 @@ flags:SMASH_WALL | MOVE_BODY | ATTR_FLICKER | METAL
 flags:IM_ACID | IM_COLD | IM_ELEC | IM_FIRE | IM_POIS | NO_FEAR
 flags:NO_CONF | NO_SLEEP | NO_HOLD
 flags:FORCE_DEPTH | FORCE_SLEEP
-flags:IM_NETHER | NO_STUN | IM_PLASMA | IM_DISEN
+flags:IM_NETHER | NO_STUN | IM_PLASMA | IM_DISEN | RES_MANA
 drop:potion:*Healing*:100:10:20
+drop:potion:*Restore Mana*:100:7:10
 spell-freq:3
 spells:BRAIN_SMASH
 spells:BA_MANA | BA_NETH
@@ -25906,7 +25911,7 @@ name:valkyrie
 base:ainu
 color:D
 speed:140
-hit-points:6000
+hit-points:3000
 hearing:60
 armor-class:140
 sleepiness:10
@@ -26040,6 +26045,8 @@ flags:PWMANG_BASE | PWMANG_FIXED
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:IM_FIRE | IM_ACID | IM_ELEC
 flags:FORCE_DEPTH | ATTR_MULTI
+drop:potion:*Healing*:100:10:20
+drop:potion:*Restore Mana*:100:7:10
 spell-freq:2
 innate-freq:8
 spells:BA_MANA | BA_NETH
@@ -26192,7 +26199,7 @@ locations:Valinor
 name:Varda, Queen of the Valar
 base:ainu
 color:G
-speed:140
+speed:139
 hit-points:30000
 light:2
 hearing:155
@@ -26207,19 +26214,20 @@ blow:HIT:EXP_80:20d10
 blow:HIT:LOSE_ALL:10d12
 blow:TOUCH:FORGET:12d9
 flags:EVIL | UNIQUE | FEMALE | NAME_COMMA | INVISIBLE
-flags:WEIRD_MIND | REGENERATE
+flags:REGENERATE
 flags:PWMANG_EXTRA | PWMANG_FIXED
 flags:DROP_4 | DROP_GOOD | DROP_GREAT
 flags:KILL_WALL | KILL_BODY
 flags:IM_ACID | IM_ELEC | IM_NETHER
 flags:NO_FEAR
 flags:FORCE_DEPTH
+drop:potion:*Restore Mana*:100:7:10
 spell-freq:2
 spells:BLIND | WOUND | FORGET | HASTE | HEAL | MIND_BLAST
 spells:TELE_TO | TPORT | TRAPS
 spells:BA_FIRE | BA_MANA | BA_NETH | BA_WATE
 spells:BO_ICE | BO_MANA | BO_PLAS
-spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_MONSTERS
+spells:S_HI_DRAGON | S_UNIQUE
 desc:Wife of Manwe, Varda is the most beautiful of all the Valar...
 desc: She is also known as Elbereth - "Queen of the Stars".
 locations:Valinor|Angmar|The Thangorodrim|The Underdeep
@@ -26242,20 +26250,21 @@ blow:HIT:EXP_80:20d17
 blow:HIT:LOSE_ALL:10d12
 blow:TOUCH:FORGET:12d9
 flags:EVIL | SMART | UNIQUE | MALE | NAME_COMMA | INVISIBLE | POWERFUL | SPIRIT | NEUTRAL
-flags:WEIRD_MIND | REGENERATE
+flags:REGENERATE
 flags:PWMANG_EXTRA | PWMANG_FIXED
 flags:DROP_4 | DROP_GOOD | DROP_GREAT | ONLY_ITEM
 flags:KILL_WALL | KILL_BODY | KILL_ITEM
 flags:IM_WATER | IM_PLASMA | IM_NEXUS | NO_CONF | NO_SLEEP | NO_FEAR | NO_STUN
 flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS | IM_NETHER | NO_HOLD
 flags:FORCE_DEPTH
+drop:potion:*Healing*:100:10:20
 spell-freq:2
 spells:BLIND | BRAIN_SMASH | WOUND | CONF | FORGET | HASTE | HEAL
 spells:HOLD | SLOW | TELE_TO | TPORT
 spells:BA_DARK | BA_MANA | BA_NETH | BA_WATE
 spells:BO_ICE | BO_MANA | BO_PLAS
 spells:ANIM_DEAD
-spells:S_HI_DEMON | S_HI_DRAGON | S_HI_UNDEAD | S_UNIQUE | S_ABOMINATION
+spells:S_MONSTERS | S_ABOMINATION
 desc:Husband of Varda, brother of Melkor and the leader of the Ainur.
 desc: He was also known as Sulimo, commander of winds and air.
 desc: He is the one who will crush you to The Void!
@@ -26490,7 +26499,7 @@ blow:CLAW:FIRE:8d8
 blow:HIT:FIRE:8d8
 blow:CLAW:FIRE:8d8
 flags:PWMANG_EXTRA
-flags:IM_FIRE
+flags:IM_FIRE | RES_PLASMA
 flags:FORCE_DEPTH
 spell-freq:3
 innate-freq:33
@@ -27067,6 +27076,8 @@ flags:KILL_WALL | MOVE_BODY | ATTR_FLICKER
 flags:IM_ACID | IM_ELEC | NO_FEAR
 flags:IM_NETHER | IM_PLASMA | IM_DISEN
 flags:FORCE_DEPTH
+drop:potion:*Healing*:100:10:20
+drop:potion:*Restore Mana*:100:7:10
 drop:fortune cookie:Fortune Cookie:100:1:1
 spell-freq:4
 innate-freq:11
@@ -32584,7 +32595,7 @@ flags:HURT_LIGHT | IM_ACID | HURT_COLD | NO_CONF | NO_SLEEP
 desc:A small pulsing green ooze.
 
 name:Target Dummy
-base:golem
+base:hybrid
 color:y
 speed:110
 hit-points:1
@@ -32595,10 +32606,10 @@ depth:0
 rarity:1
 weight:0
 experience:0
-flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH
+flags:UNIQUE | NEVER_BLOW | NEVER_MOVE | NO_DEATH | METAL
 flags:PWMANG_EXTRA | PWMANG_FIXED
 #flags:IM_FIRE | IM_ELEC | IM_POIS | UNDEAD | HURT_ROCK | IM_LIGHT | HURT_LIGHT
-desc:An indestructible golem used for target practice.
+desc:An indestructible dummy used for target practice.
 locations:Farfest|The Deeptown
 
 #######
@@ -32643,5 +32654,29 @@ flags:DROP_2 | DROP_GOOD | ONLY_ITEM
 #drop:ring:Black Ring of Power:100:1:1
 #drop:sword:'Stormbringer':100:1:1
 desc:A golem used for testing purposes.
+
+# grand swordsmaster
+name:bodyguard
+base:person
+color:Z
+speed:130
+hit-points:1000
+light:1
+hearing:40
+armor-class:120
+sleepiness:5
+depth:60
+rarity:0
+weight:0
+experience:0
+blow:HIT:HURT:10d8
+blow:HIT:HURT:10d8
+blow:HIT:DISARM:10d8
+blow:HIT:DISARM:10d8
+flags:METAL
+flags:OPEN_DOOR
+flags:IM_ACID | IM_FIRE | IM_COLD | IM_ELEC | IM_POIS | NO_CONF | NO_SLEEP
+desc:A warrior tempered by many battles, carrying the quiet pride of those
+desc: who live only by the sword.
 
 # # leave empty line for EOF

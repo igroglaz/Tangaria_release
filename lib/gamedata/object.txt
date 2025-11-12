@@ -170,6 +170,7 @@
 ############ dice:1 - works
 ############ (while in code it might need to have min 2 if action processed after turn)
 
+# it seems safe to add items there without server wipe (but must be in the end)
 
 ##### Non-kind (things treated like objects) #####
 
@@ -3544,7 +3545,7 @@ effect:CURE:POISONED
 effect:CURE:CONFUSED
 effect:CURE:BLIND
 effect:HEAL_HP_ONCE
-dice:300+m35
+dice:300
 effect:TIMED_INC:OPP_CONF
 dice:1
 effect:TIMED_INC:OPP_AMNESIA
@@ -9856,17 +9857,17 @@ desc: When held, it seems to tune your senses to the minds of nearby animals -
 desc: you start catching faint traces of their thoughts: hunger, fear, curiosity...
 desc: Though made for music, it's solid enough to whack something in a pinch.
 
-
 # admin cookie for testing
-#name:& Testing~
-#graphics:,:d
-#type:fortune cookie
-#level:0
-#weight:1
-#cost:0
-#effect:GAIN_EXP
-#dice:500000
+name:& Testing~
+graphics:,:d
+type:fortune cookie
+level:0
+weight:1
+cost:0
+effect:GAIN_EXP
+dice:500000
 #effect:RESTORE_EXP
+#effect:LOSE_EXP
 #self-inducing dmg doesn't work; for such test - check test dummy
 #effect:FORGET_LEVEL:NONE:1
 #effect:SPOT:DARK:1
