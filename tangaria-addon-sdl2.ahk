@@ -1,5 +1,7 @@
 ﻿;// SDL2 Tangaria addon
 ;//
+;// Force English keyboard layout on start
+PostMessage, 0x50, 0, 0x04090409,, A
 ;//numlock off
 SetNumLockState, AlwaysOff
 ;//capslock off
