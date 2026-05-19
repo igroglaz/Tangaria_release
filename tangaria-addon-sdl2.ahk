@@ -2,6 +2,16 @@
 ;//
 ;// Force English keyboard layout on start
 PostMessage, 0x50, 0, 0x04090409,, A
+
+;// (try again cause 1st way faulty sometimes)
+Sleep, 200
+WinGet, activeHwnd, ID, A
+langID := DllCall("GetKeyboardLayout", "UInt", DllCall("GetWindowThreadProcessId", "Ptr", activeHwnd, "Ptr", 0))
+langID := langID & 0xFFFF
+If (langID != 0x0409) {
+    Send {LWin down}{Space}{LWin up}
+}
+
 ;//numlock off
 SetNumLockState, AlwaysOff
 ;//capslock off
